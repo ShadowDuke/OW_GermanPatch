@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (x64) (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType/>
+		<zName/>
+		<iThreshold/>
+	</Entry>
+	<Entry>
+		<zType>WARSTATE_ROUTED</zType>
+		<zName>Besiegt</zName>
+		<iThreshold>-20</iThreshold>
+	</Entry>
+	<Entry>
+		<zType>WARSTATE_LOSING</zType>
+		<zName>Verlierend</zName>
+		<iThreshold>-1</iThreshold>
+	</Entry>
+	<Entry>
+		<zType>WARSTATE_NEUTRAL</zType>
+		<zName>Neutral</zName>
+		<iThreshold>0</iThreshold>
+	</Entry>
+	<Entry>
+		<zType>WARSTATE_WINNING</zType>
+		<zName>Gewinnend</zName>
+		<iThreshold>20</iThreshold>
+	</Entry>
+	<Entry>
+		<zType>WARSTATE_TRIUMPHANT</zType>
+		<zName>Siegreich</zName>
+	</Entry>
+</Root>

@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 (x64) (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType/>
+		<zName/>
+		<Difficulty/>
+		<Development/>
+		<OpponentLevel/>
+		<BarbarianLevel/>
+	</Entry>
+	<Entry>
+		<zType>DIFFICULTYMODE_ABLE</zType>
+		<zName>Der Tüchtige</zName>
+		<Difficulty>DIFFICULTY_ABLE</Difficulty>
+		<Development>DEVELOPMENT_FLEDGLING</Development>
+		<OpponentLevel>OPPONENTLEVEL_PEACEFUL</OpponentLevel>
+		<BarbarianLevel>BARBARIANLEVEL_PASSIVE</BarbarianLevel>
+	</Entry>
+	<Entry>
+		<zType>DIFFICULTYMODE_JUST</zType>
+		<zName>Der Gerechte</zName>
+		<Difficulty>DIFFICULTY_JUST</Difficulty>
+		<Development>DEVELOPMENT_FLEDGLING</Development>
+		<OpponentLevel>OPPONENTLEVEL_PEACEFUL</OpponentLevel>
+		<BarbarianLevel>BARBARIANLEVEL_WEAK</BarbarianLevel>
+	</Entry>
+	<Entry>
+		<zType>DIFFICULTYMODE_GOOD</zType>
+		<zName>Der Zuverlässige</zName>
+		<Difficulty>DIFFICULTY_GOOD</Difficulty>
+		<Development>DEVELOPMENT_ESTABLISHED</Development>
+		<OpponentLevel>OPPONENTLEVEL_NORMAL</OpponentLevel>
+		<BarbarianLevel>BARBARIANLEVEL_WEAK</BarbarianLevel>
+	</Entry>
+	<Entry>
+		<zType>DIFFICULTYMODE_STRONG</zType>
+		<zName>Der Kräftige</zName>
+		<Difficulty>DIFFICULTY_STRONG</Difficulty>
+		<Development>DEVELOPMENT_ESTABLISHED</Development>
+		<OpponentLevel>OPPONENTLEVEL_NORMAL</OpponentLevel>
+		<BarbarianLevel>BARBARIANLEVEL_NORMAL</BarbarianLevel>
+	</Entry>
+	<Entry>
+		<zType>DIFFICULTYMODE_NOBLE</zType>
+		<zName>Der Großmütige</zName>
+		<Difficulty>DIFFICULTY_NOBLE</Difficulty>
+		<Development>DEVELOPMENT_ADVANCED</Development>
+		<OpponentLevel>OPPONENTLEVEL_NORMAL</OpponentLevel>
+		<BarbarianLevel>BARBARIANLEVEL_NORMAL</BarbarianLevel>
+	</Entry>
+	<Entry>
+		<zType>DIFFICULTYMODE_GLORIOUS</zType>
+		<zName>Der Glorreiche</zName>
+		<Difficulty>DIFFICULTY_GLORIOUS</Difficulty>
+		<Development>DEVELOPMENT_ADVANCED</Development>
+		<OpponentLevel>OPPONENTLEVEL_AGGRESSIVE</OpponentLevel>
+		<BarbarianLevel>BARBARIANLEVEL_STRONG</BarbarianLevel>
+	</Entry>
+	<Entry>
+		<zType>DIFFICULTYMODE_MAGNIFICENT</zType>
+		<zName>Der Prachtvolle</zName>
+		<Difficulty>DIFFICULTY_MAGNIFICENT</Difficulty>
+		<Development>DEVELOPMENT_MASSIVE</Development>
+		<OpponentLevel>OPPONENTLEVEL_AGGRESSIVE</OpponentLevel>
+		<BarbarianLevel>BARBARIANLEVEL_STRONG</BarbarianLevel>
+	</Entry>
+	<Entry>
+		<zType>DIFFICULTYMODE_GREAT</zType>
+		<zName>Der Große</zName>
+		<Difficulty>DIFFICULTY_GREAT</Difficulty>
+		<Development>DEVELOPMENT_MASSIVE</Development>
+		<OpponentLevel>OPPONENTLEVEL_AGGRESSIVE</OpponentLevel>
+		<BarbarianLevel>BARBARIANLEVEL_RAGING</BarbarianLevel>
+	</Entry>
+	<Entry>
+		<zType>DIFFICULTYMODE_CUSTOM</zType>
+		<zName>Custom</zName>
+	</Entry>
+</Root>

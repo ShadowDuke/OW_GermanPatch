@@ -1,0 +1,530 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2018 (x64) (http://www.altova.com) by Joel Bowers (Mohawk Games) -->
+<Root>
+	<Entry>
+		<zType/>
+		<zText comment="Player-facing string describing the memory."/>
+		<MemoryLevel/>
+		<iValue comment="Effect of this memory on family opinion."/>
+		<iTurns comment="Number of turns this memory lasts."/>
+		<bName comment="Show the name for event options."/>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_BROKE_PEACE</zType>
+		<zText>Friedensabkommen gebrochen</zText>
+		<iValue>-20</iValue>
+		<iTurns>20</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_ADOPTED_RELIGION</zType>
+		<zText>Wir Übernahmen eine Staatsreligion</zText>
+		<iTurns>5</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_STARTED_LAW</zType>
+		<zText>Wir haben ein Gesetz geändert</zText>
+		<iTurns>5</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_DIVORCE</zType>
+		<zText>Scheidung</zText>
+		<iValue>-100</iValue>
+		<iTurns>20</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_REMOVED_LUXURY</zType>
+		<zText>Luxusgut entfernt</zText>
+		<iValue>-50</iValue>
+		<iTurns>5</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_TRADE_ROUTE</zType>
+		<zText>Neue Handelsroute</zText>
+		<iValue>10</iValue>
+		<iTurns>20</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_TRUCE</zType>
+		<zText>Spieler Waffenruhe</zText>
+		<iTurns>5</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PEACE</zType>
+		<zText>Spieler Frieden</zText>
+		<iTurns>5</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_WAR</zType>
+		<zText>Spieler Krieg</zText>
+		<iTurns>5</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_OFFER</zType>
+		<zText>Spieler Angebot</zText>
+		<iTurns>5</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_OFFER_ALL</zType>
+		<zText>Spieler Angebot (Alle)</zText>
+		<iTurns>2</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_ATTACKED_UNIT</zType>
+		<zText>Unsere Einheit(en) angegriffen</zText>
+		<iValue>-10</iValue>
+		<iTurns>5</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_ATTACKED_CITY</zType>
+		<zText>Unsere Stadt(e) angegriffen</zText>
+		<iValue>-20</iValue>
+		<iTurns>10</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_CAPTURED_CITY</zType>
+		<zText>Unsere Stadt(e) eingenommen</zText>
+		<iValue>-40</iValue>
+		<iTurns>20</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_ATTACKED_ENEMY</zType>
+		<zText>Unseren Gegner angegriffen</zText>
+		<iValue>2</iValue>
+		<iTurns>20</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_GAVE_FAVOR</zType>
+		<zText>Gunst erhalten</zText>
+		<iValue>20</iValue>
+		<bName>1</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_HELPED_US</zType>
+		<zText>Hat uns geholfen</zText>
+		<iValue>40</iValue>
+		<iTurns>40</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_CANCELLED_TRADE</zType>
+		<zText>Handel abgebrochen</zText>
+		<iValue>-40</iValue>
+		<iTurns>20</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_DECLARED_WAR</zType>
+		<zText>Erklärt uns den Krieg</zText>
+		<iValue>-80</iValue>
+		<iTurns>40</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_NO_WAR</zType>
+		<zText>Vom Abgrund einen Schritt zurückzutreten</zText>
+		<iValue>40</iValue>
+		<iTurns>30</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PEACEMAKER_BAD</zType>
+		<zText>Gegen unsere Siedlungen geraten</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PEACEMAKER_GOOD</zType>
+		<zText>Störende Siedlungen entfernt</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_CONTACT_GIFT</zType>
+		<zText>Dein Anfangsgeschenk</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_NEIGHBORS_ROME_PRIDE</zType>
+		<zText>Du hast uns versetzt!</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_NEIGHBORS_HUMBLE</zType>
+		<zText>Beeindruckte uns mit seiner Menschlichkeit</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_NEIGHBORS_FRIENDLY</zType>
+		<zText>Dein Volk scheint friedlich</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_NEIGHBORS_PRIDEFUL</zType>
+		<zText>Du sprachst kühn zu uns als wir uns trafen</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_LONG</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_MADE_CONTACT</zType>
+		<zText>Kontakt mit deinem Volk hergestellt</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_EVENTOPTION_TRADE_MISSION_YES_FAIL</zType>
+		<zText>Gib uns ein Geschnek um unsere Beziehungen zu verbessern</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_JUSTICE</zType>
+		<zText>Du teilst Gerechtigkeit auf unser Ersuchen aus</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_DELAY</zType>
+		<zText>Aufgeschobene Gerechtigkeit ist verweigerte Gerechtigkeit</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_DELAY_WEAK</zType>
+		<zText>Our aggrieved citizens did not receive justice</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_DELAY_INJUSTICE</zType>
+		<zText>Your leader's claim to represent justice is a farce!</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_UPSET_JUSTICE</zType>
+		<zText>Allowed us to dispense justice in our way</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_PLEASED_SOLVED</zType>
+		<zText>You solved our grievances</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_PLEASED_IGNORED</zType>
+		<zText>You ignored our grievances</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_ACCUSED_OF_PLOTTING</zType>
+		<zText>Accused of plotting</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="Character">
+		<zType>MEMORYPLAYER_HONORED_RULER</zType>
+		<zText>Honored dead ruler</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_SUPPORTED_WAR</zType>
+		<zText>Supported our war</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_REFUSED_TO_FIRE_COURTIER</zType>
+		<zText>Refused to fire insider on court</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_IMPRESSED_BY_HEIR</zType>
+		<zText>Impressed by young student</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_ESCORTED_RULER</zType>
+		<zText>Provided escort for ruler</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_RETURNED_HEIR</zType>
+		<zText>Returned heir after incident</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="Diplomacy">
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_GIFT</zType>
+		<zText>You sent us a small gift</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_TRADE</zType>
+		<zText>We are interested in your suggestion of a research treaty</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PAID_TRIBUTE</zType>
+		<zText>You paid us Tribute</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_REFUSED_TO_PAY_TRIBUTE</zType>
+		<zText>You refused to pay us Tribute</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_RESEARCH</zType>
+		<zText>Our research deal ensures your security for now</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_WAR</zType>
+		<zText>Your feeble offer triggered our thirst for conflict</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_PLEASED_CONSTRUCTION</zType>
+		<zText>Your builder expertise helped us improve our food production</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_PLEASED_TECHNOLOGY</zType>
+		<zText>Your technological expertise helped us improve our food production</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_CAUTIOUS</zType>
+		<zText>We are preparing to attack you</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_CAUTIOUS_LEADER4_THREATEN</zType>
+		<zText>Your threats have been persuasive</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_CAUTIOUS_LEADER4_PREPARE</zType>
+		<zText>You seem to be preparing for War</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_CAUTIOUS_LEADER4_WAR</zType>
+		<zText>We knew you could not be trusted</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_ANGRY_SOLUTION</zType>
+		<zText>You solved one of the reasons that we were angry</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_ANGRY_DELAY</zType>
+		<zText>You tied us up in diplomatic knots</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_UPSET_PEACE</zType>
+		<zText>You redressed our primary grievance and signed a Peace treaty</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_UPSET_BUILDUP</zType>
+		<zText>Your military buildup is a provocation</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_MATERIALS</zType>
+		<zText>You gifted us materials that were in short supply</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_ZEALOT_ARCHETYPE_GRAND_MISSION</zType>
+		<zText>Your religious mission to our lands has pleased our people</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_ZEALOT_MINOR_MISSION</zType>
+		<zText>Your religious mission to our capital was unimpressive</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHEMER_ARCHETYPE_ANGRY</zType>
+		<zText>We suspect you of plotting mischief against us</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHEMER_ARCHETYPE_PLEASED</zType>
+		<zText>We are grateful to have a trustworthy friend like your Nation</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_EVENTOPTION_PLAYER_PEACE_END_OPINION</zType>
+		<zText>Begged us for a second chance at link(DIPLOMACY_PEACE)</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_EVENTOPTION_PLAYER_DIPLO_MARRIAGE_NO</zType>
+		<zText>Refused to marry into our royal succession</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_DENOUNCED_US</zType>
+		<zText>Denounce us publicly</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_GAVE_TECH</zType>
+		<zText>Gifted us with technology</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_REFUSED_TECH</zType>
+		<zText>Refused to share technology</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_COMPLIMENTED_GENERAL</zType>
+		<zText>Complimented our General</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_LONG</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_DENIED_OUR_GENERAL</zType>
+		<zText>Insulted our General</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_REFUSED_EXCAVATION</zType>
+		<zText>Refused excavation</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_COVERED_UP_PRISONER</zType>
+		<zText>Covered up disappearance</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_FREED_CAPTIVE</zType>
+		<zText>Freed our ambassador</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_FIXED_MISUNDERSTANDING</zType>
+		<zText>Fixed misunderstanding over prisoner</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_INTERVENED_IN_LOVE</zType>
+		<zText>Intervened in heir love affair</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="Miscellaneous">
+		<zType>MEMORYPLAYER_DELIVERED_ASSASSINS</zType>
+		<zText>Delivered assassins to us</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_ACCEPTED_EXCUSE</zType>
+		<zText>Accepted diplomatic solution</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_SENT_UNIT</zType>
+		<zText>Sent unit to other nation</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_FOREIGN_INTRUSION</zType>
+		<zText>Endured foreign intrusion</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_WARNED_AGAINST_MEDDLING</zType>
+		<zText>Warned us against meddling</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_HELPED_FREE_SLAVES</zType>
+		<zText>Helped free our Jewish slaves</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_HELD_CELEBRATION</zType>
+		<zText>Would not convert</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_FREED_PRISONER</zType>
+		<zText>Freed royal prisoner</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_SHARED_FAITH</zType>
+		<zText>Banned our gatherings</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_RETURNED_TRAITOR</zType>
+		<zText>Returned traitorous heir</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="Contact">
+		<zType>MEMORYPLAYER_HELPED_CARAVAN</zType>
+		<zText>Helped supply caravan</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_SACKED_CARAVAN</zType>
+		<zText>Sacked our caravan</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_DID_NOT_INTERFERE</zType>
+		<zText>Did not interfere with prisoner</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_FOUGHT_FOR_PRISONER</zType>
+		<zText>Freed political prisoner</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_MADE_FOOL_LABORER</zType>
+		<zText>Made our fool a laborer</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_ACCEPTED_FOOD</zType>
+		<zText>Accepted friendly gesture</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_REFUSED_FOOD</zType>
+		<zText>Refused our gracious offer</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_THREATENED</zType>
+		<zText>Accused us of poisoning</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_HOSTED_COUNSEL</zType>
+		<zText>Hosted our court counsel</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_REFUSED_COUNSEL</zType>
+		<zText>Refused our court counsel</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_DISCOURTEOUS_RULER</zType>
+		<zText>Treated discourteously in court</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_EXECUTED_OUR_AGENT</zType>
+		<zText>Executed our diplomatic agent</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="Exploration">
+		<zType>MEMORYPLAYER_GIFT_OF_GEMS</zType>
+		<zText>Gesammelte Edelsteine erhalten</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_GAVE_OLIVE_OIL</zType>
+		<zText>Geschenk (Olivenöl) erhalten</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="Combat">
+		<zType>MEMORYPLAYER_EXECUTED_GOVERNORS</zType>
+		<zText>Hat die Führung unserer eingenommenen Stadt hingerichtet</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry> 
+</Root>

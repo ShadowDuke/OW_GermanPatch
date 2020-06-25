@@ -1,0 +1,625 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 (x64) (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType/>
+		<zName/>
+		<HotkeyClass/>
+		<Keys/>
+		<bHold/>
+		<fRepeatDelay/>
+		<bIgnoreMouse/>
+		<IgnoreHotkeys/>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_MOVE_CAMERA_NORTH</zType>
+		<zName>Gen Norden</zName>
+		<HotkeyClass>HOTKEYCLASS_CAMERA</HotkeyClass>
+		<Keys>W,UpArrow</Keys>
+		<bHold>1</bHold>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_MOVE_CAMERA_WEST</zType>
+		<zName>Gen Westen</zName>
+		<HotkeyClass>HOTKEYCLASS_CAMERA</HotkeyClass>
+		<Keys>A,LeftArrow</Keys>
+		<bHold>1</bHold>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_MOVE_CAMERA_SOUTH</zType>
+		<zName>Gen Süden</zName>
+		<HotkeyClass>HOTKEYCLASS_CAMERA</HotkeyClass>
+		<Keys>S,DownArrow</Keys>
+		<bHold>1</bHold>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_MOVE_CAMERA_EAST</zType>
+		<zName>Gen Osten</zName>
+		<HotkeyClass>HOTKEYCLASS_CAMERA</HotkeyClass>
+		<Keys>D,RightArrow</Keys>
+		<bHold>1</bHold>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CAMERA_ZOOM_IN</zType>
+		<zName>Reinzoomen</zName>
+		<HotkeyClass>HOTKEYCLASS_CAMERA</HotkeyClass>
+		<Keys>PageDown</Keys>
+		<bHold>1</bHold>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CAMERA_ZOOM_OUT</zType>
+		<zName>Rauszoomen</zName>
+		<HotkeyClass>HOTKEYCLASS_CAMERA</HotkeyClass>
+		<Keys>PageUp</Keys>
+		<bHold>1</bHold>
+		<bIgnoreMouse>1</bIgnoreMouse>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_HIDE_VEGETATION</zType>
+		<zName>Verstecke Vegetation</zName>
+		<HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>
+		<Keys>Z</Keys>
+		<bHold>1</bHold>
+		<bIgnoreMouse>1</bIgnoreMouse>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_HIDE_IMPROVEMENTS</zType>
+		<zName>Verstecke Verbesserungen</zName>
+		<HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>
+		<Keys>LeftShift+Z,RightShift+Z</Keys>
+		<bHold>1</bHold>
+		<bIgnoreMouse>1</bIgnoreMouse>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_HIDE_UNITS</zType>
+		<zName>Verstecke Einheiten</zName>
+		<HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>
+		<Keys>LeftAlt+Z,RightAlt+Z</Keys>
+		<bHold>1</bHold>
+		<bIgnoreMouse>1</bIgnoreMouse>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_HIDE_ALL</zType>
+		<zName>Verstecke Alles</zName>
+		<HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>
+		<Keys>LeftShift+LeftAlt+Z,RightShift+RightAlt+Z</Keys>
+		<bHold>1</bHold>
+		<bIgnoreMouse>1</bIgnoreMouse>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_SHOW_ZOC</zType>
+		<zName>Zeige Kontrollzone (ZOC)</zName>
+		<HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>
+		<Keys>X</Keys>
+		<bHold>1</bHold>
+		<bIgnoreMouse>1</bIgnoreMouse>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_SHOW_DANGER_TILES</zType>
+		<zName>Zeige gefärliche Felder</zName>
+		<HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>
+		<Keys>C</Keys>
+		<bHold>1</bHold>
+		<bIgnoreMouse>1</bIgnoreMouse>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_SHOW_TRADE_NETWORK</zType>
+		<zName>Zeige Handelsnetz</zName>
+		<HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>
+		<Keys>V</Keys>
+		<bHold>1</bHold>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_SHOW_IDLE_UNITS</zType>
+		<zName>Zeige untätige Einheiten</zName>
+		<HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>
+		<Keys>B</Keys>
+		<bHold>1</bHold>
+		<bIgnoreMouse>1</bIgnoreMouse>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_SHOW_TILE_GOODS</zType>
+		<zName>Zeige Güter Felder</zName>
+		<HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>
+		<Keys>N</Keys>
+		<bHold>1</bHold>
+		<bIgnoreMouse>1</bIgnoreMouse>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_TOGGLE_HEX_GRID</zType>
+		<zName>Stelle Hex Gitter um</zName>
+		<HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>
+		<Keys>LeftShift+Slash,RightShift+Slash</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_HIDE_UI</zType>
+		<zName>Verstecke UI</zName>
+		<HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>
+		<Keys>LeftAlt+X,RightAlt+X</Keys>
+		<bHold>1</bHold>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_SPEND_TRAINING_FOR_ORDERS</zType>
+		<zName>Gebe Training für Befehle aus</zName>
+		<HotkeyClass>HOTKEYCLASS_GAMEPLAY</HotkeyClass>
+		<Keys>O</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_PAUSE</zType>
+		<zName>Pause</zName>
+		<HotkeyClass>HOTKEYCLASS_GAMEPLAY</HotkeyClass>
+		<Keys>Pause</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_INCREASE_TURN_STYLE</zType>
+		<zName>Erhöhe die Zug-art</zName>
+		<HotkeyClass>HOTKEYCLASS_GAMEPLAY</HotkeyClass>
+		<Keys>LeftShift+Equals,RightShift+Equals</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_DECREASE_TURN_STYLE</zType>
+		<zName>Verringere die Zug-art</zName>
+		<HotkeyClass>HOTKEYCLASS_GAMEPLAY</HotkeyClass>
+		<Keys>LeftShift+Minus,RightShift+Minus</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_INCREASE_TURN_TIMER</zType>
+		<zName>Erhöhe den Zug Timer</zName>
+		<HotkeyClass>HOTKEYCLASS_GAMEPLAY</HotkeyClass>
+		<Keys>Equals</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_DECREASE_TURN_TIMER</zType>
+		<zName>Verringere den Zug Timer</zName>
+		<HotkeyClass>HOTKEYCLASS_GAMEPLAY</HotkeyClass>
+		<Keys>Minus</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_MUTE</zType>
+		<zName>Stumm</zName>
+		<HotkeyClass>HOTKEYCLASS_GAMEPLAY</HotkeyClass>
+		<Keys>M</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CLEAR_SELECTION</zType>
+		<zName>Hebe Auswahl auf</zName>
+		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
+		<Keys>Escape</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CYCLE_IDLE_1</zType>
+		<zName>Wechsel untätig 1</zName>
+		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
+		<Keys>Alpha1</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CYCLE_PASS_IDLE_1</zType>
+		<zName>Wechsel/Passe untätig 1</zName>
+		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
+		<Keys>LeftShift+Alpha1,RightShift+Alpha1</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CYCLE_IDLE_2</zType>
+		<zName>Wechsel untätig 2</zName>
+		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
+		<Keys>Alpha2</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CYCLE_PASS_IDLE_2</zType>
+		<zName>Wechsel/Passe untätig 2</zName>
+		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
+		<Keys>LeftShift+Alpha2,RightShift+Alpha2</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CYCLE_IDLE_3</zType>
+		<zName>Wechsel untätig 3</zName>
+		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
+		<Keys>Alpha3</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CYCLE_PASS_IDLE_3</zType>
+		<zName>Wechsel/Passe untätig 3</zName>
+		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
+		<Keys>LeftShift+Alpha3,RightShift+Alpha3</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CYCLE_IDLE_4</zType>
+		<zName>Wechsel untätig 4</zName>
+		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
+		<Keys>Alpha4</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CYCLE_PASS_IDLE_4</zType>
+		<zName>Wechsel/Passe untätig 4</zName>
+		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
+		<Keys>LeftShift+Alpha4,RightShift+Alpha4</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CYCLE_IDLE_5</zType>
+        <zName>Cycle Idle 5</zName>
+        <HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
+        <Keys>Alpha5</Keys>
+	</Entry>
+	<Entry>
+	<zType>HOTKEY_CYCLE_PASS_IDLE_5</zType>
+        <zName>Wechsle/Passe Untätig 5</zName>
+        <HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
+        <Keys>LeftShift+Alpha5,RightShift+Alpha5</Keys>
+    </Entry>
+	<Entry>
+		<zType>HOTKEY_END_TURN</zType>
+		<zName>Beende das Jahr</zName>
+		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
+		<Keys>Alpha6</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_PREVIOUS_CITY</zType>
+		<zName>Vorherige Stadt</zName>
+		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
+		<Keys>Q</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_NEXT_CITY</zType>
+		<zName>Nächste Stadt</zName>
+		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
+		<Keys>E</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_PASS</zType>
+		<zName>Wechsel und passe für ausgewählte Einheit</zName>
+		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
+		<Keys>Space</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_SLEEP</zType>
+		<zName>Wechsle und schlafe für ausgewählte Einheit</zName>
+		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
+		<Keys>LeftShift+Space, RightShift+Space</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_SENTRY</zType>
+		<zName>Wechsle und Wache für ausgewählte Einheit</zName>
+		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
+		<Keys>LeftControl+Space, RightControl+Space</Keys>
+	</Entry>
+    <Entry>
+        <zType>HOTKEY_CYCLE_ALL</zType>
+        <zName>Wechsel ausgewählte</zName>
+        <HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
+        <Keys>Tab</Keys>
+    </Entry>
+    <Entry>
+        <zType>HOTKEY_CYCLE_ALL_REVERSE</zType>
+        <zName>Wechsel ausgewählte (Rückwärts)</zName>
+        <HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
+        <Keys>LeftShift+Tab, RightShift+Tab</Keys>
+    </Entry>
+	<Entry>
+        <zType>HOTKEY_UNDO</zType>
+        <zName>Rückgängig</zName>
+        <HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
+        <Keys>LeftControl+Z,RightControl+Z</Keys>
+    </Entry>
+    <Entry>
+        <zType>HOTKEY_REDO</zType>
+        <zName>Nochmal</zName>
+        <HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
+        <Keys>LeftControl+Y,RightControl+Y</Keys>
+    </Entry>
+	<Entry>
+		<zType>HOTKEY_PING</zType>
+		<zName>Ping</zName>
+		<HotkeyClass>HOTKEYCLASS_COMMUNICATION</HotkeyClass>
+		<Keys>LeftAlt</Keys>
+		<bHold>1</bHold>
+		<bIgnoreMouse>1</bIgnoreMouse>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CHAT</zType>
+		<zName>Chat</zName>
+		<HotkeyClass>HOTKEYCLASS_COMMUNICATION</HotkeyClass>
+		<Keys>Return</Keys>
+	</Entry>
+  <Entry>
+    <zType>HOTKEY_VICTORY_SCREEN</zType>
+    <zName>Zeige Siegbedinungen</zName>
+    <HotkeyClass>HOTKEYCLASS_SCREENS</HotkeyClass>
+    <Keys>F1</Keys>
+  </Entry>
+  <Entry>
+    <zType>HOTKEY_INHERITANCE_SCREEN</zType>
+    <zName>Zeige Erbschaft</zName>
+    <HotkeyClass>HOTKEYCLASS_SCREENS</HotkeyClass>
+    <Keys>F2</Keys>
+  </Entry>
+  <Entry>
+    <zType>HOTKEY_LAWS_SCREEN</zType>
+    <zName>Zeige Gesetze</zName>
+    <HotkeyClass>HOTKEYCLASS_SCREENS</HotkeyClass>
+    <Keys>F3</Keys>
+  </Entry>
+  <Entry>
+    <zType>HOTKEY_RELIGION_SCREEN</zType>
+    <zName>Zeige Religionen</zName>
+    <HotkeyClass>HOTKEYCLASS_SCREENS</HotkeyClass>
+    <Keys>F4</Keys>
+  </Entry>
+  <Entry>
+    <zType>HOTKEY_TECH_SCREEN</zType>
+    <zName>Zeige Technologien</zName>
+    <HotkeyClass>HOTKEYCLASS_SCREENS</HotkeyClass>
+    <Keys>F6</Keys>
+  </Entry>
+	<Entry>
+		<zType>HOTKEY_CITY_LIST</zType>
+		<zName>Zeige Stadtliste</zName>
+		<HotkeyClass>HOTKEYCLASS_SCREENS</HotkeyClass>
+		<Keys>F7</Keys>
+	</Entry>
+  <Entry>
+    <zType>HOTKEY_MAP_SCREEN</zType>
+    <zName>Zeige Karte</zName>
+    <HotkeyClass>HOTKEYCLASS_SCREENS</HotkeyClass>
+    <Keys>F8</Keys>
+  </Entry>
+	<Entry>
+		<zType>HOTKEY_HELP_SCREEN</zType>
+		<zName>Zeige Hilfe</zName>
+		<HotkeyClass>HOTKEYCLASS_SCREENS</HotkeyClass>
+		<Keys>F9</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_GAME_EDITOR</zType>
+		<zName>Spieleditor</zName>
+		<HotkeyClass>HOTKEYCLASS_SCREENS</HotkeyClass>
+		<Keys>LeftShift+Backquote</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CONSOLE</zType>
+		<zName>Konsole</zName>
+		<HotkeyClass>HOTKEYCLASS_SCREENS</HotkeyClass>
+		<Keys>LeftControl+LeftShift+Backquote</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CLOSE_POPUP</zType>
+		<zName>Schließe Popup</zName>
+		<HotkeyClass>HOTKEYCLASS_POPUPS</HotkeyClass>
+		<Keys>Escape</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_EXPAND_TOOLTIP</zType>
+		<zName>Erweitere Kurzinfos</zName>
+		<HotkeyClass>HOTKEYCLASS_TOOLTIPS</HotkeyClass>
+		<Keys>LeftAlt,RightAlt</Keys>
+		<bHold>1</bHold>
+		<IgnoreHotkeys>
+			<zValue>HOTKEY_LOCK_TOOLTIP</zValue>
+			<zValue>HOTKEY_FREEZE_TOOLTIP</zValue>
+		</IgnoreHotkeys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_LOCK_TOOLTIP</zType>
+		<zName>Hafte Kurzinfo fest</zName>
+		<HotkeyClass>HOTKEYCLASS_TOOLTIPS</HotkeyClass>
+		<Keys>Mouse2</Keys>
+		<IgnoreHotkeys>
+			<zValue>HOTKEY_FREEZE_TOOLTIP</zValue>
+			<zValue>HOTKEY_EXPAND_TOOLTIP</zValue>
+		</IgnoreHotkeys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_FREEZE_TOOLTIP</zType>
+		<zName>Raste Kurzinfos ein</zName>
+		<HotkeyClass>HOTKEYCLASS_TOOLTIPS</HotkeyClass>
+		<Keys>LeftShift,RightShift</Keys>
+		<bHold>1</bHold>
+		<bIgnoreMouse>1</bIgnoreMouse>
+		<IgnoreHotkeys>
+			<zValue>HOTKEY_LOCK_TOOLTIP</zValue>
+			<zValue>HOTKEY_EXPAND_TOOLTIP</zValue>
+		</IgnoreHotkeys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_SAVE</zType>
+		<zName>Speichern</zName>
+		<HotkeyClass>HOTKEYCLASS_SAVES</HotkeyClass>
+		<Keys>F11</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_QUICK_LOAD</zType>
+		<zName>Laden</zName>
+		<HotkeyClass>HOTKEYCLASS_SAVES</HotkeyClass>
+		<Keys>F12</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_AUTO_LOAD</zType>
+		<zName>Lade Autospielstand</zName>
+		<HotkeyClass>HOTKEYCLASS_SAVES</HotkeyClass>
+		<Keys>LeftShift+F12,RightShift+F12</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_DEBUG_MENU</zType>
+		<zName>Wechsle zum Debug Menu</zName>
+		<HotkeyClass>HOTKEYCLASS_DEBUG</HotkeyClass>
+		<Keys>LeftAlt+D,RightAlt+D</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_REVEAL_MAP</zType>
+		<zName>Decke Karte auf</zName>
+		<HotkeyClass>HOTKEYCLASS_DEBUG</HotkeyClass>
+		<Keys>LeftShift+M,RightShift+M</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_FULLY_REVEAL_MAP</zType>
+		<zName>Decke die komplette Karte auf</zName>
+		<HotkeyClass>HOTKEYCLASS_DEBUG</HotkeyClass>
+		<Keys>LeftControl+LeftShift+M,RightControl+RightShift+M</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_UNLOCK_NEXT_TECH</zType>
+		<zName>Schalte nächste Technologie frei</zName>
+		<HotkeyClass>HOTKEYCLASS_DEBUG</HotkeyClass>
+		<Keys>LeftControl+T,RightControl+T</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_UNLOCK_ALL_TECHS</zType>
+		<zName>Schalte alle Technologien frei</zName>
+		<HotkeyClass>HOTKEYCLASS_DEBUG</HotkeyClass>
+		<Keys>LeftShift+T,RightShift+T</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_RELOAD_INFOS</zType>
+		<zName>Lade Infos erneut</zName>
+		<HotkeyClass>HOTKEYCLASS_DEBUG</HotkeyClass>
+		<Keys>LeftControl+LeftShift+R,RightControl+RightShift+R</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_GRANT_RESOURCES</zType>
+		<zName>Gewähre Ressourcen</zName>
+		<HotkeyClass>HOTKEYCLASS_DEBUG</HotkeyClass>
+		<Keys>LeftShift+R,RightShift+R</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_TOGGLE_FLYING_CAMERA</zType>
+		<zName>Stelle fliegende Kamera um</zName>
+		<HotkeyClass>HOTKEYCLASS_DEBUG</HotkeyClass>
+		<Keys>LeftShift+F,RightShift+F</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_TOGGLE_TOP_DOWN_CAMERA</zType>
+		<zName>Stelle Top Down Kamera um</zName>
+		<HotkeyClass>HOTKEYCLASS_DEBUG</HotkeyClass>
+		<Keys>LeftControl+F,RightControl+F</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_TEST_LOAD_SAVE_CONSISTENCY</zType>
+		<zName>Teste Laden/Speichern Konsistenz</zName>
+		<HotkeyClass>HOTKEYCLASS_DEBUG</HotkeyClass>
+		<Keys>LeftControl+F12,RightControl+F12</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_TOGGLE_AUTOPLAY</zType>
+		<zName>Schalte Autoplay um</zName>
+		<HotkeyClass>HOTKEYCLASS_DEBUG</HotkeyClass>
+		<Keys>LeftControl+F11,RightControl+F11</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_MENU_DEBUG_OPTIONS</zType>
+		<zName>Options Debug</zName>
+		<HotkeyClass>HOTKEYCLASS_DEBUG</HotkeyClass>
+		<Keys>Escape+LeftShift,Escape+RightShift</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_MAP_EDITOR_PAINT</zType>
+		<zName>Paint</zName>
+		<HotkeyClass>HOTKEYCLASS_MAP_EDITOR</HotkeyClass>
+		<Keys>B</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_MAP_EDITOR_FILL</zType>
+		<zName>Fill</zName>
+		<HotkeyClass>HOTKEYCLASS_MAP_EDITOR</HotkeyClass>
+		<Keys>LeftShift+F,RightShift+F</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_MAP_EDITOR_ERASE</zType>
+		<zName>Erase</zName>
+		<HotkeyClass>HOTKEYCLASS_MAP_EDITOR</HotkeyClass>
+		<Keys>E</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_MAP_EDITOR_TERRAIN</zType>
+		<zName>Brush</zName>
+		<HotkeyClass>HOTKEYCLASS_MAP_EDITOR</HotkeyClass>
+		<Keys>T</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_MAP_EDITOR_HEIGHT</zType>
+		<zName>Height</zName>
+		<HotkeyClass>HOTKEYCLASS_MAP_EDITOR</HotkeyClass>
+		<Keys>H</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_MAP_EDITOR_RESOURCES</zType>
+		<zName>Resources</zName>
+		<HotkeyClass>HOTKEYCLASS_MAP_EDITOR</HotkeyClass>
+		<Keys>R</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_MAP_EDITOR_VEGETATION</zType>
+		<zName>Vegetation</zName>
+		<HotkeyClass>HOTKEYCLASS_MAP_EDITOR</HotkeyClass>
+		<Keys>F</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_MAP_EDITOR_UNDO</zType>
+		<zName>Redo</zName>
+		<HotkeyClass>HOTKEYCLASS_MAP_EDITOR</HotkeyClass>
+		<Keys>Z,LeftControl+Z</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_MAP_EDITOR_REDO</zType>
+		<zName>Redo</zName>
+		<HotkeyClass>HOTKEYCLASS_MAP_EDITOR</HotkeyClass>
+		<Keys>LeftShift+Z,LeftShift+LeftControl+Z</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_MAP_EDITOR_SAVE</zType>
+		<zName>Save</zName>
+		<HotkeyClass>HOTKEYCLASS_MAP_EDITOR</HotkeyClass>
+		<Keys>LeftControl+S,LeftAlt+S</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_MAP_EDITOR_INCREASE_SIZE</zType>
+		<zName>Increase Brush Size</zName>
+		<HotkeyClass>HOTKEYCLASS_MAP_EDITOR</HotkeyClass>
+		<Keys>RightBracket</Keys>
+		<bHold>1</bHold>
+		<fRepeatDelay>.1</fRepeatDelay>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_MAP_EDITOR_DECREASE_SIZE</zType>
+		<zName>Decrease Brush Size</zName>
+		<HotkeyClass>HOTKEYCLASS_MAP_EDITOR</HotkeyClass>
+		<Keys>LeftBracket</Keys>
+		<bHold>1</bHold>
+		<fRepeatDelay>.1</fRepeatDelay>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_MAP_EDITOR_UTILITIES_PANEL</zType>
+		<zName>Toggle Utilities Panel</zName>
+		<HotkeyClass>HOTKEYCLASS_MAP_EDITOR</HotkeyClass>
+		<Keys>U</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_MAP_EDITOR_INFO_PANEL</zType>
+		<zName>Toggle Info Panel</zName>
+		<HotkeyClass>HOTKEYCLASS_MAP_EDITOR</HotkeyClass>
+		<Keys>I</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_MAP_EDITOR_PROJECTOR</zType>
+		<zName>Toggle Image Projector</zName>
+		<HotkeyClass>HOTKEYCLASS_MAP_EDITOR</HotkeyClass>
+		<Keys>P</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_MAP_EDITOR_FLYING_CAMERA</zType>
+		<zName>Toggle Flying Camera</zName>
+		<HotkeyClass>HOTKEYCLASS_MAP_EDITOR</HotkeyClass>
+		<Keys>LeftControl+F,RightControl+F</Keys>
+	</Entry>
+	<!--Event Browser-->
+	<Entry>
+		<zType>HOTKEY_EVENT_BROWSER_NEXT_INPUT</zType>
+		<zName>Go to next input</zName>
+		<HotkeyClass>HOTKEYCLASS_EVENT_BROWSER</HotkeyClass>
+		<Keys>Tab</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_EVENT_BROWSER_PREVIOUS_INPUT</zType>
+		<zName>Go to previous input</zName>
+		<HotkeyClass>HOTKEYCLASS_EVENT_BROWSER</HotkeyClass>
+		<Keys>LeftShift+Tab</Keys>
+	</Entry>
+</Root>

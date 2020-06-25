@@ -1,0 +1,292 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2018 (x64) (http://www.altova.com) by Joel Bowers (Mohawk Games) -->
+<Root>
+	<Entry>
+		<zType/>
+		<zText comment="Player-facing string describing the memory."/>
+		<MemoryLevel/>
+		<iValue comment="Effect of this memory on family opinion."/>
+		<iTurns comment="Number of turns this memory lasts."/>
+		<bName comment="Show the name for event options."/>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_RAID</zType>
+		<zText>Barbarian Raid</zText>
+		<iTurns>3</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_PEACE</zType>
+		<zText>Barbarian Peace</zText>
+		<iTurns>10</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_TRUCE</zType>
+		<zText>Barbarian Truce</zText>
+		<iTurns>10</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_WAR</zType>
+		<zText>Barbarian War</zText>
+		<iTurns>10</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_OFFER</zType>
+		<zText>Barbarian Offer</zText>
+		<iTurns>10</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_OFFER_ALL</zType>
+		<zText>Barbarian Offer (All)</zText>
+		<iTurns>4</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_REMOVED_LUXURY</zType>
+		<zText>Luxusgut entfernt</zText>
+		<iValue>-50</iValue>
+		<iTurns>5</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_CONVERT_RELIGION</zType>
+		<zText>Barbarian Convert Religion</zText>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_ATTACKED_UNIT</zType>
+		<zText>Attacked our Unit(s)</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_ATTACKED_SETTLEMENT</zType>
+		<zText>Attacked our Sites(s)</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_DECLARED_WAR</zType>
+		<zText>Declared War on us</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_EXECUTION</zType>
+		<zText>They executed our prisoners.</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_REFUSED_MATCH</zType>
+		<zText>You turned down our match</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_DESECRATION</zType>
+		<zText>Our tombs were desecrated.</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_RESPECT</zType>
+		<zText>Our tombs were spared.</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_DENIED_SPOILS</zType>
+		<zText>Denied our rival's spoils.</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_SALTED_FIELDS</zType>
+		<zText>Burned our spoils and salted our fields</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_SHARED_SPOILS</zType>
+		<zText>Shared rival's spoils</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_ZEALOTS_OPPRESSED</zType>
+		<zText>Subdued warlike zealots</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_DISREGARDED_KNOWLEDGE</zType>
+		<zText>Disregarded our knowledge</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_RETURNED_HOSTAGE</zType>
+		<zText>Returned royal hostage</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_KEPT_HOSTAGE</zType>
+		<zText>Kept a royal ward as hostage</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_DOOMED_HOSTAGE</zType>
+		<zText>They doomed our royal hostage</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_MURDERED_QUEEN</zType>
+		<zText>Murdered our queen</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_INSULTED_CUSTOMS</zType>
+		<zText>Insulted our customs</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_ACCEPTED_CUSTOMS</zType>
+		<zText>Accepted our customs</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_RETURNED_FAMILY</zType>
+		<zText>Returned the royal family</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_STOLE_FAMILY</zType>
+		<zText>Abducted royal family</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_MET_OUR_DELEGATION</zType>
+		<zText>Met our delegation</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_SENT_A_PROXY</zType>
+		<zText>Sent a proxy to meet our delegation</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_ATTACKED_DELEGATION</zType>
+		<zText>Attacked our delegation</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_ANNEXED_LAND</zType>
+		<zText>Planning to annex our land</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_REFUSED_ANNEXATION</zType>
+		<zText>Did not annex our land</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_AVOIDED_RUINS</zType>
+		<zText>Avoided ancient ruins</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_DESECRATED_RUINS</zType>
+		<zText>Desecrated ancient ruins</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_TREATED_WITH_LEADER</zType>
+		<zText>Treated with our leader</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="Contact">
+		<zType>MEMORYBARBARIAN_BARBARIAN_WAR_AMBASSADOR_IF</zType>
+		<zText>Offended our ambassador</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_BARBARIAN_CONTACT_AGGRESSION</zType>
+		<zText>Acted aggressively on first contact</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_BARBARIAN_CONTACT_GAVE_GIFTS</zType>
+		<zText>Gave gifts on first contact</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_BARBARIAN_CONTACT_RANSOM</zType>
+		<zText>Paid ransom for their unit</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_BARBARIAN_CONTACT_TOOK_HOSTAGE</zType>
+		<zText>Took our unit hostage</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_FEASTED_IN_OUR_HONOR</zType>
+		<zText>Feasted in our honor</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_BARBARIAN_CONTACT_CULTURAL_DELEGATION_NO</zType>
+		<zText>Refused our cultural delegation</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_REFUSED_OUR_ENEMIES</zType>
+		<zText>Refused to aid our enemies</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_STRANGE_ENCOUNTER</zType>
+		<zText>Respected our sacred ground</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_RUMOR_HAS_IT_SAVED</zType>
+		<zText>Respected our snakes</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_LAW_FREED_CAPTIVES</zType>
+		<zText>Freed our captives</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_RUINS_RESTORED_CITY</zType>
+		<zText>Restores our ancient capital</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="Combat">
+		<zType>MEMORY_IGNORED_PROPOSAL</zType>
+		<zText>Refused king's proposal</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORY_WOOED_BARBARIAN_KING</zType>
+		<zText>Wooed our king</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="Miscellaneous">
+		<zType>MEMORYBARBARIAN_SMUGGLED_SPIES</zType>
+		<zText>Smuggled spies</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_ASSISTED_IN_MONSOON</zType>
+		<zText>Helped us in a monsoon</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="Character">
+		<zType>MEMORYBARBARIAN_REBUKED_US</zType>
+		<zText>Rebuked our relationship</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_REFUSED_INVITATION</zType>
+		<zText>Refused our invitation</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="Exploration">
+		<zType>MEMORYBARBARIAN_GIFT_OF_CAMELS</zType>
+		<zText>Geschenk (Kamele) erhalten</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_RETURNED_SHEPHERD</zType>
+		<zText>Junger Hüter zurückgekehrt</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+</Root>

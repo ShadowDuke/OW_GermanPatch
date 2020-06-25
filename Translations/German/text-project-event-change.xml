@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2020 (x64) (http://www.altova.com) by Andrew Auseon (Private) -->
+<Root>
+	<!--Assets/GameAssets/Resources/Infos/improvement.xml-->
+	<!--NOTE: improvement names that are mass nouns or plural do not need multiple types in Translation-->
+	<Entry>
+		<zType/>
+		<Translation/>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_SWORD_CULT</zType>
+		<Translation>Kult der Schwerter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_SWORD_CULT_TITHE</zType>
+		<Translation>Schwertkult Zehent</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_HOSTILE_GARRISON</zType>
+		<Translation>Feindliche Garnision</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_PUBLIC_MURAL</zType>
+		<Translation>Öffnetliches Wandbild</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_TRIUMPH</zType>
+		<Translation>Sigeszug</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_PURPLE_DYE</zType>
+		<Translation>Lila Färbemittel</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_PROPAGANDA</zType>
+		<Translation>Meinungsmache</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_CHILD_LABOR</zType>
+		<Translation>Kinderarbeit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_CORRUPTION_REFORM</zType>
+		<Translation>Verdorbene Reformen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_ROYAL_INSCRIPTIONS</zType>
+		<Translation>Königliche Inschriften</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_IMPERIAL_NECROPOLIS</zType>
+		<Translation>Kaiserliche Totenstadt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_FORCED_DEPORTATIONS</zType>
+		<Translation>Erzwungene Deportationen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_GLADIATORS</zType>
+		<Translation>Gladiatoren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_PLAYS</zType>
+		<Translation>Theateraufführungen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_MERCHANT_TOWN</zType>
+		<Translation>Kaufmanns-Stadt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_OUTBREAK</zType>
+		<Translation>Ausbruch</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_MIDWIFERY</zType>
+		<Translation>Geburtshilfe</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_LUXURIOUS_DELIGHTS</zType>
+		<Translation>Luxeriöse Vergnügen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_NEIGHBORS_FEAST_PERSIA</zType>
+		<Translation>Jährlicher Festtag für persische Gäaste</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_MISTHOPHORIA</zType>
+		<Translation>Misthophoria</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_GRAIN_DOLE</zType>
+		<Translation>Kernunterstützung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_FOREIGN_FIGHTERS</zType>
+		<Translation>Ausländsiche Krieger</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_WAR_COUNCIL</zType>
+		<Translation>Kriegsrat</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_SEWER_SYSTEM</zType>
+		<Translation>Kanalisationssystem</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_CASE_HARDENING</zType>
+		<Translation>Zementierofen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_TURPAN_WELLS</zType>
+		<Translation>Turpan Brunnen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_NATIONAL_HOLIDAY</zType>
+		<Translation>Staatsfeiertag</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_SCIENTIFIC_METHOD</zType>
+		<Translation>Wissenschaftsmethode</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_PROTECTION_EDICTS</zType>
+		<Translation>Schutzerlasse</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_HORREUM</zType>
+		<Translation>Horreum Lagerhaus</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_AVESTA_TREASURY</zType>
+		<Translation>Avesta Staatsschatz</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_DISEASED_SETTLERS</zType>
+		<Translation>Erkrankte Bürger</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_TERRACE_LOVE_SHRINE</zType>
+		<Translation>Zikkurat-Schrein der Liebe</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_TERRACE_WISDOM_SHRINE</zType>
+		<Translation>Zikkurat-Schrein der Weisheit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_TERRACE_WAR_SHRINE</zType>
+		<Translation>Zikkurat-Schrein des Krieges</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_CONSULAR_TRIBUNES</zType>
+		<Translation>Konsulatstribun</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_CONFUCIANISM</zType>
+		<Translation>Konfuzianismus</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_SALT_PRODUCTION</zType>
+		<Translation>Salz Produktion</Translation>
+	</Entry>
+	<Entry>
+    <zType>TEXT_PROJECT_AUTONOMOUS_RULE</zType>
+    <Translation>Autonome Herrschaft</Translation>
+  </Entry>  
+</Root>

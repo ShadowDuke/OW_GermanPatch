@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+	<Entry>
+		<zType/>
+		<Translation/>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTCITY_POPULATION_BOOM</zType>
+		<Translation>{CITY} erlebte einen Anstieg der Geburtenrate</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTCITY_CIVICS_BOOM</zType>
+		<Translation>{CITY} erlbete einen Anstieg in der Verwaltung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTCITY_TRAINING_BOOM</zType>
+		<Translation>{CITY} erlebte einen Anstieg beim Trainieren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTCITY_SCIENCE_BOOM</zType>
+		<Translation>{CITY} erlebte einen Wissenschaftsdurchbruch</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTCITY_MONEY_BOOM</zType>
+		<Translation>{CITY} erlbete einen Anstieg in der Wirtschafts</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTCITY_ORDERS_BOOM</zType>
+		<Translation>{CITY} erlebte einen Anstieg der Geschäftigkeit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTCITY_GREAT_SOLDIER</zType>
+		<Translation>Ein großer Krieger aus {CITY} taucht auf</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTCITY_GREAT_MINISTER</zType>
+		<Translation>Ein großer Minister aus {CITY} taucht auf</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTCITY_GREAT_MERCHANT</zType>
+		<Translation>Ein großer Kaufmann aus {CITY} taucht auf</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTCITY_GREAT_SCIENTIST</zType>
+		<Translation>Ein großer Wissenschaftler aus {CITY} taucht auf</Translation>
+	</Entry>
+	<!--Name-->
+	<Entry>
+		<zType>TEXT_EVENTCITY_POPULATION_BOOM_NAME</zType>
+		<Translation>Bevölkerungsaufschwung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTCITY_CIVICS_BOOM_NAME</zType>
+		<Translation>Verwaltungsaufschwung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTCITY_TRAINING_BOOM_NAME</zType>
+		<Translation>Trainingsaufschwung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTCITY_SCIENCE_BOOM_NAME</zType>
+		<Translation>Wissenschaftsaufschwung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTCITY_MONEY_BOOM_NAME</zType>
+		<Translation>Wirtschaftsaufschwung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTCITY_ORDERS_BOOM_NAME</zType>
+		<Translation>Geschäftigkeitsaufschwung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTCITY_GREAT_SOLDIER_NAME</zType>
+		<Translation>Großer Krieger</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTCITY_GREAT_MINISTER_NAME</zType>
+		<Translation>Großer Geistlicher</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTCITY_GREAT_MERCHANT_NAME</zType>
+		<Translation>Großer Kaufmann</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTCITY_GREAT_SCIENTIST_NAME</zType>
+		<Translation>Großer Wissenschaftler</Translation>
+	</Entry>
+</Root>

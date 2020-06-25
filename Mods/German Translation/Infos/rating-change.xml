@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (x64) (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType/>
+		<zColor/>
+		<zName/>
+		<zIconName/>
+		<zHelp/>
+		<iStrengthModifier/>
+		<iDefenseModifier/>
+		<iCriticalChance/>
+		<iUnitXP/>
+		<aiYieldRate/>
+		<aiYieldModifier/>
+	</Entry>
+	<Entry>
+		<zType>RATING_DISCIPLINE</zType>
+		<zColor>COLOR_RATING_DISCIPLINE</zColor>
+		<zName>Disziplin</zName>
+		<zIconName>RATING_DISCIPLINE</zIconName>
+		<zHelp>Disziplin erhöht {YIELD_MONEY} als Oberhaupt oder Stadthalter.
+Für Feldherren erhöht Disziplin jedes Jahr die Erfahrung der Einheit.
+		</zHelp>
+		<iUnitXP>1</iUnitXP>
+		<aiYieldRate>
+			<Pair>
+				<zIndex>YIELD_MONEY</zIndex>
+				<iValue>40</iValue>
+			</Pair>
+		</aiYieldRate>
+		<aiYieldModifier>
+			<Pair>
+				<zIndex>YIELD_MONEY</zIndex>
+				<iValue>2</iValue>
+			</Pair>
+		</aiYieldModifier>
+	</Entry>
+	<Entry>
+		<zType>RATING_COURAGE</zType>
+		<zColor>COLOR_RATING_COURAGE</zColor>
+		<zName>Mut</zName>
+		<zIconName>RATING_COURAGE</zIconName>
+		<zHelp>Mut erhöht {YIELD_TRAINING} als Oberhaupt oder Stadthalter.
+Für Feldherren erhöht Mut die Stärke der Einheit.</zHelp>
+		<iStrengthModifier>1</iStrengthModifier>
+		<aiYieldRate>
+			<Pair>
+				<zIndex>YIELD_TRAINING</zIndex>
+				<iValue>30</iValue>
+			</Pair>
+		</aiYieldRate>
+		<aiYieldModifier>
+			<Pair>
+				<zIndex>YIELD_TRAINING</zIndex>
+				<iValue>2</iValue>
+			</Pair>
+		</aiYieldModifier>
+	</Entry>
+	<Entry>
+		<zType>RATING_CHARISMA</zType>
+		<zColor>COLOR_RATING_CHARISMA</zColor>
+		<zName>Charisma</zName>
+		<zIconName>RATING_CHARISMA</zIconName>
+		<zHelp>Charisma erhöht {YIELD_CIVICS} als Oberhaupt oder Stadthalter.
+Für Feldherren erhöht Charisma die Verteidgung der Einheit.</zHelp>
+		<iDefenseModifier>2</iDefenseModifier>
+		<aiYieldRate>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+		</aiYieldRate>
+		<aiYieldModifier>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>2</iValue>
+			</Pair>
+		</aiYieldModifier>
+	</Entry>
+	<Entry>
+		<zType>RATING_WISDOM</zType>
+		<zColor>COLOR_RATING_WISDOM</zColor>
+		<zName>Weisheit</zName>
+		<zIconName>RATING_WISDOM</zIconName>
+		<zHelp>Weisheit erhöht {YIELD_SCIENCE} als Oberhaupt oder Stadthalter.
+Für Feldherren, erhöht Weisheit die kritische Chance der Einheit.</zHelp>
+		<iCriticalChance>1</iCriticalChance>
+		<aiYieldRate>
+			<Pair>
+				<zIndex>YIELD_SCIENCE</zIndex>
+				<iValue>10</iValue>
+			</Pair>
+		</aiYieldRate>
+		<aiYieldModifier>
+			<Pair>
+				<zIndex>YIELD_SCIENCE</zIndex>
+				<iValue>2</iValue>
+			</Pair>
+		</aiYieldModifier>
+	</Entry>
+</Root>

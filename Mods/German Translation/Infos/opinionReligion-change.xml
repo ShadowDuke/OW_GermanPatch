@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Leyla Johnson (Private) -->
+<Root>
+	<Entry>
+		<zType/>
+		<zName/>
+		<Color/>
+		<EffectCity/>
+		<iThreshold/>
+	</Entry>
+	<Entry>
+		<zType>OPINIONRELIGION_FURIOUS</zType>
+		<zName>Wütend (Religion)</zName>
+		<Color>COLOR_OPINION_FURIOUS</Color>
+		<EffectCity>EFFECTCITY_OPINIONRELIGION_FURIOUS</EffectCity>
+		<iThreshold>-200</iThreshold>
+	</Entry>
+	<Entry>
+		<zType>OPINIONRELIGION_ANGRY</zType>
+		<zName>Aufgebracht (Religion)</zName>
+		<Color>COLOR_OPINION_ANGRY</Color>
+		<EffectCity>EFFECTCITY_OPINIONRELIGION_ANGRY</EffectCity>
+		<iThreshold>-100</iThreshold>
+	</Entry>
+	<Entry>
+		<zType>OPINIONRELIGION_UPSET</zType>
+		<zName>Verärgert (Religion)</zName>
+		<Color>COLOR_OPINION_UPSET</Color>
+		<EffectCity>EFFECTCITY_OPINIONRELIGION_UPSET</EffectCity>
+		<iThreshold>-1</iThreshold>
+	</Entry>
+	<Entry>
+		<zType>OPINIONRELIGION_CAUTIOUS</zType>
+		<zName>Zurückhaltend (Religion)</zName>
+		<Color>COLOR_OPINION_CAUTIOUS</Color>
+		<iThreshold>99</iThreshold>
+	</Entry>
+	<Entry>
+		<zType>OPINIONRELIGION_PLEASED</zType>
+		<zName>Zufrieden (Religion)</zName>
+		<Color>COLOR_OPINION_PLEASED</Color>
+		<EffectCity>EFFECTCITY_OPINIONRELIGION_PLEASED</EffectCity>
+		<iThreshold>199</iThreshold>
+	</Entry>
+	<Entry>
+		<zType>OPINIONRELIGION_FRIENDLY</zType>
+		<zName>Freundlich (Religion)</zName>
+		<Color>COLOR_OPINION_FRIENDLY</Color>
+		<EffectCity>EFFECTCITY_OPINIONRELIGION_FRIENDLY</EffectCity>
+	</Entry>
+</Root>

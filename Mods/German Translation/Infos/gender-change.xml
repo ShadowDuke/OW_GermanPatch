@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 (x64) (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType/>
+		<zName/>
+		<bMasculine/>
+		<iMaxFertile/>
+		<GeneralFormation/>
+		<zLeaderTitle/>
+	</Entry>
+	<Entry>
+		<zType>GENDER_FEMALE</zType>
+		<zName>Weiblich</zName>
+		<bMasculine>0</bMasculine>
+		<iMaxFertile>35</iMaxFertile>
+		<GeneralFormation>FORMATION_GENERAL_FEMALE</GeneralFormation>
+		<zLeaderTitle>Queen</zLeaderTitle>
+	</Entry>
+	<Entry>
+		<zType>GENDER_MALE</zType>
+		<zName>Männlich</zName>
+		<bMasculine>1</bMasculine>
+		<iMaxFertile>60</iMaxFertile>
+		<GeneralFormation>FORMATION_GENERAL_MALE</GeneralFormation>
+		<zLeaderTitle>King</zLeaderTitle>
+	</Entry>
+</Root>

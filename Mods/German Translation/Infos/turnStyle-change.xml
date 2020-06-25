@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (x64) (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType/>
+		<zName/>
+		<zHelp/>
+		<iTimeModifier/>
+		<iCombatModifier/>
+		<bSimultaneous/>
+		<bCanEndTurn/>
+		<bBarbSplit/>
+		<bNoCooldown/>
+		<bNoBuild/>
+		<bNoMilitary/>
+	</Entry>
+	<Entry>
+		<zType>TURNSTYLE_SIMULTANEOUS</zType>
+		<zName>Gleichzeitig</zName>
+		<zHelp>Gleichzeitige Züge</zHelp>
+		<iTimeModifier>25</iTimeModifier>
+		<iCombatModifier>50</iCombatModifier>
+		<bSimultaneous>1</bSimultaneous>
+		<bCanEndTurn>1</bCanEndTurn>
+    <bNoCooldown>1</bNoCooldown>
+  </Entry>
+	<Entry>
+		<zType>TURNSTYLE_LOOSE</zType>
+		<zName>Frei</zName>
+		<zHelp>Keine Bewegungsbeschränkung</zHelp>
+		<iTimeModifier>-25</iTimeModifier>
+		<iCombatModifier>50</iCombatModifier>
+		<bBarbSplit>1</bBarbSplit>
+		<bNoCooldown>1</bNoCooldown>
+	</Entry>
+	<Entry>
+		<zType>TURNSTYLE_NORMAL</zType>
+		<zName>Normal</zName>
+		<zHelp>Angriffe bei feindlichem Zug geben doppellte Abklingzeit</zHelp>
+		<iCombatModifier>25</iCombatModifier>
+		<bCanEndTurn>1</bCanEndTurn>
+	</Entry>
+	<Entry>
+		<zType>TURNSTYLE_TIGHT</zType>
+		<zName>Straff</zName>
+		<zHelp>Kann nur Zivile Einheiten während des Gegnerzuges bewegen</zHelp>
+		<iTimeModifier>25</iTimeModifier>
+		<iCombatModifier>25</iCombatModifier>
+		<bCanEndTurn>1</bCanEndTurn>
+		<bNoMilitary>1</bNoMilitary>
+	</Entry>
+	<Entry>
+		<zType>TURNSTYLE_STRICT</zType>
+		<zName>Strikt</zName>
+		<zHelp>Kann keine Einheiten während des Gegnerzuges bewegen</zHelp>
+		<iTimeModifier>50</iTimeModifier>
+		<iCombatModifier>25</iCombatModifier>
+		<bCanEndTurn>1</bCanEndTurn>
+		<bNoBuild>1</bNoBuild>
+		<bNoMilitary>1</bNoMilitary>
+	</Entry>
+</Root>

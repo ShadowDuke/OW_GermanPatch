@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 (x64) (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType/>
+		<zName/>
+		<zHelp/>
+		<bDefault/>
+		<bSinglePlayer/>
+		<bMultiPlayer/>
+        <bDebug/>
+		<abFirstUnitInvalid/>
+	</Entry>
+	<Entry>
+		<zType>GAMEOPTION_AI_ONLY</zType>
+		<zName>Nur KI</zName>
+		<zHelp>Menschliche Spieler folgen den selben Regeln wie die KI</zHelp>
+        <bDebug>1</bDebug>
+	</Entry>
+	<Entry>
+		<zType>GAMEOPTION_NO_TRIBES</zType>
+		<zName>Keine Volksstämme</zName>
+		<zHelp>Barbaren sind immer im Krieg mit dem Spieler</zHelp>
+	</Entry>
+	<Entry>
+		<zType>GAMEOPTION_NO_FOG_OF_WAR</zType>
+		<zName>Kein Nebel des Krieges</zName>
+		<zHelp>Karte ist völlig audgedeckt und bleibt aufgedeckt</zHelp>
+		<abFirstUnitInvalid>
+			<Pair>
+				<zIndex>UNIT_SCOUT</zIndex>
+				<bValue>1</bValue>
+			</Pair>
+		</abFirstUnitInvalid>
+	</Entry>
+	<Entry>
+		<zType>GAMEOPTION_NO_TEAM_MOVEMENT</zType>
+		<zName>Keine Team Bewegung</zName>
+		<zHelp>Spieler können nicht die Einheiten ihrer Mitspieler bewegen.</zHelp>
+		<bSinglePlayer>0</bSinglePlayer>
+	</Entry>
+	<Entry>
+		<zType>GAMEOPTION_LOCKED_SAVE</zType>
+		<zName>Gesperrter Spielstand</zName>
+		<zHelp>Der Spielstand ist mit hash gegen modifizierungen anderer Editoren geschützt.</zHelp>
+	</Entry>
+	<Entry>
+		<zType>GAMEOPTION_NO_UNDO</zType>
+		<zName>Kein Rückgängig</zName>
+		<zHelp>Spieler ist nicht erlaubt eine Bewegung rückgängig zu machen nachdem sie ausgeführt wurde.</zHelp>
+		<bMultiPlayer>0</bMultiPlayer>
+	</Entry>
+	<Entry>
+		<zType>GAMEOPTION_NO_TUTORIAL</zType>
+		<zName>Deaktiviere das Tutorial</zName>
+		<zHelp>Das Tutorial wird für den Spieler deaktiviert.</zHelp>
+		<bMultiPlayer>0</bMultiPlayer>
+	</Entry>
+	<Entry>
+		<zType>GAMEOPTION_RANDOMIZE_FAMILIES</zType>
+		<zName>Familien zufällig</zName>
+		<zHelp>Weise die Gruppe jeder Familie zufällig zu (Weisen, Handwerker, Wettkämpfer, etc).</zHelp>
+	</Entry>
+	<Entry>
+		<zType>GAMEOPTION_ONE_CITY_CHALLENGE</zType>
+		<zName>Eine Stadt Herausforderung</zName>
+		<zHelp>Weil ihr Dummköpfe euch einfach nicht helfen lasst.</zHelp>
+		<abFirstUnitInvalid>
+			<Pair>
+				<zIndex>UNIT_SETTLER</zIndex>
+				<bValue>1</bValue>
+			</Pair>
+		</abFirstUnitInvalid>
+	</Entry>
+	<Entry>	
+	<zType>GAMEOPTION_MP_JOIN_AS_ANY_PLAYER</zType>
+		<zName>Trete als jeder Spieler ein</zName>
+		<zHelp>Erlaube Spielern das beitreten eines Multiplayer Spiels auch wenn ein Slot bereits beansprucht ist.</zHelp>
+		<bSinglePlayer>0</bSinglePlayer>
+	</Entry>
+</Root>

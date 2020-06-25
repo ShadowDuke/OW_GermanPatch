@@ -1,0 +1,287 @@
+<Root>
+	<!--Name-->
+	<Entry>
+		<zType/>
+		<Translation/>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_SETTLER</zType>
+		<Translation>Siedler~einen Siedler~Siedler</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_WORKER</zType>
+		<Translation>Baumeister~einen Baumeister~Baumeister</Translation>
+	</Entry>
+  <Entry>
+    <zType>TEXT_UNIT_SCOUT</zType>
+    <Translation>Späher~einen Späher~Späher</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_UNIT_CARAVAN</zType>
+    <Translation>Karawane~eine Karawane~Karawanen</Translation>
+  </Entry>
+  <Entry>
+		<zType>TEXT_UNIT_RELIGION_DISCIPLE</zType>
+		<Translation>{UNIT-RELIGION,1} Jünger~{UNIT-RELIGION,2} Jünger~{UNIT-RELIGION,1} Jünger</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_MILITIA</zType>
+		<Translation>Miliz~eine Miliz~Milizen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_LEVY</zType>
+		<Translation>Rekrut~einen Rekrut~Rekruten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_WARRIOR</zType>
+		<Translation>Krieger~einen Krieger~Krieger</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_AXEMAN</zType>
+		<Translation>Axtkämpfer~einen Axtkämpfer~Axtkämpfer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_SPEARMAN</zType>
+		<Translation>Speerkämpfer~einen Speerkämpfer~Speerkämpfer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_MACEMAN</zType>
+		<Translation>Keulenkämpfer~einen Keulenkämpfer~Keulenkämpfer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_SWORDSMAN</zType>
+		<Translation>Schwertkämpfer~einen Schwertkämpfer~Schwertkämpfer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_PIKEMAN</zType>
+		<Translation>Pikenier~einen Pikenier~Pikeniere</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_SLINGER</zType>
+		<Translation>Schleuderer~einen Schleuderer~Schleuderer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_ARCHER</zType>
+		<Translation>Bogenschütze~einen Bogenschütze~Bogenschützen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_LONGBOWMAN</zType>
+		<Translation>Langbogenschütze~einen Langbogenschütze~Langbogenschützen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_CROSSBOWMAN</zType>
+		<Translation>Armbrustschütze~einen Armbrustschütze~Armbrustschützen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_POLYBOLOS</zType>
+		<Translation>Polybolos~einen Polybolos~Polybolos</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_CHARIOT</zType>
+		<Translation>Streitwagen~einen Streitwagen~Streitwägen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_HORSEMAN</zType>
+		<Translation>Reiter~einen Reiter~Reitern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_CATAPHRACT</zType>
+		<Translation>Kataphrakt~einen Kataphrakt~Kataphrakten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_HORSE_ARCHER</zType>
+		<Translation>Berittener Bögenschütze~einen Berittener Bögenschütze~Berittene Bögenschützen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_CAMEL_ARCHER</zType>
+		<Translation>Kamelbogenschütze~einen Kamelbogenschütze~Kamelbogenschützen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_WAR_ELEPHANT</zType>
+		<Translation>Kriegselefant~einen Kriegselefanten~Kriegselefanten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_BALLISTA</zType>
+		<Translation>Balliste~eine Balliste~Ballisten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_ONAGER</zType>
+		<Translation>Onager~einen Onager~Onager</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_MANGONEL</zType>
+		<Translation>Mangonel~einen Mangonel~Mangonel</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_BIREME</zType>
+		<Translation>Bireme~eine Bireme~Biremen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_TRIREME</zType>
+		<Translation>Triere~eine Triere~Trieren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_DROMON</zType>
+		<Translation>Dromone~eine Dromone~Dromonen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_BATTERING_RAM</zType>
+		<Translation>Rammbock~einen Rammbock~Rammböcke</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_SIEGE_TOWER</zType>
+		<Translation>Belagerungsturm~einen Belagerungsturm~Belagerungstürme</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_AKKADIAN_ARCHER</zType>
+		<Translation>Akkadischer Bogenschütze~einen Akkadischer Bogenschütze~Akkadische Bogenschützen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_CIMMERIAN_ARCHER</zType>
+		<Translation>Cimmerischer Bogenschütze~einen Cimmerischer Bogenschütze~Cimmerische Bogenschützen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_AFRICAN_ELEPHANT</zType>
+		<Translation>Afrikanischer Elefant~einen Afrikanischer Elefanten~Afrikanische Elefanten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_TURRETED_ELEPHANT</zType>
+		<Translation>Gepanzerter Elefant~einen gepanzerter Elefant~Gepanzerte Elefanten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_LIGHT_CHARIOT</zType>
+		<Translation>Leichter Streitwagen~einen Leichten Streitwagen~Leichte Streitwägen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_KUSHITE_CAVALRY</zType>
+		<Translation>Kuschiten Reiter~einen Kuschiten Reiter~Kuschiten Reitern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_HOPLITE</zType>
+		<Translation>Hoplit~einen Hopliten~Hopliten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_PHALANGITE</zType>
+		<Translation>Phalanx~eine Phalanx~Phalangen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_PALTON_CAVALRY</zType>
+		<Translation>Palton Reiter~einen Palton Reiter~Palton Reitern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_CATAPHRACT_ARCHER</zType>
+		<Translation>Kataphrakt Bogenschütze~einen Kataphrakt Bogenschütze~Kataphrakt Bogenschützen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_HASTATUS</zType>
+		<Translation>Hastati~einen Hastati~Hastati</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_LEGIONARY</zType>
+		<Translation>Legionär~einen Legionär~Legionäre</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_MARAUDER_1</zType>
+		<Translation>Plünderer~einen Plünderer~Plünderer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_SKIRMISHER_1</zType>
+		<Translation>Plänkler~einen Plänkler~Plänkler</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_NOMAD_MARAUDER_1</zType>
+		<Translation>Nomaden Plünderer~einen Nomaden Plünderer~Nomaden Plünderer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_NOMAD_SKIRMISHER_1</zType>
+		<Translation>Nomaden Plänkler~einen Nomaden Plänkler~Nomaden Plänkler</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_MARAUDER_2</zType>
+		<Translation>Elite Plünderer~einen Elite Plünderer~Elite Plünderer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_SKIRMISHER_2</zType>
+		<Translation>Elite Plänkler~einen Elite Plänkler~Elite Plänkler</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_NOMAD_MARAUDER_2</zType>
+		<Translation>Elite Nomaden Plünderer~einen Elite Nomaden Plünderer~Elite Nomaden Plünderer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_NOMAD_SKIRMISHER_2</zType>
+		<Translation>Elite Nomaden Plänkler~einen Elite Nomaden Plänkler~Elite Nomaden Plänkler</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_WARLORD_1</zType>
+		<Translation>Kriegsherr~einen Kriegsherren~Kriegsherren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_JAVELINEER_1</zType>
+		<Translation>Speerwerfer~einen Speerwerfer~Speerwerfer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_NOMAD_WARLORD_1</zType>
+		<Translation>Nomaden Kriegsherr~einen Nomaden Kriegsherren~Nomaden Kriegsherr</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_GAESATA_1</zType>
+		<Translation>Gaesati~einen Gaesati~Gaesati</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_HUSCARL_1</zType>
+		<Translation>Huscarl~einen Huscarl~Huscarl</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_CLUBTHROWER_1</zType>
+		<Translation>Keulenwerfer~einen Keulenwerfer~Keulenwerfer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_PELTAST_1</zType>
+		<Translation>Peltast~einen Peltasten~Peltasten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_AMAZON_CAVALRY_1</zType>
+		<Translation>Amazonas Reiter~einen Amazonas Reiter~Amazonas Reitern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_LIBYAN_CAVALRY_1</zType>
+		<Translation>Lybischer Reiter~einen Lybischen Reiter~Lybischer Reitern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_WARLORD_2</zType>
+		<Translation>Elite Kriegsherr~einen Elite Kriegsherren~Elite Kriegsherren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_JAVELINEER_2</zType>
+		<Translation>Elite Speerwerfer~einen Elite Speerwerfer~Elite Speerwerfer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_NOMAD_WARLORD_2</zType>
+		<Translation>Elite Nomaden Kriegsherr~einen Elite Nomaden Kriegsherren~Elite Nomaden Kriegsherren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_GAESATA_2</zType>
+		<Translation>Elite Gaesati~einen Elite Gaesati~Elite Gaesati</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_HUSCARL_2</zType>
+		<Translation>Elite Huscarl~einen Elite Huscarl~Elite Huscarl</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_CLUBTHROWER_2</zType>
+		<Translation>Elite Keulenwerfer~einen Elite Keulenwerfer~Elite Keulenwerfer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_PELTAST_2</zType>
+		<Translation>Elite Peltast~einen Elite Peltasten~Elite Peltasten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_AMAZON_CAVALRY_2</zType>
+		<Translation>Elite Amazonas Reiter~einen Elite Amazonas Reiter~Elite Amazonas Reitern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_LIBYAN_CAVALRY_2</zType>
+		<Translation>Elite Lybische Reiter~eienn Elite Lybischn Reiter~Elite Lybische Reitern</Translation>
+	</Entry>
+</Root>

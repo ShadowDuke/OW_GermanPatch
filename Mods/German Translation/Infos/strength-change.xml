@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (x64) (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType/>
+		<zName/>
+		<iPercent/>
+		<iTruceModifier/>
+		<iWarModifier/>
+		<bDeclareWar/>
+	</Entry>
+	<Entry>
+		<zType>STRENGTH_MUCH_WEAKER</zType>
+		<zName>Viel schwächer</zName>
+		<iPercent>50</iPercent>
+		<iTruceModifier>50</iTruceModifier>
+		<iWarModifier>-50</iWarModifier>
+	</Entry>
+	<Entry>
+		<zType>STRENGTH_WEAKER</zType>
+		<zName>Schwächer</zName>
+		<iPercent>75</iPercent>
+		<iTruceModifier>25</iTruceModifier>
+		<iWarModifier>-25</iWarModifier>
+	</Entry>
+	<Entry>
+		<zType>STRENGTH_SIMILAR</zType>
+		<zName>Ähnlich</zName>
+		<iPercent>133</iPercent>
+		<bDeclareWar>1</bDeclareWar>
+	</Entry>
+	<Entry>
+		<zType>STRENGTH_STRONGER</zType>
+		<zName>Stärker</zName>
+		<iPercent>200</iPercent>
+		<iTruceModifier>-25</iTruceModifier>
+		<iWarModifier>25</iWarModifier>
+		<bDeclareWar>1</bDeclareWar>
+	</Entry>
+	<Entry>
+		<zType>STRENGTH_MUCH_STRONGER</zType>
+		<zName>Viel stärker</zName>
+		<iTruceModifier>-50</iTruceModifier>
+		<iWarModifier>50</iWarModifier>
+		<bDeclareWar>1</bDeclareWar>
+	</Entry>
+</Root>

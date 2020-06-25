@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 (x64) (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType/>
+		<zName/>
+	</Entry>
+	<Entry>
+		<zType>STAT_AMBITION_ACHIEVED</zType>
+		<zName>Ambition vollendet</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_LEGACY_ACHIEVED</zType>
+		<zName>Vermächtnis vollendet</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_BARBARIAN_CLEARED</zType>
+		<zName>Barbaren gesäubert</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_BARBARIAN_PEACE</zType>
+		<zName>Barbaren Frieden</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_BARBARIAN_ALLIANCE</zType>
+		<zName>Barbaren Bündnis</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_BARBARIAN_CONVERSION</zType>
+		<zName>Barbaren Glaubenswechsel</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_TEAM_ALLIANCE</zType>
+		<zName>Spieler Bündnis</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_CAPITAL_CAPTURED</zType>
+		<zName>Hauptstädte erbeutet</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_CITY_FOUNDED</zType>
+		<zName>Städte gegründet</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_CITY_CAPTURED</zType>
+		<zName>Städte erbeutet</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_CITY_RECAPTURED</zType>
+		<zName>Städte wieder in Besitz genommen</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_CITY_LOST</zType>
+		<zName>Städte verloren</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_COURTIER_ADDED</zType>
+		<zName>Vertrauter hinzugekommen</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_IMPROVEMENT_FINISHED</zType>
+		<zName>Verbesserungen beendet</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_IMPROVEMENT_REPAIRED</zType>
+		<zName>Verbesserungen repariert</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_NATION_FOUNDED</zType>
+		<zName>Staat gegründet</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_RELIGION_FOUNDED</zType>
+		<zName>Religion gegründet</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_RELIGION_SPREAD</zType>
+		<zName>Religion ausgebreitet</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_RUINS_EXPLORED</zType>
+		<zName>Ruine erforscht</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_SPECIALIST_TRAINED</zType>
+		<zName>Spezialist ausgebildet</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_TECH_DISCOVERED</zType>
+		<zName>Technologie entdeckt</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_THEOLOGY_ESTABLISHED</zType>
+		<zName>Religionswissenschaft eingeführt</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_UNIT_TRAINED</zType>
+		<zName>Einheiten ausgebildet</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_UNIT_PROMOTED</zType>
+		<zName>Einheiten Befördert</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_UNIT_KILLED</zType>
+		<zName>Einheiten getötet</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_UNIT_LOST</zType>
+		<zName>Einheiten verloren</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_WONDER_FINISHED</zType>
+		<zName>Wunder vollendet</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_YEARS_REIGNED</zType>
+		<zName>Jahre regiert</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_PROJECT_INQUIRY</zType>
+		<zName>Recherchen beendet</zName>
+	</Entry>
+</Root>

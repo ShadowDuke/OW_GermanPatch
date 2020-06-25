@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2018 sp1 (x64) (http://www.altova.com) by Joel Bowers (Mohawk Games) -->
+<Root>
+	<!-- Title -->
+	<Entry>
+		<zType/>
+		<Translation/>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BARBARIAN_REBELS</zType>
+		<Translation>Rebellen~Rebelle~Rebellen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BARBARIAN_ANARCHY</zType>
+		<Translation>Anarchie</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BARBARIAN_RAIDERS</zType>
+		<Translation>Räuber~Räuber~Räuber</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BARBARIAN_TRIBE</zType>
+		<Translation>Barbaren~Barbare~Barbaren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BARBARIAN_GAULS</zType>
+		<Translation>Gallier~Gallier~Gallier</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BARBARIAN_VANDALS</zType>
+		<Translation>Vandalen~Vandale~Vandalen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BARBARIAN_DANES</zType>
+		<Translation>Dänen~Däne~Dänen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BARBARIAN_THRACIANS</zType>
+		<Translation>Thraker~Thraker~Thraker</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BARBARIAN_SCYTHIANS</zType>
+		<Translation>Skythen~Skythe~Skythen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BARBARIAN_NUMIDIANS</zType>
+		<Translation>Numiden~Numide~Numiden</Translation>
+	</Entry>
+</Root>

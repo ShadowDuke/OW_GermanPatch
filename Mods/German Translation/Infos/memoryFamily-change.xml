@@ -1,0 +1,1211 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2020 (x64) (http://www.altova.com) by Andrew Auseon (Private) -->
+<Root>
+	<Entry>
+		<zType/>
+		<zText comment="Player-facing string describing the memory."/>
+		<MemoryLevel/>
+		<iValue comment="Effect of this memory on family opinion."/>
+		<iTurns comment="Number of turns this memory lasts."/>
+		<bName comment="Show the name for event options."/>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FOUNDED_CITY</zType>
+		<zText>Gründete für uns eine Stadt</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FOUNDED_FAMILY_SEAT</zType>
+		<zText>Unseren link(CONCEPT_FAMILY_SEAT) gegründet</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REGAINED_CITY</zType>
+		<zText>Wir haben eine Stadt repariert</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_LOST_CITY</zType>
+		<zText>Wir haben eine Stadt verloren</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_GIVEN_CITY</zType>
+		<zText>Gib uns eine Stadt</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_GAVE_AWAY_CITY</zType>
+		<zText>Unsere Stadt abgegeben</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_LONG</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_US_CITY</zType>
+		<zText>Sich geweigert uns eine Stadt zu geben</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_OUR_AMBITION</zType>
+		<zText>Unsere Ambition verfolgt </zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_DIVORCE</zType>
+		<zText>Scheidung</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_LEAVE_COUNCIL</zType>
+		<zText>Forced off Coucil</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_BYPASSED_HEIR</zType>
+		<zText>Bypassed Heir</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REMOVED_LUXURY</zType>
+		<zText>Removed Luxury</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ACROPOLIS_TREASURY</zType>
+		<zText>Granted a treasury in the Acropolis</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_MARRIAGE_DECLINE</zType>
+		<zText>Declined Marriage</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ASSASSINATION_EXPOSED</zType>
+		<zText>Assassination exposed</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_GIFTS</zType>
+		<zText>Sent us gifts</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_MEMBER_IMPRISONED</zType>
+		<zText>Imprisoned our family member</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_LAW</zType>
+		<zText>Refused to change Law</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_THEOLOGY</zType>
+		<zText>Refused to establish a Theology</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_SUCCESSION_HONORED</zType>
+		<zText>Honored us during succession</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_HOSTED_CORONATION</zType>
+		<zText>Hosted a grand coronation</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_NEG_LOW_SHORT</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_PLANNED_CORONATION</zType>
+		<zText>Planned coronation festivities</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_NEG_LOW_NORMAL</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_SECURING_PEACE_SUICIDE</zType>
+		<zText>Forced suicide</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_NEG_LOW_LONG</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_SECURING_PEACE_MISUNDERSTANDING</zType>
+		<zText>Kept a kidnapped infant</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_NEG_LOW_FOREVER</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_WIFE_ASSASSINATED</zType>
+		<zText>Assassinated our family member</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_NEG_MEDIUM_SHORT</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FOREIGN_DELEGATION_KILLED</zType>
+		<zText>Murdered a gift-bearing delegation</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_NEG_MEDIUM_NORMAL</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ADOPT_HEIR_YES</zType>
+		<zText>Adopted our child as Heir</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_NEG_MEDIUM_LONG</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ADOPT_HEIR_NO</zType>
+		<zText>Did not adopt our child as Heir</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_NEG_MEDIUM_FOREVER</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_MURDEROUS_INTRIGUE</zType>
+		<zText>Plotted to kill own Heir</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_NEG_HIGH_SHORT</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REPRESSED_ASCETICS</zType>
+		<zText>Repressed ascetic movement</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_NEG_HIGH_NORMAL</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_MONKEY_THIEF_KEPT</zType>
+		<zText>Kept our stolen things</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_NEG_HIGH_LONG</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_MONKEY_THIEF_RETURNED</zType>
+		<zText>Returned our stolen things</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_NEG_HIGH_FOREVER</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_MONKEY_DIPLOMAT_KEPT</zType>
+		<zText>Kept our stolen regalia</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_POS_LOW_SHORT</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_MONKEY_DIPLOMAT_RETURNED</zType>
+		<zText>Returned our stolen regalia</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_POS_LOW_NORMAL</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_QUARREL_RETURN</zType>
+		<zText>Returned fleeing wife</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_POS_LOW_LONG</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FORCED_MATCH</zType>
+		<zText>Forced us to marry a Barbarian</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_POS_LOW_FOREVER</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_HIDEOUS_MATCH</zType>
+		<zText>Chose us a hideous spouse</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_POS_MEDIUM_SHORT</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_DIFF_NEGATIVE</zType>
+		<zText>Called us fools</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_POS_MEDIUM_NORMAL</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_DIFFERENT</zType>
+		<zText>Adhered to our council</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_POS_MEDIUM_LONG</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_GENERAL_TRIUMPH</zType>
+		<zText>Triumph for our General</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_POS_MEDIUM_FOREVER</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_OVERCROWDED_CITY</zType>
+		<zText>Overcrowded our cities with children</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_POS_HIGH_SHORT</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_HIGH_PRIESTS</zType>
+		<zText>You obeyed the Gods</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_POS_HIGH_NORMAL</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_RELIGIOUS_FREEDOM</zType>
+		<zText>Protected us from the high priests</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_POS_HIGH_LONG</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ANGRY_FAMILIES</zType>
+		<zText>We had to sacrifice more</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+		<bName>MEMORYLEVEL_POS_HIGH_FOREVER</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_STRICTER_RULES</zType>
+		<zText>Angered the Gods</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_IGNORED_WARNING</zType>
+		<zText>Ignored our warnings</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_INITIATED_REFORMS</zType>
+		<zText>Initiated reforms</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_COUNCIL_GOVERNMENT</zType>
+		<zText>Formed a council government</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_IMPRISONED_FAMILY_ELDER</zType>
+		<zText>Imprisoned our elder</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_KILLED_FAMILY_ELDER</zType>
+		<zText>Imprisoned our elder</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_HEALED_RIFT</zType>
+		<zText>Ruler extended a hand in peace</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_MURDERED_ALL_FAMILY</zType>
+		<zText>Murdered bloodline</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_CELEBRATED_GENERAL</zType>
+		<zText>A general celebrated by the people</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_CELEBRATION</zType>
+		<zText>Refused to celebrate our family general</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+  <Entry>
+    <zType>MEMORYFAMILY_NO_TRANSLATIONS</zType>
+    <zText>Refused to translate foreign texts</zText>
+    <MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_LONG</MemoryLevel>
+  </Entry>
+  <Entry>
+    <zType>MEMORYFAMILY_FEMALE_EDUCATION_NO</zType>
+    <zText>Maintained educational traditions</zText>
+    <MemoryLevel>MEMORYLEVEL_POS_MEDIUM_LONG</MemoryLevel>
+  </Entry>
+  <Entry>
+    <zType>MEMORYFAMILY_DID_NOT_ATTACK</zType>
+    <zText>Did not attack barbarians</zText>
+    <MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+  </Entry>
+  <Entry>
+		<zType>MEMORYFAMILY_WENT_TO_WAR</zType>
+		<zText>Took our advice and attacked barbarians</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_BORROWED_MONEY</zType>
+		<zText>Borrowed money from us</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FRUGAL_RULER</zType>
+		<zText>Remained a ruler of the people</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_NOT_FRUGAL_RULER</zType>
+		<zText>Set a royal example</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FIRED_GENERAL</zType>
+		<zText>Released a beloved general</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ELEVATED_GENERAL</zType>
+		<zText>Elevated a general to the court</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_EXECUTED_OFFICER</zType>
+		<zText>Executed our officer</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ACTED_PARANOID</zType>
+		<zText>Targeted by paranoid ruler</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_OVERLOOKED_GATHERINGS</zType>
+    <zText>Overlooked our gatherings</zText>
+    <MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+  </Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_APPROVED_FORCED_DEPORTATION</zType>
+		<zText>Approved deportation of our people</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_RECRUITED_FOREIGNERS</zType>
+		<zText>Recruited foreign fighters</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_NO_FOREIGN_FIGHTERS</zType>
+		<zText>Refused foreign fighters</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_DENIED_MERCHANT_GUILD</zType>
+		<zText>Denied request for noble merchant guild</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_APPROVED_MERCHANT_GUILD</zType>
+		<zText>Approved request for merchant guild</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_GP_MERCHANT_CITY_YES</zType>
+		<zText>Approved merchant city status</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_GP_EXECUTED_MERCHANT</zType>
+		<zText>Executed relative on court</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_GP_KEPT_RELATIVE_ON_COURT</zType>
+		<zText>Kept relative as court merchant</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_GP_LET_RELATIVE_ESCAPE</zType>
+		<zText>Allowed corrupt relative to escape</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_GP_IMPRISONED_RIVAL</zType>
+		<zText>Imprisoned court rival</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_GP_IMPRISONED_FAMILY</zType>
+		<zText>Imprisoned family member</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_GP_PUNISHED_FAMILY</zType>
+		<zText>Punished family member</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_GP_PUNISHED_RIVAL</zType>
+		<zText>Punished family rival</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_GP_RECUSED_LEADER</zType>
+		<zText>Ignored our plea for justice</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_GIFTED_PRICELESS_ARTIFACTS</zType>
+		<zText>Gifted priceless artifacts</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_APPEASED_BARBARIANS</zType>
+		<zText>Appeased the barbarians</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_HOMECOMING_FEAST</zType>
+		<zText>Attended a homecoming feast for the heir</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_DENIED_RIVAL_FAMILY</zType>
+		<zText>Ruler denied a rival family</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="Diplomacy">
+		<zType>MEMORYFAMILY_GRAVE_OFFENSE</zType>
+		<zText>Ritual humiliation</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_SECURING_PEACE_NO</zType>
+		<zText>Refused our helpful offer</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_HUNTING_PARTY_IMPRISONED</zType>
+		<zText>Hunting party imprisoned</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_HUNTING_PARTY_SCOLDED</zType>
+		<zText>Scolded us after rescuing our hunting party</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_PROTECTED_OUR_HUNTING_PARTY</zType>
+		<zText>Protected our hunting party during foreign dispute</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_RELIGION_DENOUNCE_NO</zType>
+		<zText>Refused to stand up for our beliefs</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_RELIGION_WAR_NO</zType>
+		<zText>Refused to fight for our beliefs</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_LAW_DENOUNCE_NO</zType>
+		<zText>Refused to stand up for our values</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_LAW_WAR_NO</zType>
+		<zText>Refused to fight for our values</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_HELPED_COVER_UP</zType>
+		<zText>Helped cover up disappearance</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_RELEASED_CAPTIVE</zType>
+		<zText>Released our prisoner</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FIXED_MISUNDERSTANDING</zType>
+		<zText>Fixed misunderstanding over prisoner</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="Combat">
+		<zType>MEMORYFAMILY_HONOR_AND_GLORY</zType>
+		<zText>Honored our General</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_SAVED_TREASURES</zType>
+		<zText>Tried to rescue fleeing nobles</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_RAISED_ENEMY_LEADERSHIP</zType>
+		<zText>Added enemy leadership to court</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="Character">
+		<zType>MEMORYFAMILY_DELICIOUS_DRINKS_FRIEND</zType>
+		<zText>Insulted at feast</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_CHILD_ROYAL_BIRTH_SEND</zType>
+		<zText>Received gifts for royal birth</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_JOYOUS_WEDDING_ARISTOCRATS</zType>
+		<zText>Invited to heir's wedding</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_HEIR_WEDDING_FAUX_PAS_NOTHING</zType>
+		<zText>Faux pas at heir's wedding</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_PARTISANS_HELP</zType>
+		<zText>Helped some of our Furious citizens</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_SABOTAGE_OK</zType>
+		<zText>Punished us for sabotage</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_SQUABBLE_LAND_SUPPORTED</zType>
+		<zText>Sided with us in land dispute</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_SQUABBLE_LAND_OPPOSED</zType>
+		<zText>Sided against us in land dispute</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_SQUABBLE_LAND_SEIZED</zType>
+		<zText>Seized an estate that we claim</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_US</zType>
+		<zText>Let us join honor guard</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_THEM</zType>
+		<zText>Let our rival join honor guard</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_NO</zType>
+		<zText>Refused our candidate for honor guard</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_TOOK_BRIBE</zType>
+		<zText>Sided with us in squabble</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_REJECTED</zType>
+		<zText>Sided against us in squabble</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_WASTED_BRIBE</zType>
+		<zText>Took our bribe and did nothing</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_REFUSED_BRIBE</zType>
+		<zText>Refused to side with us in squabble</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_US</zType>
+		<zText>Attended our ceremony</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_THEM</zType>
+		<zText>Attended our rival's ceremony</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_NO</zType>
+		<zText>Refused to attend our ceremony</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_QUARREL_ALLOW</zType>
+		<zText>Allowed lovers to escape</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_QUARREL_HELP</zType>
+		<zText>Helped pursue fleeing wife</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_GAMES</zType>
+		<zText>Hosted games in our honor</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_RADICAL_PHILOSOPHER_RID_FAMILY</zType>
+		<zText>Got rid of our philosopher friend</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_CONTEST_OF_RHETORIC_REFUSE</zType>
+		<zText>Refused to debate your policy</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_IMPROPER_VASSAL_REPRIMAND</zType>
+		<zText>Reprimanded us for impropriety</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_IMPROPER_VASSAL_LET_GO</zType>
+		<zText>Failed to reprimand other vassals</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_HEATED_RIVALRY_REFUSE</zType>
+		<zText>Refused to abandon support for heir</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAVORED_VASSAL_NO</zType>
+		<zText>Refused to cover our costs</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAVORED_VASSAL_FEAST_NO</zType>
+		<zText>Refused to supply our feast</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_OK_FAMILY_MAIN</zType>
+		<zText>Cemented our close ties</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_OK_FAMILY_OTHER</zType>
+		<zText>Blatantly favored other vassals</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_COMPROMISE_FAMILY_MAIN</zType>
+		<zText>Refused to preside over our ceremony</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_COMPROMISE_FAMILY_OTHER</zType>
+		<zText>Favored other vassals</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORFAMILYY_FAVORED_VASSAL_CEREMONY_NO</zType>
+		<zText>Refused our most sacred honor</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_GP_MERCHANT_TOWN_NO</zType>
+		<zText>Refused merchant town status</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_COMFORTED_GRIEVING_FAMILY</zType>
+		<zText>Comforted grieving family</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_MADE_OTHER_GOVERNOR</zType>
+		<zText>Gave away governorship of city seat</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_GOVERNORSHIP</zType>
+		<zText>Refused governorship to outsider</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_A_LITTLE_PUSHBACK_FAMILY</zType>
+		<zText>Refused our suitor for your child</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_CENTRALIZATION</zType>
+		<zText>Refused to adopt Centralization</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ACCUSED_OF_CORRUPTION</zType>
+		<zText>Accused of corruption</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_BURIED_INCRIMINATING_DOCUMENT</zType>
+		<zText>Covered up incriminating document</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORY_HOSTED_FEAST</zType>
+		<zText>Hosted feast for noble families</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_CHOSEN_HEIR_NO</zType>
+		<zText>Refused to make one of the us the Heir</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FOREIGN_FEAST</zType>
+		<zText>Hosted by a foreign ruler</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_DELIVERED_RELATIVE_TO_FOREIGNER</zType>
+		<zText>Delivered relative to foreign power</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_A_TOAST_MOTHERS_TOUCH_IGNORE</zType>
+		<zText>Allowed our general to be murdered</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_FUNERAL</zType>
+		<zText>Refused to fund funeral</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FUNDED_FUNERAL</zType>
+		<zText>Funded family funeral</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_RODE_IN_FUNERAL</zType>
+		<zText>Rode in family funeral</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_IGNORED_INTERVENTION</zType>
+		<zText>Ignored the court's intervention</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REPRIMANDED</zType>
+		<zText>Reprimanded by ruler</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_PLEASED</zType>
+		<zText>Pleased with ruler</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_RITUAL</zType>
+		<zText>Refused religious ritual</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_LONG</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_PARTICIPATED_IN_RITUAL</zType>
+		<zText>Participated in ritual</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_LONG</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_INVITATION</zType>
+		<zText>Refused barbarian invitation</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_OVERLOOKED_LOST_TAXES</zType>
+		<zText>Overlooked our tax theft</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_DEMANDED_REPAYMENT</zType>
+		<zText>Demanded payment of stolen taxes</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_TOLD_OF_PLOT</zType>
+		<zText>Told of conspiracy plot</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_TURNED_AWAY_TRAVELER</zType>
+		<zText>Turned away traveling beggar</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="Contact">
+		<zType>MEMORYFAMILY_FORCED_TO_KISS_FEET</zType>
+		<zText>Forced to kiss foreign ruler's feet</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_MADE_A_MOCKERY_OF_COURT</zType>
+		<zText>Made a mockery of our court</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_DID_NOT_PUNISH_FOREIGNER</zType>
+		<zText>Refused to punish foreign counsel</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_THE_FOOL</zType>
+		<zText>Refused the fool</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="Family">
+		<zType>MEMORYFAMILY_FAMILY_GIFT_YES</zType>
+		<zText>Sent us extra gifts</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_RECEIVED_GIFT</zType>
+		<zText>Received gift from ruler</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_GAVE_DONATION</zType>
+		<zText>Gave donation to a worthy cause</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_STATUE_DISPLAYED</zType>
+		<zText>Ruler displayed our statue</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_BRIBE</zType>
+		<zText>Accuse the throne of bribes</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="City">
+		<zType>MEMORYFAMILY_SENT_DOCTORS_TO_PLAGUED_CITY</zType>
+		<zText>Sent doctors to plagued city</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_BURNED_OUT_PLAGUE</zType>
+		<zText>Burned areas to kill plague</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ENCOURAGED_THE_POOR</zType>
+		<zText>Encouraged poor with religion</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FREED_SLAVES</zType>
+		<zText>Freed the nation's slaves</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REDIRECTED_FUNDS</zType>
+		<zText>Treated lavishly with royal funds</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_RUINS_GIFT_OF_VALUABLES</zType>
+		<zText>Gave us ancient treasures</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_IMPRISONED_FIREBRAND</zType>
+		<zText>Imprisoned firebrand</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_HEIR_EXPERTISE_ELDER_RECOGNITION</zType>
+		<zText>Utilized professional expertise of our elder</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="Miscellaneous">
+		<zType>MEMORYFAMILY_CEREMONIAL_OFFERING_NO</zType>
+		<zText>Refused to perform ceremonies for us</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_CEREMONIAL_OFFERING_REQUISITION</zType>
+		<zText>Requisitioned supplies for ceremonies</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_PYRAMIDS_BLOODLINE</zType>
+		<zText>Immortalized our bloodline</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_NECROPOLIS_RITES</zType>
+		<zText>Conducted a pious royal funeral</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_QUESTIONABLE_CARVING_DISPLAY</zType>
+		<zText>Displayed questionable carving</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_COTTAGE_DECOR_BUSTS</zType>
+		<zText>Installed ancestral busts</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_RUNAWAY_SLAVE_REPRIMAND</zType>
+		<zText>Reprimanded for cruelty</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_RUNAWAY_SLAVE_BEAT</zType>
+		<zText>Returned runaway slave</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_EXOTIC_PETS_MONKEY_CHARM</zType>
+		<zText>Charmed by your adorable monkey</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_SUCCESSION_NO</zType>
+		<zText>Refused our succession changes</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_WAYWARD_SUBJECT_FORGIVE</zType>
+		<zText>Forgave our wayward family member</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_WAYWARD_SUBJECT_IMPRISON</zType>
+		<zText>Imprisoned our wayward family member</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_GEM_SEEKERS_YES</zType>
+		<zText>Let us purchase gems</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_GEM_SEEKERS_GIFT</zType>
+		<zText>Gave us gems for free</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_GEM_SEEKERS_NO</zType>
+		<zText>Refused to sell us gems</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_NEW_AMBASSADOR_YES</zType>
+		<zText>Made our family member the Ambassador</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_NEW_AMBASSADOR_NO</zType>
+		<zText>Refused us the Ambassadorship</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_TOOK_CONTROL</zType>
+		<zText>Leader took control of estates.</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_CONTROL</zType>
+		<zText>Leader left estates alone.</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_LAW_NO_TO_TYRANNY</zType>
+		<zText>Refused to adopt Tyranny</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_LAW_ADOPTED_TYRANNY</zType>
+		<zText>Adopted Tyranny</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_LAW_IMPRISONED_PATRIARCH</zType>
+		<zText>Imprisoned our patriarch</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_LAW_PROMOTED_FAMILY</zType>
+		<zText>Promoted family member to court</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_LAW_ADOPTED_VOLUNTEERS</zType>
+		<zText>Adopted plan for Volunteers</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_LAW_DENIED_DIVINITY</zType>
+		<zText>Denied Divine Rule</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_LAW_ADOPTED_DIVINE_RULE</zType>
+		<zText>Established Divine Rule</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_LAW_REFUSED_ASCETISM</zType>
+		<zText>Refused to embrace Ascetism</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_LAW_PAID_OUR_DEBT</zType>
+		<zText>Paid our foreign debt</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_LAW_REFUSED_TO_PAY_DEBT</zType>
+		<zText>Refused to pay debt</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_WONDER_INVITED_BATHS</zType>
+		<zText>Invited us to the new baths</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_IGNORED_MANICHAEISM</zType>
+		<zText>Ignored interest in Manichaeism</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_COUNCIL</zType>
+		<zText>Refused our choice for the Council</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_BETRAYED_TO_FOREIGNERS</zType>
+		<zText>Betrayed us to foreign power</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLOT_HIDDEN</zType>
+		<zText>International plot kept hidden</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_PLEASURE_YACHTS</zType>
+		<zText>Built us pleasure yachts</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REVEALED_TREACHERY</zType>
+		<zText>Revealed our treachery</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_SACKED_SCIENTIST</zType>
+		<zText>Sacked irresponsible scientist</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_SEIZED_ARMOR</zType>
+		<zText>Seized family horse armor</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_EXECUTED_PLOTTERS</zType>
+		<zText>Executed bath-house plotters</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_IMPRISONED_RIVAL</zType>
+		<zText>Imprisoned innocent courtier</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ALLY_WITH_LEADER</zType>
+		<zText>Convinced to favor our ruler</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_THREATENED_FAMILY</zType>
+		<zText>Give the {FAMILY-2,1} an ultimatum: join us, or suffer.</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_SACRIFICED_RELATIVE</zType>
+		<zText>Sacrificed a relative at sea</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_REQUEST_OF_TROOPS</zType>
+		<zText>Refused foreign request for troops</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ATTENDED_FOREIGN_FEAST</zType>
+		<zText>Attended foreign feast</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_BLAMED_FOR_LAWS</zType>
+		<zText>Blamed for harsh laws</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_FOREIGN_FRIENDSHIP</zType>
+		<zText>Refused to continue foreign friendship</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_SUPPORTED_EXPEDITION</zType>
+		<zText>Supported plans for southern expedition</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_IGNORED_DOMESTIC_ISSUES</zType>
+		<zText>Invested in silly expedition</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_IGNORED_EXPEDITION</zType>
+		<zText>Refused to support our southern expedition</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_SUPPORTED_DOMESTIC_ISSUES</zType>
+		<zText>Supported the domestic agenda</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_COMPROMISED</zType>
+		<zText>Comprised with other family on key issue</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORY_DEFIED_ACCUSATION</zType>
+		<zText>Defied our accusation</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORY_BELIEVED_ACCUSATION</zType>
+		<zText>Ostracized family member</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_SAVED_ACCUSED</zType>
+		<zText>Proved family member's innocence</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_BORING_LEADER</zType>
+		<zText>We have a boring ruler</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="Exploration">
+		<zType>MEMORYFAMILY_RAISED_MARBLE_PRICES</zType>
+		<zText>Marmor Preise erhöht</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_GAVE_OLIVE_OIL</zType>
+		<zText>Geschenk (Olivenöl) erhalten</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="Law">
+		<zType>MEMORYFAMILY_IMPRISONED_MEMBER</zType>
+		<zText>Familienmitglied eingekerkert</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+</Root>

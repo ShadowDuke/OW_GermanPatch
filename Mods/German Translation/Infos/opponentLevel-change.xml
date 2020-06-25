@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 (x64) (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType/>
+		<zName/>
+		<iWarModifier/>
+		<bPlayToWin/>			   
+	</Entry>
+	<Entry>
+		<zType>OPPONENTLEVEL_PASSIVE</zType>
+		<zName>Zurückhaltend</zName>
+		<iWarModifier>-100</iWarModifier>
+	</Entry>
+	<Entry>
+		<zType>OPPONENTLEVEL_PEACEFUL</zType>
+		<zName>Friedlich</zName>
+		<iWarModifier>-50</iWarModifier>
+	</Entry>
+	<Entry>
+		<zType>OPPONENTLEVEL_NORMAL</zType>
+		<zName>Normal</zName>
+	</Entry>
+	<Entry>
+		<zType>OPPONENTLEVEL_AGGRESSIVE</zType>
+		<zName>Aggressiv</zName>
+		<iWarModifier>50</iWarModifier>
+	</Entry>
+	<Entry>
+		<zType>OPPONENTLEVEL_COMPETITIVE</zType>
+		<zName>Wettbewerb</zName>
+		<iWarModifier>50</iWarModifier>
+		<bPlayToWin>1</bPlayToWin>
+	</Entry>	
+</Root>

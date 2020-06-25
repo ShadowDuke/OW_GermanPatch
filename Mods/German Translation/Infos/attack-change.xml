@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 (x64) (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType/>
+		<zName/>
+		<ePattern/>
+	</Entry>
+	<Entry>
+		<zType>ATTACK_FORWARD</zType>
+		<zName>nach vorn gerichtet</zName>
+		<ePattern>FORWARD</ePattern>
+	</Entry>
+	<Entry>
+		<zType>ATTACK_ARC</zType>
+		<zName>ARC</zName>
+		<ePattern>ARC</ePattern>
+	</Entry>
+	<Entry>
+		<zType>ATTACK_CIRCLE</zType>
+		<zName>im Kreis</zName>
+		<ePattern>CIRCLE</ePattern>
+	</Entry>
+	<Entry>
+		<zType>ATTACK_SPLASH</zType>
+		<zName>mit Umgebungsschaden</zName>
+		<ePattern>SPLASH</ePattern>
+	</Entry>
+</Root>

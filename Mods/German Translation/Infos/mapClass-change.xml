@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 (x64) (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType/>
+		<zName/>
+		<zScriptType/>
+		<zHelp/>
+		<bRandom/>
+		<bHidden/>
+		<bGameOfTheWeek/>
+	</Entry>
+	<Entry>
+		<zType>MAPCLASS_RANDOM</zType>
+		<zName>Zufällig</zName>
+		<zHelp>Zufälliges Karten Skript</zHelp>
+		<bRandom>1</bRandom>
+	</Entry>
+</Root>

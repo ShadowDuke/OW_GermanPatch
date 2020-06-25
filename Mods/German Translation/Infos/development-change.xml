@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 (x64) (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType/>
+		<zName/>
+		<zHelp/>
+		<iCities/>
+		<iCapitalPopulation/>
+		<iTechs/>
+		<iAdjacentChange/>
+		<iDistantChange/>
+		<iLoneOpponentChange/>
+		<aiMapSizeChange/>
+	</Entry>
+	<Entry>
+		<zType>DEVELOPMENT_FLEDGLING</zType>
+		<zName>Jung</zName>
+		<zHelp>Vorhandene Staaten starten mit einer Stadt</zHelp>
+		<iCities>1</iCities>
+		<iCapitalPopulation>3</iCapitalPopulation>
+		<iTechs>3</iTechs>
+	</Entry>
+	<Entry>
+		<zType>DEVELOPMENT_ESTABLISHED</zType>
+		<zName>Bekannt</zName>
+		<zHelp>Vorhandene Staaten starten mit 2-3 Städten</zHelp>
+		<iCities>2</iCities>
+		<iCapitalPopulation>4</iCapitalPopulation>
+		<iTechs>4</iTechs>
+		<iDistantChange>1</iDistantChange>
+		<iLoneOpponentChange>1</iLoneOpponentChange>
+		<aiMapSizeChange>
+			<Pair>
+				<zIndex>MAPSIZE_HUGE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+		</aiMapSizeChange>
+	</Entry>
+	<Entry>
+		<zType>DEVELOPMENT_ADVANCED</zType>
+		<zName>Fortgeschritten</zName>
+		<zHelp>Vorhandene Staaten starten mit 2-4 Städten</zHelp>
+		<iCities>3</iCities>
+		<iCapitalPopulation>5</iCapitalPopulation>
+		<iTechs>5</iTechs>
+		<iAdjacentChange>-1</iAdjacentChange>
+		<iDistantChange>1</iDistantChange>
+		<iLoneOpponentChange>2</iLoneOpponentChange>
+		<aiMapSizeChange>
+			<Pair>
+				<zIndex>MAPSIZE_LARGE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>MAPSIZE_HUGE</zIndex>
+				<iValue>2</iValue>
+			</Pair>
+		</aiMapSizeChange>
+	</Entry>
+	<Entry>
+		<zType>DEVELOPMENT_MASSIVE</zType>
+		<zName>Mächtig</zName>
+		<zHelp>Vorhandene Staaten starten mit 3-6 Städten</zHelp>
+		<iCities>4</iCities>
+		<iCapitalPopulation>6</iCapitalPopulation>
+		<iTechs>6</iTechs>
+		<iAdjacentChange>-1</iAdjacentChange>
+		<iDistantChange>2</iDistantChange>
+		<iLoneOpponentChange>3</iLoneOpponentChange>
+		<aiMapSizeChange>
+			<Pair>
+				<zIndex>MAPSIZE_MEDIUM</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>MAPSIZE_LARGE</zIndex>
+				<iValue>2</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>MAPSIZE_HUGE</zIndex>
+				<iValue>3</iValue>
+			</Pair>
+		</aiMapSizeChange>
+	</Entry>
+</Root>

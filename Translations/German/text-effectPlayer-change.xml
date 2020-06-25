@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2020 (x64) (http://www.altova.com) by Andrew Auseon (Private) -->
+<Root>
+	<!--Assets/GameAssets/Resources/Infos/effectPlayer.xml-->
+	<Entry>
+		<zType/>
+		<Translation/>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_BASE</zType>
+		<Translation>Grundlage</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_AMBITION</zType>
+		<Translation>Ambition</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LEGACY</zType>
+		<Translation>Vermächtnis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_COUNCIL_SPYMASTER</zType>
+		<English>Meisterspion</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_ABLE</zType>
+		<Translation>Der Tüchtige</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_JUST</zType>
+		<Translation>Der Gerechte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_GOOD</zType>
+		<Translation>Der Zuverlässige</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_STRONG</zType>
+		<Translation>Der Kräftige</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_NOBLE</zType>
+		<Translation>Der Großmütige</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_GLORIOUS</zType>
+		<Translation>Der Glorreiche</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_MAGNIFICENT</zType>
+		<Translation>Der Prachtvolle</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_GREAT</zType>
+		<Translation>Der Große</Translation>
+	</Entry>
+  <Entry>
+    <zType>TEXT_EFFECTPLAYER_IMPROVEMENT_PYRAMIDS</zType>
+    <Translation>Die Pyramiden von Gizeh</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EFFECTPLAYER_IMPROVEMENT_GREAT_ZIGGURAT</zType>
+    <Translation>Die Zikkurat des Mondgottes Nanna</Translation>
+  </Entry>
+  <Entry>
+		<zType>TEXT_EFFECTPLAYER_IMPROVEMENT_ORACLE</zType>
+		<Translation>Das Orakel von Delphi</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_IMPROVEMENT_HANGING_GARDENS</zType>
+		<Translation>Die Hängenden Gärten der Semiramis</Translation>
+	</Entry>
+  <Entry>
+    <zType>TEXT_EFFECTPLAYER_IMPROVEMENT_NECROPOLIS</zType>
+    <Translation>Die Totenstadt</Translation>
+  </Entry>
+  <Entry>
+		<zType>TEXT_EFFECTPLAYER_IMPROVEMENT_LIGHTHOUSE</zType>
+		<Translation>Der Pharos von Alexandria</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_IMPROVEMENT_APADANA</zType>
+		<Translation>Der Apadana in Persepolis</Translation>
+	</Entry>
+  <Entry>
+    <zType>TEXT_EFFECTPLAYER_IMPROVEMENT_MAUSOLEUM</zType>
+    <Translation>Das Grab des Königs Mausolos II.</Translation>
+  </Entry>
+  <Entry>
+		<zType>TEXT_EFFECTPLAYER_IMPROVEMENT_ACROPOLIS</zType>
+		<Translation>Die Akropolis in Athen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_IMPROVEMENT_COLOSSUS</zType>
+		<Translation>Der Koloss von Rhodos</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_IMPROVEMENT_MUSAEUM</zType>
+		<Translation>Das Musäum in Alexandria</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_IMPROVEMENT_CIRCUS_MAXIMUS</zType>
+		<Translation>Der Circus Maximus</Translation>
+	</Entry>
+  <Entry>
+    <zType>TEXT_EFFECTPLAYER_IMPROVEMENT_PANTHEON</zType>
+    <Translation>Das Pantheon</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EFFECTPLAYER_IMPROVEMENT_HAGIA_SOPHIA</zType>
+    <Translation>Die Hagia Sophia</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EFFECTPLAYER_IMPROVEMENT_GRAND_BAZAAR</zType>
+    <Translation>Der Große Basar</Translation>
+  </Entry>
+  <Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_SLAVERY</zType>
+		<Translation>Sklaverei</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_FREEDOM</zType>
+		<Translation>Freiheit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_CENTRALIZATION</zType>
+		<Translation>Zentralisierung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_VASSALAGE</zType>
+		<Translation>Vasallentum</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_TYRANNY</zType>
+		<Translation>Tyrannei</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_CONSTITUTION</zType>
+		<Translation>Verfassung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_CONSTITUTION_DECREE</zType>
+		<Translation>Erlässe in Hauptstadt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_EPICS</zType>
+		<Translation>Anforderungen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_EXPLORATION</zType>
+		<Translation>Erkundung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_COLONIZATION</zType>
+		<Translation>Kolonisierung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_SERFDOM</zType>
+		<Translation>Leibeigenschaft</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_MONOTHEISM</zType>
+		<Translation>Monotheismus</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_POLYTHEISM</zType>
+		<Translation>Polytheismus</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_PROFESSIONAL_ARMY</zType>
+		<Translation>Berufsarmee</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_VOLUNTEERS</zType>
+		<Translation>Freiwillige</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_TOLERANCE</zType>
+		<Translation>Tolleranz</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_ORTHODOXY</zType>
+		<Translation>Rechtgläubigkeit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_GUILDS</zType>
+		<Translation>Gilden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_ELITES</zType>
+		<Translation>Eliten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_PHILOSOPHY</zType>
+		<Translation>Philosophie</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_ENGINEERING</zType>
+		<Translation>Konstruktionswesen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_ICONOGRAPHY</zType>
+		<Translation>Bilddeutung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_CALLIGRAPHY</zType>
+		<Translation>Schönschrift</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_ASCETICISM</zType>
+		<English>Askese</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_HOLY_WAR</zType>
+		<English>Heiliger Krieg</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_DIVINE_RULE</zType>
+		<English>Göttliche Herrschaft</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_SECULARISM</zType>
+		<English>Laizitätsprinzip</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_ISOLATIONISM</zType>
+		<English>Abschottung</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_TRADE_LEAGUE</zType>
+		<English>Handelsverband</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_TRADE_LEAGUE_CONVOY</zType>
+		<English>Eskorte</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_COIN_DEBASEMENT</zType>
+		<Translation>Münz Wertminderung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_MONETARY_REFORM</zType>
+		<Translation>Münzreform</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_NATION_ASSYRIA</zType>
+		<Translation>Assyrien</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_NATION_BABYLONIA</zType>
+		<Translation>Babylonien</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_NATION_CARTHAGE</zType>
+		<Translation>Karthago</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_NATION_EGYPT</zType>
+		<Translation>Ägypten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_NATION_GREECE</zType>
+		<Translation>Griechenland</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_NATION_GREECE_OLYMPICS</zType>
+		<Translation>Olympische Spiele</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_NATION_ROME</zType>
+		<Translation>Rom</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_NATION_PERSIA</zType>
+		<Translation>Persien</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_RELIGION_JUDAISM</zType>
+		<Translation>Mythologie</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_RELIGION_ZOROASTRIANISM</zType>
+		<Translation>Zarathustrismus</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_RELIGION_CHRISTIANITY</zType>
+		<Translation>Christentum</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_RELIGION_MANICHAEISM</zType>
+		<Translation>Manichäismus</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TECH_LABOR_FORCE</zType>
+		<Translation>Straßen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TECH_DRAMA</zType>
+		<Translation>Musik</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TECH_POLITICAL_REFORM</zType>
+		<Translation>Politische Reformen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TECH_MILITARY_REFORM</zType>
+		<Translation>Militärische Reformen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TECH_ECONOMIC_REFORM</zType>
+		<Translation>Wirtschaftliche Reformen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TRAIT_TACTICIAN_ARCHETYPE</zType>
+		<Translation>Wortführer der Taktiker</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TRAIT_JUDGE_ARCHETYPE</zType>
+		<Translation>Wortführer der Richter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TRAIT_ORATOR_ARCHETYPE</zType>
+		<Translation>Wortführer der Redner</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TRAIT_SCHOLAR_ARCHETYPE</zType>
+		<Translation>Wortführer der Wissenschaftler</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TRAIT_SCHOLAR_ARCHETYPE_INQUIRY</zType>
+		<Translation>Prüfer in der Hauptstadt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TRAIT_BUILDER_ARCHETYPE</zType>
+		<Translation>Wortführer der Baumeister</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TRAIT_SCHEMER_ARCHETYPE</zType>
+		<Translation>Wortführer der Intriganten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TRAIT_COMMANDER_ARCHETYPE</zType>
+		<Translation>Wortführer der Befehlshaber</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TRAIT_ZEALOT_ARCHETYPE</zType>
+		<Translation>Wortführer der Fanatiker</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TRAIT_DIPLOMAT_ARCHETYPE</zType>
+		<Translation>Wortführer der Diplomaten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TRAIT_HERO_ARCHETYPE</zType>
+		<Translation>Wortführer der Helden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TRAIT_MISERABLE</zType>
+		<Translation>Unglücklich</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TRAIT_DRUNK</zType>
+		<Translation>Säufer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TRAIT_ROMANTIC</zType>
+		<Translation>Romantisch</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TRAIT_MOURNING</zType>
+		<Translation>Trauernd</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TRAIT_CUNNING</zType>
+		<Translation>Gerissen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TRAIT_SOLDIER</zType>
+		<Translation>Krieger</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_UPKEEP_LOW_CIVICS</zType>
+		<Translation>Niedrige Verwaltung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_UPKEEP_MEDIUM_CIVICS</zType>
+		<Translation>Mittlere Verwaltung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_UPKEEP_HIGH_CIVICS</zType>
+		<Translation>Hohe Verwaltung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_UPKEEP_VERY_HIGH_CIVICS</zType>
+		<Translation>Sehr hohe Verwaltung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_UPKEEP_LOW_TRAINING</zType>
+		<Translation>Niedriges Training</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_UPKEEP_MEDIUM_TRAINING</zType>
+		<Translation>Mittleres Training</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_UPKEEP_HIGH_TRAINING</zType>
+		<Translation>Hohes Training</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_UPKEEP_VERY_HIGH_TRAINING</zType>
+		<Translation>Sehr hohes Training</Translation>
+	</Entry>
+</Root>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Andy Auseon (Mohawk Games) -->
+<Root>
+	<!--Name-->
+	<Entry>
+		<zType/>
+		<Translation/>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_AMBASSADOR</zType>
+		<Translation>Bestimme Gesandten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_CHANCELLOR</zType>
+		<Translation>Bestimme Kanzler</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_SPYMASTER</zType>
+		<Translation>Bestimme Meisterspion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_TEAM_ALLIANCE</zType>
+		<Translation>Bündnis mit Spieler</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_TEAM_ALLIANCE_TARGET</zType>
+		<Translation>Verbindung mit Spieler </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_TEAM_ALLIANCE_CHARACTER</zType>
+		<Translation>Spieler Verbindung über</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_PEACE</zType>
+		<Translation>Frieden mit Spieler</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_PEACE_TARGET</zType>
+		<Translation>Eintracht mit Spieler</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_PEACE_CHARACTER</zType>
+		<Translation>Spieler Eintracht über</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_TRUCE</zType>
+		<Translation>Waffenruhe mit Spieler</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_TRUCE_TARGET</zType>
+		<Translation>Friede mit Spieler</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_TRUCE_CHARACTER</zType>
+		<Translation>Spieler Frieden über</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_DECLARE_WAR</zType>
+		<Translation>Erkläre Krieg</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_DECLARE_WAR_CHARACTER</zType>
+		<Translation>Erkläre Krieg an</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_BREAK_PEACE</zType>
+		<Translation>Breche den Frieden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_BREAK_PEACE_CHARACTER</zType>
+		<Translation>Breche den Frieden mit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_END_ALLIANCE</zType>
+		<Translation>Beende Bündnis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_END_ALLIANCE_CHARACTER</zType>
+		<Translation>Beende Bündnis mit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_CANCEL_TRADE</zType>
+		<Translation>Breche den kompletten Handel ab</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_CANCEL_TRADE_CHARACTER</zType>
+		<Translation>Breche den kompletten Handel mit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_BARBARIAN_ALLIANCE</zType>
+		<Translation>Bündnis mit Barbaren </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_BARBARIAN_ALLIANCE_TARGET</zType>
+		<Translation>Verbindung mit Barbaren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_BARBARIAN_ALLIANCE_CHARACTER</zType>
+		<Translation>Barbarian Verbindung über</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_BARBARIAN_PEACE</zType>
+		<Translation>Frieden mit Barbaren </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_BARBARIAN_PEACE_TARGET</zType>
+		<Translation>Eintracht mit Barbaren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_BARBARIAN_PEACE_CHARACTER</zType>
+		<Translation>Barbarian Eintracht über</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_BARBARIAN_TRUCE</zType>
+		<Translation>Waffenruhe mit Barbaren </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_BARBARIAN_TRUCE_TARGET</zType>
+		<Translation>Friede mit Barbaren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_BARBARIAN_TRUCE_CHARACTER</zType>
+		<Translation>Barbarian Friede über</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_BARBARIAN_DECLARE_WAR</zType>
+		<Translation>Erkläre Krieg</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_BARBARIAN_DECLARE_WAR_CHARACTER</zType>
+		<Translation>Erkläre Krieg an</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_BARBARIAN_BREAK_PEACE</zType>
+		<Translation>Breche den Frieden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_BARBARIAN_BREAK_PEACE_CHARACTER</zType>
+		<Translation>Breche den Frieden mit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_BARBARIAN_END_ALLIANCE</zType>
+		<Translation>Beende Bündnis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_BARBARIAN_END_ALLIANCE_CHARACTER</zType>
+		<Translation>Beende Bündnis mit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_ADOPT_RELIGION</zType>
+		<Translation>Übernehme Religion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_FAMILY_MARRIAGE</zType>
+		<Translation>Famillen Heirat</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_MARRY_COURTIER</zType>
+		<Translation>Vertrauten Heiraten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_MARRY_COURTIER_CHARACTER</zType>
+		<Translation>Heiraten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_ABDICATE</zType>
+		<Translation>Das Zepter niederlegen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_ADOPT</zType>
+		<Translation>Kind adoptieren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_ADOPT_CHARACTER</zType>
+		<Translation>Adoptiert von</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_LEGITIMIZE</zType>
+		<Translation>Legitimieren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_CHOSEN_HEIR</zType>
+		<Translation>Bestimme auserwählten Erben</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_INFILTRATE</zType>
+		<Translation>Infiltriere Saat</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_INFILTRATE_TARGET</zType>
+		<Translation>Infiltriere</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_INFILTRATE_CHARACTER</zType>
+		<Translation>Infiltriere Staat über</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_ASSASSINATE</zType>
+		<Translation>Attentat</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_ASSASSINATE_CHARACTER</zType>
+		<Translation>Attentat über</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_TREACHERY</zType>
+		<Translation>Verrat</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_TRADE_MISSION</zType>
+		<Translation>Handelsmission mit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_TRADE_MISSION_TARGET</zType>
+		<Translation>Handelsmission über</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_TRADE_MISSION_CHARACTER</zType>
+		<Translation>Handelsmission über</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_FAMILY_GIFT</zType>
+		<Translation>Familiengeschenke</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_FAMILY_GIFT_CHARACTER</zType>
+		<Translation>Familiengeschenke über</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_IMPRISON</zType>
+		<Translation>Einsperren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_IMPRISON_CHARACTER</zType>
+		<Translation>Einsperren über</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_RELEASE</zType>
+		<Translation>Entlasse aus dem Gefängnis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_CAPTURE</zType>
+		<Translation>Verhaften</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_CAPTURED_RANSOM</zType>
+		<Translation>Bezahle Lösegeld</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_DIVORCE</zType>
+		<Translation>Ehescheidung </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_DIVORCE_TARGET</zType>
+		<Translation>Scheidung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_BARBARIAN_WAR</zType>
+		<Translation>Würden sie Krieg erklären</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_BARBARIAN_WAR_TARGET</zType>
+		<Translation>Würden sie Krieg erklären an</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_PLAYER_WAR</zType>
+		<Translation>Würden sie Krieg erklären</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_PLAYER_WAR_TARGET</zType>
+		<Translation>Würden sie Krieg erklären an</Translation>
+	</Entry>
+</Root>

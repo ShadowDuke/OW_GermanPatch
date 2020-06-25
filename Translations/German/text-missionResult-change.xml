@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Andy Auseon (Mohawk Games) -->
+<Root>
+	<Entry>
+		<zType/>
+		<Translation/>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_INFILTRATE_REVEAL_DESCRIPTION</zType>
+		<Translation>{CHARACTER-SUBJECT} hat Erfolgreich das Gebiet deines Rivalen infiltriert.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_ASSASSINATE_KILL_DESCRIPTION</zType>
+		<Translation>Hat erfolgreich {CHARACTER-TARGET} gemeuchelt, und niemand vermutet etwas...</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_ASSASSINATE_KILL_EXPOSED_DESCRIPTION</zType>
+		<Translation>Deine Attentäter haben erfolgreich {CHARACTER-TARGET} eliminiert, aber Beweise haben dich entlarvt.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_ASSASSINATE_FAIL_EXPOSED_DESCRIPTION</zType>
+		<Translation>Deine Attentäter haben versagt {CHARACTER-TARGET} zu töten. Schlimmer jedoch, dein ist unehrenhafte Verschwörung aufgeflogen.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_TREACHERY_DESCRIPTION</zType>
+		<Translation>{CHARACTER-SUBJECT} hat erfolgreich die Verteidigung der Stadt verringert.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_FAMILY_GIFT_SUCCESS_DESCRIPTION</zType>
+		<Translation>Deine Vasallen Familie schätzt die Geschenke die dein Kanzler {CHARACTER-SUBJECT} ihnen gebracht hat.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_FAMILY_GIFT_SUCCESS_WEAKEN_DESCRIPTION</zType>
+		<Translation>Deine Vasallen Familie schätzt die Geschenke die dein Kanzler {CHARACTER-SUBJECT} brachte, jedoch betrachten deine Untertaten diese Begünstigung als Schwäche.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_IMPRISON_JUST_DESCRIPTION</zType>
+		<Translation>{CHARACTER-TARGET} wurde durch Anklagepunkte verhaftet, die als gerecht angesehen werden.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_IMPRISON_UNJUST_DESCRIPTION</zType>
+		<Translation>{CHARACTER-TARGET} wurde durch offensichtlich gefälschten Beweisen verhaftet. Einige beschuldigen Dich als Tyrannen.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_IMPRISON_ESCAPE_DESCRIPTION</zType>
+		<Translation>{CHARACTER-TARGET} ist der Verhaftung entflohen und ist nun auf der Flucht!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_RELEASE_GRATEFUL_DESCRIPTION</zType>
+		<Translation><![CDATA[{CHARACTER-TARGET} wurde aus dem Gefägnis entlassen. Dankbar wieder frei zu sein, <masculine_CHARACTER-TARGET>er<feminine>sie<end> hat euch eure Geringschätzug der Vergangenheit gegen <masculine_CHARACTER-TARGET>ihn<feminine>ihr<end> verziehen.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_RELEASE_BITTER_DESCRIPTION</zType>
+		<Translation><![CDATA[{CHARACTER-TARGET} wurde aus dem Gefägnis entlassen, aber geht einen bitteren Groll gegen Dich für <masculine_CHARACTER-TARGET>seine<feminine>ihre<end> Inhaftierung.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_RELEASE_UNJUST_DESCRIPTION</zType>
+		<Translation><![CDATA[{CHARACTER-TARGET} wurde aus dem Gefägnis entlassen, und ist nicht verlegen sich über <masculine_CHARACTER-TARGET>ihn<feminine>sie<end> für die ungerechte Inhaftierung zu beschweren.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_CAPTURE_SURRENDER_DESCRIPTION</zType>
+		<Translation><![CDATA[Deine Bemühungen {CHARACTER-TARGET} gefangen zu nehmen waren erfolgreich. <masculine_CHARACTER-TARGET>Er<feminine>Sie<end> hat sich ergeben wurde in Gewahrsam genommen.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_CAPTURE_KILLED_DESCRIPTION</zType>
+		<Translation><![CDATA[{CHARACTER-TARGET} weigerte sich der Gruppe zu ergeben die du geschickt hast um <masculine_CHARACTER-TARGET>ihn<feminine>sie<end> gefangen zu nehmen, wählte Tot über Gefangenschaft.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_CAPTURE_FLEE_DESCRIPTION</zType>
+		<Translation><![CDATA[{CHARACTER-TARGET} wich deinen Spürhunden aus und floh aus dem Staat! <masculine_CHARACTER-TARGET>Er<feminine>Sie<end> versteckt sich nun irgendwo ausserhalb deines Einflussbereiches...]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_CAPTURE_FAIL_DESCRIPTION</zType>
+		<Translation><![CDATA[Deine Spürhunde haben versagt den Aufenthaltsort von {CHARACTER-TARGET} aufzuspüren. Wir können nur sicher sein, dass <masculine_CHARACTER-TARGET>er<feminine>sie<end> weiterhin auf der Flucht ist.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_MARRY_COURTIER_DESCRIPTION</zType>
+		<Translation>Gute Nachrichten: {CHARACTER-SUBJECT} hat deinem Heiratsangebot zugestimmt. Herlichen Glückwunsch!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_CAPTURED_RANSOM_DESCRIPTION</zType>
+		<Translation><![CDATA[Du hast das Lösegeld für {CHARACTER-SUBJECT} bezahlt und <masculine_CHARACTER-SUBJECT>seine<feminine>ihre<end> Freilassung gesichert!]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_DIVORCE_MUTUAL_DESCRIPTION</zType>
+		<Translation>Nach einem bisschen Überzeugungsarbeit, hat {CHARACTER-SUBJECT} einer gemeinsamen Heiratsübereinstimmung zugestimmt.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_DIVORCE_FORCED_DESCRIPTION</zType>
+		<Translation><![CDATA[Du hast {CHARACTER-TARGET} gezwungen, <masculine_CHARACTER-TARGET>ihn<feminine>sie<end> gegen <masculine_CHARACTER-TARGET>seinen<feminine>ihren<end> willen scheiden zu lassen.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_EVENT_DESCRIPTION</zType>
+		<Translation>Die Mission von {CHARACTER-SUBJECT} führte zu einem Ereignis...</Translation>
+	</Entry>
+	<!--Result Name-->
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_AMBASSADOR</zType>
+		<Translation>Gesandter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_CHANCELLOR</zType>
+		<Translation>Kanzler</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_SPYMASTER</zType>
+		<Translation>Meisterspion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_TEAM_ALLIANCE_EVENT</zType>
+		<Translation>Bündnis Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PLAYER_PEACE_EVENT</zType>
+		<Translation>Frieden Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_EVENT</zType>
+		<Translation>Waffenruhe Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PLAYER_DECLARE_WAR_EVENT</zType>
+		<Translation>Erkläre Krieg</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PLAYER_BREAK_PEACE_EVENT</zType>
+		<Translation>Breche Frieden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PLAYER_END_ALLIANCE_EVENT</zType>
+		<Translation>Beende Bündnis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PLAYER_CANCEL_TRADE_EVENT</zType>
+		<Translation>Breche Handel ab</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_BARBARIAN_ALLIANCE_EVENT</zType>
+		<Translation>Bündnis Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_BARBARIAN_PEACE_EVENT</zType>
+		<Translation>Frieden Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_BARBARIAN_TRUCE_EVENT</zType>
+		<Translation>Waffenruhe Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_BARBARIAN_DECLARE_WAR_EVENT</zType>
+		<Translation>Erkläre Krieg</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_BARBARIAN_BREAK_PEACE_EVENT</zType>
+		<Translation>Breche Frieden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_BARBARIAN_END_ALLIANCE_EVENT</zType>
+		<Translation>Beende Bündnis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_ADOPT_RELIGION_EVENT</zType>
+		<Translation>Übernehme Religion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_FAMILY_MARRIAGE_EVENT</zType>
+		<Translation>Familien Heirat</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_ABDICATE</zType>
+		<Translation>Entsagt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_ADOPT</zType>
+		<Translation>Adoptiert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_LEGITIMIZE</zType>
+		<Translation>Legitimiert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_CHOSEN_HEIR</zType>
+		<Translation>Erben bestimmt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_INFILTRATE_REVEAL</zType>
+		<Translation>Gebiet infiltriert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_ASSASSINATE_KILL</zType>
+		<Translation>Ziel getötet</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_ASSASSINATE_KILL_EXPOSED</zType>
+		<Translation>Ziel getötet, Verschwörung aufgeflogen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_ASSASSINATE_FAIL_EXPOSED</zType>
+		<Translation>Ziel überlebt, Verschwörung aufgeflogen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_ASSASSINATE_EVENT</zType>
+		<Translation>Attentat Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_TREACHERY</zType>
+		<Translation>Verrat erledigt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_TRADE_MISSION_EVENT</zType>
+		<Translation>Handelsmission Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_FAMILY_GIFT_SUCCESS</zType>
+		<Translation>Geschenke gefallen der Familie</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_FAMILY_GIFT_SUCCESS_WEAKEN</zType>
+		<Translation>Geschenke geben unsere Schwächen preis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_FAMILY_GIFT_EVENT</zType>
+		<Translation>Familiengeschenk Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_IMPRISON_JUST</zType>
+		<Translation>Ziel gerecht eingesperrt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_IMPRISON_UNJUST</zType>
+		<Translation>Ziel ungerecht eingesperrt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_IMPRISON_ESCAPE</zType>
+		<Translation>Ziel flieht</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_RELEASE_GRATEFUL</zType>
+		<Translation>Ziel ist dankbar</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_RELEASE_BITTER</zType>
+		<Translation>Ziel bleibt verbittert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_RELEASE_UNJUST</zType>
+		<Translation>Freilassung wird als ungerecht betrachtet</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_CAPTURE_SURRENDER</zType>
+		<Translation>Ziel ergibt sich</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_CAPTURE_KILLED</zType>
+		<Translation>Ziel wurde beim widerstehen der Ergreifung getötet</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_CAPTURE_FLEE</zType>
+		<Translation>Ziel flieht aus dem Staat</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_CAPTURE_FAIL</zType>
+		<Translation>Ziel kann nicht gefunden werden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_MARRY_COURTIER</zType>
+		<Translation>Heirat</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_DIVORCE_MUTUAL</zType>
+		<Translation>Einvernehmliche Scheidung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_DIVORCE_FORCED</zType>
+		<Translation>Erzwungene Scheidung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_CAPTURED_RANSOM</zType>
+		<Translation>Lösegeld bezahlt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PLAYER_BARBARIAN_WAR_EVENT</zType>
+		<Translation>Spieler vs Barbaren Kriegs Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PLAYER_PLAYER_WAR_EVENT</zType>
+		<Translation>Spieler vs Spieler Kriegs Ereignis</Translation>
+	</Entry>
+</Root>

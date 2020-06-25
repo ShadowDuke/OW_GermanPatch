@@ -1,0 +1,1796 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+	<!-- InfoTerrain -->
+	<Entry>
+		<zType>TEXT_TERRAIN_WATER</zType>
+		<Translation>Wasser</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TERRAIN_URBAN</zType>
+		<Translation>Stadtteil</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TERRAIN_LUSH</zType>
+		<Translation>Üppig</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TERRAIN_TEMPERATE</zType>
+		<Translation>Gemäßigt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TERRAIN_ARID</zType>
+		<Translation>Trocken</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TERRAIN_SAND</zType>
+		<Translation>Wüste</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TERRAIN_TUNDRA</zType>
+		<Translation>Tundra</Translation>
+	</Entry>
+	<!--InfoBuild-->
+	<Entry>
+		<zType>TEXT_BUILD_PROJECT</zType>
+		<Translation>Projekt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BUILD_SPECIALIST</zType>
+		<Translation>Spezialist</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BUILD_UNIT</zType>
+		<Translation>Einheit</Translation>
+	</Entry>
+	<!--InfoConcept-->
+	<Entry>
+		<zType>TEXT_CONCEPT_AGENT</zType>
+		<Translation>Agent</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_ALLIANCE_BARB</zType>
+		<Translation>Barbaren Bündnis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_ALLIANCE_PLAYER</zType>
+		<Translation>Spieler Bündnis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_BARBARIAN_INVADE</zType>
+		<Translation>Barbaren Einmarsch</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_BUY_TILE</zType>
+		<Translation>Felder kaufen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_CULTURE_EVENT</zType>
+		<Translation>Kulturereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_CLEAR</zType>
+		<Translation>Klar</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_CONDUCT_TRADE_MISSION</zType>
+		<Translation>Handelsmission durchführen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_CRITICAL_HIT</zType>
+		<Translation>Kritischer Treffer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_ENVY</zType>
+		<Translation>Eifersucht</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_FAMILY_SEAT</zType>
+		<Translation>Familien Sitz</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_GENERAL</zType>
+		<Translation>Heerführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_GOVERNOR</zType>
+		<Translation>Stadthalter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_HARVEST_RESOURCE</zType>
+		<Translation>Ressourcen ernten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_JOIN_COURT</zType>
+		<Translation>schließt sich dem Hofstaat an</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_IDLE</zType>
+		<Translation>Untätige</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_IGNORES_ZOC</zType>
+		<Translation>Ignoriert ZOC</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_LUXURY</zType>
+		<Translation>Luxusgüter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_PROJECT_INFO</zType>
+		<Translation>Projekt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_RAISE_IMPROVEMENTS</zType>
+		<Translation>Verbesserungen errichten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_REBEL</zType>
+		<Translation>Rebellen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_ROUT</zType>
+		<Translation>Aufstöbern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_SETTLEMENT</zType>
+		<Translation>Siedlung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_URBAN</zType>
+		<Translation><![CDATA[Stadt~Stadtteil<comment this text is an adjective>]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_ZOC</zType>
+		<Translation>ZOC</Translation>
+	</Entry>
+	<!--InfoVegetation-->
+	<Entry>
+		<zType>TEXT_VEGETATION_TREES</zType>
+		<Translation>Wälder</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_VEGETATION_TREES_REMOVE</zType>
+		<Translation>Fälle Bäume</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_VEGETATION_TREES_CUT</zType>
+		<Translation>Bäume (fällen)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_VEGETATION_TREES_CUT_REMOVE</zType>
+		<Translation>Rode Land</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_VEGETATION_SCRUB</zType>
+		<Translation>Busch~ein Gebüsch~Büsche</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_VEGETATION_SCRUB_REMOVE</zType>
+		<Translation>Entbüsche Busch</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_VEGETATION_SCRUB_CUT</zType>
+		<Translation>Busch (entbüschen)~ein Busch (entbüschen)~Büsche (entbüschen)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_VEGETATION_SCRUB_CUT_REMOVE</zType>
+		<Translation>Rode Land</Translation>
+	</Entry>
+	<!--InfoSpecialist-->
+	<Entry>
+		<zType>TEXT_SPECIALIST_FARMER</zType>
+		<Translation>Farmer~ein Farmer~Farmern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_WOODCUTTER</zType>
+		<Translation>Holzfäller~ein Holzfäller~Holzfällern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_STONECUTTER</zType>
+		<Translation>Steinmetz~ein Steinmetz~Steinmetzen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_MINER</zType>
+		<Translation>Bergarbeiter~ein Bergarbeiter~Bergarbeitern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_RANCHER</zType>
+		<Translation>Viehzüchter~ein Viehzüchter~Viehzüchtern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_TRAPPER</zType>
+		<Translation>Pelzjäger~ein Pelzjäger~Pelzjägern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_GARDENER</zType>
+		<Translation>Gärtner~ein Gärtner~Gärtnern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_FISHER</zType>
+		<Translation>Fischer~ein Fischer~Fischern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_ACOLYTE_1</zType>
+		<Translation>Akolyth Lehrling~ein Akolyth Lehrling~Akolythen Lehrlingen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_ACOLYTE_2</zType>
+		<Translation>Meister Akolyth~ein Meister Akolyth~Meister Akolythen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_ACOLYTE_3</zType>
+		<Translation>Ältesten Akolyth~ein Ältester Akolyth~Ältesten Akolythen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_DOCTOR_1</zType>
+		<Translation>Medikus Lehrling~ein Medikus Lehrling~Medikus Lehrlingen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_DOCTOR_2</zType>
+		<Translation>Meister Medikus~ein Meister Medikus~Meister Medizi</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_DOCTOR_3</zType>
+		<Translation>Ältesten Medikus~ein Ältester Medikus~Ältesten Medizi</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_MONK_1</zType>
+		<Translation>Mönch Lehrling~ein Mönch Lehrling~Mönch Lehrlingen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_MONK_2</zType>
+		<Translation>Meister Mönch~ein Meister Mönch~Meister Mönchen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_MONK_3</zType>
+		<Translation>Ältesten Mönch~ein Ältester Mönch~Ältesten Mönchen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_PRIEST_1</zType>
+		<Translation>Priester Lehrling~ein Priester Lehrling~Priester Lehrlingen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_PRIEST_2</zType>
+		<Translation>Meister Priester~ein Meister Priester~Meister Priestern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_PRIEST_3</zType>
+		<Translation>Ältesten Priester~ein Ältester Priester~Ältesten Priestern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_BISHOP_1</zType>
+		<Translation>Bischof Lehrling~ein Bischof Lehrling~Bischof Lehrlingen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_BISHOP_2</zType>
+		<Translation>Meister Bischof~ein Meister Bischof~Meister Bischöfen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_BISHOP_3</zType>
+		<Translation>Ältesten Bischof~ein Ältester Bischof~Ältesten Bischöfen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_POET_1</zType>
+		<Translation>Dichter Lehrling~ein Dichter Lehrling~Dichter Lehrlingen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_POET_2</zType>
+		<Translation>Meister Dichter~ein Meister Dichter~Meister Dichtern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_POET_3</zType>
+		<Translation>Ältesten Dichter~ein Ältester Dichter~Ältesten Dichter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_SHOPKEEPER_1</zType>
+		<Translation>Krämer Lehrling~ein Krämer Lehrling~Krämer Lehrlingen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_SHOPKEEPER_2</zType>
+		<Translation>Meister Krämer~ein Meister Krämer~Meister Krämern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_SHOPKEEPER_3</zType>
+		<Translation>Ältesten Krämer~ein Ältester Krämer~Ältesten Krämern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_PHILOSOPHER_1</zType>
+		<Translation>Philosoph Lehrling~ein Philosoph Lehrling~Philosoph Lehrlingen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_PHILOSOPHER_2</zType>
+		<Translation>Meister Philosoph~ein Meister Philosoph~Meister Philosophen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_PHILOSOPHER_3</zType>
+		<Translation>Ältesten Philosoph~ein Ältester Philosoph~Ältesten Philosophen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_SCRIBE_1</zType>
+		<Translation>Schreiber Lehrling~ein Schreiber Lehrling~Schreiber Lehrlingen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_SCRIBE_2</zType>
+		<Translation>Meister Schreiber~ein Meister Schreiber~Meister Schreibern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_SCRIBE_3</zType>
+		<Translation>Ältesten Schreiber~ein Ältester Schreiber~Ältesten Schreibern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_OFFICER_1</zType>
+		<Translation>Offiziers Lehrling~ein Offizier Lehrling~Offiziers Lehrlingen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_OFFICER_2</zType>
+		<Translation>Meister Offizier~ein Meister Offizier~Meister Offizieren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPECIALIST_OFFICER_3</zType>
+		<Translation>Ältesten Offizier~ein Ältesten Offizier~Ältesten Offizieren</Translation>
+	</Entry>
+	<!--InfoOpinionBarbarian-->
+	<!--Assets/GameAssets/Resources/Infos/opinionBarbarian.xml-->
+	<Entry>
+		<zType>TEXT_OPINIONBARBARIAN_FURIOUS</zType>
+		<Translation>Wütend</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONBARBARIAN_ANGRY</zType>
+		<Translation>Aufgebracht</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONBARBARIAN_UPSET</zType>
+		<Translation>Verärgert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONBARBARIAN_CAUTIOUS</zType>
+		<Translation>Zurückhaltend</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONBARBARIAN_PLEASED</zType>
+		<Translation>Zufrieden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONBARBARIAN_FRIENDLY</zType>
+		<Translation>Freundlich</Translation>
+	</Entry>
+	<!--InfoOpinionCharacter-->
+	<!--Assets/GameAssets/Resources/Infos/opinionCharacter.xml-->
+	<Entry>
+		<zType>TEXT_OPINIONCHARACTER_FURIOUS</zType>
+		<Translation>Wütend</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONCHARACTER_ANGRY</zType>
+		<Translation>Aufgebracht</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONCHARACTER_UPSET</zType>
+		<Translation>Verärgert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONCHARACTER_CAUTIOUS</zType>
+		<Translation>Zurückhaltend</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONCHARACTER_PLEASED</zType>
+		<Translation>Zufrieden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONCHARACTER_FRIENDLY</zType>
+		<Translation>Freundlich</Translation>
+	</Entry>
+	<!--InfoOpinionPlayer-->
+	<!--Assets/GameAssets/Resources/Infos/opinionPlayer.xml-->
+	<Entry>
+		<zType>TEXT_OPINIONPLAYER_FURIOUS</zType>
+		<Translation>Wütend</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONPLAYER_ANGRY</zType>
+		<Translation>Aufgebracht</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONPLAYER_UPSET</zType>
+		<Translation>Verärgert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONPLAYER_CAUTIOUS</zType>
+		<Translation>Zurückhaltend</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONPLAYER_PLEASED</zType>
+		<Translation>Zufrieden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONPLAYER_FRIENDLY</zType>
+		<Translation>Freundlich</Translation>
+	</Entry>
+	<!--InfoGoal-->
+	<Entry>
+		<zType>TEXT_GOAL_SLAVERY</zType>
+		<Translation>Erlasse Sklaverei</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FREEDOM</zType>
+		<Translation>Erlasse Freiheit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TYRANNY</zType>
+		<Translation>Erlasse Tyrannei</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_CONSTITUTION</zType>
+		<Translation>Erlasse Verfassung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_EPICS</zType>
+		<Translation>Erlasse Anforderungen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_EXPLORATION</zType>
+		<Translation>Erlasse Erkundung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_CENTRALIZATION</zType>
+		<Translation>Erlasse Zentralisierung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_VASSALAGE</zType>
+		<Translation>Erlasse Vasallentum</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_COLONIZATION</zType>
+		<Translation>Erlasse Kolonisierung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SERFDOM</zType>
+		<Translation>Erlasse Leibeigenschaft</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_PROFESSIONAL_ARMY</zType>
+		<Translation>Erlasse Berufsarmee</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_VOLUNTEERS</zType>
+		<Translation>Erlasse Freiwillige</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_PHILOSOPHY</zType>
+		<Translation>Erlasse Philosophie</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_ENGINEERING</zType>
+		<Translation>Erlasse Konstruktionswesen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_MONOTHEISM</zType>
+		<Translation>Erlasse Monotheismus</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_POLYTHEISM</zType>
+		<Translation>Erlasse Polytheismus</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_GUILDS</zType>
+		<Translation>Erlasse Gilden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_ELITES</zType>
+		<Translation>Erlasse Eliten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TOLERANCE</zType>
+		<Translation>Erlasse Tolleranz</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_ORTHODOXY</zType>
+		<Translation>Erlasse Rechtgläubigkeit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_ICONOGRAPHY</zType>
+		<Translation>Erlasse Bilddeutung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_CALLIGRAPHY</zType>
+		<Translation>Erlasse Schönschrift</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_DIVINE_RULE</zType>
+		<Translation>Erlasse Göttliche Herrschaft</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SECULARISM</zType>
+		<Translation>Erlasse Laizitätsprinzip</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_ASCETICISM</zType>
+		<Translation>Erlasse Askese</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_HOLY_WAR</zType>
+		<Translation>Erlasse Heiliger Krieg</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_ISOLATIONISM</zType>
+		<Translation>Erlasse Abschottung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TRADE_LEAGUE</zType>
+		<Translation>Erlasse Handelsverband</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_COIN_DEBASEMENT</zType>
+		<Translation>Erlasse Münz Wertminderung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_MONETARY_REFORM</zType>
+		<Translation>Erlasse Münzreform</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_LAWS</zType>
+		<Translation>Erlasse 4 Gesetze</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_EIGHT_LAWS</zType>
+		<Translation>Erlasse 8 Gesetze</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_ALL_LAWS</zType>
+		<Translation>Erlasse alle Gesetze</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_VENERATION</zType>
+		<Translation>Führe Verehrung ein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_MYTHOLOGY</zType>
+		<Translation>Führe Mythologie ein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_LEGALISM</zType>
+		<Translation>Führe Gesetzlichkeit ein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_DUALISM</zType>
+		<Translation>Führe Dualismus ein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_REVELATION</zType>
+		<Translation>Führe Offenbarung ein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_ENLIGHTENMENT</zType>
+		<Translation>Führe Erleuchtung ein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_REDEMPTION</zType>
+		<Translation>Führe Erlösung ein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_CITIES</zType>
+		<Translation>Kontrolliere vier Städte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SEVEN_CITIES</zType>
+		<Translation>Kontrolliere sieben Städte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TEN_CITIES</zType>
+		<Translation>Kontrolliere zehn Städte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_THREE_CONNECTED_CITIES</zType>
+		<Translation>Kontrolliere drei verbundene Städte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_CONNECTED_CITIES</zType>
+		<Translation>Kontrolliere sechs verbundene Städte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_NINE_CONNECTED_CITIES</zType>
+		<Translation>Kontrolliere neun verbundene Städte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TEN_POPULATION</zType>
+		<Translation>Kontrolliere 10 Einwohner</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_30_POPULATION</zType>
+		<Translation>Kontrolliere 30 Einwohner</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_100_POPULATION</zType>
+		<Translation>Kontrolliere 100 Einwohner</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_HIGHEST_POPULATION</zType>
+		<Translation>Hächste Bevölkerung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_GAULS_5</zType>
+		<Translation>Töte 5 link(BARBARIAN_GAULS)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_VANDALS_5</zType>
+		<Translation>Töte 5 link(BARBARIAN_VANDALS)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_DANES_5</zType>
+		<Translation>Töte 5 link(BARBARIAN_DANES)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_THRACIANS_5</zType>
+		<Translation>Töte 5 link(BARBARIAN_THRACIANS)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SCYTHIANS_5</zType>
+		<Translation>Töte 5 link(BARBARIAN_SCYTHIANS)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_NUMIDIANS_5</zType>
+		<Translation>Kill 5 link(BARBARIAN_NUMIDIANS)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOOD_400</zType>
+		<Translation>Prodziere 400 icon(YIELD_FOOD)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOOD_800</zType>
+		<Translation>Prodziere 800 icon(YIELD_FOOD)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_WOOD_400</zType>
+		<Translation>Prodziere 400 icon(YIELD_WOOD)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_WOOD_800</zType>
+		<Translation>Prodziere 800 icon(YIELD_WOOD)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_STONE_400</zType>
+		<Translation>Prodziere 400 icon(YIELD_STONE)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_STONE_800</zType>
+		<Translation>Prodziere 800 icon(YIELD_STONE)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_IRON_400</zType>
+		<Translation>Prodziere 400 icon(YIELD_IRON)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_IRON_800</zType>
+		<Translation>Prodziere 800 icon(YIELD_IRON)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_20_GOODS_TURN</zType>
+		<Translation>+20 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD), und icon(YIELD_STONE)/Jahr</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_50_GOODS_TURN</zType>
+		<Translation>+50 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD), und icon(YIELD_STONE)/Jahr</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_CIVICS_2000</zType>
+		<Translation>Lagere 2000 icon(YIELD_CIVICS)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TRAINING_2000</zType>
+		<Translation>Lagere 2000 icon(YIELD_TRAINING)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_MONEY_2000</zType>
+		<Translation>Lagere 2,000icon(YIELD_MONEY)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_MONEY_5000</zType>
+		<Translation>Lagere 5,000icon(YIELD_MONEY)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_MONEY_10000</zType>
+		<Translation>Lagere 10,000icon(YIELD_MONEY)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_500_MONEY_TURN</zType>
+		<Translation>+500icon(YIELD_MONEY)/Jahr</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_1000_MONEY_TURN</zType>
+		<Translation>+1000icon(YIELD_MONEY)/Year</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FIVE_WORKERS</zType>
+		<Translation>Kontrolliere fünf link(UNIT_WORKER,2)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_FARMS</zType>
+		<Translation>Kontrolliere sechs link(IMPROVEMENT_FARM,2)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_LUMBERMILLS</zType>
+		<Translation>Kontrolliere sechs link(IMPROVEMENT_LUMBERMILL,2)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_QUARRIES</zType>
+		<Translation>Kontrolliere sechs link(IMPROVEMENT_QUARRY,2)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_MINES</zType>
+		<Translation>Kontrolliere sechs link(IMPROVEMENT_MINE,2)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_PASTURES</zType>
+		<Translation>Kontrolliere sechs link(IMPROVEMENT_PASTURE,2)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_CAMPS</zType>
+		<Translation>Kontrolliere sechs link(IMPROVEMENT_CAMP,2)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_GROVES</zType>
+		<Translation>Kontrolliere sechs link(IMPROVEMENT_GROVE,2)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_NETS</zType>
+		<Translation>Kontrolliere sechs link(IMPROVEMENT_NETS,2)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_HARBORS</zType>
+		<Translation>Kontrolliere vier Häfen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_GRANARY</zType>
+		<Translation>Kontrolliere vier Kornkammern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_BARRACKS_RANGES</zType>
+		<Translation>Kontrolliere sechs Kasernen oder oder Ranger</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_BATHS_1</zType>
+		<Translation>Kontrolliere vier Kaltwasserbecken</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_BATHS_2</zType>
+		<Translation>Kontrolliere vier Warmwasserbecken</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_BATHS_3</zType>
+		<Translation>Kontrolliere vier Dampfbäder</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_THEATER_1</zType>
+		<Translation>Kontrolliere vier Odeons</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_THEATER_2</zType>
+		<Translation>Kontrolliere vier Amphitheater</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_THEATER_3</zType>
+		<Translation>Kontrolliere vier Kolosseum</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_MARKET_1</zType>
+		<Translation>Kontrolliere vier Krämer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_MARKET_2</zType>
+		<Translation>Kontrolliere vier Märkte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_MARKET_3</zType>
+		<Translation>Kontrolliere vier Jahrmärkte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_LIBRARY_1</zType>
+		<Translation>Kontrolliere vier Bibliotheken</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_LIBRARY_2</zType>
+		<Translation>Kontrolliere vier Akademien</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_LIBRARY_3</zType>
+		<Translation>Kontrolliere vier Universitäten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_COURTHOUSE_1</zType>
+		<Translation>Kontrolliere vier Gerichtshöfe</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_COURTHOUSE_2</zType>
+		<Translation>Kontrolliere vier Justizministerien</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_COURTHOUSE_3</zType>
+		<Translation>Kontrolliere vier Schlösser</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_GARRISON_1</zType>
+		<Translation>Kontrolliere vier Garnisonen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_GARRISON_2</zType>
+		<Translation>Kontrolliere vier Hochburgen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_GARRISON_3</zType>
+		<Translation>Kontrolliere vier Zitadellen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_EIGHT_SHRINES</zType>
+		<Translation>Kontrolliere acht Schreine</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_MONASTERY</zType>
+		<Translation>Kontrolliere vier Klöster</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_TEMPLE</zType>
+		<Translation>Kontrolliere vier Tempel</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_THREE_CATHEDRAL</zType>
+		<Translation>Kontrolliere drei Kathedralen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_EIGHT_TOWNS</zType>
+		<Translation>Kontrolliere acht Kleinstädte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_RESOURCE_IMPROVEMENTS</zType>
+		<Translation>Sechs Weiden, Läger, Plantagen oder Fischernetze</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_URBAN_IMPROVEMENTS</zType>
+		<Translation>Kontrolliere sechs Stadtteil Verbesserungen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_REPAIRED</zType>
+		<Translation>Repariere sechs Verbesserungen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_EIGHT_REPAIRED</zType>
+		<Translation>Repariere acht Verbesserungen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_LEGENDARY_IMPROVEMENTS</zType>
+		<Translation>Baue Kolosseum, Jahrmarkt, Universität und Schloss</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_PYRAMIDS</zType>
+		<Translation>Kontrolliere Die Pyramiden von Gizeh</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_GREAT_ZIGGURAT</zType>
+		<Translation>Kontrolliere Die Zikkurat des Mondgottes Nanna</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_ORACLE</zType>
+		<Translation>Kontrolliere Das Orakel von Delphi</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_HANGING_GARDENS</zType>
+		<Translation>Kontrolliere Die Hängenden Gärten der Semiramis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_NECROPOLIS</zType>
+		<Translation>Kontrolliere Die Totenstadt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_ISHTAR_GATE</zType>
+		<Translation>Kontrolliere Das Ischtar-Tor</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_LIGHTHOUSE</zType>
+		<Translation>Kontrolliere Der Pharos von Alexandria</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_APADANA</zType>
+		<Translation>Kontrolliere Der Apadana in Persepolis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_MAUSOLEUM</zType>
+		<Translation>Kontrolliere Das Grab des Königs Mausolos II.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_ACROPOLIS</zType>
+		<Translation>Kontrolliere Die Akropolis in Athen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_COLOSSUS</zType>
+		<Translation>Kontrolliere Der Koloss von Rhodos</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_MUSAEUM</zType>
+		<Translation>Kontrolliere Das Musäum in Alexandria</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_CIRCUS_MAXIMUS</zType>
+		<Translation>Kontrolliere Der Circus Maximus</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_PANTHEON</zType>
+		<Translation>Kontrolliere Das Pantheon</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_HAGIA_SOPHIA</zType>
+		<Translation>Kontrolliere Die Hagia Sophia</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_GRAND_BAZAAR</zType>
+		<Translation>Kontrolliere Der Große Basar</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FIVE_DEVELOPING</zType>
+		<Translation>Kontrolliere fünf entfaltete Städte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_STRONG</zType>
+		<Translation>Kontrolliere fünf Solide Städte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_THREE_LEGENDARY</zType>
+		<Translation>Kontrolliere drei sagenumwobene Städte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_LEGENDARY</zType>
+		<Translation>Kontrolliere sechs sagenumwobene Städte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_WONDERS</zType>
+		<Translation>Kontrolliere 2 Wunder (1 Solide)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_WONDERS</zType>
+		<Translation>Kontrolliere 4 Wunder (1 Sagenumwoben)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SEVEN_WONDERS</zType>
+		<Translation>Kontrolliere 7 Wunder </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_POETS</zType>
+		<Translation>Kontrolliere zwei Ältesten Dichter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_OFFICERS</zType>
+		<Translation>Kontrolliere zwei Ältesten Offiziere</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_SCRIBES</zType>
+		<Translation>Kontrolliere zwei Ältesten Schreiber</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_MONKS</zType>
+		<Translation>Kontrolliere zwei Ältesten Mönche</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_PRIESTS</zType>
+		<Translation>Kontrolliere zwei Ältesten Priester</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_SHOPKEEPERS</zType>
+		<Translation>Kontrolliere zwei Ältesten Kräämer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_PHILOSOPHERS</zType>
+		<Translation>Kontrolliere zwei Ältesten Philosophen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_10_SPECIALISTS</zType>
+		<Translation>Kontrolliere 10 Spezialisten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_30_SPECIALISTS</zType>
+		<Translation>Kontrolliere 30 Spezialisten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_10_ELDER_SPECIALISTS</zType>
+		<Translation>Kontrolliere 10 Ältesten Spezialisten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_20_ELDER_SPECIALISTS</zType>
+		<Translation>Kontrolliere 20 Ältesten Spezialisten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_WALLS</zType>
+		<Translation>Kontrolliere sechs Mauern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_MOATS</zType>
+		<Translation>Kontrolliere sechs Gräben</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_TOWERS</zType>
+		<Translation>Kontrolliere sechs Wehrtürme</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_TREASURIES</zType>
+		<Translation>Kontrolliere sechs Staatskassen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_FORUMS</zType>
+		<Translation>Kontrolliere sechs Gerichte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_ARCHIVES</zType>
+		<Translation>Kontrolliere sechs Archive</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_FESTIVALS</zType>
+		<Translation>Kontrolliere sechs Festspiele</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_CONVOYS</zType>
+		<Translation>Kontrolliere sechs Eskorten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_LEGENDARY_PROJECTS</zType>
+		<Translation>Sagenumworben Staatskasse, Gericht und Archiv</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_THREE_BARB_CLEARED</zType>
+		<Translation>Beseitige drei Barbaren Plätze</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FIVE_BARB_CLEARED</zType>
+		<Translation>Beseitige fünf Barbaren Plätze</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SEVEN_BARB_CLEARED</zType>
+		<Translation>Beseitige sieben Barbaren Plätze</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_BARBARIAN_PEACE</zType>
+		<Translation>Erziele Friende mit Barbaren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_BARBARIAN_ALLIANCE</zType>
+		<Translation>Erziele Bündnis mit Barbaren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_BARBARIAN_CONVERSION</zType>
+		<Translation>Konvertiere Barbaren zur Religion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_THREE_PEACE</zType>
+		<Translation>Frieden mit drei Stämmen oder Reichen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_ONE_RECAPTURE_CITY</zType>
+		<Translation>Nehme eine Stadt erneut ein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_RECAPTURE_CITY</zType>
+		<Translation>Nehme zwei Stadte erneut ein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_CAPTURE_CITIES</zType>
+		<Translation>Nehme vier fremde Städte ein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_ONE_CAPTIAL</zType>
+		<Translation>Nehme eine fremde Hauptstadt ein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_EIGHT_CAPTURE_CITIES</zType>
+		<Translation>Nehme acht fremde Städte ein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUND_RELIGION</zType>
+		<Translation>Gründe Religion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_STATE_RELIGION</zType>
+		<Translation>Führe eine Staatsreligion ein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_ESTABLISH_THEOLOGY</zType>
+		<Translation>Führe eine Religionswissenschaft ein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_RELIGION_SPREAD</zType>
+		<Translation>Verbreite Religion (4x)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_EIGHT_RELIGION_SPREAD</zType>
+		<Translation>Verbreite Religion (8x)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_TECHS</zType>
+		<Translation>Entdecke sechs Technologien</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SEVEN_TECHS</zType>
+		<Translation>Entdecke sieben Technologien</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_EIGHT_TECHS</zType>
+		<Translation>Entdecke acht Technologien</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SCHOLARSHIP_VAULTING</zType>
+		<Translation>Entdecke Forschung und Wölbung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_5_KILLS</zType>
+		<Translation>Töte 5 gegnerische Einheiten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_10_KILLS</zType>
+		<Translation>Töte 10 gegnerische Einheiten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_15_KILLS</zType>
+		<Translation>Töte 15 gegnerische Einheiten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_20_KILLS</zType>
+		<Translation>Töte 20 gegnerische Einheiten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FIVE_PROMOTIONS</zType>
+		<Translation>Fünf Beförderungen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TEN_PROMOTIONS</zType>
+		<Translation>Zehn Beförderungen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_MAX_LEVEL_UNIT</zType>
+		<Translation>Zwei Max Level Einheiten (Nahkamof und Fernkampf)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FIVE_MILITARY</zType>
+		<Translation>Kontrolliere fünf Militär Einheiten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FIVE_RANGED</zType>
+		<Translation>Kontrolliere fünf Fernkampf Einheiten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FIVE_MOUNTED</zType>
+		<Translation>Kontrolliere fünf Berittene Einheiten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FIVE_SIEGE</zType>
+		<Translation>Kontrolliere fünf Belagerungs Einheiten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_RANGED_MOUNTED</zType>
+		<Translation>Zwei Fernkampf und zwei berittene Einheiten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FIVE_LONGBOWMAN_CROSSBOWMAN</zType>
+		<Translation>Fünf Langbogenschützen oder Armbrustschützen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FIVE_POLYBOLOS_CATAPHRACT</zType>
+		<Translation>Fünf Polybolos oder Kataphrakten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FIVE_SWORDSMAN_PIKEMAN</zType>
+		<Translation>Fünf Schwertkämpfer oder Pikeniere</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_20_UNITS</zType>
+		<Translation>Kontrolliere 20 Militär Einheiten (5 Kataphrakten)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_HIGHEST_MILITARY</zType>
+		<Translation>Beste Militär</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_BATTERING_RAM</zType>
+		<Translation>Kontrolliere zwei Rammböcke</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_SIEGE_TOWER</zType>
+		<Translation>Kontrolliere zwei Belagerungstürme</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_AKKADIAN_ARCHER</zType>
+		<Translation>Kontrolliere zwei Akkadische Bogenschützen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_CIMMERIAN_ARCHER</zType>
+		<Translation>Kontrolliere zwei Cimmerische Bogenschützen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_AFRICAN_ELEPHANT</zType>
+		<Translation>Kontrolliere zwei Afrikanische Elefanten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_TURRETED_ELEPHANT</zType>
+		<Translation>Kontrolliere zwei Gepanzerte Elefanten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_LIGHT_CHARIOT</zType>
+		<Translation>Kontrolliere zwei Leichte Streitwägen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_KUSHITE_CAVALRY</zType>
+		<Translation>Kontrolliere zwei Kuschiten Reitern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_HOPLITE</zType>
+		<Translation>Kontrolliere zwei Hopliten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_PHALANGITE</zType>
+		<Translation>Kontrolliere zwei Phalangen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_PALTON_CAVALRY</zType>
+		<Translation>Kontrolliere zwei Palton Reitern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_CATAPHRACT_ARCHER</zType>
+		<Translation>Kontrolliere zwei Kataphrakt Bogenschützen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_HASTATUS</zType>
+		<Translation>Kontrolliere zwei Hastati</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_LEGIONARY</zType>
+		<Translation>Kontrolliere zwei Legionäre</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_COURTIERS</zType>
+		<Translation>Habe zwei Vertraute</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_COURTIERS</zType>
+		<Translation>Habe vier Vertraute</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_REVEAL_40</zType>
+		<Translation>Decke 40% der Karte auf</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_REVEAL_60</zType>
+		<Translation>Decke 60% der Karte auf</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_REVEAL_80</zType>
+		<Translation>Decke 80% der Karte auf</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_CAPTURE_THREE_CITIES</zType>
+		<Translation>Erobere drei Städte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_CAPTURE_FOUR_CITIES</zType>
+		<Translation>Erobere vier Städte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_CLEAR_THREE_BARBS</zType>
+		<Translation>Beseitige drei Barbaren Plätze</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_TEMPLES_ZOROASTRIANISM</zType>
+		<Translation>Kontrolliere sechs Zoroastriere Tempel</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_TEMPLES_JUDAISM</zType>
+		<Translation>Kontrolliere sechs Jüdische Tempel</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_THREE_CATHEDRALS_CHRISTIANITY</zType>
+		<Translation>Kontrolliere drei Christliche Kathedralen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_THREE_CATHEDRALS_MANICHAEISM</zType>
+		<Translation>Kontrolliere drei Manichäere Kathedralen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_QUEST_INQUIRING_MINDS</zType>
+		<Translation>Schließe 3 Recherchen ab</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_QUEST_FOUNDING_SIGNS</zType>
+		<Translation>Gründe eine Stadt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_QUEST_KILL_5_ENEMIES</zType>
+		<Translation>Töte 5 Gegner</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_QUEST_KILL_5_BARBS</zType>
+		<Translation>Töte 5 Barbaren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_QUEST_PHILOSOPHY</zType>
+		<Translation>Erlasse Philosophy</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_QUEST_ENACT_ORTHODOXY</zType>
+		<Translation>Erlasse Rechtgläubigkeit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_QUEST_COLOSSUS</zType>
+		<Translation>Kontrolliere Der Koloss von Rhodos</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_NATION_ASSYRIA_STORY</zType>
+		<Translation>      Ich bin Ashurbanipal, König des Universums, Nachfahre großer Könige. Ich war an vierter Reihe für die Nachfolge, aber mein Vater, Esarhaddon, wählte mich wegen meinem Mut und Klugheit aus um über Assyrien zu herrschen während ein älterer Bruder berufen wurde um über entferntes Königreich zu herrschen. Unruhen kommen von seinem Lande und ich muss ihm zeigen wie man der größte aller Könige wird.
+
+      Während mein Vater lebte, war ich als Meisterspion tätig und studierte Anstandsregeln und hatte eine militärische Ausbildung. Ich errichtete die erste methodische Bibliothek der alten Welt, 30 000 Tontafeln umfassend. Ich war bekannt dafür sprachgewandt zu sein, speziell akkadisch und sumerisch machte mich bei einigen alten Familien beliebt.
+
+      Ich beauftragte, dass von nun an jedem erlaubt sei auf die Jag nach Löwen zu gehen, ein öffentliches Ereignis welches für die assyrischen Mitglieder des Königshauses vorbehalten waren.
+    </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_NATION_BABYLONIA_STORY</zType>
+		<Translation>    Sohn eines mesopotamischen Königs und Ehemann von Amytis von Medea und ewiger Verehrer des Gotts Marduk. Im Namen meines Vaters, ich habe meine Stadt Babylon auf das Juwel unseres Gebietes hochgebettet. Ich wurde in militärischen Taktiken ausgebildet, habe Königreiche erobert und Aufstände niedergeschlagen.
+
+    Ich bauete die Hängenden Gärten für meine Ehefrau, so dass sie sich näher zu den Hügeln von Persien fühlen kann und das Ischtar-Tor um Marduk zu ehren. Ich habe sie beide mit dem Aufbereitungweg verbunden und alle Besucher waren verwundert über die Schönheit meines Reiches.
+
+    Unter meiner Herrschaft hatten Frauen das hatten gleiches Recht wie Männer, wir haben Bildungseinrichtungen und Tempel erschaffen und mein Fokus war die Kunst, Kultur, Wissenschaft, Mathematik und Handwerkskunst. In einem Jahrzehnt habe ich Babylon in eine Lichterstadt verwandelt.
+
+ Ich bin Nebukadnezar.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_NATION_CARTHAGE_STORY</zType>
+		<Translation>    Ich bin eine phönizische Prinzessin die von ihrer Heimat in Tyros geflohen ist, mit dem Namen Elissa. Meinem Bruder Pygmalion entkommen, welcher meinen geliebten Ehelmann Acerbas ermordet hat, ein Priester des Hercules, kam ich in Nord-Amerika an.
+
+     Mit den Reichtümern meines Ehemannes, feilschte ich mit dem berberischen König Iarbus welcher mich Heiraten wollte. Ständig höhnisch, mir das ganze Land versprochen, welches ich mit totem Ochsenfell überdecken könnte. Ich zerschnitt das Fell in die kleinsten Stücke, und habe zusammen mit meinen tyrenischen Siedlern, die Grenzen unserer geliebten Stadt ausgelegt.
+
+    Ich bin Bereit um Dido die Streunerin zu werden, Königin von Karthago, Göttin für mein Volk.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_NATION_EGYPT_STORY</zType>
+		<Translation>    Ich bin Hatschepsut, ein weiblicher Pharao, obwohl durch meine komplette Regentschaft offiziell als männlich bezeichnet.
+
+    Ich musste meine Tricks anwenden um auf den Thron zu steigen. Mein gewaltiges Wissen über Religionen nutzend, half mir mich bei meinem Volk beliebt zu machen und sie erklärten mich als Gattin des Gotts Amun. Ich bin, außerdem, königlichen Blutes beiderseits. Verheiratet mit meinem Bruder Thutmose II, gebar ich einen weiblichen Erben, Neferure. Danach konnte ich keine Kinder mehr gebären.
+
+    Gelegentlich trug ich einen Bart aus Metall, aber ein angemessener Preis um mein Volk zu einem besseren Schicksal zu lenken.
+
+    Unter meiner Herrschaft erschuf Ägypten einige Handelsnetze und stellte sich selber als Nation der Erbauer wieder her. Meine Liebe zur Wissenschaft und Bildung erlaubte mir mich mit den höchst talentiertesten Architekten zu befreunden, welche mir geholfen haben die Bauten des Ägyptischen Imperiums in der ganzen Welt bekannt zu machen.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_NATION_GREECE_STORY</zType>
+		<Translation>    Ich bin König Philip II von Makedonien, Sohn von König Amyntas III, Gründer des geeinigten makedonischen Saates.
+
+    Ich habe eine diplomatische und militärische Ausbildung von Epaminondas erhalten und führte ein Bündnis griechischer Staaten ein, bekannt als der Korinthische Bund. Ich verbesserte die alte makedonische Armee und führte die makedonische Phalanx ein.
+
+    Als Jugendlicher, könnte ich einen einen älteren männlichen Liebhaber gehabt haben, ein Feldherr mit dem ich zusammenlebte, namens Pammenes.
+
+    Im Verlauf meines Lebens habe ich sieben mal geheiratet. Eine meiner ehefrauen, Olympia, schenkte mir einen Sohn und ich nannete ihn Alexander. Er wurde in dem Jahr geboren als mein Pferd bei den Olympischen Spielen gewonnen hat. Alexander ist jetzt 13.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_NATION_PERSIA_STORY</zType>
+		<Translation>    Ich bin Kyros der Große, zweiter meines Namens, König der Könige, und Sohn von Kambyses.
+
+    Mein Großvater, König Astyages, vom Imperium der Mitte, hatte vor mich bei meiner Geburt zu töten. Stattdessen lebte ich weiter um sein Königreich zu erobern und es mir anzueignen.
+
+    Ich gründete das erste persische Imperium. Unter meiner Herrschaft sind alle zivilisierten Staaten frei um ihre Götter anzubeten. Ich unterwarf jede Nation ohne Ausnahme.
+
+    Isaiah der Erlöser bezeichnet mich als Messias, nennt mich “Sein Gesalbter.” Ich bin die einzige nicht-jüdische Person der Heiligen Schrift, die so genannt wird.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_NATION_ROME_STORY</zType>
+		<Translation>    Sohn des Gotts Mars. Ich wurde gerettet und aufgezogen von einer Wölfin zusammen mit meinem Zwillingsbruder, Remus. Bewusst seiner durchtriebenen Art, habe ich Vorsicht in seiner Nähe walten lassen und zog weiter um meinen eigenen Stamm zu gründen, nicht bereit meine Macht mit ihm zu teilen.
+
+    Meine bescheidenen Anfänge als ein ungewollter Ausgestoßener halfen mir zähe Krieger, willig an meiner Seite zu kämpfen, zu finden. Nicht gewillt uns ihre Töchter heiraten zu lassen, haben wir sie verschleppt und heirateten sie trotzdem. Jetzt bin ich mit meheren mächtigen Stämmen verbündet.
+
+    Das Bedürfnis die Geschichte umzugestalten ist eine Voraussetzung, und ich werde ein rechtschaffender Anführer gesegnet mit göttlicher Gunst. 
+
+    Ich bin Romulus, und ich habe Rom gegründet, die Stadt, bestimmt die Welt zu beherrschen.</Translation>
+	</Entry>
+	<!--InfoTech-->
+	<Entry>
+		<zType>TEXT_TECH_IRONWORKING</zType>
+		<Translation>Eisenverarbeitung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_STONECUTTING</zType>
+		<Translation>Steinbearbeitung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_STONECUTTING_BONUS_STONE</zType>
+		<Translation>Steinschub</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_TRAPPING</zType>
+		<Translation>Fallenstellen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_DIVINATION</zType>
+		<Translation>Wahrsagungen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_ADMINISTRATION</zType>
+		<Translation>Verwaltung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_LABOR_FORCE</zType>
+		<Translation>Arbeiterschaft</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_HUSBANDRY</zType>
+		<Translation>Landwirtschaft</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_HUSBANDRY_BONUS_FOOD</zType>
+		<Translation>Nahrungsschub</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_DRAMA</zType>
+		<Translation>Schauspiel</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_POLIS</zType>
+		<Translation>Polis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_POLIS_BONUS_SETTLER</zType>
+		<Translation>Freier Siedler</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_MILITARY_DRILL</zType>
+		<Translation>Militärausbildungen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_ARISTOCRACY</zType>
+		<Translation>Hochadel</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_SOVEREIGNTY</zType>
+		<Translation>Herrschaft</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_RHETORIC</zType>
+		<Translation>Redekunst</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_NAVIGATION</zType>
+		<Translation>Nautik</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_NAVIGATION_BONUS_BIREME</zType>
+		<Translation>Freie Bireme</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_PHALANX</zType>
+		<Translation>Phalanx</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_SPOKED_WHEEL</zType>
+		<Translation>Speichenrad</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_SPOKED_WHEEL_BONUS_CHARIOT</zType>
+		<Translation>Freier Streitwagen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_RAMPARTS</zType>
+		<Translation>Befestigungsmauern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_RAMPARTS_BONUS_ARCHER</zType>
+		<Translation>Freier Bogenschütze</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_FORESTRY</zType>
+		<Translation>Forstwirtschaft</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_STEEL</zType>
+		<Translation>Stahl</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_MONASTICISM</zType>
+		<Translation>Mönchswesen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_COMPOSITE_BOW</zType>
+		<Translation>Kompositbögen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_METAPHYSICS</zType>
+		<Translation>Metaphysik</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_CITIZENSHIP</zType>
+		<Translation>Bürgerrechte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_CITIZENSHIP_BONUS_MINISTER</zType>
+		<Translation>Freier großer Minister</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_PORTCULLIS</zType>
+		<Translation>Fallgatter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_PORTCULLIS_BONUS_AXEMAN</zType>
+		<Translation>Freier Axtkämpfer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_LAND_CONSOLIDATION</zType>
+		<Translation>Vereinödung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_LAND_CONSOLIDATION_BONUS_WAR_ELEPHANT</zType>
+		<Translation>Freier Kriegselefant</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_BATTLELINE</zType>
+		<Translation>Kampflinien</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_DOCTRINE</zType>
+		<Translation>Grundsätze</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_DOCTRINE_BONUS_ORDERS</zType>
+		<Translation>Befehlsschub</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_SIEGECRAFT</zType>
+		<Translation>Belagerungskünste</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_COINAGE</zType>
+		<Translation>Münzwesen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_COINAGE_BONUS_MONEY</zType>
+		<Translation>Geldschub</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_SCHOLARSHIP</zType>
+		<Translation>Forschung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_SCHOLARSHIP_BONUS_SCIENTIST</zType>
+		<Translation>Freier großer Wissenschaftler</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_TORSION</zType>
+		<Translation>Drall</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_TORSION_BONUS_BALLISTA</zType>
+		<Translation>Freiee Balliste</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_STIRRUPS</zType>
+		<Translation>Steigbügel</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_STIRRUPS_BONUS_HORSEMAN</zType>
+		<Translation>Freier Reiter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_ARCHITECTURE</zType>
+		<Translation>Bauwesen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_ARCHITECTURE_BONUS_CIVICS</zType>
+		<Translation>Verwaltungsschub</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_MANOR</zType>
+		<Translation>Lehnsgut</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_MANOR_BONUS_GOODS</zType>
+		<Translation>Warenschub</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_MACHINERY</zType>
+		<Translation>Ausrüstungen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_MACHINERY_BONUS_ONAGER</zType>
+		<Translation>Freier Onager</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_MOUNTED_ARCHERY</zType>
+		<Translation>Berittene Bogenschützen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_MOUNTED_ARCHERY_BONUS_HORSE_ARCHER</zType>
+		<Translation>Freier berittener Bogenschütze</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_MOUNTED_ARCHERY_BONUS_CAMEL_ARCHER</zType>
+		<Translation>Freier Kamel Bogenschütze</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_CARTOGRAPHY</zType>
+		<Translation>Kartographie</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_CARTOGRAPHY_BONUS_TRIREME</zType>
+		<Translation>Freie Triere</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_HYDRAULICS</zType>
+		<Translation>Hydraulik</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_HYDRAULICS_BONUS_MERCHANT</zType>
+		<Translation>Freier Großer Kaufmann</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_JURISPRUDENCE</zType>
+		<Translation>Rechtsprechung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_MARTIAL_CODE</zType>
+		<Translation>Kriegerkodex</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_BODKIN_ARROW</zType>
+		<Translation>Bodkin-Spitze</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_BODKIN_ARROW_BONUS_TRAINING</zType>
+		<Translation>Trainingsschub</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_VAULTING</zType>
+		<Translation>Wölbung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_VAULTING_BONUS_BORDERS</zType>
+		<Translation>Grenzenschub</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_UNIT_TACTICS</zType>
+		<Translation>Militärtaktiken</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_UNIT_TACTICS_BONUS_SOLDIER</zType>
+		<Translation>Freier großer Krieger</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_WINDLASS</zType>
+		<Translation>Ankerwinden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_WINDLASS_BONUS_CROSSBOWMAN</zType>
+		<Translation>Freier Armbrustschütze</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_BALLISTICS</zType>
+		<Translation>Ballistics</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_LATEEN_SAIL</zType>
+		<Translation>Lateinersegel</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_LATEEN_SAIL_BONUS_DROMON</zType>
+		<Translation>Freie Dromone</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_BARDING</zType>
+		<Translation>Rossharnische</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_SARISSA</zType>
+		<Translation>Sarissa</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_FISCAL_POLICY</zType>
+		<Translation>Steuerpolitik</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_CHAIN_DRIVE</zType>
+		<Translation>Zahnrad</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_POLITICAL_REFORM</zType>
+		<Translation>Politikreformen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_MILITARY_REFORM</zType>
+		<Translation>Militärreformen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_ECONOMIC_REFORM</zType>
+		<Translation>Wirtschaftsreformen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_BATTERING_RAM_BONUS</zType>
+		<Translation>Freier Rammbock</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_SIEGE_TOWER_BONUS</zType>
+		<Translation>Freier Belagerungsturm</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_AKKADIAN_ARCHER_BONUS</zType>
+		<Translation>Freier akkadischer Bogenschütze</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_CIMMERIAN_ARCHER_BONUS</zType>
+		<Translation>Freier cimmerischer Bogenschütze</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_AFRICAN_ELEPHANT_BONUS</zType>
+		<Translation>Freier afrikanischer Elefant</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_TURRETED_ELEPHANT_BONUS</zType>
+		<Translation>Freier gepanzerter Elefant</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_LIGHT_CHARIOT_BONUS</zType>
+		<Translation>Freier leichter Streitwagen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_KUSHITE_CAVALRY_BONUS</zType>
+		<Translation>Freie kuschitisch Kavallerie</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_HOPLITE_BONUS</zType>
+		<Translation>Freier Hoplit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_PHALANGITE_BONUS</zType>
+		<Translation>Freie Phalanx</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_PALTON_CAVALRY_BONUS</zType>
+		<Translation>Freie Kataphrakt Kavallerie</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_CATAPHRACT_ARCHER_BONUS</zType>
+		<Translation>Freier Kataphrakt Bogenschütze</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_HASTATUS_BONUS</zType>
+		<Translation>Freier Hastati</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_LEGIONARY_BONUS</zType>
+		<Translation>Freier Legionär</Translation>
+	</Entry>
+	<!--InfoYield.Help-->
+	<Entry>
+		<zType>TEXT_YIELD_GROWTH_HELP</zType>
+		<Translation>Wenn das {YIELD_GROWTH} einer Stadt steigt, bekommt die Stadt einen neuen Bürger. Grundlegende Wege um {YIELD_GROWTH} zu steigern beinhaltet das ausbilden von link(SPECIALIST_FARMER,2) und bauen von link(IMPROVEMENTCLASS_BATHS,2).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_YIELD_CIVICS_HELP</zType>
+		<Translation>Wird benutzt um Spezialisten auszubilden und Projekte abzuschließen. Unbenutze {YIELD_CIVICS} wird dem nationalen Vorrat beigefügt, welche benutzt werden kann um Gesetze zu Erlassen und Religionswissenschaft zu etablieren. Steigere {YIELD_CIVICS} durch den Bau von link(IMPROVEMENTCLASS_COURTHOUSE,2) und link(PROJECT_FORUM_1,2).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_YIELD_TRAINING_HELP</zType>
+		<Translation>Wird benutzt um Militäreinheiten auszubilden. Unbenutzes {YIELD_TRAINING} wird dem nationalen Vorrat beigefügt, welches benutzt werden kann um Einheiten zu befördern und zu verbessern. Verstärke {YIELD_TRAINING} durch den Bau von link(IMPROVEMENT_BARRACKS,2) und link(IMPROVEMENT_RANGE,2).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_YIELD_CULTURE_HELP</zType>
+		<Translation>Wenn die {YIELD_CULTURE} einer Stadt sich erhöht, geschieht ein positives Ereignis. Die komplette {YIELD_CULTURE} der Stadt beeinflusst welche Verbesserungen und Wunder gebaut werden können. Erhöhe {YIELD_CULTURE} durch den Bau von link(IMPROVEMENTCLASS_SHRINE,2) und link(IMPROVEMENTCLASS_THEATER,2).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_YIELD_DISCONTENT_HELP</zType>
+		<Translation>Städte schüren {YIELD_DISCONTENT} über die Zeit. Wenn die sich {YIELD_DISCONTENT} einer Stadt vermehrt, erhöht sich seine gesammtes {YIELD_DISCONTENT}, welches die {YIELD_MAINTENANCE} erhöht und {YIELD_GROWTH} reduziert. Benutze link(PROJECT_FESTIVAL,2) um Unruhen {YIELD_DISCONTENT} zu verringern.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_YIELD_SCIENCE_HELP</zType>
+		<Translation>Wird benutzt um Technologien zu erforschen. Steigere {YIELD_SCIENCE} durch den Bau von link(PROJECT_ARCHIVE_1,2) und link(IMPROVEMENTCLASS_LIBRARY,2).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_YIELD_MONEY_HELP</zType>
+		<Translation>Wird benutzt um andere Ressourcen zu kaufen. Steigert {YIELD_MONEY} durch den Bau von link(IMPROVEMENT_HAMLET,2) und link(IMPROVEMENTCLASS_MARKET,2).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_YIELD_MAINTENANCE_HELP</zType>
+		<Translation>Mindert die Anzahl von {YIELD_MONEY} Einkommen die eine Stadt generiert. {YIELD_MAINTENANCE} kann verringert werden wenn die Stadt mit deiner Hauptstadt verbunden wird.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_YIELD_ORDERS_HELP</zType>
+		<Translation>{YIELD_ORDERS} können für verschiedene Aktionen ausgegeben werden, wie etwa bewegen, angreifen und Verbesserungen bauen. Ungenutzte {YIELD_ORDERS} werden für {YIELD_MONEY} am Ende des Jahres verkauft.</Translation>
+	</Entry>
+</Root>

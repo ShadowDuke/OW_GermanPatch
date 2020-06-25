@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<Root>
+	<Entry>
+		<zType/>
+		<zName/>
+		<zDesc/>
+		<bGameplay/>
+		<bDebug/>
+	</Entry>
+	<Entry>
+		<zType>PLAYEROPTION_NO_TUTORIAL</zType>
+		<zName>Deaktiviere Tutorial</zName>
+		<zDesc>Keine Tutorial Nachrichten</zDesc>
+		<bGameplay>1</bGameplay>
+	</Entry>
+	<Entry>
+		<zType>PLAYEROPTION_NO_REPLAY</zType>
+		<zName>Deaktiviere komplette Wiederholung</zName>
+		<zDesc>Der Support der Aufzeichnung der Wiederholung benötigt eine große Menge verfügbaren Arbeitsspeicher.</zDesc>
+		<bGameplay>1</bGameplay>
+	</Entry>
+	<Entry>
+		<zType>PLAYEROPTION_ROLE_PLAYING</zType>
+		<zName>Rollenspiel</zName>
+		<zDesc>Keine popup Hilfe wenn Entscheidungen für die Ereignisse gefällt werden</zDesc>
+		<bGameplay>1</bGameplay>
+	</Entry>
+	<Entry>
+		<zType>PLAYEROPTION_ALL_CANDIDATES</zType>
+		<zName>Alle Beschäftigungskandidaten</zName>
+		<zDesc>Liste Hofrat, Stadthalter und Feldherr Kandidaten welche bereits beschäftigt sind</zDesc>
+		<bGameplay>1</bGameplay>
+	</Entry>
+	<Entry>
+		<zType>PLAYEROPTION_INSTANT_UNIT_MOVEMENT</zType>
+		<zName>Sofortige Einheiten Bewegung</zName>
+		<zDesc>Keine Einheiten Bewegungsanimation</zDesc>
+		<bGameplay>1</bGameplay>
+	</Entry>
+	<Entry>
+		<zType>PLAYEROPTION_NO_UNIT_CYCLING</zType>
+		<zName>Kein Einheiten Wechsel</zName>
+		<zDesc>Wechsle niemals zu einer neuen Einheit</zDesc>
+		<bGameplay>1</bGameplay>
+	</Entry>
+	<Entry>
+		<zType>PLAYEROPTION_FATIGUE_CYCLING</zType>
+		<zName>Müde Einheiten durchwechseln</zName>
+		<zDesc>Müde Einheiten sind im selektierten Einheitenwechsel inbegriffen</zDesc>
+		<bGameplay>1</bGameplay>
+	</Entry>
+	<Entry>
+		<zType>PLAYEROPTION_MOVE_TO_FATIGUE</zType>
+		<zName>Zum Ermüdungslimit bewegen</zName>
+		<zDesc>Ein Klick außerhalb des Ermüdungslimit bewegt die Einheit zur Ecke</zDesc>
+		<bGameplay>1</bGameplay>
+	</Entry>
+	<Entry>
+		<zType>PLAYEROPTION_SHOW_ORDERS_LEFT</zType>
+		<zName>Zeige übrige Befehle</zName>
+		<zDesc>Zeige übrige Befehle für Einheitenbewegungs Wege</zDesc>
+	</Entry>
+	<Entry>
+		<zType>PLAYEROPTION_HIDE_MINIMAP</zType>
+		<zName>Verberge Minimap</zName>
+		<zDesc>Verberge die Minimap im interface.</zDesc>
+	</Entry>
+	<Entry>
+		<zType>PLAYEROPTION_HIDE_COUNCIL</zType>
+		<zName>Verstecke Hofrat</zName>
+		<zDesc>Verberge die Hofrat Tafel im interface.</zDesc>
+	</Entry>
+	<Entry>
+		<zType>PLAYEROPTION_DEBUG_HELP</zType>
+		<zName>Debug Hilfe</zName>
+		<zDesc>Aktiviere Kurzinfos fürs debugging</zDesc>
+	</Entry>
+	<Entry>
+		<zType>PLAYEROPTION_SHOW_SYSTEM_TIME</zType>
+		<zName>Zeige System Zeit</zName>
+		<zDesc>Show system time in the interface.</zDesc>
+	</Entry>
+	<Entry>
+		<zType>PLAYEROPTION_HIDE_LANDMARK_NAMES</zType>
+		<zName>Verberge Wahrzeichen Namen</zName>
+		<zDesc>Verberge Kartenelementnamen (z.b. Gebirge, Vulkane, etc.).</zDesc>
+	</Entry>
+	<Entry>
+		<zType>PLAYEROPTION_FLIP_UNIT_COLORS</zType>
+		<zName>Vertausche Einheiten Farben</zName>
+		<zDesc>Vertausche die Primären und Sekundären Farben.</zDesc>
+	</Entry>
+	<Entry>
+		<zType>PLAYEROPTION_SHOW_RIVAL_FAMILY_COLORS</zType>
+		<zName>Zeige rivalisierende Familien Farben</zName>
+		<zDesc>Zeige Familienfarben für rivalisierende Einheiten an.</zDesc>
+	</Entry>
+	<Entry>
+		<zType>PLAYEROPTION_HIDE_UNIT_MOVEMENT_STEPS</zType>
+		<zName>Verberge Einheiten Bewegungsschritte</zName>
+		<zDesc>Verberge die Bewegungsreichweite für jeden Schritt der ausgewählten Einheit.</zDesc>
+	</Entry>
+	<Entry>
+		<zType>PLAYEROPTION_SHOW_GHOST_UNITS</zType>
+		<zName>Zeige "Geist" Einheiten</zName>
+		<zDesc>Zeige Einheiten die vor kurzem sichtbar waren.</zDesc>
+		<bGameplay>1</bGameplay>
+	</Entry>
+	<Entry>
+		<zType>PLAYEROPTION_MUTE_AUDIO</zType>
+		<zName>Stumm</zName>
+		<zDesc>Es wird keinen Mucks von sich gegeben.</zDesc>
+	</Entry>
+</Root>
