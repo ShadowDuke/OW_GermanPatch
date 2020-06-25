@@ -11,32 +11,32 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_RAID</zType>
-		<zText>Barbarian Raid</zText>
+		<zText>Barbaren Überfall</zText>
 		<iTurns>3</iTurns>
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_PEACE</zType>
-		<zText>Barbarian Peace</zText>
+		<zText>Barbaren Frieden</zText>
 		<iTurns>10</iTurns>
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_TRUCE</zType>
-		<zText>Barbarian Truce</zText>
+		<zText>Barbaren Waffenruhe</zText>
 		<iTurns>10</iTurns>
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_WAR</zType>
-		<zText>Barbarian War</zText>
+		<zText>Barbaren Krieg</zText>
 		<iTurns>10</iTurns>
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_OFFER</zType>
-		<zText>Barbarian Offer</zText>
+		<zText>Barbaren Angebot</zText>
 		<iTurns>10</iTurns>
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_OFFER_ALL</zType>
-		<zText>Barbarian Offer (All)</zText>
+		<zText>Barbaren Angebot (Alle)</zText>
 		<iTurns>4</iTurns>
 	</Entry>
 	<Entry>
@@ -47,26 +47,26 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_CONVERT_RELIGION</zType>
-		<zText>Barbarian Convert Religion</zText>
+		<zText>Barbaren zu Religion konvertiert</zText>
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_ATTACKED_UNIT</zType>
-		<zText>Attacked our Unit(s)</zText>
+		<zText>Unsere Einheit(en) angegriffen</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_ATTACKED_SETTLEMENT</zType>
-		<zText>Attacked our Sites(s)</zText>
+		<zText>Unsere Plätze angegriffen</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_DECLARED_WAR</zType>
-		<zText>Declared War on us</zText>
+		<zText>Uns den Krieg erklärt</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_EXECUTION</zType>
-		<zText>They executed our prisoners.</zText>
+		<zText>Sie haben Gefangene hingerichtet.</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>

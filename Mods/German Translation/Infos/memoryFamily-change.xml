@@ -31,7 +31,7 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_GIVEN_CITY</zType>
-		<zText>Gib uns eine Stadt</zText>
+		<zText>Gibt uns eine Stadt</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -46,7 +46,7 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_OUR_AMBITION</zType>
-		<zText>Unsere Ambition verfolgt </zText>
+		<zText>Unsere Ambition verfolgt</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -56,17 +56,17 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_LEAVE_COUNCIL</zType>
-		<zText>Forced off Coucil</zText>
+		<zText>Hofrat Verbindung unterbrochen</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_BYPASSED_HEIR</zType>
-		<zText>Bypassed Heir</zText>
+		<zText>Erben umgangen</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_REMOVED_LUXURY</zType>
-		<zText>Removed Luxury</zText>
+		<zText>Luxusgut entfernt</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
