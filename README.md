@@ -1,3 +1,5 @@
+*Accidentally deleted the previous repository*
+
 # Old World German Patch
 German localization for **Old World**. (WIP)
 
