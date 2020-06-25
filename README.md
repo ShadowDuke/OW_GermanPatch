@@ -1,9 +1,6 @@
 # Old World German Patch
 German localization for **Old World**. (WIP)
 
-~~If you use the test version of the game, go [here](https://github.com/ShadowDuke/OW_GermanPatch/tree/test-branch)
-(Wenn du die Test Version des Spiels benutzt, [hierhin](https://github.com/ShadowDuke/OW_GermanPatch/tree/test-branch) gehen)~~
-
 Zur [deutschen Anleitung](https://github.com/ShadowDuke/OW_GermanPatch#deutsch) springen.
 
 # English
