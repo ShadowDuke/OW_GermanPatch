@@ -10,7 +10,7 @@ Zur [deutschen Anleitung](https://github.com/ShadowDuke/OW_GermanPatch#deutsch) 
 
 **Delete any previous files/directories from earlier versions of this patch**
 1. [Download](https://github.com/ShadowDuke/OW_GermanPatch/archive/master.zip) the files and put the **"Mods"** directory and the **"Translations"** directory in \Users\\###\Documents\My Games\OldWorld\
-- Help: Windows Explorer; click on Documents; navigate to \My Games\Old World\
+   - Help: Windows Explorer; click on Documents; navigate to \My Games\Old World\
 2. Launch Old World, go to Options -> UI -> Languages -> German and save.
 3. Set up a new game and go to Advanced Setup to find the mod at the bottom and enable it. 
 4. (Return to the leaders choice screen for translated background stories or have a look at the other options to see the whole translation.)
@@ -32,7 +32,7 @@ If you want, you can now support me with a donation at [Paypal](https://www.payp
 
 **Lösche jegliche Dateien/Verzeichnisse vorheriger Versionen des Patches**
 1. [Lade](https://github.com/ShadowDuke/OW_GermanPatch/archive/master.zip) die Dateien herunter und entpacke den **"Mods"** und **"Translations"** Ordner nach \Benutzer\\###\Dokumente\My Games\OldWorld\
-- Hilfe: Windows Explorer; klicke auf Dokumente; navigiere zu \My Games\Old World\
+   - Hilfe: Windows Explorer; klicke auf Dokumente; navigiere zu \My Games\Old World\
 2. Starte Old World, gehe zu Options -> UI -> Languages -> German und speichere. 
 3. Erstelle ein neues Spiel und gehe zu Advanced Setup um den Mod ganz unten zu finden und aktiviere ihn.
 4. (Kehre nun zum Anführer Bildschirm zurück für die Übersetzung der Hintergrund Geschichten oder guck einfach mal bei den anderen Optionen, um die komplette Übersetzung zu sehen.)
