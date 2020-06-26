@@ -20,6 +20,7 @@ Loading an existing savegame should work wihtout the need to do the procedure ag
 
 ## Notes
 
+- Dont mind the read errors popping up saying "missing Unable to find TextType* messages - thats because i translated some stuff from my *archetypes* mod.
 - Its possible you need to restart your game **once** to enable the full main menu translation. Then it should be enabled by default next time you start the game. (Only for the main menu translation)
 - Some things can't be translated, they are still hardcodet in the egine.
 - City names are translated too. For nation Rome - if you own/capture a city which was originally not Rome's, its going to get renamed to the latin name. (apparently Rom still using its "original" names)
@@ -42,6 +43,7 @@ Einen vorhandenen Spielstand zu laden sollte ohne Probleme funktionieren, ohne d
 
 ## Anmerkungen
 
+- Beachtet nicht die roten Fehlermeldungen die beim aktivieren kommen, wie "missing Unable to find TextType* Nachrichten - das passiert, weil ich schon ein paar Sachen für meine andere *archetypes* mod übersetzt habe.
 - Es ist möglich, dass man das Spiel erst **ein mal** neu starten muss, um die komplette Menü Übersetzung zu sehen. Beim nächsten Spielstart wird es dann aber standardmäßig so sein. (Gillt nur für die Menu Übersetzung)
 - Einige Dinge können nicht Übersetzt werden, da sie noch immer fest in der Engine eingebaut sind.
 - Stadtnamen wurden ebenfalls übersetzt. Für Rom als Nation - falls du eine Stadt hast/eroberst die ursprünglich nicht Rom's ist, wird sie zu ihrem lateinischen Namen umbenannt. (anscheinend benutzt Rom aber trotzdem noch die "originalen" Namen)
