@@ -47,7 +47,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_11</zType>
-		<Translation>Wenn du nicht genug Materialien hast um eine Einheit oder Verbesserung zu bauen, halte ALT und klicke um automatsich das zu kaufen, was dir fehlt (Natürlich nur Vorrausgesetzt du hast genug  icon(YIELD_MONEY) .</Translation>
+		<Translation>Wenn du nicht genug Materialien hast um eine Einheit oder Verbesserung zu bauen, halte ALT und klicke um automatsich das zu kaufen, was dir fehlt (Natürlich nur Vorrausgesetzt du hast genug  icon(YIELD_MONEY) ).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_12</zType>
@@ -207,7 +207,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_51</zType>
-		<Translation>Halte [N] um zu zeigen was welche Verbesserung von ir produziert.</Translation>
+		<Translation>Halte [N] um zu zeigen was welche Verbesserung von dir produziert.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_52</zType>

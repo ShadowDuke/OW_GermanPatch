@@ -111,27 +111,27 @@ Für Feldherren erhöht Charisma die Verteidgung der Einheit.
 		<aiYieldRate>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>10</iValue>
+				<iValue>20</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>YIELD_STONE</zIndex>
-				<iValue>10</iValue>
+				<iValue>20</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
-				<iValue>10</iValue>
+				<iValue>20</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
-				<iValue>10</iValue>
+				<iValue>20</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>-10</iValue>
+				<iValue>-30</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>-10</iValue>
+				<iValue>-30</iValue>
 			</Pair>
 		</aiYieldRate>
 		<aiYieldModifier>
@@ -148,12 +148,16 @@ Für Feldherren erhöht Charisma die Verteidgung der Einheit.
 				<iValue>2</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>YIELD_TRAINING</zIndex>
+				<zIndex>YIELD_FOOD</zIndex>
 				<iValue>2</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>2</iValue>
+				<zIndex>YIELD_TRAINING</zIndex>
+				<iValue>-2</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>YIELD_MONEY</zIndex>
+				<iValue>-2</iValue>
 			</Pair>
 		</aiYieldModifier>
 	</Entry>
