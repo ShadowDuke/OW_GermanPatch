@@ -104,12 +104,17 @@ Für Feldherren, erhöht Weisheit die kritische Chance der Einheit.</zHelp>
 		<zColor>COLOR_RATING_FAME</zColor>
 		<zName>Bekanntheit</zName>
 		<zIconName>CultureIcon3</zIconName>
-		<zHelp>Bekanntheit erhöht {YIELD_FOOD}, {YIELD_STONE}, {YIELD_WOOD} und {YIELD_IRON} als Oberhaupt oder Stadthalter.
+		<zHelp>Bekanntheit erhöht {YIELD_ORDERS}, {YIELD_FOOD}, {YIELD_STONE}, {YIELD_WOOD}, {YIELD_IRON} und {YIELD_CULTURE} als Oberhaupt bekommt man doppelt so viel.
+Als Stadthalter erhöht sich {YIELD_CULTURE}, {YIELD_SCIENCE}, {YIELD_CIVIVS}, {YIELD_GRWOTH} und {YIELD_MONEY}.
 Für Feldherren erhöht Charisma die Verteidgung der Einheit.
 		</zHelp>
 		<iDefenseModifier>1</iDefenseModifier>
 		<aiYieldRate>
 			<Pair>
+				<zIndex>YIELD_ORDERS</zIndex>
+				<iValue>10</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
 				<iValue>20</iValue>
 			</Pair>
@@ -126,38 +131,34 @@ Für Feldherren erhöht Charisma die Verteidgung der Einheit.
 				<iValue>20</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>-30</iValue>
+				<zIndex>YIELD_CULTURE</zIndex>
+				<iValue>10</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>-30</iValue>
+				<iValue>-40</iValue>
 			</Pair>
 		</aiYieldRate>
 		<aiYieldModifier>
 			<Pair>
-				<zIndex>YIELD_STONE</zIndex>
+				<zIndex>YIELD_CULTURE</zIndex>
 				<iValue>2</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>YIELD_WOOD</zIndex>
+				<zIndex>YIELD_SCIENCE</zIndex>
 				<iValue>2</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>YIELD_IRON</zIndex>
+				<zIndex>YIELD_CIVICS</zIndex>
 				<iValue>2</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>2</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>-2</iValue>
+				<zIndex>YIELD_GROWTH</zIndex>
+				<iValue>1</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>-2</iValue>
+				<iValue>1</iValue>
 			</Pair>
 		</aiYieldModifier>
 	</Entry>
