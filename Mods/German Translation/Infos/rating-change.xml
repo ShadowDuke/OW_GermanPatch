@@ -105,7 +105,7 @@ Für Feldherren, erhöht Weisheit die kritische Chance der Einheit.</zHelp>
 		<zName>Bekanntheit</zName>
 		<zIconName>CultureIcon3</zIconName>
 		<zHelp>Bekanntheit erhöht {YIELD_ORDERS}, {YIELD_FOOD}, {YIELD_STONE}, {YIELD_WOOD}, {YIELD_IRON} und {YIELD_CULTURE} als Oberhaupt bekommt man doppelt so viel.
-Als Stadthalter erhöht sich {YIELD_CULTURE}, {YIELD_SCIENCE}, {YIELD_CIVIVS}, {YIELD_GRWOTH} und {YIELD_MONEY}.
+Als Stadthalter erhöht sich {YIELD_CULTURE}, {YIELD_SCIENCE}, {YIELD_CIVICS}, {YIELD_GROWTH} und {YIELD_MONEY}.
 Für Feldherren erhöht Charisma die Verteidgung der Einheit.
 		</zHelp>
 		<iDefenseModifier>1</iDefenseModifier>
