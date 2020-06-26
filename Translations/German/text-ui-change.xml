@@ -471,7 +471,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_AMBITION_DESIRED_BY_FAMILY</zType>
-		<Translation>{0} (begehrt vob {1_family} {2_class})</Translation>
+		<Translation>{0} (begehrt von {1_family} {2_class})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_DISCOVERED</zType>
