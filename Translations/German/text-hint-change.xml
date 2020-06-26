@@ -27,7 +27,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_6</zType>
-		<Translation>Trainingicon(YIELD_TRAINING) Lagerung ist begrenzt bei int(MAX_TRAINING). Alles darüber wird ungewandelt in Ordersicon(YIELD_ORDERS).</Translation>
+		<Translation>icon(YIELD_TRAINING) Lagerung ist begrenzt bei int(MAX_TRAINING). Alles darüber wird ungewandelt in icon(YIELD_ORDERS).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_7</zType>
@@ -35,11 +35,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_8</zType>
-		<Translation>Unbenutzte Civicsicon(YIELD_CIVICS) und Trainingicon(YIELD_TRAINING) in deiner Stadt werden zum nationalen Lager hinzugefügt.</Translation>
+		<Translation>Unbenutzte (YIELD_CIVICS) und icon(YIELD_TRAINING) in deiner Stadt werden zum nationalen Lager hinzugefügt.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_9</zType>
-		<Translation>Falls du nicht alle deine Ordersicon(YIELD_ORDERS) benutzen willst, kannst du durch drücken von '5' die aktuelle Runde beenden.</Translation>
+		<Translation>Falls du nicht alle deine icon(YIELD_ORDERS) benutzen willst, kannst du durch drücken von '5' die aktuelle Runde beenden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_10</zType>
@@ -55,111 +55,111 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_13</zType>
-		<Translation>Barbarians are xenophobic tribes hostile to all nations. There are no diplomatic consequences for attacking their units or taking over their land. They have no allies, not even other Barbarians.</Translation>
+		<Translation>Barbaren sind fremdenfeindliche Stämme allen Staaten gegenüber feindlich.Es gibt keine diplomatischen Konsequenzen wenn ihre Einheiten angegriffen werden oder ihr Land übernommen wird. Sie haben keine Verbündeten, nicht mal anderen Barbaren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_14</zType>
-		<Translation>If your territory has scant supplies of Woodicon(YIELD_WOOD), consider training military units that rely on Foodicon(YIELD_FOOD) or Ironicon(YIELD_IRON). Concentrate your limited Woodicon(YIELD_WOOD) supply on building Rural tile improvements.</Translation>
+		<Translation>Wenn dein Land geringe Vorräte von on(YIELD_WOOD), überlege militärische Einheiten auszubilden die auf icon(YIELD_FOOD) ooder icon(YIELD_IRON) angeiwesen sind. Konzentriere deinen begrenzten icon(YIELD_WOOD) Vorrat um ländliche Gebäude zu verbessern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_15</zType>
-		<Translation>Quarries built next to Mountains produce more Stoneicon(YIELD_STONE) for each adjacent Mountain tile. Quarries gain a minor increase when they are built in Arid terrain.</Translation>
+		<Translation>Steinbrüche die neben einem Gebirge gebaut werden prodzieren mehr icon(YIELD_STONE) für jedes angrenzendes Gebirgsfeld. Steinbrüche erhalten einen kleinen Anstieg wenn sie in trockenem Gebiet gebaut werden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_16</zType>
-		<Translation>Lumbermills built adjacent to Camps gain increased Woodicon(YIELD_WOOD) output. (The hunters control predators, forge trails through the forest, etc)</Translation>
+		<Translation>Sägewerke die neben einem Lager gebaut werden erhalten erhöhten icon(YIELD_WOOD) Ertrag. (The hunters control predators, forge trails through the forest, etc)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_17</zType>
-		<Translation>Being at war against several opponents can leave your armies overwhelmed, unable to execute enough Ordersicon(YIELD_ORDERS) to fight effectively on every front. Use diplomacy to avoid this fate, where possible.</Translation>
+		<Translation>Wenn man sich mit zu vielen Gegnern im Krieg befindet wird dies deine Heere überwältigen, unmäglich genug icon(YIELD_ORDERS) auszugeben um effektiv an jeder Front zu kämpfen. Benutze Diplomatie um diesem Schicksal zu entgehen, wenn möglich.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_18</zType>
-		<Translation>Researching your way to the Lumbermill tile improvement takes time. You may need to send Workers to forests and thickets outside your borders, to Chop Woodicon(YIELD_WOOD) from Trees and Scrub.</Translation>
+		<Translation>Zur Sägewerk Verbesserung zu forschen braucht seine Zeit. Es kann möglich sein, dass man Baumiester zu Wäldern und Dickichten schicken muss um icon(YIELD_WOOD) von Bäumen und Unterholz zu fällen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_19</zType>
-		<Translation>Expect demand for Foodicon(YIELD_FOOD) to rise as your cities grow and mature.</Translation>
+		<Translation>Erwarte Verlangen nach icon(YIELD_FOOD) um deine Städte wachsen und reifen zu lassen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_20</zType>
-		<Translation>Upgrading units to more advanced technology is materially expensive, but it can rapidly increase your military might.</Translation>
+		<Translation>Einheiten zu verbessern kann erheblich teuer sein kann aber rasch deine miltärische Macht steigern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_21</zType>
-		<Translation>Roads help units move farther with each icon(YIELD_ORDERS)Order spent, especially when the Road passes through difficult terrain.</Translation>
+		<Translation>Straßen helfen Einheiten dabei mit jedem icon(YIELD_ORDERS) sich weiter zu bewegen, besonders wenn die Straßen durch schweres Gelände führen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_22</zType>
-		<Translation>Ranged units gain an extra tile of Range if positioned on Hills, unless their target is also on Hills.</Translation>
+		<Translation>Fernkampfeinheiten bekommen ein zusätzliches Feld wenn auf einem Hügel platziert, es sei denn das Ziel ist ebenso auf einem Hügel.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_23</zType>
-		<Translation>Parking a military unit on a conquered city site marks the territory as yours, in the eyes of other Nations. Failing to guard a captured city site may see it taken from you by the Settlers of your rivals.</Translation>
+		<Translation>Eine militärische Einheit auf einer eingenommenen Stadtplatz zu platzieren makiert für jedes andere Reich das Gebiet als deines. Scheitert man einen eingenommenen Stadtplatz zu verteidigen kann es sein, dass Siedler deiner Rivalen es von dir nehmen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_24</zType>
-		<Translation>Growing your number of Ordersicon(YIELD_ORDERS) should be a priority. The more territory and units that you control, the more Ordersicon(YIELD_ORDERS) your Nation will need to function and to defend itself.</Translation>
+		<Translation>Die Anzahl deiner icon(YIELD_ORDERS) zu vergrößern sollte Vorrang haben. Je mehr Gebiet und Einheiten du kontrollierst, desto mehr icon(YIELD_ORDERS) wird dein Reich benötigen um zu funktionieren und sich verteidigen zu können.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_25</zType>
-		<Translation>The power of each Law tends to increase, the more that your Nation grows. When choosing research, do not neglect unlocking new Laws.</Translation>
+		<Translation>Die Macht jedes Gesetzes neigt sich zu erhöhen umso mehr dein Reich wächst. Beim erforschen solltest du nicht vernachlässigen neue Gesetze freizuschalten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_26</zType>
-		<Translation>A city may build ships if it controls water tiles labeled as Coast.</Translation>
+		<Translation>Eine Stadt kann Schiffe bauen wenn es ein Wasserfeld kontrolliert welches als Küste gekennzeichnet ist.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_27</zType>
-		<Translation>Scouts can keep an eye on a large number of tiles. They can provide valuable intelligence regarding enemy strength and movements.</Translation>
+		<Translation>Späher können auf eine Menge Felder ein Auge haben. Sie können hinsichtlich gegnerischer Stärke und Bewegungen wertvolle Informationen liefern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_28</zType>
-		<Translation>Cities with high Growthicon(YIELD_GROWTH) train new Settlers, Workers, and Scouts more rapidly.</Translation>
+		<Translation>Städte mit hohem icon(YIELD_GROWTH) bilden neue Siedler, Baumeister und Später schneller aus.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_29</zType>
-		<Translation>The rate at which military units are produced by a city is tied directly to its Trainingicon(YIELD_TRAINING) output.</Translation>
+		<Translation>Die Rate in welchem militärische Einheiten in einer Stadt ausgebildet werden ist direkt an die icon(YIELD_TRAINING) Produktion gebunden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_30</zType>
-		<Translation>The rate at which Projects are completed at a city depends on its Civicsicon(YIELD_CIVICS) output.</Translation>
+		<Translation>Die Rate in welcher Projekte in einer Stadt fertig gestellt werden hängt von der icon(YIELD_CIVICS) Produktion ab.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_31</zType>
-		<Translation>Urban specialists can be upgraded multiple times, greatly increasing the output of an Urban building.</Translation>
+		<Translation>Städtische Spezialisten können mehrere Male verbessert werden um die Produktion eines städtischen Gebäudes erheblich zu steigern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_32</zType>
-		<Translation>Most Urban building types require Stoneicon(YIELD_STONE) to construct. Expect high demand for Stoneicon(YIELD_STONE) as the game matures and you unlock new technologies.</Translation>
+		<Translation>Die meisten Städtischen Gebäude Typen benötigen icon(YIELD_STONE) um konstruiert zu werden. Erwarte hohen Bedarf an icon(YIELD_STONE) da das Spiel sich entwickelt und du neue Technologien freischaltest.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_33</zType>
-		<Translation>Ranged units are efficient in battle, often attacking an enemy without having to spend Ordersicon(YIELD_ORDERS) on movement.</Translation>
+		<Translation>Fernkampfeinheiten sind effizient in Gefächten, oft greifen sie Feine an ohne einen icon(YIELD_ORDERS) zur Bewegung ausgegeben zu haben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_34</zType>
-		<Translation>Cutting Woodicon(YIELD_WOOD) from Scrub costs no Ordersicon(YIELD_ORDERS). If you move a Worker through a Scrub tile on its way to another destination, you can collect some free Woodicon(YIELD_WOOD).</Translation>
+		<Translation>icon(YIELD_WOOD) vom Dickicht zu entfernen kostet keinen icon(YIELD_ORDERS). Wenn du dich auf einem Weg woanders hin mit einen Baumeister durch ein Dickicht Feld bewegst kannst du etwas kostenloses icon(YIELD_WOOD) sammeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_35</zType>
-		<Translation>Militia and Conscript units cannot be Promoted, but they are produced with Growthicon(YIELD_GROWTH) instead of Trainingicon(YIELD_TRAINING). Cities with high Growthicon(YIELD_GROWTH) output may be able to train them rapidly.</Translation>
+		<Translation>Milizen und Rekruten Einheiten können nicht befördert werden aber sie werden mit icon(YIELD_GROWTH) anstatt mit icon(YIELD_TRAINING) ausgebildet. Städte mit hoher icon(YIELD_GROWTH) Produktion können sie zügig ausbilden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_36</zType>
-		<Translation>Mounted units have the Rout ability. When they slay an enemy unit, they occupy that unit's tile. Although they cannot move again, they can attack again if another target is adjacent to them.</Translation>
+		<Translation>Berittene Einheiten haben die Aufstöbern Fähigkeit. Wenn sie eine gegnerische Einheit töten werden sie das Feld der Einheit besetzen. Obwohl sie sich nicht noch mal bewegen kann, kann sie erneut angreifern sofern noch ein Ziel angrenzend an sie ist.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_37</zType>
-		<Translation>Consider spending Trainingicon(YIELD_TRAINING) to give Promotions to some of your units. Units who have engaged in combat and earned experience cost less Trainingicon(YIELD_TRAINING) to promote.</Translation>
+		<Translation>Überlege icon(YIELD_TRAINING) auszugeben um einige deiner Einheiten zu befördern. Einheiten die an einem Gefecht teilgenommen und Erfahrung verdient haben kostet weniger icon(YIELD_TRAINING) um sie zu befördern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_38</zType>
-		<Translation>Tribes are not Nations. When at War with you, only their units near your units or territory pose a threat, unless you anger them enough for them to launch an Invasion.</Translation>
+		<Translation>Volksstämme sind keine Reiche. Wenn sie sich mit dir im Krieg befinden können nur ihre Einheiten in deiner Nähe sowie deinem Gebiet eine Bedrohung für dich darstellen, es sei denn du verärgerst sie so sehr das sie einen Einfall starten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_39</zType>
-		<Translation>Coastal cities control less land than inland cities, but they tend to be less vulnerable to attack.</Translation>
+		<Translation>Küstennahe Städte kontrollieren weniger Land als inländische Stdäte, neigen jedoch dazu weniger verwundbar für Angriffe zu sein.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_40</zType>
