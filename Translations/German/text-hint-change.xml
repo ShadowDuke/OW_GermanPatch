@@ -27,7 +27,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_6</zType>
-		<Translation>icon(YIELD_TRAINING) Lagerung ist begrenzt bei int(MAX_TRAINING). Alles darüber wird ungewandelt in icon(YIELD_ORDERS).</Translation>
+		<Translation>icon(YIELD_TRAINING)  Lagerung ist begrenzt bei int(MAX_TRAINING). Alles darüber wird ungewandelt in  icon(YIELD_ORDERS) .</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_7</zType>
@@ -35,11 +35,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_8</zType>
-		<Translation>Unbenutzte (YIELD_CIVICS) und icon(YIELD_TRAINING) in deiner Stadt werden zum nationalen Lager hinzugefügt.</Translation>
+		<Translation>Unbenutzte   icon((YIELD_CIVICS)  und  icon(YIELD_TRAINING)  in deiner Stadt werden zum nationalen Lager hinzugefügt.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_9</zType>
-		<Translation>Falls du nicht alle deine icon(YIELD_ORDERS) benutzen willst, kannst du durch drücken von '5' die aktuelle Runde beenden.</Translation>
+		<Translation>Falls du nicht alle deine  icon(YIELD_ORDERS)  benutzen willst, kannst du durch drücken von '5' die aktuelle Runde beenden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_10</zType>
@@ -47,7 +47,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_11</zType>
-		<Translation>Wenn du nicht genug Materialien hast um eine Einheit oder Verbesserung zu bauen, halte ALT und klicke um automatsich das zu kaufen, was dir fehlt (Natürlich nur Vorrausgesetzt du hast genug icon(YIELD_MONEY).</Translation>
+		<Translation>Wenn du nicht genug Materialien hast um eine Einheit oder Verbesserung zu bauen, halte ALT und klicke um automatsich das zu kaufen, was dir fehlt (Natürlich nur Vorrausgesetzt du hast genug  icon(YIELD_MONEY) .</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_12</zType>
@@ -59,27 +59,27 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_14</zType>
-		<Translation>Wenn dein Land geringe Vorräte von on(YIELD_WOOD), überlege militärische Einheiten auszubilden die auf icon(YIELD_FOOD) ooder icon(YIELD_IRON) angeiwesen sind. Konzentriere deinen begrenzten icon(YIELD_WOOD) Vorrat um ländliche Gebäude zu verbessern.</Translation>
+		<Translation>Wenn dein Land geringe Vorräte von on(YIELD_WOOD), überlege militärische Einheiten auszubilden die auf  icon(YIELD_FOOD)  ooder  icon(YIELD_IRON)  angeiwesen sind. Konzentriere deinen begrenzten  icon(YIELD_WOOD)  Vorrat um ländliche Gebäude zu verbessern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_15</zType>
-		<Translation>Steinbrüche die neben einem Gebirge gebaut werden prodzieren mehr icon(YIELD_STONE) für jedes angrenzendes Gebirgsfeld. Steinbrüche erhalten einen kleinen Anstieg wenn sie in trockenem Gebiet gebaut werden.</Translation>
+		<Translation>Steinbrüche die neben einem Gebirge gebaut werden prodzieren mehr  icon(YIELD_STONE)  für jedes angrenzendes Gebirgsfeld. Steinbrüche erhalten einen kleinen Anstieg wenn sie in trockenem Gebiet gebaut werden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_16</zType>
-		<Translation>Sägewerke die neben einem Lager gebaut werden erhalten erhöhten icon(YIELD_WOOD) Ertrag. (The hunters control predators, forge trails through the forest, etc)</Translation>
+		<Translation>Sägewerke die neben einem Lager gebaut werden erhalten erhöhten  icon(YIELD_WOOD)  Ertrag. (Die Jäger überwachen die Raubtiere, folgen Spuren durch den Wald, etc.)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_17</zType>
-		<Translation>Wenn man sich mit zu vielen Gegnern im Krieg befindet wird dies deine Heere überwältigen, unmäglich genug icon(YIELD_ORDERS) auszugeben um effektiv an jeder Front zu kämpfen. Benutze Diplomatie um diesem Schicksal zu entgehen, wenn möglich.</Translation>
+		<Translation>Wenn man sich mit zu vielen Gegnern im Krieg befindet wird dies deine Heere überwältigen, unmäglich genug  icon(YIELD_ORDERS)  auszugeben um effektiv an jeder Front zu kämpfen. Benutze Diplomatie um diesem Schicksal zu entgehen, wenn möglich.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_18</zType>
-		<Translation>Zur Sägewerk Verbesserung zu forschen braucht seine Zeit. Es kann möglich sein, dass man Baumiester zu Wäldern und Dickichten schicken muss um icon(YIELD_WOOD) von Bäumen und Unterholz zu fällen.</Translation>
+		<Translation>Zur Sägewerk Verbesserung zu forschen braucht seine Zeit. Es kann möglich sein, dass man Baumiester zu Wäldern und Dickichten schicken muss um  icon(YIELD_WOOD)  von Bäumen und Unterholz zu fällen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_19</zType>
-		<Translation>Erwarte Verlangen nach icon(YIELD_FOOD) um deine Städte wachsen und reifen zu lassen.</Translation>
+		<Translation>Erwarte Verlangen nach  icon(YIELD_FOOD)  um deine Städte wachsen und reifen zu lassen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_20</zType>
@@ -87,7 +87,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_21</zType>
-		<Translation>Straßen helfen Einheiten dabei mit jedem icon(YIELD_ORDERS) sich weiter zu bewegen, besonders wenn die Straßen durch schweres Gelände führen.</Translation>
+		<Translation>Straßen helfen Einheiten dabei mit jedem  icon(YIELD_ORDERS)  sich weiter zu bewegen, besonders wenn die Straßen durch schweres Gelände führen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_22</zType>
@@ -99,7 +99,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_24</zType>
-		<Translation>Die Anzahl deiner icon(YIELD_ORDERS) zu vergrößern sollte Vorrang haben. Je mehr Gebiet und Einheiten du kontrollierst, desto mehr icon(YIELD_ORDERS) wird dein Reich benötigen um zu funktionieren und sich verteidigen zu können.</Translation>
+		<Translation>Die Anzahl deiner  icon(YIELD_ORDERS)  zu vergrößern sollte Vorrang haben. Je mehr Gebiet und Einheiten du kontrollierst, desto mehr  icon(YIELD_ORDERS)  wird dein Reich benötigen um zu funktionieren und sich verteidigen zu können.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_25</zType>
@@ -115,15 +115,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_28</zType>
-		<Translation>Städte mit hohem icon(YIELD_GROWTH) bilden neue Siedler, Baumeister und Später schneller aus.</Translation>
+		<Translation>Städte mit hohem  icon(YIELD_GROWTH)  bilden neue Siedler, Baumeister und Später schneller aus.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_29</zType>
-		<Translation>Die Rate in welchem militärische Einheiten in einer Stadt ausgebildet werden ist direkt an die icon(YIELD_TRAINING) Produktion gebunden.</Translation>
+		<Translation>Die Rate in welchem militärische Einheiten in einer Stadt ausgebildet werden ist direkt an die  icon(YIELD_TRAINING)  Produktion gebunden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_30</zType>
-		<Translation>Die Rate in welcher Projekte in einer Stadt fertig gestellt werden hängt von der icon(YIELD_CIVICS) Produktion ab.</Translation>
+		<Translation>Die Rate in welcher Projekte in einer Stadt fertig gestellt werden hängt von der  icon(YIELD_CIVICS)  Produktion ab.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_31</zType>
@@ -131,19 +131,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_32</zType>
-		<Translation>Die meisten Städtischen Gebäude Typen benötigen icon(YIELD_STONE) um konstruiert zu werden. Erwarte hohen Bedarf an icon(YIELD_STONE) da das Spiel sich entwickelt und du neue Technologien freischaltest.</Translation>
+		<Translation>Die meisten Städtischen Gebäude Typen benötigen   icon(YIELD_STONE)  um konstruiert zu werden. Erwarte hohen Bedarf an  icon(YIELD_STONE)  da das Spiel sich entwickelt und du neue Technologien freischaltest.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_33</zType>
-		<Translation>Fernkampfeinheiten sind effizient in Gefächten, oft greifen sie Feine an ohne einen icon(YIELD_ORDERS) zur Bewegung ausgegeben zu haben.</Translation>
+		<Translation>Fernkampfeinheiten sind effizient in Gefächten, oft greifen sie Feine an ohne einen  icon(YIELD_ORDERS)  zur Bewegung ausgegeben zu haben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_34</zType>
-		<Translation>icon(YIELD_WOOD) vom Dickicht zu entfernen kostet keinen icon(YIELD_ORDERS). Wenn du dich auf einem Weg woanders hin mit einen Baumeister durch ein Dickicht Feld bewegst kannst du etwas kostenloses icon(YIELD_WOOD) sammeln.</Translation>
+		<Translation>icon(YIELD_WOOD) vom Dickicht zu entfernen kostet keinen  icon(YIELD_ORDERS) . Wenn du dich auf einem Weg woanders hin mit einen Baumeister durch ein Dickicht Feld bewegst kannst du etwas kostenloses  icon(YIELD_WOOD)  sammeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_35</zType>
-		<Translation>Milizen und Rekruten Einheiten können nicht befördert werden aber sie werden mit icon(YIELD_GROWTH) anstatt mit icon(YIELD_TRAINING) ausgebildet. Städte mit hoher icon(YIELD_GROWTH) Produktion können sie zügig ausbilden.</Translation>
+		<Translation>Milizen und Rekruten Einheiten können nicht befördert werden aber sie werden mit  icon(YIELD_GROWTH)  anstatt mit  icon(YIELD_TRAINING)  ausgebildet. Städte mit hoher  icon(YIELD_GROWTH)  Produktion können sie zügig ausbilden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_36</zType>
@@ -151,7 +151,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_37</zType>
-		<Translation>Überlege icon(YIELD_TRAINING) auszugeben um einige deiner Einheiten zu befördern. Einheiten die an einem Gefecht teilgenommen und Erfahrung verdient haben kostet weniger icon(YIELD_TRAINING) um sie zu befördern.</Translation>
+		<Translation>Überlege  icon(YIELD_TRAINING)  auszugeben um einige deiner Einheiten zu befördern. Einheiten die an einem Gefecht teilgenommen und Erfahrung verdient haben kostet weniger  icon(YIELD_TRAINING)  um sie zu befördern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_38</zType>
