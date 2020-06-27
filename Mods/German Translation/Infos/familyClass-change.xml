@@ -2,53 +2,6 @@
 <!-- edited with XMLSpy v2014 rel. 2 sp1 (x64) (http://www.altova.com) by Soren Johnson (private) -->
 <Root>
 	<Entry>
-		<zType/>
-		<zName/>
-		<zCharacterPortraitBackground/>
-		<Crest/>
-		<SeatCrest/>
-		<iFoundCostBase/>
-		<iFoundCostPer/>
-		<iOurGovernorUs/>
-		<iTheirGovernorUs/>
-		<iOurGovernorThem/>
-		<iLeaderHeirOpinion/>
-		<iLeaderSpouseOpinion/>
-		<iDescendantSpouseOpinion/>
-		<iLeaderNotAdultOpinion/>
-		<iLeaderUnmarriedOpinion/>
-		<iLeaderBarbarianSpouseOpinion/>
-		<iNoCouncilOpinion/>
-		<iLuxuryOpinion/>
-		<iWonderOpinion/>
-		<iHolyCityOpinion/>
-		<iPopulationOpinion/>
-		<iLargestMilitaryOpinion/>
-		<iSmallestMilitaryOpinion/>
-		<iMostCitiesOpinion/>
-		<iFewestCitiesOpinion/>
-		<iNoReligionOpinion/>
-		<iNotConnectedOpinion/>
-		<iCityDamagedOpinion/>
-		<iCityDefendedOpinion/>
-		<iPillagedOpinion/>
-		<iUnitInsideOpinion/>
-		<iHostileUnitOpinion/>
-		<bPrefersDistant/>
-		<EffectUnit/>
-		<EffectCity/>
-		<SeatEffectCity/>
-		<SeatFoundBonus/>
-		<FoundBonus/>
-		<aiDowryYieldBase/>
-		<aiDowryYieldPer/>
-		<aiLuxuryMissingOpinion/>
-		<aiLawOpinion/>
-		<aiStateTheologyOpinion/>
-		<aiTheologyOpinion/>
-		<aiTraitDie/>
-	</Entry>
-	<Entry>
 		<zType>FAMILY_CLASS_LANDOWNERS</zType>
 		<zName>Landbesitzer</zName>
 		<zCharacterPortraitBackground>PORTRAIT_BACKGROUND_FAMILY_CLASS</zCharacterPortraitBackground>
@@ -139,6 +92,22 @@
 				<zIndex>TRAIT_HERO_ARCHETYPE</zIndex>
 				<iValue>1</iValue>
 			</Pair>
+			<Pair>
+				<zIndex>TRAIT_SKYEXPLORER_ARCHETYPE</zIndex>
+				<iValue>5</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_CORRUPTIONIST_ARCHETYPE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_ARTIST_ARCHETYPE</zIndex>
+				<iValue>5</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_MERCHANT_ARCHETYPE</zIndex>
+				<iValue>5</iValue>
+			</Pair>
 		</aiTraitDie>
 	</Entry>
 	<Entry>
@@ -218,6 +187,22 @@
 			<Pair>
 				<zIndex>TRAIT_HERO_ARCHETYPE</zIndex>
 				<iValue>10</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_SKYEXPLORER_ARCHETYPE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_CORRUPTIONIST_ARCHETYPE</zIndex>
+				<iValue>2</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_ARTIST_ARCHETYPE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_MERCHANT_ARCHETYPE</zIndex>
+				<iValue>1</iValue>
 			</Pair>
 		</aiTraitDie>
 	</Entry>
@@ -312,6 +297,14 @@
 				<zIndex>TRAIT_HERO_ARCHETYPE</zIndex>
 				<iValue>1</iValue>
 			</Pair>
+			<Pair>
+				<zIndex>TRAIT_SKYEXPLORER_ARCHETYPE</zIndex>
+				<iValue>2</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_CORRUPTIONIST_ARCHETYPE</zIndex>
+				<iValue>5</iValue>
+			</Pair>
 		</aiTraitDie>
 	</Entry>
 	<Entry>
@@ -404,6 +397,22 @@
 				<zIndex>TRAIT_HERO_ARCHETYPE</zIndex>
 				<iValue>1</iValue>
 			</Pair>
+			<Pair>
+				<zIndex>TRAIT_SKYEXPLORER_ARCHETYPE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_CORRUPTIONIST_ARCHETYPE</zIndex>
+				<iValue>3</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_ARTIST_ARCHETYPE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_MERCHANT_ARCHETYPE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
 		</aiTraitDie>
 	</Entry>
 	<Entry>
@@ -494,6 +503,22 @@
 				<zIndex>TRAIT_HERO_ARCHETYPE</zIndex>
 				<iValue>1</iValue>
 			</Pair>
+			<Pair>
+				<zIndex>TRAIT_SKYEXPLORER_ARCHETYPE</zIndex>
+				<iValue>5</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_CORRUPTIONIST_ARCHETYPE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_ARTIST_ARCHETYPE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_MERCHANT_ARCHETYPE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
 		</aiTraitDie>
 	</Entry>
 	<Entry>
@@ -578,6 +603,22 @@
 			</Pair>
 			<Pair>
 				<zIndex>TRAIT_HERO_ARCHETYPE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_SKYEXPLORER_ARCHETYPE</zIndex>
+				<iValue>5</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_SKYEXPLORER_ARCHETYPE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_ARTIST_ARCHETYPE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_MERCHANT_ARCHETYPE</zIndex>
 				<iValue>1</iValue>
 			</Pair>
 		</aiTraitDie>
@@ -674,6 +715,22 @@
 				<zIndex>TRAIT_HERO_ARCHETYPE</zIndex>
 				<iValue>1</iValue>
 			</Pair>
+			<Pair>
+				<zIndex>TRAIT_SKYEXPLORER_ARCHETYPE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_CORRUPTIONIST_ARCHETYPE</zIndex>
+				<iValue>5</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_ARTIST_ARCHETYPE</zIndex>
+				<iValue>5</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_MERCHANT_ARCHETYPE</zIndex>
+				<iValue>15</iValue>
+			</Pair>
 		</aiTraitDie>
 	</Entry>
 	<Entry>
@@ -765,6 +822,22 @@
 				<zIndex>TRAIT_HERO_ARCHETYPE</zIndex>
 				<iValue>1</iValue>
 			</Pair>
+			<Pair>
+				<zIndex>TRAIT_SKYEXPLORER_ARCHETYPE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_CORRUPTIONIST_ARCHETYPE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_ARTIST_ARCHETYPE</zIndex>
+				<iValue>15</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_MERCHANT_ARCHETYPE</zIndex>
+				<iValue>9</iValue>
+			</Pair>
 		</aiTraitDie>
 	</Entry>
 	<Entry>
@@ -853,6 +926,14 @@
 			<Pair>
 				<zIndex>TRAIT_HERO_ARCHETYPE</zIndex>
 				<iValue>5</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_SKYEXPLORER_ARCHETYPE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_CORRUPTIONIST_ARCHETYPE</zIndex>
+				<iValue>1</iValue>
 			</Pair>
 		</aiTraitDie>
 	</Entry>
@@ -945,6 +1026,14 @@
 			<Pair>
 				<zIndex>TRAIT_HERO_ARCHETYPE</zIndex>
 				<iValue>5</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_SKYEXPLORER_ARCHETYPE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_CORRUPTIONIST_ARCHETYPE</zIndex>
+				<iValue>3</iValue>
 			</Pair>
 		</aiTraitDie>
 	</Entry>

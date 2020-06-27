@@ -53,6 +53,10 @@
 				<zIndex>TRAIT_SKYEXPLORER_ARCHETYPE</zIndex>
 				<bValue>1</bValue>
 			</Pair>
+			<Pair>
+				<zIndex>TRAIT_ARTIST_ARCHETYPE</zIndex>
+				<bValue>1</bValue>
+			</Pair>
 		</abTraitPrereq>
 	</Entry>
 	<Entry>
