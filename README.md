@@ -1,7 +1,7 @@
 *Accidentally deleted the previous repository*
 
 # Old World German Patch
-German localization for **Old World**. (WIP)
+German localization for **Old World** for **Version: 0.1.39753**. (WIP)
 
 Zur [deutschen Anleitung](https://github.com/ShadowDuke/OW_GermanPatch#deutsch) springen.
 
@@ -42,7 +42,7 @@ If you want, you can now support me with a donation at [Paypal](https://www.payp
 5. Nun erstelle ganz normal ein Spiel wie immer und starte es.
 
 **Um den vollständigen patch (Schritt 3) auf einem gespeicherten Spiel auf englisch zu aktivierenh**, suche dein save in \Dokumente\My Games\Old World\Save\.. und bearbeite die Datei mit einem Editor.
-Auf der 5 Zeile steht *Version* bearbeite die Zeile das es so aussieht, **Version="Version: 0.1.39753+German+German Translation=-1182266509"** - gehe sicher das Deutsch in den Optionen bei UI eingestellt ist oder aktiviere es im Spiel selber in den Optionen. 
+Auf der 5 Zeile steht *Version* bearbeite die Zeile das es so aussieht, **Version="Version: 0.1.39753+German+German Translation=-1182266509"** - gehe sicher das Deutsch in den Optionen bei UI eingestellt ist oder aktiviere es im Spiel selber in den Optionen.
 
 Einen vorhandenen Spielstand zu laden sollte ohne Probleme funktionieren, ohne dass man das ganze noch ein mal so einstellen muss. Die Sprache wird in den Optionen gesspeichert.
 
