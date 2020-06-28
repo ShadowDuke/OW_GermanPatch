@@ -192,7 +192,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_GARRISON</zType>
-		<Translation>Besatzung</Translation>
+		<Translation>Besatzer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BLOODTHIRSTY</zType>
@@ -220,11 +220,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_EXPLORING</zType>
-		<Translation>Erkunden</Translation>
+		<Translation>Erkunder</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_TRAVELING</zType>
-		<Translation>Reisend</Translation>
+		<Translation>Reisender</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BRAVE</zType>
@@ -240,7 +240,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_HORSEBANE</zType>
-		<Translation>Unheil</Translation>
+		<Translation>Unheilig</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_AGGRESSOR</zType>
@@ -248,7 +248,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BOLD</zType>
-		<Translation>Mutig</Translation>
+		<Translation>Mutige</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_COWARDLY</zType>

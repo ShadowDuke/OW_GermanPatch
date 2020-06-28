@@ -27,7 +27,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_6</zType>
-		<Translation>icon(YIELD_TRAINING)  Lagerung ist begrenzt bei int(MAX_TRAINING). Alles darüber wird ungewandelt in  icon(YIELD_ORDERS) .</Translation>
+		<Translation>icon(YIELD_TRAINING)  Lagerung ist begrenzt bist  int(MAX_TRAINING) . Alles darüber wird ungewandelt in  icon(YIELD_ORDERS) .</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_7</zType>
@@ -59,7 +59,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_14</zType>
-		<Translation>Wenn dein Land geringe Vorräte von on(YIELD_WOOD), überlege militärische Einheiten auszubilden die auf  icon(YIELD_FOOD)  ooder  icon(YIELD_IRON)  angeiwesen sind. Konzentriere deinen begrenzten  icon(YIELD_WOOD)  Vorrat um ländliche Gebäude zu verbessern.</Translation>
+		<Translation>Wenn dein Land geringe Vorräte von  icon(YIELD_WOOD) , überlege militärische Einheiten auszubilden die auf  icon(YIELD_FOOD)  ooder  icon(YIELD_IRON)  angeiwesen sind. Konzentriere deinen begrenzten  icon(YIELD_WOOD)  Vorrat um ländliche Gebäude zu verbessern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_15</zType>

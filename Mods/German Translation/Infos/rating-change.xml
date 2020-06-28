@@ -108,7 +108,7 @@ Für Feldherren, erhöht Weisheit die kritische Chance der Einheit.</zHelp>
 Als Stadthalter erhöht sich {YIELD_CULTURE}, {YIELD_SCIENCE}, {YIELD_CIVICS}, {YIELD_GROWTH} und {YIELD_MONEY}.
 Für Feldherren erhöht Charisma die Verteidgung der Einheit.
 		</zHelp>
-		<iDefenseModifier>1</iDefenseModifier>
+		<iDefenseModifier>3</iDefenseModifier>
 		<aiYieldRate>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
