@@ -664,31 +664,31 @@ How shall we respond?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_CONTACT</zType>
-		<Translation>We have encountered citizens of the nation of {PLAYER-0}. While not overtly hostile, these strangers seem wary of our people.
+		<Translation>Wir sind Bürgern des Reiches von {PLAYER-0} begegnet. Obwohl nicht offenkundig feindselig, sind diese Fremden unserer Götter misstrausich gegenüber.
 
-How shall we approach the {PLAYER-0,2}? </Translation>
+HWie sollen wir an {PLAYER-0,2} herangehen? </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_CONTACT_01</zType>
-		<Translation>Scouts encounter an expedition of strangers following a similar route. They call themselves {PLAYER-0,2} and hail from a distant land beyond the horizon. Sharing a cordial meal, the two groups exchange stories and souvenirs.
+		<Translation>Späher sind einem fremden Streifzug unverhofft begegnet die einem ähnlichen Weg folgen. Sie nennen sich selber {PLAYER-0,2} und grüßen von einem Feld hinter dem Horizont. Eine herzliches Mahlzeit teilend, tauschen die zwei Gruppen Geschichten und Andenken.
 
-How shall our scouts conclude this meeting? </Translation>
+Wie sollen unsere Späher dieses Treffen beschließen? </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_CONTACT_02</zType>
-		<Translation>Messengers from the nation of {PLAYER-0} greet our scouts, inviting them to an informal gathering. These agents of the {PLAYER-0,1} court appear pleased to make contact with our nation, and they encourage warm relations.
+		<Translation>Boten des Reiches von {PLAYER-0} grüßen unsere Späher und laden sie zu einem formlosen Treffen ein. Diese Vertreter vom {PLAYER-0,1} Hoftstaat scheinen erfreut mit unserem Reich in Kontakt getreten zu sein und sie hoffen auf gute Beziehungen zwischen uns.
 
-How shall we respond?</Translation>
+Wie sollen wir erwiedern?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_FRIEND_OR_FOE</zType>
-		<Translation>Our troops encounter a group of traveling artisans. They say that their nation of {PLAYER-0,0} has already established a great civilization in distant lands, but they wish to see the world.
+		<Translation>Unsere Truppen begegnem einer Gruppe von reisenden Handwerkern. Sie sagen, das ihr Reich von {PLAYER-0,0} bereits eine große Zivilisation in entferntern Ländern errichtet hat aber sie würden gerne die ganze Welt sehen.
 
-What shall we tell them?</Translation>
+Was sollen wir ihnen sagen?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEIGHBORS</zType>
-		<Translation>You have made contact with the {PLAYER-0,2}. What is our demeanor as you approach them?</Translation>
+		<Translation>Du hast mit {PLAYER-0,2} Kontakt hergestellt. Wie ist dein Verhalten als du dich ihnen näherst?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEIGHBORS_HUMBLE_ASSYRIA_ROOT</zType>
@@ -710,9 +710,9 @@ Will we tolerate such insults?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEIGHBORS_HUMBLE</zType>
-		<Translation><![CDATA[Diplomats from {PLAYER-0,0} seek the court's recognition. They claim that their ruler respects {PLAYER-1} and humbly wishes to establish relations.
+		<Translation><![CDATA[Gesandte von {PLAYER-0,0} begehren des Hofstaates Würdigung. Sie behaupten ihr Oberhaupt respektiert {PLAYER-1} und wünscht demütig Beziehungen aufzubauen.
 
-How shall we respond?]]></Translation>
+Wie sollen wir antworten?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEIGHBORS_HUMBLE_WELCOME_EGYPT</zType>
@@ -739,31 +739,31 @@ How shall we respond?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEIGHBORS_HUMBLE_WELCOME</zType>
-		<Translation><![CDATA[Merchants from {PLAYER-0,0} offer to trade us materials in exchange for works of art produced by our potters, painters, and sculptors.]]></Translation>
+		<Translation><![CDATA[Händler von {PLAYER-0,0} bieten an mit uns Rohstoffe im Austausch für hergestellte Kunst von unseren Töpfern und Bildhauern zu tauschen.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEIGHBORS_HUMBLE_IGNORE</zType>
-		<Translation>Enterprising traders from {PLAYER-0,0} find themselves with a grain surplus, and they are eager to do business. They wish to provide food in exchange for our fine lumber.
+		<Translation>Geschäftstüchtige Kaufmänner von {PLAYER-0,0} haben eonen Überschuss von Getreide und sie sind begierig Geschäfte zu machen. Sie wünschen uns im Austausch für unser ausgeichnetes Bauholz mit Essen zu versorgen.
 
 Shall we agree to this trade?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEIGHBORS_HUMBLE_REFUSE</zType>
-		<Translation>{PLAYER-0,1} spies have been captured infiltrating our territory. They were sent to gather information about our nation, but we do not know why. It is troubling.
+		<Translation>{PLAYER-0,1} Spione wurden beim eindringen in unser Gebiet gefangen genommen. Sie wurden geschickt um Informationen über unser Reich zu sammeln, aber wir wissen nicht warum. Es ist beunruhigend.
 
-We must send a strong message to {PLAYER-0}.</Translation>
+Wir müssen eine starke Botschaft an {PLAYER-0} schicken.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEIGHBORS_HUMBLE_REFUSE_SPIES_SPARED</zType>
-		<Translation>A royal emissary arrives from {PLAYER-0,0} with a message of friendship. "Your people tend to be secretive, which led us to distrust you. However, the mercy that you showed our spies, has reassured us."
+		<Translation>Ein könglicher Abgesandter von {PLAYER-0,0} ist eingetroffen, mit einer Botschaft für Freundschaft. "Euer Volk neigt dazu verschlossen zu sein, was uns dazu brachte euch zu misstrauen. Jedoch hat die Gnade die ihr unserem Spion habt Walte lassen uns beruhigt."
 
-It seems that {PLAYER-0} desires peace. What shall we reply?</Translation>
+Es scheint als würde {PLAYER-0} Frieden begehren. Was sollen wir entgegen?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEIGHBORS_HUMBLE_WELCOME_PEACE</zType>
-		<Translation><![CDATA[Scouts report that {CHARACTER-0} of {PLAYER-0,0} has become an admirer of {PLAYER-1,1} works of art. <masculine_CHARACTER-0>He<feminine>She<end> seeks closer relations with us, wishing to acquire more pieces for <masculine_CHARACTER-0>his<feminine>her<end> collection.
+		<Translation><![CDATA[Späher berichten das {CHARACTER-0} von {PLAYER-0,0} ein Bewunderer von {PLAYER-1,1} Kunstwerke wurde.<masculine_CHARACTER-0>Er<feminine>Sie<end> sucht annäherung mit uns und erhofft sich mehr Teile für <masculine_CHARACTER-0>seine<feminine>ihre<end> Sammlung .
 
-Shall we indulge {CHARACTER-SHORT-0}?]]></Translation>
+Sollen wir {CHARACTER-SHORT-0} nachgeben?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEIGHBORS_HUMBLE_PERSIA_EXCHANGE</zType>
@@ -844,7 +844,7 @@ What will be our answer?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEIGHBORS_FRIENDLY</zType>
-		<Translation>Weary riders enter the capital with a message: the ruler of {PLAYER-0} wishes you warm greetings and would like to establish friendly relations.
+		<Translation>Erschöpfte Reiter betreten die Hauptstadt mit einer Botschaft: das Oberhaupt von {PLAYER-0} wünscht dir herzliche Grüße und würde gerne freundliche Beziehungen aufbauen.
 
 We know little of these {PLAYER-0,2}. How shall we proceed? </Translation>
 	</Entry>
@@ -868,9 +868,9 @@ What shall we tell <masculine_CHARACTER-0>him<feminine>her<end>?  ]]></Translati
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEIGHBORS_FRIENDLY_WELCOME</zType>
-		<Translation>An emissary from {PLAYER-0,0} comes before the court. His robes are torn and shabby, and he glances around anxiously as he makes a plea. "These are troubled times. If our people were experiencing hardship, would you be there to aid us?"
+		<Translation>Ein Abgesandter von {PLAYER-0,0} tritt vor den Hofstaat. Seine Robe ist zerrissen und abgetragen,  er schweift mit den Blicken umher als er ein Gesuch erbringt."Dies sind beunruhigende Zeiten. Wenn unser Volk elend erfährt, wären sie da gewesen um uns zu helfen?"
 
-What commitments shall we make to {PLAYER-0}?</Translation>
+Welche Verbindlichkeiten sollen wir an {PLAYER-0} leisten?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEIGHBORS_FRIENDLY_LAVISH_GREECE</zType>
@@ -949,9 +949,9 @@ What shall we say to this offer?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEIGHBORS_PRIDEFUL</zType>
-		<Translation>A contingent from distant {PLAYER-0} arrives in the capital, banners flapping. As they enter the court, they bow respectively, requesting the honor of establishing relations with {PLAYER-1}.
+		<Translation>Ein Aufgebot vom entferten {PLAYER-0} kommt in der Hauptstadt an, die Banner flatternd. Als sie dem Hofraat eintreten, knien sie ehrevoll nieder und bitten um die Ehre mit {PLAYER-1} Beziehungen herzustellen.
 
-How shall we respond?</Translation>
+Wie sollen wir antworten?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEIGHBORS_PRIDEFUL_BABYLON</zType>
@@ -1104,9 +1104,9 @@ What are our orders? </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CONTACT_THE_INJURED_PLAYER</zType>
-		<Translation>Shouts from the trees! Our men hurry towards the noise and discover an injured {PLAYER-0,1} lying in the dirt. His companions work frantically to treat his wounds. 
+		<Translation>Schreie aus den Bäumen! Unsere Männer eilen gen des Geräusches und entdecken im Dreck liegend einen verletzten {PLAYER-0,1}. Seine Gefährten arbeiten verzweifelt seine Wunden zu behandeln. 
 
-According to the men, their caravan was transporting goods to the nearest {PLAYER-0,1} city, when they were attacked by bandits. They managed to repel the attackers and save their cargo of fine wine.</Translation>
+Nach Auskunft der Männer, hat ihre Karawane Waren zu der nähesten Stadt von {PLAYER-0,1} transportiert als sie von Banditen angegriffen wurden. Ihnen ist es gelungen sich zu wehren und ihre Ladung von gutem Wein zu retten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CONTACT_POLITICAL_PRISONER</zType>
@@ -1206,7 +1206,7 @@ Several of our minor courtiers claim that the boorish fool, Pieface, is in fact 
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BARBARIAN_TRUCE_OFFER</zType>
-		<Translation><![CDATA[The {BARBARIAN-0,0} approach us asking for a truce. Do we approve the terms?]]></Translation>
+		<Translation><![CDATA[Die {BARBARIAN-0,0} kontaktieren uns sich nach Waffenruhe zu erkundigen. Stimmen wir den Bedingungen zu?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BARBARIAN_WAR</zType>
@@ -1867,15 +1867,15 @@ The dalliance continues for the rest of the evening, causing much heated gossip 
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYERS_POSITIVE_OPINION_1</zType>
-		<Translation>[STUB: YOU HAVE AN OPPORTUNITY TO IMPROVE RELATIONS SIGNIFICANTLY WITH EITHER {PLAYER-0} or {PLAYER-1}]</Translation>
+		<Translation>[STUB: DU HAST DIE MÖGLICHKEIT DIE BEZIEHUNGEN ENTWEDER MIT {PLAYER-0} ODER {PLAYER-1} ERHEBLICH ZU VERBESSERN]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYERS_POSITIVE_OPINION_2</zType>
-		<Translation>[STUB: YOU HAVE AN OPPORTUNITY TO IMPROVE RELATIONS SIGNIFICANTLY WITH EITHER {PLAYER-0} or {PLAYER-1}]</Translation>
+		<Translation>[STUB: DU HAST DIE MÖGLICHKEIT DIE BEZIEHUNGEN ENTWEDER MIT {PLAYER-0} ODER {PLAYER-1} ERHEBLICH ZU VERBESSERN]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYERS_POSITIVE_OPINION_3</zType>
-		<Translation>[STUB: YOU HAVE AN OPPORTUNITY TO IMPROVE RELATIONS SIGNIFICANTLY WITH EITHER {PLAYER-0} or {PLAYER-1}]</Translation>
+		<Translation>[STUB: DU HAST DIE MÖGLICHKEIT DIE BEZIEHUNGEN ENTWEDER MIT {PLAYER-0} ODER {PLAYER-1} ERHEBLICH ZU VERBESSERN]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CARAVAN_OF_LOVE</zType>
@@ -1917,13 +1917,13 @@ Should we accept?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ORDER_OF_BUSINESS</zType>
-		<Translation><![CDATA[It is a day of glorious news!
+		<Translation><![CDATA[Es ist ein Tag für wundervolle Nachrichten!
 
-Your {RELATIVE-2} and heir, {CHARACTER-2}, was born!
-Our great general, {CHARACTER-0}, won a  decisive victory.
-Your favorite horse won the Annual Tourney.
+Euer {RELATIVE-2} und Erbe, {CHARACTER-2}, wurde geboren!
+Unser großer general, {CHARACTER-0}, hat einen ausschlaggebend Sieg errungen.
+Euer Lieblingspferd hat das alljährliche Tunier gewonnen.
 
-What shall we celebrate first?]]></Translation>
+Was sollen wir zuerst feiern?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_WAR_BLUNDERS</zType>
@@ -1949,9 +1949,9 @@ How shall we fix it?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BATTLEFIELD_PROMOTION</zType>
-		<Translation><![CDATA[One of our {UNIT-1} units showed exemplary courage on the battlefield. Its general merit a promotion. 
+		<Translation><![CDATA[Einer unserer {UNIT-1} Einheiten hat sich auf dem Schlachtfeld mustergültig Mutig gezeigt. Sein Feldherr würdigt ihn mit einer Beförderung. 
 
-How shall <masculine_CHARACTER-1>he<feminine>she<end> be recognized?]]></Translation>
+Sie sollSie soll <masculine_CHARACTER-1>er<feminine>sie<end> erkannt werden?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HONOR_AND_GLORY</zType>

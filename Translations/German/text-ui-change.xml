@@ -395,11 +395,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_WINNER_ROSTER_VICTORY</zType>
-		<Translation>SIEG!!!</Translation>
+		<Translation>ERFOLG!!!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_WINNER_ROSTER_LOSS</zType>
-		<Translation>VERLOREN!!!</Translation>
+		<Translation>RÜCKGANG!!!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_BARBARIAN_INVASION</zType>
