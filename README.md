@@ -16,6 +16,9 @@ Zur [deutschen Anleitung](https://github.com/ShadowDuke/OW_GermanPatch#deutsch) 
 4. (Return to the leaders choice screen for translated background stories or have a look at the other options to see the whole translation.)
 5. Now set up a new game and start as usual.
 
+**To enable the full patch (step 3) on your saved game started in english**, find your save in \Documents\My Games\Old World\Save\.. and edit the file with an editor.
+At the 5th line it says *Version* make it look like this **Version="Version: 0.1.39753+German+German Translation=-1182266509"** - make sure German is selected in the UI options or enable it from the loaded game in the options.
+
 Loading an existing savegame should work wihtout the need to do the procedure again. Language in the options are also saved upon exting the game.
 
 ## Notes
@@ -37,6 +40,9 @@ If you want, you can now support me with a donation at [Paypal](https://www.payp
 3. Erstelle ein neues Spiel und gehe zu Advanced Setup um den Mod ganz unten zu finden und aktiviere ihn.
 4. (Kehre nun zum Anführer Bildschirm zurück für die Übersetzung der Hintergrund Geschichten oder guck einfach mal bei den anderen Optionen, um die komplette Übersetzung zu sehen.)
 5. Nun erstelle ganz normal ein Spiel wie immer und starte es.
+
+**Um den vollständigen patch (Schritt 3( auf einem gespeicherten Spiel auf englisch zu aktivierenh**, suche dein save in \Dokumente\My Games\Old World\Save\.. und bearbeite die Datei mit einem Editor.
+Auf der 5 Zeile steht *Version* bearbeite die Zeile das es so aussieht, **Version="Version: 0.1.39753+German+German Translation=-1182266509"** - gehe sicher das Deutsch in den Optionen bei UI eingestellt ist oder aktiviere es im Spiel selber in den Optionen. 
 
 Einen vorhandenen Spielstand zu laden sollte ohne Probleme funktionieren, ohne dass man das ganze noch ein mal so einstellen muss. Die Sprache wird in den Optionen gesspeichert.
 
