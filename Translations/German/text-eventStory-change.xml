@@ -2641,9 +2641,9 @@ What should we do?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_ROYAL_BIRTH</zType>
-		<Translation><![CDATA[Your heart swells with joy, as you gaze down upon your newborn <masculine_CHARACTER-0>son<feminine>daughter<end>, {CHARACTER-0}. This is a momentous occasion.
+		<Translation><![CDATA[Dein Herz füllt sich mit Glück als du zu <masculine_CHARACTER-0>deinem<feminine>deiner<end> Neugeborenen <masculine_CHARACTER-0>Sohn<feminine>Tochter<end> {CHARACTER-0} hinunter blickst. Dies ist ein bedeutsames Ereignis.
 
-How should we celebrate the royal birth?]]></Translation>
+Wie sollen wir die königliche geburt feiern?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_NEW_THOUGHTS</zType>
@@ -3875,27 +3875,27 @@ We worry that this outbreak of disloyalty could spread. What shall we do? ]]></T
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_TACTICS_ARCHETYPES</zType>
-		<Translation><![CDATA[Now that {CHARACTER-0} has completed <masculine_CHARACTER-0>his<feminine>her<end> study of tactics, how shall <masculine_CHARACTER-0>he<feminine>she<end> contribute to the court? 
+		<Translation><![CDATA[Nun da {CHARACTER-0} <masculine_CHARACTER-0>sein<feminine>ihr<end> Studium als Taktiker abgeschlossen hat, wie soll <masculine_CHARACTER-0>er<feminine>sie<end> dem Hoftstaat beisteuern? 
 
-What role best suits {CHARACTER-SHORT-0}? ]]></Translation>
+Welche Rolle ist am besten für {CHARACTER-SHORT-0} geeignet? ]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_RHETORIC_ARCHETYPES</zType>
-		<Translation><![CDATA[Now that {CHARACTER-0} has completed <masculine_CHARACTER-0>his<feminine>her<end> study of rhetorics, how shall <masculine_CHARACTER-0>he<feminine>she<end> contribute to the court? 
+		<Translation><![CDATA[Nun da {CHARACTER-0} <masculine_CHARACTER-0>sein<feminine>ihr<end> Studium als Redekünstler abgeschlossen hat, wie soll <masculine_CHARACTER-0>er<feminine>sie<end> dem Hoftstaat beisteuern? 
 
-What role best suits {CHARACTER-SHORT-0}? ]]></Translation>
+Welche Rolle ist am besten für {CHARACTER-SHORT-0} geeignet? ]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_COMMERCE_ARCHETYPES</zType>
-		<Translation><![CDATA[Now that {CHARACTER-0} has completed <masculine_CHARACTER-0>his<feminine>her<end> study of commerce, how shall <masculine_CHARACTER-0>he<feminine>she<end> contribute to the court? 
+		<Translation><![CDATA[Nun da {CHARACTER-0} <masculine_CHARACTER-0>sein<feminine>ihr<end> Studium als Händler abgeschlossen hat, wie soll <masculine_CHARACTER-0>er<feminine>sie<end> dem Hoftstaat beisteuern?  
 
-What role best suits {CHARACTER-SHORT-0}? ]]></Translation>
+Welche Rolle ist am besten für {CHARACTER-SHORT-0} geeignet? ]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_PHILOSOPHY_ARCHETYPES</zType>
-		<Translation><![CDATA[Now that {CHARACTER-0} has completed <masculine_CHARACTER-0>his<feminine>her<end> study of philosophy, how shall <masculine_CHARACTER-0>he<feminine>she<end> contribute to the court? 
+		<Translation><![CDATA[Nun da {CHARACTER-0}<masculine_CHARACTER-0>sein<feminine>ihr<end> Studium als Philosoph abgeschlossen hat, wie soll <masculine_CHARACTER-0>er<feminine>sie<end> dem Hoftstaat beisteuern? 
 
-What role best suits {CHARACTER-SHORT-0}? ]]></Translation>
+Welche Rolle ist am besten für {CHARACTER-SHORT-0} geeignet? ]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SCHEMER_SUCCESSION</zType>
@@ -4043,31 +4043,31 @@ It will be easy to gain the support of the court, but to what end? What do you s
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_ARCHETYPE</zType>
-		<Translation>Your nation needs more direction. It is time for you to choose your path.</Translation>
+		<Translation>Dein Reich benötigt eine neue Ausrichtung. Es ist Zeit für dich einen Weg zu wählen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_EXPLORING_ENDS</zType>
-		<Translation><![CDATA[{CHARACTER-0} has returned to the capital for a short visit. <masculine_CHARACTER-0>He<feminine>She<end> seems weary from <masculine_CHARACTER-0>his<feminine>her<end> travels but is willing to continue the journey, if the court so chooses.
+		<Translation><![CDATA[{CHARACTER-0} ist für einen kleinen Besuch in die Hauptstadt zurückgekehrt. <masculine_CHARACTER-0>Er<feminine>Sie<end> scheint erschöpft von <masculine_CHARACTER-0>seinenfeminine>ihren<end> Reisen zu sein, aber ist gewillt die Reise fortzusetzen, wenn der Hoftsaat so möchte.
 
-What shall we command?]]></Translation>
+Was solle nwir befehlen?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_DEATH_BASIC_01</zType>
-		<Translation>Bells ring. Mourners fill the streets. {CHARACTER-0} has died. It is the end of era, and all of {PLAYER-1} pauses to honor the contributions of our fallen ruler. 
+		<Translation>Glocken leuten. Trauernde füllen die Straßen. {CHARACTER-0} ist gestorben. Es ist das Ende einer Ära, und alle von {PLAYER-1} halten inne um Errungenschaften unseres gefallenen Herrschers zu ehren.
 
-The reign of {CHARACTER-1} has begun.</Translation>
+Die Herrschaft von {CHARACTER-1} hat begonnen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_DEATH_BASIC_02</zType>
-		<Translation><![CDATA[{CHARACTER-0} has died. We meet <masculine_CHARACTER-0>his<feminine>her<end> passing with hushed voices and heavy hearts.
+		<Translation><![CDATA[{CHARACTER-0} ist gestorben. Wir sehen <masculine_CHARACTER-0>sein<feminine>ihr<end> Ableben mit gedämpften Stimmen und gebrochenen Herzen.
 
-Prepare the way for {CHARACTER-1}, heir to the throne of {PLAYER-1}.]]></Translation>
+Bereite den Weg für {CHARACTER-1} vor, Erbe des Throns von {PLAYER-1}.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_DEATH_BASIC_03</zType>
-		<Translation><![CDATA[Messengers from the capital bring news of {CHARACTER-0}'s death. All of {PLAYER-1} mourns with the royal family.
+		<Translation><![CDATA[Boten aus der Hauptstadt bringen Kunden von {CHARACTER-0}'s Tot. Jeder von {PLAYER-1} trauert mit der königlchen Familie.
 
-Hail {CHARACTER-1}, the new and rightful <masculine_CHARACTER-1>King<feminine>Queen<end> of {PLAYER-1}.]]></Translation>
+Hail {CHARACTER-1}, <masculine_CHARACTER-1>der<feminine>die<end> neue und rechtmäßge <masculine_CHARACTER-1>König<feminine>Königin<end> von {PLAYER-1}.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_DEATH_WAR_01</zType>
@@ -4203,15 +4203,15 @@ Shall we insist on this firsthand experience?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTOR_ACTS_OF_CHARITY</zType>
-		<Translation><![CDATA[Once a week, {CHARACTER-SHORT-0} brings <masculine_CHARACTER-0>his<feminine>her<end> young pupil to the slums of {CITY-2}, where {CHARACTER-SHORT-1} feeds the poorest of the poor. The teacher insists that such a lesson is vital in shaping future leaders.
+		<Translation><![CDATA[Wöchentlich bringt {CHARACTER-SHORT-0} <masculine_CHARACTER-0>seine<feminine>ihre<end> Schüler zu den Elendsvierteln in {CITY-2}, wo {CHARACTER-SHORT-1} die Armen der Armen versorgt. Der Lehrer besteht darauf, dass so eine Lehrstunde unerlässlich dafür ist, ein zukünftiges Oberhaupt zu formen.
 
-{CHARACTER-SHORT-1} appears to be benefting from this exposure.]]></Translation>
+{CHARACTER-SHORT-1} scheint von dieser Lage zu profitieren.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTOR_DAY_IN_COURT</zType>
-		<Translation><![CDATA[Debate is a key skill for any young royal. To further improve {CHARACTER-SHORT-1}'s skill with political leaders, <masculine_CHARACTER-1>his<feminine>her<end> tutor brings <masculine_CHARACTER-1>him<feminine>her<end> to court. It is a busy day with speeches by all in attendance, including the heir, {CHARACTER-SHORT-2}.  
+		<Translation><![CDATA[Debatieren ist ein entscheidene Fähigkeit für jeden jungen könglichen. Um {CHARACTER-SHORT-1}'s Fähigkeiten weiter mit politischen Führern zu verbessern, <masculine_CHARACTER-1>sein<feminine>ihr<end> Lehrer stell <masculine_CHARACTER-1>ihn<feminine>sie<end> im Hofstaat ein. Es ist ein arbeitsreicher Tag mit Reden, in Anwesenheit aller, inklusive dem Erben. {CHARACTER-SHORT-2}.  
 
-How should <masculine_CHARACTER-1>he<feminine>she<end> spend this time in the halls of power?]]></Translation>
+Wie soll <masculine_CHARACTER-1>er<feminine>sie<end> diese Zeit in den Hallen der Macht verbringen?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTOR_BYSTANDER</zType>

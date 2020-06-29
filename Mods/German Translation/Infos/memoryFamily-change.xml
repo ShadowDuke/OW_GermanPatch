@@ -71,42 +71,42 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_ACROPOLIS_TREASURY</zType>
-		<zText>Granted a treasury in the Acropolis</zText>
+		<zText>Eine Schatzkammer in der Akropolis gewährt</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_HIGH_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_MARRIAGE_DECLINE</zType>
-		<zText>Declined Marriage</zText>
+		<zText>Vermählung abgelehnt</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_ASSASSINATION_EXPOSED</zType>
-		<zText>Assassination exposed</zText>
+		<zText>Attentat aufgeflogen</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_FAMILY_GIFTS</zType>
-		<zText>Sent us gifts</zText>
+		<zText>Hat uns Geschenke geschickt</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_MEMBER_IMPRISONED</zType>
-		<zText>Imprisoned our family member</zText>
+		<zText>Einen unserer Familienangehörigen inhaftiert</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_REFUSED_LAW</zType>
-		<zText>Refused to change Law</zText>
+		<zText>RGeweigert das Gesetz zu ändern</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_REFUSED_THEOLOGY</zType>
-		<zText>Refused to establish a Theology</zText>
+		<zText>Geweigert eine Religionswissenschaft einzuführen</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_SUCCESSION_HONORED</zType>
-		<zText>Honored us during succession</zText>
+		<zText>Ehrte uns wärhend der Erbfolge</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_HIGH_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
