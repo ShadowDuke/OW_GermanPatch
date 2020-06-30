@@ -180,7 +180,7 @@ Do you dare enjoy the revels?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_ROYAL_TRAGEDIES</zType>
-		<Translation><![CDATA[It has been a trying time in the royal household. Your son, {CHARACTER-1} was struck by a falling stone and killed instantly. At the palace, your spouse, {CHARACTER-2}, has fallen ill with a mysterious ailment, and healers make no promises of recovery.
+		<Translation><![CDATA[Es waren harte Zeiten im königlichen Haushalt. Dein Sohn, {CHARACTER-1} wurde von einem herabfallenden Stein erschlagen und war auf der Stelle tot. Am schloss: <masculine_CHARACTER-0>Dein<feminine>Deine<end> <masculine_CHARACTER-0>Ehegatte<feminine>Ehegatting<end>, {CHARACTER-2}, erkankte durch eine mysteriöse Krankheit und Heiler geben keinen Grund zur Hoffnung.
 
 Where will you turn in this moment of weakness?]]></Translation>
 	</Entry>
@@ -188,7 +188,7 @@ Where will you turn in this moment of weakness?]]></Translation>
 		<zType>TEXT_EVENTSTORY_TRAIT_A_DARK_PALL</zType>
 		<Translation><![CDATA[Despite your best efforts, a darkness has overtaken you. There is no comfort on the throne. Your inner circle consists of sycophants, and your subjects see you only as one in an endless succession of rulers.
 
-The only honorable end is to become one with immortality.]]></Translation>
+Der einzige ehrhafte Weg ist mit Ewigkeit eins zu werden.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_DUEL_OF_FATES</zType>
@@ -240,9 +240,9 @@ The plan would be effective in quelling rebellion. However, it would anger the p
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_GOOD_NEWS</zType>
-		<Translation><![CDATA[In a surprise piece of news, you receive an update from your heir, {CHARACTER-0}. Academy scholars respect <masculine_CHARACTER-0>him<feminine>her<end>, and the other students compete to befriend <masculine_CHARACTER-0>him<feminine>her<end>. 
+		<Translation><![CDATA[Mit einee überraschenden Kunde erfährt du über den Forschritt deines Erben, {CHARACTER-0}. Gelehrte der Bildungsanstalt respektieren <masculine_CHARACTER-0>ihn<feminine>sie<end> und die anderen Schüler wetteifern um mit <masculine_CHARACTER-0>ihn<feminine>ihr<end> Freundschaft zu schließenn. 
 
-At the moment, {CHARACTER-SHORT-0} is thriving!]]></Translation>
+Zur Zeit ist {CHARACTER-SHORT-0} am aufblühen!]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_BIREME_SELECTED</zType>
@@ -734,7 +734,7 @@ How shall we respond?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEIGHBORS_HUMBLE_IGNORE_PERSIA</zType>
-		<Translation><![CDATA[{CHARACTER-0} from the nation of {PLAYER-0,0} sends a lavish gift. "We wish to be friends!"
+		<Translation><![CDATA[{CHARACTER-0} vom Reich der {PLAYER-0,0} schickt ein großzügiges Geschenk. "Wir wünschen Freunde zu sein!"
 ]]></Translation>
 	</Entry>
 	<Entry>
@@ -979,8 +979,7 @@ What shall we do?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEIGHBORS_PRIDEFUL_CARTHAGE_TRIBUTE</zType>
-		<Translation><![CDATA[Emissary arrives from {PLAYER-0,0}, who has agreed to pay you Tribute.
-]]></Translation>
+		<Translation><![CDATA[Abgesandte von {PLAYER-0,0}, welche zugestimmt haben Tribut zu errichten.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEIGHBORS_PRIDEFUL_BRAG_CARTHAGE</zType>
@@ -1202,7 +1201,7 @@ Several of our minor courtiers claim that the boorish fool, Pieface, is in fact 
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BARBARIAN_PEACE_OFFER</zType>
-		<Translation><![CDATA[The {BARBARIAN-0,0} present an offer promising a stable peace. Do we approve?]]></Translation>
+		<Translation><![CDATA[Die {BARBARIAN-0,0} legen ein Angebot für stabilen Frieden vor. Stimmen wir zu?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BARBARIAN_TRUCE_OFFER</zType>
@@ -1263,15 +1262,15 @@ What shall we do? ]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BARBARIAN_INVASION</zType>
-		<Translation><![CDATA[Terrible news! The {BARBARIAN-0,0} threaten to invade unless we meet their demands.
+		<Translation><![CDATA[Schreckliche Nachrichten! Die {BARBARIAN-0,0} bedrohen uns zu Überfallen falls wir ihre Vorderrungen nicht erfüllen.
 
-What shall we do?]]></Translation>
+Was sollen wir tun?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBAL_MIGRATION</zType>
-		<Translation><![CDATA[Scouts report large numbers of {BARBARIAN-0} settlers crossing our borders in search of land. 
+		<Translation><![CDATA[Später berichten über große Mengen von {BARBARIAN-0} Siedlern die auf Suche nach Land unsere Grenzen überqueren. 
 
-What shall we do?]]></Translation>
+Was sollen wir tun?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GRAVE_OFFENSE</zType>
@@ -1719,9 +1718,9 @@ The deal? {PLAYER-0} requires a generous gift of {RESOURCE-2}, or they will send
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_DIPLO_MARRIAGE</zType>
-		<Translation>{PLAYER-0,1} matchmakers have arrived, hoping to arrange a royal marriage for {CHARACTER-1}.
+		<Translation>{PLAYER-0,1} Ehestifter sind angekommen, hoffe eine köngliche Heirat für {CHARACTER-1} zu vereinabren.
 
-Who shall wed {CHARACTER-SHORT-1}?</Translation>
+Wen soll {CHARACTER-SHORT-1} heiraten?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_WAR_OFFER_RELIGION_STATE</zType>
@@ -1897,11 +1896,11 @@ There is nothing to be done.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RETURN_CITY</zType>
-		<Translation>[STUB: YOUR ALLY {PLAYER-0} IS RETURNING YOUR FORMER CITY {CITY-1} TO YOU]</Translation>
+		<Translation>[STUB: DEIN VERBÜNDETER {PLAYER-0} GIBT DEINE EHEMALIGE STADT {CITY-1} ZU DIR ZURÜCK]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RETURN_CITY_BARBARIAN</zType>
-		<Translation>[STUB: YOUR ALLY {BARBARIAN-0} IS RETURNING YOUR FORMER CITY {CITY-1} TO YOU]</Translation>
+		<Translation>[STUB: DEIN VERBÜNDETER {BARBARIAN-0} GIBT DEINE EHEMALIGE STADT {CITY-1} ZU DIR ZURÜCK]</Translation>
 	</Entry>
 	<Entry beginGroup="Combat">
 		<zType>TEXT_EVENTSTORY_LEADER_SMITING_FOES</zType>
@@ -2211,15 +2210,15 @@ It is too late to keep this tragic news a secret...]]></Translation>
 	</Entry>
 	<Entry beginGroup="Marriage">
 		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER</zType>
-		<Translation><![CDATA[The court has received a new marriage proposal: {CHARACTER-0} and {CHARACTER-1}.
+		<Translation><![CDATA[Der Hoftstaat hat ein neues Heiratsangebot vorgeschlagen bekommen: {CHARACTER-0} und {CHARACTER-1}.
 
-What is your answer?]]></Translation>
+Was ist deine Antwort?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_FAMILY</zType>
-		<Translation><![CDATA[A marriage proposal has arrived from the {FAMILY-1} family for {CHARACTER-0}. 
+		<Translation><![CDATA[Ein Heiratsangebot von der {FAMILY-1} Familie für {CHARACTER-0} ist eingegangen. 
 
-What do you think of these options?]]></Translation>
+Was denkst du von diesen Möglichkeiten?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_TWO_FAMILIES</zType>
@@ -2229,19 +2228,19 @@ What do you suggest?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_FOREIGN</zType>
-		<Translation><![CDATA[A delegation from {PLAYER-1} arrives with a marriage proposal for {CHARACTER-0}.
+		<Translation><![CDATA[Eine Gesandtschaft von {PLAYER-1} kommt mit einem Heiratsangebot für {CHARACTER-0} an.
 
-We should consider it carefully.]]></Translation>
+Wir sollten das sorgfälltig überdenken.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_BARBARIAN</zType>
-		<Translation><![CDATA[To the court's surprise, a marriage proposal has arrived from the {BARBARIAN-1}: {CHARACTER-0} and {CHARACTER-2}.
+		<Translation><![CDATA[Zum Überraschen des Hoofstaates ist ein Heiratsangebot von den {BARBARIAN-1} eingegangen: {CHARACTER-0} und {CHARACTER-2}.
 
-How shall we respond?]]></Translation>
+Was solle nwir erwiedern?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MISSION_MARRIAGE_FAMILY</zType>
-		<Translation><![CDATA[A new marriage proposal from {FAMILY-0} has arrived for {CHARACTER-1}. 
+		<Translation><![CDATA[Ein neues Heiratsangebot von {FAMILY-0} für {CHARACTER-1} ist eingetroffen. 
 
 What is our answer?]]></Translation>
 	</Entry>
@@ -2527,9 +2526,9 @@ Shall we grant her safe passage?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SPOUSE_HORSEBACK_RIDING</zType>
-		<Translation><![CDATA[For months, your <masculine_CHARACTER-0>husband<feminine>wife<end> has expressed an interest in mastering horseback riding. 
+		<Translation><![CDATA[Für Monate schon hat <masculine_CHARACTER-0>dein<feminine>deine<end> <masculine_CHARACTER-0>Ehegatte<feminine>Ehegattin<end> ein Interesse ausgedrückt um Pferdereiten zu beherrschen. 
 
-How shall we accommodate?]]></Translation>
+Wie sollen wir aushelfen?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SPOUSE_PERSUASION</zType>
@@ -2623,21 +2622,21 @@ What activities do you suggest?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_OUTDOOR_PASTIME</zType>
-		<Translation><![CDATA[Your <masculine_CHARACTER-0>son<feminine>daughter<end> {CHARACTER-0} enjoys nature and feels at home in the outdoors. 
+		<Translation><![CDATA[<masculine_CHARACTER-0>Dein<feminine>Deine<end> <masculine_CHARACTER-0>Sohn<feminine>Tochter<end> {CHARACTER-0} mag die Natur und fühlt sic hdraußen wie zu Hause. 
 
-What hobby shall we encourage <masculine_CHARACTER-0>him<feminine>her<end> to pursue?]]></Translation>
+Welches Hobby sollen wir <masculine_CHARACTER-0>ihm<feminine>ihr<end> nahe legen zu verfolgen?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RESTLESS_HANDS</zType>
-		<Translation><![CDATA[Your <masculine_CHARACTER-0>son<feminine>daughter<end> {CHARACTER-0} fidgets during lessons and has difficulty concentrating.
+		<Translation><![CDATA[<masculine_CHARACTER-0>Dein<feminine>Deine<end> <masculine_CHARACTER-0>Sohn<feminine>Tochter<end> {CHARACTER-0} zappelt während ihres Unterrichts herum und hat schwierigkeiten sich zu konzentrieren.
 
-To what discipline should <masculine_CHARACTER-0>he<feminine>she<end> apply this energy?]]></Translation>
+Zu welchem Fach sollte <masculine_CHARACTER-0>seine<feminine>ihre<end> Energie führen?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_DARK_OMENS</zType>
-		<Translation><![CDATA[Your newborn, {CHARACTER-0}, arrives in the dead of night during a howling rainstorm. Mystics on the court view this event as a very bad omen, and they warn us of coming turmoil.
+		<Translation><![CDATA[Dein Neugeborenes, {CHARACTER-0}, kommt in der finsteren Nacht während eines heulenden Regenschauers zur Welt.  Mystiker am Hofstaat sehen dieses Ereignis als sehr schlechtes Omen und sie warnen uns vor kommenden Unruhen.
 
-What should we do?]]></Translation>
+Was sollen wir tun?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_ROYAL_BIRTH</zType>
@@ -2653,9 +2652,9 @@ What is most important in life?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HEIR_EDUCATION</zType>
-		<Translation>Time passes quickly. {CHARACTER-0} is growing up fast and eager to learn.
+		<Translation>Die Zeit vergehrt zügig. {CHARACTER-0} wird schnell erwachsen und ist begierig zu lernen.
 
-How would you like to educate {CHARACTER-SHORT-0}?</Translation>
+Wie würdest du {CHARACTER-SHORT-0} gerne erziehen?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BULLYING_HEIR</zType>
@@ -4297,15 +4296,15 @@ However, {CHARACTER-SHORT-1} would not wake in the morning and seems to have die
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_RETURN_HOME_DATES</zType>
-		<Translation>Stomache aches and high fever. Sweats and nausea. I think those dates will be the end of me.</Translation>
+		<Translation>Bauchschmerzen und hohes Fieber. Schweißausbrüche und Übelkeit. Ich glaube diese Datteln werden mein Ende sein.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_RETURN_HOME_WINE</zType>
-		<Translation>I feel very weak. Summon the doctors - perhaps there was posion in that wine!</Translation>
+		<Translation>Ich fühle mich sehr schwach. Rufe die Medizi herbei - vielleicht befand sich Gift in diesem Wein!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_RETURN_HOME_INCENSE</zType>
-		<Translation>The incense follows me from room to room. What are those voices I hear, like ghosts from my past. They will not leave me alone!</Translation>
+		<Translation>Der Weihrauch folgt mir in jedes Zimmer. Was haben diese Stimmen die ich höre zu bdeueten, wie Geister meiner Vergangenheit. Sie werden mich nicht in Ruhe lassen!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TIME_TO_FEAST</zType>
@@ -4313,7 +4312,7 @@ However, {CHARACTER-SHORT-1} would not wake in the morning and seems to have die
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_DARK_ARTS</zType>
-		<Translation><![CDATA[{CHARACTER-1} is quite impressed with your heir, {CHARACTER-2}, and would like to have <masculine_CHARACTER-2>him<feminine>her<end> to study the dark arts of espionage.]]></Translation>
+		<Translation><![CDATA[{CHARACTER-1} ist von deinem Erben, {CHARACTER-2} ziemlich beeindruck und möchte das  <masculine_CHARACTER-2>er<feminine>sie<end> die dunklen Küste der Spionage lernt.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_A_NEW_GENERAL</zType>
@@ -4605,9 +4604,9 @@ Court minister {CHARACTER-SHORT-1} worries that the man may be a foreign agent, 
 	</Entry>	 
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS</zType>
-		<Translation><![CDATA[A rabble of barbarian refugees have settled outside the gates of {CITY-0}. They request our aid and sanctuary.
+		<Translation><![CDATA[Ein Gesinder Barbaren Flüchtlinge haben sich außerhalb der Tore von {CITY-0} niedergelassen. Sie erbitten unsere Hilfe und Zuflucht.
 
-What shall we tell them?]]></Translation>
+Was sollen wir ihnen sagen?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS_MILITARY</zType>
@@ -4617,15 +4616,15 @@ What is our stance?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HAPPINESS_SEASONAL_FESTIVAL</zType>
-		<Translation><![CDATA[Prominent local leaders of {CITY-0} wish to host a seasonal festival celebrating national values.
+		<Translation><![CDATA[Berühmte örtliche Anführer aus {CITY-0} wünschen ein jahreszeitliches Fest abzuhalten um staatliche Werte zu feiern.
 
-What should be the festival's theme?]]></Translation>
+Was soll das Motiv des Festes sein?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HAPPINESS_TAX_SURPLUS</zType>
-		<Translation><![CDATA[{CITY-0}'s treasury overflows with gold. The city's leaders call for immediate funding of key projects. 
+		<Translation><![CDATA[{CITY-0}'s Schatzkammer quillt mit Gold über. Die Anführer der Stadt fordern eine sofortige Finanzierung einiger Projekte. 
 
-What should they do with these excess funds?]]></Translation>
+Was sollen wir mit diesen extra Geldmitteln anstellen?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HAPPINESS_ANCIENT_TEMPLE</zType>
@@ -4653,9 +4652,9 @@ We can command them to work or to fight.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HAPPINESS_PROMISING_STUDENT</zType>
-		<Translation><![CDATA[A promising student has come to the attention of the leaders in {CITY-0}. Such talent should be nurtured.
+		<Translation><![CDATA[Unseren Anführern {CITY-0} ist ein vielversprechender Schüler aufgefallen. Solch ein Talent sollte gefördert werden.
 
-What path should we encourage?]]></Translation>
+Welchen Weg sollen wir fördern?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HAPPINESS_FOUND_ZOROASTRIANISM</zType>
@@ -4695,15 +4694,15 @@ How shall we reward them?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HAPPINESS_ASPIRING_OFFICER</zType>
-		<Translation><![CDATA[A young officer in {CITY-0} has rapidly risen through the ranks, impressing our top generals. They see a bright future.
+		<Translation><![CDATA[Ein junger Offizier in {CITY-0} ist zügig in den Rängen aufgestiegen, unsere besten Feldherren am beeindrucken. Sie sehen eine ausrichtsvolle Zukunft.
 
-What shall we do?]]></Translation>
+Was sollen wir machen?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HAPPINESS_BENEVOLENT_TRADER</zType>
-		<Translation><![CDATA[A wealthy trader from {CITY-0} arrives from a recent expedition, flush with gifts for the court.
+		<Translation><![CDATA[Ein wohlhabener Händler aus {CITY-0} kommt von einer jüngsten Expedition an, mit reichlich Geschenken für den Hoftstaat.
 
-How do we respond?]]></Translation>
+Wie antworten wir?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HAPPINESS_TALENTED_POLITICIAN</zType>
@@ -4761,9 +4760,9 @@ How shall we respond?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_FOREST_FIRE</zType>
-		<Translation><![CDATA[Smoke obscures the horizon near {CITY-1}! A blaze has broken out in a nearby clearing and threatens to engulf the entire forest.
+		<Translation><![CDATA[Rauch verdunkelt den Horizont in der Nähe von {CITY-1}! Ein Großbrand ist in einer Nahen Waldlichtung ausgebrochen und bedroht die kompletten Wälder zu verschlingen.
 
-What should the people do?]]></Translation>
+Was sollen die Leute machen?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_FOREST_FIRE_WOOD</zType>
@@ -4771,7 +4770,7 @@ What should the people do?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_FOREST_FIRE_EMBERS</zType>
-		<Translation><![CDATA[The fires outside {CITY-1} left nothing in their terrible wake. The whole forest was reduced to ashes.]]></Translation>
+		<Translation><![CDATA[Die Fuer ausserhalb {CITY-1} haben in ihrerm schrecklichen Sog nichts zurück gelassen. Der komplette Wald wurde in Asche verwandelt.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_FOREST_FIRE_ORPHAN</zType>
@@ -4951,7 +4950,7 @@ Perhaps you should try it.</Translation>
 	</Entry>	 
 	<Entry beginGroup="Miscellaneous">
 		<zType>TEXT_EVENTSTORY_ADOPT_RELIGION</zType>
-		<Translation>Is it time to adopt {RELIGION-1} as our State Religion?</Translation>
+		<Translation>Ist es Zeit {RELIGION-1} als unsere Staatsreligion zu übernehmen?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_START_SLAVERY</zType>
@@ -5005,7 +5004,7 @@ What shall we do?</Translation>
 		<zType>TEXT_EVENTSTORY_MONOTHEISM_POLYTHEISM</zType>
 		<Translation>Is there one spirit with many faces, or a single divine entity? Our mystics wish to know if the truth lies in link(LAW_MONOTHEISM) or link(LAW_POLYTHEISM).
 
-What does the court suggest?</Translation>
+Was schlägt der Hofstaat vor?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GUILDS_ELITES</zType>
@@ -5288,9 +5287,9 @@ What shall be done with this work of art?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_COTTAGE_DECOR</zType>
-		<Translation><![CDATA[The new cottages near {CITY-0} give the court designers an opportunity to show off their good taste. 
+		<Translation><![CDATA[Die neuen Hütten nähe  {CITY-0} geben den Hofstaat Ausstattern eine Möglichkeit ihren guten Geschmack zu zeigen. 
 
-How shall they decorate?]]></Translation>
+Was sollen sie ausgestalten?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUNAWAY_SLAVE</zType>
@@ -5394,9 +5393,9 @@ What else should these skilled riders learn?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAINING_NEWS_SWORDSMAN</zType>
-		<Translation><![CDATA[A new unit of soldiers has finished training in {CITY-0} and stands ready to take up the sword against our enemies.
+		<Translation><![CDATA[Eine neue Einehit Schwertkämpfer wurden in {CITY-0} ausgebildet und stehen bereit das Schwer gegen unsere Feinde zu führen.
 
-Shall we offer additional training?]]></Translation>
+Sollen wir zusätzliches Training anbieten?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MERCENARY_AXEMAN</zType>
@@ -5460,9 +5459,9 @@ Shall we offer additional training?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PILLAGING_BARBARIANS</zType>
-		<Translation><![CDATA[Warriors from the {BARBARIAN-1,2} tribe are said to be pillaging our lands! The people are terrified.
+		<Translation><![CDATA[Krieger von den {BARBARIAN-1,2} Stamm wird nachgesagt, dass sie unsere Länder plündern! Die Leute sind entsetzt.
 
-How shall the court respond?]]></Translation>
+Wie soll der Hofstaat erwiedern?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PILLAGING_BARBARIANS_SUCCESS</zType>
@@ -5470,7 +5469,7 @@ How shall the court respond?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_FRONTIER_WALL</zType>
-		<Translation>The {BARBARIAN-0} have pillaged our lands, and our people are afraid. We should consider bolstering our defenses in {CITY-2}.</Translation>
+		<Translation>Die {BARBARIAN-0} haben unser Land geplündert und unsere Leute sind verängstlich. Wir sollten in Erwägung ziehen unsere Verteidigungen in {CITY-2} zu verstärken.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_EXOTIC_PETS</zType>
@@ -5484,7 +5483,7 @@ Which animal should we choose?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_EXOTIC_PETS_FISH_FAN</zType>
-		<Translation><![CDATA[Sometimes, you catch yourself gazing at the court's new fish for hours on end...]]></Translation>
+		<Translation><![CDATA[Manchmal ertappst du dich dabei, wie du den neuen Fisch des Hofstaates stundenlang am anstarren bist...]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_EXOTIC_PETS_FISH_THOUGHTS</zType>
@@ -5526,8 +5525,8 @@ Perhaps we could capitalize on this?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_EXOTIC_PETS_MONKEY_GRUDGE_SUCCESS</zType>
-		<Translation><![CDATA[It is done. 
-Our adorable court monkey, now assassin, has successfully murdered your heir. Luckily, nobody knows that you are responsible.]]></Translation>
+		<Translation><![CDATA[Es ist vollbracht. 
+Unser hinreißender Affe, nun Attentäter, hat erfolgreich euren Erben ermordet. Glücklicherweise weiß niemand das du dafür verantwortlich bist.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_EXOTIC_PETS_MONKEY_GRUDGE_FAILURE</zType>
@@ -5587,7 +5586,7 @@ Will you take the sword?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MYSTERIOUS_SWORD_USING</zType>
-		<Translation><![CDATA[What shall you do with your mysterious sword? It is a rare treasure, indeed.]]></Translation>
+		<Translation><![CDATA[Was sollen wir mit deinem mysteriösen Schwert anstellen? Es ist auf jeden Fall eine seltes Kostbarkeit.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MYSTERIOUS_SWORD_PILGRIMS</zType>
@@ -6269,11 +6268,11 @@ Many of our subjects follow the teachings of Mani, but perhaps the political cli
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ZOROASTRIANISM_FOUNDED</zType>
-		<Translation>[STUB: link(RELIGION_ZOROASTRIANISM) FOUNDED in {CITY-1}]</Translation>
+		<Translation>[STUB: link(RELIGION_ZOROASTRIANISM) GEGRÜNDET in {CITY-1}]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_JUDAISM_FOUNDED</zType>
-		<Translation>[STUB: link(RELIGION_JUDAISM) FOUNDED in {CITY-1}]</Translation>
+		<Translation>[STUB: link(RELIGION_JUDAISM) GEGRÜNDET in {CITY-1}]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ZOROASTRIANISM_TEMPLES</zType>
@@ -6545,7 +6544,7 @@ They pledge to retire their posts if no action to restore their integrity is tak
 	</Entry>
   <Entry beginGroup="Tutorial">
 		<zType>TEXT_EVENTSTORY_VICTORY_POINTS</zType>
-		<Translation>(Points Victory)
+		<Translation>(Punkte Sieg)
 
 The court meets you with bowed heads, and the crowds greet you with cheers. You stand before all of {PLAYER-0}, a legend in your own time, a figure whose name will forever be on the lips of history.
 
@@ -6553,7 +6552,7 @@ Congratulations.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_VICTORY_DOUBLE</zType>
-		<Translation>(Double Victory)
+		<Translation>(Doppelpunkte Sieg)
 
 The court meets you with bowed heads, and the crowds greet you with cheers. You stand before all of {PLAYER-0}, a legend in your own time, a figure whose name will forever be on the lips of history.
 
@@ -6561,7 +6560,7 @@ Congratulations.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_VICTORY_AMBITION</zType>
-		<Translation>(Ambitions Victory)
+		<Translation>(Ambitionen Sieg)
 
 The court meets you with bowed heads, and the gathered crowds greet you with a cheer. You stand before all of {PLAYER-0}, a legend in your own time, a figure whose name will forever be on the lips of history.
 
@@ -6569,7 +6568,7 @@ Congratulations.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_VICTORY_TIME</zType>
-		<Translation>(Time Victory)
+		<Translation>(Zeit Sieg)
 
 The court meets you with bowed heads, and the gathered crowds greet you with a cheer. You stand before all of {PLAYER-0}, a legend in your own time, a figure whose name will forever be on the lips of history.
 
@@ -6577,7 +6576,7 @@ Congratulations.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_VICTORY_CONQUEST</zType>
-		<Translation>[Conquest Victory)
+		<Translation>[Eroberungs Sieg)
 
 The court meets you with bowed heads, and the gathered crowds greet you with a cheer. You stand before all of {PLAYER-0}, a legend in your own time, a figure whose name will forever be on the lips of history.
 
