@@ -240,7 +240,7 @@ The plan would be effective in quelling rebellion. However, it would anger the p
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_GOOD_NEWS</zType>
-		<Translation><![CDATA[Mit einee überraschenden Kunde erfährt du über den Forschritt deines Erben, {CHARACTER-0}. Gelehrte der Bildungsanstalt respektieren <masculine_CHARACTER-0>ihn<feminine>sie<end> und die anderen Schüler wetteifern um mit <masculine_CHARACTER-0>ihn<feminine>ihr<end> Freundschaft zu schließenn. 
+		<Translation><![CDATA[Mit einee überraschenden Kunde erfährst du über den Forschritt deines Erben, {CHARACTER-0}. Gelehrte der Bildungsanstalt respektieren <masculine_CHARACTER-0>ihn<feminine>sie<end> und die anderen Schüler wetteifern um mit <masculine_CHARACTER-0>ihn<feminine>ihr<end> Freundschaft zu schließenn. 
 
 Zur Zeit ist {CHARACTER-SHORT-0} am aufblühen!]]></Translation>
 	</Entry>
@@ -4052,7 +4052,7 @@ Was solle nwir befehlen?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_DEATH_BASIC_01</zType>
-		<Translation>Glocken leuten. Trauernde füllen die Straßen. {CHARACTER-0} ist gestorben. Es ist das Ende einer Ära, und alle von {PLAYER-1} halten inne um Errungenschaften unseres gefallenen Herrschers zu ehren.
+		<Translation>Glocken läuten. Trauernde füllen die Straßen. {CHARACTER-0} ist gestorben. Es ist das Ende einer Ära, und alle von {PLAYER-1} halten inne um Errungenschaften unseres gefallenen Herrschers zu ehren.
 
 Die Herrschaft von {CHARACTER-1} hat begonnen.</Translation>
 	</Entry>
