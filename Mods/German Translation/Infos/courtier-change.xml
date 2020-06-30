@@ -122,6 +122,10 @@
 				<zIndex>TRAIT_CORRUPTIONIST_ARCHETYPE</zIndex>
 				<iValue>10</iValue>
 			</Pair>
+			<Pair>
+				<zIndex>TRAIT_CHAMPION_ARCHETYPE</zIndex>
+				<iValue>10</iValue>
+			</Pair>
 		</aiArchetypeDie>
 		<aeCognomen>
 			<zValue>COGNOMEN_GREAT_SOLDIER</zValue>

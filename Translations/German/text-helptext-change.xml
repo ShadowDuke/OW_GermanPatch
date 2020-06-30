@@ -2930,11 +2930,11 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_HURRY_TRAINING</zType>
-		<Translation><![CDATA[Kann Stadt Produktion mith <TEXT_YIELD_TRAINING> steigern]]></Translation>
+		<Translation><![CDATA[Kann Stadt Produktion mit <TEXT_YIELD_TRAINING> steigern]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_HURRY_MONEY</zType>
-		<Translation><![CDATA[Kann Stadt Produktion mith <TEXT_YIELD_MONEY> steigern]]></Translation>
+		<Translation><![CDATA[Kann Stadt Produktion mit <TEXT_YIELD_MONEY> steigern]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_HURRY_POPULATION</zType>
