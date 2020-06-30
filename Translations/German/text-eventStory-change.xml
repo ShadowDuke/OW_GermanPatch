@@ -1866,15 +1866,15 @@ The dalliance continues for the rest of the evening, causing much heated gossip 
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYERS_POSITIVE_OPINION_1</zType>
-		<Translation>[STUB: DU HAST DIE MÖGLICHKEIT DIE BEZIEHUNGEN ENTWEDER MIT {PLAYER-0} ODER {PLAYER-1} ERHEBLICH ZU VERBESSERN]</Translation>
+		<Translation>[DU HAST DIE MÖGLICHKEIT DIE BEZIEHUNGEN ENTWEDER MIT {PLAYER-0} ODER {PLAYER-1} ERHEBLICH ZU VERBESSERN]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYERS_POSITIVE_OPINION_2</zType>
-		<Translation>[STUB: DU HAST DIE MÖGLICHKEIT DIE BEZIEHUNGEN ENTWEDER MIT {PLAYER-0} ODER {PLAYER-1} ERHEBLICH ZU VERBESSERN]</Translation>
+		<Translation>[DU HAST DIE MÖGLICHKEIT DIE BEZIEHUNGEN ENTWEDER MIT {PLAYER-0} ODER {PLAYER-1} ERHEBLICH ZU VERBESSERN]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYERS_POSITIVE_OPINION_3</zType>
-		<Translation>[STUB: DU HAST DIE MÖGLICHKEIT DIE BEZIEHUNGEN ENTWEDER MIT {PLAYER-0} ODER {PLAYER-1} ERHEBLICH ZU VERBESSERN]</Translation>
+		<Translation>[DU HAST DIE MÖGLICHKEIT DIE BEZIEHUNGEN ENTWEDER MIT {PLAYER-0} ODER {PLAYER-1} ERHEBLICH ZU VERBESSERN]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CARAVAN_OF_LOVE</zType>
@@ -1896,11 +1896,11 @@ There is nothing to be done.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RETURN_CITY</zType>
-		<Translation>[STUB: DEIN VERBÜNDETER {PLAYER-0} GIBT DEINE EHEMALIGE STADT {CITY-1} ZU DIR ZURÜCK]</Translation>
+		<Translation>[DEIN VERBÜNDETER {PLAYER-0} GIBT DEINE EHEMALIGE STADT {CITY-1} ZU DIR ZURÜCK]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RETURN_CITY_BARBARIAN</zType>
-		<Translation>[STUB: DEIN VERBÜNDETER {BARBARIAN-0} GIBT DEINE EHEMALIGE STADT {CITY-1} ZU DIR ZURÜCK]</Translation>
+		<Translation>[DEIN VERBÜNDETER {BARBARIAN-0} GIBT DEINE EHEMALIGE STADT {CITY-1} ZU DIR ZURÜCK]</Translation>
 	</Entry>
 	<Entry beginGroup="Combat">
 		<zType>TEXT_EVENTSTORY_LEADER_SMITING_FOES</zType>
@@ -2242,7 +2242,7 @@ Was solle nwir erwiedern?]]></Translation>
 		<zType>TEXT_EVENTSTORY_MISSION_MARRIAGE_FAMILY</zType>
 		<Translation><![CDATA[Ein neues Heiratsangebot von {FAMILY-0} für {CHARACTER-1} ist eingetroffen. 
 
-What is our answer?]]></Translation>
+Wie lautet unsere Antwort?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MATCHMAKER_0</zType>
@@ -6268,11 +6268,11 @@ Many of our subjects follow the teachings of Mani, but perhaps the political cli
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ZOROASTRIANISM_FOUNDED</zType>
-		<Translation>[STUB: link(RELIGION_ZOROASTRIANISM) GEGRÜNDET in {CITY-1}]</Translation>
+		<Translation>[link(RELIGION_ZOROASTRIANISM) GEGRÜNDET in {CITY-1}]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_JUDAISM_FOUNDED</zType>
-		<Translation>[STUB: link(RELIGION_JUDAISM) GEGRÜNDET in {CITY-1}]</Translation>
+		<Translation>[link(RELIGION_JUDAISM) GEGRÜNDET in {CITY-1}]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ZOROASTRIANISM_TEMPLES</zType>
