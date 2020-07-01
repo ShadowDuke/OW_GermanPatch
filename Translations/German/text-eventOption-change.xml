@@ -387,7 +387,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TOO_EXPENSIVE</zType>
-		<Translation><![CDATA[Zu teuer]]></Translation>
+		<Translation><![CDATA[Zu teuer.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_ORACLE_ME</zType>
@@ -499,7 +499,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_ARTS_AND_SCIENCES_OPTION_2</zType>
-		<Translation><![CDATA[Wir benötigen Soldaten um unseren Reichtum zu schützen.]]></Translation>
+		<Translation><![CDATA[Wir benötigen Krieger um unseren Reichtum zu schützen.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_OF_THE_PEOPLE_OPTION_0</zType>
@@ -523,7 +523,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_QUESTION_AUTHORITY_OPTION_0</zType>
-		<Translation><![CDATA[Soldaten sind nicht länger seine Sorgen.]]></Translation>
+		<Translation><![CDATA[Krieger sind nicht länger seine Sorgen.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_QUESTION_AUTHORITY_OPTION_1</zType>
@@ -1075,199 +1075,199 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RIDDLE_OF_THE_SPHINX_JOKE</zType>
-		<Translation>Ist das nicht das selbe Rätsel, welches Oedipus gelöst hat, aber ist er nicht noch immer Berühmt dafür seine Mutter geheiratet zu haben?</Translation>
+		<Translation>Ist das nicht das selbe Rätsel, welches Oedipus gelöst hat,... aber ist er nicht noch immer Berühmt dafür seine Mutter geheiratet zu haben?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_ALL_THAT_GLITTERS_OPTION_0</zType>
-		<Translation>I welcome another place of royal wealth.</Translation>
+		<Translation>Ich begrüße einen neuen Platz für königlche Schätze.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_ALL_THAT_GLITTERS_OPTION_1</zType>
-		<Translation>Our people deserve the wealth of knowledge.</Translation>
+		<Translation>Unser Volk verdient Wissensvermögen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_CAUGHT_IN_THE_ACT_OPTION_0</zType>
-		<Translation>These crimes cannot go unpunished.</Translation>
+		<Translation>Diese Verbrechen dürfen nicht ungestraft bleiben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_CAUGHT_IN_THE_ACT_OPTION_1</zType>
-		<Translation>He is more valuable doing his duty.</Translation>
+		<Translation>Er ist viel nützlicher wenn er seiner Fplicht nachkommt.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_MARVELOUS_SPECIMENS_OPTION_0</zType>
-		<Translation>We must examine these puzzling remains.</Translation>
+		<Translation>Wir müssen diese rätselhaften Überreste untersuchen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_MARVELOUS_SPECIMENS_OPTION_1</zType>
-		<Translation>Send {CHARACTER-SHORT-3} to investigate these strange creatures.</Translation>
+		<Translation>Schicke {CHARACTER-SHORT-3} um diese komischen Kreaturen zu untersuchen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_RITUAL_SCENT_OPTION_0</zType>
-		<Translation>Hold the incense for the population of {CITY-2}.</Translation>
+		<Translation>Behalte den Weihrauch für die Einwohner von {CITY-2}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_RITUAL_SCENT_OPTION_1</zType>
-		<Translation>Allow the {RELIGION-3,3} to use it for rituals.</Translation>
+		<Translation>Erlaube der {RELIGION-3,3} um es für Rituale zu benutzen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_STANDOFF_OPTION_0</zType>
-		<Translation>Continue with our harvesting.</Translation>
+		<Translation>Fahre mit der Ernte fort.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_STANDOFF_OPTION_1</zType>
-		<Translation>Offer some of our harvest to the {PLAYER-2,2}.</Translation>
+		<Translation>Biete {PLAYER-2,2} etwas von unserer Ernte an.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_HIGH_SPIRITS_OPTION_0</zType>
-		<Translation>Let us try this stranger on the court.</Translation>
+		<Translation>Lasst uns diesen Fremden im Hofraat testen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_HIGH_SPIRITS_OPTION_1</zType>
-		<Translation>We shall plant more of these fine grapes.</Translation>
+		<Translation>Wir sollten mehr von diesen guten Trauben pflanzen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_CAMEL_BITE_OPTION_0</zType>
-		<Translation>Have the whole caravan slaughtered for meat.</Translation>
+		<Translation>Lass die ganze Karawane für Fleisch schlachten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_CAMEL_BITE_OPTION_1</zType>
-		<Translation>Give the camels to the {BARBARIAN-3} and be rid of them.</Translation>
+		<Translation>Gebe die Kamele an {BARBARIAN-3} um sie los zu sein.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_TOUGH_GAME_OPTION_0</zType>
-		<Translation>Research new uses for these products.</Translation>
+		<Translation>Erforsche neue Möglichkeiten für diese Erzeugnisse.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_TOUGH_GAME_OPTION_1</zType>
-		<Translation>Breed more of them for their parts.</Translation>
+		<Translation>Züchte für ihre Teile mehr von ihen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_WILD_HORSES_OPTION_0</zType>
-		<Translation>Provide them to military trainers.</Translation>
+		<Translation>Versorge damit die militärischen Ausbilder.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_WILD_HORSES_OPTION_1</zType>
-		<Translation>Give them to farmers to work the fields.</Translation>
+		<Translation>Gib sie an Farmer um die Felder damit zu bewirtschaften.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_WILD_HORSES_OPTION_2</zType>
-		<Translation>Harness them for war.</Translation>
+		<Translation>Mache sie für den Krieg nützlich.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_CORNER_THE_MARKET_OPTION_0</zType>
-		<Translation>Reduce the price so more can afford it.</Translation>
+		<Translation>Verringere den Preis so dass es sich mehrere leisten können.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_CORNER_THE_MARKET_OPTION_1</zType>
-		<Translation>Raise prices to ensure its rarity.</Translation>
+		<Translation>Erhöhe die Preise um die Kostbarkeit sicherzustellen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_LUXURY_OR_UTILITY_OPTION_0</zType>
-		<Translation><![CDATA[Grant {CHARACTER-SHORT-2} <masculine_CHARACTER-2>his<feminine>her<end> desired garments.]]></Translation>
+		<Translation><![CDATA[Bewillige {CHARACTER-SHORT-2} <masculine_CHARACTER-2>ihm<feminine>ihr<end> die gewünschten Gewänder.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_LUXURY_OR_UTILITY_OPTION_1</zType>
-		<Translation>Give the fur to our brave soldiers.</Translation>
+		<Translation>Gebe die Felle an unsere tapferen Krieger.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_PIG_IN_THE_PALACE_OPTION_0</zType>
-		<Translation><![CDATA[I will help my <masculine_CHARACTER-3>son<feminine>daughter<end> raise it.]]></Translation>
+		<Translation><![CDATA[Ich werde <masculine_CHARACTER-3>meinem<feminine>meiner<end> <masculine_CHARACTER-3>Sohn<feminine>Tochter<end> helfen es aufzuziehen.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_PIG_IN_THE_PALACE_OPTION_1</zType>
-		<Translation>Roast it for a grand banquet.</Translation>
+		<Translation>Brate es für ein großes Festessen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_HELPING_HANDS_OPTION_0</zType>
-		<Translation>Ask them to share their expertise.</Translation>
+		<Translation>Frag ob sie ihr Können teilen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_HELPING_HANDS_OPTION_1</zType>
-		<Translation>We need hands to work the fields.</Translation>
+		<Translation>Wir brauchen Hände für unsere Felder.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_OLIVE_OIL_OPTION_0</zType>
-		<Translation>Send the olive oil to {PLAYER-3}.</Translation>
+		<Translation>Schicke das Olivenöl an {PLAYER-3}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_OLIVE_OIL_OPTION_1</zType>
-		<Translation>Send the olive oil to {PLAYER-4}.</Translation>
+		<Translation>Schicke das Olivenöl an {PLAYER-4}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_OLIVE_OIL_OPTION_2</zType>
-		<Translation>Why waste such a luxury on foreigners?</Translation>
+		<Translation>Warum so ein Luxusgut an Fremde verschweden?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_SORGHUM_SEEDS_OPTION_0</zType>
-		<Translation>{CITY-2} always needs more food production.</Translation>
+		<Translation>{CITY-2} braucht ständig eine größere Nahrungsproduktion.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_SORGHUM_SEEDS_OPTION_1</zType>
-		<Translation>Brew wine and other alcoholic beverages.</Translation>
+		<Translation>Braue Wein und andere alkoholische Getränke.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_SORGHUM_SEEDS_OPTION_2</zType>
-		<Translation>Use it to feed animals of field and pasture.</Translation>
+		<Translation>Benutze es um Tiere der Äcker und Weiden zu füttern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_YOUNG_SHEPHERD_OPTION_0</zType>
-		<Translation>She may come to {CITY-4} with her sheep.</Translation>
+		<Translation>Sie darf mit ihrem Schaaf gerne nach {CITY-4} kommen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_YOUNG_SHEPHERD_OPTION_1</zType>
-		<Translation>She will be given a proper childhood.</Translation>
+		<Translation>Ihr wird eine angemessende Kindheit gegeben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_YOUNG_SHEPHERD_OPTION_2</zType>
-		<Translation>She must be returned to the {BARBARIAN-4}.</Translation>
+		<Translation>Sie muss zu den {BARBARIAN-4} zurückkehren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_PEARL_DIVERS_OPTION_0</zType>
-		<Translation>Fund an expedition and send pearls to the {FAMILY-1,1}.</Translation>
+		<Translation>Finanziere eine Expedition und schicke die Perlen an {FAMILY-1,1}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_PEARL_DIVERS_OPTION_1</zType>
-		<Translation>Fund an expedition and send pearls to the {FAMILY-2,1}.</Translation>
+		<Translation>Finanziere eine Expedition und schicke die Perlen an {FAMILY-2,1}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_PEARL_DIVERS_OPTION_2</zType>
-		<Translation>Support the dive, and I will take the pearls.</Translation>
+		<Translation>Unterstütze dden Tauchgang und ich werde die Perlen nehmen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_PEARL_DIVERS_OPTION_3</zType>
-		<Translation>We should save that money.</Translation>
+		<Translation>Wir sollten das Geld sparen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_RESCUE_AT_SEA_OPTION_0</zType>
-		<Translation>We need fishers in {CITY-2}.</Translation>
+		<Translation>Wir brauchen Fischer in {CITY-2}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_RESCUE_AT_SEA_OPTION_1</zType>
-		<Translation>We need fishers in {CITY-3}.</Translation>
+		<Translation>Wir brauchen Fischer in {CITY-3}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_BEAST_OF_BURDEN_OPTION_0</zType>
-		<Translation>Let the beast live a peaceful life in a city zoo.</Translation>
+		<Translation>Lass das Biest im Stadtzoo ein friedliches Leben leben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_BEAST_OF_BURDEN_OPTION_1</zType>
-		<Translation>Train the beast to lead our troops in battle.</Translation>
+		<Translation>Bilde das Biest dazu aus unsere Truppen in der Schlacht zu führen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_GREAT_POTENTIAL_OPTION_0</zType>
-		<Translation>Proceed with research into salt production.</Translation>
+		<Translation>Fahre mit der Forschung zur Salz Prodktion fort.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_GREAT_POTENTIAL_OPTION_1</zType>
-		<Translation>The court cannot fund this project now.</Translation>
+		<Translation>Der Hooftsaat kann dieses Projekt zur Zeit nicht finanzieren.The court cannot fund this project now.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_SHIP_SICKNESS_OPTION_0</zType>
-		<Translation>Our brave crews should have them.</Translation>
+		<Translation>Unsere tapferen Besatzungen sollten sie bekommen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_SHIP_SICKNESS_OPTION_1</zType>
-		<Translation>This remedy has not yet been proven.</Translation>
+		<Translation>Diese Abhilfe konnte noch immer nicht nachgewiesen werden.</Translation>
 	</Entry>
 	<Entry beginGroup="Contact">
 		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_CALM_EMISSARY_TRUCE</zType>
@@ -1495,243 +1495,243 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_EGYPT_OPTION_0</zType>
-		<Translation><![CDATA[We will accept peace with a token of goodwill.]]></Translation>
+		<Translation><![CDATA[Wir werden als Zeichen des guten Willen den Frieden akzeptieren.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_EGYPT_OPTION_1</zType>
-		<Translation><![CDATA[Osiris has our respect, and {PLAYER-0} has our friendship.]]></Translation>
+		<Translation><![CDATA[Osiris hat unseren Respekt und {PLAYER-0} hat unsere Freundschaft.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_EGYPT_OPTION_2</zType>
-		<Translation><![CDATA[Now is not the time for peace.]]></Translation>
+		<Translation><![CDATA[Jetzt ist nicht die Zeit für Frieden.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_EGYPT_ALLIANCE_OPTION_0</zType>
-		<Translation><![CDATA[Begin forming the alliance with {PLAYER-0}.]]></Translation>
+		<Translation><![CDATA[Beginne damit ein Bündnis mit {PLAYER-0} zu schmieden.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_EGYPT_ALLIANCE_OPTION_1</zType>
-		<Translation><![CDATA[Continue trade, but refuse formal ties.]]></Translation>
+		<Translation><![CDATA[Fahre mit den Handel fort, aber verweigere offizielle Bindungen.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_PERSIA_OPTION_0</zType>
-		<Translation><![CDATA[Continue trade, but decline official peace.]]></Translation>
+		<Translation><![CDATA[Fahre mit den Handel fort, aber verweigere den offiziellen Frieden.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_PERSIA_OPTION_1</zType>
-		<Translation><![CDATA[We welcome peace and trade.]]></Translation>
+		<Translation><![CDATA[Wi begrüßen Frieden und Handel.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_PERSIA_OPTION_2</zType>
-		<Translation><![CDATA[Guests should not insult their hosts.]]></Translation>
+		<Translation><![CDATA[Gäste sollten ihre Gastgeber nicht beleidigen.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_IGNORE_PERSIA_OPTION_0</zType>
-		<Translation><![CDATA[Accept Persia's gift of Gold and agree to Peace.]]></Translation>
+		<Translation><![CDATA[Nehme Persiens Gold Geschenk an und akzeptiere den Frieden.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_OPTION_2</zType>
-		<Translation><![CDATA[Trade for iron ore.]]></Translation>
+		<Translation><![CDATA[Hanel für Eisenerz.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_OPTION_1</zType>
-		<Translation><![CDATA[Trade for limestone.]]></Translation>
+		<Translation><![CDATA[Handel für Kalkstein.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_OPTION_0</zType>
-		<Translation><![CDATA[Trade for lumber.]]></Translation>
+		<Translation><![CDATA[Handel für Holz.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_IGNORE_OPTION_0</zType>
-		<Translation>Our people can use the food.</Translation>
+		<Translation>Unser Volk kann die Nahrung gebrauchen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_REFUSE_OPTION_2</zType>
-		<Translation>Let them go without condition.</Translation>
+		<Translation>Lasst sie ohne weitere Bedingungen gehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_REFUSE_OPTION_1</zType>
-		<Translation>Release them, but with a grave warning.</Translation>
+		<Translation>Lasst sie frei, aber gebe ihnen eine ernste Warnung.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_REFUSE_OPTION_0</zType>
-		<Translation>Executions will send a message.</Translation>
+		<Translation>Hinrichtungen werden eine Botschaft senden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_REFUSE_SPIES_SPARED_OPTION_0</zType>
-		<Translation>Accept Peace with {PLAYER-0,0}.</Translation>
+		<Translation>Akzeptiere Frieden mit {PLAYER-0,0}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_REFUSE_SPIES_SPARED_OPTION_1</zType>
-		<Translation>Politely decline.</Translation>
+		<Translation>Lehne höflich ab.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_PEACE_OPTION_1</zType>
-		<Translation>Decline peace, but sell art to {CHARACTER-SHORT-0}.</Translation>
+		<Translation>Lehne Frieden ab, aber verkaufe Kunst an {CHARACTER-SHORT-0}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_PEACE_OPTION_0</zType>
-		<Translation>Fund the transition to peace with {PLAYER-0,0}.</Translation>
+		<Translation>Finanziere die Überleitung zum Frieden mit {PLAYER-0,0}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_PERSIA_EXCHANGE_OPTION_2</zType>
-		<Translation>Send only those who can pay their own way.</Translation>
+		<Translation>Schicke nur die, die auf eigene Weise bezahlen können.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_PERSIA_EXCHANGE_OPTION_1</zType>
-		<Translation>Counterpropose an annual feast in {CITY-2}.</Translation>
+		<Translation>Ein Gegenvorschlag für ein jährliches Fest in {CITY-2}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_PERSIA_EXCHANGE_OPTION_0</zType>
-		<Translation>Send our finest minds to attend. </Translation>
+		<Translation>Schicke unsere besten Gemüter um beizuwohnen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_CARTHAGE_OPTION_1</zType>
-		<Translation>We cannot afford his proposal.</Translation>
+		<Translation>Wir können uns sein Angebot nicht leisten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_CARTHAGE_OPTION_0</zType>
-		<Translation>Invest in this rare opportunity.</Translation>
+		<Translation>Investiere in diese ungewöhnliche Möglichkeit.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_CARTHAGE_INVEST_OPTION_0</zType>
-		<Translation>This is an unfortunate misunderstanding.</Translation>
+		<Translation>Das ist ein unglückliches Missverständnis.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_CARTHAGE_INVEST_OPTION_1</zType>
-		<Translation>Wait, wait, let me explain...</Translation>
+		<Translation>Wartet, wartet, lass mich erklären...</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_CARTHAGE_REFUSE_OPTION_0</zType>
-		<Translation>We look forward to improved relations.</Translation>
+		<Translation>Wir erwarten unsere Beziehungen zu verbessern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_CARTHAGE_REFUSE_OPTION_1</zType>
-		<Translation>May this gift express our deep shame.</Translation>
+		<Translation>Möge dieses Geschenk unsere tiefe Schande ausdrücken.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_EGYPT_OPTION_1</zType>
-		<Translation>Refuse the diplomats' help.</Translation>
+		<Translation>Verweigere die Hilfe des Diplomaten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_EGYPT_OPTION_0</zType>
-		<Translation>Donate to the Temple of Osiris.</Translation>
+		<Translation>Spende dem Tempel des Osiris.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_EGYPT_ISIS_OPTION_0</zType>
-		<Translation>Donate to the Temple of Isis.</Translation>
+		<Translation>Spende dem Tempel der Isis.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_EGYPT_ISIS_OPTION_1</zType>
-		<Translation>We cannot afford additional donations.</Translation>
+		<Translation>Wir können uns keine zusätzlichen Spenden leisten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_EGYPT_RA_OPTION_0</zType>
-		<Translation>Donate to the Temple of Ra.</Translation>
+		<Translation>Spende dem Tempel des Ra.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_EGYPT_RA_OPTION_1</zType>
-		<Translation>Our support for Egypt cannot be sustained.</Translation>
+		<Translation>Unsere unterstützung für Ägyptn kann nicht anhalten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_EGYPT_REFUSED_DONATION_OPTION_1</zType>
-		<Translation>Execute the diplomats from {PLAYER-0}.</Translation>
+		<Translation>Richte die Diplomaten von {PLAYER-0} hin.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_EGYPT_REFUSED_DONATION_OPTION_0</zType>
-		<Translation>We will defend ourselves from all enemies.</Translation>
+		<Translation>Wir werden uns vor allen Feinden selbst verteidigen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_ROME_OPTION_2</zType>
-		<Translation>Give her a personal tour in your carriage..</Translation>
+		<Translation>Gib ihr eine persönliche Führung in deiner Kutsche..</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_ROME_OPTION_1</zType>
-		<Translation>Grant her request for a tour.</Translation>
+		<Translation>Gewähre ihre Bitte nach einem Rundgang.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_ROME_OPTION_0</zType>
-		<Translation>Politely, explain that you are too busy.</Translation>
+		<Translation>Erkläre höflich das du zu beschäftigt bist.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_ROME_DECLINE_OPTION_0</zType>
-		<Translation>Allow trading to commence in {CITY-2}.</Translation>
+		<Translation>Erlaube den Begin des Handels in {CITY-2}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_ROME_DECLINE_OPTION_1</zType>
-		<Translation>Apologize. Next time, we will act the gracious host.</Translation>
+		<Translation>Entschuldigung. Nächstes mal werden wir den gütigen Gastgeber spielen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_ROME_ACCEPT_OPTION_3</zType>
-		<Translation>Accept both peace and a trade deal.</Translation>
+		<Translation>Stimme beiden, Friedens- und Handels-Abkommen zu.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_ROME_ACCEPT_OPTION_2</zType>
-		<Translation>Accept the proposed peace.</Translation>
+		<Translation>Stimme dem vorgeschlagenen Frieden zu.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_ROME_ACCEPT_OPTION_1</zType>
-		<Translation>Accept the terms of the trade deal.</Translation>
+		<Translation>Stimme den Bedingungen des Handelsabkommens zu.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_ROME_GUIDE_OPTION_4</zType>
-		<Translation>Agree to supply gold.</Translation>
+		<Translation>Willige ein Gold zu liefern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_ROME_GUIDE_OPTION_3</zType>
-		<Translation>Agree to supply food.</Translation>
+		<Translation>Willige ein Nahrung zu liefern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_ROME_GUIDE_OPTION_2</zType>
-		<Translation>Agree to supply wood.</Translation>
+		<Translation>Willige ein Holz zu liefern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_ROME_GUIDE_OPTION_1</zType>
-		<Translation>Agree to supply iron.</Translation>
+		<Translation>Willige ein Eisen zu liefern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_ROME_DECLINE</zType>
-		<Translation>Politely Decline.</Translation>
+		<Translation>Lehne höflich ab.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_ROME_ALLY_OPTION_0</zType>
-		<Translation>Forge an alliance with {PLAYER-0}.</Translation>
+		<Translation>Schmiede ein Bündnis mit {PLAYER-0}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_OPTION_2</zType>
-		<Translation>Refuse to treat with them.</Translation>
+		<Translation>Weigere dich sie zu versorgen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_OPTION_1</zType>
-		<Translation>Send gifts as a display of goodwill.</Translation>
+		<Translation>Schicke Geschenke als Beweis des guten Willens.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_OPTION_0</zType>
-		<Translation>Welcome all {PLAYER-0,2} to {PLAYER-1}.</Translation>
+		<Translation>Empfange alle {PLAYER-0,2} für {PLAYER-1}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_WELCOME_BABYLON_OPTION_0</zType>
-		<Translation>Let us be lasting friends.</Translation>
+		<Translation>Lasst uns dauerhafte Freunde sein.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_WELCOME_BABYLON_OPTION_1</zType>
-		<Translation>We wish to learn more about you first.</Translation>
+		<Translation>Wir möchten gerne erst mehr über euch erfahren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_WELCOME_BABYLON_LEARN_OPTION_0</zType>
-		<Translation>Study the Code of Hammurabi, and offer a gift.</Translation>
+		<Translation>Lerne den Codex Hammurapi und biete ein Geschenk an.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_WELCOME_BABYLON_LEARN_OPTION_1</zType>
-		<Translation>Study the Code of Hammurabi, and request Peace.</Translation>
+		<Translation>Lerne den Codex Hammurapi und verlange Frieden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_WELCOME_BABYLON_LEARN_OPTION_2</zType>
-		<Translation>Offer a gift of food in thanks.</Translation>
+		<Translation>Biete als Dank etwas Nahrung als Geschenk an.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_WELCOME_BABYLON_LEARN_OPTION_3</zType>
-		<Translation>Let the ambassador return home empty handed.</Translation>
+		<Translation>Lasst den Gesandten mit leeren Händen nach Hause zurückkehren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_WELCOME_BABYLON_APPRECIATE_OPTION_0</zType>
@@ -4107,7 +4107,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_BATTLEFIELD_PROMOTION_PROMOTE</zType>
-		<Translation><![CDATA[Befördere die {UNIT-1}.]]></Translation>
+		<Translation><![CDATA[Befördere {UNIT-1}.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_BATTLEFIELD_PROMOTION_TRIUMPH</zType>

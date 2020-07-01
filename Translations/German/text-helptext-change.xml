@@ -1657,7 +1657,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_STOP_TUTORING_FAMILY</zType>
-		<Translation>Wird nicht länger {0_tutorLink} königliche Familie.</Translation>
+		<Translation>Nicht länger {0_tutorLink} der königlichen Familie.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_STOP_TUTORING_FAMILY_VERB</zType>
@@ -2439,7 +2439,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<!--Improvement Tooltip-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_TOOLTIP_BUILD</zType>
-		<Translation>Baue {0}</Translation>
+		<Translation>Errichte {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_TOOLTIP_BUY_HINT</zType>
@@ -4676,7 +4676,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PROJECT_BUILD_COST</zType>
-		<Translation>Baue: {0} link(YIELD_CIVICS)</Translation>
+		<Translation>Aufwand: {0} link(YIELD_CIVICS)</Translation>
 	</Entry>
 	<!--Specialist Help-->
 	<Entry>
@@ -5478,7 +5478,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_CAPTURE_BARBARIAN_SITES</zType>
-		<Translation><![CDATA[Erobere {0} <true_1>{1}<false>Barbaren<end> <singular_0>Platz<plural>Plätze<end>]]></Translation>
+		<Translation><![CDATA[Erobere {0} <true_1>{1}<false>Barbaren<end> <singular_0>Gelände<plural>Gelände<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_KILL_PLAYER_ENEMY_UNITS</zType>

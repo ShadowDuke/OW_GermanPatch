@@ -211,19 +211,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_BURLY_SMITH_TITLE</zType>
-		<Translation>Burly Smith</Translation>
+		<Translation>Kräftiger Schmied Smith</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_GOOD_FENCES_TITLE</zType>
-		<Translation>Good Fences</Translation>
+		<Translation>Gute Zäune</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_TRIBAL_HUNTERS_TITLE</zType>
-		<Translation>Tribal Hunters</Translation>
+		<Translation>Stammesjäger</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_STAR_CHARTS_TITLE</zType>
-		<Translation>Star Charts</Translation>
+		<Translation>Sternenbilder</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_FRUIT_TREES_TITLE</zType>
@@ -231,23 +231,23 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_OLD_SOLDIER_TITLE</zType>
-		<Translation>Veteran Soldier</Translation>
+		<Translation>Erfahrener Krieger</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_WEARY_MARAUDERS_TITLE</zType>
-		<Translation>Weary Raiders</Translation>
+		<Translation>Erschöpfte Räuber</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_GREAT_MIGRATION_TITLE</zType>
-		<Translation><![CDATA[Great Migration]]></Translation>
+		<Translation><![CDATA[Beträchtliche Zuawnderung]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_VULGAR_SPEECH_TITLE</zType>
-		<Translation><![CDATA[Vulgar Speech]]></Translation>
+		<Translation><![CDATA[Geschmacklose Sprache]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_ANCIENT_BARBARIANS_TITLE</zType>
-		<Translation><![CDATA[Ancient Barbarians]]></Translation>
+		<Translation><![CDATA[Uralte Barbaren]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_THE_WATCHERS_TITLE</zType>
@@ -255,7 +255,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ANCIENT_SITE_TITLE</zType>
-		<Translation>Ancient Site</Translation>
+		<Translation>Uralter Standort</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SACRED_TOMB_TITLE</zType>
@@ -263,19 +263,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SEASHORE_FIND_TITLE</zType>
-		<Translation><![CDATA[Seashore Find]]></Translation>
+		<Translation><![CDATA[Küstenfund]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_EARLY_DISCIPLES_TITLE</zType>
-		<Translation><![CDATA[Early Disciples]]></Translation>
+		<Translation><![CDATA[Anfängliche Jünger]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_THE_FLOATING_CITY_TITLE</zType>
-		<Translation><![CDATA[The Floating City]]></Translation>
+		<Translation><![CDATA[Die schwebende Stadt]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_NEW_HUMANS_TITLE</zType>
-		<Translation><![CDATA[New Humans]]></Translation>
+		<Translation><![CDATA[Fremde Menschen]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_SUNKEN_TOMBS_TITLE</zType>
@@ -283,7 +283,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_THE_KINGS_ROADS_TITLE</zType>
-		<Translation><![CDATA[The King's Roads]]></Translation>
+		<Translation><![CDATA[Die Straßen des Königs]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_GEOGLYPHS_TITLE</zType>
@@ -291,11 +291,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_RAISED_FIELDS_TITLE</zType>
-		<Translation><![CDATA[Raised Fields]]></Translation>
+		<Translation><![CDATA[Aufgeschüttete Felder]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_GRAVE_CIRCLES_TITLE</zType>
-		<Translation><![CDATA[Grave Circle]]></Translation>
+		<Translation><![CDATA[Grab Kranz]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_EMERALD_MINES_TITLE</zType>
@@ -303,7 +303,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_EMERALD_MINES_CAVE_IN_TITLE</zType>
-		<Translation><![CDATA[Cave In!]]></Translation>
+		<Translation><![CDATA[Eingestürzt!]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_EMERALD_MINE_REBUILT_TITLE</zType>
@@ -319,15 +319,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_GOLD_WORKERS_TITLE</zType>
-		<Translation><![CDATA[Gold Workers]]></Translation>
+		<Translation><![CDATA[Goldarbeiter]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_BEADS_AND_FIGURINES_TITLE</zType>
-		<Translation><![CDATA[Beads and Figurines]]></Translation>
+		<Translation><![CDATA[Perlen und Figuren]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_WRATH_OF_THE_WATCHERS_TITLE</zType>
-		<Translation>Wrath of the Watchers</Translation>
+		<Translation>Zorn der Wächter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_PROPHECY_TITLE</zType>
@@ -347,7 +347,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_ALL_THAT_GLITTERS_TITLE</zType>
-		<Translation>All that Glitters</Translation>
+		<Translation>Alles was glitzert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_CAUGHT_IN_THE_ACT_TITLE</zType>
@@ -355,7 +355,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_MARVELOUS_SPECIMENS_TITLE</zType>
-		<Translation>Marvelous Specimens</Translation>
+		<Translation>Erstaunliche Exemplare</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_RITUAL_SCENT_TITLE</zType>
