@@ -1,8 +1,7 @@
-# Update for newest game version 02/07/20 - ~19:00 CET
 *Accidentally deleted the previous repository*
 
 # Old World German Patch
-German localization for **Old World** for **Version: 0.1.39753**. (WIP)
+German localization for **Old World** for **Version: 0.1.40018**. (WIP)
 
 Zur [deutschen Anleitung](https://github.com/ShadowDuke/OW_GermanPatch#deutsch) springen.
 
