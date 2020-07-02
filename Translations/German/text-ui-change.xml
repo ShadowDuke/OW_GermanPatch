@@ -178,6 +178,10 @@
 		<Translation>Müde</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_CITY_WIDGET_GOVERNOR_MARKER</zType>
+		<Translation>S</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_CITY_WIDGET_AGENT_MARKER</zType>
 		<Translation>A</Translation>
 	</Entry>
@@ -521,7 +525,11 @@
     <Entry>
         <zType>TEXT_MENU_SCREEN_MP_BUTTON</zType>
         <Translation>Mehrspieler</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MENU_SCREEN_MOD_MANAGER_BUTTON</zType>
+		<Translation>Modifikationen</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_MENU_SCREEN_TOOLS_BUTTON</zType>
         <Translation>Werkzeuge</Translation>
@@ -869,14 +877,17 @@
     <Entry>
         <zType>TEXT_MP_SETUP_SCHEDULE_PAUSE_CLEAR</zType>
         <Translation>Lösche Pausen</Translation>
-    </Entry>
+	</Entry>
+	<!--mod-manager.xml-->
+	<Entry>
+		<zType>TEXT_MOD_MANAGER_MANAGE_TAB</zType>
+		<Translation>Verwalte</Translation>
+	</Entry>
 
+	<!--options-menu.xml-->
 
-
-    <!--options-menu.xml-->
-
-    <!--title bar-->
-    <Entry>
+	<!--title bar-->
+	<Entry>
         <zType>TEXT_OPTIONS_MENU_TITLEBAR_GAMEPLAY</zType>
         <Translation>Spielablauf</Translation>
     </Entry>

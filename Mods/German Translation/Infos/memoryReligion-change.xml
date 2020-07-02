@@ -12,7 +12,7 @@
 	<Entry>
 		<zType>MEMORYRELIGION_REFUSED_LAW</zType>
 		<zText>Geweigert Gesetz zu ändern</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYRELIGION_FAMILY_WAR_YES</zType>
@@ -288,6 +288,11 @@
 		<zType>MEMORYCHARACTER_REFUSED_LAW</zType>
 		<zText>Geweigert Gesetz zu ändern</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_IMPRESSED_PRIESTS</zType>
+		<zText>Verärgerte Priester beeindruckt</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry beginGroup="Family">
 		<zType>MEMORYRELIGION_SHOWED_DEVOTION</zType>

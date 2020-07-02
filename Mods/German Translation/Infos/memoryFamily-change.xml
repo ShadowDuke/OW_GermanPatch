@@ -41,7 +41,7 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_REFUSED_US_CITY</zType>
-		<zText>Sich geweigert uns eine Stadt zu geben</zText>
+		<zText>Geweigert uns eine Stadt zu geben</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -501,17 +501,17 @@
 	<Entry>
 		<zType>MEMORYFAMILY_HELPED_COVER_UP</zType>
 		<zText>Helped cover up disappearance</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_RELEASED_CAPTIVE</zType>
 		<zText>Released our prisoner</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_FIXED_MISUNDERSTANDING</zType>
 		<zText>Fixed misunderstanding over prisoner</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry beginGroup="Combat">
 		<zType>MEMORYFAMILY_HONOR_AND_GLORY</zType>
@@ -1191,6 +1191,26 @@
 	<Entry>
 		<zType>MEMORYFAMILY_BORING_LEADER</zType>
 		<zText>We have a boring ruler</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_TO_CHANGE_LAW</zType>
+		<zText>Refused to change law</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_TO_CHANGE_LAW_SMALL</zType>
+		<zText>Refused to change law</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_RUMORS</zType>
+		<zText>Refused to heed rumors</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ACCUSED_OF_MURDER</zType>
+		<zText>Accused us of plotting murder</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry beginGroup="Exploration">

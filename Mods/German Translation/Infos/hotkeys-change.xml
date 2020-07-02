@@ -118,14 +118,6 @@
 		<bIgnoreMouse>1</bIgnoreMouse>
 	</Entry>
 	<Entry>
-		<zType>HOTKEY_SHOW_TILE_GOODS</zType>
-		<zName>Zeige Güter Felder</zName>
-		<HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>
-		<Keys>N</Keys>
-		<bHold>1</bHold>
-		<bIgnoreMouse>1</bIgnoreMouse>
-	</Entry>
-	<Entry>
 		<zType>HOTKEY_TOGGLE_HEX_GRID</zType>
 		<zName>Stelle Hex Gitter um</zName>
 		<HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>
@@ -139,6 +131,12 @@
 		<bHold>1</bHold>
 	</Entry>
 	<Entry>
+        <zType>HOTKEY_ROAD_TO</zType>
+        <zName>Schalte Stadtverbindugen um</zName>
+        <HotkeyClass>HOTKEYCLASS_GAMEPLAY</HotkeyClass>
+        <Keys>LeftControl+R, RightControl+R</Keys>
+    </Entry>
+    <Entry>
 		<zType>HOTKEY_SPEND_TRAINING_FOR_ORDERS</zType>
 		<zName>Gebe Training für Befehle aus</zName>
 		<HotkeyClass>HOTKEYCLASS_GAMEPLAY</HotkeyClass>

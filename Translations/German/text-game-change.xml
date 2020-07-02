@@ -252,10 +252,6 @@
 		<Translation>Sende {0_trade} an {1_player}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_TRADE_FOR_PLAYER</zType>
-		<Translation>{0_trade} Erhöhte Nachfrage für {1_player}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_TRIBUTE_PLAYER</zType>
 		<Translation>{0_tribute} Tribut mit {1_player}</Translation>
 	</Entry>
@@ -308,10 +304,6 @@
 		<Translation><![CDATA[{0_value} <singular_0>{1_citizenLink}<plural>{1,2_citizenLink}<end>]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_HP</zType>
-		<Translation>{0_damage} HP</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_BORDER_GROWTH</zType>
 		<Translation><![CDATA[{0_value} Grenzen <singular_0>Feld<plural>Felder<end>]]></Translation>
 	</Entry>
@@ -330,6 +322,14 @@
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_IMPROVEMENTS_DESTROYED</zType>
 		<Translation><![CDATA[{0_value} <singular_0>Verbesserung<plural>Verbesserungen<end> Destroyed]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_HP</zType>
+		<Translation>{0_damage} HP</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_AGENT_CITY</zType>
+		<Translation>{0_character} wird link(CONCEPT_AGENT)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_PLUS_ONE</zType>

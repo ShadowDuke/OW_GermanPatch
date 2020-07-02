@@ -50,7 +50,7 @@
 		<English>Agent {0_name}</English>
 	</Entry>
   <!-- Relation -->
-	<Entry>
+	<Entry comment="TEXT_CHARACTER_RELATION_XXX texts have the leader (i.e. 'You') as variable index 1 for gender">
 		<zType>TEXT_CHARACTER_RELATION_YOU</zType>
 		<Translation>Du!</Translation>
 	</Entry>

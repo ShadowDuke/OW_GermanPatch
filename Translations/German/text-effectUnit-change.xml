@@ -47,20 +47,28 @@
 		<Translation>Held</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_HERO_LEADER</zType>
+		<Translation>Oberhaupt (Anführer)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_COMMANDER</zType>
-		<English>Feldherr</English>
+		<Translation>Feldherr</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_TACTICIAN</zType>
-		<English>Taktiker</English>
+		<Translation>Taktiker</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_TACTICIAN_LEADER_ALL</zType>
+		<Translation>Taktiker (Anführer)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_ZEALOT</zType>
-		<English>Fanatiker</English>
+		<Translation>Fanatiker</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SCHEMER</zType>
-		<English>Intrigant</English>
+		<Translation>Intrigant</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_TRACKER</zType>
@@ -156,7 +164,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_PANIC</zType>
-		<English>Panisch</English>
+		<Translation>Panisch</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_STEALTH</zType>
@@ -169,6 +177,10 @@
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_FORMATION</zType>
 		<Translation>Formation</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_CRIPPLED</zType>
+		<Translation>Verkrüppelt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_VALOR</zType>
@@ -209,18 +221,6 @@
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_OPINIONFAMILY_FRIENDLY</zType>
 		<Translation>Freundlich (Familie)</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTUNIT_TRAIT_HERO_ARCHETYPE_LEADER</zType>
-		<Translation>Held (Oberhaupt)</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTUNIT_TRAIT_TACTICIAN_ARCHETYPE</zType>
-		<Translation>Taktiker</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTUNIT_TRAIT_CRIPPLED</zType>
-		<Translation>Verkrüppelt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SWORD_OF_THE_GODS</zType>

@@ -115,10 +115,34 @@
 		<Translation>Frieden Ereignis</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_EVENT</zType>
-		<Translation>Waffenruhe Ereignis</Translation>
+		<zType>TEXT_MISSIONRESULT_PLAYER_PEACE_OFFER_EVENT</zType>
+		<Translation>Biete Tribut für Frieden Ereignis</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_PLAYER_PEACE_NO_EVENT</zType>
+		<Translation>Frag nach Frieden Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PLAYER_PEACE_DEMAND_EVENT</zType>
+		<Translation>Verlange Tribut für Frieden Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_EVENT</zType>
+		<Translation>WAffenruhe Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_OFFER_EVENT</zType>
+		<Translation>Biete Tribut für Waffenruhe Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_NO_EVENT</zType>
+		<Translation>Frage nach Waffenruhe Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_DEMAND_EVENT</zType>
+		<Translation>Verlange Tribur für Waffenruhe Ereignis</Translation>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_MISSIONRESULT_PLAYER_DECLARE_WAR_EVENT</zType>
 		<Translation>Erkläre Krieg</Translation>
 	</Entry>

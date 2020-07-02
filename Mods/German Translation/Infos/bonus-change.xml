@@ -59,6 +59,7 @@
 		<iSpreadToSubject comment="Religion will spread to the previous Subject City at this index."/>
 		<iTradeResourceSubject comment="Trades the Resources to previous Subject at this index."/>
 		<iMissionSubject comment="The Mission will target the previous Subject at this index."/>
+		<iMissionReverse comment="The Mission character will be the previous Subject at this index."/>																						
 		<iTradeCitySubject comment="Trade the City to the previous Subject at this index."/>
 		<bRevealTerritory comment="Will reveal all the territory of this Player."/>
 		<bCancelTrade comment="Will cancel trade with this Player."/>
@@ -71,6 +72,7 @@
 		<bStateReligion comment="Set this Religion the Player's State Religion (without paying the cost)."/>
 		<bStateReligionEnd comment="Clears the Player's State Religion."/>
 		<bFoundReligion comment="The Player will found a random Religion."/>
+		<bFoundReligionCity comment="The Player will found a random Religion in this City."/>																			   
 		<bStartLaw comment="Starts the Law and pays the Civics cost."/>
 		<bFreeLaw comment="Starts the Law without paying the cost."/>
 		<bFreeTheology comment="Establishes the Theology without paying the cost."/>
@@ -92,9 +94,6 @@
 		<aiYieldsSendBase comment="Send this Yield (lump sum) to the other Player (and deduct it from this Player's stockpile)."/>
 		<aiYieldsSendPerUs comment="Send this Yield (per this Player's Cities) to the other Player (and deduct it from this Player's stockpile)."/>
 		<aiYieldsSendPerThem comment="Send this Yield (per other Player's Cities) to the other Player (and deduct it from this Player's stockpile)."/>
-		<aiYieldsExchangeBase comment="List of Yields (lump sum) both sides gain in trade."/>
-		<aiYieldsExchangePerUs comment="List of Yields (per this Player's Cities) both sides gain in trade."/>
-		<aiYieldsExchangePerThem comment="List of Yields (per other Player's Cities) both sides gain in trade."/>
 		<aiYieldsTradeBase comment="List of Yields (lump sum) gained in trade. If this value is positive, this Player receives the Yields; if it’s negative, the other Player receives the Yields."/>
 		<aiYieldsTradePerUs comment="List of Yields (per this Player's Cities) gained in trade. If this value is positive, this Player receives the Yields; if it’s negative, the other Player receives the Yields."/>
 		<aiYieldsTradePerThem comment="List of Yields (per other Player's Cities) gained in trade. If this value is positive, this Player receives the Yields; if it’s negative, the other Player receives the Yields."/>
@@ -183,6 +182,7 @@
 		<iSpreadToSubject/>
 		<iTradeResourceSubject/>
 		<iMissionSubject/>
+		<iMissionReverse/>			
 		<bRevealTerritory/>
 		<bCancelTrade/>
 		<bTeamAlliance/>
@@ -194,6 +194,7 @@
 		<bStateReligion/>
 		<bStateReligionEnd/>
 		<bFoundReligion/>
+		<bFoundReligionCity/>			   
 		<bStartLaw/>
 		<bFreeLaw/>
 		<bFreeTheology/>
@@ -215,9 +216,6 @@
 		<aiYieldsSendBase/>
 		<aiYieldsSendPerUs/>
 		<aiYieldsSendPerThem/>
-		<aiYieldsExchangeBase/>
-		<aiYieldsExchangePerUs/>
-		<aiYieldsExchangePerThem/>
 		<aiYieldsTradeBase/>
 		<aiYieldsTradePerUs/>
 		<aiYieldsTradePerThem/>
@@ -341,7 +339,7 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_BARBARIAN_TRUCE_LEGITIMACY</zType>
-		<zName>Vereinbare eine Waffenruhe mit einem Stamm</zName>
+		<zName>Vereinbarte eine Waffenruhe mit einem Stamm</zName>
 		<DiplomacyBarb>DIPLOMACY_TRUCE</DiplomacyBarb>
 		<iLegitimacy>-1</iLegitimacy>
 	</Entry>
@@ -351,13 +349,13 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_BARBARIAN_PEACE_LEGITIMACY</zType>
-		<zName>Vereinbare Frieden mit einem Stamm</zName>
+		<zName>Vereinbarte Frieden mit einem Stamm</zName>
 		<DiplomacyBarb>DIPLOMACY_PEACE</DiplomacyBarb>
 		<iLegitimacy>-1</iLegitimacy>
 	</Entry>
 	<Entry>
 		<zType>BONUS_BARBARIAN_ALLIANCE</zType>
-		<zName>Vereinbare ein Bündnis mit einem Stamm</zName>
+		<zName>Vereinbarte ein Bündnis mit einem Stamm</zName>
 		<iLegitimacy>-2</iLegitimacy>
 		<bBarbAlliance>1</bBarbAlliance>
 	</Entry>
@@ -465,7 +463,7 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_FAMILY_CLASS_CLERICS_SEAT</zType>
-		<bFoundReligion>1</bFoundReligion>
+		<bFoundReligionCity>1</bFoundReligionCity>
 	</Entry>
 	<Entry>
 		<zType>BONUS_FAMILY_CLASS_SAGES_SEAT</zType>
@@ -894,6 +892,114 @@
 		</aiGlobalYieldsBase>
 	</Entry>
 	<Entry>
+		<zType>BONUS_PROJECT_TREASURY_1</zType>
+		<aiGlobalYieldsBase>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+		</aiGlobalYieldsBase>
+	</Entry>
+	<Entry>
+		<zType>BONUS_PROJECT_TREASURY_2</zType>
+		<aiGlobalYieldsBase>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>30</iValue>
+			</Pair>
+		</aiGlobalYieldsBase>
+	</Entry>
+	<Entry>
+		<zType>BONUS_PROJECT_TREASURY_3</zType>
+		<aiGlobalYieldsBase>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>40</iValue>
+			</Pair>
+		</aiGlobalYieldsBase>
+	</Entry>
+	<Entry>
+		<zType>BONUS_PROJECT_TREASURY_4</zType>
+		<aiGlobalYieldsBase>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>50</iValue>
+			</Pair>
+		</aiGlobalYieldsBase>
+	</Entry>
+	<Entry>
+		<zType>BONUS_PROJECT_FORUM_1</zType>
+		<aiGlobalYieldsBase>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+		</aiGlobalYieldsBase>
+	</Entry>
+	<Entry>
+		<zType>BONUS_PROJECT_FORUM_2</zType>
+		<aiGlobalYieldsBase>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>30</iValue>
+			</Pair>
+		</aiGlobalYieldsBase>
+	</Entry>
+	<Entry>
+		<zType>BONUS_PROJECT_FORUM_3</zType>
+		<aiGlobalYieldsBase>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>40</iValue>
+			</Pair>
+		</aiGlobalYieldsBase>
+	</Entry>
+	<Entry>
+		<zType>BONUS_PROJECT_FORUM_4</zType>
+		<aiGlobalYieldsBase>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>50</iValue>
+			</Pair>
+		</aiGlobalYieldsBase>
+	</Entry>
+	<Entry>
+		<zType>BONUS_PROJECT_ARCHIVE_1</zType>
+		<aiGlobalYieldsBase>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+		</aiGlobalYieldsBase>
+	</Entry>
+	<Entry>
+		<zType>BONUS_PROJECT_ARCHIVE_2</zType>
+		<aiGlobalYieldsBase>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>30</iValue>
+			</Pair>
+		</aiGlobalYieldsBase>
+	</Entry>
+	<Entry>
+		<zType>BONUS_PROJECT_ARCHIVE_3</zType>
+		<aiGlobalYieldsBase>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>40</iValue>
+			</Pair>
+		</aiGlobalYieldsBase>
+	</Entry>
+	<Entry>
+		<zType>BONUS_PROJECT_ARCHIVE_4</zType>
+		<aiGlobalYieldsBase>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>50</iValue>
+			</Pair>
+		</aiGlobalYieldsBase>
+	</Entry>
+	<Entry>	
 		<zType>BONUS_PROJECT_DECREE_1</zType>
 		<aiGlobalYieldsBase>
 			<Pair>
@@ -1993,6 +2099,69 @@
 		</aiGlobalYieldsBase>
 	</Entry>
 	<Entry>
+		<zType>BONUS_ORDERS_SEND_MINIMAL</zType>
+		<aiYieldsSendBase>
+			<Pair>
+				<zIndex>YIELD_ORDERS</zIndex>
+				<iValue>2</iValue>
+			</Pair>
+		</aiYieldsSendBase>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ORDERS_SEND_TINY</zType>
+		<aiYieldsSendBase>
+			<Pair>
+				<zIndex>YIELD_ORDERS</zIndex>
+				<iValue>3</iValue>
+			</Pair>
+		</aiYieldsSendBase>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ORDERS_SEND_SMALL</zType>
+		<aiYieldsSendBase>
+			<Pair>
+				<zIndex>YIELD_ORDERS</zIndex>
+				<iValue>4</iValue>
+			</Pair>
+		</aiYieldsSendBase>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ORDERS_SEND_AVERAGE</zType>
+		<aiYieldsSendBase>
+			<Pair>
+				<zIndex>YIELD_ORDERS</zIndex>
+				<iValue>5</iValue>
+			</Pair>
+		</aiYieldsSendBase>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ORDERS_SEND_LARGE</zType>
+		<aiYieldsSendBase>
+			<Pair>
+				<zIndex>YIELD_ORDERS</zIndex>
+				<iValue>7</iValue>
+			</Pair>
+		</aiYieldsSendBase>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ORDERS_SEND_HUGE</zType>
+		<aiYieldsSendBase>
+			<Pair>
+				<zIndex>YIELD_ORDERS</zIndex>
+				<iValue>100</iValue>
+			</Pair>
+		</aiYieldsSendBase>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ORDERS_SEND_GIGANTIC</zType>
+		<aiYieldsSendBase>
+			<Pair>
+				<zIndex>YIELD_ORDERS</zIndex>
+				<iValue>150</iValue>
+			</Pair>
+		</aiYieldsSendBase>
+	</Entry>
+	<Entry>	
 		<zType>BONUS_FOOD_GAIN_MINIMAL</zType>
 		<aiGlobalYieldsBase>
 			<Pair>

@@ -844,7 +844,7 @@
 	<Entry>
 		<zType>MEMORYCHARACTER_REFUSED_TO_CHANGE_LAW</zType>
 		<zText>Geweigert ein Gesetz zu ändern</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>	
 		<zType>MEMORYCHARACTER_LAW_REFUSED_TO_PAY_DEBT</zType>
@@ -1116,4 +1116,9 @@
 		<zText>Removed from inner council</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
+	<Entry beginGroup="Combat">
+		<zType>MEMORYCHARACTER_REFUSED_FUNDS</zType>
+		<zText>Verweigerte finanzielle Mittel fürs Militär</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>						
 </Root>

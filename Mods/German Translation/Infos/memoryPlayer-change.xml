@@ -38,12 +38,6 @@
 		<iTurns>5</iTurns>
 	</Entry>
 	<Entry>
-		<zType>MEMORYPLAYER_TRADE_ROUTE</zType>
-		<zText>Neue Handelsroute</zText>
-		<iValue>10</iValue>
-		<iTurns>20</iTurns>
-	</Entry>
-	<Entry>
 		<zType>MEMORYPLAYER_TRUCE</zType>
 		<zText>Spieler Waffenruhe</zText>
 		<iTurns>5</iTurns>
@@ -385,17 +379,17 @@
 	<Entry>
 		<zType>MEMORYPLAYER_COVERED_UP_PRISONER</zType>
 		<zText>Covered up disappearance</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_FREED_CAPTIVE</zType>
 		<zText>Freed our ambassador</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_FIXED_MISUNDERSTANDING</zType>
 		<zText>Fixed misunderstanding over prisoner</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_INTERVENED_IN_LOVE</zType>
@@ -452,6 +446,16 @@
 		<zText>Returned traitorous heir</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_INSULTED_DIPLOMAT</zType>
+		<zText>Insulted visiting diplomat</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_DISMISSED_RUMORS</zType>
+		<zText>Dismissed link to assassination</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
 	<Entry beginGroup="Contact">
 		<zType>MEMORYPLAYER_HELPED_CARAVAN</zType>
 		<zText>Helped supply caravan</zText>
@@ -495,12 +499,12 @@
 	<Entry>
 		<zType>MEMORYPLAYER_HOSTED_COUNSEL</zType>
 		<zText>Hosted our court counsel</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_LONG</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_REFUSED_COUNSEL</zType>
 		<zText>Refused our court counsel</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_DISCOURTEOUS_RULER</zType>

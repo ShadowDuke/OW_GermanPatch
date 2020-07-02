@@ -10,43 +10,48 @@
 		<bOff/>
 		<bNoCycling/>
 		<bDynamic/>
-		<bCanEndTurn/>
+		<bNoEndTurn/>
 	</Entry>
 	<Entry>
 		<zType>TURNTIMER_NONE</zType>
 		<zName>Keine</zName>
 		<bOff>1</bOff>
-		<bCanEndTurn>1</bCanEndTurn>
 	</Entry>
 	<Entry>
 		<zType>TURNTIMER_24_HOUR</zType>
 		<zName>24 Stunden</zName>
 		<iBase>86400</iBase>
+		<bNoEndTurn>1</bNoEndTurn>					
 	</Entry>
 	<Entry>
 		<zType>TURNTIMER_12_HOUR</zType>
 		<zName>12 Stunden</zName>
 		<iBase>43200</iBase>
+		<bNoEndTurn>1</bNoEndTurn>					
 	</Entry>
 	<Entry>
 		<zType>TURNTIMER_8_HOUR</zType>
 		<zName>8 Stunden</zName>
 		<iBase>28800</iBase>
+		<bNoEndTurn>1</bNoEndTurn>					
 	</Entry>
 	<Entry>
 		<zType>TURNTIMER_4_HOUR</zType>
 		<zName>4 Stunden</zName>
 		<iBase>14400</iBase>
+		<bNoEndTurn>1</bNoEndTurn>					
 	</Entry>
 	<Entry>
 		<zType>TURNTIMER_2_HOUR</zType>
 		<zName>2 Stunden</zName>
 		<iBase>7200</iBase>
+		<bNoEndTurn>1</bNoEndTurn>					
 	</Entry>
 	<Entry>
 		<zType>TURNTIMER_1_HOUR</zType>
 		<zName>1 Stunde</zName>
 		<iBase>3600</iBase>
+		<bNoEndTurn>1</bNoEndTurn>					
 	</Entry>
 	<Entry>
 		<zType>TURNTIMER_SLOW</zType>
@@ -56,7 +61,6 @@
 		<iPerUnit>4</iPerUnit>
 		<bNoCycling>1</bNoCycling>
 		<bDynamic>1</bDynamic>
-		<bCanEndTurn>1</bCanEndTurn>
 	</Entry>
 	<Entry>
 		<zType>TURNTIMER_MEDIUM</zType>
@@ -66,7 +70,6 @@
 		<iPerUnit>3</iPerUnit>
 		<bNoCycling>1</bNoCycling>
 		<bDynamic>1</bDynamic>
-		<bCanEndTurn>1</bCanEndTurn>
 	</Entry>
 	<Entry>
 		<zType>TURNTIMER_FAST</zType>
@@ -76,6 +79,5 @@
 		<iPerUnit>2</iPerUnit>
 		<bNoCycling>1</bNoCycling>
 		<bDynamic>1</bDynamic>
-		<bCanEndTurn>1</bCanEndTurn>
 	</Entry>
 </Root>

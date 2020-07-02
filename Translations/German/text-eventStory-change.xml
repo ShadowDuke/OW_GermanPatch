@@ -1866,15 +1866,21 @@ The dalliance continues for the rest of the evening, causing much heated gossip 
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYERS_POSITIVE_OPINION_1</zType>
-		<Translation>[DU HAST DIE MÖGLICHKEIT DIE BEZIEHUNGEN ENTWEDER MIT {PLAYER-0} ODER {PLAYER-1} ERHEBLICH ZU VERBESSERN]</Translation>
+		<Translation>Court diplomats have been hard at work on discussions with representatives from both {PLAYER-0} and {PLAYER-1}, but they wish to focus their efforts. 
+
+Which nation should they seek to influence, {PLAYER-0} or {PLAYER-1}?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYERS_POSITIVE_OPINION_2</zType>
-		<Translation>[DU HAST DIE MÖGLICHKEIT DIE BEZIEHUNGEN ENTWEDER MIT {PLAYER-0} ODER {PLAYER-1} ERHEBLICH ZU VERBESSERN]</Translation>
+		<Translation>Unexpected personal connections have opened up a direct channel to the leaders of {PLAYER-0} or {PLAYER-1}. The court seeks to improve relations with both nations, but we should proceed with caution.
+
+Shall we move forward with {PLAYER-0} or {PLAYER-1}?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYERS_POSITIVE_OPINION_3</zType>
-		<Translation>[DU HAST DIE MÖGLICHKEIT DIE BEZIEHUNGEN ENTWEDER MIT {PLAYER-0} ODER {PLAYER-1} ERHEBLICH ZU VERBESSERN]</Translation>
+		<Translation>Our spies report that contacts in {PLAYER-0} and {PLAYER-1} may me amenable to diplomatic discussions, improving positive relations with us.
+
+Where shall we actviate our agents?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CARAVAN_OF_LOVE</zType>
@@ -1896,11 +1902,15 @@ There is nothing to be done.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RETURN_CITY</zType>
-		<Translation>[DEIN VERBÜNDETER {PLAYER-0} GIBT DEINE EHEMALIGE STADT {CITY-1} ZU DIR ZURÜCK]</Translation>
+		<Translation>After much consideration, the leaders of {PLAYER-0} have decided to return the city of {CITY-2} to us, as a token of good faith.
+
+Our people will not soon forget this </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RETURN_CITY_BARBARIAN</zType>
-		<Translation>[DEIN VERBÜNDETER {BARBARIAN-0} GIBT DEINE EHEMALIGE STADT {CITY-1} ZU DIR ZURÜCK]</Translation>
+		<Translation>Leaders of the conquering {BARBARIAN-0,1} tribes send a message to the court, informing us that they will return the city of {CITY-2} to {PLAYER-1}.
+
+This {BARBARIAN-0} have our gratitude.</Translation>
 	</Entry>
 	<Entry beginGroup="Combat">
 		<zType>TEXT_EVENTSTORY_LEADER_SMITING_FOES</zType>
@@ -2189,13 +2199,7 @@ They find {CHARACTER-SHORT-2} dead on the floor of the city council chambers. <m
 		<Translation><![CDATA[After the successful defeat of {PLAYER-1,1} forces, General {CHARACTER-2} describes the brave feats of one particular soldier, one <masculine_CHARACTER-2>he<feminine>she<end> believes would make an exemplary court adviser.
 
 Should we elevate this natural leader, or is his wisdom better employed on the battlefield?]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_STORMS_OF_BATTLE</zType>
-		<Translation>As the {PLAYER-2,1} forces throw themselves at the gates of {CITY-0}, a storm appears on the horizon, blowing up dark winds and ill omens. Our citizens shelter behind the city's sturdy walls, but the enemy has nowhere to hide. Rains lash their tents and winds scatter their supplies. Lightning sets one camp ablaze.
-
-The next morning, {CITY-0}'s defenders awake to find the enemy gone.</Translation>
-	</Entry>
+	</Entry>	 
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CALL_TO_ACTION</zType>
 		<Translation><![CDATA[After the rout of our troops by {PLAYER-0,1} forces, General {CHARACTER-2} sends the court a scathing message. Frustrated at the military leadership's mistakes, <masculine_CHARACTER-2>he<feminine>she<end> demands more resources for the soldiers at the front. It is a matter of life and death.
@@ -4948,11 +4952,17 @@ Is {CHARACTER-SHORT-0} mad, or is there a wisdom in <masculine_CHARACTER-0>his<f
 
 Perhaps you should try it.</Translation>
 	</Entry>	 
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_RIGHTEOUS_PATH</zType>
+		<Translation>{RELIGION-2,1} travelers from across the nation have descended on {CITY-1} to worship at their many shrines and holy sites. While most citizens do not seem to mind the increased activity, others express concern over the number of zealots in their streets. It puts them ill at ease.
+
+Your reputation as a righteous ruler demands a response.</Translation>
+	</Entry>
 	<Entry beginGroup="Miscellaneous">
 		<zType>TEXT_EVENTSTORY_ADOPT_RELIGION</zType>
-		<Translation>Ist es Zeit {RELIGION-1} als unsere Staatsreligion zu übernehmen?</Translation>
-	</Entry>
-	<Entry>
+		<Translation>Is it time to adopt {RELIGION-1} as our State Religion?</Translation>
+	</Entry>	 
+	<Entry>	
 		<zType>TEXT_EVENTSTORY_START_SLAVERY</zType>
 		<Translation>The court has opened debate on the topic of labor, and we are of two minds on the matter. We can adopt the practice of link(LAW_SLAVERY), or we can keep link(LAW_FREEDOM) in {PLAYER-0}. 
 
@@ -6450,7 +6460,9 @@ Dealing with {CHARACTER-SHORT-0} directly undercuts the {PLAYER-0,1} <masculine_
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_IN_ABSENTIA</zType>
-		<Translation><![CDATA[Leaders from many nations attend the funeral for {CHARACTER-SHORT-0}, including the {PLAYER-2,1} royal family. As the young heir, {CHARACTER-SHORT-1}, consumes more than <masculine_CHARACTER-1>his<feminine>her<end> share of wine, <masculine_CHARACTER-1>he<feminine>she<end> becomes more outspoken, calling the deceased a "hideous wretch" and an "oafish goat."
+		<Translation><![CDATA[The great {CHARACTER-0} has died.
+
+The leaders from many nations attend the funeral, including the {PLAYER-2,1} royal family. As the young {PLAYER-2,1} heir, {CHARACTER-SHORT-1}, consumes more than <masculine_CHARACTER-1>his<feminine>her<end> share of wine, <masculine_CHARACTER-1>he<feminine>she<end> becomes more outspoken, calling the deceased a "hideous wretch" and an "oafish goat."
 
 Mortified by such behavior, {CHARACTER-SHORT-2} scolds {CHARACTER-SHORT-1}, ordering <masculine_CHARACTER-1>him<feminine>her<end> to apologize. The <masculine_CHARACTER-2>king<feminine>queen<end> begs your forgiveness.]]></Translation>
 	</Entry>
@@ -6542,6 +6554,180 @@ It appears that {CHARACTER-1} has been indoctrinated into a passionate resistanc
 
 They pledge to retire their posts if no action to restore their integrity is taken.</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_HANDS_TIED</zType>
+		<Translation><![CDATA[Emboldened by <masculine_CHARACTER-1>his<feminine>her<end> allies on the court, the heir, {CHARACTER-1}, implores you to change the laws governing our armies. "Your strict codes of military conduct have tied our hands in battle. The toughest soldiers are those defending their lands and families."
+
+It is a stark reminder that you and your heir do not always agree.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MARKET_UNREST</zType>
+		<Translation>Civil unrest in the markets of {CITY-1} threaten to erupt across the empire. Our refusal to form trade guilds has roiled the public. The {FAMILY-2} family has asked the court to reconsider our decision against allowing merchants to band together for better prices and more control.
+
+Something must be done before our economy suffers.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STORIES_OF_GLORY</zType>
+		<Translation>Following our recent victories, some members of the court have begun to question our commitment to foreign exploration. A faction led by {CHARACTER-1} and the {FAMILY-2} family believes that our laws should be changed to celebrate personal glory and national might.
+
+How shall we respond?</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_BIG_PICTURE</zType>
+		<Translation>"The world is changing," says {CHARACTER-1}. "Our family wishes to change with it." The {FAMILY-2,1} have petitioned the court to rethink its current laws, urging us to engage in a more inquisitive approach to exploration and expansion.
+
+Perhaps it is time to look beyond {PLAYER-0} at the bigger picture.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SURRENDER_AUTHORITY</zType>
+		<Translation>Nobles from the {FAMILY-1} and {FAMILY-2} families come to court to challenge our centralized government. They present compelling evidence of corruption, inefficiency, and power mongering. They believe the solution lies in surrendering authority to the various noble families.
+
+The government may be broken, but is giving the {FAMILY-1,1} and {FAMILY-2,1} more power the solution?</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_HEIR_INTENT</zType>
+		<Translation><![CDATA[At a court celebration, the heir, {CHARACTER-SHORT-1}, corners you alone on an overlook. With a view of the capital below, <masculine_CHARACTER-1>he<feminine>she<end> blusters against the current division of power. "All power should flow from the throne. The noble families must answer to one ruler."
+
+<masculine_CHARACTER-1>He<feminine>She<end> claims to lead a faction intent on changing the laws. "If you do not," <masculine_CHARACTER-1>he<feminine>she<end> says, "I most certainly will."]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SUPPLY_CHAIN_WOES</zType>
+		<Translation><![CDATA[Riots erupt along the coast of {CITY-3}, as dock workers protest the hardship of supporting the government's colonial aims. {CHARACTER-1}, a <masculine_CHARACTER-1>patron<feminine>matron<end> of the ruling {FAMILY-2} family, arrives to air local grievances.
+
+Our efforts to dominate foreign lands have pushed our supply chain to the limit.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_A_SUPERIOR_SYSTEM</zType>
+		<Translation><![CDATA[Your trusted adviser, {CHARACTER-1}, recently visited the {PLAYER-2,1} court on a diplomatic mission, and <masculine_CHARACTER-1>he<feminine>she<end> liked what <masculine_CHARACTER-1>he<feminine>she<end> saw. "The {PLAYER-2,2} conquer foreign lands for labor. It is a far superior system."
+
+{CHARACTER-SHORT-0} proposes we change the current laws. "Why break the backs of our people, when we can make others shoulder the burden?" ]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_FUMING_CHURCH</zType>
+		<Translation>Murmurs of discontent hover over the court, as members of the {RELIGION-1,1} church fume. The {RELIGION-1,3} believe we have hindered their cause by prioritizing education over salvation. Our laws promoting public literacy divert funds that could be used by the church.
+
+They wish to know what we plan to do about this injustice.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LOOKING_FOR_ANSWERS</zType>
+		<Translation><![CDATA["May I be truthful with you?" asks {CHARACTER-1}, wise minister to the court. "I fear that spirituality may be stunting our people. Once, we were a nation of learrned men and women. Now, we are a scared flock looking to the heavens for answers."
+
+<masculine_CHARACTER-1>He<feminine>She<end> is not the first to express this concern. Our faith may have come at the cost of an educated public.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PROGRESS_OR_PERISH_</zType>
+		<Translation>Over the course of several days, the court hosts a visiting scientist from {PLAYER-1}, who is renowned for her discoveries. She marvels at our nation's progress, however, she questions our government's reliance on philiosophy and mysticism.
+
+"Science is the true key to unlocking the universe," she says. "You must abandon your old beliefs or perish." </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INWARD_GAZE</zType>
+		<Translation><![CDATA["I cannot stay silent any longer," your <masculine_CHARACTER-1>son<feminine>daughter<end> {CHARACTER-SHORT-1} says before the court. "Our inward gaze diminishes our influence in the world. It makes us small, ignorant, and feeble." <masculine_CHARACTER-1>He<feminine>She<end> advocats fiercely for new laws promoting exploration, diplomacy, and trade.
+
+Advisers and diplomats burst into applause, showing a rare enthusiasm. ]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_IRREPARABLE_DAMAGE</zType>
+		<Translation>Our agents in {CITY-2} discover that {CHARACTER-1}, merchant of the court, has been meeting with a radical isolationist sect. This group is convinced that international trade is irreparably damaging the {PLAYER-0,1} economy. 
+
+Perhaps we should consider reviving labor and commerce here in {PLAYER-0}, instead of allowing foreign governments to reap the rewards.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_</zType>
+		<Translation><![CDATA[Walking in the gardens, {CHARACTER-1} confides in you about <masculine_CHARACTER-0>his<feminine>her<end> concerns with the direction of the government. "Our scientific and engineering feats are second to none, but what about the bigger question? Our purpose. To abandon this search is to abandon our very humanity."
+
+{CHARACTER-SHORT-1} is not the only one who feels this way. Many in the court, including {CHARACTER-2}, share <masculine_CHARACTER-1>his<feminine>her<end> sentiment.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SMALL_MINDEDNESS</zType>
+		<Translation>Reports of widespread abuses on the {FAMILY-1} estates have reached the capital, indicative of a growing problem. Our strict laws of conformity have led to incidents across {PLAYER-0}. Violence against immigrants. Religious intolerance. Even the court suffers from such small-mindedness.
+
+{CHARACTER-2} of the {FAMILY-1,1} denies the accusations of severe treatment, warning that changing the laws would unleash chaos.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_EXTREMIST_LAWS</zType>
+		<Translation>After the arrest of zealous {RELIGION-1,1} priests, some question our decision to enact laws that encourage religious extremism. The court summons the most powerful leaders of {RELIGION-1} to ask for their wisdom in improving the government.
+
+Sadly, discussions fail. "We will not hinder the will of the gods," explains the high priest.    </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LOTUS_EATERS</zType>
+		<Translation><![CDATA[{CHARACTER-1}, the governor of {CITY-2}, expresses concerns with the current laws and how they are affecting <masculine_CHARACTER-1>his<feminine>her<end> city. "My citizens are layabouts and idlers. They enjoy lives of leisure, but at what cost?"
+
+Is <masculine_CHARACTER-1>he<feminine>she<end> right? Have we built a nation of coddled lotus-eaters?]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_FROM_ON_HIGH</zType>
+		<Translation><![CDATA[Somehow, the heir, {CHARACTER-1}, manages to get past your vicious elite guard and present <masculine_CHARACTER-1>himself<feminine>herself<end> before the throne. "A ruler should be beloved, not feared," <masculine_CHARACTER-1>he<feminine>she<end> says. "Yet your subjects tremble in terror. They believe you are the unfeeling herald of the gods."
+
+Kneeling at your feet, <masculine_CHARACTER-1>he<feminine>she<end> beseeches you. "Please, your grace, we must fix {PLAYER-0} before it is too late."]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADERS_OR_LUNATICS</zType>
+		<Translation>A recent visit to the council of {CITY-1} worries us. Its members, including Governor {CHARACTER-SHORT-2}, has adopted a strange form of meditation, denying themselves basic pleasures in a quest for inner peace. Emaciated and wild-eyed, they have gone without food or water for days.
+
+It appears our laws have reduced some of our leaders to lunatics. </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_GODLESS</zType>
+		<Translation><![CDATA[{CHARACTER-2} visits {PLAYER-3} and eagerly enjoys a tour of the capital, but <masculine_CHARACTER-2>he<feminine>she<end> grows silent at the sight of our empty shrines and temples. Back at court, <masculine_CHARACTER-2>he<feminine>she<end> express a sadness at our secular ways. "It pains me greatly to see {PLAYER-3} turn away from the sacred."
+
+{CHARACTER-SHORT-2}'s comments inspire reflection. {PLAYER-2} governs with strict divine rule, but there is no arguing with the results. ]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DANCING_BEARS</zType>
+		<Translation>During a local festival in the capital of {CITY-2}, a parade of captive animals thrill the crowds, including {CHARACTER-0}. As a troupe of bears begins a comical dance, one of them raises an axe and races at {CHARACTER-SHORT-0}! It is an assassin in disguise.
+
+{CHARACTER-SHORT-0} manages to knock the killer aside, foiling his plan. However, the citizens of {CITY-2} may never be the same. </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_A_MESSY_AFFAIR</zType>
+		<Translation><![CDATA[Late one evening, {CHARACTER-0} is struck by an assassin's arrow and killed instantly. More notable than <masculine_CHARACTER-0>his<feminine>her<end> murder is the method by which it was done. A rogue of diminutive stature crept inside the toilet and waited for {CHARACTER-0} to heed <masculine_CHARACTER-0>his<feminine>her<end> natural urges,.
+
+The {FAMILY-1} family is furious about the affair, concerned more with the scandal of the toilet than with the actual murder.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_HIRED_KILLERS</zType>
+		<Translation>While surveying troops in the city of {CITY-1}, {CHARACTER-0} is set upon by a squad of armed soldiers and hacked to pieces. Apparently, someone paid these mercenaries to impersonate {PLAYER-0} soldiers and infiltrate the camp with the purpose of assassinating {CHARACTER-SHORT-0}.
+
+Followers and friends of {CHARACTER-SHORT-0} suspect that {PLAYER-2} may be to blame for the killing. How shall we address their theories?</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEADLY_REVELS</zType>
+		<Translation><![CDATA[After a long day in court, many of our friends and patrons celebrate with revels in a nearby temple. Wine is served. Within minutes, {CHARACTER-0} begins to choke and clutch and <masculine_CHARACTER-0>his<feminine>her<end> throat. Poison! 
+
+However, {CHARACTER-SHORT-0} is not the only victim. Soon {CHARACTER-1} also turns purple and collapses on the floor. This assassination has gone horribly wrong.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STRANGLED</zType>
+		<Translation><![CDATA[{CHARACTER-0} is discovered dead in <masculine_CHARACTER-0>his<feminine>her<end> bath. After examining the body, doctors believe that <masculine_CHARACTER-0>he<feminine>she<end> was strangled.
+
+{CHARACTER-SHORT-0}'s <masculine_CHARACTER-1>husband<feminine>wife<end>, {CHARACTER-SHORT-1}, accuses {CHARACTER-2} of carrying out this heinous act. "The two were close, but they had recently suffered a falling out."]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LAST_KISS</zType>
+		<Translation><![CDATA[After a royal feast, {CHARACTER-0} and {CHARACTER-1} return to their estate for a relaxing evening. {CHARACTER-SHORT-1} kisses her <masculine_CHARACTER-0>husband<feminine>wife<end>, pulls a dagger from her robes, and stabs <masculine_CHARACTER-0>him<feminine>her<end> through the heart. <masculine_CHARACTER-1>He<feminine>She<end> exits the estate and disappears into the shadows before fleeing the country.
+
+It is widely accepted that <masculine_CHARACTER-1>he<feminine>she<end> was paid to kill <masculine_CHARACTER-1>his<feminine>her<end> <masculine_CHARACTER-0>husband<feminine>wife<end>.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_LUTE_PLAYER</zType>
+		<Translation>At a {FAMILY-1} birthday feast, a lute player sits before the assembled family to play a tune written for the occasion. Reaching the crescendo of the piece, the lute player stands and crushes the skull of {CHARACTER-0} with a single blow. The celebration descends into chaos!
+
+As they recover the body of the slain assassin, the guards retrieve his lute. It is lined with a heavy bar of lead.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SUSPICIONS_CONFIRMED</zType>
+		<Translation><![CDATA[While waiting in the street for <masculine_CHARACTER-0>his<feminine>her<end> servants to fetch him, {CHARACTER-0} is attacked by a man dressed as a soldier in the {PLAYER-1,1} army.  <masculine_CHARACTER-0>He<feminine>She<end> manages to escape, and the would-be assassin is captured by city guards.
+
+{CHARACTER-SHORT-0} is more convinced than ever that someone is plotting <masculine_CHARACTER-0>his<feminine>her<end> murder.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_FALSE_CHARGES</zType>
+		<Translation><![CDATA[Redeeming several political favors, spymaster {CHARACTER-SHORT-2} fabricates a series of false charges of treason against {CHARACTER-0}. The court moves quickly, condemning {CHARACTER-SHORT-0} and passing a sentence of death.
+
+Despite <masculine_CHARACTER-0>his<feminine>her<end> claims of innocence, {CHARACTER-SHORT-0} is crucified on a hill outside {CITY-2}.]]></Translation>
+	</Entry>	 
   <Entry beginGroup="Tutorial">
 		<zType>TEXT_EVENTSTORY_VICTORY_POINTS</zType>
 		<Translation>(Punkte Sieg)

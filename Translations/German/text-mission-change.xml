@@ -43,16 +43,64 @@
 		<Translation>Spieler Eintracht über</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSION_PLAYER_PEACE_OFFER</zType>
+		<Translation>Offer Tribute for Peace</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_PEACE_OFFER_TARGET</zType>
+		<Translation>Offer Tribute for Peace with</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_PEACE_NO</zType>
+		<Translation>Ask for Peace</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_PEACE_NO_TARGET</zType>
+		<Translation>Ask for Peace with</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_PEACE_DEMAND</zType>
+		<Translation>Demand Tribute for Peace</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_PEACE_DEMAND_TARGET</zType>
+		<Translation>Demand Tribute for Peace with</Translation>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_MISSION_PLAYER_TRUCE</zType>
 		<Translation>Waffenruhe mit Spieler</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_TARGET</zType>
-		<Translation>Friede mit Spieler</Translation>
+		<Translation>Waffenruhe mit Spieler</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_CHARACTER</zType>
-		<Translation>Spieler Frieden über</Translation>
+		<Translation>Spieler Waffenruhe über</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_TRUCE_OFFER</zType>
+		<Translation>Biete Tribut für Waffenruhe an</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_TRUCE_OFFER_TARGET</zType>
+		<Translation>Biete Tribut für Waffenruhe mit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_TRUCE_NO</zType>
+		<Translation>Frage nach Waffenruhe</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_TRUCE_NO_TARGET</zType>
+		<Translation>Frag nach Frieden mit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_TRUCE_DEMAND</zType>
+		<Translation>Verlange Tribut für Frieden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_TRUCE_DEMAND_TARGET</zType>
+		<Translation>Verlange Tribut für Frieden mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_DECLARE_WAR</zType>
@@ -157,10 +205,6 @@
 	<Entry>
 		<zType>TEXT_MISSION_MARRY_COURTIER</zType>
 		<Translation>Vertrauten Heiraten</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MISSION_MARRY_COURTIER_CHARACTER</zType>
-		<Translation>Heiraten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_ABDICATE</zType>

@@ -74,7 +74,7 @@
 	</Entry>
 	<Entry>	
 	<zType>GAMEOPTION_MP_JOIN_AS_ANY_PLAYER</zType>
-		<zName>Trete als jeder Spieler ein</zName>
+		<zName>Trete als jeder Spieler bei</zName>
 		<zHelp>Erlaube Spielern das beitreten eines Multiplayer Spiels auch wenn ein Slot bereits beansprucht ist.</zHelp>
 		<bSinglePlayer>0</bSinglePlayer>
 	</Entry>

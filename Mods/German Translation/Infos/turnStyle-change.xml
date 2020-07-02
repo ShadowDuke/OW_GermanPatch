@@ -8,7 +8,7 @@
 		<iTimeModifier/>
 		<iCombatModifier/>
 		<bSimultaneous/>
-		<bCanEndTurn/>
+		<bNoEndTurn/>
 		<bBarbSplit/>
 		<bNoCooldown/>
 		<bNoBuild/>
@@ -21,7 +21,6 @@
 		<iTimeModifier>25</iTimeModifier>
 		<iCombatModifier>50</iCombatModifier>
 		<bSimultaneous>1</bSimultaneous>
-		<bCanEndTurn>1</bCanEndTurn>
     <bNoCooldown>1</bNoCooldown>
   </Entry>
 	<Entry>
@@ -30,6 +29,7 @@
 		<zHelp>Keine Bewegungsbeschränkung</zHelp>
 		<iTimeModifier>-25</iTimeModifier>
 		<iCombatModifier>50</iCombatModifier>
+		<bNoEndTurn>1</bNoEndTurn>					
 		<bBarbSplit>1</bBarbSplit>
 		<bNoCooldown>1</bNoCooldown>
 	</Entry>
@@ -38,7 +38,6 @@
 		<zName>Normal</zName>
 		<zHelp>Angriffe bei feindlichem Zug geben doppellte Abklingzeit</zHelp>
 		<iCombatModifier>25</iCombatModifier>
-		<bCanEndTurn>1</bCanEndTurn>
 	</Entry>
 	<Entry>
 		<zType>TURNSTYLE_TIGHT</zType>
@@ -46,7 +45,6 @@
 		<zHelp>Kann nur Zivile Einheiten während des Gegnerzuges bewegen</zHelp>
 		<iTimeModifier>25</iTimeModifier>
 		<iCombatModifier>25</iCombatModifier>
-		<bCanEndTurn>1</bCanEndTurn>
 		<bNoMilitary>1</bNoMilitary>
 	</Entry>
 	<Entry>
@@ -55,7 +53,6 @@
 		<zHelp>Kann keine Einheiten während des Gegnerzuges bewegen</zHelp>
 		<iTimeModifier>50</iTimeModifier>
 		<iCombatModifier>25</iCombatModifier>
-		<bCanEndTurn>1</bCanEndTurn>
 		<bNoBuild>1</bNoBuild>
 		<bNoMilitary>1</bNoMilitary>
 	</Entry>

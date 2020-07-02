@@ -215,10 +215,6 @@
 		<Translation>{0}m {1}s</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_COUNTDOWN_TIME_FORMAT_S</zType>
-		<Translation>{0}s</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_PRESS_KEY</zType>
 		<Translation>[Drücke {0_key}]</Translation>
 	</Entry>
@@ -342,10 +338,6 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_PILLAGED</zType>
 		<Translation>Plünderung {0_turns}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_LAUNCH_OFFENSIVE_GENERIC</zType>
-		<Translation>Offensive beginnen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_CULTURE_LEVEL</zType>
@@ -472,10 +464,6 @@
 		<Translation>Feld {0_x}, {1_y}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_TRADE_BONUS</zType>
-		<Translation>Hanelsbonus</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_TRIBUTE</zType>
 		<Translation>Tribut</Translation>
 	</Entry>
@@ -564,6 +552,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_CAN_ACT_CONSUMES</zType>
 		<Translation>Konsumiert {0_yield}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CAN_ACT_ROUT</zType>
+		<Translation>Kann nur nach link(CONCEPT_ROUT) angreifen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CAN_ACT_OTHER_TURN</zType>
@@ -1910,10 +1902,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation><![CDATA[Wird sich für die Kinder deiner Familien deinem Hofstaat als {0,1_tutorLink} anschließen.<br>Kann außerdem ein {1_general}, ein {2_governor}, oder ein(e) Spouse sein.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_LAUNCH_OFFENSIVE</zType>
-		<Translation><![CDATA[Reduziert den Cooldown der <singular_0>nähsten<plural>{0} nähsten<end> verfügbaren <singular_0>Einheit<plural>Einheiten<end>]]></Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LEGITIMACY_OPINIONS</zType>
 		<Translation>{0_value}: Familien Meinung</Translation>
 	</Entry>
@@ -1964,6 +1952,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_RAISE_IMPROVEMENTS</zType>
 		<Translation>Verbessere eine Verbesserung auf die nächste Stufe (zum Beispiel, link(IMPROVEMENT_THEATER_1) zu link(IMPROVEMENT_THEATER_2)).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_RANGE</zType>
+		<Translation>Reichweite für Fernangriffe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_REBEL</zType>
@@ -2224,7 +2216,11 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation> (-{0_yield})</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_YIELD_NET_TRADE_FROM</zType>
+		<zType>TEXT_HELPTEXT_YIELD_NET_TRADE_TO_PLAYER</zType>
+		<Translation>{0}: Handel mit {1_player} {2_turns}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_YIELD_NET_TRADE_FROM_PLAYER</zType>
 		<Translation>{0}: Handel von {1_player} {2_turns}</Translation>
 	</Entry>
 	<Entry>
@@ -2728,32 +2724,12 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<!--Effect Unit Help-->
 	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_STRENGTH</zType>
-		<Translation>Stärke: {0_value}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_DEFENSE</zType>
-		<Translation>Verteidigung: {0_value}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_MOVEMENT</zType>
-		<Translation>Bewegung: {0_value}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_FATIGUE_LIMIT</zType>
 		<Translation>Müdigkeits Limit: {0_value}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_VISION</zType>
 		<Translation>Sicht: {0_value}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_RANGE</zType>
-		<Translation>Reichweite: {0_value}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_CRITICAL_CHANCE</zType>
-		<Translation>Kritische Chance: {1_value}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_ATTACK_ACROSS_RIVER</zType>
@@ -2919,6 +2895,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_ADDS_LUXURY</zType>
 		<Translation>Fügt {0,0_luxuryLink} hinzu</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_AUTO_BUILD</zType>
+		<Translation>Kann keine Produktion auswählen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_NO_HURRY</zType>
@@ -3787,10 +3767,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Sende an {0_opponent}: {1_yieldList}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BONUS_TRADE_FOR</zType>
-		<Translation>Handelsschub für {0_opponent}: {1_yieldList} für {2_years} Jahre</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_TRIBUTE_FROM</zType>
 		<Translation>Tribut von {0_opponent}: {1_yieldList} für {2_years} Jahre</Translation>
 	</Entry>
@@ -4108,14 +4084,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Kriegsstatus: {0} ({1})</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_PLAYER_TRADE_BONUS_FOR_US</zType>
-		<Translation>{0} (für uns): {1_yields}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_PLAYER_TRADE_BONUS_FOR_THEM</zType>
-		<Translation>{0} (für sie): {1_yields}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_TRIBUTE_FROM</zType>
 		<Translation>{0_tributeLink} von: {1_yields}</Translation>
 	</Entry>
@@ -4150,10 +4118,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_OPINION_NATION</zType>
 		<Translation>{0_opinion}: Historische Antipathie vs {1_nation}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_PLAYER_OPINION_STATE_RELIGION</zType>
-		<Translation>{0_opinion}: Unsere Staatsreligion(en</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_OPINION_STRENGTH</zType>
@@ -4336,14 +4300,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILY_OUR_LAWS</zType>
 		<Translation><![CDATA[{0_value}: Unsere Gesetze<true_1> ({1_lawlist})<false><end>]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_STATE_RELIGION</zType>
-		<Translation>{0_value}: Unsere Staatsreligion ({1_religionLink})</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_ADOPT_RELIGION</zType>
-		<Translation>{0_value}: Folgen nicht unserer Religion ({1_religionLink})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILY_STATE_THEOLOGY</zType>
@@ -5517,10 +5473,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation><![CDATA[Benötigt {0_num} <singular_0>Stadt<plural>Cities<end> mit {1_cultureLevel}]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_CULTURE_PROGRESS</zType>
-		<Translation>Kultur ({0}/{1})</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_WONDERS_CULTURE</zType>
 		<Translation><![CDATA[Benötigt {0_num} <singular_0>Wunder<plural>Wunder<end> mit {1_cultureLevel}]]></Translation>
 	</Entry>
@@ -5612,10 +5564,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_HELP_LEADERS_DESCENDANTS_MARRIAGES</zType>
 		<Translation>{0}: Verheiratet mit Oberhaupts Nachkommen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_OPINION_HELP_OUR_STATE_RELIGION</zType>
-		<Translation>{0}: Unsere Staatsreligion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_HELP_OPINION_OF</zType>

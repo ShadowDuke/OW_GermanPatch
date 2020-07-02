@@ -2578,24 +2578,12 @@
 		<Translation><![CDATA[Let a gift of tribute show our goodwill.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_PEACE_PROPOSAL_OFFER_TRIBUTE_HELP</zType>
-		<Translation><![CDATA[Offer Tribute for Peace.]]></Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_PEACE_PROPOSAL_NO_TRIBUTE</zType>
 		<Translation><![CDATA[Peace is desirable.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_PEACE_PROPOSAL_NO_TRIBUTE_HELP</zType>
-		<Translation><![CDATA[Establish Peace without any Tribute.]]></Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_PEACE_PROPOSAL_DEMAND_TRIBUTE</zType>
 		<Translation><![CDATA[We demand a tribute before any peace.]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_PEACE_PROPOSAL_DEMAND_TRIBUTE_HELP</zType>
-		<Translation><![CDATA[Demand Tribute for Peace.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRUCE_PROPOSAL_OFFER_TRIBUTE</zType>
@@ -2608,6 +2596,10 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRUCE_PROPOSAL_DEMAND_TRIBUTE</zType>
 		<Translation><![CDATA[We are the superior power and demand tribute]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRUCE_PROPOSAL_CANCEL</zType>
+		<Translation><![CDATA[Vielleicht später.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CITY_CAPTURED_TRUCE_YES</zType>
@@ -3962,44 +3954,28 @@
 		<Translation>Show no reaction whatsoever.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_PLAYERS_POSITIVE_OPINION_1_FIRST</zType>
-		<Translation>[{PLAYER-0}]</Translation>
+		<zType>TEXT_EVENTOPTION_PLAYERS_POSITIVE_OPINION_FIRST</zType>
+		<Translation>Verbessere Beziehungen mit {PLAYER-0}.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_PLAYERS_POSITIVE_OPINION_1_SECOND</zType>
-		<Translation>[{PLAYER-1}]</Translation>
+		<zType>TEXT_EVENTOPTION_PLAYERS_POSITIVE_OPINION_SECOND</zType>
+		<Translation>Verbessere Beziehungen mit {PLAYER-1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_PLAYERS_POSITIVE_OPINION_1_HUMBLE</zType>
-		<Translation>[OUR HUMILITY ENDEARS US TO BOTH]</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_PLAYERS_POSITIVE_OPINION_NO</zType>
-		<Translation>[NEIN]</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_PLAYERS_POSITIVE_OPINION_2_FIRST</zType>
-		<Translation>[{PLAYER-0}]</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_PLAYERS_POSITIVE_OPINION_2_SECOND</zType>
-		<Translation>[{PLAYER-1}]</Translation>
+		<Translation>Our humility endears us to both.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_PLAYERS_POSITIVE_OPINION_2_INSPIRING</zType>
-		<Translation>[WE INSPIRE THEIR PEOPLE]</Translation>
+		<Translation>Their people hold us in high esteem.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_PLAYERS_POSITIVE_OPINION_3_FIRST</zType>
-		<Translation>[{PLAYER-0}]</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_PLAYERS_POSITIVE_OPINION_3_SECOND</zType>
-		<Translation>[{PLAYER-1}]</Translation>
+		<zType>TEXT_EVENTOPTION_PLAYERS_POSITIVE_OPINION_NO</zType>
+		<Translation>Nicht jetzt.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_PLAYERS_POSITIVE_OPINION_3_PIOUS</zType>
-		<Translation>[OUR PIETY GIVES THEIR PEOPLE HOPE]</Translation>
+		<Translation>Our pious ways inspire their people.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CARAVAN_OF_LOVE_OPTION_0</zType>
@@ -4035,11 +4011,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RETURN_CITY_OK</zType>
-		<Translation>[OK]</Translation>
+		<Translation>Mit Feierlichkeiten wilkommen wir {CITY-2} zuück!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RETURN_CITY_BARBARIAN_OK</zType>
-		<Translation>[OK]</Translation>
+		<Translation>Mit Feierlichkeiten wilkommen wir {CITY-2} zuück!</Translation>
 	</Entry>
 	<Entry beginGroup="Combat">
 		<zType>TEXT_EVENTOPTION_LEADER_SMITING_FOES_STATUE</zType>
@@ -4524,10 +4500,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RISING_STAR_OPTION_1</zType>
 		<Translation>We need more military minds in court.</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_STORMS_OF_BATTLE_OPTION_0</zType>
-		<Translation>Fortune favors the people of {PLAYER-2}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CALL_TO_ACTION_OPTION_0</zType>
@@ -5748,10 +5720,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_FAMILY_SQUABBLE_RUMORS_GOLD</zType>
 		<Translation><![CDATA[I support the {FAMILY-1} family. ]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_FAMILY_SQUABBLE_RUMORS_TIMBER</zType>
-		<Translation><![CDATA[I stand with the {FAMILY-2,1}.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_FAMILY_SQUABBLE_RUMORS_THANKS</zType>
@@ -9153,6 +9121,18 @@
 		<zType>TEXT_EVENTOPTION_MYSTICAL_TRANCE_OPTION_1</zType>
 		<Translation>Sounds like superstition to me.</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_RIGHTEOUS_PATH_OPTION_0</zType>
+		<Translation>{RELIGION-2,3} cannot gather in large numbers.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_RIGHTEOUS_PATH_OPTION_1</zType>
+		<Translation>The faithful may move and congregate as they please. </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_RIGHTEOUS_PATH_OPTION_2</zType>
+		<Translation>I will not get involved.</Translation>
+	</Entry>	 
 	<Entry beginGroup="Miscellaneous">
 		<zType>TEXT_EVENTOPTION_ADOPT_RELIGION_YES</zType>
 		<Translation><![CDATA[Adopt {RELIGION-1}.]]></Translation>
@@ -11476,6 +11456,350 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_LOST_INTEGRITY_OPTION_2</zType>
 		<Translation>Tell them whatever it takes for them to stay.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HANDS_TIED_OPTION_0</zType>
+		<Translation>In this instance, {CHARACTER-SHORT-1} is correct to question me.t</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HANDS_TIED_OPTION_1</zType>
+		<Translation>{PLAYER-0} will not be defended by farmers and poets.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HANDS_TIED_OPTION_2</zType>
+		<Translation>Issue a public reprimand of {CHARACTER-SHORT-1}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARKET_UNREST_OPTION_0</zType>
+		<Translation>Establish organized guilds across {PLAYER-0}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARKET_UNREST_OPTION_1</zType>
+		<Translation>Invest in trade reform in {CITY-1}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARKET_UNREST_OPTION_2</zType>
+		<Translation>Assemble a council to review monetary laws.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARKET_UNREST_OPTION_3</zType>
+		<Translation>There is nothing we can do right now.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_STORIES_OF_GLORY_OPTION_0</zType>
+		<Translation>Our national stories should be celebrated.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_STORIES_OF_GLORY_OPTION_1</zType>
+		<Translation>The outside world holds {PLAYER-0}'s future.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_STORIES_OF_GLORY_OPTION_2</zType>
+		<Translation>Regale {CHARACTER-SHORT-1} with tales of foreign lands.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_BIG_PICTURE_OPTION_0</zType>
+		<Translation>{PLAYER-0} cannot remain insular forever.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_BIG_PICTURE_OPTION_1</zType>
+		<Translation>We are the only nation that matters.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_BIG_PICTURE_OPTION_2</zType>
+		<Translation>I will convince{CHARACTER-SHORT-1} to see my worldview.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_SURRENDER_AUTHORITY_OPTION_0</zType>
+		<Translation>We should trust them to rule their own lands.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_SURRENDER_AUTHORITY_OPTION_1</zType>
+		<Translation>Refuse this blatant attempt to seize power.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_SURRENDER_AUTHORITY_OPTION_2</zType>
+		<Translation>More bureaucrats will stamp out corruption.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HEIR_INTENT_OPTION_0</zType>
+		<Translation>We must consolidate power.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HEIR_INTENT_OPTION_1</zType>
+		<Translation><![CDATA[{CHARACTER-SHORT-1} is not the <masculine_CHARACTER-1>king<feminine>queen<end> yet.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HEIR_INTENT_OPTION_2</zType>
+		<Translation><![CDATA[I will ply <masculine_CHARACTER-1>him<feminine>her<end> with fine wine.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_SUPPLY_CHAIN_WOES_OPTION_0</zType>
+		<Translation>We must cease overextending ourselves.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_SUPPLY_CHAIN_WOES_OPTION_1</zType>
+		<Translation>The {FAMILY-1,2} must work harder to control {CITY-3}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_SUPPLY_CHAIN_WOES_OPTION_2</zType>
+		<Translation>I will make an appeal to the workers.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_A_SUPERIOR_SYSTEM_OPTION_0</zType>
+		<Translation>Release our people from servitude.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_A_SUPERIOR_SYSTEM_OPTION_1</zType>
+		<Translation>The current laws are working as intended.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_A_SUPERIOR_SYSTEM_OPTION_2</zType>
+		<Translation>We will work harder to care for our people.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FUMING_CHURCH_OPTION_0</zType>
+		<Translation>Save souls first, and then educate them.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FUMING_CHURCH_OPTION_1</zType>
+		<Translation>We must serve all people, not only the faithful.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FUMING_CHURCH_OPTION_2</zType>
+		<Translation>I will remind them that truth is knowledge. </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LOOKING_FOR_ANSWERS_OPTION_0</zType>
+		<Translation>{PLAYER-0,2} must be an enlightened people.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LOOKING_FOR_ANSWERS_OPTION_1</zType>
+		<Translation>Your comments border on heresy.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LOOKING_FOR_ANSWERS_OPTION_2</zType>
+		<Translation>Knowledge and faith can coexist.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_PROGRESS_OR_PERISH__OPTION_0</zType>
+		<Translation>We must build on foundations of science.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_PROGRESS_OR_PERISH__OPTION_1</zType>
+		<Translation>{PLAYER-1} has its way, and we have ours.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_PROGRESS_OR_PERISH__OPTION_2</zType>
+		<Translation>She must come teach us in {PLAYER-1}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_INWARD_GAZE_OPTION_0</zType>
+		<Translation>{CHARACTER-SHORT-1} speaks the truth, and we must change.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_INWARD_GAZE_OPTION_1</zType>
+		<Translation>{PLAYER-1} needs help from no one.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_INWARD_GAZE_OPTION_2</zType>
+		<Translation><![CDATA[Remind {CHARACTER-SHORT-1} to have pride in <masculine_CHARACTER-1>his<feminine>her<end> nation.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_IRREPARABLE_DAMAGE_OPTION_0</zType>
+		<Translation>Yes, we must invest more in {PLAYER-0}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_IRREPARABLE_DAMAGE_OPTION_1</zType>
+		<Translation>We cannot turn away from the world now.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_IRREPARABLE_DAMAGE_OPTION_2</zType>
+		<Translation>Break up the sect and remove {CHARACTER-SHORT-1}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION__OPTION_0</zType>
+		<Translation>It is true, we must pursue a higher truth.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION__OPTION_1</zType>
+		<Translation>{PLAYER-0} is on the right path.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION__OPTION_2</zType>
+		<Translation>I will personally guide our scientific development.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_SMALL_MINDEDNESS_OPTION_0</zType>
+		<Translation>Our policies are too severe.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_SMALL_MINDEDNESS_OPTION_1</zType>
+		<Translation>A few isolated incidents mean nothing.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_SMALL_MINDEDNESS_OPTION_2</zType>
+		<Translation>We must root out corruption.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_EXTREMIST_LAWS_OPTION_0</zType>
+		<Translation>My will is all that matters.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_EXTREMIST_LAWS_OPTION_1</zType>
+		<Translation>We place the fate of {PLAYER-0} in their hands.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_EXTREMIST_LAWS_OPTION_2</zType>
+		<Translation>The gods have chosen me to rule.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LOTUS_EATERS_OPTION_0</zType>
+		<Translation>{PLAYER-0} will not tolerate idleness.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LOTUS_EATERS_OPTION_1</zType>
+		<Translation>{CHARACTER-SHORT-1} must do a better job as governor.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LOTUS_EATERS_OPTION_2</zType>
+		<Translation>I will visit {CITY-2} and lift the people's spirits.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FROM_ON_HIGH_OPTION_0</zType>
+		<Translation>{CHARACTER-SHORT-1} is right. I have been blinded by power. </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FROM_ON_HIGH_OPTION_1</zType>
+		<Translation>You have angered me, and so, the gods.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FROM_ON_HIGH_OPTION_2</zType>
+		<Translation><![CDATA[I will teach <masculine_CHARACTER-1>him<feminine>her<end> how to rule from on high.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEADERS_OR_LUNATICS_OPTION_0</zType>
+		<Translation>We must restore the sacred glory of {PLAYER-0}!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEADERS_OR_LUNATICS_OPTION_1</zType>
+		<Translation>Let them search, so long as they do their jobs.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEADERS_OR_LUNATICS_OPTION_2</zType>
+		<Translation>Remove {CHARACTER-SHORT-2}. He can meditate elsewhere.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_GODLESS_OPTION_0</zType>
+		<Translation>We are godless and have lost our way.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_GODLESS_OPTION_1</zType>
+		<Translation>Our way of life will not be questioned.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_GODLESS_OPTION_2</zType>
+		<Translation><![CDATA[Throw feasts in <masculine_CHARACTER-2>his<feminine>her<end> honor, and she will change her mind.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DANCING_BEARS_OPTION_0</zType>
+		<Translation>Throw another festival to help them forget.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DANCING_BEARS_OPTION_1</zType>
+		<Translation>Slaughter the remaining bears as reassurance.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DANCING_BEARS_OPTION_2</zType>
+		<Translation>Do nothing. I do not want the attention.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_A_MESSY_AFFAIR_OPTION_0</zType>
+		<Translation>Comfort the {FAMILY-1,1} with a gift.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_A_MESSY_AFFAIR_OPTION_1</zType>
+		<Translation>Launch a full investigation... but do nothing.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_A_MESSY_AFFAIR_OPTION_2</zType>
+		<Translation>Make filthy jokes at {CHARACTER-SHORT-0}'s expense.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_A_MESSY_AFFAIR_OPTION_3</zType>
+		<Translation>Mourn with all of {PLAYER-2}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HIRED_KILLERS_OPTION_0</zType>
+		<Translation>I shall dismiss these rumors with a speech.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HIRED_KILLERS_OPTION_1</zType>
+		<Translation>It is important than we do not act rashly.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HIRED_KILLERS_OPTION_2</zType>
+		<Translation>The court will root out all conspirators.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DEADLY_REVELS_OPTION_0</zType>
+		<Translation>Retreat to your chambers and reflect.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DEADLY_REVELS_OPTION_1</zType>
+		<Translation>Toss our Spymaster in a cell and throw away the key.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DEADLY_REVELS_OPTION_2</zType>
+		<Translation>Abdicate the throne in shame.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DEADLY_REVELS_OPTION_3</zType>
+		<Translation>Confess to the murder and accidental death.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_STRANGLED_OPTION_0</zType>
+		<Translation>Indulge {CHARACTER-SHORT-1}'s suspicions.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_STRANGLED_OPTION_1</zType>
+		<Translation>Give {CHARACTER-SHORT-2} your vote of confidence.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LAST_KISS_OPTION_0</zType>
+		<Translation>The whole {FAMILY-3} family is responsible for this treachery.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LAST_KISS_OPTION_1</zType>
+		<Translation><![CDATA[{PLAYER-2} is better off without  <masculine_CHARACTER-1>him<feminine>her<end>.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LAST_KISS_OPTION_2</zType>
+		<Translation>This is none of my concern.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_LUTE_PLAYER_OPTION_0</zType>
+		<Translation>We will commission a song honoring {CHARACTER-SHORT-0}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_LUTE_PLAYER_OPTION_1</zType>
+		<Translation>The {FAMILY-1,1} have our deepest sympathies.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_SUSPICIONS_CONFIRMED_OPTION_0</zType>
+		<Translation><![CDATA[Welcome <masculine_CHARACTER-0>him<feminine>her<end> back to court with a speech.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_SUSPICIONS_CONFIRMED_OPTION_1</zType>
+		<Translation>Investigate rumors of corruption in the military.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_SUSPICIONS_CONFIRMED_OPTION_2</zType>
+		<Translation>Convince {CHARACTER-SHORT-0} that I am not involved.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FALSE_CHARGES_OPTION_0</zType>
+		<Translation>Let this be a lesson to my enemies.</Translation>
 	</Entry>	 
   <Entry beginGroup="Tutorial">
 		<zType>TEXT_EVENTOPTION_VICTORY_OK</zType>

@@ -32,6 +32,11 @@
 		<zIconName>SPRITE_ANCHOR</zIconName>
 	</Entry>
 	<Entry>
+		<zType>COOLDOWN_ROUT</zType>
+		<zName>Aufstöbern</zName>
+		<zIconName>COOLDOWN_ROUT</zIconName>
+	</Entry>
+	<Entry>
 		<zType>COOLDOWN_ATTACK</zType>
 		<zName>Angriff</zName>
 		<zIconName>COOLDOWN_ATTACK</zIconName>

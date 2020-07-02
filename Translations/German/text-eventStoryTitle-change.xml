@@ -1334,10 +1334,6 @@
 		<Translation>Rising Star</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_STORMS_OF_BATTLE_TITLE</zType>
-		<Translation>Storms of Battle</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTSTORY_CALL_TO_ACTION_TITLE</zType>
 		<Translation>Call to Action</Translation>
 	</Entry>
@@ -4220,7 +4216,123 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LOST_INTEGRITY_TITLE</zType>
 		<Translation>Lost Integrity</Translation>
-	</Entry> 
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_HANDS_TIED_TITLE</zType>
+		<Translation>Hands Tied</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MARKET_UNREST_TITLE</zType>
+		<Translation>Market Unrest</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STORIES_OF_GLORY_TITLE</zType>
+		<Translation>Stories of Glory</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_BIG_PICTURE_TITLE</zType>
+		<Translation>The Big Picture</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SURRENDER_AUTHORITY_TITLE</zType>
+		<Translation>Surrender Authority</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_HEIR_INTENT_TITLE</zType>
+		<Translation>Heir Intent</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SUPPLY_CHAIN_WOES_TITLE</zType>
+		<Translation>Supply Chain Woes</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_A_SUPERIOR_SYSTEM_TITLE</zType>
+		<Translation>A Superior System</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_FUMING_CHURCH_TITLE</zType>
+		<Translation>Fuming Priests</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LOOKING_FOR_ANSWERS_TITLE</zType>
+		<Translation>Looking for Answers</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PROGRESS_OR_PERISH__TITLE</zType>
+		<Translation>Progress or Perish </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INWARD_GAZE_TITLE</zType>
+		<Translation>Inward Gaze</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_IRREPARABLE_DAMAGE_TITLE</zType>
+		<Translation>Irreparable Damage</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY__TITLE</zType>
+		<Translation>Our Purpose</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SMALL_MINDEDNESS_TITLE</zType>
+		<Translation>Small-Mindedness</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_EXTREMIST_LAWS_TITLE</zType>
+		<Translation>Extremist Laws</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LOTUS_EATERS_TITLE</zType>
+		<Translation>Lotus-Eaters</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_FROM_ON_HIGH_TITLE</zType>
+		<Translation>From on High</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADERS_OR_LUNATICS_TITLE</zType>
+		<Translation>Leaders or Lunatics?</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_GODLESS_TITLE</zType>
+		<Translation>Godless</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DANCING_BEARS_TITLE</zType>
+		<Translation>Dancing Bears</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_A_MESSY_AFFAIR_TITLE</zType>
+		<Translation>A Messy Affair</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_HIRED_KILLERS_TITLE</zType>
+		<Translation>Hired Killers</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEADLY_REVELS_TITLE</zType>
+		<Translation>Deadly Revels</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STRANGLED_TITLE</zType>
+		<Translation>Strangled!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LAST_KISS_TITLE</zType>
+		<Translation>Last Kiss</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_LUTE_PLAYER_TITLE</zType>
+		<Translation>The Lute Player</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SUSPICIONS_CONFIRMED_TITLE</zType>
+		<Translation>Suspicions Confirmed</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_FALSE_CHARGES_TITLE</zType>
+		<Translation>False Charges</Translation>
+	</Entry>	 
   <Entry beginGroup="Tutorial">
 		<zType>TEXT_EVENTSTORY_VICTORY_POINTS_TITLE</zType>
 		<Translation>POINTS VICTORY!</Translation>

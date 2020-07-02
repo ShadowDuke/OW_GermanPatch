@@ -4,8 +4,6 @@
 	<Entry>
 		<zType/>
 		<zName/>
-		<iScenarioTime/>
-		<iScenarioTimePercent/>
 		<iEmptySites/>
 		<iBarbSites/>
 		<iImprovementUpgradeModifier/>
@@ -21,6 +19,7 @@
 		<iRaidProbUnit/>
 		<iRaidRange/>
 		<iBarbarianFatigue/>
+		<iBarbarianHeal/>		   
 		<iWarOfferTurn/>
 		<iWarModifier/>
 		<iAIModifier/>
@@ -34,8 +33,6 @@
 	<Entry>
 		<zType>BARBARIANLEVEL_PASSIVE</zType>
 		<zName>Zurückhaltend</zName>
-		<iScenarioTime>40</iScenarioTime>
-		<iScenarioTimePercent>120</iScenarioTimePercent>
 		<iEmptySites>4</iEmptySites>
 		<iBarbSites>0</iBarbSites>
 		<iImprovementUpgradeModifier>-80</iImprovementUpgradeModifier>
@@ -48,8 +45,6 @@
 	<Entry>
 		<zType>BARBARIANLEVEL_WEAK</zType>
 		<zName>Schwach</zName>
-		<iScenarioTime>40</iScenarioTime>
-		<iScenarioTimePercent>110</iScenarioTimePercent>
 		<iEmptySites>3</iEmptySites>
 		<iBarbSites>1</iBarbSites>
 		<iImprovementUpgradeModifier>-40</iImprovementUpgradeModifier>
@@ -70,8 +65,6 @@
 	<Entry>
 		<zType>BARBARIANLEVEL_NORMAL</zType>
 		<zName>Normal</zName>
-		<iScenarioTime>40</iScenarioTime>
-		<iScenarioTimePercent>100</iScenarioTimePercent>
 		<iEmptySites>2</iEmptySites>
 		<iBarbSites>2</iBarbSites>
 		<iImprovementUpgradeModifier>-20</iImprovementUpgradeModifier>
@@ -86,13 +79,12 @@
 		<iRaidProbTile>4</iRaidProbTile>
 		<iRaidProbUnit>20</iRaidProbUnit>
 		<iRaidRange>16</iRaidRange>
+		<iBarbarianHeal>1</iBarbarianHeal>							
 		<iWarOfferTurn>35</iWarOfferTurn>
 	</Entry>
 	<Entry>
 		<zType>BARBARIANLEVEL_STRONG</zType>
 		<zName>Stark</zName>
-		<iScenarioTime>40</iScenarioTime>
-		<iScenarioTimePercent>90</iScenarioTimePercent>
 		<iEmptySites>1</iEmptySites>
 		<iBarbSites>3</iBarbSites>
 		<iImprovementUpgradeModifier>-10</iImprovementUpgradeModifier>
@@ -108,6 +100,7 @@
 		<iRaidProbUnit>30</iRaidProbUnit>
 		<iRaidRange>18</iRaidRange>
 		<iBarbarianFatigue>1</iBarbarianFatigue>
+		<iBarbarianHeal>1</iBarbarianHeal>							
 		<iWarOfferTurn>30</iWarOfferTurn>
 		<iWarModifier>10</iWarModifier>
 		<iAIModifier>10</iAIModifier>
@@ -115,8 +108,6 @@
 	<Entry>
 		<zType>BARBARIANLEVEL_RAGING</zType>
 		<zName>Wütend</zName>
-		<iScenarioTime>40</iScenarioTime>
-		<iScenarioTimePercent>80</iScenarioTimePercent>
 		<iEmptySites>1</iEmptySites>
 		<iBarbSites>2</iBarbSites>
 		<iDefendUnits>4</iDefendUnits>
@@ -130,6 +121,7 @@
 		<iRaidProbUnit>40</iRaidProbUnit>
 		<iRaidRange>20</iRaidRange>
 		<iBarbarianFatigue>1</iBarbarianFatigue>
+		<iBarbarianHeal>2</iBarbarianHeal>							
 		<iWarOfferTurn>25</iWarOfferTurn>
 		<iWarModifier>20</iWarModifier>
 		<iAIModifier>20</iAIModifier>
