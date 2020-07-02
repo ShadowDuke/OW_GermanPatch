@@ -1,3 +1,4 @@
+# Update for newest game version 02/07/20 - ~19:00 CET
 *Accidentally deleted the previous repository*
 
 # Old World German Patch
