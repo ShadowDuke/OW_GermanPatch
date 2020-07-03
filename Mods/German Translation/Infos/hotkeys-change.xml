@@ -118,6 +118,14 @@
 		<bIgnoreMouse>1</bIgnoreMouse>
 	</Entry>
 	<Entry>
+        <zType>HOTKEY_SHOW_TILE_YIELDS</zType>
+        <zName>Zeige Kachel Gewinne</zName>
+        <HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>
+        <Keys>N</Keys>
+        <bHold>1</bHold>
+        <bIgnoreMouse>1</bIgnoreMouse>
+    </Entry>
+    <Entry>
 		<zType>HOTKEY_TOGGLE_HEX_GRID</zType>
 		<zName>Stelle Hex Gitter um</zName>
 		<HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>

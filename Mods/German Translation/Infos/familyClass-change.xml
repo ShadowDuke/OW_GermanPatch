@@ -311,7 +311,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>TRAIT_CORRUPTIONIST_ARCHETYPE</zIndex>
-				<iValue>1</iValue>
+				<iValue>5</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>TRAIT_ARTIST_ARCHETYPE</zIndex>
@@ -319,7 +319,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>TRAIT_MERCHANT_ARCHETYPE</zIndex>
-				<iValue>1</iValue>
+				<iValue>5</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>TRAIT_CHAMPION_ARCHETYPE</zIndex>
@@ -435,7 +435,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>TRAIT_CHAMPION_ARCHETYPE</zIndex>
-				<iValue>1</iValue>
+				<iValue>5</iValue>
 			</Pair>
 		</aiTraitDie>
 	</Entry>
@@ -635,7 +635,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>TRAIT_SKYEXPLORER_ARCHETYPE</zIndex>
-				<iValue>5</iValue>
+				<iValue>10</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>TRAIT_CORRUPTIONIST_ARCHETYPE</zIndex>
@@ -753,15 +753,15 @@
 			</Pair>
 			<Pair>
 				<zIndex>TRAIT_CORRUPTIONIST_ARCHETYPE</zIndex>
-				<iValue>10</iValue>
+				<iValue>8</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>TRAIT_ARTIST_ARCHETYPE</zIndex>
-				<iValue>1</iValue>
+				<iValue>2</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>TRAIT_MERCHANT_ARCHETYPE</zIndex>
-				<iValue>1</iValue>
+				<iValue>10</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>TRAIT_CHAMPION_ARCHETYPE</zIndex>
@@ -856,6 +856,14 @@
 			</Pair>
 			<Pair>
 				<zIndex>TRAIT_HERO_ARCHETYPE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_SKYEXPLORER_ARCHETYPE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>TRAIT_CORRUPTIONIST_ARCHETYPE</zIndex>
 				<iValue>1</iValue>
 			</Pair>
 			<Pair>
@@ -965,7 +973,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>TRAIT_CORRUPTIONIST_ARCHETYPE</zIndex>
-				<iValue>1</iValue>
+				<iValue>2</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>TRAIT_ARTIST_ARCHETYPE</zIndex>
@@ -1085,7 +1093,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>TRAIT_MERCHANT_ARCHETYPE</zIndex>
-				<iValue>1</iValue>
+				<iValue>2</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>TRAIT_CHAMPION_ARCHETYPE</zIndex>

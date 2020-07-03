@@ -334,32 +334,16 @@
 		<Translation><![CDATA[<masculine_CHARACTER-0>Er<feminine>Sie<end> wird Taktik lernen.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_STUDY_TACTICS_HELP</zType>
-		<Translation>Kann zu link(TRAIT_HERO_ARCHETYPE), link(TRAIT_COMMANDER_ARCHETYPE), link(TRAIT_TACTICIAN_ARCHETYPE), link(TRAIT_ZEALOT_ARCHETYPE), oder link(TRAIT_SCHEMER_ARCHETYPE) führen</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_RHETORIC</zType>
 		<Translation><![CDATA[<masculine_CHARACTER-0>Er<feminine>Sie<end> wird Redekunst lernen.]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_STUDY_RHETORIC_HELP</zType>
-		<Translation>Kann zu link(TRAIT_HERO_ARCHETYPE), link(TRAIT_ORATOR_ARCHETYPE), link(TRAIT_JUDGE_ARCHETYPE), link(TRAIT_SCHOLAR_ARCHETYPE), oder link(TRAIT_DIPLOMAT_ARCHETYPE) führen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_COMMERCE</zType>
 		<Translation><![CDATA[<masculine_CHARACTER-0>Er<feminine>Sie<end> wird Wirtschaft lernen.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_STUDY_COMMERCE_HELP</zType>
-		<Translation>Kann zu link(TRAIT_COMMANDER_ARCHETYPE), link(TRAIT_SCHEMER_ARCHETYPE), link(TRAIT_ORATOR_ARCHETYPE), link(TRAIT_BUILDER_ARCHETYPE), oder link(TRAIT_DIPLOMAT_ARCHETYPE) führen</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_PHILOSOPHY</zType>
 		<Translation><![CDATA[<masculine_CHARACTER-0>Er<feminine>Sie<end> wird Philosophie lernen.]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_STUDY_PHILOSOPHY_HELP</zType>
-		<Translation>Kann zu link(TRAIT_TACTICIAN_ARCHETYPE), link(TRAIT_ZEALOT_ARCHETYPE), link(TRAIT_JUDGE_ARCHETYPE), link(TRAIT_BUILDER_ARCHETYPE), oder link(TRAIT_SCHOLAR_ARCHETYPE) führen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_GREAT_PERSON_NONE</zType>

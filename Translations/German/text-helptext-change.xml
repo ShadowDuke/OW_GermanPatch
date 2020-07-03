@@ -1056,7 +1056,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_ADD_GENERAL_CANDIDATES</zType>
-		<Translation><![CDATA[Verfügbare <singular_0>Kandidat<plural>Kandidaten<end>:]]></Translation>
+		<Translation>Verfügbare Kandidaten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_ADD_GENERAL_MIN_UNIT_LEVEL</zType>
@@ -1613,7 +1613,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_REPLAY_DO_AI_MOVES</zType>
-		<Translation><![CDATA[Benutze KI umden Zug zu beenden<br><TEXT_HOTKEY_CTRL_CLICK> für auto-play {0_number} <singular_0>Zug<plural>Züge<end>]]></Translation>
+		<Translation><![CDATA[Benutze KI um den Zug zu beenden<br><TEXT_HOTKEY_CTRL_CLICK> für auto-play {0_number} <singular_0>Zug<plural>Züge<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_REPLAY_DO_AI_MOVES_X</zType>
@@ -2620,7 +2620,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_PRODUCTION</zType>
-		<Translation>Ertrag: {0} {1_yield}</Translation>
+		<Translation>Benötigt: {0} {1_yield}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_UPGRADES_TO</zType>
@@ -4632,7 +4632,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PROJECT_BUILD_COST</zType>
-		<Translation>Aufwand: {0} link(YIELD_CIVICS)</Translation>
+		<Translation>Benötigt: {0} link(YIELD_CIVICS)</Translation>
 	</Entry>
 	<!--Specialist Help-->
 	<Entry>
@@ -4904,7 +4904,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_MARRIES_DOWRY_COST</zType>
-		<Translation>Mitgift bereitet uns {0}</Translation>
+		<Translation>Mitgift gibt uns {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UPGRADE_CHARACTER_BECOMES</zType>
