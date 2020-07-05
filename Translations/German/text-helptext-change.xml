@@ -1763,7 +1763,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CLEAR_DEFENDING</zType>
-		<Translation>Verteidigen vs. {0_unit} auf {1_terrain}: {2_value}</Translation>
+		<Translation>Verteidigung vs. {0_unit} auf {1_terrain}: {2_value}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CULTURE_EVENT</zType>
@@ -1875,7 +1875,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_HEIGHT_DEFENDING_VS_IF</zType>
-		<Translation>Verteidigen vs. {0_unitTrait} (if {1}): {2_value}</Translation>
+		<Translation>Verteidigung vs. {0_unitTrait} (if {1}): {2_value}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_GENERAL</zType>
@@ -2031,11 +2031,11 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TERRAIN_DEFENDING_UNIT</zType>
-		<Translation>Verteidigen vs. {0_unit} (wenn link(CONCEPT_CLEAR)): {1}</Translation>
+		<Translation>Verteidigung vs. {0_unit} (wenn link(CONCEPT_CLEAR)): {1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TERRAIN_DEFENDING_OUR_TERRITORY</zType>
-		<Translation>Verteidigen (Eigenes Gebiet): {1}</Translation>
+		<Translation>Verteidigung (Eigenes Gebiet): {1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TRADE_BONUS_US</zType>
@@ -2184,7 +2184,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_IMPROVEMENT_UNFINISHED</zType>
-		<Translation>Übrige Arbeit: {0}</Translation>
+		<Translation>Verbleibende Arbeit: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_IMPROVEMENT_START_ADJACENT</zType>
@@ -2681,7 +2681,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TRAIT_DEFENDING</zType>
-		<Translation>Verteidigen {0}: {1}</Translation>
+		<Translation>Verteidigung {0}: {1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TRAIT_ATTACK_ACROSS</zType>
@@ -2809,7 +2809,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_WHEN_DEFENDING_VS</zType>
-		<Translation>Verteidigen vs. {0_unitTrait}: {1_value}</Translation>
+		<Translation>Verteidigung vs. {0_unitTrait}: {1_value}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_IN_MELEE_VS</zType>
@@ -3610,7 +3610,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_ENEMY_UNIT_TRAIT_BONUS_DEFENDING_VERSUS</zType>
-		<Translation>:Verteidigen vs. {0_unitTrait}</Translation>
+		<Translation>:Verteidigung vs. {0_unitTrait}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_UNIT_TRAIT_BONUS_MELEE_VERSUS</zType>
@@ -5146,7 +5146,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HELPSCREEN_UNIT_STATS</zType>
-		<Translation><![CDATA[<singular_0>Statistik<plural>Statistiken<end>]]></Translation>
+		<Translation>Statistiken</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HELPSCREEN_NATIONS</zType>
