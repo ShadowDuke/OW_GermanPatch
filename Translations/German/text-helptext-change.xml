@@ -2504,19 +2504,19 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_STRENGTH_VS</zType>
-		<Translation>{0_value} Stärke vs. {1_unitTrait}</Translation>
+		<Translation>Stärke vs. {0_value}: {1_unitTrait}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_STRENGTH_ATTACKING_VS</zType>
-		<Translation>{0_value} Angriffsstärke vs. {1_unitTrait}</Translation>
+		<Translation>Angriffsstärke vs. {0_value}: {1_unitTrait}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_STRENGTH_DEFENDING_VS</zType>
-		<Translation>{0_value} Verteidigungsstärke vs. {1_unitTrait}</Translation>
+		<Translation>Verteidigungsstärke vs. {0_value}: {1_unitTrait}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_STRENGTH_MELEE_VS</zType>
-		<Translation>{0_value} Nahkampfstärke vs. {1_unitTrait}</Translation>
+		<Translation>Nahkampfstärke vs. {0_value}: {1_unitTrait}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_FAMILY_LABEL</zType>

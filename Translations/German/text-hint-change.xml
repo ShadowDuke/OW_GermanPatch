@@ -27,7 +27,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_6</zType>
-		<Translation>icon(YIELD_TRAINING)  Lagerung ist begrenzt bist  int(MAX_TRAINING) . Alles darüber wird ungewandelt in  icon(YIELD_ORDERS) .</Translation>
+		<Translation>icon(YIELD_TRAINING)  Lagerung ist bis  int(MAX_TRAINING) begrenzt. Alles darüber wird ungewandelt in  icon(YIELD_ORDERS) .</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_7</zType>
