@@ -27,7 +27,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_BARBARIANS_NEW_DIPLOMACY</zType>
-		<Translation>Du bist nun {0_newDiplomacy} mit den {1_barbarians}.</Translation>
+		<Translation>Du hast nun {0_newDiplomacy} mit den {1_barbarians}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_BARBARIANS_DIPLOMACY_LOG_DATA</zType>
@@ -43,7 +43,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TEAM_NEW_DIPLOMACY</zType>
-		<Translation>Du bist nun {0_newDiplomacy} mit {1_team}.</Translation>
+		<Translation>Du hast nun {0_newDiplomacy} mit {1_team}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TEAM_ALLIANCE_WAR</zType>

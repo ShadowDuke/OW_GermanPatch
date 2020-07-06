@@ -3092,7 +3092,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_ADJACENT_IMPROVEMENT_MODIFIER</zType>
-		<Translation>Angrenzende {0,2_improvementList}: {1_value}</Translation>
+		<Translation>Angrenzenden {0,2_improvementList}: {1_value}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_HEALS_UNIT</zType>
@@ -4657,7 +4657,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_SPECIALIST_BUILD</zType>
-		<Translation>Baue: {0} link(YIELD_CIVICS) {1_progress}</Translation>
+		<Translation>Benötigt: {0} link(YIELD_CIVICS) {1_progress}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_SPECIALIST_LEADS_TO</zType>
@@ -5308,7 +5308,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DECISION_CHOOSE_AMBITION_TITLE</zType>
-		<Translation>Wähle Siegeskarte:</Translation>
+		<Translation>Wähle Ambition:</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DECISION_CHOOSE_CITY_FAMILY_TITLE</zType>

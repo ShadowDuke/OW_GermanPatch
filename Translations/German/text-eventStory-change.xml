@@ -240,7 +240,7 @@ The plan would be effective in quelling rebellion. However, it would anger the p
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_GOOD_NEWS</zType>
-		<Translation><![CDATA[Mit einee überraschenden Kunde erfährst du über den Forschritt deines Erben, {CHARACTER-0}. Gelehrte der Bildungsanstalt respektieren <masculine_CHARACTER-0>ihn<feminine>sie<end> und die anderen Schüler wetteifern um mit <masculine_CHARACTER-0>ihn<feminine>ihr<end> Freundschaft zu schließenn. 
+		<Translation><![CDATA[Mit einee überraschenden Kunde erfährst du über den Forschritt einer deiner Thronfolger, {CHARACTER-0}. Gelehrte der Bildungsanstalt respektieren <masculine_CHARACTER-0>ihn<feminine>sie<end> und die anderen Schüler wetteifern um mit <masculine_CHARACTER-0>ihn<feminine>ihr<end> Freundschaft zu schließenn. 
 
 Zur Zeit ist {CHARACTER-SHORT-0} am aufblühen!]]></Translation>
 	</Entry>
@@ -670,7 +670,7 @@ HWie sollen wir an {PLAYER-0,2} herangehen? </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_CONTACT_01</zType>
-		<Translation>Späher sind einem fremden Streifzug unverhofft begegnet die einem ähnlichen Weg folgen. Sie nennen sich selber {PLAYER-0,2} und grüßen von einem Feld hinter dem Horizont. Eine herzliches Mahlzeit teilend, tauschen die zwei Gruppen Geschichten und Andenken.
+		<Translation>Späher sind einem fremden Streifzug unverhofft begegnet die einem ähnlichen Weg folgen. Sie nennen sich selber {PLAYER-0,2} und grüßen von einem Feld hinter dem Horizont. Eine herzliche Mahlzeit teilend, tauschen die zwei Gruppen Geschichten und Andenken aus.
 
 Wie sollen unsere Späher dieses Treffen beschließen? </Translation>
 	</Entry>
