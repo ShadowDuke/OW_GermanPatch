@@ -1,7 +1,7 @@
 *Accidentally deleted the previous repository*
 
 # Old World German Patch
-German localization for **Old World** for **Version: 0.1.40018**. (WIP)
+German localization for **Old World** for **Version: 0.1.40257**. (WIP)
 
 Zur [deutschen Anleitung](https://github.com/ShadowDuke/OW_GermanPatch#deutsch) springen.
 
