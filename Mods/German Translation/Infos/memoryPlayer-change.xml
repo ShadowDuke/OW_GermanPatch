@@ -16,6 +16,12 @@
 		<iTurns>20</iTurns>
 	</Entry>
 	<Entry>
+		<zType>MEMORYPLAYER_SLANDER</zType>
+		<zText>Öffentlich Beleidigt</zText>
+		<iValue>-40</iValue>
+		<iTurns>40</iTurns>
+	</Entry>
+	<Entry>
 		<zType>MEMORYPLAYER_ADOPTED_RELIGION</zType>
 		<zText>Übernahmen eine Staatsreligion</zText>
 		<iTurns>5</iTurns>
@@ -36,6 +42,12 @@
 		<zText>Luxusgut entfernt</zText>
 		<iValue>-50</iValue>
 		<iTurns>5</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_TRADE_DEAL</zType>
+		<zText>Neues Handelsabkommen</zText>
+		<iValue>40</iValue>
+		<iTurns>20</iTurns>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_TRUCE</zType>
@@ -231,6 +243,11 @@
 		<zText>Returned heir after incident</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
+	<Entry>
+    <zType>MEMORYPLAYER_THE_OLYMPIAD</zType>
+    <zText>Impressed by our Olympiad</zText>
+    <MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+  </Entry>
 	<Entry beginGroup="Diplomacy">
 		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_GIFT</zType>
 		<zText>You sent us a small gift</zText>
@@ -469,7 +486,7 @@
 	<Entry>
 		<zType>MEMORYPLAYER_DID_NOT_INTERFERE</zType>
 		<zText>Did not interfere with prisoner</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_FOUGHT_FOR_PRISONER</zType>

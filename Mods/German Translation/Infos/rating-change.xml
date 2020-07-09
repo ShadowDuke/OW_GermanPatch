@@ -11,92 +11,120 @@
 		<iDefenseModifier/>
 		<iCriticalChance/>
 		<iUnitXP/>
-		<aiYieldRate/>
-		<aiYieldModifier/>
+		<aiYieldLeaderRate/>
+		<aiYieldGovernorModifier/>
+		<aiYieldAgentPercent/>
 	</Entry>
 	<Entry>
-		<zType>RATING_DISCIPLINE</zType>
-		<zColor>COLOR_RATING_DISCIPLINE</zColor>
-		<zName>Disziplin</zName>
-		<zIconName>RATING_DISCIPLINE</zIconName>
-		<zHelp>Disziplin erhöht {YIELD_MONEY} als Oberhaupt oder Stadthalter.
-Für Feldherren erhöht Disziplin jedes Jahr die Erfahrung der Einheit.</zHelp>
-		<iUnitXP>1</iUnitXP>
-		<aiYieldRate>
+		<zType>RATING_WISDOM</zType>
+		<zColor>COLOR_RATING_WISDOM</zColor>
+		<zName>Wisdom</zName>
+		<zIconName>RATING_WISDOM</zIconName>
+		<zHelp>For Leaders and Governors, Wisdom increases {YIELD_SCIENCE}.
+For Generals, Wisdom increases the Unit's Critical Hit Chance.
+		</zHelp>
+		<iCriticalChance>1</iCriticalChance>
+		<aiYieldLeaderRate>
 			<Pair>
-				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>40</iValue>
+				<zIndex>YIELD_SCIENCE</zIndex>
+				<iValue>10</iValue>
 			</Pair>
-		</aiYieldRate>
-		<aiYieldModifier>
+		</aiYieldLeaderRate>
+		<aiYieldGovernorModifier>
 			<Pair>
-				<zIndex>YIELD_MONEY</zIndex>
+				<zIndex>YIELD_SCIENCE</zIndex>
 				<iValue>2</iValue>
 			</Pair>
-		</aiYieldModifier>
-	</Entry>
-	<Entry>
-		<zType>RATING_COURAGE</zType>
-		<zColor>COLOR_RATING_COURAGE</zColor>
-		<zName>Mut</zName>
-		<zIconName>RATING_COURAGE</zIconName>
-		<zHelp>Mut erhöht {YIELD_TRAINING} als Oberhaupt oder Stadthalter.
-Für Feldherren erhöht Mut die Stärke der Einheit.</zHelp>
-		<iStrengthModifier>1</iStrengthModifier>
-		<aiYieldRate>
+		</aiYieldGovernorModifier>
+		<aiYieldAgentPercent>
 			<Pair>
-				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>30</iValue>
-			</Pair>
-		</aiYieldRate>
-		<aiYieldModifier>
-			<Pair>
-				<zIndex>YIELD_TRAINING</zIndex>
+				<zIndex>YIELD_SCIENCE</zIndex>
 				<iValue>2</iValue>
 			</Pair>
-		</aiYieldModifier>
+		</aiYieldAgentPercent>
 	</Entry>
 	<Entry>
 		<zType>RATING_CHARISMA</zType>
 		<zColor>COLOR_RATING_CHARISMA</zColor>
 		<zName>Charisma</zName>
 		<zIconName>RATING_CHARISMA</zIconName>
-		<zHelp>Charisma erhöht {YIELD_CIVICS} als Oberhaupt oder Stadthalter.
-Für Feldherren erhöht Charisma die Verteidgung der Einheit.</zHelp>
+		<zHelp>For Leaders and Governors, Charisma increases {YIELD_CIVICS}.
+For Generals, Charisma increases the Unit's Defense Strength.</zHelp>
 		<iDefenseModifier>2</iDefenseModifier>
-		<aiYieldRate>
+		<aiYieldLeaderRate>
 			<Pair>
 				<zIndex>YIELD_CIVICS</zIndex>
 				<iValue>20</iValue>
 			</Pair>
-		</aiYieldRate>
-		<aiYieldModifier>
+		</aiYieldLeaderRate>
+		<aiYieldGovernorModifier>
 			<Pair>
 				<zIndex>YIELD_CIVICS</zIndex>
 				<iValue>2</iValue>
 			</Pair>
-		</aiYieldModifier>
-	</Entry>
-	<Entry>
-		<zType>RATING_WISDOM</zType>
-		<zColor>COLOR_RATING_WISDOM</zColor>
-		<zName>Weisheit</zName>
-		<zIconName>RATING_WISDOM</zIconName>
-		<zHelp>Weisheit erhöht {YIELD_SCIENCE} als Oberhaupt oder Stadthalter.
-Für Feldherren, erhöht Weisheit die kritische Chance der Einheit.</zHelp>
-		<iCriticalChance>1</iCriticalChance>
-		<aiYieldRate>
+		</aiYieldGovernorModifier>
+		<aiYieldAgentPercent>
 			<Pair>
-				<zIndex>YIELD_SCIENCE</zIndex>
-				<iValue>10</iValue>
-			</Pair>
-		</aiYieldRate>
-		<aiYieldModifier>
-			<Pair>
-				<zIndex>YIELD_SCIENCE</zIndex>
+				<zIndex>YIELD_CIVICS</zIndex>
 				<iValue>2</iValue>
 			</Pair>
-		</aiYieldModifier>
+		</aiYieldAgentPercent>
+	</Entry>
+	<Entry>
+		<zType>RATING_COURAGE</zType>
+		<zColor>COLOR_RATING_COURAGE</zColor>
+		<zName>Courage</zName>
+		<zIconName>RATING_COURAGE</zIconName>
+		<zHelp>For Leaders and Governors, Courage increases {YIELD_TRAINING}.
+For Generals, Courage increases the Unit's Strength.
+		</zHelp>
+		<iStrengthModifier>1</iStrengthModifier>
+		<aiYieldLeaderRate>
+			<Pair>
+				<zIndex>YIELD_TRAINING</zIndex>
+				<iValue>30</iValue>
+			</Pair>
+		</aiYieldLeaderRate>
+		<aiYieldGovernorModifier>
+			<Pair>
+				<zIndex>YIELD_TRAINING</zIndex>
+				<iValue>2</iValue>
+			</Pair>
+		</aiYieldGovernorModifier>
+		<aiYieldAgentPercent>
+			<Pair>
+				<zIndex>YIELD_TRAINING</zIndex>
+				<iValue>2</iValue>
+			</Pair>
+		</aiYieldAgentPercent>
+	</Entry>
+	<Entry>
+		<zType>RATING_DISCIPLINE</zType>
+		<zColor>COLOR_RATING_DISCIPLINE</zColor>
+		<zName>Discipline</zName>
+		<zIconName>RATING_DISCIPLINE</zIconName>
+		<zHelp>For Leaders and Governors, Discipline increases {YIELD_MONEY}.
+For Generals, Discipline increases the Unit's XP each Year.
+		</zHelp>
+		<iUnitXP>1</iUnitXP>
+		<aiYieldLeaderRate>
+			<Pair>
+				<zIndex>YIELD_MONEY</zIndex>
+				<iValue>40</iValue>
+			</Pair>
+		</aiYieldLeaderRate>
+		<aiYieldGovernorModifier>
+			<Pair>
+				<zIndex>YIELD_MONEY</zIndex>
+				<iValue>2</iValue>
+			</Pair>
+		</aiYieldGovernorModifier>
+		<aiYieldAgentPercent>
+			<Pair>
+				<zIndex>YIELD_MONEY</zIndex>
+				<iValue>2</iValue>
+			</Pair>
+		</aiYieldAgentPercent>
 	</Entry>
 	<Entry>
 		<zType>RATING_FAME</zType>
@@ -108,7 +136,7 @@ Als Stadthalter erhöht sich {YIELD_CULTURE}, {YIELD_SCIENCE}, {YIELD_CIVICS}, {
 Für Feldherren erhöht Charisma die Verteidgung der Einheit.
 		</zHelp>
 		<iDefenseModifier>3</iDefenseModifier>
-		<aiYieldRate>
+		<aiYieldLeaderRate>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
 				<iValue>10</iValue>
@@ -137,8 +165,8 @@ Für Feldherren erhöht Charisma die Verteidgung der Einheit.
 				<zIndex>YIELD_MONEY</zIndex>
 				<iValue>-40</iValue>
 			</Pair>
-		</aiYieldRate>
-		<aiYieldModifier>
+		</aiYieldLeaderRate>
+		<aiYieldGovernorModifier>
 			<Pair>
 				<zIndex>YIELD_CULTURE</zIndex>
 				<iValue>2</iValue>
@@ -159,6 +187,6 @@ Für Feldherren erhöht Charisma die Verteidgung der Einheit.
 				<zIndex>YIELD_MONEY</zIndex>
 				<iValue>1</iValue>
 			</Pair>
-		</aiYieldModifier>
+		</aiYieldGovernorModifier>
 	</Entry>
 </Root>

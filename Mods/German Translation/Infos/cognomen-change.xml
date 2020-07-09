@@ -1698,6 +1698,10 @@
 		<zName>der Besätzer</zName>
 	</Entry>
 	<Entry>
+		<zType>COGNOMEN_TOUGH</zType>
+		<zName>der Zähe</zName>
+	</Entry>
+	<Entry>
 		<zType>COGNOMEN_BLOODTHIRSTY</zType>
 		<zName>der Blutdürstige</zName>
 	</Entry>
@@ -1768,10 +1772,6 @@
 	<Entry>
 		<zType>COGNOMEN_COMPASSIONATE</zType>
 		<zName>der Mitfühlende</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_INSPIRING</zType>
-		<zName>der Erbauliche</zName>
 	</Entry>
 	<Entry>
 		<zType>COGNOMEN_LOYAL</zType>
@@ -1902,11 +1902,6 @@
 	<Entry>
 		<zType>COGNOMEN_QUIET</zType>
 		<zName>der Ruhige</zName>
-		<bGeneric>1</bGeneric>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_TOUGH</zType>
-		<zName>der Taffe</zName>
 		<bGeneric>1</bGeneric>
 	</Entry>
 	<Entry>

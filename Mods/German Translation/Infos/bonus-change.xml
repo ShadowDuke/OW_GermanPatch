@@ -57,6 +57,7 @@
 		<iGeneralOfSubject comment="Character will be General of the previous Subject Unit at this index."/>
 		<iSeizeThroneSubject comment="Become the new leader of the previous Subject at this index."/>
 		<iSpreadToSubject comment="Religion will spread to the previous Subject City at this index."/>
+		<iRemoveFromSubject comment="Religion will be removed from the previous Subject City at this index."/>																								
 		<iTradeResourceSubject comment="Trades the Resources to previous Subject at this index."/>
 		<iMissionSubject comment="The Mission will target the previous Subject at this index."/>
 		<iMissionReverse comment="The Mission character will be the previous Subject at this index."/>																						
@@ -180,6 +181,7 @@
 		<iGeneralOfSubject/>
 		<iSeizeThroneSubject/>
 		<iSpreadToSubject/>
+		<iRemoveFromSubject/>			   
 		<iTradeResourceSubject/>
 		<iMissionSubject/>
 		<iMissionReverse/>			
@@ -699,6 +701,17 @@
 		<zType>BONUS_MISSIONRESULT_INFILTRATE_REVEAL</zType>
 		<zName>Unterwandern</zName>
 		<bRevealTerritory>1</bRevealTerritory>
+	</Entry>
+	<Entry>
+		<zType>BONUS_MISSIONRESULT_SLANDER_SUCCESS</zType>
+		<zName>Infiltrieren</zName>
+		<MemoryAllPlayers>MEMORYPLAYER_SLANDER</MemoryAllPlayers>
+	</Entry>
+	<Entry>
+		<zType>BONUS_MISSIONRESULT_SLANDER_SUCCESS_EXPOSED</zType>
+		<zName>Beleidigung (Erfolg, Exponiert)</zName>
+		<MemoryAllPlayers>MEMORYPLAYER_SLANDER</MemoryAllPlayers>
+		<iLegitimacy>-1</iLegitimacy>
 	</Entry>
 	<Entry>
 		<zType>BONUS_MISSIONRESULT_ASSASSINATE_KILL</zType>
@@ -1896,6 +1909,22 @@
 	<Entry>
 		<zType>BONUS_ADD_CITIZEN_4</zType>
 		<iCitizens>4</iCitizens>
+	</Entry>
+	<Entry>
+		<zType>BONUS_LOSE_CITIZEN_1</zType>
+		<iCitizens>-1</iCitizens>
+	</Entry>
+	<Entry>
+		<zType>BONUS_LOSE_CITIZEN_2</zType>
+		<iCitizens>-2</iCitizens>
+	</Entry>
+	<Entry>
+		<zType>BONUS_LOSE_CITIZEN_3</zType>
+		<iCitizens>-3</iCitizens>
+	</Entry>
+	<Entry>
+		<zType>BONUS_LOSE_CITIZEN_4</zType>
+		<iCitizens>-4</iCitizens>
 	</Entry>
 	<Entry>
 		<zType>BONUS_CULTURE_LEVEL</zType>
@@ -6050,6 +6079,12 @@
 		<zType>BONUS_GIVE_TRAIT_GARRISON</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_GARRISON</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_GIVE_TRAIT_TOUGH</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_TOUGH</zValue>
 		</aeAddTraits>
 	</Entry>
 	<Entry>

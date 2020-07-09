@@ -124,18 +124,14 @@
 		<bClearVegetation>1</bClearVegetation>
 		<aiYieldReveal>
 			<Pair>
-				<zIndex>YIELD_CULTURE</zIndex>
-				<iValue>5</iValue>
-			</Pair>
-			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>10</iValue>
+				<iValue>20</iValue>
 			</Pair>
 		</aiYieldReveal>
 		<aiYieldHarvest>
 			<Pair>
 				<zIndex>YIELD_CULTURE</zIndex>
-				<iValue>5</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiYieldHarvest>
 		<abTerrainValid>
@@ -168,18 +164,14 @@
 		<bClearVegetation>1</bClearVegetation>
 		<aiYieldReveal>
 			<Pair>
-				<zIndex>YIELD_CULTURE</zIndex>
-				<iValue>5</iValue>
-			</Pair>
-			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>10</iValue>
+				<iValue>20</iValue>
 			</Pair>
 		</aiYieldReveal>
 		<aiYieldHarvest>
 			<Pair>
 				<zIndex>YIELD_CULTURE</zIndex>
-				<iValue>5</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiYieldHarvest>
 		<abTerrainValid>
@@ -211,10 +203,6 @@
 		<iHarvestRoll>8</iHarvestRoll>
 		<bClearVegetation>1</bClearVegetation>
 		<aiYieldReveal>
-			<Pair>
-				<zIndex>YIELD_CULTURE</zIndex>
-				<iValue>5</iValue>
-			</Pair>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
 				<iValue>20</iValue>
@@ -756,18 +744,14 @@
 		<iHarvestRoll>10</iHarvestRoll>
 		<aiYieldReveal>
 			<Pair>
-				<zIndex>YIELD_CULTURE</zIndex>
-				<iValue>5</iValue>
-			</Pair>
-			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>10</iValue>
+				<iValue>20</iValue>
 			</Pair>
 		</aiYieldReveal>
 		<aiYieldHarvest>
 			<Pair>
 				<zIndex>YIELD_CULTURE</zIndex>
-				<iValue>5</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiYieldHarvest>
 		<abTerrainValid>
@@ -853,18 +837,14 @@
 		<bNoVegetation>1</bNoVegetation>
 		<aiYieldReveal>
 			<Pair>
-				<zIndex>YIELD_CULTURE</zIndex>
-				<iValue>5</iValue>
-			</Pair>
-			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>10</iValue>
+				<iValue>20</iValue>
 			</Pair>
 		</aiYieldReveal>
 		<aiYieldHarvest>
 			<Pair>
 				<zIndex>YIELD_CULTURE</zIndex>
-				<iValue>5</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiYieldHarvest>
 		<abTerrainValid>
@@ -898,18 +878,14 @@
 		<bClearVegetation>1</bClearVegetation>
 		<aiYieldReveal>
 			<Pair>
-				<zIndex>YIELD_CULTURE</zIndex>
-				<iValue>5</iValue>
-			</Pair>
-			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>5</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiYieldReveal>
 		<aiYieldHarvest>
 			<Pair>
 				<zIndex>YIELD_CULTURE</zIndex>
-				<iValue>5</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiYieldHarvest>
 		<abTerrainValid>
@@ -943,18 +919,14 @@
 		<bNoVegetation>1</bNoVegetation>
 		<aiYieldReveal>
 			<Pair>
-				<zIndex>YIELD_CULTURE</zIndex>
-				<iValue>5</iValue>
-			</Pair>
-			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>5</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiYieldReveal>
 		<aiYieldHarvest>
 			<Pair>
 				<zIndex>YIELD_CULTURE</zIndex>
-				<iValue>5</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiYieldHarvest>
 		<abTerrainValid>
@@ -983,18 +955,14 @@
 		<bNoVegetation>1</bNoVegetation>
 		<aiYieldReveal>
 			<Pair>
-				<zIndex>YIELD_CULTURE</zIndex>
-				<iValue>5</iValue>
-			</Pair>
-			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>10</iValue>
+				<iValue>20</iValue>
 			</Pair>
 		</aiYieldReveal>
 		<aiYieldHarvest>
 			<Pair>
 				<zIndex>YIELD_CULTURE</zIndex>
-				<iValue>5</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiYieldHarvest>
 		<abTerrainValid>
@@ -1023,14 +991,14 @@
 		<bNoVegetation>1</bNoVegetation>
 		<aiYieldReveal>
 			<Pair>
-				<zIndex>YIELD_CULTURE</zIndex>
-				<iValue>5</iValue>
+				<zIndex>YIELD_MONEY</zIndex>
+				<iValue>20</iValue>
 			</Pair>
 		</aiYieldReveal>
 		<aiYieldHarvest>
 			<Pair>
 				<zIndex>YIELD_CULTURE</zIndex>
-				<iValue>5</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiYieldHarvest>
 		<abTerrainValid>

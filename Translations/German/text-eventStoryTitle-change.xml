@@ -1110,6 +1110,10 @@
 		<Translation>[IMPROVE RELATIONS]</Translation>
 	</Entry>
 	<Entry>
+    <zType>TEXT_EVENTSTORY_PLAYERS_SAVE_MY_FAMILY_TITLE</zType>
+    <Translation>Save my Family</Translation>
+  </Entry>
+  <Entry>
 		<zType>TEXT_EVENTSTORY_CARAVAN_OF_LOVE_TITLE</zType>
 		<Translation>Caravan of Love</Translation>
 	</Entry>
@@ -1328,6 +1332,10 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NO_WAY_OUT_TITLE</zType>
 		<Translation>No Way Out</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_CITADEL_OF_DEATH_TITLE</zType>
+		<Translation>Citadel of Death</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RISING_STAR_TITLE</zType>
@@ -2925,6 +2933,74 @@
 		<zType>TEXT_EVENTSTORY_TRAIT_THE_TRAVELER_TITLE</zType>
 		<Translation>The Traveler</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_ULTIMATUM_TITLE</zType>
+		<Translation>Ultimatum</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_HAPPY_HIGHWAYMEN_TITLE</zType>
+		<Translation>Happy Highwaymen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_UNHAPPY_HIGHWAYMEN_TITLE</zType>
+		<Translation>Unhappy Highwaymen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_SACRILEGE_TITLE</zType>
+		<Translation>Sacrilege</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_FRESH_EYES_TITLE</zType>
+		<Translation>Fresh Eyes</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_WONDERS_AWAIT_TITLE</zType>
+		<Translation>Wonders Await</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_WONDERS_AWAIT_ORACLE_TITLE</zType>
+		<Translation>Wonders Await</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_WONDERS_AWAIT_GARDENS_TITLE</zType>
+		<Translation>Wonders Await</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_WONDERS_AWAIT_ZIGGURAT_TITLE</zType>
+		<Translation>Wonders Await</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NEWS_OF_SUCCESSION_TITLE</zType>
+		<Translation>News of Succession</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AN_EMPTY_THRONE_TITLE</zType>
+		<Translation>An Empty Throne</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RECOGNIZED_TITLE</zType>
+		<Translation>Recognized!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISBANDED_TITLE</zType>
+		<Translation>Disbanded</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEFT_FOR_DEAD_TITLE</zType>
+		<Translation>Left for Dead</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_UNCHALLENGED_TITLE</zType>
+		<Translation>Unchallenged</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_HEIRS_JOURNEY_TITLE</zType>
+		<Translation>The Heir's Journey</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_WANDERING_THE_WILDERNESS_TITLE</zType>
+		<Translation>Wandering the Wilderness</Translation>
+	</Entry>	 
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS_TITLE</zType>
 		<Translation>Immigrants</Translation>
@@ -3126,6 +3202,10 @@
 		<Translation>Oedipus Tyrannus</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_OLYMPIAD_TITLE</zType>
+		<Translation>The Olympiad</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTSTORY_CITY_ANARCHY_TITLE</zType>
 		<Translation>Anarchy in {CITY-0}</Translation>
 	</Entry>
@@ -3164,7 +3244,11 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MYSTICAL_TRANCE_TITLE</zType>
 		<Translation>Mystical Trance</Translation>
-	</Entry>	 
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_RIGHTEOUS_PATH_TITLE</zType>
+		<Translation>The Righteous Path</Translation>
+	</Entry>
 	<Entry beginGroup="Miscellaneous">
 		<zType>TEXT_EVENTSTORY_ADOPT_RELIGION_TITLE</zType>
 		<Translation>State Religion?</Translation>
@@ -4270,7 +4354,7 @@
 		<Translation>Irreparable Damage</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY__TITLE</zType>
+		<zType>TEXT_EVENTSTORY_OUR_PURPOSE_TITLE</zType>
 		<Translation>Our Purpose</Translation>
 	</Entry>
 	<Entry>
@@ -4332,6 +4416,34 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_FALSE_CHARGES_TITLE</zType>
 		<Translation>False Charges</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LAST_STAND_TITLE</zType>
+		<Translation>Last Stand</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_FAILED_ASSASSINATION_TITLE</zType>
+		<Translation>Failed Assassination</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_WATCH_YOUR_HEAD_TITLE</zType>
+		<Translation>Watch Your Head</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RESTFUL_MEDITATION_TITLE</zType>
+		<Translation>Restful Meditation</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DREAM_RITUALS_TITLE</zType>
+		<Translation>Dream Rituals</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BEWARE_TITLE</zType>
+		<Translation>Beware</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISHEARTENING_NEWS_TITLE</zType>
+		<Translation>Disheartening News</Translation>
 	</Entry>	 
   <Entry beginGroup="Tutorial">
 		<zType>TEXT_EVENTSTORY_VICTORY_POINTS_TITLE</zType>
@@ -4465,4 +4577,20 @@
 		<zType>TEXT_EVENTSTORY_WEAK_WILL_TITLE</zType>
 		<Translation>Weak Will</Translation>
 	</Entry>
+  <Entry beginGroup="Community">
+    <zType>TEXT_EVENTSTORY_GOT_YOUR_NOSE_TITLE</zType>
+    <Translation>Got Your Nose!</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_MONUMENTAL_GATE_TITLE</zType>
+    <Translation>Monumental Gate</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TRIBAL_MERCENARIES_TITLE</zType>
+    <Translation>Tribal Mercenaries</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TWO_MOTHERS_ONE_CHILD_TITLE</zType>
+    <Translation>Two Mothers One Child</Translation>
+  </Entry>
 </Root>

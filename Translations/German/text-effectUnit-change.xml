@@ -67,7 +67,7 @@
 		<Translation>Fanatiker</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTUNIT_SCHEMER</zType>
+		<zType>TEXT_EFFECTUNIT_DIPLOMAT</zType>
 		<Translation>Intrigant</Translation>
 	</Entry>
 	<Entry>
@@ -101,6 +101,10 @@
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_GARRISON</zType>
 		<Translation>Besatzung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_TOUGH</zType>
+		<English>Taff</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_BLOODTHIRSTY</zType>

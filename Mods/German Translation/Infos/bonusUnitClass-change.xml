@@ -101,6 +101,20 @@
 		</aiBonusUnit>
 	</Entry>
 	<Entry>
+		<zType>BONUSUNITCLASS_RANGED_CAVALRY</zType>
+		<zName>Fernkampf Reiter</zName>
+		<aiBonusUnit>
+			<Pair>
+				<zIndex>UNIT_CAMEL_ARCHER</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>UNIT_HORSE_ARCHER</zIndex>
+				<iValue>2</iValue>
+			</Pair>
+		</aiBonusUnit>
+	</Entry>
+	<Entry>
 		<zType>BONUSUNITCLASS_SIEGE</zType>
 		<zName>Belagerung</zName>
 		<aiBonusUnit>

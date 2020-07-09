@@ -268,6 +268,10 @@
 		<Translation>{0_tribute} Tribut mit {1_barbarian}</Translation>
 	</Entry>
 	<Entry>
+    <zType>TEXT_GAME_DO_BONUS_BARBARIAN_DIPLOMACY_PLAYER</zType>
+    <Translation>{0_barbarian}: {1_diplomacy} mit {2_player}</Translation>
+  </Entry>
+  <Entry>
 		<zType>TEXT_GAME_DO_BONUS_ADOPT_RELIGION</zType>
 		<Translation>Übernehme {0_religion} als Staatsreligion</Translation>
 	</Entry>
@@ -279,6 +283,10 @@
 		<zType>TEXT_GAME_DO_BONUS_SPREAD_RELIGION</zType>
 		<Translation>{0_religion} breitet sich nach {1_city} aus</Translation>
 	</Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_REMOVE_RELIGION</zType>
+    <Translation>Entferne {0_religion} von {1_city}</Translation>
+  </Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_FAMILY_LAW</zType>
 		<Translation>{0_family}: {1_law} Meinung {2_value}</Translation>

@@ -1877,10 +1877,16 @@ Which nation should they seek to influence, {PLAYER-0} or {PLAYER-1}?</Translati
 Shall we move forward with {PLAYER-0} or {PLAYER-1}?</Translation>
 	</Entry>
 	<Entry>
+    <zType>TEXT_EVENTSTORY_PLAYERS_SAVE_MY_FAMILY</zType>
+    <Translation>[STUB: {CHARACTER-1} COMES TO US ASKING FOR HELP. HER KIN OF THE {BARBARIAN-2} TRIBE is UNDER ATTACKED BY {PLAYER-0}].</Translation>
+  </Entry>
+  <Entry>
 		<zType>TEXT_EVENTSTORY_PLAYERS_POSITIVE_OPINION_3</zType>
-		<Translation>Our spies report that contacts in {PLAYER-0} and {PLAYER-1} may me amenable to diplomatic discussions, improving positive relations with us.
+		<Translation>	 
+		Our spies report that contacts in {PLAYER-0} and {PLAYER-1} may me amenable to diplomatic discussions, improving positive relations with us.
 
-Where shall we actviate our agents?</Translation>
+Where shall we actviate our agents?
+		</Translation>	  
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CARAVAN_OF_LOVE</zType>
@@ -2193,6 +2199,10 @@ Of course, the actions of these {PLAYER-1,1} bureaucrats led to the deaths of ma
 		<Translation><![CDATA[As the walls of {CITY-1} begin to collapse, officers of our defending forces rush to the palace to protect the governer, {CHARACTER-2}.
 
 They find {CHARACTER-SHORT-2} dead on the floor of the city council chambers. <masculine_CHARACTER-2>He<feminine>She<end> took <masculine_CHARACTER-1>his<feminine>her<end> own life rather than face the enemy invaders.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_CITADEL_OF_DEATH</zType>
+		<Translation>An eerie silence welcomes your soldiers as they break into the streets of {CITY-1}. It seems that, rather than give up their freedom, the {RELIGION-2,1} zealots have committed mass suicide.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RISING_STAR</zType>
@@ -4605,6 +4615,108 @@ As part of this ritual blessing, they will collect gifts from the community.</Tr
 		<Translation><![CDATA[Late one evening, a banging at the palace gate rouses the guards. They discover a hunched old man standing in the driving rain, his feet blistered from weeks of travel. He seeks a night of rest and shelter.
 
 Court minister {CHARACTER-SHORT-1} worries that the man may be a foreign agent, or a filthy trickster, but your <masculine_CHARACTER-2>husband<feminine>wife<end>, {CHARACTER-SHORT-2}, urges compassion towards the old traveler.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_ULTIMATUM</zType>
+		<Translation><![CDATA[As you and your <masculine_CHARACTER-1>husband<feminine>wife<end> enjoy the views on the outskirts of {PLAYER-0}, your caravan is set upon by a gang of highwaymen. The ruffians round up your servants, taking full inventory of the goods you brought with you on the voyage. 
+
+"Your <masculine_CHARACTER-1>husband<feminine>wife<end> will fetch a fine price on the market," says the gang's leader. "I will make you a deal. Give us this <masculine_CHARACTER-1>handsome man<feminine>beautiful woman<end>, and we will let the rest of you go."]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_HAPPY_HIGHWAYMEN</zType>
+		<Translation>Once you get to know them, the shabby highwaymen turn out to be an altogether pleasant band of miscreants. Most of them are simple farmers forced to steal to feed their starving families.
+
+Having won their affection, you invite them back to {CITY-0}, where they are eager to find work and build a better life. </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_UNHAPPY_HIGHWAYMEN</zType>
+		<Translation>Despite your best efforts, the ragged highwaymen remain unswayed. They plunder your traveling caravan, stealing goods and terrorizing servants.
+
+Before he departs, the gang's leader cuts your cheek with his rusty dagger. "A little gift to remember me by," he shouts, as he rides into the shadows.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_SACRILEGE</zType>
+		<Translation>During your leisure voyage, a group of servants in the royal caravan disturb a {BARBARIAN-1,1} site, angering the local tribes. Our people smash stone henges, carve over ancient etchings, and steal anything they perceive as valuable.
+
+The {BARBARIAN-1} demand a response from you.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_FRESH_EYES</zType>
+		<Translation>While it has been a refreshing journey abroad, it is time to return to the capital and resume your responsibilities.
+
+Your time traveling has inspired you to look at the rule of {PLAYER-0} with renewed vision. How will you direct this burst of energy?</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_WONDERS_AWAIT</zType>
+		<Translation>Visiting {PLAYER-1}, you marvel at their engineering feats, including the incomparable Pyramids. You and your caravan are not the only tourists viewing this architectural marvel. People from all over the world have come to see with their own eyes what they had only heard about in stories.
+
+You are inspired to bring such spectacle back home to {PLAYER-0}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_WONDERS_AWAIT_ORACLE</zType>
+		<Translation>Visiting {PLAYER-1}, you marvel at their engineering feats, including the incomparable Oracle. You and your caravan are not the only tourists viewing this architectural marvel. People from all over the world have come to see with their own eyes what they had only heard about in stories.
+
+You are inspired to bring such spectacle back home to {PLAYER-0}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_WONDERS_AWAIT_GARDENS</zType>
+		<Translation>Visiting {PLAYER-1}, you marvel at their engineering feats, including the incomparable Hanging Gardens. You and your caravan are not the only tourists viewing this architectural marvel. People from all over the world have come to see with their own eyes what they had only heard about in stories.
+
+You are inspired to bring such spectacle back home to {PLAYER-0}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_WONDERS_AWAIT_ZIGGURAT</zType>
+		<Translation>Visiting {PLAYER-1}, you marvel at their engineering feats, including the incomparable Great Ziggurat. You and your caravan are not the only tourists viewing this architectural marvel. People from all over the world have come to see with their own eyes what they had only heard about in stories.
+
+You are inspired to bring such spectacle back home to {PLAYER-0}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NEWS_OF_SUCCESSION</zType>
+		<Translation><![CDATA[An exhausted messenger arrives from {CITY-1} carrying a scroll sealed with the royal sigil. The <masculine_CHARACTER-0>king<feminine>queen<end> has died, leaving {PLAYER-1} in your capable hands. 
+
+You return home from your expeditions and take the throne, ready to lead your people into a prosperous future.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AN_EMPTY_THRONE</zType>
+		<Translation>The next village you come across bustles with activity and bubbles with rumors. They say that {CHARACTER-0} has died, leaving the throne unoccupied and {PLAYER-1} leaderless.
+
+Members of the expedition have no interest in returning home, but {PLAYER-1} needs you.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RECOGNIZED</zType>
+		<Translation><![CDATA[Your fellow explorers do not appreciate your arrogance. They gather around you, daggers drawn. "I thought I recognized <masculine_CHARACTER-1>him<feminine>her<end>," one man says. "It is the heir to the throne <masculine_CHARACTER-1>himself<feminine>herself<end>. Such a captive would be worth a king's bounty."
+
+You prepare for the worst.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISBANDED</zType>
+		<Translation><![CDATA[Recognizing your innate authority, your fellow explorers agree to disband for a pittance. Several men stay behind to travel with you to {CITY-1}, where you must assume the daunting role of <masculine_CHARACTER-1>King<feminine>Queen<end> of {PLAYER-1}.
+
+The court celebrates your safe return.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEFT_FOR_DEAD</zType>
+		<Translation>After receiving a sound thrashing, you manage to escape your former companions and flee into the night. 
+
+Several days later, you arrive in {CITY-1}, where you are nursed back to health and elevated to the throne. You speak of your ordeal to no one.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_UNCHALLENGED</zType>
+		<Translation><![CDATA[Realizing that they have underestimated you, your former companions drop their weapons and step away. The new <masculine_CHARACTER-1>King<feminine>Queen<end> of {PLAYER-1} is not to be challenged. In fact, when only moments ago they brandished weapons, now they bow before you.
+
+You return to {CITY-1} and ascend the throne.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_HEIRS_JOURNEY</zType>
+		<Translation>Sneaking away after dark, you avoid roads and busy areas, knowing that many in {PLAYER-1} may be on the lookout for the heir, and not with good intentions. 
+
+After a week's trek through the wilderness, you emerge in the outskirts of {CITY-1}. Servants at the palace rejoice when they see you and take you into their care. Rested and healthy, you ascend the throne of {PLAYER-1}. At last.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_WANDERING_THE_WILDERNESS</zType>
+		<Translation><![CDATA[Within minutes of escaping your camp, you realize that your orienteering skills are profoundly lacking. Lost beneath a sky full of stars, you wander the wilderness. Days pass. You thirst and hunger with no relief.
+
+Later, a caravan of merchants discovers you half-mad in a ditch and nurses you back to health. By the time you finally reach {CITY-1}, you have suffered an ordeal that would have broken a lesser <masculine_CHARACTER-1>man<feminine>woman<end>.]]></Translation>
 	</Entry>	 
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS</zType>
@@ -4895,6 +5007,10 @@ As priests begin prayers on the topmost terrace, they ask for your blessing. Sha
 	<Entry>
 		<zType>TEXT_EVENTSTORY_OEDIPUS_TYRANNUS</zType>
 		<Translation>The link(IMPROVEMENT_THEATER_1) of Dionysus in {CITY-1} is showing the Poetics of Sophocles and has a play called Oedipus. Shall we put on our own adaptation in {CITY-0}?</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_OLYMPIAD</zType>
+		<Translation>You can feel the excitement in the air as the day of {CITY-0}'s Olympic games draws near. This year, you have planned something special.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CITY_ANARCHY</zType>
@@ -6633,7 +6749,7 @@ Advisers and diplomats burst into applause, showing a rare enthusiasm. ]]></Tran
 Perhaps we should consider reviving labor and commerce here in {PLAYER-0}, instead of allowing foreign governments to reap the rewards.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_</zType>
+		<zType>TEXT_EVENTSTORY_OUR_PURPOSE</zType>
 		<Translation><![CDATA[Walking in the gardens, {CHARACTER-1} confides in you about <masculine_CHARACTER-0>his<feminine>her<end> concerns with the direction of the government. "Our scientific and engineering feats are second to none, but what about the bigger question? Our purpose. To abandon this search is to abandon our very humanity."
 
 {CHARACTER-SHORT-1} is not the only one who feels this way. Many in the court, including {CHARACTER-2}, share <masculine_CHARACTER-1>his<feminine>her<end> sentiment.]]></Translation>
@@ -6727,6 +6843,46 @@ As they recover the body of the slain assassin, the guards retrieve his lute. It
 		<Translation><![CDATA[Redeeming several political favors, spymaster {CHARACTER-SHORT-2} fabricates a series of false charges of treason against {CHARACTER-0}. The court moves quickly, condemning {CHARACTER-SHORT-0} and passing a sentence of death.
 
 Despite <masculine_CHARACTER-0>his<feminine>her<end> claims of innocence, {CHARACTER-SHORT-0} is crucified on a hill outside {CITY-2}.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LAST_STAND</zType>
+		<Translation><![CDATA[While preparing for a diplomatic trip to {PLAYER-2}, {CHARACTER-0} notices a group of masked figures surrounding <masculine_CHARACTER-0>his<feminine>her<end> home. They start a fire and wait in hiding as the flames rise high into the sky.
+
+With no way out, {CHARACTER-SHORT-0} races from the building with a dagger in hand. <masculine_CHARACTER-0>He<feminine>She<end> is cut down by a storm of assassins' arrows.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_FAILED_ASSASSINATION</zType>
+		<Translation><![CDATA[A great festival is held in {CITY-1}, and thousands of celebrants come to participate in the revels and processions. Two assassins hide in plain sight, weapons covered in ceremonial wreaths. Following {CHARACTER-0} during a rousing parade, the men attack, but they are disrupted by the chaos of the crowds.
+
+{CHARACTER-SHORT-0} escapes the assassination attempt, but <masculine_CHARACTER-0>his<feminine>her<end> guards manage to take the assailants captive.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_WATCH_YOUR_HEAD</zType>
+		<Translation><![CDATA[While frequenting <masculine_CHARACTER-0>his<feminine>her<end> favorite brothels, {CHARACTER-0} finds <masculine_CHARACTER-0>himself<feminine>herself<end> smitten with a captivating young <masculine_CHARACTER-0>woman<feminine>man<end>. The two adjourn to a smaller chamber, where they partake of wine and each other's company.
+
+Once {CHARACTER-SHORT-0} becomes drunk, <masculine_CHARACTER-0>his<feminine>her<end> young admirer draws a dagger from <masculine_CHARACTER-0>her<feminine>his<end> cloak and beheads <masculine_CHARACTER-0>him<feminine>her<end>. The head is never found.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RESTFUL_MEDITATION</zType>
+		<Translation><![CDATA[After a period of restful meditation at one of the local temples, {CHARACTER-1} feels fit to return to courtly life. Using the knowledge <masculine_CHARACTER-1>he<feminine>she<end> learned in a series of divinly inspired dreams, {CHARACTER-SHORT-1} is ready to serve.
+
+What is the best position for <masculine_CHARACTER-1>him<feminine>her<end>?]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DREAM_RITUALS</zType>
+		<Translation><![CDATA[Dream rituals in a local temple have helped restore our friend {CHARACTER-0} back to good health. Saying fond farewells to the priests and cultists who treated <masculine_CHARACTER-0>him<feminine>her<end>, <masculine_CHARACTER-0>he<feminine>she<end> returns to court surrounded by <masculine_CHARACTER-0>his<feminine>her<end> retinue.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BEWARE</zType>
+		<Translation><![CDATA[Plagued by restless dreams and prophetic visions, {CHARACTER-0} abandons the temple where <masculine_CHARACTER-0>he<feminine>she<end> has been receiving care and flees the city. The priests who treated {CHARACTER-SHORT-0} worry that <masculine_CHARACTER-0>his<feminine>her<end> madness may drive <masculine_CHARACTER-0>him<feminine>her<end> to hurt someone.
+
+"<masculine_CHARACTER-0>He<feminine>She<end> fixates on you, my <masculine_CHARACTER-2>king<feminine>queen<end>," one of them reveals. "You must beware."]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISHEARTENING_NEWS</zType>
+		<Translation><![CDATA[Cultists from the local temple arrive with disheartening news about {CHARACTER-0}. <masculine_CHARACTER-0>His<feminine>Her<end> rehabilitation has failed. "<masculine_CHARACTER-0>He<feminine>She<end> has taken a turn for the worst," one explains, "and <masculine_CHARACTER-0>he<feminine>she<end>may not live out the week. The dreams do nothing to soothe <masculine_CHARACTER-0>him<feminine>her<end>."
+
+The update comes as a shock to everyone at court.]]></Translation>
 	</Entry>	 
   <Entry beginGroup="Tutorial">
 		<zType>TEXT_EVENTSTORY_VICTORY_POINTS</zType>
@@ -6902,4 +7058,22 @@ Higher Legitimacyicon(YIELD_LEGITIMACY) grants you additional link(YIELD_ORDERS)
 
 <masculine_CHARACTER-1>He<feminine>She<end> leaves you with a warning. "Put the people in their place, or the court will force your hand."]]></Translation>
 	</Entry>
+  <Entry beginGroup="Community">
+    <zType>TEXT_EVENTSTORY_GOT_YOUR_NOSE</zType>
+    <Translation>In an attempt to entertain you, {CHARACTER-1} has stolen your nose and refuses to give it back!</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TRIBAL_MERCENARIES</zType>
+    <Translation><![CDATA[While you are preparing for a festive sacrifice, {CHARACTER-0} appears from the shadows of the temple startling you so much that you drop the sacrificial chicken... <masculine_CHARACTER-0>He<feminine>She<end> asks if tribal mercenaries would be useful in boosting our army?]]></Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TWO_MOTHERS_ONE_CHILD</zType>
+    <Translation>Two mothers come to you with a living baby, and a dead baby. They both swear the living child is theirs, and the dead child is the other's. They ask you to settle the dispute.
+
+How shall you decide who is truthful?</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_MONUMENTAL_GATE</zType>
+    <Translation><![CDATA[The citizens of {CITY-1} are overjoyed at the success of {CHARACTER-0} and wish to celebrate <masculine_CHARACTER-0>his<feminine>her<end> recent battle win with the building of a link(PROJECT_MONUMENTAL_GATE) in celebration.]]></Translation>
+  </Entry>
 </Root>

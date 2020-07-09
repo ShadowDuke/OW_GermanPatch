@@ -215,6 +215,10 @@
 		<Translation>{0}m {1}s</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_TIME_COUNTDOWN_FORMAT_S</zType>
+		<Translation>{0}s</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_PRESS_KEY</zType>
 		<Translation>[Drücke {0_key}]</Translation>
 	</Entry>
@@ -340,6 +344,10 @@
 		<Translation>Plünderung {0_turns}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_LAUNCH_OFFENSIVE</zType>
+		<Translation>Starte Offensive</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_CULTURE_LEVEL</zType>
 		<Translation>Kultur Stufe~ein Kultur Stufe~Kultur Stufen</Translation>
 	</Entry>
@@ -462,6 +470,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_TILE</zType>
 		<Translation>Feld {0_x}, {1_y}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_TRADE</zType>
+		<Translation>Handel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_TRIBUTE</zType>
@@ -1045,10 +1057,6 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_ADD_GENERAL</zType>
 		<Translation>Füge ein Feldherr hinzu um die Einheit zu führen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_ADD_GENERAL_SAME_FAMILY</zType>
-		<Translation>(Darf nicht von einer anderen Familie sein)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_ADD_GENERAL_NO_CANDIDATES</zType>
@@ -1792,6 +1800,10 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DISCONTENT_FAMILY_OPINION</zType>
 		<Translation>{0_value} {1_family} Meinung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_HIDDEN_WITHOUT_AGENT</zType>
+		<Translation>Details Hidden without an link(CONCEPT_AGENT)</Translation>
 	</Entry>
 	<!-- The whitespace here is important. Any added newlines or tabs will show up in the tooltip -->
 	<Entry>
@@ -2744,6 +2756,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Von {0_tileLink}: {1_value}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_IF_DAMAGED</zType>
+		<Translation>Wenn  beschädigt: {0_value}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_VS_DAMAGED</zType>
 		<Translation>Vs. Beschädigt: {0_value}</Translation>
 	</Entry>
@@ -3133,10 +3149,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_FRESH_WATER_SOURCE</zType>
 		<Translation>Quelle von {0_link}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_PREVENTS_BARBARIAN_RESPAWNING</zType>
-		<Translation>Verhindert das Barbaren wiederkommen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_PER_YEAR</zType>
@@ -3745,6 +3757,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_SPREAD_RELIGION</zType>
 		<Translation>Ausdehnen {0_religion} to {1_city}</Translation>
+	 </Entry>
+	<Entry>
+    <zType>TEXT_HELPTEXT_BONUS_REMOVE_RELIGION</zType>
+    <Translation>Entferne {0_religion} von {1_city}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_REVEAL_TERRITORY</zType>
@@ -3765,6 +3781,14 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_SEND_TO</zType>
 		<Translation>Sende an {0_opponent}: {1_yieldList}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_TRADE_FROM</zType>
+		<Translation>Trade from {0_opponent}: {1_yieldList} for {2_years} Years</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_TRADE_TO</zType>
+		<Translation>Trade to {0_opponent}: {1_yieldList} for {2_years} Years</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_TRIBUTE_FROM</zType>
@@ -4082,6 +4106,14 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_WAR_STATE_WITH</zType>
 		<Translation>Kriegsstatus: {0} ({1})</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_PLAYER_TRADE_FOR_US</zType>
+		<Translation>{0_trade} von: {1_yields}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_PLAYER_TRADE_FOR_THEM</zType>
+		<Translation>{0_trade} zu: {1_yields}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_TRIBUTE_FROM</zType>
@@ -4650,10 +4682,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_SPECIALIST_COSTS_SINGLE</zType>
 		<Translation>Kostet {0,1}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_SPECIALIST_COSTS_NUM</zType>
-		<Translation><![CDATA[Kostet {0_num} <singular_0>{1}<plural>{1,2}<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_SPECIALIST_BUILD</zType>
@@ -5648,5 +5676,9 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TOOLTIP_TILE_XY</zType>
 		<Translation><![CDATA[Feld: {0_x}, {1_y}]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TOOLTIP_COMMUNITY_CONTRIBUTION</zType>
+		<Translation><![CDATA[Community Contribution:<br>{0}]]></Translation>
 	</Entry>
 </Root>

@@ -6,10 +6,10 @@
 		<zName/>
 		<bToggle/>
 		<bConquest/>
+		<bAmbitions/>	   
 		<iPercentVP/>
 		<iOpponentMaxPointPercent/>
 		<iMinTurns/>
-		<iAmbitions/>
 		<zHelp/>
 	</Entry>
 	<Entry>
@@ -32,7 +32,7 @@
 		<zType>VICTORY_AMBITION</zType>
 		<zName>Ehrgeiz</zName>
 		<bToggle>1</bToggle>
-		<iAmbitions>10</iAmbitions>
+		<bAmbitions>10</bAmbitions>
 		<zHelp>Sieg bei Erfüllung von 10 Ambitionen.</zHelp>
 	</Entry>
 	<Entry>

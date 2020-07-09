@@ -195,6 +195,10 @@
 		<Translation>Besatzer</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_TOUGH</zType>
+		<Translation>Taff</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_BLOODTHIRSTY</zType>
 		<Translation>Blutdürstig</Translation>
 	</Entry>

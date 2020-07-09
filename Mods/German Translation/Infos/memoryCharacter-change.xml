@@ -703,7 +703,7 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_TAUGHT_FRUGALITY</zType>
-		<zText>Taught me to br frugal</zText>
+		<zText>Taught me to be frugal</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -829,12 +829,12 @@
 	<Entry>
 		<zType>MEMORYCHARACTER_LAW_SUPPORTED_IN_COURT</zType>
 		<zText>Supported in court</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_LAW_IGNORED_IN_COURT</zType>
 		<zText>Ignored in court</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_LAW_ADOPTED_PROFESSIONAL_ARMY</zType>

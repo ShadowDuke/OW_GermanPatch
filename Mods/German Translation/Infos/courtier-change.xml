@@ -61,6 +61,10 @@
         <iValue>10</iValue>
       </Pair>
       <Pair>
+				<zIndex>TRAIT_TOUGH</zIndex>
+				<iValue>10</iValue>
+			</Pair>
+	  <Pair>
         <zIndex>TRAIT_BLOODTHIRSTY</zIndex>
         <iValue>10</iValue>
       </Pair>
@@ -117,14 +121,6 @@
 			<Pair>
 				<zIndex>TRAIT_HERO_ARCHETYPE</zIndex>
 				<iValue>20</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>TRAIT_CORRUPTIONIST_ARCHETYPE</zIndex>
-				<iValue>10</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>TRAIT_CHAMPION_ARCHETYPE</zIndex>
-				<iValue>10</iValue>
 			</Pair>
 		</aiArchetypeDie>
 		<aeCognomen>
@@ -222,14 +218,6 @@
 				<zIndex>TRAIT_DIPLOMAT_ARCHETYPE</zIndex>
 				<iValue>10</iValue>
 			</Pair>
-			<Pair>
-				<zIndex>TRAIT_SKYEXPLORER_ARCHETYPE</zIndex>
-				<iValue>8</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>TRAIT_ARTIST_ARCHETYPE</zIndex>
-				<iValue>8</iValue>
-			</Pair>
 		</aiArchetypeDie>
 		<aeCognomen>
 			<zValue>COGNOMEN_GREAT_MINISTER</zValue>
@@ -322,14 +310,6 @@
 				<zIndex>TRAIT_DIPLOMAT_ARCHETYPE</zIndex>
 				<iValue>10</iValue>
 			</Pair>
-			<Pair>
-				<zIndex>TRAIT_CORRUPTIONIST_ARCHETYPE</zIndex>
-				<iValue>10</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>TRAIT_MERCHANT_ARCHETYPE</zIndex>
-				<iValue>15</iValue>
-			</Pair>
 		</aiArchetypeDie>
 		<aeCognomen>
 			<zValue>COGNOMEN_GREAT_MERCHANT</zValue>
@@ -417,14 +397,6 @@
 			<Pair>
 				<zIndex>TRAIT_SCHOLAR_ARCHETYPE</zIndex>
 				<iValue>20</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>TRAIT_SKYEXPLORER_ARCHETYPE</zIndex>
-				<iValue>15</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>TRAIT_CORRUPTIONIST_ARCHETYPE</zIndex>
-				<iValue>5</iValue>
 			</Pair>
 		</aiArchetypeDie>
 		<aeCognomen>

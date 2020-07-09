@@ -12,12 +12,12 @@
 	<Entry>
 		<zType>MEMORYFAMILY_FOUNDED_CITY</zType>
 		<zText>Gründete für uns eine Stadt</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_FOUNDED_FAMILY_SEAT</zType>
 		<zText>Unseren link(CONCEPT_FAMILY_SEAT) gegründet</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_REGAINED_CITY</zType>
@@ -453,6 +453,11 @@
 		<zText>Ruler denied a rival family</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_RELEASED_FANATICAL_PRIESTS</zType>
+		<zText>Release fanatical priests</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
 	<Entry beginGroup="Diplomacy">
 		<zType>MEMORYFAMILY_GRAVE_OFFENSE</zType>
 		<zText>Ritual humiliation</zText>
@@ -611,12 +616,12 @@
 	<Entry>
 		<zType>MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_US</zType>
 		<zText>Attended our ceremony</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_THEM</zType>
 		<zText>Attended our rival's ceremony</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_NO</zType>
@@ -827,6 +832,11 @@
 		<zType>MEMORYFAMILY_TURNED_AWAY_TRAVELER</zType>
 		<zText>Turned away traveling beggar</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_MADE_EXCUSES_TO_BARBARIANS</zType>
+		<zText>Made excuses to barbarians</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry beginGroup="Contact">
 		<zType>MEMORYFAMILY_FORCED_TO_KISS_FEET</zType>
@@ -1228,4 +1238,29 @@
 		<zText>Familienmitglied eingekerkert</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
+	<Entry beginGroup="Community">
+    <zType>MEMORYFAMILY_WATCHED_BABY_LEADER_CRY</zType>
+    <zText>Remembered when you lost your nose and cried</zText>
+    <MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+  </Entry>
+  <Entry>
+    <zType>MEMORYFAMILY_TWO_MOTHERS_WISELY</zType>
+    <zText>You judged justly and wisely in a dispute between two mothers.</zText>
+    <MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
+  </Entry>
+  <Entry>
+    <zType>MEMORYFAMILY_TWO_MOTHERS_MURDER</zType>
+    <zText>You murdered a child in a dispute between two mothers.</zText>
+    <MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
+  </Entry>
+  <Entry>
+    <zType>MEMORYFAMILY_TWO_MOTHERS_VICTORY</zType>
+    <zText>You ruled in our favor in a dispute between two mothers.</zText>
+    <MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+  </Entry>
+  <Entry>
+    <zType>MEMORYFAMILY_TWO_MOTHERS_DEFEAT</zType>
+    <zText>You ruled against us in a dispute between two mothers.</zText>
+    <MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+  </Entry>
 </Root>

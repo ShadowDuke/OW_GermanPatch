@@ -279,6 +279,21 @@
 		<zText>Refused our invitation</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_GAVE_JUSTICE</zType>
+		<zText>Executed those who desecrated ruins</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_REFUSED_JUSTICE</zType>
+		<zText>Refused to give barbarians peace</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_EXPLAINED_MISTAKE</zType>
+		<zText>Explained accidental desecration</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
 	<Entry beginGroup="Exploration">
 		<zType>MEMORYBARBARIAN_GIFT_OF_CAMELS</zType>
 		<zText>Geschenk (Kamele) erhalten</zText>

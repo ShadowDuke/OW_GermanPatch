@@ -239,6 +239,18 @@
 		<Translation>Infiltriere Staat über</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSION_SLANDER</zType>
+		<Translation>Beleidige Reich</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_SLANDER_TARGET</zType>
+		<Translation>Beleidigung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_SLANDER_CHARACTER</zType>
+		<Translation>Beleidige Reich über</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSION_ASSASSINATE</zType>
 		<Translation>Attentat</Translation>
 	</Entry>

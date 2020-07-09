@@ -10,16 +10,21 @@
 		<bName comment="Show the name for event options."/>
 	</Entry>
 	<Entry>
-		<zType>MEMORYRELIGION_REFUSED_LAW</zType>
+		<zType>MEMORYRELIGION_RELEASED_PRIESTS</zType>
 		<zText>Geweigert Gesetz zu ändern</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYRELIGION_FAMILY_WAR_YES</zType>
 		<zText>Für die Treue unserer Familie gekämpft</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
 	</Entry>
-	<Entry>
+	 <Entry>
+    <zType>MEMORYRELIGION_LOOTED_HOLY_PLACES</zType>
+    <zText>Unsere heiligen Orte geplündert.</zText>
+    <MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+  </Entry>
+  <Entry>
 		<zType>MEMORYRELIGION_MOURNED_IN_PRAYER</zType>
 		<zText>Um das Kind getrauert</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
@@ -95,6 +100,11 @@
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_LONG</MemoryLevel>
 	</Entry>
 	<Entry>
+		<zType>MEMORYRELIGION_MADE_SACRIFICES</zType>
+		<zText>Opfer gebracht</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_LONG</MemoryLevel>
+	</Entry>
+	<Entry>
 		<zType>MEMORYRELIGION_ORTHDOXY_AGAINST</zType>
 		<zText>Rechtgläubigkeit gegen uns entschieden</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
@@ -103,6 +113,11 @@
 		<zType>MEMORYRELIGION_HYMNS_TO_THE_PEOPLE</zType>
 		<zText>Liedersammlung zu unserem Volk gebracht</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_DECADENT_CITY</zType>
+		<zText>Missbilligt Verfall von Städten</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry beginGroup="Exploration">
 		<zType>MEMORYRELIGION_RUINS_RESTORED_TEMPLE</zType>
@@ -285,7 +300,7 @@
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYCHARACTER_REFUSED_LAW</zType>
+		<zType>MEMORYRELIGION_REFUSED_LAW</zType>
 		<zText>Geweigert Gesetz zu ändern</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>

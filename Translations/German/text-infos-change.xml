@@ -80,6 +80,10 @@
 		<Translation>Kritischer Treffer</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CONCEPT_DISTANCE_MODIFIER</zType>
+		<Translation>Entfernungs Modifikator</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CONCEPT_ENVY</zType>
 		<Translation>Eifersucht</Translation>
 	</Entry>
@@ -957,6 +961,26 @@
 		<Translation>Kontrolliere 7 Wunder </Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GOAL_FOUR_FARMERS</zType>
+		<Translation>Kontrolliere 4 Farmer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_MINERS</zType>
+		<Translation>Kontrolliere 4 Bergarbeiter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_STONECUTTERS</zType>
+		<Translation>Kontrolliere 4 Steinmetze</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_WOODCUTTERS</zType>
+		<Translation>Kontrolliere 4 Holzfäller</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_ACOLYTES</zType>
+		<Translation>Kontrolliere 2 Ältere Akolyten</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GOAL_TWO_POETS</zType>
 		<Translation>Kontrolliere zwei Ältesten Dichter</Translation>
 	</Entry>
@@ -971,6 +995,10 @@
 	<Entry>
 		<zType>TEXT_GOAL_TWO_MONKS</zType>
 		<Translation>Kontrolliere zwei Ältesten Mönche</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_DOCTORS</zType>
+		<Translation>Kontrolliere 2 Ältere Medici</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_TWO_PRIESTS</zType>

@@ -2570,6 +2570,10 @@
 		<Translation><![CDATA[We demand a tribute before any peace.]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTOPTION_PEACE_PROPOSAL_CANCEL</zType>
+		<Translation><![CDATA[Vielleicht später.]]></Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTOPTION_TRUCE_PROPOSAL_OFFER_TRIBUTE</zType>
 		<Translation><![CDATA[Accept our gift to end the war]]></Translation>
 	</Entry>
@@ -2764,6 +2768,10 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RETURNING_A_FAVOR_POPULATION</zType>
 		<Translation><![CDATA[New subjects for our nation.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RETURNING_A_FAVOR_NO</zType>
+		<Translation><![CDATA[Eure Dankbarkeit ist alles was wir wollen.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_PLAYER_PEACE_SOLID_FOUNDATION_OPTION_1</zType>
@@ -3954,13 +3962,25 @@
 		<Translation>Their people hold us in high esteem.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTOPTION_PLAYERS_POSITIVE_OPINION_3_PIOUS</zType>
+		<Translation>Our pious ways inspire their people.</Translation>
+	</Entry>
+  <Entry>
 		<zType>TEXT_EVENTOPTION_PLAYERS_POSITIVE_OPINION_NO</zType>
 		<Translation>Nicht jetzt.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_PLAYERS_POSITIVE_OPINION_3_PIOUS</zType>
+		<zType>TEXT_EVENTOPTION_PLAYERS_SAVE_MY_FAMILY_WAR</zType>
 		<Translation>Our pious ways inspire their people.</Translation>
-	</Entry>
+	 </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_PLAYERS_SAVE_MY_FAMILY_TRUCE</zType>
+    <Translation>[VERMITTLE WAFFENRUHE]</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_PLAYERS_SAVE_MY_FAMILY_NO</zType>
+    <Translation>[ZERSTRITTEN]</Translation>
+  </Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CARAVAN_OF_LOVE_OPTION_0</zType>
 		<Translation>Let the heirs have their harmless fun.</Translation>
@@ -4476,6 +4496,14 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NO_WAY_OUT_OPTION_0</zType>
 		<Translation><![CDATA[Clearly, <masculine_CHARACTER-2>he<feminine>she<end> was not a leader.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_CITADEL_OF_DEATH_OPTION_0</zType>
+		<Translation>Make an offering to honor their bravery.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_CITADEL_OF_DEATH_OPTION_1</zType>
+		<Translation>Nobody left to complain if we loot their temples, then.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RISING_STAR_OPTION_0</zType>
@@ -5704,6 +5732,10 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_FAMILY_SQUABBLE_RUMORS_GOLD</zType>
 		<Translation><![CDATA[I support the {FAMILY-1} family. ]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FAMILY_SQUABBLE_RUMORS_IRON</zType>
+		<Translation><![CDATA[I stand with the {FAMILY-2,1}.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_FAMILY_SQUABBLE_RUMORS_THANKS</zType>
@@ -8568,6 +8600,146 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_THE_TRAVELER_OPTION_2</zType>
 		<Translation>Give him my private chambers.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_ULTIMATUM_OPTION_0</zType>
+		<Translation>I cannot part with my treasures! Let them have {CHARACTER-SHORT-1}!.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_ULTIMATUM_OPTION_1</zType>
+		<Translation>Such an offer is insulting. I value nothing more than {CHARACTER-SHORT-1}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_ULTIMATUM_OPTION_2</zType>
+		<Translation>How about a drinking contest? Winner take all!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_ULTIMATUM_OPTION_3</zType>
+		<Translation>I will help them improve their methods of coercion.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_HAPPY_HIGHWAYMEN_OPTION_0</zType>
+		<Translation>All are welcome in {PLAYER-0}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_UNHAPPY_HIGHWAYMEN_OPTION_0</zType>
+		<Translation>Next time, I will stay closer to home.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_SACRILEGE_OPTION_0</zType>
+		<Translation>Execute those involved, to give the {BARBARIAN-1} justice.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_SACRILEGE_OPTION_1</zType>
+		<Translation>The {BARBARIAN-1} are fortunate we do not dominate them utterly.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_SACRILEGE_OPTION_2</zType>
+		<Translation>The ruins were not marked, and it was a mistake.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_FRESH_EYES_OPTION_0</zType>
+		<Translation>We must strive for strong diplomacy.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_FRESH_EYES_OPTION_1</zType>
+		<Translation>Industry will put us on a productive path.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_FRESH_EYES_OPTION_2</zType>
+		<Translation>The world is vast, and we need a ready military.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_FRESH_EYES_OPTION_3</zType>
+		<Translation>{PLAYER-0} is nothing without its people.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_WONDERS_AWAIT_OPTION_0</zType>
+		<Translation>I wish to continue traveling. </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_WONDERS_AWAIT_OPTION_1</zType>
+		<Translation>It is time to return home.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_WONDERS_AWAIT_ORACLE_OPTION_0</zType>
+		<Translation>I wish to continue traveling. </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_WONDERS_AWAIT_ORACLE_OPTION_1</zType>
+		<Translation>It is time to return home.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_WONDERS_AWAIT_GARDENS_OPTION_0</zType>
+		<Translation>I wish to continue traveling.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_WONDERS_AWAIT_GARDENS_OPTION_1</zType>
+		<Translation>It is time to return home.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_WONDERS_AWAIT_ZIGGURAT_OPTION_0</zType>
+		<Translation>I wish to continue traveling. </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_WONDERS_AWAIT_ZIGGURAT_OPTION_1</zType>
+		<Translation>It is time to return home.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NEWS_OF_SUCCESSION_OPTION_0</zType>
+		<Translation>It is time to embrace my destiny.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AN_EMPTY_THRONE_OPTION_0</zType>
+		<Translation>Order the expedition back to {CITY-1} at once.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AN_EMPTY_THRONE_OPTION_1</zType>
+		<Translation>Pay the men well and send them away.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AN_EMPTY_THRONE_OPTION_2</zType>
+		<Translation>Sneak away in the dead of night.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RECOGNIZED_OPTION_0</zType>
+		<Translation>This does not look good.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RECOGNIZED_OPTION_1</zType>
+		<Translation>If they spare me, I will owe them a favor.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RECOGNIZED_OPTION_2</zType>
+		<Translation>This will be a thrashing they will not soon forget.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RECOGNIZED_OPTION_3</zType>
+		<Translation><![CDATA[I bow before them, as a <masculine_CHARACTER-1>king<feminine>queen<end> is nothing without <masculine_CHARACTER-1>his<feminine>her<end> subjects.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RECOGNIZED_OPTION_4</zType>
+		<Translation>I convince one of them to betray the others. </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DISBANDED_OPTION_0</zType>
+		<Translation>That could have gone much worse.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEFT_FOR_DEAD_OPTION_0</zType>
+		<Translation>I will take this secret to my grave.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_UNCHALLENGED_OPTION_0</zType>
+		<Translation>It is good to be home. </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_HEIRS_JOURNEY_OPTION_0</zType>
+		<Translation>This ordeal made me stronger.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_WANDERING_THE_WILDERNESS_OPTION_0</zType>
+		<Translation>I will strive to learn from my mistakes.</Translation>
 	</Entry>	 
   <Entry beginGroup="City">
 		<zType>TEXT_EVENTOPTION_HAPPINESS_IMMIGRANTS_YES</zType>
@@ -9020,6 +9192,18 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_OEDIPUS_TYRANNUS_YES</zType>
 		<Translation>Show it but let's stick to Homer's version in the Odyssey.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_OLYMPIAD_SOLDIER</zType>
+		<Translation>The winner will become your personal advisor.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_OLYMPIAD_OPINION</zType>
+		<Translation>We have invited athletes from every nation.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_OLYMPIAD_SPEECH</zType>
+		<Translation>I have prepared a rousing speech for the ceremonies.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CITY_ANARCHY_DISTRACT</zType>
@@ -11602,15 +11786,15 @@
 		<Translation>Break up the sect and remove {CHARACTER-SHORT-1}.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION__OPTION_0</zType>
+		<zType>TEXT_EVENTOPTION_OUR_PURPOSE_OPTION_0</zType>
 		<Translation>It is true, we must pursue a higher truth.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION__OPTION_1</zType>
+		<zType>TEXT_EVENTOPTION_OUR_PURPOSE_OPTION_1</zType>
 		<Translation>{PLAYER-0} is on the right path.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION__OPTION_2</zType>
+		<zType>TEXT_EVENTOPTION_OUR_PURPOSE_OPTION_2</zType>
 		<Translation>I will personally guide our scientific development.</Translation>
 	</Entry>
 	<Entry>
@@ -11784,6 +11968,62 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_FALSE_CHARGES_OPTION_0</zType>
 		<Translation>Let this be a lesson to my enemies.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LAST_STAND_OPTION_0</zType>
+		<Translation>Let this be a lesson to my enemies.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FAILED_ASSASSINATION_OPTION_0</zType>
+		<Translation>Slip the sentries gold to kill the assassins.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FAILED_ASSASSINATION_OPTION_1</zType>
+		<Translation>Blame the {FAMILY-4} family for the attempted murder.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FAILED_ASSASSINATION_OPTION_2</zType>
+		<Translation>Do nothing.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_WATCH_YOUR_HEAD_OPTION_0</zType>
+		<Translation>Let this be a lesson to my enemies.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RESTFUL_MEDITATION_OPTION_0</zType>
+		<Translation>A commander on the front lines.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RESTFUL_MEDITATION_OPTION_1</zType>
+		<Translation>A member of the royal court.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RESTFUL_MEDITATION_OPTION_2</zType>
+		<Translation><![CDATA[Let us see how <masculine_CHARACTER-0>he<feminine>she<end> adjusts first.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DREAM_RITUALS_OPTION_0</zType>
+		<Translation><![CDATA[We are pleased that <masculine_CHARACTER-0>he<feminine>she<end> has recovered.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BEWARE_OPTION_0</zType>
+		<Translation>Add more guards to patrol the palace.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BEWARE_OPTION_1</zType>
+		<Translation>Increase the size of the city watch.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BEWARE_OPTION_2</zType>
+		<Translation><![CDATA[Send my Spymaster to deal with <masculine_CHARACTER-0>him<feminine>her<end>.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BEWARE_OPTION_3</zType>
+		<Translation>I will not show any fear.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DISHEARTENING_NEWS_OPTION_0</zType>
+		<Translation><![CDATA[We will pray for <masculine_CHARACTER-0>him<feminine>her<end> and make sacrifices.]]></Translation>
 	</Entry>	 
   <Entry beginGroup="Tutorial">
 		<zType>TEXT_EVENTOPTION_VICTORY_OK</zType>
@@ -12033,4 +12273,52 @@
 		<zType>TEXT_EVENTOPTION_WEAK_WILL_OPTION_2</zType>
 		<Translation><![CDATA[<masculine_CHARACTER-1>He<feminine>She<end> should remember <masculine_CHARACTER-1>his<feminine>her<end> place.]]></Translation>
 	</Entry>
+	 <Entry beginGroup="Community">
+    <zType>TEXT_EVENTOPTION_GOT_YOUR_NOSE_0</zType>
+    <Translation>Laugh.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_GOT_YOUR_NOSE_1</zType>
+    <Translation>Cry.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_GOT_YOUR_NOSE_2</zType>
+    <Translation>My revenge shall be swift and silent.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TRIBAL_MERCENARIES_OPTION_0</zType>
+    <Translation>See if you can find those famed Balearic Slingers.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TRIBAL_MERCENARIES_OPTION_1</zType>
+    <Translation>Get some of those Numidian Cavalry.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TRIBAL_MERCENARIES_OPTION_2</zType>
+    <Translation>No, our armies are strong. Now help me find that chicken!</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TWO_MOTHERS_ONE_CHILD_OPTION_0</zType>
+    <Translation>The {FAMILY-0} are known for their pale hair.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TWO_MOTHERS_ONE_CHILD_OPTION_1</zType>
+    <Translation>I recognize the classic {FAMILY-1} nose.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TWO_MOTHERS_ONE_CHILD_OPTION_2</zType>
+    <Translation>They can each have half of the child.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TWO_MOTHERS_ONE_CHILD_OPTION_3</zType>
+    <Translation>The mother is the one who'd rather give up the child than see it die.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_MONUMENTAL_GATE_YES</zType>
+    <Translation>Agreed, it is a well deserved.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_MONUMENTAL_GATE_NO</zType>
+    <Translation>We cannot afford it.</Translation>
+  </Entry>	  
 </Root>

@@ -130,6 +130,12 @@
 		<bUpgrade>1</bUpgrade>
 	</Entry>
 	<Entry>
+		<zType>PROMOTION_TOUGH</zType>
+		<zName>Taff</zName>
+		<EffectUnit>EFFECTUNIT_TOUGH</EffectUnit>
+		<bUpgrade>1</bUpgrade>
+	</Entry>
+	<Entry>
 		<zType>PROMOTION_BLOODTHIRSTY</zType>
 		<zName>Blutdürstig</zName>
 		<EffectUnit>EFFECTUNIT_BLOODTHIRSTY</EffectUnit>

@@ -10,6 +10,14 @@
 		<Translation>{CHARACTER-SUBJECT} hat Erfolgreich das Gebiet deines Rivalen infiltriert.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_SLANDER_SUCCESS_DESCRIPTION</zType>
+		<Translation>{CHARACTER-SUBJECT} hat erfolgreich deinen Rivalen beleidigt.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_SLANDER_SUCCESS_EXPOSED_DESCRIPTION</zType>
+		<Translation>{CHARACTER-SUBJECT} has successfully slandered your rival but was exposed in the process.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_ASSASSINATE_KILL_DESCRIPTION</zType>
 		<Translation>Hat erfolgreich {CHARACTER-TARGET} gemeuchelt, und niemand vermutet etwas...</Translation>
 	</Entry>
@@ -209,6 +217,22 @@
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INFILTRATE_REVEAL</zType>
 		<Translation>Gebiet infiltriert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_INFILTRATE_EVENT</zType>
+		<Translation>Infiltrierungs Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_SLANDER_SUCCESS</zType>
+		<Translation>Beleidigung ausgebreitet</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_SLANDER_SUCCESS_EXPOSED</zType>
+		<Translation>Beleidigung ausgebreitet, Bemühung aufgeflogen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_SLANDER_EVENT</zType>
+		<Translation>Beleidigungs Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_ASSASSINATE_KILL</zType>

@@ -122,6 +122,10 @@
 		<Translation>:Feldherr</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_GENERAL_ENEMY_DEFENSE</zType>
+		<Translation>:Feldherr  icon(Icon_Defense)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_SETTLEMENT</zType>
 		<Translation>Kolonie</Translation>
 	</Entry>
@@ -594,10 +598,6 @@
     <Entry>
         <zType>SP_MENU_SCREEN_SCEN_BUTTON</zType>
         <Translation>Szenario</Translation>
-    </Entry>
-    <Entry>
-        <zType>SP_MENU_SCREEN_FEATUREDGAME_BUTTON</zType>
-        <Translation>Besonderes Spiel</Translation>
     </Entry>
     <Entry>
         <zType>SP_MENU_SCREEN_GOFTW_BUTTON</zType>
