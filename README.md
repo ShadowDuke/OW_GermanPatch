@@ -24,7 +24,6 @@ Loading an existing savegame should work wihtout the need to do the procedure ag
 ## Notes
 
 - Dont mind the read errors popping up saying "missing Unable to find TextType* messages - thats because i translated some stuff from my *archetypes* mod.
-- Its possible you need to restart your game **once** to enable the full main menu translation. Then it should be enabled by default next time you start the game. (Only for the main menu translation)
 - Some things can't be translated, they are still hardcodet in the egine.
 - If you find or stumble across spelling errors, please let me know [here](https://github.com/ShadowDuke/OW_GermanPatch/issues), thank you.
 
@@ -49,7 +48,6 @@ Einen vorhandenen Spielstand zu laden sollte ohne Probleme funktionieren, ohne d
 ## Anmerkungen
 
 - Beachtet nicht die roten Fehlermeldungen die beim aktivieren kommen, wie "missing Unable to find TextType* Nachrichten - das passiert, weil ich schon ein paar Sachen für meine andere *archetypes* mod übersetzt habe.
-- Es ist möglich, dass man das Spiel erst **ein mal** neu starten muss, um die komplette Menü Übersetzung zu sehen. Beim nächsten Spielstart wird es dann aber standardmäßig so sein. (Gillt nur für die Menu Übersetzung)
 - Einige Dinge können nicht Übersetzt werden, da sie noch immer fest in der Engine eingebaut sind.
 - Solltet ihr Fehler finden oder über welche stolpern, lasst es mich doch [hier](https://github.com/ShadowDuke/OW_GermanPatch/issues) wissen, Danke.
 
