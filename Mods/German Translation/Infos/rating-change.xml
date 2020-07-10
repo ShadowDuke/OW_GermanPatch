@@ -133,7 +133,7 @@ Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.
 		<zIconName>CultureIcon3</zIconName>
 		<zHelp>Bekanntheit erhöht {YIELD_ORDERS}, {YIELD_FOOD}, {YIELD_STONE}, {YIELD_WOOD}, {YIELD_IRON} und {YIELD_CULTURE} als Oberhaupt bekommt man doppelt so viel.
 Als Stadthalter erhöht sich {YIELD_CULTURE}, {YIELD_SCIENCE}, {YIELD_CIVICS}, {YIELD_GROWTH} und {YIELD_MONEY}.
-Für Feldherren erhöht Charisma die Verteidgung der Einheit.
+Für Feldherren erhöht Bekanntheit die Verteidgung der Einheit.
 		</zHelp>
 		<iDefenseModifier>3</iDefenseModifier>
 		<aiYieldLeaderRate>
