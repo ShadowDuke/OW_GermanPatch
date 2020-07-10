@@ -20,8 +20,8 @@
 		<zColor>COLOR_RATING_WISDOM</zColor>
 		<zName>Wisdom</zName>
 		<zIconName>RATING_WISDOM</zIconName>
-		<zHelp>For Leaders and Governors, Wisdom increases {YIELD_SCIENCE}.
-For Generals, Wisdom increases the Unit's Critical Hit Chance.
+		<zHelp>Für Oberhäupter und Stadthalter erhöht Weisheit {YIELD_SCIENCE}.
+Für Feldherren erhöht Weisheit erhöht die kritische Chance der Einheit.
 		</zHelp>
 		<iCriticalChance>1</iCriticalChance>
 		<aiYieldLeaderRate>
@@ -48,8 +48,8 @@ For Generals, Wisdom increases the Unit's Critical Hit Chance.
 		<zColor>COLOR_RATING_CHARISMA</zColor>
 		<zName>Charisma</zName>
 		<zIconName>RATING_CHARISMA</zIconName>
-		<zHelp>For Leaders and Governors, Charisma increases {YIELD_CIVICS}.
-For Generals, Charisma increases the Unit's Defense Strength.</zHelp>
+		<zHelp>Für Oberhäupter und Stadthalter erhöht Charisma {YIELD_CIVICS}.
+Für Feldherren erhöht Charisma erhöht die Verteidigung der Einheiten.</zHelp>
 		<iDefenseModifier>2</iDefenseModifier>
 		<aiYieldLeaderRate>
 			<Pair>
@@ -75,8 +75,8 @@ For Generals, Charisma increases the Unit's Defense Strength.</zHelp>
 		<zColor>COLOR_RATING_COURAGE</zColor>
 		<zName>Courage</zName>
 		<zIconName>RATING_COURAGE</zIconName>
-		<zHelp>For Leaders and Governors, Courage increases {YIELD_TRAINING}.
-For Generals, Courage increases the Unit's Strength.
+		<zHelp>Für Oberhäupter und Stadthalter erhöht Mut {YIELD_TRAINING}.
+Für Feldherren erhöht Mut die Stärke der Einheiten.
 		</zHelp>
 		<iStrengthModifier>1</iStrengthModifier>
 		<aiYieldLeaderRate>
@@ -103,8 +103,8 @@ For Generals, Courage increases the Unit's Strength.
 		<zColor>COLOR_RATING_DISCIPLINE</zColor>
 		<zName>Discipline</zName>
 		<zIconName>RATING_DISCIPLINE</zIconName>
-		<zHelp>For Leaders and Governors, Discipline increases {YIELD_MONEY}.
-For Generals, Discipline increases the Unit's XP each Year.
+		<zHelp>FFür Oberhäupter und Stadthalter erhöht Disziplin {YIELD_MONEY}.
+Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.
 		</zHelp>
 		<iUnitXP>1</iUnitXP>
 		<aiYieldLeaderRate>
