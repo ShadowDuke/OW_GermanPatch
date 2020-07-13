@@ -18,7 +18,7 @@
 	<Entry>
 		<zType>RATING_WISDOM</zType>
 		<zColor>COLOR_RATING_WISDOM</zColor>
-		<zName>Wisdom</zName>
+		<zName>Weisheit</zName>
 		<zIconName>RATING_WISDOM</zIconName>
 		<zHelp>Für Oberhäupter und Stadthalter erhöht Weisheit {YIELD_SCIENCE}.
 Für Feldherren erhöht Weisheit erhöht die kritische Chance der Einheit.
@@ -73,7 +73,7 @@ Für Feldherren erhöht Charisma erhöht die Verteidigung der Einheiten.</zHelp>
 	<Entry>
 		<zType>RATING_COURAGE</zType>
 		<zColor>COLOR_RATING_COURAGE</zColor>
-		<zName>Courage</zName>
+		<zName>Mut</zName>
 		<zIconName>RATING_COURAGE</zIconName>
 		<zHelp>Für Oberhäupter und Stadthalter erhöht Mut {YIELD_TRAINING}.
 Für Feldherren erhöht Mut die Stärke der Einheiten.
@@ -101,7 +101,7 @@ Für Feldherren erhöht Mut die Stärke der Einheiten.
 	<Entry>
 		<zType>RATING_DISCIPLINE</zType>
 		<zColor>COLOR_RATING_DISCIPLINE</zColor>
-		<zName>Discipline</zName>
+		<zName>Disziplin</zName>
 		<zIconName>RATING_DISCIPLINE</zIconName>
 		<zHelp>FFür Oberhäupter und Stadthalter erhöht Disziplin {YIELD_MONEY}.
 Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.
