@@ -248,8 +248,16 @@
 		<Translation>{0_diplomacy} mit {1_player}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_OTHER_PLAYER</zType>
+		<Translation>Erlange {0_yield} von {1_player}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_SEND_PLAYER</zType>
 		<Translation>Sende {0_trade} an {1_player}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_TRADE_PLAYER</zType>
+		<Translation>{0_trade} Handel mit {1_player}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_TRIBUTE_PLAYER</zType>
@@ -444,6 +452,10 @@
 		<Translation>{0_spouse}: Scheidung</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_BIRTH_WITH</zType>
+		<Translation>Hat ein Kind mit {0_parent}</Translation>
+	</Entry>							  
+	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_ABDICATES</zType>
 		<Translation>Abdanken</Translation>
 	</Entry>
@@ -510,6 +522,10 @@
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_PLAYER_FREE_THEOLOGY</zType>
 		<Translation>{0_player}: Befreie {1_theology} ({2_religion})</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_HOLY_CITY_AGENTS</zType>
+		<Translation>{0_player}: Umsonst link(CONCEPT_AGENT) in allen heiligen Stätten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_FOUND_RELIGION</zType>
@@ -723,4 +739,8 @@
 		<zType>TEXT_GAME_PLAYER_DECLARED_WAR_ON</zType>
 		<Translation>Krieg erklärt an {0_strength} {1}</Translation>
 	</Entry>		 
+	<Entry>
+		<zType>TEXT_GAME_PLAYER_TRUCE_WITH</zType>
+		<Translation>Erklärt Waffenruhe mit {0_strength} {1}</Translation>
+	</Entry>
 </Root>

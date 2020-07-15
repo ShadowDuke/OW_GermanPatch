@@ -55,7 +55,7 @@
 		<iUnitUpgrade>30</iUnitUpgrade>
 		<iTribeConvertTurn>60</iTribeConvertTurn>
 		<iTribeConvertProb>3</iTribeConvertProb>
-		<iRaidStartTurn>40</iRaidStartTurn>
+		<iRaidStartTurn>35</iRaidStartTurn>
 		<iRaidProbTile>2</iRaidProbTile>
 		<iRaidProbUnit>10</iRaidProbUnit>
 		<iRaidRange>14</iRaidRange>
@@ -75,7 +75,7 @@
 		<iUnitUpgrade>25</iUnitUpgrade>
 		<iTribeConvertTurn>50</iTribeConvertTurn>
 		<iTribeConvertProb>4</iTribeConvertProb>
-		<iRaidStartTurn>35</iRaidStartTurn>
+		<iRaidStartTurn>30</iRaidStartTurn>
 		<iRaidProbTile>4</iRaidProbTile>
 		<iRaidProbUnit>20</iRaidProbUnit>
 		<iRaidRange>16</iRaidRange>
@@ -95,7 +95,7 @@
 		<iUnitUpgrade>20</iUnitUpgrade>
 		<iTribeConvertTurn>40</iTribeConvertTurn>
 		<iTribeConvertProb>5</iTribeConvertProb>
-		<iRaidStartTurn>30</iRaidStartTurn>
+		<iRaidStartTurn>25</iRaidStartTurn>
 		<iRaidProbTile>6</iRaidProbTile>
 		<iRaidProbUnit>30</iRaidProbUnit>
 		<iRaidRange>18</iRaidRange>
@@ -116,7 +116,7 @@
 		<iUnitUpgrade>15</iUnitUpgrade>
 		<iTribeConvertTurn>30</iTribeConvertTurn>
 		<iTribeConvertProb>6</iTribeConvertProb>
-		<iRaidStartTurn>25</iRaidStartTurn>
+		<iRaidStartTurn>20</iRaidStartTurn>
 		<iRaidProbTile>8</iRaidProbTile>
 		<iRaidProbUnit>40</iRaidProbUnit>
 		<iRaidRange>20</iRaidRange>

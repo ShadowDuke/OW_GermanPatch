@@ -207,6 +207,10 @@
 		<Translation>Vertrauten Heiraten</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSION_MARRY_COURTIER_TARGET</zType>
+		<Translation>Heiraten</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSION_ABDICATE</zType>
 		<Translation>Das Zepter niederlegen</Translation>
 	</Entry>
@@ -251,6 +255,18 @@
 		<Translation>Beleidige Reich über</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSION_STEAL_RESEARCH</zType>
+		<Translation>Stehle Forschung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_STEAL_RESEARCH_TARGET</zType>
+		<Translation>Stehle Forschung von</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_STEAL_RESEARCH_CHARACTER</zType>
+		<Translation>Stehle Forschung mit</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSION_ASSASSINATE</zType>
 		<Translation>Attentat</Translation>
 	</Entry>
@@ -273,6 +289,18 @@
 	<Entry>
 		<zType>TEXT_MISSION_TRADE_MISSION_CHARACTER</zType>
 		<Translation>Handelsmission über</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PACIFY_CITY</zType>
+		<Translation>Beschwichtige Stadt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PACIFY_CITY_TARGET</zType>
+		<Translation>Beschwichtigen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PACIFY_CITY_CHARACTER</zType>
+		<Translation>Beschwichtige Stadt mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_FAMILY_GIFT</zType>

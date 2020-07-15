@@ -627,10 +627,6 @@
 		<Translation>Freundlich (Religion)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_PROJECT_MONARCH</zType>
-		<Translation>Herrscher</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_GOVERNOR</zType>
 		<Translation>Stadthalter</Translation>
 	</Entry>
@@ -906,7 +902,11 @@
     <zType>TEXT_EFFECTCITY_PROJECT_AUTONOMOUS_RULE</zType>
     <Translation>Autonome Herrschaft</Translation>
   </Entry>
-	<Entry>
+  <Entry>
+    <zType>TEXT_EFFECTCITY_PROJECT_MONUMENTAL_GATE</zType>
+    <Translation>Monumentales Tor</Translation>
+  </Entry>
+  <Entry>
 		<zType>TEXT_EFFECTCITY_RELIGION_JUDAISM</zType>
 		<Translation>Judentum</Translation>
 	</Entry>

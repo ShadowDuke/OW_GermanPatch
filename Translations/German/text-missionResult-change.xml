@@ -18,6 +18,14 @@
 		<Translation>{CHARACTER-SUBJECT} has successfully slandered your rival but was exposed in the process.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_STEAL_RESEARCH_SUCCESS_DESCRIPTION</zType>
+		<Translation>{CHARACTER-SUBJECT} has successfully stolen research from your rival.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_STEAL_RESEARCH_SUCCESS_EXPOSED_DESCRIPTION</zType>
+		<Translation>{CHARACTER-SUBJECT} has successfully stolen research from your rival but was exposed in the process.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_ASSASSINATE_KILL_DESCRIPTION</zType>
 		<Translation>Hat erfolgreich {CHARACTER-TARGET} gemeuchelt, und niemand vermutet etwas...</Translation>
 	</Entry>
@@ -32,6 +40,14 @@
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TREACHERY_DESCRIPTION</zType>
 		<Translation>{CHARACTER-SUBJECT} hat erfolgreich die Verteidigung der Stadt verringert.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PACIFY_CITY_SUCCESS_DESCRIPTION</zType>
+		<Translation>{CHARACTER-SUBJECT} has listened to the grievances of the city's rulers and has reduced link(YIELD_DISCONTENT).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PACIFY_CITY_SUCCESS_WEAKEN_DESCRIPTION</zType>
+		<Translation>{CHARACTER-SUBJECT} has listened to the grievances of the city's rulers and has reduced link(YIELD_DISCONTENT), but this pandering has weakened your reputation.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_FAMILY_GIFT_SUCCESS_DESCRIPTION</zType>
@@ -235,6 +251,18 @@
 		<Translation>Beleidigungs Ereignis</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_STEAL_RESEARCH_SUCCESS</zType>
+		<Translation>Forschung gestohlen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_STEAL_RESEARCH_SUCCESS_EXPOSED</zType>
+		<Translation>Forschung gestohlen, Bestreben entblößt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_STEAL_RESEARCH_EVENT</zType>
+		<Translation>Forchungsdiesbstahl Ereignis</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_ASSASSINATE_KILL</zType>
 		<Translation>Ziel getötet</Translation>
 	</Entry>
@@ -257,6 +285,18 @@
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TRADE_MISSION_EVENT</zType>
 		<Translation>Handelsmission Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PACIFY_CITY_SUCCESS</zType>
+		<Translation>Beschwichtigung erolgreich</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PACIFY_CITY_SUCCESS_WEAKEN</zType>
+		<Translation>Beschwichtigung entblößt unsere Schwäche</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PACIFY_CITY_EVENT</zType>
+		<Translation>Beschwichtigende Stadt Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_FAMILY_GIFT_SUCCESS</zType>

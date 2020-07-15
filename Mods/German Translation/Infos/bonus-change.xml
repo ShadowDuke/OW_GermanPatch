@@ -52,6 +52,7 @@
 		<iDiplomacyPlayer comment="Changes the Diplomacy level by this value (Peace = 0, Truce = 1, War = 2)."/>
 		<iMarrySubject comment="Character will marry the previous Subject at this index."/>
 		<iDivorceSubject comment="Character will divorce the previous Subject at this index."/>
+		<iBirthWithSubject comment="Character will give birth with the previous Subject at this index."/>																						   
 		<iAdoptedBySubject comment="Character will be adopted by the previous Subject at this index."/>
 		<iGovernorOfSubject comment="Character will be Governor of the previous Subject City at this index."/>
 		<iGeneralOfSubject comment="Character will be General of the previous Subject Unit at this index."/>
@@ -63,6 +64,7 @@
 		<iMissionReverse comment="The Mission character will be the previous Subject at this index."/>																						
 		<iTradeCitySubject comment="Trade the City to the previous Subject at this index."/>
 		<bRevealTerritory comment="Will reveal all the territory of this Player."/>
+		<bHolyCityAgents comment="Adds an Agent in all Holy Cities."/>														
 		<bCancelTrade comment="Will cancel trade with this Player."/>
 		<bTeamAlliance comment="Will make an Alliance with this Player."/>
 		<bTeamAllianceEnd comment="Will end an Alliance with this Player."/>
@@ -92,6 +94,8 @@
 		<aiCityYields comment="List of Yields (Money, Science, etc.) gained in the City Subject."/>
 		<aiGlobalYieldsBase comment="List of Yields (Money, Science, etc.) gained by the Player. This is distinct from aicityYields in that it is added directly to the national stockpile, not to any particular City."/>
 		<aiGlobalYieldsPer comment="List of Yields per City gained by the Player. For example, if this is 20 Money, and the Player has 3 cities, the Player will gain 60 Money."/>
+		<aiOtherYieldsBase comment="List of Yields (Money, Science, etc.) gained by the Player."/>
+		<aiOtherYieldsPer comment="List of Yields per City gained by the Other Player. For example, if this is 20 Money, and the Other Player has 3 cities, the Player will gain 60 Money."/>																					
 		<aiYieldsSendBase comment="Send this Yield (lump sum) to the other Player (and deduct it from this Player's stockpile)."/>
 		<aiYieldsSendPerUs comment="Send this Yield (per this Player's Cities) to the other Player (and deduct it from this Player's stockpile)."/>
 		<aiYieldsSendPerThem comment="Send this Yield (per other Player's Cities) to the other Player (and deduct it from this Player's stockpile)."/>
@@ -176,6 +180,7 @@
 		<iDiplomacyPlayer/>
 		<iMarrySubject/>
 		<iDivorceSubject/>
+		<iBirthWithSubject/>			  
 		<iAdoptedBySubject/>
 		<iGovernorOfSubject/>
 		<iGeneralOfSubject/>
@@ -186,6 +191,7 @@
 		<iMissionSubject/>
 		<iMissionReverse/>			
 		<bRevealTerritory/>
+		<bHolyCityAgents/>			
 		<bCancelTrade/>
 		<bTeamAlliance/>
 		<bTeamAllianceEnd/>
@@ -521,37 +527,19 @@
 		</aiGlobalYieldsBase>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GAIN_DISCIPLINE</zType>
+		<zType>BONUS_GAIN_WISDOM</zType>
 		<aiRatings>
 			<Pair>
-				<zIndex>RATING_DISCIPLINE</zIndex>
+				<zIndex>RATING_WISDOM</zIndex>
 				<iValue>1</iValue>
 			</Pair>
 		</aiRatings>
 	</Entry>
 	<Entry>
-		<zType>BONUS_LOSE_DISCIPLINE</zType>
+		<zType>BONUS_LOSE_WISDOM</zType>
 		<aiRatings>
 			<Pair>
-				<zIndex>RATING_DISCIPLINE</zIndex>
-				<iValue>-1</iValue>
-			</Pair>
-		</aiRatings>
-	</Entry>
-	<Entry>
-		<zType>BONUS_GAIN_COURAGE</zType>
-		<aiRatings>
-			<Pair>
-				<zIndex>RATING_COURAGE</zIndex>
-				<iValue>1</iValue>
-			</Pair>
-		</aiRatings>
-	</Entry>
-	<Entry>
-		<zType>BONUS_LOSE_COURAGE</zType>
-		<aiRatings>
-			<Pair>
-				<zIndex>RATING_COURAGE</zIndex>
+				<zIndex>RATING_WISDOM</zIndex>
 				<iValue>-1</iValue>
 			</Pair>
 		</aiRatings>
@@ -575,19 +563,37 @@
 		</aiRatings>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GAIN_WISDOM</zType>
+		<zType>BONUS_GAIN_COURAGE</zType>
 		<aiRatings>
 			<Pair>
-				<zIndex>RATING_WISDOM</zIndex>
+				<zIndex>RATING_COURAGE</zIndex>
 				<iValue>1</iValue>
 			</Pair>
 		</aiRatings>
 	</Entry>
 	<Entry>
-		<zType>BONUS_LOSE_WISDOM</zType>
+		<zType>BONUS_LOSE_COURAGE</zType>
 		<aiRatings>
 			<Pair>
-				<zIndex>RATING_WISDOM</zIndex>
+				<zIndex>RATING_COURAGE</zIndex>
+				<iValue>-1</iValue>
+			</Pair>
+		</aiRatings>
+	</Entry>
+	<Entry>
+		<zType>BONUS_GAIN_DISCIPLINE</zType>
+		<aiRatings>
+			<Pair>
+				<zIndex>RATING_DISCIPLINE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+		</aiRatings>
+	</Entry>
+	<Entry>
+		<zType>BONUS_LOSE_DISCIPLINE</zType>
+		<aiRatings>
+			<Pair>
+				<zIndex>RATING_DISCIPLINE</zIndex>
 				<iValue>-1</iValue>
 			</Pair>
 		</aiRatings>
@@ -660,6 +666,10 @@
 		</AddCourtierGender>
 	</Entry>
 	<Entry>
+		<zType>BONUS_IMPROVEMENT_ORACLE</zType>
+		<bHolyCityAgents>1</bHolyCityAgents>
+	</Entry>
+	<Entry>
 		<zType>BONUS_MISSIONRESULT_AMBASSADOR</zType>
 		<Council>COUNCIL_AMBASSADOR</Council>
 	</Entry>
@@ -714,6 +724,39 @@
 		<iLegitimacy>-1</iLegitimacy>
 	</Entry>
 	<Entry>
+		<zType>BONUS_MISSIONRESULT_STEAL_RESEARCH_SUCCESS</zType>
+		<zName>Steal Research (Success)</zName>
+		<aiOtherYieldsBase>
+			<Pair>
+				<zIndex>YIELD_SCIENCE</zIndex>
+				<iValue>40</iValue>
+			</Pair>
+		</aiOtherYieldsBase>
+		<aiOtherYieldsPer>
+			<Pair>
+				<zIndex>YIELD_SCIENCE</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+		</aiOtherYieldsPer>
+	</Entry>
+	<Entry>
+		<zType>BONUS_MISSIONRESULT_STEAL_RESEARCH_SUCCESS_EXPOSED</zType>
+		<zName>Steal Research (Success, Exposed)</zName>
+		<MemoryPlayer>MEMORYPLAYER_STEAL_RESEARCH</MemoryPlayer>
+		<aiOtherYieldsBase>
+			<Pair>
+				<zIndex>YIELD_SCIENCE</zIndex>
+				<iValue>40</iValue>
+			</Pair>
+		</aiOtherYieldsBase>
+		<aiOtherYieldsPer>
+			<Pair>
+				<zIndex>YIELD_SCIENCE</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+		</aiOtherYieldsPer>
+	</Entry>
+	<Entry>	
 		<zType>BONUS_MISSIONRESULT_ASSASSINATE_KILL</zType>
 		<zName>Meucheln (Töten)</zName>
 		<bKillCharacter>1</bKillCharacter>
@@ -735,6 +778,17 @@
 		<zType>BONUS_MISSIONRESULT_TREACHERY</zType>
 		<zName>Verrat</zName>
 		<iHPCity>-10</iHPCity>
+	</Entry>
+	<Entry>
+		<zType>BONUS_MISSIONRESULT_PACIFY_CITY_SUCCESS</zType>
+		<zName>Beschwichtige Stadt (Erfolg)</zName>
+		<iDiscontentLevels>-1</iDiscontentLevels>
+	</Entry>
+	<Entry>
+		<zType>BONUS_MISSIONRESULT_PACIFY_CITY_SUCCESS_WEAKEN</zType>
+		<zName>Beschwichtige Stadt (Erfolg, Geschwächt</zName>
+		<iDiscontentLevels>-1</iDiscontentLevels>
+		<iLegitimacy>-1</iLegitimacy>
 	</Entry>
 	<Entry>
 		<zType>BONUS_MISSIONRESULT_FAMILY_GIFT_SUCCESS</zType>
@@ -891,7 +945,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
-				<iValue>100</iValue>
+				<iValue>200</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1937,6 +1991,15 @@
 	<Entry>
 		<zType>BONUS_DISCONTENT_DOWN</zType>
 		<iDiscontentLevels>-1</iDiscontentLevels>
+	</Entry>
+	<Entry>
+		<zType>BONUS_UNIT_WORKER</zType>
+		<aiUnits>
+			<Pair>
+				<zIndex>UNIT_WORKER</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+		</aiUnits>
 	</Entry>
 	<Entry>
 		<zType>BONUS_UNITCLASS_LEVY</zType>
@@ -4583,12 +4646,9 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_DISCONTENT_GAIN_SMALL</zType>
-		<aiCityYields>
-			<Pair>
-				<zIndex>YIELD_DISCONTENT</zIndex>
-				<iValue>60</iValue>
-			</Pair>
-		</aiCityYields>
+		<aeAddTraits>
+			<zValue>TRAIT_CURSED</zValue>
+		</aeAddTraits>
 	</Entry>
 	<Entry>
 		<zType>BONUS_DISCONTENT_GAIN_AVERAGE</zType>

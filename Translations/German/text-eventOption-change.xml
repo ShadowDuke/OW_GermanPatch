@@ -330,20 +330,36 @@
 		<Translation><![CDATA[Der Hof wird alle Religionen berücksichtigen.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_STUDY_TACTICS</zType>
-		<Translation><![CDATA[<masculine_CHARACTER-0>Er<feminine>Sie<end> wird Taktik lernen.]]></Translation>
+		<zType>TEXT_EVENTOPTION_STUDY_PHILOSOPHY</zType>
+		<Translation><![CDATA[<masculine_CHARACTER-0>Er<feminine>Sie<end> wird Philosophie lernen.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_STUDY_PHILOSOPHY_HELP</zType>
+		<Translation>Kann zu link(TRAIT_TACTICIAN_ARCHETYPE) führen, link(TRAIT_ZEALOT_ARCHETYPE), link(TRAIT_JUDGE_ARCHETYPE), link(TRAIT_BUILDER_ARCHETYPE), der link(TRAIT_SCHOLAR_ARCHETYPE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_RHETORIC</zType>
 		<Translation><![CDATA[<masculine_CHARACTER-0>Er<feminine>Sie<end> wird Redekunst lernen.]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTOPTION_STUDY_RHETORIC_HELP</zType>
+		<Translation>Kann zu link(TRAIT_HERO_ARCHETYPE) führen, link(TRAIT_ORATOR_ARCHETYPE), link(TRAIT_JUDGE_ARCHETYPE), link(TRAIT_SCHOLAR_ARCHETYPE), oder link(TRAIT_DIPLOMAT_ARCHETYPE)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_STUDY_TACTICS</zType>
+		<Translation><![CDATA[<masculine_CHARACTER-0>Er<feminine>Sie<end> wird Taktik lernen.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_STUDY_TACTICS_HELP</zType>
+		<Translation>Kann zu link(TRAIT_HERO_ARCHETYPE) führen, link(TRAIT_COMMANDER_ARCHETYPE), link(TRAIT_TACTICIAN_ARCHETYPE), link(TRAIT_ZEALOT_ARCHETYPE), oder link(TRAIT_SCHEMER_ARCHETYPE)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_COMMERCE</zType>
 		<Translation><![CDATA[<masculine_CHARACTER-0>Er<feminine>Sie<end> wird Wirtschaft lernen.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_STUDY_PHILOSOPHY</zType>
-		<Translation><![CDATA[<masculine_CHARACTER-0>Er<feminine>Sie<end> wird Philosophie lernen.]]></Translation>
+		<zType>TEXT_EVENTOPTION_STUDY_COMMERCE_HELP</zType>
+		<Translation>Kann zu link(TRAIT_COMMANDER_ARCHETYPE) führen, link(TRAIT_SCHEMER_ARCHETYPE), link(TRAIT_ORATOR_ARCHETYPE), link(TRAIT_BUILDER_ARCHETYPE), oder link(TRAIT_DIPLOMAT_ARCHETYPE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_GREAT_PERSON_NONE</zType>
@@ -3342,6 +3358,18 @@
 		<Translation>War is not the way to deal with them.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTOPTION_BARBARIAN_WAR_MARRIAGE_YES</zType>
+		<Translation>[JA]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BARBARIAN_WAR_MARRIAGE_NO</zType>
+		<Translation>[NEIN]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BARBARIAN_WAR_MARRIAGE_STEADFAST</zType>
+		<Translation>[VERMIEDEN WEIL STANDFEST]</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_BUILDER_ARCHETYPE_PLEASED_OPTION_0</zType>
 		<Translation>Send a shipment of Food, to provide immediate relief.</Translation>
 	</Entry>
@@ -3660,6 +3688,18 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_WAR_OFFER_ALREADY_FIGHTING_CUNNING</zType>
 		<Translation>Perhaps I can fool {PLAYER-2} into confronting {PLAYER-0} for us.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_WAR_OFFER_ANGRY_RELIGION_TRAINING</zType>
+		<Translation>[TRAINING]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_WAR_OFFER_ANGRY_RELIGION_MONEY</zType>
+		<Translation>[GELD]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_WAR_OFFER_ANGRY_RELIGION_EDUCATED</zType>
+		<Translation>[DU BEEINDRUCKST SIE MIT DEINEM WISSEN ÜBER {RELIGION-2}]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_DIPLO_OFFER_RELIGION_SPREAD_NO</zType>
@@ -4764,7 +4804,15 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_DEMAND_CITY_WITTY</zType>
 		<Translation>[WITZIG]</Translation>
-</Entry>	 
+	</Entry>	 
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DEMAND_LUXURY_YES</zType>
+		<Translation>[JA]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DEMAND_LUXURY_NO</zType>
+		<Translation>[NEIN]</Translation>
+	</Entry>
   <Entry beginGroup="Character">
 		<zType>TEXT_EVENTOPTION_DELICIOUS_DRINKS_BOTTOMS_UP</zType>
 		<Translation><![CDATA[I will share in his revels.]]></Translation>
@@ -8740,7 +8788,175 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_WANDERING_THE_WILDERNESS_OPTION_0</zType>
 		<Translation>I will strive to learn from my mistakes.</Translation>
-	</Entry>	 
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BIRTH_CHILD_OF_PROPHECY_OPTION_0</zType>
+		<Translation>Listen to the old beggar's words of wisdom.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BIRTH_CHILD_OF_PROPHECY_OPTION_1</zType>
+		<Translation>Throw that animal back into the street.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BIRTH_SHOWERED_WITH_GIFTS_OPTION_0</zType>
+		<Translation>Accept gifts from the {FAMILY-1} family.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BIRTH_SHOWERED_WITH_GIFTS_OPTION_1</zType>
+		<Translation>Accept gifts from the {FAMILY-2} family.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BIRTH_SHOWERED_WITH_GIFTS_OPTION_2</zType>
+		<Translation>Accept gifts from the {FAMILY-3} family.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BIRTH_SHOWERED_WITH_GIFTS_OPTION_3</zType>
+		<Translation>Accept gifts from all the families. </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BIRTH_RENEWED_HOPE_OPTION_0</zType>
+		<Translation><![CDATA[A caregiver and tutor will shape <masculine_CHARACTER-0>his<feminine>her<end> early years.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BIRTH_RENEWED_HOPE_OPTION_1</zType>
+		<Translation>The closeness and loyalty of a pet will bring joy.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BIRTH_RENEWED_HOPE_OPTION_2</zType>
+		<Translation><![CDATA[We will to provide <masculine_CHARACTER-0>him<feminine>her<end> with more siblings.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BIRTH_A_NEW_HEIR_OPTION_0</zType>
+		<Translation>My legacy has been secured.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_THE_PRICE_OPTION_0</zType>
+		<Translation>I will do anything to reclaim my vigor.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_THE_PRICE_OPTION_1</zType>
+		<Translation>Such a cost is unfathomable and cruel.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_THE_PRICE_OPTION_2</zType>
+		<Translation><![CDATA[Secretly promise to hand over the child on <masculine_CHARACTER-1>his<feminine>her<end> eighteenth birthday.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_PAYMENT_IN_FULL_OPTION_0</zType>
+		<Translation>I will take this loss with me to the grave.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_THE_MYSTIC_OPTION_0</zType>
+		<Translation>Yes, you may advise me. Now heal me!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_THE_MYSTIC_OPTION_1</zType>
+		<Translation>Remove your hands from me, dog!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_THE_DOCTOR_OPTION_0</zType>
+		<Translation>Pay whatever is necessary to ease my suffering.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_THE_DOCTOR_OPTION_1</zType>
+		<Translation>I cannot spend the nation's gold on my survival. </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_DO_IT_YOURSELF_OPTION_0</zType>
+		<Translation>Maybe this was a foolish idea.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_DO_IT_YOURSELF_OPTION_1</zType>
+		<Translation>Patient heal thyself.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_DO_IT_YOURSELF_OPTION_2</zType>
+		<Translation>Thankfully, I know what I am doing.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_ONE_WRONG_MOVE_OPTION_0</zType>
+		<Translation>May others learn from my mistake.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_FULL_RECOVERY_OPTION_0</zType>
+		<Translation>I never doubted my abilities.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_DOCTOR_PIEFACE_OPTION_0</zType>
+		<Translation>Agh! Remove yourself immediately!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_DOCTOR_PIEFACE_OPTION_1</zType>
+		<Translation>I choose to gamble with my life.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_PICTURE_OF_HEALTH_OPTION_0</zType>
+		<Translation>I am as surprised as anyone.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_JOKES_ON_YOU_OPTION_0</zType>
+		<Translation>I blame only myself.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_JOKES_ON_YOU_OPTION_0_HELP</zType>
+		<Translation>Only a fool trusts a fool.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_MONKEYS_PAW_OPTION_0</zType>
+		<Translation>Throw the disgusting thing into the fire!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_MONKEYS_PAW_OPTION_1</zType>
+		<Translation>{CHARACTER-SHORT-0} should ignore childish stories. </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_MONKEYS_PAW_OPTION_2</zType>
+		<Translation>Perhaps I should take it... just in case.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NONSENSE_OR_IS_IT_OPTION_0</zType>
+		<Translation>What harm could it do to try?</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NONSENSE_OR_IS_IT_OPTION_1</zType>
+		<Translation>I should burn the beastly thing.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NONSENSE_OR_IS_IT_OPTION_2</zType>
+		<Translation>Tell the servant to return it to my quarters.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MAKE_A_WISH_OPTION_0</zType>
+		<Translation>I wish for riches!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MAKE_A_WISH_OPTION_1</zType>
+		<Translation>I wish for renown!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MAKE_A_WISH_OPTION_2</zType>
+		<Translation>I wish for power!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MAKE_A_WISH_OPTION_3</zType>
+		<Translation>Wait... I had better not. Burn it!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_OPEN_THE_GATES_OPTION_0</zType>
+		<Translation>Curse that monkey's paw.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_CUTS_BOTH_WAYS_OPTION_0</zType>
+		<Translation>Curse that monkey's paw.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RISE_AND_FALL_OPTION_0</zType>
+		<Translation>Curse that monkey's paw.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_OF_THE_PAW_OPTION_0</zType>
+		<Translation>Curse that monkey's paw.</Translation>
+	</Entry>
   <Entry beginGroup="City">
 		<zType>TEXT_EVENTOPTION_HAPPINESS_IMMIGRANTS_YES</zType>
 		<Translation><![CDATA[Let them settle in {CITY-0}.]]></Translation>
@@ -12320,5 +12536,89 @@
   <Entry>
     <zType>TEXT_EVENTOPTION_MONUMENTAL_GATE_NO</zType>
     <Translation>We cannot afford it.</Translation>
-  </Entry>	  
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BARREN_OPTION_0</zType>
+		<Translation> Offer a sacrafice to the gods, and seek their blessings.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BARREN_OPTION_1</zType>
+		<Translation>Take a fertile servant to bear you children. </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MIRACLE_BIRTH_OPTION_0</zType>
+		<Translation>Throw a feast! The world shall remember this day!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MIRACLE_BIRTH_OPTION_1</zType>
+		<Translation>Prepare thanksgiving offerings to the gods!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MIRACLE_BIRTH_OPTION_2</zType>
+		<Translation>Even the gods themselves cannot stop us!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_END_OF_A_SIEGE_OPTION_0</zType>
+		<Translation>Bring the horse inside. Let us celebrate our victory.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_END_OF_A_SIEGE_OPTION_1</zType>
+		<Translation>Burn it down - it's a trap!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_END_OF_A_SIEGE_BAD_OPTION_0</zType>
+		<Translation>It is too late now. Surrender the city.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_END_OF_A_SIEGE_BAD_OPTION_1</zType>
+		<Translation>I feel link(TRAIT_FOOLISH), but we will fight to the death!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_END_OF_A_SIEGE_GOOD_OPTION_0</zType>
+		<Translation>Glue the wood together and let them weaken in starvation.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_END_OF_A_SIEGE_GOOD_OPTION_1</zType>
+		<Translation>Let us imprison them and work them for free.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_END_OF_A_SIEGE_GOOD_OPTION_2</zType>
+		<Translation>I knew that already; we are heating the oil to pour on them as we speak!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TROOPS_RANSACK_OPTION_0</zType>
+		<Translation>Let the troops take their spoils. They've earned it.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TROOPS_RANSACK_OPTION_1</zType>
+		<Translation>Let their General, {CHARACTER-SHORT-4}, join them in gathering loot.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TROOPS_RANSACK_OPTION_2</zType>
+		<Translation>Stop this atrocity; we shall preserve the city.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TROOPS_RANSACK_SLAVERY_OPTION_0</zType>
+		<Translation>Sell them into slavery.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TROOPS_RANSACK_SLAVERY_OPTION_1</zType>
+		<Translation>Use them as slaves in {CITY-4}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TROOPS_RANSACK_SLAVERY_OPTION_2</zType>
+		<Translation>Slaughter them all for fighting us.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TROOPS_RANSACK_TREASURE_OPTION_0</zType>
+		<Translation>Sell it all.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TROOPS_RANSACK_TREASURE_OPTION_1</zType>
+		<Translation>Lavish our capital, {CITY-4}, in refinements.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TROOPS_RANSACK_TREASURE_OPTION_2</zType>
+		<Translation>Use the hoard to help restore the city.</Translation>
+	</Entry>
 </Root>

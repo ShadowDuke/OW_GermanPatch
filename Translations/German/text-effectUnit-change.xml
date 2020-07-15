@@ -95,6 +95,10 @@
 		<Translation>Techniker</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_AMPHIBIOUS</zType>
+		<English>Amphibisch</English>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_BESIEGER</zType>
 		<Translation>Belagerer</Translation>
 	</Entry>

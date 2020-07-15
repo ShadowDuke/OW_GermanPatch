@@ -22,6 +22,12 @@
 		<iTurns>40</iTurns>
 	</Entry>
 	<Entry>
+		<zType>MEMORYPLAYER_STEAL_RESEARCH</zType>
+		<zText>Forschung gestohlen</zText>
+		<iValue>-40</iValue>
+		<iTurns>40</iTurns>
+	</Entry>
+	<Entry>
 		<zType>MEMORYPLAYER_ADOPTED_RELIGION</zType>
 		<zText>Übernahmen eine Staatsreligion</zText>
 		<iTurns>5</iTurns>
@@ -548,4 +554,9 @@
 		<zText>Hat die Führung unserer eingenommenen Stadt hingerichtet</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry> 
+	<Entry beginGroup="Community">
+		<zType>MEMORYPLAYER_TROOPS_RANSACK</zType>
+		<zText>Plünderte unsere Stadt</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
 </Root>

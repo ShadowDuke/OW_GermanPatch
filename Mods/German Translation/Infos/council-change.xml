@@ -12,9 +12,11 @@
 		<AssignMission/>
 		<aiPlayerOpinion/>
 		<aiBarbarianOpinion/>
+		<aiReligionOpinion/>			  
 		<aiFamilyOpinion/>
 		<abTraitPrereq/>
-		<aaiRatingYieldRate/>
+		<aaiRatingYieldGlobal/>
+		<aaiRatingYieldCity/>
 	</Entry>
 	<Entry>
 		<zType>COUNCIL_AMBASSADOR</zType>
@@ -26,7 +28,7 @@
 		<AssignMission>MISSION_AMBASSADOR</AssignMission>
 		<aiPlayerOpinion>
 			<Pair>
-				<zIndex>RATING_CHARISMA</zIndex>
+				<zIndex>RATING_WISDOM</zIndex>
 				<iValue>10</iValue>
 			</Pair>
 		</aiPlayerOpinion>
@@ -50,6 +52,24 @@
 				<bValue>1</bValue>
 			</Pair>
 		</abTraitPrereq>
+		<aaiRatingYieldGlobal>
+			<Pair>
+				<zIndex>RATING_CHARISMA</zIndex>
+				<SubPair>
+					<zSubIndex>YIELD_CIVICS</zSubIndex>
+					<iValue>20</iValue>
+				</SubPair>
+			</Pair>
+		</aaiRatingYieldGlobal>
+		<aaiRatingYieldCity>
+			<Pair>
+				<zIndex>RATING_DISCIPLINE</zIndex>
+				<SubPair>
+					<zSubIndex>YIELD_GROWTH</zSubIndex>
+					<iValue>5</iValue>
+				</SubPair>
+			</Pair>
+		</aaiRatingYieldCity>
 	</Entry>
 	<Entry>
 		<zType>COUNCIL_CHANCELLOR</zType>
@@ -59,6 +79,12 @@
 		<iXP>5</iXP>
 		<iOpinion>40</iOpinion>
 		<AssignMission>MISSION_CHANCELLOR</AssignMission>
+		<aiFamilyOpinion>
+			<Pair>
+				<zIndex>RATING_CHARISMA</zIndex>
+				<iValue>10</iValue>
+			</Pair>
+		</aiFamilyOpinion>	
 		<abTraitPrereq>
 			<Pair>
 				<zIndex>TRAIT_ZEALOT_ARCHETYPE</zIndex>
@@ -73,29 +99,31 @@
 				<bValue>1</bValue>
 			</Pair>
 		</abTraitPrereq>
-		<aaiRatingYieldRate>
+		<aaiRatingYieldGlobal>
+			<Pair>
+				<zIndex>RATING_COURAGE</zIndex>
+				<SubPair>
+					<zSubIndex>YIELD_TRAINING</zSubIndex>
+					<iValue>30</iValue>
+				</SubPair>
+			</Pair>
 			<Pair>
 				<zIndex>RATING_DISCIPLINE</zIndex>
 				<SubPair>
 					<zSubIndex>YIELD_MONEY</zSubIndex>
-					<iValue>50</iValue>
+					<iValue>40</iValue>
 				</SubPair>
 			</Pair>
-			<Pair>
-				<zIndex>RATING_CHARISMA</zIndex>
-				<SubPair>
-					<zSubIndex>YIELD_ORDERS</zSubIndex>
-					<iValue>5</iValue>
-				</SubPair>
-			</Pair>
+		</aaiRatingYieldGlobal>
+		<aaiRatingYieldCity>
 			<Pair>
 				<zIndex>RATING_WISDOM</zIndex>
 				<SubPair>
-					<zSubIndex>YIELD_CIVICS</zSubIndex>
-					<iValue>20</iValue>
+					<zSubIndex>YIELD_CULTURE</zSubIndex>
+					<iValue>10</iValue>
 				</SubPair>
 			</Pair>
-		</aaiRatingYieldRate>
+		</aaiRatingYieldCity>
 	</Entry>
 	<Entry>
 		<zType>COUNCIL_SPYMASTER</zType>
@@ -106,12 +134,12 @@
 		<iOpinion>40</iOpinion>
 		<EffectPlayer>EFFECTPLAYER_COUNCIL_SPYMASTER</EffectPlayer>													 
 		<AssignMission>MISSION_SPYMASTER</AssignMission>
-		<aiFamilyOpinion>
+		<aiReligionOpinion>
 			<Pair>
-				<zIndex>RATING_COURAGE</zIndex>
+				<zIndex>RATING_CHARISMA</zIndex>
 				<iValue>10</iValue>
 			</Pair>
-		</aiFamilyOpinion>
+		</aiReligionOpinion>
 		<abTraitPrereq>
 			<Pair>
 				<zIndex>TRAIT_TACTICIAN_ARCHETYPE</zIndex>
@@ -126,21 +154,30 @@
 				<bValue>1</bValue>
 			</Pair>
 		</abTraitPrereq>
-		<aaiRatingYieldRate>
-			<Pair>
-				<zIndex>RATING_DISCIPLINE</zIndex>
-				<SubPair>
-					<zSubIndex>YIELD_TRAINING</zSubIndex>
-					<iValue>20</iValue>
-				</SubPair>
-			</Pair>
+		<aaiRatingYieldGlobal>
 			<Pair>
 				<zIndex>RATING_WISDOM</zIndex>
 				<SubPair>
 					<zSubIndex>YIELD_SCIENCE</zSubIndex>
-					<iValue>20</iValue>
+					<iValue>10</iValue>
 				</SubPair>
 			</Pair>
-		</aaiRatingYieldRate>
+			<Pair>
+				<zIndex>RATING_DISCIPLINE</zIndex>
+				<SubPair>
+					<zSubIndex>YIELD_ORDERS</zSubIndex>
+					<iValue>5</iValue>
+				</SubPair>
+			</Pair>
+		</aaiRatingYieldGlobal>
+		<aaiRatingYieldCity>	  
+			<Pair>
+				<zIndex>RATING_COURAGE</zIndex>
+				<SubPair>
+					<zSubIndex>YIELD_DISCONTENT</zSubIndex>
+					<iValue>-2</iValue>
+				</SubPair>
+			</Pair>
+		</aaiRatingYieldCity>
 	</Entry>
 </Root>

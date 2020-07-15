@@ -118,6 +118,12 @@
 		<bUpgrade>1</bUpgrade>
 	</Entry>
 	<Entry>
+		<zType>PROMOTION_AMPHIBIOUS</zType>
+		<zName>Amphibisch</zName>
+		<EffectUnit>EFFECTUNIT_AMPHIBIOUS</EffectUnit>
+		<bUpgrade>1</bUpgrade>
+	</Entry>
+	<Entry>
 		<zType>PROMOTION_BESIEGER</zType>
 		<zName>Belagerer</zName>
 		<EffectUnit>EFFECTUNIT_BESIEGER</EffectUnit>

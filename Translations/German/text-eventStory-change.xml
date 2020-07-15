@@ -1645,10 +1645,18 @@ First, we must...  </Translation>
 Our generals must rally to face the enemy. What shall they command?</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTSTORY_BARBARIAN_INVASION_UPSET</zType>
+		<Translation>[STUB: {BARBARIAN-0} ARE DISPLEASED WITH YOU AND HAVE LAUNCHED AN INVASION!]</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTSTORY_BARBARIAN_WAR_AMBITION</zType>
 		<Translation>The dishonorable behavior of the {BARBARIAN-0} must no longer be tolerated. Quite simply, they must be taught a lesson. 
 
 The court desires war, to send a strong and unmistakable message.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BARBARIAN_WAR_MARRIAGE</zType>
+		<Translation>[STUB: MESSENGERS FROM {BARBARIAN-0} ARRIVE AND DEMAND THAT YOU MARRY {CHARACTER-1}, ONE OF YOUR DESCENDANTS, TO ONE OF THEIR OWN, {CHARACTER-2}]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_BUILDER_ARCHETYPE_PLEASED</zType>
@@ -1743,6 +1751,10 @@ War ambassadors from {PLAYER-0} have come with an ultimatum: we must agree to th
 		<Translation>While your forces wage war against the soldiers of {PLAYER-2}, the court holds an audience with diplomats from {PLAYER-0}, who seem unusually confident. Sneering, they demand that we meet their terms, lest their own troops take advantage of our current vulnerability.
 
 We find ourselves between two armies. What is your command?</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_WAR_OFFER_ANGRY_RELIGION</zType>
+		<Translation>[STUB: {PLAYER-0} IS UPSET THAT YOU HAVE ANGERED ADHERENTS OF THEIR STATE RELIGION, {RELIGION-2}, AND ARE ABOUT TO DECLARE WAR]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DIPLO_OFFER_RELIGION_SPREAD</zType>
@@ -2341,6 +2353,10 @@ It is {CHARACTER-SHORT-3}'s advice that we remove {CHARACTER-SHORT-4} from any i
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DEMAND_CITY</zType>
 		<Translation>[STUB: THE {FAMILY-0} FAMILY IS DEMANDING THAT WE GIVE THEM THE CITY OF {CITY-2}]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEMAND_LUXURY</zType>
+		<Translation>[STUB: THE {FAMILY-0} FAMILY IS DEMANDING THAT WE GIVE THEM OUR EXCESS link(CONCEPT_LUXURY) {RESOURCE-1}]</Translation>
 	</Entry>
   <Entry beginGroup="Character">
 		<zType>TEXT_EVENTSTORY_DELICIOUS_DRINKS</zType>
@@ -4717,6 +4733,136 @@ After a week's trek through the wilderness, you emerge in the outskirts of {CITY
 		<Translation><![CDATA[Within minutes of escaping your camp, you realize that your orienteering skills are profoundly lacking. Lost beneath a sky full of stars, you wander the wilderness. Days pass. You thirst and hunger with no relief.
 
 Later, a caravan of merchants discovers you half-mad in a ditch and nurses you back to health. By the time you finally reach {CITY-1}, you have suffered an ordeal that would have broken a lesser <masculine_CHARACTER-1>man<feminine>woman<end>.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BIRTH_CHILD_OF_PROPHECY</zType>
+		<Translation><![CDATA[As servants carry the newborn heir to be bathed, a strange old beggar wanders into the court from the busy street. He falls to his knees before the swaddled babe, weeping into his cracked and filthy fingers.
+
+"This is the child of prophecy," the beggar declares. "All {PLAYER-1}'s fortunes are to tied to <masculine_CHARACTER-0>his<feminine>hers<end>."]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BIRTH_SHOWERED_WITH_GIFTS</zType>
+		<Translation><![CDATA[All {PLAYER-4} rejoices at the news of a new heir! Your legacy is secure... for now. 
+
+The vassal families wish to visit the child and bestow gifts upon <masculine_CHARACTER-0>him<feminine>her<end>. This may be an opportunity to play favorites]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BIRTH_RENEWED_HOPE</zType>
+		<Translation><![CDATA[The birth of young {CHARACTER-0} lays to rest any worries about your legacy. You wish to provide the heir with every comfort and opportunity, ensuring that <masculine_CHARACTER-0>he<feminine>she<end> will grow to become a legendary leader of {PLAYER-1}.
+
+What will benefit the child at this young age?]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BIRTH_A_NEW_HEIR</zType>
+		<Translation>At the announcement of the heir's birth, celebrations erupt in the capital of {CITY-1}. People gather in the streets to toast {CHARACTER-0} and revel in the hope of a bright future.
+
+May {CHARACTER-SHORT-0} grow and prosper!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_THE_PRICE</zType>
+		<Translation><![CDATA[The misery of ongoing illness motivates you to pursue any potential remedy. Even those considered somewhat... untraditional.
+
+A haggard crone appears before the court, having heard news of the <masculine_CHARACTER-0>king's<feminine>queen's<end> dire situation. She offers to create a miracle nostrum that will relieve you of your pains. She has but one price: a child.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_PAYMENT_IN_FULL</zType>
+		<Translation><![CDATA[The royal family gathers to celebrate the birthday of young {CHARACTER-1}, now a grown <masculine_CHARACTER-1>man<feminine>woman<end>. As the festivities begin, a peal of thunder splits the thickening air outside, and a familiar emaciated figure appears in the doorway: the crone with whom you made a devil's bargain.
+
+Before you can even cry out, a darkness falls across the chamber, and when your sight returns, {CHARACTER-SHORT-1} is gone. Forever.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_THE_MYSTIC</zType>
+		<Translation>One morning, a strange mystic appears on the steps of the court. He meditates with the rising sun and again with the darkening dusk. Later, when you begin coughing blood, the man appears beside you. "This is why I have been summoned," he explains. "I am here to ease your pain."
+
+"I can heal you, but you must allow me to sit by your throne and advise you. I have been sent for this purpose."</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_THE_DOCTOR</zType>
+		<Translation><![CDATA[In the middle of a rigorous debate, you collapse on the floor of the court in a fit of retching and delirium. We summon the court physician, and he attends to your symptoms. Unfortunately, the illness has taken a great toll, and the only way to regain your health is to procure expensive remedies from abroad.
+
+What are your orders, our <masculine_CHARACTER-0>king<feminine>queen<end>?]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_DO_IT_YOURSELF</zType>
+		<Translation>You have suffered enough in the grasp of this terrible illness. The time has come to take matters into your own hands. Gathering a collection of herbs, minerals, and ritual substances, you and {CHARACTER-1} prepare to remedy whatever malicious ailment has possessed you.
+
+You prepare the leeches for the bloodletting....</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_ONE_WRONG_MOVE</zType>
+		<Translation><![CDATA[As you and {CHARACTER-SHORT-1} work to balance your delicate humors, the knife slips, and you nick a vital organ. Blood pools quickly on the floor, and despite <masculine_CHARACTER-1>his<feminine>her<end> best efforts, {CHARACTER-SHORT-1} is unable to staunch the flow. 
+
+The last thing you see as your essence empties from your body is the blue of a summer's day through the open window. ]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_FULL_RECOVERY</zType>
+		<Translation>Working carefully, you and {CHARACTER-SHORT-1} rebalance your humors with a combination of herbs and targeted bloodletting. Soon you begin to feel the purifying effects of the procedure, and you adjourn to your chambers for a much-needed rest.
+
+Several days later, you seem to have made a full recovery.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_DOCTOR_PIEFACE</zType>
+		<Translation><![CDATA[You are awakened from your feverish slumber by the ridiculous visage of Pieface. He staggers drunkenly into your chambers, carrying a vial of some mysterious substance, several leeches, and a rusty blade. "I have come to heal you, my <masculine_CHARACTER-0>king<feminine>queen<end>!"
+
+You have a sneaking suspicion that the mysterious substance is pigeon droppings.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_PICTURE_OF_HEALTH</zType>
+		<Translation>Your horrifying screams keep the royal house awake through the long night. However, much to everyone's surprise, your outlook improves come the morning.
+
+Whatever {CHARACTER-SHORT-1} did with his leeches and droppings has rid you of your condition. Perhaps you have misjudged the fool.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_JOKES_ON_YOU</zType>
+		<Translation>You should have known better than to trust a fool.
+
+{CHARACTER-SHORT-1}'s clumsy attempts to alleviate your illness lead only to more suffering. Your death is long and painful, and it takes the servants several days afterwards to clean up the mess. </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_MONKEYS_PAW</zType>
+		<Translation><![CDATA[During a feast celebrating the recent solstice, {CHARACTER-0} reveals a shriveled monkey's paw to those in attendance. The grotesque trophy was given to <masculine_CHARACTER-0>him<feminine>her<end> while traveling in exotic lands far beyond the borders of {PLAYER-1}. 
+
+According to {CHARACTER-SHORT-0}, the paw was cursed by a bitter old conjurer. It will grant its owner a wish... but at a terrible cost.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NONSENSE_OR_IS_IT</zType>
+		<Translation>Late one evening, a servant approaches, carrying a small, hideous object between two fingers: the monkey's paw. The girl discovered it while cleaning the royal chambers. You had almost forgotten about the paw and its ridiculous legend.
+
+A magical wish... at a terrible cost. Nonsense. 
+
+Or is it?</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MAKE_A_WISH</zType>
+		<Translation>As the evening shadows fall, you hold the monkey's paw before the flickering hearth and make your plea. The flames rise and fall with the beating of your heart.
+
+Is that a monkey's grinning face you glimpse in the roaring fire, or is it only your imagination?</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_OPEN_THE_GATES</zType>
+		<Translation>News of an unexpected trade expedition greets you one morning, as crowds throng the gates of {CITY-0}. The expedition, thought lost, carries jewels, delicacies, and payments from foreign deals.
+
+Sadly, it is a day of mixed emotions. With the arrival of the expedition comes a strange sickness that infects workers across {CITY-0}, slowing the harvest.  </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_CUTS_BOTH_WAYS</zType>
+		<Translation>Unbeknownst to you, a pair of prolific {PLAYER-0,1} poets have been roaming the lands of {PLAYER-1} and {PLAYER-2}, regaling their peoples with tales of your glory. {CHARACTER-0} has become a character of popular culture, boosting your reputation far and wide.
+
+Of course, with this vast rise in awareness comes an equally vast rise in ill will. If your rivals among the vassal houses did not plot your death before, they certainly do now.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RISE_AND_FALL</zType>
+		<Translation><![CDATA[In an unprecedented surge of national pride, record numbers of {PLAYER-0,2} enlist in the military. Barracks and training grounds are overrun with recruits. The might of {PLAYER-0} swells almost overnight.
+
+However, in a strange twist of fate, the heir to the throne, {CHARACTER-SHORT-3}, develops a terrible fever that saps <masculine_CHARACTER-3>his<feminine>her<end> strength and leaves <masculine_CHARACTER-3>him<feminine>her<end> bedridden.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEGACY_OF_THE_PAW</zType>
+		<Translation><![CDATA[Distraught servants search the palace to find you. It is the heir, {CHARACTER-3}! While playing in your chambers, <masculine_CHARACTER-3>he<feminine>she<end> came across the monkey's paw, and <masculine_CHARACTER-3>he<feminine>she<end> must have made a wish.
+
+You begin to feel faint, weak...
+
+Over the course of several days, the court declares your sudden sickness as reason enough for your abdication. {CHARACTER-SHORT-3} ascends the throne, <masculine_CHARACTER-3>his<feminine>her<end> wish granted.]]></Translation>
 	</Entry>	 
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS</zType>
@@ -7075,5 +7221,39 @@ How shall you decide who is truthful?</Translation>
   <Entry>
     <zType>TEXT_EVENTSTORY_MONUMENTAL_GATE</zType>
     <Translation><![CDATA[The citizens of {CITY-1} are overjoyed at the success of {CHARACTER-0} and wish to celebrate <masculine_CHARACTER-0>his<feminine>her<end> recent battle win with the building of a link(PROJECT_MONUMENTAL_GATE) in celebration.]]></Translation>
-  </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BARREN</zType>
+		<Translation>Since you and your spouse have borne no children to be your heirs, you seek the counsel of your courtiers, wise men, and religious leaders. Your line must continue.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MIRACLE_BIRTH</zType>
+		<Translation>This is a joyous day! {CHARACTER-0} and {CHARACTER-1} were thought to be barren, but the gods have shown favor by providing an heir in your old age.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_END_OF_A_SIEGE</zType>
+		<Translation>After a long siege of our {CITY-1}, the {PLAYER-0,1} soldiers have retreated, leaving a large wooden horse in front of your link(PROJECT_WALLS).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_END_OF_A_SIEGE_BAD</zType>
+		<Translation>While we slept after our celebration of victory, enemy {PLAYER-0,1} units crawled out of the wooden horse that we brought inside our link(PROJECT_WALLS) and started attacking our citizens.  Now the enemy is on the inside!
+		
+What would you have us do?</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_END_OF_A_SIEGE_GOOD</zType>
+		<Translation>The citizens of {CITY-1} are quite cheered by the celebrations, but they feel that the horse might have hidden {PLAYER-0,1} soldiers sealed inside it. What would you have us do?</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TROOPS_RANSACK</zType>
+		<Translation>On entering {CITY-1}, our invading forces ransack the city and devastate its surroundings. Should we allow such behavior?</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TROOPS_RANSACK_SLAVERY</zType>
+		<Translation>Following the taking of {CITY-1}, your troops round up a large number of citizens, dragging them from their hiding places in cellars and warehouses.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TROOPS_RANSACK_TREASURE</zType>
+		<Translation>Following the taking of {CITY-1}, you discover a large quantity of hidden art, temple refinements, luxury textiles, and more.</Translation>
+	</Entry>
 </Root>

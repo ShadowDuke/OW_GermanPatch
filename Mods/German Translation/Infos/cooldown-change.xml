@@ -124,6 +124,11 @@
 	<Entry>
 		<zType>COOLDOWN_DISEMBARKED</zType>
 		<zName>Gesperrt</zName>
+	<zIconName>COOLDOWN_PASS</zIconName>
+	</Entry>
+	<Entry>
+		<zType>COOLDOWN_RETURNED</zType>
+		<zName>Zurückgekehrt</zName>
 		<zIconName>COOLDOWN_PASS</zIconName>
 	</Entry>
 </Root>

@@ -11,6 +11,10 @@
     <Entry>
         <zType>TEXT_GENERIC_CANCEL</zType>
         <Translation>Abbrechen</Translation>
+	</Entry>
+    <Entry>
+        <zType>TEXT_UI_INPUT_MAX_CHARACTERS</zType>
+        <Translation> (Max Charaktere: {0})</Translation>
     </Entry>
 <!--ClientUI-->
 	<Entry>
@@ -116,6 +120,14 @@
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_GENERAL</zType>
 		<Translation>Feldherr:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_WATER_VS_LAND</zType>
+		<Translation>Wasser-vs-Land:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_LAND_VS_WATER</zType>
+		<Translation>Land-vs-Wasser:</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_GENERAL_ENEMY</zType>
@@ -554,19 +566,16 @@
         <zType>TEXT_MENU_SCREEN_NEXT_BUTTON</zType>
         <Translation>Nächster</Translation>
     </Entry>
-
     <!-- selected-city -->
     <Entry>
         <zType>TEXT_GIFT_CITY_TEAMMATE</zType>
         <Translation>Schenke Stadt</Translation>
     </Entry>
-
     <!-- selected-worker-->
     <Entry>
         <zType>TEXT_WORKER_FILTERS_LABEL</zType>
         <Translation>Filter</Translation>
     </Entry>
-
     <!-- other selection panels-->
     <Entry>
         <zType>TEXT_MANAGE_LUXURIES</zType>
@@ -584,9 +593,7 @@
         <zType>TEXT_STOP_SENDING_LUXURY</zType>
         <Translation>Stoppe schicken {0}</Translation>
     </Entry>
-
     <!--single player menu-->
-
     <Entry>
         <zType>SP_MENU_SCREEN_NEWGAME_BUTTON</zType>
         <Translation>Neues Spiel</Translation>
@@ -607,14 +614,11 @@
         <zType>SP_MENU_SCREEN_BACK_BUTTON</zType>
         <Translation>Zurück</Translation>
     </Entry>
-
     <!--multiplayer menu-->
-
     <Entry>
         <zType>MP_MENU_SCREEN_JOIN_BUTTON</zType>
         <Translation>Beitreten</Translation>
     </Entry>
-
     <Entry>
         <zType>MP_MENU_SCREEN_NEWGAME_BUTTON</zType>
         <Translation>Neues Spiel</Translation>
@@ -631,16 +635,12 @@
         <zType>MP_MENU_SCREEN_BACK_BUTTON</zType>
         <Translation>Zurück</Translation>
     </Entry>
-
     <!--cloud-->
-
     <Entry>
         <zType>CLOUD_SCREEN_BACK_BUTTON</zType>
         <Translation>Zurück</Translation>
     </Entry>
-
     <!--multiplayer games screen-->
-
     <Entry>
         <zType>MP_GAME_SCREEN_BUTTON</zType>
         <Translation>Mehrspieler</Translation>
@@ -653,7 +653,6 @@
         <zType>MP_GAME_SCREEN_BROWSER_BUTTON</zType>
         <Translation>Spiel Browser</Translation>
     </Entry>
-
     <!--games header in multiplayer-->
     <Entry>
         <zType>TEXT_GAME_HEADER_NAME_CELL</zType>
@@ -671,7 +670,6 @@
         <zType>TEXT_GAME_HEADER_VERSION_CELL</zType>
         <Translation>Version</Translation>
     </Entry>
-
     <!--multiplayer-->
     <Entry>
         <zType>MP_PLAYERS_SCREEN_OBSERVE_BUTTON</zType>
@@ -698,10 +696,7 @@
         <zType>TOOLS_SCREEN_BACK_BUTTON</zType>
         <Translation>Zurück</Translation>
     </Entry>
-
-
     <!--minimap.xml-->
-
     <!--mini map-->
     <Entry>
         <zType>TEXT_MINI_MAP_OPTIONS_DROPDOWN_NO_OVERLAY</zType>
@@ -727,10 +722,7 @@
         <zType>TEXT_MINI_MAP_OPTIONS_DROPDOWN_TILERES</zType>
         <Translation>Feld Ressourcen [N]</Translation>
     </Entry>
-
-
     <!--mp-setup-screen.xml-->
-
     <!--multiplayer setup screen-->
     <Entry>
         <zType>TEXT_MP_SETUP_SEC_BUTTON_BACK</zType>
@@ -748,19 +740,16 @@
         <zType>TEXT_MP_SETUP_TITLE_LABEL_HOSTG</zType>
         <Translation>Hoste Spiel</Translation>
     </Entry>
-
     <!--servers-->
     <Entry>
         <zType>TEXT_MP_SETUP_OPTIONS_LABEL_SERVERS</zType>
         <Translation>Server</Translation>
     </Entry>
-
     <!--network-->
     <Entry>
         <zType>TEXT_MP_SETUP_OPTIONS_LABEL_NETWORK</zType>
         <Translation>Netzwerk</Translation>
     </Entry>
-
     <!--game options-->
     <Entry>
         <zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_GAMENAME</zType>
@@ -834,7 +823,6 @@
         <zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_SEED</zType>
         <Translation>Seed</Translation>
     </Entry>
-
     <!-- players-->
     <Entry>
         <zType>TEXT_MP_SETUP_PLAYERS_NAME</zType>
@@ -856,7 +844,6 @@
         <zType>TEXT_MP_SETUP_PLAYERS_USERNAME</zType>
         <Translation>Benutzername</Translation>
     </Entry>
-
     <!-- schedule-->
     <Entry>
         <zType>TEXT_MP_SETUP_SCHEDULE_NETWORKPOST</zType>
@@ -883,9 +870,7 @@
 		<zType>TEXT_MOD_MANAGER_MANAGE_TAB</zType>
 		<Translation>Verwalte</Translation>
 	</Entry>
-
 	<!--options-menu.xml-->
-
 	<!--title bar-->
 	<Entry>
         <zType>TEXT_OPTIONS_MENU_TITLEBAR_GAMEPLAY</zType>
@@ -911,7 +896,6 @@
 		<zType>TEXT_OPTIONS_MENU_TITLEBAR_COLORS</zType>
 		<Translation>Farben</Translation>
 	</Entry>-->
-
     <!--controls-->
     <Entry>
         <zType>TEXT_OPTIONS_MENU_CONTROLS_SAVE</zType>
@@ -921,7 +905,6 @@
         <zType>TEXT_OPTIONS_MENU_CONTROLS_RESET</zType>
         <Translation>Zurücksetzen</Translation>
     </Entry>
-
     <!--scenario-setup-screen.xml -->
     <Entry>
         <zType>TEXT_SCENARIO_SETUP_NEWSCENARIO</zType>
@@ -955,9 +938,7 @@
         <zType>TEXT_SCENARIO_SETUP_STARTGAME</zType>
         <Translation>Starte Spiel</Translation>
     </Entry>
-
     <!--sp-setup-screen.xml-->
-
     <!--tabs-->
     <Entry>
         <zType>TEXT_SP_SETUP_TABS_BIO</zType>
@@ -967,7 +948,6 @@
         <zType>TEXT_SP_SETUP_TABS_STATS</zType>
         <Translation>Statistiken</Translation>
     </Entry>
-
     <Entry>
         <zType>TEXT_SP_SETUP_TABS_SETUP_SIMPLE</zType>
         <Translation>Einfache Einstellungen</Translation>
@@ -976,7 +956,6 @@
         <zType>TEXT_SP_SETUP_TABS_SETUP_ADVANCED</zType>
         <Translation>Erweiterte Einstellungen</Translation>
     </Entry>
-
     <!--stats-->
     <Entry>
         <zType>TEXT_SP_SETUP_STATS_STARTSWITH</zType>
@@ -990,13 +969,11 @@
         <zType>TEXT_SP_SETUP_TABS_SETUP_FAMILIES</zType>
         <Translation>Familien</Translation>
     </Entry>
-
     <!--random-->
     <Entry>
         <zType>TEXT_SP_SETUP_RANDOM</zType>
         <Translation>Zufällig</Translation>
     </Entry>
-
     <!--simple-->
     <Entry>
         <zType>TEXT_SP_SETUP_SIMPLE_DIFFICULTY</zType>
@@ -1018,7 +995,6 @@
         <zType>TEXT_SP_SETUP_SIMPLE_MAPSIZE</zType>
         <Translation>Karten Größe</Translation>
     </Entry>
-
     <!--advanced-->
     <Entry>
         <zType>TEXT_SP_SETUP_ADVANCED_NATION</zType>
@@ -1060,9 +1036,7 @@
         <zType>TEXT_SP_SETUP_ADVANCED_SEED</zType>
         <Translation>Seed</Translation>
     </Entry>
-
     <!--tab-panel.xml-->
-
     <!--character tab-->
     <Entry>
         <zType>TEXT_TAB_PANEL_CHARTAB_CHARACTERS</zType>
@@ -1080,7 +1054,6 @@
         <zType>TEXT_TAB_PANEL_CHARTAB_COURT_COURTIERS</zType>
         <Translation>Vertraute</Translation>
     </Entry>
-
     <!--relationships tab-->
     <Entry>
         <zType>TEXT_TAB_PANEL_RELATIONSTAB_RELIGIONS</zType>
@@ -1090,7 +1063,6 @@
         <zType>TEXT_TAB_PANEL_RELATIONSTAB_FAMILIES</zType>
         <Translation>Familien</Translation>
     </Entry>
-
     <!--diplomacy tab-->
     <Entry>
         <zType>TEXT_TAB_PANEL_DIPLOTAB_EMPIRES</zType>
@@ -1108,9 +1080,7 @@
         <zType>TEXT_TAB_PANEL_DIPLOTAB_UNITS</zType>
         <Translation>Einheiten</Translation>
     </Entry>
-
     <!--tolltips.xml-->
-
     <Entry>
         <zType>TEXT_TOOL_TIPS_REQUIREMENTS</zType>
         <Translation>Anforderungen</Translation>
@@ -1119,7 +1089,6 @@
         <zType>TEXT_TOOL_TIPS_COST</zType>
         <Translation>Kosten</Translation>
     </Entry>
-
     <!--unit info-->
     <Entry>
         <zType>TEXT_TOOL_TIPS_UNLOCKBONUS</zType>
@@ -1161,10 +1130,7 @@
         <zType>TEXT_TOOL_TIPS_SHOWTECHTREE</zType>
         <Translation>Zeige Technologie Baum [Drücke F6]</Translation>
     </Entry>
-
-
     <!--top-bar.xml-->
-
     <Entry>
         <zType>TEXT_TOP_BAR_BUY</zType>
         <Translation>Kaufe</Translation>
@@ -1173,10 +1139,7 @@
         <zType>TEXT_TOP_BAR_SELL</zType>
         <Translation>Verkaufe</Translation>
     </Entry>
-
-
     <!--city-list.xml-->
-
     <Entry>
         <zType>TEXT_CITY_LIST_CITIES</zType>
         <Translation>Städte</Translation>
@@ -1197,15 +1160,11 @@
         <zType>TEXT_CITY_LIST_POPULATION</zType>
         <Translation>Bevölkerung</Translation>
     </Entry>
-
-
     <!--overview-map.xml-->
-
     <Entry>
         <zType>TEXT_OVERVIEW_MAP_MAPOPTIONS</zType>
         <Translation>Karten Optionen</Translation>
     </Entry>
-
     <!--appears on hover-->
     <Entry>
         <zType>TEXT_OVERVIEW_MAP_REGION</zType>
@@ -1251,9 +1210,7 @@
         <zType>TEXT_OVERVIEW_MAP_WORLDEXTENTS</zType>
         <Translation>Welt Ausdehnungen</Translation>
     </Entry>
-
     <!--popup-inheritance.xml-->
-
     <Entry>
         <zType>TEXT_POPUP_INHERITANCE</zType>
         <Translation>Erbschaft</Translation>
@@ -1458,19 +1415,16 @@
         <zType>TEXT_POPUP_INHERITANCE_CHOOSELAW</zType>
         <Translation>Erlasse Gesetz</Translation>
     </Entry>
-
     <!--toprightwidget-->
     <Entry>
         <zType>TEXT_POPUP_INHERITANCE_WIDGET_CHANGELAWS</zType>
         <Translation>Ändere Gesetz</Translation>
     </Entry>
-    
     <!--city-widget-->
     <Entry>
         <zType>TEXT_WIDGET_CITY_IDLE</zType>
         <Translation>Untätig</Translation>
     </Entry>
-    
     <!--character-->
     <Entry>
         <zType>TEXT_POPUP_INHERITANCE_CHARACTER_ACTIONS</zType>
@@ -1484,7 +1438,6 @@
         <zType>TEXT_CHARACTER_UPGRADE_DECISION_TRAIT</zType>
         <Translation>Verbessere: {0_trait}</Translation>
     </Entry>
-
     <!-- tech tree-->
     <Entry>
         <zType>TEXT_TECH_TREE_OVERRIDE_CURRENT_RESEARCH</zType>

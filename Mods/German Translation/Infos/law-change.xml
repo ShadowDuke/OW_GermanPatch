@@ -232,7 +232,7 @@
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_TOLERANCE_ORTHODOXY</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_ORTHODOXY</EffectPlayer>
-		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_MEDIUM_CIVICS</EffectPlayerUpkeep>
+		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_MEDIUM_SCIENCE</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>
 		<zType>LAW_GUILDS</zType>
@@ -309,8 +309,8 @@
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_ASCETICISM_HOLY_WAR</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_ASCETICISM</EffectPlayer>
-		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_VERY_HIGH_TRAINING</EffectPlayerUpkeep>
-	</Entry>
+		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_HIGH_TRAINING</EffectPlayerUpkeep>
+	</Entry>	 
 	<Entry>
 		<zType>LAW_HOLY_WAR</zType>
 		<zName>Heiliger Krieg</zName>
@@ -320,7 +320,7 @@
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_ASCETICISM_HOLY_WAR</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_HOLY_WAR</EffectPlayer>
-		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_VERY_HIGH_CIVICS</EffectPlayerUpkeep>
+		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_HIGH_CIVICS</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>
 		<zType>LAW_DIVINE_RULE</zType>
@@ -353,7 +353,7 @@
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_ISOLATIONISM_TRADE_LEAGUE</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_ISOLATIONISM</EffectPlayer>
-		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_VERY_HIGH_CIVICS</EffectPlayerUpkeep>
+		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_VERY_HIGH_SCIENCE</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>
 		<zType>LAW_TRADE_LEAGUE</zType>

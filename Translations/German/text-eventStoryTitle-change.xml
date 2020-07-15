@@ -930,8 +930,16 @@
 		<Translation>Distant Threats</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTSTORY_BARBARIAN_INVASION_UPSET_TITLE</zType>
+		<Translation>[BARB INVASION]</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTSTORY_BARBARIAN_WAR_AMBITION_TITLE</zType>
 		<Translation>A Strong Message</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BARBARIAN_WAR_MARRIAGE_TITLE</zType>
+		<Translation>[WAR OR MARRIAGE}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_BUILDER_ARCHETYPE_PLEASED_TITLE</zType>
@@ -1016,6 +1024,10 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_WAR_OFFER_ALREADY_FIGHTING_TITLE</zType>
 		<Translation>Moment of Weakness</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_WAR_OFFER_ANGRY_RELIGION_TITLE</zType>
+		<Translation>[RELIGIOUS WAR]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DIPLO_OFFER_RELIGION_SPREAD_TITLE</zType>
@@ -1392,7 +1404,11 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DEMAND_CITY_TITLE</zType>
 		<Translation>[VERLANGE STADT]</Translation>
-	</Entry>	 
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEMAND_LUXURY_TITLE</zType>
+		<Translation>[VERLANGE LUXUSGUT]</Translation>
+	</Entry> 
   <Entry beginGroup="Marriage">
 		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_TITLE</zType>
 		<Translation>Marriage Offer</Translation>
@@ -3000,6 +3016,90 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_WANDERING_THE_WILDERNESS_TITLE</zType>
 		<Translation>Wandering the Wilderness</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BIRTH_CHILD_OF_PROPHECY_TITLE</zType>
+		<Translation>Child of Prophecy</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BIRTH_SHOWERED_WITH_GIFTS_TITLE</zType>
+		<Translation>Showered with Gifts</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BIRTH_RENEWED_HOPE_TITLE</zType>
+		<Translation>Renewed Hope</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BIRTH_A_NEW_HEIR_TITLE</zType>
+		<Translation>A New Heir</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_THE_PRICE_TITLE</zType>
+		<Translation>The Crone</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_PAYMENT_IN_FULL_TITLE</zType>
+		<Translation>Payment in Full</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_THE_MYSTIC_TITLE</zType>
+		<Translation>The Mystic</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_THE_DOCTOR_TITLE</zType>
+		<Translation>The Remedy</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_DO_IT_YOURSELF_TITLE</zType>
+		<Translation>Do it Yourself</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_ONE_WRONG_MOVE_TITLE</zType>
+		<Translation>One Wrong Move</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_FULL_RECOVERY_TITLE</zType>
+		<Translation>A Full Recovery</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_DOCTOR_PIEFACE_TITLE</zType>
+		<Translation>Doctor Pieface</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_PICTURE_OF_HEALTH_TITLE</zType>
+		<Translation>Picture of Health</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_JOKES_ON_YOU_TITLE</zType>
+		<Translation>Joke's On You</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_MONKEYS_PAW_TITLE</zType>
+		<Translation>The Monkey's Paw</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NONSENSE_OR_IS_IT_TITLE</zType>
+		<Translation>Nonsense. Or Is It?</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MAKE_A_WISH_TITLE</zType>
+		<Translation>Make a Wish</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_OPEN_THE_GATES_TITLE</zType>
+		<Translation>Open the Gates</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_CUTS_BOTH_WAYS_TITLE</zType>
+		<Translation>Cuts Both Ways</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RISE_AND_FALL_TITLE</zType>
+		<Translation>Rise and Fall</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEGACY_OF_THE_PAW_TITLE</zType>
+		<Translation>Legacy of the Paw</Translation>
 	</Entry>	 
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS_TITLE</zType>

@@ -45,6 +45,11 @@
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_US_LUXURY</zType>
+		<zText>Geweigert uns ein Luxusgut zu geben</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
 		<zType>MEMORYFAMILY_OUR_AMBITION</zType>
 		<zText>Unsere Ambition verfolgt</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
@@ -87,7 +92,7 @@
 	<Entry>
 		<zType>MEMORYFAMILY_FAMILY_GIFTS</zType>
 		<zText>Hat uns Geschenke geschickt</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_MEMBER_IMPRISONED</zType>
@@ -457,6 +462,11 @@
 		<zType>MEMORYFAMILY_RELEASED_FANATICAL_PRIESTS</zType>
 		<zText>Release fanatical priests</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_KILLED_FAMILY_MEMBER</zType>
+		<zText>Familienmitglied hingerichtet</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry beginGroup="Diplomacy">
 		<zType>MEMORYFAMILY_GRAVE_OFFENSE</zType>
@@ -837,6 +847,16 @@
 		<zType>MEMORYFAMILY_MADE_EXCUSES_TO_BARBARIANS</zType>
 		<zText>Made excuses to barbarians</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_BIRTH_GIFT</zType>
+		<zText>Gab neuem Erben Geburtstagsgeschenk</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_MONKEY_PAW_JEALOUS</zType>
+		<zText>Eifersüchtig auf großen Ruhm</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
 	</Entry>
 	<Entry beginGroup="Contact">
 		<zType>MEMORYFAMILY_FORCED_TO_KISS_FEET</zType>

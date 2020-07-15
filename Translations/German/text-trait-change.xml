@@ -455,6 +455,10 @@
 		<Translation>Berüchtigt</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_CLAIMED</zType>
+		<Translation>Beansprucht</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_FAMOUS</zType>
 		<Translation>Berühmt</Translation>
 	</Entry>
@@ -521,6 +525,10 @@
 	<Entry>
 		<zType>TEXT_TRAIT_MONKEY_ASSASSIN</zType>
 		<Translation>Affen Attentäter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_MONKEY_PAW</zType>
+		<Translation>Affen Besitzer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_OVERSEER_OF_THE_FIELDS</zType>

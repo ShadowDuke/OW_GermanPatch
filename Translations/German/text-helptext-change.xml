@@ -175,6 +175,14 @@
 		<Translation><![CDATA[<lt>sprite="{0_sheetName}" name="{1_spriteName}" tint<gt>]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_DEFAULT_INLINE_ICON</zType>
+		<Translation><![CDATA[<lt>sprite name="{1_spriteName}"/<gt>]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_DEFAULT_INLINE_ICON_TINT</zType>
+		<Translation><![CDATA[<lt>sprite name="{1_spriteName}" tint<gt>]]></Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_PERCENT</zType>
 		<Translation><![CDATA[<true_0><lt>1%<false>{1}%<end>]]></Translation>
 	</Entry>
@@ -201,6 +209,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_SIGNED_VALUE</zType>
 		<Translation><![CDATA[<true_0>+<false><end>{1_value}<true_2>%<false><end>]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_SENTENCE_CASE</zType>
+		<Translation><![CDATA[<sentencecase>{0}</sentencecase>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLUS</zType>
@@ -408,6 +420,10 @@
 		<Translation>Verbesserung(en)</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_CITY_PROJECTS</zType>
+		<Translation>Projekt(e)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_CITY_SPECIALISTS</zType>
 		<Translation>Spezialist(en)</Translation>
 	</Entry>
@@ -506,7 +522,8 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_GT_LT</zType>
-		<Translation><![CDATA[[Benötigt {0}: >= {1} und <= {2}]]]>
+		<Translation>
+			<![CDATA[[Benötigt {0}: >= {1} und <= {2}]]]>
 		</Translation>
 	</Entry>
 	<Entry>
@@ -944,7 +961,9 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_STATE_RELIGION_CURRENT</zType>
-		<Translation><![CDATA[State: {0_religion}<true_1> ({1_city})<false><end>]]></Translation>
+		<Translation>
+			<![CDATA[State: {0_religion}<true_1> ({1_city})<false><end>]]>
+		</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_STATE_RELIGION_ITEM</zType>
@@ -2305,7 +2324,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<zType>TEXT_HELPTEXT_CITY_CAPITAL_EFFECT</zType>
 		<Translation>Effekte wenn in der hauptstadt:</Translation>
 	</Entry>
-
 	<Entry>
 		<zType>TEXT_HELPTEXT_CITY_CAPITAL_NO_EFFECT</zType>
 		<Translation>Kein Effekt</Translation>
@@ -2746,6 +2764,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_ATTACK_ACROSS_RIVER</zType>
 		<Translation>Über {0_riverLink}: {1_value}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_ATTACK_LAND_WATER</zType>
+		<Translation>Land/Wasser Angriff: {0_value}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_ATTACK_INTO</zType>
@@ -3394,10 +3416,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Kann Jünger von nicht-staatlichen Religionen ausbilden</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_HOLY_CITIES_VISIBLE</zType>
-		<Translation>Jede Heilige Stadt ist sichtbar</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_LEGITIMACY_ORDERS</zType>
 		<Translation>Benutze icon(YIELD_LEGITIMACY) um icon(YIELD_ORDERS) zu kaufen</Translation>
 	</Entry>
@@ -3779,6 +3797,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>{0_family}: {1_value} Meinung ({2_law})</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_OTHER_YIELD</zType>
+		<Translation>Bekomme von {0_opponent}: {1_yieldList}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_SEND_TO</zType>
 		<Translation>Sende an {0_opponent}: {1_yieldList}</Translation>
 	</Entry>
@@ -3919,6 +3941,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation><![CDATA[Freie Religionswissenschaft<true_0> ({0_religion})<false><end>: {1_theology}]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_HOLY_CITY_AGENTS</zType>
+		<Translation>Kostenloser link(CONCEPT_AGENT) in allen heiligen Stätten</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_FOUND_RELIGION</zType>
 		<Translation>Eine Religion gegründet</Translation>
 	</Entry>
@@ -3944,8 +3970,20 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>{0} Stamm Meinung</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_MAKE_COUNCIL_RELIGION_OPINION</zType>
+		<Translation>{0} Religion Meinung</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_COUNCIL_FAMILY_OPINION</zType>
 		<Translation>{0} Familien Meinung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_MAKE_COUNCIL_YIELD_GLOBAL</zType>
+		<Translation>{0} Global</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_MAKE_COUNCIL_YIELD_CITY</zType>
+		<Translation>{0} pro Stadt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_COUNCIL_CHARACTER_OPINION</zType>
@@ -4126,22 +4164,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_OPINION</zType>
 		<Translation>Meinung: {0_opinion} ({1_value})</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_PLAYER_OPINION_LEADER</zType>
-		<Translation>{0_opinion}: Oberhaupt</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_PLAYER_OPINION_LEADER_SPOUSE</zType>
-		<Translation>{0_opinion}: Ehepartner des Oberhauptes</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_PLAYER_OPINION_DESCENDANTS</zType>
-		<Translation>{0_opinion}: Nachkommen des Oberhauptes</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_PLAYER_OPINION_DESCENDANT_SPOUSE</zType>
-		<Translation>{0_opinion}: Heirate(n) zu Nachkommen des Oberhauptes</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_OPINION_FAMILY_CLASS</zType>
@@ -4621,6 +4643,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<zType>TEXT_HELPTEXT_RESOURCE_FROM_IMPROVEMENT</zType>
 		<Translation>Von {0_improvement}:</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_RESOURCE_MISSING</zType>
+		<Translation>{0}: {1_value} Meinung/Stadt wenn fehlt</Translation>
+	</Entry>
 	<!--Project Help-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_PROJECT_NAME</zType>
@@ -4684,6 +4710,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Kostet {0,1}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_SPECIALIST_COSTS_CITIZEN</zType>
+		<Translation>Kostet {0_citizen}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_SPECIALIST_BUILD</zType>
 		<Translation>Benötigt: {0} link(YIELD_CIVICS) {1_progress}</Translation>
 	</Entry>
@@ -4742,6 +4772,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Global: {0}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_RATING_HELP_ALL_CITIES</zType>
+		<Translation>Jede Stadt: {0}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_RATING_HELP_CITY_RATING</zType>
 		<Translation><![CDATA[<true_0>{0}<false>Stadt<end>: ]]></Translation>
 	</Entry>
@@ -4776,6 +4810,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_RATING_AS_X</zType>
 		<Translation>As {0}: </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_RATING_X_OF_YIELD</zType>
+		<Translation>{0}% von {1_yield}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_EFFECT_INVALID_PROMOTION</zType>
@@ -4889,6 +4927,14 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_OPINION_OF_YOU</zType>
 		<Translation>Meinung von dir: {0} ({1})</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_NATION_ETHNICITY</zType>
+		<Translation>{0}: {1,1}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_BARBARIAN_ETHNICITY</zType>
+		<Translation>{0}: {1,1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_IS_GOVERNOR</zType>
@@ -5578,28 +5624,16 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<!--Opinon Help-->
 	<Entry>
-		<zType>TEXT_HELPTEXT_OPINION_HELP_LEADER</zType>
-		<Translation>{0}: Oberhaupt</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_OPINION_HELP_LEADERS_SPOUSE</zType>
-		<Translation>{0}: Oberhaupts Ehepartner</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_OPINION_HELP_LEADERS_DESCENDANTS</zType>
-		<Translation>{0}: Oberhaupts Nachkommen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_OPINION_HELP_LEADERS_DESCENDANTS_MARRIAGES</zType>
-		<Translation>{0}: Verheiratet mit Oberhaupts Nachkommen</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_HELP_OPINION_OF</zType>
 		<Translation>{0} Meinung von {1}: {2}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_HELP_TRIBE_OPINION</zType>
 		<Translation>Stamm Meinung: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_OPINION_HELP_RELIGION_OPINION</zType>
+		<Translation>Religion Meinung: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_HELP_OPINION_OF_YOU</zType>
