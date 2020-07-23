@@ -62,10 +62,6 @@
 		<Translation>Die königliche Dynastie von {0_player} ist zum Ende gekommen!</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_BARBARIAN_SCENARIO_WIN_POPUP</zType>
-		<Translation>Du hast alle Barbaren ausgelöscht. Herzlichen Glückwunsch!</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GAME_RELIGION_FOUNDED</zType>
 		<Translation>{0_religion} gegründet in {1_city}!</Translation>
 	</Entry>

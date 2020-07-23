@@ -9,6 +9,7 @@
 		<iCombatModifier/>
 		<bSimultaneous/>
 		<bNoEndTurn/>
+		<bTeamSplit/>	   
 		<bBarbSplit/>
 		<bNoCooldown/>
 		<bNoBuild/>
@@ -45,6 +46,15 @@
 		<zHelp>Kann nur Zivile Einheiten während des Gegnerzuges bewegen</zHelp>
 		<iTimeModifier>25</iTimeModifier>
 		<iCombatModifier>25</iCombatModifier>
+		<bNoMilitary>1</bNoMilitary>
+	</Entry>
+	<Entry>
+		<zType>TURNSTYLE_TEAMS</zType>
+		<zName>Teams</zName>
+		<zHelp>Kann keine Einheiten während des Zuges eines Teammitglieds bewegen</zHelp>
+		<iTimeModifier>50</iTimeModifier>
+		<iCombatModifier>25</iCombatModifier>
+		<bNoBuild>1</bNoBuild>
 		<bNoMilitary>1</bNoMilitary>
 	</Entry>
 	<Entry>

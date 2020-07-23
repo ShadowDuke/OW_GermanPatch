@@ -35,25 +35,21 @@
 		<zType>PLAYEROPTION_INSTANT_UNIT_MOVEMENT</zType>
 		<zName>Sofortige Einheiten Bewegung</zName>
 		<zDesc>Keine Einheiten Bewegungsanimation</zDesc>
-		<bGameplay>1</bGameplay>
 	</Entry>
 	<Entry>
 		<zType>PLAYEROPTION_NO_UNIT_CYCLING</zType>
 		<zName>Kein Einheiten Wechsel</zName>
 		<zDesc>Wechsle niemals zu einer neuen Einheit</zDesc>
-		<bGameplay>1</bGameplay>
 	</Entry>
 	<Entry>
 		<zType>PLAYEROPTION_FATIGUE_CYCLING</zType>
 		<zName>Müde Einheiten durchwechseln</zName>
 		<zDesc>Müde Einheiten sind im selektierten Einheitenwechsel inbegriffen</zDesc>
-		<bGameplay>1</bGameplay>
 	</Entry>
 	<Entry>
 		<zType>PLAYEROPTION_MOVE_TO_FATIGUE</zType>
 		<zName>Zum Ermüdungslimit bewegen</zName>
 		<zDesc>Ein Klick außerhalb des Ermüdungslimit bewegt die Einheit zur Ecke</zDesc>
-		<bGameplay>1</bGameplay>
 	</Entry>
 	<Entry>
 		<zType>PLAYEROPTION_SHOW_ORDERS_LEFT</zType>
@@ -74,6 +70,7 @@
 		<zType>PLAYEROPTION_DEBUG_HELP</zType>
 		<zName>Debug Hilfe</zName>
 		<zDesc>Aktiviere Kurzinfos fürs debugging</zDesc>
+		<bDebug>1</bDebug>			
 	</Entry>
 	<Entry>
 		<zType>PLAYEROPTION_SHOW_SYSTEM_TIME</zType>

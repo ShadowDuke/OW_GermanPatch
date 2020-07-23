@@ -38,6 +38,10 @@
 		<Translation>{0}s Zug</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_HOTSEAT_PLAYER</zType>
+		<Translation>{0} in the hotseat!</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_RIVALS_TURN</zType>
 		<Translation>Zug deiner Rivalen</Translation>
 	</Entry>
@@ -422,18 +426,6 @@
 		<Translation>VERLOREN!!!</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_BARBARIAN_INVASION</zType>
-		<Translation><![CDATA[Einfall! ({0} <singular_0>Einheit<plural>Einheiten<end> übrig)]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_UI_BARBARIAN_UNITS</zType>
-		<Translation>Barbaren Einheit(en): {0}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_UI_BARBARIAN_INVASION_IN_YEARS</zType>
-		<Translation>Barbaren Einfall in {0}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_UI_RENAME_CITY_POPUP</zType>
 		<Translation>Stadt umbenennen</Translation>
 	</Entry>
@@ -745,11 +737,23 @@
         <zType>TEXT_MP_SETUP_OPTIONS_LABEL_SERVERS</zType>
         <Translation>Server</Translation>
     </Entry>
+	<Entry>
+		<zType>TEXT_MP_SETUP_OPTIONS_LABEL_GAME_MODE</zType>
+		<Translation>Spielmodus</Translation>
+	</Entry>	 
     <!--network-->
     <Entry>
         <zType>TEXT_MP_SETUP_OPTIONS_LABEL_NETWORK</zType>
         <Translation>Netzwerk</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_SETUP_OPTIONS_LABEL_PLAY_BY_CLOUD</zType>
+		<Translation>Cloud-Spiel</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_SETUP_OPTIONS_LABEL_HOTSEAT</zType>
+		<Translation>Hotseat</Translation>
+	</Entry>
     <!--game options-->
     <Entry>
         <zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_GAMENAME</zType>
@@ -865,11 +869,6 @@
         <zType>TEXT_MP_SETUP_SCHEDULE_PAUSE_CLEAR</zType>
         <Translation>Lösche Pausen</Translation>
 	</Entry>
-	<!--mod-manager.xml-->
-	<Entry>
-		<zType>TEXT_MOD_MANAGER_MANAGE_TAB</zType>
-		<Translation>Verwalte</Translation>
-	</Entry>
 	<!--options-menu.xml-->
 	<!--title bar-->
 	<Entry>
@@ -887,7 +886,11 @@
     <Entry>
         <zType>TEXT_OPTIONS_MENU_TITLEBAR_UI</zType>
         <Translation>UI</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPTIONS_MENU_TITLEBAR_CAMERA</zType>
+		<Translation>KAMERA</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_OPTIONS_MENU_TITLEBAR_CONTROLS</zType>
         <Translation>Tastenbelegung</Translation>
@@ -1039,6 +1042,10 @@
     <!--tab-panel.xml-->
     <!--character tab-->
     <Entry>
+        <zType>TEXT_TAB_PANEL_CHARTAB_COURT</zType>
+        <Translation>Hofstaat</Translation>
+    </Entry>
+	<Entry>	
         <zType>TEXT_TAB_PANEL_CHARTAB_CHARACTERS</zType>
         <Translation>Charaktere</Translation>
     </Entry>
@@ -1516,5 +1523,306 @@
 	<Entry>
 		<zType>TEXT_UI_OPTIONS_PANEL_CAMERA_FOLLOW_AI_ALL</zType>
 		<Translation>Jedem</Translation>
-	</Entry>		 
+	</Entry>
+	<!--Mods Screen (mod-manager.xml)-->
+	<Entry>
+		<zType>TEXT_UI_MODS_BACK_TO_MENU</zType>
+		<Translation>Hauptmenü</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_TITLE</zType>
+		<Translation>Mods</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MANAGE_TAB</zType>
+		<Translation>Verwalten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_INSTALL_TAB</zType>
+		<Translation>Installieren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_UPLOAD_TAB</zType>
+		<Translation>Hochladen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_FILTER_ALL</zType>
+		<Translation>Alle</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_FILTER_SINGLEPLAYER</zType>
+		<Translation>Singleplayer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_FILTER_MULTIPLAYER</zType>
+		<Translation>Multiplayer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_FILTER_TRANSLATIONS</zType>
+		<Translation>Übersetzungen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_FILTER_MAPS</zType>
+		<Translation>Karten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_INCLUDE_INTERNAL_TOGGLE_LABEL</zType>
+		<Translation>Beziehe Interne mit ein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_NEW_MOD_BUTTON</zType>
+		<Translation>Neuer Mod</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_RESOURCES</zType>
+		<Translation>Ressourcen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_VERSION_LABEL</zType>
+		<Translation>Mod Version:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_AUTHOR_LABEL</zType>
+		<Translation>Verfasser:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_HOMEPAGE_LABEL</zType>
+		<Translation>Homepage:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_NAME_LABEL</zType>
+		<Translation>Mod Name:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_PICTURE_LABEL</zType>
+		<Translation>Mod Bild:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_DESCRIPTION_LABEL</zType>
+		<Translation>Beschreibung:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_SINGLEPLAYER_TOGGLE_LABEL</zType>
+		<Translation>Singleplayer:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_MULTIPLAYER_TOGGLE_LABEL</zType>
+		<Translation>Multiplayer:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_TRANSLATION_TOGGLE_LABEL</zType>
+		<Translation>Übersetzung:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_SINGLEPLAYER_TAG</zType>
+		<Translation>[Singleplayer]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MULTIPLAYER_TAG</zType>
+		<Translation>[Multiplayer]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_TRANSLATION_TAG</zType>
+		<Translation>[Übersetzung]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MAP_TAG</zType>
+		<Translation>[Karte]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_OPEN_MOD_FOLDER_BUTTON</zType>
+		<Translation>Öffne Mod Ordner</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_SAVE_LOCAL_CHANGES_BUTTON</zType>
+		<Translation>Speichere lokale Änderungen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_UPLOAD_BUILD_BUTTON</zType>
+		<Translation>Neue Version hochladen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_SAVE_SELECTION_BUTTON</zType>
+		<Translation>Speichern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_RESET_SELECTION_BUTTON</zType>
+		<Translation>Zurücksetzen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PLAY_WITH_MODS_BUTTON</zType>
+		<Translation>Spiele mit Mods</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_INTERNAL_MOD</zType>
+		<Translation>{0_modName} (Intern)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_CREATE_MOD_PROFILE_BUTTON</zType>
+		<Translation>Erstelle Mod Profil</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_UPDATE_MOD_PROFILE_BUTTON</zType>
+		<Translation>Aktualisiere Profil</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_UPDATE_MOD_BUTTON</zType>
+		<Translation>Aktualisieren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_UNINSTALL_MOD_BUTTON</zType>
+		<Translation>Uninstall</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_DOWNLOAD_MOD_BUTTON</zType>
+		<Translation>Download</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_REQUEST_ERROR_POPUP_TITLE</zType>
+		<Translation>Request Error</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_SECURITY_CODE_SENT_POPUP_TITLE</zType>
+		<Translation>Security Code Sent</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_LOG_OUT_BUTTON</zType>
+		<Translation>Ausloggen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_SIGN_IN_BUTTON</zType>
+		<Translation>Einloggen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_MOD_UPDATE_VERSION_DIFF</zType>
+		<Translation>{0_modName} - Derzeitig: {1}, Neueste: {2}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_MOD_UPDATE_MODS_POPUP_TITLE</zType>
+		<Translation>Mods aktualisieren??</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_MODS_UPDATED_CONFIRMED_POPUP_TITLE</zType>
+		<Translation>Mods aktualisiert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_DOWNLOAD_COMPLETE_POPUP_TITLE</zType>
+		<Translation>Download fertig</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_DOWNLOAD_COMPLETE_POPUP_BODY</zType>
+		<Translation>{0_modName} gedownloaded</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_ENTER_EMAIL_POPUP_TITLE</zType>
+		<Translation>Enter Email</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_VALIDATION_ERROR_POPUP_TITLE</zType>
+		<Translation>Gültisgekeits Fehler</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_ERROR_MOD_NOT_BLANK</zType>
+		<Translation>Mod Name darf nicht leer sein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_ERROR_DUPLICATE_MOD_NAME</zType>
+		<Translation>Doppelter Mod Name</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_ERROR_RESERVED_MOD_NAME_POPUP_TITLE</zType>
+		<Translation>Reserviere Mod Name</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_ERROR_RESERVED_MOD_NAME_POPUP_BODY</zType>
+		<Translation>The mod name "{0_modName}" is reserved for internal use only</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_MOD_HAS_NO_PROFILE_POPUP_TITLE</zType>
+		<Translation>Mod hat kein Mod Profil</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_MOD_HAS_NO_PROFILE_POPUP_BODY</zType>
+		<Translation>Wie möchtest du fortfahren?</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_CREATE_NEW_MOD_PROFILE_POPUP_OPTION</zType>
+		<Translation>Erstelle neues Mod Profil</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_MOD_PROFILE_CHANGES_COMPLETE_POPUP_TITLE</zType>
+		<Translation>Mod Profil Änderung komplett</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_MOD_FILE_UPLOADED_POPUP_TITLE</zType>
+		<Translation>Mod Datei hochgeladen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_MOD_DEFAULT_DESCRIPTION</zType>
+		<Translation>Gebe Beschreibung hier ein...</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_MODS_ASSIGNED_POPUP_TITLE</zType>
+		<Translation>Mods festgelegt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_MODS_ASSIGNED_POPUP_BODY</zType>
+		<Translation><![CDATA[Die folgenden Mods sind aktiv:<br>{0_list}]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_UNSAVED_MOD_SELECTIONS_NOTICE_POPUP_TITLE</zType>
+		<Translation>Bemerkung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_UNSAVED_MOD_SELECTIONS_NOTICE_POPUP_BODY</zType>
+		<Translation>You have unsaved mod selections</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_NEW_GAME_SINGLEPLAYER_OR_MULTIPLAYER_POPUP_TITLE</zType>
+		<Translation>Singleplayer oder Multiplayer?</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_NEW_GAME_SINGLEPLAYER_POPUP_OPTION</zType>
+		<Translation>Singleplayer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_NEW_GAME_MULTIPLAYER_POPUP_OPTION</zType>
+		<Translation>Multiplayer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_CREATE_NEW_MOD_POPUP_TITLE</zType>
+		<Translation>Erstelle neuen Mod</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_CREATE_NEW_MOD_POPUP_BODY</zType>
+		<Translation>Lege Mod Namen fest</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_SAVE_LOCAL_CHANGES_TOOLTIP</zType>
+		<Translation>Speichere lokale Änderungen in deiner {0_filename} Datei</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_CREATE_NEW_MOD_PROFILE_TOOLTIP</zType>
+		<Translation>Erstelle ein neues Mod Profil auf mod.io</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_UPDATE_MOD_PROFILE_TOOLTIP</zType>
+		<Translation>Aktualisiere dein mod.io Profil</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_PUBLISH_NEW_BUILD_TOOLTIP</zType>
+		<Translation>Erstelle und veröffentliche eine neue Version deiner Mod</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_VERSION_NOT_LATEST_TOOLTIP</zType>
+		<Translation><![CDATA[Version ist nicht aktuell.<br>downloaded: {0}<br>latest: {1}]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_UP_TO_DATE_TOOLTIP</zType>
+		<Translation>Heruntergeladen und aktuell!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_MOD_PICTURE_TOOLTIP</zType>
+		<Translation><![CDATA[icon(bullet)1280x720 ooder größer empfohlen<br>icon(bullet)16:9 Bildformatempfohlen<br>icon(bullet)8mb maximal<br>icon(bullet)GIFs werden zu PNGs umgewandelt]]></Translation>
+	</Entry>	 
 </Root>

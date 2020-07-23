@@ -559,7 +559,7 @@
 	</Entry>
 	<Entry>
 		<zType>HOTKEY_MAP_EDITOR_UNDO</zType>
-		<zName>Redo</zName>
+		<zName>Undo</zName>
 		<HotkeyClass>HOTKEYCLASS_MAP_EDITOR</HotkeyClass>
 		<Keys>Z,LeftControl+Z</Keys>
 	</Entry>

@@ -51,12 +51,6 @@
 		<bMultiPlayer>0</bMultiPlayer>
 	</Entry>
 	<Entry>
-		<zType>GAMEOPTION_NO_TUTORIAL</zType>
-		<zName>Deaktiviere das Tutorial</zName>
-		<zHelp>Das Tutorial wird für den Spieler deaktiviert.</zHelp>
-		<bMultiPlayer>0</bMultiPlayer>
-	</Entry>
-	<Entry>
 		<zType>GAMEOPTION_RANDOMIZE_FAMILIES</zType>
 		<zName>Familien zufällig</zName>
 		<zHelp>Weise die Gruppe jeder Familie zufällig zu (Weisen, Handwerker, Wettkämpfer, etc).</zHelp>

@@ -546,4 +546,12 @@
 		<zType>TEXT_TRAIT_ENEMY_OF_THE_STATE</zType>
 		<Translation>Staatsfeind Nr. 1</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_AMULET_OWNER_POSITIVE</zType>
+		<Translation>Fruchtbarkeits Amulett Besitzer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_AMULET_OWNER_NEGATIVE</zType>
+		<Translation>Fruchtbarkeits Amulett Besitzer</Translation>
+	</Entry>	 
 </Root>

@@ -235,6 +235,10 @@
   </Entry>
   <Entry>
     <zType>TEXT_HINT_58</zType>
-    <Translation>Später sind in Wäldern unsichtbar.</Translation>
+    <Translation>Späher sind in Wäldern unsichtbar.</Translation>
   </Entry>
+  <Entry>
+		<zType>TEXT_HINT_59</zType>
+		<Translation>Halte [SHIFT] oder [MITTLERE-MAUS] um Tooltips festzuhalten.</Translation>
+  </Entry>	 
 </Root>

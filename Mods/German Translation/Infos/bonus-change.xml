@@ -944,7 +944,7 @@
 		<zType>BONUS_NATION_CARTHAGE</zType>
 		<aiGlobalYieldsBase>
 			<Pair>
-				<zIndex>YIELD_SCIENCE</zIndex>
+				<zIndex>YIELD_CIVICS</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
@@ -1847,6 +1847,10 @@
 	<Entry>
 		<zType>BONUS_STATE_RELIGION</zType>
 		<bStateReligion>1</bStateReligion>
+	</Entry>
+	<Entry>
+		<zType>BONUS_LEAVE_COUNCIL</zType>
+		<bLeaveCouncil>1</bLeaveCouncil>
 	</Entry>
 	<Entry>
 		<zType>BONUS_DOOM_CHARACTER</zType>

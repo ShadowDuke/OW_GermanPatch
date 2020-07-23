@@ -211,6 +211,10 @@
 		<Translation>Heiraten</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSION_MARRY_COURTIER_CHARACTER</zType>
+		<Translation>Heirat</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSION_ABDICATE</zType>
 		<Translation>Das Zepter niederlegen</Translation>
 	</Entry>

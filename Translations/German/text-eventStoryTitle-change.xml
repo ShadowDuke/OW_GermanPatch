@@ -1408,7 +1408,51 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DEMAND_LUXURY_TITLE</zType>
 		<Translation>[VERLANGE LUXUSGUT]</Translation>
-	</Entry> 
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_ABDUCTING_THE_HEIR_TITLE</zType>
+		<Translation>Abducting the Heir</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_OUR_DEMANDS_TITLE</zType>
+		<Translation>Our Demands</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_A_RANSOM_01_TITLE</zType>
+		<Translation>A Ransom</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RESOURCE_DRAIN_TITLE</zType>
+		<Translation>Resource Drain</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_A_MATTER_OF_TRUST_TITLE</zType>
+		<Translation>A Matter of Trust</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEMANDS_REFUSED_TITLE</zType>
+		<Translation>Demands Refused</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEMANDS_ACCEPTED_TITLE</zType>
+		<Translation>Demands Accepted</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEMANDS_ACCEPTED_01_TITLE</zType>
+		<Translation>Demands Accepted</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEMANDS_ACCEPTED_02_TITLE</zType>
+		<Translation>Demands Accepted</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INCRIMINATING_MESSAGES_TITLE</zType>
+		<Translation>Incriminating Messages</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BASELESS_ACCUSATIONS_TITLE</zType>
+		<Translation>Baseless Accusations</Translation>
+	</Entry>	 
   <Entry beginGroup="Marriage">
 		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_TITLE</zType>
 		<Translation>Marriage Offer</Translation>
@@ -3100,6 +3144,26 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEGACY_OF_THE_PAW_TITLE</zType>
 		<Translation>Legacy of the Paw</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_GONE_FOREVER_TITLE</zType>
+		<Translation>Gone Forever</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_A_FAMILY_AFFAIR_TITLE</zType>
+		<Translation>A Family Affair</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SILVER_TONGUE_TITLE</zType>
+		<Translation>Silver Tongue</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_CRONE_KILLER_TITLE</zType>
+		<Translation>Crone Killer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_CHILD_AMULET_OF_FERTILITY_TITLE</zType>
+		<Translation>Amulet of Fertility</Translation>
 	</Entry>	 
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS_TITLE</zType>
@@ -3312,6 +3376,14 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CITY_AUTONOMY_TITLE</zType>
 		<Translation>Autonomy in {CITY-0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SAFE_HOUSES_TITLE</zType>
+		<Translation>Safe Houses</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TO_ARMS_TITLE</zType>
+		<Translation>To Arms</Translation>
 	</Entry>
 	<Entry beginGroup="Religion">
 		<zType>TEXT_EVENTSTORY_GODS_AND_MONSTERS_TITLE</zType>
@@ -4544,6 +4616,10 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DISHEARTENING_NEWS_TITLE</zType>
 		<Translation>Disheartening News</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_WOOD_SHORTAGES_TITLE</zType>
+		<Translation>Wood Shortages</Translation>
 	</Entry>	 
   <Entry beginGroup="Tutorial">
 		<zType>TEXT_EVENTSTORY_VICTORY_POINTS_TITLE</zType>
@@ -4692,5 +4768,69 @@
   <Entry>
     <zType>TEXT_EVENTSTORY_TWO_MOTHERS_ONE_CHILD_TITLE</zType>
     <Translation>Two Mothers One Child</Translation>
-  </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BARREN_TITLE</zType>
+		<Translation>Barren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MIRACLE_BIRTH_TITLE</zType>
+		<Translation>Miracle Birth</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_END_OF_A_SIEGE_TITLE</zType>
+		<Translation>The End of a Siege</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_END_OF_A_SIEGE_GOOD_BAD_TITLE</zType>
+		<Translation>The Case of the Horse</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TROOPS_RANSACK_TITLE</zType>
+		<Translation>Troops Ransack {CITY-1}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TROOPS_RANSACK_SLAVERY_TITLE</zType>
+		<Translation>New Slaves from {CITY-1}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TROOPS_RANSACK_TREASURE_TITLE</zType>
+		<Translation>The Treasures of {CITY-1}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DELENDA_EST_TITLE</zType>
+		<Translation>{PLAYER-1} Delenda Est</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MEDDLING_TITLE</zType>
+		<Translation>Those Meddling {FAMILY-0,1}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MEDDLING_AMBASSADOR_TITLE</zType>
+		<Translation>[AMBASSADOR REVEALS PLANS]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MEDDLING_CHANCELLOR_TITLE</zType>
+		<Translation>[CHANCELLOR REVEALS PLANS]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MEDDLING_SPYMASTER_TITLE</zType>
+		<Translation>[SPYMASTER REVEALS PLANS]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MEDDLING_USURP_TITLE</zType>
+		<Translation>[USURPED]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MERCENARY_DEMANDS_TITLE</zType>
+		<Translation>Mercenary Demands</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MERCENARY_DEMANDS_GOOD_TITLE</zType>
+		<Translation>[GOOD]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MERCENARY_DEMANDS_BAD_TITLE</zType>
+		<Translation>[BAD]</Translation>
+	</Entry>	 
 </Root>

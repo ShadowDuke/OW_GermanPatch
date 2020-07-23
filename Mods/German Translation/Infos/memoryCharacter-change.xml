@@ -804,7 +804,7 @@
 	<Entry>
 		<zType>MEMORYCHARACTER_ACCUSED_OF_PLOTTING</zType>
 		<zText>Accused of plotting</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_GP_IGNORED_MY_REQUEST</zType>
@@ -1111,14 +1111,18 @@
 		<zText>Demanded an apology for flirting</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
-	<Entry beginGroup="Family">
-		<zType>MEMORYCHARACTER_REMOVED_FROM_COUNCIL</zType>
-		<zText>Removed from inner council</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
-	</Entry>
 	<Entry beginGroup="Combat">
 		<zType>MEMORYCHARACTER_REFUSED_FUNDS</zType>
 		<zText>Verweigerte finanzielle Mittel fürs Militär</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>						
+	<Entry>
+		<zType>MEMORYCHARACTER_DEMANDED_MONEY</zType>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_DEMANDED_RESOURCES</zType>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_DEMANDED_TRUCE</zType>
+	</Entry>
 </Root>

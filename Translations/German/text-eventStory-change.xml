@@ -2358,6 +2358,74 @@ It is {CHARACTER-SHORT-3}'s advice that we remove {CHARACTER-SHORT-4} from any i
 		<zType>TEXT_EVENTSTORY_DEMAND_LUXURY</zType>
 		<Translation>[STUB: THE {FAMILY-0} FAMILY IS DEMANDING THAT WE GIVE THEM OUR EXCESS link(CONCEPT_LUXURY) {RESOURCE-1}]</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_ABDUCTING_THE_HEIR</zType>
+		<Translation><![CDATA[On a recent voyage abroad, the {FAMILY-0} family overheard some interesting news: {CHARACTER-2}, the heir to the {PLAYER-1,1} throne, has embarked on a diplomatic tour of the outskirts of <masculine_CHARACTER-2>his<feminine>her<end> kingdom. Resources are stretched, and the royal retinue will be small.  
+
+The {FAMILY-0,1} believe this is the perfect opportunity to kidnap {CHARACTER-SHORT-2} and hold <masculine_CHARACTER-2>him<feminine>her<end> for ransom.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_OUR_DEMANDS</zType>
+		<Translation><![CDATA[{CHARACTER-SHORT-1}, heir to the {PLAYER-2,1} throne, has been successfully abducted, and he is now locked in a dungeon of the palace. It is time to talk terms of <masculine_CHARACTER-1>his<feminine>her<end> release.
+
+What shall we demand of {PLAYER-2}?]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_A_RANSOM_01</zType>
+		<Translation><![CDATA[Our demand for a huge payment from the {PLAYER-2,1} treasury has been met with outrage. Such a request would always be an insult. But this is wartime! Every flake of gold is precious and could be the difference between victory or defeat.
+
+{CHARACTER-2} has ordered <masculine_CHARACTER-2>his<feminine>her<end> ministers to examine the situation and prepare a response.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RESOURCE_DRAIN</zType>
+		<Translation><![CDATA[{CHARACTER-1} is furious at our demands for resources from <masculine_CHARACTER-1>his<feminine>her<end> already struggling storehouses. However, we have made it very clear that this is the only way to recover <masculine_CHARACTER-1>his<feminine>her<end> heir alive and unharmed.
+
+<masculine_CHARACTER-1>He<feminine>She<end> will need time to deliberate on this decision.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_A_MATTER_OF_TRUST</zType>
+		<Translation><![CDATA[The {PLAYER-1,2} do not know what to make of our requst for a truce. {CHARACTER-SHORT-1} is said to have shaken <masculine_CHARACTER-1>his<feminine>her<end> head in resignation. "All of this intrigue for an end to hostilities. We will consider it, but we are not accustomed to such dirty diplomacy."
+
+<masculine_CHARACTER-1>He<feminine>She<end> promises a speedy decision. "We are wary of you {PLAYER-3,2}. It is a matter of trust."]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEMANDS_REFUSED</zType>
+		<Translation>After months of tense debate and in-fighting, the {PLAYER-1,1} court has sent a message refusing our ransom demands. The fate of the heir, {CHARACTER-SHORT-2}, is not enough to coerce them into action. The plot has failed.
+
+Now what?</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEMANDS_ACCEPTED</zType>
+		<Translation>Begrudgingly, the {PLAYER-1,1} court accepts our ransom demands. They call for the immediate release of {CHARACTER-SHORT-2}, after which they will uphold their terms of the bargain. 
+
+It seems the {FAMILY-0,1}' gamble paid off.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEMANDS_ACCEPTED_01</zType>
+		<Translation>Begrudgingly, the {PLAYER-1,1} court accepts our ransom demands. They call for the immediate release of {CHARACTER-SHORT-2}, after which they will uphold their terms of the bargain. 
+
+It seems the {FAMILY-0,1}' gamble paid off.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEMANDS_ACCEPTED_02</zType>
+		<Translation>Begrudgingly, the {PLAYER-1,1} court accepts our ransom demands. They call for the immediate release of {CHARACTER-SHORT-2}, after which they will uphold their terms of the bargain. 
+
+It seems the {FAMILY-0,1}' gamble paid off.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INCRIMINATING_MESSAGES</zType>
+		<Translation>Your accusations of plotting cause a sensation! However, the claims appear to be true. After a short investigation, royal agents have uncovered a series of incriminating messages between {CHARACTER-1} and the {FAMILY-2} family. Their political alliance was more than it appeared.
+
+Only you and your closest advisors possess this sensitive information. Now, what will you do with it?</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BASELESS_ACCUSATIONS</zType>
+		<Translation>Months have passed since your accusation of plotting between {CHARACTER-1} and the {FAMILY-2} family, and... it appears to be baseless. 
+
+This public mistake has not gone unnoticed.
+
+You must make amends by withdrawing the controversial charge. Or you can refuse and risk the wrath of the court. </Translation>
+	</Entry>
   <Entry beginGroup="Character">
 		<zType>TEXT_EVENTSTORY_DELICIOUS_DRINKS</zType>
 		<Translation><![CDATA[While attending a courtly feast, you are approached by a brooding stranger in fine, colorful robes. He hands you a cup and encourages you to join him in a toast. You do not recognize the beverage, but it smells rich and delicious.]]></Translation>
@@ -4863,6 +4931,36 @@ However, in a strange twist of fate, the heir to the throne, {CHARACTER-SHORT-3}
 You begin to feel faint, weak...
 
 Over the course of several days, the court declares your sudden sickness as reason enough for your abdication. {CHARACTER-SHORT-3} ascends the throne, <masculine_CHARACTER-3>his<feminine>her<end> wish granted.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_A_FAMILY_AFFAIR</zType>
+		<Translation><![CDATA[It gives us no pleasure to bring you some shocking news. Your <masculine_CHARACTER-0>husband<feminine>wife<end>, {CHARACTER-SHORT-0}, has been hiding a romantic tryst with your <masculine_CHARACTER-1>brother<feminine>sister<end> {CHARACTER-SHORT-1}. It has been going on for several years, and neither had any intention of telling you.
+
+Your closest advisers wish to assist in this matter, and we await your command.  ]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_GONE_FOREVER</zType>
+		<Translation>Before you can even cry out, a darkness falls across the chamber, and when your sight returns, {CHARACTER-SHORT-1} is gone. Forever.
+
+Perhaps this will teach you to make promises you never intend to fulfill.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SILVER_TONGUE</zType>
+		<Translation>Your skills at cunning and deceit bear fruit once again, as the crone listens intently to your tale of tragedy. You portray {CHARACTER-SHORT-1}'s death in gruesome detail, describing every heartbreaking detail until she herself is a pool of tears.
+
+Begging your apologies, and wishing you better fortunes in the future, the crone departs the palace empty handed. </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_CRONE_KILLER</zType>
+		<Translation><![CDATA[As the ancient hag advances on your beloved {CHARACTER-SHORT-1}, you raise your <masculine_CHARACTER-0>king's<feminine>queen's<end> lance from its resting place beside the throne. Before the crone can utter a word of poisonous magic, you strike her through the heart with the sharp tip of your blade.
+
+You order her head placed atop the palace gates, as a warning to all those who dare threaten the family of {CHARACTER-0}.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_CHILD_AMULET_OF_FERTILITY</zType>
+		<Translation><![CDATA[Moments after your <masculine_CHARACTER-1>son's<feminine>daughter's<end> birth, one of the servants who assisted in the delivery approaches you. She presses a battered but bejeweled locket into your hand. It can be locked and unlocked with a tiny key. "To remain fruitful, simply turn the key," she says. "But to slow the seed, you must lock it."
+
+You don't know what to make of the woman's strange utterance, but the amulet does look valuable.]]></Translation>
 	</Entry>	 
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS</zType>
@@ -5166,6 +5264,18 @@ As priests begin prayers on the topmost terrace, they ask for your blessing. Sha
 		<zType>TEXT_EVENTSTORY_CITY_AUTONOMY</zType>
 		<Translation>The city of {CITY-0} would like to establish autonomy and rules itself independently from {PLAYER-2}. A prominent figure, named {CHARACTER-SHORT-1}, would like to reign over the city as its link(CONCEPT_GOVERNOR).</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SAFE_HOUSES</zType>
+		<Translation>{CITY-0} is under siege! The defenses have been slow to muster, but the city leadership is organizing militias to protect key locations in the city. 
+
+Where should they focus their efforts?</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TO_ARMS</zType>
+		<Translation>As {CITY-0} burns, citizens come to the palace, eager to aid in the defense of their city. The local military rushes to form a defense, but there are many opportunities for volunteers.
+
+How should these brave men and women help?</Translation>
+	</Entry>	 
 	<Entry beginGroup="Religion">
 		<zType>TEXT_EVENTSTORY_GODS_AND_MONSTERS</zType>
 		<Translation>The {RELIGION-1,1} beliefs of the {FAMILY-0} family have taken on a life of their own. Tales of gods, heroes, and monsters are commonplace with worshippers of {RELIGION-1} and are now being taught in the temples.
@@ -7029,6 +7139,12 @@ What is the best position for <masculine_CHARACTER-1>him<feminine>her<end>?]]></
 		<Translation><![CDATA[Cultists from the local temple arrive with disheartening news about {CHARACTER-0}. <masculine_CHARACTER-0>His<feminine>Her<end> rehabilitation has failed. "<masculine_CHARACTER-0>He<feminine>She<end> has taken a turn for the worst," one explains, "and <masculine_CHARACTER-0>he<feminine>she<end>may not live out the week. The dreams do nothing to soothe <masculine_CHARACTER-0>him<feminine>her<end>."
 
 The update comes as a shock to everyone at court.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_WOOD_SHORTAGES</zType>
+		<Translation><![CDATA[Court soldier {CHARACTER-3} has spent the last several months reviewing our military, and <masculine_CHARACTER-3>he<feminine>she<end> concludes that the nation's supply of wood is grossly insufficient. Sarissas, spears, arrows, and siege equipment will all require more lumber than the mills and loggers can produce.
+
+Is this a problem to face for today, or one we can push off until tomorrow?]]></Translation>
 	</Entry>	 
   <Entry beginGroup="Tutorial">
 		<zType>TEXT_EVENTSTORY_VICTORY_POINTS</zType>
@@ -7256,4 +7372,40 @@ What would you have us do?</Translation>
 		<zType>TEXT_EVENTSTORY_TROOPS_RANSACK_TREASURE</zType>
 		<Translation>Following the taking of {CITY-1}, you discover a large quantity of hidden art, temple refinements, luxury textiles, and more.</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DELENDA_EST</zType>
+		<Translation><![CDATA[The Courtier {CHARACTER-0} has been making waves, ending all <masculine_CHARACTER-0>his<feminine>her<end> speeches with a call to eradicate the dangerous rival nation of {PLAYER-1}.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MEDDLING</zType>
+		<Translation>Talk abounds at court over the suspicious associating of the {FAMILY-0} family with a delegation from {PLAYER-1}. Your council member, {CHARACTER-3}, seems to be involved. What could they be scheming about?</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MEDDLING_AMBASSADOR</zType>
+		<Translation>[STUB: YOUR AMBASSADOR {CHARACTER-3} HAS REVEALED WITH THEY WERE MAKING PLANS WITH {PLAYER-2} - A POTENTIAL TRADE MISSION]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MEDDLING_CHANCELLOR</zType>
+		<Translation>[STUB: YOUR AMBASSADOR {CHARACTER-3} HAS REVEALED WITH THEY WERE MAKING PLANS WITH {PLAYER-2} - A DEFECTING COURTIER]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MEDDLING_SPYMASTER</zType>
+		<Translation>[STUB: YOUR SPYMASTER {CHARACTER-3} HAS REVEALED WITH THEY WERE MAKING PLANS WITH {PLAYER-2} - A POTENTIAL MISSION]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MEDDLING_USURP</zType>
+		<Translation>[STUB: YOU HAVE DISCOVERED THAT {CHARACTER-3} AND THE {FAMILY-0} HAVE BEEN PLOTTING YOUR DOWNFALL WITH THE HELP OF {PLAYER-2}!]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MERCENARY_DEMANDS</zType>
+		<Translation>Captains of the {UNIT-0} mercenaries you are leading meet you in the field. They are decidedly unhappy but enter your tent on your insistence, and exchange worried and concerned glances between themselves. You offer them refreshments. They refuse and demand more pay.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MERCENARY_DEMANDS_GOOD</zType>
+		<Translation>[STUB: THEY BACK DOWN AND ARE IMPRESSED WITH YOUR RESOLVE.]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MERCENARY_DEMANDS_BAD</zType>
+		<Translation>[STUB: THEY DECIDE TO MURDER YOU INSTEAD AND JUST TAKE YOUR STUFF AS PAYMENT.]</Translation>
+	</Entry>	 
 </Root>

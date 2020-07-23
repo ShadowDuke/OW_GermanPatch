@@ -60,11 +60,6 @@
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYFAMILY_LEAVE_COUNCIL</zType>
-		<zText>Hofrat Verbindung unterbrochen</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
-	</Entry>
-	<Entry>
 		<zType>MEMORYFAMILY_BYPASSED_HEIR</zType>
 		<zText>Erben umgangen</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
@@ -666,7 +661,7 @@
 	<Entry>
 		<zType>MEMORYFAMILY_IMPROPER_VASSAL_REPRIMAND</zType>
 		<zText>Reprimanded us for impropriety</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_IMPROPER_VASSAL_LET_GO</zType>
@@ -746,7 +741,7 @@
 	<Entry>
 		<zType>MEMORYFAMILY_ACCUSED_OF_CORRUPTION</zType>
 		<zText>Accused of corruption</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_BURIED_INCRIMINATING_DOCUMENT</zType>
@@ -903,6 +898,36 @@
 		<zText>Accuse the throne of bribes</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_DID_NOT_ABDUCT_HEIR</zType>
+		<zText>Ruler would not abduct foreign heir</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_KILLED_HEIR</zType>
+		<zText>Ruler ordered assassination of foreign heir</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_SUCCESSFUL_ABDUCTION</zType>
+		<zText>Staged a successful abduction</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_EXPOSED_PLOT</zType>
+		<zText>Exposed our plot</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_APOLOGIZED_FOR_SLANDER</zType>
+		<zText>Apologized for slander</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_STOOD_BY_ACCUSATIONS</zType>
+		<zText>Ruler stood by accusations</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
 	<Entry beginGroup="City">
 		<zType>MEMORYFAMILY_SENT_DOCTORS_TO_PLAGUED_CITY</zType>
 		<zText>Sent doctors to plagued city</zText>
@@ -926,7 +951,7 @@
 	<Entry>
 		<zType>MEMORYFAMILY_REDIRECTED_FUNDS</zType>
 		<zText>Treated lavishly with royal funds</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_RUINS_GIFT_OF_VALUABLES</zType>

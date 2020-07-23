@@ -4813,6 +4813,86 @@
 		<zType>TEXT_EVENTOPTION_DEMAND_LUXURY_NO</zType>
 		<Translation>[NEIN]</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_ABDUCTING_THE_HEIR_OPTION_0</zType>
+		<Translation>I will not prey on a child for political gain.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_ABDUCTING_THE_HEIR_OPTION_1</zType>
+		<Translation><![CDATA[Kidnap the <masculine_CHARACTER-2>boy<feminine>girl<end>, but do not harm <masculine_CHARACTER-2>him<feminine>her<end>.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_ABDUCTING_THE_HEIR_OPTION_2</zType>
+		<Translation><![CDATA[Kill <masculine_CHARACTER-2>him<feminine>her<end>, and pull the weed before it takes root.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_OUR_DEMANDS_OPTION_0</zType>
+		<Translation>We demand money.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_OUR_DEMANDS_OPTION_1</zType>
+		<Translation>We demand wartime resources.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_OUR_DEMANDS_OPTION_2</zType>
+		<Translation>We demand a truce.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_A_RANSOM_01_OPTION_0</zType>
+		<Translation>All we have to do is wait.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RESOURCE_DRAIN_OPTION_0</zType>
+		<Translation>Then we will wait... but not forever.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_A_MATTER_OF_TRUST_OPTION_0</zType>
+		<Translation>We await your decision.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DEMANDS_REFUSED_OPTION_0</zType>
+		<Translation>Let {CHARACTER-SHORT-2} languish in prison.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DEMANDS_REFUSED_OPTION_1</zType>
+		<Translation>Incorporate {CHARACTER-SHORT-2} into the royal family.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DEMANDS_REFUSED_OPTION_2</zType>
+		<Translation>Send {CHARACTER-SHORT-2} away to be someone else's problem.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DEMANDS_ACCEPTED_OPTION_0</zType>
+		<Translation>I never doubted it for a moment.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DEMANDS_ACCEPTED_01OPTION_0_COPY</zType>
+		<Translation>I never doubted it for a moment.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DEMANDS_ACCEPTED_OPTION_0_COPY</zType>
+		<Translation>I never doubted it for a moment.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_INCRIMINATING_MESSAGES_OPTION_0</zType>
+		<Translation>Remove {CHARACTER-SHORT-1}, and the {FAMILY-2,1} will fall.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_INCRIMINATING_MESSAGES_OPTION_1</zType>
+		<Translation>Expose the family and win over {CHARACTER-SHORT-1}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BASELESS_ACCUSATIONS_OPTION_0</zType>
+		<Translation>Retract the statements and apologize for slander.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BASELESS_ACCUSATIONS_OPTION_1</zType>
+		<Translation>Claim that a conspiracy has not been proven... yet.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BASELESS_ACCUSATIONS_OPTION_2</zType>
+		<Translation>Make a case for your suspicions.</Translation>
+	</Entry>	 
   <Entry beginGroup="Character">
 		<zType>TEXT_EVENTOPTION_DELICIOUS_DRINKS_BOTTOMS_UP</zType>
 		<Translation><![CDATA[I will share in his revels.]]></Translation>
@@ -8846,6 +8926,14 @@
 		<Translation>I will take this loss with me to the grave.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_PAYMENT_IN_FULL_OPTION_1</zType>
+		<Translation>Attempt to deceive the crone with lies.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_PAYMENT_IN_FULL_OPTION_2</zType>
+		<Translation>Fight the crone for {CHARACTER-SHORT-1}.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_THE_MYSTIC_OPTION_0</zType>
 		<Translation>Yes, you may advise me. Now heal me!</Translation>
 	</Entry>
@@ -8956,6 +9044,46 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_LEGACY_OF_THE_PAW_OPTION_0</zType>
 		<Translation>Curse that monkey's paw.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_A_FAMILY_AFFAIR_OPTION_0</zType>
+		<Translation>Throw them in prison for their betrayal.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_A_FAMILY_AFFAIR_OPTION_1</zType>
+		<Translation><![CDATA[I will release {CHARACTER-SHORT-0} from <masculine_CHARACTER-0>his<feminine>her<end> obligation.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_A_FAMILY_AFFAIR_OPTION_2</zType>
+		<Translation>Let us wait and see where this goes.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_GONE_FOREVER_OPTION_0</zType>
+		<Translation>I will take my sorrow with me to the grave.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_SILVER_TONGUE_OPTION_0</zType>
+		<Translation>I should be more careful next time.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_CRONE_KILLER_OPTION_0</zType>
+		<Translation>I will not make such a mistake again.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_CHILD_AMULET_OF_FERTILITY_OPTION_0</zType>
+		<Translation>I must get rid of this amulet at once.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_CHILD_AMULET_OF_FERTILITY_OPTION_1</zType>
+		<Translation>Turn the key, and give it to my beloved {CHARACTER-SHORT-1}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_CHILD_AMULET_OF_FERTILITY_OPTION_2</zType>
+		<Translation>Lock the amulet, and give it to my beloved {CHARACTER-SHORT-1}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_CHILD_AMULET_OF_FERTILITY_OPTION_3</zType>
+		<Translation>I would rather sell the trinket.</Translation>
 	</Entry>
   <Entry beginGroup="City">
 		<zType>TEXT_EVENTOPTION_HAPPINESS_IMMIGRANTS_YES</zType>
@@ -9440,6 +9568,30 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CITY_AUTONOMY_NO</zType>
 		<Translation>Never! Find a noble, {PLAYER-2,1} husband for {CHARACTER-SHORT-1}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_SAFE_HOUSES_OPTION_0</zType>
+		<Translation>Defend the innocents and all those in harm's way.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_SAFE_HOUSES_OPTION_1</zType>
+		<Translation>Keep the enemy from our storehouses at all costs.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_SAFE_HOUSES_OPTION_2</zType>
+		<Translation>Evacuate the nobles and save their possessions.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TO_ARMS_OPTION_0</zType>
+		<Translation>More fighters are desperately needed.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TO_ARMS_OPTION_1</zType>
+		<Translation>Provide intelligence and support for soldiers.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TO_ARMS_OPTION_2</zType>
+		<Translation>Help calm and reassure their fellow citizens.</Translation>
 	</Entry>
 	<Entry beginGroup="Religion">
 		<zType>TEXT_EVENTOPTION_GODS_AND_MONSTERS_OPTION_0</zType>
@@ -11606,6 +11758,10 @@
 		<Translation>We welcome {RELIGION-2}, but it does not rule us.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTOPTION_RELATIONSHIP_A_SPIRITUAL_CONNECTION_OPTION_2</zType>
+		<Translation>We do not want foreign faiths spreading in our cities.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTOPTION_RELATIONSHIP_A_GENEROUS_DONATION_OPTION_0</zType>
 		<Translation>We will gladly take any assistance you can offer.</Translation>
 	</Entry>
@@ -12241,6 +12397,22 @@
 		<zType>TEXT_EVENTOPTION_DISHEARTENING_NEWS_OPTION_0</zType>
 		<Translation><![CDATA[We will pray for <masculine_CHARACTER-0>him<feminine>her<end> and make sacrifices.]]></Translation>
 	</Entry>	 
+	<Entry>
+		<zType>TEXT_EVENTOPTION_WOOD_SHORTAGES_OPTION_0</zType>
+		<Translation>Request wood shipments from {PLAYER-2}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_WOOD_SHORTAGES_OPTION_1</zType>
+		<Translation>Build emergency lumbermills in {CITY-2}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_WOOD_SHORTAGES_OPTION_2</zType>
+		<Translation>Recruit more village woodcutters.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_WOOD_SHORTAGES_OPTION_3</zType>
+		<Translation>Do nothing for now.</Translation>
+	</Entry>
   <Entry beginGroup="Tutorial">
 		<zType>TEXT_EVENTOPTION_VICTORY_OK</zType>
 		<Translation>Show me how this came to pass. (Open Game Log)</Translation>
@@ -12491,11 +12663,11 @@
 	</Entry>
 	 <Entry beginGroup="Community">
     <zType>TEXT_EVENTOPTION_GOT_YOUR_NOSE_0</zType>
-    <Translation>Laugh.</Translation>
+    <Translation>Lachen.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_GOT_YOUR_NOSE_1</zType>
-    <Translation>Cry.</Translation>
+    <Translation>Schreien.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_GOT_YOUR_NOSE_2</zType>
@@ -12620,5 +12792,65 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TROOPS_RANSACK_TREASURE_OPTION_2</zType>
 		<Translation>Use the hoard to help restore the city.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DELENDA_EST_ALLOW</zType>
+		<Translation><![CDATA[Allow <masculine_CHARACTER-0>him<feminine>her<end> to distract the council with fruitless debates.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DELENDA_EST_DENOUNCE</zType>
+		<Translation>Publicly denounce this hothead.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DELENDA_EST_WAR</zType>
+		<Translation><![CDATA[We'll do it, we'll do anything, just please shut <masculine_CHARACTER-0>him<feminine>her<end> up.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MEDDLING_STOP</zType>
+		<Translation>The {FAMILY-0} needs reminding who is in charge! Remove {CHARACTER-3} from the council as punishment.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MEDDLING_IGNORE</zType>
+		<Translation>Do nothing but keep an eye on them to see what develops.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MEDDLING_NO</zType>
+		<Translation>[NO]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MEDDLING_AMBASSADOR_TRADE</zType>
+		<Translation>[START THE TRADE MISSION]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MEDDLING_CHANCELLOR_COURTIER</zType>
+		<Translation>[YES, RECRUIT THE COURTIER]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MEDDLING_SPYMASTER_INFILTRATE</zType>
+		<Translation>[START THE INFILTRATE MISSION]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MEDDLING_SPYMASTER_SLANDER</zType>
+		<Translation>[START THE DLANDER MISSION]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MEDDLING_USURP</zType>
+		<Translation>[WELP]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MERCENARY_DEMANDS_YES</zType>
+		<Translation>[VERY WELL]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MERCENARY_DEMANDS_NO</zType>
+		<Translation>[NEVER!]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MERCENARY_DEMANDS_GOOD</zType>
+		<Translation>[SATISFIED SMILE]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MERCENARY_DEMANDS_BAD</zType>
+		<Translation>[WELP]</Translation>
 	</Entry>
 </Root>
