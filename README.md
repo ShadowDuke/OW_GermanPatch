@@ -1,6 +1,6 @@
 # Important Info
-**The game is now using mod.io for mod-support in their game which was implemented with the latest patch (20th July).<br>
-You can still add them manually like before (github) but it would be certainly easier for you to create a mod.io profile and get the mods and updates for them through the game now.**
+**The game is now using [mod.io](https://oldworld.mod.io/) for mod-support in their game which was implemented with the latest patch (20th July).<br>
+You can still add them manually like before (github) but it would be certainly easier for you to create a [mod.io](https://oldworld.mod.io/) profile and get the mods and updates for them through the game now.**
 
 # Old World German Patch
 German localization for **Old World** for **Version: 0.1.40495**. (WIP)
