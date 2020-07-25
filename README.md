@@ -13,7 +13,7 @@ Zur [deutschen Anleitung](https://github.com/ShadowDuke/OW_GermanPatch#deutsch) 
 **Delete any previous files/directories from earlier versions of this patch**
 1. [Download](https://github.com/ShadowDuke/OW_GermanPatch/archive/master.zip) the files and put the **"Mods"** directory and the **"Translations"** directory in \Users\\###\Documents\My Games\OldWorld\
    - Help: Windows Explorer; click on Documents; navigate to \My Games\Old World\
-2. Go to "Mods" in the main menu and enable "German Translation" and "German" in tne *Translations* bab, click "Save" then click "Play with Mods".
+2. Go to "Mods" in the main menu and enable "German Translation" and "German" (German Translation Part 1+2) in tne *Translations* tab, click "Save" then click "Play with Mods".
 3. Now set up a new game and start as usual.
 
 **To enable the full patch (step 2) on your saved game begun in english**, find your save in \Documents\My Games\Old World\Save\.. and edit the file with an editor.
@@ -35,7 +35,7 @@ If you want, you can now support me with a donation at [Paypal](https://www.payp
 **Lösche jegliche Dateien/Verzeichnisse vorheriger Versionen des Patches**
 1. [Lade](https://github.com/ShadowDuke/OW_GermanPatch/archive/master.zip) die Dateien herunter und entpacke den **"Mods"** und **"Translations"** Ordner nach \Benutzer\\###\Dokumente\My Games\OldWorld\
    - Hilfe: Windows Explorer; klicke auf Dokumente; navigiere zu \My Games\Old World\
-2. Gehe zu "Modifikationen" im Hauptmenü and aktiviere "German Translation" und "German" im *Translations* Reiter, drücke "Speichern" dann klicke auf "Play with Mods".
+2. Gehe zu "Modifikationen" im Hauptmenü and aktiviere "German Translation" und "German" (German Translation Part 1+2) im *Translations* Reiter, drücke "Speichern" dann klicke auf "Play with Mods".
 3. Nun erstelle ganz normal ein Spiel wie immer und starte es.
 
 **Um den vollständigen Patch (Schritt 2) auf einem gespeicherten Spiel, welches auf englisch angefangen wurde zu aktivieren**, suche dein save in \Dokumente\My Games\Old World\Save\.. und bearbeite die Datei mit einem Editor.
