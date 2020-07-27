@@ -17,7 +17,7 @@ Zur [deutschen Anleitung](https://github.com/ShadowDuke/OW_GermanPatch#deutsch) 
 3. Now set up a new game and start as usual.
 
 **To enable the full patch (step 2) on your saved game begun in english**, find your save in \Documents\My Games\Old World\Save\.. and edit the file with an editor.
-At the 5th line it says *Version* make it look like this **Version="Version: 0.1.40816+German+German Translation=-1182266509"** - make sure *German Translation* & *German* is selected at the Mods options.
+At the 5th line it says *Version* make it look like this **Version="Version: 0.1.40816+German+German Translation=-1182266509"** - make sure *German Translation* & *German* is selected at the Mods options. For the **mod.io** version its **Version="Version: 0.1.40816+German Translation Part 2+German Translation Part 1=**
 
 Loading an existing savegame should work without the need to do the procedure again. Language in the options are also saved upon exting the game.
 
@@ -39,7 +39,7 @@ If you want, you can now support me with a donation at [Paypal](https://www.payp
 3. Nun erstelle ganz normal ein Spiel wie immer und starte es.
 
 **Um den vollständigen Patch (Schritt 2) auf einem gespeicherten Spiel, welches auf englisch angefangen wurde zu aktivieren**, suche dein save in \Dokumente\My Games\Old World\Save\.. und bearbeite die Datei mit einem Editor.
-Auf der 5 Zeile steht *Version* - bearbeite die Zeile das sie so aussieht, **Version="Version: 0.1.40816+German+German Translation=-1182266509"** - gehe sicher das *German Translation* und *German* bei Modifikationen eingestellt ist.
+Auf der 5 Zeile steht *Version* - bearbeite die Zeile das sie so aussieht, **Version="Version: 0.1.40816+German+German Translation=-1182266509"** - gehe sicher das *German Translation* und *German* bei Modifikationen eingestellt ist. Für die **mod.io** Version ist das **Version="Version: 0.1.40816+German Translation Part 2+German Translation Part 1=**
 
 Einen vorhandenen Spielstand zu laden sollte ohne Probleme funktionieren, ohne dass man das ganze noch ein mal so einstellen muss. Die Sprache wird in den Optionen gesspeichert.
 
