@@ -198,14 +198,6 @@
 		<Translation>Müde</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_CITY_WIDGET_GOVERNOR_MARKER</zType>
-		<Translation>S</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_UI_CITY_WIDGET_AGENT_MARKER</zType>
-		<Translation>A</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_UI_TECH_PANEL_TECH_DISCOVERED</zType>
 		<Translation>{0} Entdeckt</Translation>
 	</Entry>
@@ -1451,6 +1443,10 @@
         <Translation>[STRG+Klick] um derzeitige Forschund zu wechseln</Translation>
     </Entry>
     <Entry>
+		<zType>TEXT_TECH_TREE_OVERRIDE_TARGET_RESEARCH</zType>
+		<Translation>[Klick] um Forschung mit einer Fahne als Ziel zu setzen</Translation>
+	</Entry>
+	<Entry>	
         <zType>TEXT_TECH_TREE_BONUS_CARD_DISCARDED</zType>
         <Translation>Dauerhaft verworfen wenn abgelegt</Translation>
     </Entry>
@@ -1526,6 +1522,10 @@
 	</Entry>
 	<!--Mods Screen (mod-manager.xml)-->
 	<Entry>
+		<zType>TEXT_UI_MODS_POWERED_BY_MODIO_TOOLTIP</zType>
+		<Translation>Powered by mod.io</Translation>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_UI_MODS_BACK_TO_MENU</zType>
 		<Translation>Hauptmenü</Translation>
 	</Entry>

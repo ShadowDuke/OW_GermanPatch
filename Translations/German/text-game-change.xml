@@ -46,8 +46,16 @@
 		<Translation>Du hast nun {0_newDiplomacy} mit {1_team}.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_TEAM_DIPLOMACY_LOG_DATA</zType>
+		<Translation>{0_team}: {1_newDiplomacy}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_TEAM_ALLIANCE_WAR</zType>
 		<Translation>Wegen einer Verbindung(CONCEPT_ALLIANCE_PLAYER) zu {0_team}, {1_player} erklärt {2_player} den Krieg!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_RELIGION_THEOLOGY</zType>
+		<Translation>{RELIGION-0} has established {THEOLOGY-1} Theology.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_GAME_OVER_POPUP</zType>
@@ -168,6 +176,10 @@
 	<Entry>
 		<zType>TEXT_GAME_CHARACTER_TUTORS_CHILD_VERB</zType>
 		<Translation>Lehrer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_CHARACTER_RATING_CHANGE</zType>
+		<Translation>{0_character}: {1_value} {2_rating}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CHARACTER_ACQUIRES_TRAIT</zType>

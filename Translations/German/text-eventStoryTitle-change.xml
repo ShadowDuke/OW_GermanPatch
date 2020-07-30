@@ -22,6 +22,10 @@
 		<Translation>Reaktion auf Waffenruhe</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTSTORY_BARBARIAN_PLAYER_WAR_TITLE</zType>
+		<Translation>Eine Kriegserklärung</Translation>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_EVENTSTORY_PLAYER_BARBARIAN_WAR_TITLE</zType>
 		<Translation>Eine Kriegserklärung</Translation>
 	</Entry>
@@ -1145,6 +1149,22 @@
 		<zType>TEXT_EVENTSTORY_RETURN_CITY_BARBARIAN_TITLE</zType>
 		<Translation>[RETURN CITY]</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BATTLE_PLANS_TITLE</zType>
+		<Translation>Schlachtpläne</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRIBAL_UNREST_TITLE</zType>
+		<Translation>{BARBARIAN-1,1} Unruhen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_EXECUTED_SPIES_TITLE</zType>
+		<Translation>Spione hingerichtet</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NEW_ALLIANCE_TITLE</zType>
+		<Translation>Neues Bündnis</Translation>
+	</Entry>
 	<Entry beginGroup="Combat">
 		<zType>TEXT_EVENTSTORY_LEADER_SMITING_FOES_TITLE</zType>
 		<Translation>Smiting Foes</Translation>
@@ -1452,6 +1472,22 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BASELESS_ACCUSATIONS_TITLE</zType>
 		<Translation>Baseless Accusations</Translation>
+	</Entry>	 
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DESIGNS_ON_THE_THRONE_TITLE</zType>
+		<Translation>Designs on the Throne</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_WHISPERS_OF_BETRAYAL_TITLE</zType>
+		<Translation>Whispers of Betrayal</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NO_EVIDENCE_TITLE</zType>
+		<Translation>Keine Beweise</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_WINNING_FAVOR_TITLE</zType>
+		<Translation>Family Favor</Translation>
 	</Entry>	 
   <Entry beginGroup="Marriage">
 		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_TITLE</zType>
@@ -4621,37 +4657,97 @@
 		<zType>TEXT_EVENTSTORY_WOOD_SHORTAGES_TITLE</zType>
 		<Translation>Wood Shortages</Translation>
 	</Entry>	 
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MONKEY_SEE_THE_WORLD_TITLE</zType>
+		<Translation>Monkey See, Monkey Kill</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MONKEY_DAGGER_WIELDING_MONKEY_TITLE</zType>
+		<Translation>Dagger-Wielding Monkey</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MONKEY_TINY_PAWS_TITLE</zType>
+		<Translation>Tiny Paws</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MONKEY_SCOURGE_OF_NATION_TITLE</zType>
+		<Translation>Scourge of {PLAYER-1}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MONKEY_A_NEW_TARGET_TITLE</zType>
+		<Translation>A New Target</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MONKEY_THE_HEAD_IN_THE_BOX_TITLE</zType>
+		<Translation>The Head in the Box</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_EYES_OF_THE_MONKEY_TITLE</zType>
+		<Translation>Eyes of the Monkey</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INFILTRATION_DOUBLE_AGENT_TITLE</zType>
+		<Translation>Double Agent</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INFILTRATION_DEFECTORS_TITLE</zType>
+		<Translation>Defectors</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INFILTRATION_VETERAN_AGENT_TITLE</zType>
+		<Translation>Veteran Agent</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INFILTRATION_SILVER_LININGS_TITLE</zType>
+		<Translation>Silver Linings</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INFILTRATION_CAPTURED_BY_BARBARIANS_TITLE</zType>
+		<Translation>Captured by Barbarians</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INFILTRATION_NOBLES_ABROAD_TITLE</zType>
+		<Translation>Nobles Abroad</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INFILTRATION_PLAYER_EXILES_TITLE</zType>
+		<Translation>{PLAYER-2,1} Exiles</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INFILITRATION_LAND_GRAB_TITLE</zType>
+		<Translation>Land Grab</Translation>
+	</Entry>	 
   <Entry beginGroup="Tutorial">
 		<zType>TEXT_EVENTSTORY_VICTORY_POINTS_TITLE</zType>
-		<Translation>POINTS VICTORY!</Translation>
+		<Translation>PUNKTE SIEG!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_VICTORY_DOUBLE_TITLE</zType>
-		<Translation>DOUBLE VICTORY!</Translation>
+		<Translation>DOPPEL SIEG!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_VICTORY_AMBITION_TITLE</zType>
-		<Translation>AMBITION VICTORY!</Translation>
+		<Translation>AMBITION SIEG!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_VICTORY_TIME_TITLE</zType>
-		<Translation>TIME VICTORY!</Translation>
+		<Translation>ZEIT SIEG!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_VICTORY_CONQUEST_TITLE</zType>
-		<Translation>CONQUEST VICTORY!</Translation>
+		<Translation>EROBERUNG SIEG!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GAME_LOSS_TITLE</zType>
-		<Translation>DEFEAT</Translation>
+		<Translation>BESIEGT</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_INTRO_TITLE</zType>
-		<Translation>Welcome to Old World</Translation>
+		<Translation>Wilkommen bei Old World</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SCOUT_SELECTED_TITLE</zType>
-		<Translation>Scout Selected</Translation>
+		<Translation>Scout ausgewählt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_ORDERS_TITLE</zType>
@@ -4659,11 +4755,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SECOND_CITY_TITLE</zType>
-		<Translation>Your Second City</Translation>
+		<Translation>Deine zweite Stadt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_WORKER_SELECTED_TITLE</zType>
-		<Translation>The Worker</Translation>
+		<Translation>Der Baumeister</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_SLINGER_SELECTED_TITLE</zType>
@@ -4832,5 +4928,17 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MERCENARY_DEMANDS_BAD_TITLE</zType>
 		<Translation>[BAD]</Translation>
+	</Entry>	 
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_POLEMICIST_TITLE</zType>
+		<Translation>The Polemicist</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LOCUST_SWARMS_TITLE</zType>
+		<Translation>Locust Swarms</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RIOTS_AT_THE_RACES_TITLE</zType>
+		<Translation>Riots at the Races</Translation>
 	</Entry>	 
 </Root>

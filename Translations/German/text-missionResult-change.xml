@@ -367,6 +367,10 @@
 		<Translation>Lösegeld bezahlt</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_BARBARIAN_PLAYER_WAR_EVENT</zType>
+		<Translation>Barbaren vs Spieler Kriegs Ereignis</Translation>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_MISSIONRESULT_PLAYER_BARBARIAN_WAR_EVENT</zType>
 		<Translation>Spieler vs Barbaren Kriegs Ereignis</Translation>
 	</Entry>

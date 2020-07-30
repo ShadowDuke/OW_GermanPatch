@@ -581,6 +581,12 @@
 		</aiRatings>
 	</Entry>
 	<Entry>
+		<zType>BONUS_EVENTOPTION_TUTOR_UNHEALTHY_INTERESTS_OPTION_1_CHARACTER_2</zType>
+		<aeBonuses>
+			<zValue>BONUS_GAIN_WISDOM</zValue>
+		</aeBonuses>
+	</Entry>
+	<Entry>	
 		<zType>BONUS_GAIN_DISCIPLINE</zType>
 		<aiRatings>
 			<Pair>
@@ -1889,6 +1895,22 @@
 		<iXPCharacter>60</iXPCharacter>
 	</Entry>
 	<Entry>
+		<zType>BONUS_MAKE_GREAT_SOLDIER</zType>
+		<MakeCourtier>COURTIER_GREAT_SOLDIER</MakeCourtier>
+	</Entry>
+	<Entry>
+		<zType>BONUS_MAKE_GREAT_MINISTER</zType>
+		<MakeCourtier>COURTIER_GREAT_MINISTER</MakeCourtier>
+	</Entry>
+	<Entry>
+		<zType>BONUS_MAKE_GREAT_MERCHANT</zType>
+		<MakeCourtier>COURTIER_GREAT_MERCHANT</MakeCourtier>
+	</Entry>
+	<Entry>
+		<zType>BONUS_MAKE_GREAT_SCIENTIST</zType>
+		<MakeCourtier>COURTIER_GREAT_SCIENTIST</MakeCourtier>
+	</Entry>
+	<Entry>	
 		<zType>BONUS_SET_HERO_ARCHETYPE</zType>
 		<SetArchetype>TRAIT_HERO_ARCHETYPE</SetArchetype>
 	</Entry>
@@ -2199,7 +2221,7 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
-				<iValue>2</iValue>
+				<iValue>20</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 	</Entry>
@@ -2208,7 +2230,7 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
-				<iValue>3</iValue>
+				<iValue>30</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 	</Entry>
@@ -2217,7 +2239,7 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
-				<iValue>4</iValue>
+				<iValue>40</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 	</Entry>
@@ -2226,7 +2248,7 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
-				<iValue>5</iValue>
+				<iValue>50</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 	</Entry>
@@ -2235,7 +2257,7 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
-				<iValue>7</iValue>
+				<iValue>70</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 	</Entry>
@@ -5924,6 +5946,12 @@
 		<RemoveLeaderRelationship>RELATIONSHIP_PLOTTING_AGAINST</RemoveLeaderRelationship>
 	</Entry>
 	<Entry>
+		<zType>BONUS_GIVE_TRAIT_CARELESS</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_CARELESS</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>	
 		<zType>BONUS_GIVE_TRAIT_AFFABLE</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_AFFABLE</zValue>
@@ -5978,7 +6006,7 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GIVE_TRAIT_CARELESS</zType>
+		<zType>BONUS_EVENTOPTION_TUTOR_UNHEALTHY_INTERESTS_OPTION_2_CHARACTER_2</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_CARELESS</zValue>
 		</aeAddTraits>

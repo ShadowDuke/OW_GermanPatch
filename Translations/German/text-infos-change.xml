@@ -677,8 +677,8 @@
 		<Translation>+20 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD), und icon(YIELD_STONE)/Jahr</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_50_GOODS_TURN</zType>
-		<Translation>+50 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD), und icon(YIELD_STONE)/Jahr</Translation>
+		<zType>TEXT_GOAL_200_GOODS_TURN</zType>
+		<Translation>+200 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD), und icon(YIELD_STONE)/Jahr</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_CIVICS_2000</zType>
@@ -699,14 +699,6 @@
 	<Entry>
 		<zType>TEXT_GOAL_MONEY_10000</zType>
 		<Translation>Lagere 10,000icon(YIELD_MONEY)</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_500_MONEY_TURN</zType>
-		<Translation>+500icon(YIELD_MONEY)/Jahr</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_1000_MONEY_TURN</zType>
-		<Translation>+1000icon(YIELD_MONEY)/Year</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_FIVE_WORKERS</zType>
@@ -1017,6 +1009,10 @@
 		<Translation>Kontrolliere 10 Spezialisten</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GOAL_20_SPECIALISTS</zType>
+		<Translation>Kontrolliere 20 Spezialisten</Translation>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_GOAL_10_ELDER_SPECIALISTS</zType>
 		<Translation>Kontrolliere 10 Ältesten Spezialisten</Translation>
 	</Entry>
@@ -1133,10 +1129,6 @@
 		<Translation>Entdecke sechs Technologien</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_SEVEN_TECHS</zType>
-		<Translation>Entdecke sieben Technologien</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GOAL_EIGHT_TECHS</zType>
 		<Translation>Entdecke acht Technologien</Translation>
 	</Entry>
@@ -1145,6 +1137,34 @@
 		<Translation>Entdecke Forschung und Wölbung</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GOAL_ARCHITECTURE_JURISPRUDENCE</zType>
+		<Translation>Discover Architecture and Jurisprudence</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_COINAGE_FISCAL_POLICY</zType>
+		<Translation>Discover Coinage and Fiscal Policy</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_HYDRAULICS_CHAIN_DRIVE</zType>
+		<Translation>Discover Hydraulics and Chain Drive</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_UNIT_TACTICS_MARTIAL_CODE</zType>
+		<Translation>Discover Unit Tactics and Martial Code</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_BODKIN_ARROW_BALLISTICS</zType>
+		<Translation>Discover Bodkin Arrow and Ballistics</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_WINDLASS_LATEEN_SAIL</zType>
+		<Translation>Discover Windlass and Lateen Sail</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_BARDING_SARISSA</zType>
+		<Translation>Discover Barding and Sarissa</Translation>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_GOAL_5_KILLS</zType>
 		<Translation>Töte 5 gegnerische Einheiten</Translation>
 	</Entry>

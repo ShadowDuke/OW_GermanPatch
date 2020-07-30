@@ -88,11 +88,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_NO</zType>
-		<Translation>Frage nach Waffenruhe</Translation>
+		<Translation>Bitte nach Waffenruhe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_NO_TARGET</zType>
-		<Translation>Frag nach Frieden mit</Translation>
+		<Translation>Bitte nach Frieden mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_DEMAND</zType>
@@ -343,6 +343,14 @@
 		<Translation>Scheidung</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSION_BARBARIAN_PLAYER_WAR</zType>
+		<Translation>Bitte nach einer Kriegserklärung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_BARBARIAN_PLAYER_WAR_TARGET</zType>
+		<Translation>Bitte nach einer Kriegserklärung an</Translation>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_MISSION_PLAYER_BARBARIAN_WAR</zType>
 		<Translation>Würden sie Krieg erklären</Translation>
 	</Entry>

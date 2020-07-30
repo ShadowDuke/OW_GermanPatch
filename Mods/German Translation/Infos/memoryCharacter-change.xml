@@ -859,17 +859,17 @@
 	<Entry>
 		<zType>MEMORYCHARACTER_ADOPTED_SPOUSE_RELIGION</zType>
 		<zText>Adopted my religion</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_DID_NOT_ADOPT_SPOUSE_RELIGION</zType>
 		<zText>Did not convert to Zoroastrianism</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_SCRIPTURE_AS_TEXT</zType>
-		<zText>Examined religious text</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+		<zText>Read religious text for pleasure only</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_STAYED_ON_COURT</zType>
@@ -1111,6 +1111,11 @@
 		<zText>Demanded an apology for flirting</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_BLAMED_FOR_EXECUTED_SPIES</zType>
+		<zText>Blamed for espionage debacle</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>	 
 	<Entry beginGroup="Combat">
 		<zType>MEMORYCHARACTER_REFUSED_FUNDS</zType>
 		<zText>Verweigerte finanzielle Mittel fürs Militär</zText>
@@ -1125,4 +1130,9 @@
 	<Entry>
 		<zType>MEMORYCHARACTER_DEMANDED_TRUCE</zType>
 	</Entry>
+	<Entry beginGroup="Family">
+		<zType>MEMORYCHARACTER_REFUSED_REQUEST</zType>
+		<zText>Ignorierte meinen Rat und hat meinen Vorschlag abgelehnt</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>	 
 </Root>

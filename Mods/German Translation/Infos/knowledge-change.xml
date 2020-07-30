@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (x64) (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType/>
+		<zName/>
+		<iPercent/>
+	</Entry>
+	<Entry>
+		<zType>KNOWLEDGE_PRIMITIVE</zType>
+		<zName>Primitiv</zName>
+		<iPercent>75</iPercent>
+	</Entry>
+	<Entry>
+		<zType>KNOWLEDGE_NAIVE</zType>
+		<zName>Naiv</zName>
+		<iPercent>90</iPercent>
+	</Entry>
+	<Entry>
+		<zType>KNOWLEDGE_COMPETENT</zType>
+		<zName>Kompetent</zName>
+		<iPercent>110</iPercent>
+	</Entry>
+	<Entry>
+		<zType>KNOWLEDGE_LEARNED</zType>
+		<zName>Gelernt</zName>
+		<iPercent>135</iPercent>
+	</Entry>
+	<Entry>
+		<zType>KNOWLEDGE_ERUDITE</zType>
+		<zName>Gebildet</zName>
+	</Entry>
+</Root>

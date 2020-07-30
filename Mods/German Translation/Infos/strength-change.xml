@@ -19,14 +19,14 @@
 	<Entry>
 		<zType>STRENGTH_WEAKER</zType>
 		<zName>Schwächer</zName>
-		<iPercent>75</iPercent>
+		<iPercent>80</iPercent>
 		<iTruceModifier>25</iTruceModifier>
 		<iWarModifier>-25</iWarModifier>
 	</Entry>
 	<Entry>
 		<zType>STRENGTH_SIMILAR</zType>
 		<zName>Ähnlich</zName>
-		<iPercent>133</iPercent>
+		<iPercent>130</iPercent>
 		<bDeclareWar>1</bDeclareWar>
 	</Entry>
 	<Entry>

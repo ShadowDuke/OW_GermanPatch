@@ -52,7 +52,7 @@
 	<Entry>
 		<zType>MEMORYFAMILY_OUR_AMBITION</zType>
 		<zText>Unsere Ambition verfolgt</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_DIVORCE</zType>
@@ -70,11 +70,6 @@
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYFAMILY_ACROPOLIS_TREASURY</zType>
-		<zText>Eine Schatzkammer in der Akropolis gewährt</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_HIGH_SHORT</MemoryLevel>
-	</Entry>
-	<Entry>
 		<zType>MEMORYFAMILY_MARRIAGE_DECLINE</zType>
 		<zText>Vermählung abgelehnt</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
@@ -90,6 +85,11 @@
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
+		<zType>MEMORYFAMILY_MEMBER_EXILED</zType>
+		<zText>Unser Familienmitglied ins Exil verbannt</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>	
 		<zType>MEMORYFAMILY_MEMBER_IMPRISONED</zType>
 		<zText>Einen unserer Familienangehörigen inhaftiert</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
@@ -147,13 +147,13 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_ADOPT_HEIR_YES</zType>
-		<zText>Adopted our child as Heir</zText>
+		<zText>Adopted our child</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 		<bName>MEMORYLEVEL_NEG_MEDIUM_LONG</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_ADOPT_HEIR_NO</zType>
-		<zText>Did not adopt our child as Heir</zText>
+		<zText>Did not adopt our child</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 		<bName>MEMORYLEVEL_NEG_MEDIUM_FOREVER</bName>
 	</Entry>
@@ -280,7 +280,7 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_KILLED_FAMILY_ELDER</zType>
-		<zText>Imprisoned our elder</zText>
+		<zText>Killed our elder</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -928,6 +928,16 @@
 		<zText>Ruler stood by accusations</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_SUSPECT_KIDNAPPING</zType>
+		<zText>Learned to fear ruler's power</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FORCED_END_TO_HOSTING</zType>
+		<zText>Forced to stop hosting successors</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>	 
 	<Entry beginGroup="City">
 		<zType>MEMORYFAMILY_SENT_DOCTORS_TO_PLAGUED_CITY</zType>
 		<zText>Sent doctors to plagued city</zText>
@@ -984,6 +994,11 @@
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
+		<zType>MEMORYFAMILY_ACROPOLIS_TREASURY</zType>
+		<zText>Granted a treasury in the Acropolis</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>	
 		<zType>MEMORYFAMILY_NECROPOLIS_RITES</zType>
 		<zText>Conducted a pious royal funeral</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>

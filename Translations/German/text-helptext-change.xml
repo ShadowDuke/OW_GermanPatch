@@ -91,6 +91,10 @@
 		<Translation>{0}: {1}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_ENTRY_COLON_SPACE_ONE_TWO</zType>
+		<Translation>{0}: {1}{2}</Translation>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_HELPTEXT_COMMA_DATA_TWO</zType>
 		<Translation>{0},{1}</Translation>
 	</Entry>
@@ -1403,6 +1407,10 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation><![CDATA[Werde {0_agent} für {1_money}<true_2> in {2_city}<false><end>]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_RETURN_AGENT</zType>
+		<Translation>Hole {0_agent} aus {1_city} zurück</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_REQUIRES_LIST</zType>
 		<Translation>Benötigt {0_list}</Translation>
 	</Entry>
@@ -1897,10 +1905,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Frischwasser</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_FRESH_WATER_EFFECTCITY</zType>
-		<Translation>Stadt: {0_effectCity}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_HARVEST_RESOURCE</zType>
 		<Translation><![CDATA[Kann eine Ressource ernten für einen schnellen Vorrat von Gütern.<br>Die Ressource kann nicht nocht einmal geernten werden bis sie zufällig neu erscheint.]]></Translation>
 	</Entry>
@@ -2073,10 +2077,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Verteidigung vs. {0_unit} (wenn link(CONCEPT_CLEAR)): {1}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_TERRAIN_DEFENDING_OUR_TERRITORY</zType>
-		<Translation>Verteidigung (Eigenes Gebiet): {1}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TRADE_BONUS_US</zType>
 		<Translation>Handelsbonus (für uns): {0_yield} {1_turns}</Translation>
 	</Entry>
@@ -2155,10 +2155,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_VICTORY_TOTAL</zType>
 		<Translation>Total: {0}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_VICTORY_FROM_CITIES</zType>
-		<Translation>{0}: von Städten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_VICTORY_FROM_TILE</zType>
@@ -2698,6 +2694,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Reichweite: {0}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_RANGE_MIN_MAX</zType>
+		<Translation>Reichweite: {0}-{1}</Translation>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_HELPTEXT_UNIT_CRITICAL</zType>
 		<Translation>Kritisch: {0}</Translation>
 	</Entry>
@@ -3666,10 +3666,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_ENEMY_UNIT_TRAIT_BONUS_VERSUS</zType>
 		<Translation>:Vs. {0_unitTrait}</Translation>
 	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_ENEMY_UNIT_TRAIT_BONUS_OWN_TERRITORY</zType>
-		<Translation>:Unserem Gebiet ({0_terrain})</Translation>
-	</Entry>
 	<!--Player Selection-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_SELECTION_GIFT_YIELD</zType>
@@ -4214,6 +4210,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Stärke: {0}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_PLAYER_KNOWLEDGE</zType>
+		<Translation>Wissen: {0}</Translation>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_HELPTEXT_PLAYER_PROXIMITY</zType>
 		<Translation>Nähe: {0}</Translation>
 	</Entry>

@@ -304,4 +304,9 @@
 		<zText>Junger Hüter zurückgekehrt</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
+	<Entry beginGroup="Diplomacy">
+		<zType>MEMORYBARBARIAN_SENT_SPIES</zType>
+		<zText>Agenten entsendet um Unruhe zu schüren</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>	 
 </Root>

@@ -31,10 +31,6 @@
 		<Translation>Heilige Stadt</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_FRESH_WATER</zType>
-		<Translation>Frischwasser Zugang</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EFFECTCITY_CITIZEN</zType>
 		<Translation>Bürger</Translation>
 	</Entry>
@@ -548,7 +544,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LAW_ISOLATIONISM</zType>
-		<English>Abschottung</English>
+		<Translation>Abschottung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LAW_COIN_DEBASEMENT</zType>
