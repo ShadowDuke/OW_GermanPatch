@@ -623,7 +623,40 @@
     <Entry>
         <zType>CLOUD_SCREEN_BACK_BUTTON</zType>
         <Translation>Zurück</Translation>
-    </Entry>
+	</Entry>
+	<!--MP wizard screen-->
+	<Entry>
+		<zType>MP_WIZARD_SCREEN_TITLE</zType>
+		<Translation>Bitte wähle den Mehrspieler Modus aus</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_WIZARD_SCREEN_NETWORK_MODE</zType>
+		<Translation>Spiele gegen online Gegner in Echtzeit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_WIZARD_SCREEN_PLAY_BY_CLOUD_MODE</zType>
+		<Translation>Spiele abwechselnd in einem Spiel, welches in der Cloud gespeichert ist</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_WIZARD_SCREEN_HOTSEAT_MODE</zType>
+		<Translation>Spiele abwechselnd auf dem selben Gerät</Translation>
+	</Entry>
+	<Entry>
+		<zType>MP_WIZARD_SCREEN_NETWORK_MODE_BUTTON</zType>
+		<Translation>Netzwerk Modus</Translation>
+	</Entry>
+	<Entry>
+		<zType>MP_WIZARD_SCREEN_PLAY_BY_CLOUD_MODE_BUTTON</zType>
+		<Translation>Spiele im Cloud Modus</Translation>
+	</Entry>
+	<Entry>
+		<zType>MP_WIZARD_SCREEN_HOTSEAT_MODE_BUTTON</zType>
+		<Translation>Hotseat Modus</Translation>
+	</Entry>
+	<Entry>
+		<zType>MP_WIZARD_SCREEN_BACK_BUTTON</zType>
+		<Translation>Zurück</Translation>
+	</Entry>
     <!--multiplayer games screen-->
     <Entry>
         <zType>MP_GAME_SCREEN_BUTTON</zType>
@@ -1566,6 +1599,10 @@
 		<Translation>Karten</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_MODS_FILTER_MAP_SCRIPTS</zType>
+		<Translation>Karten Skripte</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_MODS_INCLUDE_INTERNAL_TOGGLE_LABEL</zType>
 		<Translation>Beziehe Interne mit ein</Translation>
 	</Entry>
@@ -1575,7 +1612,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_RESOURCES</zType>
-		<Translation>Ressourcen</Translation>
+		<Translation>Quellen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_MOD_VERSION_LABEL</zType>
@@ -1630,6 +1667,18 @@
 		<Translation>[Karte]</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_MODS_MAP_SCRIPT_TAG</zType>
+		<Translation>[Karten Skript]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_FILES</zType>
+		<Translation>Dateien:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_ADD_FILES</zType>
+		<Translation>Füge Dateien hinzu</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_MODS_OPEN_MOD_FOLDER_BUTTON</zType>
 		<Translation>Öffne Mod Ordner</Translation>
 	</Entry>
@@ -1671,19 +1720,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_UNINSTALL_MOD_BUTTON</zType>
-		<Translation>Uninstall</Translation>
+		<Translation>Deinstallieren</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_DOWNLOAD_MOD_BUTTON</zType>
-		<Translation>Download</Translation>
+		<Translation>Downloaden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_REQUEST_ERROR_POPUP_TITLE</zType>
-		<Translation>Request Error</Translation>
+		<Translation>Anfragungsfehler</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_SECURITY_CODE_SENT_POPUP_TITLE</zType>
-		<Translation>Security Code Sent</Translation>
+		<Translation>Sicherheitscode gesendet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_LOG_OUT_BUTTON</zType>
@@ -1699,7 +1748,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_MOD_UPDATE_MODS_POPUP_TITLE</zType>
-		<Translation>Mods aktualisieren??</Translation>
+		<Translation>Mods aktualisieren?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_MODS_UPDATED_CONFIRMED_POPUP_TITLE</zType>
@@ -1715,11 +1764,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_ENTER_EMAIL_POPUP_TITLE</zType>
-		<Translation>Enter Email</Translation>
+		<Translation>Email eingeben</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_VALIDATION_ERROR_POPUP_TITLE</zType>
-		<Translation>Gültisgekeits Fehler</Translation>
+		<Translation>Gültisgekeitsfehler</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_ERROR_MOD_NOT_BLANK</zType>
@@ -1735,7 +1784,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_ERROR_RESERVED_MOD_NAME_POPUP_BODY</zType>
-		<Translation>The mod name "{0_modName}" is reserved for internal use only</Translation>
+		<Translation>Der Mod Name "{0_modName}" ist für interne zwecke reserviert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_MOD_HAS_NO_PROFILE_POPUP_TITLE</zType>
@@ -1790,6 +1839,10 @@
 		<Translation>Multiplayer</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_LOGGED_OUT_TITLE</zType>
+		<Translation>Erfolgreich ausgeloggt</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_CREATE_NEW_MOD_POPUP_TITLE</zType>
 		<Translation>Erstelle neuen Mod</Translation>
 	</Entry>
@@ -1800,6 +1853,10 @@
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_SAVE_LOCAL_CHANGES_TOOLTIP</zType>
 		<Translation>Speichere lokale Änderungen in deiner {0_filename} Datei</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_SAVE_LOCAL_CHANGES_NOT_AVAILABLE_TOOLTIP</zType>
+		<Translation>Kann lokale modinfo der Karte und Karten Skripts nicht speichern, muss das Online Profil updaten/erstellen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_CREATE_NEW_MOD_PROFILE_TOOLTIP</zType>

@@ -413,6 +413,14 @@
 	</Entry>
 	<!--InfoGoal-->
 	<Entry>
+		<zType>TEXT_GOAL_EPICS</zType>
+		<Translation>Erlasse Anforderungen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_EXPLORATION</zType>
+		<Translation>Erlasse Erkundung</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GOAL_SLAVERY</zType>
 		<Translation>Erlasse Sklaverei</Translation>
 	</Entry>
@@ -427,14 +435,6 @@
 	<Entry>
 		<zType>TEXT_GOAL_CONSTITUTION</zType>
 		<Translation>Erlasse Verfassung</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_EPICS</zType>
-		<Translation>Erlasse Anforderungen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_EXPLORATION</zType>
-		<Translation>Erlasse Erkundung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_CENTRALIZATION</zType>
@@ -675,6 +675,10 @@
 	<Entry>
 		<zType>TEXT_GOAL_20_GOODS_TURN</zType>
 		<Translation>+20 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD), und icon(YIELD_STONE)/Jahr</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_60_GOODS_TURN</zType>
+		<Translation>+60 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD), und icon(YIELD_STONE)/Jahr</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_200_GOODS_TURN</zType>
@@ -1710,7 +1714,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_BALLISTICS</zType>
-		<Translation>Ballistics</Translation>
+		<Translation>Ballistik</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_LATEEN_SAIL</zType>

@@ -65,6 +65,26 @@
 		<SuccessionOrder>SUCCESSIONORDER_SENIORITY</SuccessionOrder>
 	</Entry>
 	<Entry>
+		<zType>LAW_EPICS</zType>
+		<zName>Anforderungen</zName>
+		<zIconName>LAW_EPICS</zIconName>
+		<iCostBase>400</iCostBase>
+		<iCostPerCity>0</iCostPerCity>
+		<iCostPerChange>200</iCostPerChange>
+		<LawClass>LAWCLASS_EPICS_EXPLORATION</LawClass>
+		<EffectPlayer>EFFECTPLAYER_LAW_EPICS</EffectPlayer>
+	</Entry>
+	<Entry>
+		<zType>LAW_EXPLORATION</zType>
+		<zName>Erkundung</zName>
+		<zIconName>LAW_EXPLORATION</zIconName>
+		<iCostBase>400</iCostBase>
+		<iCostPerCity>0</iCostPerCity>
+		<iCostPerChange>200</iCostPerChange>
+		<LawClass>LAWCLASS_EPICS_EXPLORATION</LawClass>
+		<EffectPlayer>EFFECTPLAYER_LAW_EXPLORATION</EffectPlayer>
+	</Entry>
+	<Entry>
 		<zType>LAW_SLAVERY</zType>
 		<zName>Sklaverei</zName>
 		<zIconName>LAW_SLAVERY</zIconName>
@@ -83,26 +103,6 @@
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_SLAVERY_FREEDOM</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_FREEDOM</EffectPlayer>
-	</Entry>
-	<Entry>
-		<zType>LAW_CENTRALIZATION</zType>
-		<zName>Zentralisierung</zName>
-		<zIconName>LAW_CENTRALIZATION</zIconName>
-		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
-		<iCostPerChange>200</iCostPerChange>
-		<LawClass>LAWCLASS_CENTRALIZATION_VASSALAGE</LawClass>
-		<EffectPlayer>EFFECTPLAYER_LAW_CENTRALIZATION</EffectPlayer>
-	</Entry>
-	<Entry>
-		<zType>LAW_VASSALAGE</zType>
-		<zName>Vasallentum</zName>
-		<zIconName>LAW_VASSALAGE</zIconName>
-		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
-		<iCostPerChange>200</iCostPerChange>
-		<LawClass>LAWCLASS_CENTRALIZATION_VASSALAGE</LawClass>
-		<EffectPlayer>EFFECTPLAYER_LAW_VASSALAGE</EffectPlayer>
 	</Entry>
 	<Entry>
 		<zType>LAW_TYRANNY</zType>
@@ -125,25 +125,25 @@
 		<EffectPlayer>EFFECTPLAYER_LAW_CONSTITUTION</EffectPlayer>
 	</Entry>
 	<Entry>
-		<zType>LAW_EPICS</zType>
-		<zName>Anforderungen</zName>
-		<zIconName>LAW_EPICS</zIconName>
+		<zType>LAW_CENTRALIZATION</zType>
+		<zName>Zentralisierung</zName>
+		<zIconName>LAW_CENTRALIZATION</zIconName>
 		<iCostBase>400</iCostBase>
 		<iCostPerCity>0</iCostPerCity>
 		<iCostPerChange>200</iCostPerChange>
-		<LawClass>LAWCLASS_EPICS_EXPLORATION</LawClass>
-		<EffectPlayer>EFFECTPLAYER_LAW_EPICS</EffectPlayer>
+		<LawClass>LAWCLASS_CENTRALIZATION_VASSALAGE</LawClass>
+		<EffectPlayer>EFFECTPLAYER_LAW_CENTRALIZATION</EffectPlayer>
 		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_LOW_CIVICS</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>
-		<zType>LAW_EXPLORATION</zType>
-		<zName>Erkundung</zName>
-		<zIconName>LAW_EXPLORATION</zIconName>
+		<zType>LAW_VASSALAGE</zType>
+		<zName>Vasallentum</zName>
+		<zIconName>LAW_VASSALAGE</zIconName>
 		<iCostBase>400</iCostBase>
 		<iCostPerCity>0</iCostPerCity>
 		<iCostPerChange>200</iCostPerChange>
-		<LawClass>LAWCLASS_EPICS_EXPLORATION</LawClass>
-		<EffectPlayer>EFFECTPLAYER_LAW_EXPLORATION</EffectPlayer>
+		<LawClass>LAWCLASS_CENTRALIZATION_VASSALAGE</LawClass>
+		<EffectPlayer>EFFECTPLAYER_LAW_VASSALAGE</EffectPlayer>
 		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_LOW_TRAINING</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>

@@ -319,10 +319,6 @@
 		<Translation>Intolerant</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_VENGEFUL</zType>
-		<Translation>Rachsüchtig</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_TRAIT_SUPERSTITIOUS</zType>
 		<Translation>Abergläubisch</Translation>
 	</Entry>
@@ -501,6 +497,10 @@
 	<Entry>
 		<zType>TEXT_TRAIT_MOURNING</zType>
 		<Translation>Trauernd</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_PROPHET</zType>
+		<Translation>Prophet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ARCHON</zType>

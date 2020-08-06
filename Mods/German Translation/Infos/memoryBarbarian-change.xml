@@ -297,12 +297,12 @@
 	<Entry beginGroup="Exploration">
 		<zType>MEMORYBARBARIAN_GIFT_OF_CAMELS</zType>
 		<zText>Geschenk (Kamele) erhalten</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_RETURNED_SHEPHERD</zType>
 		<zText>Junger Hüter zurückgekehrt</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry beginGroup="Diplomacy">
 		<zType>MEMORYBARBARIAN_SENT_SPIES</zType>

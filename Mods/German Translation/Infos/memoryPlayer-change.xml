@@ -377,7 +377,7 @@
 	<Entry>
 		<zType>MEMORYPLAYER_GAVE_TECH</zType>
 		<zText>Gifted us with technology</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_REFUSED_TECH</zType>
@@ -479,6 +479,16 @@
 		<zText>Dismissed link to assassination</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_DENIED_RANSOM</zType>
+		<zText>Denied ransom for captured spies</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_WORKED_TOGETHER</zType>
+		<zText>Worked together to slander rival nation</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry> 
 	<Entry beginGroup="Contact">
 		<zType>MEMORYPLAYER_HELPED_CARAVAN</zType>
 		<zText>Helped supply caravan</zText>

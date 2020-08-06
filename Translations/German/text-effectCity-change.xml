@@ -471,12 +471,12 @@
 		<Translation>Freiheit</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_CENTRALIZATION</zType>
-		<Translation>Zentralisierung</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EFFECTCITY_LAW_TYRANNY</zType>
 		<Translation>Tyrannei</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_LAW_CENTRALIZATION</zType>
+		<Translation>Zentralisierung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LAW_SERFDOM</zType>
@@ -517,6 +517,10 @@
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LAW_PHILOSOPHY</zType>
 		<Translation>Philosophie</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_LAW_ENGINEERING</zType>
+		<Translation>Maschinenbau</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LAW_ICONOGRAPHY</zType>
@@ -680,43 +684,43 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_ARCHIVE</zType>
-		<Translation>Archive</Translation>
+		<Translation>Archiv</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_ARCHIVE_1</zType>
-		<Translation>Archive I</Translation>
+		<Translation>Archiv I</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_ARCHIVE_2</zType>
-		<Translation>Archive II</Translation>
+		<Translation>Archiv II</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_ARCHIVE_3</zType>
-		<Translation>Archive III</Translation>
+		<Translation>Archiv III</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_ARCHIVE_4</zType>
-		<Translation>Archive IV</Translation>
+		<Translation>Archiv IV</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_FESTIVAL</zType>
-		<Translation>Festspiele</Translation>
+		<Translation>Festspiel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_INQUIRY</zType>
-		<Translation>Prüfungen</Translation>
+		<Translation>Prüfung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_HUNT</zType>
-		<Translation>Jagden</Translation>
+		<Translation>Jagd</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_OLYMPICS</zType>
-		<Translation>Olympiaden</Translation>
+		<Translation>Olympiade</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_CONVOY</zType>
-		<Translation>Eskorten</Translation>
+		<Translation>Eskorte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_SWORD_CULT</zType>

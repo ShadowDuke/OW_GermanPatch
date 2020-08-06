@@ -48,9 +48,10 @@
 		<iHPUnit comment="Changes the HP of the Unit"/>
 		<iXPUnit comment="Changes the XP of the Unit"/>
 		<iXPCharacter comment="Changes the XP of the Character"/>
-		<iLegitimacy comment="Amount of Legitimacy gained or lost by the Player."/>
-		<iDiplomacyPlayer comment="Changes the Diplomacy level by this value (Peace = 0, Truce = 1, War = 2)."/>
+		<iLegitimacy comment="Amount of Legitimacy gained or lost by the Human."/>
+		<iDiplomacyPlayer comment="Changes the Diplomacy level by this value (Peace = 0, Truce = 1, War = 2)."/>																							  
 		<iMarrySubject comment="Character will marry the previous Subject at this index."/>
+		<iPolyMarrySubject comment="Character will marry the previous Subject at this index (allows polygamy)."/>																								   
 		<iDivorceSubject comment="Character will divorce the previous Subject at this index."/>
 		<iBirthWithSubject comment="Character will give birth with the previous Subject at this index."/>																						   
 		<iAdoptedBySubject comment="Character will be adopted by the previous Subject at this index."/>
@@ -127,7 +128,8 @@
 		<AddRelationshipReverse comment="Give the previous Character at this index a Relationship with this Character."/>
 		<RemoveRelationshipSubjects comment="Remove the Relationship of this Character with the previous Character at this index."/>
 		<RemoveRelationshipReverse comment="Remove the Relationship of the previous Character at this index with this Character."/>
-		<AddCourtierGender comment="List of courtiers with assigned gender to be added to the Player's court."/>
+		<AddCourtierGender comment="List of courtiers with assigned gender to be added to the Subjects's court."/>
+		<AddCourtierOther comment="List of courtiers with assigned gender to be added to the Humans's court but with the Subject's nationality."/>																																
 	</Entry>
 	<!-- Divider -->
 	<Entry>
@@ -179,6 +181,7 @@
 		<iLegitimacy/>
 		<iDiplomacyPlayer/>
 		<iMarrySubject/>
+		<iPolyMarrySubject/>			  
 		<iDivorceSubject/>
 		<iBirthWithSubject/>			  
 		<iAdoptedBySubject/>
@@ -253,6 +256,7 @@
 		<RemoveRelationshipSubjects/>
 		<RemoveRelationshipReverse/>
 		<AddCourtierGender/>
+		<AddCourtierOther/>			 
 	</Entry>
 	<Entry>
 		<zType>BONUS_SKIP_SEAT</zType>
@@ -527,7 +531,7 @@
 		</aiGlobalYieldsBase>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GAIN_WISDOM</zType>
+		<zType>BONUS_GAIN_WISDOM_1</zType>
 		<aiRatings>
 			<Pair>
 				<zIndex>RATING_WISDOM</zIndex>
@@ -536,7 +540,16 @@
 		</aiRatings>
 	</Entry>
 	<Entry>
-		<zType>BONUS_LOSE_WISDOM</zType>
+		<zType>BONUS_GAIN_WISDOM_2</zType>
+		<aiRatings>
+			<Pair>
+				<zIndex>RATING_WISDOM</zIndex>
+				<iValue>2</iValue>
+			</Pair>
+		</aiRatings>
+	</Entry>
+	<Entry>
+		<zType>BONUS_LOSE_WISDOM_1</zType>
 		<aiRatings>
 			<Pair>
 				<zIndex>RATING_WISDOM</zIndex>
@@ -545,7 +558,16 @@
 		</aiRatings>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GAIN_CHARISMA</zType>
+		<zType>BONUS_LOSE_WISDOM_2</zType>
+		<aiRatings>
+			<Pair>
+				<zIndex>RATING_WISDOM</zIndex>
+				<iValue>-2</iValue>
+			</Pair>
+		</aiRatings>
+	</Entry>
+	<Entry>
+		<zType>BONUS_GAIN_CHARISMA_1</zType>
 		<aiRatings>
 			<Pair>
 				<zIndex>RATING_CHARISMA</zIndex>
@@ -554,7 +576,16 @@
 		</aiRatings>
 	</Entry>
 	<Entry>
-		<zType>BONUS_LOSE_CHARISMA</zType>
+		<zType>BONUS_GAIN_CHARISMA_2</zType>
+		<aiRatings>
+			<Pair>
+				<zIndex>RATING_CHARISMA</zIndex>
+				<iValue>2</iValue>
+			</Pair>
+		</aiRatings>
+	</Entry>
+	<Entry>
+		<zType>BONUS_LOSE_CHARISMA_1</zType>
 		<aiRatings>
 			<Pair>
 				<zIndex>RATING_CHARISMA</zIndex>
@@ -563,7 +594,16 @@
 		</aiRatings>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GAIN_COURAGE</zType>
+		<zType>BONUS_LOSE_CHARISMA_2</zType>
+		<aiRatings>
+			<Pair>
+				<zIndex>RATING_CHARISMA</zIndex>
+				<iValue>-2</iValue>
+			</Pair>
+		</aiRatings>
+	</Entry>
+	<Entry>
+		<zType>BONUS_GAIN_COURAGE_1</zType>
 		<aiRatings>
 			<Pair>
 				<zIndex>RATING_COURAGE</zIndex>
@@ -572,7 +612,16 @@
 		</aiRatings>
 	</Entry>
 	<Entry>
-		<zType>BONUS_LOSE_COURAGE</zType>
+		<zType>BONUS_GAIN_COURAGE_2</zType>
+		<aiRatings>
+			<Pair>
+				<zIndex>RATING_COURAGE</zIndex>
+				<iValue>2</iValue>
+			</Pair>
+		</aiRatings>
+	</Entry>
+	<Entry>
+		<zType>BONUS_LOSE_COURAGE_1</zType>
 		<aiRatings>
 			<Pair>
 				<zIndex>RATING_COURAGE</zIndex>
@@ -581,30 +630,51 @@
 		</aiRatings>
 	</Entry>
 	<Entry>
-		<zType>BONUS_EVENTOPTION_TUTOR_UNHEALTHY_INTERESTS_OPTION_1_CHARACTER_2</zType>
-		<aeBonuses>
-			<zValue>BONUS_GAIN_WISDOM</zValue>
-		</aeBonuses>
+		<zType>BONUS_LOSE_COURAGE_2</zType>
+		<aiRatings>
+			<Pair>
+				<zIndex>RATING_COURAGE</zIndex>
+				<iValue>-2</iValue>
+			</Pair>
+		</aiRatings>
+	</Entry>
+	<Entry>
+		<zType>BONUS_GAIN_DISCIPLINE_1</zType>
+		<aiRatings>
+			<Pair>
+				<zIndex>RATING_DISCIPLINE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+		</aiRatings>
+	</Entry>
+	<Entry>
+		<zType>BONUS_GAIN_DISCIPLINE_2</zType>
+		<aiRatings>
+			<Pair>
+				<zIndex>RATING_DISCIPLINE</zIndex>
+				<iValue>2</iValue>
+			</Pair>
+		</aiRatings>
+	</Entry>
+	<Entry>
+		<zType>BONUS_LOSE_DISCIPLINE_1</zType>
+		<aiRatings>
+			<Pair>
+				<zIndex>RATING_DISCIPLINE</zIndex>
+				<iValue>-1</iValue>
+			</Pair>
+		</aiRatings>
+	</Entry>
+	<Entry>
+		<zType>BONUS_LOSE_DISCIPLINE_2</zType>
+		<aiRatings>
+			<Pair>
+				<zIndex>RATING_DISCIPLINE</zIndex>
+				<iValue>-2</iValue>
+			</Pair>
+		</aiRatings>
 	</Entry>
 	<Entry>	
-		<zType>BONUS_GAIN_DISCIPLINE</zType>
-		<aiRatings>
-			<Pair>
-				<zIndex>RATING_DISCIPLINE</zIndex>
-				<iValue>1</iValue>
-			</Pair>
-		</aiRatings>
-	</Entry>
-	<Entry>
-		<zType>BONUS_LOSE_DISCIPLINE</zType>
-		<aiRatings>
-			<Pair>
-				<zIndex>RATING_DISCIPLINE</zIndex>
-				<iValue>-1</iValue>
-			</Pair>
-		</aiRatings>
-	</Entry>
-	<Entry>
 		<zType>BONUS_REVEAL_MAP</zType>
 		<iRevealRange>5</iRevealRange>
 	</Entry>
@@ -1855,6 +1925,10 @@
 		<bStateReligion>1</bStateReligion>
 	</Entry>
 	<Entry>
+		<zType>BONUS_NO_COURTIER</zType>
+		<bNoCourtier>1</bNoCourtier>
+	</Entry>
+	<Entry>	
 		<zType>BONUS_LEAVE_COUNCIL</zType>
 		<bLeaveCouncil>1</bLeaveCouncil>
 	</Entry>
@@ -6006,12 +6080,6 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_EVENTOPTION_TUTOR_UNHEALTHY_INTERESTS_OPTION_2_CHARACTER_2</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_CARELESS</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
 		<zType>BONUS_GIVE_TRAIT_SLOTHFUL</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_SLOTHFUL</zValue>
@@ -6345,12 +6413,6 @@
 		<zType>BONUS_GIVE_TRAIT_INTOLERANT</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_INTOLERANT</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_GIVE_TRAIT_VENGEFUL</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_VENGEFUL</zValue>
 		</aeAddTraits>
 	</Entry>
 	<Entry>

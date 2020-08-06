@@ -20,7 +20,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_COUNCIL_SPYMASTER</zType>
-		<English>Meisterspion</English>
+		<Translation>Meisterspion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_ABLE</zType>
@@ -115,20 +115,20 @@
     <Translation>Der Große Basar</Translation>
   </Entry>
   <Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_EPICS</zType>
+		<Translation>Anforderungen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_EXPLORATION</zType>
+		<Translation>Erkundung</Translation>
+	</Entry>
+  <Entry>
 		<zType>TEXT_EFFECTPLAYER_LAW_SLAVERY</zType>
 		<Translation>Sklaverei</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_LAW_FREEDOM</zType>
 		<Translation>Freiheit</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_CENTRALIZATION</zType>
-		<Translation>Zentralisierung</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_VASSALAGE</zType>
-		<Translation>Vasallentum</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_LAW_TYRANNY</zType>
@@ -139,16 +139,16 @@
 		<Translation>Verfassung</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_CENTRALIZATION</zType>
+		<Translation>Zentralisierung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_LAW_VASSALAGE</zType>
+		<Translation>Vasallentum</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTPLAYER_LAW_CONSTITUTION_DECREE</zType>
 		<Translation>Erlässe in Hauptstadt</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_EPICS</zType>
-		<Translation>Anforderungen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_EXPLORATION</zType>
-		<Translation>Erkundung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_LAW_COLONIZATION</zType>
@@ -208,31 +208,31 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_LAW_ASCETICISM</zType>
-		<English>Askese</English>
+		<Translation>Askese</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_LAW_HOLY_WAR</zType>
-		<English>Heiliger Krieg</English>
+		<Translation>Heiliger Krieg</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_LAW_DIVINE_RULE</zType>
-		<English>Göttliche Herrschaft</English>
+		<Translation>Göttliche Herrschaft</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_LAW_SECULARISM</zType>
-		<English>Laizitätsprinzip</English>
+		<Translation>Laizitätsprinzip</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_LAW_ISOLATIONISM</zType>
-		<English>Abschottung</English>
+		<Translation>Abschottung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_LAW_TRADE_LEAGUE</zType>
-		<English>Handelsverband</English>
+		<Translation>Handelsverband</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_LAW_TRADE_LEAGUE_CONVOY</zType>
-		<English>Eskorte</English>
+		<Translation>Eskorte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_LAW_COIN_DEBASEMENT</zType>

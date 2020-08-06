@@ -586,12 +586,12 @@
 	<Entry>
 		<zType>MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_US</zType>
 		<zText>Let us join honor guard</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_THEM</zType>
 		<zText>Let our rival join honor guard</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_NO</zType>
@@ -853,6 +853,16 @@
 		<zText>Eifersüchtig auf großen Ruhm</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_DEFIED_BARBARIAN</zType>
+		<zText>Barbaren Oberhaupt die Stirn geboten</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ALLIED_WITH_BARBARIAN</zType>
+		<zText>Verbündet mit Barbaren Oberhaupt</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>	 
 	<Entry beginGroup="Contact">
 		<zType>MEMORYFAMILY_FORCED_TO_KISS_FEET</zType>
 		<zText>Forced to kiss foreign ruler's feet</zText>
@@ -938,6 +948,17 @@
 		<zText>Forced to stop hosting successors</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>	 
+	<Entry>
+		<zType>MEMORYFAMILY_INVITED_TO_FEAST</zType>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_NOT_INVITED_TO_FEAST</zType>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ATTENDED_FEAST_ALONE</zType>
+		<zText>Attended tribal feast alone</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry> 
 	<Entry beginGroup="City">
 		<zType>MEMORYFAMILY_SENT_DOCTORS_TO_PLAGUED_CITY</zType>
 		<zText>Sent doctors to plagued city</zText>
@@ -1077,11 +1098,6 @@
 		<zType>MEMORYFAMILY_FAMILY_CONTROL</zType>
 		<zText>Leader left estates alone.</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
-	</Entry>
-	<Entry>
-		<zType>MEMORYFAMILY_LAW_NO_TO_TYRANNY</zType>
-		<zText>Refused to adopt Tyranny</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_LAW_ADOPTED_TYRANNY</zType>
@@ -1283,6 +1299,16 @@
 		<zText>Accused us of plotting murder</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_IMPRISONED_SPYMASTER</zType>
+		<zText>Imprisoned ineffective spymaster</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_DID_NOT_PUNISH_SPYMASTER</zType>
+		<zText>Refused to punish ineffective spymaster</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry> 
 	<Entry beginGroup="Exploration">
 		<zType>MEMORYFAMILY_RAISED_MARBLE_PRICES</zType>
 		<zText>Marmor Preise erhöht</zText>

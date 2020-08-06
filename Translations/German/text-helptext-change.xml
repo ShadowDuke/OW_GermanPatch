@@ -87,12 +87,12 @@
 		<Translation>: {0}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_ENTRY_COLON_SPACE_TWO</zType>
+		<zType>TEXT_HELPTEXT_ENTRY_COLON_SPACE_ONE</zType>
 		<Translation>{0}: {1}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_ENTRY_COLON_SPACE_ONE_TWO</zType>
-		<Translation>{0}: {1}{2}</Translation>
+		<zType>TEXT_HELPTEXT_ENTRY_COLON_SPACE_TWO</zType>
+		<Translation>{0}: {1}</Translation>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_HELPTEXT_COMMA_DATA_TWO</zType>
@@ -711,6 +711,10 @@
 		<zType>TEXT_HELPTEXT_WIDGET_SAVE_CLOUD</zType>
 		<Translation>Speichere das Spiel in der Cloud</Translation>
 	</Entry>
+    <Entry>
+        <zType>TEXT_HELPTEXT_WIDGET_LOAD</zType>
+        <Translation>Lade das Spiel {0_presskey}</Translation>
+    </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LOAD_CLOUD</zType>
 		<Translation>Lade das in der Cloud gespeicherte Spiel</Translation>
@@ -2903,6 +2907,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>{0_value} Verbesserungskosten</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_ADJACENT_URBAN_COST</zType>
+		<Translation>{0_value} Nachbarschafts Städtische Verbesserungs-Klassen Kosten</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_SPECIALIST_COST</zType>
 		<Translation>{0_value} Spezialst Ressourcenkosten</Translation>
 	</Entry>
@@ -3913,8 +3921,12 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>{0_link} erlangt {1_city}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BONUS_JOIN_COURTIER</zType>
+		<zType>TEXT_HELPTEXT_BONUS_JOIN_COURTIER_GENDER</zType>
 		<Translation>Vertrauter {0_join}: {1_courtier}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_JOIN_COURTIER_OTHER</zType>
+		<Translation>Vertrauter {0_join}: {1,1_player} {2_courtier}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_MAKE_COURTIER</zType>
@@ -4771,6 +4783,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Gründen mit {0}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_THEOLOGY_HELP_ONE_PER_TIER</zType>
+		<Translation>Max eine Theologie Stufe {0} pro Religion</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_THEOLOGY_HELP_REQUIRES_STATE_RELIGION</zType>
 		<Translation>Muss eine Staatsreligion sein um gründen zu können</Translation>
 	</Entry>
@@ -5439,7 +5455,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_END_YEAR_WAITING</zType>
-		<Translation>Warte für {0_players}</Translation>
+		<Translation>Warte auf {0_players}</Translation>
 	</Entry>
 	<!--Goal Help-->
 	<Entry>

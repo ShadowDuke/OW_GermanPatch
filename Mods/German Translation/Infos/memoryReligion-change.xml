@@ -85,6 +85,16 @@
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
+		<zType>MEMORYRELIGION_RELIGION_OPINION_GOOD</zType>
+		<zText>Unseren Glauben respektiert</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_RELIGION_OPINION_BAD</zType>
+		<zText>Unseren Glauben nicht respektiert</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>	
 		<zType>MEMORYRELIGION_ADOPTED_CHRISTIANITY</zType>
 		<zText>Christentum übernommen</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
@@ -157,7 +167,7 @@
 	<Entry>
 		<zType>MEMORYRELIGION_ALLOWED_PURCHASE_OF_LAND</zType>
 		<zText>Landkauf für Grabstätte erlaubt</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYRELIGION_DENIED_PURCHASE</zType>
@@ -237,7 +247,7 @@
 	<Entry>
 		<zType>MEMORYRELIGION_SOLDIERS_FOR_ZOROASTER</zType>
 		<zText>Unsere Kämpfer kämpfen für Ahura Mazda</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYRELIGION_SOLDIERS_FOR_RULER</zType>

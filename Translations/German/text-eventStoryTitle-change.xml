@@ -1458,14 +1458,6 @@
 		<Translation>Demands Accepted</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_DEMANDS_ACCEPTED_01_TITLE</zType>
-		<Translation>Demands Accepted</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_DEMANDS_ACCEPTED_02_TITLE</zType>
-		<Translation>Demands Accepted</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTSTORY_INCRIMINATING_MESSAGES_TITLE</zType>
 		<Translation>Incriminating Messages</Translation>
 	</Entry>
@@ -1488,7 +1480,11 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_WINNING_FAVOR_TITLE</zType>
 		<Translation>Family Favor</Translation>
-	</Entry>	 
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BARBARIAN_FEAST_TITLE</zType>
+		<Translation>{BARBARIAN-0,1} Feierlichkeiten</Translation>
+	</Entry> 
   <Entry beginGroup="Marriage">
 		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_TITLE</zType>
 		<Translation>Marriage Offer</Translation>
@@ -3200,7 +3196,19 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_AMULET_OF_FERTILITY_TITLE</zType>
 		<Translation>Amulet of Fertility</Translation>
-	</Entry>	 
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_IN_PRIVATE_TITLE</zType>
+		<Translation>Unter 4 Augen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_SURPRISE_PROPOSAL_TITLE</zType>
+		<Translation>Surprise Proposal</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_BARBARIAN_HUNT_TITLE</zType>
+		<Translation>{BARBARIAN-0,1} Jagd</Translation>
+	</Entry> 
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS_TITLE</zType>
 		<Translation>Immigrants</Translation>
@@ -3456,6 +3464,10 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_RIGHTEOUS_PATH_TITLE</zType>
 		<Translation>The Righteous Path</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELIGION_OPINION_TITLE</zType>
+		<Translation>[RELIGIÖSE DEBATTE]</Translation>
 	</Entry>
 	<Entry beginGroup="Miscellaneous">
 		<zType>TEXT_EVENTSTORY_ADOPT_RELIGION_TITLE</zType>
@@ -4550,7 +4562,7 @@
 		<Translation>Looking for Answers</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_PROGRESS_OR_PERISH__TITLE</zType>
+		<zType>TEXT_EVENTSTORY_PROGRESS_OR_PERISH_TITLE</zType>
 		<Translation>Progress or Perish </Translation>
 	</Entry>
 	<Entry>
@@ -4717,6 +4729,82 @@
 		<zType>TEXT_EVENTSTORY_INFILITRATION_LAND_GRAB_TITLE</zType>
 		<Translation>Land Grab</Translation>
 	</Entry>	 
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STEAL_PLAYER_DISCOVERY_TITLE</zType>
+		<Translation>{PLAYER-2,1} Discovery</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STEAL_FINGERS_TITLE</zType>
+		<Translation>Fingers</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STEAL_SELLING_SECRETS_TITLE</zType>
+		<Translation>Selling Secrets</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STEAL_DEFECTING_SCIENTISTS_TITLE</zType>
+		<Translation>Defecting Scientists</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STEAL_SEEKING_HELP_TITLE</zType>
+		<Translation>Seeking Help</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SLANDER_DIPLOMATIC_DISASTER_TITLE</zType>
+		<Translation>Diplomatic Disaster</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SLANDER_SUCCESSFUL_MISSION_TITLE</zType>
+		<Translation>Successful Mission</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SLANDER_NO_MORE_SECRETS_TITLE</zType>
+		<Translation>No More Secrets</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SLANDER_GOODBYE_NATION_TITLE</zType>
+		<Translation>Goodbye, {PLAYER-2}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SLANDER_COMMON_GOALS_TITLE</zType>
+		<Translation>Common Goals</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SLANDER_CLOSE_TO_POWER_TITLE</zType>
+		<Translation>Close to Power</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SLANDER_GROWING_INFLUENCE_TITLE</zType>
+		<Translation>Growing Influence</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_A_SECOND_OPINION_TITLE</zType>
+		<Translation>A Second Opinion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_POOR_SOULS_TITLE</zType>
+		<Translation>Poor Souls</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SHADOW_OF_DEATH_TITLE</zType>
+		<Translation>Shadow of Death</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SPOUSE_REVIVAL_TITLE</zType>
+		<Translation>{CHARACTER-SHORT-0}'s Revival</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_GRATITUDE_TITLE</zType>
+		<Translation>Gratitude</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_A_GIFT_OF_LABOR_TITLE</zType>
+		<Translation>A Gift of Labor</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_QUALITY_TIME_TITLE</zType>
+		<Translation>Quality Time</Translation>
+	</Entry>
   <Entry beginGroup="Tutorial">
 		<zType>TEXT_EVENTSTORY_VICTORY_POINTS_TITLE</zType>
 		<Translation>PUNKTE SIEG!</Translation>
@@ -4727,7 +4815,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_VICTORY_AMBITION_TITLE</zType>
-		<Translation>AMBITION SIEG!</Translation>
+		<Translation>AMBITIONS SIEG!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_VICTORY_TIME_TITLE</zType>
@@ -4767,71 +4855,71 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_WARRIOR_SELECTED_TITLE</zType>
-		<Translation>Tutorial Warrior Selected</Translation>
+		<Translation>Tutorial: Warrior Selected</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_BARBARIAN_CAMP_CLEARED_TITLE</zType>
-		<Translation>Tutorial Barbarian Camp Cleared</Translation>
+		<Translation>Tutorial: Barbarian Camp Cleared</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_CITY_CAPTURED_TITLE</zType>
-		<Translation>Tutorial City Captured</Translation>
+		<Translation>Tutorial: City Captured</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_CULTURE_TITLE</zType>
-		<Translation>Tutorial Culture</Translation>
+		<Translation>Tutorial: Culture</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_TRIBE_CONTACT_TITLE</zType>
-		<Translation>Tutorial Tribe Contact</Translation>
+		<Translation>Tutorial: Tribe Contact</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_HARVEST_RESOURCE_TITLE</zType>
-		<Translation>Tutorial Harvest Resource</Translation>
+		<Translation>Tutorial: Harvest Resource</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_UNIT_ON_COOLDOWN_TITLE</zType>
-		<Translation>Tutorial Unit On Cooldown</Translation>
+		<Translation>Tutorial: Unit On Cooldown</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_UNIT_FATIGUED_TITLE</zType>
-		<Translation>Tutorial Unit Fatigued</Translation>
+		<Translation>Tutorial: Unit Fatigued</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_OUT_OF_ORDERS_TITLE</zType>
-		<Translation>Tutorial Out Of Orders</Translation>
+		<Translation>Tutorial: Out Of Orders</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_RELIGION_TITLE</zType>
-		<Translation>Tutorial Religion</Translation>
+		<Translation>Tutorial: Religion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_CHARIOT_SELECTED_TITLE</zType>
-		<Translation>Chariot Tutorial</Translation>
+		<Translation>Tutorial: Chariot</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_NATION_CONTACT_TITLE</zType>
-		<Translation>Tutorial Nation Contact</Translation>
+		<Translation>Tutorial: Nation Contact</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_AMBITION_TITLE</zType>
-		<Translation>Tutorial Ambition</Translation>
+		<Translation>Tutorial: Ambition</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_BARBARIANS_TITLE</zType>
-		<Translation>Tutorial Barbarians</Translation>
+		<Translation>Tutorial: Barbarians</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_SUCCESSION_TITLE</zType>
-		<Translation>Tutorial Succession</Translation>
+		<Translation>Tutorial: Succession</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_LEGITIMACY_TITLE</zType>
-		<Translation>Tutorial Legitimität</Translation>
+		<Translation>Tutorial: Legitimität</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_MARRIAGE_TITLE</zType>
-		<Translation>Tutorial Marriage</Translation>
+		<Translation>Tutorial: Marriage</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_PROMOTION_TITLE</zType>
@@ -4839,7 +4927,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_AXEMAN_SELECTED_TITLE</zType>
-		<Translation>Tutorial Axeman Selected</Translation>
+		<Translation>Tutorial: Axeman Selected</Translation>
 	</Entry>
 	<Entry beginGroup="Law">
 		<zType>TEXT_EVENTSTORY_THREAT_OF_MUTINY_TITLE</zType>
@@ -4923,11 +5011,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MERCENARY_DEMANDS_GOOD_TITLE</zType>
-		<Translation>[GOOD]</Translation>
+		<Translation>[GUT]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MERCENARY_DEMANDS_BAD_TITLE</zType>
-		<Translation>[BAD]</Translation>
+		<Translation>[SCHLECHT]</Translation>
 	</Entry>	 
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_POLEMICIST_TITLE</zType>
@@ -4940,5 +5028,21 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RIOTS_AT_THE_RACES_TITLE</zType>
 		<Translation>Riots at the Races</Translation>
-	</Entry>	 
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_RISK_OF_CHARM_TITLE</zType>
+		<Translation>The Risk of Charm</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_CURSE_OF_KNOWLEDGE_TITLE</zType>
+		<Translation>The Curse of Knowledge</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_PITFALLS_OF_RESTRAINT_TITLE</zType>
+		<Translation>The Pitfalls of Restraint</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_WEAKNESS_OF_STRENGTH_TITLE</zType>
+		<Translation>The Weakness of Strength</Translation>
+	</Entry>
 </Root>

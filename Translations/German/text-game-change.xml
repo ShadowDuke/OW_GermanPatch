@@ -392,20 +392,16 @@
 		<Translation>Nicht länger {0}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_MAKE_COURTIER</zType>
-		<Translation>Wird Vertrauter: {0_courtier}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_STARTS_MISSION</zType>
 		<Translation>Startet Mission: {0_mission}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_MAKE_COUNCIL</zType>
-		<Translation>Hofrat ernannt: {0_council}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_NICKNAME</zType>
 		<Translation>Wird bekannt als {0_nickname}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_ADD_COURTIER_OTHER</zType>
+		<Translation>{0,1_player} {1_courtier}</Translation>
 	</Entry>
   <Entry>
     <zType>TEXT_GAME_DO_BONUS_PLAYER_START_LAW</zType>

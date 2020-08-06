@@ -19,6 +19,7 @@
 		<zName>Schwach</zName>
 		<zIconName>CultureIcon0</zIconName>
 		<iThreshold>100</iThreshold>
+		<iVP>1</iVP>	  
 		<DefaultProject>PROJECT_COUNCIL_1</DefaultProject>
 		<ShortfallProject>PROJECT_COUNCIL_1</ShortfallProject>
 	</Entry>
@@ -27,7 +28,7 @@
 		<zName>Entfaltet</zName>
 		<zIconName>CultureIcon1</zIconName>							 
 		<iThreshold>500</iThreshold>
-		<iVP>1</iVP>	  
+		<iVP>2</iVP>	  
 		<iXP>2</iXP>
 		<iExtraCaptureTurns>1</iExtraCaptureTurns>
 		<iExtraAssimilateTurns>10</iExtraAssimilateTurns>
@@ -40,7 +41,7 @@
 		<zName>Solide</zName>
 		<zIconName>CultureIcon2</zIconName>							 
 		<iThreshold>2000</iThreshold>
-		<iVP>2</iVP>	  
+		<iVP>3</iVP>	  
 		<iXP>4</iXP>
 		<iExtraCaptureTurns>2</iExtraCaptureTurns>
     <iExtraAssimilateTurns>20</iExtraAssimilateTurns>
@@ -53,7 +54,7 @@
 		<zName>Sagenumwoben</zName>
 		<zIconName>CultureIcon3</zIconName>
 		<iThreshold>5000</iThreshold>
-		<iVP>3</iVP>
+		<iVP>4</iVP>
 		<iXP>6</iXP>
 		<iExtraCaptureTurns>3</iExtraCaptureTurns>
 		<iExtraAssimilateTurns>30</iExtraAssimilateTurns>
