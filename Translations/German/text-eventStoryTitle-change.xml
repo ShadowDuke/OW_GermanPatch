@@ -163,11 +163,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_BIREME_SELECTED_TITLE</zType>
-		<Translation>Tutorial Bireme Selected</Translation>
+		<Translation>Tutorial: Bireme Ausgewählt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_SPEARMAN_SELECTED_TITLE</zType>
-		<Translation>Tutorial Spearman Selected</Translation>
+		<Translation>Tutorial: Speerkämpfer Ausgewählt</Translation>
 	</Entry>
 	<Entry beginGroup="Exploration">
 		<zType>TEXT_EVENTSTORY_RUINS_SURVIVORS_TITLE</zType>
@@ -363,7 +363,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_RITUAL_SCENT_TITLE</zType>
-		<Translation>Ritual Scent</Translation>
+		<Translation>Ritualer Duft</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_STANDOFF_TITLE</zType>
@@ -371,7 +371,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_HIGH_SPIRITS_TITLE</zType>
-		<Translation>High Spirits</Translation>
+		<Translation>Gute Laube</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_CAMEL_BITE_TITLE</zType>
@@ -379,7 +379,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_TOUGH_GAME_TITLE</zType>
-		<Translation>Tough Game</Translation>
+		<Translation>Schweres Spiel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_WILD_HORSES_TITLE</zType>
@@ -387,19 +387,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_CORNER_THE_MARKET_TITLE</zType>
-		<Translation>Corner the Market</Translation>
+		<Translation>Treibe den Markt in die Ecke</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_LUXURY_OR_UTILITY_TITLE</zType>
-		<Translation>Luxury or Utility</Translation>
+		<Translation>Luxusgut oder Nutzen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_PIG_IN_THE_PALACE_TITLE</zType>
-		<Translation>Pig in the Palace</Translation>
+		<Translation>Das Schwein im Schloss</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_HELPING_HANDS_TITLE</zType>
-		<Translation>Helping Hands</Translation>
+		<Translation>Helfende Hände</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_OLIVE_OIL_TITLE</zType>
@@ -407,39 +407,39 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_SORGHUM_SEEDS_TITLE</zType>
-		<Translation>Sorghum Seeds</Translation>
+		<Translation>Besenkorn Samen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_YOUNG_SHEPHERD_TITLE</zType>
-		<Translation>Young Shepherd</Translation>
+		<Translation>Junger Hirte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_PEARL_DIVERS_TITLE</zType>
-		<Translation>Pearl Divers</Translation>
+		<Translation>Perlentaucher</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_RESCUE_AT_SEA_TITLE</zType>
-		<Translation>Rescue at Sea</Translation>
+		<Translation>Seerettung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_BEAST_OF_BURDEN_TITLE</zType>
-		<Translation>Beast of Burden</Translation>
+		<Translation>Lasttier</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_GREAT_POTENTIAL_TITLE</zType>
-		<Translation>Great Potential</Translation>
+		<Translation>Großes Potential</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_SHIP_SICKNESS_TITLE</zType>
-		<Translation>Citrus Remedy</Translation>
+		<Translation>Zitronen Mittel</Translation>
 	</Entry>
 	<Entry beginGroup="Contact">
 		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_CALM_EMISSARY_TITLE</zType>
-		<Translation>Calm Emissary</Translation>
+		<Translation>Stiller Botschafter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_SEEDY_MESSENGER_TITLE</zType>
-		<Translation>Seedy Messenger</Translation>
+		<Translation>Zwielichtiger Bote</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_GIFT_EXCHANGE_TITLE</zType>
@@ -447,39 +447,39 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_REFUGEE_OUTLAWS_TITLE</zType>
-		<Translation>Refugee Outlaws</Translation>
+		<Translation>Flüchtlings geächtete</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_RIPE_LANDS_TITLE</zType>
-		<Translation>Ripe Lands</Translation>
+		<Translation>Reife Länder</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_HAUGHTY_EMISSARY_TITLE</zType>
-		<Translation>Haughty Emissary</Translation>
+		<Translation>Arroganter Botschafter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_GRINNING_EMISSARY_TITLE</zType>
-		<Translation>Grinning Emissary</Translation>
+		<Translation>Grinsinder Botschafter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_CULTURAL_DELEGATION_TITLE</zType>
-		<Translation>Cultural Delegation</Translation>
+		<Translation>Kultur Gesandschaft</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_DELIGHTED_EMISSARY_TITLE</zType>
-		<Translation>Delighted Envoy</Translation>
+		<Translation>Erfreuter Bote</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_FUMING_MESSENGER_TITLE</zType>
-		<Translation>Fuming Messenger</Translation>
+		<Translation>Wütender Bote</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_WAR_AMBASSADOR_TITLE</zType>
-		<Translation>War Ambassador</Translation>
+		<Translation>Kriegs Repräsentant</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_NUMBERLESS_GAULS_CONTACT_TITLE</zType>
-		<Translation>The Numberless</Translation>
+		<Translation>Der Zahllose</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_CONTACT_TITLE</zType>
@@ -487,11 +487,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_CONTACT_TITLE_01</zType>
-		<Translation>Stories and Souvenirs</Translation>
+		<Translation>Geschichten und  Andenken</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_CONTACT_TITLE_02</zType>
-		<Translation>Friendly Meeting</Translation>
+		<Translation>Freundliches Treffen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_FRIEND_OR_FOE_TITLE</zType>
@@ -523,7 +523,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CONTACT_A_LEARNING_OPPORTUNITY_TITLE</zType>
-		<Translation><![CDATA[A Learning Opportunity]]></Translation>
+		<Translation><![CDATA[Eine Lern Möglichkeit]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CONTACT_BORDER_DISPUTE_TITLE</zType>
@@ -559,15 +559,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CONTACT_PIEFACES_LESSONS_TITLE</zType>
-		<Translation>Pieface's Lessons</Translation>
+		<Translation>Piefaces Unterricht</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CONTACT_MOMENTOUS_MEETING_TITLE</zType>
-		<Translation>Momentous Meeting</Translation>
+		<Translation>Folgenschweres Treffen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CONTACT_LETHAL_AFFLICTION_TITLE</zType>
-		<Translation>Lethal Affliction</Translation>
+		<Translation>Tödliches Leiden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_HONORARY_COUNSEL_TITLE</zType>
@@ -575,19 +575,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_PLOTTING_HEIR_TITLE</zType>
-		<Translation>Show Respect</Translation>
+		<Translation>Zeige Respekt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_DEADLY_INHERITANCE_TITLE</zType>
-		<Translation>Deadly Inheritance</Translation>
+		<Translation>Tödliche Erbschaft</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_WRITING_ON_THE_WALL_TITLE</zType>
-		<Translation>Writing on the Wall</Translation>
+		<Translation>Zeichen an der Mauer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_FIGHTING_CLASS_TITLE</zType>
-		<Translation>The Fighting Class</Translation>
+		<Translation>Die Kampfklasse</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_IMMUNITY_TITLE</zType>
@@ -603,7 +603,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CONTACT_THE_RISE_OF_PIEFACE_TITLE</zType>
-		<Translation>The Rise of Pieface</Translation>
+		<Translation>Der Aufsteig von Pieface</Translation>
 	</Entry>
 	<Entry beginGroup="Diplomacy">
 		<zType>TEXT_EVENTSTORY_HOSTILE_NEIGHBORS_TITLE</zType>
@@ -643,15 +643,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BARBARIAN_ENVOY_TITLE</zType>
-		<Translation>Barbarian Envoy</Translation>
+		<Translation>Barbarsicher Bote</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_FLORID_DIPLOMAT_TITLE</zType>
-		<Translation>Florid Diplomat</Translation>
+		<Translation>Blühender Diplomat</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DISCERNING_JUDGMENT_TITLE</zType>
-		<Translation>Discerning Judgment</Translation>
+		<Translation>Scharfsichtiges Urteil</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_WAR_PREPARATIONS_TITLE</zType>
@@ -659,7 +659,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_AN_UNLIKELY_MATCH_TITLE</zType>
-		<Translation>An Unlikely Match</Translation>
+		<Translation>Ein unpassendes Gegenstück</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_AN_UNLIKELY_MATCH_DELAY_TITLE</zType>
@@ -671,7 +671,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_AN_UNLIKELY_MATCH_SUBMISSION_TITLE</zType>
-		<Translation>Neither, Nor</Translation>
+		<Translation>Weder, noch</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BARBARIAN_INVASION_TITLE</zType>

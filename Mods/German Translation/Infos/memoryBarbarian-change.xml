@@ -71,32 +71,32 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_REFUSED_MATCH</zType>
-		<zText>You turned down our match</zText>
+		<zText>Du hast unsere Partie abgewiesen</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_DESECRATION</zType>
-		<zText>Our tombs were desecrated.</zText>
+		<zText>Unsere Gräber wurden entweiht.</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_RESPECT</zType>
-		<zText>Our tombs were spared.</zText>
+		<zText>Unsere Gräber wurden verschont.</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_DENIED_SPOILS</zType>
-		<zText>Denied our rival's spoils.</zText>
+		<zText>Verweigerte die Bete unseres Rivalen.</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_SALTED_FIELDS</zType>
-		<zText>Burned our spoils and salted our fields</zText>
+		<zText>Verbrannten unsere Beute und salzten unsere Felder</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_SHARED_SPOILS</zType>
-		<zText>Shared rival's spoils</zText>
+		<zText>Geteilte Beute des Rivalen</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -111,7 +111,7 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_RETURNED_HOSTAGE</zType>
-		<zText>Returned royal hostage</zText>
+		<zText>Königliche Geisel zurückgegeben</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -126,17 +126,17 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_MURDERED_QUEEN</zType>
-		<zText>Murdered our queen</zText>
+		<zText>Unsere Königin ermordet</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_INSULTED_CUSTOMS</zType>
-		<zText>Insulted our customs</zText>
+		<zText>Beleidigte unsere Bräuche</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_ACCEPTED_CUSTOMS</zType>
-		<zText>Accepted our customs</zText>
+		<zText>Akzeptierte unsere Bräuche</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -151,7 +151,7 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_MET_OUR_DELEGATION</zType>
-		<zText>Met our delegation</zText>
+		<zText>Traf unsere Gesandtschaft</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>

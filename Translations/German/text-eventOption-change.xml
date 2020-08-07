@@ -106,6 +106,18 @@
 		<Translation><![CDATA[Das ist sehr bedauernswert.]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTOPTION_BARBARIAN_PLAYER_WAR_MONEY</zType>
+		<Translation>Wir werden Gold aus der Staatskasse anbieten.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BARBARIAN_PLAYER_WAR_TRIBUTE</zType>
+		<Translation>Tribut an die {BARBARIAN-1} wird in Auftrag gegeben.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BARBARIAN_PLAYER_WAR_NO</zType>
+		<Translation>Sie müssen uns einfach vertrauen.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTOPTION_PLAYER_BARBARIAN_WAR_MONEY</zType>
 		<Translation><![CDATA[Wir werden Gold aus der Schatzkammer anbieten.]]></Translation>
 	</Entry>
@@ -282,20 +294,20 @@
 		<Translation><![CDATA[Schreiben gibt denen Macht die sie ausüben.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_LAW_DIVINE_RULE</zType>
-		<Translation><![CDATA[Das Volkd sollte mich als Gott verehren.]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_LAW_SECULARISM</zType>
-		<Translation><![CDATA[Vernunft sollte die Grundlage einer Regierung sein.]]></Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_LAW_ASCETICISM</zType>
 		<Translation><![CDATA[Verächte die Verlockungen dieser Welt.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_LAW_HOLY_WAR</zType>
 		<Translation><![CDATA[Leidenschaftlich müssen wir die Gläubigen verteidigen.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LAW_DIVINE_RULE</zType>
+		<Translation><![CDATA[Das Volkd sollte mich als Gott verehren.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LAW_SECULARISM</zType>
+		<Translation><![CDATA[Vernunft sollte die Grundlage einer Regierung sein.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_LAW_COIN_DEBASEMENT</zType>
@@ -652,6 +664,10 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAINING_NEWS_GUARD</zType>
 		<Translation><![CDATA[Unterweise sie in neuen Defensiven Techniken.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAINING_NEWS_TOUGH</zType>
+		<Translation>Lehre sie wie man während der Jagd kämpft.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAINING_NEWS_ENGINEERING</zType>

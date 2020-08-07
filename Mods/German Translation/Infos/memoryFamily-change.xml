@@ -123,19 +123,19 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_SECURING_PEACE_SUICIDE</zType>
-		<zText>Forced suicide</zText>
+		<zText>Gezwungener Selbstmord</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
 		<bName>MEMORYLEVEL_NEG_LOW_LONG</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_SECURING_PEACE_MISUNDERSTANDING</zType>
-		<zText>Kept a kidnapped infant</zText>
+		<zText>Behielt ein gekidnapptes Kind</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
 		<bName>MEMORYLEVEL_NEG_LOW_FOREVER</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_WIFE_ASSASSINATED</zType>
-		<zText>Assassinated our family member</zText>
+		<zText>Unser Familienmitglied hingerichtet</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
 		<bName>MEMORYLEVEL_NEG_MEDIUM_SHORT</bName>
 	</Entry>
@@ -147,19 +147,19 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_ADOPT_HEIR_YES</zType>
-		<zText>Adopted our child</zText>
+		<zText>Unser Kind adoptiert</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 		<bName>MEMORYLEVEL_NEG_MEDIUM_LONG</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_ADOPT_HEIR_NO</zType>
-		<zText>Did not adopt our child</zText>
+		<zText>Unser Kind nicht adoptiert</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 		<bName>MEMORYLEVEL_NEG_MEDIUM_FOREVER</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_MURDEROUS_INTRIGUE</zType>
-		<zText>Plotted to kill own Heir</zText>
+		<zText>Verschwört unseren eigenen Erben zu töten</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 		<bName>MEMORYLEVEL_NEG_HIGH_SHORT</bName>
 	</Entry>
@@ -171,13 +171,13 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_MONKEY_THIEF_KEPT</zType>
-		<zText>Kept our stolen things</zText>
+		<zText>Unsere gestohlenen Sachen behalten</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 		<bName>MEMORYLEVEL_NEG_HIGH_LONG</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_MONKEY_THIEF_RETURNED</zType>
-		<zText>Returned our stolen things</zText>
+		<zText>Unsere gestohlenen Sachen zurückgegeben</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 		<bName>MEMORYLEVEL_NEG_HIGH_FOREVER</bName>
 	</Entry>

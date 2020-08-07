@@ -11,27 +11,27 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_MATCH_PREVENT</zType>
-		<zText>Prevented my desired match</zText>
+		<zText>Verhinderte meine gewünschte Partie</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_BOASTFUL_HEIR_LEADER_DEFENDED</zType>
-		<zText>Chided my boastful heir</zText>
+		<zText>Hat meine hübsche Erbin gescholten</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_HIGH_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_BOASTFUL_HEIR_OPPOSED</zType>
-		<zText>Chided me for boasting</zText>
+		<zText>Hat mich für Prahlerei gescholten</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_FOREVER</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_BOASTFUL_HEIR_LEADER_OPPOSED</zType>
-		<zText>Supported heir's arrogant boast</zText>
+		<zText>Arrogante Prahlerei des Erben unterstüzt</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_BOASTFUL_HEIR_DEFENDED</zType>
-		<zText>Supported my boast</zText>
+		<zText>Meine Prahlerei unterstüzt</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_FOREVER</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -61,7 +61,7 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_SPOUSE_TOO_EXPENSIVE</zType>
-		<zText>Didn't help my education</zText>
+		<zText>Hat meine Ausbildung nicht unterstüzt</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -97,7 +97,7 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_AVOIDED_WAR</zType>
-		<zText>We avoided a costly war</zText>
+		<zText>Wir haben einen kostspieligen Krieg vermieden</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -107,7 +107,7 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_TRADE_DEAL</zType>
-		<zText>Better trade terms</zText>
+		<zText>Bessere Handelskonditionen</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -117,22 +117,22 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_ACCEPTED_CHALLENGE</zType>
-		<zText>Accepted my challenge</zText>
+		<zText>Meine Herrausforderung akzeptiert</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_REFUSED_CHALLENGE</zType>
-		<zText>Refused my challenge</zText>
+		<zText>Meine Herrausforderung verweigert</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_IMPRISONED</zType>
-		<zText>Imprisoned by paranoid ruler</zText>
+		<zText>Durch paranoiden Herrscher inhaftiert</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_TAKE_NO_PRISONERS</zType>
-		<zText>We take no prisoners now</zText>
+		<zText>Wir nehmen jetzt keine Gefangenen</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -142,12 +142,12 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_FOREIGN_FIGHTERS_RECRUITED</zType>
-		<zText>We recruited foreign fighters</zText>
+		<zText>Wir haben ausländische Kömpfer rekrutiert</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_REFUSED_FOREIGN_FIGHTERS</zType>
-		<zText>Refused foreign fighters</zText>
+		<zText>Ausländische Kämpfer verweigert</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -167,12 +167,12 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_GP_IGNORED_MY_INFLUENCE</zType>
-		<zText>Ignored rumors about me</zText>
+		<zText>Hat Gerüchte über mich ignoriert</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_GP_REMOVED_FROM_COURT</zType>
-		<zText>Removed me from court</zText>
+		<zText>Hat mich aus dem Hofstaat entfernt</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -187,7 +187,7 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_GP_KEPT_IN_COURT</zType>
-		<zText>Kept me on as court merchant</zText>
+		<zText>Hat mich als Händler im Hofstaat behalten</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -202,17 +202,17 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_GP_PROMOTION</zType>
-		<zText>Promoted to a higher title</zText>
+		<zText>Zu einem höheren Titel befördert</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_GP_DIPLOMATIC_MISSION_GOOD</zType>
-		<zText>Welcomed our ambassadors</zText>
+		<zText>Hieß unsere Botschafter wilkommen</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_GP_DIPLOMATIC_VISIT_BAD</zType>
-		<zText>Ignored my ambassadors</zText>
+		<zText>Ignorierte meine Botschafter</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -232,7 +232,7 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_APPROVED_POISON_LAB</zType>
-		<zText>Approved the poison lab</zText>
+		<zText>Das Gift Labor gebilligt</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -247,17 +247,17 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_ADDED_TO_COURT</zType>
-		<zText>Made me a courtier</zText>
+		<zText>Machte mich zu einem Vertrauten</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_FRIEND_OR_FOE_HOSTAGE</zType>
-		<zText>Took our citizen hostage</zText>
+		<zText>Nahm unseren Bürger als Geisel</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_NEIGHBORS_EXECUTION</zType>
-		<zText>Executed our emissary!</zText>
+		<zText>Unseren Botschafter hingerichtet!</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -267,7 +267,7 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_NEIGHBORS_IGNORED_US</zType>
-		<zText>Ignored our Emissary</zText>
+		<zText>Ignorierte unseren Botschafter</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
