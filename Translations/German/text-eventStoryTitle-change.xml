@@ -371,7 +371,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_HIGH_SPIRITS_TITLE</zType>
-		<Translation>Gute Laube</Translation>
+		<Translation>Gute Laune</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_CAMEL_BITE_TITLE</zType>
@@ -2786,6 +2786,18 @@
 		<Translation><![CDATA[Farewell, <masculine_CHARACTER-0>Brother<feminine>Sister<end>]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTSTORY_AMBASSADOR_DEATH_TITLE</zType>
+		<Translation>[AMBASSADOR DEATH]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_CHANCELLOR_DEATH_TITLE</zType>
+		<Translation>[CHANCELLOR DEATH]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SPYMASTER_DEATH_TITLE</zType>
+		<Translation>[SPYMASTER DEATH]</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTSTORY_A_TOAST_TITLE</zType>
 		<Translation>A Toast</Translation>
 	</Entry>
@@ -3209,6 +3221,42 @@
 		<zType>TEXT_EVENTSTORY_RELATIONSHIP_BARBARIAN_HUNT_TITLE</zType>
 		<Translation>{BARBARIAN-0,1} Jagd</Translation>
 	</Entry> 
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_BROTHERS_IN_ARMS_TITLE</zType>
+		<Translation>Brothers in Arms</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_LAVISH_TROVE_TITLE</zType>
+		<Translation>Lavish Trove</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_FRESH_GAME_TITLE</zType>
+		<Translation>Fresh Game</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_THE_ORPHAN_EATER_TITLE</zType>
+		<Translation>The Orphan Eater</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_NOT_SO_FRESH_TITLE</zType>
+		<Translation>Not So Fresh</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_DANGEROUS_FRIENDSHIP_TITLE</zType>
+		<Translation>Dangerous Friendship</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_REASSURANCE_TITLE</zType>
+		<Translation>Reassurance</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_REQUEST_REFUSED_TITLE</zType>
+		<Translation>Request Refused</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_DIPOMATIC_MISSTEP_TITLE</zType>
+		<Translation>Dipomatic Misstep</Translation>
+	</Entry>
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS_TITLE</zType>
 		<Translation>Immigrants</Translation>
@@ -4804,6 +4852,18 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_QUALITY_TIME_TITLE</zType>
 		<Translation>Quality Time</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PACIFY_SEND_HIM_OUT_TITLE</zType>
+		<Translation>Send {G0:Him:Her} Out!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PACIFY_IN_THE_BALANCE_TITLE</zType>
+		<Translation>In the Balance</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PACIFY_PLAYER_PRIDE_TITLE</zType>
+		<Translation>{PLAYER-2,1} Pride</Translation>
 	</Entry>
   <Entry beginGroup="Tutorial">
 		<zType>TEXT_EVENTSTORY_VICTORY_POINTS_TITLE</zType>

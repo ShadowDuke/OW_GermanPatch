@@ -94,16 +94,12 @@
 		<Translation><![CDATA[{CHARACTER-TARGET} wich deinen Spürhunden aus und floh aus dem Staat! <masculine_CHARACTER-TARGET>Er<feminine>Sie<end> versteckt sich nun irgendwo ausserhalb deines Einflussbereiches...]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSIONRESULT_CAPTURE_FAIL_DESCRIPTION</zType>
+		<zType>TEXT_MISSIONRESULT_PAY_RANSOM_DESCRIPTION</zType>
 		<Translation><![CDATA[Deine Spürhunde haben versagt den Aufenthaltsort von {CHARACTER-TARGET} aufzuspüren. Wir können nur sicher sein, dass <masculine_CHARACTER-TARGET>er<feminine>sie<end> weiterhin auf der Flucht ist.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_MARRY_COURTIER_DESCRIPTION</zType>
 		<Translation>Gute Nachrichten: {CHARACTER-SUBJECT} hat deinem Heiratsangebot zugestimmt. Herlichen Glückwunsch!</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MISSIONRESULT_CAPTURED_RANSOM_DESCRIPTION</zType>
-		<Translation><![CDATA[Du hast das Lösegeld für {CHARACTER-SUBJECT} bezahlt und <masculine_CHARACTER-SUBJECT>seine<feminine>ihre<end> Freilassung gesichert!]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_DIVORCE_MUTUAL_DESCRIPTION</zType>
@@ -347,8 +343,8 @@
 		<Translation>Ziel flieht aus dem Staat</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSIONRESULT_CAPTURE_FAIL</zType>
-		<Translation>Ziel kann nicht gefunden werden</Translation>
+		<zType>TEXT_MISSIONRESULT_PAY_RANSOM</zType>
+		<Translation>Lösegeld bezahlt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_MARRY_COURTIER</zType>
@@ -361,10 +357,6 @@
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_DIVORCE_FORCED</zType>
 		<Translation>Erzwungene Scheidung</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MISSIONRESULT_CAPTURED_RANSOM</zType>
-		<Translation>Lösegeld bezahlt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_BARBARIAN_PLAYER_WAR_EVENT</zType>

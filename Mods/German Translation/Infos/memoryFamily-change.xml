@@ -862,7 +862,27 @@
 		<zType>MEMORYFAMILY_ALLIED_WITH_BARBARIAN</zType>
 		<zText>Verbündet mit Barbaren Oberhaupt</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
-	</Entry>	 
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ACCEPTED_BARBARIAN_GIFTS</zType>
+		<zText>Accepted barbarian gifts</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REJECTED_BARBARIAN_GIFTS</zType>
+		<zText>Rejected barbarian gifts</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_RECEIVED_BARBARIAN_GENERAL</zType>
+		<zText>Accepted barbarian general</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_HOSTED_BARBARIAN_RULER</zType>
+		<zText>Ruler hosted barbarian ruler</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
 	<Entry beginGroup="Contact">
 		<zType>MEMORYFAMILY_FORCED_TO_KISS_FEET</zType>
 		<zText>Forced to kiss foreign ruler's feet</zText>

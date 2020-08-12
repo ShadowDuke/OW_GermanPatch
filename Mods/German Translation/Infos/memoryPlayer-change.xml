@@ -254,6 +254,16 @@
     <zText>Impressed by our Olympiad</zText>
     <MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
   </Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_MEDDLED_IN_AFFAIRS</zType>
+		<zText>Meddled in our affairs</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_RECEIVED_BRIBE</zType>
+		<zText>Received gifts of bribery</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
 	<Entry beginGroup="Diplomacy">
 		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_GIFT</zType>
 		<zText>You sent us a small gift</zText>

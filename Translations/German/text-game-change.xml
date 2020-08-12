@@ -138,6 +138,10 @@
 		<Translation>Verkaufe {0_goodsList} um deine Schulde zu begleichen!</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_SHORTFALL_LOG_DATA</zType>
+		<Translation>{0_project} in {1_city} gebaut um {2_yield} Defizit zu vermeiden</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_FOUNDED_CITY_LOG_DATA</zType>
 		<Translation>{0_city} gegründet</Translation>
 	</Entry>
@@ -623,10 +627,6 @@
 	<Entry>
 		<zType>TEXT_GAME_TILE_NEXT_UNIT</zType>
 		<Translation>Nächste Einheit: {0_turns}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GAME_TILE_IMPROVEMENT_UNFINISHED_TURNS</zType>
-		<Translation>Unerledigt: {0_turns}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TILE_IMPROVEMENT_UPGRADE</zType>

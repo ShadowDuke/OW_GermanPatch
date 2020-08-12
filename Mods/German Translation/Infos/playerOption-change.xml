@@ -108,4 +108,9 @@
 		<zName>Stumm</zName>
 		<zDesc>Es wird keinen Mucks von sich gegeben.</zDesc>
 	</Entry>
+	<Entry>
+		<zType>PLAYEROPTION_AZERTY_KEYBOARD</zType>
+		<zName>AZERTY Keyboard</zName>
+		<zDesc>Map hotkeys to their locations in an AZERTY keyboard</zDesc>
+	</Entry>
 </Root>

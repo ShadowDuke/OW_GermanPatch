@@ -70,11 +70,6 @@
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYBARBARIAN_REFUSED_MATCH</zType>
-		<zText>Du hast unsere Partie abgewiesen</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
-	</Entry>
-	<Entry>
 		<zType>MEMORYBARBARIAN_DESECRATION</zType>
 		<zText>Unsere Gräber wurden entweiht.</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
@@ -232,7 +227,7 @@
 	<Entry>
 		<zType>MEMORYBARBARIAN_STRANGE_ENCOUNTER</zType>
 		<zText>Respected our sacred ground</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_LONG</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYBARBARIAN_RUMOR_HAS_IT_SAVED</zType>
@@ -293,6 +288,11 @@
 		<zType>MEMORYBARBARIAN_EXPLAINED_MISTAKE</zType>
 		<zText>Explained accidental desecration</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_ACCEPTED_GENERAL</zType>
+		<zText>Accepted our veteran general</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry beginGroup="Exploration">
 		<zType>MEMORYBARBARIAN_GIFT_OF_CAMELS</zType>

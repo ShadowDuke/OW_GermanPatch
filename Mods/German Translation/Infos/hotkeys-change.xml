@@ -6,6 +6,7 @@
 		<zName/>
 		<HotkeyClass/>
 		<Keys/>
+		<bKeyboardMap/>		 
 		<bHold/>
 		<fRepeatDelay/>
 		<bIgnoreMouse/>
@@ -16,6 +17,7 @@
 		<zName>Gen Norden</zName>
 		<HotkeyClass>HOTKEYCLASS_CAMERA</HotkeyClass>
 		<Keys>W,UpArrow</Keys>
+		<bKeyboardMap>1</bKeyboardMap>						
 		<bHold>1</bHold>
 	</Entry>
 	<Entry>
@@ -23,6 +25,7 @@
 		<zName>Gen Westen</zName>
 		<HotkeyClass>HOTKEYCLASS_CAMERA</HotkeyClass>
 		<Keys>A,LeftArrow</Keys>
+		<bKeyboardMap>1</bKeyboardMap>						
 		<bHold>1</bHold>
 	</Entry>
 	<Entry>
@@ -30,6 +33,7 @@
 		<zName>Gen Süden</zName>
 		<HotkeyClass>HOTKEYCLASS_CAMERA</HotkeyClass>
 		<Keys>S,DownArrow</Keys>
+		<bKeyboardMap>1</bKeyboardMap>						
 		<bHold>1</bHold>
 	</Entry>
 	<Entry>
@@ -37,6 +41,7 @@
 		<zName>Gen Osten</zName>
 		<HotkeyClass>HOTKEYCLASS_CAMERA</HotkeyClass>
 		<Keys>D,RightArrow</Keys>
+		<bKeyboardMap>1</bKeyboardMap>						
 		<bHold>1</bHold>
 	</Entry>
 	<Entry>
@@ -59,6 +64,7 @@
 		<zName>Verstecke Vegetation</zName>
 		<HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>
 		<Keys>Z</Keys>
+		<bKeyboardMap>1</bKeyboardMap>						
 		<bHold>1</bHold>
 		<bIgnoreMouse>1</bIgnoreMouse>
 	</Entry>
@@ -67,6 +73,7 @@
 		<zName>Verstecke Verbesserungen</zName>
 		<HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>
 		<Keys>LeftShift+Z,RightShift+Z</Keys>
+		<bKeyboardMap>1</bKeyboardMap>						
 		<bHold>1</bHold>
 		<bIgnoreMouse>1</bIgnoreMouse>
 	</Entry>
@@ -75,6 +82,7 @@
 		<zName>Verstecke Einheiten</zName>
 		<HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>
 		<Keys>LeftAlt+Z,RightAlt+Z</Keys>
+		<bKeyboardMap>1</bKeyboardMap>						
 		<bHold>1</bHold>
 		<bIgnoreMouse>1</bIgnoreMouse>
 	</Entry>
@@ -83,6 +91,7 @@
 		<zName>Verstecke Alles</zName>
 		<HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>
 		<Keys>LeftShift+LeftAlt+Z,RightShift+RightAlt+Z</Keys>
+		<bKeyboardMap>1</bKeyboardMap>						
 		<bHold>1</bHold>
 		<bIgnoreMouse>1</bIgnoreMouse>
 	</Entry>
@@ -91,6 +100,7 @@
 		<zName>Zeige Kontrollzone (ZOC)</zName>
 		<HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>
 		<Keys>X</Keys>
+		<bKeyboardMap>1</bKeyboardMap>						
 		<bHold>1</bHold>
 		<bIgnoreMouse>1</bIgnoreMouse>
 	</Entry>
@@ -99,6 +109,7 @@
 		<zName>Zeige gefärliche Felder</zName>
 		<HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>
 		<Keys>C</Keys>
+		<bKeyboardMap>1</bKeyboardMap>						
 		<bHold>1</bHold>
 		<bIgnoreMouse>1</bIgnoreMouse>
 	</Entry>
@@ -107,6 +118,7 @@
 		<zName>Zeige Handelsnetz</zName>
 		<HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>
 		<Keys>V</Keys>
+		<bKeyboardMap>1</bKeyboardMap>						
 		<bHold>1</bHold>
 	</Entry>
 	<Entry>
@@ -114,6 +126,7 @@
 		<zName>Zeige untätige Einheiten</zName>
 		<HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>
 		<Keys>B</Keys>
+		<bKeyboardMap>1</bKeyboardMap>						
 		<bHold>1</bHold>
 		<bIgnoreMouse>1</bIgnoreMouse>
 	</Entry>
@@ -122,6 +135,7 @@
         <zName>Zeige Kachel Gewinne</zName>
         <HotkeyClass>HOTKEYCLASS_OVERLAYS</HotkeyClass>
         <Keys>N</Keys>
+		<bKeyboardMap>1</bKeyboardMap>						
         <bHold>1</bHold>
         <bIgnoreMouse>1</bIgnoreMouse>
     </Entry>
@@ -194,49 +208,49 @@
 	</Entry>
 	<Entry>
 		<zType>HOTKEY_CYCLE_IDLE_1</zType>
-		<zName>Wechsel untätig 1</zName>
+		<zName>Wechsle untätig 1</zName>
 		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
 		<Keys>Alpha1</Keys>
 	</Entry>
 	<Entry>
 		<zType>HOTKEY_CYCLE_PASS_IDLE_1</zType>
-		<zName>Wechsel/Passe untätig 1</zName>
+		<zName>Wechsle/Passe untätig 1</zName>
 		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
 		<Keys>LeftShift+Alpha1,RightShift+Alpha1</Keys>
 	</Entry>
 	<Entry>
 		<zType>HOTKEY_CYCLE_IDLE_2</zType>
-		<zName>Wechsel untätig 2</zName>
+		<zName>Wechsle untätig 2</zName>
 		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
 		<Keys>Alpha2</Keys>
 	</Entry>
 	<Entry>
 		<zType>HOTKEY_CYCLE_PASS_IDLE_2</zType>
-		<zName>Wechsel/Passe untätig 2</zName>
+		<zName>Wechsle/Passe untätig 2</zName>
 		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
 		<Keys>LeftShift+Alpha2,RightShift+Alpha2</Keys>
 	</Entry>
 	<Entry>
 		<zType>HOTKEY_CYCLE_IDLE_3</zType>
-		<zName>Wechsel untätig 3</zName>
+		<zName>Wechsle untätig 3</zName>
 		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
 		<Keys>Alpha3</Keys>
 	</Entry>
 	<Entry>
 		<zType>HOTKEY_CYCLE_PASS_IDLE_3</zType>
-		<zName>Wechsel/Passe untätig 3</zName>
+		<zName>Wechsle/Passe untätig 3</zName>
 		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
 		<Keys>LeftShift+Alpha3,RightShift+Alpha3</Keys>
 	</Entry>
 	<Entry>
 		<zType>HOTKEY_CYCLE_IDLE_4</zType>
-		<zName>Wechsel untätig 4</zName>
+		<zName>Wechsle untätig 4</zName>
 		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
 		<Keys>Alpha4</Keys>
 	</Entry>
 	<Entry>
 		<zType>HOTKEY_CYCLE_PASS_IDLE_4</zType>
-		<zName>Wechsel/Passe untätig 4</zName>
+		<zName>Wechsle/Passe untätig 4</zName>
 		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
 		<Keys>LeftShift+Alpha4,RightShift+Alpha4</Keys>
 	</Entry>
@@ -263,6 +277,7 @@
 		<zName>Vorherige Stadt</zName>
 		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
 		<Keys>Q</Keys>
+		<bKeyboardMap>1</bKeyboardMap>						
 	</Entry>
 	<Entry>
 		<zType>HOTKEY_NEXT_CITY</zType>
@@ -272,7 +287,7 @@
 	</Entry>
 	<Entry>
 		<zType>HOTKEY_PASS</zType>
-		<zName>Wechsel und passe für ausgewählte Einheit</zName>
+		<zName>Wechsle und passe für ausgewählte Einheit</zName>
 		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
 		<Keys>Space</Keys>
 	</Entry>
@@ -290,13 +305,13 @@
 	</Entry>
     <Entry>
         <zType>HOTKEY_CYCLE_ALL</zType>
-        <zName>Wechsel ausgewählte</zName>
+        <zName>Wechsle ausgewählte</zName>
         <HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
         <Keys>Tab</Keys>
     </Entry>
     <Entry>
         <zType>HOTKEY_CYCLE_ALL_REVERSE</zType>
-        <zName>Wechsel ausgewählte (Rückwärts)</zName>
+        <zName>Wechsle ausgewählte (Rückwärts)</zName>
         <HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
         <Keys>LeftShift+Tab, RightShift+Tab</Keys>
     </Entry>
@@ -627,5 +642,59 @@
 		<zName>Go to previous input</zName>
 		<HotkeyClass>HOTKEYCLASS_EVENT_BROWSER</HotkeyClass>
 		<Keys>LeftShift+Tab</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CYCLE_PLAYER_1</zType>
+		<zName>Cycle Player 1</zName>
+		<HotkeyClass>HOTKEYCLASS_DEBUG</HotkeyClass>
+		<Keys>LeftAlt+Alpha1,RightAlt+Alpha1</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CYCLE_PLAYER_2</zType>
+		<zName>Cycle Player 2</zName>
+		<HotkeyClass>HOTKEYCLASS_DEBUG</HotkeyClass>
+		<Keys>LeftAlt+Alpha2,RightAlt+Alpha2</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CYCLE_PLAYER_3</zType>
+		<zName>Cycle Player 3</zName>
+		<HotkeyClass>HOTKEYCLASS_DEBUG</HotkeyClass>
+		<Keys>LeftAlt+Alpha3,RightAlt+Alpha3</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CYCLE_PLAYER_4</zType>
+		<zName>Cycle Player 4</zName>
+		<HotkeyClass>HOTKEYCLASS_DEBUG</HotkeyClass>
+		<Keys>LeftAlt+Alpha4,RightAlt+Alpha4</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CYCLE_PLAYER_5</zType>
+		<zName>Cycle Player 5</zName>
+		<HotkeyClass>HOTKEYCLASS_DEBUG</HotkeyClass>
+		<Keys>LeftAlt+Alpha5,RightAlt+Alpha5</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CYCLE_PLAYER_6</zType>
+		<zName>Cycle Player 6</zName>
+		<HotkeyClass>HOTKEYCLASS_DEBUG</HotkeyClass>
+		<Keys>LeftAlt+Alpha6,RightAlt+Alpha6</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CYCLE_PLAYER_7</zType>
+		<zName>Cycle Player 7</zName>
+		<HotkeyClass>HOTKEYCLASS_DEBUG</HotkeyClass>
+		<Keys>LeftAlt+Alpha7,RightAlt+Alpha7</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CYCLE_PLAYER_8</zType>
+		<zName>Cycle Player 8</zName>
+		<HotkeyClass>HOTKEYCLASS_DEBUG</HotkeyClass>
+		<Keys>LeftAlt+Alpha8,RightAlt+Alpha8</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_CYCLE_PLAYER_9</zType>
+		<zName>Cycle Player 9</zName>
+		<HotkeyClass>HOTKEYCLASS_DEBUG</HotkeyClass>
+		<Keys>LeftAlt+Alpha9,RightAlt+Alpha9</Keys>
 	</Entry>
 </Root>

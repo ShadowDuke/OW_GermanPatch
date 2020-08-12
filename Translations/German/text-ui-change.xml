@@ -642,6 +642,10 @@
 		<Translation>Spiele abwechselnd auf dem selben Gerät</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MP_WIZARD_SCREEN_SERVER_MODE</zType>
+		<Translation>Host multiple games without joining them</Translation>
+	</Entry>
+	<Entry>
 		<zType>MP_WIZARD_SCREEN_NETWORK_MODE_BUTTON</zType>
 		<Translation>Netzwerk Modus</Translation>
 	</Entry>
@@ -784,14 +788,22 @@
         <zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_GAMENAME</zType>
         <Translation>Spiel Name</Translation>
     </Entry>
-    <Entry>
+	<Entry>
+		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_GAMEPASSWORD</zType>
+		<Translation>Spiel Passwort</Translation>
+	</Entry>
+	<Entry>
         <zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_PLAYERS</zType>
         <Translation>Spieler</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_TEAMS</zType>
         <Translation>Teams</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_AI</zType>
+		<Translation>Nicht-Spieler Reiche</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_BARBARIANS</zType>
         <Translation>Barbaren</Translation>
@@ -1056,11 +1068,11 @@
         <zType>TEXT_SP_SETUP_ADVANCED_AIAGGRESSION</zType>
         <Translation>KI Aggressivität</Translation>
     </Entry>
-    <Entry>
-        <zType>TEXT_SP_SETUP_ADVANCED_AIHEADSTART</zType>
-        <Translation>KI Vorsprung</Translation>
-    </Entry>
-    <Entry>
+	<Entry>
+		<zType>TEXT_SP_SETUP_ADVANCED_AIDEVELOPMENT</zType>
+		<Translation>KI Entwicklung</Translation>
+	</Entry>
+	<Entry>
         <zType>TEXT_SP_SETUP_ADVANCED_SEED</zType>
         <Translation>Seed</Translation>
     </Entry>
