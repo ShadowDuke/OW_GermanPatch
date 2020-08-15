@@ -103,7 +103,7 @@ Für Feldherren erhöht Mut die Stärke der Einheiten.
 		<zColor>COLOR_RATING_DISCIPLINE</zColor>
 		<zName>Disziplin</zName>
 		<zIconName>RATING_DISCIPLINE</zIconName>
-		<zHelp>FFür Oberhäupter und Stadthalter erhöht Disziplin {YIELD_MONEY}.
+		<zHelp>Für Oberhäupter und Stadthalter erhöht Disziplin {YIELD_MONEY}.
 Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.
 		</zHelp>
 		<iUnitXP>1</iUnitXP>

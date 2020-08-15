@@ -43,7 +43,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TEAM_NEW_DIPLOMACY</zType>
-		<Translation>Du hast nun {0_newDiplomacy} mit {1_team}.</Translation>
+		<Translation>{0_team} hat nun {1_newDiplomacy} mit {2_team}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TEAM_DIPLOMACY_LOG_DATA</zType>
@@ -55,7 +55,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_RELIGION_THEOLOGY</zType>
-		<Translation>{RELIGION-0} has established {THEOLOGY-1} Theology.</Translation>
+		<Translation>{0_religion} has established {1_theology} Theology.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_GAME_OVER_POPUP</zType>
@@ -237,7 +237,7 @@
 	<!--Do Bonus-->
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_MEMORY_ALL_PLAYERS</zType>
-		<Translation>Alle Familien: {0_memory} ({1_value} Meinung)</Translation>
+		<Translation>Alle Reiche von {0_player}: {1_memory} ({2_value} Meinung)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_MEMORY_ALL_FAMILIES</zType>
@@ -397,7 +397,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_STARTS_MISSION</zType>
-		<Translation>Startet Mission: {0_mission}</Translation>
+		<Translation>{0_character} Startet Mission: {1_mission}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_NICKNAME</zType>
