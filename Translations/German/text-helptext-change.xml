@@ -1748,7 +1748,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_STOP_TUTORING_FAMILY_VERB</zType>
-		<Translation><![CDATA[Lehrer<comment this is the verb that will be used in TEXT_HELPTEXT_WIDGET_ADD_GENERAL_STOP_TUTORING_FAMILY, translators: make sure it is in the correct case>]]></Translation>
+		<Translation><![CDATA[unterrichtet<comment this is the verb that will be used in TEXT_HELPTEXT_WIDGET_ADD_GENERAL_STOP_TUTORING_FAMILY, translators: make sure it is in the correct case>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CONSUMES_UNIT</zType>
