@@ -47,7 +47,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_TITLE_AGENT</zType>
-		<English>Agent {0_name}</English>
+		<Translation>Agent {0_name}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_OLIGRARCH</zType>
+		<Translation>Oligarch {0_name}</Translation>
 	</Entry>
   <!-- Relation -->
 	<Entry comment="TEXT_CHARACTER_RELATION_XXX texts have the leader (i.e. 'You') as variable index 1 for gender">
@@ -162,7 +166,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_GENERAL_OF</zType>
-		<English>Feldherr von {0_unit}</English>
+		<Translation>Feldherr von {0_unit}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_GOVERNOR_OF</zType>

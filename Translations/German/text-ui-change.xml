@@ -658,6 +658,10 @@
 		<Translation>Hotseat Modus</Translation>
 	</Entry>
 	<Entry>
+		<zType>MP_WIZARD_SCREEN_SERVER_MODE_BUTTON</zType>
+		<Translation>Server Modus</Translation>
+	</Entry>
+	<Entry>
 		<zType>MP_WIZARD_SCREEN_BACK_BUTTON</zType>
 		<Translation>Zurück</Translation>
 	</Entry>
@@ -863,7 +867,23 @@
     <Entry>
         <zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_SEED</zType>
         <Translation>Seed</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_USE_OTHER_MODS</zType>
+		<Translation>Benutze andere Mods</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_SETUP_GAMEOPTIONS_BUTTON_LABEL_MOD_SELECTION</zType>
+		<Translation>Wähle Mods aus</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_SETUP_MOD_SELECTION_TITLE</zType>
+		<Translation>Mods</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_SETUP_MOD_SELECTION_CUSTOM_OPTIONS_LABEL</zType>
+		<Translation>Benutzerdefinierte Optionen</Translation>
+	</Entry>
     <!-- players-->
     <Entry>
         <zType>TEXT_MP_SETUP_PLAYERS_NAME</zType>

@@ -8,7 +8,6 @@
 		<EffectUnit/>
 		<Color/>
 		<iThreshold/>
-		<iCharacterOpinion/>
 	</Entry>
 	<Entry>
 		<zType>OPINIONFAMILY_FURIOUS</zType>
@@ -17,7 +16,6 @@
 		<EffectUnit>EFFECTUNIT_OPINIONFAMILY_FURIOUS</EffectUnit>
 		<Color>COLOR_OPINION_FURIOUS</Color>
 		<iThreshold>-200</iThreshold>
-		<iCharacterOpinion>-60</iCharacterOpinion>
 	</Entry>
 	<Entry>
 		<zType>OPINIONFAMILY_ANGRY</zType>
@@ -26,7 +24,6 @@
 		<EffectUnit>EFFECTUNIT_OPINIONFAMILY_ANGRY</EffectUnit>
 		<Color>COLOR_OPINION_ANGRY</Color>
 		<iThreshold>-100</iThreshold>
-		<iCharacterOpinion>-40</iCharacterOpinion>
 	</Entry>
 	<Entry>
 		<zType>OPINIONFAMILY_UPSET</zType>
@@ -35,7 +32,6 @@
 		<EffectUnit>EFFECTUNIT_OPINIONFAMILY_UPSET</EffectUnit>
 		<Color>COLOR_OPINION_UPSET</Color>
 		<iThreshold>-1</iThreshold>
-		<iCharacterOpinion>-20</iCharacterOpinion>
 	</Entry>
 	<Entry>
 		<zType>OPINIONFAMILY_CAUTIOUS</zType>
@@ -50,7 +46,6 @@
 		<EffectUnit>EFFECTUNIT_OPINIONFAMILY_PLEASED</EffectUnit>
 		<Color>COLOR_OPINION_PLEASED</Color>
 		<iThreshold>199</iThreshold>
-		<iCharacterOpinion>20</iCharacterOpinion>
 	</Entry>
 	<Entry>
 		<zType>OPINIONFAMILY_FRIENDLY</zType>
@@ -58,6 +53,5 @@
 		<EffectCity>EFFECTCITY_OPINIONFAMILY_FRIENDLY</EffectCity>
 		<EffectUnit>EFFECTUNIT_OPINIONFAMILY_FRIENDLY</EffectUnit>
 		<Color>COLOR_OPINION_FRIENDLY</Color>
-		<iCharacterOpinion>40</iCharacterOpinion>
 	</Entry>
 </Root>

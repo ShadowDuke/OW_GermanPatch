@@ -55,8 +55,16 @@
 	</Entry> 
 	<!--General-->
 	<Entry>
+		<zType>TEXT_HELPTEXT_ADD_SPACE</zType>
+		<Translation>{0} </Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_INDENT</zType>
 		<Translation>   {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_DOUBLE_INDENT</zType>
+		<Translation>      {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_NEWLINE</zType>
@@ -69,10 +77,6 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_DIVIDER_LINE</zType>
 		<Translation><![CDATA[<style=Line></style>]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_CONCAT_TWO</zType>
-		<Translation>{0}{1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CONCAT_TWO</zType>
@@ -155,6 +159,10 @@
 		<Translation>{0}: {1} ({2})</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_CONCAT_ENCLOSED_PARENTHESIS_MULTIPLIER</zType>
+		<Translation>{0} (x{1})</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_CONCAT_COLON_ENCLOSED_PARENTHESIS_X_COUNT</zType>
 		<Translation><![CDATA[{0}: {1}<true_2> ({2}x)<false><end>]]></Translation>
 	</Entry>
@@ -185,6 +193,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_BULLET_LIST_BUILDER</zType>
 		<Translation><![CDATA[{0}<br>icon(bullet){1}]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_BULLET_TEXT_SPACE</zType>
+		<Translation>icon(bullet){0} </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK</zType>
@@ -1537,10 +1549,6 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LAUNCH_OFFENSIVE</zType>
 		<Translation><![CDATA[Reduziert den Cooldown von <singular_0>der nähesten Einheit<plural>der nähesten {0_number} Einheiten<end> und gibt ihnen {1_yield} für jede einzelne]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_LAUNCH_OFFENSIVE_COSTS</zType>
-		<Translation>Kostet {0_list}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LAUNCH_OFFENSIVE_NOT_YOUR_TURN</zType>
@@ -3537,8 +3545,20 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<!--FamilyClass Help-->
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_FAMILY_UNITS_BULLET_ITEM</zType>
-		<Translation>icon(bullet)[Familien Einheiten] {LISTE}</Translation>
+        <zType>TEXT_HELPTEXT_FAMILY_CLASS_FAMILY_UNITS_BULLET_LINE_START</zType>
+        <Translation>icon(bullet)[Familien Einheiten] {LISTE}</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_HELPTEXT_FAMILY_CLASS_FAMILY_CITIES_BULLET_LINE_START</zType>
+        <Translation>icon(bullet)[Familien Städte] </Translation>
+    </Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_FAMILY_CLASS_ON_CITY_FOUNDED_BULLET_LINE_START</zType>
+		<Translation>icon(bullet)[Bei Stadtgründung] </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_FAMILY_CLASS_ON_SEAT_FOUNDED_BULLET_LINE_START</zType>
+		<Translation>icon(bullet)[Bei Familiensitz Gründung] </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILY_CLASS_NATIONS_WITH_CLASS</zType>
@@ -3825,7 +3845,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<!--Bonus Help-->
 	<Entry>
-		<zType>TEXT_HELPTEXT_BONUS_MEMORY_ALL_FAMILY_CITIES_START</zType>
+		<zType>TEXT_HELPTEXT_BONUS_MEMORY_ALL_FAMILY_CITIES_STARTLINE</zType>
 		<Translation>[{0_family} Städte] </Translation>
 	</Entry>
 	<Entry>
@@ -3837,12 +3857,12 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>[Alle Familien] </Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BONUS_STARTS_GOAL</zType>
-		<Translation>Beginnt Ziel {0_goalLink}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_STARTS_AMBITION</zType>
 		<Translation>Beginnt Ambition {0_goalLink}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_FINISH_GOAL</zType>
+		<Translation>Ziel {0_goalLink} beendet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_END_ALLIANCE</zType>
@@ -3859,6 +3879,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
     <zType>TEXT_HELPTEXT_BONUS_REMOVE_RELIGION</zType>
     <Translation>Entferne {0_religion} von {1_city}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_ALLIANCE_WITH</zType>
+		<Translation>{0_player} Bündnis mit {1_other}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_REVEAL_TERRITORY</zType>
@@ -3911,10 +3935,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_REMOVE_PROJECT</zType>
 		<Translation>Entferne {0}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_BONUS_CONCAT_IN_CITY</zType>
-		<Translation> (in {0_city})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_NO_COURTIER</zType>
@@ -3977,16 +3997,16 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Setze {0_improvement} auf {1_tile}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BONUS_REMOVE_VEGETATION</zType>
-		<Translation>Entfernt Vegetation</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_FREE_UNIT</zType>
 		<Translation><![CDATA[Erhalte {0_unit}<true_1> (x{1_number})<false><end><true_2> in {2_city}<false><end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_TRADE_CITY</zType>
 		<Translation>{0_link} erlangt {1_city}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_VICTORY</zType>
+		<Translation>{0_victory} Sieg</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_JOIN_COURTIER_GENDER</zType>
@@ -4376,6 +4396,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Religion: {0_religion}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_FAMILY_HEAD</zType>
+		<Translation>Oberhaupt: {0_head}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILY_TRAITS</zType>
 		<Translation><![CDATA[{0_value}: Merkmale<true_1> ({1_traitlist})<false><end>]]></Translation>
 	</Entry>
@@ -4515,10 +4539,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<zType>TEXT_HELPTEXT_FAMILY_EACH_UNIT_EFFECT</zType>
 		<Translation><![CDATA[Jede <true_0>{0}<false>Familien<end> Einheit: ]]></Translation>
 	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_EACH_FAMILY_MEMBER_OPINION</zType>
-		<Translation>Jedes Familienmitglied: {0} Meinung</Translation>
-	</Entry>
 	<!--Decision Name-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_DECISION_NAME_CHOOSE_RESEARCH</zType>
@@ -4624,6 +4644,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_RAISE_IMPROVEMENT_BUTTON</zType>
 		<Translation>Verbessere zu {0_improvement}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TILE_CANCEL_IMPROVEMENT_BUTTON</zType>
+		<Translation>{0_improvement} abbrechen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_CANCEL_UNIT_QUEUE_BUTTON</zType>
@@ -4771,10 +4795,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PROJECT_LEADS_TO</zType>
 		<Translation>Führt zu {0}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_PROJECT_REQUIRES_TECH</zType>
-		<Translation>Benötigt: {0} Technologie</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PROJECT_MIN_CULTURE</zType>
@@ -4989,6 +5009,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Staat: {0}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_HELP_FAMILY_HEAD</zType>
+		<Translation>Oberhaupt der Familie: {0}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_FAMILY</zType>
 		<Translation>Familie: {0}</Translation>
 	</Entry>
@@ -5039,6 +5063,14 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_BARBARIAN_ETHNICITY</zType>
 		<Translation>{0}: {1,1}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_IS_LEADER_SPOUSE</zType>
+		<Translation>{0}: Ist Ehepartner des Anführers</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_IS_HEIR</zType>
+		<Translation>{0}: Ist Erbe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_IS_GOVERNOR</zType>
@@ -5575,6 +5607,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation><![CDATA[Benötigt {0} Militär <singular_0>Einheit<plural>Einheiten<end>]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_LUXURIES</zType>
+		<Translation><![CDATA[Benötigt {0} <singular_0>{1_luxuryLink}<plural>{1,2_luxuriesLink}<end>]]></Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_URBAN_IMPROVEMENTS</zType>
 		<Translation><![CDATA[Benötigt {0} Stadtteil <singular_0>Verbesserung<plural>Verbesserungen<end>]]></Translation>
 	</Entry>
@@ -5764,10 +5800,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Geburtsmodifikator: {0}</Translation>
 	</Entry>
 	<!--Player Opinion-->
-	<Entry>
-		<zType>TEXT_HELPTEXT_PLAYER_OPINION_NO_EFFECTS</zType>
-		<Translation>Keine Effekte</Translation>
-	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_OPINION_OF_PLAYER</zType>
 		<Translation><![CDATA[{0_player} Meinung über <true_1>{1}<false>dich<end>: {2}]]></Translation>

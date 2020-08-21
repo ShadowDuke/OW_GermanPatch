@@ -6,6 +6,10 @@
 		<Translation/>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_HUMAN_DESCRIPTION</zType>
+		<Translation>You have sent an envoy with a Truce Proposal.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_INFILTRATE_REVEAL_DESCRIPTION</zType>
 		<Translation>{CHARACTER-SUBJECT} hat Erfolgreich das Gebiet deines Rivalen infiltriert.</Translation>
 	</Entry>
@@ -102,12 +106,8 @@
 		<Translation>Gute Nachrichten: {CHARACTER-SUBJECT} hat deinem Heiratsangebot zugestimmt. Herlichen Glückwunsch!</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSIONRESULT_DIVORCE_MUTUAL_DESCRIPTION</zType>
+		<zType>TEXT_MISSIONRESULT_DIVORCE_DESCRIPTION</zType>
 		<Translation>Nach einem bisschen Überzeugungsarbeit, hat {CHARACTER-SUBJECT} einer gemeinsamen Heiratsübereinstimmung zugestimmt.</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MISSIONRESULT_DIVORCE_FORCED_DESCRIPTION</zType>
-		<Translation><![CDATA[Du hast {CHARACTER-TARGET} gezwungen, <masculine_CHARACTER-TARGET>ihn<feminine>sie<end> gegen <masculine_CHARACTER-TARGET>seinen<feminine>ihren<end> willen scheiden zu lassen.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_EVENT_DESCRIPTION</zType>
@@ -161,6 +161,10 @@
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_DEMAND_EVENT</zType>
 		<Translation>Verlange Tribur für Waffenruhe Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_HUMAN_EVENT</zType>
+		<Translation>Waffenruhe Ereignis</Translation>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_MISSIONRESULT_PLAYER_DECLARE_WAR_EVENT</zType>
@@ -351,12 +355,12 @@
 		<Translation>Heirat</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSIONRESULT_DIVORCE_MUTUAL</zType>
-		<Translation>Einvernehmliche Scheidung</Translation>
+		<zType>TEXT_MISSIONRESULT_DIVORCE</zType>
+		<Translation>Scheidung</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSIONRESULT_DIVORCE_FORCED</zType>
-		<Translation>Erzwungene Scheidung</Translation>
+		<zType>TEXT_MISSIONRESULT_DIVORCE_EVENT</zType>
+		<Translation>Scheidungs Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_BARBARIAN_PLAYER_WAR_EVENT</zType>

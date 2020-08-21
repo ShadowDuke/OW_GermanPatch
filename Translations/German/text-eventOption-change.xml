@@ -106,6 +106,14 @@
 		<Translation><![CDATA[Das ist sehr bedauernswert.]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTOPTION_TRUCE_PROPOSAL_HUMAN_YES</zType>
+		<Translation>Ja.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRUCE_PROPOSAL_HUMAN_NO</zType>
+		<Translation>Nein.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTOPTION_BARBARIAN_PLAYER_WAR_MONEY</zType>
 		<Translation>Wir werden Gold aus der Staatskasse anbieten.</Translation>
 	</Entry>

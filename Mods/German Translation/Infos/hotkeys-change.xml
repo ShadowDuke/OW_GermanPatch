@@ -284,6 +284,7 @@
 		<zName>Nächste Stadt</zName>
 		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
 		<Keys>E</Keys>
+		<bKeyboardMap>1</bKeyboardMap>						
 	</Entry>
 	<Entry>
 		<zType>HOTKEY_PASS</zType>
@@ -339,7 +340,7 @@
 		<zType>HOTKEY_CHAT</zType>
 		<zName>Chat</zName>
 		<HotkeyClass>HOTKEYCLASS_COMMUNICATION</HotkeyClass>
-		<Keys>Return</Keys>
+		<Keys>Return,KeypadEnter</Keys>
 	</Entry>
   <Entry>
     <zType>HOTKEY_VICTORY_SCREEN</zType>

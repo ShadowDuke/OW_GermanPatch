@@ -96,7 +96,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_AMPHIBIOUS</zType>
-		<English>Amphibisch</English>
+		<Translation>Amphibisch</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_BESIEGER</zType>
@@ -108,7 +108,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_TOUGH</zType>
-		<English>Taff</English>
+		<Translation>Taff</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_BLOODTHIRSTY</zType>
@@ -185,6 +185,10 @@
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_FORMATION</zType>
 		<Translation>Formation</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_MANEUVERS</zType>
+		<Translation>Manöver</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_CRIPPLED</zType>

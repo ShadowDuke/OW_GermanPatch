@@ -606,12 +606,12 @@
 	<Entry>
 		<zType>MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_REJECTED</zType>
 		<zText>Sided against us in squabble</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_WASTED_BRIBE</zType>
 		<zText>Took our bribe and did nothing</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_REFUSED_BRIBE</zType>

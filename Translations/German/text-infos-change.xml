@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Root>
 	<!-- InfoTerrain -->
 	<Entry>
@@ -747,6 +746,14 @@
 	<Entry>
 		<zType>TEXT_GOAL_FOUR_GRANARY</zType>
 		<Translation>Kontrolliere vier Kornkammern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_LUXURIES</zType>
+		<Translation>Kontrolliere vier Luxusgüter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_EIGHT_LUXURIES</zType>
+		<Translation>Kontrolliere acht Luxusgüter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_SIX_BARRACKS_RANGES</zType>
@@ -1561,8 +1568,8 @@
 		<Translation>Fallgatter</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TECH_PORTCULLIS_BONUS_AXEMAN</zType>
-		<Translation>Freier Axtkämpfer</Translation>
+		<zType>TEXT_TECH_PORTCULLIS_BONUS_MACEMAN</zType>
+		<Translation>Freier Keulenkämpfer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_LAND_CONSOLIDATION</zType>

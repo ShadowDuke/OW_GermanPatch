@@ -103,6 +103,10 @@
 		<Translation>Verlange Tribut für Frieden mit</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSION_PLAYER_TRUCE_HUMAN</zType>
+		<Translation>Spieler Waffenruhe</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSION_PLAYER_DECLARE_WAR</zType>
 		<Translation>Erkläre Krieg</Translation>
 	</Entry>

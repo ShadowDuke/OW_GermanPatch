@@ -27,7 +27,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_6</zType>
-		<Translation>icon(YIELD_TRAINING)  Lagerung ist bis  int(MAX_TRAINING) begrenzt. Alles darüber wird ungewandelt in  icon(YIELD_ORDERS) .</Translation>
+		<Translation>Trainingicon(YIELD_TRAINING) stockpiles are capped at int(MAX_TRAINING). Above this value, they'll be converted to Ordersicon(YIELD_ORDERS).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_7</zType>
@@ -226,19 +226,19 @@
 		<Translation>Urban buildings on the coast need only be adjacent to one other Urban building.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HINT_567</zType>
-		<Translation>Multi-level improvement classes (Courthouses, Markets, Baths, etc.) are cheaper to build if they are adjacent to improvements of the same class.</Translation>
+		<zType>TEXT_HINT_56</zType>
+		<Translation>With a Worker selected, hold CTRL and move the cursor over a tile to see what Improvements can be built there.</Translation>
 	</Entry>
   <Entry>
     <zType>TEXT_HINT_57</zType>
-    <Translation>While a Worker is selected, holding CTRL will show what can be build on each tile you move the cursor over.</Translation>
+		<Translation>Späher sind in Wäldern unsichtbar.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HINT_58</zType>
-    <Translation>Späher sind in Wäldern unsichtbar.</Translation>
+		<Translation>Hold [SHIFT] or [MIDDLE-CLICK] to Freeze Tooltips.</Translation>
   </Entry>
   <Entry>
 		<zType>TEXT_HINT_59</zType>
-		<Translation>Halte [SHIFT] oder [MITTLERE-MAUS] um Tooltips festzuhalten.</Translation>
+		<Translation>Specialist are produced faster in higher-level improvements. (Poets take less time in an Amphitheater than in an Odeon - and even less time in a Colosseum.)</Translation>
   </Entry>	 
 </Root>
