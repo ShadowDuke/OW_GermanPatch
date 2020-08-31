@@ -805,13 +805,17 @@
         <Translation>Teams</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_AI</zType>
-		<Translation>Nicht-Spieler Reiche</Translation>
+		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_BARBARIANS</zType>
+		<Translation>Barbaren</Translation>
 	</Entry>
-    <Entry>
-        <zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_BARBARIANS</zType>
-        <Translation>Barbaren</Translation>
-    </Entry>
+	<Entry>
+		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_AI_AGGRESSION</zType>
+		<Translation>KI Aggression</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_AI_DEVELOPMENT</zType>
+		<Translation>KI Entwicklung</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_SUCCESSION</zType>
         <Translation>Erbfolge</Translation>
@@ -884,19 +888,39 @@
 		<zType>TEXT_MP_SETUP_MOD_SELECTION_CUSTOM_OPTIONS_LABEL</zType>
 		<Translation>Benutzerdefinierte Optionen</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_MP_SETUP_GAMEOPTIONS_HUMAN</zType>
+		<Translation>Spieler</Translation>
+	</Entry>
+    <Entry>
+        <zType>TEXT_MP_SETUP_GAMEOPTIONS_AI</zType>
+        <Translation>KI</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_MP_SETUP_INVALID_NATIONS</zType>
+        <Translation>"Keine doppelten Nationen" Spieloption is aktiviert</Translation>
+    </Entry>
     <!-- players-->
     <Entry>
         <zType>TEXT_MP_SETUP_PLAYERS_NAME</zType>
         <Translation>Name</Translation>
     </Entry>
     <Entry>
+		<zType>TEXT_MP_SETUP_PLAYERS_NATION</zType>
+		<Translation>Reiche</Translation>
+	</Entry>
+	<Entry>
         <zType>TEXT_MP_SETUP_PLAYERS_DIFFICULTY</zType>
         <Translation>Schwierigkeitsgrad</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_MP_SETUP_PLAYERS_TEAM</zType>
         <Translation>Team</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_SETUP_PLAYERS_CONTROL</zType>
+		<Translation>Kontrolle</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_MP_SETUP_PLAYERS_EMAIL</zType>
         <Translation>Email</Translation>
@@ -1065,6 +1089,10 @@
         <Translation>Anzahl der Gegner</Translation>
     </Entry>
     <Entry>
+        <zType>TEXT_SP_SETUP_ADVANCED_NUMOPPS_OPTION</zType>
+        <Translation><![CDATA[{0_count} <singular_0>Gegner<plural>Gegner<end>]]></Translation>
+    </Entry>
+	<Entry>
         <zType>TEXT_SP_SETUP_ADVANCED_MORTALITY</zType>
         <Translation>Sterblichkeit</Translation>
     </Entry>
@@ -1514,6 +1542,11 @@
 	<Entry>	
         <zType>TEXT_TECH_TREE_BONUS_CARD_DISCARDED</zType>
         <Translation>Dauerhaft verworfen wenn abgelegt</Translation>
+    </Entry>
+	<!-- Main Menu-->
+    <Entry>
+        <zType>TEXT_UI_MAIN_MENU_ACTIVE_MODS</zType>
+        <Translation>Aktive Mods</Translation>
     </Entry>
 <!--MPSetupScreenPanel-->
 	<Entry>

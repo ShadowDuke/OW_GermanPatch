@@ -1,3 +1,5 @@
+									  
+																									 
 <Root>
 	<!-- InfoTerrain -->
 	<Entry>
@@ -358,6 +360,47 @@
 		<zType>TEXT_OPINIONBARBARIAN_FRIENDLY</zType>
 		<Translation>Freundlich</Translation>
 	</Entry>
+	<!--InfoFamilyClass-->
+	<Entry>
+		<zType>TEXT_FAMILYCLASS_LANDOWNERS</zType>
+		<Translation>Landbesitzer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_FAMILYCLASS_CHAMPIONS</zType>
+		<Translation>Wettkämpfer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_FAMILYCLASS_STATESMEN</zType>
+		<Translation>Staatsmänner</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_FAMILYCLASS_PATRONS</zType>
+		<Translation>Schutzherren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_FAMILYCLASS_CLERICS</zType>
+		<Translation>Geistliche</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_FAMILYCLASS_SAGES</zType>
+		<Translation>Weise</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_FAMILYCLASS_TRADERS</zType>
+		<Translation>Kaufleute</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_FAMILYCLASS_ARTISANS</zType>
+		<Translation>Kunsthandwerker</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_FAMILYCLASS_RIDERS</zType>
+		<Translation>Reiter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_FAMILYCLASS_HUNTERS</zType>
+		<Translation>Jäger</Translation>
+	</Entry>
 	<!--InfoOpinionCharacter-->
 	<!--Assets/GameAssets/Resources/Infos/opinionCharacter.xml-->
 	<Entry>
@@ -508,8 +551,8 @@
 		<Translation>Erlasse Laizitätsprinzip</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_ASCETICISM</zType>
-		<Translation>Erlasse Askese</Translation>
+		<zType>TEXT_GOAL_PILGRIMAGE</zType>
+		<Translation>Erlasse Pilgerschaft</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_HOLY_WAR</zType>
@@ -1190,6 +1233,14 @@
 	<Entry>
 		<zType>TEXT_GOAL_20_KILLS</zType>
 		<Translation>Töte 20 gegnerische Einheiten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_5_KILLS_GENERAL</zType>
+		<Translation>Töte 5 gegnerische Einheiten (als Feldherr)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_10_KILLS_GENERAL</zType>
+		<Translation>Töte 10 gegnerische Einheiten (als Feldherr)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_FIVE_PROMOTIONS</zType>

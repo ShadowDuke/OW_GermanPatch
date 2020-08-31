@@ -906,6 +906,9 @@
 		<zText>Destroyed strange remains</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_HID_CHILD</zType>
+	</Entry>
 	<Entry beginGroup="Character">
 		<zType>MEMORYCHARACTER_MARRIAGE_OF_STATE</zType>
 		<zText>Married me for politics</zText>

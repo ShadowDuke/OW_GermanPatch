@@ -6,6 +6,7 @@
 		<zName/>
 		<zIconName/>
 		<iCostBase/>
+		<iCostNoCharacters/>			  
 		<iCostPerCity/>
 		<iCostPerChange/>
 		<LawClass/>
@@ -19,7 +20,6 @@
 		<zName>Erstgeburt</zName>
 		<zIconName>LAW_PRIMOGENITURE</zIconName>
 		<iCostBase>200</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_ORDER</LawClass>
 		<SuccessionOrder>SUCCESSIONORDER_PRIMOGENITURE</SuccessionOrder>
@@ -29,7 +29,6 @@
 		<zName>Ultimogenitur</zName>
 		<zIconName>LAW_ULTIMOGENITURE</zIconName>
 		<iCostBase>200</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_ORDER</LawClass>
 		<SuccessionOrder>SUCCESSIONORDER_ULTIMOGENITURE</SuccessionOrder>
@@ -39,7 +38,6 @@
 		<zName>Lateral</zName>
 		<zIconName>LAW_LATERAL</zIconName>
 		<iCostBase>200</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_ORDER</LawClass>
 		<SuccessionOrder>SUCCESSIONORDER_LATERAL</SuccessionOrder>
@@ -49,7 +47,6 @@
 		<zName>Dynastisch</zName>
 		<zIconName>LAW_DYNASTIC</zIconName>
 		<iCostBase>200</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_ORDER</LawClass>
 		<SuccessionOrder>SUCCESSIONORDER_DYNASTIC</SuccessionOrder>
@@ -59,7 +56,6 @@
 		<zName>Dienstalter</zName>
 		<zIconName>LAW_SENIORITY</zIconName>
 		<iCostBase>200</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_ORDER</LawClass>
 		<SuccessionOrder>SUCCESSIONORDER_SENIORITY</SuccessionOrder>
@@ -69,7 +65,7 @@
 		<zName>Anforderungen</zName>
 		<zIconName>LAW_EPICS</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>									
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_EPICS_EXPLORATION</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_EPICS</EffectPlayer>
@@ -79,7 +75,7 @@
 		<zName>Erkundung</zName>
 		<zIconName>LAW_EXPLORATION</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_EPICS_EXPLORATION</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_EXPLORATION</EffectPlayer>
@@ -89,7 +85,7 @@
 		<zName>Sklaverei</zName>
 		<zIconName>LAW_SLAVERY</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_SLAVERY_FREEDOM</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_SLAVERY</EffectPlayer>
@@ -99,7 +95,7 @@
 		<zName>Freiheit</zName>
 		<zIconName>LAW_FREEDOM</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_SLAVERY_FREEDOM</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_FREEDOM</EffectPlayer>
@@ -109,7 +105,7 @@
 		<zName>Tyrannei</zName>
 		<zIconName>LAW_TYRANNY</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_TYRANNY_CONSTITUTION</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_TYRANNY</EffectPlayer>
@@ -119,7 +115,7 @@
 		<zName>Verfassung</zName>
 		<zIconName>LAW_CONSTITUTION</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_TYRANNY_CONSTITUTION</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_CONSTITUTION</EffectPlayer>
@@ -129,7 +125,7 @@
 		<zName>Zentralisierung</zName>
 		<zIconName>LAW_CENTRALIZATION</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_CENTRALIZATION_VASSALAGE</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_CENTRALIZATION</EffectPlayer>
@@ -140,7 +136,7 @@
 		<zName>Vasallentum</zName>
 		<zIconName>LAW_VASSALAGE</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_CENTRALIZATION_VASSALAGE</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_VASSALAGE</EffectPlayer>
@@ -151,7 +147,7 @@
 		<zName>Kolonisierung</zName>
 		<zIconName>LAW_COLONIZATION</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_COLONIZATION_SERFDOM</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_COLONIZATION</EffectPlayer>
@@ -162,7 +158,7 @@
 		<zName>Leibeigenschaft</zName>
 		<zIconName>LAW_SERFDOM</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_COLONIZATION_SERFDOM</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_SERFDOM</EffectPlayer>
@@ -173,7 +169,7 @@
 		<zName>Monotheismus</zName>
 		<zIconName>LAW_MONOTHEISM</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_MONOTHEISM_POLYTHEISM</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_MONOTHEISM</EffectPlayer>
@@ -184,7 +180,7 @@
 		<zName>Polytheismus</zName>
 		<zIconName>LAW_POLYTHEISM</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_MONOTHEISM_POLYTHEISM</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_POLYTHEISM</EffectPlayer>
@@ -195,7 +191,7 @@
 		<zName>Berufsarmee</zName>
 		<zIconName>LAW_PROFESSIONAL_ARMY</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_PROFESSIONAL_ARMY_VOLUNTEERS</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_PROFESSIONAL_ARMY</EffectPlayer>
@@ -206,7 +202,7 @@
 		<zName>Freiwillige</zName>
 		<zIconName>LAW_VOLUNTEERS</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_PROFESSIONAL_ARMY_VOLUNTEERS</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_VOLUNTEERS</EffectPlayer>
@@ -217,7 +213,7 @@
 		<zName>Tolleranz</zName>
 		<zIconName>LAW_TOLERANCE</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_TOLERANCE_ORTHODOXY</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_TOLERANCE</EffectPlayer>
@@ -228,7 +224,7 @@
 		<zName>Rechtgläubigkeit</zName>
 		<zIconName>LAW_ORTHODOXY</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_TOLERANCE_ORTHODOXY</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_ORTHODOXY</EffectPlayer>
@@ -239,7 +235,7 @@
 		<zName>Gilden</zName>
 		<zIconName>LAW_GUILDS</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_GUILDS_ELITES</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_GUILDS</EffectPlayer>
@@ -250,7 +246,7 @@
 		<zName>Eliten</zName>
 		<zIconName>LAW_ELITES</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_GUILDS_ELITES</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_ELITES</EffectPlayer>
@@ -261,7 +257,7 @@
 		<zName>Weltbild</zName>
 		<zIconName>LAW_PHILOSOPHY</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_PHILOSOPHY_ENGINEERING</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_PHILOSOPHY</EffectPlayer>
@@ -272,7 +268,7 @@
 		<zName>Konstruktionswesen</zName>
 		<zIconName>LAW_ENGINEERING</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_PHILOSOPHY_ENGINEERING</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_ENGINEERING</EffectPlayer>
@@ -283,7 +279,7 @@
 		<zName>Bilddeutung</zName>
 		<zIconName>LAW_ICONOGRAPHY</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_ICONOGRAPHY_CALLIGRAPHY</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_ICONOGRAPHY</EffectPlayer>
@@ -294,40 +290,40 @@
 		<zName>Schönschrift</zName>
 		<zIconName>LAW_CALLIGRAPHY</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_ICONOGRAPHY_CALLIGRAPHY</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_CALLIGRAPHY</EffectPlayer>
 		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_HIGH_CIVICS</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>
-		<zType>LAW_ASCETICISM</zType>
-		<zName>Askese</zName>
-		<zIconName>LAW_ASCETICISM</zIconName>
+		<zType>LAW_PILGRIMAGE</zType>
+		<zName>Pilgerschaft</zName>
+		<zIconName>LAW_PILGRIMAGE</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
-		<LawClass>LAWCLASS_ASCETICISM_HOLY_WAR</LawClass>
-		<EffectPlayer>EFFECTPLAYER_LAW_ASCETICISM</EffectPlayer>
-		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_HIGH_TRAINING</EffectPlayerUpkeep>
+		<LawClass>LAWCLASS_PILGRIMAGE_HOLY_WAR</LawClass>
+		<EffectPlayer>EFFECTPLAYER_LAW_PILGRIMAGE</EffectPlayer>
+		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_HIGH_CIVICS</EffectPlayerUpkeep>
 	</Entry>	 
 	<Entry>
 		<zType>LAW_HOLY_WAR</zType>
 		<zName>Heiliger Krieg</zName>
 		<zIconName>LAW_HOLY_WAR</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+	<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
-		<LawClass>LAWCLASS_ASCETICISM_HOLY_WAR</LawClass>
+		<LawClass>LAWCLASS_PILGRIMAGE_HOLY_WAR</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_HOLY_WAR</EffectPlayer>
-		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_HIGH_CIVICS</EffectPlayerUpkeep>
+		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_HIGH_TRAINING</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>
 		<zType>LAW_DIVINE_RULE</zType>
 		<zName>Göttliche Herrschaft</zName>
 		<zIconName>LAW_DIVINE_RULE</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_DIVINE_RULE_SECULARISM</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_DIVINE_RULE</EffectPlayer>
@@ -338,7 +334,7 @@
 		<zName>Laizitätsprinzip</zName>
 		<zIconName>LAW_SECULARISM</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_DIVINE_RULE_SECULARISM</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_SECULARISM</EffectPlayer>
@@ -349,7 +345,7 @@
 		<zName>Abschottung</zName>
 		<zIconName>LAW_ISOLATIONISM</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_ISOLATIONISM_TRADE_LEAGUE</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_ISOLATIONISM</EffectPlayer>
@@ -360,7 +356,7 @@
 		<zName>Handelsverband</zName>
 		<zIconName>LAW_TRADE_LEAGUE</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_ISOLATIONISM_TRADE_LEAGUE</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_TRADE_LEAGUE</EffectPlayer>
@@ -371,7 +367,7 @@
 		<zName>Münz Wertminderung</zName>
 		<zIconName>LAW_COIN_DEBASEMENT</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_COIN_DEBASEMENT_MONETARY_REFORM</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_COIN_DEBASEMENT</EffectPlayer>
@@ -382,7 +378,7 @@
 		<zName>Münzreform</zName>
 		<zIconName>LAW_MONETARY_REFORM</zIconName>
 		<iCostBase>400</iCostBase>
-		<iCostPerCity>0</iCostPerCity>
+		<iCostNoCharacters>200</iCostNoCharacters>
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_COIN_DEBASEMENT_MONETARY_REFORM</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_MONETARY_REFORM</EffectPlayer>

@@ -2,7 +2,7 @@
 <!-- edited with XMLSpy v2020 (x64) (http://www.altova.com) by Andrew Auseon (Private) -->
 <Root>
 	<!--Assets/GameAssets/Resources/Infos/improvement.xml-->
-	<!--NOTE: improvement names that are mass nouns or plural do not need multiple types in English-->
+	<!--NOTE: improvement names that are mass nouns or plural do not need multiple types in Translation-->
 	<Entry>
 		<zType/>
 		<Translation/>
@@ -167,4 +167,16 @@
     <zType>TEXT_PROJECT_MONUMENTAL_GATE</zType>
     <Translation>Monumentales Tor</Translation>
   </Entry>
+  <Entry>
+		<zType>TEXT_PROJECT_LEVIATHAN</zType>
+		<Translation>Leviathan Skull</Translation>
+   </Entry>
+   <Entry>
+		<zType>TEXT_PROJECT_GODS_CONSORT_CULT</zType>
+		<Translation>God's Consort Cult</Translation>
+   </Entry>
+   <Entry>
+		<zType>TEXT_PROJECT_LABYRINTH</zType>
+		<Translation>Labyrinth</Translation>
+   </Entry>
 </Root>

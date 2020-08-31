@@ -110,6 +110,22 @@
 		<Translation>Nach einem bisschen Überzeugungsarbeit, hat {CHARACTER-SUBJECT} einer gemeinsamen Heiratsübereinstimmung zugestimmt.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_TUTOR_WISDOM_DESCRIPTION</zType>
+		<Translation><![CDATA[{CHARACTER-SUBJECT} hat {CHARACTER-TARGET} unterrichtet, verbessert <masculine_CHARACTER-TARGET>seine<feminine>ihre<end> link(RATING_WISDOM)!]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_TUTOR_CHARISMA_DESCRIPTION</zType>
+		<Translation><![CDATA[{CHARACTER-SUBJECT} hat {CHARACTER-TARGET} unterrichtet, verbessert <masculine_CHARACTER-TARGET>sein<feminine>ihr<end> link(RATING_CHARISMA)!]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_TUTOR_COURAGE_DESCRIPTION</zType>
+		<Translation><![CDATA[{CHARACTER-SUBJECT} hat {CHARACTER-TARGET} unterrichtet, verbessert <masculine_CHARACTER-TARGET>seinen<feminine>ihren<end> link(RATING_COURAGE)!]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_TUTOR_DISCIPLINE_DESCRIPTION</zType>
+		<Translation><![CDATA[{CHARACTER-SUBJECT} hat (CHARACTER-TARGET} unterrichtet, verbessert <masculine_CHARACTER-TARGET>seine<feminine>ihre<end> link(RATING_DISCIPLINE)!]]></Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_EVENT_DESCRIPTION</zType>
 		<Translation>Die Mission von {CHARACTER-SUBJECT} führte zu einem Ereignis...</Translation>
 	</Entry>
@@ -168,6 +184,10 @@
 	</Entry>
 	<Entry>	
 		<zType>TEXT_MISSIONRESULT_PLAYER_DECLARE_WAR_EVENT</zType>
+		<Translation>Erkläre Krieg</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PLAYER_DECLARE_WAR_HUMAN_EVENT</zType>
 		<Translation>Erkläre Krieg</Translation>
 	</Entry>
 	<Entry>
@@ -361,6 +381,26 @@
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_DIVORCE_EVENT</zType>
 		<Translation>Scheidungs Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_TUTOR_WISDOM</zType>
+		<Translation>Verbessere Weisheit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_TUTOR_CHARISMA</zType>
+		<Translation>Verbessere Charisma</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_TUTOR_COURAGE</zType>
+		<Translation>Verbessere Mut</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_TUTOR_DISCIPLINE</zType>
+		<Translation>Verbessere Disziplin</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_TUTOR_EVENT</zType>
+		<Translation>Tutor Event</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_BARBARIAN_PLAYER_WAR_EVENT</zType>

@@ -179,6 +179,10 @@
 		<Translation>{0}: {1}/{2}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_TIMES_NUMBERS</zType>
+		<Translation><![CDATA[<true_0> (x{0_number})<false><end>]]></Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_INDENTED_BULLET_LIST_BUILDER_FIRST</zType>
 		<Translation>   icon(bullet){0}</Translation>
 	</Entry>
@@ -209,6 +213,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_ERA_YEAR</zType>
 		<Translation><![CDATA[{0_year} <true_1>n. Chr.<false>BCE<end>]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LEADER_REIGN</zType>
+		<Translation>[{0_startYear} - {1_endYear}]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_SIZE</zType>
@@ -305,6 +313,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_XP_PER_YEAR</zType>
 		<Translation>{0} EP/Jahr</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_SELECTION_OPTIONAL_ARROWS</zType>
+		<Translation><![CDATA[<true_1><gt>{0}<lt><false>{0}<end>]]></Translation>
 	</Entry>
 	<!--Links-->
 	<Entry>
@@ -738,6 +750,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MENU_TURN_TIMER</zType>
 		<Translation>Runden Timer: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_MENU_VICTORY_TYPE_ENABLED</zType>
+		<Translation>{0} Siegbedingung aktiviert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MENU_MAP_SEED</zType>
@@ -2258,6 +2274,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Ernte</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_RELIGION</zType>
+		<Translation>Religion</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_REMOVE_VEGETATION</zType>
 		<Translation>Entferne {0}: {1}</Translation>
 	</Entry>
@@ -2744,6 +2764,19 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_REQUIRES_STATE_RELIGION</zType>
 		<Translation>Staatsreligion</Translation>
 	</Entry>
+	<!--Unit Line Help-->
+	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_LINE_FREE_PROMOTION_INDICATOR</zType>
+		<Translation>{0_promotionLevel}+</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_LINE_GENERAL_ABBREVIATION</zType>
+		<Translation>G</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_LINE_HP</zType>
+		<Translation>{0}/{1} HP</Translation>
+	</Entry>
 	<!--Unit Movement-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_MOVEMENT</zType>
@@ -2973,6 +3006,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_IMPROVEMENT_COST</zType>
 		<Translation>{0_value} Verbesserungskosten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_ADJACENT_COST</zType>
+		<Translation>{0_value} Nachbarschafts-Verbesserungskosten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_SPECIALIST_COST</zType>
@@ -3545,127 +3582,131 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<!--FamilyClass Help-->
 	<Entry>
-        <zType>TEXT_HELPTEXT_FAMILY_CLASS_FAMILY_UNITS_BULLET_LINE_START</zType>
+        <zType>TEXT_HELPTEXT_FAMILYCLASS_FAMILY_UNITS_BULLET_LINE_START</zType>
         <Translation>icon(bullet)[Familien Einheiten] {LISTE}</Translation>
     </Entry>
     <Entry>
-        <zType>TEXT_HELPTEXT_FAMILY_CLASS_FAMILY_CITIES_BULLET_LINE_START</zType>
+        <zType>TEXT_HELPTEXT_FAMILYCLASS_FAMILY_CITIES_BULLET_LINE_START</zType>
         <Translation>icon(bullet)[Familien Städte] </Translation>
     </Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_ON_CITY_FOUNDED_BULLET_LINE_START</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_FAMILY_SEAT_BULLET_LINE_START</zType>
+		<English>icon(bullet)[link(CONCEPT_FAMILY_SEAT)] {0}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_ON_CITY_FOUNDED_BULLET_LINE_START</zType>
 		<Translation>icon(bullet)[Bei Stadtgründung] </Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_ON_SEAT_FOUNDED_BULLET_LINE_START</zType>
-		<Translation>icon(bullet)[Bei Familiensitz Gründung] </Translation>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_ON_SEAT_FOUNDED_BULLET_LINE_START</zType>
+		<English>icon(bullet)[Bei Sitzgründung] </English>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_NATIONS_WITH_CLASS</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_NATIONS_WITH_CLASS</zType>
 		<Translation>Staaten mit dieser Familien-Klasse:</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_CHARACTER_COMMON_TRAITS</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_CHARACTER_COMMON_TRAITS</zType>
 		<Translation>Gewöhnliche Eigenschaften: </Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_WE_GOVERN_OUR_CITIES</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_WE_GOVERN_OUR_CITIES</zType>
 		<Translation>Regieren unsere eigenen Städte: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_THEIR_GOVERN_OUR_CITIES</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_THEIR_GOVERN_OUR_CITIES</zType>
 		<Translation>Andere Familien regieren unsere Städte: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_WE_GOVERN_OTHER_CITIES</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_WE_GOVERN_OTHER_CITIES</zType>
 		<Translation>Regieren anderer Familien Städte: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_LEADER_HEIR</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_LEADER_HEIR</zType>
 		<Translation>Oberhaupt oder Erbe: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_LEADER_SPOUSE</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_LEADER_SPOUSE</zType>
 		<Translation>Ehepartner des Oberhauptes: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_ROYAL_SPOUSE</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_ROYAL_SPOUSE</zType>
 		<Translation>Königle Ehepartner: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_CHILD_LEADER</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_CHILD_LEADER</zType>
 		<Translation>Oberhaupt ist kein Erwachsener: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_LEADER_UNMARRIED</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_LEADER_UNMARRIED</zType>
 		<Translation>Oberhaupt unverheiratet: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_LEADER_MARRIED_TRIBE</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_LEADER_MARRIED_TRIBE</zType>
 		<Translation>Oberhaupt ist mit Barbar verheiratet: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_WONDERS</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_WONDERS</zType>
 		<Translation>Wunder: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_HOLY_CITIES</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_HOLY_CITIES</zType>
 		<Translation>Heilige Städte: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_MOST_CITIES</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_MOST_CITIES</zType>
 		<Translation>Meisten Städte: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_LEAST_CITIES</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_LEAST_CITIES</zType>
 		<Translation>Wenigsten Städte: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_NO_RELIGION</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_NO_RELIGION</zType>
 		<Translation>Städte ohne eine Religion: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_NOT_CONNECTED</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_NOT_CONNECTED</zType>
 		<Translation>Nicht verbundene Städte: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_DAMAGED_CITIES</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_DAMAGED_CITIES</zType>
 		<Translation>Beschädigte Städte: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_CITY_DEFENDED_UNITS</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_CITY_DEFENDED_UNITS</zType>
 		<Translation>Städte mit verteidigen Einheiten: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_PILLAGED_OPINION</zType>
-		<Translation>Fortschrittlichere Plünderungen innerhalb unseres Gebietes: {0_value}</Translation>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_PILLAGED_OPINION</zType>
+		<Translation>Geplünderte Verbesserungen innerhalb unseres Gebietes: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_UNITS_IN_TERRITORY</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_UNITS_IN_TERRITORY</zType>
 		<Translation>Unsere Einheiten innerhalb unseres Gebietes: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_HOSTILE_UNITS_IN_TERRITORY</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_HOSTILE_UNITS_IN_TERRITORY</zType>
 		<Translation>Feindliche Einheiten innerhalb unseres gebietes: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_LUXURIES</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_LUXURIES</zType>
 		<Translation>Luxusgüter: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_LUXURY_MISSING</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_LUXURY_MISSING</zType>
 		<Translation>Fehlendes {0_luxury}: {1_value}/Stadt</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_STATE_RELIGION_THEOLOGY</zType>
-		<Translation>Staatsreligion hat {0_theology}: {1_value}</Translation>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_STATE_RELIGION_THEOLOGY</zType>
+		<Translation>Staatsrelgion hat {0_theology}: {1_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_CITY_THEOLOGY</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_CITY_THEOLOGY</zType>
 		<Translation>Städte mit {0_theology}: {1_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_PREFERS_DISTANT_CITIES</zType>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_PREFERS_DISTANT_CITIES</zType>
 		<Translation>Bevorzugt ferne Städte</Translation>
 	</Entry>
 	<!--Barbarian Help-->
@@ -3849,12 +3890,20 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>[{0_family} Städte] </Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_MEMORY_ALL_CITIES_STARTLINE</zType>
+		<Translation>[Alle Städte] </Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_MEMORY_ALL_PLAYERS_START</zType>
-		<Translation>[Alle Spieler] </Translation>
+		<Translation>[Alel Reiche von {0_player}] </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_MEMORY_ALL_FAMILIES_START</zType>
 		<Translation>[Alle Familien] </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_STARTS_QUEST</zType>
+		<Translation>Anfangsziel {0_goalLink}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_STARTS_AMBITION</zType>
@@ -3937,6 +3986,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Entferne {0}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_IN_CITY</zType>
+		<Translation>{0} (in {1_city})</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_NO_COURTIER</zType>
 		<Translation>Verlässt den Hofstaat</Translation>
 	</Entry>
@@ -3995,6 +4048,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_SET_IMPROVEMENT</zType>
 		<Translation>Setze {0_improvement} auf {1_tile}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_REMOVE_ANY_VEGETATION</zType>
+		<Translation>Entferne Vegetation von {0_tile}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_FREE_UNIT</zType>
@@ -4102,12 +4159,16 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Missionen:</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_COURTIER_HELP</zType>
+		<zType>TEXT_HELPTEXT_COURTIER_TUTOR</zType>
 		<Translation>Wird deine Nachkommen {0_tutorVerb} (wenn kein Feldherr, Stadthalter oder im Hofrat).</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_COURTIER_HELP_TUTOR_VERB</zType>
-		<Translation><![CDATA[lehren<comment: this is the verb that will be used in the above sentence>]]></Translation>
+		<zType>TEXT_HELPTEXT_COURTIER_TUTOR_VERB</zType>
+		<Translation><![CDATA[unterrichten<comment: this is the verb that will be used in the above sentence>]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_COURTIER_JOB</zType>
+		<Translation>Kann als link(CONCEPT_GENERAL), link(CONCEPT_GOVERNOR), oder link(CONCEPT_AGENT) dienen.</Translation>
 	</Entry>
 	<!--Culture Help-->
 	<Entry>
@@ -4270,7 +4331,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Meinung: {0_opinion} ({1_value})</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_PLAYER_OPINION_FAMILY_CLASS</zType>
+		<zType>TEXT_HELPTEXT_PLAYER_OPINION_FAMILYCLASS</zType>
 		<Translation>{0_opinion}: Gleiche regierende Familie ({1_familyClass})</Translation>
 	</Entry>
 	<Entry>
@@ -4659,19 +4720,24 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_FOUND_FAMILY_CAPITAL_BUTTON</zType>
-		<Translation><![CDATA[({0_familyName}) Hauptstadt gegründet]]></Translation>
+		<Translation><![CDATA[Gründe {0_capital}
+{1_familyName} {2_familyClass}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_FOUND_FAMILY_SEAT_BUTTON</zType>
-		<Translation><![CDATA[{0_familyName} etabliert Amtssitz]]></Translation>
+		<Translation>
+			<![CDATA[Gründe link(CONCEPT_FAMILY_SEAT)
+{0_familyName} {1_familyClass}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_FOUND_FAMILY_CITY_BUTTON</zType>
-		<Translation><![CDATA[{0_familyName} Stadt gegründet]]></Translation>
+		<Translation>
+			<![CDATA[Gründe {0_familyName} Stadt
+{1_familyClass}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_FOUND_CITY_BUTTON</zType>
-		<Translation>Gründe Hauptstadt</Translation>
+		<Translation>Gründe Stadt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_JOIN_CITY_BUTTON</zType>
@@ -5025,6 +5091,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Ambition: {0}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_HELP_COURTIER</zType>
+		<Translation>Vertrauter: {0}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_SPOUSE</zType>
 		<Translation>Ehepartner: {0}</Translation>
 	</Entry>
@@ -5134,7 +5204,15 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHOOSE_GOVERNOR</zType>
-		<Translation>Wähle Stadthalter für {0_city}</Translation>
+		<Translation>Wähle Stadthalter in {0_city}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CURRENT_GOVERNOR</zType>
+		<Translation>Derzeitiger Stadthalter: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_HOTKEY_SELECT_GOVERNOR</zType>
+		<Translation><![CDATA[<TEXT_HOTKEY_CTRL_CLICK> um den Stadthalter auszuwählen]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_GOVERNOR</zType>
@@ -5541,8 +5619,16 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>(KI spielt auf dieser Stufe)</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_NO_DECLARE_WAR</zType>
+		<Translation>Nationen werden keinen link(DIPLOMACY_WAR) erklären</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_DIFFICULTY_STARTING_YIELDS</zType>
-		<Translation>Startet mit {0}</Translation>
+		<Translation>Startet mit {LISTE}</Translation>
+	</Entry>	 
+	<Entry>
+		<zType>TEXT_HELPTEXT_DIFFICULTY_EXTRA_UNITS</zType>
+		<Translation>Extra {LISTE}</Translation>
 	</Entry>
 	<!--End Turn-->
 	<Entry>
@@ -5800,6 +5886,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Geburtsmodifikator: {0}</Translation>
 	</Entry>
 	<!--Player Opinion-->
+	<Entry>
+		<zType>TEXT_HELPTEXT_OPINION_NO_EFFECTS</zType>
+		<Translation>Keine Effekte</Translation>
+	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_OPINION_OF_PLAYER</zType>
 		<Translation><![CDATA[{0_player} Meinung über <true_1>{1}<false>dich<end>: {2}]]></Translation>

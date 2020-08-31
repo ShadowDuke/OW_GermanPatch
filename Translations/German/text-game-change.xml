@@ -78,6 +78,10 @@
 		<Translation>Die {0_family} Familie ist zu {1_religion} konvertiert!</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_RELIGION_BARBARIAN</zType>
+		<Translation>Die {0_tribe} sind zum {1_religion} konvertiert!</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_IMPROVEMENT_STARTED</zType>
 		<Translation><![CDATA[{0_player} hat den Bau von {1_improvement}! begonnen]]></Translation>
 	</Entry>
@@ -414,10 +418,6 @@
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_STARTS_MISSION</zType>
 		<Translation>{0_character} Startet Mission: {1_mission}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_NICKNAME</zType>
-		<Translation>Wird bekannt als {0_nickname}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_VICTORY</zType>

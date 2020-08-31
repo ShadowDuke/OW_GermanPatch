@@ -113,150 +113,126 @@
 		<zType>MEMORYFAMILY_HOSTED_CORONATION</zType>
 		<zText>Hosted a grand coronation</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_NEG_LOW_SHORT</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_PLANNED_CORONATION</zType>
 		<zText>Planned coronation festivities</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_NEG_LOW_NORMAL</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_SECURING_PEACE_SUICIDE</zType>
 		<zText>Gezwungener Selbstmord</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_NEG_LOW_LONG</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_SECURING_PEACE_MISUNDERSTANDING</zType>
 		<zText>Behielt ein gekidnapptes Kind</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_NEG_LOW_FOREVER</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_WIFE_ASSASSINATED</zType>
 		<zText>Unser Familienmitglied hingerichtet</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_NEG_MEDIUM_SHORT</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_FOREIGN_DELEGATION_KILLED</zType>
 		<zText>Murdered a gift-bearing delegation</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_NEG_MEDIUM_NORMAL</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_ADOPT_HEIR_YES</zType>
 		<zText>Unser Kind adoptiert</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_NEG_MEDIUM_LONG</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_ADOPT_HEIR_NO</zType>
 		<zText>Unser Kind nicht adoptiert</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_NEG_MEDIUM_FOREVER</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_MURDEROUS_INTRIGUE</zType>
 		<zText>Verschwört unseren eigenen Erben zu töten</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_NEG_HIGH_SHORT</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_REPRESSED_ASCETICS</zType>
 		<zText>Repressed ascetic movement</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_NEG_HIGH_NORMAL</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_MONKEY_THIEF_KEPT</zType>
 		<zText>Unsere gestohlenen Sachen behalten</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_NEG_HIGH_LONG</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_MONKEY_THIEF_RETURNED</zType>
 		<zText>Unsere gestohlenen Sachen zurückgegeben</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_NEG_HIGH_FOREVER</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_MONKEY_DIPLOMAT_KEPT</zType>
 		<zText>Kept our stolen regalia</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_POS_LOW_SHORT</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_MONKEY_DIPLOMAT_RETURNED</zType>
 		<zText>Returned our stolen regalia</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_POS_LOW_NORMAL</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_FAMILY_QUARREL_RETURN</zType>
 		<zText>Returned fleeing wife</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_HIGH_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_POS_LOW_LONG</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_FORCED_MATCH</zType>
 		<zText>Forced us to marry a Barbarian</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_POS_LOW_FOREVER</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_HIDEOUS_MATCH</zType>
 		<zText>Chose us a hideous spouse</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_POS_MEDIUM_SHORT</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_FAMILY_DIFF_NEGATIVE</zType>
 		<zText>Called us fools</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_POS_MEDIUM_NORMAL</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_FAMILY_DIFFERENT</zType>
 		<zText>Adhered to our council</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_POS_MEDIUM_LONG</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_GENERAL_TRIUMPH</zType>
 		<zText>Triumph for our General</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_POS_MEDIUM_FOREVER</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_OVERCROWDED_CITY</zType>
 		<zText>Overcrowded our cities with children</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_POS_HIGH_SHORT</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_HIGH_PRIESTS</zType>
 		<zText>You obeyed the Gods</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_POS_HIGH_NORMAL</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_RELIGIOUS_FREEDOM</zType>
 		<zText>Protected us from the high priests</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_POS_HIGH_LONG</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_ANGRY_FAMILIES</zType>
 		<zText>We had to sacrifice more</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
-		<bName>MEMORYLEVEL_POS_HIGH_FOREVER</bName>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_LONG</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_STRICTER_RULES</zType>
 		<zText>Angered the Gods</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_IGNORED_WARNING</zType>
@@ -462,6 +438,16 @@
 		<zType>MEMORYFAMILY_KILLED_FAMILY_MEMBER</zType>
 		<zText>Familienmitglied hingerichtet</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_RELEASE</zType>
+		<zText>Wunsch nach Freilassung des Gefangenen verweigert</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_RELEASED_PRISONER</zType>
+		<zText>Politischen Gefangenen entlassen</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry beginGroup="Diplomacy">
 		<zType>MEMORYFAMILY_GRAVE_OFFENSE</zType>
@@ -846,7 +832,7 @@
 	<Entry>
 		<zType>MEMORYFAMILY_BIRTH_GIFT</zType>
 		<zText>Gab neuem Erben Geburtstagsgeschenk</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_MONKEY_PAW_JEALOUS</zType>
@@ -883,6 +869,16 @@
 		<zText>Ruler hosted barbarian ruler</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_SURRENDERED_REMAINS</zType>
+		<zText>Surrendered remains of a fallen relative</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_REMAINS</zType>
+		<zText>Denied the remains of a fallen relative</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
 	<Entry beginGroup="Contact">
 		<zType>MEMORYFAMILY_FORCED_TO_KISS_FEET</zType>
 		<zText>Forced to kiss foreign ruler's feet</zText>
@@ -911,7 +907,7 @@
 	<Entry>
 		<zType>MEMORYFAMILY_RECEIVED_GIFT</zType>
 		<zText>Received gift from ruler</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_GAVE_DONATION</zType>
@@ -1329,6 +1325,16 @@
 		<zText>Refused to punish ineffective spymaster</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry> 
+	<Entry>
+		<zType>MEMORYFAMILY_CURRY_FAVOR</zType>
+		<zText>Curried favor to win approval</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_HONORED_FOR_INDIVIDUALS_ACT</zType>
+		<zText>Honored for one member's service</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
 	<Entry beginGroup="Exploration">
 		<zType>MEMORYFAMILY_RAISED_MARBLE_PRICES</zType>
 		<zText>Marmor Preise erhöht</zText>

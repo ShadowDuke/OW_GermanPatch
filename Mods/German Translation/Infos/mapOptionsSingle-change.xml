@@ -3,7 +3,7 @@
 	<!-- This file contains data for the custom map options, toggle choices. -->
 	<Entry>
 		<zType/>
-		<zName/>
+		<Name/>
 		<zDescription/>
 		<bDefault/>
 		<bSinglePlayerValid/>
@@ -11,20 +11,20 @@
 	</Entry>
 	<Entry>
 		<zType>MAP_OPTIONS_SINGLE_MIRROR</zType>
-		<zName>TEXT_MAP_OPTION_MIRROR_MAP</zName>
+		<Name>TEXT_MAP_OPTION_MIRROR_MAP</Name>
 		<zDescription>Ost-West symetrische Karte:Benötigt gleiche Anzahl Teams</zDescription>
 		<bSinglePlayerValid>0</bSinglePlayerValid>
 	</Entry>
 	<Entry>
 		<zType>MAP_OPTIONS_SINGLE_SEASIDE_CENTER_BIAS</zType>
-		<zName>TEXT_MAP_OPTION_CENTER_BIAS</zName>
+		<Name>TEXT_MAP_OPTION_CENTER_BIAS</Name>
 		<zDescription>Spieler startet in der Nähe der Mitte auf der Karte, nur im Einzelspiel</zDescription>
 		<bDefault>1</bDefault>
 		<bMultiPlayerValid>0</bMultiPlayerValid>
 	</Entry>
 	<Entry>
 		<zType>MAP_OPTIONS_SINGLE_CENTER_BIAS</zType>
-		<zName>TEXT_MAP_OPTION_CENTER_BIAS</zName>
+		<Name>TEXT_MAP_OPTION_CENTER_BIAS</Name>
 		<zDescription>Vermeide start in der Nähe der westlichen oder östlichen Ecken der Karte, nur im Einzelspiel</zDescription>
 		<bDefault>1</bDefault>
 		<bMultiPlayerValid>0</bMultiPlayerValid>

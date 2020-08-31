@@ -5,7 +5,8 @@
 		<zType/>
 		<zName/>
 		<zHelp/>
-		<bDefault/>
+		<bDefaultSinglePlayer/>
+		<bDefaultMultiPlayer/>	
 		<bSinglePlayer/>
 		<bMultiPlayer/>
         <bDebug/>
@@ -16,6 +17,12 @@
 		<zName>Nur KI</zName>
 		<zHelp>Menschliche Spieler folgen den selben Regeln wie die KI</zHelp>
         <bDebug>1</bDebug>
+	</Entry>
+	<Entry>
+		<zType>GAMEOPTION_NO_CHARACTERS</zType>
+		<zName>Keine Charaktere</zName>
+		<zHelp>Charaktere und Familien werden aus dem Spiel entfernt.</zHelp>
+		<bDefaultMultiPlayer>1</bDefaultMultiPlayer>
 	</Entry>
 	<Entry>
 		<zType>GAMEOPTION_NO_TRIBES</zType>
@@ -51,6 +58,12 @@
 		<bMultiPlayer>0</bMultiPlayer>
 	</Entry>
 	<Entry>
+		<zType>GAMEOPTION_LOCK_PLAYER_OPTIONS</zType>
+		<zName>Feste Spieler Optionen</zName>
+		<zHelp>Spieler Gameplay Optionen können nachdem das Spiel gestartet wurde nicht mehr geändert werden</zHelp>
+		<bMultiPlayer>0</bMultiPlayer>
+	</Entry>
+	<Entry>
 		<zType>GAMEOPTION_RANDOMIZE_FAMILIES</zType>
 		<zName>Familien zufällig</zName>
 		<zHelp>Weise die Gruppe jeder Familie zufällig zu (Weisen, Handwerker, Wettkämpfer, etc).</zHelp>
@@ -70,6 +83,13 @@
 	<zType>GAMEOPTION_MP_JOIN_AS_ANY_PLAYER</zType>
 		<zName>Trete als jeder Spieler bei</zName>
 		<zHelp>Erlaube Spielern das beitreten eines Multiplayer Spiels auch wenn ein Slot bereits beansprucht ist.</zHelp>
+	<bSinglePlayer>0</bSinglePlayer>
+	</Entry>
+	<Entry>
+		<zType>GAMEOPTION_NO_DUPLICATE_NATIONS</zType>
+		<zName>Keine doppelten Nationen</zName>
+		<zHelp>Nur ein Spieler kann die selbe Nation wählen.</zHelp>
+		<bDefaultSinglePlayer>1</bDefaultSinglePlayer>
 		<bSinglePlayer>0</bSinglePlayer>
 	</Entry>
 </Root>

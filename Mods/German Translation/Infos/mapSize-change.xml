@@ -6,6 +6,8 @@
 		<zName/>
 		<iWidth/>
 		<iHeight/>
+		<iWidthMPTwoTeams/>
+		<iHeightMPTwoTeams/>
 		<iMaxOpponents/>
 		<iVP/>
 	</Entry>
@@ -14,6 +16,8 @@
 		<zName>Duell</zName>
 		<iWidth>60</iWidth>
 		<iHeight>60</iHeight>
+		<iWidthMPTwoTeams>40</iWidthMPTwoTeams>
+		<iHeightMPTwoTeams>34</iHeightMPTwoTeams>						   
 		<iMaxOpponents>2</iMaxOpponents>
 		<iVP>50</iVP>
 	</Entry>
@@ -22,6 +26,8 @@
 		<zName>Klein</zName>
 		<iWidth>68</iWidth>
 		<iHeight>68</iHeight>
+		<iWidthMPTwoTeams>42</iWidthMPTwoTeams>
+		<iHeightMPTwoTeams>44</iHeightMPTwoTeams>						   
 		<iMaxOpponents>3</iMaxOpponents>
 		<iVP>75</iVP>
 	</Entry>
@@ -30,6 +36,8 @@
 		<zName>Mittel</zName>
 		<iWidth>76</iWidth>
 		<iHeight>76</iHeight>
+		<iWidthMPTwoTeams>44</iWidthMPTwoTeams>
+		<iHeightMPTwoTeams>54</iHeightMPTwoTeams>							   
 		<iMaxOpponents>4</iMaxOpponents>
 		<iVP>100</iVP>
 	</Entry>
@@ -38,6 +46,8 @@
 		<zName>Groß</zName>
 		<iWidth>82</iWidth>
 		<iHeight>82</iHeight>
+		<iWidthMPTwoTeams>46</iWidthMPTwoTeams>
+		<iHeightMPTwoTeams>65</iHeightMPTwoTeams>						   
 		<iMaxOpponents>5</iMaxOpponents>
 		<iVP>125</iVP>
 	</Entry>
@@ -46,6 +56,8 @@
 		<zName>Riesig</zName>
 		<iWidth>90</iWidth>
 		<iHeight>90</iHeight>
+		<iWidthMPTwoTeams>48</iWidthMPTwoTeams>
+		<iHeightMPTwoTeams>74</iHeightMPTwoTeams>							   
     <iMaxOpponents>6</iMaxOpponents>
     <iVP>150</iVP>
 	</Entry>

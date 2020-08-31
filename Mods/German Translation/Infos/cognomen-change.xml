@@ -24,6 +24,10 @@
 				<iValue>20</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_UNIT_LOST</zIndex>
 				<iValue>-10</iValue>
 			</Pair>
@@ -37,6 +41,10 @@
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
 				<iValue>20</iValue>
 			</Pair>
 			<Pair>
@@ -56,6 +64,10 @@
 				<iValue>20</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_UNIT_LOST</zIndex>
 				<iValue>-10</iValue>
 			</Pair>
@@ -69,6 +81,10 @@
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
 				<iValue>20</iValue>
 			</Pair>
 			<Pair>
@@ -88,6 +104,10 @@
 				<iValue>20</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_UNIT_LOST</zIndex>
 				<iValue>-10</iValue>
 			</Pair>
@@ -104,6 +124,10 @@
 				<iValue>20</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_UNIT_LOST</zIndex>
 				<iValue>-10</iValue>
 			</Pair>
@@ -117,6 +141,10 @@
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
 				<iValue>20</iValue>
 			</Pair>
 			<Pair>
@@ -209,7 +237,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>100</iValue>
+				<iValue>50</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -229,7 +257,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>100</iValue>
+				<iValue>50</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -457,7 +485,7 @@
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>100</iValue>
+				<iValue>50</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
@@ -481,7 +509,7 @@
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>100</iValue>
+				<iValue>50</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
@@ -609,7 +637,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>100</iValue>
+				<iValue>50</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
@@ -681,6 +709,10 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
 				<iValue>20</iValue>
 			</Pair>
 			<Pair>
@@ -725,7 +757,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>100</iValue>
+				<iValue>50</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
@@ -797,6 +829,10 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
 				<iValue>20</iValue>
 			</Pair>
 			<Pair>
@@ -841,7 +877,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>100</iValue>
+				<iValue>50</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
@@ -913,6 +949,10 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
 				<iValue>20</iValue>
 			</Pair>
 			<Pair>
@@ -957,7 +997,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>100</iValue>
+				<iValue>50</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
@@ -1029,6 +1069,10 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
 				<iValue>20</iValue>
 			</Pair>
 			<Pair>
@@ -1073,7 +1117,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>100</iValue>
+				<iValue>50</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
@@ -1145,6 +1189,10 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
 				<iValue>20</iValue>
 			</Pair>
 			<Pair>
@@ -1189,7 +1237,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>100</iValue>
+				<iValue>50</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
@@ -1261,6 +1309,10 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
 				<iValue>20</iValue>
 			</Pair>
 			<Pair>
@@ -1305,7 +1357,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>100</iValue>
+				<iValue>50</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
@@ -1377,6 +1429,10 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
 				<iValue>20</iValue>
 			</Pair>
 			<Pair>
@@ -1421,7 +1477,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>100</iValue>
+				<iValue>50</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
@@ -1493,6 +1549,10 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
 				<iValue>20</iValue>
 			</Pair>
 			<Pair>
@@ -1608,10 +1668,6 @@
 	<Entry>
 		<zType>COGNOMEN_CRUEL</zType>
 		<zName>der Grausame</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_CARELESS</zType>
-		<zName>der Sorglose</zName>
 	</Entry>
 	<Entry>
 		<zType>COGNOMEN_SLOTHFUL</zType>
@@ -1804,10 +1860,6 @@
 	<Entry>
 		<zType>COGNOMEN_HEARTBROKEN</zType>
 		<zName>der Untröstliche</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_INTOLERANT</zType>
-		<zName>der Intolerante</zName>
 	</Entry>
 	<Entry>
 		<zType>COGNOMEN_SUPERSTITIOUS</zType>

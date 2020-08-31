@@ -865,6 +865,41 @@
 		</abHeightValid>
 	</Entry>
 	<Entry>
+		<zType>RESOURCE_LAVENDER</zType>
+		<zName>Lavendel</zName>
+		<AssetVariation>ASSET_VARIATION_RESOURCE_LAVENDER</AssetVariation>
+		<zIconName>RESOURCE_LAVENDER</zIconName>
+		<iProbThousand>20</iProbThousand>
+		<iBorderValue>800</iBorderValue>
+		<iHarvestCost>1</iHarvestCost>
+		<iHarvestRoll>10</iHarvestRoll>
+		<bNoVegetation>1</bNoVegetation>
+		<aiYieldReveal>
+			<Pair>
+				<zIndex>YIELD_MONEY</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+		</aiYieldReveal>
+		<aiYieldHarvest>
+			<Pair>
+				<zIndex>YIELD_CULTURE</zIndex>
+				<iValue>10</iValue>
+			</Pair>
+		</aiYieldHarvest>
+		<abTerrainValid>
+			<Pair>
+				<zIndex>TERRAIN_TEMPERATE</zIndex>
+				<bValue>1</bValue>
+			</Pair>
+		</abTerrainValid>
+		<abHeightValid>
+			<Pair>
+				<zIndex>HEIGHT_FLAT</zIndex>
+				<bValue>1</bValue>
+			</Pair>
+		</abHeightValid>
+	</Entry>
+	<Entry>
 		<zType>RESOURCE_OLIVE</zType>
 		<zName>Oliven</zName>
 		<AssetVariation>ASSET_VARIATION_RESOURCE_OLIVE</AssetVariation>

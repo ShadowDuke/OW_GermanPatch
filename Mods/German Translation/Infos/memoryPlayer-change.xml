@@ -117,6 +117,12 @@
 		<iTurns>40</iTurns>
 	</Entry>
 	<Entry>
+		<zType>MEMORYPLAYER_HOLD_HOSTAGE</zType>
+		<zText>Haltet einen Adligen gefangen</zText>
+		<iValue>-10</iValue>
+		<iTurns>40</iTurns>
+	</Entry>
+	<Entry>
 		<zType>MEMORYPLAYER_CANCELLED_TRADE</zType>
 		<zText>Handel abgebrochen</zText>
 		<iValue>-40</iValue>

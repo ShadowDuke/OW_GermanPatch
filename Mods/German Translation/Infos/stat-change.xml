@@ -106,6 +106,10 @@
 		<zName>Einheiten getötet</zName>
 	</Entry>
 	<Entry>
+		<zType>STAT_UNIT_KILLED_GENERAL</zType>
+		<zName>Einheiten getötet (als Feldherr</zName>
+	</Entry>
+	<Entry>
 		<zType>STAT_UNIT_LOST</zType>
 		<zName>Einheiten verloren</zName>
 	</Entry>

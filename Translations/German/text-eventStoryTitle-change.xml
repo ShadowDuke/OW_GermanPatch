@@ -437,6 +437,18 @@
 		<zType>TEXT_EVENTSTORY_HARVEST_SHIP_SICKNESS_TITLE</zType>
 		<Translation>Zitronen Mittel</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_HARVEST_FILTHY_ANIMALS_TITLE</zType>
+		<Translation>Filthy Animals</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_HARVEST_ROSE_MADDER_TITLE</zType>
+		<Translation>Rose Madder</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_HARVEST_CAPSIZED_TITLE</zType>
+		<Translation>Capsized</Translation>
+	</Entry>
 	<Entry beginGroup="Contact">
 		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_CALM_EMISSARY_TITLE</zType>
 		<Translation>Stiller Botschafter</Translation>
@@ -611,15 +623,23 @@
 	</Entry>
 	<Entry beginGroup="Diplomacy">
 		<zType>TEXT_EVENTSTORY_HOSTILE_NEIGHBORS_TITLE</zType>
-		<Translation><![CDATA[Feindselige Nachbarn]]></Translation>
+		<Translation>Feindselige Nachbarn</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_PEACE_HOSTAGE_TITLE</zType>
+		<Translation>Hostage Return</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_PEACE_LUMBER_TRADE_TITLE</zType>
-		<Translation><![CDATA[Holz Handel]]></Translation>
+		<Translation>CDATA[Holz Handel</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_PEACE_SOLID_FOUNDATION_TITLE</zType>
+		<Translation>Solid Foundation</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_PEACE_ACQUIRED_TASTE_TITLE</zType>
-		<Translation><![CDATA[Acquired Taste]]></Translation>
+		<Translation>Acquired Taste</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BARBARIAN_ALLIANCE_OFFER_TITLE</zType>
@@ -787,7 +807,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_WALLS_TITLE</zType>
-		<Translation>Walls</Translation>
+		<Translation>Mauern</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_AN_UPGRADE_TITLE</zType>
@@ -818,7 +838,7 @@
 		<Translation>Tit for Tat</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_WINDMILLS_AND_ONAGERS_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_WINDMILLS_AND_WATERMILLS_TITLE</zType>
 		<Translation>Windmills and Onagers</Translation>
 	</Entry>
 	<Entry>
@@ -826,7 +846,7 @@
 		<Translation>Returning a Favor</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_PLAYER_PEACE_SOLID_FOUNDATION_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_HOSTAGE_TITLE</zType>
 		<Translation>Solid Foundation</Translation>
 	</Entry>
 	<Entry>
@@ -1067,7 +1087,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_OOPS_TITLE</zType>
-		<Translation>Oops!</Translation>
+		<Translation>Upps!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DINNER_WITH_A_RIVAL_TITLE</zType>
@@ -2307,7 +2327,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RELATIONSHIP_A_SPARK_TITLE</zType>
-		<Translation>A Spark</Translation>
+		<Translation>Ein Funke</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SOMETHING_REAL_TITLE</zType>
@@ -2660,10 +2680,6 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_EXPLORING_ENDS_TITLE</zType>
 		<Translation>Exploration Ends?</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_LEADER_DEATH_EXPLORING_TITLE</zType>
-		<Translation>End of an Era</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_DEATH_TITLE</zType>
@@ -3261,6 +3277,30 @@
 		<zType>TEXT_EVENTSTORY_RELATIONSHIP_DIPOMATIC_MISSTEP_TITLE</zType>
 		<Translation>Dipomatic Misstep</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEAD_OF_NIGHT_TITLE</zType>
+		<Translation>Dead of Night</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLEA_FOR_LENIENCY_TITLE</zType>
+		<Translation>Plea for Leniency</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_FAMILY_TARNISHED_TITLE</zType>
+		<Translation>{FAMILY-2,1}, Tarnished</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SURPRISE_BIRTH_TITLE</zType>
+		<Translation>Surprise Birth</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DAY_IN_THE_SUN_TITLE</zType>
+		<Translation>Day in the Sun</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PRISON_RIOT_TITLE</zType>
+		<Translation>Prison Riot</Translation>
+	</Entry>
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS_TITLE</zType>
 		<Translation>Immigrants</Translation>
@@ -3455,7 +3495,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HEIR_EXPERTISE_ANGLER_TITLE</zType>
-		<Translation>Expertise: Fisher</Translation>
+		<Translation>Fisher Expertise</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_GLADIATOR_GAMES_TITLE</zType>
+		<Translation>Gladiator Games</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_OEDIPUS_TYRANNUS_TITLE</zType>
@@ -3464,6 +3508,18 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_OLYMPIAD_TITLE</zType>
 		<Translation>The Olympiad</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_LABYRINTH_TITLE</zType>
+		<Translation>The Labyrinth</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_LABYRINTH_SUCCESS_TITLE</zType>
+		<Translation>Master of the Labyrinth</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_LABYRINTH_FAILURE_TITLE</zType>
+		<Translation>Lost in the Labyrinth</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CITY_ANARCHY_TITLE</zType>
@@ -3572,10 +3628,6 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ICONOGRAPHY_CALLIGRAPHY_TITLE</zType>
 		<Translation>Iconography or Calligraphy</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_ASCETICISM_HOLY_WAR_TITLE</zType>
-		<Translation>Asceticism or Holy War</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DIVINE_RULE_SECULARISM_TITLE</zType>
@@ -4869,7 +4921,35 @@
 		<zType>TEXT_EVENTSTORY_PACIFY_PLAYER_PRIDE_TITLE</zType>
 		<Translation>{PLAYER-2,1} Pride</Translation>
 	</Entry>
-  <Entry beginGroup="Tutorial">
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PACIFY_LOCAL_CORRUPTION_TITLE</zType>
+		<Translation>Local Corruption</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PACIFY_TREASON_IN_CITY_TITLE</zType>
+		<Translation>Treason in {CITY-0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PACIFY_WELL_CONNECTED_TITLE</zType>
+		<Translation>Well Connected</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PACIFY_DIVINE_INTERVENTION_TITLE</zType>
+		<Translation>Divine Intervention</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RESTORED_TITLE</zType>
+		<Translation>Restored</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DASH_FOR_FREEDOM_TITLE</zType>
+		<Translation>Dash for Freedom</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_HIDDEN_CHILD_TITLE</zType>
+		<Translation>The Hidden Child</Translation>
+	</Entry>
+	<Entry beginGroup="Tutorial">
 		<zType>TEXT_EVENTSTORY_VICTORY_POINTS_TITLE</zType>
 		<Translation>PUNKTE SIEG!</Translation>
 	</Entry>
@@ -4993,6 +5073,10 @@
 		<zType>TEXT_EVENTSTORY_TUTORIAL_AXEMAN_SELECTED_TITLE</zType>
 		<Translation>Tutorial: Axeman Selected</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TUTORIAL_ONAGER_SELECTED_TITLE</zType>
+		<Translation>Tutorial: Onager ausgewählt</Translation>
+	</Entry>
 	<Entry beginGroup="Law">
 		<zType>TEXT_EVENTSTORY_THREAT_OF_MUTINY_TITLE</zType>
 		<Translation>Threat of Mutiny</Translation>
@@ -5108,5 +5192,49 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_WEAKNESS_OF_STRENGTH_TITLE</zType>
 		<Translation>The Weakness of Strength</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LIVE_AND_LET_DYE_TITLE</zType>
+		<Translation>Live and Let Dye</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_A_TIME_TO_DYE_TITLE</zType>
+		<Translation>A Time to Dye</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_DYE_IS_CAST_TITLE</zType>
+		<Translation>The Dye is Cast</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_CALENDAR_AND_SEASONS_TITLE</zType>
+		<Translation>Calendar and Seasons</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PASSAGE_OF_THE_MOON_TITLE</zType>
+		<Translation>Passage of the Moon</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_PROPHET_FROM_THE_SEA_TITLE</zType>
+		<Translation>The Prophet From The Sea</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MYTH_OF_THE_SEA_MONSTER_TITLE</zType>
+		<Translation>Myth of the Sea Monster</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_LEVIATHANS_DOOM_TITLE</zType>
+		<Translation>The Leviathan's Doom</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_GODS_CONSORT_TITLE</zType>
+		<Translation>God's Consort</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_GODS_CONSORT_CULT_TITLE</zType>
+		<Translation>Cult of God's Consort</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_CAPTURED_NOBLE_TITLE</zType>
+		<Translation>Captured Noble</Translation>
 	</Entry>
 </Root>

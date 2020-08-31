@@ -115,6 +115,10 @@
 		<Translation>Erkläre Krieg an</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSION_PLAYER_DECLARE_WAR_HUMAN</zType>
+		<Translation>Erkläre Krieg</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSION_PLAYER_BREAK_PEACE</zType>
 		<Translation>Breche den Frieden</Translation>
 	</Entry>
@@ -345,6 +349,18 @@
 	<Entry>
 		<zType>TEXT_MISSION_DIVORCE_TARGET</zType>
 		<Translation>Scheidung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_TUTOR</zType>
+		<Translation>Unterrichte Kind</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_TUTOR_TARGET</zType>
+		<Translation>Unterrichte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_TUTOR_CHARACTER</zType>
+		<Translation>Unterrichte mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_BARBARIAN_PLAYER_WAR</zType>

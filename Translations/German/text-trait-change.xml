@@ -107,8 +107,8 @@
 		<Translation>Grausam</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_CARELESS</zType>
-		<Translation>Sorglos</Translation>
+		<zType>TEXT_TRAIT_INTOLERANT</zType>
+		<Translation>Intolerant</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SLOTHFUL</zType>
@@ -227,10 +227,6 @@
 		<Translation>Erkunder</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_TRAVELING</zType>
-		<Translation>Reisender</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_TRAIT_BRAVE</zType>
 		<Translation>Tapfer</Translation>
 	</Entry>
@@ -313,10 +309,6 @@
 	<Entry>
 		<zType>TEXT_TRAIT_HEARTBROKEN</zType>
 		<Translation>Untröstlich</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_INTOLERANT</zType>
-		<Translation>Intolerant</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SUPERSTITIOUS</zType>
@@ -411,8 +403,8 @@
 		<Translation>Entlassen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_ON_THE_RUN</zType>
-		<Translation>Flüchtling</Translation>
+		<zType>TEXT_TRAIT_FUGITIVE</zType>
+		<Translation>Flüchtiger</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_MISSING</zType>
@@ -553,5 +545,9 @@
 	<Entry>
 		<zType>TEXT_TRAIT_AMULET_OWNER_NEGATIVE</zType>
 		<Translation>Fruchtbarkeits Amulett Besitzer</Translation>
-	</Entry>	 
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_GODS_CONSORT</zType>
+		<Translation>God's Consort</Translation>
+	</Entry> 
 </Root>

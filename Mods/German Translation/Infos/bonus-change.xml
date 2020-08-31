@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Leyla Johnson (Private) -->
+<!-- edited with XMLSpy v2020 (x64) (http://www.altova.com) by Andrew Auseon (Private) -->
 <Root>
 	<Entry>
 		<zType/>
@@ -31,11 +31,10 @@
 		<Quest comment="A Quest given to the Player (similar to Ambitions)"/>
 		<Ambition comment="Adds this Ambition to the Player"/>
 		<FinishGoal comment="Finishes this Quest or Ambition"/>												 
-		<DesiredAmbition comment="Adds this Desired Ambition to the Character"/>
+		<DesiredAmbition comment="Adds this Desired Ambition to the Character. (Cannot be the Leader)."/>
 		<Mission comment="Starts a Mission."/>
 		<Council comment="Makes the Character this Council member."/>
 		<SetArchetype comment="Gives the Character this Archetype Trait (and will remove the old one)."/>
-		<SetNickname comment="Cognomen (from cognomen.xml) received by the character Subject. Should never be used on the Leader."/>
 		<SetVegetation comment="Sets the Tile's Vegetation."/>
 		<SetResource comment="Sets the Tile's Resource."/>
 		<SetImprovement comment="Sets the Tile's Improvement."/>
@@ -169,7 +168,6 @@
 		<Mission/>
 		<Council/>
 		<SetArchetype/>
-		<SetNickname/>
 		<SetVegetation/>
 		<SetResource/>
 		<SetImprovement/>
@@ -446,11 +444,11 @@
 		<MemoryPlayer>MEMORYPLAYER_HELPED_US</MemoryPlayer>
 	</Entry>
 	<Entry>										
-		<zType>BONUS_FAMILY_CLASS_LANDOWNERS_SEAT</zType>
+		<zType>BONUS_FAMILYCLASS_LANDOWNERS_SEAT</zType>
 		<iCitizens>2</iCitizens>
 	</Entry>
 	<Entry>
-		<zType>BONUS_FAMILY_CLASS_CHAMPIONS_SEAT</zType>
+		<zType>BONUS_FAMILYCLASS_CHAMPIONS_SEAT</zType>
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
@@ -459,13 +457,13 @@
 		</aiGlobalYieldsBase>
 	</Entry>
 	<Entry>
-		<zType>BONUS_FAMILY_CLASS_STATESMEN</zType>
+		<zType>BONUS_FAMILYCLASS_STATESMEN</zType>
 		<aeAddProjects>
 			<zValue>PROJECT_TREASURY_1</zValue>
 		</aeAddProjects>
 	</Entry>
 	<Entry>
-		<zType>BONUS_FAMILY_CLASS_STATESMEN_SEAT</zType>
+		<zType>BONUS_FAMILYCLASS_STATESMEN_SEAT</zType>
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_CIVICS</zIndex>
@@ -474,7 +472,7 @@
 		</aiGlobalYieldsBase>
 	</Entry>
 	<Entry>
-		<zType>BONUS_FAMILY_CLASS_PATRONS_SEAT</zType>
+		<zType>BONUS_FAMILYCLASS_PATRONS_SEAT</zType>
 		<AddCourtierGender>
 			<Pair>
 				<zIndex>COURTIER_GREAT_MINISTER</zIndex>
@@ -483,11 +481,11 @@
 		</AddCourtierGender>
 	</Entry>
 	<Entry>
-		<zType>BONUS_FAMILY_CLASS_CLERICS_SEAT</zType>
+		<zType>BONUS_FAMILYCLASS_CLERICS_SEAT</zType>
 		<bFoundReligionCity>1</bFoundReligionCity>
 	</Entry>
 	<Entry>
-		<zType>BONUS_FAMILY_CLASS_SAGES_SEAT</zType>
+		<zType>BONUS_FAMILYCLASS_SAGES_SEAT</zType>
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
@@ -496,7 +494,7 @@
 		</aiGlobalYieldsBase>
 	</Entry>
 	<Entry>
-		<zType>BONUS_FAMILY_CLASS_TRADERS_SEAT</zType>
+		<zType>BONUS_FAMILYCLASS_TRADERS_SEAT</zType>
 		<AddCourtierGender>
 			<Pair>
 				<zIndex>COURTIER_GREAT_MERCHANT</zIndex>
@@ -505,7 +503,7 @@
 		</AddCourtierGender>
 	</Entry>
 	<Entry>
-		<zType>BONUS_FAMILY_CLASS_ARTISANS_SEAT</zType>
+		<zType>BONUS_FAMILYCLASS_ARTISANS_SEAT</zType>
 		<aiUnits>
 			<Pair>
 				<zIndex>UNIT_WORKER</zIndex>
@@ -514,7 +512,7 @@
 		</aiUnits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_FAMILY_CLASS_RIDERS_SEAT</zType>
+		<zType>BONUS_FAMILYCLASS_RIDERS_SEAT</zType>
 		<aiUnits>
 			<Pair>
 				<zIndex>UNIT_SCOUT</zIndex>
@@ -523,7 +521,7 @@
 		</aiUnits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_FAMILY_CLASS_HUNTERS_SEAT</zType>
+		<zType>BONUS_FAMILYCLASS_HUNTERS_SEAT</zType>
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
@@ -768,7 +766,7 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_MISSIONRESULT_ABDICATE</zType>
-		<zName>Abdanken</zName>
+		<zName>Abdankung</zName>
 		<iLegitimacy>-2</iLegitimacy>
 		<bAbdicate>1</bAbdicate>
 	</Entry>
@@ -780,7 +778,7 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_MISSIONRESULT_LEGITIMIZE</zType>
-		<zName>Legitimiert Bastard</zName>
+		<zName>Legitimierter Bastard</zName>
 		<iLegitimacy>-2</iLegitimacy>
 		<aeRemoveTraits>
 			<zValue>TRAIT_BASTARD</zValue>
@@ -799,7 +797,7 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_MISSIONRESULT_SLANDER_SUCCESS</zType>
-		<zName>Infiltrieren</zName>
+		<zName>Beleidigung (Erfolg)</zName>
 		<MemoryAllPlayers>MEMORYPLAYER_SLANDER</MemoryAllPlayers>
 	</Entry>
 	<Entry>
@@ -945,12 +943,12 @@
 		</aiGlobalYieldsPer>
 		<aeAddTraits>
 			<zValue>TRAIT_SLIGHTED</zValue>
-			<zValue>TRAIT_ON_THE_RUN</zValue>
+			<zValue>TRAIT_FUGITIVE</zValue>
 		</aeAddTraits>
 	</Entry>
 	<Entry>
 		<zType>BONUS_MISSIONRESULT_RELEASE_GRATEFUL</zType>
-		<zName>Freilassen (Vorsichtig)</zName>
+		<zName>Freilassen (Dankbar)</zName>
 		<aeRemoveTraits>
 			<zValue>TRAIT_IMPRISONED</zValue>
 		</aeRemoveTraits>
@@ -980,7 +978,7 @@
 			<zValue>TRAIT_IMPRISONED</zValue>
 		</aeAddTraits>
 		<aeRemoveTraits>
-			<zValue>TRAIT_ON_THE_RUN</zValue>
+			<zValue>TRAIT_FUGITIVE</zValue>
 		</aeRemoveTraits>
 	</Entry>
 	<Entry>
@@ -995,12 +993,12 @@
 			<zValue>TRAIT_HIDING_ABROAD</zValue>
 		</aeAddTraits>
 		<aeRemoveTraits>
-			<zValue>TRAIT_ON_THE_RUN</zValue>
+			<zValue>TRAIT_FUGITIVE</zValue>
 		</aeRemoveTraits>
 	</Entry>
 	<Entry>
 		<zType>BONUS_MISSIONRESULT_PAY_RANSOM</zType>
-		<zName>Gefangennehmen (Versagt)</zName>
+		<zName>Gefangennahme (freigekauft)</zName>
 		<aeRemoveTraits>
 			<zValue>TRAIT_CAPTURED</zValue>
 		</aeRemoveTraits>   
@@ -6019,9 +6017,9 @@
 		<RemoveLeaderRelationship>RELATIONSHIP_PLOTTING_AGAINST</RemoveLeaderRelationship>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GIVE_TRAIT_CARELESS</zType>
+		<zType>BONUS_GIVE_TRAIT_INTOLERANT</zType>
 		<aeAddTraits>
-			<zValue>TRAIT_CARELESS</zValue>
+			<zValue>TRAIT_INTOLERANT</zValue>
 		</aeAddTraits>
 	</Entry>
 	<Entry>	
@@ -6409,12 +6407,6 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GIVE_TRAIT_INTOLERANT</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_INTOLERANT</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
 		<zType>BONUS_GIVE_TRAIT_SUPERSTITIOUS</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_SUPERSTITIOUS</zValue>
@@ -6481,12 +6473,6 @@
 		</aeRemoveTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GIVE_TRAIT_TRAVELING</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_TRAVELING</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
 		<zType>BONUS_GIVE_TRAIT_BLESSED</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_BLESSED</zValue>
@@ -6530,6 +6516,7 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_GIVE_TRAIT_MISERABLE</zType>
+		<MemoryFamily>MEMORYFAMILY_REFUSED_RELEASE</MemoryFamily>												   
 		<aeAddTraits>
 			<zValue>TRAIT_MISERABLE</zValue>
 		</aeAddTraits>
@@ -6577,9 +6564,9 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GIVE_TRAIT_ON_THE_RUN</zType>
+		<zType>BONUS_GIVE_TRAIT_FUGITIVE</zType>
 		<aeAddTraits>
-			<zValue>TRAIT_ON_THE_RUN</zValue>
+			<zValue>TRAIT_FUGITIVE</zValue>
 		</aeAddTraits>
 	</Entry>
 	<Entry>
@@ -6707,5 +6694,15 @@
 		<aeAddTraits>
 			<zValue>TRAIT_MOURNING</zValue>
 		</aeAddTraits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_TRIBAL_RAID_LAUNCHED_FROM_THIS_CAMP</zType>
+		<bBarbRaid>1</bBarbRaid>
+	</Entry>
+	<Entry>
+		<zType>BONUS_WALLS</zType>
+		<aeAddProjects>
+			<zValue>PROJECT_WALLS</zValue>
+		</aeAddProjects>
 	</Entry>
 </Root>

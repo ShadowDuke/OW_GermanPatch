@@ -4,6 +4,7 @@
 	<Entry>
 		<zType/>
 		<zName/>
+		<bNoDeclareWar/>		  
 		<EffectPlayer/>
 		<aiYieldStockpile/>
 		<aiYieldThresholdBase/>
@@ -12,6 +13,7 @@
 	<Entry>
 		<zType>DIFFICULTY_ABLE</zType>
 		<zName>Der Tüchtige</zName>
+		<bNoDeclareWar>1</bNoDeclareWar>						  
 		<EffectPlayer>EFFECTPLAYER_DIFFICULTY_ABLE</EffectPlayer>
 		<aiYieldStockpile>
 			<Pair>

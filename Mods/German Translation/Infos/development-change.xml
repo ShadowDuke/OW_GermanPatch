@@ -11,6 +11,11 @@
 		<iLoneOpponentChange/>
 	</Entry>
 	<Entry>
+		<zType>DEVELOPMENT_NONE</zType>
+		<zName>Keine</zName>
+		<zHelp>Vorhandene Staaten starten nicht mit extra Territorium</zHelp>
+	</Entry>
+	<Entry>
 		<zType>DEVELOPMENT_FLEDGLING</zType>
 		<zName>Jung</zName>
 		<zHelp>Vorhandene Staaten starten mit einer Stadt</zHelp>
