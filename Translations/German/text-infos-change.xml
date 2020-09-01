@@ -1,6 +1,8 @@
-									  
-																									 
 <Root>
+	<Entry>
+		<zType/>
+		<Translation/>
+	</Entry>
 	<!-- InfoTerrain -->
 	<Entry>
 		<zType>TEXT_TERRAIN_WATER</zType>

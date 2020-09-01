@@ -252,7 +252,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_SUBTITLE</zType>
-		<Translation><![CDATA[<style=H2>{0}</style>]]></Translation>
+		<Translation><![CDATA[<style=H2>{LIST}</style>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PARAGRAPH</zType>
@@ -664,7 +664,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HURRY_WARNING_CITY_EFFECT</zType>
-		<Translation>Kann nicht beschleunigen wegen {0}</Translation>
+		<Translation>Kann nicht beschleunigen wegen {LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HURRY_WARNING_INCREASES_COST</zType>
@@ -672,7 +672,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_AUTO_BUILD_CITY_EFFECT</zType>
-		<Translation>Kann die Produktion wegen {0} nicht ändern</Translation>
+		<Translation>Kann die Produktion wegen {LIST} nicht ändern</Translation>
 	</Entry>	 
 	<!--City Money Summary Text-->
 	<Entry>
@@ -682,7 +682,7 @@
 	<!---->
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_COST</zType>
-		<Translation>Kostet {0_list}</Translation>
+		<Translation>Kostet {LIST}</Translation>
 	</Entry>
 	<!--City Queue Progress-->
 	<Entry>
@@ -3331,7 +3331,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_COSTS</zType>
-		<Translation>Kostet {0}</Translation>
+		<Translation>Kostet {LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_COST_PER_YEAR</zType>
@@ -3386,11 +3386,11 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_ALL_CITIES_EFFECT</zType>
-		<Translation>[Alle Städte] </Translation>
+		<Translation>[Alle Städte] {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_COAST_CITIES_EFFECT</zType>
-		<Translation>[Küstenstädte] </Translation>
+		<Translation>[Küstenstädte] {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_RELIGIOUS_CITIES_EFFECT</zType>
@@ -3398,23 +3398,23 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_STATE_RELIGION_CITIES_EFFECT</zType>
-		<Translation>[Staatsreligions-Städte] </Translation>
+		<Translation>[Staatsreligions-Städte] {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_CAPITAL_EFFECT</zType>
-		<Translation>[Hauptstadt] </Translation>
+		<Translation>[Hauptstadt] {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_ALL_UNITS_EFFECT</zType>
-		<Translation>[Alle Einheiten] </Translation>
+		<Translation>[Alle Einheiten] {LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_START_BONUS</zType>
-		<Translation>Beim Spielstart: </Translation>
+		<Translation>Beim Spielstart: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_FOUND_BONUS</zType>
-		<Translation>Neue Städte: </Translation>
+		<Translation>Neue Städte: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_VPS</zType>
@@ -3574,20 +3574,20 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_UNLOCKS_PROJECT</zType>
-		<Translation>Entsperre Projekt: {0_project}</Translation>
+		<Translation>Entsperrt Projekt: {0_project}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_UNLOCKS_PROJECT_CAPITAL</zType>
-		<Translation>Entsperre Projekt (in {0_capital}): {1_project}</Translation>
+		<Translation>Entsperrt Projekt (in {0_capital}): {1_project}</Translation>
 	</Entry>
 	<!--FamilyClass Help-->
 	<Entry>
         <zType>TEXT_HELPTEXT_FAMILYCLASS_FAMILY_UNITS_BULLET_LINE_START</zType>
-        <Translation>icon(bullet)[Familien Einheiten] {LISTE}</Translation>
+        <Translation>icon(bullet)[Familien Einheiten] {LIST}</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_FAMILYCLASS_FAMILY_CITIES_BULLET_LINE_START</zType>
-        <Translation>icon(bullet)[Familien Städte] </Translation>
+        <Translation>icon(bullet)[Familien Städte] {0}</Translation>
     </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILYCLASS_FAMILY_SEAT_BULLET_LINE_START</zType>
@@ -3895,7 +3895,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_MEMORY_ALL_PLAYERS_START</zType>
-		<Translation>[Alel Reiche von {0_player}] </Translation>
+		<Translation>[Alle Reiche von {0_player}] </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_MEMORY_ALL_FAMILIES_START</zType>
@@ -4075,7 +4075,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_MAKE_COURTIER</zType>
-		<Translation>Wird Vertrauter: {0_courtier}</Translation>
+		<Translation>Wird Vertrauter: ({0_courtier})</Translation>
 	</Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_BONUS_START_LAW</zType>
@@ -4091,7 +4091,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_REPLACES_LAW</zType>
-		<Translation> (Ersetzt {0_law})</Translation>
+		<Translation>{0} (Ersetzt {1_law})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_ADOPT_RELIGION</zType>
@@ -4119,7 +4119,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_ACQUIRE_TECH</zType>
-		<Translation>Erlange {0_techList} (Technologie)</Translation>
+		<Translation>Erlange {LIST} (Technologie)</Translation>
 	</Entry>
 	<!--Make Council-->
 	<Entry>
@@ -4193,7 +4193,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CULTURE_HELP_ENABLES_IMPROVEMENT</zType>
-		<Translation>Ermöglicht: {0_list}</Translation>
+		<Translation>Ermöglicht: {LIST}</Translation>
 	</Entry>
 	<!--Mission Help-->
 	<Entry>
@@ -4409,7 +4409,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_EACH_CITY_EFFECT</zType>
-		<Translation>Jede Stadt: </Translation>
+		<Translation>Jede Stadt: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_FOUNDED_SPREAD_YEARS_HELP</zType>
@@ -4827,7 +4827,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RESOURCE_HARVEST</zType>
-		<Translation>Geerntet: {0}</Translation>
+		<Translation>Ernten: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RESOURCE_FROM_IMPROVEMENT</zType>
@@ -4848,7 +4848,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PROJECT_ON_COMPLETION</zType>
-		<Translation>Bei Fertigstellung</Translation>
+		<Translation>Bei Fertigstellung: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PROJECT_ADDS_PROJECT</zType>
@@ -4905,7 +4905,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_SPECIALIST_LEADS_TO</zType>
-		<Translation>Führt zu {0}</Translation>
+		<Translation>Führt zu {LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_SUCCESSION_HEIR</zType>
@@ -4930,7 +4930,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<!--Theology Help-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_THEOLOGY_HELP_NAME</zType>
-		<Translation>{0} (Religionswissenschaft)</Translation>
+		<Translation>{0} (Tier {1} Religionswissenschaft)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_THEOLOGY_HELP_FAMILY_OPINION</zType>
@@ -4938,15 +4938,15 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_THEOLOGY_HELP_CANNOT_ESTABLISH</zType>
-		<Translation>Kann keine Religionswissenschaft mit {0} gründen</Translation>
+		<Translation>Kann keine Religionswissenschaft mit {LIST} gründen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_THEOLOGY_HELP_LEADS_TO</zType>
-		<Translation>Führt zu {0}</Translation>
+		<Translation>Führt zu {LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_THEOLOGY_HELP_ESTABLISH_WITH</zType>
-		<Translation>Gründen mit {0}</Translation>
+		<Translation>Gründen mit {LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_THEOLOGY_HELP_ONE_PER_TIER</zType>
@@ -4987,19 +4987,19 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_RATING_AS_LEADER</zType>
-		<Translation>Als Oberhaupt: </Translation>
+		<Translation>Als Oberhaupt: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_RATING_AS_CONSORT</zType>
-		<Translation>Als Gemahl(in): </Translation>
+		<Translation>Als Gemahl(in): {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_RATING_AS_SUCCESSOR</zType>
-		<Translation>Als Nachfolger: </Translation>
+		<Translation>Als Nachfolger: {0} </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_RATING_AS_X</zType>
-		<Translation>As {0}: </Translation>
+		<Translation>Als {0}: {1_yields}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_RATING_X_OF_YIELD</zType>
@@ -5039,7 +5039,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_LEADER_STATS</zType>
-		<Translation>Stastik(en): {0}</Translation>
+		<Translation>Stastik(en):</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_EFFECT_IF_LEADER</zType>
@@ -5048,7 +5048,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<!--Character Help-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_NAME</zType>
-		<Translation><![CDATA[{0_gender}, Alter {1}<true_2>, {2}/{3}<false><end><true_4> icon(skull)<false><end>]]></Translation>
+		<Translation><![CDATA[{0_gender}, Alter {1}<true_2>, {2}/{3} EP<false><end><true_4> icon(skull)<false><end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_LEADER_OF</zType>
@@ -5176,7 +5176,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_MARRIES_GLOBAL</zType>
-		<Translation> (Global: {0})</Translation>
+		<Translation> (Global: {LIST})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_MARRIES_JOINS_NATION</zType>
@@ -5184,11 +5184,11 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_MARRIES_DOWRY_COST</zType>
-		<Translation>Mitgift gibt uns {0}</Translation>
+		<Translation>Mitgift gibt uns {LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UPGRADE_CHARACTER_BECOMES</zType>
-		<Translation>Bekommt {0}</Translation>
+		<Translation>Wird {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LEAVE_JOB_GENERAL</zType>
@@ -5624,16 +5624,16 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_DIFFICULTY_STARTING_YIELDS</zType>
-		<Translation>Startet mit {LISTE}</Translation>
+		<Translation>Startet mit {LIST}</Translation>
 	</Entry>	 
 	<Entry>
 		<zType>TEXT_HELPTEXT_DIFFICULTY_EXTRA_UNITS</zType>
-		<Translation>Extra {LISTE}</Translation>
+		<Translation>Extra {LIST}</Translation>
 	</Entry>
 	<!--End Turn-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_END_YEAR</zType>
-		<Translation>Beende des Jahr </Translation>
+		<English><![CDATA[Beende das Jahr<true_0> {0}<false><end>]]></English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_END_YEAR_IDLE_CITY</zType>
@@ -5645,12 +5645,12 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_END_YEAR_WAITING</zType>
-		<Translation>Warte auf {0_players}</Translation>
+		<Translation>Warte auf {PLAYER-LIST}</Translation>
 	</Entry>
 	<!--Goal Help-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_COMPLETION</zType>
-		<Translation>Wenn fertig: </Translation>
+		<Translation>Wenn fertig: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_THEOLOGY</zType>
@@ -5813,7 +5813,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<!--Memory Help-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_MEMORY_OPINION</zType>
-		<Translation><![CDATA[Gedächtnis: <true_0>{0}, <false><end> {1} Meinung<true_2> für {2} <singular_2>Jahr<plural>Jahre<end><false><end>]]></Translation>
+		<Translation><![CDATA[<true_0>{0}, <false><end>{1} Empfinden<true_2> für {2} <singular_2>Jahr<plural>Jahre<end><false><end>]]></Translation>
 	</Entry>
 	<!--Nation Help-->
 	<Entry>
@@ -5838,7 +5838,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_NATION_HELP_FAMILIES</zType>
-		<Translation>Familien: {0}</Translation>
+		<Translation>Familien: {LIST}</Translation>
 	</Entry>
 	<!--Opinon Help-->
 	<Entry>
