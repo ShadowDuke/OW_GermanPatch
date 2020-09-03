@@ -63,7 +63,11 @@
 	<Entry>
 		<zType>RELATIONSHIP_JEALOUS_ABOUT</zType>
 		<zName>Eifersüchtig über</zName>
-		<iOpinion>-20</iOpinion>
+		<iOpinion>-40</iOpinion>
+		<aeInvalidateRelationship>
+			<zValue>RELATIONSHIP_OBLIGED_TO</zValue>
+			<zValue>RELATIONSHIP_ENDEARED_TO</zValue>
+		</aeInvalidateRelationship>
 	</Entry>
 	<Entry>
 		<zType>RELATIONSHIP_SUSPICIOUS_OF</zType>
@@ -72,7 +76,6 @@
 		<aeInvalidateRelationship>
 			<zValue>RELATIONSHIP_IN_LOVE_WITH</zValue>
 			<zValue>RELATIONSHIP_LOVER_OF</zValue>
-			<zValue>RELATIONSHIP_ENDEARED_TO</zValue>
 		</aeInvalidateRelationship>
 	</Entry>
 	<Entry>

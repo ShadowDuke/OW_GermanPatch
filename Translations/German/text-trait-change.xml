@@ -523,6 +523,10 @@
 		<Translation>Affen Besitzer</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_DOG_OWNER</zType>
+		<Translation>Hundebesitzer</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_OVERSEER_OF_THE_FIELDS</zType>
 		<Translation>Aufseher über die Felder</Translation>
 	</Entry>
@@ -550,4 +554,12 @@
 		<zType>TEXT_TRAIT_GODS_CONSORT</zType>
 		<Translation>God's Consort</Translation>
 	</Entry> 
+	<Entry>
+		<zType>TEXT_TRAIT_PROPHET_KILLER</zType>
+		<Translation>Propheten Mörder</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_DROUGHT_STRICKEN</zType>
+		<Translation>Von Dürre betroffen</Translation>
+	</Entry>
 </Root>

@@ -879,6 +879,31 @@
 		<zText>Denied the remains of a fallen relative</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_IGNORED_DISPLEASURE</zType>
+		<zText>Ignored displeasure at mistreatment of spouse</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_LET_LEGEND_GROW</zType>
+		<zText>Allowed hero's legend to grow</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ROYAL_VISITOR</zType>
+		<zText>Hosted member of the royal family</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_RESPECT_FOR_FOLLOWER</zType>
+		<zText>Gained respect for royal scholar</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_TROUBLES_MEDIATED</zType>
+		<zText>Had troubles with rival mediated</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
 	<Entry beginGroup="Contact">
 		<zType>MEMORYFAMILY_FORCED_TO_KISS_FEET</zType>
 		<zText>Forced to kiss foreign ruler's feet</zText>

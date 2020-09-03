@@ -1533,6 +1533,10 @@
 		<zType>TEXT_EVENTSTORY_MARRIAGE_PROPOSAL_TITLE</zType>
 		<Translation>Marriage Proposal</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MARRIAGE_POLY_TITLE</zType>
+		<Translation>Take Another {G3:Husband:Wife}?</Translation>
+	</Entry>
 	<Entry beginGroup="Character">
 		<zType>TEXT_EVENTSTORY_DELICIOUS_DRINKS_TITLE</zType>
 		<Translation>Delicious Drinks</Translation>
@@ -3301,6 +3305,78 @@
 		<zType>TEXT_EVENTSTORY_PRISON_RIOT_TITLE</zType>
 		<Translation>Prison Riot</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_ALLIES_OF_CONVENIENCE_TITLE</zType>
+		<Translation>Allies of Convenience</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_JEALOUS_SAVAGE_TITLE</zType>
+		<Translation>Jealous Savage</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_POINT_OF_NO_RETURN_TITLE</zType>
+		<Translation>Point of No Return</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_YOUR_SPOUSES_WEDDING_TITLE</zType>
+		<Translation>Your {G0:Husband's:Wife's} Wedding</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_A_CHILLY_RECEPTION_TITLE</zType>
+		<Translation>A Chilly Reception</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_AFTER_DARK_TITLE</zType>
+		<Translation>After Dark</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_UNDEFEATED_TITLE</zType>
+		<Translation>Undefeated</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_SKIRMISH_TITLE</zType>
+		<Translation>Skirmish</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BARBARIAN_SLAYER_TITLE</zType>
+		<Translation>Barbarian Slayer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_CHILDHOOD_FRIENDS_TITLE</zType>
+		<Translation>Childhood Friends</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_THE_MONGREL_TITLE</zType>
+		<Translation>The Mongrel</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LOYAL_COMPANION_TITLE</zType>
+		<Translation>Loyal Companion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_A_PARTING_TITLE</zType>
+		<Translation>A Parting</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_YOUNG_MASTER_TITLE</zType>
+		<Translation>The Young Master</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STREET_DEBATE_TITLE</zType>
+		<Translation>Street Debate</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_CITY_STEPS_TITLE</zType>
+		<Translation>The City Steps</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_MEDIATOR_TITLE</zType>
+		<Translation>Mediator</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_STUDENT_EMPORIUM_TITLE</zType>
+		<Translation>Student Emporium</Translation>
+	</Entry>
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS_TITLE</zType>
 		<Translation>Immigrants</Translation>
@@ -3628,6 +3704,10 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ICONOGRAPHY_CALLIGRAPHY_TITLE</zType>
 		<Translation>Iconography or Calligraphy</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PILGRIMAGE_HOLY_WAR_TITLE</zType>
+		<Translation>Pilgrimage or Holy War</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DIVINE_RULE_SECULARISM_TITLE</zType>
@@ -5236,5 +5316,57 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CAPTURED_NOBLE_TITLE</zType>
 		<Translation>Captured Noble</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_EMBASSY_OF_PHILOSOPHERS_TITLE</zType>
+		<Translation>Embassy of Philosophers</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MONUMENTAL_EVENING_TITLE</zType>
+		<Translation>Monumental Evening</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISMAL_EVENING_TITLE</zType>
+		<Translation>Dismal Evening</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SPEECH_IN_YOUR_HONOUR_TITLE</zType>
+		<Translation>Speech in Your Honor</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_40_YEAR_CELEBRATIONS_TITLE</zType>
+		<Translation>Forty Year Celebrations</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MOST_BLESSED_PEOPLE_ON_EARTH_TITLE</zType>
+		<Translation>Most Blessed People on Earth</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SILVER_JUBILEE_TITLE</zType>
+		<Translation>Silver Jubilee</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_GOLD_JUBILEE_TITLE</zType>
+		<Translation>Gold Jubilee</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIAMOND_JUBILEE_TITLE</zType>
+		<Translation>Diamond Jubilee</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PROPHET_IN_CHAINS_TITLE</zType>
+		<Translation>Prophet in Chains</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PROPHET_AND_THE_PARCHED_LAND_TITLE</zType>
+		<Translation>Prophet and The Parched Land</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_A_NEW_HOPE_TITLE</zType>
+		<Translation>A New Hope</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_PROPHET_STRIKES_BACK_TITLE</zType>
+		<Translation>The Prophet Strikes Back</Translation>
 	</Entry>
 </Root>

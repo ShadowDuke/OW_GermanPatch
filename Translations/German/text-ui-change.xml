@@ -398,6 +398,10 @@
 		<Translation>Alle</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_CHAT_CLEAR</zType>
+		<Translation>Löschen</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_TURN_TEXT_YEAR</zType>
 		<Translation><![CDATA[Jahr {0}<true_1>   ({1_time})<false><end>]]></Translation>
 	</Entry>

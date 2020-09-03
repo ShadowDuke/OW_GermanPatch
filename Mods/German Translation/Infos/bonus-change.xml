@@ -3,137 +3,138 @@
 <Root>
 	<Entry>
 		<zType/>
-		<zName comment="Bonus title string. This is ONLY necessary if this bonus changes Legitimacy."/>
-		<Victory comment="Player achieves this Victory type."/>												 
-		<MemoryPlayer comment="Memory received by the Player Subject."/>
-		<ForgetPlayer comment="Memory forgotten by the Player Subject."/>
-		<MemoryAllPlayers comment="Memory received by all rival Players."/>
-		<MemoryBarb comment="Memory received by the Barbarian Subject."/>
-		<ForgetBarb comment="Memory forgotten by the Barbarian Subject."/>
-		<MemoryReligion comment="Memory received by the Religion Subject."/>
-		<ForgetReligion comment="Memory forgotten by the Religion Subject."/>
-		<MemoryFamily comment="Memory received by the Family Subject."/>
-		<ForgetFamily comment="Memory forgotten by the Family Subject."/>
-		<MemoryAllFamilies comment="Memory received by all your noble Families."/>
-		<MemoryCharacter comment="Memory received by the character Subject."/>
-		<ForgetCharacter comment="Memory forgotten by the character Subject."/>
-		<AddLeaderRelationship comment="Add a Relationship towards the Leader."/>
-		<RemoveLeaderRelationship comment="Remove a Relationship towards the Leader."/>
-		<DiplomacyPlayer comment="Diplomacy state (from diplomacy.xml) to which the Player Subject is set."/>
-		<DiplomacyBarb comment="Diplomacy state (from diplomacy.xml) to which the Barbarian Subject is set."/>
-		<MakeCourtier comment="Makes the character Subject into this type of courtier which is added to the Player's court."/>
-		<StartLaw comment="Law enacted. You must pay the normal Civics cost."/>
-		<EndLaw comment="Law cancelled."/>
-		<FreeLaw comment="Law enacted for free (i.e. no Civics cost)."/>
-		<FoundReligion comment="Religion founded."/>
-		<AdoptReligion comment="Religion adopted as your state Religion."/>
-		<FreeTheology comment="Theology added to your state Religion (if any)."/>
+		<zName comment="Bonus title string. This is ONLY necessary if this bonus changes Legitimacy"/>
+		<Victory comment="Player achieves this Victory type"/>
+		<MemoryPlayer comment="Memory received by the Player Subject"/>
+		<ForgetPlayer comment="Memory forgotten by the Player Subject"/>
+		<MemoryAllPlayers comment="Memory received by all rival Players"/>
+		<MemoryBarb comment="Memory received by the Barbarian Subject"/>
+		<ForgetBarb comment="Memory forgotten by the Barbarian Subject"/>
+		<MemoryReligion comment="Memory received by the Religion Subject"/>
+		<ForgetReligion comment="Memory forgotten by the Religion Subject"/>
+		<MemoryFamily comment="Memory received by the Family Subject"/>
+		<ForgetFamily comment="Memory forgotten by the Family Subject"/>
+		<MemoryAllFamilies comment="Memory received by all your noble Families"/>
+		<MemoryCharacter comment="Memory received by the character Subject"/>
+		<ForgetCharacter comment="Memory forgotten by the character Subject"/>
+		<AddLeaderRelationship comment="Add a Relationship towards the Leader"/>
+		<RemoveLeaderRelationship comment="Remove a Relationship towards the Leader"/>
+		<DiplomacyPlayer comment="Diplomacy state (from diplomacy.xml) to which the Player Subject is set"/>
+		<DiplomacyBarb comment="Diplomacy state (from diplomacy.xml) to which the Barbarian Subject is set"/>
+		<MakeCourtier comment="Makes the character Subject into this type of courtier which is added to the Player's court"/>
+		<StartLaw comment="Law enacted. You must pay the normal Civics cost"/>
+		<EndLaw comment="Law cancelled"/>
+		<FreeLaw comment="Law enacted for free (i.e. no Civics cost)"/>
+		<FoundReligion comment="Religion founded"/>
+		<AdoptReligion comment="Religion adopted as your state Religion"/>
+		<FreeTheology comment="Theology added to your state Religion (if any)"/>
 		<Quest comment="A Quest given to the Player (similar to Ambitions)"/>
+		<QuestForce comment="A Quest given to the Player (similar to Ambitions), but does not check if the Quest is close to complete"/>
 		<Ambition comment="Adds this Ambition to the Player"/>
-		<FinishGoal comment="Finishes this Quest or Ambition"/>												 
-		<DesiredAmbition comment="Adds this Desired Ambition to the Character. (Cannot be the Leader)."/>
-		<Mission comment="Starts a Mission."/>
-		<Council comment="Makes the Character this Council member."/>
-		<SetArchetype comment="Gives the Character this Archetype Trait (and will remove the old one)."/>
-		<SetVegetation comment="Sets the Tile's Vegetation."/>
-		<SetResource comment="Sets the Tile's Resource."/>
-		<SetImprovement comment="Sets the Tile's Improvement."/>
-		<iSpreadUnits comment="List of Religion units that will appear near the City Subject."/>																				  
-		<iRevealRange comment="Reveals this range distance from the Tile."/>
-		<iCitizens comment="Number of citizens added to the City Subject."/>
-		<iBorderGrowth comment="Adds this many Tiles to the City's territory."/>
-		<iCultureLevels comment="Number of Culture levels (regardless of cost) gained by the City Subject."/>
-		<iDiscontentLevels comment="Number of Discontent levels gained by the City Subject."/>
-		<iRebelUnits comment="Number of rebel Units spawned by the City Subject."/>
-		<iDestroyImprovements comment="Number of random Improvements destroyed at the City Subject."/>
+		<FinishGoal comment="Finishes this Quest or Ambition"/>
+		<DesiredAmbition comment="Adds this Desired Ambition to the Character. (Cannot be the Leader)"/>
+		<Mission comment="Starts a Mission"/>
+		<Council comment="Makes the Character this Council member"/>
+		<SetArchetype comment="Gives the Character this Archetype Trait (and will remove the old one)"/>
+		<SetVegetation comment="Sets the Tile's Vegetation"/>
+		<SetResource comment="Sets the Tile's Resource"/>
+		<SetImprovement comment="Sets the Tile's Improvement"/>
+		<iSpreadUnits comment="List of Religion units that will appear near the City Subject"/>
+		<iRevealRange comment="Reveals this range distance from the Tile"/>
+		<iCitizens comment="Number of citizens added to the City Subject"/>
+		<iBorderGrowth comment="Adds this many Tiles to the City's territory"/>
+		<iCultureLevels comment="Number of Culture levels (regardless of cost) gained by the City Subject"/>
+		<iDiscontentLevels comment="Number of Discontent levels gained by the City Subject"/>
+		<iRebelUnits comment="Number of rebel Units spawned by the City Subject"/>
+		<iDestroyImprovements comment="Number of random Improvements destroyed at the City Subject"/>
 		<iHPCity comment="Changes the HP of the City"/>
 		<iHPUnit comment="Changes the HP of the Unit"/>
 		<iXPUnit comment="Changes the XP of the Unit"/>
 		<iXPCharacter comment="Changes the XP of the Character"/>
-		<iLegitimacy comment="Amount of Legitimacy gained or lost by the Human."/>
-		<iDiplomacyPlayer comment="Changes the Diplomacy level by this value (Peace = 0, Truce = 1, War = 2)."/>																							  
-		<iAllianceSubject comment="Player allies with the previous Subject at this index."/>																			  
-		<iMarrySubject comment="Character will marry the previous Subject at this index."/>
-		<iPolyMarrySubject comment="Character will marry the previous Subject at this index (allows polygamy)."/>																								   
-		<iDivorceSubject comment="Character will divorce the previous Subject at this index."/>
-		<iBirthWithSubject comment="Character will give birth with the previous Subject at this index."/>																						   
-		<iAdoptedBySubject comment="Character will be adopted by the previous Subject at this index."/>
-		<iGovernorOfSubject comment="Character will be Governor of the previous Subject City at this index."/>
-		<iGeneralOfSubject comment="Character will be General of the previous Subject Unit at this index."/>
-		<iSeizeThroneSubject comment="Become the new leader of the previous Subject at this index."/>
-		<iSpreadToSubject comment="Religion will spread to the previous Subject City at this index."/>
-		<iRemoveFromSubject comment="Religion will be removed from the previous Subject City at this index."/>																								
-		<iTradeResourceSubject comment="Trades the Resources to previous Subject at this index."/>
-		<iMissionSubject comment="The Mission will target the previous Subject at this index."/>
-		<iMissionReverse comment="The Mission character will be the previous Subject at this index."/>																						
-		<iTradeCitySubject comment="Trade the City to the previous Subject at this index."/>
-		<bRevealTerritory comment="Will reveal all the territory of this Player."/>
-		<bHolyCityAgents comment="Adds an Agent in all Holy Cities."/>														
-		<bCancelTrade comment="Will cancel trade with this Player."/>
-		<bTeamAlliance comment="Will make an Alliance with this Player."/>
-		<bTeamAllianceEnd comment="Will end an Alliance with this Player."/>
-		<bBarbAlliance comment="Will make an Alliance with this Barbarian."/>
-		<bBarbAllianceEnd comment="Will end an Alliance with this Barbarian."/>
-		<bBarbInvade comment="Tribe will send a number of Units to raid the Player."/>
-		<bAdoptReligion comment="Adopt this Religion the Player's State Religion (with paying the cost)."/>
-		<bStateReligion comment="Set this Religion the Player's State Religion (without paying the cost)."/>
-		<bStateReligionEnd comment="Clears the Player's State Religion."/>
-		<bFoundReligion comment="The Player will found a random Religion."/>
-		<bFoundReligionCity comment="The Player will found a random Religion in this City."/>																			   
-		<bStartLaw comment="Starts the Law and pays the Civics cost."/>
-		<bFreeLaw comment="Starts the Law without paying the cost."/>
-		<bFreeTheology comment="Establishes the Theology without paying the cost."/>
-		<bFreeTech comment="The Player will receive a random free Tech."/>
-		<bNoCourtier comment="Character will no longer be a Courtier."/>
-		<bLeaveCouncil comment="Character will no longer be on the Council."/>
-		<bReleaseGeneral comment="If set to 1 (true), the character Subject will be released from being a general if they are one."/>
-		<bChangeSuccession comment="If set to 1 (true), the game will automatically attempt to set the Player’s inheritance laws so that the character Subject will become your direct heir. Any law changes made cost no Civics."/>
-		<bAbdicate comment="If set to 1 (true), the character Subject abdicates the throne."/>
+		<iLegitimacy comment="Amount of Legitimacy gained or lost by the Human"/>
+		<iDiplomacyPlayer comment="Changes the Diplomacy level by this value (Peace = 0, Truce = 1, War = 2)"/>
+		<iAllianceSubject comment="Player allies with the previous Subject at this index"/>
+		<iMarrySubject comment="Character will marry the previous Subject at this index"/>
+		<iPolyMarrySubject comment="Character will marry the previous Subject at this index (allows polygamy)"/>
+		<iDivorceSubject comment="Character will divorce the previous Subject at this index"/>
+		<iBirthWithSubject comment="Character will give birth with the previous Subject at this index"/>
+		<iAdoptedBySubject comment="Character will be adopted by the previous Subject at this index"/>
+		<iGovernorOfSubject comment="Character will be Governor of the previous Subject City at this index"/>
+		<iGeneralOfSubject comment="Character will be General of the previous Subject Unit at this index"/>
+		<iSeizeThroneSubject comment="Become the new leader of the previous Subject at this index"/>
+		<iSpreadToSubject comment="Religion will spread to the previous Subject City at this index"/>
+		<iRemoveFromSubject comment="Religion will be removed from the previous Subject City at this index"/>
+		<iTradeResourceSubject comment="Trades the Resources to previous Subject at this index"/>
+		<iMissionSubject comment="The Mission will target the previous Subject at this index"/>
+		<iMissionReverse comment="The Mission character will be the previous Subject at this index"/>
+		<iTradeCitySubject comment="Trade the City to the previous Subject at this index"/>
+		<bRevealTerritory comment="Will reveal all the territory of this Player"/>
+		<bHolyCityAgents comment="Adds an Agent in all Holy Cities"/>
+		<bCancelTrade comment="Will cancel trade with this Player"/>
+		<bTeamAlliance comment="Will make an Alliance with this Player"/>
+		<bTeamAllianceEnd comment="Will end an Alliance with this Player"/>
+		<bBarbAlliance comment="Will make an Alliance with this Barbarian"/>
+		<bBarbAllianceEnd comment="Will end an Alliance with this Barbarian"/>
+		<bBarbInvade comment="Tribe will send a number of Units to raid the Player"/>
+		<bAdoptReligion comment="Adopt this Religion the Player's State Religion (with paying the cost)"/>
+		<bStateReligion comment="Set this Religion the Player's State Religion (without paying the cost)"/>
+		<bStateReligionEnd comment="Clears the Player's State Religion"/>
+		<bFoundReligion comment="The Player will found a random Religion"/>
+		<bFoundReligionCity comment="The Player will found a random Religion in this City"/>
+		<bStartLaw comment="Starts the Law and pays the Civics cost"/>
+		<bFreeLaw comment="Starts the Law without paying the cost"/>
+		<bFreeTheology comment="Establishes the Theology without paying the cost"/>
+		<bFreeTech comment="The Player will receive a random free Tech"/>
+		<bNoCourtier comment="Character will no longer be a Courtier"/>
+		<bLeaveCouncil comment="Character will no longer be on the Council"/>
+		<bReleaseGeneral comment="If set to 1 (true), the character Subject will be released from being a general if they are one"/>
+		<bChangeSuccession comment="If set to 1 (true), the game will automatically attempt to set the Player’s inheritance laws so that the character Subject will become your direct heir. Any law changes made cost no Civics"/>
+		<bAbdicate comment="If set to 1 (true), the character Subject abdicates the throne"/>
 		<bChosenHeir comment="Make this Character the Chosen Heir"/>
-		<bDoomCharacter comment="If set to 1 (true), the character Subject becomes doomed (meaning they are guaranteed to die within a few years)."/>
-		<bKillCharacter comment="If set to 1 (true), the character Subject dies immediately."/>
+		<bDoomCharacter comment="If set to 1 (true), the character Subject becomes doomed (meaning they are guaranteed to die within a few years)"/>
+		<bKillCharacter comment="If set to 1 (true), the character Subject dies immediately"/>
 		<bHaveBastard comment="Character will have a bastard child"/>
-		<bKillUnit comment="If set to 1 (true), the Unit Subject dies immediately."/>
-		<bRemoveVegetation comment="Removes Vegetation from the Tile."/>
-		<bBarbRaid comment="Starts a raid from the Barbarian settlement on the Tile."/>																		 
-		<aiCityYields comment="List of Yields (Money, Science, etc.) gained in the City Subject."/>
-		<aiGlobalYieldsBase comment="List of Yields (Money, Science, etc.) gained by the Player. This is distinct from aicityYields in that it is added directly to the national stockpile, not to any particular City."/>
-		<aiGlobalYieldsPer comment="List of Yields per City gained by the Player. For example, if this is 20 Money, and the Player has 3 cities, the Player will gain 60 Money."/>
-		<aiOtherYieldsBase comment="List of Yields (Money, Science, etc.) gained by the Player."/>
-		<aiOtherYieldsPer comment="List of Yields per City gained by the Other Player. For example, if this is 20 Money, and the Other Player has 3 cities, the Player will gain 60 Money."/>																					
-		<aiYieldsSendBase comment="Send this Yield (lump sum) to the other Player (and deduct it from this Player's stockpile)."/>
-		<aiYieldsSendPerUs comment="Send this Yield (per this Player's Cities) to the other Player (and deduct it from this Player's stockpile)."/>
-		<aiYieldsSendPerThem comment="Send this Yield (per other Player's Cities) to the other Player (and deduct it from this Player's stockpile)."/>
-		<aiYieldsTradeBase comment="List of Yields (lump sum) gained in trade. If this value is positive, this Player receives the Yields; if it’s negative, the other Player receives the Yields."/>
-		<aiYieldsTradePerUs comment="List of Yields (per this Player's Cities) gained in trade. If this value is positive, this Player receives the Yields; if it’s negative, the other Player receives the Yields."/>
-		<aiYieldsTradePerThem comment="List of Yields (per other Player's Cities) gained in trade. If this value is positive, this Player receives the Yields; if it’s negative, the other Player receives the Yields."/>
-		<aiYieldsTributeBase comment="List of Yields (lump sum) to be given to this Subject as tribute. If this value is positive, the Player will receive tribute; if it’s negative, the Player will give tribute."/>
-		<aiYieldsTributePerUs comment="List of Yields (per this Player's Cities) to be given to this Subject as tribute. If this value is positive, the Player will receive tribute; if it’s negative, the Player will give tribute."/>
-		<aiYieldsTributePerThem comment="List of Yields (per other Player's Cities) to be given to this Subject as tribute. If this value is positive, the Player will receive tribute; if it’s negative, the Player will give tribute."/>
-		<aiUnits comment="List of Units that will appear near the City Subject."/>
-		<aiBonusUnits comment="List of bonus Units (from bonusUnitClass.xml) that will appear near the Subject City. bonusUnitClass awards you the highest-indexed Unit you have researched in the indicated category."/>
-		<aiLawOpinion comment="List of permanent opinion changes to laws added to the Family Subject. For example, if you could put Centralization and -5 here, the Family would gain a -5 opinion of the Centralization law."/>
-		<aiRatings comment="List of changes to ratings (Charisma, Courage, etc.) applied to the character Subject."/>
-		<aeAddProjects comment="List of projects added to the City Subject."/>
-		<aeRemoveProjects comment="List of projects removed from the City Subject."/>
-		<aeAddSpecialistClasses comment="List of specialists to be added to the City Subject."/>
-		<aePromotions comment="List of promotions gained by the Unit led by the character Subject."/>
-		<aeRandomTrait comment="One of these will be randomly added to the character Subject."/>
-		<aeAddTraits comment="List of traits gained by the character Subject."/>
-		<aeRemoveTraits comment="List of traits removed from the character Subject."/>
-		<aeTechs comment="List of techs gained by the Player."/>
-		<aeCultureProject comment="List of projects added to the City Subject, based on the City’s Culture value in zIndex."/>
-		<aaiCultureYield comment="List of Yields added to the City Subject, based on the City’s Culture value in zIndex."/>
+		<bKillUnit comment="If set to 1 (true), the Unit Subject dies immediately"/>
+		<bRemoveVegetation comment="Removes Vegetation from the Tile"/>
+		<bBarbRaid comment="Starts a raid from the Barbarian settlement on the Tile"/>
+		<aiCityYields comment="List of Yields (Money, Science, etc.) gained in the City Subject"/>
+		<aiGlobalYieldsBase comment="List of Yields (Money, Science, etc.) gained by the Player. This is distinct from aicityYields in that it is added directly to the national stockpile, not to any particular City"/>
+		<aiGlobalYieldsPer comment="List of Yields per City gained by the Player. For example, if this is 20 Money, and the Player has 3 cities, the Player will gain 60 Money"/>
+		<aiOtherYieldsBase comment="List of Yields (Money, Science, etc.) gained by the Player"/>
+		<aiOtherYieldsPer comment="List of Yields per City gained by the Other Player. For example, if this is 20 Money, and the Other Player has 3 cities, the Player will gain 60 Money"/>
+		<aiYieldsSendBase comment="Send this Yield (lump sum) to the other Player (and deduct it from this Player's stockpile)"/>
+		<aiYieldsSendPerUs comment="Send this Yield (per this Player's Cities) to the other Player (and deduct it from this Player's stockpile)"/>
+		<aiYieldsSendPerThem comment="Send this Yield (per other Player's Cities) to the other Player (and deduct it from this Player's stockpile)"/>
+		<aiYieldsTradeBase comment="List of Yields (lump sum) gained in trade. If this value is positive, this Player receives the Yields; if it’s negative, the other Player receives the Yields"/>
+		<aiYieldsTradePerUs comment="List of Yields (per this Player's Cities) gained in trade. If this value is positive, this Player receives the Yields; if it’s negative, the other Player receives the Yields"/>
+		<aiYieldsTradePerThem comment="List of Yields (per other Player's Cities) gained in trade. If this value is positive, this Player receives the Yields; if it’s negative, the other Player receives the Yields"/>
+		<aiYieldsTributeBase comment="List of Yields (lump sum) to be given to this Subject as tribute. If this value is positive, the Player will receive tribute; if it’s negative, the Player will give tribute"/>
+		<aiYieldsTributePerUs comment="List of Yields (per this Player's Cities) to be given to this Subject as tribute. If this value is positive, the Player will receive tribute; if it’s negative, the Player will give tribute"/>
+		<aiYieldsTributePerThem comment="List of Yields (per other Player's Cities) to be given to this Subject as tribute. If this value is positive, the Player will receive tribute; if it’s negative, the Player will give tribute"/>
+		<aiUnits comment="List of Units that will appear near the City Subject"/>
+		<aiBonusUnits comment="List of bonus Units (from bonusUnitClass.xml) that will appear near the Subject City. bonusUnitClass awards you the highest-indexed Unit you have researched in the indicated category"/>
+		<aiLawOpinion comment="List of permanent opinion changes to laws added to the Family Subject. For example, if you could put Centralization and -5 here, the Family would gain a -5 opinion of the Centralization law"/>
+		<aiRatings comment="List of changes to ratings (Charisma, Courage, etc.) applied to the character Subject"/>
+		<aeAddProjects comment="List of projects added to the City Subject"/>
+		<aeRemoveProjects comment="List of projects removed from the City Subject"/>
+		<aeAddSpecialistClasses comment="List of specialists to be added to the City Subject"/>
+		<aePromotions comment="List of promotions gained by the Unit led by the character Subject"/>
+		<aeRandomTrait comment="One of these will be randomly added to the character Subject"/>
+		<aeAddTraits comment="List of traits gained by the character Subject"/>
+		<aeRemoveTraits comment="List of traits removed from the character Subject"/>
+		<aeTechs comment="List of techs gained by the Player"/>
+		<aeCultureProject comment="List of projects added to the City Subject, based on the City’s Culture value in zIndex"/>
+		<aaiCultureYield comment="List of Yields added to the City Subject, based on the City’s Culture value in zIndex"/>
 		<aeBonuses comment="List of other bonuses to be added onto this one. This is for use with the scaling bonuses found in bonus.xml. [Please avoid making infinite bonus loops.]"/>
-		<aeFamilyBonuses comment="Bonuses are applied to all Cities of this Family."/>
-		<aeAllCityBonuses comment="Bonuses are applied to all the Player's Cities."/>
-		<DiplomacySubjects comment="Subject will enter this Diplomacy state with the previous Subject at this index."/>
-		<AddRelationshipSubjects comment="Give this Character a Relationship with the previous Character at this index."/>
-		<AddRelationshipReverse comment="Give the previous Character at this index a Relationship with this Character."/>
-		<RemoveRelationshipSubjects comment="Remove the Relationship of this Character with the previous Character at this index."/>
-		<RemoveRelationshipReverse comment="Remove the Relationship of the previous Character at this index with this Character."/>
-		<AddCourtierGender comment="List of courtiers with assigned gender to be added to the Subjects's court."/>
-		<AddCourtierOther comment="List of courtiers with assigned gender to be added to the Humans's court but with the Subject's nationality."/>																																
+		<aeFamilyBonuses comment="Bonuses are applied to all Cities of this Family"/>
+		<aeAllCityBonuses comment="Bonuses are applied to all the Player's Cities"/>
+		<DiplomacySubjects comment="Subject will enter this Diplomacy state with the previous Subject at this index"/>
+		<AddRelationshipSubjects comment="Give this Character a Relationship with the previous Character at this index"/>
+		<AddRelationshipReverse comment="Give the previous Character at this index a Relationship with this Character"/>
+		<RemoveRelationshipSubjects comment="Remove the Relationship of this Character with the previous Character at this index"/>
+		<RemoveRelationshipReverse comment="Remove the Relationship of the previous Character at this index with this Character"/>
+		<AddCourtierGender comment="List of courtiers with assigned gender to be added to the Subjects's court"/>
+		<AddCourtierOther comment="List of courtiers with assigned gender to be added to the Humans's court but with the Subject's nationality"/>																																
 	</Entry>
 	<!-- Divider -->
 	<Entry>
@@ -163,6 +164,7 @@
 		<AdoptReligion/>
 		<FreeTheology/>
 		<Quest/>
+		<QuestForce/>	   
 		<Ambition/>
 		<DesiredAmbition/>
 		<Mission/>
@@ -4743,9 +4745,12 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_DISCONTENT_GAIN_SMALL</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_CURSED</zValue>
-		</aeAddTraits>
+		<aiCityYields>
+			<Pair>
+				<zIndex>YIELD_DISCONTENT</zIndex>
+				<iValue>60</iValue>
+			</Pair>
+		</aiCityYields>
 	</Entry>
 	<Entry>
 		<zType>BONUS_DISCONTENT_GAIN_AVERAGE</zType>

@@ -58,6 +58,10 @@
 		<zType>TEXT_CONCEPT_ALLIANCE_PLAYER</zType>
 		<Translation>Spieler Bündnis</Translation>
 	</Entry>
+    <Entry>
+        <zType>TEXT_CONCEPT_UNIT_ANCHOR</zType>
+        <Translation>Anker</Translation>
+    </Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_BARBARIAN_INVADE</zType>
 		<Translation>Barbaren Einmarsch</Translation>

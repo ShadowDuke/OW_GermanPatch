@@ -296,7 +296,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_REQUIRES</zType>
-		<Translation>Benötigt {0_list}</Translation>
+		<Translation>Benötigt {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_REQUIRES_X</zType>
@@ -953,7 +953,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_WONDERS_CANNOT_BUILD</zType>
-		<Translation>Kann keine Wunder mit {0_list} bauen</Translation>
+		<Translation>Kann keine Wunder mit {LIST} bauen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_WONDERS_BUILT_BY</zType>
@@ -2548,11 +2548,11 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TECH_LEADS_TO</zType>
-		<Translation>Führt zu {0_list}</Translation>
+		<Translation>Führt zu {LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TECH_BONUS_CARDS</zType>
-		<Translation><![CDATA[Bonus <singular_0>Karte<plural>Karten<end>: {0_list}]]></Translation>
+		<Translation><![CDATA[Bonus <singular_0>Karte<plural>Karten<end>: {LIST}]]></Translation>
 	</Entry>
 	<!--Improvement Tooltip-->
 	<Entry>
@@ -2626,7 +2626,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_ATTACKS</zType>
-		<Translation>Greift {0_list} an</Translation>
+		<Translation>Greift {LIST} an</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_STRENGTH_VS</zType>
@@ -2730,11 +2730,11 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_STARTS_WITH</zType>
-		<Translation>Beginnt mit {0_list}</Translation>
+		<Translation>Beginnt mit {LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_CONSUMES</zType>
-		<Translation>Konsumiert {0_list}</Translation>
+		<Translation>Konsumiert {LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_NO_TRAIN_OR_PROMOTE</zType>
@@ -2750,7 +2750,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_UPGRADES_TO</zType>
-		<Translation>Verbessern zu {0_list}</Translation>
+		<Translation>Verbessern zu {LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_REQUIRES_TECH</zType>
@@ -3591,7 +3591,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
     </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILYCLASS_FAMILY_SEAT_BULLET_LINE_START</zType>
-		<English>icon(bullet)[link(CONCEPT_FAMILY_SEAT)] {0}</English>
+		<Translation>icon(bullet)[link(CONCEPT_FAMILY_SEAT)] {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILYCLASS_ON_CITY_FOUNDED_BULLET_LINE_START</zType>
@@ -3599,7 +3599,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILYCLASS_ON_SEAT_FOUNDED_BULLET_LINE_START</zType>
-		<English>icon(bullet)[Bei Sitzgründung] </English>
+		<Translation>icon(bullet)[Bei Sitzgründung] </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILYCLASS_NATIONS_WITH_CLASS</zType>
@@ -5633,7 +5633,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<!--End Turn-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_END_YEAR</zType>
-		<English><![CDATA[Beende das Jahr<true_0> {0}<false><end>]]></English>
+		<Translation><![CDATA[Beende das Jahr<true_0> {0}<false><end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_END_YEAR_IDLE_CITY</zType>
