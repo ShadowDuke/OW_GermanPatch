@@ -106,12 +106,28 @@
 		<Translation>Da wegen veralteter Gesetze dein Herrscherrhaus keinen rechtmäßigen Erben hat, wechselt es zu {0_law} um den Aufstieg von {1_character} zu ermöglichen.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_AMBITION_POPUP</zType>
+		<zType>TEXT_GAME_START_AMBITION</zType>
+		<Translation>Du hast eine Ambition gestartet: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_START_QUEST</zType>
+		<Translation>Du hast eine Quest gestartet: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_FINISH_AMBITION</zType>
 		<Translation>Du hast eine Ambition erfüllt: {0}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_LEGACY_POPUP</zType>
+		<zType>TEXT_GAME_FINISH_LEGACY</zType>
 		<Translation>Du hast ein Vermächtnis erfüllt: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_FINISH_QUEST</zType>
+		<Translation>Du hast eine Quest erfüllt: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_FAIL_QUEST</zType>
+		<Translation>Deine Quest ist gescheitert: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_AMBITION_IMPOSSIBLE</zType>
@@ -460,14 +476,6 @@
 		<Translation>Oberhaupt von {0_player}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_RELEASE_GENERAL_UNIT</zType>
-		<Translation>Entlässt {0_unit}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_RELEASE_GENERAL</zType>
-		<Translation>Entlässt Einheit</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_ADOPTION</zType>
 		<Translation>Adoptiert von {0_parent}</Translation>
 	</Entry>
@@ -490,10 +498,6 @@
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_CHOSEN_HEIR</zType>
 		<Translation>Ist auserwählter Erbe</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_DOOM_CHARACTER</zType>
-		<Translation>ist todgeweiht</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_KILL_CHARACTER</zType>

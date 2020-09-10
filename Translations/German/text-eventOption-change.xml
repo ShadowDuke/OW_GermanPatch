@@ -14,6 +14,14 @@
 		<Translation><![CDATA[Das könnte helfen ihren Stamm zu stabiliseren, fürs Erste]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTOPTION_PLAYER_TRUCE_HOSTAGE_YES</zType>
+		<Translation>We will return the hostage to end the war.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_PLAYER_TRUCE_HOSTAGE_NO</zType>
+		<Translation>We are not ready to stop the fight.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTOPTION_PLAYER_TRUCE_YES</zType>
 		<Translation><![CDATA[Lasst uns das Beenden.]]></Translation>
 	</Entry>
@@ -130,7 +138,7 @@
 		<Translation><![CDATA[Wir werden Gold aus der Schatzkammer anbieten.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_PLAYER_BARBARIAN_WAR_TRIBUTE</zType>
+		<zType>TEXT_EVENTOPTION_PLAYER_BARBARIAN_WAR_TRAINING</zType>
 		<Translation><![CDATA[Ein Tribut an {PLAYER-1} ist in Auftrag gegeben.]]></Translation>
 	</Entry>
 	<Entry>
@@ -142,7 +150,7 @@
 		<Translation><![CDATA[Wir werden Gold aus der Schatzkammer anbieten.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_PLAYER_PLAYER_WAR_TRIBUTE</zType>
+		<zType>TEXT_EVENTOPTION_PLAYER_PLAYER_WAR_TRAINING</zType>
 		<Translation><![CDATA[Ein Tribut an {PLAYER-1} ist in Auftrag gegeben.]]></Translation>
 	</Entry>
 	<Entry>
@@ -206,20 +214,20 @@
 		<Translation><![CDATA[Jetzt ist nicht die Zeit.]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTOPTION_LAW_EPICS</zType>
+		<Translation><![CDATA[Lasst uns unsere eigenen Geschichten erzählen.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LAW_EXPLORATION</zType>
+		<Translation><![CDATA[Die Welt hat viele Geschichten zu erzählen.]]></Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTOPTION_LAW_SLAVERY</zType>
 		<Translation><![CDATA[Wir behalten Sklaven.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_LAW_FREEDOM</zType>
 		<Translation><![CDATA[Unsere Untertanen werden frei sein.]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_LAW_CENTRALIZATION</zType>
-		<Translation><![CDATA[Zentralisierung wird unsere Macht stärken.]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_LAW_VASSALAGE</zType>
-		<Translation><![CDATA[Vasallen trauen unseren Untertanen das Riegieren zu.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_LAW_TYRANNY</zType>
@@ -230,12 +238,12 @@
 		<Translation><![CDATA[Die Gesellschaft soll an Regeln gebunden werden.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_LAW_EPICS</zType>
-		<Translation><![CDATA[Lasst uns unsere eigenen Geschichten erzählen.]]></Translation>
+		<zType>TEXT_EVENTOPTION_LAW_CENTRALIZATION</zType>
+		<Translation><![CDATA[Zentralisierung wird unsere Macht stärken.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_LAW_EXPLORATION</zType>
-		<Translation><![CDATA[Die Welt hat viele Geschichten zu erzählen.]]></Translation>
+		<zType>TEXT_EVENTOPTION_LAW_VASSALAGE</zType>
+		<Translation><![CDATA[Vasallen trauen unseren Untertanen das Riegieren zu.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_LAW_COLONIZATION</zType>
@@ -300,6 +308,10 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_LAW_CALLIGRAPHY</zType>
 		<Translation><![CDATA[Schreiben gibt denen Macht die sie ausüben.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LAW_PILGRIMAGE</zType>
+		<Translation>All the world should see our holy places.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_LAW_HOLY_WAR</zType>
@@ -684,14 +696,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_GOOD_NEWS_OPTION_1</zType>
 		<Translation><![CDATA[Es ist gut für <masculine_CHARACTER-0>ihn<feminine>sie<end> Freunde und Kameraden zu suchen.]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_TUTORIAL_BIREME_SELECTED_OKAY</zType>
-		<Translation>Ich werde meine Schiffe ankern um meinen Einheiten zue erluaben über das Wasser zu segeln!</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_TUTORIAL_SPEARMAN_SELECTED_OKAY</zType>
-		<Translation>Ich werde Speerkämpfer benutzen um berittene Einheiten zu bekämpfen!</Translation>
 	</Entry>
 	<Entry beginGroup="Exploration">
 		<zType>TEXT_EVENTOPTION_RUINS_SURVIVORS_INVITE</zType>
@@ -1098,6 +1102,30 @@
 		<Translation>Ist das nicht das selbe Rätsel, welches Oedipus gelöst hat,... aber ist er nicht noch immer Berühmt dafür seine Mutter geheiratet zu haben?</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTOPTION_RIDDLE_OF_THE_SPHINX_2_ANSWER</zType>
+		<Translation>Day gives birth to night just as night gives birth to day.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RIDDLE_OF_THE_SPHINX_2_JOKE</zType>
+		<Translation>...</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RIDDLE_OF_THE_SPHINX_3_ANSWER</zType>
+		<Translation>My own face in the mirror cannot speak.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RIDDLE_OF_THE_SPHINX_3_JOKE</zType>
+		<Translation>...</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RIDDLE_OF_THE_SPHINX_4_ANSWER</zType>
+		<Translation>Only smoke gives me tears when I am not sad.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RIDDLE_OF_THE_SPHINX_4_JOKE</zType>
+		<Translation>...</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_ALL_THAT_GLITTERS_OPTION_0</zType>
 		<Translation>Ich begrüße einen neuen Platz für königlche Schätze.</Translation>
 	</Entry>
@@ -1288,6 +1316,42 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_SHIP_SICKNESS_OPTION_1</zType>
 		<Translation>Diese Abhilfe konnte noch immer nicht nachgewiesen werden.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HARVEST_FILTHY_ANIMALS_OPTION_0</zType>
+		<Translation>Cooks should dispose of all meat in the kitchens.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HARVEST_FILTHY_ANIMALS_OPTION_1</zType>
+		<Translation>{CHARACTER-SHORT-2} must remain isolated.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HARVEST_FILTHY_ANIMALS_OPTION_2</zType>
+		<Translation>We must study this sickness to learn all we can.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HARVEST_ROSE_MADDER_OPTION_0</zType>
+		<Translation>Crimson dyes will enhance our garments and art.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HARVEST_ROSE_MADDER_OPTION_1</zType>
+		<Translation>Let us explore cultivating more of this plant.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HARVEST_ROSE_MADDER_OPTION_2</zType>
+		<Translation>This herb may hold medicinal properties.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HARVEST_CAPSIZED_OPTION_0</zType>
+		<Translation>Allow {CHARACTER-SHORT-2} to publish {G2:his:her} treatise.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HARVEST_CAPSIZED_OPTION_1</zType>
+		<Translation>Send {G2:him:her} on a royal research expedition.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HARVEST_CAPSIZED_OPTION_2</zType>
+		<Translation>Build {G2:him:her} a fishery to practice new methods.</Translation>
 	</Entry>
 	<Entry beginGroup="Contact">
 		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_CALM_EMISSARY_TRUCE</zType>
@@ -1853,12 +1917,12 @@
 		<zType>TEXT_EVENTOPTION_ZOROASTRIANISM_TEMPLES_NO</zType>
 		<Translation>{RELIGION-0,3} müssen sich einen anderen Ort zum verehren suchen.</Translation>
 	</Entry>
-	 <Entry beginGroup="Community">
+	<Entry beginGroup="Community">
     <zType>TEXT_EVENTOPTION_GOT_YOUR_NOSE_0</zType>
     <Translation>Lachen.</Translation>
-  </Entry>
-  <Entry>
+    </Entry>
+    <Entry>
     <zType>TEXT_EVENTOPTION_GOT_YOUR_NOSE_1</zType>
     <Translation>Schreien.</Translation>
-  </Entry>
+    </Entry>
 </Root>

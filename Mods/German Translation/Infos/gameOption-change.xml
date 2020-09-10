@@ -86,10 +86,9 @@
 	<bSinglePlayer>0</bSinglePlayer>
 	</Entry>
 	<Entry>
-		<zType>GAMEOPTION_NO_DUPLICATE_NATIONS</zType>
-		<zName>Keine doppelten Nationen</zName>
-		<zHelp>Nur ein Spieler kann die selbe Nation wählen.</zHelp>
-		<bDefaultSinglePlayer>1</bDefaultSinglePlayer>
+		<zType>GAMEOPTION_ALLOW_OBSERVE</zType>
+		<zName>Erlaube Spectator Modus</zName>
+		<zHelp>Spieler können dem Spiel aus Zuschauer beitreten</zHelp>
 		<bSinglePlayer>0</bSinglePlayer>
 	</Entry>
 </Root>

@@ -1,58 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- edited with XMLSpy v2018 sp1 (x64) (http://www.altova.com) by Joel Bowers (Mohawk Games) -->
 <Root>
-	<!-- Barbarian -->
 	<Entry>
 		<zType/>
 		<Translation/>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BARBARIAN_PLURAL</zType>
-		<Translation>{0,0}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BARBARIAN_SINGULAR</zType>
-		<Translation>{0,1}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_BARBARIAN_ADJECTIVE</zType>
-		<Translation>{0,2}</Translation>
+		<Translation>{0,1_BarbarianAdjective}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BARBARIAN_SITE</zType>
-		<Translation>{0,2_BarbarianAdjective} Lager</Translation>
-	</Entry>
-	<!-- Nation -->
-	<Entry>
-		<zType>TEXT_NATION_NAME</zType>
-		<Translation>{0,0}</Translation>
+		<Translation>{0,1_BarbarianAdjective} Lager</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_NATION_SINGULAR</zType>
-		<Translation>{0,1}</Translation>
+		<zType>TEXT_NATION_SITE</zType>
+		<Translation>{0,1_NationAdjective} Ort</Translation>
 	</Entry>
-	<Entry>
-		<zType>TEXT_NATION_PLURAL</zType>
-		<Translation>{0,2}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_NATION_ADJECTIVE</zType>
-		<Translation>{0,3}</Translation>
-	</Entry>
-	<!-- Family -->
-	<Entry>
-		<zType>TEXT_FAMILY_SINGULAR</zType>
-		<Translation>{0,0}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_FAMILY_PLURAL</zType>
-		<Translation>{0,1}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_FAMILY_ADJECTIVE</zType>
-		<Translation>{0,2}</Translation>
-	</Entry>
-	<!-- Player -->
 	<Entry>
 		<zType>TEXT_PLAYER_NUMBER</zType>
 		<Translation>Spieler {0_number}</Translation>

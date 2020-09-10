@@ -752,6 +752,10 @@
 		<Translation>Runden Timer: {0}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_MENU_TEAM_NATION</zType>
+		<Translation>Reiche: {0}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MENU_VICTORY_TYPE_ENABLED</zType>
 		<Translation>{0} Siegbedingung aktiviert</Translation>
 	</Entry>
@@ -956,8 +960,8 @@
 		<Translation>Kann keine Wunder mit {LIST} bauen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_WONDERS_BUILT_BY</zType>
-		<Translation> (Von {0_player} gebaut)</Translation>
+		<zType>TEXT_HELPTEXT_WIDGET_WONDERS_CAPTURED_BY</zType>
+		<Translation> (Erbeutet von {0_barbarian})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_WONDERS_IS_BUILDING</zType>
@@ -1176,6 +1180,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_RELEASE_GENERAL</zType>
 		<Translation>Entlasse {0_general} aus der {1_unit}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_CITY_GOVERNOR</zType>
+		<Translation>{0_governor} verwaltet {1_city}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_START_MISSION_CANCEL</zType>
@@ -3768,10 +3776,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Selbe Familie:</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_ENEMY_SAME_FAMILY</zType>
-		<Translation>:Selbe Familie</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_UNIT_TRAIT_BONUS</zType>
 		<Translation>{0_bonusReason} (as {1_unitTrait}):</Translation>
 	</Entry>
@@ -4016,6 +4020,14 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_SEIZE_THRONE</zType>
 		<Translation>Ergreift die Thron von {0_player}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_LEAVE_CITY</zType>
+		<Translation>Beende Statthalterschaft von {0_city}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_LEAVE_CITY_GENERIC</zType>
+		<Translation>Beende Statthalterschaft</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_LEAVE_UNIT</zType>
@@ -4418,6 +4430,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_SPREAD_HELP</zType>
 		<Translation><![CDATA[Wird sich zu neuen Städten {0} <singular_0>jedes Jahr<plural>jede Jahre<end> ausbreiten]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_RELIGION_PREREQ_RELIGION_CITY</zType>
+		<Translation>Benötigt {0,1_religion} Stadt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_PREREQ_NUM_RELIGION_CITIES</zType>
@@ -5153,6 +5169,14 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_IS_X</zType>
 		<Translation>{0}: Ist {1}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_ETHNICITY_NATION</zType>
+		<Translation>{0}: Im link(DIPLOMACY_WAR) mit {1}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_ETHNICITY_BARBARIAN</zType>
+		<Translation>{0}: Im link(DIPLOMACY_WAR) mit den {1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_RATING_TRAIT_ARCHETYPE</zType>

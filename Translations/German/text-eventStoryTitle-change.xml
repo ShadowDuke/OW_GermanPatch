@@ -3377,6 +3377,74 @@
 		<zType>TEXT_EVENTSTORY_STUDY_STUDENT_EMPORIUM_TITLE</zType>
 		<Translation>Student Emporium</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_CLOSING_THE_DEAL_TITLE</zType>
+		<Translation>Closing the Deal</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_SHOEMAKER_TITLE</zType>
+		<Translation>The Shoemaker</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_IN_SEARCH_OF_TRUTH_TITLE</zType>
+		<Translation>In Search of Truth</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_WASHTUB_PHILOSOPHER_TITLE</zType>
+		<Translation>Washtub Philosopher</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LOCAL_NUISANCE_TITLE</zType>
+		<Translation>Local Nuisance</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MAN_OF_THE_PEOPLE_TITLE</zType>
+		<Translation>{G0:Man:Woman} of the People</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_WORK_OF_ART_TITLE</zType>
+		<Translation>Work of Art</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RESIDENT_ARTIST_TITLE</zType>
+		<Translation>Resident Artist</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PIRACY_POWERS_TITLE</zType>
+		<Translation>Piracy Powers</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_POWER_BROKER_TITLE</zType>
+		<Translation>Power Broker</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_OLD_ENEMIES_TITLE</zType>
+		<Translation>Old Enemies</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_POLITICAL_ARENA_TITLE</zType>
+		<Translation>Political Arena</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_ENAMORED_TITLE</zType>
+		<Translation>Enamored</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_LIFE_IS_SHORT_TITLE</zType>
+		<Translation>Life is Short</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_CARAVAN_ATTACK_TITLE</zType>
+		<Translation>Caravan Attack</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_AMBITIOUS_TITLE</zType>
+		<Translation>Ambitious</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELATIONSHIP_FURRY_SPY_TITLE</zType>
+		<Translation>Furry Spy</Translation>
+	</Entry>
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS_TITLE</zType>
 		<Translation>Immigrants</Translation>
@@ -3662,20 +3730,20 @@
 		<Translation>Slavery Now?</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_LAW_SLAVERY_FREEDOM_TITLE</zType>
-		<Translation>Slavery or Freedom</Translation>
+		<zType>TEXT_EVENTSTORY_EPICS_EXPLORATION_TITLE</zType>
+		<Translation>Epics or Exploration</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_CENTRALIZATION_VASSALAGE_TITLE</zType>
-		<Translation>Centralization or Vassalage</Translation>
+		<zType>TEXT_EVENTSTORY_LAW_SLAVERY_FREEDOM_TITLE</zType>
+		<Translation>Slavery or Freedom</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TYRANNY_CONSTITUTION_TITLE</zType>
 		<Translation>Tyranny or Constitution</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_EPICS_EXPLORATION_TITLE</zType>
-		<Translation>Epics or Exploration</Translation>
+		<zType>TEXT_EVENTSTORY_CENTRALIZATION_VASSALAGE_TITLE</zType>
+		<Translation>Centralization or Vassalage</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_COLONIZATION_SERFDOM_TITLE</zType>

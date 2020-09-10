@@ -904,6 +904,11 @@
 		<zText>Had troubles with rival mediated</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_DENIED_TRIBAL_HELP</zType>
+		<zText>Denied help from tribal intermediary</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
 	<Entry beginGroup="Contact">
 		<zType>MEMORYFAMILY_FORCED_TO_KISS_FEET</zType>
 		<zText>Forced to kiss foreign ruler's feet</zText>

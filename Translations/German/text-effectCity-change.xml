@@ -459,4 +459,16 @@
 		<zType>TEXT_EFFECTCITY_STATE_RELIGION_SOURCE</zType>
 		<Translation>Staatsreligion</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_ASCETIC</zType>
+		<Translation>Enthaltsam</Translation>
+	</Entry>
+	<Entry>
+		<zType>EXT_PROJECT_WORK_OF_ART</zType>
+		<Translation>Kunstwerk</Translation>
+	</Entry>
+	<Entry>
+		<zType>EXT_PROJECT_PIRACY_SUPPRESSION</zType>
+		<Translation>Piraterie Unterdrückung</Translation>
+	</Entry>
 </Root>

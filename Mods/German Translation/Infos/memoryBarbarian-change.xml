@@ -294,6 +294,16 @@
 		<zText>Accepted our veteran general</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_PRESERVED_PIRACY</zType>
+		<zText>Preserved piracy as a viable profession</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_MEDIATOR</zType>
+		<zText>Other tribe mediated on our behalf</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
 	<Entry beginGroup="Exploration">
 		<zType>MEMORYBARBARIAN_GIFT_OF_CAMELS</zType>
 		<zText>Geschenk (Kamele) erhalten</zText>

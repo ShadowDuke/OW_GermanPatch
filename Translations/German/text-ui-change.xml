@@ -210,14 +210,6 @@
 		<Translation>Wähle Forschung</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_TECH_PANEL_REDRAWING</zType>
-		<Translation>Ziehe neu...</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_UI_TECH_PANEL_ONE_YEAR_LEFT</zType>
-		<Translation>Wenn</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_UI_UNIT_SELECTION_MAX_LEVEL</zType>
 		<Translation>(MAX LVL)</Translation>
 	</Entry>
@@ -845,6 +837,10 @@
         <Translation>Gleichzeitige Züge</Translation>
     </Entry>
     <Entry>
+		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_TEAM_NATIONS</zType>
+		<Translation>Reiche</Translation>
+	</Entry>
+	<Entry>
         <zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_VICTORY</zType>
         <Translation>Sieg</Translation>
     </Entry>
@@ -1251,6 +1247,10 @@
     <Entry>
         <zType>TEXT_CITY_LIST_FAMILY</zType>
         <Translation>Familie</Translation>
+	</Entry>
+    <Entry>
+        <zType>TEXT_CITY_LIST_RELIGION</zType>
+        <Translation>Religion</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_CITY_LIST_POPULATION</zType>
@@ -1700,6 +1700,10 @@
 		<Translation>Mod Name:</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_MODS_MOD_FILENAME_LABEL</zType>
+		<Translation>Datei Name:</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_MODS_MOD_PICTURE_LABEL</zType>
 		<Translation>Mod Bild:</Translation>
 	</Entry>
@@ -1885,7 +1889,8 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_MODS_ASSIGNED_POPUP_BODY</zType>
-		<Translation><![CDATA[Die folgenden Mods sind aktiv:<br>{0_list}]]></Translation>
+		<Translation><![CDATA[Die folgenden Mods sind aktiv:<br>{0_list}]]>
+		</Translation>		  
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_UNSAVED_MOD_SELECTIONS_NOTICE_POPUP_TITLE</zType>

@@ -82,7 +82,7 @@ Für Feldherren erhöht Mut die Stärke der Einheiten.
 		<aiYieldLeaderRate>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>30</iValue>
+				<iValue>40</iValue>
 			</Pair>
 		</aiYieldLeaderRate>
 		<aiYieldGovernorModifier>
@@ -110,7 +110,7 @@ Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.
 		<aiYieldLeaderRate>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>40</iValue>
+				<iValue>80</iValue>
 			</Pair>
 		</aiYieldLeaderRate>
 		<aiYieldGovernorModifier>

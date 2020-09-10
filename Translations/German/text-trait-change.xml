@@ -388,11 +388,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BLINDED</zType>
-		<Translation>Blind</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_FLED_COUNTRY</zType>
-		<Translation>Aus dem Land geflohen</Translation>
+		<Translation>Erblindet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_IMPRISONED</zType>
@@ -411,8 +407,8 @@
 		<Translation>Vermisst</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_HIDING_ABROAD</zType>
-		<Translation>Versteckt sich im Ausland</Translation>
+		<zType>TEXT_TRAIT_UNDER_ASYLUM</zType>
+		<Translation>Hat Zuflucht gefunden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ELOPED</zType>
@@ -425,6 +421,10 @@
 	<Entry>
 		<zType>TEXT_TRAIT_EXILED</zType>
 		<Translation>Verbannt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_DOOMED</zType>
+		<Translation>Todgeweiht</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_GAY</zType>
@@ -445,6 +445,10 @@
 	<Entry>
 		<zType>TEXT_TRAIT_CLAIMED</zType>
 		<Translation>Beansprucht</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_ARTIST</zType>
+		<Translation>Künstler</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_FAMOUS</zType>
@@ -561,5 +565,9 @@
 	<Entry>
 		<zType>TEXT_TRAIT_DROUGHT_STRICKEN</zType>
 		<Translation>Von Dürre betroffen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_ASCETIC</zType>
+		<Translation>Enthaltsam</Translation>
 	</Entry>
 </Root>

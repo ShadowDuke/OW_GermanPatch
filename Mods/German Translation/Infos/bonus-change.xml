@@ -87,11 +87,11 @@
 		<bFreeTech comment="The Player will receive a random free Tech"/>
 		<bNoCourtier comment="Character will no longer be a Courtier"/>
 		<bLeaveCouncil comment="Character will no longer be on the Council"/>
-		<bReleaseGeneral comment="If set to 1 (true), the character Subject will be released from being a general if they are one"/>
+		<bReleaseGovernor comment="If set to 1 (true), the character Subject will be released from being a governor"/>																										
+		<bReleaseGeneral comment="If set to 1 (true), the character Subject will be released from being a general"/>
 		<bChangeSuccession comment="If set to 1 (true), the game will automatically attempt to set the Player’s inheritance laws so that the character Subject will become your direct heir. Any law changes made cost no Civics"/>
 		<bAbdicate comment="If set to 1 (true), the character Subject abdicates the throne"/>
 		<bChosenHeir comment="Make this Character the Chosen Heir"/>
-		<bDoomCharacter comment="If set to 1 (true), the character Subject becomes doomed (meaning they are guaranteed to die within a few years)"/>
 		<bKillCharacter comment="If set to 1 (true), the character Subject dies immediately"/>
 		<bHaveBastard comment="Character will have a bastard child"/>
 		<bKillUnit comment="If set to 1 (true), the Unit Subject dies immediately"/>
@@ -220,11 +220,11 @@
 		<bFreeTech/>
 		<bNoCourtier/>
 		<bLeaveCouncil/>
+		<bReleaseGovernor/>			 
 		<bReleaseGeneral/>
 		<bChangeSuccession/>
 		<bAbdicate/>
 		<bChosenHeir/>
-		<bDoomCharacter/>
 		<bKillCharacter/>
 		<bHaveBastard/>
 		<bKillUnit/>
@@ -992,7 +992,7 @@
 		<zType>BONUS_MISSIONRESULT_CAPTURE_FLEE</zType>
 		<zName>Capture (Flee)</zName>
 		<aeAddTraits>
-			<zValue>TRAIT_HIDING_ABROAD</zValue>
+			<zValue>TRAIT_UNDER_ASYLUM</zValue>
 		</aeAddTraits>
 		<aeRemoveTraits>
 			<zValue>TRAIT_FUGITIVE</zValue>
@@ -1930,10 +1930,6 @@
 	<Entry>	
 		<zType>BONUS_LEAVE_COUNCIL</zType>
 		<bLeaveCouncil>1</bLeaveCouncil>
-	</Entry>
-	<Entry>
-		<zType>BONUS_DOOM_CHARACTER</zType>
-		<bDoomCharacter>1</bDoomCharacter>
 	</Entry>
 	<Entry>
 		<zType>BONUS_KILL_CHARACTER</zType>
@@ -6545,12 +6541,6 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GIVE_TRAIT_FLED_COUNTRY</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_FLED_COUNTRY</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
 		<zType>BONUS_GIVE_TRAIT_IMPRISONED</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_IMPRISONED</zValue>
@@ -6581,9 +6571,9 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GIVE_TRAIT_HIDING_ABROAD</zType>
+		<zType>BONUS_GIVE_TRAIT_UNDER_ASYLUM</zType>
 		<aeAddTraits>
-			<zValue>TRAIT_HIDING_ABROAD</zValue>
+			<zValue>TRAIT_UNDER_ASYLUM</zValue>
 		</aeAddTraits>
 	</Entry>
 	<Entry>
@@ -6608,6 +6598,18 @@
 		<zType>BONUS_REMOVE_TRAIT_EXILED</zType>
 		<aeRemoveTraits>
 			<zValue>TRAIT_EXILED</zValue>
+		</aeRemoveTraits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_GIVE_TRAIT_DOOMED</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_DOOMED</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_REMOVE_TRAIT_DOOMED</zType>
+		<aeRemoveTraits>
+			<zValue>TRAIT_DOOMED</zValue>
 		</aeRemoveTraits>
 	</Entry>
 	<Entry>
@@ -6699,6 +6701,18 @@
 		<aeAddTraits>
 			<zValue>TRAIT_MOURNING</zValue>
 		</aeAddTraits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_GIVE_TRAIT_DROUGHT_STRICKEN</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_DROUGHT_STRICKEN</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_REMOVE_TRAIT_DROUGHT_STRICKEN</zType>
+		<aeRemoveTraits>
+			<zValue>TRAIT_DROUGHT_STRICKEN</zValue>
+		</aeRemoveTraits>
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBAL_RAID_LAUNCHED_FROM_THIS_CAMP</zType>

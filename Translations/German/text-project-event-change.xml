@@ -164,6 +164,10 @@
 		<Translation>Handbuch der Redekunst</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_PROJECT_LOCAL_ASCETIC</zType>
+		<Translation>Local Ascetic</Translation>
+	</Entry>
+	<Entry>
     <zType>TEXT_PROJECT_AUTONOMOUS_RULE</zType>
     <Translation>Autonome Herrschaft</Translation>
   </Entry>  
@@ -183,4 +187,12 @@
 		<zType>TEXT_PROJECT_LABYRINTH</zType>
 		<Translation>Labyrinth</Translation>
    </Entry>
+    <Entry>
+		<zType>TEXT_PROJECT_WORK_OF_ART</zType>
+		<Translation>Work of Art</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_PIRACY_SUPPRESSION</zType>
+		<Translation>Piracy Suppression</Translation>
+	</Entry>
 </Root>
