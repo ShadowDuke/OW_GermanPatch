@@ -379,6 +379,10 @@
 		<Translation>Felle</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_HONEY</zType>
+		<Translation>Honig</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_INCENSE</zType>
 		<Translation>Weihrauch</Translation>
 	</Entry>
@@ -462,13 +466,5 @@
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_ASCETIC</zType>
 		<Translation>Enthaltsam</Translation>
-	</Entry>
-	<Entry>
-		<zType>EXT_PROJECT_WORK_OF_ART</zType>
-		<Translation>Kunstwerk</Translation>
-	</Entry>
-	<Entry>
-		<zType>EXT_PROJECT_PIRACY_SUPPRESSION</zType>
-		<Translation>Piraterie Unterdrückung</Translation>
 	</Entry>
 </Root>

@@ -3445,6 +3445,70 @@
 		<zType>TEXT_EVENTSTORY_RELATIONSHIP_FURRY_SPY_TITLE</zType>
 		<Translation>Furry Spy</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_ISLAND_COUNCIL_TITLE</zType>
+		<Translation>Island Council</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_OVERBOARD_SUCCESS_TITLE</zType>
+		<Translation>Overboard!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_OVERBOARD_FAILURE_TITLE</zType>
+		<Translation>Overboard!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_VOYAGE_RUSE_TITLE</zType>
+		<Translation>The Voyage Ruse</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MUTINOUS_MILITARY_TITLE</zType>
+		<Translation>Mutinous Military</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_FALSE_LOYALTIES_TITLE</zType>
+		<Translation>False Loyalties</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TAKING_COMMAND_TITLE</zType>
+		<Translation>Taking Command</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_FOR_THE_KING_TITLE</zType>
+		<Translation>For the {G2:King:Queen}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_WRONG_TURN_TITLE</zType>
+		<Translation>Wrong Turn</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_FIT_FOR_A_TOMB_TITLE</zType>
+		<Translation>Fit for a Tomb</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_MAP_AND_THE_DAGGER_TITLE</zType>
+		<Translation>The Map and the Dagger</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NO_ESCAPE_TITLE</zType>
+		<Translation>No Escape</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUNNING_BLOWS_TITLE</zType>
+		<Translation>Stunning Blows</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TALKING_HIM_DOWN_TITLE</zType>
+		<Translation>Talking {G0:Him:Her} Down</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_FORSAKEN_TITLE</zType>
+		<Translation>Forsaken</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LOYALTY_REWARDED_TITLE</zType>
+		<Translation>Loyalty Rewarded</Translation>
+	</Entry>
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS_TITLE</zType>
 		<Translation>Immigrants</Translation>
@@ -5436,5 +5500,17 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_PROPHET_STRIKES_BACK_TITLE</zType>
 		<Translation>The Prophet Strikes Back</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RETURN_OF_THE_PROPHET_TITLE</zType>
+		<Translation>Return of the Prophet</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_CHARIOT_OF_THE_ANOINTED_TITLE</zType>
+		<Translation>Chariot of the Anointed</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_CHARIOT_DIPLOMACY_TITLE</zType>
+		<Translation>Chariot Diplomacy</Translation>
 	</Entry>
 </Root>

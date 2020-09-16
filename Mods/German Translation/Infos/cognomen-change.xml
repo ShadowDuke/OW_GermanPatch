@@ -1634,6 +1634,10 @@
 		<zName>der Reiter</zName>
 	</Entry>
 	<Entry>
+		<zType>COGNOMEN_CARPENTER</zType>
+		<zName>der Zimmerer</zName>
+	</Entry>
+	<Entry>
 		<zType>COGNOMEN_AFFABLE</zType>
 		<zName>der Umgängliche</zName>
 	</Entry>
@@ -1668,6 +1672,10 @@
 	<Entry>
 		<zType>COGNOMEN_CRUEL</zType>
 		<zName>der Grausame</zName>
+	</Entry>
+	<Entry>
+		<zType>COGNOMEN_INTOLERANT</zType>
+		<zName>der Unduldsame</zName>
 	</Entry>
 	<Entry>
 		<zType>COGNOMEN_SLOTHFUL</zType>
@@ -1854,6 +1862,10 @@
 		<zName>der Fromme</zName>
 	</Entry>
 	<Entry>
+		<zType>COGNOMEN_WANTON</zType>
+		<zName>der Schamlose</zName>
+	</Entry>
+	<Entry>
 		<zType>COGNOMEN_HUMBLE</zType>
 		<zName>der Bescheidene</zName>
 	</Entry>
@@ -1880,7 +1892,15 @@
   <Entry>
 		<zType>COGNOMEN_WITTY</zType>
 		<zName>Der Geistreiche</zName>
-	</Entry>		  
+	</Entry>
+	<Entry>
+		<zType>COGNOMEN_INSANE</zType>
+		<zName>der Verrückte</zName>
+	</Entry>
+	<Entry>
+		<zType>COGNOMEN_DRUNK</zType>
+		<zName>der Trunkenbold</zName>
+	</Entry>	  
 	<Entry>
 		<zType>COGNOMEN_BLESSED</zType>
 		<zName>der Gesegnete</zName>
@@ -1984,12 +2004,7 @@
 	</Entry>
 	<Entry>
 		<zType>COGNOMEN_DESIRED</zType>
-		<zName>der Erhoffte</zName>
-		<bGeneric>1</bGeneric>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_DRUNKARD</zType>
-		<zName>der Säufer</zName>
+		<zName>der Begehrte</zName>
 		<bGeneric>1</bGeneric>
 	</Entry>
 	<Entry>

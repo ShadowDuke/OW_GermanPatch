@@ -414,6 +414,10 @@
 		<Translation>VERLOREN!!!</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_MAX_CITIES</zType>
+		<Translation><![CDATA[Max <singular_1>Stadt<plural>Städte<end>: {0}/{1}]]></Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_RENAME_CITY_POPUP</zType>
 		<Translation>Stadt umbenennen</Translation>
 	</Entry>
@@ -575,55 +579,56 @@
     </Entry>
     <!--single player menu-->
     <Entry>
-        <zType>SP_MENU_SCREEN_NEWGAME_BUTTON</zType>
+        <zType>TEXT_SP_MENU_SCREEN_NEWGAME_BUTTON</zType>
         <Translation>Neues Spiel</Translation>
     </Entry>
     <Entry>
-        <zType>SP_MENU_SCREEN_LOADGAME_BUTTON</zType>
+        <zType>TEXT_SP_MENU_SCREEN_LOADGAME_BUTTON</zType>
         <Translation>Spiel Laden</Translation>
     </Entry>
     <Entry>
-        <zType>SP_MENU_SCREEN_SCEN_BUTTON</zType>
+        <zType>TEXT_SP_MENU_SCREEN_SCEN_BUTTON</zType>
         <Translation>Szenario</Translation>
     </Entry>
     <Entry>
-        <zType>SP_MENU_SCREEN_GOFTW_BUTTON</zType>
+        <zType>TEXT_SP_MENU_SCREEN_GOFTW_BUTTON</zType>
         <Translation>Spiel der Woche</Translation>
     </Entry>
     <Entry>
-        <zType>SP_MENU_SCREEN_BACK_BUTTON</zType>
+        <zType>TEXT_SP_MENU_SCREEN_BACK_BUTTON</zType>
         <Translation>Zurück</Translation>
     </Entry>
     <!--multiplayer menu-->
     <Entry>
-        <zType>MP_MENU_SCREEN_JOIN_BUTTON</zType>
+        <zType>TEXT_MP_MENU_SCREEN_JOIN_BUTTON</zType>
         <Translation>Beitreten</Translation>
     </Entry>
     <Entry>
-        <zType>MP_MENU_SCREEN_NEWGAME_BUTTON</zType>
+        <zType>TEXT_MP_MENU_SCREEN_NEWGAME_BUTTON</zType>
         <Translation>Neues Spiel</Translation>
     </Entry>
     <Entry>
-        <zType>MP_MENU_SCREEN_LOADGAME_BUTTON</zType>
+        <zType>TEXT_MP_MENU_SCREEN_LOADGAME_BUTTON</zType>
         <Translation>Spiel Laden</Translation>
     </Entry>
     <Entry>
-        <zType>MP_MENU_SCREEN_CLOUD_BUTTON</zType>
+        <zType>TEXT_MP_MENU_SCREEN_CLOUD_BUTTON</zType>
         <Translation>Cloud Laden</Translation>
     </Entry>
     <Entry>
-        <zType>MP_MENU_SCREEN_BACK_BUTTON</zType>
+        <zType>TEXT_MP_MENU_SCREEN_BACK_BUTTON</zType>
         <Translation>Zurück</Translation>
     </Entry>
     <!--cloud-->
     <Entry>
-        <zType>CLOUD_SCREEN_BACK_BUTTON</zType>
+        <zType>TEXT_CLOUD_SCREEN_BACK_BUTTON</zType>
         <Translation>Zurück</Translation>
 	</Entry>
 	<!--MP wizard screen-->
 	<Entry>
-		<zType>MP_WIZARD_SCREEN_TITLE</zType>
-		<Translation>Bitte wähle den Mehrspieler Modus aus</Translation>
+		<zType>TEXT_MP_WIZARD_SCREEN_TITLE</zType>
+		<Translation>Bitte wähle den Mehrspieler Modus aus
+		</Translation>		
 	</Entry>
 	<Entry>
 		<zType>TEXT_MP_WIZARD_SCREEN_NETWORK_MODE</zType>
@@ -642,36 +647,32 @@
 		<Translation>Host multiple games without joining them</Translation>
 	</Entry>
 	<Entry>
-		<zType>MP_WIZARD_SCREEN_NETWORK_MODE_BUTTON</zType>
+		<zType>TEXT_MP_WIZARD_SCREEN_NETWORK_MODE_BUTTON</zType>
 		<Translation>Netzwerk Modus</Translation>
 	</Entry>
 	<Entry>
-		<zType>MP_WIZARD_SCREEN_PLAY_BY_CLOUD_MODE_BUTTON</zType>
+		<zType>TEXT_MP_WIZARD_SCREEN_PLAY_BY_CLOUD_MODE_BUTTON</zType>
 		<Translation>Spiele im Cloud Modus</Translation>
 	</Entry>
 	<Entry>
-		<zType>MP_WIZARD_SCREEN_HOTSEAT_MODE_BUTTON</zType>
+		<zType>TEXT_MP_WIZARD_SCREEN_HOTSEAT_MODE_BUTTON</zType>
 		<Translation>Hotseat Modus</Translation>
 	</Entry>
 	<Entry>
-		<zType>MP_WIZARD_SCREEN_SERVER_MODE_BUTTON</zType>
+		<zType>TEXT_MP_WIZARD_SCREEN_SERVER_MODE_BUTTON</zType>
 		<Translation>Server Modus</Translation>
 	</Entry>
 	<Entry>
-		<zType>MP_WIZARD_SCREEN_BACK_BUTTON</zType>
+		<zType>TEXT_MP_WIZARD_SCREEN_BACK_BUTTON</zType>
 		<Translation>Zurück</Translation>
 	</Entry>
     <!--multiplayer games screen-->
     <Entry>
-        <zType>MP_GAME_SCREEN_BUTTON</zType>
+        <zType>TEXT_MP_GAME_SCREEN_BUTTON</zType>
         <Translation>Mehrspieler</Translation>
     </Entry>
     <Entry>
-        <zType>MP_GAME_SCREEN_GBROWS_BUTTON</zType>
-        <Translation>Spiel Browser</Translation>
-    </Entry>
-    <Entry>
-        <zType>MP_GAME_SCREEN_BROWSER_BUTTON</zType>
+        <zType>TEXT_MP_GAME_SCREEN_BROWSER_BUTTON</zType>
         <Translation>Spiel Browser</Translation>
     </Entry>
     <!--games header in multiplayer-->
@@ -693,11 +694,11 @@
     </Entry>
     <!--multiplayer-->
     <Entry>
-        <zType>MP_PLAYERS_SCREEN_OBSERVE_BUTTON</zType>
+        <zType>TEXT_MP_PLAYERS_SCREEN_OBSERVE_BUTTON</zType>
         <Translation>Beobachten</Translation>
     </Entry>
     <Entry>
-        <zType>MP_PLAYERS_SCREEN_BACK_BUTTON</zType>
+        <zType>TEXT_MP_PLAYERS_SCREEN_BACK_BUTTON</zType>
         <Translation>Zurück</Translation>
     </Entry>
     <!--tools-->

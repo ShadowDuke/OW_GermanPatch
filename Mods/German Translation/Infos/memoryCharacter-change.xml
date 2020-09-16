@@ -226,11 +226,6 @@
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYCHARACTER_REFUSED_POISON_LAB</zType>
-		<zText>Refused request for poison lab</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
-	</Entry>
-	<Entry>
 		<zType>MEMORYCHARACTER_APPROVED_POISON_LAB</zType>
 		<zText>Das Gift Labor gebilligt</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
@@ -614,7 +609,7 @@
 	<Entry>
 		<zType>MEMORYCHARACTER_EVENTOPTION_TRADE_MISSION_NO_FAIL</zType>
 		<zText>Refused our request for a gift</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_FOREVER</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_CANCEL_TRADE_DEMAND_YES</zType>
@@ -624,7 +619,7 @@
 	<Entry>
 		<zType>MEMORYCHARACTER_CANCEL_TRADE_DEMAND_NO</zType>
 		<zText>Refused to Cancel Trade with our enemy</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_FOREVER</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_LONG</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_DECLARE_WAR_DEMAND_YES</zType>
@@ -634,7 +629,7 @@
 	<Entry>
 		<zType>MEMORYCHARACTER_DECLARE_WAR_DEMAND_NO</zType>
 		<zText>Refused to Declare War on our enemy</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_FOREVER</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_LONG</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_EVENTOPTION_WAR_OFFER_RELIGION_STATE_YES</zType>
@@ -865,11 +860,6 @@
 		<zType>MEMORYCHARACTER_SCRIPTURE_AS_TEXT</zType>
 		<zText>Read religious text for pleasure only</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
-	</Entry>
-	<Entry>
-		<zType>MEMORYCHARACTER_STAYED_ON_COURT</zType>
-		<zText>Kept from missionary work</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_TRAIT_GIFT_POSITIVE_LEADER</zType>

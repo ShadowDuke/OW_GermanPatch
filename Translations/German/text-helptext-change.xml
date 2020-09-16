@@ -220,7 +220,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_SIZE</zType>
-		<Translation><![CDATA[<lt>size={1_size}%<gt>{0_value}</size>]]></Translation>
+		<Translation><![CDATA[<lt>Größe={1_size}%<gt>{0_value}</size>]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_SIZE_AND_COLOR</zType>
+		<Translation><![CDATA[<lt>Größe={0_size}%<gt><lt>Farbe={1_hexcode}<gt>{2_value}</color></size>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_INLINE_ICON</zType>
@@ -522,6 +526,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_RIVER</zType>
 		<Translation>Fluss</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_ROLE_LEADER</zType>
+		<Translation>Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_ROLE_SPOUSE</zType>
@@ -960,6 +968,10 @@
 		<Translation>Kann keine Wunder mit {LIST} bauen</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_WONDERS_OWNED_BY</zType>
+		<Translation> (Gehört {0_player})</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_WONDERS_CAPTURED_BY</zType>
 		<Translation> (Erbeutet von {0_barbarian})</Translation>
 	</Entry>
@@ -1162,7 +1174,11 @@
 		<Translation>Kandidaten verfügbar (Stellen):</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_ADD_GENERAL_LEADS_UNIT</zType>
+		<zType>TEXT_HELPTEXT_WIDGET_COUNCIL_CHARACTER</zType>
+		<Translation>{0_character} dient als {1_unit}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_UNIT_GENERAL</zType>									  
 		<Translation>{0_character} führt die {1_unit}</Translation>
 	</Entry>
 	<Entry>
@@ -2185,6 +2201,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Tribut an: {0} {1_turns}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TRADE_ROUTE</zType>
+		<Translation>The Unit moves once per Year to a Foreign Capital. Upon safe arrival, the nation receives a link(YIELD_MONEY) and an Opinion boost.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORS</zType>
 		<Translation><![CDATA[Wird die Popularität unserer Nachkommen des aktuellen Oberhauptes steigern (muss ein Kind älter als {0_age} sein)<br>Derzeitiger Schüler:]]></Translation>
 	</Entry>
@@ -2385,6 +2405,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_NET_CONSTRUCTION</zType>
 		<Translation>{0}: Kontruktion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_YIELD_NET_CITY_SITE</zType>
+		<Translation>{0}: Verteidigt Stadt Platz</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_NET_TRADE_ROUTES</zType>
@@ -2815,8 +2839,16 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Kritisch: {0}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_FATIGUED</zType>
+		<Translation>Einheit ist ermüdet</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_FATIGUE</zType>
 		<Translation><![CDATA[Ermüdung:<br><true_0>{0}<false>Keine<end> Bewegung mehr]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_FATIGUED_HELP</zType>
+		<Translation>(Ermüdete Einheiten können sich nicht ohne gewzungenes marschieren bwegen)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_LEVEL</zType>
@@ -2917,10 +2949,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_SAME_UNIT_ADJACENT</zType>
 		<Translation>Wenn am verteidigen mit angrenzender {0_effectUnit} Einheit: {1_value}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_DEFENSE_SAME_UNIT_ADJACENT</zType>
-		<Translation>Selbe benachbarte Einheit: {0_value}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_HEAL_EXTRA</zType>
@@ -3610,6 +3638,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>icon(bullet)[Bei Sitzgründung] </Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_PREFERS_DISTANT_CITIES</zType>
+		<Translation>Bevorzugt ferne Städte</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILYCLASS_NATIONS_WITH_CLASS</zType>
 		<Translation>Staaten mit dieser Familien-Klasse:</Translation>
 	</Entry>
@@ -3713,14 +3745,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_CITY_THEOLOGY</zType>
 		<Translation>Städte mit {0_theology}: {1_value}</Translation>
 	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_PREFERS_DISTANT_CITIES</zType>
-		<Translation>Bevorzugt ferne Städte</Translation>
-	</Entry>
 	<!--Barbarian Help-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_BARBARIAN_LEADER</zType>
-		<Translation>Oberhaupt: {0}</Translation>
+		<Translation>Barbaren Anführer: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BARBARIAN_TRIBUTE_FROM</zType>
@@ -5097,6 +5125,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_FAMILY</zType>
 		<Translation>Familie: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_HELP_TRIBE_LEADER</zType>
+		<Translation>Stammesführer: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_TRIBE</zType>

@@ -801,7 +801,7 @@
 		<aiYieldHarvest>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>15</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiYieldHarvest>
 		<abTerrainValid>
@@ -811,6 +811,45 @@
 			</Pair>
 			<Pair>
 				<zIndex>TERRAIN_TEMPERATE</zIndex>
+				<bValue>1</bValue>
+			</Pair>
+		</abTerrainValid>
+		<abHeightValid>
+			<Pair>
+				<zIndex>HEIGHT_FLAT</zIndex>
+				<bValue>1</bValue>
+			</Pair>
+			<Pair>
+				<zIndex>HEIGHT_HILL</zIndex>
+				<bValue>1</bValue>
+			</Pair>
+		</abHeightValid>
+	</Entry>
+	<Entry>
+		<zType>RESOURCE_HONEY</zType>
+		<zName>Honig</zName>
+		<AssetVariation>ASSET_VARIATION_RESOURCE_HONEY</AssetVariation>
+		<zIconName>RESOURCE_HONEY</zIconName>
+		<iProbThousand>15</iProbThousand>
+		<iBorderValue>800</iBorderValue>
+		<iHarvestCost>1</iHarvestCost>
+		<iHarvestRoll>10</iHarvestRoll>
+		<bNoVegetation>1</bNoVegetation>
+		<aiYieldReveal>
+			<Pair>
+				<zIndex>YIELD_FOOD</zIndex>
+				<iValue>10</iValue>
+			</Pair>
+		</aiYieldReveal>
+		<aiYieldHarvest>
+			<Pair>
+				<zIndex>YIELD_CULTURE</zIndex>
+				<iValue>10</iValue>
+			</Pair>
+		</aiYieldHarvest>
+		<abTerrainValid>
+			<Pair>
+				<zIndex>TERRAIN_LUSH</zIndex>
 				<bValue>1</bValue>
 			</Pair>
 		</abTerrainValid>
@@ -982,7 +1021,7 @@
 		<zName>Färbemittel</zName>
 		<AssetVariation>ASSET_VARIATION_RESOURCE_DYE</AssetVariation>
 		<zIconName>RESOURCE_DYE</zIconName>
-		<iProbThousand>15</iProbThousand>
+		<iProbThousand>20</iProbThousand>
 		<iMaxLatitude>60</iMaxLatitude>
 		<iBorderValue>1600</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>

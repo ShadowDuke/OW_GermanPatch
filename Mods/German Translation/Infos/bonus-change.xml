@@ -683,7 +683,13 @@
 			</Pair>
 		</aiRatings>
 	</Entry>
-	<Entry>	
+	<Entry>
+		<zType>BONUS_ADD_WALLS</zType>
+		<aeAddProjects>
+			<zValue>PROJECT_WALLS</zValue>
+		</aeAddProjects>
+	</Entry>
+	<Entry>
 		<zType>BONUS_REVEAL_MAP</zType>
 		<iRevealRange>5</iRevealRange>
 	</Entry>
@@ -1037,7 +1043,7 @@
 		<zType>BONUS_PROJECT_TREASURY_1</zType>
 		<aiGlobalYieldsBase>
 			<Pair>
-				<zIndex>YIELD_CIVICS</zIndex>
+				<zIndex>YIELD_MONEY</zIndex>
 				<iValue>20</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
@@ -1046,7 +1052,7 @@
 		<zType>BONUS_PROJECT_TREASURY_2</zType>
 		<aiGlobalYieldsBase>
 			<Pair>
-				<zIndex>YIELD_CIVICS</zIndex>
+				<zIndex>YIELD_MONEY</zIndex>
 				<iValue>30</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
@@ -1055,7 +1061,7 @@
 		<zType>BONUS_PROJECT_TREASURY_3</zType>
 		<aiGlobalYieldsBase>
 			<Pair>
-				<zIndex>YIELD_CIVICS</zIndex>
+				<zIndex>YIELD_MONEY</zIndex>
 				<iValue>40</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
@@ -1064,7 +1070,7 @@
 		<zType>BONUS_PROJECT_TREASURY_4</zType>
 		<aiGlobalYieldsBase>
 			<Pair>
-				<zIndex>YIELD_CIVICS</zIndex>
+				<zIndex>YIELD_MONEY</zIndex>
 				<iValue>50</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
@@ -1109,7 +1115,7 @@
 		<zType>BONUS_PROJECT_ARCHIVE_1</zType>
 		<aiGlobalYieldsBase>
 			<Pair>
-				<zIndex>YIELD_CIVICS</zIndex>
+				<zIndex>YIELD_SCIENCE</zIndex>
 				<iValue>20</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
@@ -1118,7 +1124,7 @@
 		<zType>BONUS_PROJECT_ARCHIVE_2</zType>
 		<aiGlobalYieldsBase>
 			<Pair>
-				<zIndex>YIELD_CIVICS</zIndex>
+				<zIndex>YIELD_SCIENCE</zIndex>
 				<iValue>30</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
@@ -1127,7 +1133,7 @@
 		<zType>BONUS_PROJECT_ARCHIVE_3</zType>
 		<aiGlobalYieldsBase>
 			<Pair>
-				<zIndex>YIELD_CIVICS</zIndex>
+				<zIndex>YIELD_SCIENCE</zIndex>
 				<iValue>40</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
@@ -1136,7 +1142,7 @@
 		<zType>BONUS_PROJECT_ARCHIVE_4</zType>
 		<aiGlobalYieldsBase>
 			<Pair>
-				<zIndex>YIELD_CIVICS</zIndex>
+				<zIndex>YIELD_SCIENCE</zIndex>
 				<iValue>50</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
@@ -1940,6 +1946,10 @@
 		<bHaveBastard>1</bHaveBastard>
 	</Entry>
 	<Entry>
+		<zType>BONUS_BARB_RAID</zType>
+		<bBarbRaid>1</bBarbRaid>
+	</Entry>
+	<Entry>
 		<zType>BONUS_XP_UNIT_SMALL</zType>
 		<iXPUnit>20</iXPUnit>
 	</Entry>
@@ -2086,6 +2096,18 @@
 	<Entry>
 		<zType>BONUS_DISCONTENT_DOWN</zType>
 		<iDiscontentLevels>-1</iDiscontentLevels>
+	</Entry>
+	<Entry>
+		<zType>BONUS_REBEL_UNITS_1</zType>
+		<iRebelUnits>1</iRebelUnits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_REBEL_UNITS_2</zType>
+		<iRebelUnits>2</iRebelUnits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_REBEL_UNITS_3</zType>
+		<iRebelUnits>3</iRebelUnits>
 	</Entry>
 	<Entry>
 		<zType>BONUS_UNIT_WORKER</zType>
@@ -5322,6 +5344,36 @@
 		</aiYieldsTributePerUs>
 	</Entry>
 	<Entry>
+		<zType>BONUS_TRIBUTE_GIVE_MONEY_HUGE</zType>
+		<aiYieldsTributeBase>
+			<Pair>
+				<zIndex>YIELD_MONEY</zIndex>
+				<iValue>-300</iValue>
+			</Pair>
+		</aiYieldsTributeBase>
+		<aiYieldsTributePerUs>
+			<Pair>
+				<zIndex>YIELD_MONEY</zIndex>
+				<iValue>-50</iValue>
+			</Pair>
+		</aiYieldsTributePerUs>
+	</Entry>
+	<Entry>
+		<zType>BONUS_TRIBUTE_GIVE_MONEY_GIGANTIC</zType>
+		<aiYieldsTributeBase>
+			<Pair>
+				<zIndex>YIELD_MONEY</zIndex>
+				<iValue>-400</iValue>
+			</Pair>
+		</aiYieldsTributeBase>
+		<aiYieldsTributePerUs>
+			<Pair>
+				<zIndex>YIELD_MONEY</zIndex>
+				<iValue>-60</iValue>
+			</Pair>
+		</aiYieldsTributePerUs>
+	</Entry>
+	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_ORDERS_SMALL</zType>
 		<aiYieldsTributeBase>
 			<Pair>
@@ -6438,6 +6490,18 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
+		<zType>BONUS_GIVE_TRAIT_DRUNK</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_DRUNK</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_GIVE_TRAIT_INSANE</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_INSANE</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>
 		<zType>BONUS_GIVE_TRAIT_STUDY_TACTICS</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_STUDY_TACTICS</zValue>
@@ -6685,21 +6749,21 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GIVE_TRAIT_DRUNK</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_DRUNK</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_GIVE_TRAIT_INSANE</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_INSANE</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
 		<zType>BONUS_GIVE_TRAIT_MOURNING</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_MOURNING</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_GIVE_TRAIT_PROPHET</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_PROPHET</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_GIVE_TRAIT_ARCHON</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_ARCHON</zValue>
 		</aeAddTraits>
 	</Entry>
 	<Entry>
@@ -6713,15 +6777,5 @@
 		<aeRemoveTraits>
 			<zValue>TRAIT_DROUGHT_STRICKEN</zValue>
 		</aeRemoveTraits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_TRIBAL_RAID_LAUNCHED_FROM_THIS_CAMP</zType>
-		<bBarbRaid>1</bBarbRaid>
-	</Entry>
-	<Entry>
-		<zType>BONUS_WALLS</zType>
-		<aeAddProjects>
-			<zValue>PROJECT_WALLS</zValue>
-		</aeAddProjects>
 	</Entry>
 </Root>
