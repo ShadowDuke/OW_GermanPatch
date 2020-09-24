@@ -43,6 +43,18 @@
 		<Translation>Luxusgüter</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTCITY_FAMILYCLASS_STATESMEN_SEAT_DECREE</zType>
+		<Translation>Erlass</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_FAMILYCLASS_SAGES_SEAT_INQUIRY</zType>
+		<Translation>Anfrage</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_FAMILYCLASS_HUNTERS_SEAT_HUNT</zType>
+		<Translation>Jagd</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTCITY_AMBITION_CAPITAL</zType>
 		<Translation>Ambitionen vollendet</Translation>
 	</Entry>
@@ -449,6 +461,122 @@
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_ZEALOT_ARCHETYPE_STATE</zType>
 		<Translation>Wortführer der Fanatiker</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_AFFABLE_ALL</zType>
+		<Translation>Umgänglicher Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_ELOQUENT_ALL</zType>
+		<Translation>Redegewandter Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_WARLIKE_ALL</zType>
+		<Translation>Kriegerischer Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_INSPIRING_ALL</zType>
+		<Translation>Ehrwürdiger Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_INTELLIGENT_ALL</zType>
+		<Translation>Intelligenter Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_PROSPEROUS_ALL</zType>
+		<Translation>Glücklicher Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_FRUGAL_ALL</zType>
+		<Translation>Sparsamer Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_RIGHTEOUS_ALL</zType>
+		<Translation>Rechtschaffender Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_CRUEL_ALL</zType>
+		<Translation>Grausamer Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_INTOLERANT_ALL</zType>
+		<Translation>Intoleranter Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_SLOTHFUL_ALL</zType>
+		<Translation>Träger Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_UNCOUTH_ALL</zType>
+		<Translation>Korrupter Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_FOOLISH_ALL</zType>
+		<Translation>Grober Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_EXTRAVAGANT_ALL</zType>
+		<Translation>Dummer Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_CORRUPT_ALL</zType>
+		<Translation>Ausschweifender Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_DEBAUCHED_ALL</zType>
+		<Translation>Verdorbener Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_ROBUST</zType>
+		<Translation>Robuster Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_VIGILANT</zType>
+		<Translation>Wachsamer Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_STRICT</zType>
+		<Translation>Strenger Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_DRILLMASTER</zType>
+		<Translation>Drillmaster Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_KEEN</zType>
+		<Translation>Begeisteter Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_EQUESTRIAN</zType>
+		<Translation>Reiter Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_CARPENTER</zType>
+		<Translation>Zimmerer Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_ANGLER</zType>
+		<Translation>Fischr Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_PLANTER</zType>
+		<Translation>Pflanzer Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_FORESTER</zType>
+		<Translation>Förster Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_DELVER</zType>
+		<Translation>Buddler Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_SMELTER</zType>
+		<Translation>Schmelzer Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_HERDER</zType>
+		<Translation>Hirten Anführer</Translation>
 	</Entry>
 	<!--Source-->
 	<Entry>

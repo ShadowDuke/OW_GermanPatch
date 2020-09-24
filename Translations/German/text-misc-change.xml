@@ -42,6 +42,10 @@
 		<zType>TEXT_HOTKEY_SHIFT_CLICK</zType>
 		<Translation>[SHIFT+KLICK]</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_ALT_CLICK</zType>
+		<Translation>[ALT+KLICK]</Translation>
+	</Entry>
   <Entry>
     <zType>TEXT_HOTKEY_CTRL_SHIFT_CLICK</zType>
     <Translation>[STRG+SHIFT+KLICK]</Translation>

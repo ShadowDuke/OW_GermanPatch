@@ -167,11 +167,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_BIREME_SELECTED_TITLE</zType>
-		<Translation>Tutorial: Bireme Ausgewählt</Translation>
+		<Translation>Tutorial: link(UNIT_BIREME) Ausgewählt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_SPEARMAN_SELECTED_TITLE</zType>
-		<Translation>Tutorial: Speerkämpfer Ausgewählt</Translation>
+		<Translation>Tutorial: link(UNIT_SPEARMAN Ausgewählt</Translation>
 	</Entry>
 	<Entry beginGroup="Exploration">
 		<zType>TEXT_EVENTSTORY_RUINS_SURVIVORS_TITLE</zType>
@@ -1189,6 +1189,14 @@
 		<zType>TEXT_EVENTSTORY_NEW_ALLIANCE_TITLE</zType>
 		<Translation>Neues Bündnis</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_HOSTILE_PLAYER_PLAYER_WAR_TITLE</zType>
+		<Translation>[SCHLECHTE NACHRICHTEN]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_HOSTILE_PLAYER_BARBARIAN_WAR_TITLE</zType>
+		<Translation>[SCHLECHTE NACHRICHTEN]</Translation>
+	</Entry>
 	<Entry beginGroup="Combat">
 		<zType>TEXT_EVENTSTORY_LEADER_SMITING_FOES_TITLE</zType>
 		<Translation>Smiting Foes</Translation>
@@ -2040,22 +2048,6 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_INQUIRING_MINDS_SUCCESS_TITLE</zType>
 		<Translation>Inquiring Minds</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_GREAT_PERSON_A1_TITLE</zType>
-		<Translation>Great Achievers</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_GREAT_PERSON_A2_TITLE</zType>
-		<Translation>Brilliant Achievers</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_GREAT_PERSON_B1_TITLE</zType>
-		<Translation>Great Thinkers</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_GREAT_PERSON_B2_TITLE</zType>
-		<Translation>Brilliant Thinkers</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_WISDOM_LITERATURE_TITLE</zType>
@@ -3509,6 +3501,94 @@
 		<zType>TEXT_EVENTSTORY_LOYALTY_REWARDED_TITLE</zType>
 		<Translation>Loyalty Rewarded</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_UPRISING_TITLE</zType>
+		<Translation>Uprising</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_OVER_MY_DEAD_BODY_TITLE</zType>
+		<Translation>Over My Dead Body</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BACK_IN_COMMAND_TITLE</zType>
+		<Translation>Back in Command</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_OVERTAKEN_TITLE</zType>
+		<Translation>Overtaken</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_DANCING_ASS_TITLE</zType>
+		<Translation>The Dancing Ass</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_LONG_NIGHT_TITLE</zType>
+		<Translation>The Long Night</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_LAST_LAUGH_TITLE</zType>
+		<Translation>The Last Laugh</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MISMATCHED_TITLE</zType>
+		<Translation>Mismatched</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_UNEXPECTED_GUEST_TITLE</zType>
+		<Translation>Uninvited Guest</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_VIOLENT_ALTERCATION_TITLE</zType>
+		<Translation>Violent Altercation</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISHONOR_OUR_ANCESTORS_TITLE</zType>
+		<Translation>Dishonor Our Ancestors</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_WALK_AWAY_TITLE</zType>
+		<Translation>Walk Away</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_ON_THE_EDGE_TITLE</zType>
+		<Translation>On the Edge</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_A_HOLY_STATE_TITLE</zType>
+		<Translation>A Holy State</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BLEEDING_FOR_NATION_TITLE</zType>
+		<Translation>Bleeding for {PLAYER-2}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COUNCIL_SWAP_TITLE</zType>
+		<Translation>Council Swap</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INTERFERENCE_TITLE</zType>
+		<Translation>Interference</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_ROGUE_NATION_TITLE</zType>
+		<Translation>Rogue Nation</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_ASCETICISM_TITLE</zType>
+		<Translation>Asceticism</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_CARNIVORISM_TITLE</zType>
+		<Translation>Carnivorism</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_HEDONISM_TITLE</zType>
+		<Translation>Hedonism</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_ALTRUISM_TITLE</zType>
+		<Translation>Altruism</Translation>
+	</Entry>
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS_TITLE</zType>
 		<Translation>Immigrants</Translation>
@@ -3784,6 +3864,70 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RELIGION_OPINION_TITLE</zType>
 		<Translation>[RELIGIÖSE DEBATTE]</Translation>
+	</Entry>
+	<Entry beginGroup="Law">
+		<zType>TEXT_EVENTSTORY_THREAT_OF_MUTINY_TITLE</zType>
+		<Translation>Threat of Mutiny</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_WEAK_WILL_TITLE</zType>
+		<Translation>Weak Will</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LAW_MUST_I_DO_EVERYTHING_TITLE</zType>
+		<Translation>Must I Do Everything?</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LAW_BALANCE_OF_POWER_TITLE</zType>
+		<Translation>Balance of Power</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LAW_TIME_TO_CELEBRATE_TITLE</zType>
+		<Translation>Time to Celebrate</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LAW_A_SINGULAR_VISION_TITLE</zType>
+		<Translation>A Singular Vision</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LAW_SHARE_THE_BURDEN_TITLE</zType>
+		<Translation>Share the Burden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LAW_THE_STREET_SINGER_TITLE</zType>
+		<Translation>The Street Singer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LAW_NEW_HORIZONS_TITLE</zType>
+		<Translation>New Horizons</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LAW_IDLE_HANDS_TITLE</zType>
+		<Translation>Idle Hands</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LAW_A_FEEBLE_MILITARY_TITLE</zType>
+		<Translation>A Feeble Force</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LAW_CAPTIVES_OF_BELIEF_TITLE</zType>
+		<Translation>Captives of Belief</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LAW_HEAVENS_CHOSEN_TITLE</zType>
+		<Translation>Heaven's Chosen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LAW_FRIEND_OF_THE_FAITH_TITLE</zType>
+		<Translation>Friend of the Faith</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LAW_ABUNDANCE_OF_RICHES_TITLE</zType>
+		<Translation>Abundance of Riches</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LAW_UNPAID_DEBTS_TITLE</zType>
+		<Translation>Unpaid Debts</Translation>
 	</Entry>
 	<Entry beginGroup="Miscellaneous">
 		<zType>TEXT_EVENTSTORY_ADOPT_RELIGION_TITLE</zType>
@@ -4251,63 +4395,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_INSOLENT_GENERALS_TITLE</zType>
-		<Translation><![CDATA[Unverschämte Feldherren]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_LAW_MUST_I_DO_EVERYTHING_TITLE</zType>
-		<Translation><![CDATA[Must I Do Everything?]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_LAW_BALANCE_OF_POWER_TITLE</zType>
-		<Translation><![CDATA[Balance of Power]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_LAW_TIME_TO_CELEBRATE_TITLE</zType>
-		<Translation><![CDATA[Time to Celebrate]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_LAW_A_SINGULAR_VISION_TITLE</zType>
-		<Translation><![CDATA[A Singular Vision]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_LAW_SHARE_THE_BURDEN_TITLE</zType>
-		<Translation><![CDATA[Share the Burden]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_LAW_THE_STREET_SINGER_TITLE</zType>
-		<Translation><![CDATA[The Street Singer]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_LAW_NEW_HORIZONS_TITLE</zType>
-		<Translation><![CDATA[New Horizons]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_LAW_IDLE_HANDS_TITLE</zType>
-		<Translation><![CDATA[Idle Hands]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_LAW_A_FEEBLE_MILITARY_TITLE</zType>
-		<Translation><![CDATA[A Feeble Force]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_LAW_CAPTIVES_OF_BELIEF_TITLE</zType>
-		<Translation><![CDATA[Captives of Belief]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_LAW_HEAVENS_CHOSEN_TITLE</zType>
-		<Translation><![CDATA[Heaven's Chosen]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_LAW_FRIEND_OF_THE_FAITH_TITLE</zType>
-		<Translation><![CDATA[Friend of the Faith]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_LAW_ABUNDANCE_OF_RICHES_TITLE</zType>
-		<Translation>Abundance of Riches</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_LAW_UNPAID_DEBTS_TITLE</zType>
-		<Translation><![CDATA[Unpaid Debts]]></Translation>
+		<Translation>Insolent Generals</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_VIEW_FROM_THE_THRONE_TITLE</zType>
@@ -5191,11 +5279,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SCOUT_SELECTED_TITLE</zType>
-		<Translation>Scout ausgewählt</Translation>
+		<Translation>Tutorial: link(UNIT_SCOUT) ausgewählt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_ORDERS_TITLE</zType>
-		<Translation>Befehle</Translation>
+		<Translation>Tutorial: link(YIELD_ORDERS)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SECOND_CITY_TITLE</zType>
@@ -5203,15 +5291,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_WORKER_SELECTED_TITLE</zType>
-		<Translation>Der Baumeister</Translation>
+		<Translation>Der link(UNIT_WORKER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_SLINGER_SELECTED_TITLE</zType>
-		<Translation>The Slinger</Translation>
+		<Translation>Der link(UNIT_SLINGER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_WARRIOR_SELECTED_TITLE</zType>
-		<Translation>Tutorial: Warrior Selected</Translation>
+		<Translation>Tutorial: link(UNIT_WARRIOR) ausgewählt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_BARBARIAN_CAMP_CLEARED_TITLE</zType>
@@ -5223,7 +5311,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_CULTURE_TITLE</zType>
-		<Translation>Tutorial: Culture</Translation>
+		<Translation>Tutorial: link(YIELD_CULTURE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_TRIBE_CONTACT_TITLE</zType>
@@ -5283,19 +5371,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_AXEMAN_SELECTED_TITLE</zType>
-		<Translation>Tutorial: Axeman Selected</Translation>
+		<Translation>Tutorial: link(UNIT_AXEMAN) Selected</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_ONAGER_SELECTED_TITLE</zType>
-		<Translation>Tutorial: Onager ausgewählt</Translation>
-	</Entry>
-	<Entry beginGroup="Law">
-		<zType>TEXT_EVENTSTORY_THREAT_OF_MUTINY_TITLE</zType>
-		<Translation>Threat of Mutiny</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_WEAK_WILL_TITLE</zType>
-		<Translation>Weak Will</Translation>
+		<Translation>Tutorial: link(UNIT_ONAGER) ausgewählt</Translation>
 	</Entry>
   <Entry beginGroup="Community">
     <zType>TEXT_EVENTSTORY_GOT_YOUR_NOSE_TITLE</zType>
@@ -5511,6 +5591,6 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARIOT_DIPLOMACY_TITLE</zType>
-		<Translation>Chariot Diplomacy</Translation>
+		<Translation>link(UNIT_CHARIOT) Diplomacy</Translation>
 	</Entry>
 </Root>

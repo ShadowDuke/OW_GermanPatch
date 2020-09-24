@@ -65,9 +65,11 @@
 		<iSpreadToSubject comment="Religion will spread to the previous Subject City at this index"/>
 		<iRemoveFromSubject comment="Religion will be removed from the previous Subject City at this index"/>
 		<iTradeResourceSubject comment="Trades the Resources to previous Subject at this index"/>
-		<iMissionSubject comment="The Mission will target the previous Subject at this index"/>
-		<iMissionReverse comment="The Mission character will be the previous Subject at this index"/>
+		<iAgentCitySubject comment="Character will become the Agent in the previous Subject City at this index"/>
 		<iTradeCitySubject comment="Trade the City to the previous Subject at this index"/>
+		<iMissionSubject comment="The Mission will target the previous Subject at this index"/>																		 
+		<iMissionReverse comment="The Mission character will be the previous Subject at this index"/>
+		<bMissionFree comment="The Mission will not have Yield costs"/>
 		<bRevealTerritory comment="Will reveal all the territory of this Player"/>
 		<bHolyCityAgents comment="Adds an Agent in all Holy Cities"/>
 		<bCancelTrade comment="Will cancel trade with this Player"/>
@@ -199,8 +201,11 @@
 		<iSpreadToSubject/>
 		<iRemoveFromSubject/>			   
 		<iTradeResourceSubject/>
+		<iAgentCitySubject/>
+		<iTradeCitySubject/>		  
 		<iMissionSubject/>
 		<iMissionReverse/>			
+		<bMissionFree/>		 
 		<bRevealTerritory/>
 		<bHolyCityAgents/>			
 		<bCancelTrade/>
@@ -270,7 +275,7 @@
 	<Entry>
 		<zType>BONUS_SKIP_SEAT</zType>
 		<zName>link(CONCEPT_FAMILY_SEAT) übersprungen</zName>
-		<iLegitimacy>-5</iLegitimacy>
+		<iLegitimacy>-10</iLegitimacy>
 	</Entry>
 	<Entry>
 		<zType>BONUS_FAMILY_FOUND</zType>
@@ -290,6 +295,11 @@
 		<zType>BONUS_FINISHED_LEGACY</zType>
 		<zName>Erfüllte Vermächtnis(se)</zName>
 		<iLegitimacy>5</iLegitimacy>
+	</Entry>
+	<Entry>
+		<zType>BONUS_FINISHED_QUEST</zType>
+		<zName>Quest(s) Beendet</zName>
+		<iLegitimacy>10</iLegitimacy>
 	</Entry>
 	<Entry>
 		<zType>BONUS_FINISHED_WONDER</zType>
@@ -347,7 +357,7 @@
 		<zType>BONUS_BARBARIAN_WAR_LEGITIMACY</zType>
 		<zName>Furchtlos gegenüber Stämmen</zName>
 		<DiplomacyBarb>DIPLOMACY_WAR</DiplomacyBarb>
-		<iLegitimacy>4</iLegitimacy>
+		<iLegitimacy>5</iLegitimacy>
 	</Entry>
 	<Entry>
 		<zType>BONUS_DECLARE_WAR_BARBARIAN</zType>
@@ -387,7 +397,7 @@
 	<Entry>
 		<zType>BONUS_BARBARIAN_INVASION_LEGITIMACY</zType>
 		<zName>Furchtlos gegenüber Invasion</zName>
-		<iLegitimacy>4</iLegitimacy>
+		<iLegitimacy>10</iLegitimacy>
 		<bBarbInvade>1</bBarbInvade>
 	</Entry>
 	<Entry>
@@ -414,7 +424,7 @@
 		<zType>BONUS_PLAYER_WAR_LEGITIMACY</zType>
 		<zName>Furchtlos gegenüber Krieg</zName>
 		<DiplomacyPlayer>DIPLOMACY_WAR</DiplomacyPlayer>
-		<iLegitimacy>4</iLegitimacy>
+		<iLegitimacy>5</iLegitimacy>
 		<aeBonuses>
 			<zValue>BONUS_PLAYER_OFFER</zValue>
 		</aeBonuses>
@@ -445,7 +455,11 @@
 		<zType>BONUS_PLAYER_HELPED_US</zType>
 		<MemoryPlayer>MEMORYPLAYER_HELPED_US</MemoryPlayer>
 	</Entry>
-	<Entry>										
+	<Entry>
+		<zType>BONUS_FAMILY_PURSUED_AMBITION</zType>
+		<MemoryFamily>MEMORYFAMILY_PURSUED_AMBITION</MemoryFamily>
+	</Entry>
+	<Entry>
 		<zType>BONUS_FAMILYCLASS_LANDOWNERS_SEAT</zType>
 		<iCitizens>2</iCitizens>
 	</Entry>
@@ -1044,7 +1058,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>20</iValue>
+				<iValue>100</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1053,7 +1067,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>30</iValue>
+				<iValue>200</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1062,7 +1076,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>40</iValue>
+				<iValue>300</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1071,7 +1085,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>50</iValue>
+				<iValue>400</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1116,7 +1130,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
-				<iValue>20</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1125,7 +1139,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
-				<iValue>30</iValue>
+				<iValue>20</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1134,7 +1148,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
-				<iValue>40</iValue>
+				<iValue>30</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1143,7 +1157,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
-				<iValue>50</iValue>
+				<iValue>40</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -2108,6 +2122,10 @@
 	<Entry>
 		<zType>BONUS_REBEL_UNITS_3</zType>
 		<iRebelUnits>3</iRebelUnits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_REBEL_UNITS_4</zType>
+		<iRebelUnits>4</iRebelUnits>
 	</Entry>
 	<Entry>
 		<zType>BONUS_UNIT_WORKER</zType>
@@ -6202,6 +6220,12 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
+		<zType>BONUS_GIVE_TRAIT_CARPENTER</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_CARPENTER</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>
 		<zType>BONUS_GIVE_TRAIT_ANGLER</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_ANGLER</zValue>
@@ -6580,8 +6604,7 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GIVE_TRAIT_MISERABLE</zType>
-		<MemoryFamily>MEMORYFAMILY_REFUSED_RELEASE</MemoryFamily>												   
+		<zType>BONUS_GIVE_TRAIT_MISERABLE</zType>			   
 		<aeAddTraits>
 			<zValue>TRAIT_MISERABLE</zValue>
 		</aeAddTraits>
@@ -6776,6 +6799,28 @@
 		<zType>BONUS_REMOVE_TRAIT_DROUGHT_STRICKEN</zType>
 		<aeRemoveTraits>
 			<zValue>TRAIT_DROUGHT_STRICKEN</zValue>
+		</aeRemoveTraits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_DIVORCE_SUBJECT</zType>
+		<iDivorceSubject>0</iDivorceSubject>
+	</Entry>
+	<Entry>
+		<zType>BONUS_GIVE_TRAIT_ASCETIC</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_ASCETIC</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_GIVE_TRAIT_WANTON</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_WANTON</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_REMOVE_TRAIT_CURSED</zType>
+		<aeRemoveTraits>
+			<zValue>TRAIT_CURSED</zValue>
 		</aeRemoveTraits>
 	</Entry>
 </Root>

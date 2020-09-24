@@ -222,10 +222,6 @@
 		<Translation>Familie: {0}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_CHARACTER_SELECTION_GREAT_PERSON</zType>
-		<Translation>Große Persönlichkeit</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_UI_CHARACTER_SELECTION_GENERAL_UNIT</zType>
 		<Translation>Einheit: {0}</Translation>
 	</Entry>
@@ -470,6 +466,10 @@
 		<Translation>Luxusgüter: </Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_TOOLTIP_LUXURIES_HELP</zType>
+		<Translation>Luxuries can be given to Nations, Tribes, and Families to improve Opinion. They also can be given to Cities to reduce link(YIELD_DISCONTENT).</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_TOOLTIP_TRADABLE</zType>
 		<Translation><![CDATA[Handelbar: {0_resource}{1_icon}<true_2> (x{2})<false><end>]]></Translation>
 	</Entry>
@@ -599,7 +599,11 @@
         <Translation>Zurück</Translation>
     </Entry>
     <!--multiplayer menu-->
-    <Entry>
+   <Entry>
+		<zType>TEXT_MP_DELETE_CLOUD_SAVE</zType>
+		<Translation>Diesen Spielstand löschen?</Translation>
+	</Entry>
+	<Entry>
         <zType>TEXT_MP_MENU_SCREEN_JOIN_BUTTON</zType>
         <Translation>Beitreten</Translation>
     </Entry>
@@ -1859,6 +1863,18 @@
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_ERROR_RESERVED_MOD_NAME_POPUP_BODY</zType>
 		<Translation>Der Mod Name "{0_modName}" ist für interne zwecke reserviert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_UPDATING_MOD_PROFILE</zType>
+		<Translation>Mod Profil updaten...</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_UPLOADING_MOD_PROFILE</zType>
+		<Translation>Mod Profil hochladen...</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_UPLOADING_BUILD</zType>
+		<Translation>Wird hochgeladen...</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_MOD_HAS_NO_PROFILE_POPUP_TITLE</zType>

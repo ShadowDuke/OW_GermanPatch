@@ -87,6 +87,10 @@
 		<Translation>{0}{1}{2}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_ENTRY_COMMA_SPACE</zType>
+		<Translation>{0}, </Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_CONCAT_SPACE_TWO</zType>
 		<Translation>{0} {1}</Translation>
 	</Entry>
@@ -404,10 +408,6 @@
 		<Translation>icon(YIELD_LEGITIMACY) Legitimität</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_GREAT_PERSON</zType>
-		<Translation>Große Persönlichkeit~eine Große Persönlichkeit~Große Persönlichkeiten</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_GOVERNOR</zType>
 		<Translation>Stadthalter~ein Stadthalter~Stadthaltern</Translation>
 	</Entry>
@@ -522,6 +522,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_OTHER_CITIES</zType>
 		<Translation>Andere Städte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_QUESTS_FINISHED</zType>
+		<Translation><![CDATA[<singular_0>Quest<plural>Quests<end> Finished]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_RIVER</zType>
@@ -986,6 +990,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LAWS_ACTIVE</zType>
 		<Translation><![CDATA[Aktive <singular_0>Gesetz<plural>Gesetze<end>: ]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_LAWS_AVAILABLE</zType>
+		<Translation>Verfügbare Gesetze: </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CONVERT_ACTION</zType>
@@ -1655,10 +1663,6 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Kostet {0_money}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_GREAT_PERSON</zType>
-		<Translation>Eine neue {0_greatPerson} ist aufgetaucht.</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_RELIGION_FOUNDED</zType>
 		<Translation>Die neue {0_religion} erscheint in {1_city}.</Translation>
 	</Entry>
@@ -1935,6 +1939,10 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DISCONTENT</zType>
 		<Translation>{0_city} Unruhe:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_DISCONTENT_LEVEL</zType>
+		<Translation>link(YIELD_DISCONTENT) Level: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DISCONTENT_FAMILY_OPINION</zType>
@@ -2330,12 +2338,16 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation><![CDATA[Verbessert zu<true_0> {0_barbarian}<false><end> {1_improvment}: {2_turns}]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_IMPROVEMENT_PILLAGED</zType>
-		<Translation><![CDATA[Verschwindet in {0} <singular_0>Jahr<plural>Jahren<end>]]></Translation>
+		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_IMPROVEMENT_WORK_LEFT</zType>
+		<Translation>Verbleibende Arbeit</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_IMPROVEMENT_UNFINISHED</zType>
-		<Translation>Verbleibende Arbeit: {0}</Translation>
+		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_IMPROVEMENT_PILLAGED</zType>
+		<Translation>Geplündert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_IMPROVEMENT_DISAPPEARS</zType>
+		<Translation>Verschwindet in {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_IMPROVEMENT_START_ADJACENT</zType>
@@ -2594,6 +2606,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_TOOLTIP_BUY_HINT</zType>
 		<Translation><![CDATA[Hold <TEXT_HOTKEY_ALT> um zu kaufen: {0}]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_YIELD_PER_YEAR</zType>
+		<Translation>{0}/Jahr</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_FROM</zType>
@@ -3290,6 +3306,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>{1_value} für Angrenzende {0,2_improvementList}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_FROM_ADJACENT_IMPROVEMENT_MODIFIER</zType>
+		<Translation>{0_value} von angrenzend {LIST,2}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_HEALS_UNIT</zType>
 		<Translation>Heilt {0_value} HP für {1_idle} Einheiten</Translation>
 	</Entry>
@@ -3332,6 +3352,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_PER_YEAR</zType>
 		<Translation>{0_yields} pro Jahr</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_ADJACENT_RESOURCES_TILE</zType>
+		<Translation>Angrenzende Ressource(n): {LIST}/Jahr</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_ADJACENT_RESOURCES</zType>
@@ -3379,6 +3403,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation><![CDATA[Eine Stadt ist zu ihrer {0_capital} verbunden.<br>Effekte durch die Verbindung:]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_CITY_CONNECTED_EFFECTS</zType>
+		<Translation>Effekte wenn verbunden:</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_CITY_CONNECTED_HOTKEY</zType>
 		<Translation>Halte [{0_key}] um zu sehen welche Felder mit deiner {1_capital} verbunden sind.</Translation>
 	</Entry>
@@ -3394,6 +3422,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CITY_MIN_CITIZENS</zType>
 		<Translation>Städte müssen immer {0_num} {1_citizenLink} haben</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CITIZENS_COUNT</zType>
+		<Translation>Bürger: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_SPECIALISTS_COUNT</zType>
@@ -3670,8 +3702,12 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Ehepartner des Oberhauptes: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_ROYAL_SPOUSE</zType>
-		<Translation>Königle Ehepartner: {0_value}</Translation>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_HEIR_SPOUSE</zType>
+		<Translation>Ehepartner des Erben: {0_value}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_DESCENDANTS_SPOUSE</zType>
+		<Translation>Ehepartner unserer Nachkommen: {0_value}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_CHILD_LEADER</zType>
@@ -3752,11 +3788,11 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BARBARIAN_TRIBUTE_FROM</zType>
-		<Translation>{0_tributeLink} von: {1_yields}</Translation>
+		<Translation>{0_tributeLink} von: {YIELD-LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BARBARIAN_TRIBUTE_TO</zType>
-		<Translation>{0_tributeLink} an: {1_yields}</Translation>
+		<Translation>{0_tributeLink} an: {YIELD-LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BARBARIAN_CURRENT_RELIGION</zType>
@@ -3857,14 +3893,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CITY_SELECTION_FAMILY_OPINION</zType>
 		<Translation><![CDATA[Family: {0_family}<true_1> ({1_opinion})<false><end>]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_CITY_SELECTION_CITIZENS_NUM</zType>
-		<Translation><![CDATA[<singular_0>Bürger<plural>Bürger<end>: {0_number}]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_CITY_SELECTION_CITIZENS_QUEUE_NUM</zType>
-		<Translation><![CDATA[<singular_0>Bürger<plural>Bürger<end> (in Queue): {0_number}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CITY_SELECTION_CITIZENS_NO_NUM</zType>
@@ -4549,6 +4577,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>{0_value}: Ehepartner des Oberhauptes aus unserer Familie</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_FAMILY_HEIR_SPOUSE</zType>
+		<Translation>{0_value}: Erbe's Ehepartner aus unserer Familie</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILY_DESCENDANT_SPOUSE</zType>
 		<Translation>{0_value}: Heirate(n) zu Nachkommen des Oberhauptes</Translation>
 	</Entry>
@@ -5042,6 +5074,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Als Nachfolger: {0} </Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_RATING_AS_COURTIER</zType>
+		<Translation>Als Vertrauter: {0}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_RATING_AS_X</zType>
 		<Translation>Als {0}: {1_yields}</Translation>
 	</Entry>
@@ -5285,7 +5321,23 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_AGENT_OPINION</zType>
 		<Translation>Meinung: {0} ({1})</Translation>
-	</Entry>	 
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHOOSE_AGENT_FOR_CITY</zType>
+		<Translation>Wähle Agent für {0_city}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHOOSE_AGENT_CURRENT_AGENT</zType>
+		<Translation>Derzeitiger Agent: {0_character}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHOOSE_AGENT_CLICK_TO_SELECT_AGENT</zType>
+		<Translation><![CDATA[<TEXT_HOTKEY_CTRL_CLICK> um den Agenten anzuwählen]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHOOSE_AGENT_CLICK_TO_RETURN_AGENT</zType>
+		<Translation><![CDATA[<TEXT_HOTKEY_ALT_CLICK> um den Agenten zurückzugeben]]></Translation>
+	</Entry>
 	<!--POPUPS-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHOOSE_GENERAL_POPUP_TITLE</zType>
@@ -5753,6 +5805,18 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation><![CDATA[Benötigt {0} <singular_0>{1_luxuryLink}<plural>{1,2_luxuriesLink}<end>]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_PLAYER_LUXURIES</zType>
+		<Translation><![CDATA[Benötigt {0} <singular_0>{1_luxuryLink}<plural>{1,2_luxuriesLink}<end> an rivalisierende Reiche gesendet]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_BARBARIAN_LUXURIES</zType>
+		<Translation><![CDATA[Benötigt {0} <singular_0>{1_luxuryLink}<plural>{1,2_luxuriesLink}<end> an Stämme gesendet]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_FAMILY_LUXURIES</zType>
+		<Translation><![CDATA[Benötigt {0} <singular_0>{1_luxuryLink}<plural>{1,2_luxuriesLink}<end> an Familien gesendet]]></Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_URBAN_IMPROVEMENTS</zType>
 		<Translation><![CDATA[Benötigt {0} Stadtteil <singular_0>Verbesserung<plural>Verbesserungen<end>]]></Translation>
 	</Entry>
@@ -5797,6 +5861,14 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Benötigt Staatsreligion</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_PLAYER_DEAD</zType>
+		<Translation><![CDATA[Eliminiere <true_0>{0}<false>ein Reich<end>]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_BARBS_DEAD</zType>
+		<Translation><![CDATA[Eliminiere <true_0>die {0}<false>einen Stamm<end>]]></Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_DIPLOMACY_WITH</zType>
 		<Translation><![CDATA[Benötigt {0_diplomacy} mit {1} <singular_1>Stamm oder Reich<plural>Stämme oder Reiche<end>]]></Translation>
 	</Entry>
@@ -5815,6 +5887,18 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_X</zType>
 		<Translation><![CDATA[Benötigt {0_num} <singular_0>{1}<plural>{1,2}<end>]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_PLAYER_LUXURY</zType>
+		<Translation><![CDATA[Benötigt {0} {1_resource} <singular_0>{2_luxuryLink}<plural>{2,2_luxuriesLink} an rivalisierende Reiche gesendets<end>]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_BARBARIAN_LUXURY</zType>
+		<Translation><![CDATA[Benötigt {0} {1_resource} <singular_0>{2_luxuryLink}<plural>{2,2_luxuriesLink} an Stämme gesendet<end>]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_FAMILY_LUXURY</zType>
+		<Translation><![CDATA[Benötigt {0} {1_resource} <singular_0>{2_luxuryLink}<plural>{2,2_luxuriesLink} an Familien gesendet<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_CITIES_CULTURE</zType>
@@ -5904,6 +5988,14 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_LEADER_SPOUSE</zType>
 		<Translation>{0_opinion}: Oberhaupts Ehegatte ist {1_ethnicity,1}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_OPINION_HEIR</zType>
+		<Translation>{0_opinion}: Erbe ist {1,1_ethnicity}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_OPINION_HEIR_SPOUSE</zType>
+		<Translation>{0_opinion}: Erbe's Ehepartner ist {1,1_ethnicity}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_DESCENDANTS</zType>

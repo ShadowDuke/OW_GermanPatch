@@ -797,8 +797,16 @@
 		<Translation>Kontrolliere vier Kornkammern</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_FOUR_LUXURIES</zType>
+		<zType>TEXT_GOAL_TWO_TRIBAL_LUXURIES</zType>
+		<Translation>Send Two Luxuries to Tribes</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_PLAYER_LUXURIES</zType>
 		<Translation>Kontrolliere vier Luxusgüter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_FAMILY_LUXURIES</zType>
+		<Translation>Send Six Luxuries to Families</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_EIGHT_LUXURIES</zType>

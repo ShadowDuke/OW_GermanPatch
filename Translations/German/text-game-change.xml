@@ -412,10 +412,6 @@
 		<Translation>Vergisst {0_memory} ({1_value} Meinung)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_DESIRED AMBITION</zType>
-		<Translation>Wird {0}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_DO_BONUS_DESIRED_AMBITION</zType>
 		<Translation>Begehrt {0}</Translation>
 	</Entry>

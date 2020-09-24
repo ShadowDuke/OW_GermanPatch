@@ -5,7 +5,8 @@
 		<zType/>
 		<zName/>
 		<zHelp/>
-		<iCities/>
+		<iAvgCities/>
+		<iMaxCities/>
 		<iCapitalPopulation/>
 		<iTechs/>
 		<iLoneOpponentChange/>
@@ -19,7 +20,8 @@
 		<zType>DEVELOPMENT_FLEDGLING</zType>
 		<zName>Jung</zName>
 		<zHelp>Vorhandene Staaten starten mit einer Stadt</zHelp>
-		<iCities>2</iCities>
+		<iAvgCities>2</iAvgCities>
+		<iMaxCities>4</iMaxCities>
 		<iCapitalPopulation>3</iCapitalPopulation>
 		<iTechs>3</iTechs>
 	</Entry>
@@ -27,7 +29,8 @@
 		<zType>DEVELOPMENT_ESTABLISHED</zType>
 		<zName>Bekannt</zName>
 		<zHelp>Vorhandene Staaten starten mit 2-3 Städten</zHelp>
-		<iCities>3</iCities>
+		<iAvgCities>3</iAvgCities>
+		<iMaxCities>7</iMaxCities>
 		<iCapitalPopulation>4</iCapitalPopulation>
 		<iTechs>4</iTechs>
 		<iLoneOpponentChange>1</iLoneOpponentChange>
@@ -36,7 +39,8 @@
 		<zType>DEVELOPMENT_ADVANCED</zType>
 		<zName>Fortgeschritten</zName>
 		<zHelp>Vorhandene Staaten starten mit 2-4 Städten</zHelp>
-		<iCities>5</iCities>
+		<iAvgCities>5</iAvgCities>
+		<iMaxCities>9</iMaxCities>
 		<iCapitalPopulation>5</iCapitalPopulation>
 		<iTechs>5</iTechs>
 		<iLoneOpponentChange>2</iLoneOpponentChange>
@@ -45,7 +49,8 @@
 		<zType>DEVELOPMENT_MASSIVE</zType>
 		<zName>Mächtig</zName>
 		<zHelp>Vorhandene Staaten starten mit 3-6 Städten</zHelp>
-		<iCities>7</iCities>
+		<iAvgCities>7</iAvgCities>
+		<iMaxCities>11</iMaxCities>
 		<iCapitalPopulation>6</iCapitalPopulation>
 		<iTechs>6</iTechs>
 		<iLoneOpponentChange>3</iLoneOpponentChange>

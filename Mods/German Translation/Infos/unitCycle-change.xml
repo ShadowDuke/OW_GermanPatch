@@ -11,12 +11,7 @@
 		<zName>Found</zName>
 		<eUnitCycle>FOUND</eUnitCycle>
 	</Entry>
-	<Entry>
-		<zType>UNITCYCLE_GREAT_PERSON</zType>
-		<zName>Große Persönlichkeit</zName>
-		<eUnitCycle>GREAT_PERSON</eUnitCycle>
-	</Entry>
-  <Entry>
+    <Entry>
     <zType>UNITCYCLE_WORKER</zType>
     <zName>Baumeister</zName>
     <eUnitCycle>WORKER</eUnitCycle>

@@ -50,9 +50,19 @@
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
+		<zType>MEMORYFAMILY_PURSUED_AMBITION</zType>
+		<zText>Pursued our Ambition</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
 		<zType>MEMORYFAMILY_OUR_AMBITION</zType>
 		<zText>Unsere Ambition verfolgt</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_OUR_LEGACY</zType>
+		<zText>Completed our Legacy</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_DIVORCE</zType>
@@ -909,6 +919,16 @@
 		<zText>Denied help from tribal intermediary</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_PUNISHED_HEIR</zType>
+		<zText>Punished the heir for street brawl</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ALLOWED_AUTONOMY</zType>
+		<zText>Allowed some city autonomy</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
 	<Entry beginGroup="Contact">
 		<zType>MEMORYFAMILY_FORCED_TO_KISS_FEET</zType>
 		<zText>Forced to kiss foreign ruler's feet</zText>
@@ -1328,7 +1348,7 @@
 	<Entry>
 		<zType>MEMORYFAMILY_REFUSED_TO_CHANGE_LAW</zType>
 		<zText>Refused to change law</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_REFUSED_TO_CHANGE_LAW_SMALL</zType>

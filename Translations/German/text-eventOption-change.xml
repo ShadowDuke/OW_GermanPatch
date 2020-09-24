@@ -390,10 +390,6 @@
 		<Translation>Kann zu link(TRAIT_MERCHANT_ARCHETYPE), link(TRAIT_COMMANDER_ARCHETYPE), link(TRAIT_SCHEMER_ARCHETYPE), link(TRAIT_ORATOR_ARCHETYPE), link(TRAIT_BUILDER_ARCHETYPE), link(TRAIT_DIPLOMAT_ARCHETYPE), oder eventuell zu link(TRAIT_SKYEXPLORER_ARCHETYPE), link(TRAIT_CORRUPTIONIST_ARCHETYPE) und link(TRAIT_CHAMPION_ARCHETYPE) führen.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_GREAT_PERSON_NONE</zType>
-		<Translation><![CDATA[Wir können uns keinen Lehrer leisten.]]></Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_MERCENARY_NO</zType>
 		<Translation>Nicht jetzt.</Translation>
 	</Entry>

@@ -27,6 +27,14 @@
     <Entry>
         <zType>TEXT_MISCOPTION_RESOLUTION_DESC</zType>
         <Translation>Passe die Auflösung an</Translation>
+	</Entry>
+	 <Entry>
+        <zType>TEXT_MISCOPTION_FULLSCREENMODE_NAME</zType>
+        <Translation>Vollbild</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_MISCOPTION_FULLSCREENMODE_DESC</zType>
+	    <Translation>Vollbildschirm</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_MONITOR_NAME</zType>
@@ -100,15 +108,7 @@
         <zType>TEXT_MISCOPTION_CAMERA_SPEED_DESC</zType>
 	    <Translation>Kamerascrollgeschwindigkeit</Translation>
     </Entry>
-    <Entry>
-        <zType>TEXT_MISCOPTION_FULLSCREEN_NAME</zType>
-        <Translation>Vollbild</Translation>
-    </Entry>
-    <Entry>
-        <zType>TEXT_MISCOPTION_FULLSCREEN_DESC</zType>
-	    <Translation>Vollbildschirm</Translation>
-    </Entry>
-    <Entry>
+	<Entry>	
         <zType>TEXT_MISCOPTION_ANTIALIASING_NAME</zType>
         <Translation>Antialiasing</Translation>
     </Entry>

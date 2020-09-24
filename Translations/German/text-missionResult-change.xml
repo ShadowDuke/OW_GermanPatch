@@ -7,7 +7,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_HUMAN_DESCRIPTION</zType>
-		<Translation>You have sent an envoy with a Truce Proposal.</Translation>
+		<Translation>You have sent an envoy with a link(DIPLOMACY_TRUCE) Proposal.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INFILTRATE_REVEAL_DESCRIPTION</zType>

@@ -191,6 +191,10 @@
 		<Translation>Musik</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TRAIT_HERO_ARCHETYPE</zType>
+		<Translation>Wortführer der Helden</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_TACTICIAN_ARCHETYPE</zType>
 		<Translation>Wortführer der Taktiker</Translation>
 	</Entry>
@@ -229,10 +233,6 @@
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_DIPLOMAT_ARCHETYPE</zType>
 		<Translation>Wortführer der Diplomaten</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_TRAIT_HERO_ARCHETYPE</zType>
-		<Translation>Wortführer der Helden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_LOW_CIVICS</zType>

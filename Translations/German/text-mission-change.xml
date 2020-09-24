@@ -8,15 +8,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_AMBASSADOR</zType>
-		<Translation>Bestimme Gesandten</Translation>
+		<Translation>Bestimme link(COUNCIL_AMBASSADOR)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_CHANCELLOR</zType>
-		<Translation>Bestimme Kanzler</Translation>
+		<Translation>Bestimme link(COUNCIL_CHANCELLOR</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_SPYMASTER</zType>
-		<Translation>Bestimme Meisterspion</Translation>
+		<Translation>Bestimme link(COUNCIL_SPYMASTER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TEAM_ALLIANCE</zType>
@@ -24,107 +24,107 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TEAM_ALLIANCE_TARGET</zType>
-		<Translation>Verbindung mit Spieler </Translation>
+		<Translation>Verbündung mit Spieler </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TEAM_ALLIANCE_CHARACTER</zType>
-		<Translation>Spieler Verbindung über</Translation>
+		<Translation>Spieler Verbündung über</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE</zType>
-		<Translation>Frieden mit Spieler</Translation>
+		<Translation>link(DIPLOMACY_PEACE mit Spieler</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_TARGET</zType>
-		<Translation>Eintracht mit Spieler</Translation>
+		<Translation>link(DIPLOMACY_PEACE mit Spieler</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_CHARACTER</zType>
-		<Translation>Spieler Eintracht über</Translation>
+		<Translation>Spieler link(DIPLOMACY_PEACE über</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_OFFER</zType>
-		<Translation>Offer Tribute for Peace</Translation>
+		<Translation>Offer Tribute for link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_OFFER_TARGET</zType>
-		<Translation>Offer Tribute for Peace with</Translation>
+		<Translation>Offer Tribute for link(DIPLOMACY_PEACE) with</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_NO</zType>
-		<Translation>Ask for Peace</Translation>
+		<Translation>Ask for link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_NO_TARGET</zType>
-		<Translation>Ask for Peace with</Translation>
+		<Translation>Ask for link(DIPLOMACY_PEACE) with</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_DEMAND</zType>
-		<Translation>Demand Tribute for Peace</Translation>
+		<Translation>Demand Tribute for link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_DEMAND_TARGET</zType>
-		<Translation>Demand Tribute for Peace with</Translation>
+		<Translation>Demand Tribute for link(DIPLOMACY_PEACE) with</Translation>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_MISSION_PLAYER_TRUCE</zType>
-		<Translation>Waffenruhe mit Spieler</Translation>
+		<Translation>link(DIPLOMACY_TRUCE) mit Spieler</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_TARGET</zType>
-		<Translation>Waffenruhe mit Spieler</Translation>
+		<Translation>link(DIPLOMACY_TRUCE) mit Spieler</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_CHARACTER</zType>
-		<Translation>Spieler Waffenruhe über</Translation>
+		<Translation>Spieler link(DIPLOMACY_TRUCE) über</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_OFFER</zType>
-		<Translation>Biete Tribut für Waffenruhe an</Translation>
+		<Translation>Biete Tribut für link(DIPLOMACY_TRUCE) an</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_OFFER_TARGET</zType>
-		<Translation>Biete Tribut für Waffenruhe mit</Translation>
+		<Translation>Biete Tribut für link(DIPLOMACY_TRUCE) mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_NO</zType>
-		<Translation>Bitte nach Waffenruhe</Translation>
+		<Translation>Bitte nach link(DIPLOMACY_TRUCE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_NO_TARGET</zType>
-		<Translation>Bitte nach Frieden mit</Translation>
+		<Translation>Bitte nach link(DIPLOMACY_TRUCE) mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_DEMAND</zType>
-		<Translation>Verlange Tribut für Frieden</Translation>
+		<Translation>Verlange Tribut für link(DIPLOMACY_TRUCE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_DEMAND_TARGET</zType>
-		<Translation>Verlange Tribut für Frieden mit</Translation>
+		<Translation>Verlange Tribut für link(DIPLOMACY_TRUCE) mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_HUMAN</zType>
-		<Translation>Spieler Waffenruhe</Translation>
+		<Translation>Spieler link(DIPLOMACY_TRUCE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_DECLARE_WAR</zType>
-		<Translation>Erkläre Krieg</Translation>
+		<Translation>Erkläre link(DIPLOMACY_WAR)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_DECLARE_WAR_CHARACTER</zType>
-		<Translation>Erkläre Krieg an</Translation>
+		<Translation>Erkläre link(DIPLOMACY_WAR) an</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_DECLARE_WAR_HUMAN</zType>
-		<Translation>Erkläre Krieg</Translation>
+		<Translation>Erkläre link(DIPLOMACY_WAR)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_BREAK_PEACE</zType>
-		<Translation>Breche den Frieden</Translation>
+		<Translation>Breche den link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_BREAK_PEACE_CHARACTER</zType>
-		<Translation>Breche den Frieden mit</Translation>
+		<Translation>Breche den link(DIPLOMACY_PEACE) mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_END_ALLIANCE</zType>
@@ -148,51 +148,51 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_BARBARIAN_ALLIANCE_TARGET</zType>
-		<Translation>Verbindung mit Barbaren</Translation>
+		<Translation>Verbündung mit Barbaren</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_BARBARIAN_ALLIANCE_CHARACTER</zType>
-		<Translation>Barbarian Verbindung über</Translation>
+		<Translation>Barbarian Verbündung über</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_BARBARIAN_PEACE</zType>
-		<Translation>Frieden mit Barbaren </Translation>
+		<Translation>link(DIPLOMACY_PEACE) mit Barbaren </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_BARBARIAN_PEACE_TARGET</zType>
-		<Translation>Eintracht mit Barbaren</Translation>
+		<Translation>link(DIPLOMACY_PEACE) mit Barbaren</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_BARBARIAN_PEACE_CHARACTER</zType>
-		<Translation>Barbarian Eintracht über</Translation>
+		<Translation>Barbarian link(DIPLOMACY_PEACE) über</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_BARBARIAN_TRUCE</zType>
-		<Translation>Waffenruhe mit Barbaren </Translation>
+		<Translation>link(DIPLOMACY_TRUCE) mit Barbaren </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_BARBARIAN_TRUCE_TARGET</zType>
-		<Translation>Friede mit Barbaren</Translation>
+		<Translation>link(DIPLOMACY_TRUCE) mit Barbaren</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_BARBARIAN_TRUCE_CHARACTER</zType>
-		<Translation>Barbarian Friede über</Translation>
+		<Translation>Barbarian link(DIPLOMACY_TRUCE) über</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_BARBARIAN_DECLARE_WAR</zType>
-		<Translation>Erkläre Krieg</Translation>
+		<Translation>Erkläre link(DIPLOMACY_WAR)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_BARBARIAN_DECLARE_WAR_CHARACTER</zType>
-		<Translation>Erkläre Krieg an</Translation>
+		<Translation>Erkläre link(DIPLOMACY_WAR) an</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_BARBARIAN_BREAK_PEACE</zType>
-		<Translation>Breche den Frieden</Translation>
+		<Translation>Breche den link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_BARBARIAN_BREAK_PEACE_CHARACTER</zType>
-		<Translation>Breche den Frieden mit</Translation>
+		<Translation>Breche den link(DIPLOMACY_PEACE) mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_BARBARIAN_END_ALLIANCE</zType>
@@ -364,26 +364,26 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_BARBARIAN_PLAYER_WAR</zType>
-		<Translation>Bitte nach einer Kriegserklärung</Translation>
+		<Translation>Würden sie link(DIPLOMACY_WAR) erklären</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_BARBARIAN_PLAYER_WAR_TARGET</zType>
-		<Translation>Bitte nach einer Kriegserklärung an</Translation>
+		<Translation>Würden sie link(DIPLOMACY_WAR) erklären an</Translation>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_MISSION_PLAYER_BARBARIAN_WAR</zType>
-		<Translation>Würden sie Krieg erklären</Translation>
+		<Translation>Würden sie link(DIPLOMACY_WAR) erklären</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_BARBARIAN_WAR_TARGET</zType>
-		<Translation>Würden sie Krieg erklären an</Translation>
+		<Translation>Würden sie link(DIPLOMACY_WAR) erklären an</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PLAYER_WAR</zType>
-		<Translation>Würden sie Krieg erklären</Translation>
+		<Translation>Würden sie link(DIPLOMACY_WAR) erklären</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PLAYER_WAR_TARGET</zType>
-		<Translation>Würden sie Krieg erklären an</Translation>
+		<Translation>Würden sie link(DIPLOMACY_WAR) erklären an</Translation>
 	</Entry>
 </Root>

@@ -47,34 +47,6 @@
 		<Translation>Diplomat</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_ROBUST</zType>
-		<Translation>Robust</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_VIGILANT</zType>
-		<Translation>Aufmerksam</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_STRICT</zType>
-		<Translation>Streng</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_DRILLMASTER</zType>
-		<Translation>Ausbilder</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_KEEN</zType>
-		<Translation>Scharfsinnig</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_EQUESTRIAN</zType>
-		<Translation>Reiter</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_CARPENTER</zType>
-		<Translation>Zimmerer</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_TRAIT_AFFABLE</zType>
 		<Translation>Umgänglich</Translation>
 	</Entry>
@@ -137,6 +109,34 @@
 	<Entry>
 		<zType>TEXT_TRAIT_DEBAUCHED</zType>
 		<Translation>Verdorben</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_ROBUST</zType>
+		<Translation>Robust</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_VIGILANT</zType>
+		<Translation>Aufmerksam</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_STRICT</zType>
+		<Translation>Streng</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_DRILLMASTER</zType>
+		<Translation>Ausbilder</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_KEEN</zType>
+		<Translation>Scharfsinnig</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_EQUESTRIAN</zType>
+		<Translation>Reiter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_CARPENTER</zType>
+		<Translation>Zimmerer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ANGLER</zType>
