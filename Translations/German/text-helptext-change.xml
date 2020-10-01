@@ -408,6 +408,10 @@
 		<Translation>icon(YIELD_LEGITIMACY) Legitimität</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_COURTIER</zType>
+		<Translation>Vertrauter~ein Vertrauter~Vertraute</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_GOVERNOR</zType>
 		<Translation>Stadthalter~ein Stadthalter~Stadthaltern</Translation>
 	</Entry>
@@ -1335,6 +1339,10 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Plündern</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_PILLAGE_IMPROVEMENT</zType>
+		<Translation>Plündere {0_improvement}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PILLAGE_YIELDS</zType>
 		<Translation>Beute: {0_list}</Translation>
 	</Entry>
@@ -2036,6 +2044,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<zType>TEXT_HELPTEXT_LINK_HELP_HEIGHT_DEFENDING_VS_IF</zType>
 		<Translation>Verteidigung vs. {0_unitTrait} (if {1}): {2_value}</Translation>
 	</Entry>
+    <Entry>
+        <zType>TEXT_HELPTEXT_LINK_HELP_HIDDEN</zType>
+        <Translation>Versteckte Einheiten können nicht von anderen Einheiten gesehen werden. Später sind in neutralen Wäldern versteckt oder aber mit einem Intrigant/en Oberhaupt.</Translation>
+    </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_GENERAL</zType>
 		<Translation>Ein Feldherr kann die Statistik von Einheiten erhöhen. (Benötigt Stufe 2)</Translation>
@@ -2192,6 +2204,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TERRAIN_DEFENDING_UNIT</zType>
 		<Translation>Verteidigung vs. {0_unit} (wenn link(CONCEPT_CLEAR)): {1}</Translation>
 	</Entry>
+    <Entry>
+        <zType>TEXT_HELPTEXT_LINK_HELP_THEOLOGY</zType>
+        <Translation>Establishing theology grants additional bonuses to your state religion. Theologies are established using disciples and, once established, will be active for all nations that adopt the associated religion.</Translation>
+    </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TRADE_BONUS_US</zType>
 		<Translation>Handelsbonus (für uns): {0_yield} {1_turns}</Translation>
@@ -2214,7 +2230,9 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORS</zType>
-		<Translation><![CDATA[Wird die Popularität unserer Nachkommen des aktuellen Oberhauptes steigern (muss ein Kind älter als {0_age} sein)<br>Derzeitiger Schüler:]]></Translation>
+		<Translation>Will improve the ratings of descendants or siblings of the current Leader
+(Must be a child aged int(TUTORS_AGE) years.)
+Current Student(s): </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_UNIT_HIDE_KEY</zType>
@@ -2711,6 +2729,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_TRAITS_LABEL</zType>
 		<Translation>Eigenschaften</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_TYPE_ATTACK_LABEL</zType>
+		<Translation>Angreifen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_FATIGUE_LABEL</zType>
@@ -4801,15 +4823,13 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_FOUND_FAMILY_SEAT_BUTTON</zType>
-		<Translation>
-			<![CDATA[Gründe link(CONCEPT_FAMILY_SEAT)
+		<Translation><![CDATA[Gründe link(CONCEPT_FAMILY_SEAT)
 {0_familyName} {1_familyClass}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_FOUND_FAMILY_CITY_BUTTON</zType>
-		<Translation>
-			<![CDATA[Gründe {0_familyName} Stadt
-{1_familyClass}]]></Translation>
+		<Translation><![CDATA[Gründe {0_familyName} Stadt
+{0_familyName} {1_familyClass}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_FOUND_CITY_BUTTON</zType>
@@ -5661,6 +5681,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<zType>TEXT_HELPTEXT_OPTIONS_LANGUAGE_MOD_DROPDOWN_ITEM</zType>
 		<Translation>{0_language} (Übersetzung von ShadowDuke)</Translation>
 	</Entry>
+    <Entry>
+        <zType>TEXT_HELPTEXT_OPTIONS_LOCKED_OPTION</zType>
+        <Translation>Cannot be toggled because "Lock Player Options" settings was enabled at game creation</Translation>
+    </Entry>
 	<!--Decision Popups-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DECISION_NOT_VALID_DESC</zType>

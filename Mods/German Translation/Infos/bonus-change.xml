@@ -124,6 +124,7 @@
 		<aeRandomTrait comment="One of these will be randomly added to the character Subject"/>
 		<aeAddTraits comment="List of traits gained by the character Subject"/>
 		<aeRemoveTraits comment="List of traits removed from the character Subject"/>
+		<aeRandomLeaderRelationship comment="One of these relationships will be randomly created with the Leader"/>																									 
 		<aeTechs comment="List of techs gained by the Player"/>
 		<aeCultureProject comment="List of projects added to the City Subject, based on the City’s Culture value in zIndex"/>
 		<aaiCultureYield comment="List of Yields added to the City Subject, based on the City’s Culture value in zIndex"/>
@@ -258,6 +259,7 @@
 		<aeRandomTrait/>
 		<aeAddTraits/>
 		<aeRemoveTraits/>
+		<aeRandomLeaderRelationship/>					   
 		<aeTechs/>
 		<aeCultureProject/>
 		<aaiCultureYield/>
@@ -6631,18 +6633,6 @@
 		<zType>BONUS_GIVE_TRAIT_IMPRISONED</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_IMPRISONED</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_GIVE_TRAIT_IMPRISONED_SHORT</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_IMPRISONED_SHORT</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_GIVE_TRAIT_RELEASED</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_RELEASED</zValue>
 		</aeAddTraits>
 	</Entry>
 	<Entry>

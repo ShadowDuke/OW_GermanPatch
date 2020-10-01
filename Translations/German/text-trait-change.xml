@@ -403,10 +403,6 @@
 		<Translation>Inhaftiert</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_RELEASED</zType>
-		<Translation>Entlassen</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_TRAIT_FUGITIVE</zType>
 		<Translation>Flüchtiger</Translation>
 	</Entry>
@@ -453,6 +449,10 @@
 	<Entry>
 		<zType>TEXT_TRAIT_CLAIMED</zType>
 		<Translation>Beansprucht</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_PRIEST</zType>
+		<Translation>Priester</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ARTIST</zType>

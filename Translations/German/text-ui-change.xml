@@ -222,6 +222,10 @@
 		<Translation>Familie: {0}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_CHARACTER_SELECTION_COURTIER</zType>
+		<Translation>Vertrauter</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_CHARACTER_SELECTION_GENERAL_UNIT</zType>
 		<Translation>Einheit: {0}</Translation>
 	</Entry>
@@ -354,6 +358,10 @@
 		<Translation>Verbessern zu {0}</Translation>
 	</Entry>
 	<Entry>
+        <zType>TEXT_UI_RELIGION_PANEL_HOLY_CITY</zType>
+        <Translation>Gegründet in {0}</Translation>
+    </Entry>
+	<Entry>
 		<zType>TEXT_UI_RELIGION_PANEL_STATE_RELIGION</zType>
 		<Translation>{0} (Staats)</Translation>
 	</Entry>
@@ -470,6 +478,10 @@
 		<Translation>Luxuries can be given to Nations, Tribes, and Families to improve Opinion. They also can be given to Cities to reduce link(YIELD_DISCONTENT).</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_TOOLTIP_LUXURIES_NONE</zType>
+		<Translation>Nicht Verfügbar</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_TOOLTIP_TRADABLE</zType>
 		<Translation><![CDATA[Handelbar: {0_resource}{1_icon}<true_2> (x{2})<false><end>]]></Translation>
 	</Entry>
@@ -516,7 +528,35 @@
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_ATTACKED_UNIT</zType>
 		<Translation>[Angegriffende Einheit]</Translation>
-	</Entry>	 
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_CHARACTERLIST_FILTER_NONE</zType>
+		<Translation>Alle Charaktere</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_CHARACTERLIST_FILTER_GENERALS</zType>
+		<Translation>Geeignete Feldherren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_CHARACTERLIST_FILTER_GOVERNORS</zType>
+		<Translation>Geeignete Staddthalter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_CHARACTERLIST_FILTER_AGENTS</zType>
+		<Translation>Geeignete Agenten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_CHARACTERLIST_FILTER_AMBASSADORS</zType>
+		<Translation>Geeignete Botschafter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_CHARACTERLIST_FILTER_CHANCELLORS</zType>
+		<Translation>Geeignete Kanzler</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_CHARACTERLIST_FILTER_SPYMASTERS</zType>
+		<Translation>Geeignete Meisterspione</Translation>
+	</Entry>
     <!--menu-screens.xml-->
     <Entry>
         <zType>TEXT_MENU_SCREEN_SP_BUTTON</zType>
@@ -704,6 +744,14 @@
     <Entry>
         <zType>TEXT_MP_PLAYERS_SCREEN_BACK_BUTTON</zType>
         <Translation>Zurück</Translation>
+	</Entry>
+    <Entry>
+        <zType>TEXT_MP_PLAYER_CONNECTED</zType>
+        <Translation>{0} hat sich mit dem Server verbunden</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_MP_PLAYER_DISCONNECTED</zType>
+        <Translation>{0} hat sich von dem Server verabschiedet</Translation>
     </Entry>
     <!--tools-->
     <Entry>

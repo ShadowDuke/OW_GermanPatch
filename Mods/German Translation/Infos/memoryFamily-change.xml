@@ -929,6 +929,11 @@
 		<zText>Allowed some city autonomy</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_SHARED_THEIR_GRIEF</zType>
+		<zText>Geteilte Trauer</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
 	<Entry beginGroup="Contact">
 		<zType>MEMORYFAMILY_FORCED_TO_KISS_FEET</zType>
 		<zText>Forced to kiss foreign ruler's feet</zText>

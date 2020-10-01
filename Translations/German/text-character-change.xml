@@ -166,15 +166,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_GENERAL_OF</zType>
-		<Translation>Feldherr von {0_unit}</Translation>
+		<Translation>link(CONCEPT_GENERAL) von {0_unit}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_GOVERNOR_OF</zType>
-		<Translation>Stadthalter von {0_city}</Translation>
+		<Translation>link(CONCEPT_GOVERNOR) von {0_city}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_AGENT_IN</zType>
-		<Translation>Agent in {0_city}</Translation>
+		<Translation>link(CONCEPT_AGENT) in {0_city}</Translation>
 	</Entry>
 	<!-- Name -->
 	<Entry>

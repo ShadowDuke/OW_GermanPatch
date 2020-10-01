@@ -361,7 +361,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_FOUND_RELIGION_CITY</zType>
-		<Translation>Gegründete {1_religion}</Translation>
+		<Translation>Gründete {1_religion}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_CITIZENS</zType>
@@ -420,8 +420,12 @@
 		<Translation>{0_character} wird {1_trait}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_RANDOM_RELATIONSHIP_LEADER</zType>
+		<Translation>{0_character} ist jetzt {1_relationship} {2_leader}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_GAINS</zType>
-		<Translation>Bekommt {0}</Translation>
+		<Translation>Wird {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_LOSES</zType>
@@ -509,11 +513,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_RELATIONSHIP_ADD_REMOVE</zType>
-		<Translation> (Beseitigt {0_relationship}...)</Translation>
+		<Translation>{0} (Entfernt {1_list})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_RELATIONSHIP_REMOVE</zType>
-		<Translation>Nicht {0_relationship} {1_character}</Translation>
+		<Translation>Nicht länger {0_relationship} {1_character}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_XP</zType>
@@ -719,7 +723,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_UNIT_FINISHED_TRADE_ROUTE</zType>
-		<Translation>Handelsweg fertig: {0}</Translation>
+		<Translation>link(CONCEPT_TRADE_ROUTE) fertig: {0}</Translation>
 	</Entry>
 	<!--City-->
 	<Entry>
@@ -728,7 +732,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CITY_REBEL_UNITS_NEAR_CITY</zType>
-		<Translation>Rebbeln haben ein(e) {0_unit} nahe {1_city} gebildet!</Translation>
+		<Translation>link(BARBARIAN_REBELS) haben eine {0_unit} nahe {1_city} gebildet!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CITY_CURRY_POPULATION_CITIZENS_COST</zType>

@@ -595,4 +595,8 @@
 		<zType>TEXT_EFFECTCITY_TRAIT_ASCETIC</zType>
 		<Translation>Enthaltsam</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_PRIEST</zType>
+		<Translation>Priester</Translation>
+	</Entry>
 </Root>

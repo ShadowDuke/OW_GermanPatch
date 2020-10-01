@@ -7,63 +7,63 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_TRUCE_TITLE</zType>
-		<Translation>Waffenruhe mit Spieler</Translation>
+		<Translation>link(DIPLOMACY_TRUCE) mit Spieler</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_TITLE</zType>
-		<Translation>Krieg mit Spieler</Translation>
+		<Translation>link(DIPLOMACY_WAR) mit Spieler</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PEACE_RESPONSE_TITLE</zType>
-		<Translation>Reaktion auf Frieden</Translation>
+		<Translation>Reaktion auf link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRUCE_RESPONSE_TITLE</zType>
-		<Translation>Reaktion auf Waffenruhe</Translation>
+		<Translation>Reaktion auf link(DIPLOMACY_TRUCE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRUCE_PROPOSAL_HUMAN_TITLE</zType>
-		<Translation>Waffenruhe Angebot</Translation>
+		<Translation>link(DIPLOMACY_TRUCE) Angebot</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BARBARIAN_PLAYER_WAR_TITLE</zType>
-		<Translation>Eine Kriegserklärung</Translation>
+		<Translation>Eine link(DIPLOMACY_WAR) erklärung</Translation>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_EVENTSTORY_PLAYER_BARBARIAN_WAR_TITLE</zType>
-		<Translation>Eine Kriegserklärung</Translation>
+		<Translation>Eine link(DIPLOMACY_WAR) erklärung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_PLAYER_WAR_TITLE</zType>
-		<Translation>Eine Kriegserklärung</Translation>
+		<Translation>Eine link(DIPLOMACY_WAR) erklärung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_DECLARE_WAR_TITLE</zType>
-		<Translation>Krieg Erklärt</Translation>
+		<Translation>Erkläre link(DIPLOMACY_WAR</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_BREAK_PEACE_TITLE</zType>
-		<Translation>Frieden gebrochen</Translation>
+		<Translation>Breche link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_END_ALLIANCE_TITLE</zType>
-		<Translation>Bündis beendet</Translation>
+		<Translation>Beende Bündnis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_CANCEL_TRADE_TITLE</zType>
-		<Translation>Handel beendet</Translation>
+		<Translation>Beende Handel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BARBARIAN_DECLARE_WAR_TITLE</zType>
-		<Translation>Krieg Erklärt</Translation>
+		<Translation>Erkläre link(DIPLOMACY_WAR</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BARBARIAN_BREAK_PEACE_TITLE</zType>
-		<Translation>Frieden gebrochen</Translation>
+		<Translation>Breche link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BARBARIAN_END_ALLIANCE_TITLE</zType>
-		<Translation>Bündis beendet</Translation>
+		<Translation>Beende Bündnis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SEASIDE_FIND_TITLE</zType>
@@ -731,7 +731,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SECURING_PEACE_TITLE</zType>
-		<Translation>Securing Peace</Translation>
+		<Translation>Sichere link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SECURING_PEACE_FURIOUS_EMISSARY_TITLE</zType>
@@ -747,7 +747,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_PEACE_TITLE</zType>
-		<Translation>Player Peace</Translation>
+		<Translation>Spieler link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_PEACE_BUILDING_TRUST_TITLE</zType>
@@ -787,11 +787,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PEACE_PROPOSAL_TITLE</zType>
-		<Translation>Peace Proposal</Translation>
+		<Translation>link(DIPLOMACY_PEACE) Vorschlag</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRUCE_PROPOSAL_TITLE</zType>
-		<Translation>Truce Proposal</Translation>
+		<Translation>link(DIPLOMACY_TRUCE) Vorschlag</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CITY_CAPTURED_TRUCE_TITLE</zType>
@@ -891,11 +891,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DECLARE_WAR_DEMAND_TITLE</zType>
-		<Translation>War Demand</Translation>
+		<Translation>link(DIPLOMACY_WAR) Demand</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DECLARE_WAR_DEMAND_BARBARIAN_TITLE</zType>
-		<Translation>War Demand</Translation>
+		<Translation>link(DIPLOMACY_WAR) Demand</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_TITLE</zType>
@@ -971,7 +971,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_BUILDER_ARCHETYPE_PLEASED_TITLE</zType>
-		<Translation>Food for Peace</Translation>
+		<Translation>link(YIELD_FOOD) für link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_BUILDER_ARCHETYPE_CAUTIOUS_TITLE</zType>
@@ -983,7 +983,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_BUILDER_ARCHETYPE_CAUTIOUS_LEADER4_WAR_TITLE</zType>
-		<Translation>Proof</Translation>
+		<Translation>Beweise</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_BUILDER_ARCHETYPE_CAUTIOUS_LEADER4_INTIMIDATED_TITLE</zType>
@@ -1167,11 +1167,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RETURN_CITY_TITLE</zType>
-		<Translation>[RETURN CITY]</Translation>
+		<Translation>{CITY-2} Returns</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RETURN_CITY_BARBARIAN_TITLE</zType>
-		<Translation>[RETURN CITY]</Translation>
+		<Translation>{CITY-2} Returns</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BATTLE_PLANS_TITLE</zType>
@@ -2050,6 +2050,22 @@
 		<Translation>Inquiring Minds</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTSTORY_COURTIER_A1_TITLE</zType>
+		<Translation>Great Achievers</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COURTIER_A2_TITLE</zType>
+		<Translation>Brilliant Achievers</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COURTIER_B1_TITLE</zType>
+		<Translation>Great Thinkers</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COURTIER_B2_TITLE</zType>
+		<Translation>Brilliant Thinkers</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_WISDOM_LITERATURE_TITLE</zType>
 		<Translation>Wisdom Literature</Translation>
 	</Entry>
@@ -2103,7 +2119,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_SCIENCE_OR_MAGIC_TITLE</zType>
-		<Translation>Science or Magic?</Translation>
+		<Translation>link(YIELD_SCIENCE) or Magic?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_UNETHICAL_PRACTICES_TITLE</zType>
@@ -2815,15 +2831,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_A_TOAST_TITLE</zType>
-		<Translation>A Toast</Translation>
+		<Translation>Ein Toast</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_A_TOAST_DUEL_WIN_TITLE</zType>
-		<Translation>A Duel</Translation>
+		<Translation>Ein Duell</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_A_TOAST_DUEL_LOSE_TITLE</zType>
-		<Translation>A Duel</Translation>
+		<Translation>Ein Duell</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_A_TOAST_MOTHERS_TOUCH_TITLE</zType>
@@ -3031,7 +3047,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_AMBUSH_TITLE</zType>
-		<Translation>Ambush</Translation>
+		<Translation>Hinterhalt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_A_HIGH_PRICE_TITLE</zType>
@@ -3589,6 +3605,106 @@
 		<zType>TEXT_EVENTSTORY_ALTRUISM_TITLE</zType>
 		<Translation>Altruism</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_UNCHECKED_TITLE</zType>
+		<Translation>Unchecked</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_UNWELCOME_TITLE</zType>
+		<Translation>Unwelcome</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_A_TALENT_FOR_GEOMETRY_TITLE</zType>
+		<Translation>A Talent for Geometry</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TENSE_MEETING_TITLE</zType>
+		<Translation>Tense Meeting</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_UNDER_ARREST_TITLE</zType>
+		<Translation>Under Arrest</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_FOUND_INNOCENT_TITLE</zType>
+		<Translation>Found Innocent</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_GUILTY_AS_CHARGED_TITLE</zType>
+		<Translation>Guilty as Charged</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SNAKE_CHARMER_TITLE</zType>
+		<Translation>Snake Charmer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_WIDE_AWAKE_TITLE</zType>
+		<Translation>Not Dead</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SILENT_SCREAMS_TITLE</zType>
+		<Translation>Silent Screams</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_ESCAPED_THE_GRAVE_TITLE</zType>
+		<Translation>Escaped the Grave</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_DEFACED_TITLE</zType>
+		<Translation>Defaced</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISCONTENTED_DUO_TITLE</zType>
+		<Translation>Discontented Duo</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_ON_GOOD_AUTHORITY_TITLE</zType>
+		<Translation>On Good Authority</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_INCONSOLABLE_TITLE</zType>
+		<Translation>Inconsolable</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_TAKING_ITS_TOLL_TITLE</zType>
+		<Translation>Taking its Toll</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_FEEL_THE_PRESSURE_TITLE</zType>
+		<Translation>Feel the Pressure</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_FIGHTING_FOR_NATION_TITLE</zType>
+		<Translation>Fighting for {PLAYER-1}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MADNESS_BLOOD_AND_LOVE_TITLE</zType>
+		<Translation>Madness, Blood and Love</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_A_MATTER_OF_INCEST_TITLE</zType>
+		<Translation>A Matter of Incest</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLOTTING_COURTIERS_TITLE</zType>
+		<Translation>Plotting Courtiers</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BEE_OF_BUMBLE_TITLE</zType>
+		<Translation>Bee of Bumble</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INSANE_LOVE_TITLE</zType>
+		<Translation>Insane Love</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DUNGEONS_AND_INSANITY_TITLE</zType>
+		<Translation>Dungeons and Insanity</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SPITE_AMONG_SIBLINGS_TITLE</zType>
+		<Translation>Spite Among Siblings</Translation>
+	</Entry>
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS_TITLE</zType>
 		<Translation>Immigrants</Translation>
@@ -3823,7 +3939,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TO_ARMS_TITLE</zType>
-		<Translation>To Arms</Translation>
+		<Translation>Zu den WAffen</Translation>
 	</Entry>
 	<Entry beginGroup="Religion">
 		<zType>TEXT_EVENTSTORY_GODS_AND_MONSTERS_TITLE</zType>
@@ -3935,63 +4051,63 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_START_SLAVERY_TITLE</zType>
-		<Translation>Slavery Now?</Translation>
+		<Translation>link(LAW_SLAVERY) Now?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_EPICS_EXPLORATION_TITLE</zType>
-		<Translation>Epics or Exploration</Translation>
+		<Translation>link(LAW_EPICS or link(LAW_EXPLORATION)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LAW_SLAVERY_FREEDOM_TITLE</zType>
-		<Translation>Slavery or Freedom</Translation>
+		<Translation>link(LAW_SLAVERY) or link(LAW_FREEDOM)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TYRANNY_CONSTITUTION_TITLE</zType>
-		<Translation>Tyranny or Constitution</Translation>
+		<Translation>link(LAW_TYRANNY) or link(LAW_CONSTITUTION)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CENTRALIZATION_VASSALAGE_TITLE</zType>
-		<Translation>Centralization or Vassalage</Translation>
+		<Translation>link(LAW_CENTRALIZATION) or link(LAW_VASSALAGE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_COLONIZATION_SERFDOM_TITLE</zType>
-		<Translation>Colonization or Serfdom</Translation>
+		<Translation>link(LAW_COLONIZATION) or link(LAW_SERFDOM)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PROFESSIONAL_ARMY_VOLUNTEERS_TITLE</zType>
-		<Translation>Professional Army or Volunteers</Translation>
+		<Translation>link(LAW_PROFESSIONAL_ARMY) or link(LAW_VOLUNTEERS)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PHILOSOPHY_ENGINEERING_TITLE</zType>
-		<Translation>Philosophy or Engineering</Translation>
+		<Translation>link(LAW_PHILOSOPHY) or link(LAW_ENGINEERING)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MONOTHEISM_POLYTHEISM_TITLE</zType>
-		<Translation>Monotheism or Polytheism</Translation>
+		<Translation>link(LAW_MONOTHEISM) or link(LAW_POLYTHEISM)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GUILDS_ELITES_TITLE</zType>
-		<Translation>Guilds or Elites</Translation>
+		<Translation>link(LAW_GUILDS) or link(LAW_ELITES)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TOLERANCE_ORTHODOXY_TITLE</zType>
-		<Translation>Tolerance or Orthodoxy</Translation>
+		<Translation>link(LAW_TOLERANCE) or link(LAW_ORTHODOXY)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ICONOGRAPHY_CALLIGRAPHY_TITLE</zType>
-		<Translation>Iconography or Calligraphy</Translation>
+		<Translation>link(LAW_ICONOGRAPHY) or link(LAW_CALLIGRAPHY)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PILGRIMAGE_HOLY_WAR_TITLE</zType>
-		<Translation>Pilgrimage or Holy War</Translation>
+		<Translation>link(LAW_PILGRIMAGE) or link(LAW_HOLY_WAR)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DIVINE_RULE_SECULARISM_TITLE</zType>
-		<Translation>Divine Rule or Secularism</Translation>
+		<Translation>link(LAW_DIVINE_RULE) or link(LAW_SECULARISM)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ISOLATIONISM_TRADE_LEAGUE_TITLE</zType>
-		<Translation>Isolationism or Trade League</Translation>
+		<Translation>link(LAW_ISOLATIONISM) or link(LAW_TRADE_LEAGUE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_COIN_DEBASEMENT_MONETARY_REFORM_TITLE</zType>
@@ -4499,15 +4615,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_AMBASSADOR_CANDIDATES_TITLE</zType>
-		<Translation>Ambassador Candidates</Translation>
+		<Translation>link(COUNCIL_AMBASSADOR) Kandidaten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHANCELLOR_CANDIDATES_TITLE</zType>
-		<Translation>Chancellor Candidates</Translation>
+		<Translation>link(COUNCIL_CHANCELLOR Kandidaten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SPYMASTER_CANDIDATES_TITLE</zType>
-		<Translation>Spymaster Candidates</Translation>
+		<Translation>link(COUNCIL_SPYMASTER) Kandidaten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TECH_VAULTING_SEWER_SYSTEM_TITLE</zType>
@@ -4535,7 +4651,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TECH_LATEEN_ADRIFT_TITLE</zType>
-		<Translation>Adrift</Translation>
+		<Translation>Treibend</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TECH_LATEEN_CAPSIZED_SPIES_TITLE</zType>
@@ -4796,10 +4912,6 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RELATIONSHIP_MAKING_PEACE_TITLE</zType>
 		<Translation>Frieden geschlossen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_CHARACTER_RELEASED_TITLE</zType>
-		<Translation>Freigelassen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RELATIONSHIP_IN_THE_BLOOD_TITLE</zType>
@@ -5592,5 +5704,21 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARIOT_DIPLOMACY_TITLE</zType>
 		<Translation>link(UNIT_CHARIOT) Diplomacy</Translation>
+	</Entry>
+		<Entry>
+		<zType>TEXT_EVENTSTORY_THE_GROVE_OF_CHARACTER_TITLE</zType>
+		<Translation>The Grove of {CHARACTER-3}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_GROVE_THE_SPOUSE_AND_THE_PROPHET_TITLE</zType>
+		<Translation>Grove, Spouse, and Prophet</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_DANCE_OF_VENGENCE_TITLE</zType>
+		<Translation>The Dance of Vengence</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PROTECTION_OF_A_PROPHET_TITLE</zType>
+		<Translation>Protection of a Prophet</Translation>
 	</Entry>
 </Root>

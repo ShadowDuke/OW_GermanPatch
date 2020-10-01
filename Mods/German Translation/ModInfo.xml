@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <ModInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <displayName>German Translation Part 2</displayName>
   <description>Deutsche Rest-Übersetzung</description>
   <modpicture>1920px-Flag_of_Germany.svg.png</modpicture>
   <author>Revan/ShadowDuke</author>
   <modioID>143280</modioID>
-  <modioFileID>177684</modioFileID>
-  <modversion>for 0.1.41182</modversion>
+  <modioFileID>204780</modioFileID>
+  <modversion>for 0.1.43070</modversion>
   <homepage>https://github.com/ShadowDuke/OW_GermanPatch</homepage>
   <singlePlayer>true</singlePlayer>
   <multiplayer>true</multiplayer>

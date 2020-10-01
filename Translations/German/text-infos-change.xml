@@ -111,6 +111,10 @@
 		<Translation>Ressourcen ernten</Translation>
 	</Entry>
 	<Entry>
+        <zType>TEXT_CONCEPT_HIDDEN</zType>
+        <Translation>Versteckt</Translation>
+    </Entry>
+	<Entry>
 		<zType>TEXT_CONCEPT_JOIN_COURT</zType>
 		<Translation>schließt sich dem Hofstaat an</Translation>
 	</Entry>

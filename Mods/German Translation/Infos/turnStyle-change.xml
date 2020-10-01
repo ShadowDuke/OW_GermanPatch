@@ -8,7 +8,6 @@
 		<iTimeModifier/>
 		<iCombatModifier/>
 		<bSimultaneous/>
-		<bNoEndTurn/>
 		<bTeamSplit/>	   
 		<bBarbSplit/>
 		<bNoCooldown/>
@@ -30,7 +29,6 @@
 		<zHelp>Keine Bewegungsbeschränkung</zHelp>
 		<iTimeModifier>-25</iTimeModifier>
 		<iCombatModifier>50</iCombatModifier>
-		<bNoEndTurn>1</bNoEndTurn>					
 		<bBarbSplit>1</bBarbSplit>
 		<bNoCooldown>1</bNoCooldown>
 	</Entry>
@@ -63,6 +61,7 @@
 		<zHelp>Kann keine Einheiten während des Gegnerzuges bewegen</zHelp>
 		<iTimeModifier>50</iTimeModifier>
 		<iCombatModifier>25</iCombatModifier>
+		<bTeamSplit>1</bTeamSplit>					
 		<bNoBuild>1</bNoBuild>
 		<bNoMilitary>1</bNoMilitary>
 	</Entry>
