@@ -367,6 +367,12 @@
     <Keys>F4</Keys>
   </Entry>
   <Entry>
+		<zType>HOTKEY_LOG_SCREEN</zType>
+		<zName>Zeige Sieg Bildschirm</zName>
+		<HotkeyClass>HOTKEYCLASS_SCREENS</HotkeyClass>
+		<Keys>F5</Keys>
+	</Entry>
+	<Entry>
     <zType>HOTKEY_TECH_SCREEN</zType>
     <zName>Zeige Technologien</zName>
     <HotkeyClass>HOTKEYCLASS_SCREENS</HotkeyClass>

@@ -449,6 +449,38 @@
 		<zType>TEXT_EVENTSTORY_HARVEST_CAPSIZED_TITLE</zType>
 		<Translation>Capsized</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RUINS_NECROPOLIS_TITLE</zType>
+		<Translation>Necropolis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RUINS_STRANGE_ART_TITLE</zType>
+		<Translation>Unfamiliar art</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RUINS_STRANGE_SCROLL_TITLE</zType>
+		<Translation>Strange scroll</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RUINS_WISE_MAN_TITLE</zType>
+		<Translation>Wise man</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RUINS_GIANT_STATUE_TITLE</zType>
+		<Translation>Giant statue</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RUINS_CURSED_LAND_TITLE</zType>
+		<Translation>Cursed land</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RUINS_COMET_SIGHTED_TITLE</zType>
+		<Translation>Comet sighted</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RUINS_CHOSEN_CHILD_TITLE</zType>
+		<Translation>Chosen Child</Translation>
+	</Entry>
 	<Entry beginGroup="Contact">
 		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_CALM_EMISSARY_TITLE</zType>
 		<Translation>Stiller Botschafter</Translation>
@@ -3705,6 +3737,42 @@
 		<zType>TEXT_EVENTSTORY_SPITE_AMONG_SIBLINGS_TITLE</zType>
 		<Translation>Spite Among Siblings</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_A_BROKEN_SOUL_TITLE</zType>
+		<Translation>A Broken Soul</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_BELOVED_MENTOR_TITLE</zType>
+		<Translation>Beloved Mentor</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_PHILOSOPHY_AND_FISH_TITLE</zType>
+		<Translation>Monkey Philosophy</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_DELICATE_MATTER_TITLE</zType>
+		<Translation>A Delicate Matter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_BARBARIAN_BRIDE_TITLE</zType>
+		<Translation>Barbarian {G2:Groom:Bride}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_CINNABAR_TRAGEDIES_TITLE</zType>
+		<Translation>Cinnabar Tragedies</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_YOUNG_LOVE_TITLE</zType>
+		<Translation>Young Love</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_LETTER_FOR_TOOLS_TITLE</zType>
+		<Translation>A Request for Tools</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_LONELINESS_ABROAD_TITLE</zType>
+		<Translation>Loneliness Abroad</Translation>
+	</Entry>
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS_TITLE</zType>
 		<Translation>Immigrants</Translation>
@@ -5360,6 +5428,38 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_HIDDEN_CHILD_TITLE</zType>
 		<Translation>The Hidden Child</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIVORCE_DOWRY_DEMAND_TITLE</zType>
+		<Translation>Dowry Demand</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIVORCE_CUSTODY_TITLE</zType>
+		<Translation>Paternal Custody</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIVORCE_TAKING_IT_PERSONALLY_TITLE</zType>
+		<Translation>Taking it Personally</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIVORCE_FLIGHT_FROM_NATION_TITLE</zType>
+		<Translation>Flight from {PLAYER-3}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIVORCE_THE_QUEENS_CLAIMS_TITLE</zType>
+		<Translation>The Queen's Claim</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIVORCE_UNVIABLE_TITLE</zType>
+		<Translation>Unviable</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIVORCE_A_SURPRISE_TITLE</zType>
+		<Translation>A Surprise</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRAIT_THE_WITNESS_TITLE</zType>
+		<Translation>The Witness</Translation>
 	</Entry>
 	<Entry beginGroup="Tutorial">
 		<zType>TEXT_EVENTSTORY_VICTORY_POINTS_TITLE</zType>

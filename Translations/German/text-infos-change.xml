@@ -729,14 +729,6 @@
 		<Translation>+20 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD), und icon(YIELD_STONE)/Jahr</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_60_GOODS_TURN</zType>
-		<Translation>+60 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD), und icon(YIELD_STONE)/Jahr</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_200_GOODS_TURN</zType>
-		<Translation>+200 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD), und icon(YIELD_STONE)/Jahr</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GOAL_CIVICS_2000</zType>
 		<Translation>Lagere 2000 icon(YIELD_CIVICS)</Translation>
 	</Entry>
@@ -1087,10 +1079,6 @@
 	<Entry>	
 		<zType>TEXT_GOAL_10_ELDER_SPECIALISTS</zType>
 		<Translation>Kontrolliere 10 Ältesten Spezialisten</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_20_ELDER_SPECIALISTS</zType>
-		<Translation>Kontrolliere 20 Ältesten Spezialisten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_SIX_WALLS</zType>
@@ -1569,6 +1557,10 @@
 		<Translation>Hochadel</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TECH_ARISTOCRACY_BONUS_BORDERS</zType>
+		<Translation>Grenzen Schub</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TECH_SOVEREIGNTY</zType>
 		<Translation>Herrschaft</Translation>
 	</Entry>
@@ -1767,10 +1759,6 @@
 	<Entry>
 		<zType>TEXT_TECH_VAULTING</zType>
 		<Translation>Wölbung</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TECH_VAULTING_BONUS_BORDERS</zType>
-		<Translation>Grenzenschub</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_UNIT_TACTICS</zType>

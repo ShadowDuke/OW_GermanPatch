@@ -122,6 +122,10 @@
 		<Translation>:Grundwert</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_POPULATION_ENEMY</zType>
+		<Translation>:Bevölkerung</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_GENERAL</zType>
 		<Translation>Feldherr:</Translation>
 	</Entry>
@@ -1005,10 +1009,6 @@
 	</Entry>
 	<!--options-menu.xml-->
 	<!--title bar-->
-	<Entry>
-        <zType>TEXT_OPTIONS_MENU_TITLEBAR_GAMEPLAY</zType>
-        <Translation>Spielablauf</Translation>
-    </Entry>
     <Entry>
         <zType>TEXT_OPTIONS_MENU_TITLEBAR_GRAPHICS</zType>
         <Translation>Grafik</Translation>
@@ -2020,5 +2020,25 @@
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_MOD_PICTURE_TOOLTIP</zType>
 		<Translation><![CDATA[icon(bullet)1280x720 ooder größer empfohlen<br>icon(bullet)16:9 Bildformatempfohlen<br>icon(bullet)8mb maximal<br>icon(bullet)GIFs werden zu PNGs umgewandelt]]></Translation>
-	</Entry>	 
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_LOAD_GAME_MODS_NOT_FOUND_POPUP_TITLE</zType>
+		<Translation>Mods nicht gefunden!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_LOAD_GAME_MODS_NOT_FOUND_POPUP_BODY</zType>
+		<Translation>Die folgenden Mods wurden auf deinem System nicht gefunden, möchtest du versuchen sie herunterzuladen?</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_DOWNLOADING_MODS_POPUP_TITLE</zType>
+		<Translation>Lade Mods herunter, bite warten.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MOD_DOWNLOADS_COMPLETE_POPUP_TRY_LOAD_AGAIN_BUTTON</zType>
+		<Translation>Versuche das Spiel erneut zu starten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_NOT_FOUND_ON_SERVER_POPUP_TITLE</zType>
+		<Translation>Die angeforderten Mods wurden auf den mod.io Servern nicht gefunden</Translation>
+	</Entry>
 </Root>

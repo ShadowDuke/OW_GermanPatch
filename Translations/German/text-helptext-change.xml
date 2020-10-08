@@ -828,6 +828,10 @@
 		<Translation><![CDATA[Zeige Städte<true_0><br>{0_presskey}<false><end>]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_CITY_LIST_ENTRY</zType>
+		<Translation>{0_city}: {1_culture}, {2_discontent} icon(YIELD_DISCONTENT)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_GAME_LOG</zType>
 		<Translation>Zeige Spielaufzeichnung</Translation>
 	</Entry>
@@ -1200,6 +1204,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_ADD_GENERAL_NO_CANDIDATES</zType>
 		<Translation>Keine Kandidaten verfügbar</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_ADD_GENERAL_PREREQS</zType>
+		<Translation>Must be younger then {0} and not of a different Family</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_ADD_GENERAL_MIN_UNIT_LEVEL</zType>
@@ -1671,6 +1679,10 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Kostet {0_money}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_COURTIER</zType>
+		<Translation>A new {0_courtier} has emerged.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_RELIGION_FOUNDED</zType>
 		<Translation>Die neue {0_religion} erscheint in {1_city}.</Translation>
 	</Entry>
@@ -1893,10 +1905,6 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>{0_yield}: Entfernung von {1_capitalCity}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_LUXURY</zType>
-		<Translation>{0_yield}: Luxusgüter ({1})</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_DISCONTENT</zType>
 		<Translation>{0_yield}: link(YIELD_DISCONTENT) {1}</Translation>
 	</Entry>
@@ -2073,6 +2081,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation><![CDATA[Wird sich für die Kinder deiner Familien deinem Hofstaat als {0,1_tutorLink} anschließen.<br>Kann außerdem ein {1_general}, ein {2_governor}, oder ein(e) Spouse sein.]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_LEGITIMACY</zType>
+		<Translation>Legitimacy comes from achieving Ambitions and better Cognomens (such as "the Great"). Higher Legitimacy improves Family Opinions and increases link(YIELD_ORDERS) per Year.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LEGITIMACY_OPINIONS</zType>
 		<Translation>{0_value}: Familien Meinung</Translation>
 	</Entry>
@@ -2087,10 +2099,6 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LUXURY_TRADE</zType>
 		<Translation>Kann mit anderen Familien oder Imperien gehandelt werden um die Meinung zu verbessern.</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_LUXURY_EXCESS</zType>
-		<Translation><![CDATA[(Überschüssige Luxusgüter fügen {0_iconList} deiner Hauptstadt hinzu<true_1>, {1_capital}<false><end>.)]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_MAP_SIZE</zType>
@@ -2552,10 +2560,6 @@ Current Student(s): </Translation>
 		<Translation>Benötigt verbesserung: {0_link}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_ADJACENT_IMPROVEMENT_CLASS</zType>
-		<Translation>Benötigt angrenzende Verbesserung: {0_link}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_CITY_IMPROVEMENT_COUNT</zType>
 		<Translation>{0_maxValue} pro Stadt</Translation>
 	</Entry>
@@ -2911,6 +2915,10 @@ Current Student(s): </Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TRAIT_INTO_FRACTION_MODIFIER</zType>
 		<Translation>In {0}/{1}: {2}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_TRAIT_IGNORES_DISTANCE</zType>
+		<Translation>Ignoriert link(CONCEPT_DISTANCE_MODIFIER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TRAIT_ZOC_BLOCKS</zType>
@@ -4490,10 +4498,6 @@ Current Student(s): </Translation>
 		<Translation>Ist deine {0_stateReligionLink}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_RELIGION_CAN_ADOPT_AS_STATE_RELIGION</zType>
-		<Translation>Kann als {0_stateReligionLink} übernehmen</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_FOUNDING_PREREQS</zType>
 		<Translation>Diese Religion gründen</Translation>
 	</Entry>
@@ -4926,8 +4930,12 @@ Current Student(s): </Translation>
 		<Translation>Ernten: {0}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_RESOURCE_FROM_IMPROVEMENT</zType>
-		<Translation>Von {0_improvement}:</Translation>
+		<zType>TEXT_HELPTEXT_RESOURCE_FROM</zType>
+		<Translation>Von {0}:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_RESOURCE_FROM_LIST</zType>
+		<Translation>Von {0}: {LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RESOURCE_MISSING</zType>
@@ -4982,6 +4990,10 @@ Current Student(s): </Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_SPECIALIST_IMPROVEMENT_MODIFIER</zType>
 		<Translation>{0}: x{1}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_SPECIALIST_FROM_RESOURCE</zType>
+		<Translation>Von {0_resource}: {1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_SPECIALIST_SPREAD_BORDERS</zType>
@@ -5873,6 +5885,10 @@ Current Student(s): </Translation>
 		<Translation><![CDATA[Erobere {0} <true_1>{1}<false>Barbaren<end> <singular_0>Gelände<plural>Gelände<end>]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_SETTLE_BARBARIAN_SITES</zType>
+		<Translation><![CDATA[Found Cities on {0} <true_1>{1}<false>Barbarian<end> <singular_0>Site<plural>Sites<end>]]></Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_KILL_PLAYER_ENEMY_UNITS</zType>
 		<Translation><![CDATA[Töte {0} <true_1>{1}<false>gegnerische<end> <singular_0>Einheit<plural>Einheiten<end>]]></Translation>
 	</Entry>
@@ -5907,6 +5923,10 @@ Current Student(s): </Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_PRODUCE_YIELD_MASS</zType>
 		<Translation>Produziert {0} {1_yield}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_RESOURCE_REVEALED</zType>
+		<Translation>Discover {0} {1_resource}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_X</zType>
@@ -6074,6 +6094,10 @@ Current Student(s): </Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_OPINION_STATE_RELIGION</zType>
 		<Translation>{0}: Staatsreligion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_RELIGION_OPINION_STATE_RELIGION_NOT</zType>
+		<Translation>{0}: Nicht Staatsreligion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_OPINION_RELIGIOUS_IMPROVEMENTS</zType>

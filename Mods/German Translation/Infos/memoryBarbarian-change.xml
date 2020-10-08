@@ -304,6 +304,11 @@
 		<zText>Other tribe mediated on our behalf</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYBARBARIAN_COURTIER_WED</zType>
+		<zText>Courtier wed barbarian bride</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
 	<Entry beginGroup="Exploration">
 		<zType>MEMORYBARBARIAN_GIFT_OF_CAMELS</zType>
 		<zText>Geschenk (Kamele) erhalten</zText>

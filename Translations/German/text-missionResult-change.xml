@@ -132,15 +132,15 @@
 	<!--Result Name-->
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_AMBASSADOR</zType>
-		<Translation>Gesandter</Translation>
+		<Translation>link(COUNCIL_AMBASSADOR)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_CHANCELLOR</zType>
-		<Translation>Kanzler</Translation>
+		<Translation>link(COUNCIL_CHANCELLOR)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_SPYMASTER</zType>
-		<Translation>Meisterspion</Translation>
+		<Translation>link(COUNCIL_SPYMASTER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TEAM_ALLIANCE_EVENT</zType>
@@ -148,51 +148,51 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_PEACE_EVENT</zType>
-		<Translation>Frieden Ereignis</Translation>
+		<Translation>link(DIPLOMACY_PEACE Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_PEACE_OFFER_EVENT</zType>
-		<Translation>Biete Tribut für Frieden Ereignis</Translation>
+		<Translation>Biete Tribut für link(DIPLOMACY_PEACE Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_PEACE_NO_EVENT</zType>
-		<Translation>Frag nach Frieden Ereignis</Translation>
+		<Translation>Frag nach link(DIPLOMACY_PEACE Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_PEACE_DEMAND_EVENT</zType>
-		<Translation>Verlange Tribut für Frieden Ereignis</Translation>
+		<Translation>Verlange Tribut für link(DIPLOMACY_PEACE Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_EVENT</zType>
-		<Translation>WAffenruhe Ereignis</Translation>
+		<Translation>link(DIPLOMACY_TRUCE) Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_OFFER_EVENT</zType>
-		<Translation>Biete Tribut für Waffenruhe Ereignis</Translation>
+		<Translation>Biete Tribut für link(DIPLOMACY_PEACE) Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_NO_EVENT</zType>
-		<Translation>Frage nach Waffenruhe Ereignis</Translation>
+		<Translation>Frage nach link(DIPLOMACY_PEACE) Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_DEMAND_EVENT</zType>
-		<Translation>Verlange Tribur für Waffenruhe Ereignis</Translation>
+		<Translation>Verlange Tribur für link(DIPLOMACY_PEACE) Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_HUMAN_EVENT</zType>
-		<Translation>Waffenruhe Ereignis</Translation>
+		<Translation>link(DIPLOMACY_TRUCE) Ereignis</Translation>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_MISSIONRESULT_PLAYER_DECLARE_WAR_EVENT</zType>
-		<Translation>Erkläre Krieg</Translation>
+		<Translation>Erkläre link(DIPLOMACY_WAR)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_DECLARE_WAR_HUMAN_EVENT</zType>
-		<Translation>Erkläre Krieg</Translation>
+		<Translation>Erkläre link(DIPLOMACY_WAR)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_BREAK_PEACE_EVENT</zType>
-		<Translation>Breche Frieden</Translation>
+		<Translation>Breche link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_END_ALLIANCE_EVENT</zType>
@@ -208,19 +208,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_BARBARIAN_PEACE_EVENT</zType>
-		<Translation>Frieden Ereignis</Translation>
+		<Translation>link(DIPLOMACY_PEACE) Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_BARBARIAN_TRUCE_EVENT</zType>
-		<Translation>Waffenruhe Ereignis</Translation>
+		<Translation>link(DIPLOMACY_TRUCE) Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_BARBARIAN_DECLARE_WAR_EVENT</zType>
-		<Translation>Erkläre Krieg</Translation>
+		<Translation>Erkläre link(DIPLOMACY_WAR)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_BARBARIAN_BREAK_PEACE_EVENT</zType>
-		<Translation>Breche Frieden</Translation>
+		<Translation>Breche link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_BARBARIAN_END_ALLIANCE_EVENT</zType>
@@ -404,14 +404,14 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_BARBARIAN_PLAYER_WAR_EVENT</zType>
-		<Translation>Barbaren vs Spieler Kriegs Ereignis</Translation>
+		<Translation>Barbaren vs Spieler link(DIPLOMACY_WAR) Ereignis</Translation>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_MISSIONRESULT_PLAYER_BARBARIAN_WAR_EVENT</zType>
-		<Translation>Spieler vs Barbaren Kriegs Ereignis</Translation>
+		<Translation>Spieler vs Barbaren link(DIPLOMACY_WAR) Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_PLAYER_WAR_EVENT</zType>
-		<Translation>Spieler vs Spieler Kriegs Ereignis</Translation>
+		<Translation>Spieler vs Spieler link(DIPLOMACY_WAR) Ereignis</Translation>
 	</Entry>
 </Root>

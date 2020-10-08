@@ -6,6 +6,7 @@
 		<zName/>
 		<bMasculine/>
 		<iMaxFertile/>
+		<iMaxSpouseAgeDifference/>					
 		<GeneralFormation/>
 		<zLeaderTitle/>
 	</Entry>
@@ -14,6 +15,7 @@
 		<zName>Weiblich</zName>
 		<bMasculine>0</bMasculine>
 		<iMaxFertile>35</iMaxFertile>
+		<iMaxSpouseAgeDifference>5</iMaxSpouseAgeDifference>											  
 		<GeneralFormation>FORMATION_GENERAL_FEMALE</GeneralFormation>
 		<zLeaderTitle>Queen</zLeaderTitle>
 	</Entry>
@@ -21,7 +23,8 @@
 		<zType>GENDER_MALE</zType>
 		<zName>Männlich</zName>
 		<bMasculine>1</bMasculine>
-		<iMaxFertile>60</iMaxFertile>
+		<iMaxFertile>70</iMaxFertile>
+		<iMaxSpouseAgeDifference>25</iMaxSpouseAgeDifference>											   
 		<GeneralFormation>FORMATION_GENERAL_MALE</GeneralFormation>
 		<zLeaderTitle>King</zLeaderTitle>
 	</Entry>

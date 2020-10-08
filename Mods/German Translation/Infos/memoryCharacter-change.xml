@@ -867,19 +867,9 @@
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYCHARACTER_TRAIT_GIFT_NEGATIVE_AMBASSADOR</zType>
-		<zText>Accepted foreign condolences</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
-	</Entry>
-	<Entry>
 		<zType>MEMORYCHARACTER_TRAIT_GIFT_NEGATIVE_LEADER</zType>
 		<zText>Refused my condolences</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
-	</Entry>
-	<Entry>
-		<zType>MEMORYCHARACTER_TRAIT_GIFT_POSITIVE_AMBASSADOR</zType>
-		<zText>Refused foreign condolences</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_STUDY_PHILOSOPHY_PUNISH</zType>

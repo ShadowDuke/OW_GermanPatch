@@ -9,22 +9,22 @@
 	<Entry>
 		<zType>WARSTATE_ROUTED</zType>
 		<zName>Besiegt</zName>
-		<iThreshold>-20</iThreshold>
+		<iThreshold>-200</iThreshold>
 	</Entry>
 	<Entry>
 		<zType>WARSTATE_LOSING</zType>
 		<zName>Verlierend</zName>
-		<iThreshold>-1</iThreshold>
+		<iThreshold>-20</iThreshold>
 	</Entry>
 	<Entry>
 		<zType>WARSTATE_NEUTRAL</zType>
 		<zName>Neutral</zName>
-		<iThreshold>0</iThreshold>
+		<iThreshold>20</iThreshold>
 	</Entry>
 	<Entry>
 		<zType>WARSTATE_WINNING</zType>
 		<zName>Gewinnend</zName>
-		<iThreshold>20</iThreshold>
+		<iThreshold>200</iThreshold>
 	</Entry>
 	<Entry>
 		<zType>WARSTATE_TRIUMPHANT</zType>

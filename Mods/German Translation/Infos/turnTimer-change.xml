@@ -8,7 +8,6 @@
 		<iPerCity/>
 		<iPerUnit/>
 		<bOff/>
-		<bNoCycling/>
 		<bDynamic/>
 	</Entry>
 	<Entry>
@@ -52,7 +51,6 @@
 		<iBase>60</iBase>
 		<iPerCity>12</iPerCity>
 		<iPerUnit>4</iPerUnit>
-		<bNoCycling>1</bNoCycling>
 		<bDynamic>1</bDynamic>
 	</Entry>
 	<Entry>
@@ -61,7 +59,6 @@
 		<iBase>45</iBase>
 		<iPerCity>9</iPerCity>
 		<iPerUnit>3</iPerUnit>
-		<bNoCycling>1</bNoCycling>
 		<bDynamic>1</bDynamic>
 	</Entry>
 	<Entry>
@@ -70,7 +67,6 @@
 		<iBase>30</iBase>
 		<iPerCity>6</iPerCity>
 		<iPerUnit>2</iPerUnit>
-		<bNoCycling>1</bNoCycling>
 		<bDynamic>1</bDynamic>
 	</Entry>
 </Root>
