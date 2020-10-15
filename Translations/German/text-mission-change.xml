@@ -20,15 +20,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TEAM_ALLIANCE</zType>
-		<Translation>Bündnis mit Spieler</Translation>
+		<Translation>link(CONCEPT_ALLIANCE_PLAYER</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TEAM_ALLIANCE_TARGET</zType>
-		<Translation>Verbündung mit Spieler </Translation>
+		<Translation>link(CONCEPT_ALLIANCE_PLAYER) mit</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_TEAM_ALLIANCE_CHARACTER</zType>
-		<Translation>Spieler Verbündung über</Translation>
+		<zType>TEXT_MISSION_TEAM_ALLIANCE_HUMAN</zType>
+		<Translation>link(CONCEPT_ALLIANCE_PLAYER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE</zType>
@@ -65,6 +65,10 @@
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_DEMAND_TARGET</zType>
 		<Translation>Demand Tribute for link(DIPLOMACY_PEACE) with</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_PEACE_HUMAN</zType>
+		<Translation>Spieler link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_MISSION_PLAYER_TRUCE</zType>
@@ -111,10 +115,6 @@
 		<Translation>Erkläre link(DIPLOMACY_WAR)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_PLAYER_DECLARE_WAR_CHARACTER</zType>
-		<Translation>Erkläre link(DIPLOMACY_WAR) an</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_MISSION_PLAYER_DECLARE_WAR_HUMAN</zType>
 		<Translation>Erkläre link(DIPLOMACY_WAR)</Translation>
 	</Entry>
@@ -123,24 +123,12 @@
 		<Translation>Breche den link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_PLAYER_BREAK_PEACE_CHARACTER</zType>
-		<Translation>Breche den link(DIPLOMACY_PEACE) mit</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_MISSION_PLAYER_END_ALLIANCE</zType>
 		<Translation>Beende Bündnis</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_PLAYER_END_ALLIANCE_CHARACTER</zType>
-		<Translation>Beende Bündnis mit</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_MISSION_PLAYER_CANCEL_TRADE</zType>
 		<Translation>Breche den kompletten Handel ab</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MISSION_PLAYER_CANCEL_TRADE_CHARACTER</zType>
-		<Translation>Breche den kompletten Handel mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_BARBARIAN_ALLIANCE</zType>
@@ -183,24 +171,12 @@
 		<Translation>Erkläre link(DIPLOMACY_WAR)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_BARBARIAN_DECLARE_WAR_CHARACTER</zType>
-		<Translation>Erkläre link(DIPLOMACY_WAR) an</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_MISSION_BARBARIAN_BREAK_PEACE</zType>
 		<Translation>Breche den link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_BARBARIAN_BREAK_PEACE_CHARACTER</zType>
-		<Translation>Breche den link(DIPLOMACY_PEACE) mit</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_MISSION_BARBARIAN_END_ALLIANCE</zType>
 		<Translation>Beende Bündnis</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MISSION_BARBARIAN_END_ALLIANCE_CHARACTER</zType>
-		<Translation>Beende Bündnis mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_ADOPT_RELIGION</zType>
@@ -223,16 +199,20 @@
 		<Translation>Heirat</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSION_RALLY_TROOPS</zType>
+		<Translation>Versammle die Truppen</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSION_ABDICATE</zType>
 		<Translation>Das Zepter niederlegen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_ADOPT</zType>
-		<Translation>Kind adoptieren</Translation>
+		<zType>TEXT_MISSION_INFLUENCE</zType>
+		<Translation>Beeinflussen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_ADOPT_CHARACTER</zType>
-		<Translation>Adoptiert von</Translation>
+		<zType>TEXT_MISSION_ADOPT</zType>
+		<Translation>Kind adoptieren</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_LEGITIMIZE</zType>
@@ -291,16 +271,36 @@
 		<Translation>Verrat</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSION_TREACHERY_TARGET</zType>
+		<Translation>Verrat in</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_INSURRECTION</zType>
+		<Translation>Aufstand</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_INSURRECTION_TARGET</zType>
+		<Translation>Aufstand in</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSION_TRADE_MISSION</zType>
-		<Translation>Handelsmission mit</Translation>
+		<Translation>Handelsmission</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRADE_MISSION_TARGET</zType>
-		<Translation>Handelsmission über</Translation>
+		<Translation>Handelsmission mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRADE_MISSION_CHARACTER</zType>
 		<Translation>Handelsmission über</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_FAMILY_GIFT</zType>
+		<Translation>Familien Geschenke</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_FAMILY_GIFT_CHARACTER</zType>
+		<Translation>Familien Geschenke über</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PACIFY_CITY</zType>
@@ -308,19 +308,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PACIFY_CITY_TARGET</zType>
-		<Translation>Beschwichtigen</Translation>
+		<Translation>Beschwichtige</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PACIFY_CITY_CHARACTER</zType>
-		<Translation>Beschwichtige Stadt mit</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MISSION_FAMILY_GIFT</zType>
-		<Translation>Familiengeschenke</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MISSION_FAMILY_GIFT_CHARACTER</zType>
-		<Translation>Familiengeschenke über</Translation>
+		<Translation>Beschwichtige Stadt über</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_IMPRISON</zType>

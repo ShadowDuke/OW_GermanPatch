@@ -50,6 +50,10 @@
 		<Translation>Agent {0_name}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_BISHOP</zType>
+		<Translation>Bischoff {0_name}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CHARACTER_TITLE_OLIGRARCH</zType>
 		<Translation>Oligarch {0_name}</Translation>
 	</Entry>

@@ -127,6 +127,10 @@
 		<Translation>Ignoriert ZOC</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CONCEPT_LEGITIMACY</zType>
+		<Translation>Legitimität</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CONCEPT_LUXURY</zType>
 		<Translation>Luxusgüter</Translation>
 	</Entry>
@@ -729,6 +733,14 @@
 		<Translation>+20 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD), und icon(YIELD_STONE)/Jahr</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GOAL_50_GOODS_TURN</zType>
+		<Translation>+50 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD), und icon(YIELD_STONE)/Year</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_100_GOODS_TURN</zType>
+		<Translation>+100 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD), und icon(YIELD_STONE)/Year</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GOAL_CIVICS_2000</zType>
 		<Translation>Lagere 2000 icon(YIELD_CIVICS)</Translation>
 	</Entry>
@@ -1076,7 +1088,11 @@
 		<zType>TEXT_GOAL_20_SPECIALISTS</zType>
 		<Translation>Kontrolliere 20 Spezialisten</Translation>
 	</Entry>
-	<Entry>	
+	<Entry>
+		<zType>TEXT_GOAL_5_ELDER_SPECIALISTS</zType>
+		<Translation>Kontrolliere Fünf Älteren Spezalisten</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GOAL_10_ELDER_SPECIALISTS</zType>
 		<Translation>Kontrolliere 10 Ältesten Spezialisten</Translation>
 	</Entry>
@@ -1546,7 +1562,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_POLIS_BONUS_SETTLER</zType>
-		<Translation>Freier Siedler</Translation>
+		<Translation>Freier link(UNIT_SETTLER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_MILITARY_DRILL</zType>

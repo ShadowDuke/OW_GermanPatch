@@ -10,6 +10,11 @@
 		<bName comment="Show the name for event options."/>
 	</Entry>
 	<Entry>
+		<zType>MEMORYCHARACTER_INFLUENCE</zType>
+		<zText>Remembers your influence</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
 		<zType>MEMORYCHARACTER_MATCH_PREVENT</zType>
 		<zText>Verhinderte meine gewünschte Partie</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
@@ -67,8 +72,7 @@
 	<Entry>
 		<zType>MEMORYCHARACTER_DENIED_PEACE_DEAL</zType>
 		<zText>My request for diplomacy was ignored</zText>
-		<iValue>-20</iValue>
-		<iTurns>20</iTurns>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_LOST_CONSORT</zType>
@@ -223,7 +227,7 @@
 	<Entry>
 		<zType>MEMORYCHARACTER_GIFTED_PRICELESS_ARTIFACTS</zType>
 		<zText>Gifted priceless artifacts</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_LONG</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_APPROVED_POISON_LAB</zType>

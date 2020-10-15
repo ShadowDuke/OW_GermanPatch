@@ -273,6 +273,12 @@
 		<Keys>Alpha6</Keys>
 	</Entry>
 	<Entry>
+		<zType>HOTKEY_END_TURN_FORCE</zType>
+		<zName>Beende das Jahr (Gezwungen)</zName>
+		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
+		<Keys>LeftShift+Alpha6,RightShift+Alpha6</Keys>
+	</Entry>
+	<Entry>
 		<zType>HOTKEY_PREVIOUS_CITY</zType>
 		<zName>Vorherige Stadt</zName>
 		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>

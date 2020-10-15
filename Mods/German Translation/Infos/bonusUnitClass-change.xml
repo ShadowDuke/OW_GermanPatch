@@ -8,7 +8,7 @@
 	</Entry>
 	<Entry>
 		<zType>BONUSUNITCLASS_LEVY</zType>
-		<zName>Heerbann</zName>
+		<zName>Einberufene</zName>
 		<aiBonusUnit>
 			<Pair>
 				<zIndex>UNIT_MILITIA</zIndex>
@@ -77,7 +77,7 @@
 				<iValue>3</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>UNIT_POLYBOLOS</zIndex>
+				<zIndex>UNIT_LONGBOWMAN</zIndex>
 				<iValue>4</iValue>
 			</Pair>
 		</aiBonusUnit>
@@ -127,8 +127,12 @@
 				<iValue>2</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>UNIT_MANGONEL</zIndex>
+				<zIndex>UNIT_POLYBOLOS</zIndex>
 				<iValue>3</iValue>
+			</Pair>
+			<Pair>	 
+				<zIndex>UNIT_MANGONEL</zIndex>
+				<iValue>4</iValue>
 			</Pair>
 		</aiBonusUnit>
 	</Entry>

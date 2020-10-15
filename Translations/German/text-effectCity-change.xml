@@ -16,7 +16,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_FAMILY_SEAT</zType>
-		<Translation>Familien Sitz</Translation>
+		<Translation>link(CONCEPT_FAMILY_SEAT)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_CONNECTED</zType>
@@ -352,15 +352,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_TREASURY</zType>
-		<Translation>Staatskasse</Translation>
+		<Translation>Staatskasse~eine Staatskasse~Staatskassen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_FORUM</zType>
-		<Translation>Gericht</Translation>
+		<Translation>Gericht~ein Gericht~Gerichte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_ARCHIVE</zType>
-		<Translation>Archiv</Translation>
+		<Translation>Archive~an Archive~Archives</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_MARBLE</zType>
+		<Translation>Marmor</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_ORE</zType>
@@ -375,20 +379,64 @@
 		<Translation>Edelsteine</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_HORSE</zType>
-		<Translation>Pferde</Translation>
+		<zType>TEXT_EFFECTCITY_RESOURCE_GOLD</zType>
+		<Translation>Gold</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_SILVER</zType>
+		<Translation>Silber</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_HORSE</zType>
+		<Translation>Pferd</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_CATTLE</zType>
+		<Translation>Vieh</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_SHEEP</zType>
+		<Translation>Schaaf</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_PIG</zType>
+		<Translation>Schwein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_GOAT</zType>
+		<Translation>Ziege</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_WHEAT</zType>
+		<Translation>Weizen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_BARLEY</zType>
+		<Translation>Gerste</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_SORGHUM</zType>
+		<Translation>Sorghum</Translation>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_EFFECTCITY_RESOURCE_CAMEL</zType>
-		<Translation>Kamele</Translation>
+		<Translation>Kamel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_ELEPHANT</zType>
-		<Translation>Elefanten</Translation>
+		<Translation>Elefant</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_GAME</zType>
+		<Translation>Wild</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_FUR</zType>
-		<Translation>Felle</Translation>
+		<Translation>Fell</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_CITRUS</zType>
+		<Translation>Zitrone</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_HONEY</zType>
@@ -408,7 +456,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_OLIVE</zType>
-		<Translation>Oliven</Translation>
+		<Translation>Olive</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_DYE</zType>
@@ -416,7 +464,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_PEARL</zType>
-		<Translation>Perlen</Translation>
+		<Translation>Perle</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_FISH</zType>
+		<Translation>Fisch</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_CRAB</zType>
+		<Translation>Krabbe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_SCROLLS</zType>

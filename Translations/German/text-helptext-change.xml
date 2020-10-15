@@ -315,6 +315,10 @@
 		<Translation>Kostet: {0}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_COSTS</zType>
+		<Translation>Kostet {0}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_COLON</zType>
 		<Translation>{0} Meinung: {1}</Translation>
 	</Entry>
@@ -402,6 +406,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_FAMILY_UNITS</zType>
 		<Translation>Einheiten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_LAWS_ACTIVE</zType>
+		<Translation>Aktive Gesetze</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_LEGITIMACY</zType>
@@ -1226,10 +1234,6 @@
 		<Translation><![CDATA[Halte <TEXT_HOTKEY_CTRL> um abzubrechen]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_START_MISSION_REQUIRES</zType>
-		<Translation>Benötigt {0_subject}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_LATER</zType>
 		<Translation>Fälle die Entscheidung später in diesem Jahr...</Translation>
 	</Entry>
@@ -1316,6 +1320,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MARCH</zType>
 		<Translation>Gewaltmarsch (Kann sich während Müde bewegen)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_MARCH_CONFIRM</zType>
+		<Translation><![CDATA[[Halte <TEXT_HOTKEY_CTRL> um zu Bestätigen]]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MARCH_COST</zType>
@@ -1463,14 +1471,6 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Muss {0_vegetation} entfernen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_ADD_REQUIRES</zType>
-		<Translation>Benötigt {0_list}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_COSTS</zType>
-		<Translation>Kostet {0_list}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_BUY_KEY</zType>
 		<Translation><![CDATA[Halte <TEXT_HOTKEY_ALT> um zu kaufen: {0_money}]]></Translation>
 	</Entry>
@@ -1541,14 +1541,6 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_BECOME_AGENT</zType>
 		<Translation><![CDATA[Werde {0_agent} für {1_money}<true_2> in {2_city}<false><end>]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_RETURN_AGENT</zType>
-		<Translation>Hole {0_agent} aus {1_city} zurück</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_REQUIRES_LIST</zType>
-		<Translation>Benötigt {0_list}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TRADE_ROUTE</zType>
@@ -1675,10 +1667,6 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation><![CDATA[Barbaren die deiner Staatsreligion folgen <br>erklären {0_warLink} unwahrscheinlicher>]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_CONVERT_RELIGION_COST</zType>
-		<Translation>Kostet {0_money}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_COURTIER</zType>
 		<Translation>A new {0_courtier} has emerged.</Translation>
 	</Entry>
@@ -1789,10 +1777,6 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TECH_DECK</zType>
 		<Translation>Technologie Kartenstapel:</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_TECH_TREE_PREREQUISITE</zType>
-		<Translation>Benötigt {0_tech}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_POPULATION</zType>
@@ -1953,10 +1937,6 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Modifikator auf Verteidigungsstärke</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_DISCONTENT</zType>
-		<Translation>{0_city} Unruhe:</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DISCONTENT_LEVEL</zType>
 		<Translation>link(YIELD_DISCONTENT) Level: {0}</Translation>
 	</Entry>
@@ -2058,15 +2038,18 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
     </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_GENERAL</zType>
-		<Translation>Ein Feldherr kann die Statistik von Einheiten erhöhen. (Benötigt Stufe 2)</Translation>
+		<Translation>Ein link(CONCEPT_GENERAL) kann die Statistiken von Einheiten verbessern.
+Muss jünger sein als int(GENERAL_START_AGE).
+Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_GOVERNOR</zType>
-		<Translation>Ein Stadthalter kann die Gewinne einer Stadt erhöhen. (Benötigt eine Garnision)</Translation>
+		<Translation>Ein link(CONCEPT_GOVERNOR) kann die Erträge einer Stadt verbessern.
+(Benötigt eine link(IMPROVEMENT_GARRISON_1).)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_IDLE</zType>
-		<Translation>Untätige Einheiten können sich bewegt haben aber dürfen keinen Cooldown haben. (Sngreifen, Beförderung, Verbesserung, etc.)</Translation>
+		<Translation>link(CONCEPT_IDLE) Einheiten können sich bewegt haben aber dürfen keinen Cooldown haben. (Sngreifen, Beförderung, Verbesserung, etc.)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_IGNORES_ZOC</zType>
@@ -2100,6 +2083,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LUXURY_TRADE</zType>
 		<Translation>Kann mit anderen Familien oder Imperien gehandelt werden um die Meinung zu verbessern.</Translation>
 	</Entry>
+    <Entry>
+        <zType>TEXT_HELPTEXT_LINK_HELP_LUXURY_CONCEPT</zType>
+        <Translation><![CDATA[Can be Traded to a City<br>Can be Traded to other Families and Empires to improve their opinion.]]></Translation>
+    </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_MAP_SIZE</zType>
 		<Translation><![CDATA[Breite: {0}<br>Höhe: {1}]]></Translation>
@@ -2492,10 +2479,6 @@ Current Student(s): </Translation>
 	</Entry>	 
 	<!--Improvement Requires Help-->
 	<Entry>
-		<zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_PREFIX</zType>
-		<Translation>Benötigt {0}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_WARN_HARVESTED</zType>
 		<Translation>Kann nicht auf einem geernteten Feld bauen</Translation>
 	</Entry>
@@ -2558,6 +2541,10 @@ Current Student(s): </Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_IMPROVEMENT</zType>
 		<Translation>Benötigt verbesserung: {0_link}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_ADJACENT_IMPROVEMENT</zType>
+		<Translation>Benötigt benachbarte verbesserung: {0_link}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_CITY_IMPROVEMENT_COUNT</zType>
@@ -3396,6 +3383,10 @@ Current Student(s): </Translation>
 		<Translation>[Alle Städte] </Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_SPREADS_RELIGION</zType>
+		<Translation>Verbreitet {0_religion}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_DEFENSE_MODIFIER</zType>
 		<Translation>{0_value} Verteidigung</Translation>
 	</Entry>
@@ -3441,10 +3432,6 @@ Current Student(s): </Translation>
 		<Translation>Halte [{0_key}] um zu sehen welche Felder mit deiner {1_capital} verbunden sind.</Translation>
 	</Entry>
 	<!--City Current Citizens Help-->
-	<Entry>
-		<zType>TEXT_HELPTEXT_CITY_CURRENT_CITIZENS</zType>
-		<Translation><![CDATA[Bürger: <true_0>{0_num}<false><end>]]></Translation>
-	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CITY_CURRENT_CITIZENS_NEXT</zType>
 		<Translation><![CDATA[Neuer Bürger in {0_years} <singular_0>Jahr<plural>Jahren<end><br>Bürger können benutzt werden um Spezialisten zu erwerben.]]></Translation>
@@ -3872,6 +3859,14 @@ Current Student(s): </Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_UNIT_TRAIT_BONUS</zType>
 		<Translation>{0_bonusReason} (as {1_unitTrait}):</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_UNIT_SETTLEMENT_BONUS</zType>
+		<Translation>{0_bonusReason} (vs Siedlung):</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_UNIT_URBAN_BONUS</zType>
+		<Translation>{0_bonusReason} (vs Städtisch):</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_ENEMY_UNIT_TRAIT_BONUS</zType>
@@ -4490,6 +4485,10 @@ Current Student(s): </Translation>
 		<Translation>Religionswissenschaft(en):</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_RELIGION_HEAD</zType>
+		<Translation>Kopf: {0_character}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_OPINION</zType>
 		<Translation>Meinung: {0} ({1})</Translation>
 	</Entry>
@@ -4504,10 +4503,6 @@ Current Student(s): </Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_EACH_CITY_EFFECT</zType>
 		<Translation>Jede Stadt: {0}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_RELIGION_FOUNDED_SPREAD_YEARS_HELP</zType>
-		<Translation><![CDATA[Wird sich zu einer neuen Stadt in {0} <singular_0>Jahr<plural>Jahren<end> ausbreiten]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_SPREAD_HELP</zType>
@@ -5004,10 +4999,6 @@ Current Student(s): </Translation>
 		<Translation>Kostet {0,1}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_SPECIALIST_COSTS_CITIZEN</zType>
-		<Translation>Kostet {0_citizen}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_SPECIALIST_BUILD</zType>
 		<Translation>Benötigt: {0} link(YIELD_CIVICS) {1_progress}</Translation>
 	</Entry>
@@ -5370,6 +5361,10 @@ Current Student(s): </Translation>
 		<zType>TEXT_HELPTEXT_CHOOSE_AGENT_CLICK_TO_RETURN_AGENT</zType>
 		<Translation><![CDATA[<TEXT_HOTKEY_ALT_CLICK> um den Agenten zurückzugeben]]></Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHOOSE_AGENT_CANNOT_RETURN</zType>
+		<Translation><![CDATA[Cannot Return for {0_number} <singular_0>Year<plural>Years<end>]]></Translation>
+	</Entry>
 	<!--POPUPS-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHOOSE_GENERAL_POPUP_TITLE</zType>
@@ -5454,6 +5449,10 @@ Current Student(s): </Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_HELP_BUTTON</zType>
 		<Translation>Hilfe</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_SURRENDER_BUTTON</zType>
+		<Translation>Aufgeben</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_EXIT_BUTTON</zType>

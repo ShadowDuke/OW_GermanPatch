@@ -10,6 +10,14 @@
 		<Translation>You have sent an envoy with a link(DIPLOMACY_TRUCE) Proposal.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_RALLY_TROOPS_DESCRIPTION</zType>
+		<Translation>You have rallied the military, resulting in higher morale and discipline.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_INFLUENCE_DESCRIPTION</zType>
+		<Translation>You have successfully exerted your influence upon {CHARACTER-TARGET}.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_INFILTRATE_REVEAL_DESCRIPTION</zType>
 		<Translation>{CHARACTER-SUBJECT} hat Erfolgreich das Gebiet deines Rivalen infiltriert.</Translation>
 	</Entry>
@@ -46,12 +54,8 @@
 		<Translation>{CHARACTER-SUBJECT} hat erfolgreich die Verteidigung der Stadt verringert.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSIONRESULT_PACIFY_CITY_SUCCESS_DESCRIPTION</zType>
-		<Translation>{CHARACTER-SUBJECT} has listened to the grievances of the city's rulers and has reduced link(YIELD_DISCONTENT).</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MISSIONRESULT_PACIFY_CITY_SUCCESS_WEAKEN_DESCRIPTION</zType>
-		<Translation>{CHARACTER-SUBJECT} has listened to the grievances of the city's rulers and has reduced link(YIELD_DISCONTENT), but this pandering has weakened your reputation.</Translation>
+		<zType>TEXT_MISSIONRESULT_INSURRECTION_DESCRIPTION</zType>
+		<Translation>{CHARACTER-SUBJECT} has successfully started a local uprising.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_FAMILY_GIFT_SUCCESS_DESCRIPTION</zType>
@@ -60,6 +64,14 @@
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_FAMILY_GIFT_SUCCESS_WEAKEN_DESCRIPTION</zType>
 		<Translation>Deine Vasallen Familie schätzt die Geschenke die dein Kanzler {CHARACTER-SUBJECT} brachte, jedoch betrachten deine Untertaten diese Begünstigung als Schwäche.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PACIFY_CITY_SUCCESS_DESCRIPTION</zType>
+		<Translation>{CHARACTER-SUBJECT} has listened to the grievances of the city's rulers and has reduced link(YIELD_DISCONTENT).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PACIFY_CITY_SUCCESS_WEAKEN_DESCRIPTION</zType>
+		<Translation>{CHARACTER-SUBJECT} has listened to the grievances of the city's rulers and has reduced link(YIELD_DISCONTENT), but this pandering has weakened your reputation.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_IMPRISON_JUST_DESCRIPTION</zType>
@@ -147,6 +159,10 @@
 		<Translation>Bündnis Ereignis</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_TEAM_ALLIANCE_HUMAN_EVENT</zType>
+		<Translation>link(CONCEPT_ALLIANCE_PLAYER) Ereignis</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_PEACE_EVENT</zType>
 		<Translation>link(DIPLOMACY_PEACE Ereignis</Translation>
 	</Entry>
@@ -161,6 +177,10 @@
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_PEACE_DEMAND_EVENT</zType>
 		<Translation>Verlange Tribut für link(DIPLOMACY_PEACE Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PLAYER_PEACE_HUMAN_EVENT</zType>
+		<Translation>link(DIPLOMACY_PEACE) Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_EVENT</zType>
@@ -235,8 +255,24 @@
 		<Translation>Familien Heirat</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_RALLY_TROOPS</zType>
+		<Translation>Truppen versammelt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_RALLY_TROOPS_EVENT</zType>
+		<Translation>Truppen Versammlungs Ereignis</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_ABDICATE</zType>
 		<Translation>Entsagt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_INFLUENCE</zType>
+		<Translation>Um Einfluss bemüht</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_INFLUENCE_EVENT</zType>
+		<Translation>Einfluss Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_ADOPT</zType>
@@ -329,6 +365,18 @@
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_FAMILY_GIFT_EVENT</zType>
 		<Translation>Familiengeschenk Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PACIFY_CITY_SUCCESS</zType>
+		<Translation>Beschwichtigung erfolgreich</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PACIFY_CITY_SUCCESS_WEAKEN</zType>
+		<Translation>Beschwichtigung gibt unsere Schwäche preis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PACIFY_CITY_EVENT</zType>
+		<Translation>Stadt Beschwichtigungs Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_IMPRISON_JUST</zType>

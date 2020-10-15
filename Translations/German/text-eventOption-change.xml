@@ -114,14 +114,6 @@
 		<Translation><![CDATA[Das ist sehr bedauernswert.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_TRUCE_PROPOSAL_HUMAN_YES</zType>
-		<Translation>Ja.</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_TRUCE_PROPOSAL_HUMAN_NO</zType>
-		<Translation>Nein.</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_BARBARIAN_PLAYER_WAR_MONEY</zType>
 		<Translation>Wir werden Gold aus der Staatskasse anbieten.</Translation>
 	</Entry>
@@ -388,6 +380,10 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_COMMERCE_HELP</zType>
 		<Translation>Kann zu link(TRAIT_MERCHANT_ARCHETYPE), link(TRAIT_COMMANDER_ARCHETYPE), link(TRAIT_SCHEMER_ARCHETYPE), link(TRAIT_ORATOR_ARCHETYPE), link(TRAIT_BUILDER_ARCHETYPE), link(TRAIT_DIPLOMAT_ARCHETYPE), oder eventuell zu link(TRAIT_SKYEXPLORER_ARCHETYPE), link(TRAIT_CORRUPTIONIST_ARCHETYPE) und link(TRAIT_CHAMPION_ARCHETYPE) führen.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COURTIER_NONE</zType>
+		<Translation>Wir können es uns nicht leisten so viel zu bezahlen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MERCENARY_NO</zType>
@@ -692,6 +688,14 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_GOOD_NEWS_OPTION_1</zType>
 		<Translation><![CDATA[Es ist gut für <masculine_CHARACTER-0>ihn<feminine>sie<end> Freunde und Kameraden zu suchen.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RUINS_COMET_SIGHTED_OMEN</zType>
+		<Translation>Es ist ein Omen!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MASTER_OF_WHISPERS_OPTION_2</zType>
+		<Translation>End my {G0:husband's:wife's} affair one way or another.</Translation>
 	</Entry>
 	<Entry beginGroup="Exploration">
 		<zType>TEXT_EVENTOPTION_RUINS_SURVIVORS_INVITE</zType>
@@ -1349,6 +1353,70 @@
 		<zType>TEXT_EVENTOPTION_HARVEST_CAPSIZED_OPTION_2</zType>
 		<Translation>Build {G2:him:her} a fishery to practice new methods.</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RUINS_NECROPOLIS_SAVE</zType>
+		<Translation>Allow the survivors to join us.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RUINS_NECROPOLIS_LEARN</zType>
+		<Translation>A terrible event, but I can learn from it.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RUINS_STRANGE_ART_KEEP</zType>
+		<Translation>Display it in {CITY-0}!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RUINS_STRANGE_ART_SELL</zType>
+		<Translation>Perhaps someone else will appricate it more.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RUINS_STRANGE_SCROLL_STUDY</zType>
+		<Translation>Study the scroll.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RUINS_STRANGE_SCROLL_DESTROY</zType>
+		<Translation>Something isn’t right, destroy it!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RUINS_WISE_MAN_WAR</zType>
+		<Translation>Heed his advice on war.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RUINS_WISE_MAN_TRADE</zType>
+		<Translation>Heed his advice on trade.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RUINS_GIANT_STATUE_CARVE</zType>
+		<Translation>I shall have the statue repaired in my own image.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RUINS_GIANT_STATUE_LOOT</zType>
+		<Translation>We should put the stone to better use.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RUINS_CURSED_LAND_ROCKS</zType>
+		<Translation>Fill the pit with rocks!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RUINS_CURSED_LAND_STUDY</zType>
+		<Translation>We should study this pit.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RUINS_COMET_SIGHTEDE_OMEN</zType>
+		<Translation>It’s an omen!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RUINS_COMET_SIGHTED_SCIENCE</zType>
+		<Translation>A fascinating observation!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RUINS_CHOSEN_CHILD_ADOPT</zType>
+		<Translation>Adopt the child as my own.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RUINS_CHOSEN_CHILD_REJECT</zType>
+		<Translation>I have no interest in mysterious children.</Translation>
+	</Entry>	 
 	<Entry beginGroup="Contact">
 		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_CALM_EMISSARY_TRUCE</zType>
 		<Translation><![CDATA[Wir wollen uns nicht zanken.]]></Translation>

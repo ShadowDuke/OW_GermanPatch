@@ -210,6 +210,10 @@
 		<Translation>{0_character} hat eine neue Eigenschaft erlangt: {1_trait}!</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_LANDMARK_DISCOVERED</zType>
+		<Translation>Wahrzeichen Entdeckt: {0_name}!</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_RAID_WARNING</zType>
 		<Translation>Berichte über einen Barbaren Überfall nähe {0_city}!</Translation>
 	</Entry>
@@ -651,11 +655,7 @@
 	<Entry>
 		<zType>TEXT_GAME_TILE_UNREVEALED_SITE</zType>
 		<Translation>Nicht enthüllter Platz</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GAME_TILE_NEXT_UNIT</zType>
-		<Translation>Nächste Einheit: {0_turns}</Translation>
-	</Entry>
+	</Entry>	 
 	<Entry>
 		<zType>TEXT_GAME_TILE_IMPROVEMENT_UPGRADE</zType>
 		<Translation>({0_name}: {1_turns})</Translation>

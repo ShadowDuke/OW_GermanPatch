@@ -94,6 +94,10 @@
 		<zName>Religionswissenschaft eingeführt</zName>
 	</Entry>
 	<Entry>
+		<zType>STAT_TILES_REVEALED</zType>
+		<zName>Kacheln aufgedeckt</zName>
+	</Entry>
+	<Entry>
 		<zType>STAT_UNIT_TRAINED</zType>
 		<zName>Einheiten ausgebildet</zName>
 	</Entry>
@@ -112,6 +116,10 @@
 	<Entry>
 		<zType>STAT_UNIT_LOST</zType>
 		<zName>Einheiten verloren</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_VEGETATION_REMOVED</zType>
+		<zName>Vegetation entfernt</zName>
 	</Entry>
 	<Entry>
 		<zType>STAT_WONDER_FINISHED</zType>

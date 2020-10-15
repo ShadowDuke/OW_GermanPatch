@@ -561,6 +561,14 @@
 		<zType>TEXT_UI_CHARACTERLIST_FILTER_SPYMASTERS</zType>
 		<Translation>Geeignete Meisterspione</Translation>
 	</Entry>
+    <Entry>
+        <zType>TEXT_UI_SURRENDER_DIALOG</zType>
+        <Translation>Kaputilation bestätigen?</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_UI_SURRENDER_CONFIRM</zType>
+        <Translation>Ja</Translation>
+    </Entry>
     <!--menu-screens.xml-->
     <Entry>
         <zType>TEXT_MENU_SCREEN_SP_BUTTON</zType>
@@ -614,12 +622,12 @@
         <Translation>Schicke oder stoppe Luxusgüter zu schicken</Translation>
     </Entry>
     <Entry>
-        <zType>TEXT_SEND_LUXURY</zType>
-        <Translation>Schicke {0}</Translation>
-    </Entry>
-    <Entry>
         <zType>TEXT_STOP_SENDING_LUXURY</zType>
         <Translation>Stoppe schicken {0}</Translation>
+	</Entry>
+    <Entry>
+        <zType>TEXT_GIFT_YIELD</zType>
+        <Translation>Sende Waren</Translation>
     </Entry>
     <!--single player menu-->
     <Entry>
@@ -1010,6 +1018,10 @@
 	<!--options-menu.xml-->
 	<!--title bar-->
     <Entry>
+		<zType>TEXT_OPTIONS_MENU_TITLEBAR_GENERAL</zType>
+		<Translation>Ajjgemein</Translation>
+	</Entry>
+	<Entry>
         <zType>TEXT_OPTIONS_MENU_TITLEBAR_GRAPHICS</zType>
         <Translation>Grafik</Translation>
     </Entry>
@@ -1054,10 +1066,18 @@
     <Entry>
         <zType>TEXT_SCENARIO_SETUP_SCENARIO</zType>
         <Translation>Szenario</Translation>
+	</Entry>
+    <Entry>
+        <zType>TEXT_SCENARIO_SETUP_NATION</zType>
+        <Translation>Nation</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_SCENARIO_SETUP_OPPONENTS</zType>
         <Translation>Gegner</Translation>
+	</Entry>
+    <Entry>
+        <zType>TEXT_SCENARIO_SETUP_OPPONENT_NATIONS</zType>
+        <Translation>Gegner Nationen: {LIST}</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_SCENARIO_SETUP_BARBARIANS</zType>
@@ -1066,10 +1086,6 @@
     <Entry>
         <zType>TEXT_SCENARIO_SETUP_DIFFICULTY</zType>
         <Translation>Schwierigkeitsgrad</Translation>
-    </Entry>
-    <Entry>
-        <zType>TEXT_SCENARIO_SETUP_CANCEL</zType>
-        <Translation>Abbrechen</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_SCENARIO_SETUP_STARTGAME</zType>
@@ -1308,6 +1324,14 @@
     <Entry>
         <zType>TEXT_CITY_LIST_POPULATION</zType>
         <Translation>Bevölkerung</Translation>
+	</Entry>
+    <Entry>
+        <zType>TEXT_CITY_LIST_SORT</zType>
+        <Translation>[CLICK] to sort by {0_yield} production rate</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_CITY_LIST_SORT_LEVEL</zType>
+        <Translation>[CTRL+CLICK] to sort by {0_yield} level</Translation>
     </Entry>
     <!--overview-map.xml-->
     <Entry>

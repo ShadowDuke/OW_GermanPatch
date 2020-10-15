@@ -105,6 +105,27 @@
 		<iTurns>20</iTurns>
 	</Entry>
 	<Entry>
+		<zType>MEMORYPLAYER_GIFTED_CITY</zType>
+		<zText>Stadt geschenkt</zText>
+		<iValue>20</iValue>
+		<iTurns>40</iTurns>
+		<bName>1</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_GIFTED_UNIT</zType>
+		<zText>Einheit geschenkt</zText>
+		<iValue>5</iValue>
+		<iTurns>20</iTurns>
+		<bName>1</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_GIFTED_YIELD</zType>
+		<zText>Ernte geschenkt</zText>
+		<iValue>1</iValue>
+		<iTurns>10</iTurns>
+		<bName>1</bName>
+	</Entry>
+	<Entry>
 		<zType>MEMORYPLAYER_GAVE_FAVOR</zType>
 		<zText>Gunst erhalten</zText>
 		<iValue>20</iValue>

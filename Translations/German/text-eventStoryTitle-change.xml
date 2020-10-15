@@ -22,6 +22,14 @@
 		<Translation>Reaktion auf link(DIPLOMACY_TRUCE)</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTSTORY_ALLIANCE_PROPOSAL_HUMAN_TITLE</zType>
+		<Translation>link(CONCEPT_ALLIANCE_PLAYER) Vorschlag</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PEACE_PROPOSAL_HUMAN_TITLE</zType>
+		<Translation>link(DIPLOMACY_PEACE) Vorschlag</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTSTORY_TRUCE_PROPOSAL_HUMAN_TITLE</zType>
 		<Translation>link(DIPLOMACY_TRUCE) Angebot</Translation>
 	</Entry>
@@ -3773,6 +3781,230 @@
 		<zType>TEXT_EVENTSTORY_TRAIT_LONELINESS_ABROAD_TITLE</zType>
 		<Translation>Loneliness Abroad</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_GRANDPARENT_REGENT_TITLE</zType>
+		<Translation>{G2:Grandfather:Grandmother} Regent</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_CONSORT_REGENT_TITLE</zType>
+		<Translation>Dowager Regent</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AUNT_UNCLE_REGENT_TITLE</zType>
+		<Translation>Lawful Regent</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RIGHTFUL_HEIR_TITLE</zType>
+		<Translation>Rightful Heir</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_REGENCY_TITLE</zType>
+		<Translation>Regency</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_AFFABLE_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_ELOQUENT_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_WARLIKE_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_INSPIRING_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_INTELLIGENT_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_PROSPEROUS_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_FRUGAL_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_RIGHTEOUS_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_CRUEL_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_INTOLERANT_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_SLOTHFUL_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_UNCOUTH_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_FOOLISH_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_EXTRAVAGANT_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_CORRUPT_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_DEBAUCHED_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_SPOILED_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_BEAUTIFUL_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_EXOTIC_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_CUNNING_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_DEALMAKER_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_WITTY_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_ROMANTIC_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_MISERABLE_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_HEARTBROKEN_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_BITTER_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_INSANE_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_DRUNK_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_LOYAL_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_EDUCATED_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_SUPERSTITIOUS_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_PROUD_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_HUMBLE_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_PIOUS_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_WANTON_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_COMPASSIONATE_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_RUTHLESS_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_HONEST_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_DISHONEST_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_GREEDY_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_GRACIOUS_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_BOLD_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_COWARDLY_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_ROBUST_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_TOUGH_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_BLOODTHIRSTY_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_HECKLER_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_SWIFT_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_FIERCE_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_BRAVE_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INHERITANCE_STRICT_TITLE</zType>
+		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
+	</Entry>	 
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS_TITLE</zType>
 		<Translation>Immigrants</Translation>
@@ -5460,6 +5692,58 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_THE_WITNESS_TITLE</zType>
 		<Translation>The Witness</Translation>
+</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TREACHERY_CAUGHT_IN_THE_ACT_TITLE</zType>
+		<Translation>Caught in the Act</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TREACHERY_PLAYER_PLOTTERS_TITLE</zType>
+		<Translation>{PLAYER-2,1} Plotters</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TREACHERY_A_WAY_IN_TITLE</zType>
+		<Translation>A Way In</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TREACHERY_MISINFORMATION_TITLE</zType>
+		<Translation>Misinformation</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TREACHERY_DEATH_TO_SPIES_TITLE</zType>
+		<Translation>Death to Spies</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TREACHERY_INFLUENCE_IN_COURT_TITLE</zType>
+		<Translation>Influence in Court</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TREACHERY_STRIKE_AT_THE_HEART_TITLE</zType>
+		<Translation>Strike at the Heart</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_VISION_FROM_BEYOND_TITLE</zType>
+		<Translation>Vision from Beyond</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INSURRECTION_THE_SLAVE_KING_TITLE</zType>
+		<Translation>The Slave King</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INSURRECTION_OUT_OF_TOUCH_TITLE</zType>
+		<Translation>Out of Touch</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INSURRECTION_EAGER_PLAYER_TITLE</zType>
+		<Translation>Eager {PLAYER-2,3}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INSURRECTION_THE_FINGER_TITLE</zType>
+		<Translation>The Finger</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INSURRECTION_SECRET_LOVERS_TITLE</zType>
+		<Translation>Secret Lovers</Translation>
 	</Entry>
 	<Entry beginGroup="Tutorial">
 		<zType>TEXT_EVENTSTORY_VICTORY_POINTS_TITLE</zType>

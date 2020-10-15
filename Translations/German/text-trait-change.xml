@@ -279,8 +279,16 @@
 		<Translation>Gebildet</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_SUPERSTITIOUS</zType>
+		<Translation>Abergläubisch</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_COMPASSIONATE</zType>
 		<Translation>Mitfühlend</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_RUTHLESS</zType>
+		<Translation>Rücksichtslos</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_LOYAL</zType>
@@ -315,20 +323,12 @@
 		<Translation>Bescheiden</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_HEARTBROKEN</zType>
-		<Translation>Untröstlich</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_SUPERSTITIOUS</zType>
-		<Translation>Abergläubisch</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_RUTHLESS</zType>
-		<Translation>Skrupellos</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_TRAIT_PROUD</zType>
 		<Translation>Stolz</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_HEARTBROKEN</zType>
+		<Translation>Untröstlich</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BEAUTIFUL</zType>
@@ -473,6 +473,14 @@
 	<Entry>
 		<zType>TEXT_TRAIT_ABDICATED</zType>
 		<Translation>Entsagt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_REGENT</zType>
+		<Translation>Herrschend</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_RIGHTFUL_HEIR</zType>
+		<Translation>Rechtmäßger Erbe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_EXOTIC</zType>

@@ -127,11 +127,6 @@
 	<zIconName>COOLDOWN_PASS</zIconName>
 	</Entry>
 	<Entry>
-		<zType>COOLDOWN_RETURNED</zType>
-		<zName>Zurückgekehrt</zName>
-		<zIconName>COOLDOWN_PASS</zIconName>							  
-	</Entry>
-	<Entry>
 		<zType>COOLDOWN_TRADE</zType>
 		<zName>Handeln</zName>
 		<zIconName>COOLDOWN_PASS</zIconName>

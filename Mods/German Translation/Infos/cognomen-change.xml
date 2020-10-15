@@ -17,19 +17,19 @@
 		<zType>COGNOMEN_WARRIOR</zType>
 		<zName>der Krieger</zName>
 		<iLegitimacy>10</iLegitimacy>
-		<iMinValue>100</iMinValue>
+		<iMinValue>1000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_LOST</zIndex>
-				<iValue>-10</iValue>
+				<iValue>-100</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -37,19 +37,19 @@
 		<zType>COGNOMEN_BRAVE</zType>
 		<zName>der Ausbilder</zName>
 		<iLegitimacy>20</iLegitimacy>
-		<iMinValue>200</iMinValue>
+		<iMinValue>2000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_LOST</zIndex>
-				<iValue>-10</iValue>
+				<iValue>-100</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -57,19 +57,19 @@
 		<zType>COGNOMEN_VALIANT</zType>
 		<zName>der Aufmerksame</zName>
 		<iLegitimacy>30</iLegitimacy>
-		<iMinValue>300</iMinValue>
+		<iMinValue>3000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_LOST</zIndex>
-				<iValue>-10</iValue>
+				<iValue>-100</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -77,19 +77,19 @@
 		<zType>COGNOMEN_MIGHTY</zType>
 		<zName>der Mächtige</zName>
 		<iLegitimacy>40</iLegitimacy>
-		<iMinValue>400</iMinValue>
+		<iMinValue>4000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_LOST</zIndex>
-				<iValue>-10</iValue>
+				<iValue>-100</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -97,19 +97,19 @@
 		<zType>COGNOMEN_VICTORIOUS</zType>
 		<zName>der Siegreiche</zName>
 		<iLegitimacy>50</iLegitimacy>
-		<iMinValue>500</iMinValue>
+		<iMinValue>5000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_LOST</zIndex>
-				<iValue>-10</iValue>
+				<iValue>-100</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -117,19 +117,19 @@
 		<zType>COGNOMEN_LION</zType>
 		<zName>der Löwe</zName>
 		<iLegitimacy>60</iLegitimacy>
-		<iMinValue>600</iMinValue>
+		<iMinValue>6000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_LOST</zIndex>
-				<iValue>-10</iValue>
+				<iValue>-100</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -137,19 +137,19 @@
 		<zType>COGNOMEN_INVINCIBLE</zType>
 		<zName>der Unbesiegbare</zName>
 		<iLegitimacy>70</iLegitimacy>
-		<iMinValue>700</iMinValue>
+		<iMinValue>7000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_LOST</zIndex>
-				<iValue>-10</iValue>
+				<iValue>-100</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -157,15 +157,15 @@
 		<zType>COGNOMEN_CAPABLE</zType>
 		<zName>der Tüchtige</zName>
 		<iLegitimacy>20</iLegitimacy>
-		<iMinValue>200</iMinValue>
+		<iMinValue>2000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_UNIT_TRAINED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_PROMOTED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -173,15 +173,15 @@
 		<zType>COGNOMEN_READY</zType>
 		<zName>der Bereite</zName>
 		<iLegitimacy>30</iLegitimacy>
-		<iMinValue>300</iMinValue>
+		<iMinValue>3000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_UNIT_TRAINED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_PROMOTED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -189,11 +189,11 @@
 		<zType>COGNOMEN_DESTROYER</zType>
 		<zName>der Zerstörer</zName>
 		<iLegitimacy>20</iLegitimacy>
-		<iMinValue>200</iMinValue>
+		<iMinValue>2000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CLEARED</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -201,11 +201,11 @@
 		<zType>COGNOMEN_AVENGER</zType>
 		<zName>der Rächer</zName>
 		<iLegitimacy>40</iLegitimacy>
-		<iMinValue>400</iMinValue>
+		<iMinValue>4000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CLEARED</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -213,11 +213,11 @@
 		<zType>COGNOMEN_WHITE_DEATH</zType>
 		<zName>die Pest</zName>
 		<iLegitimacy>60</iLegitimacy>
-		<iMinValue>600</iMinValue>
+		<iMinValue>6000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CLEARED</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -225,19 +225,19 @@
 		<zType>COGNOMEN_INTERCESSOR</zType>
 		<zName>der Vermittler</zName>
 		<iLegitimacy>30</iLegitimacy>
-		<iMinValue>300</iMinValue>
+		<iMinValue>3000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_PEACE</zIndex>
-				<iValue>150</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_ALLIANCE</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -245,19 +245,19 @@
 		<zType>COGNOMEN_PEACEMAKER</zType>
 		<zName>der Friedensstifter</zName>
 		<iLegitimacy>50</iLegitimacy>
-		<iMinValue>500</iMinValue>
+		<iMinValue>5000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_PEACE</zIndex>
-				<iValue>150</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_ALLIANCE</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -265,15 +265,15 @@
 		<zType>COGNOMEN_CONQUEROR</zType>
 		<zName>der Eroberer</zName>
 		<iLegitimacy>40</iLegitimacy>
-		<iMinValue>400</iMinValue>
+		<iMinValue>4000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_CAPTURED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -281,15 +281,15 @@
 		<zType>COGNOMEN_SUBJUGATOR</zType>
 		<zName>der Bezwinger</zName>
 		<iLegitimacy>60</iLegitimacy>
-		<iMinValue>600</iMinValue>
+		<iMinValue>6000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_CAPTURED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -297,11 +297,11 @@
 		<zType>COGNOMEN_RESTORER</zType>
 		<zName>der Restaurator</zName>
 		<iLegitimacy>30</iLegitimacy>
-		<iMinValue>300</iMinValue>
+		<iMinValue>3000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_CITY_RECAPTURED</zIndex>
-				<iValue>150</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -309,11 +309,11 @@
 		<zType>COGNOMEN_LIBERATOR</zType>
 		<zName>der Befreier</zName>
 		<iLegitimacy>50</iLegitimacy>
-		<iMinValue>500</iMinValue>
+		<iMinValue>5000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_CITY_RECAPTURED</zIndex>
-				<iValue>150</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -321,11 +321,11 @@
 		<zType>COGNOMEN_SETTLER</zType>
 		<zName>der Siedler</zName>
 		<iLegitimacy>20</iLegitimacy>
-		<iMinValue>200</iMinValue>
+		<iMinValue>2000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_CITY_FOUNDED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -333,11 +333,11 @@
 		<zType>COGNOMEN_PIONEER</zType>
 		<zName>der Pionier</zName>
 		<iLegitimacy>40</iLegitimacy>
-		<iMinValue>400</iMinValue>
+		<iMinValue>4000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_CITY_FOUNDED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -345,15 +345,15 @@
 		<zType>COGNOMEN_AMBITIOUS</zType>
 		<zName>der Ehrgeizige</zName>
 		<iLegitimacy>20</iLegitimacy>
-		<iMinValue>400</iMinValue>
+		<iMinValue>4000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_COURTIER_ADDED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_SPECIALIST_TRAINED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -361,15 +361,15 @@
 		<zType>COGNOMEN_BRILLIANT</zType>
 		<zName>der Brilliante</zName>
 		<iLegitimacy>40</iLegitimacy>
-		<iMinValue>400</iMinValue>
+		<iMinValue>4000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_COURTIER_ADDED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_SPECIALIST_TRAINED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -377,15 +377,15 @@
 		<zType>COGNOMEN_BELOVED</zType>
 		<zName>der Geliebte</zName>
 		<iLegitimacy>60</iLegitimacy>
-		<iMinValue>600</iMinValue>
+		<iMinValue>6000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_COURTIER_ADDED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_SPECIALIST_TRAINED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -393,11 +393,11 @@
 		<zType>COGNOMEN_REBUILDER</zType>
 		<zName>der Wiederaufbauer</zName>
 		<iLegitimacy>20</iLegitimacy>
-		<iMinValue>200</iMinValue>
+		<iMinValue>2000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -405,15 +405,15 @@
 		<zType>COGNOMEN_SURVEYOR</zType>
 		<zName>der Vermesser</zName>
 		<iLegitimacy>10</iLegitimacy>
-		<iMinValue>100</iMinValue>
+		<iMinValue>1000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_WONDER_FINISHED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -421,15 +421,15 @@
 		<zType>COGNOMEN_MASON</zType>
 		<zName>der Steinmetz</zName>
 		<iLegitimacy>20</iLegitimacy>
-		<iMinValue>200</iMinValue>
+		<iMinValue>2000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_WONDER_FINISHED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -437,15 +437,15 @@
 		<zType>COGNOMEN_ARCHITECT</zType>
 		<zName>der Architekt</zName>
 		<iLegitimacy>40</iLegitimacy>
-		<iMinValue>400</iMinValue>
+		<iMinValue>4000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_WONDER_FINISHED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -453,15 +453,15 @@
 		<zType>COGNOMEN_KEYSTONE</zType>
 		<zName>der Grundpfeiler</zName>
 		<iLegitimacy>60</iLegitimacy>
-		<iMinValue>600</iMinValue>
+		<iMinValue>6000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_WONDER_FINISHED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -469,11 +469,11 @@
 		<zType>COGNOMEN_FOUNDER</zType>
 		<zName>der Gründer</zName>
 		<iLegitimacy>20</iLegitimacy>
-		<iMinValue>200</iMinValue>
+		<iMinValue>2000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_NATION_FOUNDED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -481,23 +481,23 @@
 		<zType>COGNOMEN_DEVOUT</zType>
 		<zName>der Fromme</zName>
 		<iLegitimacy>20</iLegitimacy>
-		<iMinValue>200</iMinValue>
+		<iMinValue>2000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
-				<iValue>150</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_SPREAD</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>
+				<iValue>1000</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -505,23 +505,23 @@
 		<zType>COGNOMEN_HOLY</zType>
 		<zName>der Heilige</zName>
 		<iLegitimacy>40</iLegitimacy>
-		<iMinValue>400</iMinValue>
+		<iMinValue>4000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
-				<iValue>150</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_SPREAD</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>
+				<iValue>1000</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -529,23 +529,31 @@
 		<zType>COGNOMEN_EXPLORER</zType>
 		<zName>der Entdecker</zName>
 		<iLegitimacy>30</iLegitimacy>
-		<iMinValue>300</iMinValue>
+		<iMinValue>3000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_RUINS_EXPLORED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TILES_REVEALED</zIndex>
+				<iValue>2</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
 	<Entry>
 		<zType>COGNOMEN_INTREPID</zType>
 		<zName>der Furchtlose</zName>
-		<iLegitimacy>40</iLegitimacy>
-		<iMinValue>400</iMinValue>
+		<iLegitimacy>50</iLegitimacy>
+		<iMinValue>5000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_RUINS_EXPLORED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TILES_REVEALED</zIndex>
+				<iValue>2</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -553,11 +561,11 @@
 		<zType>COGNOMEN_LEARNED</zType>
 		<zName>der Gebildete</zName>
 		<iLegitimacy>20</iLegitimacy>
-		<iMinValue>200</iMinValue>
+		<iMinValue>2000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_TECH_DISCOVERED</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -565,11 +573,11 @@
 		<zType>COGNOMEN_ENLIGHTENED</zType>
 		<zName>der Aufgeklärte</zName>
 		<iLegitimacy>40</iLegitimacy>
-		<iMinValue>400</iMinValue>
+		<iMinValue>4000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_TECH_DISCOVERED</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -577,11 +585,11 @@
 		<zType>COGNOMEN_WISE</zType>
 		<zName>der Weise</zName>
 		<iLegitimacy>60</iLegitimacy>
-		<iMinValue>600</iMinValue>
+		<iMinValue>6000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_TECH_DISCOVERED</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -589,11 +597,11 @@
 		<zType>COGNOMEN_OLD</zType>
 		<zName>der Alte</zName>
 		<iLegitimacy>40</iLegitimacy>
-		<iMinValue>400</iMinValue>
+		<iMinValue>4000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_YEARS_REIGNED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -601,11 +609,11 @@
 		<zType>COGNOMEN_ANCIENT</zType>
 		<zName>der Historische</zName>
 		<iLegitimacy>50</iLegitimacy>
-		<iMinValue>500</iMinValue>
+		<iMinValue>5000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_YEARS_REIGNED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -613,119 +621,123 @@
 		<zType>COGNOMEN_ABLE</zType>
 		<zName>der Tüchtige</zName>
 		<iLegitimacy>30</iLegitimacy>
-		<iMinValue>1500</iMinValue>
+		<iMinValue>15000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_AMBITION_ACHIEVED</zIndex>
-				<iValue>400</iValue>
+				<iValue>4000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_LEGACY_ACHIEVED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CLEARED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_PEACE</zIndex>
-				<iValue>150</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_ALLIANCE</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_FOUNDED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_CAPTURED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_RECAPTURED</zIndex>
-				<iValue>150</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_LOST</zIndex>
-				<iValue>-200</iValue>
+				<iValue>-2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_COURTIER_ADDED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
-				<iValue>150</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_SPREAD</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RUINS_EXPLORED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_NATION_FOUNDED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_SPECIALIST_TRAINED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TECH_DISCOVERED</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>
+				<iValue>1000</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TILES_REVEALED</zIndex>
+				<iValue>2</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_TRAINED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_PROMOTED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
-				<iValue>20</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
-				<iValue>20</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_UNIT_LOST</zIndex>
-				<iValue>-10</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_WONDER_FINISHED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<iValue>200</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_UNIT_LOST</zIndex>
+				<iValue>-100</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_WONDER_FINISHED</zIndex>
+				<iValue>2000</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_YEARS_REIGNED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -733,119 +745,123 @@
 		<zType>COGNOMEN_JUST</zType>
 		<zName>der Gerechte</zName>
 		<iLegitimacy>40</iLegitimacy>
-		<iMinValue>2000</iMinValue>
+		<iMinValue>20000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_AMBITION_ACHIEVED</zIndex>
-				<iValue>400</iValue>
+				<iValue>4000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_LEGACY_ACHIEVED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CLEARED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_PEACE</zIndex>
-				<iValue>150</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_ALLIANCE</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_FOUNDED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_CAPTURED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_RECAPTURED</zIndex>
-				<iValue>150</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_LOST</zIndex>
-				<iValue>-200</iValue>
+				<iValue>-2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_COURTIER_ADDED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
-				<iValue>150</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_SPREAD</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RUINS_EXPLORED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_NATION_FOUNDED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_SPECIALIST_TRAINED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TECH_DISCOVERED</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>
+				<iValue>1000</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TILES_REVEALED</zIndex>
+				<iValue>2</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_TRAINED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_PROMOTED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
-				<iValue>20</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
-				<iValue>20</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_UNIT_LOST</zIndex>
-				<iValue>-10</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_WONDER_FINISHED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<iValue>200</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_UNIT_LOST</zIndex>
+				<iValue>-100</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_WONDER_FINISHED</zIndex>
+				<iValue>2000</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_YEARS_REIGNED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -853,119 +869,123 @@
 		<zType>COGNOMEN_GOOD</zType>
 		<zName>der Zuverlässige</zName>
 		<iLegitimacy>50</iLegitimacy>
-		<iMinValue>2500</iMinValue>
+		<iMinValue>25000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_AMBITION_ACHIEVED</zIndex>
-				<iValue>400</iValue>
+				<iValue>4000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_LEGACY_ACHIEVED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CLEARED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_PEACE</zIndex>
-				<iValue>150</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_ALLIANCE</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_FOUNDED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_CAPTURED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_RECAPTURED</zIndex>
-				<iValue>150</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_LOST</zIndex>
-				<iValue>-200</iValue>
+				<iValue>-2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_COURTIER_ADDED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
-				<iValue>150</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_SPREAD</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RUINS_EXPLORED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_NATION_FOUNDED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_SPECIALIST_TRAINED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TECH_DISCOVERED</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>
+				<iValue>1000</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TILES_REVEALED</zIndex>
+				<iValue>2</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_TRAINED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_PROMOTED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
-				<iValue>20</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
-				<iValue>20</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_UNIT_LOST</zIndex>
-				<iValue>-10</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_WONDER_FINISHED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<iValue>200</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_UNIT_LOST</zIndex>
+				<iValue>-100</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_WONDER_FINISHED</zIndex>
+				<iValue>2000</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_YEARS_REIGNED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -973,119 +993,123 @@
 		<zType>COGNOMEN_STRONG</zType>
 		<zName>der Kräftige</zName>
 		<iLegitimacy>60</iLegitimacy>
-		<iMinValue>3000</iMinValue>
+		<iMinValue>30000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_AMBITION_ACHIEVED</zIndex>
-				<iValue>400</iValue>
+				<iValue>4000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_LEGACY_ACHIEVED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CLEARED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_PEACE</zIndex>
-				<iValue>150</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_ALLIANCE</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_FOUNDED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_CAPTURED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_RECAPTURED</zIndex>
-				<iValue>150</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_LOST</zIndex>
-				<iValue>-200</iValue>
+				<iValue>-2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_COURTIER_ADDED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
-				<iValue>150</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_SPREAD</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RUINS_EXPLORED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_NATION_FOUNDED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_SPECIALIST_TRAINED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TECH_DISCOVERED</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>
+				<iValue>1000</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TILES_REVEALED</zIndex>
+				<iValue>2</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_TRAINED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_PROMOTED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
-				<iValue>20</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
-				<iValue>20</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_UNIT_LOST</zIndex>
-				<iValue>-10</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_WONDER_FINISHED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<iValue>200</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_UNIT_LOST</zIndex>
+				<iValue>-100</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_WONDER_FINISHED</zIndex>
+				<iValue>2000</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_YEARS_REIGNED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -1093,119 +1117,123 @@
 		<zType>COGNOMEN_NOBLE</zType>
 		<zName>der Großmütige</zName>
 		<iLegitimacy>70</iLegitimacy>
-		<iMinValue>3500</iMinValue>
+		<iMinValue>35000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_AMBITION_ACHIEVED</zIndex>
-				<iValue>400</iValue>
+				<iValue>4000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_LEGACY_ACHIEVED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CLEARED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_PEACE</zIndex>
-				<iValue>150</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_ALLIANCE</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_FOUNDED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_CAPTURED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_RECAPTURED</zIndex>
-				<iValue>150</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_LOST</zIndex>
-				<iValue>-200</iValue>
+				<iValue>-2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_COURTIER_ADDED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
-				<iValue>150</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_SPREAD</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RUINS_EXPLORED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_NATION_FOUNDED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_SPECIALIST_TRAINED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TECH_DISCOVERED</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>
+				<iValue>1000</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TILES_REVEALED</zIndex>
+				<iValue>2</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_TRAINED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_PROMOTED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
-				<iValue>20</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
-				<iValue>20</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_UNIT_LOST</zIndex>
-				<iValue>-10</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_WONDER_FINISHED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<iValue>200</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_UNIT_LOST</zIndex>
+				<iValue>-100</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_WONDER_FINISHED</zIndex>
+				<iValue>2000</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_YEARS_REIGNED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -1213,119 +1241,123 @@
 		<zType>COGNOMEN_GLORIOUS</zType>
 		<zName>der Glorreiche</zName>
 		<iLegitimacy>80</iLegitimacy>
-		<iMinValue>4000</iMinValue>
+		<iMinValue>40000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_AMBITION_ACHIEVED</zIndex>
-				<iValue>400</iValue>
+				<iValue>4000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_LEGACY_ACHIEVED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CLEARED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_PEACE</zIndex>
-				<iValue>150</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_ALLIANCE</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_FOUNDED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_CAPTURED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_RECAPTURED</zIndex>
-				<iValue>150</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_LOST</zIndex>
-				<iValue>-200</iValue>
+				<iValue>-2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_COURTIER_ADDED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
-				<iValue>150</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_SPREAD</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RUINS_EXPLORED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_NATION_FOUNDED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_SPECIALIST_TRAINED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TECH_DISCOVERED</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>
+				<iValue>1000</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TILES_REVEALED</zIndex>
+				<iValue>2</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_TRAINED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_PROMOTED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
-				<iValue>20</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
-				<iValue>20</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_UNIT_LOST</zIndex>
-				<iValue>-10</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_WONDER_FINISHED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<iValue>200</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_UNIT_LOST</zIndex>
+				<iValue>-100</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_WONDER_FINISHED</zIndex>
+				<iValue>2000</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_YEARS_REIGNED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -1333,119 +1365,123 @@
 		<zType>COGNOMEN_MAGNIFICENT</zType>
 		<zName>der Prachtvolle</zName>
 		<iLegitimacy>90</iLegitimacy>
-		<iMinValue>4500</iMinValue>
+		<iMinValue>45000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_AMBITION_ACHIEVED</zIndex>
-				<iValue>400</iValue>
+				<iValue>4000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_LEGACY_ACHIEVED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CLEARED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_PEACE</zIndex>
-				<iValue>150</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_ALLIANCE</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_FOUNDED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_CAPTURED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_RECAPTURED</zIndex>
-				<iValue>150</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_LOST</zIndex>
-				<iValue>-200</iValue>
+				<iValue>-2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_COURTIER_ADDED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
-				<iValue>150</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_SPREAD</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RUINS_EXPLORED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_NATION_FOUNDED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_SPECIALIST_TRAINED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TECH_DISCOVERED</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>
+				<iValue>1000</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TILES_REVEALED</zIndex>
+				<iValue>2</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_TRAINED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_PROMOTED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
-				<iValue>20</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
-				<iValue>20</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_UNIT_LOST</zIndex>
-				<iValue>-10</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_WONDER_FINISHED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<iValue>200</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_UNIT_LOST</zIndex>
+				<iValue>-100</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_WONDER_FINISHED</zIndex>
+				<iValue>2000</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_YEARS_REIGNED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -1453,119 +1489,123 @@
 		<zType>COGNOMEN_GREAT</zType>
 		<zName>der Große</zName>
 		<iLegitimacy>100</iLegitimacy>
-		<iMinValue>5000</iMinValue>
+		<iMinValue>50000</iMinValue>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_AMBITION_ACHIEVED</zIndex>
-				<iValue>400</iValue>
+				<iValue>4000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_LEGACY_ACHIEVED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CLEARED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_PEACE</zIndex>
-				<iValue>150</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_ALLIANCE</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_FOUNDED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_CAPTURED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_RECAPTURED</zIndex>
-				<iValue>150</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CITY_LOST</zIndex>
-				<iValue>-200</iValue>
+				<iValue>-2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_COURTIER_ADDED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
-				<iValue>150</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_SPREAD</zIndex>
-				<iValue>20</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RUINS_EXPLORED</zIndex>
-				<iValue>100</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_NATION_FOUNDED</zIndex>
-				<iValue>200</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_SPECIALIST_TRAINED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TECH_DISCOVERED</zIndex>
-				<iValue>50</iValue>
+				<iValue>500</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>
+				<iValue>1000</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TILES_REVEALED</zIndex>
+				<iValue>2</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_TRAINED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_PROMOTED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_KILLED</zIndex>
-				<iValue>20</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
-				<iValue>20</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_UNIT_LOST</zIndex>
-				<iValue>-10</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>STAT_WONDER_FINISHED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<iValue>200</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_UNIT_LOST</zIndex>
+				<iValue>-100</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_WONDER_FINISHED</zIndex>
+				<iValue>2000</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_YEARS_REIGNED</zIndex>
-				<iValue>10</iValue>
+				<iValue>100</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -1834,8 +1874,16 @@
 		<zName>der Gebildete</zName>
 	</Entry>
 	<Entry>
+		<zType>COGNOMEN_SUPERSTITIOUS</zType>
+		<zName>der Abergläubische</zName>
+	</Entry>
+	<Entry>
 		<zType>COGNOMEN_COMPASSIONATE</zType>
 		<zName>der Mitfühlende</zName>
+	</Entry>
+	<Entry>
+		<zType>COGNOMEN_RUTHLESS</zType>
+		<zName>der Rücksichtslose</zName>
 	</Entry>
 	<Entry>
 		<zType>COGNOMEN_LOYAL</zType>
@@ -1870,20 +1918,12 @@
 		<zName>der Bescheidene</zName>
 	</Entry>
 	<Entry>
-		<zType>COGNOMEN_HEARTBROKEN</zType>
-		<zName>der Untröstliche</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_SUPERSTITIOUS</zType>
-		<zName>der Abergläubische</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_RUTHLESS</zType>
-		<zName>der Skrupellose</zName>
-	</Entry>
-	<Entry>
 		<zType>COGNOMEN_PROUD</zType>
 		<zName>der Stolze</zName>
+	</Entry>
+	<Entry>
+		<zType>COGNOMEN_HEARTBROKEN</zType>
+		<zName>der Untröstliche</zName>
 	</Entry>
 	<Entry>
 		<zType>COGNOMEN_BEAUTIFUL</zType>

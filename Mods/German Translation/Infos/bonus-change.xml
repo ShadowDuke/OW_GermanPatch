@@ -289,6 +289,11 @@
 		<iLegitimacy>-10</iLegitimacy>
 	</Entry>
 	<Entry>
+		<zType>BONUS_DISCOVERED_LANDMARK</zType>
+		<zName>Wahrzeichen entdeckt</zName>
+		<iLegitimacy>1</iLegitimacy>
+	</Entry>
+	<Entry>
 		<zType>BONUS_FINISHED_AMBITION</zType>
 		<zName>Erfüllte Ambition(en)</zName>
 		<iLegitimacy>10</iLegitimacy>
@@ -789,10 +794,22 @@
 		<Council>COUNCIL_SPYMASTER</Council>
 	</Entry>
 	<Entry>
+		<zType>BONUS_MISSIONRESULT_RALLY_TROOPS</zType>
+		<zName>Versammle die Truppen</zName>
+		<aeBonuses>
+			<zValue>BONUS_TRAINING_GAIN_LARGE</zValue>
+		</aeBonuses>
+	</Entry>
+	<Entry>
 		<zType>BONUS_MISSIONRESULT_ABDICATE</zType>
 		<zName>Abdankung</zName>
 		<iLegitimacy>-2</iLegitimacy>
 		<bAbdicate>1</bAbdicate>
+	</Entry>
+	<Entry>
+		<zType>BONUS_MISSIONRESULT_INFLUENCE</zType>
+		<zName>Einfluss</zName>
+		<MemoryCharacter>MEMORYCHARACTER_INFLUENCE</MemoryCharacter>
 	</Entry>
 	<Entry>
 		<zType>BONUS_MISSIONRESULT_ADOPT</zType>
@@ -887,15 +904,9 @@
 		<iHPCity>-10</iHPCity>
 	</Entry>
 	<Entry>
-		<zType>BONUS_MISSIONRESULT_PACIFY_CITY_SUCCESS</zType>
-		<zName>Beschwichtige Stadt (Erfolg)</zName>
-		<iDiscontentLevels>-1</iDiscontentLevels>
-	</Entry>
-	<Entry>
 		<zType>BONUS_MISSIONRESULT_PACIFY_CITY_SUCCESS_WEAKEN</zType>
 		<zName>Beschwichtige Stadt (Erfolg, Geschwächt</zName>
 		<iDiscontentLevels>-1</iDiscontentLevels>
-		<iLegitimacy>-1</iLegitimacy>
 	</Entry>
 	<Entry>
 		<zType>BONUS_MISSIONRESULT_FAMILY_GIFT_SUCCESS</zType>
@@ -906,6 +917,17 @@
 		<zType>BONUS_MISSIONRESULT_FAMILY_GIFT_SUCCESS_WEAKEN</zType>
 		<zName>Familiengeschenk (Erfolg, Geschwächt)</zName>
 		<MemoryFamily>MEMORYFAMILY_FAMILY_GIFTS</MemoryFamily>
+		<iLegitimacy>-1</iLegitimacy>
+	</Entry>
+	<Entry>
+		<zType>BONUS_MISSIONRESULT_PACIFY_CITY_SUCCESS</zType>
+		<zName>Beschwichtige Stadt (Erfolg)</zName>
+		<iDiscontentLevels>-1</iDiscontentLevels>
+	</Entry>
+	<Entry>
+		<zType>BONUS_MISSIONRESULT_PACIFY_CITY_SUCCESS_WEAKEN</zType>
+		<zName>Beschwichtige Stadt (Erfolg, Geschwächt)</zName>
+		<iDiscontentLevels>-1</iDiscontentLevels>
 		<iLegitimacy>-1</iLegitimacy>
 	</Entry>
 	<Entry>
@@ -2149,12 +2171,12 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_UNITCLASS_HEAVY_INFANTRY</zType>
-		<aiBonusUnits>
+		<aiUnits>
 			<Pair>
-				<zIndex>BONUSUNITCLASS_HEAVY_INFANTRY</zIndex>
+				<zIndex>UNIT_CHARIOT</zIndex>
 				<iValue>1</iValue>
 			</Pair>
-		</aiBonusUnits>
+		</aiUnits>
 	</Entry>
 	<Entry>
 		<zType>BONUS_UNITCLASS_POLEARM_INFANTRY</zType>
@@ -6550,9 +6572,21 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
+		<zType>BONUS_GIVE_TRAIT_SUPERSTITIOUS</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_SUPERSTITIOUS</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>
 		<zType>BONUS_GIVE_TRAIT_COMPASSIONATE</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_COMPASSIONATE</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_GIVE_TRAIT_RUTHLESS</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_RUTHLESS</zValue>
 		</aeAddTraits>
 	</Entry>
 	<Entry>
@@ -6598,27 +6632,15 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GIVE_TRAIT_HEARTBROKEN</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_HEARTBROKEN</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_GIVE_TRAIT_SUPERSTITIOUS</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_SUPERSTITIOUS</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_GIVE_TRAIT_RUTHLESS</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_RUTHLESS</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
 		<zType>BONUS_GIVE_TRAIT_PROUD</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_PROUD</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_GIVE_TRAIT_HEARTBROKEN</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_HEARTBROKEN</zValue>
 		</aeAddTraits>
 	</Entry>
 	<Entry>
@@ -6929,6 +6951,18 @@
 		<zType>BONUS_REMOVE_TRAIT_CURSED</zType>
 		<aeRemoveTraits>
 			<zValue>TRAIT_CURSED</zValue>
+		</aeRemoveTraits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_GIVE_TRAIT_RIGHTFUL_HEIR</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_RIGHTFUL_HEIR</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_REMOVE_TRAIT_ABDICATED</zType>
+		<aeRemoveTraits>
+			<zValue>TRAIT_ABDICATED</zValue>
 		</aeRemoveTraits>
 	</Entry>
 </Root>
