@@ -6,6 +6,14 @@
 		<Translation/>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_TEAM_ALLIANCE_HUMAN_DESCRIPTION</zType>
+		<Translation>You have sent an envoy with a link(CONCEPT_ALLIANCE_PLAYER) Proposal.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PLAYER_PEACE_HUMAN_DESCRIPTION</zType>
+		<Translation>You have sent an envoy with a link(DIPLOMACY_PEACE) Proposal.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_HUMAN_DESCRIPTION</zType>
 		<Translation>You have sent an envoy with a link(DIPLOMACY_TRUCE) Proposal.</Translation>
 	</Entry>
@@ -279,12 +287,24 @@
 		<Translation>Adoptiert</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_ADOPT_EVENT</zType>
+		<Translation>Adoptions Ereignis</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_LEGITIMIZE</zType>
 		<Translation>Legitimiert</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_LEGITIMIZE_EVENT</zType>
+		<Translation>Legitimierungs Ereignis</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_CHOSEN_HEIR</zType>
 		<Translation>Erben bestimmen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_CHOSEN_HEIR_EVENT</zType>
+		<Translation>Erben Bestimmungs Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INFILTRATE_REVEAL</zType>
@@ -339,20 +359,20 @@
 		<Translation>Verrat erledigt</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_TREACHERY_EVENT</zType>
+		<Translation>Verrats Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_INSURRECTION</zType>
+		<Translation>Aufstand begonnen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_INSURRECTION_EVENT</zType>
+		<Translation>Aufstands Ereignis</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_TRADE_MISSION_EVENT</zType>
-		<Translation>Handelsmission Ereignis</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MISSIONRESULT_PACIFY_CITY_SUCCESS</zType>
-		<Translation>Beschwichtigung erolgreich</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MISSIONRESULT_PACIFY_CITY_SUCCESS_WEAKEN</zType>
-		<Translation>Beschwichtigung entblößt unsere Schwäche</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MISSIONRESULT_PACIFY_CITY_EVENT</zType>
-		<Translation>Beschwichtigende Stadt Ereignis</Translation>
+		<Translation>Handelsmissions Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_FAMILY_GIFT_SUCCESS</zType>

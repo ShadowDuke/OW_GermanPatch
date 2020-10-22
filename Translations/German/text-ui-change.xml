@@ -620,7 +620,11 @@
     <Entry>
         <zType>TEXT_MANAGE_LUXURIES_DESC</zType>
         <Translation>Schicke oder stoppe Luxusgüter zu schicken</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SEND_ITEM</zType>
+		<Translation>Schicken {0}</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_STOP_SENDING_LUXURY</zType>
         <Translation>Stoppe schicken {0}</Translation>
@@ -1086,7 +1090,11 @@
     <Entry>
         <zType>TEXT_SCENARIO_SETUP_DIFFICULTY</zType>
         <Translation>Schwierigkeitsgrad</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_SETUP_SHOWOPTIONS</zType>
+		<Translation>Zeige Optionen</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_SCENARIO_SETUP_STARTGAME</zType>
         <Translation>Starte Spiel</Translation>
@@ -1598,10 +1606,10 @@
         <zType>TEXT_WIDGET_CITY_IDLE</zType>
         <Translation>Untätig</Translation>
     </Entry>
-    <!--character-->
+	<!--selected-decision-->
     <Entry>
-        <zType>TEXT_POPUP_INHERITANCE_CHARACTER_ACTIONS</zType>
-        <Translation>Aktionen</Translation>
+		<zType>TEXT_AMBITION_SKIP_DECISION</zType>
+        <Translation>I don't feel ambitious right now.</Translation>
 	</Entry>
     <Entry>
         <zType>TEXT_CHARACTER_UPGRADE_DECISION_RATING</zType>
@@ -1841,12 +1849,12 @@
 		<Translation>Neue Version hochladen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_MODS_SAVE_SELECTION_BUTTON</zType>
-		<Translation>Speichern</Translation>
+		<zType>TEXT_UI_MODS_CLEAR_MOD_SELECTION_BUTTON</zType>
+		<Translation>Leere Mods</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_MODS_RESET_SELECTION_BUTTON</zType>
-		<Translation>Zurücksetzen</Translation>
+		<zType>TEXT_UI_MODS_REVERT_SELECTION_BUTTON</zType>
+		<Translation>Ausgewählte zurücksetzen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PLAY_WITH_MODS_BUTTON</zType>
@@ -1978,16 +1986,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_MODS_ASSIGNED_POPUP_BODY</zType>
-		<Translation><![CDATA[Die folgenden Mods sind aktiv:<br>{0_list}]]>
-		</Translation>		  
-	</Entry>
-	<Entry>
-		<zType>TEXT_UI_MODS_PANEL_UNSAVED_MOD_SELECTIONS_NOTICE_POPUP_TITLE</zType>
-		<Translation>Bemerkung</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_UI_MODS_PANEL_UNSAVED_MOD_SELECTIONS_NOTICE_POPUP_BODY</zType>
-		<Translation>You have unsaved mod selections</Translation>
+		<Translation><![CDATA[Die folgenden Mods sind aktiv:<br>{0_list}]]></Translation>		  
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_NEW_GAME_SINGLEPLAYER_OR_MULTIPLAYER_POPUP_TITLE</zType>

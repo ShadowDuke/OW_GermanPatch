@@ -1005,11 +1005,6 @@
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_FOREVER</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYCHARACTER_REFUSED_ASSASSINATION</zType>
-		<zText>Refused to assassinate spouse</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
-	</Entry>
-	<Entry>
 		<zType>MEMORYCHARACTER_AGREED_WITH_LEADER</zType>
 		<zText>Agreed with philosophy of war</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>

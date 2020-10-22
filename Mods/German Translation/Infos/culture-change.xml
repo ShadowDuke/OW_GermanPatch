@@ -20,6 +20,7 @@
 		<zIconName>CultureIcon0</zIconName>
 		<iThreshold>100</iThreshold>
 		<iVP>1</iVP>	  
+		<iXP>2</iXP>	  
 		<DefaultProject>PROJECT_COUNCIL_1</DefaultProject>
 		<ShortfallProject>PROJECT_COUNCIL_1</ShortfallProject>
 	</Entry>
@@ -29,7 +30,7 @@
 		<zIconName>CultureIcon1</zIconName>							 
 		<iThreshold>500</iThreshold>
 		<iVP>2</iVP>	  
-		<iXP>2</iXP>
+		<iXP>4</iXP>
 		<iExtraCaptureTurns>1</iExtraCaptureTurns>
 		<iExtraAssimilateTurns>10</iExtraAssimilateTurns>
 		<EffectCity>EFFECTCITY_CULTURE_DEVELOPING</EffectCity>
@@ -42,7 +43,7 @@
 		<zIconName>CultureIcon2</zIconName>							 
 		<iThreshold>2000</iThreshold>
 		<iVP>3</iVP>	  
-		<iXP>4</iXP>
+		<iXP>6</iXP>
 		<iExtraCaptureTurns>2</iExtraCaptureTurns>
     <iExtraAssimilateTurns>20</iExtraAssimilateTurns>
     <EffectCity>EFFECTCITY_CULTURE_STRONG</EffectCity>
@@ -55,7 +56,7 @@
 		<zIconName>CultureIcon3</zIconName>
 		<iThreshold>5000</iThreshold>
 		<iVP>4</iVP>
-		<iXP>6</iXP>
+		<iXP>8</iXP>
 		<iExtraCaptureTurns>3</iExtraCaptureTurns>
 		<iExtraAssimilateTurns>30</iExtraAssimilateTurns>
 		<EffectCity>EFFECTCITY_CULTURE_LEGENDARY</EffectCity>

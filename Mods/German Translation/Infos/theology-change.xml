@@ -9,6 +9,8 @@
 		<iColumn/>
 		<iRow/>
 		<iCost/>
+		<iSpreadChange/>
+		<aiLawOpinion/>
 		<abPrereqTheology/>
 	</Entry>
 	<Entry>
@@ -18,6 +20,12 @@
 		<iTier>0</iTier>
 		<iColumn>0</iColumn>
 		<iRow>0</iRow>
+		<aiLawOpinion>
+			<Pair>
+				<zIndex>LAW_EPICS</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+		</aiLawOpinion>
 	</Entry>
 	<Entry>
 		<zType>THEOLOGY_VENERATION</zType>
@@ -26,6 +34,12 @@
 		<iTier>0</iTier>
 		<iColumn>2</iColumn>
 		<iRow>0</iRow>
+		<aiLawOpinion>
+			<Pair>
+				<zIndex>LAW_SENIORITY</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+		</aiLawOpinion>
 	</Entry>
 	<Entry>
 		<zType>THEOLOGY_LEGALISM</zType>
@@ -34,6 +48,12 @@
 		<iTier>0</iTier>
 		<iColumn>4</iColumn>
 		<iRow>0</iRow>
+		<aiLawOpinion>
+			<Pair>
+				<zIndex>LAW_CONSTITUTION</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+		</aiLawOpinion>
 	</Entry>
 	<Entry>
 		<zType>THEOLOGY_REVELATION</zType>
@@ -42,6 +62,13 @@
 		<iTier>1</iTier>
 		<iColumn>1</iColumn>
 		<iRow>1</iRow>
+		<iSpreadChange>2</iSpreadChange>
+		<aiLawOpinion>
+			<Pair>
+				<zIndex>LAW_ICONOGRAPHY</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+		</aiLawOpinion>
 		<abPrereqTheology>
 			<Pair>
 				<zIndex>THEOLOGY_MYTHOLOGY</zIndex>
@@ -60,6 +87,13 @@
 		<iTier>1</iTier>
 		<iColumn>3</iColumn>
 		<iRow>1</iRow>
+		<iSpreadChange>2</iSpreadChange>
+		<aiLawOpinion>
+			<Pair>
+				<zIndex>LAW_ELITES</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+		</aiLawOpinion>
 		<abPrereqTheology>
 			<Pair>
 				<zIndex>THEOLOGY_VENERATION</zIndex>
@@ -78,6 +112,13 @@
 		<iTier>2</iTier>
 		<iColumn>0</iColumn>
 		<iRow>2</iRow>
+		<iSpreadChange>4</iSpreadChange>
+		<aiLawOpinion>
+			<Pair>
+				<zIndex>LAW_PILGRIMAGE</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+		</aiLawOpinion>
 		<abPrereqTheology>
 			<Pair>
 				<zIndex>THEOLOGY_REVELATION</zIndex>
@@ -92,6 +133,13 @@
 		<iTier>2</iTier>
 		<iColumn>2</iColumn>
 		<iRow>2</iRow>
+		<iSpreadChange>4</iSpreadChange>
+		<aiLawOpinion>
+			<Pair>
+				<zIndex>LAW_DIVINE_RULE</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+		</aiLawOpinion>
 		<abPrereqTheology>
 			<Pair>
 				<zIndex>THEOLOGY_REVELATION</zIndex>
@@ -110,6 +158,13 @@
 		<iTier>2</iTier>
 		<iColumn>4</iColumn>
 		<iRow>2</iRow>
+		<iSpreadChange>4</iSpreadChange>
+		<aiLawOpinion>
+			<Pair>
+				<zIndex>LAW_PHILOSOPHY</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+		</aiLawOpinion>
 		<abPrereqTheology>
 			<Pair>
 				<zIndex>THEOLOGY_GNOSTICISM</zIndex>

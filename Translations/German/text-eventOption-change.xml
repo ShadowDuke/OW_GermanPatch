@@ -693,10 +693,6 @@
 		<zType>TEXT_EVENTOPTION_RUINS_COMET_SIGHTED_OMEN</zType>
 		<Translation>Es ist ein Omen!</Translation>
 	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_MASTER_OF_WHISPERS_OPTION_2</zType>
-		<Translation>End my {G0:husband's:wife's} affair one way or another.</Translation>
-	</Entry>
 	<Entry beginGroup="Exploration">
 		<zType>TEXT_EVENTOPTION_RUINS_SURVIVORS_INVITE</zType>
 		<Translation><![CDATA[Lade sie ein um sich in unserer Nation niederzulassen.]]></Translation>

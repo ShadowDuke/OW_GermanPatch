@@ -561,6 +561,16 @@
 		</aiGlobalYieldsBase>
 	</Entry>
 	<Entry>
+		<zType>BONUS_EFFECTCITY_FAMILYCLASS_PATRONS_SEAT</zType>
+		<iDiscontentLevels>-1</iDiscontentLevels>
+		<aiGlobalYieldsBase>
+			<Pair>
+				<zIndex>YIELD_ORDERS</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+		</aiGlobalYieldsBase>
+	</Entry>
+	<Entry>
 		<zType>BONUS_GAIN_WISDOM_1</zType>
 		<aiRatings>
 			<Pair>
@@ -904,9 +914,9 @@
 		<iHPCity>-10</iHPCity>
 	</Entry>
 	<Entry>
-		<zType>BONUS_MISSIONRESULT_PACIFY_CITY_SUCCESS_WEAKEN</zType>
-		<zName>Beschwichtige Stadt (Erfolg, Geschwächt</zName>
-		<iDiscontentLevels>-1</iDiscontentLevels>
+		<zType>BONUS_MISSIONRESULT_INSURRECTION</zType>
+		<zName>Aufstand</zName>
+		<iDiscontentLevels>1</iDiscontentLevels>
 	</Entry>
 	<Entry>
 		<zType>BONUS_MISSIONRESULT_FAMILY_GIFT_SUCCESS</zType>

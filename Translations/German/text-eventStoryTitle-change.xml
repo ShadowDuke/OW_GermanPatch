@@ -661,6 +661,30 @@
 		<zType>TEXT_EVENTSTORY_CONTACT_THE_RISE_OF_PIEFACE_TITLE</zType>
 		<Translation>Der Aufsteig von Pieface</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_TERRIFYING_EMISSARY_TITLE</zType>
+		<Translation>Terrifying Emissary</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_PEACEFUL_EMISSARY_TITLE</zType>
+		<Translation>Peaceful Emissary</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_HEAD_COLLECTION_TITLE</zType>
+		<Translation>Head collection</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_DISCIPLINED_TRIBE_TITLE</zType>
+		<Translation>Disciplined Tribe</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_MYSTICAL_TRIBE_TITLE</zType>
+		<Translation>Mystical Tribe</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_ANIMAL_WORSHIPPERS_TITLE</zType>
+		<Translation>Animal Worshippers</Translation>
+	</Entry>
 	<Entry beginGroup="Diplomacy">
 		<zType>TEXT_EVENTSTORY_HOSTILE_NEIGHBORS_TITLE</zType>
 		<Translation>Feindselige Nachbarn</Translation>
@@ -4005,6 +4029,46 @@
 		<zType>TEXT_EVENTSTORY_INHERITANCE_STRICT_TITLE</zType>
 		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
 	</Entry>	 
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INFLUENCE_OF_WINE_TITLE</zType>
+		<Translation>Influence of Wine</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INFLUENCE_OF_MONEY_TITLE</zType>
+		<Translation>Influence of Money</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INFLUENCE_OF_COUNCIL_AMBASSADOR_TITLE</zType>
+		<Translation>Influence of Council</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INFLUENCE_OF_COUNCIL_SPYMASTER_TITLE</zType>
+		<Translation>Influence of Council</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INFLUENCE_OF_COUNCIL_CHANCELLOR_TITLE</zType>
+		<Translation>Influence of Council</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INFLUENCE_OF_GOVERNORS_TITLE</zType>
+		<Translation>Influence of Governors</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_REJECTION_OF_INFLUENCE_TITLE</zType>
+		<Translation>Rejection of influence</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BARREN_SPOUSE_AND_SERVANT_TITLE</zType>
+		<Translation>{G1:Husband:Wife} and {G0:Manservant:Handmaiden}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIVORCE_LOVER_AND_SPOUSE_TITLE</zType>
+		<Translation>Lover and {G1:Husband:Wife}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIVORCE_RECOGNITION_OF_LOVER_TITLE</zType>
+		<Translation>Recognition of Lover</Translation>
+	</Entry>
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS_TITLE</zType>
 		<Translation>Immigrants</Translation>
@@ -5745,6 +5809,42 @@
 		<zType>TEXT_EVENTSTORY_INSURRECTION_SECRET_LOVERS_TITLE</zType>
 		<Translation>Secret Lovers</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RALLY_HOLLOW_RHETORIC_TITLE</zType>
+		<Translation>Hollow Rhetoric</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RALLY_PROUD_THRONGS_TITLE</zType>
+		<Translation>Proud Throngs</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RALLY_ANGRY_SOLDIERS_TITLE</zType>
+		<Translation>Angry Soldiers</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RALLY_THE_DRUNKEN_ARMY_TITLE</zType>
+		<Translation>The Drunken Army</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RALLY_STANDING_ARMIES_TITLE</zType>
+		<Translation>Standing Armies</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RALLY_BLOOD_FOR_BLOOD_TITLE</zType>
+		<Translation>Blood for Blood</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RALLY_OVERLOOKED_INNOVATORS_TITLE</zType>
+		<Translation>Overlooked Innovators</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RALLY_THROWN_ROSES_TITLE</zType>
+		<Translation>Thrown Roses</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RALLY_IN_THE_FIELD_TITLE</zType>
+		<Translation>In the Field</Translation>
+	</Entry>
 	<Entry beginGroup="Tutorial">
 		<zType>TEXT_EVENTSTORY_VICTORY_POINTS_TITLE</zType>
 		<Translation>PUNKTE SIEG!</Translation>
@@ -6096,10 +6196,6 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_GROVE_THE_SPOUSE_AND_THE_PROPHET_TITLE</zType>
 		<Translation>Grove, Spouse, and Prophet</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_THE_DANCE_OF_VENGENCE_TITLE</zType>
-		<Translation>The Dance of Vengence</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PROTECTION_OF_A_PROPHET_TITLE</zType>

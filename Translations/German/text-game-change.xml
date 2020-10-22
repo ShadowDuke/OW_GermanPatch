@@ -110,6 +110,10 @@
 		<Translation>Du hast eine Ambition gestartet: {0}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_START_AMBITION_DESIRED</zType>
+		<Translation><![CDATA[{0_character} verfolgt nun <masculine_0>seine<feminine>ihre<end> begehrte Ambition: {1_ambition}]]></Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_START_QUEST</zType>
 		<Translation>Du hast eine Quest gestartet: {0}</Translation>
 	</Entry>

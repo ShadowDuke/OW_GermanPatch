@@ -46,7 +46,7 @@
 		<zName>Der Großmütige</zName>
 		<Difficulty>DIFFICULTY_NOBLE</Difficulty>
 		<Development>DEVELOPMENT_ADVANCED</Development>
-		<OpponentLevel>OPPONENTLEVEL_NORMAL</OpponentLevel>
+		<OpponentLevel>OPPONENTLEVEL_AGGRESSIVE</OpponentLevel>
 		<BarbarianLevel>BARBARIANLEVEL_NORMAL</BarbarianLevel>
 	</Entry>
 	<Entry>
@@ -62,7 +62,7 @@
 		<zName>Der Prachtvolle</zName>
 		<Difficulty>DIFFICULTY_MAGNIFICENT</Difficulty>
 		<Development>DEVELOPMENT_MASSIVE</Development>
-		<OpponentLevel>OPPONENTLEVEL_AGGRESSIVE</OpponentLevel>
+		<OpponentLevel>OPPONENTLEVEL_COMPETITIVE</OpponentLevel>
 		<BarbarianLevel>BARBARIANLEVEL_STRONG</BarbarianLevel>
 	</Entry>
 	<Entry>

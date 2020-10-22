@@ -980,10 +980,6 @@
 		<Translation><![CDATA[Runden Timer:<true_0> {0_timer}<false><end>]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_WINNER</zType>
-		<Translation>Jede Stadt und jedes (erste) Wunder ist 1 VP wert</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_WONDERS_CANNOT_BUILD</zType>
 		<Translation>Kann keine Wunder mit {LIST} bauen</Translation>
 	</Entry>
@@ -1026,6 +1022,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_GIFT_YIELD</zType>
 		<Translation>Sende {0_yield} {1_yieldIcon} an {2_player}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_GIFT_YIELD_REVERSE</zType>
+		<Translation><![CDATA[[Hold <TEXT_HOTKEY_CTRL> to Take Instead]]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_BUY_YIELD</zType>
@@ -1233,9 +1233,9 @@
 		<zType>TEXT_HELPTEXT_WIDGET_START_MISSION_CANCEL</zType>
 		<Translation><![CDATA[Halte <TEXT_HOTKEY_CTRL> um abzubrechen]]></Translation>
 	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_LATER</zType>
-		<Translation>Fälle die Entscheidung später in diesem Jahr...</Translation>
+		<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_DELAY_DECISION</zType>
+		<Translation>Wait to choose an Ambition in int(AMBITION_DELAY_TURNS) Years</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_CITY_FAMILY</zType>
@@ -3045,6 +3045,10 @@ Current Student(s): </Translation>
 		<Translation>Schaltet {0_effectCity} frei</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_CULTURE_BONUS</zType>
+		<Translation>{0_bonus} pro link(CONCEPT_CULTURE_EVENT)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_MAX_HP</zType>
 		<Translation>{0_value} Max HP für Stadt</Translation>
 	</Entry>
@@ -3222,60 +3226,56 @@ Current Student(s): </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_FREE_UNIT_EFFECT_CITY</zType>
-		<Translation>Kann Einheiten bauen welche benötigen:</Translation>
+		<Translation>Kann Einheiten bauen welche {LIST} benötigen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_UNLOCKS_PROJECT</zType>
-		<Translation>Entsperre Projekt: {0_project}</Translation>
+		<Translation>Entsperrt link(CONCEPT_PROJECT_INFO): {0_project}</Translation>
 	</Entry>
 	<!--Effect City Help Yields-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_YIELD_RATE_PER_YEAR</zType>
-		<Translation>{0_yield} pro Jahr</Translation>
+		<Translation>{LIST}/Jahr</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_YIELD_RATE_PER_POPULATION</zType>
-		<Translation>{0_yield} pro Einwohner</Translation>
+		<Translation><![CDATA[{0_yield}/Jahr pro Einwohner<true_1> ({1_cityYield})<false><end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_YIELD_RATE_PER_CULTURE_LEVEL</zType>
-		<Translation><![CDATA[{0_yield} pro Kultur Stufe<true_1> ({1_cityYield})<false><end>]]></Translation>
+		<Translation><![CDATA[{0_yield}/Jahr pro link(YIELD_CULTURE) Stufe<true_1> ({1_cityYield})<false><end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_YIELD_RATE_PER_FAMILY_OPINION</zType>
-		<Translation>{0_yield} pro Familien Meinungs Stufe</Translation>
+		<Translation><![CDATA[{0_yield}/Jahr pro Familien Meinungs Stufe<true_1> ({1_cityYield})<false><end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_YIELD_RATE_PER_MILITARY_IN_CITY</zType>
-		<Translation>{0_yield} pro Militär Einheit im Territorium</Translation>
+		<Translation><![CDATA[{0_yield}/Year pro Militär Einheit im Territorium<true_1> ({1_cityYield})<false><end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_YIELD_RATE_PER_SPECIALIST</zType>
-		<Translation>{0_yield} pro Spezialist</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_YIELD_RATE_PER_CULTURE_GROWTH</zType>
-		<Translation>{0_yield} pro link(CONCEPT_CULTURE_EVENT)</Translation>
+		<Translation><![CDATA[{0_yield}/Jahr pro Spezialist<true_1> ({1_cityYield})<false><end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_YIELD_RATE_PER_RELIGION</zType>
-		<Translation>{0_yield} pro Religion</Translation>
+		<Translation><![CDATA[{0_yield}/Jahr pro Religion<true_1> ({1_cityYield})<false><end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_YIELD_RATE_PER_RELIGION_WORLD</zType>
-		<Translation><![CDATA[{0_yield} pro Welt {1,1_religion} Städte/Verbesserungen<true_2> ({2_religionYield})<false><end>]]></Translation>
+		<Translation><![CDATA[{0_yield}/Jahr pro Welt {1,1_religion} Städte/Verbesserungen<true_2> ({2_religionYield})<false><end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_YIELD_RATE_FROM_EFFECT_CITY</zType>
-		<Translation><![CDATA[{0_yield} von {1_effectCity}<true_2> (x{2_count})<false><end>]]></Translation>
+		<Translation><![CDATA[{0_yield}/Jahr von {1_effectCity}<true_2> (x{2_count})<false><end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_EFFECT_CITY_YIELD_MODIFIER</zType>
-		<Translation><![CDATA[{0_yield}<true_1> ({1_yieldModified})<false><end>]]></Translation>
+		<Translation><![CDATA[{0_yield}<true_1> ({1_yieldModified}/Jahr)<false><end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_IMPROVEMENT_MODIFIER_YIELD</zType>
-		<Translation>{0,2_improvementList}: {1_value} Ertrag</Translation>
+		<Translation>{LIST,2}: {0_value} Ertrag</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_IMPROVEMENT_RIVER_MODIFIER</zType>
@@ -3291,7 +3291,7 @@ Current Student(s): </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_EFFECT_CITY_YIELD_RATE</zType>
-		<Translation><![CDATA[{0_effectCity}: {1_yieldValueList}<true_2> ({2_cityYieldValueList})<false><end>]]></Translation>
+		<Translation><![CDATA[Jede {0_effectCity}: {1_yieldValueList}<true_2> ({2_cityYieldValueList})<false><end>]]></Translation>
 	</Entry>
 	<!--Improvement Help-->
 	<Entry>
@@ -3304,7 +3304,7 @@ Current Student(s): </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_PRODUCES_GENERIC_BARBARIAN_UNITS</zType>
-		<Translation>Erstellt Barbaren Einheiten</Translation>
+		<Translation>Erstellt link(BARBARIAN_TRIBE,1) Einheiten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_BONUS</zType>
@@ -3320,7 +3320,7 @@ Current Student(s): </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_FOR_ADJACENT_IMPROVEMENT_MODIFIER</zType>
-		<Translation>{1_value} für Angrenzende {0,2_improvementList}</Translation>
+		<Translation>{0_value} für Angrenzende {LIST,2}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_FROM_ADJACENT_IMPROVEMENT_MODIFIER</zType>
@@ -3336,15 +3336,15 @@ Current Student(s): </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_UNIT_TRAIT_HEALS_UNIT</zType>
-		<Translation>Heilt {0_value} HP für {1_idle} {2_traitList} Einheiten</Translation>
+		<Translation>Heilt {0_value} HP für {1_idle} {LIST} Einheiten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_UNIT_TRAIT_XP</zType>
-		<Translation>{0_value} EP/Jahr für {1_idle} {2_traitList} Einheiten</Translation>
+		<Translation>{0_value} EP/Jahr für {1_idle} {LIST} Einheiten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_ENABLES</zType>
-		<Translation>Ermöglicht {0_link}</Translation>
+		<Translation>Ermöglicht {LINK}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_URBAN_BUILDING</zType>
@@ -3352,7 +3352,7 @@ Current Student(s): </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_URBAN_BUILDING_ANYWHERE</zType>
-		<Translation> (Ignoriert Nachbarschafts Anforderungen)</Translation>
+		<Translation>{0} (Ignoriert Nachbarschafts Anforderungen)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_SPREADS_BORDERS</zType>
@@ -3368,7 +3368,7 @@ Current Student(s): </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_PER_YEAR</zType>
-		<Translation>{0_yields} pro Jahr</Translation>
+		<Translation>{YIELD-LIST}/Jahr</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_ADJACENT_RESOURCES_TILE</zType>
@@ -3376,7 +3376,7 @@ Current Student(s): </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_ADJACENT_RESOURCES</zType>
-		<Translation>Angrenzende Ressourcen: {0_yields} pro Jahr</Translation>
+		<Translation>{LIST}/Jahr pro angrenzender Ressource</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_BONUS_ALL_CITIES</zType>
@@ -3396,7 +3396,7 @@ Current Student(s): </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_CREATES_UNITS</zType>
-		<Translation><![CDATA[Erstellt {0,1_unitList} <singular_1>jedes Jahr<plural>{1_number}jede Jahre<end>]]></Translation>
+		<Translation><![CDATA[Erstellt {LIST,1} <singular_0>jedes Jahr<plural>{0_number}Jahre<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_UPGRADE_TURNS</zType>
@@ -3421,7 +3421,7 @@ Current Student(s): </Translation>
 	<!--City Connected Help-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_CITY_CONNECTED</zType>
-		<Translation><![CDATA[Eine Stadt ist zu ihrer {0_capital} verbunden.<br>Effekte durch die Verbindung:]]></Translation>
+		<Translation>Eine Stadt ist zu ihrer {0_capital} verbunden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CITY_CONNECTED_EFFECTS</zType>
@@ -3434,7 +3434,7 @@ Current Student(s): </Translation>
 	<!--City Current Citizens Help-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_CITY_CURRENT_CITIZENS_NEXT</zType>
-		<Translation><![CDATA[Neuer Bürger in {0_years} <singular_0>Jahr<plural>Jahren<end><br>Bürger können benutzt werden um Spezialisten zu erwerben.]]></Translation>
+		<Translation>Bürger können benutzt werden um Spezialisten zu erstellen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CITY_MIN_CITIZENS</zType>
@@ -5032,6 +5032,14 @@ Current Student(s): </Translation>
 		<Translation>{0} (Tier {1} Religionswissenschaft)</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_THEOLOGY_HELP_SPREAD_CHANGE</zType>
+		<Translation>{0}% Ausbreitungschance (pro Jahr)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_THEOLOGY_HELP_LAW_OPINION</zType>
+		<Translation>{0_law} Meinung: {1}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_THEOLOGY_HELP_FAMILY_OPINION</zType>
 		<Translation>{0_family} Meinung: {1}</Translation>
 	</Entry>
@@ -5178,6 +5186,10 @@ Current Student(s): </Translation>
 		<Translation>Staat: {0}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_HELP_RELIGION_HEAD</zType>
+		<Translation>Religionsoberhaupt: {0}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_FAMILY_HEAD</zType>
 		<Translation>Oberhaupt der Familie: {0}</Translation>
 	</Entry>
@@ -5240,6 +5252,14 @@ Current Student(s): </Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_BARBARIAN_ETHNICITY</zType>
 		<Translation>{0}: {1,1}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_SAME</zType>
+		<Translation>{0}: Beide sind {1_trait}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_DIFF</zType>
+		<Translation>{0}: Wir sind verschieden ({1_trait} vs. {2_trait}) </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_IS_LEADER_SPOUSE</zType>
@@ -5965,6 +5985,10 @@ Current Student(s): </Translation>
 		<Translation>Beibehaltung: {0}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LAW_HELP_THEOLOGY_OPINION</zType>
+		<Translation>{0_theology} Meinung: {1}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LAW_HELP_FAMILY_OPINION</zType>
 		<Translation>{0_family} Meinung: {1}</Translation>
 	</Entry>
@@ -6100,7 +6124,15 @@ Current Student(s): </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_OPINION_RELIGIOUS_IMPROVEMENTS</zType>
-		<Translation>{0}: Religiöse Verbesserungen</Translation>
+		<Translation>{0}: {1,1_religion} Verbesserungen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_RELIGION_OPINION_RELIGIOUS_SPECIALISTS</zType>
+		<Translation>{0}: {1,1_religion} Spezialisten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_RELIGION_OUR_LAWS</zType>
+		<Translation><![CDATA[{0_value}: Unsere Gesetze<true_LIST-COUNT> ({LIST})<false><end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_OPINION_RELIGION_OPINION</zType>
@@ -6108,7 +6140,7 @@ Current Student(s): </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_OPINION_EACH_CITY</zType>
-		<Translation>Jede Stadt: </Translation>
+		<Translation>Jede Stadt: {0}</Translation>
 	</Entry>
 	<!--Opponent Level-->
 	<Entry>
@@ -6117,11 +6149,11 @@ Current Student(s): </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPPONENT_LEVEL_WILL_NOT_DECLARE_WAR</zType>
-		<Translation>Staaten werden keine Kriege erklären</Translation>
+		<Translation>Staaten werden keinen link(DIPLOMACY_WAR) erklären</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPPONENT_LEVEL_WAR_PROBABILITY</zType>
-		<Translation>Kriegswahrscheinlichkeit: {0}</Translation>
+		<Translation>link(DIPLOMACY_WAR) Wahrscheinlichkeit: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPPONENT_LEVEL_PLAY_TO_WIN</zType>

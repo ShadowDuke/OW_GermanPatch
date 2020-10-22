@@ -375,8 +375,16 @@
 		<Translation>Salz</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_SALT_LUXURY</zType>
+		<Translation>Salz Luxusgut</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_GEM</zType>
 		<Translation>Edelsteine</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_GEM_LUXURY</zType>
+		<Translation>Edelsteine Luxusgut</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_GOLD</zType>
@@ -388,7 +396,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_HORSE</zType>
-		<Translation>Pferd</Translation>
+		<Translation>Pferde</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_CATTLE</zType>
@@ -396,15 +404,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_SHEEP</zType>
-		<Translation>Schaaf</Translation>
+		<Translation>Schaafe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_PIG</zType>
-		<Translation>Schwein</Translation>
+		<Translation>Schweine</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_GOAT</zType>
-		<Translation>Ziege</Translation>
+		<Translation>Ziegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_WHEAT</zType>
@@ -420,11 +428,11 @@
 	</Entry>
 	<Entry>	
 		<zType>TEXT_EFFECTCITY_RESOURCE_CAMEL</zType>
-		<Translation>Kamel</Translation>
+		<Translation>Kamele</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_ELEPHANT</zType>
-		<Translation>Elefant</Translation>
+		<Translation>Elefanten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_GAME</zType>
@@ -432,39 +440,71 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_FUR</zType>
-		<Translation>Fell</Translation>
+		<Translation>Felle</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_FUR_LUXURY</zType>
+		<Translation>Felle Luxusgut</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_CITRUS</zType>
-		<Translation>Zitrone</Translation>
+		<Translation>Zitronen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_HONEY</zType>
 		<Translation>Honig</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_HONEY_LUXURY</zType>
+		<Translation>Honig Luxusgut</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_INCENSE</zType>
 		<Translation>Weihrauch</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_INCENSE_LUXURY</zType>
+		<Translation>Weihrauch Luxusgut</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_LAVENDER</zType>
 		<Translation>Lavendel</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_LAVENDER_LUXURY</zType>
+		<Translation>Lavendel Luxusgut</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_WINE</zType>
 		<Translation>Wein</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_WINE_LUXURY</zType>
+		<Translation>Wein Luxusgut</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_OLIVE</zType>
-		<Translation>Olive</Translation>
+		<Translation>Oliven</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_OLIVE_LUXURY</zType>
+		<Translation>Oliven Luxusgut</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_DYE</zType>
 		<Translation>Färbemittel</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_DYE_LUXURY</zType>
+		<Translation>Färbemittel Luxusgut</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_PEARL</zType>
-		<Translation>Perle</Translation>
+		<Translation>Perlen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_PEARL_LUXURY</zType>
+		<Translation>Perlen Luxusgut</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_FISH</zType>
@@ -472,7 +512,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_CRAB</zType>
-		<Translation>Krabbe</Translation>
+		<Translation>Krabben</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_SCROLLS</zType>

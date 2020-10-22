@@ -5,12 +5,16 @@
 		<zType/>
 		<zName/>
 		<iOpinion/>
+		<iMinAgeUs/>
+		<iMinAgeThem/>	
 		<aeInvalidateRelationship/>
 	</Entry>
 	<Entry>
 		<zType>RELATIONSHIP_IN_LOVE_WITH</zType>
 		<zName>Verliebt in</zName>
 		<iOpinion>160</iOpinion>
+		<iMinAgeUs>15</iMinAgeUs>
+		<iMinAgeThem>15</iMinAgeThem>
 		<aeInvalidateRelationship>
 			<zValue>RELATIONSHIP_LOVER_OF</zValue>
 			<zValue>RELATIONSHIP_SUSPICIOUS_OF</zValue>
@@ -24,6 +28,8 @@
 		<zType>RELATIONSHIP_LOVER_OF</zType>
 		<zName>Liebhaber von</zName>
 		<iOpinion>160</iOpinion>
+		<iMinAgeUs>15</iMinAgeUs>
+		<iMinAgeThem>15</iMinAgeThem>
 		<aeInvalidateRelationship>
 			<zValue>RELATIONSHIP_IN_LOVE_WITH</zValue>
 			<zValue>RELATIONSHIP_SUSPICIOUS_OF</zValue>
@@ -37,11 +43,15 @@
 		<zType>RELATIONSHIP_ALLIED_WITH</zType>
 		<zName>Verbündet mit</zName>
 		<iOpinion>120</iOpinion>
+		<iMinAgeUs>15</iMinAgeUs>
+		<iMinAgeThem>15</iMinAgeThem>
 	</Entry>
 	<Entry>
 		<zType>RELATIONSHIP_ENDEARED_TO</zType>
 		<zName>geschmeichelt von</zName>
 		<iOpinion>80</iOpinion>
+		<iMinAgeUs>10</iMinAgeUs>
+		<iMinAgeThem>15</iMinAgeThem>
 		<aeInvalidateRelationship>
 			<zValue>RELATIONSHIP_DISAPPOINTED_WITH</zValue>
 			<zValue>RELATIONSHIP_ESTRANGED_FROM</zValue>
@@ -53,6 +63,8 @@
 		<zType>RELATIONSHIP_OBLIGED_TO</zType>
 		<zName>Zu Dank verpflichtet an</zName>
 		<iOpinion>40</iOpinion>
+		<iMinAgeUs>10</iMinAgeUs>
+		<iMinAgeThem>15</iMinAgeThem>
 		<aeInvalidateRelationship>
 			<zValue>RELATIONSHIP_DISAPPOINTED_WITH</zValue>
 			<zValue>RELATIONSHIP_ESTRANGED_FROM</zValue>
@@ -64,6 +76,8 @@
 		<zType>RELATIONSHIP_JEALOUS_ABOUT</zType>
 		<zName>Eifersüchtig über</zName>
 		<iOpinion>-40</iOpinion>
+		<iMinAgeUs>15</iMinAgeUs>
+		<iMinAgeThem>15</iMinAgeThem>
 		<aeInvalidateRelationship>
 			<zValue>RELATIONSHIP_OBLIGED_TO</zValue>
 			<zValue>RELATIONSHIP_ENDEARED_TO</zValue>
@@ -73,6 +87,8 @@
 		<zType>RELATIONSHIP_SUSPICIOUS_OF</zType>
 		<zName>Suspicious of</zName>
 		<iOpinion>-40</iOpinion>
+		<iMinAgeUs>10</iMinAgeUs>
+		<iMinAgeThem>10</iMinAgeThem>
 		<aeInvalidateRelationship>
 			<zValue>RELATIONSHIP_IN_LOVE_WITH</zValue>
 			<zValue>RELATIONSHIP_LOVER_OF</zValue>
@@ -82,6 +98,8 @@
 		<zType>RELATIONSHIP_DISAPPOINTED_WITH</zType>
 		<zName>Enttäuscht von</zName>
 		<iOpinion>-80</iOpinion>
+		<iMinAgeUs>10</iMinAgeUs>
+		<iMinAgeThem>10</iMinAgeThem>
 		<aeInvalidateRelationship>
 			<zValue>RELATIONSHIP_IN_LOVE_WITH</zValue>
 			<zValue>RELATIONSHIP_LOVER_OF</zValue>
@@ -98,6 +116,8 @@
 		<zType>RELATIONSHIP_ESTRANGED_FROM</zType>
 		<zName>Zerstritten mit</zName>
 		<iOpinion>-120</iOpinion>
+		<iMinAgeUs>10</iMinAgeUs>
+		<iMinAgeThem>15</iMinAgeThem>
 		<aeInvalidateRelationship>
 			<zValue>RELATIONSHIP_IN_LOVE_WITH</zValue>
 			<zValue>RELATIONSHIP_LOVER_OF</zValue>
@@ -110,6 +130,8 @@
 		<zType>RELATIONSHIP_VENGEFUL_AGAINST</zType>
 		<zName>Rachsüchtig gegen</zName>
 		<iOpinion>-160</iOpinion>
+		<iMinAgeUs>15</iMinAgeUs>
+		<iMinAgeThem>15</iMinAgeThem>
 		<aeInvalidateRelationship>
 			<zValue>RELATIONSHIP_IN_LOVE_WITH</zValue>
 			<zValue>RELATIONSHIP_LOVER_OF</zValue>
@@ -123,6 +145,8 @@
 		<zType>RELATIONSHIP_PLOTTING_AGAINST</zType>
 		<zName>Verschwörung gegen</zName>
 		<iOpinion>-200</iOpinion>
+		<iMinAgeUs>15</iMinAgeUs>
+		<iMinAgeThem>10</iMinAgeThem>
 		<aeInvalidateRelationship>
 			<zValue>RELATIONSHIP_IN_LOVE_WITH</zValue>
 			<zValue>RELATIONSHIP_LOVER_OF</zValue>

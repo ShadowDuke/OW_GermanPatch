@@ -50,8 +50,8 @@
 		<Translation>Agent {0_name}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_CHARACTER_TITLE_BISHOP</zType>
-		<Translation>Bischoff {0_name}</Translation>
+		<zType>TEXT_CHARACTER_TITLE_PATRIARCH</zType>
+		<Translation><![CDATA[<masculine_0>Patriarch<feminine>Matriarchin<end> {0_name}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_TITLE_OLIGRARCH</zType>
