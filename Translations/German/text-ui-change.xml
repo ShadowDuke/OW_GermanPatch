@@ -502,8 +502,16 @@
 		<Translation>[Stamm Kontaktiert]</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_TRIBE_X_CONTACTED</zType>
+		<Translation>[{0_tribe} Kontaktiert]</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_PLAYER_CONTACTED</zType>
 		<Translation>[Spieler Kontaktiert]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_PLAYER_X_CONTACTED</zType>
+		<Translation>[{0_player} Kontaktiert]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_CULTURE_EVENT</zType>
@@ -883,8 +891,12 @@
 	</Entry>
     <Entry>
         <zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_SUCCESSION</zType>
-        <Translation>Erbfolge</Translation>
-    </Entry>
+        <Translation>Erbfolge Geschlecht</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_SUCCESSION_ORDER</zType>
+		<Translation>Erbfolge Anordnung</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_MORTALITY</zType>
         <Translation>Sterblichkeit</Translation>
@@ -1179,8 +1191,12 @@
     </Entry>
     <Entry>
         <zType>TEXT_SP_SETUP_ADVANCED_SUCCESSION</zType>
-        <Translation>Erbfolge</Translation>
-    </Entry>
+        <Translation>Erbfolge Geschlecht</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SP_SETUP_ADVANCED_SUCCESSION_ORDER</zType>
+		<Translation>Erbfolge Anordnung</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_SP_SETUP_ADVANCED_DIFFICULTY</zType>
         <Translation>Schwierigkeitsgrad</Translation>

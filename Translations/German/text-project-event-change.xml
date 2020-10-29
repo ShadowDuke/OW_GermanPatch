@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSpy v2020 (x64) (http://www.altova.com) by Andrew Auseon (Private) -->
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Leyla Johnson (Private) -->
 <Root>
 	<!--Assets/GameAssets/Resources/Infos/improvement.xml-->
 	<!--NOTE: improvement names that are mass nouns or plural do not need multiple types in Translation-->
@@ -194,5 +194,17 @@
 	<Entry>
 		<zType>TEXT_PROJECT_PIRACY_SUPPRESSION</zType>
 		<Translation>Piracy Suppression</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_COHORTES</zType>
+		<Translation>Urban Cohorts</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_HUNT_KILLER</zType>
+		<Translation>Hunt for the Killer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_STATUE_OF_DIONYSUS</zType>
+		<Translation>Statue of Dionysus</Translation>
 	</Entry>
 </Root>

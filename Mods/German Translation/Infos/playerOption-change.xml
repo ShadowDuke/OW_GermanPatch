@@ -50,6 +50,11 @@
 		<zDesc>Ein Klick außerhalb des Ermüdungslimit bewegt die Einheit zur Ecke</zDesc>
 	</Entry>
 	<Entry>
+		<zType>PLAYEROPTION_SHOW_ORDERS_COST</zType>
+		<zName>Zeige Befehlskosten</zName>
+		<zDesc>Zeigt Orderkosten ansatt wie viele Befehle für eine Bewegung noch übrig sind</zDesc>
+	</Entry>
+	<Entry>
 		<zType>PLAYEROPTION_HIDE_MINIMAP</zType>
 		<zName>Verberge Minimap</zName>
 		<zDesc>Verberge die Minimap im interface.</zDesc>

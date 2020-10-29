@@ -532,8 +532,16 @@
 		<iMinValue>3000</iMinValue>
 		<aiStatValue>
 			<Pair>
+				<zIndex>STAT_LANDMARK_NAMED</zIndex>
+				<iValue>600</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>
+				<iValue>400</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_RUINS_EXPLORED</zIndex>
-				<iValue>1000</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TILES_REVEALED</zIndex>
@@ -548,8 +556,16 @@
 		<iMinValue>5000</iMinValue>
 		<aiStatValue>
 			<Pair>
+				<zIndex>STAT_LANDMARK_NAMED</zIndex>
+				<iValue>600</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>
+				<iValue>400</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_RUINS_EXPLORED</zIndex>
-				<iValue>1000</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TILES_REVEALED</zIndex>
@@ -680,6 +696,14 @@
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_LANDMARK_NAMED</zIndex>
+				<iValue>600</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>
+				<iValue>400</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
 				<iValue>1500</iValue>
 			</Pair>
@@ -689,7 +713,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RUINS_EXPLORED</zIndex>
-				<iValue>1000</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_NATION_FOUNDED</zIndex>
@@ -802,6 +826,14 @@
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>
 				<iValue>200</iValue>
+			</Pair>
+			<Pair>		 
+				<zIndex>STAT_LANDMARK_NAMED</zIndex>
+				<iValue>600</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>
+				<iValue>400</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
@@ -927,6 +959,14 @@
 				<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
+			<Pair>		 
+				<zIndex>STAT_LANDMARK_NAMED</zIndex>
+				<iValue>600</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>
+				<iValue>400</iValue>
+			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
 				<iValue>1500</iValue>
@@ -1050,6 +1090,14 @@
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>
 				<iValue>200</iValue>
+			</Pair>
+			<Pair>		 
+				<zIndex>STAT_LANDMARK_NAMED</zIndex>
+				<iValue>600</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>
+				<iValue>400</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
@@ -1175,6 +1223,14 @@
 				<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
+			<Pair>		 
+				<zIndex>STAT_LANDMARK_NAMED</zIndex>
+				<iValue>600</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>
+				<iValue>400</iValue>
+			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
 				<iValue>1500</iValue>
@@ -1298,6 +1354,14 @@
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>
 				<iValue>200</iValue>
+			</Pair>
+			<Pair>		 
+				<zIndex>STAT_LANDMARK_NAMED</zIndex>
+				<iValue>600</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>
+				<iValue>400</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
@@ -1423,6 +1487,14 @@
 				<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
+			<Pair>		 
+				<zIndex>STAT_LANDMARK_NAMED</zIndex>
+				<iValue>600</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>
+				<iValue>400</iValue>
+			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
 				<iValue>1500</iValue>
@@ -1546,6 +1618,14 @@
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>
 				<iValue>200</iValue>
+			</Pair>
+			<Pair>		 
+				<zIndex>STAT_LANDMARK_NAMED</zIndex>
+				<iValue>600</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>
+				<iValue>400</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RELIGION_FOUNDED</zIndex>

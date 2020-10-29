@@ -31,4 +31,9 @@
 		<zName>Dienstalter</zName>
 		<zHelp>Ältester Angehöriger des Herrschers erbt</zHelp>
 	</Entry>
+	<Entry>
+		<zType>SUCCESSIONORDER_RANDOM</zType>
+		<zName>Zufällig</zName>
+		<zHelp>Jeder Spieler verfolgt ein zufälliges, möglicherweise anderes, Nachfolge Gesetz</zHelp>
+	</Entry>
 </Root>

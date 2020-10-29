@@ -158,6 +158,10 @@
 		<Translation>{0_character} hat jetzt eine begehrte Ambition: {1_goal}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_CHARACTER_CHOOSES_RELIGION</zType>
+		<Translation>{0_character} ist zur {1_religion} konvertiert</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_COVER_DEBTS_LOG_DATA</zType>
 		<Translation>Verkaufe {0_goodsList} um deine Schulde zu begleichen!</Translation>
 	</Entry>
@@ -198,14 +202,6 @@
 		<Translation>{0_character} ist nicht länger {1_trait}!</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_CHARACTER_TUTORS_CHILD</zType>
-		<Translation>{0_tutorCharacter} {1_tutorsVerb} {2_character}: +1 {3_ratingLink}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GAME_CHARACTER_TUTORS_CHILD_VERB</zType>
-		<Translation>Unterrichtet</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GAME_CHARACTER_RATING_CHANGE</zType>
 		<Translation>{0_character}: {1_value} {2_rating}</Translation>
 	</Entry>
@@ -216,6 +212,10 @@
 	<Entry>
 		<zType>TEXT_GAME_LANDMARK_DISCOVERED</zType>
 		<Translation>Wahrzeichen Entdeckt: {0_name}!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_LANDMARK_NAMED</zType>
+		<Translation>Ihr seid der erste, der dieses Wahrzeichen entdeckt habt. Wie werdet ihr es nennen?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_RAID_WARNING</zType>
@@ -340,17 +340,17 @@
 		<Translation>Übernehme {0_religion} als Staatsreligion</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_STATE_RELIGION</zType>
-		<Translation>Übernehme {0_religion} als Staatsreligion</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_SPREAD_RELIGION</zType>
 		<Translation>{0_religion} breitet sich nach {1_city} aus</Translation>
 	</Entry>
   <Entry>
     <zType>TEXT_GAME_DO_BONUS_REMOVE_RELIGION</zType>
     <Translation>Entferne {0_religion} von {1_city}</Translation>
-  </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_CONVERT_RELIGION</zType>
+		<Translation>{0_character} konvertiert zum {1_religion}</Translation>
+	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_FAMILY_LAW</zType>
 		<Translation>{0_family}: {1_law} Meinung {2_value}</Translation>

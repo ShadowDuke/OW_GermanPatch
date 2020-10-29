@@ -544,7 +544,7 @@
 	<Entry>
 		<zType>MEMORYPLAYER_FOUGHT_FOR_PRISONER</zType>
 		<zText>Freed political prisoner</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_MADE_FOOL_LABORER</zType>
@@ -605,5 +605,40 @@
 		<zType>MEMORYPLAYER_TROOPS_RANSACK</zType>
 		<zText>Plünderte unsere Stadt</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_INFILTRATED_US</zType>
+		<zText>Infiltrated us</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_EXPOSED_INFILTRATORS</zType>
+		<zText>Helped expose foreign infiltrators</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_REFUSED_APOLOGY</zType>
+		<zText>Refused to apologize for an international incident</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_LOST_IN_TRANSLATION_POS</zType>
+		<zText>Settled a contract dispute</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_LOST_IN_TRANSLATION_NEG</zType>
+		<zText>Disagreed in a contract dispute</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_SENT_DELICACIES</zType>
+		<zText>Sent us some delicacies</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_SENT_DELICACIES_EXOTIC</zType>
+		<zText>Sent us exotic delicacies</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 </Root>

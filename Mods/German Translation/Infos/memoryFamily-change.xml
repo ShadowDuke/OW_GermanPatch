@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- edited with XMLSpy v2020 (x64) (http://www.altova.com) by Andrew Auseon (Private) -->
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Leyla Johnson (Private) -->
 <Root>
 	<Entry>
 		<zType/>
@@ -940,11 +940,6 @@
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYFAMILY_MADE_A_MOCKERY_OF_COURT</zType>
-		<zText>Made a mockery of our court</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
-	</Entry>
-	<Entry>
 		<zType>MEMORYFAMILY_DID_NOT_PUNISH_FOREIGNER</zType>
 		<zText>Refused to punish foreign counsel</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
@@ -1429,5 +1424,95 @@
     <zType>MEMORYFAMILY_TWO_MOTHERS_DEFEAT</zType>
     <zText>You ruled against us in a dispute between two mothers.</zText>
     <MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
-  </Entry>
+	</Entry>
+	<Entry>
+		<zType>RENOUNCED_OUR_DISLIKED_RELIGION</zType>
+		<zText>Renounced religion we dislike</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>ENLIGHTENED_US</zType>
+		<zText>Enlightened Us</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_KILLED_NOBLES</zType>
+		<zText>Killed Nobles</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>DENOUNCED_ANTICHRIST</zType>
+		<zText>Denounced the Antichrist</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_APPOINTED_JUDGES</zType>
+		<zText>Appointed us as judges</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_LEGAL_DISPUTE_AGAINST</zType>
+		<zText>Sided against us in a legal dispute</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_LEGAL_DISPUTE_SUPPORT</zType>
+		<zText>Sided with us in a legal dispute</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_GAVE_BOARD_GAME</zType>
+		<zText>Introduced a popular board game</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_KILLED_IN_COLD_WATER_POS</zType>
+		<zText>Sided with us after the bathhouse killing</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_KILLED_IN_COLD_WATER_NEG</zType>
+		<zText>Accused us in the bathhouse murder</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_KILLED_IN_COLD_WATER_LATER_POS</zType>
+		<zText>Supported us in the wake of the bath murders</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_KILLED_IN_COLD_WATER_BODYGUARDS</zType>
+		<zText>Guarded us during a killing spree</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_GAVE_JEWELS</zType>
+		<zText>Gave us beautiful jewelry</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_ANTICHRIST</zType>
+		<zText>Refused to warn of the Antichrist</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>REFORMED_RELIGION_ATENISM</zType>
+		<zText>Mandated Aten worship</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>DESTROYED_TEMPLES_ATENISM</zType>
+		<zText>Destroyed temples in the name of Aten</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_HONORED_GENERAL</zType>
+		<zText>Honored our Geneal</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_GAVE_DELICIOUS_WINE</zType>
+		<zText>Gave us delicious drinks</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
 </Root>

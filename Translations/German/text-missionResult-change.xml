@@ -30,6 +30,10 @@
 		<Translation>{CHARACTER-SUBJECT} hat Erfolgreich das Gebiet deines Rivalen infiltriert.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_INFILTRATE_REVEAL_EXPOSED_DESCRIPTION</zType>
+		<Translation>{CHARACTER-SUBJECT} has successfully infiltrated your rival's territory but was exposed in the process.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_SLANDER_SUCCESS_DESCRIPTION</zType>
 		<Translation>{CHARACTER-SUBJECT} hat erfolgreich deinen Rivalen beleidigt.</Translation>
 	</Entry>
@@ -58,12 +62,12 @@
 		<Translation>Deine Attentäter haben versagt {CHARACTER-TARGET} zu töten. Schlimmer jedoch, dein ist unehrenhafte Verschwörung aufgeflogen.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSIONRESULT_TREACHERY_DESCRIPTION</zType>
-		<Translation>{CHARACTER-SUBJECT} hat erfolgreich die Verteidigung der Stadt verringert.</Translation>
+		<zType>TEXT_MISSIONRESULT_INSURRECTION_SUCCESS_DESCRIPTION</zType>
+		<Translation>{CHARACTER-SUBJECT} has successfully started a local uprising.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSIONRESULT_INSURRECTION_DESCRIPTION</zType>
-		<Translation>{CHARACTER-SUBJECT} has successfully started a local uprising.</Translation>
+		<zType>TEXT_MISSIONRESULT_INSURRECTION_FAILURE_DESCRIPTION</zType>
+		<Translation>{CHARACTER-SUBJECT} has failed to start a local uprising.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_FAMILY_GIFT_SUCCESS_DESCRIPTION</zType>
@@ -311,6 +315,10 @@
 		<Translation>Gebiet infiltriert</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_INFILTRATE_REVEAL_EXPOSED</zType>
+		<Translation>Territory Infiltrated, Effort Exposed</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_INFILTRATE_EVENT</zType>
 		<Translation>Infiltrierungs Ereignis</Translation>
 	</Entry>
@@ -355,16 +363,24 @@
 		<Translation>Attentat Ereignis</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSIONRESULT_TREACHERY</zType>
-		<Translation>Verrat erledigt</Translation>
+		<zType>TEXT_MISSIONRESULT_TREACHERY_SUCCESS</zType>
+		<Translation>Verrat erfolgreich</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_TREACHERY_FAILURE</zType>
+		<Translation>Treachery Fails</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TREACHERY_EVENT</zType>
 		<Translation>Verrats Ereignis</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSIONRESULT_INSURRECTION</zType>
-		<Translation>Aufstand begonnen</Translation>
+		<zType>TEXT_MISSIONRESULT_INSURRECTION_SUCCESS</zType>
+		<Translation>Aufstand erfolgreich</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_INSURRECTION_FAILURE</zType>
+		<Translation>Insurrection Fails</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INSURRECTION_EVENT</zType>

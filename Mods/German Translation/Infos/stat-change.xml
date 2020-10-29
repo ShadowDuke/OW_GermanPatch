@@ -66,6 +66,14 @@
 		<zName>Verbesserungen repariert</zName>
 	</Entry>
 	<Entry>
+		<zType>STAT_LANDMARK_DISCOVERED</zType>
+		<zName>Wahrzeichen entdeckt</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_LANDMARK_NAMED</zType>
+		<zName>Wahrzeichen benannt</zName>
+	</Entry>
+	<Entry>
 		<zType>STAT_NATION_FOUNDED</zType>
 		<zName>Staat gegründet</zName>
 	</Entry>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- edited with XMLSpy v2020 (x64) (http://www.altova.com) by Andrew Auseon (Private) -->
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Leyla Johnson (Private) -->
 <Root>
 	<Entry>
 		<zType/>
@@ -333,5 +333,25 @@
 		<zType>MEMORYRELIGION_MADE_OTHER_RELIGION_STATE</zType>
 		<zText>Machte andere Religion zur Staatsreligion</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="Community">
+		<zType>MEMORYRELIGION_ENCOURAGED_DIALOGUE</zType>
+		<zText>Encouraged interfaith dialogue</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_PUT_DOWN_UPRISING</zType>
+		<zText>Violently responded to discontent</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_SHOWED_ARTIFACTS</zType>
+		<zText>Showed artifacts of interest to our faith</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_LAID_DOWN_ARMS</zType>
+		<zText>Laid down arms against the righteous</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 </Root>

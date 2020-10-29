@@ -384,10 +384,6 @@
 		<Translation>Kleinstes Militär</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_TUTOR_GENERIC</zType>
-		<Translation>Lehrer~ein Lehrer~Lehrern</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_CITIZEN</zType>
 		<Translation>Bürger~ein Bürger~Bürgern</Translation>
 	</Entry>
@@ -745,7 +741,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MENU_SUCCESSION</zType>
-		<Translation>Erbfolge: {0}</Translation>
+		<Translation>Erbfolge Geschlecht: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_MENU_SUCCESSION_ORDER</zType>
+		<Translation>Erbfolge Anordnung: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MENU_MORTALITY</zType>
@@ -1190,10 +1190,6 @@
 		<Translation>Kandidaten verfügbar:</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_CANDIDATES_TUTORS</zType>
-		<Translation>Kandidaten verfügbar (Lehrer):</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CANDIDATES_JOBS</zType>
 		<Translation>Kandidaten verfügbar (Stellen):</Translation>
 	</Entry>
@@ -1461,6 +1457,10 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_ADD</zType>
 		<Translation>Fügt {0_link} hinzu</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_INVALID_ON</zType>
+		<Translation>Ungültig auf {0_link}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_RAISE</zType>
@@ -1799,14 +1799,6 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Empfohlen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_STOP_TUTORING_FAMILY</zType>
-		<Translation>Nicht länger {0_tutorLink} der königlichen Familie.</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_STOP_TUTORING_FAMILY_VERB</zType>
-		<Translation><![CDATA[unterrichtet<comment this is the verb that will be used in TEXT_HELPTEXT_WIDGET_ADD_GENERAL_STOP_TUTORING_FAMILY, translators: make sure it is in the correct case>]]></Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_CONSUMES_UNIT</zType>
 		<Translation>Konsumiert die Einheit</Translation>
 	</Entry>
@@ -1917,10 +1909,6 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Kultur Ereignisse treten wennimmer die Kultur Anzeige der Stadt die nächste Schwelle erreicht hat auf.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_CONDUCT_TRADE_MISSION</zType>
-		<Translation>Erzeuge eine Übereinkunft über große Einkünfte durch reisen zu einer entfernten Stadt</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CRITICAL_HIT</zType>
 		<Translation>Kritische Treffer teilen doppelten Schaden aus</Translation>
 	</Entry>
@@ -2005,7 +1993,7 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Ganze VBevölkerung</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_SEAT</zType>
+		<zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_SEAT_EFFECTS</zType>
 		<Translation>Erste {0_family} Stadt gegründet:</Translation>
 	</Entry>
 	<Entry>
@@ -2060,10 +2048,6 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Halte [{0_key}] um alle Verbesserungen zu verbergen.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_JOIN_COURT</zType>
-		<Translation><![CDATA[Wird sich für die Kinder deiner Familien deinem Hofstaat als {0,1_tutorLink} anschließen.<br>Kann außerdem ein {1_general}, ein {2_governor}, oder ein(e) Spouse sein.]]></Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LEGITIMACY</zType>
 		<Translation>Legitimacy comes from achieving Ambitions and better Cognomens (such as "the Great"). Higher Legitimacy improves Family Opinions and increases link(YIELD_ORDERS) per Year.</Translation>
 	</Entry>
@@ -2075,18 +2059,6 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LOCATION</zType>
 		<Translation>Klicken zum anschauen von...</Translation>
 	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_LUXURY_CITY</zType>
-		<Translation>Kann mit einer Stadt als {0_link} gehandelt werden</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_LUXURY_TRADE</zType>
-		<Translation>Kann mit anderen Familien oder Imperien gehandelt werden um die Meinung zu verbessern.</Translation>
-	</Entry>
-    <Entry>
-        <zType>TEXT_HELPTEXT_LINK_HELP_LUXURY_CONCEPT</zType>
-        <Translation><![CDATA[Can be Traded to a City<br>Can be Traded to other Families and Empires to improve their opinion.]]></Translation>
-    </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_MAP_SIZE</zType>
 		<Translation><![CDATA[Breite: {0}<br>Höhe: {1}]]></Translation>
@@ -2212,6 +2184,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Handelsbonus (für sie): {0_yield} {1_turns}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TRADE_NETWORK</zType>
+		<Translation>Das Handelsnetz sind alle Felder, die mit eurer {0_capital} über {1_roads}, {2_roads}, und Wasser verbunden sind.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TRIBUTE_FROM_TURNS</zType>
 		<Translation>Tribut von: {0} {1_turns}</Translation>
 	</Entry>
@@ -2224,12 +2200,6 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>The Unit moves once per Year to a Foreign Capital. Upon safe arrival, the nation receives a link(YIELD_MONEY) and an Opinion boost.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORS</zType>
-		<Translation>Will improve the ratings of descendants or siblings of the current Leader
-(Must be a child aged int(TUTORS_AGE) years.)
-Current Student(s): </Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_UNIT_HIDE_KEY</zType>
 		<Translation>Halte [{0_key}] um alle Einheiten zu verbergen.</Translation>
 	</Entry>
@@ -2238,7 +2208,11 @@ Current Student(s): </Translation>
 		<Translation>Grundbedarf: {0_list}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_UNIT_CONSUMES_OUTSIDE_BORDERS</zType>
+		<zType>TEXT_HELPTEXT_LINK_HELP_UNIT_CONSUMES_MERCENARY</zType>
+		<Translation>(Söldner: {0_value})</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_UNIT_CONSUMES_BORDERS</zType>
 		<Translation>(Außerhalb der Grenzen: {0_value})</Translation>
 	</Entry>
 	<Entry>
@@ -2631,6 +2605,10 @@ Current Student(s): </Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_FROM_ADJACENT_RESOURCE</zType>
 		<Translation>{0} von angrenzenden Ressourcen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_YIELD_FROM_TRADE_NETWORK</zType>
+		<Translation>{0} vom link(CONCEPT_TRADE_NETWORK)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_PERCENT_FROM</zType>
@@ -3161,6 +3139,10 @@ Current Student(s): </Translation>
 		<Translation>Stadt immer {0_connectedLink}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_NO_RELIGION_SPREAD</zType>
+		<Translation>Keine zufällige Religions Verbreitung</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_STATE_RELIGION_IMPROVEMENTS</zType>
 		<Translation>Kann Staatsrelgions-Verbesserungen bauen</Translation>
 	</Entry>
@@ -3236,6 +3218,10 @@ Current Student(s): </Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_YIELD_RATE_PER_YEAR</zType>
 		<Translation>{LIST}/Jahr</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_IN_CITY</zType>
+		<Translation>{0} in {1_city}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_YIELD_RATE_PER_POPULATION</zType>
@@ -3315,10 +3301,6 @@ Current Student(s): </Translation>
 		<Translation>Angrenzende {0_height}: {1_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_ADJACENT_IMPROVEMENT_MODIFIER</zType>
-		<Translation>Angrenzenden {0,2_improvementList}: {1_value}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_FOR_ADJACENT_IMPROVEMENT_MODIFIER</zType>
 		<Translation>{0_value} für Angrenzende {LIST,2}</Translation>
 	</Entry>
@@ -3369,10 +3351,6 @@ Current Student(s): </Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_PER_YEAR</zType>
 		<Translation>{YIELD-LIST}/Jahr</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_ADJACENT_RESOURCES_TILE</zType>
-		<Translation>Angrenzende Ressource(n): {LIST}/Jahr</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_ADJACENT_RESOURCES</zType>
@@ -4003,18 +3981,6 @@ Current Student(s): </Translation>
 		<Translation>{0_subject}: Beendet {1_alliance}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BONUS_STATE_RELIGION</zType>
-		<Translation>Übernehme {0_religion} als Staatsreligion</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_BONUS_SPREAD_RELIGION</zType>
-		<Translation>Ausdehnen {0_religion} to {1_city}</Translation>
-	 </Entry>
-	<Entry>
-    <zType>TEXT_HELPTEXT_BONUS_REMOVE_RELIGION</zType>
-    <Translation>Entferne {0_religion} von {1_city}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_ALLIANCE_WITH</zType>
 		<Translation>{0_player} Bündnis mit {1_other}</Translation>
 	</Entry>
@@ -4151,6 +4117,10 @@ Current Student(s): </Translation>
 		<Translation><![CDATA[Erhalte {0_unit}<true_1> (x{1_number})<false><end><true_2> in {2_city}<false><end>]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_FREE_UNIT_MERCENARY</zType>
+		<Translation><![CDATA[Gain link(CONCEPT_MERCENARY) {0_unit}<true_1> (x{1_number})<false><end>]]></Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_TRADE_CITY</zType>
 		<Translation>{0_link} erlangt {1_city}</Translation>
 	</Entry>
@@ -4252,14 +4222,6 @@ Current Student(s): </Translation>
 		<Translation>Missionen:</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_COURTIER_TUTOR</zType>
-		<Translation>Wird deine Nachkommen {0_tutorVerb} (wenn kein Feldherr, Stadthalter oder im Hofrat).</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_COURTIER_TUTOR_VERB</zType>
-		<Translation><![CDATA[unterrichten<comment: this is the verb that will be used in the above sentence>]]></Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_COURTIER_JOB</zType>
 		<Translation>Kann als link(CONCEPT_GENERAL), link(CONCEPT_GOVERNOR), oder link(CONCEPT_AGENT) dienen.</Translation>
 	</Entry>
@@ -4275,6 +4237,10 @@ Current Student(s): </Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CULTURE_HELP_VPS</zType>
 		<Translation>{0} SP</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CULTURE_HELP_VPS_STEPS</zType>
+		<Translation>+1 VP per Extra Step (II, III, etc)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CULTURE_HELP_GOVERNOR_XP</zType>
@@ -4385,6 +4351,10 @@ Current Student(s): </Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_OTHER_TRAIT_CHANCE</zType>
 		<Translation>{0_value}% Chance auf {1_trait}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_OTHER_TRAIT_OPINION</zType>
+		<Translation>{0_value} Meinung von {1_trait} Charakteren</Translation>
 	</Entry>
 	<!--Player Help-->
 	<Entry>
@@ -4840,19 +4810,15 @@ Current Student(s): </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_ADD_GENERAL_BUTTON</zType>
-		<Translation>Erstelle Feldherr</Translation>
+		<Translation>Erstelle link(CONCEPT_GENERAL</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_ADD_GENERAL_BUTTON_ONE</zType>
-		<Translation>Füge Feldherr hinzu ({0})</Translation>
+		<Translation>Füge link(CONCEPT_GENERAL hinzu ({0})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_ADD_GENERAL_BUTTON_TWO</zType>
-		<Translation>Füge Feldherr hinzu ({0}, {1})</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_TILE_ADD_GENERAL_BUTTON_THREE</zType>
-		<Translation>Füge Feldherr hinzu ({0}, {1}, {2})</Translation>
+		<Translation>Füge link(CONCEPT_GENERAL hinzu ({0}, {1})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_RELEASE_GENERAL_BUTTON</zType>
@@ -5190,6 +5156,10 @@ Current Student(s): </Translation>
 		<Translation>Religionsoberhaupt: {0}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_HELP_RELIGION</zType>
+		<Translation>Religion: {0}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_FAMILY_HEAD</zType>
 		<Translation>Oberhaupt der Familie: {0}</Translation>
 	</Entry>
@@ -5288,6 +5258,14 @@ Current Student(s): </Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_ETHNICITY_BARBARIAN</zType>
 		<Translation>{0}: Im link(DIPLOMACY_WAR) mit den {1}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_STATE_RELIGION</zType>
+		<Translation>{0}: {1_religion} ist Staatsreligion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_STATE_RELIGION_NOT</zType>
+		<Translation>{0}: {1_religion} ist nicht Staatsrelgion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_RATING_TRAIT_ARCHETYPE</zType>
@@ -5892,6 +5870,18 @@ Current Student(s): </Translation>
 		<Translation><![CDATA[Benötigt {0} Max Stufe <singular_0>Einheit<plural>Einheiten<end>]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_GENERALS</zType>
+		<Translation><![CDATA[Requires {0} <singular_0>link(CONCEPT_GENERAL)<plural>link(CONCEPT_GENERAL,1)<end>]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_GOVERNOR</zType>
+		<Translation><![CDATA[Requires {0} <singular_0>link(CONCEPT_GOVERNOR)<plural>link(CONCEPT_GOVERNOR,1)<end>]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_AGENTS</zType>
+		<Translation><![CDATA[Requires {0} Character <singular_0>link(CONCEPT_AGENT)<plural>link(CONCEPT_AGENT,1)<end>]]></Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_TOTAL</zType>
 		<Translation>Benötigt {0} Insgesammt {1_list}</Translation>
 	</Entry>
@@ -6072,6 +6062,10 @@ Current Student(s): </Translation>
 		<zType>TEXT_HELPTEXT_OPINION_DESCENDANT_SPOUSE</zType>
 		<Translation>{0_opinion}: {1_ethnicity,1} Heirat(en) für Oberhaupts Nachkommen</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_OPINION_HELP_OPINION_TOTAL</zType>
+		<Translation>Total: {0}</Translation>
+	</Entry>
 	<Entry>	
 		<zType>TEXT_HELPTEXT_OPINION_HELP_OPINION_OF</zType>
 		<Translation>{0} Meinung von {1}: {2}</Translation>
@@ -6114,14 +6108,6 @@ Current Student(s): </Translation>
 		<Translation>Rivalisierende Staaten Meinung: {0}</Translation>
 	</Entry>
 	<!--Religion Opinion-->
-	<Entry>
-		<zType>TEXT_HELPTEXT_RELIGION_OPINION_STATE_RELIGION</zType>
-		<Translation>{0}: Staatsreligion</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_RELIGION_OPINION_STATE_RELIGION_NOT</zType>
-		<Translation>{0}: Nicht Staatsreligion</Translation>
-	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_OPINION_RELIGIOUS_IMPROVEMENTS</zType>
 		<Translation>{0}: {1,1_religion} Verbesserungen</Translation>

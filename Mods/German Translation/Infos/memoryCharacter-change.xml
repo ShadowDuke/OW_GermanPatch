@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- edited with XMLSpy v2020 (x64) (http://www.altova.com) by Andrew Auseon (Private) -->
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Leyla Johnson (Private) -->
 <Root>
 	<Entry>
 		<zType/>
@@ -136,7 +136,7 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_TAKE_NO_PRISONERS</zType>
-		<zText>Wir nehmen jetzt keine Gefangenen</zText>
+		<zText>Wir nehmen nun keine Gefangenen</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -893,6 +893,15 @@
 	<Entry>
 		<zType>MEMORYCHARACTER_HID_CHILD</zType>
 	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_DEMANDED_MONEY</zType>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_DEMANDED_RESOURCES</zType>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_DEMANDED_TRUCE</zType>
+	</Entry>
 	<Entry beginGroup="Character">
 		<zType>MEMORYCHARACTER_MARRIAGE_OF_STATE</zType>
 		<zText>Married me for politics</zText>
@@ -1102,19 +1111,45 @@
 		<zType>MEMORYCHARACTER_REFUSED_FUNDS</zType>
 		<zText>Verweigerte finanzielle Mittel fürs Militär</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="Community">
+		<zType>MEMORYCHARACTER_REFUSED_REQUEST</zType>
+		<zText>Ignored my advice and refused my request</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>						
 	<Entry>
-		<zType>MEMORYCHARACTER_DEMANDED_MONEY</zType>
+		<zType>MEMORYCHARACTER_ALLOWED_BARRACKS_ASSIGNMENT</zType>
+		<zText>Granted a request for a Barracks assignment</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYCHARACTER_DEMANDED_RESOURCES</zType>
+		<zType>MEMORYCHARACTER_DENIED_BARRACKS_ASSIGNMENT</zType>
+		<zText>Denied our request to teach at the Barracks</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYCHARACTER_DEMANDED_TRUCE</zType>
+		<zType>MEMORYCHARACTER_COMMENDED_FIELD_LEADERSHIP</zType>
+		<zText>Commended our battlefield leadership</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_FOREVER</MemoryLevel>
 	</Entry>
-	<Entry beginGroup="Family">
-		<zType>MEMORYCHARACTER_REFUSED_REQUEST</zType>
-		<zText>Ignorierte meinen Rat und hat meinen Vorschlag abgelehnt</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
-	</Entry>	 
+	<Entry>
+		<zType>MEMORYCHARACTER_ACCEPTED_JUDGMENT</zType>
+		<zText>Sided with our view of justice</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_DAY_OF_DUPES_DEAL</zType>
+		<zText>Resolved a power struggle</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_DAY_OF_DUPES_POS</zType>
+		<zText>Supported us in a power struggle</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_FOREVER</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_DAY_OF_DUPES_NEG</zType>
+		<zText>Sided against us in a power struggle</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_FOREVER</MemoryLevel>
+	</Entry>
 </Root>

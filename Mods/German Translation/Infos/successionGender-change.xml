@@ -39,4 +39,9 @@
     <bSingleGender>1</bSingleGender>
     <Gender>GENDER_FEMALE</Gender>
   </Entry>
+	<Entry>
+		<zType>SUCCESSIONGENDER_RANDOM</zType>
+		<zName>Zufällig</zName>
+		<zHelp>Jeder Spieler verfolgt ein zufälliges, möglicherweise anderes, Nachfolge Geschlecht</zHelp>
+  </Entry>
 </Root>

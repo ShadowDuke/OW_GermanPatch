@@ -51,23 +51,23 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_CIVICS_BOOM_NAME</zType>
-		<Translation>Verwaltungsaufschwung</Translation>
+		<Translation>link(YIELD_CIVICS) Aufschwung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_TRAINING_BOOM_NAME</zType>
-		<Translation>Trainingsaufschwung</Translation>
+		<Translation>link(YIELD_TRAINING) Aufschwung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_SCIENCE_BOOM_NAME</zType>
-		<Translation>Wissenschaftsaufschwung</Translation>
+		<Translation>link(YIELD_SCIENCE) Aufschwung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_MONEY_BOOM_NAME</zType>
-		<Translation>Wirtschaftsaufschwung</Translation>
+		<Translation>link(YIELD_MONEY) Aufschwung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_ORDERS_BOOM_NAME</zType>
-		<Translation>Geschäftigkeitsaufschwung</Translation>
+		<Translation>link(YIELD_ORDERS) Aufschwung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_GREAT_SOLDIER_NAME</zType>

@@ -19,7 +19,8 @@
 		<ForgetCharacter comment="Memory forgotten by the character Subject"/>
 		<AddLeaderRelationship comment="Add a Relationship towards the Leader"/>
 		<RemoveLeaderRelationship comment="Remove a Relationship towards the Leader"/>
-		<DiplomacyPlayer comment="Diplomacy state (from diplomacy.xml) to which the Player Subject is set"/>
+		<DiplomacyPlayerFrom comment="Diplomacy state (from diplomacy.xml) to which the Player Subject is set, initiated by Us"/>
+		<DiplomacyPlayerTo comment="Diplomacy state (from diplomacy.xml) to which the Player Subject is set, initiated by the Other Player"/>
 		<DiplomacyBarb comment="Diplomacy state (from diplomacy.xml) to which the Barbarian Subject is set"/>
 		<MakeCourtier comment="Makes the character Subject into this type of courtier which is added to the Player's court"/>
 		<StartLaw comment="Law enacted. You must pay the normal Civics cost"/>
@@ -52,7 +53,6 @@
 		<iXPUnit comment="Changes the XP of the Unit"/>
 		<iXPCharacter comment="Changes the XP of the Character"/>
 		<iLegitimacy comment="Amount of Legitimacy gained or lost by the Human"/>
-		<iDiplomacyPlayer comment="Changes the Diplomacy level by this value (Peace = 0, Truce = 1, War = 2)"/>
 		<iAllianceSubject comment="Player allies with the previous Subject at this index"/>
 		<iMarrySubject comment="Character will marry the previous Subject at this index"/>
 		<iPolyMarrySubject comment="Character will marry the previous Subject at this index (allows polygamy)"/>
@@ -64,12 +64,14 @@
 		<iSeizeThroneSubject comment="Become the new leader of the previous Subject at this index"/>
 		<iSpreadToSubject comment="Religion will spread to the previous Subject City at this index"/>
 		<iRemoveFromSubject comment="Religion will be removed from the previous Subject City at this index"/>
+		<iConvertReligionSubject comment="The previous Subject Character at this index will convert to this Religion"/>																										 
 		<iTradeResourceSubject comment="Trades the Resources to previous Subject at this index"/>
 		<iAgentCitySubject comment="Character will become the Agent in the previous Subject City at this index"/>
 		<iTradeCitySubject comment="Trade the City to the previous Subject at this index"/>
 		<iMissionSubject comment="The Mission will target the previous Subject at this index"/>																		 
 		<iMissionReverse comment="The Mission character will be the previous Subject at this index"/>
 		<bMissionFree comment="The Mission will not have Yield costs"/>
+		<bMercenaryUnit comment="The Units created will not be processed through a City (so, no Family, for example)"/>																										 
 		<bRevealTerritory comment="Will reveal all the territory of this Player"/>
 		<bHolyCityAgents comment="Adds an Agent in all Holy Cities"/>
 		<bCancelTrade comment="Will cancel trade with this Player"/>
@@ -157,7 +159,8 @@
 		<ForgetCharacter/>
 		<AddLeaderRelationship/>
 		<RemoveLeaderRelationship/>
-		<DiplomacyPlayer/>
+		<DiplomacyPlayerFrom/>
+		<DiplomacyPlayerTo/>
 		<DiplomacyBarb/>
 		<MakeCourtier/>
     <StartLaw/>
@@ -189,7 +192,6 @@
 		<iXPUnit/>
 		<iXPCharacter/>
 		<iLegitimacy/>
-		<iDiplomacyPlayer/>
 		<iAllianceSubject/>			 
 		<iMarrySubject/>
 		<iPolyMarrySubject/>			  
@@ -201,12 +203,14 @@
 		<iSeizeThroneSubject/>
 		<iSpreadToSubject/>
 		<iRemoveFromSubject/>			   
+		<iConvertReligionSubject/>					
 		<iTradeResourceSubject/>
 		<iAgentCitySubject/>
 		<iTradeCitySubject/>		  
 		<iMissionSubject/>
 		<iMissionReverse/>			
 		<bMissionFree/>		 
+		<bMercenaryUnit/>		   
 		<bRevealTerritory/>
 		<bHolyCityAgents/>			
 		<bCancelTrade/>
@@ -292,6 +296,11 @@
 		<zType>BONUS_DISCOVERED_LANDMARK</zType>
 		<zName>Wahrzeichen entdeckt</zName>
 		<iLegitimacy>1</iLegitimacy>
+	</Entry>
+	<Entry>
+		<zType>BONUS_NAMED_LANDMARK</zType>
+		<zName>Wahrzeichen benannt</zName>
+		<iLegitimacy>2</iLegitimacy>
 	</Entry>
 	<Entry>
 		<zType>BONUS_FINISHED_AMBITION</zType>
@@ -415,14 +424,14 @@
 	<Entry>
 		<zType>BONUS_DECLARE_WAR_PLAYER</zType>
 		<MemoryPlayer>MEMORYPLAYER_DECLARED_WAR</MemoryPlayer>
-		<DiplomacyPlayer>DIPLOMACY_WAR</DiplomacyPlayer>
+		<DiplomacyPlayerFrom>DIPLOMACY_WAR</DiplomacyPlayerFrom>
 		<aeBonuses>
 			<zValue>BONUS_PLAYER_OFFER</zValue>
 		</aeBonuses>
 	</Entry>
 	<Entry>
 		<zType>BONUS_PLAYER_WAR</zType>
-		<DiplomacyPlayer>DIPLOMACY_WAR</DiplomacyPlayer>
+		<DiplomacyPlayerTo>DIPLOMACY_WAR</DiplomacyPlayerTo>
 		<aeBonuses>
 			<zValue>BONUS_PLAYER_OFFER</zValue>
 		</aeBonuses>
@@ -430,7 +439,7 @@
 	<Entry>
 		<zType>BONUS_PLAYER_WAR_LEGITIMACY</zType>
 		<zName>Furchtlos gegenüber Krieg</zName>
-		<DiplomacyPlayer>DIPLOMACY_WAR</DiplomacyPlayer>
+		<DiplomacyPlayerTo>DIPLOMACY_WAR</DiplomacyPlayerTo>
 		<iLegitimacy>5</iLegitimacy>
 		<aeBonuses>
 			<zValue>BONUS_PLAYER_OFFER</zValue>
@@ -438,14 +447,14 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_PLAYER_TRUCE</zType>
-		<DiplomacyPlayer>DIPLOMACY_TRUCE</DiplomacyPlayer>
+		<DiplomacyPlayerFrom>DIPLOMACY_TRUCE</DiplomacyPlayerFrom>
 		<aeBonuses>
 			<zValue>BONUS_PLAYER_OFFER</zValue>
 		</aeBonuses>
 	</Entry>
 	<Entry>
 		<zType>BONUS_PLAYER_PEACE</zType>
-		<DiplomacyPlayer>DIPLOMACY_PEACE</DiplomacyPlayer>
+		<DiplomacyPlayerFrom>DIPLOMACY_PEACE</DiplomacyPlayerFrom>
 		<aeBonuses>
 			<zValue>BONUS_PLAYER_OFFER</zValue>
 		</aeBonuses>
@@ -843,7 +852,13 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_MISSIONRESULT_INFILTRATE_REVEAL</zType>
-		<zName>Unterwandern</zName>
+		<zName>Unterwandern (Erfolg)</zName>
+		<bRevealTerritory>1</bRevealTerritory>
+	</Entry>
+	<Entry>
+		<zType>BONUS_MISSIONRESULT_INFILTRATE_REVEAL_EXPOSED</zType>
+		<zName>Unterwandern (Erfolg, Bloßgelegt)</zName>
+		<iLegitimacy>-1</iLegitimacy>
 		<bRevealTerritory>1</bRevealTerritory>
 	</Entry>
 	<Entry>
@@ -853,7 +868,7 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_MISSIONRESULT_SLANDER_SUCCESS_EXPOSED</zType>
-		<zName>Beleidigung (Erfolg, Exponiert)</zName>
+		<zName>Beleidigung (Erfolg, Bloßgelegt)</zName>
 		<MemoryAllPlayers>MEMORYPLAYER_SLANDER</MemoryAllPlayers>
 		<iLegitimacy>-1</iLegitimacy>
 	</Entry>
@@ -897,26 +912,36 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_MISSIONRESULT_ASSASSINATE_KILL_EXPOSED</zType>
-		<zName>Meucheln (Töten, Exponiert)</zName>
+		<zName>Meucheln (Töten, Bloßgelegt)</zName>
 		<MemoryFamily>MEMORYFAMILY_ASSASSINATION_EXPOSED</MemoryFamily>
 		<iLegitimacy>-2</iLegitimacy>
 		<bKillCharacter>1</bKillCharacter>
 	</Entry>
 	<Entry>
 		<zType>BONUS_MISSIONRESULT_ASSASSINATE_FAIL_EXPOSED</zType>
-		<zName>Meucheln (Versagt, Exponiert)</zName>
+		<zName>Meucheln (Versagt, Bloßgelegt)</zName>
 		<MemoryFamily>MEMORYFAMILY_ASSASSINATION_EXPOSED</MemoryFamily>
 		<iLegitimacy>-2</iLegitimacy>
 	</Entry>
 	<Entry>
-		<zType>BONUS_MISSIONRESULT_TREACHERY</zType>
-		<zName>Verrat</zName>
+		<zType>BONUS_MISSIONRESULT_TREACHERY_SUCCESS</zType>
+		<zName>Verrat (Erfolg)</zName>
 		<iHPCity>-10</iHPCity>
 	</Entry>
 	<Entry>
-		<zType>BONUS_MISSIONRESULT_INSURRECTION</zType>
-		<zName>Aufstand</zName>
+		<zType>BONUS_MISSIONRESULT_TREACHERY_FAILURE</zType>
+		<zName>Verrat (Fehlschlag)</zName>
+		<iLegitimacy>-1</iLegitimacy>
+	</Entry>
+	<Entry>
+		<zType>BONUS_MISSIONRESULT_INSURRECTION_SUCCESS</zType>
+		<zName>Aufstand (Erfolg)</zName>
 		<iDiscontentLevels>1</iDiscontentLevels>
+	</Entry>
+	<Entry>
+		<zType>BONUS_MISSIONRESULT_INSURRECTION_FAILURE</zType>
+		<zName>Aufstand (Fehlschlag)</zName>
+		<iLegitimacy>-1</iLegitimacy>
 	</Entry>
 	<Entry>
 		<zType>BONUS_MISSIONRESULT_FAMILY_GIFT_SUCCESS</zType>
@@ -5217,7 +5242,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_SCIENCE_SMALL</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_SCIENCE_SMALL</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
@@ -5233,7 +5257,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_SCIENCE_AVERAGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_SCIENCE_AVERAGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
@@ -5249,7 +5272,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_SCIENCE_LARGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_SCIENCE_LARGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
@@ -5265,7 +5287,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_CIVICS_SMALL</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_CIVICS_SMALL</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_CIVICS</zIndex>
@@ -5281,7 +5302,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_CIVICS_AVERAGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_CIVICS_AVERAGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_CIVICS</zIndex>
@@ -5297,7 +5317,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_CIVICS_LARGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_CIVICS_LARGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_CIVICS</zIndex>
@@ -5313,7 +5332,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_TRAINING_SMALL</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_TRAINING_SMALL</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
@@ -5329,7 +5347,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_TRAINING_AVERAGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_TRAINING_AVERAGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
@@ -5345,7 +5362,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_TRAINING_LARGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_TRAINING_LARGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
@@ -5361,7 +5377,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_MONEY_SMALL</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_MONEY_SMALL</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
@@ -5377,7 +5392,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_MONEY_AVERAGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_MONEY_AVERAGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
@@ -5393,7 +5407,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_MONEY_LARGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_MONEY_LARGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
@@ -5409,7 +5422,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_MONEY_HUGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_MONEY_HUGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
@@ -5425,7 +5437,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_MONEY_GIGANTIC</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_MONEY_GIGANTIC</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
@@ -5441,7 +5452,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_ORDERS_SMALL</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_ORDERS_SMALL</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
@@ -5457,7 +5467,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_ORDERS_AVERAGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_ORDERS_AVERAGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
@@ -5473,7 +5482,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_ORDERS_LARGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_ORDERS_LARGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
@@ -5489,7 +5497,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_FOOD_SMALL</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_FOOD_SMALL</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
@@ -5505,7 +5512,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_FOOD_AVERAGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_FOOD_AVERAGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
@@ -5521,7 +5527,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_FOOD_LARGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_FOOD_LARGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
@@ -5537,7 +5542,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_IRON_SMALL</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_IRON_SMALL</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
@@ -5553,7 +5557,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_IRON_AVERAGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_IRON_AVERAGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
@@ -5569,7 +5572,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_IRON_LARGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_IRON_LARGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
@@ -5585,7 +5587,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_WOOD_SMALL</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_WOOD_SMALL</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
@@ -5601,7 +5602,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_WOOD_AVERAGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_WOOD_AVERAGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
@@ -5617,7 +5617,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_WOOD_LARGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_WOOD_LARGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
@@ -5633,7 +5632,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_STONE_SMALL</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_STONE_SMALL</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_STONE</zIndex>
@@ -5649,7 +5647,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_STONE_AVERAGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_STONE_AVERAGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_STONE</zIndex>
@@ -5665,7 +5662,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_STONE_LARGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_GIVE_STONE_LARGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_STONE</zIndex>
@@ -5681,7 +5677,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_SCIENCE_SMALL</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_SCIENCE_SMALL</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
@@ -5697,7 +5692,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_SCIENCE_AVERAGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_SCIENCE_AVERAGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
@@ -5713,7 +5707,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_SCIENCE_LARGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_SCIENCE_LARGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
@@ -5729,7 +5722,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_CIVICS_SMALL</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_CIVICS_SMALL</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_CIVICS</zIndex>
@@ -5745,7 +5737,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_CIVICS_AVERAGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_CIVICS_AVERAGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_CIVICS</zIndex>
@@ -5761,7 +5752,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_CIVICS_LARGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_CIVICS_LARGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_CIVICS</zIndex>
@@ -5777,7 +5767,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_TRAINING_SMALL</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_TRAINING_SMALL</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
@@ -5793,7 +5782,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_TRAINING_AVERAGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_TRAINING_AVERAGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
@@ -5809,7 +5797,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_TRAINING_LARGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_TRAINING_LARGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
@@ -5825,7 +5812,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_MONEY_SMALL</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_MONEY_SMALL</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
@@ -5841,7 +5827,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_MONEY_AVERAGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_MONEY_AVERAGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
@@ -5857,7 +5842,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_MONEY_LARGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_MONEY_LARGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
@@ -5873,7 +5857,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_MONEY_HUGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_MONEY_HUGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
@@ -5889,7 +5872,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_MONEY_GIGANTIC</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_MONEY_GIGANTIC</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
@@ -5905,7 +5887,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_ORDERS_SMALL</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_ORDERS_SMALL</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
@@ -5921,7 +5902,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_ORDERS_AVERAGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_ORDERS_AVERAGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
@@ -5937,7 +5917,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_ORDERS_LARGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_ORDERS_LARGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
@@ -5953,7 +5932,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_FOOD_SMALL</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_FOOD_SMALL</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
@@ -5969,7 +5947,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_FOOD_AVERAGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_FOOD_AVERAGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
@@ -5985,7 +5962,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_FOOD_LARGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_FOOD_LARGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
@@ -6001,7 +5977,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_IRON_SMALL</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_IRON_SMALL</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
@@ -6017,7 +5992,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_IRON_AVERAGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_IRON_AVERAGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
@@ -6033,7 +6007,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_IRON_LARGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_IRON_LARGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
@@ -6049,7 +6022,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_WOOD_SMALL</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_WOOD_SMALL</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
@@ -6065,7 +6037,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_WOOD_AVERAGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_WOOD_AVERAGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
@@ -6081,7 +6052,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_WOOD_LARGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_WOOD_LARGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
@@ -6097,7 +6067,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_STONE_SMALL</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_STONE_SMALL</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_STONE</zIndex>
@@ -6113,7 +6082,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_STONE_AVERAGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_STONE_AVERAGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_STONE</zIndex>
@@ -6129,7 +6097,6 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBUTE_RECEIVE_STONE_LARGE</zType>
-		<aiYieldsTradePerThem>BONUS_TRIBUTE_RECEIVE_STONE_LARGE</aiYieldsTradePerThem>
 		<aiYieldsTributeBase>
 			<Pair>
 				<zIndex>YIELD_STONE</zIndex>

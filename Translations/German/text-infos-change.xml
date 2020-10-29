@@ -79,10 +79,6 @@
 		<Translation>Klar</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_CONCEPT_CONDUCT_TRADE_MISSION</zType>
-		<Translation>Handelsmission durchführen</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_CONCEPT_CRITICAL_HIT</zType>
 		<Translation>Kritischer Treffer</Translation>
 	</Entry>
@@ -115,10 +111,6 @@
         <Translation>Versteckt</Translation>
     </Entry>
 	<Entry>
-		<zType>TEXT_CONCEPT_JOIN_COURT</zType>
-		<Translation>schließt sich dem Hofstaat an</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_CONCEPT_IDLE</zType>
 		<Translation>Untätige</Translation>
 	</Entry>
@@ -133,6 +125,10 @@
 	<Entry>
 		<zType>TEXT_CONCEPT_LUXURY</zType>
 		<Translation>Luxusgüter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_MERCENARY</zType>
+		<Translation>Söldner</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_PROJECT_INFO</zType>
@@ -1379,6 +1375,22 @@
 	<Entry>
 		<zType>TEXT_GOAL_FOUR_COURTIERS</zType>
 		<Translation>Habe vier Vertraute</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_GENERALS</zType>
+		<Translation>Add Four Generals</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_THREE_GOVERNORS</zType>
+		<Translation>Add Three Governors</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_EIGHT_GENERALS</zType>
+		<Translation>Add Eight Generals</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_GOVERNORS</zType>
+		<Translation>Add Six Governors</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_REVEAL_40</zType>

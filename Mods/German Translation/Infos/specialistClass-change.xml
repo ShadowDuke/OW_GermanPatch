@@ -5,6 +5,7 @@
 		<zType/>
 		<zName/>
 		<bUrban/>
+		<aeResourceCityEffect/>				 
 	</Entry>
 	<Entry>
 		<zType>SPECIALISTCLASS_FARMER</zType>
@@ -21,6 +22,16 @@
 	<Entry>
 		<zType>SPECIALISTCLASS_MINER</zType>
 		<zName>Bergarbeiter</zName>
+		<aeResourceCityEffect>
+			<Pair>
+				<zIndex>RESOURCE_SALT</zIndex>
+				<zValue>EFFECTCITY_RESOURCE_SALT_LUXURY</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RESOURCE_GEM</zIndex>
+				<zValue>EFFECTCITY_RESOURCE_GEM_LUXURY</zValue>
+			</Pair>
+		</aeResourceCityEffect>
 	</Entry>
 	<Entry>
 		<zType>SPECIALISTCLASS_RANCHER</zType>
@@ -29,14 +40,52 @@
 	<Entry>
 		<zType>SPECIALISTCLASS_TRAPPER</zType>
 		<zName>Pelzjäger</zName>
+		<aeResourceCityEffect>
+			<Pair>
+				<zIndex>RESOURCE_FUR</zIndex>
+				<zValue>EFFECTCITY_RESOURCE_FUR_LUXURY</zValue>
+			</Pair>
+		</aeResourceCityEffect>
 	</Entry>
 	<Entry>
 		<zType>SPECIALISTCLASS_GARDENER</zType>
 		<zName>Gärtner</zName>
+		<aeResourceCityEffect>
+			<Pair>
+				<zIndex>RESOURCE_HONEY</zIndex>
+				<zValue>EFFECTCITY_RESOURCE_HONEY_LUXURY</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RESOURCE_INCENSE</zIndex>
+				<zValue>EFFECTCITY_RESOURCE_INCENSE_LUXURY</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RESOURCE_LAVENDER</zIndex>
+				<zValue>EFFECTCITY_RESOURCE_LAVENDER_LUXURY</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RESOURCE_OLIVE</zIndex>
+				<zValue>EFFECTCITY_RESOURCE_OLIVE_LUXURY</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RESOURCE_WINE</zIndex>
+				<zValue>EFFECTCITY_RESOURCE_WINE_LUXURY</zValue>
+			</Pair>
+		</aeResourceCityEffect>
 	</Entry>
 	<Entry>
 		<zType>SPECIALISTCLASS_FISHER</zType>
 		<zName>Fischer</zName>
+		<aeResourceCityEffect>
+			<Pair>
+				<zIndex>RESOURCE_DYE</zIndex>
+				<zValue>EFFECTCITY_RESOURCE_DYE_LUXURY</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RESOURCE_PEARL</zIndex>
+				<zValue>EFFECTCITY_RESOURCE_PEARL_LUXURY</zValue>
+			</Pair>
+		</aeResourceCityEffect>
 	</Entry>
 	<Entry>
 		<zType>SPECIALISTCLASS_DOCTOR</zType>
