@@ -3,7 +3,7 @@
 You can still add them manually like before (github) but it would be certainly easier for you to create a [mod.io](https://oldworld.mod.io/) profile and get the mods and updates for them through the game now.**
 
 # Old World German Patch
-German localization for **Old World** for **Version: 0.1.43711**. (WIP)
+German localization for **Old World** for **Version: 0.1.43961**. (WIP)
 
 Zur [deutschen Anleitung](https://github.com/ShadowDuke/OW_GermanPatch#deutsch) springen.
 
@@ -17,8 +17,8 @@ Zur [deutschen Anleitung](https://github.com/ShadowDuke/OW_GermanPatch#deutsch) 
 3. Now set up a new game and start as usual.
 
 **To enable the full patch (step 2) on your saved game begun in english**, find your save in \Documents\My Games\Old World\Save\.. and edit the file with an editor.
-At the 5th line it says *Version* make it look like this **Version="Version: 0.1.43711 +German+German Translation=-1182266509"** - make sure *German Translation* & *German* is selected at the Mods options.<br>
-For the **mod.io** version its **Version="Version: 0.1.43711 +German Translation Part 2+German Translation Part 1=**
+At the 5th line it says *Version* make it look like this **Version="Version: 0.1.43961 +German+German Translation=-1182266509"** - make sure *German Translation* & *German* is selected at the Mods options.<br>
+For the **mod.io** version its **Version="Version: 0.1.43961 +German Translation Part 2+German Translation Part 1=**
 
 Loading an existing savegame should work without the need to do the procedure again. Language in the options are also saved upon exting the game.
 
@@ -40,8 +40,8 @@ If you want, you can now support me with a donation at [Paypal](https://www.payp
 3. Nun erstelle ganz normal ein Spiel wie immer und starte es.
 
 **Um den vollständigen Patch (Schritt 2) auf einem gespeicherten Spiel, welches auf englisch angefangen wurde zu aktivieren**, suche dein save in \Dokumente\My Games\Old World\Save\.. und bearbeite die Datei mit einem Editor.
-Auf der 5 Zeile steht *Version* - bearbeite die Zeile das sie so aussieht, **Version="Version: 0.1.43711 +German+German Translation=-1182266509"** - gehe sicher das *German Translation* und *German* bei Modifikationen eingestellt ist.<br>
-Für die **mod.io** Version ist das **Version="Version: 0.1.43711 +German Translation Part 2+German Translation Part 1=**
+Auf der 5 Zeile steht *Version* - bearbeite die Zeile das sie so aussieht, **Version="Version: 0.1.43961 +German+German Translation=-1182266509"** - gehe sicher das *German Translation* und *German* bei Modifikationen eingestellt ist.<br>
+Für die **mod.io** Version ist das **Version="Version: 0.1.43961 +German Translation Part 2+German Translation Part 1=**
 
 Einen vorhandenen Spielstand zu laden sollte ohne Probleme funktionieren, ohne dass man das ganze noch ein mal so einstellen muss. Die Sprache wird in den Optionen gesspeichert.
 
