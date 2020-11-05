@@ -69,16 +69,6 @@
 				<iValue>20</iValue>
 			</Pair>
 		</aiLawOpinion>
-		<abPrereqTheology>
-			<Pair>
-				<zIndex>THEOLOGY_MYTHOLOGY</zIndex>
-				<bValue>1</bValue>
-			</Pair>
-			<Pair>
-				<zIndex>THEOLOGY_VENERATION</zIndex>
-				<bValue>1</bValue>
-			</Pair>
-		</abPrereqTheology>
 	</Entry>
 	<Entry>
 		<zType>THEOLOGY_GNOSTICISM</zType>
@@ -94,16 +84,6 @@
 				<iValue>20</iValue>
 			</Pair>
 		</aiLawOpinion>
-		<abPrereqTheology>
-			<Pair>
-				<zIndex>THEOLOGY_VENERATION</zIndex>
-				<bValue>1</bValue>
-			</Pair>
-			<Pair>
-				<zIndex>THEOLOGY_LEGALISM</zIndex>
-				<bValue>1</bValue>
-			</Pair>
-		</abPrereqTheology>
 	</Entry>
 	<Entry>
 		<zType>THEOLOGY_REDEMPTION</zType>
@@ -119,12 +99,6 @@
 				<iValue>20</iValue>
 			</Pair>
 		</aiLawOpinion>
-		<abPrereqTheology>
-			<Pair>
-				<zIndex>THEOLOGY_REVELATION</zIndex>
-				<bValue>1</bValue>
-			</Pair>
-		</abPrereqTheology>
 	</Entry>
 	<Entry>
 		<zType>THEOLOGY_DUALISM</zType>
@@ -140,16 +114,6 @@
 				<iValue>20</iValue>
 			</Pair>
 		</aiLawOpinion>
-		<abPrereqTheology>
-			<Pair>
-				<zIndex>THEOLOGY_REVELATION</zIndex>
-				<bValue>1</bValue>
-			</Pair>
-			<Pair>
-				<zIndex>THEOLOGY_GNOSTICISM</zIndex>
-				<bValue>1</bValue>
-			</Pair>
-		</abPrereqTheology>
 	</Entry>
 	<Entry>
 		<zType>THEOLOGY_ENLIGHTENMENT</zType>
@@ -165,11 +129,5 @@
 				<iValue>20</iValue>
 			</Pair>
 		</aiLawOpinion>
-		<abPrereqTheology>
-			<Pair>
-				<zIndex>THEOLOGY_GNOSTICISM</zIndex>
-				<bValue>1</bValue>
-			</Pair>
-		</abPrereqTheology>
 	</Entry>
 </Root>

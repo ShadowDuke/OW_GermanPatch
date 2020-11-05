@@ -492,6 +492,10 @@
 		<Translation>Verbesserung(en)</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_CITY_LUXURIES</zType>
+		<Translation>Luxusgüter</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_CITY_PROJECTS</zType>
 		<Translation>Projekt(e)</Translation>
 	</Entry>
@@ -2060,6 +2064,14 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Klicken zum anschauen von...</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_LUXURY</zType>
+		<Translation><![CDATA[Can be Traded to a City to reduce link(YIELD_DISCONTENT).<br>Can be Traded to other Nations, Tribes, and Families to improve their Opinion.]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_MERCENARY</zType>
+		<Translation>Mercenary Units have no Family associated with them and have int(CONSUMPTION_MERCENARY_MODIFIER)% higher consumption costs.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_MAP_SIZE</zType>
 		<Translation><![CDATA[Breite: {0}<br>Höhe: {1}]]></Translation>
 	</Entry>
@@ -2229,15 +2241,15 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_URBAN</zType>
-		<Translation>Stadtteile (Felder) können nur Stadtteil Verbesserungen haben</Translation>
+		<Translation>Kann nur link(CONCEPT_URBAN) Verbesserungen haben</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_URBAN_SPREADS_BORDERS</zType>
 		<Translation>Wird Grenzen ausdehnen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_URBAN_RURAL_POPULATION</zType>
-		<Translation>Jeder Stadtteil (Feld) unterstüzt {0_value} {1_populationEffect}</Translation>
+		<zType>TEXT_HELPTEXT_LINK_HELP_URBAN_CITIZEN</zType>
+		<Translation>Jedes link(CONCEPT_URBAN) Feld ernährt {0_value} {1_citizen}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_URBAN_ATTACK_INTO</zType>
@@ -2262,10 +2274,6 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_VICTORY_TOTAL</zType>
 		<Translation>Total: {0}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_VICTORY_FROM_TILE</zType>
-		<Translation>{0}: von {1_tile}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_VICTORY_FROM_CULTURE_CITIES</zType>
@@ -2489,10 +2497,6 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Angrenzend zu {0_height}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_INVALID_TERRAIN</zType>
-		<Translation>Kann nicht auf {0_terrain} gebaut werden</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_TEAM</zType>
 		<Translation>Kann nicht ausserhalb eigenem Gebiet gebaut werden</Translation>
 	</Entry>
@@ -2601,6 +2605,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_FROM_ADJACENT</zType>
 		<Translation>{0} von angrenzend {1}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_YIELD_FROM_ADJACENT_WONDER</zType>
+		<Translation>{0} von angrenzend(en) Wunder(n)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_FROM_ADJACENT_RESOURCE</zType>
@@ -3305,8 +3313,8 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>{0_value} für Angrenzende {LIST,2}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_FROM_ADJACENT_IMPROVEMENT_MODIFIER</zType>
-		<Translation>{0_value} von angrenzend {LIST,2}</Translation>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_PER_ADJACENT_IMPROVEMENT_MODIFIER</zType>
+		<Translation>{0_value} pro angrenzender {LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_HEALS_UNIT</zType>
@@ -3353,8 +3361,20 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>{YIELD-LIST}/Jahr</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_ADJACENT_RESOURCES</zType>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_ADJACENT_IMPROVEMENTCLASS</zType>
+		<Translation>{LIST}/Jahr pro angrenzenem {0_improvementClass}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_ADJACENT_WONDER</zType>
+		<Translation>{LIST}/Jahr pro angrenzendem Wunder</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_ADJACENT_RESOURCE</zType>
 		<Translation>{LIST}/Jahr pro angrenzender Ressource</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_TRADE_NETWORK</zType>
+		<Translation>{LIST} wenn auf link(CONCEPT_TRADE_NETWORK)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_BONUS_ALL_CITIES</zType>
@@ -3602,6 +3622,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_BUILD_ALL_RELIGIONS</zType>
 		<Translation>Kann Jünger von nicht-staatlichen Religionen ausbilden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_PAGAN_STATE_RELIGION</zType>
+		<Translation>Kann heidnische Staatsreligionen annehmen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_LEGITIMACY_ORDERS</zType>
@@ -3919,6 +3943,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<zType>TEXT_HELPTEXT_SHOW_CHOOSE_RESEARCH_POPUP_TURNS_LEFT</zType>
 		<Translation><![CDATA[{0_turnsLeft} <singular_0>Jahr<plural>Jahre<end>]]></Translation>
 	</Entry>
+    <Entry>
+        <zType>TEXT_HELPTEXT_RESEARCH_TURNS_LEFT_SHORT</zType>
+        <Translation>{0_turnsLeft}J</Translation>
+    </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_SHOW_CHOOSE_RESEARCH_POPUP_TECH_WITH_OTHER_TECHS</zType>
 		<Translation>{0_tech} (mit {1_techList})</Translation>
@@ -6038,6 +6066,14 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Familien: {LIST}</Translation>
 	</Entry>
 	<!--Opinon Help-->
+	<Entry>
+		<zType>TEXT_HELPTEXT_OPINION_OUR_ALLY</zType>
+		<Translation>{0_opinion}: Bei einem link(CONCEPT_ALLIANCE_PLAYER)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_OPINION_NOT_OUR_ALLY</zType>
+		<Translation>{0_opinion}: Bei einem link(CONCEPT_ALLIANCE_PLAYER) mit {1_team}</Translation>
+	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_LEADER</zType>
 		<Translation>{0_opinion}: Oberhaupt ist {1_ethnicity,1}</Translation>

@@ -354,4 +354,14 @@
 		<zText>Laid down arms against the righteous</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_ALLOWED_PILGRIMS_WAR</zType>
+		<zText>Allowed pilgrims into our holy city despite a war</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_TOOK_PILGRIMS_HOSTAGE</zType>
+		<zText>Took pilgrims approaching our holy city hostage</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
 </Root>

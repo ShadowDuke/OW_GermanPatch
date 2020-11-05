@@ -9,6 +9,10 @@
         <Translation>Bestätigen</Translation>
     </Entry>
     <Entry>
+        <zType>TEXT_GENERIC_YES</zType>
+        <Translation>Ja</Translation>
+    </Entry>
+	<Entry>
         <zType>TEXT_GENERIC_CANCEL</zType>
         <Translation>Abbrechen</Translation>
 	</Entry>
@@ -221,6 +225,10 @@
 		<zType>TEXT_UI_CITY_SELECTION_PROJECTS_TAB_LABEL</zType>
 		<Translation>Projekte</Translation>
 	</Entry>
+    <Entry>
+        <zType>TEXT_UI_CITY_SELECTION_CITIZENS_TAB_LABEL</zType>
+        <Translation>Bürger  {0}</Translation>
+    </Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTER_SELECTION_FAMILY</zType>
 		<Translation>Familie: {0}</Translation>
@@ -522,8 +530,12 @@
 		<Translation>[{0} zu Ende]</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_EVENT_STORY_GOAL_FINISHED</zType>
-		<Translation>[Ziel erreicht: {0}]</Translation>
+		<zType>TEXT_UI_EVENT_STORY_QUEST_FINISHED</zType>
+		<Translation>[Quest beendet: {0}]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_MISSION_FINISHED</zType>
+		<Translation>[Mission beendet: {0}]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_KILLED_UNIT</zType>
@@ -572,12 +584,15 @@
     <Entry>
         <zType>TEXT_UI_SURRENDER_DIALOG</zType>
         <Translation>Kaputilation bestätigen?</Translation>
+	</Entry>
+    <Entry>
+        <zType>TEXT_UI_EXIT_DIALOG</zType>
+        <Translation>Bist du sicher das du beenden möchtest? Jeder ungespeicherte Vorgang wird verloren.</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_UI_SURRENDER_CONFIRM</zType>
         <Translation>Ja</Translation>
     </Entry>
-    <!--menu-screens.xml-->
     <Entry>
         <zType>TEXT_MENU_SCREEN_SP_BUTTON</zType>
         <Translation>Einzelspieler</Translation>
@@ -1315,6 +1330,10 @@
         <zType>TEXT_TOOL_TIPS_SHOWTECHTREE</zType>
         <Translation>Zeige Technologie Baum [Drücke F6]</Translation>
     </Entry>
+    <Entry>
+        <zType>TEXT_TOOL_TIPS_DECKREDRAW</zType>
+        <Translation>STRG+CLICK um neu zu ziehen (Benötigt link(TRAIT_SCHOLAR_ARCHETYPE) Oberhaupt)</Translation>
+    </Entry>
     <!--top-bar.xml-->
     <Entry>
         <zType>TEXT_TOP_BAR_BUY</zType>
@@ -1667,6 +1686,10 @@
 		<Translation>Spiel pausieren</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_MP_SETUP_UNLOAD_GAME</zType>
+		<Translation>Spiel löschen</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_MP_SETUP_LOAD_GAME</zType>
 		<Translation>Spiel Laden</Translation>
 	</Entry>
@@ -1811,6 +1834,14 @@
 	<Entry>
 		<zType>TEXT_UI_MODS_MOD_DESCRIPTION_LABEL</zType>
 		<Translation>Beschreibung:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_CHANGELOG_LABEL</zType>
+		<Translation>Changelog:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_CHANGELOG_LABEL_TOOLTIP</zType>
+		<Translation>This text will appear on the mod.io website as well as on the discord bot's mod update notifications</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_MOD_SINGLEPLAYER_TOGGLE_LABEL</zType>

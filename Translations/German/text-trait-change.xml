@@ -471,6 +471,10 @@
 		<Translation>Adoptiert</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_PREGNANT</zType>
+		<Translation>Schwanger</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_ABDICATED</zType>
 		<Translation>Entsagt</Translation>
 	</Entry>
@@ -605,5 +609,9 @@
 	<Entry>
 		<zType>TEXT_TRAIT_DESERTER</zType>
 		<Translation>Deserter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_SAVIOR_OF_THE_THRONE</zType>
+		<Translation>Retter des Thrones</Translation>
 	</Entry>
 </Root>

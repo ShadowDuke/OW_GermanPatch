@@ -147,10 +147,6 @@
 		<Translation>Schrein der Unterwelt</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_IMPROVEMENT_SHRINE_HEALING</zType>
-		<Translation>Schrein der Heilung</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EFFECTCITY_IMPROVEMENT_SHRINE_HUNTING</zType>
 		<Translation>Schrein des Jagens</Translation>
 	</Entry>
@@ -261,10 +257,6 @@
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LAW_HOLY_WAR</zType>
 		<Translation>Heiliger Krieg</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_DIVINE_RULE</zType>
-		<Translation>Göttliche Herrschaft</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LAW_SECULARISM</zType>
@@ -540,23 +532,27 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_JUDGE_ARCHETYPE_ALL</zType>
-		<Translation>Wortführer der Redner</Translation>
+		<Translation>Anführer der Redner</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_ORATOR_ARCHETYPE_ALL</zType>
-		<Translation>Wortführer der Richter</Translation>
+		<Translation>Anführer der Richter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_BUILDER_ARCHETYPE_ALL</zType>
-		<Translation>Wortführer der Baumeister</Translation>
+		<Translation>Anführer der Baumeister</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_COMMANDER_ARCHETYPE_ALL</zType>
-		<Translation>Wortführer der Befehlshaber</Translation>
+		<Translation>Anführer der Befehlshaber</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_ZEALOT_ARCHETYPE_ALL</zType>
+		<English>Anführer der Fanatiker</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_ZEALOT_ARCHETYPE_STATE</zType>
-		<Translation>Wortführer der Fanatiker</Translation>
+		<Translation>Anführer der Fanatiker</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_AFFABLE_ALL</zType>

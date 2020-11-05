@@ -344,8 +344,6 @@
 		<zType>TEXT_SPECIALIST_OFFICER_3</zType>
 		<Translation>Ältesten Offizier~ein Ältesten Offizier~Ältesten Offizieren</Translation>
 	</Entry>
-	<!--InfoOpinionBarbarian-->
-	<!--Assets/GameAssets/Resources/Infos/opinionBarbarian.xml-->
 	<Entry>
 		<zType>TEXT_OPINIONBARBARIAN_FURIOUS</zType>
 		<Translation>Wütend</Translation>
@@ -993,8 +991,8 @@
 		<Translation>Kontrolliere Die Hagia Sophia</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_GRAND_BAZAAR</zType>
-		<Translation>Kontrolliere Der Große Basar</Translation>
+		<zType>TEXT_GOAL_VIA_RECTA_SOUK</zType>
+		<Translation>Kontrolliere die Altstadt von Damaskus</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_FIVE_DEVELOPING</zType>
@@ -1177,12 +1175,12 @@
 		<Translation>Nehme acht fremde Städte ein</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_FOUND_RELIGION</zType>
-		<Translation>Gründe Religion</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GOAL_STATE_RELIGION</zType>
 		<Translation>Führe eine Staatsreligion ein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUND_RELIGION</zType>
+		<Translation>Gründe Religion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_ESTABLISH_THEOLOGY</zType>

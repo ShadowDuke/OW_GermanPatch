@@ -13,6 +13,14 @@
 		<bPeace/>
 	</Entry>
 	<Entry>
+		<zType>DIPLOMACY_TEAM</zType>
+		<zName>Team</zName>
+		<zIconName>DIPLOMACY_TEAM</zIconName>
+		<zColor>COLOR_DIPLOMACY_TEAM</zColor>
+		<zInactiveColor>COLOR_DIPLOMACY_INACTIVE</zInactiveColor>
+		<bPeace>1</bPeace>
+	</Entry>
+	<Entry>
 		<zType>DIPLOMACY_PEACE</zType>
 		<zName>Frieden</zName>
 		<zIconName>DIPLOMACY_PEACE</zIconName>

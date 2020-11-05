@@ -64,6 +64,11 @@
 		<zName>Verstecke Hofrat</zName>
 		<zDesc>Verberge die Hofrat Tafel im interface.</zDesc>
 	</Entry>
+    <Entry>
+        <zType>PLAYEROPTION_MINI_TECH_CARDS</zType>
+        <zName>Benutze kleinere Tech Karten</zName>
+        <zDesc>Es wird immer kleine Tech Karten, anstatt des Forschung wählen popup angezeigt</zDesc>
+    </Entry>
 	<Entry>
 		<zType>PLAYEROPTION_DEBUG_HELP</zType>
 		<zName>Debug Hilfe</zName>

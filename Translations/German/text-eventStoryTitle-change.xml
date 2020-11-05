@@ -978,10 +978,6 @@
 		<Translation>link(DIPLOMACY_WAR) Demand</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_DECLARE_WAR_DEMAND_BARBARIAN_TITLE</zType>
-		<Translation>link(DIPLOMACY_WAR) Demand</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_TITLE</zType>
 		<Translation>Grievances</Translation>
 	</Entry>
@@ -4674,8 +4670,8 @@
 		<Translation>The Hagia Sophia</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_WONDER_GRAND_BAZAAR_TITLE</zType>
-		<Translation>Der Große Basar</Translation>
+		<zType>TEXT_EVENTSTORY_WONDER_VIA_RECTA_SOUK_TITLE</zType>
+		<Translation>Die Altstadt von Damaskus</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_COLOSSUS_TITLE</zType>
@@ -6001,6 +5997,42 @@
 		<zType>TEXT_EVENTSTORY_INFLUENCE_LOCAL_AUTHORITY_TITLE</zType>
 		<Translation>Local Authority</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SWORD_OF_THE_FALLEN_TITLE</zType>
+		<Translation>Sword of the Fallen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TINY_HANDS_TITLE</zType>
+		<Translation>Tiny Hands</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COMPLICATIONS_TITLE</zType>
+		<Translation>Complications</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_IN_THE_WATER_TITLE</zType>
+		<Translation>In the Water</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MIGHT_OF_NATIONS_TITLE</zType>
+		<Translation>Might of Nations</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TENTACLES_OF_CORRUPTION_TITLE</zType>
+		<Translation>Tentacles of Corruption</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_FALSE_OUTLOOK_TITLE</zType>
+		<Translation>False Outlook</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_FEAR_OF_THE_OTHER_TITLE</zType>
+		<Translation>Fear of the Other</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SECRET_RITUALS_TITLE</zType>
+		<Translation>Secret Rituals</Translation>
+	</Entry>
 	<Entry beginGroup="Tutorial">
 		<zType>TEXT_EVENTSTORY_VICTORY_POINTS_TITLE</zType>
 		<Translation>PUNKTE SIEG!</Translation>
@@ -6612,5 +6644,53 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BATTLE_IN_THE_SKIES_TITLE</zType>
 		<Translation>Battle in the Skies</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_A_GRAND_SPEECH_TITLE</zType>
+		<Translation>A Grand Speech</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SPECIAL_GUEST_TITLE</zType>
+		<Translation>Special Guest</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SAVED_IN_THE_LAST_HOUR_TITLE</zType>
+		<Translation>Saved in the Last Hour</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_KEEPING_UP_APPEARANCES_TITLE</zType>
+		<Translation>Keeping Up Appearances</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_ONE_STORY_TOO_FAR_TITLE</zType>
+		<Translation>One Story Too Far</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELIGIOUS_PILGRIMS_TITLE</zType>
+		<Translation>{RELIGION-1,1} Pilgrims</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELIGIOUS_PILGRIMS_WAR_BRAWLS_TITLE</zType>
+		<Translation>Brawls In {CITY-0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELIGIOUS_PILGRIMS_WAR_HAPPY_TITLE</zType>
+		<Translation>Pilgrimage Concludes</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RELIGIOUS_PILGRIMS_WAR_HOSTAGES_FAIL_TITLE</zType>
+		<Translation>A Failed Gamble</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TOUGH_NEGOTIATION_TITLE</zType>
+		<Translation>Tough Negotiation</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_HELP_FOR_THE_RIGHTEOUS_TITLE</zType>
+		<Translation>Help for the Righteous</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_CAPTURED_SUPPLIES_TITLE</zType>
+		<Translation>Captured Supplies</Translation>
 	</Entry>
 </Root>

@@ -407,6 +407,10 @@
 		<bBarbAlliance>1</bBarbAlliance>
 	</Entry>
 	<Entry>
+		<zType>BONUS_BARBARIAN_ALLIANCE_END</zType>
+		<bBarbAllianceEnd>1</bBarbAllianceEnd>
+	</Entry>
+	<Entry>
 		<zType>BONUS_BARBARIAN_INVASION</zType>
 		<bBarbInvade>1</bBarbInvade>
 	</Entry>
@@ -455,6 +459,20 @@
 	<Entry>
 		<zType>BONUS_PLAYER_PEACE</zType>
 		<DiplomacyPlayerFrom>DIPLOMACY_PEACE</DiplomacyPlayerFrom>
+		<aeBonuses>
+			<zValue>BONUS_PLAYER_OFFER</zValue>
+		</aeBonuses>
+	</Entry>
+	<Entry>
+		<zType>BONUS_PLAYER_ALLIANCE</zType>
+		<bTeamAlliance>1</bTeamAlliance>
+		<aeBonuses>
+			<zValue>BONUS_PLAYER_OFFER</zValue>
+		</aeBonuses>
+	</Entry>
+	<Entry>
+		<zType>BONUS_PLAYER_ALLIANCE_END</zType>
+		<bTeamAllianceEnd>1</bTeamAllianceEnd>
 		<aeBonuses>
 			<zValue>BONUS_PLAYER_OFFER</zValue>
 		</aeBonuses>
@@ -975,12 +993,6 @@
 				<iValue>500</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
-		<aiGlobalYieldsPer>
-			<Pair>
-				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>100</iValue>
-			</Pair>
-		</aiGlobalYieldsPer>
 		<aeAddTraits>
 			<zValue>TRAIT_IMPRISONED</zValue>
 		</aeAddTraits>
@@ -996,12 +1008,6 @@
 				<iValue>500</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
-		<aiGlobalYieldsPer>
-			<Pair>
-				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>100</iValue>
-			</Pair>
-		</aiGlobalYieldsPer>
 		<aeAddTraits>
 			<zValue>TRAIT_IMPRISONED</zValue>
 		</aeAddTraits>
@@ -1016,12 +1022,6 @@
 				<iValue>500</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
-		<aiGlobalYieldsPer>
-			<Pair>
-				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>100</iValue>
-			</Pair>
-		</aiGlobalYieldsPer>
 		<aeAddTraits>
 			<zValue>TRAIT_SLIGHTED</zValue>
 			<zValue>TRAIT_FUGITIVE</zValue>

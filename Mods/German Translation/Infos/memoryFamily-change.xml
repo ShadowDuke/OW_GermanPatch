@@ -1515,4 +1515,9 @@
 		<zText>Gave us delicious drinks</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_NONSENSE_SPEECH</zType>
+		<zText>Delivered an embarassingly nonsensical speech</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
 </Root>

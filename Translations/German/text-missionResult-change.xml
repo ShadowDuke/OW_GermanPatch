@@ -62,6 +62,14 @@
 		<Translation>Deine Attentäter haben versagt {CHARACTER-TARGET} zu töten. Schlimmer jedoch, dein ist unehrenhafte Verschwörung aufgeflogen.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_TREACHERY_SUCCESS_DESCRIPTION</zType>
+		<Translation>{CHARACTER-SUBJECT} hat erfolgreich die Verteidigungen der Stadt geschwächt.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_TREACHERY_FAILURE_DESCRIPTION</zType>
+		<Translation>{CHARACTER-SUBJECT} Bemühungen die Verteidigungen der Stadt zu schwächen ist fehlgeschlagen.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_INSURRECTION_SUCCESS_DESCRIPTION</zType>
 		<Translation>{CHARACTER-SUBJECT} has successfully started a local uprising.</Translation>
 	</Entry>
@@ -424,7 +432,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_IMPRISON_ESCAPE</zType>
-		<Translation>Ziel flieht</Translation>
+		<Translation>Ziel geflohen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_IMPRISON_EVENT</zType>
+		<Translation>Inhaftierungsereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_RELEASE_GRATEFUL</zType>

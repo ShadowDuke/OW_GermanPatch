@@ -74,12 +74,20 @@
 		<Translation>{0_religion} gegründet in {1_city}!</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_RELIGION_HEAD</zType>
+		<Translation>{0_character} ist nun Oberhaupt des {1_religion}!</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_RELIGION_FAMILY</zType>
 		<Translation>Die {0_family} Familie ist zu {1_religion} konvertiert!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_RELIGION_BARBARIAN</zType>
 		<Translation>Die {0_tribe} sind zum {1_religion} konvertiert!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_FAMILY_HEAD</zType>
+		<Translation>{0_character} is nun das Oberhaupt der {1_family} Familie!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_IMPROVEMENT_STARTED</zType>
@@ -642,6 +650,10 @@
 	<Entry>
 		<zType>TEXT_GAME_UNIT_SEEN</zType>
 		<Translation>Feindliche {0_unit} gesehen!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_UNIT_MOVE_CANCELLED</zType>
+		<Translation>{0_unit} hat Auto-Bewegung abgebrochen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_LAUNCH_OFFENSIVE_LOG_DATA</zType>

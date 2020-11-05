@@ -2,7 +2,7 @@
 <!-- edited with XMLSpy v2014 rel. 2 (x64) (http://www.altova.com) by Soren Johnson (private) -->
 <Root>
 	<!--Assets/GameAssets/Resources/Infos/improvement.xml-->
-<!--NOTE: improvement names that are mass nouns or plural do not need multiple types in Translation-->
+	<!--NOTE: improvement names that are mass nouns or plural do not need multiple types in Translation-->
 	<Entry>
 		<zType/>
 		<Translation/>
@@ -432,8 +432,8 @@
 		<Translation>Die Hagia Sophia</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_IMPROVEMENT_GRAND_BAZAAR</zType>
-		<Translation>Der Große Basar</Translation>
+		<zType>TEXT_IMPROVEMENT_VIA_RECTA_SOUK</zType>
+		<Translation>Die Altstadt von Damaskus</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_LAURION_MINE</zType>
@@ -446,5 +446,9 @@
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_FOREST_FIRE_MONUMENT</zType>
 		<Translation>Nationaldenkmal~ein Nationaldenkmal~Nationaldenkmäler</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_IMPROVEMENT_GODS_CONSORT_SHRINE</zType>
+		<Translation>Götter gatten Schrein~ein Götter gatten Schrein~Göttergatten Schreine</Translation>
 	</Entry>
 </Root>
