@@ -224,11 +224,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_SIZE</zType>
-		<Translation><![CDATA[<lt>Größe={1_size}%<gt>{0_value}</size>]]></Translation>
+		<Translation><![CDATA[<lt>size={0_size}%<gt>{1_value}</size>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_SIZE_AND_COLOR</zType>
-		<Translation><![CDATA[<lt>Größe={0_size}%<gt><lt>Farbe={1_hexcode}<gt>{2_value}</color></size>]]></Translation>
+		<Translation><![CDATA[<lt>size={0_size}%<gt><lt>color={1_hexcode}<gt>{2_value}</color></size>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_INLINE_ICON</zType>
