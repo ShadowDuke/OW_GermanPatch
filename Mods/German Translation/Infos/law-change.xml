@@ -161,7 +161,7 @@
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_MONOTHEISM_POLYTHEISM</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_MONOTHEISM</EffectPlayer>
-		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_LOW_CIVICS</EffectPlayerUpkeep>
+		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_LOW_MONEY</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>
 		<zType>LAW_POLYTHEISM</zType>
@@ -171,27 +171,27 @@
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_MONOTHEISM_POLYTHEISM</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_POLYTHEISM</EffectPlayer>
-		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_LOW_CIVICS</EffectPlayerUpkeep>
+		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_LOW_MONEY</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>
-		<zType>LAW_PROFESSIONAL_ARMY</zType>
-		<zName>Berufsarmee</zName>
-		<zIconName>LAW_PROFESSIONAL_ARMY</zIconName>
+		<zType>LAW_DIVINE_RULE</zType>
+		<zName>Göttliche Herrschaft</zName>
+		<zIconName>LAW_DIVINE_RULE</zIconName>
 		<iCostBase>400</iCostBase>
 		<iCostPerChange>200</iCostPerChange>
-		<LawClass>LAWCLASS_PROFESSIONAL_ARMY_VOLUNTEERS</LawClass>
-		<EffectPlayer>EFFECTPLAYER_LAW_PROFESSIONAL_ARMY</EffectPlayer>
+		<LawClass>LAWCLASS_DIVINE_RULE_LEGAL_CODE</LawClass>
+		<EffectPlayer>EFFECTPLAYER_LAW_DIVINE_RULE</EffectPlayer>
 		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_MEDIUM_TRAINING</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>
-		<zType>LAW_VOLUNTEERS</zType>
-		<zName>Freiwillige</zName>
-		<zIconName>LAW_VOLUNTEERS</zIconName>
+		<zType>LAW_LEGAL_CODE</zType>
+		<zName>Gesetzbuch</zName>
+		<zIconName>LAW_LEGAL_CODE</zIconName>
 		<iCostBase>400</iCostBase>
 		<iCostPerChange>200</iCostPerChange>
-		<LawClass>LAWCLASS_PROFESSIONAL_ARMY_VOLUNTEERS</LawClass>
-		<EffectPlayer>EFFECTPLAYER_LAW_VOLUNTEERS</EffectPlayer>
-		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_MEDIUM_TRAINING</EffectPlayerUpkeep>
+		<LawClass>LAWCLASS_DIVINE_RULE_LEGAL_CODE</LawClass>
+		<EffectPlayer>EFFECTPLAYER_LAW_LEGAL_CODE</EffectPlayer>
+		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_MEDIUM_CIVICS</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>
 		<zType>LAW_TOLERANCE</zType>
@@ -214,24 +214,24 @@
 		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_MEDIUM_SCIENCE</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>
-		<zType>LAW_GUILDS</zType>
-		<zName>Gilden</zName>
-		<zIconName>LAW_GUILDS</zIconName>
+		<zType>LAW_PROFESSIONAL_ARMY</zType>
+		<zName>Berufsarmee</zName>
+		<zIconName>LAW_PROFESSIONAL_ARMY</zIconName>
 		<iCostBase>400</iCostBase>
 		<iCostPerChange>200</iCostPerChange>
-		<LawClass>LAWCLASS_GUILDS_ELITES</LawClass>
-		<EffectPlayer>EFFECTPLAYER_LAW_GUILDS</EffectPlayer>
-		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_MEDIUM_CIVICS</EffectPlayerUpkeep>
-	</Entry>
+		<LawClass>LAWCLASS_PROFESSIONAL_ARMY_VOLUNTEERS</LawClass>
+		<EffectPlayer>EFFECTPLAYER_LAW_PROFESSIONAL_ARMY</EffectPlayer>
+		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_MEDIUM_MONEY</EffectPlayerUpkeep>
+	</Entry>	
 	<Entry>
-		<zType>LAW_ELITES</zType>
-		<zName>Eliten</zName>
-		<zIconName>LAW_ELITES</zIconName>
+		<zType>LAW_VOLUNTEERS</zType>
+		<zName>Freiwillige</zName>
+		<zIconName>LAW_VOLUNTEERS</zIconName>
 		<iCostBase>400</iCostBase>
 		<iCostPerChange>200</iCostPerChange>
-		<LawClass>LAWCLASS_GUILDS_ELITES</LawClass>
-		<EffectPlayer>EFFECTPLAYER_LAW_ELITES</EffectPlayer>
-		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_MEDIUM_CIVICS</EffectPlayerUpkeep>
+		<LawClass>LAWCLASS_PROFESSIONAL_ARMY_VOLUNTEERS</LawClass>
+		<EffectPlayer>EFFECTPLAYER_LAW_VOLUNTEERS</EffectPlayer>
+		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_MEDIUM_TRAINING</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>
 		<zType>LAW_PHILOSOPHY</zType>
@@ -261,7 +261,7 @@
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_ICONOGRAPHY_CALLIGRAPHY</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_ICONOGRAPHY</EffectPlayer>
-		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_HIGH_CIVICS</EffectPlayerUpkeep>
+		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_HIGH_MONEY</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>
 		<zType>LAW_CALLIGRAPHY</zType>
@@ -294,23 +294,23 @@
 		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_HIGH_TRAINING</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>
-		<zType>LAW_DIVINE_RULE</zType>
-		<zName>Göttliche Herrschaft</zName>
-		<zIconName>LAW_DIVINE_RULE</zIconName>
+		<zType>LAW_GUILDS</zType>
+		<zName>Gilden</zName>
+		<zIconName>LAW_GUILDS</zIconName>
 		<iCostBase>400</iCostBase>
 		<iCostPerChange>200</iCostPerChange>
-		<LawClass>LAWCLASS_DIVINE_RULE_SECULARISM</LawClass>
-		<EffectPlayer>EFFECTPLAYER_LAW_DIVINE_RULE</EffectPlayer>
-		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_VERY_HIGH_CIVICS</EffectPlayerUpkeep>
+		<LawClass>LAWCLASS_GUILDS_ELITES</LawClass>
+		<EffectPlayer>EFFECTPLAYER_LAW_GUILDS</EffectPlayer>
+		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_VERY_HIGH_MONEY</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>
-		<zType>LAW_SECULARISM</zType>
-		<zName>Laizitätsprinzip</zName>
-		<zIconName>LAW_SECULARISM</zIconName>
+		<zType>LAW_ELITES</zType>
+		<zName>Eliten</zName>
+		<zIconName>LAW_ELITES</zIconName>
 		<iCostBase>400</iCostBase>
 		<iCostPerChange>200</iCostPerChange>
-		<LawClass>LAWCLASS_DIVINE_RULE_SECULARISM</LawClass>
-		<EffectPlayer>EFFECTPLAYER_LAW_SECULARISM</EffectPlayer>
+		<LawClass>LAWCLASS_GUILDS_ELITES</LawClass>
+		<EffectPlayer>EFFECTPLAYER_LAW_ELITES</EffectPlayer>
 		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_VERY_HIGH_TRAINING</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>
@@ -351,6 +351,6 @@
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_COIN_DEBASEMENT_MONETARY_REFORM</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_MONETARY_REFORM</EffectPlayer>
-		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_VERY_HIGH_CIVICS</EffectPlayerUpkeep>
+		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_VERY_HIGH_MONEY</EffectPlayerUpkeep>
 	</Entry>
 </Root>

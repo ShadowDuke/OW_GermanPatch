@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Leyla Johnson (Private) -->
 <Root>
 	<Entry>
 		<zType/>
@@ -51,7 +53,7 @@
 		<Translation>Agent</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_CONCEPT_ALLIANCE_BARB</zType>
+		<zType>TEXT_CONCEPT_ALLIANCE_TRIBE</zType>
 		<Translation>Barbaren Bündnis</Translation>
 	</Entry>
 	<Entry>
@@ -63,7 +65,7 @@
         <Translation>Anker</Translation>
     </Entry>
 	<Entry>
-		<zType>TEXT_CONCEPT_BARBARIAN_INVADE</zType>
+		<zType>TEXT_CONCEPT_TRIBE_INVADE</zType>
 		<Translation>Barbaren Einmarsch</Translation>
 	</Entry>
 	<Entry>
@@ -464,123 +466,123 @@
 	<!--InfoGoal-->
 	<Entry>
 		<zType>TEXT_GOAL_EPICS</zType>
-		<Translation>Erlasse Anforderungen</Translation>
+		<Translation>Erlasse link(LAW_EPICS)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_EXPLORATION</zType>
-		<Translation>Erlasse Erkundung</Translation>
+		<Translation>Erlasse link(LAW_EXPLORATION)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_SLAVERY</zType>
-		<Translation>Erlasse Sklaverei</Translation>
+		<Translation>Erlasse link(LAW_SLAVERY)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_FREEDOM</zType>
-		<Translation>Erlasse Freiheit</Translation>
+		<Translation>Erlasse link(LAW_FREEDOM)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_TYRANNY</zType>
-		<Translation>Erlasse Tyrannei</Translation>
+		<Translation>Erlasse link(LAW_TYRANNY)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_CONSTITUTION</zType>
-		<Translation>Erlasse Verfassung</Translation>
+		<Translation>Erlasse link(LAW_CONSTITUTION)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_CENTRALIZATION</zType>
-		<Translation>Erlasse Zentralisierung</Translation>
+		<Translation>Erlasse link(LAW_CENTRALIZATION)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_VASSALAGE</zType>
-		<Translation>Erlasse Vasallentum</Translation>
+		<Translation>Erlasse link(LAW_VASSALAGE</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_COLONIZATION</zType>
-		<Translation>Erlasse Kolonisierung</Translation>
+		<Translation>Erlasse link(LAW_COLONIZATION)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_SERFDOM</zType>
-		<Translation>Erlasse Leibeigenschaft</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_PROFESSIONAL_ARMY</zType>
-		<Translation>Erlasse Berufsarmee</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_VOLUNTEERS</zType>
-		<Translation>Erlasse Freiwillige</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_PHILOSOPHY</zType>
-		<Translation>Erlasse Philosophie</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_ENGINEERING</zType>
-		<Translation>Erlasse Konstruktionswesen</Translation>
+		<Translation>Erlasse link(LAW_SERFDOM)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_MONOTHEISM</zType>
-		<Translation>Erlasse Monotheismus</Translation>
+		<Translation>Erlasse link(LAW_MONOTHEISM)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_POLYTHEISM</zType>
-		<Translation>Erlasse Polytheismus</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_GUILDS</zType>
-		<Translation>Erlasse Gilden</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_ELITES</zType>
-		<Translation>Erlasse Eliten</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_TOLERANCE</zType>
-		<Translation>Erlasse Tolleranz</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_ORTHODOXY</zType>
-		<Translation>Erlasse Rechtgläubigkeit</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_ICONOGRAPHY</zType>
-		<Translation>Erlasse Bilddeutung</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_CALLIGRAPHY</zType>
-		<Translation>Erlasse Schönschrift</Translation>
+		<Translation>Erlasse link(LAW_POLYTHEISM)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_DIVINE_RULE</zType>
-		<Translation>Erlasse Göttliche Herrschaft</Translation>
+		<Translation>Erlasse link(LAW_DIVINE_RULE)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_SECULARISM</zType>
-		<Translation>Erlasse Laizitätsprinzip</Translation>
+		<zType>TEXT_GOAL_LEGAL_CODE</zType>
+		<Translation>Erlasse link(LAW_LEGAL_CODE)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TOLERANCE</zType>
+		<Translation>Erlasse link(LAW_TOLERANCE)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_ORTHODOXY</zType>
+		<Translation>Erlasse link(LAW_ORTHODOXY)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_PROFESSIONAL_ARMY</zType>
+		<Translation>Erlasse link(LAW_PROFESSIONAL_ARMY)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_VOLUNTEERS</zType>
+		<Translation>Erlasse link(LAW_VOLUNTEERS)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_PHILOSOPHY</zType>
+		<Translation>Erlasse link(LAW_PHILOSOPHY)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_ENGINEERING</zType>
+		<Translation>Erlasse link(LAW_ENGINEERING)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_ICONOGRAPHY</zType>
+		<Translation>Erlasse link(LAW_ICONOGRAPHY)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_CALLIGRAPHY</zType>
+		<Translation>Erlasse link(LAW_CALLIGRAPHY)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_PILGRIMAGE</zType>
-		<Translation>Erlasse Pilgerschaft</Translation>
+		<Translation>Erlasse link(LAW_PILGRIMAGE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_HOLY_WAR</zType>
-		<Translation>Erlasse Heiliger Krieg</Translation>
+		<Translation>Erlasse link(LAW_HOLY_WAR)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_GUILDS</zType>
+		<Translation>Erlasse link(LAW_GUILDS)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_ELITES</zType>
+		<Translation>Erlasse link(LAW_ELITES)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_ISOLATIONISM</zType>
-		<Translation>Erlasse Abschottung</Translation>
+		<Translation>Erlasse link(LAW_ISOLATIONISM)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_TRADE_LEAGUE</zType>
-		<Translation>Erlasse Handelsverband</Translation>
+		<Translation>Erlasse link(LAW_TRADE_LEAGUE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_COIN_DEBASEMENT</zType>
-		<Translation>Erlasse Münz Wertminderung</Translation>
+		<Translation>Erlasse link(LAW_COIN_DEBASEMENT)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_MONETARY_REFORM</zType>
-		<Translation>Erlasse Münzreform</Translation>
+		<Translation>Erlasse link(LAW_MONETARY_REFORM)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_FOUR_LAWS</zType>
@@ -672,23 +674,23 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_VANDALS_5</zType>
-		<Translation>Töte 5 link(BARBARIAN_VANDALS)</Translation>
+		<Translation>Töte 5 link(TRIBE_VANDALS)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_DANES_5</zType>
-		<Translation>Töte 5 link(BARBARIAN_DANES)</Translation>
+		<Translation>Töte 5 link(TRIBE_DANES)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_THRACIANS_5</zType>
-		<Translation>Töte 5 link(BARBARIAN_THRACIANS)</Translation>
+		<Translation>Töte 5 link(TRIBE_THRACIANS)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_SCYTHIANS_5</zType>
-		<Translation>Töte 5 link(BARBARIAN_SCYTHIANS)</Translation>
+		<Translation>Töte 5 link(TRIBE_SCYTHIANS)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_NUMIDIANS_5</zType>
-		<Translation>Kill 5 link(BARBARIAN_NUMIDIANS)</Translation>
+		<Translation>Kill 5 link(TRIBE_NUMIDIANS)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_FOOD_400</zType>
@@ -1143,8 +1145,8 @@
 		<Translation>Erziele Friende mit Barbaren</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_BARBARIAN_ALLIANCE</zType>
-		<Translation>Erziele Bündnis mit Barbaren</Translation>
+		<zType>TEXT_GOAL_TRIBE_ALLIANCE</zType>
+		<Translation>Erziele Bündnis mit einem Stamm</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_BARBARIAN_CONVERSION</zType>
@@ -1163,7 +1165,7 @@
 		<Translation>Nehme zwei Stadte erneut ein</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_FOUR_CAPTURE_CITIES</zType>
+		<zType>TEXT_GOAL_THREE_CAPTURE_CITIES</zType>
 		<Translation>Nehme vier fremde Städte ein</Translation>
 	</Entry>
 	<Entry>
@@ -1171,7 +1173,7 @@
 		<Translation>Nehme eine fremde Hauptstadt ein</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_EIGHT_CAPTURE_CITIES</zType>
+		<zType>TEXT_GOAL_SIX_CAPTURE_CITIES</zType>
 		<Translation>Nehme acht fremde Städte ein</Translation>
 	</Entry>
 	<Entry>
@@ -1376,19 +1378,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_FOUR_GENERALS</zType>
-		<Translation>Add Four Generals</Translation>
+		<Translation>Field Four Generals</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_THREE_GOVERNORS</zType>
-		<Translation>Add Three Governors</Translation>
+		<Translation>Maintain Three Governors</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_EIGHT_GENERALS</zType>
-		<Translation>Add Eight Generals</Translation>
+		<Translation>Field Eight Generals</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_SIX_GOVERNORS</zType>
-		<Translation>Add Six Governors</Translation>
+		<Translation>Maintain Six Governors</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_REVEAL_40</zType>

@@ -43,6 +43,46 @@
 		<Translation>Luxusgüter</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTCITY_LUXURY_LANDOWNERS_HONEY</zType>
+		<Translation>Landowner Honey</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_LUXURY_CHAMPIONS_WINE	</zType>
+		<Translation>Champion Wine</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_LUXURY_STATESMEN_PEARL</zType>
+		<Translation>Statesmen Pearls</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_LUXURY_PATRONS_GEM</zType>
+		<Translation>Patrons Gems</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_LUXURY_CLERICS_INCENSE</zType>
+		<Translation>Clerics Incense</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_LUXURY_SAGES_LAVENDER</zType>
+		<Translation>Sages Lavender</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_LUXURY_TRADERS_OLIVE</zType>
+		<Translation>Traders Olives</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_LUXURY_ARTISANS_DYE</zType>
+		<Translation>Artisans Dye</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_LUXURY_RIDERS_SALT</zType>
+		<Translation>Riders Salt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_LUXURY_HUNTERS_FUR</zType>
+		<Translation>Hunters Fur</Translation>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_EFFECTCITY_FAMILYCLASS_STATESMEN_SEAT_DECREE</zType>
 		<Translation>Erlass</Translation>
 	</Entry>
@@ -211,12 +251,8 @@
 		<Translation>Polytheismus</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_PROFESSIONAL_ARMY</zType>
-		<Translation>Berufsarmee</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_VOLUNTEERS</zType>
-		<Translation>Freiwillige</Translation>
+		<zType>TEXT_EFFECTCITY_LAW_LEGAL_CODE</zType>
+		<Translation>Gesetzbuch</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LAW_TOLERANCE</zType>
@@ -227,12 +263,12 @@
 		<Translation>Rechtgläubigkeit</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_GUILDS</zType>
-		<Translation>Gilden</Translation>
+		<zType>TEXT_EFFECTCITY_LAW_PROFESSIONAL_ARMY</zType>
+		<Translation>Berufsarmee</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_ELITES</zType>
-		<Translation>Eliten</Translation>
+		<zType>TEXT_EFFECTCITY_LAW_VOLUNTEERS</zType>
+		<Translation>Freiwillige</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LAW_PHILOSOPHY</zType>
@@ -258,9 +294,13 @@
 		<zType>TEXT_EFFECTCITY_LAW_HOLY_WAR</zType>
 		<Translation>Heiliger Krieg</Translation>
 	</Entry>
+		<Entry>
+		<zType>TEXT_EFFECTCITY_LAW_GUILDS</zType>
+		<Translation>Gilden</Translation>
+	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_SECULARISM</zType>
-		<Translation>Laizitätsprinzip</Translation>
+		<zType>TEXT_EFFECTCITY_LAW_ELITES</zType>
+		<Translation>Eliten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LAW_ISOLATIONISM</zType>
@@ -548,7 +588,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_ZEALOT_ARCHETYPE_ALL</zType>
-		<English>Anführer der Fanatiker</English>
+		<Translation>Anführer der Fanatiker</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_ZEALOT_ARCHETYPE_STATE</zType>

@@ -215,6 +215,10 @@
 		<Translation><![CDATA[<lt>color={1_hexcode}<gt>{0_value}</color>]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_TURN</zType>
+		<Translation>Zug</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_ERA_YEAR</zType>
 		<Translation><![CDATA[{0_year} <true_1>n. Chr.<false>BCE<end>]]></Translation>
 	</Entry>
@@ -476,11 +480,11 @@
 		<Translation>Ambitionen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_BARBARIAN_SITES</zType>
+		<zType>TEXT_HELPTEXT_LINK_TRIBE_SITES</zType>
 		<Translation>Plätze</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_BARBARIAN_UNITS</zType>
+		<zType>TEXT_HELPTEXT_LINK_TRIBE_UNITS</zType>
 		<Translation>Spezialeinheiten</Translation>
 	</Entry>
 	<Entry>
@@ -595,6 +599,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_NO</zType>
 		<Translation>[Benötigt kein {0}]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EVENT_HIGHER_VPS</zType>
+		<Translation>[Mehr SP]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_X</zType>
@@ -740,7 +748,7 @@
 		<Translation>Gegner Stufe: {0}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_MENU_BARBARIAN_LEVEL</zType>
+		<zType>TEXT_HELPTEXT_WIDGET_MENU_TRIBE_LEVEL</zType>
 		<Translation>Barbaren Stufe: {0}</Translation>
 	</Entry>
 	<Entry>
@@ -810,10 +818,6 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LOAD_CLOUD</zType>
 		<Translation>Lade das in der Cloud gespeicherte Spiel</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_CLOUD_SAVE_DELETE</zType>
-		<Translation>Rechts klicken zum löschen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_MAP_OVERVIEW</zType>
@@ -888,7 +892,7 @@
 		<Translation>Zeige kulturelle Verbesserungen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_TURN_STATE_WAITING_BARBARIANS_TURN</zType>
+		<zType>TEXT_HELPTEXT_WIDGET_TURN_STATE_WAITING_TRIBE_TURN</zType>
 		<Translation>Barbaren am Zug (Please wait...)</Translation>
 	</Entry>
 	<Entry>
@@ -1090,6 +1094,10 @@
 		<Translation>Bekomme {0_luxury} zurück von {1_link}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_TRADE_LUXURY_FAMILY</zType>
+		<Translation>Von {0_family}:</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TRADE_LUXURY_OPINION</zType>
 		<Translation>Meinung von einem Luxusartikel: {0_value}/Year</Translation>
 	</Entry>
@@ -1242,20 +1250,20 @@
 		<Translation>Gib {0_city} an die {1_family} Familie</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_OFFER_PEACE_BARBARIAN</zType>
+		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_OFFER_PEACE_TRIBE</zType>
 		<Translation>Erziele {0_peace} mit {0_barbarian} für {2_money}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_OFFER_PEACE_BARBARIAN_INSPIRE_TROOPS</zType>
+		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_OFFER_PEACE_TRIBE_INSPIRE_TROOPS</zType>
 		<Translation>Beflügel unsere Truppen: {0_yield}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_OFFER_TRUCE_BARBARIAN</zType>
+		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_OFFER_TRUCE_TRIBE</zType>
 		<Translation>Beende {0_barbarian} {1_diplomacy} für {2_money}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_OFFER_TRUCE_BARBARIAN_INSPIRE_TROOPS</zType>
-		<Translation>Beflügel unsere Truppen: {0_yield}</Translation>
+		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_OFFER_TRUCE_TRIBE_INSPIRE_TROOPS</zType>
+		<Translation>Beflügelt unsere Truppen: {0_yield}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_OFFER_PEACE_PLAYER</zType>
@@ -1311,11 +1319,13 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_FORTIFY</zType>
-		<Translation><![CDATA[Verschanze Einheit<br>{0_amount} Defensiver Bonus pro Jahr (up to {1_max}%)]]></Translation>
+		<Translation>Verschanze Einheit
+{0_amount} Defensiver Bonus pro {1_turnScale} (up to {2_max}%)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TESTUDO</zType>
-		<Translation><![CDATA[Schildkröten Formation<br>{0_amount} Bonus vs Fern Einheiten pro Jahr (up to {1_max}%)]]></Translation>
+		<Translation>Schildkröten Formation
+{0_amount} Bonus vs link(UNITTRAIT_RANGED) Einheiten pro {1_turnScale} (up to {2_max}%)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MARCH</zType>
@@ -1372,7 +1382,8 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_SLEEP</zType>
-		<Translation><![CDATA[Schlafe (bis Einheit sich bewegt, angreift oder sich heilt)<br>{0_value} HP jede Runde.]]></Translation>
+		<Translation>Schlafe (bis Einheit sich bewegt, angreift oder sich heilt)
+({0_value} HP jede {1_turnScale})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_SLEEP_HEALED</zType>
@@ -1415,7 +1426,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Kostet {0_money}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_BARBARIAN_FOUND_BONUS</zType>
+		<zType>TEXT_HELPTEXT_WIDGET_TRIBE_FOUND_BONUS</zType>
 		<Translation>Barbarenplatz: </Translation>
 	</Entry>
 	<Entry>
@@ -1443,7 +1454,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Muss auf einem {0,1_urbanLink} Feld sein</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_FOUND_CITY_CANNOT_FOUND_NEAR_BARBARIAN</zType>
+		<zType>TEXT_HELPTEXT_WIDGET_FOUND_CITY_CANNOT_FOUND_NEAR_TRIBE</zType>
 		<Translation>Darf nicht in der Nähe von {0_barbarian} gegründet werden</Translation>
 	</Entry>
 	<Entry>
@@ -1751,12 +1762,12 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Lösche die Wiederholungs Daten</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_TURN_REPLAY_LAST_YEAR</zType>
-		<Translation><![CDATA[Wiederhole die Aktionen vom letzten Jahr]]></Translation>
+		<zType>TEXT_HELPTEXT_WIDGET_TURN_REPLAY_LAST_TURN</zType>
+		<Translation><![CDATA[Wiederhole die Aktionen vom letzten Zug]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_TURN_REPLAY_LAST_X_YEARS</zType>
-		<Translation><![CDATA[Wiederhole die Aktionen von den letzten {0_number} Runden]]></Translation>
+		<zType>TEXT_HELPTEXT_WIDGET_TURN_REPLAY_LAST_X_TURNS</zType>
+		<Translation><![CDATA[Wiederhole die Aktionen von den letzten {0_number} Zügen]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_REPLAY_CANCEL</zType>
@@ -1812,7 +1823,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Deckt derzeitige Stadt auf</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_HELP_ALLIANCE_BARB</zType>
+		<zType>TEXT_HELPTEXT_HELP_ALLIANCE_TRIBE</zType>
 		<Translation><![CDATA[Can move and attack with the Units of this Tribe.<br>Can found cities near their settlements.<br>Will share your Diplomatic state with other Tribes.<br>Can only have an Alliance with one Tribe.<br>Alliance will last until the end of the current Leader's reign.]]></Translation>
 	</Entry>
 	<Entry>
@@ -1828,19 +1839,19 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Kann Land Felder angrenzend an dein Territorium kaufen.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_BARBARIAN_IMPROVEMENT</zType>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TRIBE_IMPROVEMENT</zType>
 		<Translation>Wird zu {0_improvement} verbessert in {1_numTurns}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_BARBARIAN_IMPROVEMENT_NO_UPGRADE</zType>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TRIBE_IMPROVEMENT_NO_UPGRADE</zType>
 		<Translation>Nichts zum verbessern</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_BARBARIAN_UNITS</zType>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TRIBE_UNITS</zType>
 		<Translation>Spezialeinheiten:</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_BARBARIAN_INVADE</zType>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TRIBE_INVADE</zType>
 		<Translation>Dieser Stamm wird Einheiten schicken um deine Städte zu plündern.</Translation>
 	</Entry>
 	<Entry>
@@ -1901,8 +1912,12 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>{0_yield}: Stadthalter {1} ({2})</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_PROJECT_YIELD_MODIFIER</zType>
+		<Translation>{0_yield}: {1_project} (Derzeit am Bauen)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CLEAR</zType>
-		<Translation>Löschen</Translation>
+		<Translation>link(CONCEPT_CLEAR)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CLEAR_DEFENDING</zType>
@@ -1910,7 +1925,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CULTURE_EVENT</zType>
-		<Translation>Kultur Ereignisse treten wennimmer die Kultur Anzeige der Stadt die nächste Schwelle erreicht hat auf.</Translation>
+		<Translation>link(YIELD_CULTURE) Ereignisse treten wennimmer die link(YIELD_CULTURE) Anzeige der Stadt die nächste Schwelle erreicht hat auf.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CRITICAL_HIT</zType>
@@ -1918,11 +1933,11 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DISTANCE_MODIFIER</zType>
-		<Translation>int(DISTANCE_MODIFIER)% pro Feld für Fernkampf Einheiten</Translation>
+		<Translation>int(DISTANCE_MODIFIER)% pro Feld für link(UNITTRAIT_RANGED) Einheiten</Translation>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_HELPTEXT_LINK_HELP_CULTURE_LEVEL</zType>
-		<Translation>Kultur Stufen:</Translation>
+		<Translation>link(YIELD_CULTURE) Stufen:</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DEFENSE</zType>
@@ -1942,7 +1957,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<!-- The whitespace here is important. Any added newlines or tabs will show up in the tooltip -->
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_DIPLOMACY_PEACE_BARBARIAN</zType>
+		<zType>TEXT_HELPTEXT_LINK_HELP_DIPLOMACY_PEACE_TRIBE</zType>
 		<Translation>
 Ihr könnt euch nicht gegenseitig angreifen.
 Frieden dauert so lange bis die derzeitigen Herrschaft des Oberhauptes endet.
@@ -2140,7 +2155,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Wenn eine Einheit getötet wird, vorrücken und noch mal angreifen.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_SELECT_BARBARIAN</zType>
+		<zType>TEXT_HELPTEXT_LINK_HELP_SELECT_TRIBE</zType>
 		<Translation>Klicke um Barbaren auszuwählen</Translation>
 	</Entry>
 	<Entry>
@@ -2277,7 +2292,11 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_VICTORY_FROM_CULTURE_CITIES</zType>
-		<Translation>{0}: von {1_culture} Städten</Translation>
+		<Translation><![CDATA[{0}: von {1} {2_culture} <singular_1>Stadt<plural>Städte<end>]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_VICTORY_FROM_LEGENDARY_CITY</zType>
+		<Translation><![CDATA[{0}: von {1_city} ({2_culture))]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_VICTORY_FROM</zType>
@@ -2289,7 +2308,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_ZOC</zType>
-		<Translation><![CDATA[Die Kontrollzone (ZOC) einer Einheit erweitert sich auf angrenzende Felder (außer über einen {0_riverLink}), und hindert gegnerische Einheiten daran sich von einem ZOC Feld zum anderen zu bewegen.<br>Halte [{1_key}] um die ZOC einer Einheit zu sehen.]]></Translation>
+		<Translation><![CDATA[Die Kontrollzone (ZOC) einer Einheit erweitert sich auf angrenzende Felder (außer über einen {0_riverLink}), und hindert gegnerische Einheiten daran sich von einem link(CONCEPT_ZOC) Feld zum anderen zu bewegen.<br>Halte [{1_key}] um die ZOC einer Einheit zu sehen.]]></Translation>
 	</Entry>
 	<!--Tile Tooltip-->
 	<Entry>
@@ -2382,7 +2401,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>{0}: Handel von {1_player} {2_turns}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_YIELD_NET_TRIBUTE_BARBARIANS</zType>
+		<zType>TEXT_HELPTEXT_YIELD_NET_TRIBUTE_TRIBES</zType>
 		<Translation><![CDATA[{0}: Tribut <true_1>von<false>an<end> {2_barbarian} {3_turns}]]></Translation>
 	</Entry>
 	<Entry>
@@ -2962,7 +2981,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Vs. Feldherr: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_VS_BARBARIANS</zType>
+		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_VS_TRIBES</zType>
 		<Translation>Vs. Stämme: {0_value}</Translation>
 	</Entry>
 	<Entry>
@@ -2984,6 +3003,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_PUSH</zType>
 		<Translation>Ziel zieht sich nach Kampf zurück</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_STUN</zType>
+		<Translation>Stuns Target</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_IGNORES_DISTANCE</zType>
@@ -3293,11 +3316,11 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>{0_value} SP</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_PRODUCES_BARBARIAN_UNITS</zType>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_PRODUCES_TRIBE_UNITS</zType>
 		<Translation>Erstellt {0,2_barbarianAdjective} Einheiten</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_PRODUCES_GENERIC_BARBARIAN_UNITS</zType>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_PRODUCES_GENERIC_TRIBE_UNITS</zType>
 		<Translation>Erstellt link(BARBARIAN_TRIBE,1) Einheiten</Translation>
 	</Entry>
 	<Entry>
@@ -3800,53 +3823,53 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_CITY_THEOLOGY</zType>
 		<Translation>Städte mit {0_theology}: {1_value}</Translation>
 	</Entry>
-	<!--Barbarian Help-->
+	<!--Tribe Help-->
 	<Entry>
-		<zType>TEXT_HELPTEXT_BARBARIAN_LEADER</zType>
-		<Translation>Barbaren Anführer: {0}</Translation>
+		<zType>TEXT_HELPTEXT_TRIBE_LEADER</zType>
+		<Translation>Anführer: {0}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BARBARIAN_TRIBUTE_FROM</zType>
+		<zType>TEXT_HELPTEXT_TRIBE_TRIBUTE_FROM</zType>
 		<Translation>{0_tributeLink} von: {YIELD-LIST}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BARBARIAN_TRIBUTE_TO</zType>
+		<zType>TEXT_HELPTEXT_TRIBE_TRIBUTE_TO</zType>
 		<Translation>{0_tributeLink} an: {YIELD-LIST}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BARBARIAN_CURRENT_RELIGION</zType>
+		<zType>TEXT_HELPTEXT_TRIBE_CURRENT_RELIGION</zType>
 		<Translation>Momentane Religion: {0}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BARBARIAN_STRENGTH</zType>
+		<zType>TEXT_HELPTEXT_TRIBE_STRENGTH</zType>
 		<Translation>Stärke: {0}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BARBARIAN_PROXIMITY</zType>
+		<zType>TEXT_HELPTEXT_TRIBE_PROXIMITY</zType>
 		<Translation>Nähe: {0}*</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BARBARIAN_LEVEL</zType>
-		<Translation>Barbaren Stufe: {0}</Translation>
+		<zType>TEXT_HELPTEXT_TRIBE_LEVEL</zType>
+		<Translation>Stamm Stufe: {0}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BARBARIAN_LEVEL_NOT_DECLARE_WAR</zType>
-		<Translation>Stämme werden keinen Krieg erklären</Translation>
+		<zType>TEXT_HELPTEXT_TRIBE_LEVEL_NOT_DECLARE_WAR</zType>
+		<Translation>Stämme werden keinen link(DIPLOMACY_WAR erklären</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BARBARIAN_LEVEL_WAR_PROBABILITY</zType>
-		<Translation>Kriegswahrscheinlichkeit: {0}</Translation>
+		<zType>TEXT_HELPTEXT_TRIBE_LEVEL_WAR_PROBABILITY</zType>
+		<Translation>link(DIPLOMACY_WAR) Wahrscheinlichkeit: {0}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BARBARIAN_LEVEL_NO_BARBARIANS</zType>
-		<Translation>Keine Barbaren im Spiel</Translation>
+		<zType>TEXT_HELPTEXT_TRIBE_LEVEL_NO_TRIBES</zType>
+		<Translation>Keine Stämme im Spiel</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BARBARIAN_LEVEL_RAID_CHANCE</zType>
-		<Translation>Überfall Chance/Jahr: {0}%</Translation>
+		<zType>TEXT_HELPTEXT_TRIBE_LEVEL_RAID_CHANCE</zType>
+		<Translation>Überfall Chance/{1_turnScale}: {0}%</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BARBARIAN_LEVEL_FATIGUE</zType>
+		<zType>TEXT_HELPTEXT_TRIBE_LEVEL_FATIGUE</zType>
 		<Translation>+{0} Ermüdung für Barbaren</Translation>
 	</Entry>
 	<!--Unit Attack Preview-->
@@ -3857,6 +3880,18 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_SAME_FAMILY</zType>
 		<Translation>Selbe Familie:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_GENERAL_SAME_NATION</zType>
+		<Translation>Selbes Volk (Feldherr):</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_GENERAL_SAME_TRIBE</zType>
+		<Translation>Selber Stamm (Feldherr):</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_GENERAL_SAME_FAMILY</zType>
+		<Translation>Selbe Familie (Feldherr):</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_UNIT_TRAIT_BONUS</zType>
@@ -4612,7 +4647,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>{0_value}: Unverheiratetes Oberhaupt</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_ROYAL_LEADER_MARRIED_BARBARIAN</zType>
+		<zType>TEXT_HELPTEXT_FAMILY_ROYAL_LEADER_MARRIED_TRIBE</zType>
 		<Translation>{0_value}: Oberhaupt hat einen Barbaren geheiratet</Translation>
 	</Entry>
 	<Entry>
@@ -4710,23 +4745,23 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_DECISION_NAME_CITY_GOVERNOR</zType>
-		<Translation>Wähle Stadthalter: {0_city}</Translation>
+		<Translation>Wähle Stadt link(CONCEPT_GOVERNOR): {0_city}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_DECISION_NAME_OFFER_PEACE_BARBARIAN</zType>
-		<Translation>Schließe Frieden</Translation>
+		<zType>TEXT_HELPTEXT_DECISION_NAME_OFFER_PEACE_TRIBE</zType>
+		<Translation>Schließe link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_DECISION_NAME_OFFER_TRUCE_BARBARIAN</zType>
-		<Translation>Schließe Waffenruhe</Translation>
+		<zType>TEXT_HELPTEXT_DECISION_NAME_OFFER_TRUCE_TRIBE</zType>
+		<Translation>Schließe link(DIPLOMACY_TRUCE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_DECISION_NAME_OFFER_PEACE_PLAYER</zType>
-		<Translation>Schließe Frieden</Translation>
+		<Translation>Schließe link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_DECISION_NAME_OFFER_TRUCE_PLAYER</zType>
-		<Translation>Schließe Waffenruhe</Translation>
+		<Translation>Schließe link(DIPLOMACY_TRUCE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_DECISION_NAME_GENERIC</zType>
@@ -4877,11 +4912,11 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Säubere {0_religion}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_TILE_CONVERT_BARBARIANS_TO_RELIGION_BUTTON</zType>
+		<zType>TEXT_HELPTEXT_TILE_CONVERT_TRIBE_TO_RELIGION_BUTTON</zType>
 		<Translation>Konvertiere zu {0_religion} ({1_barbarian})</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_TILE_CONVERT_BARBARIANS_TO_RELIGION_GENERIC_BUTTON</zType>
+		<zType>TEXT_HELPTEXT_TILE_CONVERT_TRIBE_TO_RELIGION_GENERIC_BUTTON</zType>
 		<Translation>Konvertiere zu {0_religion}</Translation>
 	</Entry>
 	<Entry>
@@ -5248,7 +5283,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>{0}: {1,1}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_CHARACTER_BARBARIAN_ETHNICITY</zType>
+		<zType>TEXT_HELPTEXT_CHARACTER_TRIBE_ETHNICITY</zType>
 		<Translation>{0}: {1,1}</Translation>
 	</Entry>
 	<Entry>
@@ -5284,7 +5319,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>{0}: Im link(DIPLOMACY_WAR) mit {1}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_ETHNICITY_BARBARIAN</zType>
+		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_ETHNICITY_TRIBE</zType>
 		<Translation>{0}: Im link(DIPLOMACY_WAR) mit den {1}</Translation>
 	</Entry>
 	<Entry>
@@ -5294,6 +5329,14 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_STATE_RELIGION_NOT</zType>
 		<Translation>{0}: {1_religion} ist nicht Staatsrelgion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_STATE_RELIGION</zType>
+		<Translation>{0}: {1_religion} ist Staatsrelgion ({2_trait})</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_STATE_RELIGION_NOT</zType>
+		<Translation>{0}: {1_religion} ist nicht Staatsrelgion ({2_trait})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_RATING_TRAIT_ARCHETYPE</zType>
@@ -5505,20 +5548,20 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Abbrechen {0_improvement}?</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_POPUP_DECLARE_WAR_BARBARIAN_DESC</zType>
-		<Translation>Erkläre den {0_barbarians} Krieg?</Translation>
+		<zType>TEXT_HELPTEXT_POPUP_DECLARE_WAR_TRIBE_DESC</zType>
+		<Translation>Erkläre den {0_barbarians} link(DIPLOMACY_WAR)?</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_POPUP_DECLARE_WAR_BARBARIAN_TURNS</zType>
-		<Translation>Cannot Declare War on the {0_barbarians} for {1_value} more turn(s).</Translation>
+		<zType>TEXT_HELPTEXT_POPUP_DECLARE_WAR_TRIBE_TURNS</zType>
+		<Translation>Kann keinen link(DIPLOMACY_WAR) an die {0_barbarians} für {1_value} weitere {2_turnScale} erklären.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DECLARE_WAR_TEAM_DESC</zType>
-		<Translation>Erkläre Krieg an {0_team}?</Translation>
+		<Translation>Erkläre link(DIPLOMACY_WAR) an {0_team}?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DECLARE_WAR_TEAM_TURNS</zType>
-		<Translation>Kann an {0_team} für {1_value} weitere Runde(n) keinen Krieg erklären.</Translation>
+		<Translation>Kann an {0_team} für {1_value} weitere Runde(n) keinen link(DIPLOMACY_WAR) erklären.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_INHERITANCE_NO_HEIR</zType>
@@ -5736,11 +5779,11 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Gebe {0_city} an eine deiner Familien...</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_POPUP_DECISION_OFFER_PEACE_BARBARIAN_DESC</zType>
+		<zType>TEXT_HELPTEXT_POPUP_DECISION_OFFER_PEACE_TRIBE_DESC</zType>
 		<Translation>Schließe {0_peace} mit den {1_barbarians} für {2_money}? [Kein Ereignis gefunden]</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_POPUP_DECISION_OFFER_TRUCE_BARBARIAN_DESC</zType>
+		<zType>TEXT_HELPTEXT_POPUP_DECISION_OFFER_TRUCE_TRIBE_DESC</zType>
 		<Translation>Schließe {0_truce} mit den {1_barbarians} für {2_money}? [Kein Ereignis gefunden]</Translation>
 	</Entry>
 	<Entry>
@@ -5812,6 +5855,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<zType>TEXT_HELPTEXT_END_YEAR_DECISION</zType>
 		<Translation>Du musst erst eine wichtige Entscheidung treffen...</Translation>
 	</Entry>
+    <Entry>
+        <zType>TEXT_HELPTEXT_END_YEAR_RESEARCH</zType>
+        <Translation>Du musst erst eine neue Technologie zum erforschen wählen...</Translation>
+    </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_END_YEAR_WAITING</zType>
 		<Translation>Warte auf {PLAYER-LIST}</Translation>
@@ -5870,7 +5917,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation><![CDATA[Benötigt {0} <singular_0>{1_luxuryLink}<plural>{1,2_luxuriesLink}<end> an rivalisierende Reiche gesendet]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_BARBARIAN_LUXURIES</zType>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_TRIBE_LUXURIES</zType>
 		<Translation><![CDATA[Benötigt {0} <singular_0>{1_luxuryLink}<plural>{1,2_luxuriesLink}<end> an Stämme gesendet]]></Translation>
 	</Entry>
 	<Entry>
@@ -5918,11 +5965,11 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation><![CDATA[Erobere {0} <true_1>{1}<false>gegnerische<end> <singular_0>Stadt<plural>Städte<end>]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_GOAL_HELP_CAPTURE_BARBARIAN_SITES</zType>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_CAPTURE_TRIBE_SITES</zType>
 		<Translation><![CDATA[Erobere {0} <true_1>{1}<false>Barbaren<end> <singular_0>Gelände<plural>Gelände<end>]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_GOAL_HELP_SETTLE_BARBARIAN_SITES</zType>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_SETTLE_TRIBE_SITES</zType>
 		<Translation><![CDATA[Found Cities on {0} <true_1>{1}<false>Barbarian<end> <singular_0>Site<plural>Sites<end>]]></Translation>
 	</Entry>
 	<Entry>
@@ -5930,7 +5977,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation><![CDATA[Töte {0} <true_1>{1}<false>gegnerische<end> <singular_0>Einheit<plural>Einheiten<end>]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_GOAL_HELP_KILL_BARBARIAN_ENEMY_UNITS</zType>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_KILL_TRIBE_ENEMY_UNITS</zType>
 		<Translation><![CDATA[Töte {0} <true_1>{1}<false>Barbaren<end> <singular_0>Einheit<plural>Einheiten<end>]]></Translation>
 	</Entry>
 	<Entry>
@@ -5942,7 +5989,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation><![CDATA[Eliminiere <true_0>{0}<false>ein Reich<end>]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_BARBS_DEAD</zType>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_TRIBE_DEAD</zType>
 		<Translation><![CDATA[Eliminiere <true_0>die {0}<false>einen Stamm<end>]]></Translation>
 	</Entry>
 	<Entry>
@@ -5974,7 +6021,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation><![CDATA[Benötigt {0} {1_resource} <singular_0>{2_luxuryLink}<plural>{2,2_luxuriesLink} an rivalisierende Reiche gesendets<end>]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_BARBARIAN_LUXURY</zType>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_TRIBE_LUXURY</zType>
 		<Translation><![CDATA[Benötigt {0} {1_resource} <singular_0>{2_luxuryLink}<plural>{2,2_luxuriesLink} an Stämme gesendet<end>]]></Translation>
 	</Entry>
 	<Entry>

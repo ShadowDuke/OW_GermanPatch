@@ -131,16 +131,16 @@
 		<Translation>Breche den kompletten Handel ab</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_BARBARIAN_ALLIANCE</zType>
-		<Translation>Bündnis mit Barbaren </Translation>
+		<zType>TEXT_MISSION_TRIBE_ALLIANCE</zType>
+		<Translation>Barbaren Bündnis</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_BARBARIAN_ALLIANCE_TARGET</zType>
-		<Translation>Verbündung mit Barbaren</Translation>
+		<zType>TEXT_MISSION_TRIBE_ALLIANCE_TARGET</zType>
+		<Translation>Barbaren Bündnis mit</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_BARBARIAN_ALLIANCE_CHARACTER</zType>
-		<Translation>Barbarian Verbündung über</Translation>
+		<zType>TEXT_MISSION_TRIBE_ALLIANCE_CHARACTER</zType>
+		<Translation>Barbaren Bündnis über</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_BARBARIAN_PEACE</zType>

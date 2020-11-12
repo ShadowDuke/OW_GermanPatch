@@ -14,23 +14,23 @@
 		<Translation>Du bist nun in einem Bündnis mit {0_team}.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_LOST_BARBARIAN_ALLIANCE</zType>
+		<zType>TEXT_GAME_LOST_TRIBE_ALLIANCE</zType>
 		<Translation>Du bist nicht länger in einem Bündnis mit den {0_barbarians}.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_GAINED_BARBARIAN_ALLIANCE</zType>
+		<zType>TEXT_GAME_GAINED_TRIBE_ALLIANCE</zType>
 		<Translation>Du bist nun in einem Bündnis mit den {0_barbarians}.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_MET_BARBARIANS</zType>
+		<zType>TEXT_GAME_MET_TRIBE</zType>
 		<Translation>Du hast die {0_barbarians} getroffen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_BARBARIANS_NEW_DIPLOMACY</zType>
+		<zType>TEXT_GAME_TRIBE_NEW_DIPLOMACY</zType>
 		<Translation>{0_team} hat nun {1_newDiplomacy} mit den {2_barbarians}.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_BARBARIANS_DIPLOMACY_LOG_DATA</zType>
+		<zType>TEXT_GAME_TRIBE_DIPLOMACY_LOG_DATA</zType>
 		<Translation>{0_barbarians}: {1_newDiplomacy}</Translation>
 	</Entry>
 	<Entry>
@@ -82,7 +82,7 @@
 		<Translation>Die {0_family} Familie ist zu {1_religion} konvertiert!</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_RELIGION_BARBARIAN</zType>
+		<zType>TEXT_GAME_RELIGION_TRIBE</zType>
 		<Translation>Die {0_tribe} sind zum {1_religion} konvertiert!</Translation>
 	</Entry>
 	<Entry>
@@ -332,15 +332,15 @@
 		<Translation>{0_other} bei {1_diplomacy} mit {2_target}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_DIPLOMACY_BARBARIAN</zType>
+		<zType>TEXT_GAME_DO_BONUS_DIPLOMACY_TRIBE</zType>
 		<Translation>{0_diplomacy} mit {1_barbarian}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_TRIBUTE_BARBARIAN</zType>
+		<zType>TEXT_GAME_DO_BONUS_TRIBUTE_TRIBE</zType>
 		<Translation>{0_tribute} Tribut mit {1_barbarian}</Translation>
 	</Entry>
 	<Entry>
-    <zType>TEXT_GAME_DO_BONUS_BARBARIAN_DIPLOMACY_PLAYER</zType>
+    <zType>TEXT_GAME_DO_BONUS_TRIBE_DIPLOMACY_PLAYER</zType>
     <Translation>{0_barbarian}: {1_diplomacy} mit {2_player}</Translation>
   </Entry>
   <Entry>
@@ -358,6 +358,10 @@
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_CONVERT_RELIGION</zType>
 		<Translation>{0_character} konvertiert zum {1_religion}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_HEAD_RELIGION</zType>
+		<Translation>{0_character} wird Anführer von {1_religion}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_FAMILY_LAW</zType>
@@ -564,7 +568,7 @@
 		<Translation>{0_vegetation} von {1_tile}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_BARB_RAID</zType>
+		<zType>TEXT_GAME_DO_BONUS_TRIBE_RAID</zType>
 		<Translation>Überfall der {0,1_barbarian} {1_improvement} von {2_tile}</Translation>
 	</Entry>
 	<Entry>

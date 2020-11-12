@@ -1157,12 +1157,12 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_TOOK_CONTROL</zType>
-		<zText>Leader took control of estates.</zText>
+		<zText>Leader took control of estates</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_FAMILY_CONTROL</zType>
-		<zText>Leader left estates alone.</zText>
+		<zText>Leader left estates alone</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -1272,7 +1272,7 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_THREATENED_FAMILY</zType>
-		<zText>Give the {FAMILY-2,1} an ultimatum: join us, or suffer.</zText>
+		<zText>Give the {FAMILY-2,1} an ultimatum: join us, or suffer</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -1385,6 +1385,16 @@
 		<zText>Honored for one member's service</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_STAGED_PLAY</zType>
+		<zText>Staged play critical of court</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_CONSULAR_TRIBUNES</zType>
+		<zText>Granted military power on court</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
 	<Entry beginGroup="Exploration">
 		<zType>MEMORYFAMILY_RAISED_MARBLE_PRICES</zType>
 		<zText>Marmor Preise erhöht</zText>
@@ -1407,22 +1417,22 @@
   </Entry>
   <Entry>
     <zType>MEMORYFAMILY_TWO_MOTHERS_WISELY</zType>
-    <zText>You judged justly and wisely in a dispute between two mothers.</zText>
+    <zText>You judged justly and wisely in a dispute between two mothers</zText>
     <MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
   </Entry>
   <Entry>
     <zType>MEMORYFAMILY_TWO_MOTHERS_MURDER</zType>
-    <zText>You murdered a child in a dispute between two mothers.</zText>
+    <zText>You murdered a child in a dispute between two mothers</zText>
     <MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
   </Entry>
   <Entry>
     <zType>MEMORYFAMILY_TWO_MOTHERS_VICTORY</zType>
-    <zText>You ruled in our favor in a dispute between two mothers.</zText>
+    <zText>You ruled in our favor in a dispute between two mothers</zText>
     <MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
   </Entry>
   <Entry>
     <zType>MEMORYFAMILY_TWO_MOTHERS_DEFEAT</zType>
-    <zText>You ruled against us in a dispute between two mothers.</zText>
+    <zText>You ruled against us in a dispute between two mothers</zText>
     <MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>

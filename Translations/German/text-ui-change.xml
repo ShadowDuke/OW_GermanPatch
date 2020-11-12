@@ -30,8 +30,8 @@
 		<Translation>{0} Zug</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_BARBARIAN_TURN</zType>
-		<Translation>Barbaren am Zug</Translation>
+		<zType>TEXT_UI_TRIBAL_TURN</zType>
+		<Translation>Stamm am Zug</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_YOUR_TURN</zType>
@@ -411,11 +411,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_TURN_TEXT_YEAR</zType>
-		<Translation><![CDATA[Jahr {0}<true_1>   ({1_time})<false><end>]]></Translation>
+		<Translation><![CDATA[Jahr {0}<true_1> ({1})<false><end><true_2> ({2_time})<false><end>]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_TURN_TEXT_YEAR_MAX</zType>
-		<Translation><![CDATA[Jahr {0}/{1}<true_2>   ({2_time})<false><end>]]></Translation>
+		<zType>TEXT_UI_TURN_TEXT_SCALE</zType>
+		<Translation><![CDATA[{0}, Jahr {1}<true_2> ({2} Turns)<false><end><true_3> ({3_time})<false><end>]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_TURN_TEXT_TURN_MAX</zType>
+		<Translation>{0}/{1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_TURN_TIMER_PAUSED</zType>
@@ -487,7 +491,8 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_TOOLTIP_LUXURIES_HELP</zType>
-		<Translation>Luxuries can be given to Nations, Tribes, and Families to improve Opinion. They also can be given to Cities to reduce link(YIELD_DISCONTENT).</Translation>
+		<Translation>link(CONCEPT_LUXURY) can be given to Nations, Tribes, and Families to improve Opinion. They also can be given to Cities to reduce link(YIELD_DISCONTENT).
+Luxuries are unlocked by constructing Specialists on Improvements. For example, the link(RESOURCE_HONEY) Luxury comes from link(SPECIALIST_GARDENER,1) on link(IMPROVEMENT_GROVE,1).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_TOOLTIP_LUXURIES_NONE</zType>
@@ -581,6 +586,7 @@
 		<zType>TEXT_UI_CHARACTERLIST_FILTER_SPYMASTERS</zType>
 		<Translation>Geeignete Meisterspione</Translation>
 	</Entry>
+    <!--menu-screens.xml-->
     <Entry>
         <zType>TEXT_UI_SURRENDER_DIALOG</zType>
         <Translation>Kaputilation bestätigen?</Translation>
@@ -1111,12 +1117,16 @@
         <Translation>Gegner Nationen: {LIST}</Translation>
     </Entry>
     <Entry>
-        <zType>TEXT_SCENARIO_SETUP_BARBARIANS</zType>
-        <Translation>Barbaren</Translation>
+        <zType>TEXT_SCENARIO_SETUP_TRIBE</zType>
+        <Translation>Stämme</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_SCENARIO_SETUP_DIFFICULTY</zType>
         <Translation>Schwierigkeitsgrad</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_SETUP_TURN_SCALE</zType>
+		<Translation>Zug Modus</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SCENARIO_SETUP_SHOWOPTIONS</zType>
@@ -1201,6 +1211,10 @@
         <Translation>Sterblichkeit</Translation>
     </Entry>
     <Entry>
+		<zType>TEXT_SP_SETUP_ADVANCED_TURN_SCALE</zType>
+		<Translation>Zug Moduse</Translation>
+	</Entry>
+	<Entry>
         <zType>TEXT_SP_SETUP_ADVANCED_EVENTLEVEL</zType>
         <Translation>Ereignis Level</Translation>
     </Entry>
@@ -1217,15 +1231,15 @@
         <Translation>Schwierigkeitsgrad</Translation>
     </Entry>
     <Entry>
-        <zType>TEXT_SP_SETUP_ADVANCED_BARBSTRENGTH</zType>
-        <Translation>Barbaren Stärke</Translation>
+        <zType>TEXT_SP_SETUP_ADVANCED_TRIBE_LEVEL</zType>
+        <Translation>Stammes Stärke</Translation>
     </Entry>
     <Entry>
-        <zType>TEXT_SP_SETUP_ADVANCED_AIAGGRESSION</zType>
+        <zType>TEXT_SP_SETUP_ADVANCED_AI_AGGRESSION</zType>
         <Translation>KI Aggressivität</Translation>
     </Entry>
 	<Entry>
-		<zType>TEXT_SP_SETUP_ADVANCED_AIDEVELOPMENT</zType>
+		<zType>TEXT_SP_SETUP_ADVANCED_AI_DEVELOPMENT</zType>
 		<Translation>KI Entwicklung</Translation>
 	</Entry>
 	<Entry>
@@ -1501,6 +1515,14 @@
 		<zType>TEXT_POPUP_LAWS</zType>
 		<Translation>Gesetze</Translation>
 	</Entry>
+    <Entry>
+        <zType>TEXT_POPUP_LAWS_LAW_UPKEEP</zType>
+        <Translation>Unterhalt: {0}</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_POPUP_LAWS_LAW_FAMILY_OPINION</zType>
+        <Translation>{0} Meinung: {1}</Translation>
+    </Entry>
 	<!--popup-input.xml-->
 	<Entry>
 		<zType>TEXT_POPUP_INPUT_TITLE</zType>
@@ -1728,6 +1750,10 @@
 	<Entry>
 		<zType>TEXT_UI_MP_SETUP_START_SIMULTANEOUS_TURNS</zType>
 		<Translation>Spiel die ersten 5 Runden in simultanen Spielzügen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MP_SETUP_START_TURN_SCALE</zType>
+		<Translation>Jeder Zug ist ein {0_turnScale}</Translation>
 	</Entry>
 	<!--OptionsMenuPanel-->
 	<Entry>

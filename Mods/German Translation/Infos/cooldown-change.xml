@@ -47,6 +47,11 @@
 		<zIconName>COOLDOWN_ATTACKED</zIconName>
 	</Entry>
 	<Entry>
+		<zType>COOLDOWN_STUNNED</zType>
+		<zName>Stunned</zName>
+		<zIconName>COOLDOWN_ATTACKED</zIconName>
+	</Entry>
+	<Entry>
 		<zType>COOLDOWN_BUILDING</zType>
 		<zName>Bau</zName>
 		<zIconName>SPRITE_BUILD</zIconName>

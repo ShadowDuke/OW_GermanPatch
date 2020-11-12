@@ -7,7 +7,7 @@
 		<Difficulty/>
 		<Development/>
 		<OpponentLevel/>
-		<BarbarianLevel/>
+		<TribeLevel/>
 	</Entry>
 	<Entry>
 		<zType>DIFFICULTYMODE_ABLE</zType>
@@ -15,7 +15,7 @@
 		<Difficulty>DIFFICULTY_ABLE</Difficulty>
 		<Development>DEVELOPMENT_FLEDGLING</Development>
 		<OpponentLevel>OPPONENTLEVEL_PEACEFUL</OpponentLevel>
-		<BarbarianLevel>BARBARIANLEVEL_PASSIVE</BarbarianLevel>
+		<TribeLevel>TRIBELEVEL_PASSIVE</TribeLevel>
 	</Entry>
 	<Entry>
 		<zType>DIFFICULTYMODE_JUST</zType>
@@ -23,7 +23,7 @@
 		<Difficulty>DIFFICULTY_JUST</Difficulty>
 		<Development>DEVELOPMENT_FLEDGLING</Development>
 		<OpponentLevel>OPPONENTLEVEL_PEACEFUL</OpponentLevel>
-		<BarbarianLevel>BARBARIANLEVEL_WEAK</BarbarianLevel>
+		<TribeLevel>TRIBELEVEL_WEAK</TribeLevel>
 	</Entry>
 	<Entry>
 		<zType>DIFFICULTYMODE_GOOD</zType>
@@ -31,7 +31,7 @@
 		<Difficulty>DIFFICULTY_GOOD</Difficulty>
 		<Development>DEVELOPMENT_ESTABLISHED</Development>
 		<OpponentLevel>OPPONENTLEVEL_NORMAL</OpponentLevel>
-		<BarbarianLevel>BARBARIANLEVEL_WEAK</BarbarianLevel>
+		<TribeLevel>TRIBELEVEL_WEAK</TribeLevel>
 	</Entry>
 	<Entry>
 		<zType>DIFFICULTYMODE_STRONG</zType>
@@ -39,7 +39,7 @@
 		<Difficulty>DIFFICULTY_STRONG</Difficulty>
 		<Development>DEVELOPMENT_ESTABLISHED</Development>
 		<OpponentLevel>OPPONENTLEVEL_NORMAL</OpponentLevel>
-		<BarbarianLevel>BARBARIANLEVEL_NORMAL</BarbarianLevel>
+		<TribeLevel>TRIBELEVEL_NORMAL</TribeLevel>
 	</Entry>
 	<Entry>
 		<zType>DIFFICULTYMODE_NOBLE</zType>
@@ -47,7 +47,7 @@
 		<Difficulty>DIFFICULTY_NOBLE</Difficulty>
 		<Development>DEVELOPMENT_ADVANCED</Development>
 		<OpponentLevel>OPPONENTLEVEL_AGGRESSIVE</OpponentLevel>
-		<BarbarianLevel>BARBARIANLEVEL_NORMAL</BarbarianLevel>
+		<TribeLevel>TRIBELEVEL_NORMAL</TribeLevel>
 	</Entry>
 	<Entry>
 		<zType>DIFFICULTYMODE_GLORIOUS</zType>
@@ -55,7 +55,7 @@
 		<Difficulty>DIFFICULTY_GLORIOUS</Difficulty>
 		<Development>DEVELOPMENT_ADVANCED</Development>
 		<OpponentLevel>OPPONENTLEVEL_AGGRESSIVE</OpponentLevel>
-		<BarbarianLevel>BARBARIANLEVEL_STRONG</BarbarianLevel>
+		<TribeLevel>TRIBELEVEL_STRONG</TribeLevel>
 	</Entry>
 	<Entry>
 		<zType>DIFFICULTYMODE_MAGNIFICENT</zType>
@@ -63,7 +63,7 @@
 		<Difficulty>DIFFICULTY_MAGNIFICENT</Difficulty>
 		<Development>DEVELOPMENT_MASSIVE</Development>
 		<OpponentLevel>OPPONENTLEVEL_COMPETITIVE</OpponentLevel>
-		<BarbarianLevel>BARBARIANLEVEL_STRONG</BarbarianLevel>
+		<TribeLevel>TRIBELEVEL_STRONG</TribeLevel>
 	</Entry>
 	<Entry>
 		<zType>DIFFICULTYMODE_GREAT</zType>
@@ -71,7 +71,7 @@
 		<Difficulty>DIFFICULTY_GREAT</Difficulty>
 		<Development>DEVELOPMENT_MASSIVE</Development>
 		<OpponentLevel>OPPONENTLEVEL_COMPETITIVE</OpponentLevel>
-		<BarbarianLevel>BARBARIANLEVEL_RAGING</BarbarianLevel>
+		<TribeLevel>TRIBELEVEL_RAGING</TribeLevel>
 	</Entry>
 	<Entry>
 		<zType>DIFFICULTYMODE_CUSTOM</zType>

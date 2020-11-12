@@ -27,7 +27,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_6</zType>
-		<Translation>Trainingicon(YIELD_TRAINING) stockpiles are capped at int(MAX_TRAINING). Above this value, they'll be converted to Ordersicon(YIELD_ORDERS).</Translation>
+		<English>link(YIELD_TRAINING)icon(YIELD_TRAINING) stockpiles are capped at int(MAX_TRAINING). Above this value, they'll be converted to link(YIELD_ORDERS)icon(YIELD_ORDERS).</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_7</zType>
@@ -35,11 +35,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_8</zType>
-		<Translation>Unbenutzte Civicsicon(YIELD_CIVICS) und Trainingicon(YIELD_TRAINING) in deinen Städten werden zum nationalen Lager hinzugefügt.</Translation>
+		<Translation>Unbenutzte link(YIELD_CIVICS)icon(YIELD_CIVICS) und link(YIELD_TRAINING)icon(YIELD_TRAINING) in deinen Städten werden zum nationalen Lager hinzugefügt.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_9</zType>
-		<Translation>Falls du nicht alle deine Ordersicon(YIELD_ORDERS) benutzen willst, kannst du durch drücken von '6' die aktuelle Runde beenden.</Translation>
+		<Translation>Falls du nicht alle deine link(YIELD_ORDERS)icon(YIELD_ORDERS benutzen willst, kannst du durch drücken von '6' die aktuelle Runde beenden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_10</zType>
@@ -55,31 +55,31 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_13</zType>
-		<Translation>link(BARBARIAN_TRIBE) sind fremdenfeindliche Stämme  und allen Staaten gegenüber feindlich.Es gibt keine diplomatischen Konsequenzen wenn ihre Einheiten angegriffen werden oder ihr Land übernommen wird. Sie haben keine Verbündeten, nicht mal anderen link(BARBARIAN_TRIBE).</Translation>
+		<Translation>link(TRIBE_BARBARIANS) sind fremdenfeindliche Stämme und allen Staaten gegenüber feindlich.Es gibt keine diplomatischen Konsequenzen wenn ihre Einheiten angegriffen werden oder ihr Land übernommen wird. Sie haben keine Verbündeten, nicht mal anderen link(TRIBE_BARBARIANS).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_14</zType>
-		<Translation>Wenn dein Land geringe Vorräte von Woodicon(YIELD_WOOD) hat, überlege militärische Einheiten auszubilden die auf Foodicon(YIELD_FOOD) ooder Ironicon(YIELD_IRON) angeiwesen sind. Konzentriere deinen begrenzten Woodicon(YIELD_WOOD) Vorrat um ländliche Gebäude zu verbessern.</Translation>
+		<Translation>Wenn dein Land geringe Vorräte von link(YIELD_WOOD)icon(YIELD_WOOD) hat, überlege militärische Einheiten auszubilden die auf link(YIELD_STONE)icon(YIELD_STONE) ooder link(YIELD_IRON)icon(YIELD_IRON) angeiwesen sind. Konzentriere deinen begrenzten link(YIELD_WOOD)icon(YIELD_WOOD) Vorrat um ländliche Gebäude zu verbessern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_15</zType>
-		<Translation>link(IMPROVEMENT_QUARRY,2) die neben einem Gebirge gebaut werden prodzieren mehr Stoneicon(YIELD_STONE) für jedes angrenzendes Gebirgsfeld. ink(IMPROVEMENT_QUARRY,2) erhalten einen kleinen Anstieg wenn sie in trockenem Gebiet gebaut werden.</Translation>
+		<Translation>link(IMPROVEMENT_QUARRY,2) die neben einem Gebirge gebaut werden prodzieren mehr link(YIELD_STONE)icon(YIELD_STONE) für jedes angrenzendes Gebirgsfeld. ink(IMPROVEMENT_QUARRY,2) erhalten einen kleinen Anstieg wenn sie in trockenem Gebiet gebaut werden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_16</zType>
-		<Translation>link(IMPROVEMENT_LUMBERMILL,2) die neben einem link(IMPROVEMENT_CAMP,2) gebaut werden erhalten erhöhten Woodicon(YIELD_WOOD) Ertrag. (Die Jäger überwachen die Raubtiere, folgen Spuren durch den Wald, etc.)</Translation>
+		<Translation>link(IMPROVEMENT_LUMBERMILL,2) die neben einem link(IMPROVEMENT_CAMP,2) gebaut werden erhalten erhöhten link(YIELD_WOOD)icon(YIELD_WOOD) Ertrag. (Die Jäger überwachen die Raubtiere, folgen Spuren durch den Wald, etc.)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_17</zType>
-		<Translation>Wenn man sich mit zu vielen Gegnern im Krieg befindet wird dies deine Heere überwältigen, unmäglich genug Ordersicon(YIELD_ORDERS auszugeben um effektiv an jeder Front zu kämpfen. Benutze Diplomatie um diesem Schicksal zu entgehen, wenn möglich.</Translation>
+		<Translation>Wenn man sich mit zu vielen Gegnern im Krieg befindet wird dies deine Heere überwältigen, unmäglich genug link(YIELD_ORDERS)icon(YIELD_ORDERS) auszugeben um effektiv an jeder Front zu kämpfen. Benutze Diplomatie um diesem Schicksal zu entgehen, wenn möglich.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_18</zType>
-		<Translation>Zur link(IMPROVEMENT_LUMBERMILL) Verbesserung zu forschen braucht seine Zeit. Es kann möglich sein, dass man link(UNIT_WORKER,2) zu Wäldern und Dickichten schicken muss um Woodicon(YIELD_WOOD) von link(VEGETATION_TREES) und link(VEGETATION_SCRUB) zu fällen.</Translation>
+		<Translation>Zur link(IMPROVEMENT_LUMBERMILL) Verbesserung zu forschen braucht seine Zeit. Es kann möglich sein, dass man link(UNIT_WORKER,2) zu Wäldern und Dickichten schicken muss um link(YIELD_WOOD)icon(YIELD_WOOD) von link(VEGETATION_TREES) und link(VEGETATION_SCRUB) zu fällen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_19</zType>
-		<Translation>Erwarte Verlangen nach Foodicon(YIELD_FOOD) um deine Städte wachsen und reifen zu lassen.</Translation>
+		<Translation>Erwarte Verlangen nach link(YIELD_FOOD)icon(YIELD_FOOD) um deine Städte wachsen und reifen zu lassen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_20</zType>
@@ -87,7 +87,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_21</zType>
-		<Translation>Straßen helfen Einheiten dabei mit jedem icon(YIELD_ORDERS) sich weiter zu bewegen, besonders wenn die Straßen durch schweres Gelände führen.</Translation>
+		<Translation>Straßen helfen Einheiten dabei mit jedem icon(YIELD_ORDERS)link(YIELD_ORDERS,1) sich weiter zu bewegen, besonders wenn die Straßen durch schweres Gelände führen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_22</zType>
@@ -99,7 +99,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_24</zType>
-		<Translation>Die Anzahl deiner Ordersicon(YIELD_ORDERS) zu vergrößern sollte Vorrang haben. Je mehr Gebiet und Einheiten du kontrollierst, desto mehr Ordersicon(YIELD_ORDERS) wird dein Reich benötigen um zu funktionieren und sich verteidigen zu können.</Translation>
+		<Translation>Die Anzahl deiner link(YIELD_ORDERS)icon(YIELD_ORDERS) zu vergrößern sollte Vorrang haben. Je mehr Gebiet und Einheiten du kontrollierst, desto mehr link(YIELD_ORDERS)icon(YIELD_ORDERS) wird dein Reich benötigen um zu funktionieren und sich verteidigen zu können.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_25</zType>
@@ -115,47 +115,47 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_28</zType>
-		<Translation>Städte mit hohem Growthicon(YIELD_GROWTH) bilden neue link(UNIT_SETTLER,2), link(UNIT_WORKER,2) und link(UNIT_SCOUT,2) schneller aus.</Translation>
+		<Translation>Städte mit hohem ink(YIELD_GROWTH)icon(YIELD_GROWTH) bilden neue link(UNIT_SETTLER,2), link(UNIT_WORKER,2) und link(UNIT_SCOUT,2) schneller aus.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_29</zType>
-		<Translation>Die Rate in welchem militärische Einheiten in einer Stadt ausgebildet werden ist direkt an die Trainingicon(YIELD_TRAINING) Produktion gebunden.</Translation>
+		<Translation>Die Rate in welchem militärische Einheiten in einer Stadt ausgebildet werden ist direkt an die link(YIELD_TRAINING)icon(YIELD_TRAINING) Produktion gebunden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_30</zType>
-		<Translation>Die Rate in welcher Projekte in einer Stadt fertig gestellt werden hängt von der Civicsicon(YIELD_CIVICS) Produktion ab.</Translation>
+		<Translation>Die Rate in welcher Projekte in einer Stadt fertig gestellt werden hängt von der link(YIELD_CIVICS)icon(YIELD_CIVICS) Produktion ab.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_31</zType>
-		<Translation>link(CONCEPT_URBAN Spezialisten können mehrere Male verbessert werden um die Produktion eines link(CONCEPT_URBAN) Gebäudes erheblich zu steigern.</Translation>
+		<Translation>link(CONCEPT_URBAN) Spezialisten können mehrere Male verbessert werden um die Produktion eines link(CONCEPT_URBAN) Gebäudes erheblich zu steigern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_32</zType>
-		<Translation>Die meisten link(CONCEPT_URBAN) Gebäude Typen benötigen Stoneicon(YIELD_STONE um konstruiert zu werden. Erwarte hohen Bedarf an Stoneicon(YIELD_STONE) da das Spiel sich entwickelt und du neue Technologien freischaltest.</Translation>
+		<Translation>Die meisten link(CONCEPT_URBAN) Gebäude Typen benötigen link(YIELD_STONE)icon(YIELD_STONE) um konstruiert zu werden. Erwarte hohen Bedarf an link(YIELD_STONE)icon(YIELD_STONE) da das Spiel sich entwickelt und du neue Technologien freischaltest.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_33</zType>
-		<Translation>link(UNITTRAIT_RANGED) Einheiten sind effizient in Gefächten, oft greifen sie Feine an ohne einen Ordersicon(YIELD_ORDERS) zur Bewegung ausgegeben zu haben.</Translation>
+		<Translation>link(UNITTRAIT_RANGED) Einheiten sind effizient in Gefächten, oft greifen sie Feine an ohne einen link(YIELD_ORDERS)icon(YIELD_ORDERS) zur Bewegung ausgegeben zu haben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_34</zType>
-		<Translation>Woodicon(YIELD_WOOD vom link(VEGETATION_SCRUB) zu entfernen kostet keine Ordersicon(YIELD_ORDERS). Wenn du dich auf einem Weg woanders hin mit einen ink(UNIT_WORKER) durch ein link(VEGETATION_SCRUB) Feld bewegst kannst du etwas kostenloses Woodicon(YIELD_WOOD) sammeln.</Translation>
+		<Translation>link(YIELD_WOOD)icon(YIELD_WOOD) vom link(VEGETATION_SCRUB) zu entfernen kostet keine link(YIELD_ORDERS)icon(YIELD_ORDERS). Wenn du dich auf einem Weg woanders hin mit einen ink(UNIT_WORKER) durch ein link(VEGETATION_SCRUB) Feld bewegst kannst du etwas kostenloses link(YIELD_WOOD)icon(YIELD_WOOD) sammeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_35</zType>
-		<Translation>link(UNIT_MILITIA und link(UNIT_LEVY) Einheiten können nicht befördert werden aber sie werden mit Growthicon(YIELD_GROWTH) anstatt mit Trainingicon(YIELD_TRAINING) ausgebildet. Städte mit hoher Growthicon(YIELD_GROWTH) Produktion können sie zügig ausbilden.</Translation>
+		<Translation>link(UNIT_MILITIA) und link(UNIT_LEVY) Einheiten können nicht befördert werden aber sie werden mit link(YIELD_GROWTH)icon(YIELD_GROWTH) anstatt mit link(YIELD_TRAINING)icon(YIELD_TRAINING) ausgebildet. Städte mit hoher link(YIELD_GROWTH)icon(YIELD_GROWTH) Produktion können sie zügig ausbilden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_36</zType>
-		<Translation>link(UNITTRAIT_MOUNTED Einheiten haben die link(CONCEPT_ROUT) Fähigkeit. Wenn sie eine gegnerische Einheit töten werden sie das Feld der Einheit besetzen. Obwohl sie sich nicht noch mal bewegen kann, kann sie erneut angreifern sofern noch ein Ziel angrenzend an sie ist.</Translation>
+		<Translation>link(UNITTRAIT_MOUNTED) Einheiten haben die link(CONCEPT_ROUT) Fähigkeit. Wenn sie eine gegnerische Einheit töten werden sie das Feld der Einheit besetzen. Obwohl sie sich nicht noch mal bewegen kann, kann sie erneut angreifern sofern noch ein Ziel angrenzend an sie ist.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_37</zType>
-		<Translation>Überlege Trainingicon(YIELD_TRAINING auszugeben um einige deiner Einheiten zu befördern. Einheiten die an einem Gefecht teilgenommen und Erfahrung verdient haben kostet weniger Trainingicon(YIELD_TRAINING um sie zu befördern.</Translation>
+		<Translation>Überlege link(YIELD_TRAINING)icon(YIELD_TRAINING) auszugeben um einige deiner Einheiten zu befördern. Einheiten die an einem Gefecht teilgenommen und Erfahrung verdient haben kostet weniger link(YIELD_TRAINING)icon(YIELD_TRAINING) um sie zu befördern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_38</zType>
-		<Translation>Volksstämme sind keine Reiche. Wenn sie sich mit dir im link(DIPLOMACY_WAR)  befinden können nur ihre Einheiten in deiner Nähe sowie deinem Gebiet eine Bedrohung für dich darstellen, es sei denn du verärgerst sie so sehr das sie einen Einfall starten.</Translation>
+		<Translation>Volksstämme sind keine Reiche. Wenn sie sich mit dir im link(DIPLOMACY_WAR) befinden können nur ihre Einheiten in deiner Nähe sowie deinem Gebiet eine Bedrohung für dich darstellen, es sei denn du verärgerst sie so sehr das sie einen Einfall starten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_39</zType>
@@ -167,15 +167,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_41</zType>
-		<Translation>Consider dealing with Events early in your turn. Some Event options require you to spend Ordersicon(YIELD_ORDERS).</Translation>
+		<Translation>Consider dealing with Events early in your turn. Some Event options require you to spend link(YIELD_ORDERS)icon(YIELD_ORDERS).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_42</zType>
-		<Translation>A link(CONCEPT_ALLIANCE_BARB) allows you to found Cities peacefully next to your Ally's Sites.</Translation>
+		<Translation>A link(CONCEPT_ALLIANCE_TRIBE) allows you to found Cities peacefully next to your Ally's Sites.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_43</zType>
-		<Translation>Civicsicon(YIELD_CIVICS) stockpiles are capped at int(MAX_CIVICS). Above this value, they'll be converted to Scienceicon(YIELD_SCIENCE).</Translation>
+		<Translation>link(YIELD_CIVICS)icon(YIELD_CIVICS) stockpiles are capped at int(MAX_CIVICS). Above this value, they'll be converted to link(YIELD_SCIENCE)icon(YIELD_SCIENCE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_44</zType>
@@ -211,7 +211,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_52</zType>
-		<Translation>If your Leader is not able to complete an Ambition before death, it becomes a Legacy. Legacies count towards an Ambition Victory but are worth less Legitimacyicon(YIELD_LEGITIMACY).</Translation>
+		<Translation>If your Leader is not able to complete an Ambition before death, it becomes a Legacy. Legacies count towards an Ambition Victory but are worth less link(CONCEPT_LEGITIMACY)icon(YIELD_LEGITIMACY).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_53</zType>
@@ -229,16 +229,16 @@
 		<zType>TEXT_HINT_56</zType>
 		<Translation>With a link(UNIT_WORKER) selected, hold CTRL and move the cursor over a tile to see what Improvements can be built there.</Translation>
 	</Entry>
-  <Entry>
-    <zType>TEXT_HINT_57</zType>
-		<Translation>link(UNIT_SCOUT,2 sind in link(VEGETATION_TREES) unsichtbar.</Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HINT_58</zType>
+	<Entry>
+		<zType>TEXT_HINT_57</zType>
+		<Translation>link(UNIT_SCOUT,2) are invisible in link(VEGETATION_TREES).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_58</zType>
 		<Translation>Hold [SHIFT] or [MIDDLE-CLICK] to Freeze Tooltips.</Translation>
-  </Entry>
-  <Entry>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HINT_59</zType>
 		<Translation>Specialist are produced faster in higher-level improvements. (Poets take less time in an link(IMPROVEMENT_THEATER_2) than in an link(IMPROVEMENT_THEATER_1) - and even less time in a link(IMPROVEMENT_THEATER_3).)</Translation>
-    </Entry>	 
+	</Entry>	 
 </Root>

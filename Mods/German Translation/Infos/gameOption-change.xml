@@ -26,8 +26,8 @@
 	</Entry>
 	<Entry>
 		<zType>GAMEOPTION_NO_TRIBES</zType>
-		<zName>Keine Volksstämme</zName>
-		<zHelp>Barbaren sind immer im Krieg mit dem Spieler</zHelp>
+		<zName>Keine Barbaren</zName>
+		<zHelp>Stämme wurden druch link(TRIBE_BARBARIANS) ersetzt.</zHelp>
 	</Entry>
 	<Entry>
 		<zType>GAMEOPTION_NO_FOG_OF_WAR</zType>
@@ -65,7 +65,7 @@
 	</Entry>
 	<Entry>
 		<zType>GAMEOPTION_RANDOMIZE_FAMILIES</zType>
-		<zName>Familien zufällig</zName>
+		<zName>Zufällige Familien</zName>
 		<zHelp>Weise die Gruppe jeder Familie zufällig zu (Weisen, Handwerker, Wettkämpfer, etc).</zHelp>
 	</Entry>
 	<Entry>

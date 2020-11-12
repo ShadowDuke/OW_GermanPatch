@@ -9,7 +9,7 @@
 		<iCombatModifier/>
 		<bSimultaneous/>
 		<bTeamSplit/>	   
-		<bBarbSplit/>
+		<bTribeSplit/>
 		<bNoCooldown/>
 		<bNoBuild/>
 		<bNoMilitary/>
@@ -29,7 +29,7 @@
 		<zHelp>Keine Bewegungsbeschränkung</zHelp>
 		<iTimeModifier>-25</iTimeModifier>
 		<iCombatModifier>50</iCombatModifier>
-		<bBarbSplit>1</bBarbSplit>
+		<bTribeSplit>1</bTribeSplit>
 		<bNoCooldown>1</bNoCooldown>
 	</Entry>
 	<Entry>

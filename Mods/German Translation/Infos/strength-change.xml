@@ -8,7 +8,7 @@
 		<iTruceModifier/>
 		<iWarModifier/>
 		<bDeclareWar/>
-		<bNoPeaceBarb/>		 
+		<bNoPeaceTribe/>		 
 	</Entry>
 	<Entry>
 		<zType>STRENGTH_MUCH_WEAKER</zType>
@@ -16,7 +16,7 @@
 		<iPercent>50</iPercent>
 		<iTruceModifier>50</iTruceModifier>
 		<iWarModifier>-50</iWarModifier>
-		<bNoPeaceBarb>1</bNoPeaceBarb>						
+		<bNoPeaceTribe>1</bNoPeaceTribe>						
 	</Entry>
 	<Entry>
 		<zType>STRENGTH_WEAKER</zType>
@@ -45,6 +45,6 @@
 		<iTruceModifier>-50</iTruceModifier>
 		<iWarModifier>50</iWarModifier>
 		<bDeclareWar>1</bDeclareWar>
-		<bNoPeaceBarb>1</bNoPeaceBarb>						
+		<bNoPeaceTribe>1</bNoPeaceTribe>						
 	</Entry>
 </Root>

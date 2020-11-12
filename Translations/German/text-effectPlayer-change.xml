@@ -107,12 +107,12 @@
 		<Translation>Polytheismus</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_PROFESSIONAL_ARMY</zType>
-		<Translation>Berufsarmee</Translation>
+		<zType>TEXT_EFFECTPLAYER_LAW_DIVINE_RULE</zType>
+		<Translation>Göttliche Herrschaft</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_VOLUNTEERS</zType>
-		<Translation>Freiwillige</Translation>
+		<zType>TEXT_EFFECTPLAYER_LAW_LEGAL_CODE</zType>
+		<Translation>Gesetzbuch</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_LAW_TOLERANCE</zType>
@@ -123,12 +123,12 @@
 		<Translation>Rechtgläubigkeit</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_GUILDS</zType>
-		<Translation>Gilden</Translation>
+		<zType>TEXT_EFFECTPLAYER_LAW_PROFESSIONAL_ARMY</zType>
+		<Translation>Berufsarmee</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_ELITES</zType>
-		<Translation>Eliten</Translation>
+		<zType>TEXT_EFFECTPLAYER_LAW_VOLUNTEERS</zType>
+		<Translation>Freiwillige</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_LAW_PHILOSOPHY</zType>
@@ -155,12 +155,12 @@
 		<Translation>Heiliger Krieg</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_DIVINE_RULE</zType>
-		<Translation>Göttliche Herrschaft</Translation>
+		<zType>TEXT_EFFECTPLAYER_LAW_GUILDS</zType>
+		<Translation>Gilden</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_SECULARISM</zType>
-		<Translation>Laizitätsprinzip</Translation>
+		<zType>TEXT_EFFECTPLAYER_LAW_ELITES</zType>
+		<Translation>Eliten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_LAW_ISOLATIONISM</zType>
@@ -281,5 +281,21 @@
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_VERY_HIGH_SCIENCE</zType>
 		<Translation>Sehr hohe Wissenschaft</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_UPKEEP_LOW_MONEY</zType>
+		<Translation>Wenig Gold</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_UPKEEP_MEDIUM_MONEY</zType>
+		<Translation>Mittleres Gold</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_UPKEEP_HIGH_MONEY</zType>
+		<Translation>Hohes Gold</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_UPKEEP_VERY_HIGH_MONEY</zType>
+		<Translation>Sehr hohes Gold</Translation>
 	</Entry>
 </Root>

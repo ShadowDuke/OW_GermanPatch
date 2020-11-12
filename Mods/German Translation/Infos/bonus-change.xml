@@ -8,8 +8,8 @@
 		<MemoryPlayer comment="Memory received by the Player Subject"/>
 		<ForgetPlayer comment="Memory forgotten by the Player Subject"/>
 		<MemoryAllPlayers comment="Memory received by all rival Players"/>
-		<MemoryBarb comment="Memory received by the Barbarian Subject"/>
-		<ForgetBarb comment="Memory forgotten by the Barbarian Subject"/>
+		<MemoryTribe comment="Memory received by the Barbarian Subject"/>
+		<ForgetTribe comment="Memory forgotten by the Barbarian Subject"/>
 		<MemoryReligion comment="Memory received by the Religion Subject"/>
 		<ForgetReligion comment="Memory forgotten by the Religion Subject"/>
 		<MemoryFamily comment="Memory received by the Family Subject"/>
@@ -21,7 +21,7 @@
 		<RemoveLeaderRelationship comment="Remove a Relationship towards the Leader"/>
 		<DiplomacyPlayerFrom comment="Diplomacy state (from diplomacy.xml) to which the Player Subject is set, initiated by Us"/>
 		<DiplomacyPlayerTo comment="Diplomacy state (from diplomacy.xml) to which the Player Subject is set, initiated by the Other Player"/>
-		<DiplomacyBarb comment="Diplomacy state (from diplomacy.xml) to which the Barbarian Subject is set"/>
+		<DiplomacyTribe comment="Diplomacy state (from diplomacy.xml) to which the Barbarian Subject is set"/>
 		<MakeCourtier comment="Makes the character Subject into this type of courtier which is added to the Player's court"/>
 		<StartLaw comment="Law enacted. You must pay the normal Civics cost"/>
 		<EndLaw comment="Law cancelled"/>
@@ -77,9 +77,9 @@
 		<bCancelTrade comment="Will cancel trade with this Player"/>
 		<bTeamAlliance comment="Will make an Alliance with this Player"/>
 		<bTeamAllianceEnd comment="Will end an Alliance with this Player"/>
-		<bBarbAlliance comment="Will make an Alliance with this Barbarian"/>
-		<bBarbAllianceEnd comment="Will end an Alliance with this Barbarian"/>
-		<bBarbInvade comment="Tribe will send a number of Units to raid the Player"/>
+		<bTribeAlliance comment="Will make an Alliance with this Barbarian"/>
+		<bTribeAllianceEnd comment="Will end an Alliance with this Barbarian"/>
+		<bTribeInvade comment="Tribe will send a number of Units to raid the Player"/>
 		<bAdoptReligion comment="Adopt this Religion the Player's State Religion (with paying the cost)"/>
 		<bStateReligion comment="Set this Religion the Player's State Religion (without paying the cost)"/>
 		<bStateReligionEnd comment="Clears the Player's State Religion"/>
@@ -100,7 +100,7 @@
 		<bHaveBastard comment="Character will have a bastard child"/>
 		<bKillUnit comment="If set to 1 (true), the Unit Subject dies immediately"/>
 		<bRemoveVegetation comment="Removes Vegetation from the Tile"/>
-		<bBarbRaid comment="Starts a raid from the Barbarian settlement on the Tile"/>
+		<bTribeRaid comment="Starts a raid from the Barbarian settlement on the Tile"/>
 		<aiCityYields comment="List of Yields (Money, Science, etc.) gained in the City Subject"/>
 		<aiGlobalYieldsBase comment="List of Yields (Money, Science, etc.) gained by the Player. This is distinct from aicityYields in that it is added directly to the national stockpile, not to any particular City"/>
 		<aiGlobalYieldsPer comment="List of Yields per City gained by the Player. For example, if this is 20 Money, and the Player has 3 cities, the Player will gain 60 Money"/>
@@ -138,7 +138,8 @@
 		<AddRelationshipReverse comment="Give the previous Character at this index a Relationship with this Character"/>
 		<RemoveRelationshipSubjects comment="Remove the Relationship of this Character with the previous Character at this index"/>
 		<RemoveRelationshipReverse comment="Remove the Relationship of the previous Character at this index with this Character"/>
-		<AddCourtierGender comment="List of courtiers with assigned gender to be added to the Subjects's court"/>
+		<AddCourtierForce comment="List of courtiers with assigned gender to be added to the Subjects's court, ignoring the Courtier Capacity"/>
+		<AddCourtier comment="List of courtiers with assigned gender to be added to the Subjects's court"/>																							 
 		<AddCourtierOther comment="List of courtiers with assigned gender to be added to the Humans's court but with the Subject's nationality"/>																																
 	</Entry>
 	<!-- Divider -->
@@ -148,8 +149,8 @@
 		<Victory/>	
 		<MemoryPlayer/>
 		<ForgetPlayer/>
-		<MemoryBarb/>
-		<ForgetBarb/>
+		<MemoryTribe/>
+		<ForgetTribe/>
 		<MemoryReligion/>
 		<ForgetReligion/>
 		<MemoryFamily/>
@@ -161,7 +162,7 @@
 		<RemoveLeaderRelationship/>
 		<DiplomacyPlayerFrom/>
 		<DiplomacyPlayerTo/>
-		<DiplomacyBarb/>
+		<DiplomacyTribe/>
 		<MakeCourtier/>
     <StartLaw/>
     <EndLaw/>
@@ -216,9 +217,9 @@
 		<bCancelTrade/>
 		<bTeamAlliance/>
 		<bTeamAllianceEnd/>
-		<bBarbAlliance/>
-		<bBarbAllianceEnd/>
-		<bBarbInvade/>
+		<bTribeAlliance/>
+		<bTribeAllianceEnd/>
+		<bTribeInvade/>
 		<bAdoptReligion/>
 		<bStateReligion/>
 		<bStateReligionEnd/>
@@ -239,7 +240,7 @@
 		<bHaveBastard/>
 		<bKillUnit/>
 		<bRemoveVegetation/>
-		<bBarbRaid/>	  
+		<bTribeRaid/>
 		<aiCityYields/>
 		<aiGlobalYieldsBase/>
 		<aiGlobalYieldsPer/>
@@ -275,7 +276,8 @@
 		<AddRelationshipReverse/>
 		<RemoveRelationshipSubjects/>
 		<RemoveRelationshipReverse/>
-		<AddCourtierGender/>
+		<AddCourtierForce/>
+		<AddCourtier/>
 		<AddCourtierOther/>			 
 	</Entry>
 	<Entry>
@@ -288,7 +290,7 @@
 		<iCitizens>1</iCitizens>
 	</Entry>
 	<Entry>
-		<zType>BONUS_BARBARIAN_FOUND</zType>
+		<zType>BONUS_TRIBE_FOUND</zType>
 		<zName>Auf Barbaren Land gegründet</zName>
 		<iLegitimacy>-10</iLegitimacy>
 	</Entry>
@@ -367,58 +369,58 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_BARBARIAN_WAR</zType>
-		<DiplomacyBarb>DIPLOMACY_WAR</DiplomacyBarb>
+		<DiplomacyTribe>DIPLOMACY_WAR</DiplomacyTribe>
 	</Entry>
 	<Entry>
 		<zType>BONUS_BARBARIAN_WAR_LEGITIMACY</zType>
 		<zName>Furchtlos gegenüber Stämmen</zName>
-		<DiplomacyBarb>DIPLOMACY_WAR</DiplomacyBarb>
+		<DiplomacyTribe>DIPLOMACY_WAR</DiplomacyTribe>
 		<iLegitimacy>5</iLegitimacy>
 	</Entry>
 	<Entry>
-		<zType>BONUS_DECLARE_WAR_BARBARIAN</zType>
-		<MemoryBarb>MEMORYBARBARIAN_DECLARED_WAR</MemoryBarb>
-		<DiplomacyBarb>DIPLOMACY_WAR</DiplomacyBarb>
+		<zType>BONUS_DECLARE_WAR_TRIBE</zType>
+		<MemoryTribe>MEMORYTRIBE_DECLARED_WAR</MemoryTribe>
+		<DiplomacyTribe>DIPLOMACY_WAR</DiplomacyTribe>
 	</Entry>
 	<Entry>
 		<zType>BONUS_BARBARIAN_TRUCE</zType>
-		<DiplomacyBarb>DIPLOMACY_TRUCE</DiplomacyBarb>
+		<DiplomacyTribe>DIPLOMACY_TRUCE</DiplomacyTribe>
 	</Entry>
 	<Entry>
 		<zType>BONUS_BARBARIAN_TRUCE_LEGITIMACY</zType>
 		<zName>Vereinbarte eine Waffenruhe mit einem Stamm</zName>
-		<DiplomacyBarb>DIPLOMACY_TRUCE</DiplomacyBarb>
+		<DiplomacyTribe>DIPLOMACY_TRUCE</DiplomacyTribe>
 		<iLegitimacy>-1</iLegitimacy>
 	</Entry>
 	<Entry>
 		<zType>BONUS_BARBARIAN_PEACE</zType>
-		<DiplomacyBarb>DIPLOMACY_PEACE</DiplomacyBarb>
+		<DiplomacyTribe>DIPLOMACY_PEACE</DiplomacyTribe>
 	</Entry>
 	<Entry>
 		<zType>BONUS_BARBARIAN_PEACE_LEGITIMACY</zType>
 		<zName>Vereinbarte Frieden mit einem Stamm</zName>
-		<DiplomacyBarb>DIPLOMACY_PEACE</DiplomacyBarb>
+		<DiplomacyTribe>DIPLOMACY_PEACE</DiplomacyTribe>
 		<iLegitimacy>-1</iLegitimacy>
 	</Entry>
 	<Entry>
-		<zType>BONUS_BARBARIAN_ALLIANCE</zType>
+		<zType>BONUS_TRIBE_ALLIANCE</zType>
 		<zName>Vereinbarte ein Bündnis mit einem Stamm</zName>
 		<iLegitimacy>-2</iLegitimacy>
-		<bBarbAlliance>1</bBarbAlliance>
+		<bTribeAlliance>1</bTribeAlliance>
 	</Entry>
 	<Entry>
-		<zType>BONUS_BARBARIAN_ALLIANCE_END</zType>
-		<bBarbAllianceEnd>1</bBarbAllianceEnd>
+		<zType>BONUS_TRIBE_ALLIANCE_END</zType>
+		<bTribeAllianceEnd>1</bTribeAllianceEnd>
 	</Entry>
 	<Entry>
 		<zType>BONUS_BARBARIAN_INVASION</zType>
-		<bBarbInvade>1</bBarbInvade>
+		<bTribeInvade>1</bTribeInvade>
 	</Entry>
 	<Entry>
 		<zType>BONUS_BARBARIAN_INVASION_LEGITIMACY</zType>
 		<zName>Furchtlos gegenüber Invasion</zName>
 		<iLegitimacy>10</iLegitimacy>
-		<bBarbInvade>1</bBarbInvade>
+		<bTribeInvade>1</bTribeInvade>
 	</Entry>
 	<Entry>
 		<zType>BONUS_CANCEL_TRADE</zType>
@@ -523,12 +525,12 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_FAMILYCLASS_PATRONS_SEAT</zType>
-		<AddCourtierGender>
+		<AddCourtierForce>
 			<Pair>
 				<zIndex>COURTIER_GREAT_MINISTER</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
-		</AddCourtierGender>
+		</AddCourtierForce>
 	</Entry>
 	<Entry>
 		<zType>BONUS_FAMILYCLASS_CLERICS_SEAT</zType>
@@ -545,12 +547,12 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_FAMILYCLASS_TRADERS_SEAT</zType>
-		<AddCourtierGender>
+		<AddCourtierForce>
 			<Pair>
 				<zIndex>COURTIER_GREAT_MERCHANT</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
-		</AddCourtierGender>
+		</AddCourtierForce>
 	</Entry>
 	<Entry>
 		<zType>BONUS_FAMILYCLASS_ARTISANS_SEAT</zType>
@@ -807,12 +809,12 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_IMPROVEMENT_PANTHEON</zType>
-		<AddCourtierGender>
+		<AddCourtierForce>
 			<Pair>
 				<zIndex>COURTIER_GREAT_MERCHANT</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
-		</AddCourtierGender>
+		</AddCourtierForce>
 	</Entry>
 	<Entry>
 		<zType>BONUS_IMPROVEMENT_ORACLE</zType>
@@ -896,13 +898,13 @@
 		<aiOtherYieldsBase>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
-				<iValue>40</iValue>
+				<iValue>80</iValue>
 			</Pair>
 		</aiOtherYieldsBase>
 		<aiOtherYieldsPer>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
-				<iValue>20</iValue>
+				<iValue>40</iValue>
 			</Pair>
 		</aiOtherYieldsPer>
 	</Entry>
@@ -913,13 +915,13 @@
 		<aiOtherYieldsBase>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
-				<iValue>40</iValue>
+				<iValue>80</iValue>
 			</Pair>
 		</aiOtherYieldsBase>
 		<aiOtherYieldsPer>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
-				<iValue>20</iValue>
+				<iValue>40</iValue>
 			</Pair>
 		</aiOtherYieldsPer>
 	</Entry>
@@ -1561,12 +1563,12 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TECH_CITIZENSHIP_BONUS_MINISTER</zType>
-		<AddCourtierGender>
+		<AddCourtierForce>
 			<Pair>
 				<zIndex>COURTIER_GREAT_MINISTER</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
-		</AddCourtierGender>
+		</AddCourtierForce>
 	</Entry>
 	<Entry>
 		<zType>BONUS_TECH_PORTCULLIS_BONUS_MACEMAN</zType>
@@ -1606,12 +1608,12 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TECH_SCHOLARSHIP_BONUS_SCIENTIST</zType>
-		<AddCourtierGender>
+		<AddCourtierForce>
 			<Pair>
 				<zIndex>COURTIER_GREAT_SCIENTIST</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
-		</AddCourtierGender>
+		</AddCourtierForce>
 	</Entry>
 	<Entry>
 		<zType>BONUS_TECH_TORSION_BONUS_BALLISTA</zType>
@@ -1695,12 +1697,12 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TECH_HYDRAULICS_BONUS_MERCHANT</zType>
-		<AddCourtierGender>
+		<AddCourtierForce>
 			<Pair>
 				<zIndex>COURTIER_GREAT_MERCHANT</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
-		</AddCourtierGender>
+		</AddCourtierForce>
 	</Entry>
 	<Entry>
 		<zType>BONUS_TECH_BODKIN_ARROW_BONUS_TRAINING</zType>
@@ -1713,12 +1715,12 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TECH_UNIT_TACTICS_BONUS_SOLDIER</zType>
-		<AddCourtierGender>
+		<AddCourtierForce>
 			<Pair>
 				<zIndex>COURTIER_GREAT_SOLDIER</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
-		</AddCourtierGender>
+		</AddCourtierForce>
 	</Entry>
 	<Entry>
 		<zType>BONUS_TECH_WINDLASS_BONUS_CROSSBOWMAN</zType>
@@ -1740,30 +1742,30 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TECH_MILITARY_REFORM</zType>
-		<AddCourtierGender>
+		<AddCourtierForce>
 			<Pair>
 				<zIndex>COURTIER_GREAT_SOLDIER</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
-		</AddCourtierGender>
+		</AddCourtierForce>
 	</Entry>
 	<Entry>
 		<zType>BONUS_TECH_POLITICAL_REFORM</zType>
-		<AddCourtierGender>
+		<AddCourtierForce>
 			<Pair>
 				<zIndex>COURTIER_GREAT_MINISTER</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
-		</AddCourtierGender>
+		</AddCourtierForce>
 	</Entry>
 	<Entry>
 		<zType>BONUS_TECH_ECONOMIC_REFORM</zType>
-		<AddCourtierGender>
+		<AddCourtierForce>
 			<Pair>
 				<zIndex>COURTIER_GREAT_MERCHANT</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
-		</AddCourtierGender>
+		</AddCourtierForce>
 	</Entry>
 	<Entry>
 		<zType>BONUS_TECH_BATTERING_RAM_UNIT</zType>
@@ -1960,39 +1962,39 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_ADD_GREAT_SOLDIER</zType>
-		<AddCourtierGender>
+		<AddCourtier>
 			<Pair>
 				<zIndex>COURTIER_GREAT_SOLDIER</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
-		</AddCourtierGender>
+		</AddCourtier>
 	</Entry>
 	<Entry>
 		<zType>BONUS_ADD_GREAT_MINISTER</zType>
-		<AddCourtierGender>
+		<AddCourtier>
 			<Pair>
 				<zIndex>COURTIER_GREAT_MINISTER</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
-		</AddCourtierGender>
+		</AddCourtier>
 	</Entry>
 	<Entry>
 		<zType>BONUS_ADD_GREAT_MERCHANT</zType>
-		<AddCourtierGender>
+		<AddCourtier>
 			<Pair>
 				<zIndex>COURTIER_GREAT_MERCHANT</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
-		</AddCourtierGender>
+		</AddCourtier>
 	</Entry>
 	<Entry>
 		<zType>BONUS_ADD_GREAT_SCIENTIST</zType>
-		<AddCourtierGender>
+		<AddCourtier>
 			<Pair>
 				<zIndex>COURTIER_GREAT_SCIENTIST</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
-		</AddCourtierGender>
+		</AddCourtier>
 	</Entry>
 	<Entry>
 		<zType>BONUS_ADOPT_RELIGION</zType>
@@ -2020,7 +2022,7 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_BARB_RAID</zType>
-		<bBarbRaid>1</bBarbRaid>
+		<bTribeRaid>1</bTribeRaid>
 	</Entry>
 	<Entry>
 		<zType>BONUS_XP_UNIT_SMALL</zType>
@@ -6825,6 +6827,12 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
+		<zType>BONUS_GIVE_TRAIT_PREGNANT</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_PREGNANT</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>
 		<zType>BONUS_GIVE_TRAIT_SLIGHTED</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_SLIGHTED</zValue>
@@ -6940,6 +6948,12 @@
 		<zType>BONUS_REMOVE_TRAIT_ABDICATED</zType>
 		<aeRemoveTraits>
 			<zValue>TRAIT_ABDICATED</zValue>
+		</aeRemoveTraits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_REMOVE_TRAIT_DOG_OWNER</zType>
+		<aeRemoveTraits>
+			<zValue>TRAIT_DOG_OWNER</zValue>
 		</aeRemoveTraits>
 	</Entry>
 </Root>

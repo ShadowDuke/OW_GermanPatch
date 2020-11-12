@@ -192,7 +192,7 @@
 		<iMinValue>2000</iMinValue>
 		<aiStatValue>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_CLEARED</zIndex>
+				<zIndex>STAT_TRIBE_CLEARED</zIndex>
 				<iValue>500</iValue>
 			</Pair>
 		</aiStatValue>
@@ -204,7 +204,7 @@
 		<iMinValue>4000</iMinValue>
 		<aiStatValue>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_CLEARED</zIndex>
+				<zIndex>STAT_TRIBE_CLEARED</zIndex>
 				<iValue>500</iValue>
 			</Pair>
 		</aiStatValue>
@@ -216,7 +216,7 @@
 		<iMinValue>6000</iMinValue>
 		<aiStatValue>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_CLEARED</zIndex>
+				<zIndex>STAT_TRIBE_CLEARED</zIndex>
 				<iValue>500</iValue>
 			</Pair>
 		</aiStatValue>
@@ -228,15 +228,15 @@
 		<iMinValue>3000</iMinValue>
 		<aiStatValue>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_PEACE</zIndex>
+				<zIndex>STAT_TRIBE_PEACE</zIndex>
 				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_ALLIANCE</zIndex>
+				<zIndex>STAT_TRIBE_ALLIANCE</zIndex>
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
+				<zIndex>STAT_TRIBE_CONVERSION</zIndex>
 				<iValue>500</iValue>
 			</Pair>
 		</aiStatValue>
@@ -248,15 +248,15 @@
 		<iMinValue>5000</iMinValue>
 		<aiStatValue>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_PEACE</zIndex>
+				<zIndex>STAT_TRIBE_PEACE</zIndex>
 				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_ALLIANCE</zIndex>
+				<zIndex>STAT_TRIBE_ALLIANCE</zIndex>
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
+				<zIndex>STAT_TRIBE_CONVERSION</zIndex>
 				<iValue>500</iValue>
 			</Pair>
 		</aiStatValue>
@@ -484,7 +484,7 @@
 		<iMinValue>2000</iMinValue>
 		<aiStatValue>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
+				<zIndex>STAT_TRIBE_CONVERSION</zIndex>
 				<iValue>500</iValue>
 			</Pair>
 			<Pair>
@@ -508,7 +508,7 @@
 		<iMinValue>4000</iMinValue>
 		<aiStatValue>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
+				<zIndex>STAT_TRIBE_CONVERSION</zIndex>
 				<iValue>500</iValue>
 			</Pair>
 			<Pair>
@@ -648,19 +648,19 @@
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_CLEARED</zIndex>
+				<zIndex>STAT_TRIBE_CLEARED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_PEACE</zIndex>
+				<zIndex>STAT_TRIBE_PEACE</zIndex>
 				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_ALLIANCE</zIndex>
+				<zIndex>STAT_TRIBE_ALLIANCE</zIndex>
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
+				<zIndex>STAT_TRIBE_CONVERSION</zIndex>
 				<iValue>500</iValue>
 			</Pair>
 			<Pair>
@@ -780,19 +780,19 @@
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_CLEARED</zIndex>
+				<zIndex>STAT_TRIBE_CLEARED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_PEACE</zIndex>
+				<zIndex>STAT_TRIBE_PEACE</zIndex>
 				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_ALLIANCE</zIndex>
+				<zIndex>STAT_TRIBE_ALLIANCE</zIndex>
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
+				<zIndex>STAT_TRIBE_CONVERSION</zIndex>
 				<iValue>500</iValue>
 			</Pair>
 			<Pair>
@@ -845,7 +845,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RUINS_EXPLORED</zIndex>
-				<iValue>1000</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_NATION_FOUNDED</zIndex>
@@ -912,19 +912,19 @@
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_CLEARED</zIndex>
+				<zIndex>STAT_TRIBE_CLEARED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_PEACE</zIndex>
+				<zIndex>STAT_TRIBE_PEACE</zIndex>
 				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_ALLIANCE</zIndex>
+				<zIndex>STAT_TRIBE_ALLIANCE</zIndex>
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
+				<zIndex>STAT_TRIBE_CONVERSION</zIndex>
 				<iValue>500</iValue>
 			</Pair>
 			<Pair>
@@ -977,7 +977,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RUINS_EXPLORED</zIndex>
-				<iValue>1000</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_NATION_FOUNDED</zIndex>
@@ -1044,19 +1044,19 @@
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_CLEARED</zIndex>
+				<zIndex>STAT_TRIBE_CLEARED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_PEACE</zIndex>
+				<zIndex>STAT_TRIBE_PEACE</zIndex>
 				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_ALLIANCE</zIndex>
+				<zIndex>STAT_TRIBE_ALLIANCE</zIndex>
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
+				<zIndex>STAT_TRIBE_CONVERSION</zIndex>
 				<iValue>500</iValue>
 			</Pair>
 			<Pair>
@@ -1109,7 +1109,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RUINS_EXPLORED</zIndex>
-				<iValue>1000</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_NATION_FOUNDED</zIndex>
@@ -1176,19 +1176,19 @@
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_CLEARED</zIndex>
+				<zIndex>STAT_TRIBE_CLEARED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_PEACE</zIndex>
+				<zIndex>STAT_TRIBE_PEACE</zIndex>
 				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_ALLIANCE</zIndex>
+				<zIndex>STAT_TRIBE_ALLIANCE</zIndex>
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
+				<zIndex>STAT_TRIBE_CONVERSION</zIndex>
 				<iValue>500</iValue>
 			</Pair>
 			<Pair>
@@ -1241,7 +1241,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RUINS_EXPLORED</zIndex>
-				<iValue>1000</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_NATION_FOUNDED</zIndex>
@@ -1308,19 +1308,19 @@
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_CLEARED</zIndex>
+				<zIndex>STAT_TRIBE_CLEARED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_PEACE</zIndex>
+				<zIndex>STAT_TRIBE_PEACE</zIndex>
 				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_ALLIANCE</zIndex>
+				<zIndex>STAT_TRIBE_ALLIANCE</zIndex>
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
+				<zIndex>STAT_TRIBE_CONVERSION</zIndex>
 				<iValue>500</iValue>
 			</Pair>
 			<Pair>
@@ -1373,7 +1373,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RUINS_EXPLORED</zIndex>
-				<iValue>1000</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_NATION_FOUNDED</zIndex>
@@ -1440,19 +1440,19 @@
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_CLEARED</zIndex>
+				<zIndex>STAT_TRIBE_CLEARED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_PEACE</zIndex>
+				<zIndex>STAT_TRIBE_PEACE</zIndex>
 				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_ALLIANCE</zIndex>
+				<zIndex>STAT_TRIBE_ALLIANCE</zIndex>
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
+				<zIndex>STAT_TRIBE_CONVERSION</zIndex>
 				<iValue>500</iValue>
 			</Pair>
 			<Pair>
@@ -1505,7 +1505,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RUINS_EXPLORED</zIndex>
-				<iValue>1000</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_NATION_FOUNDED</zIndex>
@@ -1572,19 +1572,19 @@
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_CLEARED</zIndex>
+				<zIndex>STAT_TRIBE_CLEARED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_PEACE</zIndex>
+				<zIndex>STAT_TRIBE_PEACE</zIndex>
 				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_ALLIANCE</zIndex>
+				<zIndex>STAT_TRIBE_ALLIANCE</zIndex>
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_BARBARIAN_CONVERSION</zIndex>
+				<zIndex>STAT_TRIBE_CONVERSION</zIndex>
 				<iValue>500</iValue>
 			</Pair>
 			<Pair>
@@ -1637,7 +1637,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RUINS_EXPLORED</zIndex>
-				<iValue>1000</iValue>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_NATION_FOUNDED</zIndex>

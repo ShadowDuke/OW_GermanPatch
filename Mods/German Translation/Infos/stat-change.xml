@@ -14,19 +14,19 @@
 		<zName>Vermächtnis vollendet</zName>
 	</Entry>
 	<Entry>
-		<zType>STAT_BARBARIAN_CLEARED</zType>
+		<zType>STAT_TRIBE_CLEARED</zType>
 		<zName>Barbaren gesäubert</zName>
 	</Entry>
 	<Entry>
-		<zType>STAT_BARBARIAN_PEACE</zType>
+		<zType>STAT_TRIBE_PEACE</zType>
 		<zName>Barbaren Frieden</zName>
 	</Entry>
 	<Entry>
-		<zType>STAT_BARBARIAN_ALLIANCE</zType>
+		<zType>STAT_TRIBE_ALLIANCE</zType>
 		<zName>Barbaren Bündnis</zName>
 	</Entry>
 	<Entry>
-		<zType>STAT_BARBARIAN_CONVERSION</zType>
+		<zType>STAT_TRIBE_CONVERSION</zType>
 		<zName>Barbaren Glaubenswechsel</zName>
 	</Entry>
 	<Entry>

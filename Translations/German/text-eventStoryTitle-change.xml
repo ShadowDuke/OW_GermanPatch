@@ -726,11 +726,11 @@
 		<Translation>Acquired Taste</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_ALLIANCE_OFFER_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_ALLIANCE_OFFER_TITLE</zType>
 		<Translation>Barbaren Bündnis Angebot</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_ALLIANCE_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_ALLIANCE_TITLE</zType>
 		<Translation>Barbaren Bündnis</Translation>
 	</Entry>
 	<Entry>
@@ -976,6 +976,10 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DECLARE_WAR_DEMAND_TITLE</zType>
 		<Translation>link(DIPLOMACY_WAR) Demand</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DECLARE_ALLY_DEMAND_WAR_TITLE</zType>
+		<Translation>[BÜNDNIS VERLANGEN]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_TITLE</zType>
@@ -2782,6 +2786,10 @@
 		<Translation>Ongoing Alliance</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTSTORY_ALLIANCE_END_TITLE</zType>
+		<Translation>Ende des Bündnisses</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_LOVE_KILLS_TITLE</zType>
 		<Translation>Love Kills</Translation>
 	</Entry>
@@ -4173,6 +4181,150 @@
 		<zType>TEXT_EVENTSTORY_STUDY_ASSIGNMENT_FURIOUS_TITLE</zType>
 		<Translation>An Assignment</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_EVENTSTORY_LEADER_LOVED_TITLE</zType>
+		<Translation>Poem</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_LOVE_POEM_TITLE</zType>
+		<Translation>Love Poem</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_BAWDY_POEM_TITLE</zType>
+		<Translation>Bawdy  Poem</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_LOVE_LETTER_TITLE</zType>
+		<Translation>Love Letter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_RIBALD_LETTER_TITLE</zType>
+		<Translation>Ribald Letter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_LOVE_GIFT_TITLE</zType>
+		<Translation>A Gift</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_LOVE_GIFT_SPOUSE_TITLE</zType>
+		<Translation>A Gift</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_PROPOSITION_TITLE</zType>
+		<Translation>Proposition</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_FLIRT_ONE_TITLE</zType>
+		<Translation>Unexpected Flirt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_FLIRT_TWO_TITLE</zType>
+		<Translation>Unexpected Flirt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_LOVE_RIVAL_JEALOUS_TITLE</zType>
+		<Translation>Love Rival</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_LOVE_RIVAL_VENGEFUL_TITLE</zType>
+		<Translation>Love Rival</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_THRILLING_CONVERSATION_TITLE</zType>
+		<Translation>Thrilling Conversation</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_DREAMY_GAZE_TITLE</zType>
+		<Translation>Dreamy Gaze</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_MARKSMAN_TITLE</zType>
+		<Translation>Another Bullseye</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_BRAVE_BOASTS_TITLE</zType>
+		<Translation>Brave Boasts</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_BOLD_BOASTS_TITLE</zType>
+		<Translation>Bold Boasts</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_FISHER_TITLE</zType>
+		<Translation>The one that got away</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_ROBUST_TITLE</zType>
+		<Translation>Sheer Strength</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_HORSING_AROUND_TITLE</zType>
+		<Translation>Horsing Around</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_MOCKING_LAUGHTER_TITLE</zType>
+		<Translation>Mocking Laughter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_NIGHT_TERRORS_TITLE</zType>
+		<Translation>Night Terrors</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_NIGHT_TERRORS_SPOUSE_TITLE</zType>
+		<Translation>Night Terrors</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_ENTIRELY_ABSORBED_TITLE</zType>
+		<Translation>Entirely Absorbed</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_ENTIRELY_ABSORBED_SPOUSE_TITLE</zType>
+		<Translation>Entirely Absorbed</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_EXTRAVAGANT_GIFT_TITLE</zType>
+		<Translation>Extravagant Gift</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_ROMANTIC_ENCOUNTER_TITLE</zType>
+		<Translation>Romantic Encounter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_ROMANTIC_ENCOUNTER_SPOUSE_TITLE</zType>
+		<Translation>Romantic Encounter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_ROMANTIC_ENCOUNTER_SPOUSE_TWO_TITLE</zType>
+		<Translation>Romantic Encounter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEGITIMIZE_SPOUSES_HONORS_TITLE</zType>
+		<Translation>A Spouse's Honors</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEGITIMIZE_BASTARDS_LOVE_TITLE</zType>
+		<Translation>A Bastard's Love</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEGITIMIZE_BASTARDS_BODY_TITLE</zType>
+		<Translation>The Bastard's Body</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEGITIMIZE_BASTARDS_BODY_LOVER_TITLE</zType>
+		<Translation>The Bastard's Body</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEGITIMIZE_BASTARDS_BODY_RIVAL_TITLE</zType>
+		<Translation>The Bastard's Body</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEGITIMIZE_BASTARDS_BODY_ACCIDENT_TITLE</zType>
+		<Translation>The Bastard's Body</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEGITIMIZE_THREE_FAMILIES_CONCERN_TITLE</zType>
+		<Translation>Noble Concerns</Translation>
+	</Entry>	 
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS_TITLE</zType>
 		<Translation>Immigrants</Translation>
@@ -4570,8 +4722,8 @@
 		<Translation>link(LAW_PILGRIMAGE) or link(LAW_HOLY_WAR)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_DIVINE_RULE_SECULARISM_TITLE</zType>
-		<Translation>link(LAW_DIVINE_RULE) or link(LAW_SECULARISM)</Translation>
+		<zType>TEXT_EVENTSTORY_DIVINE_RULE_LEGAL_CODE_TITLE</zType>
+		<Translation>link(LAW_DIVINE_RULE) or link(LAW_LEGAL_CODE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ISOLATIONISM_TRADE_LEAGUE_TITLE</zType>
@@ -6033,6 +6185,54 @@
 		<zType>TEXT_EVENTSTORY_SECRET_RITUALS_TITLE</zType>
 		<Translation>Secret Rituals</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_WALL_OF_BATTLE_TITLE</zType>
+		<Translation>Wall of Battle</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BLOODSPORT_TITLE</zType>
+		<Translation>Bloodsport</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYFUL_CRITICISM_TITLE</zType>
+		<Translation>Playful Criticism</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SPECIAL_STATUS_TITLE</zType>
+		<Translation>Special Status</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BE_PREPARED_TITLE</zType>
+		<Translation>Be Prepared</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_ENEMY_BLACKSMITHS_TITLE</zType>
+		<Translation>Enemy Blacksmiths</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_GROWING_THIRST_TITLE</zType>
+		<Translation>Growing Thirst</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_IN_REMEMBRANCE_TITLE</zType>
+		<Translation>In Remembrance</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_FULL_OF_IDEAS_TITLE</zType>
+		<Translation>Full of Ideas</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BLINDED_BY_THE_LIGHT_TITLE</zType>
+		<Translation>Blinded by the Light</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_OVERABUNDANCE_TITLE</zType>
+		<Translation>Overabundance</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MILITARY_GRIEVANCES_TITLE</zType>
+		<Translation>Military Grievances</Translation>
+	</Entry>	 
 	<Entry beginGroup="Tutorial">
 		<zType>TEXT_EVENTSTORY_VICTORY_POINTS_TITLE</zType>
 		<Translation>PUNKTE SIEG!</Translation>
@@ -6071,15 +6271,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SECOND_CITY_TITLE</zType>
-		<Translation>Deine zweite Stadt</Translation>
+		<Translation>Tutorial: Deine zweite Stadt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_WORKER_SELECTED_TITLE</zType>
-		<Translation>Der link(UNIT_WORKER)</Translation>
+		<Translation>Tutorial: Der link(UNIT_WORKER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_SLINGER_SELECTED_TITLE</zType>
-		<Translation>Der link(UNIT_SLINGER)</Translation>
+		<Translation>Tutorial: Der link(UNIT_SLINGER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_WARRIOR_SELECTED_TITLE</zType>
@@ -6215,19 +6415,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MEDDLING_AMBASSADOR_TITLE</zType>
-		<Translation>[AMBASSADOR REVEALS PLANS]</Translation>
+		<Translation>Secret Negotiations</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MEDDLING_CHANCELLOR_TITLE</zType>
-		<Translation>[CHANCELLOR REVEALS PLANS]</Translation>
+		<Translation>The Defector</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MEDDLING_SPYMASTER_TITLE</zType>
-		<Translation>[SPYMASTER REVEALS PLANS]</Translation>
+		<Translation>Machinations</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MEDDLING_USURP_TITLE</zType>
-		<Translation>[USURPED]</Translation>
+		<Translation>Usurped!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MERCENARY_DEMANDS_TITLE</zType>

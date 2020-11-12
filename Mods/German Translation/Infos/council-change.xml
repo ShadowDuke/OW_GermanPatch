@@ -11,7 +11,7 @@
 		<EffectPlayer/>		 
 		<AssignMission/>
 		<aiPlayerOpinion/>
-		<aiBarbarianOpinion/>
+		<aiTribeOpinion/>
 		<aiReligionOpinion/>			  
 		<aiFamilyOpinion/>
 		<abTraitPrereq/>
@@ -32,12 +32,12 @@
 				<iValue>10</iValue>
 			</Pair>
 		</aiPlayerOpinion>
-		<aiBarbarianOpinion>
+		<aiTribeOpinion>
 			<Pair>
 				<zIndex>RATING_COURAGE</zIndex>
 				<iValue>10</iValue>
 			</Pair>
-		</aiBarbarianOpinion>
+		</aiTribeOpinion>
 		<abTraitPrereq>
 			<Pair>
 				<zIndex>TRAIT_COMMANDER_ARCHETYPE</zIndex>
@@ -66,7 +66,7 @@
 				<zIndex>RATING_DISCIPLINE</zIndex>
 				<SubPair>
 					<zSubIndex>YIELD_GROWTH</zSubIndex>
-					<iValue>5</iValue>
+					<iValue>10</iValue>
 				</SubPair>
 			</Pair>
 		</aaiRatingYieldCity>
@@ -111,7 +111,7 @@
 				<zIndex>RATING_DISCIPLINE</zIndex>
 				<SubPair>
 					<zSubIndex>YIELD_MONEY</zSubIndex>
-					<iValue>40</iValue>
+					<iValue>60</iValue>
 				</SubPair>
 			</Pair>
 		</aaiRatingYieldGlobal>

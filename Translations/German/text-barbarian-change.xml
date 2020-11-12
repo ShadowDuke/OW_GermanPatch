@@ -7,43 +7,43 @@
 		<Translation/>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BARBARIAN_REBELS</zType>
+		<zType>TEXT_TRIBE_REBELS</zType>
 		<Translation>Rebellen~Rebelle~Rebellen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BARBARIAN_ANARCHY</zType>
+		<zType>TEXT_TRIBE_ANARCHY</zType>
 		<Translation>Anarchie</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BARBARIAN_RAIDERS</zType>
+		<zType>TEXT_TRIBE_RAIDERS</zType>
 		<Translation>Räuber~Räuber~Räuber</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BARBARIAN_TRIBE</zType>
+		<zType>TEXT_TRIBE_BARBARIANS</zType>
 		<Translation>Barbaren~Barbare~Barbaren</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BARBARIAN_GAULS</zType>
+		<zType>TEXT_TRIBE_GAULS</zType>
 		<Translation>Gallier~Gallier~Gallier</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BARBARIAN_VANDALS</zType>
+		<zType>TEXT_TRIBE_VANDALS</zType>
 		<Translation>Vandalen~Vandale~Vandalen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BARBARIAN_DANES</zType>
+		<zType>TEXT_TRIBE_DANES</zType>
 		<Translation>Dänen~Däne~Dänen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BARBARIAN_THRACIANS</zType>
+		<zType>TEXT_TRIBE_THRACIANS</zType>
 		<Translation>Thraker~Thraker~Thraker</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BARBARIAN_SCYTHIANS</zType>
+		<zType>TEXT_TRIBE_SCYTHIANS</zType>
 		<Translation>Skythen~Skythe~Skythen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BARBARIAN_NUMIDIANS</zType>
+		<zType>TEXT_TRIBE_NUMIDIANS</zType>
 		<Translation>Numiden~Numide~Numiden</Translation>
 	</Entry>
 </Root>
