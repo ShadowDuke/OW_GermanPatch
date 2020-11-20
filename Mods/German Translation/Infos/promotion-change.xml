@@ -112,12 +112,6 @@
 		<bUpgrade>1</bUpgrade>
 	</Entry>
 	<Entry>
-		<zType>PROMOTION_ENGINEER</zType>
-		<zName>Techniker</zName>
-		<EffectUnit>EFFECTUNIT_ENGINEER</EffectUnit>
-		<bUpgrade>1</bUpgrade>
-	</Entry>
-	<Entry>
 		<zType>PROMOTION_AMPHIBIOUS</zType>
 		<zName>Amphibisch</zName>
 		<EffectUnit>EFFECTUNIT_AMPHIBIOUS</EffectUnit>
@@ -209,9 +203,9 @@
 		<bUpgrade>1</bUpgrade>
 	</Entry>
 	<Entry>
-		<zType>PROMOTION_AGGRESSOR</zType>
-		<zName>Angreifer</zName>
-		<EffectUnit>EFFECTUNIT_AGGRESSOR</EffectUnit>
+		<zType>PROMOTION_ENGINEER</zType>
+		<zName>Techniker</zName>
+		<EffectUnit>EFFECTUNIT_ENGINEER</EffectUnit>
 		<bUpgrade>1</bUpgrade>
 	</Entry>
 	<Entry>

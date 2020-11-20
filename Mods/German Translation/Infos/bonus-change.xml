@@ -53,10 +53,12 @@
 		<iXPUnit comment="Changes the XP of the Unit"/>
 		<iXPCharacter comment="Changes the XP of the Character"/>
 		<iLegitimacy comment="Amount of Legitimacy gained or lost by the Human"/>
+		<iTradeTurns comment="Turns of Yields given in Trade (if 0 defaults to TRADE_TURNS)"/>
+		<iTributeTurns comment="Turns of Yields given in Tribute (if 0 defaults to TRIBUTE_TURNS)"/>																				  
 		<iAllianceSubject comment="Player allies with the previous Subject at this index"/>
 		<iMarrySubject comment="Character will marry the previous Subject at this index"/>
 		<iPolyMarrySubject comment="Character will marry the previous Subject at this index (allows polygamy)"/>
-		<iDivorceSubject comment="Character will divorce the previous Subject at this index"/>
+		<iDivorcedBySubject comment="Character will divorce the previous Subject at this index"/>
 		<iBirthWithSubject comment="Character will give birth with the previous Subject at this index"/>
 		<iAdoptedBySubject comment="Character will be adopted by the previous Subject at this index"/>
 		<iGovernorOfSubject comment="Character will be Governor of the previous Subject City at this index"/>
@@ -193,10 +195,12 @@
 		<iXPUnit/>
 		<iXPCharacter/>
 		<iLegitimacy/>
+		<iTradeTurns/>
+		<iTributeTurns/>
 		<iAllianceSubject/>			 
 		<iMarrySubject/>
 		<iPolyMarrySubject/>			  
-		<iDivorceSubject/>
+		<iDivorcedBySubject/>
 		<iBirthWithSubject/>			  
 		<iAdoptedBySubject/>
 		<iGovernorOfSubject/>
@@ -364,15 +368,15 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_BARBARIAN_MARRIAGE</zType>
-		<zName>Einen Barbaren geheiratet</zName>
-		<iLegitimacy>-2</iLegitimacy>
+		<zName>Hochzeit mit einem Stamm</zName>
+		<iLegitimacy>-1</iLegitimacy>
 	</Entry>
 	<Entry>
-		<zType>BONUS_BARBARIAN_WAR</zType>
+		<zType>BONUS_TRIBE_WAR</zType>
 		<DiplomacyTribe>DIPLOMACY_WAR</DiplomacyTribe>
 	</Entry>
 	<Entry>
-		<zType>BONUS_BARBARIAN_WAR_LEGITIMACY</zType>
+		<zType>BONUS_TRIBE_WAR_LEGITIMACY</zType>
 		<zName>Furchtlos gegenüber Stämmen</zName>
 		<DiplomacyTribe>DIPLOMACY_WAR</DiplomacyTribe>
 		<iLegitimacy>5</iLegitimacy>
@@ -383,21 +387,21 @@
 		<DiplomacyTribe>DIPLOMACY_WAR</DiplomacyTribe>
 	</Entry>
 	<Entry>
-		<zType>BONUS_BARBARIAN_TRUCE</zType>
+		<zType>BONUS_TRIBE_TRUCE</zType>
 		<DiplomacyTribe>DIPLOMACY_TRUCE</DiplomacyTribe>
 	</Entry>
 	<Entry>
-		<zType>BONUS_BARBARIAN_TRUCE_LEGITIMACY</zType>
+		<zType>BONUS_TRIBE_TRUCE_LEGITIMACY</zType>
 		<zName>Vereinbarte eine Waffenruhe mit einem Stamm</zName>
 		<DiplomacyTribe>DIPLOMACY_TRUCE</DiplomacyTribe>
 		<iLegitimacy>-1</iLegitimacy>
 	</Entry>
 	<Entry>
-		<zType>BONUS_BARBARIAN_PEACE</zType>
+		<zType>BONUS_TRIBE_PEACE</zType>
 		<DiplomacyTribe>DIPLOMACY_PEACE</DiplomacyTribe>
 	</Entry>
 	<Entry>
-		<zType>BONUS_BARBARIAN_PEACE_LEGITIMACY</zType>
+		<zType>BONUS_TRIBE_PEACE_LEGITIMACY</zType>
 		<zName>Vereinbarte Frieden mit einem Stamm</zName>
 		<DiplomacyTribe>DIPLOMACY_PEACE</DiplomacyTribe>
 		<iLegitimacy>-1</iLegitimacy>
@@ -413,11 +417,11 @@
 		<bTribeAllianceEnd>1</bTribeAllianceEnd>
 	</Entry>
 	<Entry>
-		<zType>BONUS_BARBARIAN_INVASION</zType>
+		<zType>BONUS_TRIBAL_INVASION</zType>
 		<bTribeInvade>1</bTribeInvade>
 	</Entry>
 	<Entry>
-		<zType>BONUS_BARBARIAN_INVASION_LEGITIMACY</zType>
+		<zType>BONUS_TRIBAL_INVASION_LEGITIMACY</zType>
 		<zName>Furchtlos gegenüber Invasion</zName>
 		<iLegitimacy>10</iLegitimacy>
 		<bTribeInvade>1</bTribeInvade>
@@ -803,7 +807,7 @@
 		<aiCityYields>
 			<Pair>
 				<zIndex>YIELD_CULTURE</zIndex>
-				<iValue>100</iValue>
+				<iValue>200</iValue>
 			</Pair>
 		</aiCityYields>
 	</Entry>
@@ -836,7 +840,7 @@
 		<zType>BONUS_MISSIONRESULT_RALLY_TROOPS</zType>
 		<zName>Versammle die Truppen</zName>
 		<aeBonuses>
-			<zValue>BONUS_TRAINING_GAIN_LARGE</zValue>
+			<zValue>BONUS_TRAINING_GAIN_AVERAGE</zValue>
 		</aeBonuses>
 	</Entry>
 	<Entry>
@@ -1094,7 +1098,7 @@
 	<Entry>
 		<zType>BONUS_MISSIONRESULT_DIVORCE</zType>
 		<zName>Scheidung</zName>
-		<iDivorceSubject>0</iDivorceSubject>
+		<iDivorcedBySubject>0</iDivorcedBySubject>
 	</Entry>
 	<Entry>
 		<zType>BONUS_NATION_CARTHAGE</zType>
@@ -2021,7 +2025,7 @@
 		<bHaveBastard>1</bHaveBastard>
 	</Entry>
 	<Entry>
-		<zType>BONUS_BARB_RAID</zType>
+		<zType>BONUS_TRIBE_RAID</zType>
 		<bTribeRaid>1</bTribeRaid>
 	</Entry>
 	<Entry>
@@ -6419,12 +6423,6 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GIVE_TRAIT_ENGINEER</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_ENGINEER</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
 		<zType>BONUS_GIVE_TRAIT_BESIEGER</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_BESIEGER</zValue>
@@ -6503,9 +6501,9 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GIVE_TRAIT_AGGRESSOR</zType>
+		<zType>BONUS_GIVE_TRAIT_ENGINEER</zType>
 		<aeAddTraits>
-			<zValue>TRAIT_AGGRESSOR</zValue>
+			<zValue>TRAIT_ENGINEER</zValue>
 		</aeAddTraits>
 	</Entry>
 	<Entry>
@@ -6767,6 +6765,12 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
+		<zType>BONUS_REMOVE_TRAIT_MISSING</zType>
+		<aeRemoveTraits>
+			<zValue>TRAIT_MISSING</zValue>
+		</aeRemoveTraits>
+	</Entry>
+	<Entry>
 		<zType>BONUS_GIVE_TRAIT_UNDER_ASYLUM</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_UNDER_ASYLUM</zValue>
@@ -6918,7 +6922,7 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_DIVORCE_SUBJECT</zType>
-		<iDivorceSubject>0</iDivorceSubject>
+		<iDivorcedBySubject>0</iDivorcedBySubject>
 	</Entry>
 	<Entry>
 		<zType>BONUS_GIVE_TRAIT_ASCETIC</zType>

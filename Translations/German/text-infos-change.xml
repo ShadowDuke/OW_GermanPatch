@@ -66,7 +66,7 @@
     </Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_TRIBE_INVADE</zType>
-		<Translation>Barbaren Einmarsch</Translation>
+		<Translation>Stammes Einmarsch</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_BUY_TILE</zType>
@@ -1141,7 +1141,7 @@
 		<Translation>Beseitige sieben Barbaren Plätze</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_BARBARIAN_PEACE</zType>
+		<zType>TEXT_GOAL_TRIBE_PEACE</zType>
 		<Translation>Erziele Friende mit Barbaren</Translation>
 	</Entry>
 	<Entry>
@@ -1181,8 +1181,8 @@
 		<Translation>Führe eine Staatsreligion ein</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_FOUND_RELIGION</zType>
-		<Translation>Gründe Religion</Translation>
+		<zType>TEXT_GOAL_FOUND_WORLD_RELIGION</zType>
+		<Translation>Gründe Welt Religion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_ESTABLISH_THEOLOGY</zType>

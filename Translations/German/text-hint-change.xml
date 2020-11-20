@@ -27,7 +27,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_6</zType>
-		<English>link(YIELD_TRAINING)icon(YIELD_TRAINING) stockpiles are capped at int(MAX_TRAINING). Above this value, they'll be converted to link(YIELD_ORDERS)icon(YIELD_ORDERS).</English>
+		<Translation>link(YIELD_TRAINING)icon(YIELD_TRAINING) stockpiles are capped at int(MAX_TRAINING). Above this value, they'll be converted to link(YIELD_ORDERS)icon(YIELD_ORDERS).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_7</zType>
@@ -241,4 +241,8 @@
 		<zType>TEXT_HINT_59</zType>
 		<Translation>Specialist are produced faster in higher-level improvements. (Poets take less time in an link(IMPROVEMENT_THEATER_2) than in an link(IMPROVEMENT_THEATER_1) - and even less time in a link(IMPROVEMENT_THEATER_3).)</Translation>
 	</Entry>	 
+	<Entry>
+		<zType>TEXT_HINT_60</zType>
+		<Translation>Hold down [SHIFT] when moving a Unit to assign a multi-turn destination. The Unit will move (to the edge of its Fatigue range) towards that Tile each turn.</Translation>
+	</Entry>
 </Root>

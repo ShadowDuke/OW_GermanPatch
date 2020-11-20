@@ -97,6 +97,34 @@
 		<zType>TEXT_UI_TILE_BOUNDARY_TOOLTIP_LAND_BODY</zType>
 		<Translation>Hier sind Löwen</Translation>
 	</Entry>
+    <Entry>
+        <zType>TEXT_UI_CITY_TOOLTIP_FAMILY</zType>
+        <Translation>Familie</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_UI_CITY_TOOLTIP_GOVERNOR</zType>
+        <Translation>Stadthalter</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_UI_CITY_TOOLTIP_HP</zType>
+        <Translation>HP</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_UI_CITY_TOOLTIP_STRENGTH</zType>
+        <Translation>Stärke</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_UI_CITY_TOOLTIP_CITIZENS</zType>
+        <Translation><![CDATA[<singular_1>{0,2}<plural>{0,2}<end>]]></Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_UI_CITY_TOOLTIP_RELIGIONS</zType>
+        <Translation>Religionen</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_UI_CITY_TOOLTIP_ID</zType>
+        <Translation>ID</Translation>
+    </Entry>
 	<Entry>
 		<zType>TEXT_UI_IMPROVEMENT_ACTION_REMOVE_VEGETATION_TITLE</zType>
 		<Translation>Entfernt {0}</Translation>
@@ -685,6 +713,10 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
     </Entry>
     <!--multiplayer menu-->
    <Entry>
+        <zType>TEXT_MP_KICK_ACTIVE_PLAYER</zType>
+        <Translation>Schmeiße den derzeigen Spieler raus?</Translation>
+    </Entry>
+	<Entry>
 		<zType>TEXT_MP_DELETE_CLOUD_SAVE</zType>
 		<Translation>Diesen Spielstand löschen?</Translation>
 	</Entry>
@@ -933,7 +965,11 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
     <Entry>
         <zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_TURNSTYLE</zType>
         <Translation>Zug Stil</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_TURN_SCALE</zType>
+		<Translation>Zug Umfang</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_SIMULTURNS</zType>
         <Translation>Gleichzeitige Züge</Translation>

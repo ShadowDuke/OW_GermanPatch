@@ -10,45 +10,36 @@
 		<aeInvalidateRelationship/>
 	</Entry>
 	<Entry>
+		<zType>RELATIONSHIP_LOVER_OF</zType>
+		<zName>Geliebeter von</zName>
+		<iOpinion>160</iOpinion>
+		<iMinAgeUs>15</iMinAgeUs>
+		<iMinAgeThem>15</iMinAgeThem>
+	</Entry>
+	<Entry>
+		<zType>RELATIONSHIP_ALLIED_WITH</zType>
+		<zName>Allied with</zName>
+		<iOpinion>120</iOpinion>
+		<iMinAgeUs>15</iMinAgeUs>
+		<iMinAgeThem>15</iMinAgeThem>
+	</Entry>
+	<Entry>
 		<zType>RELATIONSHIP_IN_LOVE_WITH</zType>
 		<zName>Verliebt in</zName>
 		<iOpinion>160</iOpinion>
 		<iMinAgeUs>15</iMinAgeUs>
 		<iMinAgeThem>15</iMinAgeThem>
 		<aeInvalidateRelationship>
-			<zValue>RELATIONSHIP_LOVER_OF</zValue>
 			<zValue>RELATIONSHIP_SUSPICIOUS_OF</zValue>
 			<zValue>RELATIONSHIP_DISAPPOINTED_WITH</zValue>
 			<zValue>RELATIONSHIP_ESTRANGED_FROM</zValue>
 			<zValue>RELATIONSHIP_VENGEFUL_AGAINST</zValue>
 			<zValue>RELATIONSHIP_PLOTTING_AGAINST</zValue>
 		</aeInvalidateRelationship>
-	</Entry>
-	<Entry>
-		<zType>RELATIONSHIP_LOVER_OF</zType>
-		<zName>Liebhaber von</zName>
-		<iOpinion>160</iOpinion>
-		<iMinAgeUs>15</iMinAgeUs>
-		<iMinAgeThem>15</iMinAgeThem>
-		<aeInvalidateRelationship>
-			<zValue>RELATIONSHIP_IN_LOVE_WITH</zValue>
-			<zValue>RELATIONSHIP_SUSPICIOUS_OF</zValue>
-			<zValue>RELATIONSHIP_DISAPPOINTED_WITH</zValue>
-			<zValue>RELATIONSHIP_ESTRANGED_FROM</zValue>
-			<zValue>RELATIONSHIP_VENGEFUL_AGAINST</zValue>
-			<zValue>RELATIONSHIP_PLOTTING_AGAINST</zValue>
-		</aeInvalidateRelationship>
-	</Entry>
-	<Entry>
-		<zType>RELATIONSHIP_ALLIED_WITH</zType>
-		<zName>Verbündet mit</zName>
-		<iOpinion>120</iOpinion>
-		<iMinAgeUs>15</iMinAgeUs>
-		<iMinAgeThem>15</iMinAgeThem>
 	</Entry>
 	<Entry>
 		<zType>RELATIONSHIP_ENDEARED_TO</zType>
-		<zName>geschmeichelt von</zName>
+		<zName>Geschmeichelt von</zName>
 		<iOpinion>80</iOpinion>
 		<iMinAgeUs>10</iMinAgeUs>
 		<iMinAgeThem>15</iMinAgeThem>
@@ -108,11 +99,6 @@
 		</aeInvalidateRelationship>
 	</Entry>
 	<Entry>
-		<zType>RELATIONSHIP_BYPASSED_BY</zType>
-		<zName>Umgangen von</zName>
-		<iOpinion>-100</iOpinion>
-	</Entry>
-	<Entry>
 		<zType>RELATIONSHIP_ESTRANGED_FROM</zType>
 		<zName>Zerstritten mit</zName>
 		<iOpinion>-120</iOpinion>
@@ -156,5 +142,15 @@
 			<zValue>RELATIONSHIP_ESTRANGED_FROM</zValue>
 			<zValue>RELATIONSHIP_VENGEFUL_AGAINST</zValue>
 		</aeInvalidateRelationship>
+	</Entry>
+	<Entry>
+		<zType>RELATIONSHIP_BYPASSED_BY</zType>
+		<zName>Umgangen von</zName>
+		<iOpinion>-100</iOpinion>
+	</Entry>
+	<Entry>
+		<zType>RELATIONSHIP_DIVORCED_BY</zType>
+		<zName>Geschieden von</zName>
+		<iOpinion>-100</iOpinion>
 	</Entry>
 </Root>

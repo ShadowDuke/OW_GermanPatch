@@ -291,7 +291,7 @@
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_PILGRIMAGE_HOLY_WAR</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_HOLY_WAR</EffectPlayer>
-		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_HIGH_TRAINING</EffectPlayerUpkeep>
+		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_HIGH_SCIENCE</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>
 		<zType>LAW_GUILDS</zType>

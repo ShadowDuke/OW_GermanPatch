@@ -34,11 +34,11 @@
 		<Translation>link(DIPLOMACY_TRUCE) Angebot</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_PLAYER_WAR_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_PLAYER_WAR_TITLE</zType>
 		<Translation>Eine link(DIPLOMACY_WAR) erklärung</Translation>
 	</Entry>
 	<Entry>	
-		<zType>TEXT_EVENTSTORY_PLAYER_BARBARIAN_WAR_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_PLAYER_TRIBE_WAR_TITLE</zType>
 		<Translation>Eine link(DIPLOMACY_WAR) erklärung</Translation>
 	</Entry>
 	<Entry>
@@ -47,7 +47,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_DECLARE_WAR_TITLE</zType>
-		<Translation>Erkläre link(DIPLOMACY_WAR</Translation>
+		<Translation>Erkläre link(DIPLOMACY_WAR)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_BREAK_PEACE_TITLE</zType>
@@ -62,15 +62,15 @@
 		<Translation>Beende Handel</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_DECLARE_WAR_TITLE</zType>
-		<Translation>Erkläre link(DIPLOMACY_WAR</Translation>
+		<zType>TEXT_EVENTSTORY_TRIBE_DECLARE_WAR_TITLE</zType>
+		<Translation>Erkläre link(DIPLOMACY_WAR)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_BREAK_PEACE_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_BREAK_PEACE_TITLE</zType>
 		<Translation>Breche link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_END_ALLIANCE_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_END_ALLIANCE_TITLE</zType>
 		<Translation>Beende Bündnis</Translation>
 	</Entry>
 	<Entry>
@@ -180,6 +180,46 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_SPEARMAN_SELECTED_TITLE</zType>
 		<Translation>Tutorial: link(UNIT_SPEARMAN Ausgewählt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_HERO_MILD_TITLE</zType>
+		<Translation>Antihero</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_TACTICIAN_MILD_TITLE</zType>
+		<Translation>Tactical Terror</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_COMMANDER_MILD_TITLE</zType>
+		<Translation>Commander Crisis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_ZEALOT_MILD_TITLE</zType>
+		<Translation>Holy War</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_SCHEMER_MILD_TITLE</zType>
+		<Translation>A Twisted Scheme</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_ORATOR_MILD_TITLE</zType>
+		<Translation>A Call To Arms!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_JUDGE_MILD_TITLE</zType>
+		<Translation>Judgment Day</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_BUILDER_MILD_TITLE</zType>
+		<Translation>An Age Of Wonders</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_SCHOLAR_MILD_TITLE</zType>
+		<Translation>A Calculated Gambit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_DIPLOMAT_MILD_TITLE</zType>
+		<Translation>Diplomacy By Other Means</Translation>
 	</Entry>
 	<Entry beginGroup="Exploration">
 		<zType>TEXT_EVENTSTORY_RUINS_SURVIVORS_TITLE</zType>
@@ -490,43 +530,43 @@
 		<Translation>Chosen Child</Translation>
 	</Entry>
 	<Entry beginGroup="Contact">
-		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_CALM_EMISSARY_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_CALM_EMISSARY_TITLE</zType>
 		<Translation>Stiller Botschafter</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_SEEDY_MESSENGER_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_SEEDY_MESSENGER_TITLE</zType>
 		<Translation>Zwielichtiger Bote</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_GIFT_EXCHANGE_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_GIFT_EXCHANGE_TITLE</zType>
 		<Translation>Geschenk Austausch</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_REFUGEE_OUTLAWS_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_REFUGEE_OUTLAWS_TITLE</zType>
 		<Translation>Flüchtlings geächtete</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_RIPE_LANDS_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_RIPE_LANDS_TITLE</zType>
 		<Translation>Reife Länder</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_HAUGHTY_EMISSARY_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_HAUGHTY_EMISSARY_TITLE</zType>
 		<Translation>Arroganter Botschafter</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_GRINNING_EMISSARY_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_GRINNING_EMISSARY_TITLE</zType>
 		<Translation>Grinsinder Botschafter</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_CULTURAL_DELEGATION_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_CULTURAL_DELEGATION_TITLE</zType>
 		<Translation>Kultur Gesandschaft</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_DELIGHTED_EMISSARY_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_DELIGHTED_EMISSARY_TITLE</zType>
 		<Translation>Erfreuter Bote</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_FUMING_MESSENGER_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_FUMING_MESSENGER_TITLE</zType>
 		<Translation>Wütender Bote</Translation>
 	</Entry>
 	<Entry>
@@ -662,47 +702,47 @@
 		<Translation>Der Aufsteig von Pieface</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_TERRIFYING_EMISSARY_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_TERRIFYING_EMISSARY_TITLE</zType>
 		<Translation>Terrifying Emissary</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_PEACEFUL_EMISSARY_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_PEACEFUL_EMISSARY_TITLE</zType>
 		<Translation>Peaceful Emissary</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_HEAD_COLLECTION_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_HEAD_COLLECTION_TITLE</zType>
 		<Translation>Head collection</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_DISCIPLINED_TRIBE_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_DISCIPLINED_TRIBE_TITLE</zType>
 		<Translation>Disciplined Tribe</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_MYSTICAL_TRIBE_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_MYSTICAL_TRIBE_TITLE</zType>
 		<Translation>Mystical Tribe</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_ANIMAL_WORSHIPPERS_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_ANIMAL_WORSHIPPERS_TITLE</zType>
 		<Translation>Animal Worshippers</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_WOODCUTTING_TRIBE_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_WOODCUTTING_TRIBE_TITLE</zType>
 		<Translation>Woodcutting Tribe</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_STONEMASON_TRIBE_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_STONEMASON_TRIBE_TITLE</zType>
 		<Translation>Stonemason Tribe</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_IRON_TRIBE_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_IRON_TRIBE_TITLE</zType>
 		<Translation>Iron Tribe</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_GOLD_TRIBE_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_GOLD_TRIBE_TITLE</zType>
 		<Translation>Gold Tribe</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_CONTACT_ONCE_GREAT_TRIBE_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_ONCE_GREAT_TRIBE_TITLE</zType>
 		<Translation>Once great Tribe</Translation>
 	</Entry>
 	<Entry beginGroup="Diplomacy">
@@ -734,24 +774,36 @@
 		<Translation>Barbaren Bündnis</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_PEACE_OFFER_TITLE</zType>
-		<Translation>Barbaren Frieden Angebot</Translation>
+		<zType>TEXT_EVENTSTORY_TRIBE_PEACE_OFFER_TITLE</zType>
+		<Translation>Barbaren link(DIPLOMACY_PEACE) Angebot</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_TRUCE_OFFER_TITLE</zType>
-		<Translation>Barbaren Waffenruhe Angebot</Translation>
+		<zType>TEXT_EVENTSTORY_TRIBE_TRUCE_OFFER_TITLE</zType>
+		<Translation>Barbaren link(DIPLOMACY_TRUCE Angebot</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_WAR_TITLE</zType>
-		<Translation>Barbaren Bedrohung</Translation>
+		<zType>TEXT_EVENTSTORY_TRIBE_RAID_UPSET_TITLE</zType>
+		<Translation>Barbaren Überfall</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRIBE_RAID_ANGRY_TITLE</zType>
+		<Translation>[TRIBAL RAID]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRIBE_RAID_FURIOUS_TITLE</zType>
+		<Translation>[TRIBAL RAID]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRIBE_WAR_TITLE</zType>
+		<Translation>Tribal Threat</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_WARLIKE_PRINCESS_TITLE</zType>
-		<Translation><![CDATA[Kriegerische/r <masculine_CHARACTER-0>Prinz<feminine>Prinzessin<end>]]></Translation>
+		<Translation>Warlike {G0:Prince:Princess}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_ENVOY_TITLE</zType>
-		<Translation>Barbarsicher Bote</Translation>
+		<zType>TEXT_EVENTSTORY_TRIBAL_ENVOY_TITLE</zType>
+		<Translation>Stämmischer Bote</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_FLORID_DIPLOMAT_TITLE</zType>
@@ -782,8 +834,8 @@
 		<Translation>Weder, noch</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_INVASION_TITLE</zType>
-		<Translation>Barbarian Invasion Threat</Translation>
+		<zType>TEXT_EVENTSTORY_TRIBAL_INVASION_TITLE</zType>
+		<Translation>Tribal Invasion Threat</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBAL_MIGRATION_TITLE</zType>
@@ -810,8 +862,8 @@
 		<Translation>Desperate Messenger</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_TRIBUTE_TITLE</zType>
-		<Translation>Barbarian Tribute</Translation>
+		<zType>TEXT_EVENTSTORY_TRIBE_TRIBUTE_TITLE</zType>
+		<Translation>Tribal Tribute</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SECURING_PEACE_TITLE</zType>
@@ -1026,36 +1078,36 @@
 		<Translation>Drums of War</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_WAR_OR_INVASION_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_WAR_OR_INVASION_TITLE</zType>
 		<Translation>The Coming Tide</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_CHOOSE_WAR_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_CHOOSE_WAR_TITLE</zType>
 		<Translation>Choosing Sides</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_WAR_STRONGER_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_WAR_STRONGER_TITLE</zType>
 		<Translation>On the March</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_INVASION_DISTANT_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBAL_INVASION_DISTANT_TITLE</zType>
 		<Translation>Distant Threats</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_INVASION_UPSET_TITLE</zType>
-		<Translation>[BARB INVASION]</Translation>
+		<zType>TEXT_EVENTSTORY_TRIBAL_INVASION_UPSET_TITLE</zType>
+		<Translation>War Bands</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_WAR_AMBITION_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_WAR_AMBITION_TITLE</zType>
 		<Translation>A Strong Message</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_WAR_MARRIAGE_TITLE</zType>
-		<Translation>[WAR OR MARRIAGE}</Translation>
+		<zType>TEXT_EVENTSTORY_TRIBE_WAR_MARRIAGE_TITLE</zType>
+		<Translation>Political Proposal</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_BUILDER_ARCHETYPE_PLEASED_TITLE</zType>
-		<Translation>link(YIELD_FOOD) für link(DIPLOMACY_PEACE)</Translation>
+		<Translation>link(YIELD_FOOD) for link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_BUILDER_ARCHETYPE_CAUTIOUS_TITLE</zType>
@@ -1278,15 +1330,95 @@
 		<Translation>[SCHLECHTE NACHRICHTEN]</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_HOSTILE_PLAYER_BARBARIAN_WAR_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_HOSTILE_PLAYER_TRIBE_WAR_TITLE</zType>
 		<Translation>[SCHLECHTE NACHRICHTEN]</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_HERO_TITLE</zType>
+		<Translation>Antihero</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_COMMANDER_TITLE</zType>
+		<Translation>Commander Crisis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_TACTICIAN_TITLE</zType>
+		<Translation>Tactical Terror</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_ZEALOT_TITLE</zType>
+		<Translation>Holy War</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_SCHEMER_TITLE</zType>
+		<Translation>A Twisted Scheme</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_ORATOR_TITLE</zType>
+		<Translation>A Call To Arms!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_JUDGE_TITLE</zType>
+		<Translation>Judgment Day</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_BUILDER_TITLE</zType>
+		<Translation>An Age Of Wonders</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_SCHOLAR_TITLE</zType>
+		<Translation>A Calculated Gambit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_DIPLOMAT_TITLE</zType>
+		<Translation>Diplomacy By Other Means</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_HERO_FURIOUS_TITLE</zType>
+		<Translation>Antihero</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_COMMANDER_FURIOUS_TITLE</zType>
+		<Translation>Commander Crisis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_TACTICIAN_FURIOUS_TITLE</zType>
+		<Translation>Tactical Terror</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_ZEALOT_FURIOUS_TITLE</zType>
+		<Translation>Holy War</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_SCHEMER_FURIOUS_TITLE</zType>
+		<Translation>A Twisted Scheme</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_ORATOR_FURIOUS_TITLE</zType>
+		<Translation>A Call To Arms!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_JUDGE_FURIOUS_TITLE</zType>
+		<Translation>Judgment Day</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_BUILDER_FURIOUS_TITLE</zType>
+		<Translation>An Age Of Wonders</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_SCHOLAR_FURIOUS_TITLE</zType>
+		<Translation>A Calculated Gambit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_DIPLOMAT_FURIOUS_TITLE</zType>
+		<Translation>Diplomacy By Other Means</Translation>
+	</Entry>	 
 	<Entry beginGroup="Combat">
 		<zType>TEXT_EVENTSTORY_LEADER_SMITING_FOES_TITLE</zType>
 		<Translation>Smiting Foes</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_BATTLEFIELD_BRILLIANCE_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_BATTLEFIELD_BRILLIANCE_TITLE</zType>
 		<Translation>Battlefield Brilliance</Translation>
 	</Entry>
 	<Entry>
@@ -1338,39 +1470,39 @@
 		<Translation>Lost Sight</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_WEAPONS_OF_WAR_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_WEAPONS_OF_WAR_TITLE</zType>
 		<Translation>Weapons of War</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_SECRET_ALLIANCES_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_SECRET_ALLIANCES_TITLE</zType>
 		<Translation>Secret Alliances</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_YOUNG_HOSTAGE_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_YOUNG_HOSTAGE_TITLE</zType>
 		<Translation>Young Hostage</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_WITCH_QUEEN_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_WITCH_QUEEN_TITLE</zType>
 		<Translation>Witch Queen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_TEACHING_THE_ENEMY_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_TEACHING_THE_ENEMY_TITLE</zType>
 		<Translation>Teaching the Enemy</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_HOMELAND_BURNING_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_HOMELAND_BURNING_TITLE</zType>
 		<Translation>{CITY-0} Burning</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_LIBERATED_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_LIBERATED_TITLE</zType>
 		<Translation>Liberated</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_EXOTIC_INFLUENCE_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_EXOTIC_INFLUENCE_TITLE</zType>
 		<Translation>Exotic Influence</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_KINGS_RANSOM_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_KINGS_RANSOM_TITLE</zType>
 		<Translation>A King's Ransom</Translation>
 	</Entry>
 	<Entry>
@@ -1386,23 +1518,23 @@
 		<Translation>Prisoners of War</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_TOMBS_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_TOMBS_TITLE</zType>
 		<Translation>Burial Mounds</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_CULT_OF_FLAME_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_CULT_OF_FLAME_TITLE</zType>
 		<Translation>Cult of Flame</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_PRINCE_TITLE</zType>
-		<Translation>Barbarian Prince</Translation>
+		<zType>TEXT_EVENTSTORY_TRIBE_PRINCE_TITLE</zType>
+		<Translation>{TRIBE-0,1} Prinz</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_TRIBAL_CONFEDERATION_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_TRIBAL_CONFEDERATION_TITLE</zType>
 		<Translation>Tribal Confederation</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_RIVALS_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_RIVALS_TITLE</zType>
 		<Translation>Barbarian Rivals</Translation>
 	</Entry>
 	<Entry>
@@ -1410,11 +1542,11 @@
 		<Translation>Savage Plague</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_REBEL_GLADIATORS_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_REBEL_GLADIATORS_TITLE</zType>
 		<Translation>Rebel Gladiators</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_HORSE_LORDS_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_HORSE_LORDS_TITLE</zType>
 		<Translation>Horse Lords</Translation>
 	</Entry>
 	<Entry>
@@ -1630,8 +1762,8 @@
 		<Translation>Family Favor</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_FEAST_TITLE</zType>
-		<Translation>{BARBARIAN-0,1} Feierlichkeiten</Translation>
+		<zType>TEXT_EVENTSTORY_TRIBE_FEAST_TITLE</zType>
+		<Translation>{TRIBE-0,1} Feierlichkeiten</Translation>
 	</Entry> 
   <Entry beginGroup="Marriage">
 		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_TITLE</zType>
@@ -3466,7 +3598,7 @@
 		<Translation>Skirmish</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_SLAYER_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_SLAYER_TITLE</zType>
 		<Translation>Barbarian Slayer</Translation>
 	</Entry>
 	<Entry>
@@ -4324,7 +4456,71 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEGITIMIZE_THREE_FAMILIES_CONCERN_TITLE</zType>
 		<Translation>Noble Concerns</Translation>
-	</Entry>	 
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_CLASSIC_TRAGEDY_TITLE</zType>
+		<Translation>A Classic Tragedy</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_CLASSIC_TRAGEDY_INVESTIGATION_TITLE</zType>
+		<Translation>Investigation of a Tragedy</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_AIRY_AND_MENDACIOUS_STYLE_TITLE</zType>
+		<Translation>Airy and Mendacious</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_OF_PROPHECY_TITLE</zType>
+		<Translation>Study of Prophecy</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_AGAINST_THE_SOPHISTS_TITLE</zType>
+		<Translation>Against the Sophists</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_OPPOSING_VIEWS_TITLE</zType>
+		<Translation>Opposing Views</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_BOTH_CARPENTERS_TITLE</zType>
+		<Translation>Plane Speaking</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_BOTH_ANGLERS_TITLE</zType>
+		<Translation>Hook, Line, and Sinker</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_BOTH_STRICT_TITLE</zType>
+		<Translation>Spartan Style</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_BOTH_PROSPEROUS_TITLE</zType>
+		<Translation>Joint Venture</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_BOTH_DEALMAKERS_TITLE</zType>
+		<Translation>Joint Venture</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_BOTH_EDUCATED_TITLE</zType>
+		<Translation>The Right Angle</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_BOTH_ANGLERS_TITLE_COPY</zType>
+		<Translation>The Joy of War</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_BOTH_WANTON_TITLE</zType>
+		<Translation>Pillow Talk</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_BOTH_DEBAUCHED_TITLE</zType>
+		<Translation>Pillow Talk</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_LOVED_BOTH_FOOLISH_TITLE</zType>
+		<Translation>Missed Signs</Translation>
+	</Entry> 
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS_TITLE</zType>
 		<Translation>Immigrants</Translation>
@@ -4694,24 +4890,24 @@
 		<Translation>link(LAW_COLONIZATION) or link(LAW_SERFDOM)</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTSTORY_MONOTHEISM_POLYTHEISM_TITLE</zType>
+		<Translation>link(LAW_MONOTHEISM) or link(LAW_POLYTHEISM)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIVINE_RULE_LEGAL_CODE_TITLE</zType>
+		<Translation>link(LAW_DIVINE_RULE) or link(LAW_LEGAL_CODE)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TOLERANCE_ORTHODOXY_TITLE</zType>
+		<Translation>link(LAW_TOLERANCE) or link(LAW_ORTHODOXY)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTSTORY_PROFESSIONAL_ARMY_VOLUNTEERS_TITLE</zType>
 		<Translation>link(LAW_PROFESSIONAL_ARMY) or link(LAW_VOLUNTEERS)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PHILOSOPHY_ENGINEERING_TITLE</zType>
 		<Translation>link(LAW_PHILOSOPHY) or link(LAW_ENGINEERING)</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_MONOTHEISM_POLYTHEISM_TITLE</zType>
-		<Translation>link(LAW_MONOTHEISM) or link(LAW_POLYTHEISM)</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_GUILDS_ELITES_TITLE</zType>
-		<Translation>link(LAW_GUILDS) or link(LAW_ELITES)</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_TOLERANCE_ORTHODOXY_TITLE</zType>
-		<Translation>link(LAW_TOLERANCE) or link(LAW_ORTHODOXY)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ICONOGRAPHY_CALLIGRAPHY_TITLE</zType>
@@ -4722,8 +4918,8 @@
 		<Translation>link(LAW_PILGRIMAGE) or link(LAW_HOLY_WAR)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_DIVINE_RULE_LEGAL_CODE_TITLE</zType>
-		<Translation>link(LAW_DIVINE_RULE) or link(LAW_LEGAL_CODE)</Translation>
+		<zType>TEXT_EVENTSTORY_GUILDS_ELITES_TITLE</zType>
+		<Translation>link(LAW_GUILDS) or link(LAW_ELITES)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ISOLATIONISM_TRADE_LEAGUE_TITLE</zType>

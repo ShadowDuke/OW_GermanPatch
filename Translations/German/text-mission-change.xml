@@ -143,27 +143,27 @@
 		<Translation>Barbaren Bündnis über</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_BARBARIAN_PEACE</zType>
+		<zType>TEXT_MISSION_TRIBE_PEACE</zType>
 		<Translation>link(DIPLOMACY_PEACE) mit Barbaren </Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_BARBARIAN_PEACE_TARGET</zType>
+		<zType>TEXT_MISSION_TRIBE_PEACE_TARGET</zType>
 		<Translation>link(DIPLOMACY_PEACE) mit Barbaren</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_BARBARIAN_PEACE_CHARACTER</zType>
+		<zType>TEXT_MISSION_TRIBE_PEACE_CHARACTER</zType>
 		<Translation>Barbarian link(DIPLOMACY_PEACE) über</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_BARBARIAN_TRUCE</zType>
+		<zType>TEXT_MISSION_TRIBE_TRUCE</zType>
 		<Translation>link(DIPLOMACY_TRUCE) mit Barbaren </Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_BARBARIAN_TRUCE_TARGET</zType>
+		<zType>TEXT_MISSION_TRIBE_TRUCE_TARGET</zType>
 		<Translation>link(DIPLOMACY_TRUCE) mit Barbaren</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_BARBARIAN_TRUCE_CHARACTER</zType>
+		<zType>TEXT_MISSION_TRIBE_TRUCE_CHARACTER</zType>
 		<Translation>Barbarian link(DIPLOMACY_TRUCE) über</Translation>
 	</Entry>
 	<Entry>
@@ -363,11 +363,11 @@
 		<Translation>Würden sie link(DIPLOMACY_WAR) erklären an</Translation>
 	</Entry>
 	<Entry>	
-		<zType>TEXT_MISSION_PLAYER_BARBARIAN_WAR</zType>
+		<zType>TEXT_MISSION_PLAYER_TRIBE_WAR</zType>
 		<Translation>Würden sie link(DIPLOMACY_WAR) erklären</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_PLAYER_BARBARIAN_WAR_TARGET</zType>
+		<zType>TEXT_MISSION_PLAYER_TRIBE_WAR_TARGET</zType>
 		<Translation>Würden sie link(DIPLOMACY_WAR) erklären an</Translation>
 	</Entry>
 	<Entry>

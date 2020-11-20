@@ -488,7 +488,7 @@
 				<iValue>500</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
+				<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>
 				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
@@ -512,7 +512,7 @@
 				<iValue>500</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
+				<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>
 				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
@@ -704,7 +704,7 @@
 				<iValue>400</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
+				<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>
 				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
@@ -836,7 +836,7 @@
 				<iValue>400</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
+				<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>
 				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
@@ -968,7 +968,7 @@
 				<iValue>400</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
+				<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>
 				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
@@ -1100,7 +1100,7 @@
 				<iValue>400</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
+				<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>
 				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
@@ -1232,7 +1232,7 @@
 				<iValue>400</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
+				<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>
 				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
@@ -1364,7 +1364,7 @@
 				<iValue>400</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
+				<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>
 				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
@@ -1496,7 +1496,7 @@
 				<iValue>400</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
+				<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>
 				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
@@ -1628,7 +1628,7 @@
 				<iValue>400</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_RELIGION_FOUNDED</zIndex>
+				<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>
 				<iValue>1500</iValue>
 			</Pair>
 			<Pair>
@@ -1870,10 +1870,6 @@
 		<zName>der Schafschütze</zName>
 	</Entry>
 	<Entry>
-		<zType>COGNOMEN_ENGINEER</zType>
-		<zName>der Techniker</zName>
-	</Entry>
-	<Entry>
 		<zType>COGNOMEN_BESIEGER</zType>
 		<zName>der Belagerer</zName>
 	</Entry>
@@ -1922,8 +1918,8 @@
 		<zName>Unheilig</zName>
 	</Entry>
 	<Entry>
-		<zType>COGNOMEN_AGGRESSOR</zType>
-		<zName>der Angreifer</zName>
+		<zType>COGNOMEN_ENGINEER</zType>
+		<zName>der Techniker</zName>
 	</Entry>
 	<Entry>
 		<zType>COGNOMEN_BOLD</zType>
@@ -2054,227 +2050,11 @@
 		<zName>der Wissenschaftler</zName>
 	</Entry>
 	<Entry>
-		<zType>COGNOMEN_GAUL</zType>
-		<zName>der Gallier</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_VANDAL</zType>
-		<zName>der Vandale</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_DANE</zType>
-		<zName>der Däne</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_THRACIAN</zType>
-		<zName>der Thraker</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_SCYTHIAN</zType>
-		<zName>der Skythe</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_NUMIDIAN</zType>
-		<zName>der Numide</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_GENTLE</zType>
-		<zName>der Sanfte</zName>
-		<bGeneric>1</bGeneric>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_MERRY</zType>
-		<zName>der Fröhliche</zName>
-		<bGeneric>1</bGeneric>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_QUIET</zType>
-		<zName>der Ruhige</zName>
-		<bGeneric>1</bGeneric>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_BLACK</zType>
-		<zName>der Schwarze</zName>
-		<bGeneric>1</bGeneric>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_WHITE</zType>
-		<zName>der Weiße</zName>
-		<bGeneric>1</bGeneric>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_RED</zType>
-		<zName>der Rote</zName>
-		<bGeneric>1</bGeneric>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_YELLOW</zType>
-		<zName>der Gelbe</zName>
-		<bGeneric>1</bGeneric>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_BROWN</zType>
-		<zName>der Braune</zName>
-		<bGeneric>1</bGeneric>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_CONFESSOR</zType>
-		<zName>der Bekenner</zName>
-		<bGeneric>1</bGeneric>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_DESIRED</zType>
-		<zName>der Begehrte</zName>
-		<bGeneric>1</bGeneric>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_FAIR</zType>
-		<zName>der Faire</zName>
-		<bGeneric>1</bGeneric>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_FORTUNATE</zType>
-		<zName>der Begünstigte</zName>
-		<bGeneric>1</bGeneric>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_HOPEFUL</zType>
-		<zName>der Hoffnungsvolle</zName>
-		<bGeneric>1</bGeneric>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_PALE</zType>
-		<zName>der Blasse</zName>
-		<bGeneric>1</bGeneric>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_PRECIOUS</zType>
-		<zName>der Geschätzte</zName>
-		<bGeneric>1</bGeneric>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_SHORT</zType>
-		<zName>der Kurze</zName>
-		<bGeneric>1</bGeneric>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_SILENT</zType>
-		<zName>der Stille</zName>
-		<bGeneric>1</bGeneric>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_TALL</zType>
-		<zName>der Große</zName>
-		<bGeneric>1</bGeneric>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_VAIN</zType>
-		<zName>der Eingebildete</zName>
-		<bGeneric>1</bGeneric>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_SLENDER</zType>
-		<zName>der Schlanke</zName>
-		<bGeneric>1</bGeneric>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_BAD</zType>
-		<zName>der Böse</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_CHASTE</zType>
-		<zName>der Keusche</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_IMPOTENT</zType>
-		<zName>der Impotente</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_MAD</zType>
-		<zName>der Verrückte</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_MAGNAMINOUS</zType>
-		<zName>der Großherzige</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_MARTYR</zType>
-		<zName>der Märtyrer</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_NAVIGATOR</zType>
-		<zName>der Seefahrer</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_REFORMER</zType>
-		<zName>der Reformer</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_SAVIOR</zType>
-		<zName>der Erlöser</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_TERRIBLE</zType>
-		<zName>der Schreckliche</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_TREACHEROUS</zType>
-		<zName>der Heimtükische</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_TYRANT</zType>
-		<zName>der Tyrann</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_USURPER</zType>
-		<zName>der Eindringling</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_WICKED</zType>
-		<zName>der Niederträchtige</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_ZEALOUS</zType>
-		<zName>der Eifrige</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_ELDER</zType>
-		<zName>der Älteste</zName>
-	</Entry>
-	<Entry>
 		<zType>COGNOMEN_YOUNGER</zType>
 		<zName>der Jüngere</zName>
 	</Entry>
 	<Entry>
-		<zType>COGNOMEN_UNREADY</zType>
-		<zName>der Zögerliche</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_GRAND</zType>
-		<zName>der Gewaltige</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_FRAIL</zType>
-		<zName>der Gebrechliche</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_PENNILESS</zType>
-		<zName>der Mittellose</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_GILDED</zType>
-		<zName>der Vergoldete</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_SIMPLE</zType>
-		<zName>der Schlichte</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_PHILISTINE</zType>
-		<zName>der Spießige</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_CULTURED</zType>
-		<zName>der Kultivierte</zName>
+		<zType>COGNOMEN_ELDER</zType>
+		<zName>der Älteste</zName>
 	</Entry>
 </Root>

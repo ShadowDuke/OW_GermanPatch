@@ -9,7 +9,7 @@
 		<aiRatingRand/>
 		<aiAdjectiveDie/>
 		<aiArchetypeDie/>
-		<aeCognomen/>
+		<azNicknames/>
 	</Entry>
 	<Entry>
 		<zType>COURTIER_GREAT_SOLDIER</zType>
@@ -46,10 +46,6 @@
 			</Pair>
 			<Pair>
 				<zIndex>TRAIT_MARKSMAN</zIndex>
-				<iValue>10</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>TRAIT_ENGINEER</zIndex>
 				<iValue>10</iValue>
 			</Pair>
 			<Pair>
@@ -101,7 +97,7 @@
 				<iValue>10</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>TRAIT_AGGRESSOR</zIndex>
+				<zIndex>TRAIT_ENGINEER</zIndex>
 				<iValue>10</iValue>
 			</Pair>
 		</aiAdjectiveDie>
@@ -123,9 +119,9 @@
 				<iValue>20</iValue>
 			</Pair>
 		</aiArchetypeDie>
-		<aeCognomen>
-			<zValue>COGNOMEN_GREAT_SOLDIER</zValue>
-		</aeCognomen>
+		<azNicknames>
+			<zValue>der Soldat</zValue>
+		</azNicknames>
 	</Entry>
 	<Entry>
 		<zType>COURTIER_GREAT_MINISTER</zType>
@@ -219,9 +215,9 @@
 				<iValue>10</iValue>
 			</Pair>
 		</aiArchetypeDie>
-		<aeCognomen>
-			<zValue>COGNOMEN_GREAT_MINISTER</zValue>
-		</aeCognomen>
+		<azNicknames>
+			<zValue>der Geistliche</zValue>
+		</azNicknames>
 	</Entry>
 	<Entry>
 		<zType>COURTIER_GREAT_MERCHANT</zType>
@@ -311,9 +307,9 @@
 				<iValue>10</iValue>
 			</Pair>
 		</aiArchetypeDie>
-		<aeCognomen>
-			<zValue>COGNOMEN_GREAT_MERCHANT</zValue>
-		</aeCognomen>
+			<azNicknames>
+			<zValue>der kaufmann</zValue>
+		</azNicknames>
 	</Entry>
 	<Entry>
 		<zType>COURTIER_GREAT_SCIENTIST</zType>
@@ -399,8 +395,8 @@
 				<iValue>20</iValue>
 			</Pair>
 		</aiArchetypeDie>
-		<aeCognomen>
-			<zValue>COGNOMEN_GREAT_SCIENTIST</zValue>
-		</aeCognomen>
+		<azNicknames>
+			<zValue>der Wissenschaftler</zValue>
+		</azNicknames>
 	</Entry>
 </Root>

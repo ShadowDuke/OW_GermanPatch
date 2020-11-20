@@ -56,7 +56,7 @@
 		<iTribeConvertTurn>60</iTribeConvertTurn>
 		<iTribeConvertProb>3</iTribeConvertProb>
 		<iRaidStartTurn>35</iRaidStartTurn>
-		<iRaidProbTile>2</iRaidProbTile>
+		<iRaidProbTile>3</iRaidProbTile>
 		<iRaidProbUnit>10</iRaidProbUnit>
 		<iRaidRange>14</iRaidRange>
 		<iWarOfferTurn>40</iWarOfferTurn>
@@ -76,7 +76,7 @@
 		<iTribeConvertTurn>50</iTribeConvertTurn>
 		<iTribeConvertProb>4</iTribeConvertProb>
 		<iRaidStartTurn>30</iRaidStartTurn>
-		<iRaidProbTile>4</iRaidProbTile>
+		<iRaidProbTile>6</iRaidProbTile>
 		<iRaidProbUnit>20</iRaidProbUnit>
 		<iRaidRange>16</iRaidRange>
 		<iTribeHeal>1</iTribeHeal>
@@ -96,7 +96,7 @@
 		<iTribeConvertTurn>40</iTribeConvertTurn>
 		<iTribeConvertProb>5</iTribeConvertProb>
 		<iRaidStartTurn>25</iRaidStartTurn>
-		<iRaidProbTile>6</iRaidProbTile>
+		<iRaidProbTile>8</iRaidProbTile>
 		<iRaidProbUnit>30</iRaidProbUnit>
 		<iRaidRange>18</iRaidRange>
 		<iTribeFatigue>1</iTribeFatigue>
@@ -117,7 +117,7 @@
 		<iTribeConvertTurn>30</iTribeConvertTurn>
 		<iTribeConvertProb>6</iTribeConvertProb>
 		<iRaidStartTurn>20</iRaidStartTurn>
-		<iRaidProbTile>8</iRaidProbTile>
+		<iRaidProbTile>10</iRaidProbTile>
 		<iRaidProbUnit>40</iRaidProbUnit>
 		<iRaidRange>20</iRaidRange>
 		<iTribeFatigue>1</iTribeFatigue>

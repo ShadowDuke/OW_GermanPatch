@@ -187,10 +187,6 @@
 		<Translation>Schafschütze</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_ENGINEER</zType>
-		<Translation>Techniker</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_TRAIT_BESIEGER</zType>
 		<Translation>Belagerer</Translation>
 	</Entry>
@@ -247,8 +243,8 @@
 		<Translation>Unheilig</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_AGGRESSOR</zType>
-		<Translation>Angreifer</Translation>
+		<zType>TEXT_TRAIT_ENGINEER</zType>
+		<Translation>Techniker</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BOLD</zType>

@@ -114,28 +114,28 @@
 		<Translation><![CDATA[Das ist sehr bedauernswert.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_PLAYER_WAR_MONEY</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_PLAYER_WAR_MONEY</zType>
 		<Translation>Wir werden Gold aus der Staatskasse anbieten.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_PLAYER_WAR_TRIBUTE</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_PLAYER_WAR_TRIBUTE</zType>
 		<Translation>Tribut an die {BARBARIAN-1} wird in Auftrag gegeben.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_PLAYER_WAR_NO</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_PLAYER_WAR_NO</zType>
 		<Translation>Sie müssen uns einfach vertrauen.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_PLAYER_BARBARIAN_WAR_MONEY</zType>
+		<zType>TEXT_EVENTOPTION_PLAYER_TRIBE_WAR_MONEY</zType>
 		<Translation><![CDATA[Wir werden Gold aus der Schatzkammer anbieten.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_PLAYER_BARBARIAN_WAR_TRAINING</zType>
-		<Translation><![CDATA[Ein Tribut an {PLAYER-1} ist in Auftrag gegeben.]]></Translation>
+		<zType>TEXT_EVENTOPTION_PLAYER_TRIBE_WAR_TRAINING</zType>
+		<Translation>Wir könne militärische Hilfe anbieten</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_PLAYER_BARBARIAN_WAR_NO</zType>
-		<Translation><![CDATA[Sie müssen uns einfach vertrauen.]]></Translation>
+		<zType>TEXT_EVENTOPTION_PLAYER_TRIBE_WAR_NO</zType>
+		<Translation>Vielleicht einen anderen Tag.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_PLAYER_PLAYER_WAR_MONEY</zType>
@@ -182,27 +182,27 @@
 		<Translation><![CDATA[Jetzt ist nicht die Zeit.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_DECLARE_WAR_YES</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_DECLARE_WAR_YES</zType>
 		<Translation><![CDATA[Setze die Kriegsvorbereitungen fort.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_DECLARE_WAR_NO</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_DECLARE_WAR_NO</zType>
 		<Translation><![CDATA[Jetzt ist nicht die Zeit.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_BREAK_PEACE_YES</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_BREAK_PEACE_YES</zType>
 		<Translation><![CDATA[Beende den link(DIPLOMACY_PEACE).]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_BREAK_PEACE_NO</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_BREAK_PEACE_NO</zType>
 		<Translation><![CDATA[Jetzt ist nicht die Zeit.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_END_ALLIANCE_YES</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_END_ALLIANCE_YES</zType>
 		<Translation>Wir sollten das link(CONCEPT_ALLIANCE_BARB) beenden.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_END_ALLIANCE_NO</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_END_ALLIANCE_NO</zType>
 		<Translation><![CDATA[Jetzt ist nicht die Zeit.]]></Translation>
 	</Entry>
 	<Entry>
@@ -1414,107 +1414,107 @@
 		<Translation>I have no interest in mysterious children.</Translation>
 	</Entry>	 
 	<Entry beginGroup="Contact">
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_CALM_EMISSARY_TRUCE</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_CALM_EMISSARY_TRUCE</zType>
 		<Translation><![CDATA[Wir wollen uns nicht zanken.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_CALM_EMISSARY_WAR</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_CALM_EMISSARY_WAR</zType>
 		<Translation><![CDATA[Sagt euren Leuten sie sollen sich auf den Krieg vorbereiten.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_SEEDY_MESSENGER_TRUCE</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_SEEDY_MESSENGER_TRUCE</zType>
 		<Translation><![CDATA[Schön, nehmt das und verschwindet.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_SEEDY_MESSENGER_WAR</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_SEEDY_MESSENGER_WAR</zType>
 		<Translation><![CDATA[Hinfort, du Schuft.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_GIFT_EXCHANGE_WOOD</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_GIFT_EXCHANGE_WOOD</zType>
 		<Translation><![CDATA[Nimmt etwas von unserem Holz.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_GIFT_EXCHANGE_METAL</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_GIFT_EXCHANGE_METAL</zType>
 		<Translation><![CDATA[Vielleicht wird dises Metall uns nützlich sein.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_GIFT_EXCHANGE_WAR</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_GIFT_EXCHANGE_WAR</zType>
 		<Translation><![CDATA[Wir lassen uns nicht einschüchtern.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_REFUGEE_OUTLAWS_WAR</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_REFUGEE_OUTLAWS_WAR</zType>
 		<Translation><![CDATA[Heisst sie in unserer Familie wilkommen.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_REFUGEE_OUTLAWS_NEW</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_REFUGEE_OUTLAWS_NEW</zType>
 		<Translation><![CDATA[Sie bleiben, aber sie werden arbeiten.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_REFUGEE_OUTLAWS_TRUCE</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_REFUGEE_OUTLAWS_TRUCE</zType>
 		<Translation><![CDATA[Bringe sie zu ihrem Verschlepper zurück..]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_RIPE_LANDS_WAR</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_RIPE_LANDS_WAR</zType>
 		<Translation><![CDATA[Jetzt ist nicht die Zeit zuzuschlagen.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_RIPE_LANDS_TRUCE</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_RIPE_LANDS_TRUCE</zType>
 		<Translation><![CDATA[Wir müssen uns gedulden.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_HAUGHTY_EMISSARY_PEACE</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_HAUGHTY_EMISSARY_PEACE</zType>
 		<Translation><![CDATA[Von Freundschaft werden wir beide profitieren.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_HAUGHTY_EMISSARY_TRUCE</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_HAUGHTY_EMISSARY_TRUCE</zType>
 		<Translation><![CDATA[We only treat with our equals.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_HAUGHTY_EMISSARY_WAR</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_HAUGHTY_EMISSARY_WAR</zType>
 		<Translation><![CDATA[Unsere Klingen werden für uns sprechen.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_GRINNING_EMISSARY_TRUCE_STONE</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_GRINNING_EMISSARY_TRUCE_STONE</zType>
 		<Translation><![CDATA[Nehme es an und feiere ihnen zu Ehren.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_GRINNING_EMISSARY_TRUCE_IRON</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_GRINNING_EMISSARY_TRUCE_IRON</zType>
 		<Translation><![CDATA[Nehme das Geschenk an und biete ihnen eies von uns an.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_GRINNING_EMISSARY_WAR</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_GRINNING_EMISSARY_WAR</zType>
 		<Translation><![CDATA[Unsere Treue kann nicht gekauft werden.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_CULTURAL_DELEGATION_YES</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_CULTURAL_DELEGATION_YES</zType>
 		<Translation><![CDATA[Erlaube ihnen ihre Geschichten zu erzählen.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_CULTURAL_DELEGATION_HIRE</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_CULTURAL_DELEGATION_HIRE</zType>
 		<Translation><![CDATA[Stelle unsere eigenen heimischen Küstler ein.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_CULTURAL_DELEGATION_NO</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_CULTURAL_DELEGATION_NO</zType>
 		<Translation><![CDATA[Barbaren sind hier nicht wilkommen.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_DELIGHTED_EMISSARY_PEACE</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_DELIGHTED_EMISSARY_PEACE</zType>
 		<Translation><![CDATA[Ja, lasst uns durch unseren gemeinsamen Feind vereinen.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_DELIGHTED_EMISSARY_WISDOM</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_DELIGHTED_EMISSARY_WISDOM</zType>
 		<Translation><![CDATA[Unser Volk ist Kriegsmüde.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_DELIGHTED_EMISSARY_WAR</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_DELIGHTED_EMISSARY_WAR</zType>
 		<Translation><![CDATA[Wir sind von Gegnern umzingelt.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_FUMING_MESSENGER_WAR_1</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_FUMING_MESSENGER_WAR_1</zType>
 		<Translation><![CDATA[Die {BARBARIAN-2,0} sind nicht unsere Feinde.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_CONTACT_FUMING_MESSENGER_WAR_2</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_FUMING_MESSENGER_WAR_2</zType>
 		<Translation><![CDATA[Wir werden kämpfen, aber nur mit eurer Unterstützung.]]></Translation>
 	</Entry>
 	<Entry>
@@ -1886,15 +1886,15 @@
 		<Translation><![CDATA[Eure Dankbarkeit ist alles was wir wollen.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_WAR_MARRIAGE_YES</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_WAR_MARRIAGE_YES</zType>
 		<Translation>[JA]</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_WAR_MARRIAGE_NO</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_WAR_MARRIAGE_NO</zType>
 		<Translation>[NEIN]</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_BARBARIAN_WAR_MARRIAGE_STEADFAST</zType>
+		<zType>TEXT_EVENTOPTION_TRIBE_WAR_MARRIAGE_STEADFAST</zType>
 		<Translation>[VERMIEDEN WEIL STANDFEST]</Translation>
 	</Entry>
 	<Entry>

@@ -551,8 +551,8 @@
 		<Translation>Schriftrollen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_FOOD_STAPLE</zType>
-		<Translation>Grundnahrungsmittel</Translation>
+		<zType>TEXT_EFFECTCITY_RESOURCE_GRAIN</zType>
+		<Translation>Korn</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_SPECIALIST_RURAL</zType>

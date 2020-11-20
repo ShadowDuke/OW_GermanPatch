@@ -117,15 +117,15 @@ Wie sollen wir antworten?</Translation>
 Nach Auskunft der Männer, hat ihre Karawane Waren zu der nähesten Stadt von {PLAYER-0,1} transportiert als sie von Banditen angegriffen wurden. Ihnen ist es gelungen sich zu wehren und ihre Ladung von gutem Wein zu retten.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_PEACE_OFFER</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_PEACE_OFFER</zType>
 		<Translation><![CDATA[Die {BARBARIAN-0,0} legen ein Angebot für stabilen Frieden vor. Stimmen wir zu?]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_TRUCE_OFFER</zType>
+		<zType>TEXT_EVENTSTORY_TRIBE_TRUCE_OFFER</zType>
 		<Translation><![CDATA[Die {BARBARIAN-0,0} kontaktieren uns sich nach Waffenruhe zu erkundigen. Stimmen wir den Bedingungen zu?]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_BARBARIAN_INVASION</zType>
+		<zType>TEXT_EVENTSTORY_TRIBAL_INVASION</zType>
 		<Translation><![CDATA[Schreckliche Nachrichten! Die {BARBARIAN-0,0} bedrohen uns zu Überfallen falls wir ihre Vorderrungen nicht erfüllen.
 
 Was sollen wir tun?]]></Translation>
@@ -177,7 +177,7 @@ Was denkst du von diesen Möglichkeiten?]]></Translation>
 Wir sollten das sorgfälltig überdenken.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_BARBARIAN</zType>
+		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_TRIBE</zType>
 		<Translation><![CDATA[Zum Überraschen des Hoofstaates ist ein Heiratsangebot von den {BARBARIAN-1} eingegangen: {CHARACTER-0} und {CHARACTER-2}.
 
 Was solle nwir erwiedern?]]></Translation>

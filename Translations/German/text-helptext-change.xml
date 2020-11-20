@@ -413,7 +413,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_LEGITIMACY</zType>
-		<Translation>icon(YIELD_LEGITIMACY) Legitimität</Translation>
+		<Translation>icon(YIELD_LEGITIMACY)Legitimität</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_COURTIER</zType>
@@ -782,6 +782,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MENU_TURN_STYLE</zType>
 		<Translation>Runden Art: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_MENU_TURN_SCALE</zType>
+		<Translation>Runden Umfang: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MENU_TURN_TIMER</zType>
@@ -1952,10 +1956,17 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>{0_value} {1_family} Meinung</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_DISCONTENT_FAMILY_DEFENDING</zType>
+		<Translation>Defended by {0_family} Military Unit ({LIST}/{1_turnScale})</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_DISCONTENT_DEFENDING</zType>
+		<Translation>Defended by Military Unit ({LIST}/{0_turnScale})</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_HIDDEN_WITHOUT_AGENT</zType>
 		<Translation>Details Hidden without an link(CONCEPT_AGENT)</Translation>
 	</Entry>
-	<!-- The whitespace here is important. Any added newlines or tabs will show up in the tooltip -->
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DIPLOMACY_PEACE_TRIBE</zType>
 		<Translation>
@@ -2008,9 +2019,17 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Militär Einheit(en)</Translation>
 	</Entry>
 	<Entry>
+        <zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_MILITARY_ALL_DESC</zType>
+        <Translation>Based on number of military units for each family</Translation>
+    </Entry>
+    <Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_POPULATION_ALL</zType>
-		<Translation>Ganze VBevölkerung</Translation>
-	</Entry>
+		<Translation>Ganze Bevölkerung</Translation>
+	 </Entry>
+    <Entry>
+        <zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_POPULATION_ALL_DESC</zType>
+        <Translation>Based on total citizens and specialists for family's cities</Translation>
+    </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_SEAT_EFFECTS</zType>
 		<Translation>Erste {0_family} Stadt gegründet:</Translation>
@@ -3247,48 +3266,48 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<!--Effect City Help Yields-->
 	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_YIELD_RATE_PER_YEAR</zType>
-		<Translation>{LIST}/Jahr</Translation>
+		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_YEAR</zType>
+		<Translation>{LIST}/{0_turnScale}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_IN_CITY</zType>
 		<Translation>{0} in {1_city}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_YIELD_RATE_PER_POPULATION</zType>
-		<Translation><![CDATA[{0_yield}/Jahr pro Einwohner<true_1> ({1_cityYield})<false><end>]]></Translation>
+		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_POPULATION</zType>
+		<Translation><![CDATA[{0_yield}/{1_turnScale} pro Bevölkerung<true_2> ({2_cityYield})<false><end>]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_YIELD_RATE_PER_CULTURE_LEVEL</zType>
-		<Translation><![CDATA[{0_yield}/Jahr pro link(YIELD_CULTURE) Stufe<true_1> ({1_cityYield})<false><end>]]></Translation>
+		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_CULTURE_LEVEL</zType>
+		<Translation><![CDATA[{0_yield}/{1_turnScale} pro link(YIELD_CULTURE) Stufe<true_2> ({2_cityYield})<false><end>]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_YIELD_RATE_PER_FAMILY_OPINION</zType>
-		<Translation><![CDATA[{0_yield}/Jahr pro Familien Meinungs Stufe<true_1> ({1_cityYield})<false><end>]]></Translation>
+		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_FAMILY_OPINION</zType>
+		<Translation><![CDATA[{0_yield}/{1_turnScale} pro Familien Meinungs Stufe<true_2> ({2_cityYield})<false><end>]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_YIELD_RATE_PER_MILITARY_IN_CITY</zType>
-		<Translation><![CDATA[{0_yield}/Year pro Militär Einheit im Territorium<true_1> ({1_cityYield})<false><end>]]></Translation>
+		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_MILITARY_IN_CITY</zType>
+		<Translation><![CDATA[{0_yield}/{1_turnScale} pro Militäreinheit im Gebiet<true_2> ({2_cityYield})<false><end>]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_YIELD_RATE_PER_SPECIALIST</zType>
-		<Translation><![CDATA[{0_yield}/Jahr pro Spezialist<true_1> ({1_cityYield})<false><end>]]></Translation>
+		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_SPECIALIST</zType>
+		<Translation><![CDATA[{0_yield}/{1_turnScale} pro Spezialist<true_2> ({2_cityYield})<false><end>]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_YIELD_RATE_PER_RELIGION</zType>
-		<Translation><![CDATA[{0_yield}/Jahr pro Religion<true_1> ({1_cityYield})<false><end>]]></Translation>
+		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_RELIGION</zType>
+		<Translation><![CDATA[{0_yield}/{1_turnScale} pro Religion<true_2> ({2_cityYield})<false><end>]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_YIELD_RATE_PER_RELIGION_WORLD</zType>
-		<Translation><![CDATA[{0_yield}/Jahr pro Welt {1,1_religion} Städte/Verbesserungen<true_2> ({2_religionYield})<false><end>]]></Translation>
+		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_RELIGION_WORLD</zType>
+		<Translation><![CDATA[{0_yield}/{1_turnScale} pro Welt {2,1_religion} Städte und verbesserungen<true_3> ({3_religionYield})<false><end>]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_YIELD_RATE_FROM_EFFECT_CITY</zType>
-		<Translation><![CDATA[{0_yield}/Jahr von {1_effectCity}<true_2> (x{2_count})<false><end>]]></Translation>
+		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_FROM_EFFECT_CITY</zType>
+		<Translation><![CDATA[{0_yield}/{1_turnScale} von {2_effectCity}<true_3> (x{3_count})<false><end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_EFFECT_CITY_YIELD_MODIFIER</zType>
-		<Translation><![CDATA[{0_yield}<true_1> ({1_yieldModified}/Jahr)<false><end>]]></Translation>
+		<Translation><![CDATA[{0_yield}<true_1> ({1_yieldModified}/{2_turnScale})<false><end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_IMPROVEMENT_MODIFIER_YIELD</zType>
@@ -3385,7 +3404,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_ADJACENT_IMPROVEMENTCLASS</zType>
-		<Translation>{LIST}/Jahr pro angrenzenem {0_improvementClass}</Translation>
+		<Translation>{LIST}/{0_turnScale} pro angrenzenem {0_improvementClass}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_ADJACENT_WONDER</zType>
@@ -3458,8 +3477,8 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Bürger können benutzt werden um Spezialisten zu erstellen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_CITY_MIN_CITIZENS</zType>
-		<Translation>Städte müssen immer {0_num} {1_citizenLink} haben</Translation>
+		<zType>TEXT_HELPTEXT_CITIZENS_URBAN_NEEDED</zType>
+		<Translation><![CDATA[Bürger benötigen {0} mehr link(CONCEPT_URBAN) <singular_0>Feld<plural>Felder<end> ({LIST}/{1_turnScale})]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CITIZENS_COUNT</zType>
@@ -3919,11 +3938,11 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_UNIT_TRAIT_BONUS_MELEE_VERSUS</zType>
-		<Translation>Nahkampf vs. {0_unitTrait}:</Translation>
+		<Translation>link(UNITTRAIT_MELEE) Angriff vs. {0_unitTrait}:</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_ENEMY_UNIT_TRAIT_BONUS_MELEE_VERSUS</zType>
-		<Translation>:Nahkampf vs. {0_unitTrait}</Translation>
+		<Translation>:link(UNITTRAIT_MELEE) Angriff vs. {0_unitTrait}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_UNIT_TRAIT_BONUS_VERSUS</zType>
@@ -3980,7 +3999,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_RESEARCH_TURNS_LEFT_SHORT</zType>
-        <Translation>{0_turnsLeft}J</Translation>
+        <Translation>{0_turnsLeft}{1_turnScale}</Translation>
     </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_SHOW_CHOOSE_RESEARCH_POPUP_TECH_WITH_OTHER_TECHS</zType>
@@ -4029,7 +4048,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_STARTS_QUEST</zType>
-		<Translation>Anfangsziel {0_goalLink}</Translation>
+		<Translation>Beginnt Aufgabe {0_goalLink}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_STARTS_AMBITION</zType>
@@ -4438,11 +4457,11 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_TRADE_FOR_US</zType>
-		<Translation>{0_trade} von: {1_yields}</Translation>
+		<Translation>{0_trade} von: {YIELD-LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_TRADE_FOR_THEM</zType>
-		<Translation>{0_trade} zu: {1_yields}</Translation>
+		<Translation>{0_trade} zu: {YIELD-LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_TRIBUTE_FROM</zType>
@@ -4526,8 +4545,8 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Meinung: {0} ({1})</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_RELIGION_IS_YOUR_STATE_RELIGION</zType>
-		<Translation>Ist deine {0_stateReligionLink}</Translation>
+		<zType>TEXT_HELPTEXT_RELIGION_CURRENT_FOLLOWERS</zType>
+		<Translation>Derzeitige Anhänger:</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_FOUNDING_PREREQS</zType>
@@ -4535,11 +4554,11 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_EACH_CITY_EFFECT</zType>
-		<Translation>Jede Stadt: {0}</Translation>
+		<Translation>Jede {0,1_religion} Stadt: </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_SPREAD_HELP</zType>
-		<Translation><![CDATA[Wird sich zu neuen Städten {0} <singular_0>jedes Jahr<plural>jede Jahre<end> ausbreiten]]></Translation>
+		<Translation>{0}% Chance/{1_turnScale} sich zu neuen Städten auszubreiten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_PREREQ_RELIGION_CITY</zType>
@@ -4798,11 +4817,11 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_PILLAGE_BUTTON</zType>
-		<Translation>Beute {0_improvement}</Translation>
+		<Translation>Plündere {0_improvement}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_REPAIR_BUTTON</zType>
-		<Translation>Reperatur {0_improvement}</Translation>
+		<Translation>Repariere {0_improvement}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_BUY_BUTTON</zType>
@@ -4860,7 +4879,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_FOUND_FAMILY_CITY_BUTTON</zType>
-		<Translation><![CDATA[Gründe {0_familyName} Stadt
+		<Translation><![CDATA[Gründe Stadt
 {0_familyName} {1_familyClass}]]></Translation>
 	</Entry>
 	<Entry>
@@ -4873,15 +4892,15 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_ADD_GENERAL_BUTTON</zType>
-		<Translation>Erstelle link(CONCEPT_GENERAL</Translation>
+		<Translation>Erstelle link(CONCEPT_GENERAL)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_ADD_GENERAL_BUTTON_ONE</zType>
-		<Translation>Füge link(CONCEPT_GENERAL hinzu ({0})</Translation>
+		<Translation>Füge link(CONCEPT_GENERAL) hinzu ({0})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_ADD_GENERAL_BUTTON_TWO</zType>
-		<Translation>Füge link(CONCEPT_GENERAL hinzu ({0}, {1})</Translation>
+		<Translation>Füge link(CONCEPT_GENERAL) hinzu ({0}, {1})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_RELEASE_GENERAL_BUTTON</zType>
@@ -5464,6 +5483,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Speichern als</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_SAVE_SCENARIO_BUTTON</zType>
+		<Translation>Speichern (Unkomprimiert)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_QUICK_LOAD_BUTTON</zType>
 		<Translation>Schnellalden</Translation>
 	</Entry>
@@ -5535,7 +5558,35 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_TITLE</zType>
 		<Translation>Menü</Translation>
 	</Entry>
+    <Entry>
+        <zType>TEXT_HELPTEXT_MAIN_MENU_QUICK_START</zType>
+        <Translation><![CDATA[Load the Quicksave file<br>Hold SHIFT to start a new game with settings from options file]]></Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_HELPTEXT_MAIN_MENU_WEBSITE</zType>
+        <Translation>Visit the Mohawk website for more info</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_HELPTEXT_MAIN_MENU_DISCORD</zType>
+        <Translation>Visit the Discord channel for Old World</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_HELPTEXT_JOIN_MP_NEED_PASSWORD</zType>
+        <Translation>You must enter a password to join the game</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_HELPTEXT_DELETE_CLOUD_SAVE</zType>
+        <Translation>Remove this game from your list of active games. If you are the game's host, this deletes the game for all other players as well.</Translation>
+    </Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_DOWNLOAD_CLOUD_SAVE</zType>
+		<Translation>Download the game save file from the cloud (host only).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CLOUD_KICK</zType>
+		<Translation>Active player surrenders and becomes controlled by the AI</Translation>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_HELPTEXT_POPUP_DISBAND_UNIT_PROMPT_TITLE</zType>
 		<Translation>Löse {0_unit} auf?</Translation>
 	</Entry>
@@ -5799,6 +5850,30 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Befördern {0_character}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_DECISION_UPGRADE_CHARACTER_DESC</zType>
+		<Translation>{0_character} ist {1_list}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_DECISION_UPGRADE_CHARACTER_COUNCIL</zType>
+		<Translation>Dein {0_council}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_DECISION_UPGRADE_CHARACTER_GENERAL</zType>
+		<Translation>der link(CONCEPT_GENERAL) von {0_unit}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_DECISION_UPGRADE_CHARACTER_GOVERNOR</zType>
+		<Translation>der link(CONCEPT_GOVERNOR) von {0_city}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_DECISION_UPGRADE_CHARACTER_AGENT</zType>
+		<Translation>link(CONCEPT_AGENT,2) in {0_city}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_DECISION_UPGRADE_CHARACTER_COURTIERS</zType>
+		<Translation>ein {0_courtier}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DECISION_CHOOSE_AMBITION_TITLE</zType>
 		<Translation>Wähle Ambition:</Translation>
 	</Entry>
@@ -5949,7 +6024,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation><![CDATA[Requires {0} <singular_0>link(CONCEPT_GENERAL)<plural>link(CONCEPT_GENERAL,1)<end>]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_GOVERNOR</zType>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_GOVERNORS</zType>
 		<Translation><![CDATA[Requires {0} <singular_0>link(CONCEPT_GOVERNOR)<plural>link(CONCEPT_GOVERNOR,1)<end>]]></Translation>
 	</Entry>
 	<Entry>

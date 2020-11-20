@@ -185,27 +185,27 @@
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry beginGroup="Contact">
-		<zType>MEMORYTRIBE_BARBARIAN_WAR_AMBASSADOR_IF</zType>
+		<zType>MEMORYTRIBE_TRIBE_WAR_AMBASSADOR_IF</zType>
 		<zText>Offended our ambassador</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYTRIBE_BARBARIAN_CONTACT_AGGRESSION</zType>
+		<zType>MEMORYTRIBE_TRIBE_CONTACT_AGGRESSION</zType>
 		<zText>Acted aggressively on first contact</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYTRIBE_BARBARIAN_CONTACT_GAVE_GIFTS</zType>
+		<zType>MEMORYTRIBE_TRIBE_CONTACT_GAVE_GIFTS</zType>
 		<zText>Gave gifts on first contact</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYTRIBE_BARBARIAN_CONTACT_RANSOM</zType>
+		<zType>MEMORYTRIBE_TRIBE_CONTACT_RANSOM</zType>
 		<zText>Paid ransom for their unit</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYTRIBE_BARBARIAN_CONTACT_TOOK_HOSTAGE</zType>
+		<zType>MEMORYTRIBE_TRIBE_CONTACT_TOOK_HOSTAGE</zType>
 		<zText>Took our unit hostage</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
@@ -215,7 +215,7 @@
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYTRIBE_BARBARIAN_CONTACT_CULTURAL_DELEGATION_NO</zType>
+		<zType>MEMORYTRIBE_TRIBE_CONTACT_CULTURAL_DELEGATION_NO</zType>
 		<zText>Refused our cultural delegation</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
@@ -253,6 +253,11 @@
 		<zType>MEMORY_WOOED_BARBARIAN_KING</zType>
 		<zText>Wooed our king</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="Marriage">
+		<zType>MEMORYTRIBE_MARRIAGE_OFFER_NO</zType>
+		<zText>Heiratsangebot abgelehnt</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry beginGroup="Miscellaneous">
 		<zType>MEMORYTRIBE_SMUGGLED_SPIES</zType>

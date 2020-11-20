@@ -87,10 +87,6 @@
 		<Translation>Schafschütze</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTUNIT_ENGINEER</zType>
-		<Translation>Techniker</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EFFECTUNIT_AMPHIBIOUS</zType>
 		<Translation>Amphibisch</Translation>
 	</Entry>
@@ -159,8 +155,8 @@
 		<Translation>Unheil</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTUNIT_AGGRESSOR</zType>
-		<Translation>Angreifer</Translation>
+		<zType>TEXT_EFFECTUNIT_ENGINEER</zType>
+		<Translation>Techniker</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_ROUT</zType>

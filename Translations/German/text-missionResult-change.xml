@@ -247,11 +247,11 @@
 		<Translation>Bündnis Ereignis</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSIONRESULT_BARBARIAN_PEACE_EVENT</zType>
+		<zType>TEXT_MISSIONRESULT_TRIBE_PEACE_EVENT</zType>
 		<Translation>link(DIPLOMACY_PEACE) Ereignis</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSIONRESULT_BARBARIAN_TRUCE_EVENT</zType>
+		<zType>TEXT_MISSIONRESULT_TRIBE_TRUCE_EVENT</zType>
 		<Translation>link(DIPLOMACY_TRUCE) Ereignis</Translation>
 	</Entry>
 	<Entry>
@@ -503,7 +503,7 @@
 		<Translation>Barbaren vs Spieler link(DIPLOMACY_WAR) Ereignis</Translation>
 	</Entry>
 	<Entry>	
-		<zType>TEXT_MISSIONRESULT_PLAYER_BARBARIAN_WAR_EVENT</zType>
+		<zType>TEXT_MISSIONRESULT_PLAYER_TRIBE_WAR_EVENT</zType>
 		<Translation>Spieler vs Barbaren link(DIPLOMACY_WAR) Ereignis</Translation>
 	</Entry>
 	<Entry>
