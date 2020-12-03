@@ -167,15 +167,15 @@
 		<Translation>Barbarian link(DIPLOMACY_TRUCE) über</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_BARBARIAN_DECLARE_WAR</zType>
+		<zType>TEXT_MISSION_TRIBE_DECLARE_WAR</zType>
 		<Translation>Erkläre link(DIPLOMACY_WAR)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_BARBARIAN_BREAK_PEACE</zType>
+		<zType>TEXT_MISSION_TRIBE_BREAK_PEACE</zType>
 		<Translation>Breche den link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_BARBARIAN_END_ALLIANCE</zType>
+		<zType>TEXT_MISSION_TRIBE_END_ALLIANCE</zType>
 		<Translation>Beende Bündnis</Translation>
 	</Entry>
 	<Entry>
@@ -355,11 +355,11 @@
 		<Translation>Unterrichte mit</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_BARBARIAN_PLAYER_WAR</zType>
+		<zType>TEXT_MISSION_TRIBE_PLAYER_WAR</zType>
 		<Translation>Würden sie link(DIPLOMACY_WAR) erklären</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_BARBARIAN_PLAYER_WAR_TARGET</zType>
+		<zType>TEXT_MISSION_TRIBE_PLAYER_WAR_TARGET</zType>
 		<Translation>Würden sie link(DIPLOMACY_WAR) erklären an</Translation>
 	</Entry>
 	<Entry>	

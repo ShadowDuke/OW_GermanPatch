@@ -285,6 +285,10 @@
 		<AddCourtierOther/>			 
 	</Entry>
 	<Entry>
+		<zType>BONUS_HUMAN_DIPLOMACY</zType>
+		<MemoryPlayer>MEMORYPLAYER_HUMAN_DIPLOMACY</MemoryPlayer>
+	</Entry>
+	<Entry>
 		<zType>BONUS_SKIP_SEAT</zType>
 		<zName>link(CONCEPT_FAMILY_SEAT) übersprungen</zName>
 		<iLegitimacy>-10</iLegitimacy>
@@ -296,7 +300,7 @@
 	<Entry>
 		<zType>BONUS_TRIBE_FOUND</zType>
 		<zName>Auf Barbaren Land gegründet</zName>
-		<iLegitimacy>-10</iLegitimacy>
+		<iLegitimacy>-5</iLegitimacy>
 	</Entry>
 	<Entry>
 		<zType>BONUS_DISCOVERED_LANDMARK</zType>
@@ -367,64 +371,101 @@
 		<iLegitimacy>-2</iLegitimacy>
 	</Entry>
 	<Entry>
-		<zType>BONUS_BARBARIAN_MARRIAGE</zType>
+		<zType>BONUS_TRIBE_MARRIAGE</zType>
 		<zName>Hochzeit mit einem Stamm</zName>
 		<iLegitimacy>-1</iLegitimacy>
-	</Entry>
-	<Entry>
-		<zType>BONUS_TRIBE_WAR</zType>
-		<DiplomacyTribe>DIPLOMACY_WAR</DiplomacyTribe>
-	</Entry>
-	<Entry>
-		<zType>BONUS_TRIBE_WAR_LEGITIMACY</zType>
-		<zName>Furchtlos gegenüber Stämmen</zName>
-		<DiplomacyTribe>DIPLOMACY_WAR</DiplomacyTribe>
-		<iLegitimacy>5</iLegitimacy>
 	</Entry>
 	<Entry>
 		<zType>BONUS_DECLARE_WAR_TRIBE</zType>
 		<MemoryTribe>MEMORYTRIBE_DECLARED_WAR</MemoryTribe>
 		<DiplomacyTribe>DIPLOMACY_WAR</DiplomacyTribe>
+		<aeBonuses>
+			<zValue>BONUS_TRIBE_OFFER</zValue>
+		</aeBonuses>
+	</Entry>
+	<Entry>
+		<zType>BONUS_TRIBE_WAR</zType>
+		<DiplomacyTribe>DIPLOMACY_WAR</DiplomacyTribe>
+		<aeBonuses>
+			<zValue>BONUS_TRIBE_OFFER</zValue>
+		</aeBonuses>
+	</Entry>
+	<Entry>
+		<zType>BONUS_TRIBE_WAR_LEGITIMACY</zType>
+		<zName>Unafraid of Tribes</zName>
+		<DiplomacyTribe>DIPLOMACY_WAR</DiplomacyTribe>
+		<iLegitimacy>5</iLegitimacy>
+		<aeBonuses>
+			<zValue>BONUS_TRIBE_OFFER</zValue>
+		</aeBonuses>
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBE_TRUCE</zType>
 		<DiplomacyTribe>DIPLOMACY_TRUCE</DiplomacyTribe>
+		<aeBonuses>
+			<zValue>BONUS_TRIBE_OFFER</zValue>
+		</aeBonuses>
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBE_TRUCE_LEGITIMACY</zType>
-		<zName>Vereinbarte eine Waffenruhe mit einem Stamm</zName>
+		<zName>Made a Truce with a Tribe</zName>
 		<DiplomacyTribe>DIPLOMACY_TRUCE</DiplomacyTribe>
 		<iLegitimacy>-1</iLegitimacy>
+		<aeBonuses>
+			<zValue>BONUS_TRIBE_OFFER</zValue>
+		</aeBonuses>
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBE_PEACE</zType>
 		<DiplomacyTribe>DIPLOMACY_PEACE</DiplomacyTribe>
+		<aeBonuses>
+			<zValue>BONUS_TRIBE_OFFER</zValue>
+		</aeBonuses>
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBE_PEACE_LEGITIMACY</zType>
-		<zName>Vereinbarte Frieden mit einem Stamm</zName>
+		<zName>Made Peace with a Tribe</zName>
 		<DiplomacyTribe>DIPLOMACY_PEACE</DiplomacyTribe>
 		<iLegitimacy>-1</iLegitimacy>
+		<aeBonuses>
+			<zValue>BONUS_TRIBE_OFFER</zValue>
+		</aeBonuses>
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBE_ALLIANCE</zType>
-		<zName>Vereinbarte ein Bündnis mit einem Stamm</zName>
+		<zName>Made an Alliance with a Tribe</zName>
 		<iLegitimacy>-2</iLegitimacy>
 		<bTribeAlliance>1</bTribeAlliance>
+		<aeBonuses>
+			<zValue>BONUS_TRIBE_OFFER</zValue>
+		</aeBonuses>
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBE_ALLIANCE_END</zType>
 		<bTribeAllianceEnd>1</bTribeAllianceEnd>
+		<aeBonuses>
+			<zValue>BONUS_TRIBE_OFFER</zValue>
+		</aeBonuses>
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBAL_INVASION</zType>
 		<bTribeInvade>1</bTribeInvade>
+		<aeBonuses>
+			<zValue>BONUS_TRIBE_OFFER</zValue>
+		</aeBonuses>
 	</Entry>
 	<Entry>
 		<zType>BONUS_TRIBAL_INVASION_LEGITIMACY</zType>
-		<zName>Furchtlos gegenüber Invasion</zName>
+		<zName>Unafraid of Invasion</zName>
 		<iLegitimacy>10</iLegitimacy>
 		<bTribeInvade>1</bTribeInvade>
+		<aeBonuses>
+			<zValue>BONUS_TRIBE_OFFER</zValue>
+		</aeBonuses>
+	</Entry>
+	<Entry>
+		<zType>BONUS_TRIBE_OFFER</zType>
+		<MemoryTribe>MEMORYTRIBE_OFFER</MemoryTribe>
 	</Entry>
 	<Entry>
 		<zType>BONUS_CANCEL_TRADE</zType>
@@ -531,7 +572,7 @@
 		<zType>BONUS_FAMILYCLASS_PATRONS_SEAT</zType>
 		<AddCourtierForce>
 			<Pair>
-				<zIndex>COURTIER_GREAT_MINISTER</zIndex>
+				<zIndex>COURTIER_MINISTER</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
 		</AddCourtierForce>
@@ -553,7 +594,7 @@
 		<zType>BONUS_FAMILYCLASS_TRADERS_SEAT</zType>
 		<AddCourtierForce>
 			<Pair>
-				<zIndex>COURTIER_GREAT_MERCHANT</zIndex>
+				<zIndex>COURTIER_MERCHANT</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
 		</AddCourtierForce>
@@ -596,12 +637,6 @@
 	<Entry>
 		<zType>BONUS_EFFECTCITY_FAMILYCLASS_PATRONS_SEAT</zType>
 		<iDiscontentLevels>-1</iDiscontentLevels>
-		<aiGlobalYieldsBase>
-			<Pair>
-				<zIndex>YIELD_ORDERS</zIndex>
-				<iValue>20</iValue>
-			</Pair>
-		</aiGlobalYieldsBase>
 	</Entry>
 	<Entry>
 		<zType>BONUS_GAIN_WISDOM_1</zType>
@@ -815,7 +850,7 @@
 		<zType>BONUS_IMPROVEMENT_PANTHEON</zType>
 		<AddCourtierForce>
 			<Pair>
-				<zIndex>COURTIER_GREAT_MERCHANT</zIndex>
+				<zIndex>COURTIER_MERCHANT</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
 		</AddCourtierForce>
@@ -1391,7 +1426,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>20</iValue>
+				<iValue>40</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1400,7 +1435,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>40</iValue>
+				<iValue>80</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1409,7 +1444,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>60</iValue>
+				<iValue>120</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1418,7 +1453,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>80</iValue>
+				<iValue>160</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1569,7 +1604,7 @@
 		<zType>BONUS_TECH_CITIZENSHIP_BONUS_MINISTER</zType>
 		<AddCourtierForce>
 			<Pair>
-				<zIndex>COURTIER_GREAT_MINISTER</zIndex>
+				<zIndex>COURTIER_MINISTER</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
 		</AddCourtierForce>
@@ -1614,7 +1649,7 @@
 		<zType>BONUS_TECH_SCHOLARSHIP_BONUS_SCIENTIST</zType>
 		<AddCourtierForce>
 			<Pair>
-				<zIndex>COURTIER_GREAT_SCIENTIST</zIndex>
+				<zIndex>COURTIER_SCIENTIST</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
 		</AddCourtierForce>
@@ -1703,7 +1738,7 @@
 		<zType>BONUS_TECH_HYDRAULICS_BONUS_MERCHANT</zType>
 		<AddCourtierForce>
 			<Pair>
-				<zIndex>COURTIER_GREAT_MERCHANT</zIndex>
+				<zIndex>COURTIER_MERCHANT</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
 		</AddCourtierForce>
@@ -1721,7 +1756,7 @@
 		<zType>BONUS_TECH_UNIT_TACTICS_BONUS_SOLDIER</zType>
 		<AddCourtierForce>
 			<Pair>
-				<zIndex>COURTIER_GREAT_SOLDIER</zIndex>
+				<zIndex>COURTIER_SOLDIER</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
 		</AddCourtierForce>
@@ -1748,7 +1783,7 @@
 		<zType>BONUS_TECH_MILITARY_REFORM</zType>
 		<AddCourtierForce>
 			<Pair>
-				<zIndex>COURTIER_GREAT_SOLDIER</zIndex>
+				<zIndex>COURTIER_SOLDIER</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
 		</AddCourtierForce>
@@ -1757,7 +1792,7 @@
 		<zType>BONUS_TECH_POLITICAL_REFORM</zType>
 		<AddCourtierForce>
 			<Pair>
-				<zIndex>COURTIER_GREAT_MINISTER</zIndex>
+				<zIndex>COURTIER_MINISTER</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
 		</AddCourtierForce>
@@ -1766,7 +1801,7 @@
 		<zType>BONUS_TECH_ECONOMIC_REFORM</zType>
 		<AddCourtierForce>
 			<Pair>
-				<zIndex>COURTIER_GREAT_MERCHANT</zIndex>
+				<zIndex>COURTIER_MERCHANT</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
 		</AddCourtierForce>
@@ -1968,7 +2003,7 @@
 		<zType>BONUS_ADD_GREAT_SOLDIER</zType>
 		<AddCourtier>
 			<Pair>
-				<zIndex>COURTIER_GREAT_SOLDIER</zIndex>
+				<zIndex>COURTIER_SOLDIER</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
 		</AddCourtier>
@@ -1977,7 +2012,7 @@
 		<zType>BONUS_ADD_GREAT_MINISTER</zType>
 		<AddCourtier>
 			<Pair>
-				<zIndex>COURTIER_GREAT_MINISTER</zIndex>
+				<zIndex>COURTIER_MINISTER</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
 		</AddCourtier>
@@ -1986,7 +2021,7 @@
 		<zType>BONUS_ADD_GREAT_MERCHANT</zType>
 		<AddCourtier>
 			<Pair>
-				<zIndex>COURTIER_GREAT_MERCHANT</zIndex>
+				<zIndex>COURTIER_MERCHANT</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
 		</AddCourtier>
@@ -1995,7 +2030,7 @@
 		<zType>BONUS_ADD_GREAT_SCIENTIST</zType>
 		<AddCourtier>
 			<Pair>
-				<zIndex>COURTIER_GREAT_SCIENTIST</zIndex>
+				<zIndex>COURTIER_SCIENTIST</zIndex>
 				<zValue>NONE</zValue>
 			</Pair>
 		</AddCourtier>
@@ -2012,9 +2047,12 @@
 		<zType>BONUS_NO_COURTIER</zType>
 		<bNoCourtier>1</bNoCourtier>
 	</Entry>
-	<Entry>	
+	<Entry>
 		<zType>BONUS_LEAVE_COUNCIL</zType>
 		<bLeaveCouncil>1</bLeaveCouncil>
+		<aeAddTraits>
+			<zValue>TRAIT_SLIGHTED</zValue>
+		</aeAddTraits>
 	</Entry>
 	<Entry>
 		<zType>BONUS_KILL_CHARACTER</zType>
@@ -2054,19 +2092,19 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_MAKE_GREAT_SOLDIER</zType>
-		<MakeCourtier>COURTIER_GREAT_SOLDIER</MakeCourtier>
+		<MakeCourtier>COURTIER_SOLDIER</MakeCourtier>
 	</Entry>
 	<Entry>
 		<zType>BONUS_MAKE_GREAT_MINISTER</zType>
-		<MakeCourtier>COURTIER_GREAT_MINISTER</MakeCourtier>
+		<MakeCourtier>COURTIER_MINISTER</MakeCourtier>
 	</Entry>
 	<Entry>
 		<zType>BONUS_MAKE_GREAT_MERCHANT</zType>
-		<MakeCourtier>COURTIER_GREAT_MERCHANT</MakeCourtier>
+		<MakeCourtier>COURTIER_MERCHANT</MakeCourtier>
 	</Entry>
 	<Entry>
 		<zType>BONUS_MAKE_GREAT_SCIENTIST</zType>
-		<MakeCourtier>COURTIER_GREAT_SCIENTIST</MakeCourtier>
+		<MakeCourtier>COURTIER_SCIENTIST</MakeCourtier>
 	</Entry>
 	<Entry>	
 		<zType>BONUS_SET_HERO_ARCHETYPE</zType>
@@ -2212,12 +2250,12 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_UNITCLASS_HEAVY_INFANTRY</zType>
-		<aiUnits>
+		<aiBonusUnits>
 			<Pair>
-				<zIndex>UNIT_CHARIOT</zIndex>
+				<zIndex>BONUSUNITCLASS_HEAVY_INFANTRY</zIndex>
 				<iValue>1</iValue>
 			</Pair>
-		</aiUnits>
+		</aiBonusUnits>
 	</Entry>
 	<Entry>
 		<zType>BONUS_UNITCLASS_POLEARM_INFANTRY</zType>
@@ -6121,12 +6159,12 @@
 		<AddLeaderRelationship>RELATIONSHIP_IN_LOVE_WITH</AddLeaderRelationship>
 	</Entry>
 	<Entry>
-		<zType>BONUS_LEADER_LOVER_OF</zType>
-		<AddLeaderRelationship>RELATIONSHIP_LOVER_OF</AddLeaderRelationship>
-	</Entry>
-	<Entry>
 		<zType>BONUS_LEADER_ALLIED_WITH</zType>
 		<AddLeaderRelationship>RELATIONSHIP_ALLIED_WITH</AddLeaderRelationship>
+	</Entry>
+	<Entry>
+		<zType>BONUS_LEADER_LOVER_OF</zType>
+		<AddLeaderRelationship>RELATIONSHIP_LOVER_OF</AddLeaderRelationship>
 	</Entry>
 	<Entry>
 		<zType>BONUS_LEADER_ENDEARED_TO</zType>
@@ -6149,10 +6187,6 @@
 		<AddLeaderRelationship>RELATIONSHIP_DISAPPOINTED_WITH</AddLeaderRelationship>
 	</Entry>
 	<Entry>
-		<zType>BONUS_LEADER_BYPASSED_BY</zType>
-		<AddLeaderRelationship>RELATIONSHIP_BYPASSED_BY</AddLeaderRelationship>
-	</Entry>
-	<Entry>
 		<zType>BONUS_LEADER_ESTRANGED_FROM</zType>
 		<AddLeaderRelationship>RELATIONSHIP_ESTRANGED_FROM</AddLeaderRelationship>
 	</Entry>
@@ -6165,16 +6199,24 @@
 		<AddLeaderRelationship>RELATIONSHIP_PLOTTING_AGAINST</AddLeaderRelationship>
 	</Entry>
 	<Entry>
+		<zType>BONUS_LEADER_BYPASSED_BY</zType>
+		<AddLeaderRelationship>RELATIONSHIP_BYPASSED_BY</AddLeaderRelationship>
+	</Entry>
+	<Entry>
+		<zType>BONUS_LEADER_DIVORCED_BY</zType>
+		<AddLeaderRelationship>RELATIONSHIP_DIVORCED_BY</AddLeaderRelationship>
+	</Entry>
+	<Entry>
 		<zType>BONUS_LEADER_IN_LOVE_WITH_REMOVE</zType>
 		<RemoveLeaderRelationship>RELATIONSHIP_IN_LOVE_WITH</RemoveLeaderRelationship>
 	</Entry>
 	<Entry>
-		<zType>BONUS_LEADER_LOVER_OF_REMOVE</zType>
-		<RemoveLeaderRelationship>RELATIONSHIP_LOVER_OF</RemoveLeaderRelationship>
-	</Entry>
-	<Entry>
 		<zType>BONUS_LEADER_ALLIED_WITH_REMOVE</zType>
 		<RemoveLeaderRelationship>RELATIONSHIP_ALLIED_WITH</RemoveLeaderRelationship>
+	</Entry>
+	<Entry>
+		<zType>BONUS_LEADER_LOVER_OF_REMOVE</zType>
+		<RemoveLeaderRelationship>RELATIONSHIP_LOVER_OF</RemoveLeaderRelationship>
 	</Entry>
 	<Entry>
 		<zType>BONUS_LEADER_ENDEARED_TO_REMOVE</zType>
@@ -6197,10 +6239,6 @@
 		<RemoveLeaderRelationship>RELATIONSHIP_DISAPPOINTED_WITH</RemoveLeaderRelationship>
 	</Entry>
 	<Entry>
-		<zType>BONUS_LEADER_BYPASSED_BY_REMOVE</zType>
-		<RemoveLeaderRelationship>RELATIONSHIP_BYPASSED_BY</RemoveLeaderRelationship>
-	</Entry>
-	<Entry>
 		<zType>BONUS_LEADER_ESTRANGED_FROM_REMOVE</zType>
 		<RemoveLeaderRelationship>RELATIONSHIP_ESTRANGED_FROM</RemoveLeaderRelationship>
 	</Entry>
@@ -6211,6 +6249,14 @@
 	<Entry>
 		<zType>BONUS_LEADER_PLOTTING_AGAINST_REMOVE</zType>
 		<RemoveLeaderRelationship>RELATIONSHIP_PLOTTING_AGAINST</RemoveLeaderRelationship>
+	</Entry>
+	<Entry>
+		<zType>BONUS_LEADER_BYPASSED_BY_REMOVE</zType>
+		<RemoveLeaderRelationship>RELATIONSHIP_BYPASSED_BY</RemoveLeaderRelationship>
+	</Entry>
+	<Entry>
+		<zType>BONUS_LEADER_DIVORCED_BY_REMOVE</zType>
+		<RemoveLeaderRelationship>RELATIONSHIP_DIVORCED_BY</RemoveLeaderRelationship>
 	</Entry>
 	<Entry>
 		<zType>BONUS_GIVE_TRAIT_INTOLERANT</zType>
@@ -6959,5 +7005,9 @@
 		<aeRemoveTraits>
 			<zValue>TRAIT_DOG_OWNER</zValue>
 		</aeRemoveTraits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_STUDY_DID_NOT_EXPEL</zType>
+		<MemoryAllFamilies>MEMORYFAMILY_DID_NOT_EXPEL_STUDENT</MemoryAllFamilies>
 	</Entry>
 </Root>

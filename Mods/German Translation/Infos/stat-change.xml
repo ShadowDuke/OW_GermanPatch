@@ -14,6 +14,10 @@
 		<zName>Vermächtnis vollendet</zName>
 	</Entry>
 	<Entry>
+		<zType>STAT_TRIBE_CONTACTED</zType>
+		<zName>Stamm kontaktiert</zName>
+	</Entry>
+	<Entry>
 		<zType>STAT_TRIBE_CLEARED</zType>
 		<zName>Barbaren gesäubert</zName>
 	</Entry>
@@ -27,7 +31,11 @@
 	</Entry>
 	<Entry>
 		<zType>STAT_TRIBE_CONVERSION</zType>
-		<zName>Barbaren Glaubenswechsel</zName>
+		<zName>Stammes Glaubenswechsel</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_TEAM_CONTACTED</zType>
+		<zName>Spieler kontaktiert</zName>
 	</Entry>
 	<Entry>
 		<zType>STAT_TEAM_ALLIANCE</zType>
@@ -136,9 +144,5 @@
 	<Entry>
 		<zType>STAT_YEARS_REIGNED</zType>
 		<zName>Jahre regiert</zName>
-	</Entry>
-	<Entry>
-		<zType>STAT_PROJECT_INQUIRY</zType>
-		<zName>Recherchen beendet</zName>
 	</Entry>
 </Root>

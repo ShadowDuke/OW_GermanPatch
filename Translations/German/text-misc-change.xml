@@ -7,11 +7,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_ADJECTIVE</zType>
-		<Translation>{0,1_BarbarianAdjective}</Translation>
+		<Translation>{0,1_TribeAdjective}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BARBARIAN_SITE</zType>
-		<Translation>{0,1_BarbarianAdjective} Lager</Translation>
+		<zType>TEXT_TRIBE_SITE</zType>
+		<Translation>{0,1_TribeAdjective} Lager</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_NATION_SITE</zType>

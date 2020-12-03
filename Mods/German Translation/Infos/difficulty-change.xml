@@ -60,6 +60,10 @@
 				<zIndex>YIELD_GROWTH</zIndex>
 				<iValue>10</iValue>
 			</Pair>
+			<Pair>
+				<zIndex>YIELD_DISCONTENT</zIndex>
+				<iValue>10</iValue>
+			</Pair>
 		</aiYieldThresholdPer>
 	</Entry>
 	<Entry>
@@ -109,6 +113,10 @@
 		<aiYieldThresholdPer>
 			<Pair>
 				<zIndex>YIELD_GROWTH</zIndex>
+				<iValue>10</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>YIELD_DISCONTENT</zIndex>
 				<iValue>10</iValue>
 			</Pair>
 		</aiYieldThresholdPer>
@@ -162,6 +170,10 @@
 				<zIndex>YIELD_GROWTH</zIndex>
 				<iValue>10</iValue>
 			</Pair>
+			<Pair>
+				<zIndex>YIELD_DISCONTENT</zIndex>
+				<iValue>10</iValue>
+			</Pair>
 		</aiYieldThresholdPer>
 	</Entry>
 	<Entry>
@@ -211,6 +223,10 @@
 		<aiYieldThresholdPer>
 			<Pair>
 				<zIndex>YIELD_GROWTH</zIndex>
+				<iValue>10</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>YIELD_DISCONTENT</zIndex>
 				<iValue>10</iValue>
 			</Pair>
 		</aiYieldThresholdPer>
@@ -264,6 +280,10 @@
 				<zIndex>YIELD_GROWTH</zIndex>
 				<iValue>10</iValue>
 			</Pair>
+			<Pair>
+				<zIndex>YIELD_DISCONTENT</zIndex>
+				<iValue>10</iValue>
+			</Pair>
 		</aiYieldThresholdPer>
 	</Entry>
 	<Entry>
@@ -313,6 +333,10 @@
 		<aiYieldThresholdPer>
 			<Pair>
 				<zIndex>YIELD_GROWTH</zIndex>
+				<iValue>10</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>YIELD_DISCONTENT</zIndex>
 				<iValue>10</iValue>
 			</Pair>
 		</aiYieldThresholdPer>
@@ -366,6 +390,10 @@
 				<zIndex>YIELD_GROWTH</zIndex>
 				<iValue>10</iValue>
 			</Pair>
+			<Pair>
+				<zIndex>YIELD_DISCONTENT</zIndex>
+				<iValue>10</iValue>
+			</Pair>
 		</aiYieldThresholdPer>
 	</Entry>
 	<Entry>
@@ -415,6 +443,10 @@
 		<aiYieldThresholdPer>
 			<Pair>
 				<zIndex>YIELD_GROWTH</zIndex>
+				<iValue>10</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>YIELD_DISCONTENT</zIndex>
 				<iValue>10</iValue>
 			</Pair>
 		</aiYieldThresholdPer>

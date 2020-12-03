@@ -626,16 +626,6 @@
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_LONG</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYCHARACTER_DECLARE_WAR_DEMAND_YES</zType>
-		<zText>Agreed to Declare War on our enemy</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
-	</Entry>
-	<Entry>
-		<zType>MEMORYCHARACTER_DECLARE_WAR_DEMAND_NO</zType>
-		<zText>Refused to Declare War on our enemy</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_LONG</MemoryLevel>
-	</Entry>
-	<Entry>
 		<zType>MEMORYCHARACTER_EVENTOPTION_WAR_OFFER_RELIGION_STATE_YES</zType>
 		<zText>Converted to our State Religion</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_HIGH_FOREVER</MemoryLevel>

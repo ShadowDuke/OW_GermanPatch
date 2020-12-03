@@ -114,6 +114,14 @@
 		<Translation><![CDATA[Das ist sehr bedauernswert.]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTOPTION_PROPOSAL_HUMAN_YES</zType>
+		<English>Yes.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_PROPOSAL_HUMAN_NO</zType>
+		<English>No.</English>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_PLAYER_WAR_MONEY</zType>
 		<Translation>Wir werden Gold aus der Staatskasse anbieten.</Translation>
 	</Entry>
@@ -1930,7 +1938,7 @@
 		<Translation>Mit Feierlichkeiten wilkommen wir {CITY-2} zuück!</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_RETURN_CITY_BARBARIAN_OK</zType>
+		<zType>TEXT_EVENTOPTION_RETURN_CITY_TRIBE_OK</zType>
 		<Translation>Mit Feierlichkeiten wilkommen wir {CITY-2} zuück!</Translation>
 	</Entry>
 	<Entry>

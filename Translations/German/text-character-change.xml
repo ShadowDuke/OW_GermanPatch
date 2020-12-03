@@ -201,6 +201,14 @@
 		<zType>TEXT_CHARACTER_OF_NATION</zType>
 		<Translation>{0_name} of {1_nation}</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_THE_YOUNGER</zType>
+		<Translation>der Jüngste</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_THE_ELDER</zType>
+		<Translation>der Älteste</Translation>
+	</Entry>
 	<!--Game Text-->
 	<Entry>
 		<zType>TEXT_CHARACTER_NEW_RULER</zType>

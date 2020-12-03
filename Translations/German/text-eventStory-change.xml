@@ -484,8 +484,8 @@ Was sollen sie ausgestalten?]]></Translation>
 Sollen wir zusätzliches Training anbieten?]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_PILLAGING_BARBARIANS</zType>
-		<Translation><![CDATA[Krieger von den {BARBARIAN-1,2} Stamm wird nachgesagt, dass sie unsere Länder plündern! Die Leute sind entsetzt.
+		<zType>TEXT_EVENTSTORY_PILLAGING_TRIBE</zType>
+		<Translation><![CDATA[Krieger von den {TRIBE-1,1} Stamm wird nachgesagt, dass sie unsere Länder plündern! Die Leute sind entsetzt.
 
 Wie soll der Hofstaat erwiedern?]]></Translation>
 	</Entry>

@@ -255,15 +255,15 @@
 		<Translation>link(DIPLOMACY_TRUCE) Ereignis</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSIONRESULT_BARBARIAN_DECLARE_WAR_EVENT</zType>
+		<zType>TEXT_MISSIONRESULT_TRIBE_DECLARE_WAR_EVENT</zType>
 		<Translation>Erkläre link(DIPLOMACY_WAR)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSIONRESULT_BARBARIAN_BREAK_PEACE_EVENT</zType>
+		<zType>TEXT_MISSIONRESULT_TRIBE_BREAK_PEACE_EVENT</zType>
 		<Translation>Breche link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSIONRESULT_BARBARIAN_END_ALLIANCE_EVENT</zType>
+		<zType>TEXT_MISSIONRESULT_TRIBE_END_ALLIANCE_EVENT</zType>
 		<Translation>Beende Bündnis</Translation>
 	</Entry>
 	<Entry>
@@ -499,7 +499,7 @@
 		<Translation>Tutor Event</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSIONRESULT_BARBARIAN_PLAYER_WAR_EVENT</zType>
+		<zType>TEXT_MISSIONRESULT_TRIBE_PLAYER_WAR_EVENT</zType>
 		<Translation>Barbaren vs Spieler link(DIPLOMACY_WAR) Ereignis</Translation>
 	</Entry>
 	<Entry>	

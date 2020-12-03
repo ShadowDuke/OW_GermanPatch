@@ -235,14 +235,6 @@
 		<Translation>Wortführer der Diplomaten</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTPLAYER_UPKEEP_LOW_SCIENCE</zType>
-		<Translation>Wenig Wissenschaft</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_UPKEEP_MEDIUM_SCIENCE</zType>
-		<Translation>Mittlere Wissenschaft</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_HIGH_SCIENCE</zType>
 		<Translation>Hohe Wissenschaft</Translation>
 	</Entry>

@@ -10,6 +10,16 @@
 		<bName comment="Show the name for event options."/>
 	</Entry>
 	<Entry>
+		<zType>MEMORYRELIGION_MADE_OFFERINGS</zType>
+		<zText>Made holy offerings</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_LONG</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_REFUSED_OFFERINGS</zType>
+		<zText>Refuse to make offerings</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_LONG</MemoryLevel>
+	</Entry>
+	<Entry>
 		<zType>MEMORYRELIGION_RELEASED_PRIESTS</zType>
 		<zText>Geweigert Gesetz zu ändern</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
@@ -19,12 +29,7 @@
 		<zText>Für die Treue unserer Familie gekämpft</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
 	</Entry>
-	 <Entry>
-    <zType>MEMORYRELIGION_LOOTED_HOLY_PLACES</zType>
-    <zText>Unsere heiligen Orte geplündert.</zText>
-    <MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
-  </Entry>
-  <Entry>
+	<Entry>
 		<zType>MEMORYRELIGION_MOURNED_IN_PRAYER</zType>
 		<zText>Um das Kind getrauert</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
@@ -103,16 +108,6 @@
 		<zType>MEMORYRELIGION_ADOPTED_MANICHAEISM</zType>
 		<zText>Manichäismus gegründet</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
-	</Entry>
-	<Entry>
-		<zType>MEMORYRELIGION_REFUSED_SACRIFICES</zType>
-		<zText>Opferungen abgelehnt</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_LONG</MemoryLevel>
-	</Entry>
-	<Entry>
-		<zType>MEMORYRELIGION_MADE_SACRIFICES</zType>
-		<zText>Opfer gebracht</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_LONG</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYRELIGION_ORTHDOXY_AGAINST</zType>

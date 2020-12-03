@@ -575,10 +575,6 @@
 		<Translation>God's Consort</Translation>
 	</Entry> 
 	<Entry>
-		<zType>TEXT_TRAIT_PROPHET_KILLER</zType>
-		<Translation>Propheten Mörder</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_TRAIT_DROUGHT_STRICKEN</zType>
 		<Translation>Von Dürre betroffen</Translation>
 	</Entry>
@@ -593,10 +589,6 @@
 	<Entry>
 		<zType>TEXT_TRAIT_AMARNA_REFORMER</zType>
 		<Translation>Amarna Reformer</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_BOARD_GAME</zType>
-		<Translation>Board Game</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BARRACKS_INSTRUCTOR</zType>

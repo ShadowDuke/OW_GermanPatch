@@ -211,7 +211,7 @@
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_TOLERANCE_ORTHODOXY</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_ORTHODOXY</EffectPlayer>
-		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_MEDIUM_SCIENCE</EffectPlayerUpkeep>
+		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_MEDIUM_CIVICS</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>
 		<zType>LAW_PROFESSIONAL_ARMY</zType>

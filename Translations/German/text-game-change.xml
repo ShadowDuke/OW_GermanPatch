@@ -54,6 +54,10 @@
 		<Translation>Wegen einer Verbindung(CONCEPT_ALLIANCE_PLAYER) zu {0_team}, {1_player} erklärt {2_player} den Krieg!</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_TRIBE_ALLIANCE_WAR</zType>
+		<Translation>Because of an link(CONCEPT_ALLIANCE_TRIBE) with {0_team}, {1_tribe} responds to the link(DIPLOMACY_WAR) Declaration by {2_team} with link(DIPLOMACY_WAR)!</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_RELIGION_THEOLOGY</zType>
 		<Translation>{0_religion} has established {1_theology} Theology.</Translation>
 	</Entry>
@@ -108,6 +112,10 @@
 	<Entry>
 		<zType>TEXT_GAME_OTHER_TEAM_NEW_RULER_POPUP</zType>
 		<Translation>Nachrichten außer Landes haben uns erreicht das {0_oldLeader} Tot ist. Ein neuer Herrscher, {1_newLeader}, hat den Thron übernommen.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_TRIBE_NEW_RULER_POPUP</zType>
+		<Translation>News has arrived from abroad that {0_oldLeader} is dead. {1_newLeader} now leads the {2_tribe}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_NEW_LAW_FOR_HEIR_POPUP</zType>
@@ -268,7 +276,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DECISION_RETIRING_GENERAL_PROMPT</zType>
-		<Translation>Wähle neuen Feldherr</Translation>
+		<Translation>Wähle neuen link(CONCEPT_GENERAL)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_DECISION_DEAD_COUNCIL_TITLE</zType>
+		<Translation>Tot von {0_council}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_DECISION_DEAD_COUNCIL</zType>
+		<Translation>{0_character}, unser {1_council}, ist während er im Amt war gestorben.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_DECISION_DEAD_COUNCIL_PROMPT</zType>
+		<Translation>Choose New {0_council}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DECISION_DEAD_GOVERNOR_TITLE</zType>

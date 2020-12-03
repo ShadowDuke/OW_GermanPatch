@@ -459,6 +459,16 @@
 		<zText>Politischen Gefangenen entlassen</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ACCEPTED_MISTHOPHORIA</zType>
+		<zText>Permitted payment for public work</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REJECTED_MISTHOPHORIA</zType>
+		<zText>Rejected payment for public work</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>								 
 	<Entry beginGroup="Diplomacy">
 		<zType>MEMORYFAMILY_GRAVE_OFFENSE</zType>
 		<zText>Ritual humiliation</zText>
@@ -933,6 +943,11 @@
 		<zType>MEMORYFAMILY_SHARED_THEIR_GRIEF</zType>
 		<zText>Geteilte Trauer</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_DID_NOT_EXPEL_STUDENT</zType>
+		<zText>You did not expel an unruly student.</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry beginGroup="Contact">
 		<zType>MEMORYFAMILY_FORCED_TO_KISS_FEET</zType>

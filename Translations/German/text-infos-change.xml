@@ -62,12 +62,8 @@
 	</Entry>
     <Entry>
         <zType>TEXT_CONCEPT_UNIT_ANCHOR</zType>
-        <Translation>Anker</Translation>
+        <Translation>Ankern</Translation>
     </Entry>
-	<Entry>
-		<zType>TEXT_CONCEPT_TRIBE_INVADE</zType>
-		<Translation>Stammes Einmarsch</Translation>
-	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_BUY_TILE</zType>
 		<Translation>Felder kaufen</Translation>
@@ -347,27 +343,27 @@
 		<Translation>Ältesten Offizier~ein Ältesten Offizier~Ältesten Offizieren</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_OPINIONBARBARIAN_FURIOUS</zType>
+		<zType>TEXT_OPINIONTRIBE_FURIOUS</zType>
 		<Translation>Wütend</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_OPINIONBARBARIAN_ANGRY</zType>
+		<zType>TEXT_OPINIONTRIBE_ANGRY</zType>
 		<Translation>Aufgebracht</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_OPINIONBARBARIAN_UPSET</zType>
+		<zType>TEXT_OPINIONTRIBE_UPSET</zType>
 		<Translation>Verärgert</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_OPINIONBARBARIAN_CAUTIOUS</zType>
+		<zType>TEXT_OPINIONTRIBE_CAUTIOUS</zType>
 		<Translation>Zurückhaltend</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_OPINIONBARBARIAN_PLEASED</zType>
+		<zType>TEXT_OPINIONTRIBE_PLEASED</zType>
 		<Translation>Zufrieden</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_OPINIONBARBARIAN_FRIENDLY</zType>
+		<zType>TEXT_OPINIONTRIBE_FRIENDLY</zType>
 		<Translation>Freundlich</Translation>
 	</Entry>
 	<!--InfoFamilyClass-->
@@ -1149,7 +1145,7 @@
 		<Translation>Erziele Bündnis mit einem Stamm</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_BARBARIAN_CONVERSION</zType>
+		<zType>TEXT_GOAL_TRIBE_CONVERSION</zType>
 		<Translation>Konvertiere Barbaren zur Religion</Translation>
 	</Entry>
 	<Entry>
@@ -1307,10 +1303,6 @@
 	<Entry>
 		<zType>TEXT_GOAL_20_UNITS</zType>
 		<Translation>Kontrolliere 20 Militär Einheiten (5 Kataphrakten)</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_HIGHEST_MILITARY</zType>
-		<Translation>Beste Militär</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_TWO_BATTERING_RAM</zType>

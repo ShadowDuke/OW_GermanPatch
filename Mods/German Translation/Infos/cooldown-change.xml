@@ -82,6 +82,16 @@
 		<zIconName>SPRITE_FORTIFY</zIconName>
 	</Entry>
 	<Entry>
+		<zType>COOLDOWN_RECRUITED</zType>
+		<zName>Rekrutiert</zName>
+		<zIconName>COOLDOWN_RECRUITED</zIconName>
+	</Entry>
+	<Entry>
+		<zType>COOLDOWN_HIRED</zType>
+		<zName>Angeheuert</zName>
+		<zIconName>COOLDOWN_HIRED</zIconName>
+	</Entry>
+	<Entry>
 		<zType>COOLDOWN_GIFTED</zType>
 		<zName>Geschenkt</zName>
 		<zIconName>COOLDOWN_GIFT</zIconName>

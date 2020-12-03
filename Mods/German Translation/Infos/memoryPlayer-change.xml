@@ -10,6 +10,11 @@
 		<bName comment="Show the name for event options."/>
 	</Entry>
 	<Entry>
+		<zType>MEMORYPLAYER_HUMAN_DIPLOMACY</zType>
+		<zText>Human Diplomacy</zText>
+		<iTurns>1</iTurns>
+	</Entry>
+	<Entry>
 		<zType>MEMORYPLAYER_BROKE_PEACE</zType>
 		<zText>Friedensabkommen gebrochen</zText>
 		<iValue>-20</iValue>
@@ -52,8 +57,8 @@
 	<Entry>
 		<zType>MEMORYPLAYER_TRADE_DEAL</zType>
 		<zText>Neues Handelsabkommen</zText>
-		<iValue>20</iValue>
-		<iTurns>40</iTurns>
+		<iValue>40</iValue>
+		<iTurns>20</iTurns>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_TRUCE</zType>
@@ -156,10 +161,14 @@
 		<iTurns>40</iTurns>
 	</Entry>
 	<Entry>
-		<zType>MEMORYPLAYER_NO_WAR</zType>
-		<zText>Vom Abgrund einen Schritt zurückzutreten</zText>
-		<iValue>40</iValue>
-		<iTurns>30</iTurns>
+		<zType>MEMORYPLAYER_TRIBE_PLAYER_WAR</zType>
+		<zText>Convinced a Tribe to declare on us</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_LONG</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_PLAYER_PLAYER_WAR</zType>
+		<zText>Convinced a Nation to declare on us</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_LONG</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_PEACEMAKER_BAD</zType>
@@ -205,6 +214,16 @@
 		<zType>MEMORYPLAYER_EVENTOPTION_TRADE_MISSION_YES_FAIL</zType>
 		<zText>Gib uns ein Geschnek um unsere Beziehungen zu verbessern</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_DECLARE_WAR_DEMAND_YES</zType>
+		<zText>Agreed to Declare War on our enemy</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_DECLARE_WAR_DEMAND_NO</zType>
+		<zText>Refused to Declare War on our enemy</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_LONG</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_JUSTICE</zType>

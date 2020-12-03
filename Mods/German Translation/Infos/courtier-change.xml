@@ -12,9 +12,9 @@
 		<azNicknames/>
 	</Entry>
 	<Entry>
-		<zType>COURTIER_GREAT_SOLDIER</zType>
-		<zName>Großer Krieger</zName>
-		<zIconName>COURTIER_GREAT_SOLDIER</zIconName>
+		<zType>COURTIER_SOLDIER</zType>
+		<zName>Krieger des Hofstaats</zName>
+		<zIconName>COURTIER_SOLDIER</zIconName>
 		<aiRatingBase>
 			<Pair>
 				<zIndex>RATING_COURAGE</zIndex>
@@ -124,9 +124,9 @@
 		</azNicknames>
 	</Entry>
 	<Entry>
-		<zType>COURTIER_GREAT_MINISTER</zType>
-		<zName>Großer Geistlicher</zName>
-		<zIconName>COURTIER_GREAT_MINISTER</zIconName>
+		<zType>COURTIER_MINISTER</zType>
+		<zName>Geistlicher des Hofstaats</zName>
+		<zIconName>COURTIER_MINISTER</zIconName>
 		<aiRatingBase>
 			<Pair>
 				<zIndex>RATING_CHARISMA</zIndex>
@@ -220,9 +220,9 @@
 		</azNicknames>
 	</Entry>
 	<Entry>
-		<zType>COURTIER_GREAT_MERCHANT</zType>
-		<zName>Großer Kaufmann</zName>
-		<zIconName>COURTIER_GREAT_MERCHANT</zIconName>
+		<zType>COURTIER_MERCHANT</zType>
+		<zName>Kaufmann des Hofstaats</zName>
+		<zIconName>COURTIER_MERCHANT</zIconName>
 		<aiRatingBase>
 			<Pair>
 				<zIndex>RATING_DISCIPLINE</zIndex>
@@ -312,9 +312,9 @@
 		</azNicknames>
 	</Entry>
 	<Entry>
-		<zType>COURTIER_GREAT_SCIENTIST</zType>
-		<zName>Großer Wissenschaftler</zName>
-		<zIconName>COURTIER_GREAT_SCIENTIST</zIconName>
+		<zType>COURTIER_SCIENTIST</zType>
+		<zName>Wissenschaftler des Hofstaats</zName>
+		<zIconName>COURTIER_SCIENTIST</zIconName>
 		<aiRatingBase>
 			<Pair>
 				<zIndex>RATING_WISDOM</zIndex>

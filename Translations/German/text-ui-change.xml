@@ -38,7 +38,7 @@
 		<Translation>Du bist an der Reihe</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_KNOWN_RIVALS_TURN</zType>
+		<zType>TEXT_UI_THEIR_TURN</zType>
 		<Translation>{0}s Zug</Translation>
 	</Entry>
 	<Entry>
@@ -614,6 +614,70 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
 		<zType>TEXT_UI_CHARACTERLIST_FILTER_SPYMASTERS</zType>
 		<Translation>Geeignete Meisterspione</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_UI_CHARACTERLIST_FILTER_GENERAL_AGE</zType>
+		<Translation>Muss jünger als int(GENERAL_START_AGE) sein</Translation>
+	</Entry>
+	<Entry>
+        <zType>TEXT_UI_UNITLIST_CIVILIAN_FILTER</zType>
+        <Translation><![CDATA[<true_0>Verstecke<false>Show<end> Zivile Einheiten]]></Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_UI_UNITLIST_SCOUT_FILTER</zType>
+        <Translation><![CDATA[<true_0>Verstecke<false>Show<end> Späher]]></Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_UI_UNITLIST_MILITARY_WATER_FILTER</zType>
+        <Translation><![CDATA[<true_0>Verstecke<false>Show<end> See Einheiten]]></Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_UI_UNITLIST_MILITARY_MOUNTED_FILTER</zType>
+        <Translation><![CDATA[<true_0>Verstecke<false>Show<end> Berittene Einheiten]]></Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_UI_UNITLIST_MILITARY_SIEGE_FILTER</zType>
+        <Translation><![CDATA[<true_0>Verstecke<false>Show<end> Belagerungs Einheiten]]></Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_UI_UNITLIST_MILITARY_RANGED_FILTER</zType>
+        <Translation><![CDATA[<true_0>Verstecke<false>Show<end> Fernkampf Einheiten]]></Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_UI_UNITLIST_MILITARY_INFANTRY_FILTER</zType>
+        <Translation><![CDATA[<true_0>Verstecke<false>Show<end> Nahkampf Einheiten]]></Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_UI_SELECTED_RELIGION_ADOPT_BUTTON</zType>
+        <Translation>Adaptiere {0}</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_UI_SELECTED_RELIGION_FOLLOWERS</zType>
+        <Translation>Anhänger</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_UI_SELECTED_RELIGION_THEOLOGIES</zType>
+        <Translation>Religionswissenschaft</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_UI_SELECTED_RELIGION_THEOLOGY</zType>
+        <Translation>Rang {0}: {1}</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_UI_SELECTED_RELIGION_THEOLOGY_NONE</zType>
+        <Translation>Rang {0}: None</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_UI_SELECTED_RELIGION_FOLLOWERS_EMPIRES</zType>
+        <Translation>Eiche:</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_UI_SELECTED_RELIGION_FOLLOWERS_FAMILIES</zType>
+        <Translation>Familien:</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_UI_SELECTED_RELIGION_FOLLOWERS_TRIBES</zType>
+        <Translation>Stämme:</Translation>
+    </Entry>
     <!--menu-screens.xml-->
     <Entry>
         <zType>TEXT_UI_SURRENDER_DIALOG</zType>
@@ -923,6 +987,10 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
 		<Translation>Spiel Passwort</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_HOSTPASSWORD</zType>
+		<Translation>Passwort</Translation>
+	</Entry>
+	<Entry>
         <zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_PLAYERS</zType>
         <Translation>Spieler</Translation>
     </Entry>
@@ -931,7 +999,7 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
         <Translation>Teams</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_BARBARIANS</zType>
+		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_TRIBAL_STRENGTH</zType>
 		<Translation>Barbaren</Translation>
 	</Entry>
 	<Entry>
@@ -1668,7 +1736,7 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
 	</Entry>
 	<!--barbarian-list.xml-->
 	<Entry>
-		<zType>TEXT_BARBARIAN_LIST_TRIBES</zType>
+		<zType>TEXT_TRIBE_LIST</zType>
 		<Translation>Volksstämme</Translation>
 	</Entry>
 	<!--ai-log.xml-->
@@ -1944,6 +2012,26 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
 	<Entry>
 		<zType>TEXT_UI_MODS_MOD_ADD_FILES</zType>
 		<Translation>Füge Dateien hinzu</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_DEPENDENCIES</zType>
+		<Translation>Anhämgigkeiten:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_INCOMPATIBILITIES</zType>
+		<Translation>Inkompatibilität:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_DEPENDENCIES_TOOLTIP</zType>
+		<Translation>List of mods required by this mod to work properly. These mods will always load before this mod.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_INCOMPATIBILITIES_TOOLTIP</zType>
+		<Translation>List of mods that are not compatible with this mod.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_RELATIONS_FORMAT_EXPLANATION</zType>
+		<Translation><![CDATA[each in the format: mod_name,modio_id,modfile_id<br>where mod_name is the only required field. modio_id is the number id for the mod on mod.io. And modfile_id is the specific version file id.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_OPEN_MOD_FOLDER_BUTTON</zType>

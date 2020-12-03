@@ -348,8 +348,16 @@
 		<Translation>{0_religion} als Staatsreligion</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_EFFECT_CITY_SOURCE_CITY</zType>
+		<Translation>{0_source} Stadt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_EFFECT_CITY_SOURCE_RELIGION</zType>
+		<Translation>{0_source} Religion</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_EFFECT_CITY_SOURCE</zType>
-		<Translation>{0_source} ({1_sourceOther})</Translation>
+		<Translation>{0_source} (+{1_sourceOther})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_CONNECTED</zType>
@@ -466,6 +474,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_DISCONTENT</zType>
 		<Translation>Stufe {0_discontentLevel}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_AMBITIONS_MAX</zType>
+		<Translation>{0}/int(MAX_AMBITIONS)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_LEGACIES_FINISHED</zType>
@@ -1190,6 +1202,10 @@
 		<Translation>{0_value}: {1_leader} {2_cognomen}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_PLAYER_LEGITIMACY_RECRUIT</zType>
+		<Translation>{0_value}: Rekrutierte link(CONCEPT_MERCENARY,2)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PLAYER_LEGITIMACY_COUNT</zType>
 		<Translation><![CDATA[{0_value}: {1_link} <true_2> (x{2})<false><end>]]></Translation>
 	</Entry>
@@ -1284,6 +1300,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_STORY_RELIGION_SCREEN</zType>
 		<Translation>Öffne Religionen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_CHARACTER_TRAIT</zType>
+		<Translation>{0_character} Wird {1_trait}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_CHARACTER_COUNCIL</zType>
@@ -1618,6 +1638,18 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Benötigt Stadt mit {0}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_RECRUIT_MERCENARY</zType>
+		<Translation>Rekrutiere {0_unit} als link(CONCEPT_MERCENARY,1)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_RECRUIT_MERCENARY_COST</zType>
+		<Translation>Costet {0} {1_legitimacy}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_HIRE_MERCENARY</zType>
+		<Translation>Heuere {0_unit} als link(CONCEPT_MERCENARY,1) an</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_GIFT_UNIT</zType>
 		<Translation><![CDATA[Schenke an {0_player} [Halte <TEXT_HOTKEY_CTRL> um zu bestätigen]]]></Translation>
 	</Entry>
@@ -1645,6 +1677,14 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<zType>TEXT_HELPTEXT_WIDGET_ESTABLISH_THEOLOGY_REQUIRES_STATE_RELIGION</zType>
 		<Translation>Benötigt eine Staatsreligion</Translation>
 	</Entry>
+    <Entry>
+        <zType>TEXT_HELPTEXT_WIDGET_ESTABLISH_THEOLOGY_REQUIRES_PREVIOUS_TIER</zType>
+        <Translation>Requires an established Theology from the previous tier</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_HELPTEXT_THEOLOGIES_AVAILABLE_TIER</zType>
+        <Translation>Available theologies (use a Disciple to establish):</Translation>
+    </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_SPREAD_RELIGION</zType>
 		<Translation><![CDATA[Dehne {0_religion} zu <true_1>{1_city}<false>einer Stadt<end>]]></Translation>
@@ -1918,6 +1958,10 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_PROJECT_YIELD_MODIFIER</zType>
 		<Translation>{0_yield}: {1_project} (Derzeit am Bauen)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_NO_AMBITIONS_FINISHED</zType>
+		<Translation>Keine Ambitionen fertiggestellt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CLEAR</zType>
@@ -2674,10 +2718,6 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>HP: {0}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_TYPE_MOVEMENT</zType>
-		<Translation>Bewegung: {0_amount}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_REVEAL_RANGE</zType>
 		<Translation>Sichtweite: {0_amount}</Translation>
 	</Entry>
@@ -2688,14 +2728,6 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_RANGE_MIN_MAX</zType>
 		<Translation>Reichweite: {0}-{1}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_TYPE_RANGE</zType>
-		<Translation>Reichweite: {0_amount}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_TYPE_STRENGTH</zType>
-		<Translation>Stärke: {0_value}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_ATTACK_VALUE_ITEM</zType>
@@ -3671,7 +3703,15 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_LEGITIMACY_ORDERS</zType>
-		<Translation>Benutze icon(YIELD_LEGITIMACY) um icon(YIELD_ORDERS) zu kaufen</Translation>
+		<Translation>Benutze {0_legitimacy} um icon(YIELD_ORDERS)link(YIELD_ORDERS) zu kaufen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_RECRUIT_MERCENARIES</zType>
+		<Translation>Recruit Tribal Mercenaries with {0_legitimacy}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_HIRE_MERCENARIES</zType>
+		<Translation>Can Hire Mercenaries from Tribes</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_UNIT_KILL_YIELD</zType>
@@ -3907,6 +3947,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_GENERAL_SAME_TRIBE</zType>
 		<Translation>Selber Stamm (Feldherr):</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_GENERAL_DIFF_TRIBE</zType>
+		<Translation>Anderer Stamm (Feldherr):</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_GENERAL_SAME_FAMILY</zType>
@@ -4557,6 +4601,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Jede {0,1_religion} Stadt: </Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_RELIGION_STATE_PLAYER_EFFECT</zType>
+		<Translation>Als Staatsreligion: {LIST}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_SPREAD_HELP</zType>
 		<Translation>{0}% Chance/{1_turnScale} sich zu neuen Städten auszubreiten</Translation>
 	</Entry>
@@ -4787,6 +4835,14 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Fälle Entscheidung</Translation>
 	</Entry>
 	<!--Tile Buttons-->
+	<Entry>
+		<zType>TEXT_HELPTEXT_TILE_RECRUIT_MERCENARY_BUTTON</zType>
+		<Translation>Rekrutiert {0_unit}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TILE_HIRE_MERCENARY_BUTTON</zType>
+		<Translation>Heuert {0_unit} an</Translation>
+	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_HARVEST_RESOURCE_BUTTON</zType>
 		<Translation><![CDATA[Ernte {0_resource}<true_1> (Auto)<false><end>]]></Translation>
@@ -5322,6 +5378,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>{0}: Ist Erbe</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_IS_PARENT</zType>
+		<Translation>{0}: Ist Elternteil</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_IS_GOVERNOR</zType>
 		<Translation>{0}: Ist Stadthalter</Translation>
 	</Entry>
@@ -5392,6 +5452,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UPGRADE_CHARACTER_BECOMES</zType>
 		<Translation>Wird {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LEAVE_JOB_COUNCIL</zType>
+		<Translation>Wird Hofraat als {0_council} verlassen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LEAVE_JOB_GENERAL</zType>
@@ -5830,6 +5894,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Gebe {0_city} an eine deiner Familien...</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_DECISION_CITY_FAMILY_DESC</zType>
+		<Translation>Give your newest City, {0_city}, to one of your Families...</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DECISION_OFFER_PEACE_TRIBE_DESC</zType>
 		<Translation>Schließe {0_peace} mit den {1_barbarians} für {2_money}? [Kein Ereignis gefunden]</Translation>
 	</Entry>
@@ -5870,12 +5938,16 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>link(CONCEPT_AGENT,2) in {0_city}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_POPUP_DECISION_UPGRADE_CHARACTER_COURTIERS</zType>
+		<zType>TEXT_HELPTEXT_POPUP_DECISION_UPGRADE_CHARACTER_COURTIER</zType>
 		<Translation>ein {0_courtier}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DECISION_CHOOSE_AMBITION_TITLE</zType>
 		<Translation>Wähle Ambition:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_DECISION_CHOOSE_AMBITION_DESC</zType>
+		<Translation>Is it time to choose your next Ambition, the future direction of {0_nation}?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DECISION_CHOOSE_CITY_FAMILY_TITLE</zType>
@@ -5977,11 +6049,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_HIGHEST_RIVAL</zType>
-		<Translation>(Nächster Rivale: {0})</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_MILITARY_UNITS</zType>
-		<Translation><![CDATA[Benötigt {0} Militär <singular_0>Einheit<plural>Einheiten<end>]]></Translation>
+		<Translation>(Höchster Rivale: {0})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_LUXURIES</zType>
@@ -6014,6 +6082,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_REVEAL_LAND</zType>
 		<Translation>Deckt {0} des Landes auf</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_MILITARY_UNITS</zType>
+		<Translation><![CDATA[Requires {0} Militär <singular_0>Einheit<plural>Einheiten<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_MAX_LEVEL_UNITS</zType>
@@ -6230,7 +6302,11 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_HELP_TRIBE_OPINION</zType>
-		<Translation>Stamm Meinung: {0}</Translation>
+		<Translation>Stammes Meinung: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_OPINION_HELP_MERCENARY_COST_MODIFIER</zType>
+		<Translation>link(CONCEPT_MERCENARY) Kosten Modifikator: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_HELP_RELIGION_OPINION</zType>

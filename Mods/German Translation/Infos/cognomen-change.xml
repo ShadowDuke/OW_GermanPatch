@@ -4,7 +4,6 @@
 	<Entry>
 		<zType/>
 		<zName/>
-		<bGeneric/>
 		<iLegitimacy/>
 		<iMinValue/>
 		<aiStatValue/>
@@ -229,15 +228,15 @@
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_TRIBE_PEACE</zIndex>
-				<iValue>1500</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TRIBE_ALLIANCE</zIndex>
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_TRIBE_CONVERSION</zIndex>
-				<iValue>500</iValue>
+				<zIndex>STAT_TEAM_ALLIANCE</zIndex>
+				<iValue>2000</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -249,15 +248,15 @@
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_TRIBE_PEACE</zIndex>
-				<iValue>1500</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TRIBE_ALLIANCE</zIndex>
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_TRIBE_CONVERSION</zIndex>
-				<iValue>500</iValue>
+				<zIndex>STAT_TEAM_ALLIANCE</zIndex>
+				<iValue>2000</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -532,12 +531,20 @@
 		<iMinValue>3000</iMinValue>
 		<aiStatValue>
 			<Pair>
+				<zIndex>STAT_TRIBE_CONTACTED</zIndex>
+				<iValue>100</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TEAM_CONTACTED</zIndex>
+				<iValue>100</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_LANDMARK_NAMED</zIndex>
-				<iValue>600</iValue>
+				<iValue>400</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>
-				<iValue>400</iValue>
+				<iValue>300</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RUINS_EXPLORED</zIndex>
@@ -545,7 +552,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TILES_REVEALED</zIndex>
-				<iValue>2</iValue>
+				<iValue>1</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -556,12 +563,20 @@
 		<iMinValue>5000</iMinValue>
 		<aiStatValue>
 			<Pair>
+				<zIndex>STAT_TRIBE_CONTACTED</zIndex>
+				<iValue>100</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TEAM_CONTACTED</zIndex>
+				<iValue>100</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_LANDMARK_NAMED</zIndex>
-				<iValue>600</iValue>
+				<iValue>400</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>
-				<iValue>400</iValue>
+				<iValue>300</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_RUINS_EXPLORED</zIndex>
@@ -569,7 +584,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TILES_REVEALED</zIndex>
-				<iValue>2</iValue>
+				<iValue>1</iValue>
 			</Pair>
 		</aiStatValue>
 	</Entry>
@@ -648,12 +663,16 @@
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_TRIBE_CONTACTED</zIndex>
+				<iValue>100</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_TRIBE_CLEARED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TRIBE_PEACE</zIndex>
-				<iValue>1500</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TRIBE_ALLIANCE</zIndex>
@@ -662,6 +681,14 @@
 			<Pair>
 				<zIndex>STAT_TRIBE_CONVERSION</zIndex>
 				<iValue>500</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TEAM_CONTACTED</zIndex>
+				<iValue>100</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TEAM_ALLIANCE</zIndex>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
@@ -697,11 +724,11 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_LANDMARK_NAMED</zIndex>
-				<iValue>600</iValue>
+				<iValue>400</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>
-				<iValue>400</iValue>
+				<iValue>300</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>
@@ -733,7 +760,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TILES_REVEALED</zIndex>
-				<iValue>2</iValue>
+				<iValue>1</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_TRAINED</zIndex>
@@ -780,12 +807,16 @@
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_TRIBE_CONTACTED</zIndex>
+				<iValue>100</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_TRIBE_CLEARED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TRIBE_PEACE</zIndex>
-				<iValue>1500</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TRIBE_ALLIANCE</zIndex>
@@ -794,6 +825,14 @@
 			<Pair>
 				<zIndex>STAT_TRIBE_CONVERSION</zIndex>
 				<iValue>500</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TEAM_CONTACTED</zIndex>
+				<iValue>100</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TEAM_ALLIANCE</zIndex>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
@@ -827,13 +866,13 @@
 				<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
-			<Pair>		 
+			<Pair>
 				<zIndex>STAT_LANDMARK_NAMED</zIndex>
-				<iValue>600</iValue>
+				<iValue>400</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>
-				<iValue>400</iValue>
+				<iValue>300</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>
@@ -865,7 +904,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TILES_REVEALED</zIndex>
-				<iValue>2</iValue>
+				<iValue>1</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_TRAINED</zIndex>
@@ -912,12 +951,16 @@
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_TRIBE_CONTACTED</zIndex>
+				<iValue>100</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_TRIBE_CLEARED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TRIBE_PEACE</zIndex>
-				<iValue>1500</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TRIBE_ALLIANCE</zIndex>
@@ -926,6 +969,14 @@
 			<Pair>
 				<zIndex>STAT_TRIBE_CONVERSION</zIndex>
 				<iValue>500</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TEAM_CONTACTED</zIndex>
+				<iValue>100</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TEAM_ALLIANCE</zIndex>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
@@ -959,13 +1010,13 @@
 				<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
-			<Pair>		 
+			<Pair>
 				<zIndex>STAT_LANDMARK_NAMED</zIndex>
-				<iValue>600</iValue>
+				<iValue>400</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>
-				<iValue>400</iValue>
+				<iValue>300</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>
@@ -997,7 +1048,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TILES_REVEALED</zIndex>
-				<iValue>2</iValue>
+				<iValue>1</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_TRAINED</zIndex>
@@ -1044,12 +1095,16 @@
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_TRIBE_CONTACTED</zIndex>
+				<iValue>100</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_TRIBE_CLEARED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TRIBE_PEACE</zIndex>
-				<iValue>1500</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TRIBE_ALLIANCE</zIndex>
@@ -1058,6 +1113,14 @@
 			<Pair>
 				<zIndex>STAT_TRIBE_CONVERSION</zIndex>
 				<iValue>500</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TEAM_CONTACTED</zIndex>
+				<iValue>100</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TEAM_ALLIANCE</zIndex>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
@@ -1091,13 +1154,13 @@
 				<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
-			<Pair>		 
+			<Pair>
 				<zIndex>STAT_LANDMARK_NAMED</zIndex>
-				<iValue>600</iValue>
+				<iValue>400</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>
-				<iValue>400</iValue>
+				<iValue>300</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>
@@ -1129,7 +1192,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TILES_REVEALED</zIndex>
-				<iValue>2</iValue>
+				<iValue>1</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_TRAINED</zIndex>
@@ -1176,12 +1239,16 @@
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_TRIBE_CONTACTED</zIndex>
+				<iValue>100</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_TRIBE_CLEARED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TRIBE_PEACE</zIndex>
-				<iValue>1500</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TRIBE_ALLIANCE</zIndex>
@@ -1190,6 +1257,14 @@
 			<Pair>
 				<zIndex>STAT_TRIBE_CONVERSION</zIndex>
 				<iValue>500</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TEAM_CONTACTED</zIndex>
+				<iValue>100</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TEAM_ALLIANCE</zIndex>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
@@ -1223,13 +1298,13 @@
 				<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
-			<Pair>		 
+			<Pair>
 				<zIndex>STAT_LANDMARK_NAMED</zIndex>
-				<iValue>600</iValue>
+				<iValue>400</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>
-				<iValue>400</iValue>
+				<iValue>300</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>
@@ -1261,7 +1336,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TILES_REVEALED</zIndex>
-				<iValue>2</iValue>
+				<iValue>1</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_TRAINED</zIndex>
@@ -1308,12 +1383,16 @@
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_TRIBE_CONTACTED</zIndex>
+				<iValue>100</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_TRIBE_CLEARED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TRIBE_PEACE</zIndex>
-				<iValue>1500</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TRIBE_ALLIANCE</zIndex>
@@ -1322,6 +1401,14 @@
 			<Pair>
 				<zIndex>STAT_TRIBE_CONVERSION</zIndex>
 				<iValue>500</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TEAM_CONTACTED</zIndex>
+				<iValue>100</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TEAM_ALLIANCE</zIndex>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
@@ -1355,13 +1442,13 @@
 				<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
-			<Pair>		 
+			<Pair>
 				<zIndex>STAT_LANDMARK_NAMED</zIndex>
-				<iValue>600</iValue>
+				<iValue>400</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>
-				<iValue>400</iValue>
+				<iValue>300</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>
@@ -1393,7 +1480,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TILES_REVEALED</zIndex>
-				<iValue>2</iValue>
+				<iValue>1</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_TRAINED</zIndex>
@@ -1440,12 +1527,16 @@
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_TRIBE_CONTACTED</zIndex>
+				<iValue>100</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_TRIBE_CLEARED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TRIBE_PEACE</zIndex>
-				<iValue>1500</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TRIBE_ALLIANCE</zIndex>
@@ -1454,6 +1545,14 @@
 			<Pair>
 				<zIndex>STAT_TRIBE_CONVERSION</zIndex>
 				<iValue>500</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TEAM_CONTACTED</zIndex>
+				<iValue>100</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TEAM_ALLIANCE</zIndex>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
@@ -1487,13 +1586,13 @@
 				<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
-			<Pair>		 
+			<Pair>
 				<zIndex>STAT_LANDMARK_NAMED</zIndex>
-				<iValue>600</iValue>
+				<iValue>400</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>
-				<iValue>400</iValue>
+				<iValue>300</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>
@@ -1525,7 +1624,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TILES_REVEALED</zIndex>
-				<iValue>2</iValue>
+				<iValue>1</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_TRAINED</zIndex>
@@ -1572,12 +1671,16 @@
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_TRIBE_CONTACTED</zIndex>
+				<iValue>100</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_TRIBE_CLEARED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TRIBE_PEACE</zIndex>
-				<iValue>1500</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TRIBE_ALLIANCE</zIndex>
@@ -1586,6 +1689,14 @@
 			<Pair>
 				<zIndex>STAT_TRIBE_CONVERSION</zIndex>
 				<iValue>500</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TEAM_CONTACTED</zIndex>
+				<iValue>100</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_TEAM_ALLIANCE</zIndex>
+				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
@@ -1619,13 +1730,13 @@
 				<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
-			<Pair>		 
+			<Pair>
 				<zIndex>STAT_LANDMARK_NAMED</zIndex>
-				<iValue>600</iValue>
+				<iValue>400</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>
-				<iValue>400</iValue>
+				<iValue>300</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>
@@ -1657,7 +1768,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>STAT_TILES_REVEALED</zIndex>
-				<iValue>2</iValue>
+				<iValue>1</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_UNIT_TRAINED</zIndex>
@@ -1688,373 +1799,5 @@
 				<iValue>100</iValue>
 			</Pair>
 		</aiStatValue>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_TACTICIAN</zType>
-		<zName>der Taktiker</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_JUDGE</zType>
-		<zName>der Richter</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_ORATOR</zType>
-		<zName>der Redner</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_SCHOLAR</zType>
-		<zName>der Wissenschaftler</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_BUILDER</zType>
-		<zName>der Baumeister</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_SCHEMER</zType>
-		<zName>der Intrigant</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_COMMANDER</zType>
-		<zName>der Feldherr</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_ZEALOT</zType>
-		<zName>der Fanatiker</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_DIPLOMAT</zType>
-		<zName>der Diplomat</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_HERO</zType>
-		<zName>der Held</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_ROBUST</zType>
-		<zName>der Robuste</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_VIGILANT</zType>
-		<zName>der Aufmerksame</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_STRICT</zType>
-		<zName>der Strenge</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_DRILLMASTER</zType>
-		<zName>der Ausbilder</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_KEEN</zType>
-		<zName>der Scharfsinnige</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_EQUESTRIAN</zType>
-		<zName>der Reiter</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_CARPENTER</zType>
-		<zName>der Zimmerer</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_AFFABLE</zType>
-		<zName>der Umgängliche</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_WARLIKE</zType>
-		<zName>der Kriegerische</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_ELOQUENT</zType>
-		<zName>der Wortgewandte</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_INSPIRING</zType>
-		<zName>der Beflügelte</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_INTELLIGENT</zType>
-		<zName>der Kluge</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_PROSPEROUS</zType>
-		<zName>der Erfolgreiche</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_FRUGAL</zType>
-		<zName>der Sparsame</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_RIGHTEOUS</zType>
-		<zName>der Rechtschaffende</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_CRUEL</zType>
-		<zName>der Grausame</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_INTOLERANT</zType>
-		<zName>der Unduldsame</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_SLOTHFUL</zType>
-		<zName>der Faule</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_CORRUPT</zType>
-		<zName>der Korrupte</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_UNCOUTH</zType>
-		<zName>der Pöbelhafte</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_FOOLISH</zType>
-		<zName>der Tölpelhafte</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_EXTRAVAGANT</zType>
-		<zName>der Verschwenderische</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_DEBAUCHED</zType>
-		<zName>der Verdorbene</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_ANGLER</zType>
-		<zName>der Fischer</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_PLANTER</zType>
-		<zName>der Siedler</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_FORESTER</zType>
-		<zName>der Förster</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_DELVER</zType>
-		<zName>der Schnüffler</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_SMELTER</zType>
-		<zName>der Schmelzer</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_HERDER</zType>
-		<zName>der Hirte</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_DEALMAKER</zType>
-		<zName>der Geschäftemacher</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_TRACKER</zType>
-		<zName>der Fährtenleser</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_SWIFT</zType>
-		<zName>der Flinke</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_HARDY</zType>
-		<zName>der Zähe</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_EAGLE_EYE</zType>
-		<zName>Adlerauge</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_MARKSMAN</zType>
-		<zName>der Schafschütze</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_BESIEGER</zType>
-		<zName>der Belagerer</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_GARRISON</zType>
-		<zName>der Besätzer</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_TOUGH</zType>
-		<zName>der Zähe</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_BLOODTHIRSTY</zType>
-		<zName>der Blutdürstige</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_HECKLER</zType>
-		<zName>der Störer</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_STEADFAST</zType>
-		<zName>der Treue</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_HERBALIST</zType>
-		<zName>der Pflanzenkenner</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_HIGHLANDER</zType>
-		<zName>der Bergbewohner</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_RANGER</zType>
-		<zName>der Ranger</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_FIERCE</zType>
-		<zName>der Unerschütterliche</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_SHIELDBEARER</zType>
-		<zName>der Schildträger</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_HORSEBANE</zType>
-		<zName>Unheilig</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_ENGINEER</zType>
-		<zName>der Techniker</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_BOLD</zType>
-		<zName>der Freche</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_COWARDLY</zType>
-		<zName>der Feige</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_GRACIOUS</zType>
-		<zName>der Gnädige</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_GREEDY</zType>
-		<zName>der Gierige</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_CUNNING</zType>
-		<zName>der Listenreich</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_ROMANTIC</zType>
-		<zName>der Romantische</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_EDUCATED</zType>
-		<zName>der Gebildete</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_SUPERSTITIOUS</zType>
-		<zName>der Abergläubische</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_COMPASSIONATE</zType>
-		<zName>der Mitfühlende</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_RUTHLESS</zType>
-		<zName>der Rücksichtslose</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_LOYAL</zType>
-		<zName>der Loyale</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_BITTER</zType>
-		<zName>der Verbitterte</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_SPOILED</zType>
-		<zName>der Verwöhnte</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_HONEST</zType>
-		<zName>der Ehrliche</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_DISHONEST</zType>
-		<zName>der Unehrliche</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_PIOUS</zType>
-		<zName>der Fromme</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_WANTON</zType>
-		<zName>der Schamlose</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_HUMBLE</zType>
-		<zName>der Bescheidene</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_PROUD</zType>
-		<zName>der Stolze</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_HEARTBROKEN</zType>
-		<zName>der Untröstliche</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_BEAUTIFUL</zType>
-		<zName>der Schöne</zName>
-  </Entry>
-  <Entry>
-		<zType>COGNOMEN_WITTY</zType>
-		<zName>Der Geistreiche</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_INSANE</zType>
-		<zName>der Verrückte</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_DRUNK</zType>
-		<zName>der Trunkenbold</zName>
-	</Entry>	  
-	<Entry>
-		<zType>COGNOMEN_BLESSED</zType>
-		<zName>der Gesegnete</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_CURSED</zType>
-		<zName>der Verfluchte</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_CRIPPLED</zType>
-		<zName>der Crippled</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_BLIND</zType>
-		<zName>der Blinde</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_GREAT_SOLDIER</zType>
-		<zName>der Krieger</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_GREAT_MINISTER</zType>
-		<zName>der Minister</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_GREAT_MERCHANT</zType>
-		<zName>der Kaufmann</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_GREAT_SCIENTIST</zType>
-		<zName>der Wissenschaftler</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_YOUNGER</zType>
-		<zName>der Jüngere</zName>
-	</Entry>
-	<Entry>
-		<zType>COGNOMEN_ELDER</zType>
-		<zName>der Älteste</zName>
 	</Entry>
 </Root>

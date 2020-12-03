@@ -50,6 +50,11 @@
 		<zText>Barbaren zu Religion konvertiert</zText>
 	</Entry>
 	<Entry>
+		<zType>MEMORYTRIBE_PLAYER_TRIBE_WAR</zType>
+		<zText>Convinced a Nation to declare on us</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_LONG</MemoryLevel>
+	</Entry>
+	<Entry>
 		<zType>MEMORYTRIBE_ATTACKED_UNIT</zType>
 		<zText>Unsere Einheit(en) angegriffen</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
@@ -183,6 +188,11 @@
 		<zType>MEMORYTRIBE_TREATED_WITH_LEADER</zType>
 		<zText>Treated with our leader</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYTRIBE_RESTRICTED_PIRACY</zType>
+		<zText>Restircted tribal piracy</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry beginGroup="Contact">
 		<zType>MEMORYTRIBE_TRIBE_WAR_AMBASSADOR_IF</zType>
