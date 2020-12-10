@@ -221,6 +221,38 @@
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_DIPLOMAT_MILD_TITLE</zType>
 		<Translation>Diplomacy By Other Means</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NEVER_ENOUGH_TITLE</zType>
+		<Translation>Never Enough</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_POWER_TO_THE_PEOPLE_TITLE</zType>
+		<Translation>Power to the People</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_ON_THEIR_OWN_TITLE</zType>
+		<Translation>On their Own</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_A_HEROS_FLIGHT_TITLE</zType>
+		<Translation>A Hero's Flight</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_A_MEASURED_VOICE_TITLE</zType>
+		<Translation>A Measured Voice</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_A_VIPER_IN_THE_NEST_TITLE</zType>
+		<Translation>A Viper in the Nest</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_PRETTY_PERSUASION_TITLE</zType>
+		<Translation>Pretty Persuasion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_UNLIKELY_ALLIES_TITLE</zType>
+		<Translation>Unlikely Allies</Translation>
+	</Entry>
 	<Entry beginGroup="Exploration">
 		<zType>TEXT_EVENTSTORY_RUINS_SURVIVORS_TITLE</zType>
 		<Translation>Überlebene</Translation>
@@ -1078,6 +1110,10 @@
 		<Translation>Drums of War</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTSTORY_AMBITION_NEW_PLAYER_WAR_TITLE</zType>
+		<Translation>[NEUE KRIEGSAMBITIONEN]</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_WAR_OR_INVASION_TITLE</zType>
 		<Translation>The Coming Tide</Translation>
 	</Entry>
@@ -1412,7 +1448,79 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_DIPLOMAT_FURIOUS_TITLE</zType>
 		<Translation>Diplomacy By Other Means</Translation>
-	</Entry>	 
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIPLO_OFFER_RELIGION_SPREAD_ZEALOT_TITLE</zType>
+		<Translation>Zealots at the Gates</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIPLO_OFFER_RELIGION_SPREAD_HERO_TITLE</zType>
+		<Translation>Onward {RELIGION-3} Soldiers!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIPLO_OFFER_RELIGION_SPREAD_TACTICIAN_TITLE</zType>
+		<Translation>Onward {RELIGION-3} Soldiers!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIPLO_OFFER_RELIGION_SPREAD_COMMANDER_TITLE</zType>
+		<Translation>Onward {RELIGION-3} Soldiers!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIPLO_OFFER_RELIGION_SPREAD_JUDGE_TITLE</zType>
+		<Translation>Convincing Case</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIPLO_OFFER_RELIGION_SPREAD_SCHOLAR_TITLE</zType>
+		<Translation>Convincing Case</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIPLO_OFFER_RELIGION_SPREAD_SCHEMER_TITLE</zType>
+		<Translation>Spicy Scheme</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIPLO_OFFER_RELIGION_SPREAD_ORATOR_TITLE</zType>
+		<Translation>Appealing Argument</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIPLO_OFFER_RELIGION_SPREAD_DIPLOMAT_TITLE</zType>
+		<Translation>Appealing Argument</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIPLO_OFFER_RELIGION_SPREAD_BUILDER_TITLE</zType>
+		<Translation>Religious Ironography</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIPLO_OFFER_ASK_FAVOR_RELIGION_TITLE</zType>
+		<Translation>Hopes and Prayers</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIPLO_OFFER_ASK_FAVOR_SCHEMER_TITLE</zType>
+		<Translation>An Urgent Matter!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIPLO_OFFER_ASK_FAVOR_HERO_TITLE</zType>
+		<Translation>War Games</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIPLO_OFFER_ASK_FAVOR_TITLE_COPY</zType>
+		<Translation>With Great Works Comes Great Importability </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIPLO_OFFER_ASK_FAVOR_SCHOLAR_TITLE</zType>
+		<Translation>A Fist Full of Forms</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIPLO_OFFER_ASK_FAVOR_JUDGE_TITLE</zType>
+		<Translation>A Fist Full of Forms</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIPLO_OFFER_ASK_FAVOR_ORATOR_TITLE</zType>
+		<Translation>Poetic Petition</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DIPLO_OFFER_ASK_FAVOR_DIPLOMAT_TITLE</zType>
+		<Translation>Poetic Petition</Translation>
+	</Entry>
 	<Entry beginGroup="Combat">
 		<zType>TEXT_EVENTSTORY_LEADER_SMITING_FOES_TITLE</zType>
 		<Translation>Smiting Foes</Translation>
@@ -1772,6 +1880,14 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MISSION_MARRIAGE_FAMILY_TITLE</zType>
 		<Translation>Family Marriage Offer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MISSION_MARRIAGE_FOREIGN_TITLE</zType>
+		<Translation>Foreign Marriage Offer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MISSION_MARRIAGE_TRIBE_TITLE</zType>
+		<Translation>Tribal Marriage Offer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MATCHMAKER_0_TITLE</zType>
@@ -2363,7 +2479,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_TABOOS_TITLE</zType>
-		<Translation>Taboos</Translation>
+		<Translation>Tabus</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_SCIENCE_OR_MAGIC_TITLE</zType>
@@ -4521,6 +4637,26 @@
 		<zType>TEXT_EVENTSTORY_LEADER_LOVED_BOTH_FOOLISH_TITLE</zType>
 		<Translation>Missed Signs</Translation>
 	</Entry> 
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_DISASTER_AT_SEA_TITLE</zType>
+		<Translation>Disaster at Sea</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_BOOKISH_DEMEANOR_TITLE</zType>
+		<Translation>Bookish Demeanor</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_DRUNKEN_MISCONDUCT_TITLE</zType>
+		<Translation>Drunken Misconduct</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_MONEY_OR_FRIENDS_TITLE</zType>
+		<Translation>Money or Friends</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_STUDY_HEMP_ADDICTION_TITLE</zType>
+		<Translation>Hemp Addiction</Translation>
+	</Entry>
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS_TITLE</zType>
 		<Translation>Immigrants</Translation>
@@ -4795,7 +4931,211 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RELIGION_OPINION_TITLE</zType>
-		<Translation>[RELIGIÖSE DEBATTE]</Translation>
+		<Translation>[RELIGIOUS DEBATE]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BLESSING_OF_THE_GODS_TITLE</zType>
+		<Translation>Blessing of the Gods</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEDICATION_OF_THE_GODS_TITLE</zType>
+		<Translation>Dedication of the Gods</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISPLEASURE_OF_THE_GODS_TITLE</zType>
+		<Translation>Displeasure of the Gods</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BLESSING_OF_NINURTA_TITLE</zType>
+		<Translation>Blessing of Ninurta</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEDICATION_OF_NINURTA_TITLE</zType>
+		<Translation>Dedication of Ninurta</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISPLEASURE_OF_NINURTA_TITLE</zType>
+		<Translation>Displeasure of Ninurta</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BLESSING_OF_MARS_TITLE</zType>
+		<Translation>Blessing of Mars</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEDICATION_OF_MARS_TITLE</zType>
+		<Translation>Dedication of Mars</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISPLEASURE_OF_MARS_TITLE</zType>
+		<Translation>Displeasure of Mars</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BLESSING_OF_NUSKA_TITLE</zType>
+		<Translation>Blessing of Nuska</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEDICATION_OF_NUSKA_TITLE</zType>
+		<Translation>Dedication of Nuska</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISPLEASURE_OF_NUSKA_TITLE</zType>
+		<Translation>Displeasure of Nuska</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BLESSING_OF_ATAR_TITLE</zType>
+		<Translation>Blessing of Atar</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEDICATION_OF_ATAR_TITLE</zType>
+		<Translation>Dedication of Atar</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISPLEASURE_OF_ATAR_TITLE</zType>
+		<Translation>Displeasure of Atar</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BLESSING_OF_VULCAN_TITLE</zType>
+		<Translation>Blessing of Vulcan</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEDICATION_OF_VULCAN_TITLE</zType>
+		<Translation>Dedication of Vulcan</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISPLEASURE_OF_VULCAN_TITLE</zType>
+		<Translation>Displeasure of Vulcan</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BLESSING_OF_NABU_TITLE</zType>
+		<Translation>Blessing of Nabu</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEDICATION_OF_NABU_TITLE</zType>
+		<Translation>Dedication of Nabu</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISPLEASURE_OF_NABU_TITLE</zType>
+		<Translation>Displeasure of Nabu</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BLESSING_OF_ATHENA_TITLE</zType>
+		<Translation>Blessing of Athena</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEDICATION_OF_ATHENA_TITLE</zType>
+		<Translation>Dedication of Athena</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISPLEASURE_OF_ATHENA_TITLE</zType>
+		<Translation>Displeasure of Athena</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BLESSING_OF_SHAMASH_TITLE</zType>
+		<Translation>Blessing of Shamash</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEDICATION_OF_SHAMASH_TITLE</zType>
+		<Translation>Dedication of Shamash</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISPLEASURE_OF_SHAMASH_TITLE</zType>
+		<Translation>Displeasure of Shamash</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BLESSING_OF_RA_TITLE</zType>
+		<Translation>Blessing of Ra</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEDICATION_OF_RA_TITLE</zType>
+		<Translation>Dedication of Ra</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISPLEASURE_OF_RA_TITLE</zType>
+		<Translation>Displeasure of Ra</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BLESSING_OF_HVAR_KHSHAITA_TITLE</zType>
+		<Translation>Blessing of Hvar Khshaita</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEDICATION_OF_HVAR_KHSHAITA_TITLE</zType>
+		<Translation>Dedication of Hvar Khshaita</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISPLEASURE_OF_HVAR_KHSHAITA_TITLE</zType>
+		<Translation>Displeasure of Hvar Khshaita</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BLESSING_OF_MELQART_TITLE</zType>
+		<Translation>Blessing of Melqart</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEDICATION_OF_MELQART_TITLE</zType>
+		<Translation>Dedication of Melqart</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISPLEASURE_OF_MELQART_TITLE</zType>
+		<Translation>Displeasure of Melqart</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BLESSING_OF_POSEIDON_TITLE</zType>
+		<Translation>Blessing of Poseidon</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEDICATION_OF_POSEIDON_TITLE</zType>
+		<Translation>Dedication of Poseidon</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISPLEASURE_OF_POSEIDON_TITLE</zType>
+		<Translation>Displeasure of Poseidon</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BLESSING_OF_ANAHITA_TITLE</zType>
+		<Translation>Blessing of Anahita</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEDICATION_OF_ANAHITA_TITLE</zType>
+		<Translation>Dedication of Anahita</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISPLEASURE_OF_ANAHITA_TITLE</zType>
+		<Translation>Displeasure of Anahita</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BLESSING_OF_ISHTAR_TITLE</zType>
+		<Translation>Blessing of Ishtar</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEDICATION_OF_ISHTAR_TITLE</zType>
+		<Translation>Dedication of Ishtar</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISPLEASURE_OF_ISHTAR_TITLE</zType>
+		<Translation>Displeasure of Ishtar</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BLESSING_OF_ASTARTE_TITLE</zType>
+		<Translation>Blessing of Astarte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEDICATION_OF_ASTARTE_TITLE</zType>
+		<Translation>Dedication of Astarte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISPLEASURE_OF_ASTARTE_TITLE</zType>
+		<Translation>Displeasure of Astarte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BLESSING_OF_VENUS_TITLE</zType>
+		<Translation>Blessing of Venus</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEDICATION_OF_VENUS_TITLE</zType>
+		<Translation>Dedication of Venus</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DISPLEASURE_OF_VENUS_TITLE</zType>
+		<Translation>Displeasure of Venus</Translation>
 	</Entry>
 	<Entry beginGroup="Law">
 		<zType>TEXT_EVENTSTORY_THREAT_OF_MUTINY_TITLE</zType>

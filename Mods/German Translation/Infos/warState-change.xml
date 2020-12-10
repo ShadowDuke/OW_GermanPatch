@@ -5,16 +5,19 @@
 		<zType/>
 		<zName/>
 		<iThreshold/>
+		<iTruceModifier/>		   
 	</Entry>
 	<Entry>
 		<zType>WARSTATE_ROUTED</zType>
 		<zName>Besiegt</zName>
 		<iThreshold>-200</iThreshold>
+		<iTruceModifier>50</iTruceModifier>							 
 	</Entry>
 	<Entry>
 		<zType>WARSTATE_LOSING</zType>
 		<zName>Verlierend</zName>
 		<iThreshold>-20</iThreshold>
+		<iTruceModifier>25</iTruceModifier>							 
 	</Entry>
 	<Entry>
 		<zType>WARSTATE_NEUTRAL</zType>
@@ -25,9 +28,11 @@
 		<zType>WARSTATE_WINNING</zType>
 		<zName>Gewinnend</zName>
 		<iThreshold>200</iThreshold>
+		<iTruceModifier>-25</iTruceModifier>							  
 	</Entry>
 	<Entry>
 		<zType>WARSTATE_TRIUMPHANT</zType>
 		<zName>Siegreich</zName>
+		<iTruceModifier>-50</iTruceModifier>							  
 	</Entry>
 </Root>

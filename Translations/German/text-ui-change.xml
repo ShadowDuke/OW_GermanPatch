@@ -860,6 +860,11 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
         <zType>TEXT_MP_GAME_SCREEN_BROWSER_BUTTON</zType>
         <Translation>Spiel Browser</Translation>
     </Entry>
+	<!--multiplayer servers screen-->
+	<Entry>
+		<zType>TEXT_MP_SERVERS_SCREEN_TITLE</zType>
+		<Translation>Server</Translation>
+	</Entry>
     <!--games header in multiplayer-->
     <Entry>
         <zType>TEXT_GAME_HEADER_NAME_CELL</zType>

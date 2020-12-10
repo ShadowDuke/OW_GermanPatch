@@ -250,8 +250,8 @@
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYRELIGION_BUILT_TREASURY</zType>
-		<zText>Avesta Schatzamt gebaut</zText>
+		<zType>MEMORYRELIGION_HELPED_RECOVER</zType>
+		<zText>Hat uns nach der Vernichtung geholfen</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -328,6 +328,16 @@
 		<zType>MEMORYRELIGION_MADE_OTHER_RELIGION_STATE</zType>
 		<zText>Machte andere Religion zur Staatsreligion</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry beginGroup="Religion">
+		<zType>MEMORYRELIGION_SHRINE_DEDICATION_YES</zType>
+		<zText>Attended the dedication of a new shrine</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_SHRINE_DEDICATION_NO</zType>
+		<zText>Rejected the dedication of a new shrine</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry beginGroup="Community">
 		<zType>MEMORYRELIGION_ENCOURAGED_DIALOGUE</zType>

@@ -423,6 +423,10 @@
 		<Translation>Verbannt</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_DESERTER</zType>
+		<Translation>Abtrünniger</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_DOOMED</zType>
 		<Translation>Todgeweiht</Translation>
 	</Entry>
@@ -593,10 +597,6 @@
 	<Entry>
 		<zType>TEXT_TRAIT_BARRACKS_INSTRUCTOR</zType>
 		<Translation>Barracks Instructor</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_DESERTER</zType>
-		<Translation>Deserter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SAVIOR_OF_THE_THRONE</zType>

@@ -633,7 +633,7 @@
 	<Entry>
 		<zType>MEMORYCHARACTER_LET_KEEP_LOOT</zType>
 		<zText>Let me keet the loot</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_ADOPTED_MYSTERIOUS_CHILD</zType>

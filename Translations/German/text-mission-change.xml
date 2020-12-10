@@ -43,27 +43,27 @@
 		<Translation>Spieler link(DIPLOMACY_PEACE über</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_PLAYER_PEACE_OFFER</zType>
+		<zType>TEXT_MISSION_PLAYER_PEACE_OFFER_TRIBUTE</zType>
 		<Translation>Offer Tribute for link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_PLAYER_PEACE_OFFER_TARGET</zType>
+		<zType>TEXT_MISSION_PLAYER_PEACE_OFFER_TRIBUTE_TARGET</zType>
 		<Translation>Offer Tribute for link(DIPLOMACY_PEACE) with</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_PLAYER_PEACE_NO</zType>
+		<zType>TEXT_MISSION_PLAYER_PEACE_NO_TRIBUTE</zType>
 		<Translation>Ask for link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_PLAYER_PEACE_NO_TARGET</zType>
+		<zType>TEXT_MISSION_PLAYER_PEACE_NO_TRIBUTE_TARGET</zType>
 		<Translation>Ask for link(DIPLOMACY_PEACE) with</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_PLAYER_PEACE_DEMAND</zType>
+		<zType>TEXT_MISSION_PLAYER_PEACE_DEMAND_TRIBUTE</zType>
 		<Translation>Demand Tribute for link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_PLAYER_PEACE_DEMAND_TARGET</zType>
+		<zType>TEXT_MISSION_PLAYER_PEACE_DEMAND_TRIBUTE_TARGET</zType>
 		<Translation>Demand Tribute for link(DIPLOMACY_PEACE) with</Translation>
 	</Entry>
 	<Entry>
@@ -83,27 +83,27 @@
 		<Translation>Spieler link(DIPLOMACY_TRUCE) über</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_PLAYER_TRUCE_OFFER</zType>
+		<zType>TEXT_MISSION_PLAYER_TRUCE_OFFER_TRIBUTE</zType>
 		<Translation>Biete Tribut für link(DIPLOMACY_TRUCE) an</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_PLAYER_TRUCE_OFFER_TARGET</zType>
+		<zType>TEXT_MISSION_PLAYER_TRUCE_OFFER_TRIBUTE_TARGET</zType>
 		<Translation>Biete Tribut für link(DIPLOMACY_TRUCE) mit</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_PLAYER_TRUCE_NO</zType>
+		<zType>TEXT_MISSION_PLAYER_TRUCE_NO_TRIBUTE</zType>
 		<Translation>Bitte nach link(DIPLOMACY_TRUCE)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_PLAYER_TRUCE_NO_TARGET</zType>
+		<zType>TEXT_MISSION_PLAYER_TRUCE_NO_TRIBUTE_TARGET</zType>
 		<Translation>Bitte nach link(DIPLOMACY_TRUCE) mit</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_PLAYER_TRUCE_DEMAND</zType>
+		<zType>TEXT_MISSION_PLAYER_TRUCE_DEMAND_TRIBUTE</zType>
 		<Translation>Verlange Tribut für link(DIPLOMACY_TRUCE)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_PLAYER_TRUCE_DEMAND_TARGET</zType>
+		<zType>TEXT_MISSION_PLAYER_TRUCE_DEMAND_TRIBUTE_TARGET</zType>
 		<Translation>Verlange Tribut für link(DIPLOMACY_TRUCE) mit</Translation>
 	</Entry>
 	<Entry>
@@ -181,6 +181,22 @@
 	<Entry>
 		<zType>TEXT_MISSION_ADOPT_RELIGION</zType>
 		<Translation>Übernehme Religion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_MARRIAGE</zType>
+		<Translation>Ausländische Heirat</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_PLAYER_MARRIAGE_TARGET</zType>
+		<Translation>Ausländische Heirat</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_TRIBE_MARRIAGE</zType>
+		<Translation>Stammes Heirat</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_TRIBE_MARRIAGE_TARGET</zType>
+		<Translation>Stammes Heirat</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_FAMILY_MARRIAGE</zType>

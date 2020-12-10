@@ -271,6 +271,14 @@
 		<Translation>Übernehme Religion</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_PLAYER_MARRIAGE_EVENT</zType>
+		<Translation>Ausländische Heirat</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_TRIBE_MARRIAGE_EVENT</zType>
+		<Translation>Stammes Heirat</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_FAMILY_MARRIAGE_EVENT</zType>
 		<Translation>Familien Heirat</Translation>
 	</Entry>

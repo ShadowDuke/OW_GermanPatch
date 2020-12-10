@@ -74,6 +74,10 @@
 		<Translation>Die königliche Dynastie von {0_player} ist zum Ende gekommen!</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_PLAYER_SURRENDER_POPUP</zType>
+		<Translation>{0_player} hat aufgegeben!</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_RELIGION_FOUNDED</zType>
 		<Translation>{0_religion} gegründet in {1_city}!</Translation>
 	</Entry>
@@ -814,5 +818,9 @@
 	<Entry>
 		<zType>TEXT_GAME_PLAYER_TRUCE_WITH</zType>
 		<Translation>Erklärt Waffenruhe mit {0_strength} {1}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_PLAYER_AI_ORDERS_TO_TEAMMATES</zType>
+		<Translation>{0_player} schenkt euch {1} unbenutzte {2_yield}</Translation>
 	</Entry>
 </Root>

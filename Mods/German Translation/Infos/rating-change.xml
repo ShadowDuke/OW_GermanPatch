@@ -39,7 +39,7 @@ Für Feldherren erhöht Weisheit erhöht die kritische Chance der Einheit.
 		<aiYieldAgentPercent>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
-				<iValue>2</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiYieldAgentPercent>
 	</Entry>
@@ -66,7 +66,7 @@ Für Feldherren erhöht Charisma erhöht die Verteidigung der Einheiten.</zHelp>
 		<aiYieldAgentPercent>
 			<Pair>
 				<zIndex>YIELD_CIVICS</zIndex>
-				<iValue>2</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiYieldAgentPercent>
 	</Entry>
@@ -94,7 +94,7 @@ Für Feldherren erhöht Mut die Stärke der Einheiten.
 		<aiYieldAgentPercent>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>2</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiYieldAgentPercent>
 	</Entry>
@@ -122,7 +122,7 @@ Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.
 		<aiYieldAgentPercent>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>2</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiYieldAgentPercent>
 	</Entry>

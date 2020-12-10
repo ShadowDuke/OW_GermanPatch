@@ -191,6 +191,10 @@
 		<Translation>Musik</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTPLAYER_VICTORY_POINT</zType>
+		<Translation>Siegpunkt</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_HERO_ARCHETYPE</zType>
 		<Translation>Wortführer der Helden</Translation>
 	</Entry>

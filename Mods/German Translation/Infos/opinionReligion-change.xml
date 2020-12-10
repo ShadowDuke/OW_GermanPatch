@@ -5,47 +5,272 @@
 		<zType/>
 		<zName/>
 		<Color/>
-		<EffectCity/>
 		<iThreshold/>
+		<aeReligionEffectCity/>				 
 	</Entry>
 	<Entry>
 		<zType>OPINIONRELIGION_FURIOUS</zType>
-		<zName>Wütend (Religion)</zName>
+		<zName>Wütend</zName>
 		<Color>COLOR_OPINION_FURIOUS</Color>
-		<EffectCity>EFFECTCITY_OPINIONRELIGION_FURIOUS</EffectCity>
 		<iThreshold>-200</iThreshold>
+		<aeReligionEffectCity>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_ASSYRIA</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_FURIOUS_PAGAN_ASSYRIA</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_BABYLONIA</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_FURIOUS_PAGAN_BABYLONIA</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_CARTHAGE</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_FURIOUS_PAGAN_CARTHAGE</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_EGYPT</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_FURIOUS_PAGAN_EGYPT</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_GREECE</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_FURIOUS_PAGAN_GREECE</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_ROME</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_FURIOUS_PAGAN_ROME</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_PERSIA</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_FURIOUS_PAGAN_PERSIA</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_ZOROASTRIANISM</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_FURIOUS_ZOROASTRIANISM</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_JUDAISM</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_FURIOUS_JUDAISM</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_CHRISTIANITY</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_FURIOUS_CHRISTIANITY</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_MANICHAEISM</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_FURIOUS_MANICHAEISM</zValue>
+			</Pair>
+		</aeReligionEffectCity>	 
 	</Entry>
 	<Entry>
 		<zType>OPINIONRELIGION_ANGRY</zType>
-		<zName>Aufgebracht (Religion)</zName>
+		<zName>Aufgebracht</zName>
 		<Color>COLOR_OPINION_ANGRY</Color>
-		<EffectCity>EFFECTCITY_OPINIONRELIGION_ANGRY</EffectCity>
 		<iThreshold>-100</iThreshold>
+		<aeReligionEffectCity>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_ASSYRIA</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_ANGRY_PAGAN_ASSYRIA</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_BABYLONIA</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_ANGRY_PAGAN_BABYLONIA</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_CARTHAGE</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_ANGRY_PAGAN_CARTHAGE</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_EGYPT</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_ANGRY_PAGAN_EGYPT</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_GREECE</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_ANGRY_PAGAN_GREECE</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_ROME</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_ANGRY_PAGAN_ROME</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_PERSIA</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_ANGRY_PAGAN_PERSIA</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_ZOROASTRIANISM</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_ANGRY_ZOROASTRIANISM</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_JUDAISM</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_ANGRY_JUDAISM</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_CHRISTIANITY</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_ANGRY_CHRISTIANITY</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_MANICHAEISM</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_ANGRY_MANICHAEISM</zValue>
+			</Pair>
+		</aeReligionEffectCity>
 	</Entry>
 	<Entry>
 		<zType>OPINIONRELIGION_UPSET</zType>
-		<zName>Verärgert (Religion)</zName>
+		<zName>Verärgert</zName>
 		<Color>COLOR_OPINION_UPSET</Color>
-		<EffectCity>EFFECTCITY_OPINIONRELIGION_UPSET</EffectCity>
 		<iThreshold>-1</iThreshold>
+		<aeReligionEffectCity>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_ASSYRIA</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_UPSET_PAGAN_ASSYRIA</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_BABYLONIA</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_UPSET_PAGAN_BABYLONIA</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_CARTHAGE</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_UPSET_PAGAN_CARTHAGE</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_EGYPT</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_UPSET_PAGAN_EGYPT</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_GREECE</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_UPSET_PAGAN_GREECE</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_ROME</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_UPSET_PAGAN_ROME</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_PERSIA</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_UPSET_PAGAN_PERSIA</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_ZOROASTRIANISM</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_UPSET_ZOROASTRIANISM</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_JUDAISM</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_UPSET_JUDAISM</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_CHRISTIANITY</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_UPSET_CHRISTIANITY</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_MANICHAEISM</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_UPSET_MANICHAEISM</zValue>
+			</Pair>
+		</aeReligionEffectCity>
 	</Entry>
 	<Entry>
 		<zType>OPINIONRELIGION_CAUTIOUS</zType>
-		<zName>Zurückhaltend (Religion)</zName>
+		<zName>Zurückhaltend</zName>
 		<Color>COLOR_OPINION_CAUTIOUS</Color>
 		<iThreshold>99</iThreshold>
 	</Entry>
 	<Entry>
 		<zType>OPINIONRELIGION_PLEASED</zType>
-		<zName>Zufrieden (Religion)</zName>
+		<zName>Zufrieden</zName>
 		<Color>COLOR_OPINION_PLEASED</Color>
-		<EffectCity>EFFECTCITY_OPINIONRELIGION_PLEASED</EffectCity>
 		<iThreshold>199</iThreshold>
+		<aeReligionEffectCity>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_ASSYRIA</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_PLEASED_PAGAN_ASSYRIA</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_BABYLONIA</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_PLEASED_PAGAN_BABYLONIA</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_CARTHAGE</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_PLEASED_PAGAN_CARTHAGE</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_EGYPT</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_PLEASED_PAGAN_EGYPT</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_GREECE</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_PLEASED_PAGAN_GREECE</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_ROME</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_PLEASED_PAGAN_ROME</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_PERSIA</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_PLEASED_PAGAN_PERSIA</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_ZOROASTRIANISM</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_PLEASED_ZOROASTRIANISM</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_JUDAISM</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_PLEASED_JUDAISM</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_CHRISTIANITY</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_PLEASED_CHRISTIANITY</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_MANICHAEISM</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_PLEASED_MANICHAEISM</zValue>
+			</Pair>
+		</aeReligionEffectCity>
 	</Entry>
 	<Entry>
 		<zType>OPINIONRELIGION_FRIENDLY</zType>
-		<zName>Freundlich (Religion)</zName>
+		<zName>Freundlich</zName>
 		<Color>COLOR_OPINION_FRIENDLY</Color>
-		<EffectCity>EFFECTCITY_OPINIONRELIGION_FRIENDLY</EffectCity>
+		<aeReligionEffectCity>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_ASSYRIA</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_FRIENDLY_PAGAN_ASSYRIA</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_BABYLONIA</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_FRIENDLY_PAGAN_BABYLONIA</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_CARTHAGE</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_FRIENDLY_PAGAN_CARTHAGE</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_EGYPT</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_FRIENDLY_PAGAN_EGYPT</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_GREECE</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_FRIENDLY_PAGAN_GREECE</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_ROME</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_FRIENDLY_PAGAN_ROME</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_PAGAN_PERSIA</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_FRIENDLY_PAGAN_PERSIA</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_ZOROASTRIANISM</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_FRIENDLY_ZOROASTRIANISM</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_JUDAISM</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_FRIENDLY_JUDAISM</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_CHRISTIANITY</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_FRIENDLY_CHRISTIANITY</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>RELIGION_MANICHAEISM</zIndex>
+				<zValue>EFFECTCITY_OPINIONRELIGION_FRIENDLY_MANICHAEISM</zValue>
+			</Pair>
+		</aeReligionEffectCity> 
 	</Entry>
 </Root>

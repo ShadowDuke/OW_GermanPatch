@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- edited with XMLSpy v2020 (x64) (http://www.altova.com) by Andrew Auseon (Private) -->
 <Root>
-	<!--Name-->
 	<Entry>
 		<zType/>
 		<Translation/>
 	</Entry>
+	<!--Source-->
+	<Entry>
+		<zType>TEXT_EFFECTCITY_SEAT_SOURCE</zType>
+		<Translation>Sitz</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_CAPITAL_SOURCE</zType>
+		<Translation>Hauptstadt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_STATE_RELIGION_SOURCE</zType>
+		<Translation>Staatsreligion</Translation>
+	</Entry>
+	<!--Name-->
 	<Entry>
 		<zType>TEXT_EFFECTCITY_BASE</zType>
 		<Translation>Grundwert</Translation>
@@ -709,19 +722,6 @@
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_HERDER</zType>
 		<Translation>Hirten Anführer</Translation>
-	</Entry>
-	<!--Source-->
-	<Entry>
-		<zType>TEXT_EFFECTCITY_SEAT_SOURCE</zType>
-		<Translation>Sitz</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_CAPITAL_SOURCE</zType>
-		<Translation>Hauptstadt</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_STATE_RELIGION_SOURCE</zType>
-		<Translation>Staatsreligion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_ASCETIC</zType>

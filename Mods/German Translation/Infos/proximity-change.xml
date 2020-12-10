@@ -9,6 +9,8 @@
 		<iWarModifier/>
 		<iPlayerOpinion/>
 		<bDeclareWar/>
+		<bNoTribeWar/>
+		<bNoTribeOfferHuman/>
   </Entry>
   <Entry>
 		<zType>PROXIMITY_VERY_CLOSE</zType>
@@ -40,11 +42,14 @@
 		<iDistance>30</iDistance>
 		<iTruceModifier>20</iTruceModifier>
 		<iWarModifier>-60</iWarModifier>
+		<bNoTribeWar>1</bNoTribeWar>					  
 	</Entry>
 	<Entry>
 		<zType>PROXIMITY_FAR</zType>
 		<zName>Weit</zName>
 		<iTruceModifier>30</iTruceModifier>
 		<iWarModifier>-80</iWarModifier>
+		<bNoTribeWar>1</bNoTribeWar>
+		<bNoTribeOfferHuman>1</bNoTribeOfferHuman>
 	</Entry>
 </Root>

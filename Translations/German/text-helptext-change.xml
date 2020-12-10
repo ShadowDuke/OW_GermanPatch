@@ -348,7 +348,11 @@
 		<Translation>{0_religion} als Staatsreligion</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_EFFECT_CITY_SOURCE_CITY</zType>
+		<zType>TEXT_HELPTEXT_LINK_EFFECT_CITY_SOURCE_RELIGION_TYPE</zType>
+		<Translation>{0_source} Religion ({1_religion})</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_EFFECT_CITY_SOURCE_FAMILY</zType>
 		<Translation>{0_source} Stadt</Translation>
 	</Entry>
 	<Entry>
@@ -1246,10 +1250,6 @@
 		<Translation>Must be younger then {0} and not of a different Family</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_ADD_GENERAL_MIN_UNIT_LEVEL</zType>
-		<Translation>Einheit muss Stufe {0} sein</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_RELEASE_GENERAL</zType>
 		<Translation>Entlasse {0_general} aus der {1_unit}</Translation>
 	</Entry>
@@ -1261,7 +1261,11 @@
 		<zType>TEXT_HELPTEXT_WIDGET_START_MISSION_CANCEL</zType>
 		<Translation><![CDATA[Halte <TEXT_HOTKEY_CTRL> um abzubrechen]]></Translation>
 	</Entry>
-		<Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_START_MISSION_CHARACTER_REQUIRES</zType>
+		<Translation>Benötigt {0_character}: {1_subject}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_DELAY_DECISION</zType>
 		<Translation>Wait to choose an Ambition in int(AMBITION_DELAY_TURNS) Years</Translation>
 	</Entry>
@@ -1430,7 +1434,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Repariere {0_improvement}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_FOUND_CITY_CAPTIAL</zType>
+		<zType>TEXT_HELPTEXT_WIDGET_FOUND_CITY_CAPITAL</zType>
 		<Translation>Die Hauptstadt gründen</Translation>
 	</Entry>
 	<Entry>
@@ -1640,6 +1644,10 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_RECRUIT_MERCENARY</zType>
 		<Translation>Rekrutiere {0_unit} als link(CONCEPT_MERCENARY,1)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TRIBE_NO_MERCENARY</zType>
+		<Translation>{0_tribe} Kann nicht als link(CONCEPT_MERCENARY,2) sein</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RECRUIT_MERCENARY_COST</zType>
@@ -1978,6 +1986,10 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CRITICAL_HIT</zType>
 		<Translation>Kritische Treffer teilen doppelten Schaden aus</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_CULTURE_EVENT</zType>
+		<Translation>link(YIELD_CULTURE) Es treten jedes Mal Ereignisse auf, wenn die link(YIELD_CULTURE) Leiste der Stadt voll gefüllt ist.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DISTANCE_MODIFIER</zType>
@@ -4394,6 +4406,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>{0_value} pro {1_rating}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_MISSION_COUNCIL_ALREADY</zType>
+		<Translation>Ist bereits der {0_council}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_MISSION_NO_EFFECT</zType>
 		<Translation>Kein Effekt</Translation>
 	</Entry>
@@ -4455,6 +4471,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Kann kein Lehrer, Stadthalter, Feldherr oder im Hofrat sein</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_NO_COURTIER</zType>
+		<Translation>Kann kein {0_courtier} sein</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_JOB_PREREQ</zType>
 		<Translation>Kann dienen als {0_list}</Translation>
 	</Entry>
@@ -4469,6 +4489,46 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_OPINION_FAMILY</zType>
 		<Translation>{0_value} Meinung der Familie</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_OPINION_RELIGION</zType>
+		<Translation>{0_value} Meinung wenn nicht Staatsreligion ist</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_OPINION_PROXIMITY</zType>
+		<Translation>{0_value} Meinung wenn zu nah an unseren Grenzen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_OPINION_STRENGTH</zType>
+		<Translation>{0_value} Meinung wenn Stärker als wir</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_OPINION_KNOWLEDGE</zType>
+		<Translation>{0_value} Meinung wenn Wissen unseres übersteigt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_OPINION_GENERALS</zType>
+		<Translation>{0_value} Meinung wenn mehr link(CONCEPT_GENERAL,1) als wir haben</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_OPINION_GOVERNORS</zType>
+		<Translation>{0_value} Meinung wenn mehr link(CONCEPT_GOVERNOR,1) als wir haben</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_OPINION_WONDERS</zType>
+		<Translation>{0_value} Meinung wenn mehr Wunder als wir haben</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_OPINION_LAWS</zType>
+		<Translation>{0_value} Meinung wenn mehr aktive Gesetze haben als wir</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_OPINION_COGNOMEN</zType>
+		<Translation>{0_value} Meinung wenn Oberhaupt bessere Spitznamen als unserer hat</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_OPINION_TRADES</zType>
+		<Translation>{0_value} Meinung wenn mit anderen Nationen mehr gehandelt wird, als wir es tun</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_BIRTH_CHANCE</zType>
@@ -4544,16 +4604,32 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>{0_opinion}: {1_diplomacy} mit unserer {2_link}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_PLAYER_OPINION_PLAY_TO_WIN_NEAR</zType>
+		<Translation>{0_opinion}: Du könntest gewinnen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_PLAYER_OPINION_PLAY_TO_WIN_CLOSE</zType>
+		<Translation>{0_opinion}: Du bist nah dran zu gewinnen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_PLAYER_OPINION_PLAY_TO_WIN_VERY_CLOSE</zType>
+		<Translation>{0_opinion}: Du bist sehr nah dran zu gewinnen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_PLAYER_OPINION_PLAY_TO_WIN</zType>
+		<Translation>{0_opinion}: Du bist am gewinnen...</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_LUXURIES</zType>
 		<Translation>{0_opinion}: Unsere Luxusgüter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_PEACE</zType>
-		<Translation>{0_opinion}: Verspätet {1_peace}</Translation>
+		<Translation>{0_opinion}: Lang andauernder {1_peace}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_YOU</zType>
-		<Translation>[Das ist für Dich]</Translation>
+		<Translation>[Das bist Du]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_STRENGTH</zType>
@@ -5410,12 +5486,44 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>{0}: {1_religion} ist nicht Staatsrelgion</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_STATE_RELIGION</zType>
-		<Translation>{0}: {1_religion} ist Staatsrelgion ({2_trait})</Translation>
+		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_RELIGION</zType>
+		<Translation>{0}: {1_religion} ist nicht Staatsrelgion ({2_trait})</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_STATE_RELIGION_NOT</zType>
-		<Translation>{0}: {1_religion} ist nicht Staatsrelgion ({2_trait})</Translation>
+		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_PROXIMITY</zType>
+		<Translation>{0}: Zu nah an unseren Grenzen ({1_trait})</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_STRENGTH</zType>
+		<Translation>{0}: Stärker als wir ({1_trait})</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_KNOWLEDGE</zType>
+		<Translation>{0}: Mehr Wissen als wir ({1_trait})</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_GENERALS</zType>
+		<Translation>{0}: Mehr link(CONCEPT_GENERAL,1), {1}, als wir, {2} ({3_trait})</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_GOVERNORS</zType>
+		<Translation>{0}: Mehr link(CONCEPT_GOVERNOR,1), {1}, als wir, {2} ({3_trait})</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_WONDERS</zType>
+		<Translation>{0}: Mehr Wunder, {1}, als wir, {2} ({3_trait})</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_LAWS</zType>
+		<Translation>{0}: Mehr aktive Gesetze, {1}, als wir, {2} ({3_trait})</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_COGNOMEN</zType>
+		<Translation>{0}: {1_cognomen} ist besser als {2_cognomen} ({3_trait})</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_TRADES</zType>
+		<Translation>{0}: Mehr Handel mit anderen Nationen als mit uns, {1} ({2_trait})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_RATING_TRAIT_ARCHETYPE</zType>
@@ -5486,12 +5594,20 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation><![CDATA[<true_0>Behalte<false>Erlasse<end> {1} Stadthalter von {2}]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_MAKE_GOVERNOR_ALREADY</zType>
+		<Translation>Ist bereits link(CONCEPT_GOVERNOR)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_GOVERNOR_OPINION</zType>
 		<Translation>{0} Meinung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_AGENT</zType>
 		<Translation><![CDATA[<true_0>Behalte<false>Erlasse<end> {1} Agent in {2}]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_MAKE_AGENT_ALREADY</zType>
+		<Translation>Ist bereits link(CONCEPT_AGENT)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_AGENT_OPINION</zType>
