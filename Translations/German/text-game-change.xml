@@ -150,6 +150,10 @@
 		<Translation>Du hast eine Quest erfüllt: {0}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_FAIL_AMBITION</zType>
+		<Translation>You have failed {true_1:a Legacy:an Ambition}: {0}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_FAIL_QUEST</zType>
 		<Translation>Deine Quest ist gescheitert: {0}</Translation>
 	</Entry>
@@ -190,16 +194,16 @@
 		<Translation>{0_project} in {1_city} gebaut um {2_yield} Defizit zu vermeiden</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_QUEUED_BUILD_BUY_GOODS_LOG_DATA</zType>
+		<Translation>Queued action: Spent {0_money} to buy {1_yields} ({2_improvement})</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_FOUNDED_CITY_LOG_DATA</zType>
 		<Translation>{0_city} gegründet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DISCOVERED_TECH_LOG_DATA</zType>
 		<Translation>{0_tech} entdeckt</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GAME_CITY_LOSES_PROJECT</zType>
-		<Translation>{0_city} verliert ein Projekt: {1_project}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CITY_FINISHED_PROJECT_LOG_DATA</zType>
@@ -766,8 +770,8 @@
 		<Translation>{0} Geplündert!</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_UNIT_FINISHED_TRADE_ROUTE</zType>
-		<Translation>link(CONCEPT_TRADE_ROUTE) fertig: {0}</Translation>
+		<zType>TEXT_GAME_UNIT_FINISHED_CARAVAN_MISSION</zType>
+		<Translation>link(CONCEPT_CARAVAN_MISSION) mit {0_player} Vollendet: {1_money}</Translation>
 	</Entry>
 	<!--City-->
 	<Entry>

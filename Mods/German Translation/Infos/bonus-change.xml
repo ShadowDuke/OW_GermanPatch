@@ -4,6 +4,7 @@
 	<Entry>
 		<zType/>
 		<zName comment="Bonus title string. This is ONLY necessary if this bonus changes Legitimacy"/>
+		<zIcon comment="Bonus icon. This is only shown in tech tooltips"/>
 		<Victory comment="Player achieves this Victory type"/>
 		<MemoryPlayer comment="Memory received by the Player Subject"/>
 		<ForgetPlayer comment="Memory forgotten by the Player Subject"/>
@@ -33,6 +34,7 @@
 		<QuestForce comment="A Quest given to the Player (similar to Ambitions), but does not check if the Quest is close to complete"/>
 		<Ambition comment="Adds this Ambition to the Player"/>
 		<FinishGoal comment="Finishes this Quest or Ambition"/>
+		<FailGoal comment="Failes this Quest or Ambition"/>
 		<DesiredAmbition comment="Adds this Desired Ambition to the Character. (Cannot be the Leader)"/>
 		<Mission comment="Starts a Mission"/>
 		<Council comment="Makes the Character this Council member"/>
@@ -118,6 +120,7 @@
 		<aiYieldsTributePerUs comment="List of Yields (per this Player's Cities) to be given to this Subject as tribute. If this value is positive, the Player will receive tribute; if it’s negative, the Player will give tribute"/>
 		<aiYieldsTributePerThem comment="List of Yields (per other Player's Cities) to be given to this Subject as tribute. If this value is positive, the Player will receive tribute; if it’s negative, the Player will give tribute"/>
 		<aiUnits comment="List of Units that will appear near the City Subject"/>
+		<aiTribeUnits comment="List of Tribe Units that will appear near the Tile Subject"/>
 		<aiBonusUnits comment="List of bonus Units (from bonusUnitClass.xml) that will appear near the Subject City. bonusUnitClass awards you the highest-indexed Unit you have researched in the indicated category"/>
 		<aiLawOpinion comment="List of permanent opinion changes to laws added to the Family Subject. For example, if you could put Centralization and -5 here, the Family would gain a -5 opinion of the Centralization law"/>
 		<aiRatings comment="List of changes to ratings (Charisma, Courage, etc.) applied to the character Subject"/>
@@ -148,6 +151,7 @@
 	<Entry>
 		<zType/>
 		<zName/>
+		<zIcon/>
 		<Victory/>	
 		<MemoryPlayer/>
 		<ForgetPlayer/>
@@ -175,6 +179,8 @@
 		<Quest/>
 		<QuestForce/>	   
 		<Ambition/>
+		<FinishGoal/>
+		<FailGoal/>
 		<DesiredAmbition/>
 		<Mission/>
 		<Council/>
@@ -258,6 +264,7 @@
 		<aiYieldsTributePerUs/>
 		<aiYieldsTributePerThem/>
 		<aiUnits/>
+		<aiTribeUnits/>
 		<aiBonusUnits/>
 		<aiLawOpinion/>
 		<aiRatings/>
@@ -292,6 +299,13 @@
 		<zType>BONUS_SKIP_SEAT</zType>
 		<zName>link(CONCEPT_FAMILY_SEAT) übersprungen</zName>
 		<iLegitimacy>-10</iLegitimacy>
+	</Entry>
+	<Entry>
+		<zType>BONUS_EVENTOPTION_PLAYER_WAR_OFFER_ENEMY_TRAIT_DIPLOMAT_DEFIED</zType>
+		<aeBonuses>
+			<zValue>BONUS_PLAYER_PEACE</zValue>
+			<zValue>BONUS_TRIBUTE_RECEIVE_MONEY_LARGE</zValue>
+		</aeBonuses>
 	</Entry>
 	<Entry>
 		<zType>BONUS_FAMILY_FOUND</zType>
@@ -466,6 +480,11 @@
 	<Entry>
 		<zType>BONUS_TRIBE_OFFER</zType>
 		<MemoryTribe>MEMORYTRIBE_OFFER</MemoryTribe>
+	</Entry>
+	<Entry>
+		<zType>BONUS_TRIBE_ELIMINATED_LEGITIMACY</zType>
+		<zName>Einen Stamm vernichtet</zName>
+		<iLegitimacy>5</iLegitimacy>
 	</Entry>
 	<Entry>
 		<zType>BONUS_CANCEL_TRADE</zType>
@@ -1808,6 +1827,7 @@
 	<Entry>
 		<zType>BONUS_TECH_MILITARY_REFORM</zType>
 		<zName>New link(COURTIER_SOLDIER)</zName>
+		<zIcon>COURTIER_SOLDIER</zIcon>
 		<AddCourtierForce>
 			<Pair>
 				<zIndex>COURTIER_SOLDIER</zIndex>
@@ -1818,6 +1838,7 @@
 	<Entry>
 		<zType>BONUS_TECH_POLITICAL_REFORM</zType>
 		<zName>New link(COURTIER_MINISTER)</zName>
+		<zIcon>COURTIER_MINISTER</zIcon>
 		<AddCourtierForce>
 			<Pair>
 				<zIndex>COURTIER_MINISTER</zIndex>
@@ -1828,6 +1849,7 @@
 	<Entry>
 		<zType>BONUS_TECH_ECONOMIC_REFORM</zType>
 		<zName>New link(COURTIER_MERCHANT)</zName>
+		<zIcon>COURTIER_MERCHANT</zIcon>
 		<AddCourtierForce>
 			<Pair>
 				<zIndex>COURTIER_MERCHANT</zIndex>
@@ -6498,18 +6520,6 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GIVE_TRAIT_HARDY</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_HARDY</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_GIVE_TRAIT_EAGLE_EYE</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_EAGLE_EYE</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
 		<zType>BONUS_GIVE_TRAIT_MARKSMAN</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_MARKSMAN</zValue>
@@ -6519,12 +6529,6 @@
 		<zType>BONUS_GIVE_TRAIT_BESIEGER</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_BESIEGER</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_GIVE_TRAIT_GARRISON</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_GARRISON</zValue>
 		</aeAddTraits>
 	</Entry>
 	<Entry>
@@ -6696,6 +6700,12 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
+		<zType>BONUS_GIVE_TRAIT_WANTON</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_WANTON</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>
 		<zType>BONUS_GIVE_TRAIT_HUMBLE</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_HUMBLE</zValue>
@@ -6786,6 +6796,12 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
+		<zType>BONUS_REMOVE_TRAIT_CURSED</zType>
+		<aeRemoveTraits>
+			<zValue>TRAIT_CURSED</zValue>
+		</aeRemoveTraits>
+	</Entry>
+	<Entry>
 		<zType>BONUS_GIVE_TRAIT_ILL</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_ILL</zValue>
@@ -6846,10 +6862,22 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
+		<zType>BONUS_REMOVE_TRAIT_IMPRISONED</zType>
+		<aeRemoveTraits>
+			<zValue>TRAIT_IMPRISONED</zValue>
+		</aeRemoveTraits>
+	</Entry>
+	<Entry>
 		<zType>BONUS_GIVE_TRAIT_FUGITIVE</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_FUGITIVE</zValue>
 		</aeAddTraits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_REMOVE_TRAIT_FUGITIVE</zType>
+		<aeRemoveTraits>
+			<zValue>TRAIT_FUGITIVE</zValue>
+		</aeRemoveTraits>
 	</Entry>
 	<Entry>
 		<zType>BONUS_GIVE_TRAIT_MISSING</zType>
@@ -6960,6 +6988,18 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
+		<zType>BONUS_REMOVE_TRAIT_ABDICATED</zType>
+		<aeRemoveTraits>
+			<zValue>TRAIT_ABDICATED</zValue>
+		</aeRemoveTraits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_GIVE_TRAIT_RIGHTFUL_HEIR</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_RIGHTFUL_HEIR</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>
 		<zType>BONUS_GIVE_TRAIT_EXOTIC</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_EXOTIC</zValue>
@@ -7002,6 +7042,12 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
+		<zType>BONUS_REMOVE_TRAIT_DOG_OWNER</zType>
+		<aeRemoveTraits>
+			<zValue>TRAIT_DOG_OWNER</zValue>
+		</aeRemoveTraits>
+	</Entry>
+	<Entry>
 		<zType>BONUS_GIVE_TRAIT_DROUGHT_STRICKEN</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_DROUGHT_STRICKEN</zValue>
@@ -7014,47 +7060,29 @@
 		</aeRemoveTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_DIVORCE_SUBJECT</zType>
-		<iDivorcedBySubject>0</iDivorcedBySubject>
-	</Entry>
-	<Entry>
 		<zType>BONUS_GIVE_TRAIT_ASCETIC</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_ASCETIC</zValue>
 		</aeAddTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GIVE_TRAIT_WANTON</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_WANTON</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_REMOVE_TRAIT_CURSED</zType>
-		<aeRemoveTraits>
-			<zValue>TRAIT_CURSED</zValue>
-		</aeRemoveTraits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_GIVE_TRAIT_RIGHTFUL_HEIR</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_RIGHTFUL_HEIR</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_REMOVE_TRAIT_ABDICATED</zType>
-		<aeRemoveTraits>
-			<zValue>TRAIT_ABDICATED</zValue>
-		</aeRemoveTraits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_REMOVE_TRAIT_DOG_OWNER</zType>
-		<aeRemoveTraits>
-			<zValue>TRAIT_DOG_OWNER</zValue>
-		</aeRemoveTraits>
-	</Entry>
-	<Entry>
 		<zType>BONUS_STUDY_DID_NOT_EXPEL</zType>
 		<MemoryAllFamilies>MEMORYFAMILY_DID_NOT_EXPEL_STUDENT</MemoryAllFamilies>
+	</Entry>
+	<Entry>
+		<zType>BONUS_SHRINE_DEDICATION_MEMORY_YES</zType>
+		<MemoryReligion>MEMORYRELIGION_SHRINE_DEDICATION_YES</MemoryReligion>
+	</Entry>
+	<Entry>
+		<zType>BONUS_SHRINE_DEDICATION_MEMORY_NO</zType>
+		<MemoryReligion>MEMORYRELIGION_SHRINE_DEDICATION_NO</MemoryReligion>
+	</Entry>
+	<Entry>
+		<zType>BONUS_IMPRISON_FAMILY_HEAD_UNJUST</zType>
+		<MemoryFamily>MEMORYFAMILY_IMPRISONED_FAMILY_HEAD_UNJUST</MemoryFamily>
+	</Entry>
+	<Entry>
+		<zType>BONUS_FAMILY_LIED</zType>
+		<MemoryFamily>MEMORYFAMILY_LIED</MemoryFamily>
 	</Entry>
 </Root>

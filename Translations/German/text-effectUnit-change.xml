@@ -159,6 +159,10 @@
 		<Translation>Techniker</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_SHRAPNEL</zType>
+		<Translation>Shrapnell</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_ROUT</zType>
 		<Translation>Vernichtend</Translation>
 	</Entry>

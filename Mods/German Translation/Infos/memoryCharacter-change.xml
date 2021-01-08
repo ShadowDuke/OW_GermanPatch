@@ -611,11 +611,6 @@
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYCHARACTER_EVENTOPTION_TRADE_MISSION_NO_FAIL</zType>
-		<zText>Refused our request for a gift</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
-	</Entry>
-	<Entry>
 		<zType>MEMORYCHARACTER_CANCEL_TRADE_DEMAND_YES</zType>
 		<zText>Agreed to Cancel Trade with our enemy</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>

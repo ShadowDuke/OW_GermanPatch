@@ -539,6 +539,10 @@
 				<iValue>100</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_CARAVAN_ARRIVED</zIndex>
+				<iValue>200</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_LANDMARK_NAMED</zIndex>
 				<iValue>400</iValue>
 			</Pair>
@@ -569,6 +573,10 @@
 			<Pair>
 				<zIndex>STAT_TEAM_CONTACTED</zIndex>
 				<iValue>100</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_CARAVAN_ARRIVED</zIndex>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_LANDMARK_NAMED</zIndex>
@@ -689,6 +697,10 @@
 			<Pair>
 				<zIndex>STAT_TEAM_ALLIANCE</zIndex>
 				<iValue>2000</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_CARAVAN_ARRIVED</zIndex>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
@@ -835,6 +847,10 @@
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_CARAVAN_ARRIVED</zIndex>
+				<iValue>200</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
 				<iValue>2000</iValue>
 			</Pair>
@@ -977,6 +993,10 @@
 			<Pair>
 				<zIndex>STAT_TEAM_ALLIANCE</zIndex>
 				<iValue>2000</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_CARAVAN_ARRIVED</zIndex>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
@@ -1123,6 +1143,10 @@
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_CARAVAN_ARRIVED</zIndex>
+				<iValue>200</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
 				<iValue>2000</iValue>
 			</Pair>
@@ -1265,6 +1289,10 @@
 			<Pair>
 				<zIndex>STAT_TEAM_ALLIANCE</zIndex>
 				<iValue>2000</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_CARAVAN_ARRIVED</zIndex>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
@@ -1411,6 +1439,10 @@
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_CARAVAN_ARRIVED</zIndex>
+				<iValue>200</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
 				<iValue>2000</iValue>
 			</Pair>
@@ -1555,6 +1587,10 @@
 				<iValue>2000</iValue>
 			</Pair>
 			<Pair>
+				<zIndex>STAT_CARAVAN_ARRIVED</zIndex>
+				<iValue>200</iValue>
+			</Pair>
+			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>
 				<iValue>2000</iValue>
 			</Pair>
@@ -1697,6 +1733,10 @@
 			<Pair>
 				<zIndex>STAT_TEAM_ALLIANCE</zIndex>
 				<iValue>2000</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>STAT_CARAVAN_ARRIVED</zIndex>
+				<iValue>200</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>STAT_CAPITAL_CAPTURED</zIndex>

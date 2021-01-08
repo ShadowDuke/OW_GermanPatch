@@ -210,6 +210,12 @@
 		<bUpgrade>1</bUpgrade>
 	</Entry>
 	<Entry>
+		<zType>PROMOTION_SHRAPNEL</zType>
+		<zName>Shrapnel</zName>
+		<EffectUnit>EFFECTUNIT_SHRAPNEL</EffectUnit>
+		<bUpgrade>1</bUpgrade>
+	</Entry>
+	<Entry>
 		<zType>PROMOTION_VALOR</zType>
 		<zName>Heldenmut</zName>
 		<EffectUnit>EFFECTUNIT_VALOR</EffectUnit>

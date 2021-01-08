@@ -81,6 +81,10 @@
 		<Translation>Kritischer Treffer</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CONCEPT_CULTURE_EVENT</zType>
+		<Translation>Kultur Ereignis</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CONCEPT_DISTANCE_MODIFIER</zType>
 		<Translation>Entfernungs Modifikator</Translation>
 	</Entry>
@@ -1395,6 +1399,14 @@
 	<Entry>
 		<zType>TEXT_GOAL_REVEAL_80</zType>
 		<Translation>Decke 80% der Karte auf</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_THREE_CARAVANS</zType>
+		<Translation>Three Caravan Missions</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_CARAVANS</zType>
+		<Translation>Six Caravan Missions</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_THREE_CITIES_FOREIGN</zType>

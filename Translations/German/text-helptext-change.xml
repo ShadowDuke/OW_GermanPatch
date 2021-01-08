@@ -179,10 +179,6 @@
 		<Translation>{0} ({1}/{2})</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_CONCAT_COLON_FRACTION</zType>
-		<Translation>{0}: {1}/{2}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_TIMES_NUMBERS</zType>
 		<Translation><![CDATA[<true_0> (x{0_number})<false><end>]]></Translation>
 	</Entry>
@@ -496,6 +492,10 @@
 		<Translation>Ambitionen</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_AMBITIONS_FINISHED_ALL</zType>
+		<Translation>{0} ({1}/{2}):</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_TRIBE_SITES</zType>
 		<Translation>Plätze</Translation>
 	</Entry>
@@ -524,8 +524,8 @@
 		<Translation>Spezialist(en)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_CONNECTED_CITIES</zType>
-		<Translation>Verbundene Städte</Translation>
+		<zType>TEXT_HELPTEXT_LINK_CONNECTED_FOREIGN</zType>
+		<Translation>Verbundene fremde Städte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_ENEMIES</zType>
@@ -673,6 +673,14 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIREMENT_SINGLE</zType>
 		<Translation>Single</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EVENTOPTION_ADDS_LINK</zType>
+		<Translation>Adds link: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EVENTOPTION_STARTS_LINK</zType>
+		<Translation>Starts link: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_COOLDOWN</zType>
@@ -1112,6 +1120,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TRADE_LUXURY_RETURN</zType>
 		<Translation>Bekomme {0_luxury} zurück von {1_link}</Translation>
+	</Entry>
+	 <Entry>
+    <zType>TEXT_HELPTEXT_WIDGET_TRADE_CITY_LUXURY_TT</zType>
+    <Translation>Stadt Luxusgüter:</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TRADE_LUXURY_FAMILY</zType>
@@ -1586,8 +1598,8 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation><![CDATA[Werde {0_agent} für {1_money}<true_2> in {2_city}<false><end>]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_TRADE_ROUTE</zType>
-		<Translation>Beginne Handelsweg zu {0_player}</Translation>
+		<zType>TEXT_HELPTEXT_WIDGET_CARAVAN_MISSION</zType>
+		<Translation>>Beginne link(CONCEPT_CARAVAN_MISSION) mit {0_player}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TRADE_ROUTE_DESTINATION</zType>
@@ -1972,6 +1984,10 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Keine Ambitionen fertiggestellt</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_CARAVAN_MISSION</zType>
+		<Translation>The Unit moves once per Turn to a Foreign Capital. Upon safe arrival, the Nation receive a link(YIELD_MONEY) and an Opinion boost.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CLEAR</zType>
 		<Translation>link(CONCEPT_CLEAR)</Translation>
 	</Entry>
@@ -2262,6 +2278,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Modifikator für Kampfstärke</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_SUBJECT_TRAIT_ANY</zType>
+		<Translation>Muss {0_list}sein </Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TEAM_LIST</zType>
 		<Translation>Team {0_num}: {1_list}</Translation>
 	</Entry>
@@ -2296,10 +2316,6 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TRIBUTE_TO_TURNS</zType>
 		<Translation>Tribut an: {0} {1_turns}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_TRADE_ROUTE</zType>
-		<Translation>The Unit moves once per Year to a Foreign Capital. Upon safe arrival, the nation receives a link(YIELD_MONEY) and an Opinion boost.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_UNIT_HIDE_KEY</zType>
@@ -2340,14 +2356,6 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_URBAN_CITIZEN</zType>
 		<Translation>Jedes link(CONCEPT_URBAN) Feld ernährt {0_value} {1_citizen}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_URBAN_ATTACK_INTO</zType>
-		<Translation>{0_unitTrait} (Angreifen in): {1_value}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_URBAN_ATTACK_FROM</zType>
-		<Translation>{0_unitTrait} (Verteidigt von): {1_value}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_VEGETATION_DEFEND</zType>
@@ -2512,8 +2520,8 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>{0}: Verteidigt Stadt Platz</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_YIELD_NET_TRADE_ROUTES</zType>
-		<Translation>{0}: Handelswege</Translation>
+		<zType>TEXT_HELPTEXT_YIELD_NET_CARAVAN_MISSIONS</zType>
+		<Translation>{0}: Aktive link(CONCEPT_CARAVAN_MISSION)(en)</Translation>
 	</Entry>
 	<!--City Help-->
 	<Entry>
@@ -2718,7 +2726,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_FROM_X</zType>
-		<Translation><![CDATA[{0} von {1}<true_2> x{2}<false><end>]]></Translation>
+		<Translation>{0} von {1}{true_2: x{2}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_YIELD_PERCENT_OF_YIELD</zType>
@@ -2727,7 +2735,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<!--Unit Type Help-->
 	<Entry>	
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_HP_MAX</zType>
-		<Translation>HP: {0}</Translation>
+		<Translation>{0} HP</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_REVEAL_RANGE</zType>
@@ -2742,32 +2750,32 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Reichweite: {0}-{1}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_TYPE_ATTACKS</zType>
+		<Translation>Greift {LIST} an</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_ATTACK_VALUE_ITEM</zType>
-		<Translation><![CDATA[{0_attackType}<true_1> ({1})<false><end> at {2}%]]></Translation>
+		<Translation>{0_attackType}{true_1: ({1})} at {2}%</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_DEAD</zType>
 		<Translation>Tote Einheit</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_TYPE_ATTACKS</zType>
-		<Translation>Greift {LIST} an</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_STRENGTH_VS</zType>
-		<Translation>Stärke vs. {0_value}: {1_unitTrait}</Translation>
+		<Translation>Stärke vs. {0_unitTrait}: </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_STRENGTH_ATTACKING_VS</zType>
-		<Translation>Angriffsstärke vs. {0_value}: {1_unitTrait}</Translation>
+		<Translation>Angriffsstärke vs. vs. {0_unitTrait}:  </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_STRENGTH_DEFENDING_VS</zType>
-		<Translation>Verteidigungsstärke vs. {0_value}: {1_unitTrait}</Translation>
+		<Translation>Verteidigungsstärke vs. {0_unitTrait}: </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_STRENGTH_MELEE_VS</zType>
-		<Translation>Nahkampfstärke vs. {0_value}: {1_unitTrait}</Translation>
+		<Translation>link(UNITTRAIT_MELEE) Stärke vs. {0_unitTrait}: </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_FAMILY_LABEL</zType>
@@ -2811,15 +2819,15 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_SPREADS_RELIGION</zType>
-		<Translation>Ausdehnen {0_religion}</Translation>
+		<Translation>Dehnt {0_religion} aus</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_AMPHIBIOUS</zType>
 		<Translation>Kann sich auf Land oder Wasser bewegen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_TYPE_CAN_TRADE_ROUTE</zType>
-		<Translation>Kann einen Handelsweg errichten</Translation>
+		<zType>TEXT_HELPTEXT_UNIT_TYPE_CAN_CARAVAN_MISSION</zType>
+		<Translation>Kann eine link(CONCEPT_CARAVAN_MISSION durchführen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_CAN_ESTABLISH_THEOLOGY</zType>
@@ -2847,11 +2855,11 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_CAN_TESTUDO</zType>
-		<Translation>Kann Schildkröte benutzen (Bonus vs Fernkampf)</Translation>
+		<Translation>Kann Schildkröte benutzen (Bonus vs link(UNITTRAIT_RANGED))</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_START_LEVELS</zType>
-		<Translation><![CDATA[{0} <singular_0>Stufe<plural>Stufen<end>]]></Translation>
+		<Translation>{0} {singular_0:Level:Levels}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_START_XP</zType>
@@ -2871,11 +2879,15 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_POPULATION_COST</zType>
-		<Translation><![CDATA[Kosten {0_value} <singular_0>{1_citizenLink}<plural>{1,2_citizenLink}<end>]]></Translation>
+		<Translation>Costs {0_value} {singular_0:{1_citizenLink}:{1,2_citizenLink}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_PRODUCTION</zType>
 		<Translation>Benötigt: {0} {1_yield}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_TYPE_UPGRADES_FROM</zType>
+		<Translation>Verbessert von {LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_UPGRADES_TO</zType>
@@ -2887,7 +2899,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_REQUIRES_CULTURE</zType>
-		<Translation>Benötigt {0_cultureType} Kultur</Translation>
+		<Translation>Benötigt {0_cultureType}  link(YIELD_CULTURE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_REQUIRES_STATE_RELIGION</zType>
@@ -2960,24 +2972,8 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>In {0}: {1}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_TRAIT_DEFENDING</zType>
-		<Translation>Verteidigung {0}: {1}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_TRAIT_ATTACK_ACROSS</zType>
-		<Translation>Über {0}: {1}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TRAIT_INTO_FRACTION_MODIFIER</zType>
 		<Translation>In {0}/{1}: {2}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_TRAIT_IGNORES_DISTANCE</zType>
-		<Translation>Ignoriert link(CONCEPT_DISTANCE_MODIFIER)</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_TRAIT_ZOC_BLOCKS</zType>
-		<Translation>ZOC blockiert {0}</Translation>
 	</Entry>
 	<!--Promotion Help-->
 	<Entry>
@@ -3017,7 +3013,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_ATTACK_ACROSS_RIVER</zType>
-		<Translation>Über {0_riverLink}: {1_value}</Translation>
+		<Translation><![CDATA[<true_2>Über {0_riverLink}: {1_value}<false>{1_value} Über {0_riverLink}<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_ATTACK_LAND_WATER</zType>
@@ -3025,35 +3021,35 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_ATTACK_INTO</zType>
-		<Translation>In {0_tileLink}: {1_value}</Translation>
+		<Translation><![CDATA[<true_2>In {0_tileLink}: {1_value}<false>{1_value} In {0_tileLink}<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_FIGHT_FROM</zType>
-		<Translation>Von {0_tileLink}: {1_value}</Translation>
+		<Translation><![CDATA[<true_2>Von {0_tileLink}: {1_value}<false>{1_value} Von {0_tileLink}<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_IF_DAMAGED</zType>
-		<Translation>Wenn  beschädigt: {0_value}</Translation>
+		<Translation><![CDATA[<true_1>Wenn beschädigt: {0_value}<false>{0_value} Wenn beschädigt<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_VS_DAMAGED</zType>
-		<Translation>Vs. Beschädigt: {0_value}</Translation>
+		<Translation><![CDATA[<true_1>Vs. Beschädigt: {0_value}<false>{0_value} Vs. Beschädigt<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_VS_GENERAL</zType>
-		<Translation>Vs. Feldherr: {0_value}</Translation>
+		<Translation><![CDATA[<true_1>Vs. link(CONCEPT_GENERAL): {0_value}<false>{0_value} Vs. link(CONCEPT_GENERAL)<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_VS_TRIBES</zType>
-		<Translation>Vs. Stämme: {0_value}</Translation>
+		<Translation><![CDATA[<true_1>Vs. Stämme/Barbaren: {0_value}<false>{0_value} Vs. Stämme/Barbaren<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_SAME_UNIT_ADJACENT</zType>
-		<Translation>Wenn am verteidigen mit angrenzender {0_effectUnit} Einheit: {1_value}</Translation>
+		<Translation><![CDATA[<true_1>Wenn selbe Einheit benachbart: {0_value}<false>{0_value} Wenn selbe Einheit benachbart<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_HEAL_EXTRA</zType>
-		<Translation>Heilung: {0_value} HP</Translation>
+		<Translation><![CDATA[<true_1>Heilung: {0_value} HP<false>{0_value} LP von Heilung<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_HEAL_ALWAYS</zType>
@@ -3092,24 +3088,32 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Kann mehrere Straßen pro Jahr konstruieren</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_UNIT_ATTACK_VALUE_ITEM</zType>
+		<Translation>Attackiert {0_attackType}{true_1: {1}}{true_2: at {2}%}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_VS_UNIT_TRAIT</zType>
-		<Translation>Vs. {0_unitTrait}: {1_value}</Translation>
+		<Translation><![CDATA[<true_2>Vs. {0_unitTrait}: {1_value}<false>{1_value} Vs. {0_unitTrait}<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_WHEN_ATTACKING_VS</zType>
-		<Translation>Angreifen vs. {0_unitTrait}: {1_value}</Translation>
+		<Translation><![CDATA[<true_2>Angreifend Vs. {0_unitTrait}: {1_value}<false>{1_value} Angreifend Vs. {0_unitTrait}<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_WHEN_DEFENDING_VS</zType>
-		<Translation>Verteidigung vs. {0_unitTrait}: {1_value}</Translation>
+		<Translation><![CDATA[<true_2>Verteidigend Vs. {0_unitTrait}: {1_value}<false>{1_value} Verteidigend Vs. {0_unitTrait}<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_IN_MELEE_VS</zType>
-		<Translation>Nahkampf vs. {0_unitTrait}: {1_value}</Translation>
+		<Translation><![CDATA[<true_2>link(UNITTRAIT_MELEE) Kampf Vs. {0_unitTrait}: {1_value}<false>{1_value} link(UNITTRAIT_MELEE) Kampf Vs. {0_unitTrait}<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_INVISIBLE_IN</zType>
 		<Translation>Unsichtbar in {0_vegetation}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_UNIT_ZOC_BLOCKS</zType>
+		<Translation>link(CONCEPT_ZOC) blockiert {0}</Translation>
 	</Entry>
 	<!--Effect City Help No Yields-->
 	<Entry>
@@ -3634,7 +3638,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>{0_value} Ermüdungslimit</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_REVEAL_CHANGE</zType>
+		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_VISION_CHANGE</zType>
 		<Translation>{0_value} Aufdeckungsbereich</Translation>
 	</Entry>
 	<Entry>
@@ -3644,6 +3648,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_LEADER_OPINION_CHANGE</zType>
 		<Translation>Alle fremden Oberhäupter Meinungen {0_value}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_FAMILY_OPINION_CHANGE</zType>
+		<Translation>Ganze Familien Meinung {0_value}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_START_MUSIC</zType>
@@ -3950,39 +3958,31 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_SAME_FAMILY</zType>
-		<Translation>Selbe Familie:</Translation>
+		<Translation>Selbe Familie</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_GENERAL_SAME_NATION</zType>
-		<Translation>Selbes Volk (Feldherr):</Translation>
+		<Translation>Selbes Volk (Feldherr)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_GENERAL_SAME_TRIBE</zType>
-		<Translation>Selber Stamm (Feldherr):</Translation>
+		<Translation>Selber Stamm (Feldherr)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_GENERAL_DIFF_TRIBE</zType>
-		<Translation>Anderer Stamm (Feldherr):</Translation>
+		<Translation>Anderer Stamm (Feldherr)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_GENERAL_SAME_FAMILY</zType>
-		<Translation>Selbe Familie (Feldherr):</Translation>
+		<Translation>Selbe Familie (Feldherr)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_UNIT_TRAIT_BONUS</zType>
-		<Translation>{0_bonusReason} (as {1_unitTrait}):</Translation>
+		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_UNIT_BONUS</zType>
+		<Translation>{0_bonusReason} (as {1_unitAbility})</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_UNIT_SETTLEMENT_BONUS</zType>
-		<Translation>{0_bonusReason} (vs Siedlung):</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_UNIT_URBAN_BONUS</zType>
-		<Translation>{0_bonusReason} (vs Städtisch):</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_ENEMY_UNIT_TRAIT_BONUS</zType>
-		<Translation>:{0_bonusReason} (as {1_unitTrait})</Translation>
+		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_UNIT_BONUS_VS</zType>
+		<Translation>Vs. {0_bonusReason} (as {1_unitAbility})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_UNIT_TRAIT_BONUS_ATTACKING_VERSUS</zType>
@@ -3997,16 +3997,8 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>link(UNITTRAIT_MELEE) Angriff vs. {0_unitTrait}:</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_ENEMY_UNIT_TRAIT_BONUS_MELEE_VERSUS</zType>
-		<Translation>:link(UNITTRAIT_MELEE) Angriff vs. {0_unitTrait}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_UNIT_TRAIT_BONUS_VERSUS</zType>
 		<Translation>Vs. {0_unitTrait}:</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_ENEMY_UNIT_TRAIT_BONUS_VERSUS</zType>
-		<Translation>:Vs. {0_unitTrait}</Translation>
 	</Entry>
 	<!--Player Selection-->
 	<Entry>
@@ -4029,11 +4021,11 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CITY_SELECTION_FAMILY_OPINION</zType>
-		<Translation><![CDATA[Family: {0_family}<true_1> ({1_opinion})<false><end>]]></Translation>
+		<Translation>Familie: {0_family}{true_1: ({1_opinion})}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CITY_SELECTION_CITIZENS_NO_NUM</zType>
-		<Translation><![CDATA[<singular_0>Bürger<plural>Bürger<end>]]></Translation>
+		<Translation>{singular_0:Bürger:Bürger}</Translation>
 	</Entry>
 	<!--City Yield Progress-->
 	<Entry>
@@ -4051,7 +4043,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<!--Show Choose Research Popup-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_SHOW_CHOOSE_RESEARCH_POPUP_TURNS_LEFT</zType>
-		<Translation><![CDATA[{0_turnsLeft} <singular_0>Jahr<plural>Jahre<end>]]></Translation>
+        <Translation>{0_turnsLeft} {1_turnScale}</Translation>
 	</Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_RESEARCH_TURNS_LEFT_SHORT</zType>
@@ -4113,6 +4105,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_FINISH_GOAL</zType>
 		<Translation>Ziel {0_goalLink} beendet</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_FAIL_GOAL</zType>
+		<Translation>Fail Goal {0_goalLink}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_END_ALLIANCE</zType>
@@ -4257,6 +4253,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_FREE_UNIT_MERCENARY</zType>
 		<Translation><![CDATA[Gain link(CONCEPT_MERCENARY) {0_unit}<true_1> (x{1_number})<false><end>]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_TRIBE_UNIT</zType>
+		<Translation>Neue {0,1_tribe} {1_unit}{true_2: (x{2_number})} auf {tile_3}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_TRADE_CITY</zType>
@@ -4964,8 +4964,8 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Werde ({0_city}) Agent</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_TILE_TRADE_ROUTE_BUTTON</zType>
-		<Translation>Handelsroute ({0_player})</Translation>
+		<zType>TEXT_HELPTEXT_TILE_CARAVAN_MISSION_BUTTON</zType>
+		<Translation>link(CONCEPT_CARAVAN_MISSION) ({0_player})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_ADD_ROAD_BUTTON</zType>
@@ -5430,6 +5430,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Meinung von dir: {0} ({1})</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_HELP_PLAYER_OPINION_OF_YOU</zType>
+		<Translation>{0,1_player} Meinung von Euch: {1} ({2})</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_NATION_ETHNICITY</zType>
 		<Translation>{0}: {1,1}</Translation>
 	</Entry>
@@ -5622,8 +5626,8 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Derzeitiger Agent: {0_character}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_CHOOSE_AGENT_CLICK_TO_SELECT_AGENT</zType>
-		<Translation><![CDATA[<TEXT_HOTKEY_CTRL_CLICK> um den Agenten anzuwählen]]></Translation>
+		<zType>TEXT_HELPTEXT_CHOOSE_AGENT_CLICK_TO_CHANGE_AGENT</zType>
+		<Translation><![CDATA[<TEXT_HOTKEY_CTRL_CLICK> um den link(CONCEPT_AGENT) zu ändern]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHOOSE_AGENT_CLICK_TO_RETURN_AGENT</zType>
@@ -6014,6 +6018,14 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Give your newest City, {0_city}, to one of your Families...</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_DECISION_OFFER_PEACE_TITLE</zType>
+		<Translation>Peace Offer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_DECISION_OFFER_TRUCE_TITLE</zType>
+		<Translation>Truce Offer</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DECISION_OFFER_PEACE_TRIBE_DESC</zType>
 		<Translation>Schließe {0_peace} mit den {1_barbarians} für {2_money}? [Kein Ereignis gefunden]</Translation>
 	</Entry>
@@ -6297,7 +6309,15 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_WONDERS_CULTURE</zType>
-		<Translation><![CDATA[Benötigt {0_num} <singular_0>Wunder<plural>Wunder<end> mit {1_cultureLevel}]]></Translation>
+		<Translation>Benötigt {0_num} {singular_0:Wunder:Wunder} mit {1_cultureLevel} link(YIELD_CULTURE)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_TURNS_LEFT</zType>
+		<Translation>{1_turnScale} Übrig: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_LEGACY</zType>
+		<Translation>(This Ambition is a Legacy)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_MAX_YEARS</zType>

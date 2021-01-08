@@ -150,14 +150,6 @@
 		<Translation>Grundwert:</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_BASE_ENEMY</zType>
-		<Translation>:Grundwert</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_POPULATION_ENEMY</zType>
-		<Translation>:Bevölkerung</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_GENERAL</zType>
 		<Translation>Feldherr:</Translation>
 	</Entry>
@@ -170,14 +162,6 @@
 		<Translation>Land-vs-Wasser:</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_GENERAL_ENEMY</zType>
-		<Translation>:Feldherr</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_GENERAL_ENEMY_DEFENSE</zType>
-		<Translation>:Feldherr  icon(Icon_Defense)</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_SETTLEMENT</zType>
 		<Translation>Kolonie</Translation>
 	</Entry>
@@ -186,20 +170,12 @@
 		<Translation>KI vs. {0}:</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_AI_MODIFIER_ENEMY</zType>
-		<Translation>:KI vs. {0}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_DISTANCE</zType>
 		<Translation>Entfernung:</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_STRENGTH</zType>
 		<Translation>Stärke:</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_STRENGTH_ENEMY</zType>
-		<Translation>:Stärke</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_KILLING_BLOW</zType>
@@ -216,10 +192,6 @@
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_FAMILY_TERRITORY</zType>
 		<Translation>Familien Gebiet:</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_FAMILY_TERRITORY_ENEMY</zType>
-		<Translation>:Familien Gebiet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_CRITICAL_CHANCE</zType>
@@ -246,6 +218,10 @@
 		<Translation>Wähle Forschung</Translation>
 	</Entry>
 	<Entry>
+    <zType>TEXT_UI_UNIT_LEVEL</zType>
+    <Translation>LVL {0}</Translation>
+  </Entry>
+  <Entry>
 		<zType>TEXT_UI_UNIT_SELECTION_MAX_LEVEL</zType>
 		<Translation>(MAX LVL)</Translation>
 	</Entry>
@@ -406,10 +382,6 @@
 		<Translation>{0} (Staats)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_GOAL_PANEL_LEGACY</zType>
-		<Translation><![CDATA[{0}<br>(NACHLASS)]]></Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_UI_GOAL_PANEL_YEARS_LEFT</zType>
 		<Translation>, Jahr(e): {0}</Translation>
 	</Entry>
@@ -458,6 +430,10 @@
 		<Translation>GEWONNEN!!!</Translation>
 	</Entry>
 	<Entry>
+    <zType></zType>
+    <Translation>ALLIANCE VICTORY!!!</Translation>
+  </Entry>
+  <Entry>
 		<zType>TEXT_UI_WINNER_ROSTER_LOSS</zType>
 		<Translation>VERLOREN!!!</Translation>
 	</Entry>
@@ -567,6 +543,10 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
 		<Translation>[Quest beendet: {0}]</Translation>
 	</Entry>
 	<Entry>
+    <zType>TEXT_UI_EVENT_STORY_QUEST_FAILED</zType>
+    <Translation>[Quest Failed: {0}]</Translation>
+  </Entry>
+  <Entry>
 		<zType>TEXT_UI_EVENT_STORY_MISSION_FINISHED</zType>
 		<Translation>[Mission beendet: {0}]</Translation>
 	</Entry>
@@ -579,17 +559,25 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
 		<Translation>[Kritischer Treffer]</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_EVENT_STORY_INJURY</zType>
-		<Translation>[Verletzung]</Translation>
+		<zType>TEXT_UI_EVENT_STORY_GENERAL_INJURY</zType>
+		<Translation>[Feldherr verletzt]</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_EVENT_STORY_ATTACKED_UNIT</zType>
-		<Translation>[Angegriffende Einheit]</Translation>
+		<zType>TEXT_UI_EVENT_STORY_GENERAL_ATTACK</zType>
+		<Translation>[Mit Feldherr angegriffen]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_GENERAL_DUEL</zType>
+    <Translation>[Duel of Generals]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTERLIST_FILTER_NONE</zType>
 		<Translation>Alle Charaktere</Translation>
 	</Entry>
+  <Entry>
+		<zType>TEXT_UI_CHARACTERLIST_FILTER_COURT</zType>
+	<Translation>Court Members</Translation>
+  </Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTERLIST_FILTER_GENERALS</zType>
 		<Translation>Geeignete Feldherren</Translation>
@@ -691,7 +679,11 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
         <zType>TEXT_UI_SURRENDER_CONFIRM</zType>
         <Translation>Ja</Translation>
     </Entry>
-    <Entry>
+   <Entry>
+    <zType>TEXT_MENU_SCREEN_RESUME_BUTTON</zType>
+    <Translation>Fortfahren</Translation>
+  </Entry>
+  <Entry>
         <zType>TEXT_MENU_SCREEN_SP_BUTTON</zType>
         <Translation>Einzelspieler</Translation>
     </Entry>
@@ -961,7 +953,11 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
         <Translation>Hoste Spiel</Translation>
     </Entry>
     <!--servers-->
-    <Entry>
+   <Entry>
+		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_SERVERPASSWORD</zType>
+		<Translation>Server Password</Translation>
+	</Entry>
+	<Entry>
         <zType>TEXT_MP_SETUP_OPTIONS_LABEL_SERVERS</zType>
         <Translation>Server</Translation>
     </Entry>
@@ -1108,7 +1104,7 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
         <Translation>KI</Translation>
     </Entry>
     <Entry>
-        <zType>TEXT_MP_SETUP_INVALID_NATIONS</zType>
+        <zType>TEXT_MP_SETUP_INVALID_START</zType>
         <Translation>"Keine doppelten Nationen" Spieloption is aktiviert</Translation>
     </Entry>
     <!-- players-->
@@ -1241,7 +1237,11 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
 		<zType>TEXT_SCENARIO_SETUP_SHOWOPTIONS</zType>
 		<Translation>Zeige Optionen</Translation>
 	</Entry>
-    <Entry>
+   <Entry>
+    <zType>TEXT_SCENARIO_SETUP_FILE_LOADED</zType>
+    <Translation>{0} Geladen</Translation>
+  </Entry>
+  <Entry>
         <zType>TEXT_SCENARIO_SETUP_STARTGAME</zType>
         <Translation>Starte Spiel</Translation>
     </Entry>
@@ -1777,6 +1777,10 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
 		<zType>TEXT_AMBITION_SKIP_DECISION</zType>
         <Translation>I don't feel ambitious right now.</Translation>
 	</Entry>
+  <Entry>
+    <zType>TEXT_CITY_FAMILY_DECISION</zType>
+    <Translation>{0_family} ({1_class}, {2_opinion}, {singular_3:1 Stadt:{3} Städte})</Translation>
+  </Entry>
     <Entry>
         <zType>TEXT_CHARACTER_UPGRADE_DECISION_RATING</zType>
         <Translation>Verbessere: +1 {0_ratingtype} ({1_startrating} zu {2_endrating})</Translation>

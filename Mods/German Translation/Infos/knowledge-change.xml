@@ -9,22 +9,22 @@
 	<Entry>
 		<zType>KNOWLEDGE_PRIMITIVE</zType>
 		<zName>Primitiv</zName>
-		<iPercent>75</iPercent>
+		<iPercent>70</iPercent>
 	</Entry>
 	<Entry>
 		<zType>KNOWLEDGE_NAIVE</zType>
 		<zName>Naiv</zName>
-		<iPercent>90</iPercent>
+		<iPercent>85</iPercent>
 	</Entry>
 	<Entry>
 		<zType>KNOWLEDGE_COMPETENT</zType>
 		<zName>Kompetent</zName>
-		<iPercent>110</iPercent>
+		<iPercent>120</iPercent>
 	</Entry>
 	<Entry>
 		<zType>KNOWLEDGE_LEARNED</zType>
 		<zName>Gelernt</zName>
-		<iPercent>135</iPercent>
+		<iPercent>150</iPercent>
 	</Entry>
 	<Entry>
 		<zType>KNOWLEDGE_ERUDITE</zType>

@@ -43,6 +43,11 @@
 		<iTurns>5</iTurns>
 	</Entry>
 	<Entry>
+		<zType>MEMORYPLAYER_CHOSE_AMBITION</zType>
+		<zText>Wähle eine Ambition</zText>
+		<iTurns>5</iTurns>
+	</Entry>
+	<Entry>
 		<zType>MEMORYPLAYER_DIVORCE</zType>
 		<zText>Scheidung</zText>
 		<iValue>-100</iValue>
@@ -149,6 +154,18 @@
 		<iTurns>40</iTurns>
 	</Entry>
 	<Entry>
+		<zType>MEMORYPLAYER_KILLED_NOBLE_HOSTAGE</zType>
+		<zText>Killed a noble hostage</zText>
+		<iValue>-80</iValue>
+		<iTurns>40</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_NOBLE_DEFECT</zType>
+		<zText>Convinced a noble to defect</zText>
+		<iValue>-40</iValue>
+		<iTurns>20</iTurns>
+	</Entry>
+	<Entry>
 		<zType>MEMORYPLAYER_CANCELLED_TRADE</zType>
 		<zText>Handel abgebrochen</zText>
 		<iValue>-40</iValue>
@@ -213,12 +230,12 @@
 	<Entry>
 		<zType>MEMORYPLAYER_EVENTOPTION_TRADE_MISSION_YES_FAIL</zType>
 		<zText>Gib uns ein Geschnek um unsere Beziehungen zu verbessern</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_DECLARE_WAR_DEMAND_YES</zType>
 		<zText>Agreed to Declare War on our enemy</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_DECLARE_WAR_DEMAND_NO</zType>
@@ -643,7 +660,7 @@
 	<Entry>
 		<zType>MEMORYPLAYER_LOST_IN_TRANSLATION_POS</zType>
 		<zText>Settled a contract dispute</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_LOST_IN_TRANSLATION_NEG</zType>

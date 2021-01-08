@@ -37,14 +37,6 @@
 				<iValue>10</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>TRAIT_HARDY</zIndex>
-				<iValue>10</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>TRAIT_EAGLE_EYE</zIndex>
-				<iValue>10</iValue>
-			</Pair>
-			<Pair>
 				<zIndex>TRAIT_MARKSMAN</zIndex>
 				<iValue>10</iValue>
 			</Pair>
@@ -52,11 +44,7 @@
 				<zIndex>TRAIT_BESIEGER</zIndex>
 				<iValue>10</iValue>
 			</Pair>
-      <Pair>
-        <zIndex>TRAIT_GARRISON</zIndex>
-        <iValue>10</iValue>
-      </Pair>
-      <Pair>
+			<Pair>
 				<zIndex>TRAIT_TOUGH</zIndex>
 				<iValue>10</iValue>
 			</Pair>

@@ -42,6 +42,10 @@
 		<zName>Spieler Bündnis</zName>
 	</Entry>
 	<Entry>
+		<zType>STAT_CARAVAN_ARRIVED</zType>
+		<zName>Caravan Arrived</zName>
+	</Entry>
+	<Entry>
 		<zType>STAT_CAPITAL_CAPTURED</zType>
 		<zName>Hauptstädte erbeutet</zName>
 	</Entry>

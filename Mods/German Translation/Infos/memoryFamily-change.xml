@@ -1039,7 +1039,12 @@
 		<zType>MEMORYFAMILY_ATTENDED_FEAST_ALONE</zType>
 		<zText>Attended tribal feast alone</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
-	</Entry> 
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_IGNORED_FESTIVAL_REQUEST</zType>
+		<zText>Ignored request for a festival</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
 	<Entry beginGroup="City">
 		<zType>MEMORYFAMILY_SENT_DOCTORS_TO_PLAGUED_CITY</zType>
 		<zText>Sent doctors to plagued city</zText>
@@ -1281,6 +1286,11 @@
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
+		<zType>MEMORYFAMILY_IMPRISONED_FAMILY_HEAD_UNJUST</zType>
+		<zText>Unjustly imprisoned family oligarch</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
 		<zType>MEMORYFAMILY_ALLY_WITH_LEADER</zType>
 		<zText>Convinced to favor our ruler</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
@@ -1409,6 +1419,11 @@
 		<zType>MEMORYFAMILY_CONSULAR_TRIBUNES</zType>
 		<zText>Granted military power on court</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_LIED</zType>
+		<zText>Lied about intentions</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry beginGroup="Exploration">
 		<zType>MEMORYFAMILY_RAISED_MARBLE_PRICES</zType>

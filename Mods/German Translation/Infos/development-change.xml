@@ -21,38 +21,38 @@
 		<zName>Jung</zName>
 		<zHelp>Vorhandene Staaten starten mit einer Stadt</zHelp>
 		<iAvgCities>2</iAvgCities>
-		<iMaxCities>4</iMaxCities>
-		<iCapitalPopulation>3</iCapitalPopulation>
-		<iTechs>3</iTechs>
+		<iMaxCities>3</iMaxCities>
+		<iCapitalPopulation>2</iCapitalPopulation>
+		<iTechs>2</iTechs>
 	</Entry>
 	<Entry>
 		<zType>DEVELOPMENT_ESTABLISHED</zType>
 		<zName>Bekannt</zName>
 		<zHelp>Vorhandene Staaten starten mit 2-3 Städten</zHelp>
 		<iAvgCities>3</iAvgCities>
-		<iMaxCities>7</iMaxCities>
-		<iCapitalPopulation>4</iCapitalPopulation>
-		<iTechs>4</iTechs>
+		<iMaxCities>5</iMaxCities>
+		<iCapitalPopulation>3</iCapitalPopulation>
+		<iTechs>3</iTechs>
 		<iLoneOpponentChange>1</iLoneOpponentChange>
 	</Entry>
 	<Entry>
 		<zType>DEVELOPMENT_ADVANCED</zType>
 		<zName>Fortgeschritten</zName>
 		<zHelp>Vorhandene Staaten starten mit 2-4 Städten</zHelp>
-		<iAvgCities>5</iAvgCities>
-		<iMaxCities>9</iMaxCities>
-		<iCapitalPopulation>5</iCapitalPopulation>
-		<iTechs>5</iTechs>
+		<iAvgCities>4</iAvgCities>
+		<iMaxCities>6</iMaxCities>
+		<iCapitalPopulation>4</iCapitalPopulation>
+		<iTechs>4</iTechs>
 		<iLoneOpponentChange>2</iLoneOpponentChange>
 	</Entry>
 	<Entry>
 		<zType>DEVELOPMENT_MASSIVE</zType>
 		<zName>Mächtig</zName>
 		<zHelp>Vorhandene Staaten starten mit 3-6 Städten</zHelp>
-		<iAvgCities>7</iAvgCities>
-		<iMaxCities>11</iMaxCities>
-		<iCapitalPopulation>6</iCapitalPopulation>
-		<iTechs>6</iTechs>
+		<iAvgCities>5</iAvgCities>
+		<iMaxCities>8</iMaxCities>
+		<iCapitalPopulation>5</iCapitalPopulation>
+		<iTechs>5</iTechs>
 		<iLoneOpponentChange>3</iLoneOpponentChange>
 	</Entry>
 </Root>
