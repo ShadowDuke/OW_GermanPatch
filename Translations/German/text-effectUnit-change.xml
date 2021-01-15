@@ -51,8 +51,16 @@
 		<Translation>Oberhaupt (Anführer)</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_HERO_MELEE</zType>
+		<Translation>Held (link(UNITTRAIT_MELEE))</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_COMMANDER</zType>
 		<Translation>Feldherr</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_COMMANDER_INFANTRY</zType>
+		<Translation>Feldherr (link(UNITTRAIT_INFANTRY))</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_TACTICIAN</zType>
@@ -161,6 +169,26 @@
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SHRAPNEL</zType>
 		<Translation>Shrapnell</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_COCKSWAIN</zType>
+		<Translation>Boorsführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_GRAPPLER</zType>
+		<Translation>Ringer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_SEABORN</zType>
+		<Translation>Auf See geboren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_OVERWHELM</zType>
+		<Translation>Überfordert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_FIRESHIP</zType>
+		<Translation>Brander</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_ROUT</zType>

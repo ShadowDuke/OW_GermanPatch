@@ -224,7 +224,6 @@
 			<zValue>Bay des Trepasses</zValue>
 			<zValue>Liscia di Vacca</zValue>
 			<zValue>Augusta Bay</zValue>
-			<zValue>Alkyonides Gulf</zValue>
 			<zValue>Mirabello Bay</zValue>
 			<zValue>Thymnias Bay</zValue>
 			<zValue>Suvla Bay</zValue>
@@ -679,7 +678,8 @@
 			<zValue>Pindos</zValue>
 			<zValue>Rhodopen</zValue>
 			<zValue>Lefka Ori Mountains</zValue>
-			<zValue>Rhodope Mountains</zValue>
+			<zValue>Taygetos Mountains</zValue>
+			<zValue>Pierian Mountains</zValue>
 		</azMountainRangeNames>
 		<azPeakNames>
 			<zValue>Pendeli</zValue>
@@ -688,7 +688,11 @@
 			<zValue>Helikon</zValue>
 			<zValue>Tomaros</zValue>
 			<zValue>Berg Paiko</zValue>
+			<zValue>Mount Varnous</zValue>
+			<zValue>Mount Erymanthos</zValue>
 			<zValue>Falakro</zValue>
+			<zValue>Mount Ida</zValue>
+			<zValue>Mount Athos</zValue>
 		</azPeakNames>
 		<azRiverNames>
 			<zValue>Aliakmonas</zValue>
@@ -698,6 +702,10 @@
 			<zValue>Acheloos</zValue>
 			<zValue>Pinios</zValue>
 			<zValue>Gediz</zValue>
+			<zValue>Aoös River</zValue>
+			<zValue>Nestos River</zValue>
+			<zValue>Thyamis River</zValue>
+			<zValue>Cephissos River</zValue>
 		</azRiverNames>
 		<azForestNames>
 			<zValue>Dadia-Wald</zValue>
@@ -717,6 +725,8 @@
 			<zValue>Chania Plain</zValue>
 			<zValue>Lelantine Plain</zValue>
 			<zValue>Thessalian Plain</zValue>
+			<zValue>Boeotian plain</zValue>
+			<zValue>Pelagonia</zValue>
 		</azPlainNames>
 		<azDesertNames>
 			<zValue>Deliblato Sande</zValue>
@@ -732,14 +742,17 @@
 			<zValue>Amari Valley</zValue>
 			<zValue>Drino Valley</zValue>
 		</azValleyNames>
-		<azOceanNames>
-			<zValue>Atlantischer Ozean</zValue>
-		</azOceanNames>
 		<azSeaNames>
 			<zValue>Ägäis</zValue>
 			<zValue>Myrtoisches Meer</zValue>
 			<zValue>Kretisches Meer</zValue>
 			<zValue>Ionisches Meer</zValue>
+			<zValue>Thracian Sea</zValue>
+			<zValue>Ionian Sea</zValue>
+			<zValue>Black Sea</zValue>
+			<zValue>Sea of Marmara</zValue>
+			<zValue>Livikon Pelagos</zValue>
+			<zValue>Karpathian Sea</zValue>
 		</azSeaNames>
 		<azBayNames>
 			<zValue>Golf von Korinth</zValue>
@@ -752,6 +765,11 @@
 			<zValue>Gulf of Patras</zValue>
 			<zValue>North Euboean Gulf</zValue>
 			<zValue>Pagasetic Gulf</zValue>
+			<zValue>Ambracian Gulf</zValue>
+			<zValue>Messinian Gulf</zValue>
+			<zValue>Megara Gulf</zValue>
+			<zValue>Malian Gulf</zValue>
+			<zValue>Alkyonides Gulf</zValue>
 		</azBayNames>
 		<azLakeNames>
 			<zValue>Yliki-See</zValue>
@@ -761,17 +779,35 @@
 			<zValue>Volvi-See</zValue>
 			<zValue>Kerkini-See</zValue>
 			<zValue>Pamvotida-See</zValue>
+			<zValue>Lake Stymphalia</zValue>					   
 		</azLakeNames>
 		<azIslandNames>
 			<zValue>Kreta</zValue>
 			<zValue>Rhodos</zValue>
+			<zValue>Cyprus</zValue>
+			<zValue>Delos Island</zValue>
+			<zValue>Aegina Island</zValue>
+			<zValue>Naxos Island</zValue>
+			<zValue>Samos Island</zValue>
+			<zValue>Lesvos Island</zValue>
+			<zValue>Limnos Island</zValue>
+			<zValue>Kos Island</zValue>
 			<zValue>Andros</zValue>
 			<zValue>Sifnos</zValue>
 			<zValue>Euböa</zValue>
 			<zValue>Naxos</zValue>
 			<zValue>Skyros</zValue>
+			<zValue>Skiathos Island</zValue>
+			<zValue>Skopelos Island</zValue>
 			<zValue>Kythnos</zValue>
 			<zValue>Milos</zValue>
+			<zValue>Kea Island</zValue>
+			<zValue>Ios Island</zValue>
+			<zValue>Icaria Island</zValue>
+			<zValue>Salamis Island</zValue>
+			<zValue>Ithaki Island</zValue>
+			<zValue>Zakynthos Island</zValue>
+			<zValue>Thasos Island</zValue>
 		</azIslandNames>
 	</Entry>
 	<Entry>

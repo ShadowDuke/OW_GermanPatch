@@ -95,8 +95,9 @@
 		<bFreeTech comment="The Player will receive a random free Tech"/>
 		<bNoCourtier comment="Character will no longer be a Courtier"/>
 		<bLeaveCouncil comment="Character will no longer be on the Council"/>
-		<bReleaseGovernor comment="If set to 1 (true), the character Subject will be released from being a governor"/>																										
 		<bReleaseGeneral comment="If set to 1 (true), the character Subject will be released from being a general"/>
+		<bReleaseGovernor comment="If set to 1 (true), the character Subject will be released from being a governor"/>
+		<bReleaseAgent comment="If set to 1 (true), the character Subject will be released from being an agent"/>								   
 		<bChangeSuccession comment="If set to 1 (true), the game will automatically attempt to set the Player’s inheritance laws so that the character Subject will become your direct heir. Any law changes made cost no Civics"/>
 		<bAbdicate comment="If set to 1 (true), the character Subject abdicates the throne"/>
 		<bChosenHeir comment="Make this Character the Chosen Heir"/>
@@ -241,8 +242,9 @@
 		<bFreeTech/>
 		<bNoCourtier/>
 		<bLeaveCouncil/>
-		<bReleaseGovernor/>			 
 		<bReleaseGeneral/>
+		<bReleaseGovernor/>
+		<bReleaseAgent/>
 		<bChangeSuccession/>
 		<bAbdicate/>
 		<bChosenHeir/>
@@ -296,16 +298,9 @@
 		<MemoryPlayer>MEMORYPLAYER_HUMAN_DIPLOMACY</MemoryPlayer>
 	</Entry>
 	<Entry>
-		<zType>BONUS_SKIP_SEAT</zType>
-		<zName>link(CONCEPT_FAMILY_SEAT) übersprungen</zName>
-		<iLegitimacy>-10</iLegitimacy>
-	</Entry>
-	<Entry>
-		<zType>BONUS_EVENTOPTION_PLAYER_WAR_OFFER_ENEMY_TRAIT_DIPLOMAT_DEFIED</zType>
-		<aeBonuses>
-			<zValue>BONUS_PLAYER_PEACE</zValue>
-			<zValue>BONUS_TRIBUTE_RECEIVE_MONEY_LARGE</zValue>
-		</aeBonuses>
+		<zType>BONUS_FAMILY_SEAT</zType>
+		<zName>link(CONCEPT_FAMILY_SEAT) gegründet</zName>
+		<iLegitimacy>5</iLegitimacy>
 	</Entry>
 	<Entry>
 		<zType>BONUS_FAMILY_FOUND</zType>
@@ -1795,7 +1790,7 @@
 		</aiGlobalYieldsBase>
 	</Entry>
 	<Entry>
-		<zType>BONUS_TECH_UNIT_TACTICS_BONUS_SOLDIER</zType>
+		<zType>BONUS_TECH_COHORTS_BONUS_SOLDIER</zType>
 		<zName>New link(COURTIER_SOLDIER)</zName>
 		<AddCourtierForce>
 			<Pair>

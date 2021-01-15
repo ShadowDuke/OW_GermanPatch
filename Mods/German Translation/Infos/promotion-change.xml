@@ -216,6 +216,36 @@
 		<bUpgrade>1</bUpgrade>
 	</Entry>
 	<Entry>
+		<zType>PROMOTION_COCKSWAIN</zType>
+		<zName>Wendig</zName>
+		<EffectUnit>EFFECTUNIT_COCKSWAIN</EffectUnit>
+		<bUpgrade>1</bUpgrade>
+	</Entry>
+	<Entry>
+		<zType>PROMOTION_GRAPPLER</zType>
+		<zName>Ringer</zName>
+		<EffectUnit>EFFECTUNIT_GRAPPLER</EffectUnit>
+		<bUpgrade>1</bUpgrade>
+	</Entry>
+	<Entry>
+		<zType>PROMOTION_SEABORN</zType>
+		<zName>Auf See geboren</zName>
+		<EffectUnit>EFFECTUNIT_SEABORN</EffectUnit>
+		<bUpgrade>1</bUpgrade>
+	</Entry>
+	<Entry>
+		<zType>PROMOTION_OVERWHELM</zType>
+		<zName>Überfordert</zName>
+		<EffectUnit>EFFECTUNIT_OVERWHELM</EffectUnit>
+		<bUpgrade>1</bUpgrade>
+	</Entry>
+	<Entry>
+		<zType>PROMOTION_FIRESHIP</zType>
+		<zName>Brander</zName>
+		<EffectUnit>EFFECTUNIT_FIRESHIP</EffectUnit>
+		<bUpgrade>1</bUpgrade>
+	</Entry>
+	<Entry>
 		<zType>PROMOTION_VALOR</zType>
 		<zName>Heldenmut</zName>
 		<EffectUnit>EFFECTUNIT_VALOR</EffectUnit>

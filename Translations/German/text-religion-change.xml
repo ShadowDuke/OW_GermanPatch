@@ -5,6 +5,22 @@
 		<Translation/>
 	</Entry>
 	<Entry>
+		<zType>TEXT_RELIGION_ZOROASTRIANISM</zType>
+		<Translation>Zoroastrismus~Zoroastrier~ein Zoroastrier~Zoroastrier</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELIGION_JUDAISM</zType>
+		<Translation>Judentum~Jude~ein Jüdischer~Juden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELIGION_CHRISTIANITY</zType>
+		<Translation>Christentum~Christ~ein Christ~Christen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELIGION_MANICHAEISM</zType>
+		<Translation>Manichäismus~Manichäer~ein Manichäer~Manichäer</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_RELIGION_PAGAN</zType>
 		<Translation>Heidentum~Heide~ein Heide~Heiden</Translation>
 	</Entry>
@@ -35,22 +51,6 @@
 	<Entry>
 		<zType>TEXT_RELIGION_PAGAN_PERSIA</zType>
 		<Translation>Persisches Heidentum~Persischer Heide~ein Persischer Heide~Persische Heiden</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_RELIGION_ZOROASTRIANISM</zType>
-		<Translation>Zoroastrismus~Zoroastrier~ein Zoroastrier~Zoroastrier</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_RELIGION_JUDAISM</zType>
-		<Translation>Judentum~Jude~ein Jüdischer~Juden</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_RELIGION_CHRISTIANITY</zType>
-		<Translation>Christentum~Christ~ein Christ~Christen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_RELIGION_MANICHAEISM</zType>
-		<Translation>Manichäismus~Manichäer~ein Manichäer~Manichäer</Translation>
 	</Entry>
   <Entry>
 		<zType>TEXT_RELIGION_CUSTOM</zType>

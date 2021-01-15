@@ -9,17 +9,17 @@
 	<Entry>
 		<zType>COOLDOWN_PASS</zType>
 		<zName>Aussetzen</zName>
-		<zIconName>COOLDOWN_PASS</zIconName>
+		<zIconName>STATUS_PASS</zIconName>
 	</Entry>
 	<Entry>
 		<zType>COOLDOWN_SLEEP</zType>
 		<zName>Ausruhen</zName>
-		<zIconName>COOLDOWN_SLEEP</zIconName>
+		<zIconName>STATUS_SLEEP</zIconName>
 	</Entry>
 	<Entry>
 		<zType>COOLDOWN_SENTRY</zType>
 		<zName>Wache</zName>
-		<zIconName>COOLDOWN_SENTRY</zIconName>
+		<zIconName>STATUS_SENTRY</zIconName>
 	</Entry>
 	<Entry>
 		<zType>COOLDOWN_UNLIMBERED</zType>
@@ -29,7 +29,7 @@
 	<Entry>
 		<zType>COOLDOWN_ANCHORED</zType>
 		<zName>Geankert</zName>
-		<zIconName>SPRITE_ANCHOR</zIconName>
+		<zIconName>COOLDOWN_ANCHOR</zIconName>
 	</Entry>
 	<Entry>
 		<zType>COOLDOWN_ROUT</zType>
@@ -54,22 +54,22 @@
 	<Entry>
 		<zType>COOLDOWN_BUILDING</zType>
 		<zName>Bau</zName>
-		<zIconName>SPRITE_BUILD</zIconName>
+		<zIconName>COOLDOWN_BUILD</zIconName>
 	</Entry>
 	<Entry>
 		<zType>COOLDOWN_ADDED_ROAD</zType>
 		<zName>Straße gebaut</zName>
-		<zIconName>SPRITE_BUILD</zIconName>
+		<zIconName>COOLDOWN_BUILD</zIconName>
 	</Entry>
 	<Entry>
 		<zType>COOLDOWN_ADDED_URBAN</zType>
-		<zName>Stadtteil bereits festgelegt</zName>
-		<zIconName>SPRITE_BUILD</zIconName>
+		<zName>Stadtteil festgelegt</zName>
+		<zIconName>COOLDOWN_BUILD</zIconName>
 	</Entry>
 	<Entry>
 		<zType>COOLDOWN_RAISED_IMPROVEMENT</zType>
 		<zName>Verbesserung gesteigert</zName>
-		<zIconName>SPRITE_BUILD</zIconName>
+		<zIconName>COOLDOWN_BUILD</zIconName>
 	</Entry>
 	<Entry>
 		<zType>COOLDOWN_BUY_TILE</zType>
@@ -119,7 +119,7 @@
 	<Entry>
 		<zType>COOLDOWN_REPAIRED</zType>
 		<zName>Repariert</zName>
-		<zIconName>COOLDOWN_REPAIR</zIconName>
+		<zIconName>COOLDOWN_BUILD</zIconName>
 	</Entry>
 	<Entry>
 		<zType>COOLDOWN_UPGRADED</zType>
@@ -138,12 +138,12 @@
 	</Entry>
 	<Entry>
 		<zType>COOLDOWN_DISEMBARKED</zType>
-		<zName>Gesperrt</zName>
-	<zIconName>COOLDOWN_PASS</zIconName>
+		<zName>Gelandet</zName>
+	<zIconName>STATUS_PASS</zIconName>
 	</Entry>
 	<Entry>
 		<zType>COOLDOWN_TRADE</zType>
 		<zName>Handeln</zName>
-		<zIconName>COOLDOWN_PASS</zIconName>
+		<zIconName>STATUS_PASS</zIconName>
 	</Entry>
 </Root>

@@ -154,6 +154,10 @@
 		<Translation>Feldherr:</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_GENERAL_ENEMY_DEFENSE</zType>
+		<English>Feldherr icon(Icon_Defense)</English>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_WATER_VS_LAND</zType>
 		<Translation>Wasser-vs-Land:</Translation>
 	</Entry>
@@ -199,7 +203,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_IMMUNE</zType>
-		<Translation>Geschützt</Translation>
+		<Translation>Immun</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_CITY_ATTACK_PREVIEW_POPULATION</zType>
+		<English>Bevölkerung</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_COOLDOWN_FATIGUED</zType>

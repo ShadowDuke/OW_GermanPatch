@@ -109,6 +109,12 @@
 		<iTurns>20</iTurns>
 	</Entry>
 	<Entry>
+		<zType>MEMORYPLAYER_POACHED_CITY</zType>
+		<zText>Hat eine Stadt erobert die wir angreifen</zText>
+		<iValue>-80</iValue>
+		<iTurns>40</iTurns>
+	</Entry>
+	<Entry>
 		<zType>MEMORYPLAYER_ATTACKED_ENEMY</zType>
 		<zText>Unseren Gegner angegriffen</zText>
 		<iValue>2</iValue>

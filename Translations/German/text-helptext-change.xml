@@ -380,8 +380,8 @@
 		<Translation>Spezialist</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_DISLOYALTY</zType>
-		<Translation>Untreue</Translation>
+		<zType>TEXT_HELPTEXT_LINK_DISCONTENT_FAMILY</zType>
+		<Translation>Unzufrieden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_LARGEST_POPULATION</zType>
@@ -1314,10 +1314,6 @@
 		<Translation>Öffne die Gesetzlichkeiten</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_STORY_RELIGION_SCREEN</zType>
-		<Translation>Öffne Religionen</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_CHARACTER_TRAIT</zType>
 		<Translation>{0_character} Wird {1_trait}</Translation>
 	</Entry>
@@ -1474,8 +1470,8 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Selbe Familie: </Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_SKIP_SEAT_BONUS</zType>
-		<Translation>Familiensitz Gründung übersprungen: </Translation>
+		<zType>TEXT_HELPTEXT_WIDGET_FAMILY_SEAT_BONUS</zType>
+		<Translation>Gründe link(CONCEPT_FAMILY_SEAT): {LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_FOUND_CITY_MAX_FAMILIES</zType>
@@ -1948,6 +1944,10 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>{0_yield}: Verteidigende Militär-Einheiten</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_MISSING_FAMILY</zType>
+		<Translation>{0_yield}: Nicht genügend link(CONCEPT_FAMILY_SEAT,1)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_URBAN_TILE</zType>
 		<Translation>{0_yield}: Benötigt mehr {1_urbanLink} Felder</Translation>
 	</Entry>
@@ -2063,8 +2063,8 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<Translation>Ihr könnt ohne Beschränkungen angreifen.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_DISLOYALTY</zType>
-		<Translation>Untreue ist die jährliche meinung geändert von {0_discontentIcon} Stufe.</Translation>
+		<zType>TEXT_HELPTEXT_LINK_HELP_DISCONTENT_FAMILY</zType>
+		<Translation>Meinungsänderung von {0_discontentIcon} Stufen von Familien Städten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_ENVY</zType>
@@ -2073,6 +2073,10 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_SEAT</zType>
 		<Translation>The first City given to this Family.</Translation>
+	</Entry>
+	<Entry>
+    <zType>TEXT_HELPTEXT_LINK_HELP_FAMILY</zType>
+		<Translation>Families are the leading clans of your empire, with different dispositions and conflicting interests. They are granted control of your Cities, for which their particular bonuses are important to consider. Their preferences control what link(CONCEPT_AMBITION,1) you can pursue, and their opinions of you can lead to different events.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_FROM_GENERAL</zType>
@@ -2118,9 +2122,25 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
 		<zType>TEXT_HELPTEXT_LINK_HELP_HARVEST_RESOURCE</zType>
 		<Translation><![CDATA[Kann eine Ressource ernten für einen schnellen Vorrat von Gütern.<br>Die Ressource kann nicht nocht einmal geernten werden bis sie zufällig neu erscheint.]]></Translation>
 	</Entry>
+  <Entry>
+    <zType>TEXT_HELPTEXT_LINK_HELP_MARCH</zType>
+    <Translation><![CDATA[A Forced March permits a Unit to continue moving this turn when out of Moves, at the cost of int(UNIT_MARCH_COST) Training, and twice as many Orders per additional Move.]]></Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_HELPTEXT_LINK_HELP_FATIGUE</zType>
+    <Translation><![CDATA[A Unit becomes Fatigued after using all of its moves. A Fatgiued Unit will refresh its moves the next turn. Once Fatigued, a Unit can only move again this turn through a Forced March.]]></Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_HELPTEXT_LINK_HELP_AMBITIONS</zType>
+    <Translation><![CDATA[Ambitions are goals for you to pursue, and completing them will grant you a permanent boost to link(CONCEPT_LEGITIMACY). Complete ten Ambitions, and you win the game!]]></Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_HELPTEXT_HELP_TRIBE</zType>
+    <Translation><![CDATA[Tribes can engage in limited diplomacy, but generally won't be coordinated the way opposing nations are.]]></Translation>
+  </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_HEIGHT_BUILD</zType>
-		<Translation>{0} Errichtungsdauer</Translation>
+		<Translation>{0} Gebaut {1_turnScale}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_HEIGHT_ADJACENT</zType>
@@ -2145,6 +2165,14 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Ein link(CONCEPT_GOVERNOR) kann die Erträge einer Stadt verbessern.
 (Benötigt eine link(IMPROVEMENT_GARRISON_1).)</Translation>
 	</Entry>
+  <Entry>
+    <zType>TEXT_HELPTEXT_LINK_HELP_COUNCILOR</zType>
+    <Translation>A link(CONCEPT_COUNCILOR) can fill the role of link(COUNCIL_CHANCELLOR), link(COUNCIL_AMBASSADOR), or link(COUNCIL_SPYMASTER)</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_HELPTEXT_LINK_HELP_SPECIALIST</zType>
+    <Translation>link(CONCEPT_SPECIALIST,0) can boost the yields of link(CONCEPT_IMPROVEMENT,1) at the cost of link(YIELD_CIVICS).</Translation>
+  </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_IDLE</zType>
 		<Translation>link(CONCEPT_IDLE) Einheiten können sich bewegt haben aber dürfen keinen Cooldown haben. (Sngreifen, Beförderung, Verbesserung, etc.)</Translation>
@@ -2165,6 +2193,14 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LEGITIMACY_OPINIONS</zType>
 		<Translation>{0_value}: Familien Meinung</Translation>
 	</Entry>
+  <Entry>
+    <zType>TEXT_HELPTEXT_LINK_HELP_STATE_RELIGION</zType>
+    <Translation>A State Religion provides Culture and Happiness bonuses, and enables the recruitment of link(CONCEPT_DISCIPLE,1) in your Cities of that religion. However, Cities of a different Religion will suffer Discontent.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_HELPTEXT_LINK_HELP_COGNOMEN</zType>
+    <Translation>A Cognomen can increase the Legitimacyicon(YIELD_LEGITIMACY) of your Leader</Translation>
+  </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LOCATION</zType>
 		<Translation>Klicken zum anschauen von...</Translation>
@@ -2210,12 +2246,24 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Verbessere eine Verbesserung auf die nächste Stufe (zum Beispiel, link(IMPROVEMENT_THEATER_1) zu link(IMPROVEMENT_THEATER_2)).</Translation>
 	</Entry>
 	<Entry>
+    <zType>TEXT_HELPTEXT_LINK_HELP_IMPROVEMENT</zType>
+    <Translation>link(UNIT_WORKER,2) can build link(CONCEPT_URBAN) and Rural link(CONCEPT_IMPROVEMENT,2) for your Cities on available Tiles.</Translation>
+  </Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_RANGE</zType>
-		<Translation>Reichweite für Fernangriffe</Translation>
+		<Translation>Reichweite für link(UNITTRAIT_RANGED) Angriffe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_REBEL</zType>
-		<Translation>Eine Rebelleneinheit wird auftauchen und deine Einheiten und Städte angreifen.</Translation>
+		<Translation>Eine link(CONCEPT_REBEL) Einheit wird auftauchen und deine Einheiten und Städte angreifen.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_DESIRED_AMBITION</zType>
+		<Translation>A Character's Desired Ambition will become a new National link(CONCEPT_AMBITION) if s/he becomes Leader.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_DISCIPLE</zType>
+		<Translation>A link(CONCEPT_DISCIPLE) can spread your link(CONCEPT_STATE_RELIGION) and purge other Religions from your Cities.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_RELIGION_CITIES_US</zType>
@@ -2356,6 +2404,14 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_URBAN_CITIZEN</zType>
 		<Translation>Jedes link(CONCEPT_URBAN) Feld ernährt {0_value} {1_citizen}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_URBAN_ATTACK_MODIFIER</zType>
+		<Translation>{0_trait} Angreifen: {1}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_URBAN_DEFENSE_MODIFIER</zType>
+		<Translation>{0_trait} Verteidigen: {1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_VEGETATION_DEFEND</zType>
@@ -3582,6 +3638,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>[Alle Einheiten] {LIST}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_TRAIT_UNITS_EFFECT</zType>
+		<Translation>[{0_trait} Einheiten] {LIST}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_START_BONUS</zType>
 		<Translation>Beim Spielstart: {0}</Translation>
 	</Entry>
@@ -4203,20 +4263,28 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Ergreift die Thron von {0_player}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BONUS_LEAVE_CITY</zType>
-		<Translation>Beende Statthalterschaft von {0_city}</Translation>
+		<zType>TEXT_HELPTEXT_BONUS_RELEASE_GENERAL</zType>
+		<Translation>Verlasse {0_unit}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BONUS_LEAVE_CITY_GENERIC</zType>
-		<Translation>Beende Statthalterschaft</Translation>
+		<zType>TEXT_HELPTEXT_BONUS_RELEASE_GENERAL_GENERIC</zType>
+		<Translation>Verlasse Einheit</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BONUS_LEAVE_UNIT</zType>
-		<Translation>Entlässt {0_unit}</Translation>
+		<zType>TEXT_HELPTEXT_BONUS_RELEASE_GOVERNOR</zType>
+		<Translation>Beende Stadthalterschaft von {0_city}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BONUS_LEAVE_UNIT_GENERIC</zType>
-		<Translation>Entlässt Einheit</Translation>
+		<zType>TEXT_HELPTEXT_BONUS_RELEASE_GOVERNOR_GENERIC</zType>
+		<Translation>Beende Stadthalterschaft</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_RELEASE_AGENT</zType>
+		<Translation>Leave role of link(CONCEPT_AGENT) in {0_city}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_RELEASE_AGENT_GENERIC</zType>
+		<Translation>Leave role of link(CONCEPT_AGENT)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_CHANGE_SUCCESSION_GENERIC</zType>
@@ -4624,6 +4692,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>{0_opinion}: Unsere Luxusgüter</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_OPINION_RELIGION</zType>
+		<Translation>{0_opinion}: Unsere Religion ({1_religion})</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_PEACE</zType>
 		<Translation>{0_opinion}: Lang andauernder {1_peace}</Translation>
 	</Entry>
@@ -4800,6 +4872,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILY_OUR_LAWS</zType>
 		<Translation><![CDATA[{0_value}: Unsere Gesetze<true_1> ({1_lawlist})<false><end>]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_FAMILY_STATE_RELIGION</zType>
+		<Translation>{0_value}: Unsere Religion ({1_religionLink})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILY_STATE_THEOLOGY</zType>

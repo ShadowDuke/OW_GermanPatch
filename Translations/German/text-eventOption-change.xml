@@ -342,22 +342,6 @@
 		<Translation><![CDATA[Der Gerichtshof wird die Gesetze auswählen.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_RELIGION_YES</zType>
-		<Translation><![CDATA[Wir werden {RELIGION-1} übernehmen.]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_RELIGION_NO</zType>
-		<Translation><![CDATA[Wir werden das nicht jetzt entscheiden.]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_RELIGION_NO_HELP</zType>
-		<Translation><![CDATA[Die alten Sitten sollen andauern.]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_RELIGION_SCREEN</zType>
-		<Translation><![CDATA[Der Hof wird alle Religionen berücksichtigen.]]></Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_PHILOSOPHY</zType>
 		<Translation><![CDATA[<masculine_CHARACTER-0>Er<feminine>Sie<end> wird Philosophie lernen.]]></Translation>
 	</Entry>

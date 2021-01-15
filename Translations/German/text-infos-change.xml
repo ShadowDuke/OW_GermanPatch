@@ -61,7 +61,7 @@
 		<Translation>Spieler Bündnis</Translation>
 	</Entry>
     <Entry>
-        <zType>TEXT_CONCEPT_UNIT_ANCHOR</zType>
+        <zType>TEXT_CONCEPT_ANCHOR</zType>
         <Translation>Ankern</Translation>
     </Entry>
 	<Entry>
@@ -1221,8 +1221,8 @@
 		<Translation>Discover Hydraulics and Chain Drive</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_UNIT_TACTICS_MARTIAL_CODE</zType>
-		<Translation>Discover Unit Tactics and Martial Code</Translation>
+		<zType>TEXT_GOAL_COHORTS_MARTIAL_CODE</zType>
+		<Translation>Discover Cohorts and Martial Code</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_BODKIN_ARROW_BALLISTICS</zType>
@@ -1233,8 +1233,8 @@
 		<Translation>Discover Windlass and Lateen Sail</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_BARDING_SARISSA</zType>
-		<Translation>Discover Barding and Sarissa</Translation>
+		<zType>TEXT_GOAL_BARDING_INFANTRY_SQUARE</zType>
+		<Translation>Discover Barding and Infantry Square</Translation>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_GOAL_5_KILLS</zType>
@@ -1793,12 +1793,12 @@
 		<Translation>Wölbung</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TECH_UNIT_TACTICS</zType>
-		<Translation>Militärtaktiken</Translation>
+		<zType>TEXT_TECH_COHORTS</zType>
+		<Translation>Kohorten</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TECH_UNIT_TACTICS_BONUS_SOLDIER</zType>
-		<Translation>Freier großer Krieger</Translation>
+		<zType>TEXT_TECH_COHORTS_BONUS_SOLDIER</zType>
+		<Translation>Freier Hof Krieger</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_WINDLASS</zType>
@@ -1825,8 +1825,8 @@
 		<Translation>Rossharnische</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TECH_SARISSA</zType>
-		<Translation>Sarissa</Translation>
+		<zType>TEXT_TECH_INFANTRY_SQUARE</zType>
+		<Translation>Karree</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_FISCAL_POLICY</zType>

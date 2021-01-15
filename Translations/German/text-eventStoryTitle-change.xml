@@ -5270,10 +5270,6 @@
 		<Translation>Fiscal Policy</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_RELIGION_FOUNDED_TITLE</zType>
-		<Translation>{RELIGION-1}?</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTSTORY_CEREMONIAL_OFFERING_TITLE</zType>
 		<Translation>Ceremonial Offering</Translation>
 	</Entry>
@@ -5836,14 +5832,6 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TECH_WINDLASS_ACCIDENTS_HAPPEN_TITLE</zType>
 		<Translation>Accidents Happen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_TECH_SARISSA_COMPANION_CAVALRY_TITLE</zType>
-		<Translation>Protect the Flanks</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_TECH_SARISSA_FOOLISH_DISPLAY_TITLE</zType>
-		<Translation>Foolish Display</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TECH_BARDING_NOBLE_EXCESS_TITLE</zType>
