@@ -323,20 +323,20 @@
 		<Translation>Geistreich</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_STUDY_TACTICS</zType>
-		<Translation>Schüler der Taktik</Translation>
+		<zType>TEXT_TRAIT_STUDY_PHILOSOPHY</zType>
+		<Translation>Schüler der Philosophie</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_STUDY_RHETORIC</zType>
 		<Translation>Schüler der Redekunst</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_STUDY_COMMERCE</zType>
-		<Translation>Schüler des Kaufmanns</Translation>
+		<zType>TEXT_TRAIT_STUDY_TACTICS</zType>
+		<Translation>Schüler der Taktik</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_STUDY_PHILOSOPHY</zType>
-		<Translation>Schüler der Philosophie</Translation>
+		<zType>TEXT_TRAIT_STUDY_COMMERCE</zType>
+		<Translation>Schüler des Kaufmanns</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BLESSED</zType>

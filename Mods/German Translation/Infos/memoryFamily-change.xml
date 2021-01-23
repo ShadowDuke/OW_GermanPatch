@@ -85,6 +85,11 @@
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
+		<zType>MEMORYFAMILY_MARRIAGE_OTHER</zType>
+		<zText>In eine andere Familie geheiratet</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
 		<zType>MEMORYFAMILY_ASSASSINATION_EXPOSED</zType>
 		<zText>Attentat aufgeflogen</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
@@ -1371,16 +1376,6 @@
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYFAMILY_REFUSED_TO_CHANGE_LAW</zType>
-		<zText>Refused to change law</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
-	</Entry>
-	<Entry>
-		<zType>MEMORYFAMILY_REFUSED_TO_CHANGE_LAW_SMALL</zType>
-		<zText>Refused to change law</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
-	</Entry>
-	<Entry>
 		<zType>MEMORYFAMILY_REFUSED_RUMORS</zType>
 		<zText>Refused to heed rumors</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
@@ -1389,6 +1384,11 @@
 		<zType>MEMORYFAMILY_ACCUSED_OF_MURDER</zType>
 		<zText>Accused us of plotting murder</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_THE_LUTE_PLAYER</zType>
+		<zText>Unser Beileid ausgesprochen</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_IMPRISONED_SPYMASTER</zType>
@@ -1439,6 +1439,11 @@
 		<zType>MEMORYFAMILY_IMPRISONED_MEMBER</zType>
 		<zText>Familienmitglied eingekerkert</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_IMPRESSED_IN_COURT</zType>
+		<zText>Uns im Hofstaat beeindruckt</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry beginGroup="Community">
     <zType>MEMORYFAMILY_WATCHED_BABY_LEADER_CRY</zType>

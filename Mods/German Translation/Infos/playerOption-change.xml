@@ -19,12 +19,6 @@
 		<zDesc>Der Support der Aufzeichnung der Wiederholung benötigt eine große Menge verfügbaren Arbeitsspeicher.</zDesc>
 	</Entry>
 	<Entry>
-		<zType>PLAYEROPTION_ROLE_PLAYING</zType>
-		<zName>Rollenspiel</zName>
-		<zDesc>Keine popup Hilfe wenn Entscheidungen für die Ereignisse gefällt werden</zDesc>
-		<bGameplay>1</bGameplay>
-	</Entry>
-	<Entry>
 		<zType>PLAYEROPTION_ALL_CANDIDATES</zType>
 		<zName>Alle Beschäftigungskandidaten</zName>
 		<zDesc>Liste Hofrat, Stadthalter und Feldherr Kandidaten welche bereits beschäftigt sind</zDesc>

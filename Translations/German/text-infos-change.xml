@@ -57,6 +57,10 @@
 		<Translation>Barbaren Bündnis</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CONCEPT_TRIBE</zType>
+		<Translation>Stamm~Stämme</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CONCEPT_ALLIANCE_PLAYER</zType>
 		<Translation>Spieler Bündnis</Translation>
 	</Entry>
@@ -69,8 +73,8 @@
 		<Translation>Felder kaufen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_CONCEPT_CULTURE_EVENT</zType>
-		<Translation>Kulturereignis</Translation>
+		<zType>TEXT_CONCEPT_CARAVAN_MISSION</zType>
+		<Translation>Karawanen Mission</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_CLEAR</zType>
@@ -83,6 +87,10 @@
 	<Entry>
 		<zType>TEXT_CONCEPT_CULTURE_EVENT</zType>
 		<Translation>Kultur Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_DESIRED_AMBITION</zType>
+		<Translation>Begehrte Ambition</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_DISTANCE_MODIFIER</zType>
@@ -893,6 +901,14 @@
 		<Translation>Kontrolliere vier Zitadellen</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GOAL_LEGENDARY_IMPROVEMENTS_1</zType>
+		<Translation>Baue link(IMPROVEMENT_THEATER_3), link(IMPROVEMENT_BATHS_3), und link(IMPROVEMENT_MARKET_3)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_LEGENDARY_IMPROVEMENTS_2</zType>
+		<Translation>Baue link(IMPROVEMENT_LIBRARY_3), und link(IMPROVEMENT_COURTHOUSE_3), und link(IMPROVEMENT_GARRISON_3)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GOAL_EIGHT_SHRINES</zType>
 		<Translation>Kontrolliere acht Schreine</Translation>
 	</Entry>
@@ -927,10 +943,6 @@
 	<Entry>
 		<zType>TEXT_GOAL_EIGHT_REPAIRED</zType>
 		<Translation>Repariere acht Verbesserungen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_LEGENDARY_IMPROVEMENTS</zType>
-		<Translation>Baue Kolosseum, Jahrmarkt, Universität und Schloss</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_PYRAMIDS</zType>

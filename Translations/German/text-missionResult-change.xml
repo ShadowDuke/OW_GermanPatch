@@ -22,8 +22,16 @@
 		<Translation>You have rallied the military, resulting in higher morale and discipline.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_RALLY_TROOPS_EVENT_DESCRIPTION</zType>
+		<Translation>The Rally Troops Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_INFLUENCE_DESCRIPTION</zType>
 		<Translation>You have successfully exerted your influence upon {CHARACTER-TARGET}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_INFLUENCE_EVENT_DESCRIPTION</zType>
+		<Translation>The Influence Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INFILTRATE_REVEAL_DESCRIPTION</zType>
@@ -34,6 +42,10 @@
 		<Translation>{CHARACTER-SUBJECT} has successfully infiltrated your rival's territory but was exposed in the process.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_INFILTRATE_EVENT_DESCRIPTION</zType>
+		<Translation>The Infiltrate Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_SLANDER_SUCCESS_DESCRIPTION</zType>
 		<Translation>{CHARACTER-SUBJECT} hat erfolgreich deinen Rivalen beleidigt.</Translation>
 	</Entry>
@@ -42,12 +54,20 @@
 		<Translation>{CHARACTER-SUBJECT} has successfully slandered your rival but was exposed in the process.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_SLANDER_EVENT_DESCRIPTION</zType>
+		<Translation>The Slander Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_STEAL_RESEARCH_SUCCESS_DESCRIPTION</zType>
 		<Translation>{CHARACTER-SUBJECT} has successfully stolen research from your rival.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_STEAL_RESEARCH_SUCCESS_EXPOSED_DESCRIPTION</zType>
 		<Translation>{CHARACTER-SUBJECT} has successfully stolen research from your rival but was exposed in the process.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_STEAL_RESEARCH_EVENT_DESCRIPTION</zType>
+		<Translation>The Steal Research Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_ASSASSINATE_KILL_DESCRIPTION</zType>
@@ -62,12 +82,20 @@
 		<Translation>Deine Attentäter haben versagt {CHARACTER-TARGET} zu töten. Schlimmer jedoch, dein ist unehrenhafte Verschwörung aufgeflogen.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_ASSASSINATE_EVENT_DESCRIPTION</zType>
+		<Translation>The Assassinate Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_TREACHERY_SUCCESS_DESCRIPTION</zType>
 		<Translation>{CHARACTER-SUBJECT} hat erfolgreich die Verteidigungen der Stadt geschwächt.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TREACHERY_FAILURE_DESCRIPTION</zType>
 		<Translation>{CHARACTER-SUBJECT} Bemühungen die Verteidigungen der Stadt zu schwächen ist fehlgeschlagen.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_TREACHERY_EVENT_DESCRIPTION</zType>
+		<Translation>The Treachery Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INSURRECTION_SUCCESS_DESCRIPTION</zType>
@@ -78,6 +106,10 @@
 		<Translation>{CHARACTER-SUBJECT} has failed to start a local uprising.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_INSURRECTION_EVENT_DESCRIPTION</zType>
+		<Translation>The Insurrection Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_FAMILY_GIFT_SUCCESS_DESCRIPTION</zType>
 		<Translation>Deine Vasallen Familie schätzt die Geschenke die dein Kanzler {CHARACTER-SUBJECT} ihnen gebracht hat.</Translation>
 	</Entry>
@@ -86,12 +118,20 @@
 		<Translation>Deine Vasallen Familie schätzt die Geschenke die dein Kanzler {CHARACTER-SUBJECT} brachte, jedoch betrachten deine Untertaten diese Begünstigung als Schwäche.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_FAMILY_GIFT_EVENT_DESCRIPTION</zType>
+		<Translation>The Family Gift Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_PACIFY_CITY_SUCCESS_DESCRIPTION</zType>
 		<Translation>{CHARACTER-SUBJECT} has listened to the grievances of the city's rulers and has reduced link(YIELD_DISCONTENT).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PACIFY_CITY_SUCCESS_WEAKEN_DESCRIPTION</zType>
 		<Translation>{CHARACTER-SUBJECT} has listened to the grievances of the city's rulers and has reduced link(YIELD_DISCONTENT), but this pandering has weakened your reputation.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_PACIFY_CITY_EVENT_DESCRIPTION</zType>
+		<Translation>The Pacify City Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_IMPRISON_JUST_DESCRIPTION</zType>
@@ -104,6 +144,10 @@
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_IMPRISON_ESCAPE_DESCRIPTION</zType>
 		<Translation>{CHARACTER-TARGET} ist der Verhaftung entflohen und ist nun auf der Flucht!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_IMPRISON_EVENT_DESCRIPTION</zType>
+		<Translation>The Imprison Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_RELEASE_GRATEFUL_DESCRIPTION</zType>
@@ -142,6 +186,10 @@
 		<Translation>Nach einem bisschen Überzeugungsarbeit, hat {CHARACTER-SUBJECT} einer gemeinsamen Heiratsübereinstimmung zugestimmt.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_DIVORCE_EVENT_DESCRIPTION</zType>
+		<Translation>The Divorce Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_TUTOR_WISDOM_DESCRIPTION</zType>
 		<Translation><![CDATA[{CHARACTER-SUBJECT} hat {CHARACTER-TARGET} unterrichtet, verbessert <masculine_CHARACTER-TARGET>seine<feminine>ihre<end> link(RATING_WISDOM)!]]></Translation>
 	</Entry>
@@ -158,7 +206,7 @@
 		<Translation><![CDATA[{CHARACTER-SUBJECT} hat (CHARACTER-TARGET} unterrichtet, verbessert <masculine_CHARACTER-TARGET>seine<feminine>ihre<end> link(RATING_DISCIPLINE)!]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSIONRESULT_EVENT_DESCRIPTION</zType>
+		<zType>TEXT_MISSIONRESULT_TUTOR_EVENT_DESCRIPTION</zType>
 		<Translation>Die Mission von {CHARACTER-SUBJECT} führte zu einem Ereignis...</Translation>
 	</Entry>
 	<!--Result Name-->
@@ -176,7 +224,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TEAM_ALLIANCE_EVENT</zType>
-		<Translation>Bündnis Ereignis</Translation>
+		<Translation>link(CONCEPT_ALLIANCE_PLAYER) Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TEAM_ALLIANCE_HUMAN_EVENT</zType>

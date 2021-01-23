@@ -17,7 +17,7 @@
 	<Entry>
 		<zType>CULTURE_WEAK</zType>
 		<zName>Schwach</zName>
-		<zIconName>CultureIcon0</zIconName>
+		<zIconName>CULTURE_WEAK</zIconName>
 		<iThreshold>100</iThreshold>
 		<iVP>1</iVP>	  
 		<iXP>2</iXP>	  
@@ -27,7 +27,7 @@
 	<Entry>
 		<zType>CULTURE_DEVELOPING</zType>
 		<zName>Entfaltet</zName>
-		<zIconName>CultureIcon1</zIconName>							 
+		<zIconName>CULTURE_DEVELOPING</zIconName>							 
 		<iThreshold>500</iThreshold>
 		<iVP>2</iVP>	  
 		<iXP>4</iXP>
@@ -40,7 +40,7 @@
 	<Entry>
 		<zType>CULTURE_STRONG</zType>
 		<zName>Solide</zName>
-		<zIconName>CultureIcon2</zIconName>							 
+		<zIconName>CULTURE_STRONG</zIconName>							 
 		<iThreshold>2000</iThreshold>
 		<iVP>3</iVP>	  
 		<iXP>6</iXP>
@@ -53,7 +53,7 @@
 	<Entry>
 		<zType>CULTURE_LEGENDARY</zType>
 		<zName>Sagenumwoben</zName>
-		<zIconName>CultureIcon3</zIconName>
+		<zIconName>CULTURE_LEGENDARY</zIconName>
 		<iThreshold>5000</iThreshold>
 		<iVP>4</iVP>
 		<iXP>8</iXP>

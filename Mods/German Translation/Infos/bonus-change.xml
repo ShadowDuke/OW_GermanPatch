@@ -337,8 +337,18 @@
 		<iLegitimacy>10</iLegitimacy>
 	</Entry>
 	<Entry>
+		<zType>BONUS_FINISHED_HOLY_SITE</zType>
+		<zName>Eine heilige Stätte gebaut</zName>
+		<iLegitimacy>2</iLegitimacy>
+	</Entry>
+	<Entry>
 		<zType>BONUS_FINISHED_WONDER</zType>
 		<zName>Ein Wunder gebaut</zName>
+		<iLegitimacy>2</iLegitimacy>
+	</Entry>
+	<Entry>
+		<zType>BONUS_INSPIRED_BY_WONDER</zType>
+		<zName>Begeistert von einem Wunder</zName>
 		<iLegitimacy>2</iLegitimacy>
 	</Entry>
 	<Entry>
@@ -359,7 +369,10 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_PURGE_RELIGION</zType>
-		<iDiscontentLevels>1</iDiscontentLevels>
+		<MemoryReligion>MEMORYRELIGION_PURGE_RELIGION</MemoryReligion>
+		<aeBonuses>
+			<zValue>BONUS_DISCONTENT_GAIN_TINY</zValue>
+		</aeBonuses>
 	</Entry>
 	<Entry>
 		<zType>BONUS_START_LAW</zType>
@@ -1673,7 +1686,7 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TECH_SCHOLARSHIP_BONUS_SCIENTIST</zType>
-		<zName>New link(COURTIER_SCIENTIST)</zName>
+		<zName>Neuer link(COURTIER_SCIENTIST)</zName>
 		<AddCourtierForce>
 			<Pair>
 				<zIndex>COURTIER_SCIENTIST</zIndex>
@@ -1771,7 +1784,7 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TECH_HYDRAULICS_BONUS_MERCHANT</zType>
-		<zName>New link(COURTIER_MERCHANT)</zName>
+		<zName>Neuer link(COURTIER_MERCHANT)</zName>
 		<AddCourtierForce>
 			<Pair>
 				<zIndex>COURTIER_MERCHANT</zIndex>
@@ -1791,7 +1804,7 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_TECH_COHORTS_BONUS_SOLDIER</zType>
-		<zName>New link(COURTIER_SOLDIER)</zName>
+		<zName>Neuer link(COURTIER_SOLDIER)</zName>
 		<AddCourtierForce>
 			<Pair>
 				<zIndex>COURTIER_SOLDIER</zIndex>
@@ -6235,6 +6248,10 @@
 		<AddLeaderRelationship>RELATIONSHIP_ENDEARED_TO</AddLeaderRelationship>
 	</Entry>
 	<Entry>
+		<zType>BONUS_LEADER_TERRIFIED_OF</zType>
+		<AddLeaderRelationship>RELATIONSHIP_TERRIFIED_OF</AddLeaderRelationship>
+	</Entry>
+	<Entry>
 		<zType>BONUS_LEADER_OBLIGED_TO</zType>
 		<AddLeaderRelationship>RELATIONSHIP_OBLIGED_TO</AddLeaderRelationship>
 	</Entry>
@@ -6285,6 +6302,10 @@
 	<Entry>
 		<zType>BONUS_LEADER_ENDEARED_TO_REMOVE</zType>
 		<RemoveLeaderRelationship>RELATIONSHIP_ENDEARED_TO</RemoveLeaderRelationship>
+	</Entry>
+	<Entry>
+		<zType>BONUS_LEADER_TERRIFIED_OF_REMOVE</zType>
+		<RemoveLeaderRelationship>RELATIONSHIP_TERRIFIED_OF</RemoveLeaderRelationship>
 	</Entry>
 	<Entry>
 		<zType>BONUS_LEADER_OBLIGED_TO_REMOVE</zType>
@@ -7079,5 +7100,17 @@
 	<Entry>
 		<zType>BONUS_FAMILY_LIED</zType>
 		<MemoryFamily>MEMORYFAMILY_LIED</MemoryFamily>
+	</Entry>
+	<Entry>
+		<zType>BONUS_SUPPORTED_FAITH_YES</zType>
+		<MemoryReligion>MEMORYRELIGION_SUPPORTED_FAITH</MemoryReligion>
+	</Entry>
+	<Entry>
+		<zType>BONUS_SUPPORTED_FAITH_NO</zType>
+		<MemoryReligion>MEMORYRELIGION_REFUSED_SUPPORT</MemoryReligion>
+	</Entry>
+	<Entry>
+		<zType>BONUS_RELEASE_AGENT</zType>
+		<bReleaseAgent>1</bReleaseAgent>
 	</Entry>
 </Root>

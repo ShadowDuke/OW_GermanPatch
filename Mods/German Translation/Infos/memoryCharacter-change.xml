@@ -10,6 +10,11 @@
 		<bName comment="Show the name for event options."/>
 	</Entry>
 	<Entry>
+		<zType>MEMORYCHARACTER_IMPRISONED_RECENTLY</zType>
+		<zText>Vor kurzem link(TRAIT_IMPRISONED)</zText>
+		<iTurns>4</iTurns>
+	</Entry>
+	<Entry>
 		<zType>MEMORYCHARACTER_INFLUENCE</zType>
 		<zText>Remembers your influence</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
@@ -681,11 +686,6 @@
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYCHARACTER_TAUGHT_FRUGALITY</zType>
-		<zText>Taught me to be frugal</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
-	</Entry>
-	<Entry>
 		<zType>MEMORYCHARACTER_SPOUSE_NO_ABDICATE</zType>
 		<zText>Spouse would not step down</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
@@ -1062,6 +1062,11 @@
 		<zText>Influenced by a foreign spy</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>	 
+	<Entry>
+		<zType>MEMORYCHARACTER_REFUSED_FAITH_SPONSORING</zType>
+		<zText>Stopped me from sponsoring worship</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
 	<Entry beginGroup="Diplomacy">
 		<zType>MEMORYCHARACTER_GAVE_TECH</zType>
 		<zText>Shared technology with me</zText>
@@ -1136,5 +1141,10 @@
 		<zType>MEMORYCHARACTER_DAY_OF_DUPES_NEG</zType>
 		<zText>Sided against us in a power struggle</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_FOREVER</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_DENOUNCED_FINDINGS</zType>
+		<zText>Denounced my findings</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 </Root>

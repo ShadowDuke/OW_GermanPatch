@@ -69,6 +69,11 @@
 		<zHelp>Weise die Gruppe jeder Familie zufällig zu (Weisen, Handwerker, Wettkämpfer, etc).</zHelp>
 	</Entry>
 	<Entry>
+		<zType>GAMEOPTION_ROLE_PLAYING</zType>
+		<zName>Rollenspiel</zName>
+		<zHelp>Keine popup Hilfe wenn erzählersiche Entscheidungen für Eriegnisse getroffen werden</zHelp>
+	</Entry>
+	<Entry>
 		<zType>GAMEOPTION_ONE_CITY_CHALLENGE</zType>
 		<zName>Eine Stadt Herausforderung</zName>
 		<zHelp>Weil ihr Dummköpfe euch einfach nicht helfen lasst.</zHelp>

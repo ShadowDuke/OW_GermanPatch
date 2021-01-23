@@ -38,6 +38,18 @@
 		</aeInvalidateRelationship>
 	</Entry>
 	<Entry>
+		<zType>RELATIONSHIP_TERRIFIED_OF</zType>
+		<zName>Verängstigt von</zName>
+		<iOpinion>120</iOpinion>
+		<iMinAgeUs>10</iMinAgeUs>
+		<iMinAgeThem>15</iMinAgeThem>
+		<aeInvalidateRelationship>
+			<zValue>RELATIONSHIP_IN_LOVE_WITH</zValue>
+			<zValue>RELATIONSHIP_ENDEARED_TO</zValue>
+			<zValue>RELATIONSHIP_OBLIGED_TO</zValue>
+		</aeInvalidateRelationship>
+	</Entry>
+	<Entry>
 		<zType>RELATIONSHIP_ENDEARED_TO</zType>
 		<zName>Geschmeichelt von</zName>
 		<iOpinion>80</iOpinion>

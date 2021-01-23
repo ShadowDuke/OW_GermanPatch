@@ -3,25 +3,25 @@
 <Root>
 	<Entry>
 		<zType/>
-		<zName/>
+		<Name/>
 		<bUrban/>
 		<aeResourceCityEffect/>				 
 	</Entry>
 	<Entry>
 		<zType>SPECIALISTCLASS_FARMER</zType>
-		<zName>Farmer</zName>
+		<Name>TEXT_SPECIALISTCLASS_FARMER</Name>
 	</Entry>
 	<Entry>
 		<zType>SPECIALISTCLASS_WOODCUTTER</zType>
-		<zName>Holzfäller</zName>
+		<Name>TEXT_SPECIALISTCLASS_WOODCUTTER</Name>
 	</Entry>
 	<Entry>
 		<zType>SPECIALISTCLASS_STONECUTTER</zType>
-		<zName>Steinmetz</zName>
+		<Name>TEXT_SPECIALISTCLASS_STONECUTTER</Name>
 	</Entry>
 	<Entry>
 		<zType>SPECIALISTCLASS_MINER</zType>
-		<zName>Bergarbeiter</zName>
+		<Name>TEXT_SPECIALISTCLASS_MINER</Name>
 		<aeResourceCityEffect>
 			<Pair>
 				<zIndex>RESOURCE_SALT</zIndex>
@@ -35,11 +35,11 @@
 	</Entry>
 	<Entry>
 		<zType>SPECIALISTCLASS_RANCHER</zType>
-		<zName>Viehzüchter</zName>
+		<Name>TEXT_SPECIALISTCLASS_RANCHER</Name>
 	</Entry>
 	<Entry>
 		<zType>SPECIALISTCLASS_TRAPPER</zType>
-		<zName>Pelzjäger</zName>
+		<Name>TEXT_SPECIALISTCLASS_TRAPPER</Name>
 		<aeResourceCityEffect>
 			<Pair>
 				<zIndex>RESOURCE_FUR</zIndex>
@@ -49,7 +49,7 @@
 	</Entry>
 	<Entry>
 		<zType>SPECIALISTCLASS_GARDENER</zType>
-		<zName>Gärtner</zName>
+		<Name>TEXT_SPECIALISTCLASS_GARDENER</Name>
 		<aeResourceCityEffect>
 			<Pair>
 				<zIndex>RESOURCE_HONEY</zIndex>
@@ -75,7 +75,7 @@
 	</Entry>
 	<Entry>
 		<zType>SPECIALISTCLASS_FISHER</zType>
-		<zName>Fischer</zName>
+		<Name>TEXT_SPECIALISTCLASS_FISHER</Name>
 		<aeResourceCityEffect>
 			<Pair>
 				<zIndex>RESOURCE_DYE</zIndex>
@@ -88,53 +88,53 @@
 		</aeResourceCityEffect>
 	</Entry>
 	<Entry>
-		<zType>SPECIALISTCLASS_DOCTOR</zType>
-		<zName>Medikus</zName>
-		<bUrban>1</bUrban>
-	</Entry>
-	<Entry>
 		<zType>SPECIALISTCLASS_ACOLYTE</zType>
-		<zName>Akolyth</zName>
+		<Name>TEXT_SPECIALISTCLASS_ACOLYTE</Name>
 		<bUrban>1</bUrban>
 	</Entry>
 	<Entry>
 		<zType>SPECIALISTCLASS_MONK</zType>
-		<zName>Mönch</zName>
+		<Name>TEXT_SPECIALISTCLASS_MONK</Name>
 		<bUrban>1</bUrban>
 	</Entry>
 	<Entry>
 		<zType>SPECIALISTCLASS_PRIEST</zType>
-		<zName>Priester</zName>
-		<bUrban>1</bUrban>
-	</Entry>
-	<Entry>
-		<zType>SPECIALISTCLASS_BISHOP</zType>
-		<zName>Bischof</zName>
-		<bUrban>1</bUrban>
-	</Entry>
-	<Entry>
-		<zType>SPECIALISTCLASS_POET</zType>
-		<zName>Dichter</zName>
-		<bUrban>1</bUrban>
-	</Entry>
-	<Entry>
-		<zType>SPECIALISTCLASS_SHOPKEEPER</zType>
-		<zName>Krämer</zName>
-		<bUrban>1</bUrban>
-	</Entry>
-	<Entry>
-		<zType>SPECIALISTCLASS_PHILOSOPHER</zType>
-		<zName>Philosoph</zName>
-		<bUrban>1</bUrban>
-	</Entry>
-	<Entry>
-		<zType>SPECIALISTCLASS_SCRIBE</zType>
-		<zName>Schreiber</zName>
+		<Name>TEXT_SPECIALISTCLASS_PRIEST</Name>
 		<bUrban>1</bUrban>
 	</Entry>
 	<Entry>
 		<zType>SPECIALISTCLASS_OFFICER</zType>
-		<zName>Offizier</zName>
+		<Name>TEXT_SPECIALISTCLASS_OFFICER</Name>
+		<bUrban>1</bUrban>
+	</Entry>
+	<Entry>
+		<zType>SPECIALISTCLASS_POET</zType>
+		<Name>TEXT_SPECIALISTCLASS_POET</Name>
+		<bUrban>1</bUrban>
+	</Entry>
+	<Entry>
+		<zType>SPECIALISTCLASS_SCRIBE</zType>
+		<Name>TEXT_SPECIALISTCLASS_SCRIBE</Name>
+		<bUrban>1</bUrban>
+	</Entry>
+	<Entry>
+		<zType>SPECIALISTCLASS_SHOPKEEPER</zType>
+		<Name>TEXT_SPECIALISTCLASS_SHOPKEEPER</Name>
+		<bUrban>1</bUrban>
+	</Entry>
+	<Entry>
+		<zType>SPECIALISTCLASS_PHILOSOPHER</zType>
+		<Name>TEXT_SPECIALISTCLASS_PHILOSOPHER</Name>
+		<bUrban>1</bUrban>
+	</Entry>
+	<Entry>
+		<zType>SPECIALISTCLASS_DOCTOR</zType>
+		<Name>TEXT_SPECIALISTCLASS_DOCTOR</Name>
+		<bUrban>1</bUrban>
+	</Entry>
+	<Entry>
+		<zType>SPECIALISTCLASS_BISHOP</zType>
+		<Name>TEXT_SPECIALISTCLASS_BISHOP</Name>
 		<bUrban>1</bUrban>
 	</Entry>
 </Root>

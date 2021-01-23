@@ -78,6 +78,190 @@
 		<Translation><![CDATA[Öffne Stadt<br>({0_city})]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_TURN_SUMMARY</zType>
+		<Translation>ZUG ZUSAMMENFASSUNG</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_POPUP_MESSAGE</zType>
+		<Translation>POPUP NACHRICHT</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_DO_BONUS</zType>
+		<Translation>BONUS EFFEKTE</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_GOAL_STARTED</zType>
+		<Translation>ZIEL GESTARTET</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_GOAL_FINISHED</zType>
+		<Translation>ZIEL BEENDET</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_GOAL_FAILED</zType>
+		<Translation>ZIEL FEHLGESCHLAGEN</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_COURTIER</zType>
+		<Translation>NEUER VERTRAUTER</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_RELIGION_FOUNDED</zType>
+		<Translation>RELIGION GEGRÜNDET</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_THEOLOGY_ESTABLISHED</zType>
+		<Translation>RELIGIONSWISSENSCHAFT EINGEFÜHRT</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_RELIGION_SPREAD</zType>
+		<Translation>RELIGION VERBREITET</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_TRIBE_CONTACT</zType>
+		<Translation>STAMM KONTAKTIERT</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_TRIBE_DIPLOMACY</zType>
+		<Translation>STAMM DIPLOMATIE</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_TEAM_CONTACT</zType>
+		<Translation>NATIONEN KONTAKT</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_TEAM_DIPLOMACY</zType>
+		<Translation>NATIONEN DIPLOMATIE</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_TECH_DISCOVERED</zType>
+		<Translation>TECHNOLOGIE ENTDECKT</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_RESOURCE_SHORTFALL</zType>
+		<Translation>RESSOURCEN KNAPPHEIT</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_COVER_DEBT</zType>
+		<Translation>BEGLEICHE SCHULDEN</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_GIFT_ORDERS</zType>
+		<Translation>SCHENKE BEFHLE</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_MAX_ORDERS</zType>
+		<Translation>MAX BEFEHLE</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_MAX_CIVICS</zType>
+		<Translation>MAX VERWALTUNG</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_MAX_TRAINING</zType>
+		<Translation>MAX TRAINING</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_GENERAL_INJURY</zType>
+		<Translation>FELDHERR VERLETZT</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_UNIT_ATTACKED</zType>
+		<Translation>EINHEIT ANGEGRIFFEN</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_UNIT_KILLED</zType>
+		<Translation>EINHEIT GETÖTET</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_UNIT_REBELLED</zType>
+		<Translation>EINHEIT REBELLIERT</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_UNIT_SEEN</zType>
+		<Translation>EINHEIT GESICHTET</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_CITY_ATTACKED</zType>
+		<Translation>STADT ABGEGRIFFEN</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_CITY_CAPTURED</zType>
+		<Translation>STADT EROBERT</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_CITY_FOUNDED</zType>
+		<Translation>STADT GEGRÜNDET</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_CITY_EVENT</zType>
+		<Translation>STADT EREIGNIS</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_CITY_BUILT</zType>
+		<Translation>STADT GEBAUT</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_CITY_CANCELLED</zType>
+		<Translation>STADT AUFGEGEBEN</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_CITY_WARNING</zType>
+		<Translation>STADT WARNUNG</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_CAMP_DESTROYED</zType>
+		<Translation>LAGER ZERSTÖRT</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_IMPROVEMENT_FINISHED</zType>
+		<Translation>VERBESSERUNG FERTIGGESTELLT</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_IMPROVEMENT_PILLAGED</zType>
+		<Translation>VERBESSERUNG GEPLÜNDERT</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_WONDER_ACTIVITY</zType>
+		<Translation>WUNDER AUSWIRKUNG</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_CARAVAN_MISSION</zType>
+		<Translation>KARAWANEN MISSION</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_LAUNCH_OFFENSIVE</zType>
+		<Translation>OFFENSIVE starten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_GIFT_GOOD</zType>
+		<Translation>SCHENKE GUT</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_MISSION_CANCELLED</zType>
+		<Translation>MISSION ABGEBOCHEN</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_CHARACTER_ADULT</zType>
+		<Translation>CHARAKTER WIRD ERWACHSEN</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_CHARACTER_BIRTH</zType>
+		<Translation>CHARAKTER GEBOREN</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_CHARACTER_DEATH</zType>
+		<Translation>CHARAKTER GESTORBEN</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_PING</zType>
+		<Translation>PING</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_EVENT_STORY</zType>
+		<Translation>NEUES EREIGNIS</Translation>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_UI_EVENT_LOG_DISMISS_TOOLTIP</zType>
 		<Translation>Rechts-Klick zum ablehnen</Translation>
 	</Entry>
@@ -155,7 +339,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_GENERAL_ENEMY_DEFENSE</zType>
-		<English>Feldherr icon(Icon_Defense)</English>
+		<Translation>Feldherr icon(Icon_Defense)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_WATER_VS_LAND</zType>
@@ -186,8 +370,8 @@
 		<Translation>Detaliert</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_FORTIFY_ENEMY</zType>
-		<Translation>:Verschanzen</Translation>
+		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_FORTIFY</zType>
+		<Translation>Verschanzen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_TESTUDO_ENEMY</zType>
@@ -207,7 +391,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CITY_ATTACK_PREVIEW_POPULATION</zType>
-		<English>Bevölkerung</English>
+		<Translation>Bevölkerung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_COOLDOWN_FATIGUED</zType>
@@ -540,7 +724,11 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_CULTURE_EVENT</zType>
-		<Translation><![CDATA[[<true_0>{0} <false><end>{1}]]]></Translation>
+		<Translation>[{0} {1} in {2}]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_DISCONTENT_EVENT</zType>
+		<Translation>[{0} in {1}]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_X_FINISHED</zType>
@@ -682,7 +870,11 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
     <Entry>
         <zType>TEXT_UI_EXIT_DIALOG</zType>
         <Translation>Bist du sicher das du beenden möchtest? Jeder ungespeicherte Vorgang wird verloren.</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_RESTART_DIALOG</zType>
+		<Translation>Bist du sicher das du neu starten möchtest? Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_UI_SURRENDER_CONFIRM</zType>
         <Translation>Ja</Translation>
@@ -1785,10 +1977,14 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
 		<zType>TEXT_AMBITION_SKIP_DECISION</zType>
         <Translation>I don't feel ambitious right now.</Translation>
 	</Entry>
-  <Entry>
-    <zType>TEXT_CITY_FAMILY_DECISION</zType>
-    <Translation>{0_family} ({1_class}, {2_opinion}, {singular_3:1 Stadt:{3} Städte})</Translation>
-  </Entry>
+	<Entry>
+		<zType>TEXT_CITY_FAMILY_DECISION</zType>
+		<Translation>{0_family} ({1_class}, {2_opinion}, {singular_3:1 Stadt:{3} Städte})</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITY_CAPITAL_FAMILY_DECISION</zType>
+		<Translation>{0_family} ({1_class})</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_CHARACTER_UPGRADE_DECISION_RATING</zType>
         <Translation>Verbessere: +1 {0_ratingtype} ({1_startrating} zu {2_endrating})</Translation>

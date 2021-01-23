@@ -10,6 +10,11 @@
 		<bName comment="Show the name for event options."/>
 	</Entry>
 	<Entry>
+		<zType>MEMORYRELIGION_PURGE_RELIGION</zType>
+		<zText>Uns von unseren Städten gesäubert</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_LONG</MemoryLevel>
+	</Entry>
+	<Entry>
 		<zType>MEMORYRELIGION_MADE_OFFERINGS</zType>
 		<zText>Made holy offerings</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_LONG</MemoryLevel>
@@ -377,6 +382,21 @@
     <Entry>
         <zType>MEMORYRELIGION_REFUSED_SUPPORT</zType>
         <zText>Refused to support the faith</zText>
-        <MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
     </Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_ACCEPTED_GOVERNOR</zType>
+		<zText>Vorgeschlagenen Stadthalter akzeptiert</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_REFUSED_GOVERNOR</zType>
+		<zText>Vorgeschlagenen Stadthalter verweigert</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_ALLOWED_SPONSORS</zType>
+		<zText>Allowed other family to sponsor worship</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
 </Root>

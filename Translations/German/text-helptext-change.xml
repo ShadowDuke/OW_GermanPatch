@@ -617,8 +617,8 @@
 		<Translation>[Benötigt kein {0}]</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_EVENT_HIGHER_VPS</zType>
-		<Translation>[Mehr SP]</Translation>
+		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_NO_ONE</zType>
+		<Translation>[Benötigt das niemand {0} ist]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_X</zType>
@@ -651,7 +651,7 @@
 		<Translation><![CDATA[[Benötigt {0}: <= {1} {2}]]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_NOT</zType>
+		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_NOT_X</zType>
 		<Translation><![CDATA[[Benötigt {0}: Nicht {1}]]]></Translation>
 	</Entry>
 	<Entry>
@@ -1013,7 +1013,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_TIMER</zType>
-		<Translation><![CDATA[Runden Timer:<true_0> {0_timer}<false><end>]]></Translation>
+		<Translation>Runden Timer:{true_0: {0_timer}}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_WONDERS_AVAILABLE</zType>
+		<Translation>Verfügbare Wunder:</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_WONDERS_CANNOT_BUILD</zType>
@@ -1838,6 +1842,14 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Letzen Zug rückgängig machen</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_UPGRADE</zType>
+		<Translation>Upgrades convert a Combat Unit to a different type at the cost of some Training and other Unit specific resources.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_XP</zType>
+		<Translation>Units and Characters can earn XP (experience) which can be used for a link(CONCEPT_PROMOTION) or to improve a character attribute.{br}Units earn XP during combat, or by being link(CONCEPT_IDLE) on their training link(CONCEPT_IMPROVEMENT). link(UNITTRAIT_MELEE) units train in link(IMPROVEMENT_BARRACKS) and link(UNITTRAIT_RANGED) units train in the link(IMPROVEMENT_RANGE).{br}Characters earn XP through performing missions, holding roles such as link(CONCEPT_GENERAL), link(CONCEPT_GOVERNOR) or link(CONCEPT_COUNCILOR), through events or other character actions.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_REPLAY_MOVE_REDO</zType>
 		<Translation>Wiederhole den letzten rückgängig gemachten Zug</Translation>
 	</Entry>
@@ -1891,10 +1903,6 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation><![CDATA[Can only have an Alliance with one other Player.<br>An Ally will automatically declare War on another Player that declares War on their Ally.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_AMBITION</zType>
-		<Translation>Ambition ist die Meinungsänderung von der Bevölkerung ({0_value} pro).</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_BUY_TILE</zType>
 		<Translation>Kann Land Felder angrenzend an dein Territorium kaufen.</Translation>
 	</Entry>
@@ -1913,6 +1921,10 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TRIBE_INVADE</zType>
 		<Translation>Dieser Stamm wird Einheiten schicken um deine Städte zu plündern.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_HELP_UNDO</zType>
+		<Translation>You can Undo as many decisions as you want using hotkey(HOTKEY_UNDO).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_CAPTURE</zType>
@@ -1996,8 +2008,9 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Verteidigung vs. {0_unit} auf {1_terrain}: {2_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_CULTURE_EVENT</zType>
-		<Translation>link(YIELD_CULTURE) Ereignisse treten wennimmer die link(YIELD_CULTURE) Anzeige der Stadt die nächste Schwelle erreicht hat auf.</Translation>
+		<zType>TEXT_HELPTEXT_LINK_HELP_CONNECTED_FOREIGN</zType>
+		<Translation>Foreign Cities connected to your {0_capital}:
+(Larger and more distant cities produce more)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CRITICAL_HIT</zType>
@@ -2008,12 +2021,12 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>link(YIELD_CULTURE) Es treten jedes Mal Ereignisse auf, wenn die link(YIELD_CULTURE) Leiste der Stadt voll gefüllt ist.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_DISTANCE_MODIFIER</zType>
-		<Translation>int(DISTANCE_MODIFIER)% pro Feld für link(UNITTRAIT_RANGED) Einheiten</Translation>
-	</Entry>
-	<Entry>	
 		<zType>TEXT_HELPTEXT_LINK_HELP_CULTURE_LEVEL</zType>
 		<Translation>link(YIELD_CULTURE) Stufen:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_DISTANCE_MODIFIER</zType>
+		<Translation>int(DISTANCE_MODIFIER)% pro Kachel für link(UNITTRAIT_RANGED) Einheiten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DEFENSE</zType>
@@ -2041,18 +2054,11 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DIPLOMACY_PEACE_TRIBE</zType>
-		<Translation>
-Ihr könnt euch nicht gegenseitig angreifen.
-Frieden dauert so lange bis die derzeitigen Herrschaft des Oberhauptes endet.
-Ihre Einheiten erklären dir unwahrscheinlicher Krieg oder schicken Plünderer gegen dich.
-Sie können dein Gebiet betreten sich in deinem Gebiet heilen.</Translation>
+		<Translation>You cannot attack each other.{br}They will not send link(TRIBE_RAIDERS) against you.{br}They can enter and heal in your territory.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DIPLOMACY_PEACE_PLAYER</zType>
-		<Translation>
-Ihr könnt euch nicht gegenseitig angreifen.
-Sie erklären dir unwahrscheinlicher den Krieg.
-Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
+		<Translation>You cannot attack each other.{br}They are less likely to declare link(DIPLOMACY_WAR) against you.{br}You can enter and heal in each other's territory.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DIPLOMACY_TRUCE</zType>
@@ -2131,8 +2137,8 @@ Ihr könnt euch beide heilen und euere Gebiete betreten.</Translation>
     <Translation><![CDATA[A Unit becomes Fatigued after using all of its moves. A Fatgiued Unit will refresh its moves the next turn. Once Fatigued, a Unit can only move again this turn through a Forced March.]]></Translation>
   </Entry>
   <Entry>
-    <zType>TEXT_HELPTEXT_LINK_HELP_AMBITIONS</zType>
-    <Translation><![CDATA[Ambitions are goals for you to pursue, and completing them will grant you a permanent boost to link(CONCEPT_LEGITIMACY). Complete ten Ambitions, and you win the game!]]></Translation>
+    <zType>TEXT_HELPTEXT_LINK_HELP_AMBITION</zType>
+    <Translation><![CDATA[link(CONCEPT_AMBITION,1) are goals for you to pursue, and completing them will grant you a permanent boost to link(CONCEPT_LEGITIMACY). Complete ten link(CONCEPT_AMBITION,1), and you win the game!]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_HELP_TRIBE</zType>
@@ -2173,6 +2179,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
     <zType>TEXT_HELPTEXT_LINK_HELP_SPECIALIST</zType>
     <Translation>link(CONCEPT_SPECIALIST,0) can boost the yields of link(CONCEPT_IMPROVEMENT,1) at the cost of link(YIELD_CIVICS).</Translation>
   </Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_SHRINE</zType>
+		<Translation>Shrines provide various benefits, and can help to spread Paganism.</Translation>
+	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_IDLE</zType>
 		<Translation>link(CONCEPT_IDLE) Einheiten können sich bewegt haben aber dürfen keinen Cooldown haben. (Sngreifen, Beförderung, Verbesserung, etc.)</Translation>
@@ -2240,6 +2250,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_PROJECT_INFO</zType>
 		<Translation>Projekte existieren nur innerhalb einer Stadt.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_PROMOTION</zType>
+		<Translation>Promotions provide various combat buffs at the cost of some Training.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_RAISE_IMPROVEMENTS</zType>
@@ -2327,11 +2341,15 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_SUBJECT_TRAIT_ANY</zType>
-		<Translation>Muss {0_list}sein </Translation>
+		<Translation>Muss {0_list} sein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_SUBJECT_TRAIT_NONE</zType>
+		<Translation>Darf nicht {0_list} sein</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TEAM_LIST</zType>
-		<Translation>Team {0_num}: {1_list}</Translation>
+		<Translation>Team {0_num}: {LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TERRAIN_NO_ROADS</zType>
@@ -2449,6 +2467,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<zType>TEXT_HELPTEXT_LINK_HELP_ZOC</zType>
 		<Translation><![CDATA[Die Kontrollzone (ZOC) einer Einheit erweitert sich auf angrenzende Felder (außer über einen {0_riverLink}), und hindert gegnerische Einheiten daran sich von einem link(CONCEPT_ZOC) Feld zum anderen zu bewegen.<br>Halte [{1_key}] um die ZOC einer Einheit zu sehen.]]></Translation>
 	</Entry>
+    <Entry>
+        <zType>TEXT_HELPTEXT_LINK_HELP_HOTKEY_NONE</zType>
+        <Translation>No keybind has been specified for this hotkey.</Translation>
+    </Entry>
 	<!--Tile Tooltip-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_OWNER</zType>
@@ -4523,6 +4545,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Oberbefehlshaber (wenn Oberhaupt): </Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_NO_EVENTS</zType>
+		<Translation>Kommt weniger wahrscheinlich in einem Ereignis vor</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_NO_MARRY</zType>
 		<Translation>Kann nicht heiraten</Translation>
 	</Entry>
@@ -5733,6 +5759,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_SUBMIT_BUG_BUTTON</zType>
 		<Translation>Übermittle Fehler</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_RESTART_GAME_BUTTON</zType>
+		<Translation>Spiel neu starten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_QUICK_SAVE_BUTTON</zType>
