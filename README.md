@@ -25,7 +25,7 @@ Loading an existing savegame should work without the need to do the procedure ag
 ## Notes
 
 - Dont mind the red errors popping up saying "missing Unable to find TextType* messages - thats because i translated some stuff from my *archetypes* mod.
-- Some things can't be translated, they are still hardcodet in the egine.
+- Some things can't be translated, they are still hardcodet in the engine.
 - If you find or stumble across spelling errors, please let me know [here](https://github.com/ShadowDuke/OW_GermanPatch/issues), thank you.
 
 If you want, you can now support me with a donation at [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5X8TNX5DN2G5C&source=url). Thank you!
