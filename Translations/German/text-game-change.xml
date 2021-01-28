@@ -324,6 +324,10 @@
 		<Translation>{0_subject}: {1_memory} ({2_value} Meinung)</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_MEMORY_SUBJECT_TURNS</zType>
+		<English> ({0_turns} {1_turnScale})</English>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_FORGET_SUBJECT</zType>
 		<Translation>{0_subject}: Vergisst {1_memory} ({2_value} Meinung)</Translation>
 	</Entry>
@@ -705,7 +709,7 @@
 		<Translation>Nicht enthüllter Platz</Translation>
 	</Entry>	 
 	<Entry>
-		<zType>TEXT_GAME_TILE_IMPROVEMENT_UPGRADE</zType>
+		<zType>TEXT_GAME_TILE_IMPROVEMENT_DEVELOP</zType>
 		<Translation>({0_name}: {1_turns})</Translation>
 	</Entry>
 	<Entry>
@@ -771,7 +775,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_UNIT_FINISHED_CARAVAN_MISSION</zType>
-		<Translation>link(CONCEPT_CARAVAN_MISSION) mit {0_player} Vollendet: {1_money}</Translation>
+		<Translation>link(CONCEPT_CARAVAN_MISSION) mit {0_player} Vollendet: {1_money} {2_memory}</Translation>
 	</Entry>
 	<!--City-->
 	<Entry>

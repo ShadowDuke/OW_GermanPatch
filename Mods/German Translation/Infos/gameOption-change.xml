@@ -27,7 +27,7 @@
 	<Entry>
 		<zType>GAMEOPTION_NO_TRIBES</zType>
 		<zName>Keine Barbaren</zName>
-		<zHelp>Stämme wurden druch link(TRIBE_BARBARIANS) ersetzt.</zHelp>
+		<zHelp>Stämme wurden durch link(TRIBE_BARBARIANS) ersetzt.</zHelp>
 	</Entry>
 	<Entry>
 		<zType>GAMEOPTION_NO_FOG_OF_WAR</zType>
@@ -72,6 +72,11 @@
 		<zType>GAMEOPTION_ROLE_PLAYING</zType>
 		<zName>Rollenspiel</zName>
 		<zHelp>Keine popup Hilfe wenn erzählersiche Entscheidungen für Eriegnisse getroffen werden</zHelp>
+	</Entry>
+	<Entry>
+		<zType>GAMEOPTION_PLAY_TO_WIN</zType>
+		<zName>Play to Win</zName>
+		<zHelp>AI nations will try to keep each other (including you) from winning</zHelp>
 	</Entry>
 	<Entry>
 		<zType>GAMEOPTION_ONE_CITY_CHALLENGE</zType>

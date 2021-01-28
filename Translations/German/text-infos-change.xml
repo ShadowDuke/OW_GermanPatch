@@ -138,19 +138,35 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_MERCENARY</zType>
-		<Translation>Söldner</Translation>
+		<Translation>Söldner~ein Söldner~Söldner</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_PROJECT_INFO</zType>
 		<Translation>Projekt</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_CONCEPT_RAISE_IMPROVEMENTS</zType>
-		<Translation>Verbesserungen errichten</Translation>
+		<zType>TEXT_CONCEPT_PROMOTION</zType>
+		<Translation>Beförderung~Beförderungen~Befördern~Befördert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_UPGRADE_IMPROVEMENTS</zType>
+		<Translation>Verbessere verbesserung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_IMPROVEMENT</zType>
+		<Translation>Verbesserung~Verbesserungen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_REBEL</zType>
 		<Translation>Rebellen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_DISCIPLE</zType>
+		<Translation>Jünger~Jünger</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_ROAD</zType>
+		<Translation>Straße~Straßen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_ROUT</zType>
@@ -158,7 +174,27 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_SETTLEMENT</zType>
-		<Translation>Siedlung</Translation>
+		<Translation>Siedlung~Siedlungen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_THEOLOGY</zType>
+		<Translation>Religionswissenschaft~Religionswissenschaften</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_TRADE_NETWORK</zType>
+		<Translation>Handelsnetzwerk</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_TRIBE_INVADE</zType>
+		<Translation>Stämme Einfall</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_UNDO</zType>
+		<Translation>Rückgängig</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_UPGRADE</zType>
+		<Translation>Verbessern~Verbessert~Verbessert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_URBAN</zType>
@@ -167,6 +203,10 @@
 	<Entry>
 		<zType>TEXT_CONCEPT_ZOC</zType>
 		<Translation>ZOC</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_XP</zType>
+		<Translation>EP~Erfahrung</Translation>
 	</Entry>
 	<!--InfoVegetation-->
 	<Entry>
@@ -1413,12 +1453,12 @@
 		<Translation>Decke 80% der Karte auf</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_THREE_CARAVANS</zType>
-		<Translation>Three Caravan Missions</Translation>
+		<zType>TEXT_GOAL_TWO_CARAVANS</zType>
+		<Translation>Two Caravan Missions</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_SIX_CARAVANS</zType>
-		<Translation>Six Caravan Missions</Translation>
+		<zType>TEXT_GOAL_FOUR_CARAVANS</zType>
+		<Translation>Four Caravan Missions</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_THREE_CITIES_FOREIGN</zType>

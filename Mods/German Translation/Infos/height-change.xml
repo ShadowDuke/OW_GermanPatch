@@ -15,7 +15,7 @@
 		<bCitySite/>
 		<bRangedAttackBlock/>
 		<Color/>
-		<aiDefendUnitTrait/>
+		<aiDefendEffectUnit/>
 	</Entry>
 	<Entry>
 		<zType>HEIGHT_OCEAN</zType>
@@ -38,12 +38,16 @@
 		<zType>HEIGHT_FLAT</zType>
 		<zName>Flach</zName>
 		<iRevealChange>1</iRevealChange>
-		<aiDefendUnitTrait>
+		<aiDefendEffectUnit>
 			<Pair>
-				<zIndex>UNITTRAIT_MOUNTED</zIndex>
+				<zIndex>EFFECTUNIT_MOUNTED</zIndex>
 				<iValue>-25</iValue>
 			</Pair>
-		</aiDefendUnitTrait>
+			<Pair>
+				<zIndex>EFFECTUNIT_MANEUVERS</zIndex>
+				<iValue>-25</iValue>
+			</Pair>
+		</aiDefendEffectUnit>
 	</Entry>
 	<Entry>
 		<zType>HEIGHT_HILL</zType>

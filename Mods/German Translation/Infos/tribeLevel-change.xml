@@ -6,7 +6,7 @@
 		<zName/>
 		<iEmptySites/>
 		<iBarbSites/>
-		<iImprovementUpgradeModifier/>
+		<iImprovementDevelopModifier/>
 		<iDefendUnits/>
 		<iMaxUnitsRange/>
 		<iTurnUnitModifier/>
@@ -35,7 +35,7 @@
 		<zName>Passiv</zName>
 		<iEmptySites>4</iEmptySites>
 		<iBarbSites>0</iBarbSites>
-		<iImprovementUpgradeModifier>-80</iImprovementUpgradeModifier>
+		<iImprovementDevelopModifier>-80</iImprovementDevelopModifier>
 		<iMaxUnitsRange>3</iMaxUnitsRange>
 		<iTurnUnitModifier>80</iTurnUnitModifier>
 		<iTurnCityProb>2</iTurnCityProb>
@@ -47,7 +47,7 @@
 		<zName>Schwach</zName>
 		<iEmptySites>3</iEmptySites>
 		<iBarbSites>1</iBarbSites>
-		<iImprovementUpgradeModifier>-40</iImprovementUpgradeModifier>
+		<iImprovementDevelopModifier>-40</iImprovementDevelopModifier>
 		<iDefendUnits>1</iDefendUnits>
 		<iMaxUnitsRange>3</iMaxUnitsRange>
 		<iTurnUnitModifier>40</iTurnUnitModifier>
@@ -67,7 +67,7 @@
 		<zName>Normal</zName>
 		<iEmptySites>2</iEmptySites>
 		<iBarbSites>2</iBarbSites>
-		<iImprovementUpgradeModifier>-20</iImprovementUpgradeModifier>
+		<iImprovementDevelopModifier>-20</iImprovementDevelopModifier>
 		<iDefendUnits>2</iDefendUnits>
 		<iMaxUnitsRange>3</iMaxUnitsRange>
 		<iTurnUnitModifier>20</iTurnUnitModifier>
@@ -87,7 +87,7 @@
 		<zName>Stark</zName>
 		<iEmptySites>1</iEmptySites>
 		<iBarbSites>3</iBarbSites>
-		<iImprovementUpgradeModifier>-10</iImprovementUpgradeModifier>
+		<iImprovementDevelopModifier>-10</iImprovementDevelopModifier>
 		<iDefendUnits>3</iDefendUnits>
 		<iMaxUnitsRange>3</iMaxUnitsRange>
 		<iTurnUnitModifier>10</iTurnUnitModifier>

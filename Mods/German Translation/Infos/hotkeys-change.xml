@@ -8,6 +8,7 @@
 		<Keys/>
 		<bKeyboardMap/>		 
 		<bHold/>
+		<bOnDown/>
 		<fRepeatDelay/>
 		<bIgnoreMouse/>
 		<IgnoreHotkeys/>
@@ -367,40 +368,34 @@
     <Keys>F3</Keys>
   </Entry>
   <Entry>
-    <zType>HOTKEY_RELIGION_SCREEN</zType>
-    <zName>Zeige Religionen</zName>
-    <HotkeyClass>HOTKEYCLASS_SCREENS</HotkeyClass>
-    <Keys>F4</Keys>
-  </Entry>
-  <Entry>
 		<zType>HOTKEY_LOG_SCREEN</zType>
-		<zName>Zeige Sieg Bildschirm</zName>
+		<zName>Zeige Siegbildschirm</zName>
+		<HotkeyClass>HOTKEYCLASS_SCREENS</HotkeyClass>
+		<Keys>F4</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_TECH_SCREEN</zType>
+		<zName>Zeige Technologie</zName>
 		<HotkeyClass>HOTKEYCLASS_SCREENS</HotkeyClass>
 		<Keys>F5</Keys>
 	</Entry>
 	<Entry>
-    <zType>HOTKEY_TECH_SCREEN</zType>
-    <zName>Zeige Technologien</zName>
-    <HotkeyClass>HOTKEYCLASS_SCREENS</HotkeyClass>
-    <Keys>F6</Keys>
-  </Entry>
-	<Entry>
 		<zType>HOTKEY_CITY_LIST</zType>
-		<zName>Zeige Stadtliste</zName>
+		<zName>Zeige Städte</zName>
+		<HotkeyClass>HOTKEYCLASS_SCREENS</HotkeyClass>
+		<Keys>F6</Keys>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_MAP_SCREEN</zType>
+		<zName>Zeige Karte</zName>
 		<HotkeyClass>HOTKEYCLASS_SCREENS</HotkeyClass>
 		<Keys>F7</Keys>
 	</Entry>
-  <Entry>
-    <zType>HOTKEY_MAP_SCREEN</zType>
-    <zName>Zeige Karte</zName>
-    <HotkeyClass>HOTKEYCLASS_SCREENS</HotkeyClass>
-    <Keys>F8</Keys>
-  </Entry>
 	<Entry>
 		<zType>HOTKEY_HELP_SCREEN</zType>
 		<zName>Zeige Hilfe</zName>
 		<HotkeyClass>HOTKEYCLASS_SCREENS</HotkeyClass>
-		<Keys>F9</Keys>
+		<Keys>F8</Keys>
 	</Entry>
 	<Entry>
 		<zType>HOTKEY_GAME_EDITOR</zType>

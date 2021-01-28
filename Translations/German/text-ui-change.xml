@@ -618,6 +618,10 @@
 		<Translation>{0} (PAUSE)</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_TURN_LOCKED</zType>
+		<Translation>ZUG GESPERRT</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_WINNER_ROSTER_VICTORY</zType>
 		<Translation>GEWONNEN!!!</Translation>
 	</Entry>
@@ -666,7 +670,7 @@
 		<Translation>Am forschen...</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_TECH_TREE_TOOLTIP_IN_TECH_DECK</zType>
+		<zType>TEXT_UI_TECH_TREE_TOOLTIP_IN_DRAW_PILE</zType>
 		<Translation>In dem Technologien Deck</Translation>
 	</Entry>
 	<Entry>
@@ -831,6 +835,10 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
         <Translation><![CDATA[<true_0>Verstecke<false>Show<end> Nahkampf Einheiten]]></Translation>
     </Entry>
     <Entry>
+		<zType>TEXT_UI_RELIGION_NOT_FOUNDED</zType>
+		<Translation>Noch ncht gegründet</Translation>
+	</Entry>
+	<Entry>
         <zType>TEXT_UI_SELECTED_RELIGION_ADOPT_BUTTON</zType>
         <Translation>Adaptiere {0}</Translation>
     </Entry>
@@ -945,7 +953,15 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
     <Entry>
         <zType>TEXT_GIFT_YIELD</zType>
         <Translation>Sende Waren</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AGENT_MISSIONS</zType>
+		<Translation>Agenten Missionen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AGENT_MISSION_NAME</zType>
+		<Translation><![CDATA[{0_missionLink} <color=#e3c08c>({1_cityLink})</color>]]></Translation>
+	</Entry>
     <!--single player menu-->
     <Entry>
         <zType>TEXT_SP_MENU_SCREEN_NEWGAME_BUTTON</zType>
@@ -1004,8 +1020,9 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
 	<!--MP wizard screen-->
 	<Entry>
 		<zType>TEXT_MP_WIZARD_SCREEN_TITLE</zType>
-		<Translation>Bitte wähle den Mehrspieler Modus aus
-		</Translation>		
+		<Translation>
+      Bitte wähle den Mehrspieler Modus aus
+	</Translation>		
 	</Entry>
 	<Entry>
 		<zType>TEXT_MP_WIZARD_SCREEN_NETWORK_MODE</zType>
@@ -1642,8 +1659,8 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
         <Translation>Verfügbar</Translation>
     </Entry>
     <Entry>
-        <zType>TEXT_TOOL_TIPS_TECHDECK</zType>
-        <Translation>Tech Deck</Translation>
+        <zType>TEXT_TOOL_TIPS_DRAWPILE</zType>
+        <Translation>Zug Stapel</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_TOOL_TIPS_DISCARDPILE</zType>

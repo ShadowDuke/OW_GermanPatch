@@ -816,6 +816,18 @@
 		<Translation>Runden Timer: {0}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_TURN_TIMER_BASE</zType>
+		<Translation>Zet pro Zug: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TURN_TIMER_PER_CITY</zType>
+		<Translation>+{0} Sekunden pro Stadt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TURN_TIMER_PER_UNIT</zType>
+		<Translation>+{0} Sekunden pro Einheit</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MENU_TEAM_NATION</zType>
 		<Translation>Reiche: {0}</Translation>
 	</Entry>
@@ -898,7 +910,15 @@
     <Entry>
         <zType>TEXT_HELPTEXT_WIDGET_TOGGLE_ZOC_OVERLAY</zType>
         <Translation><![CDATA[Zeige Kontrollzonen Einblendung<br>[Shift+Klick] um die Einblendung zu sperren<br><true_0>{0_presskey}<false><end>]]></Translation>
-    </Entry>    
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_NOTIFICATIONS_PREVIOUS</zType>
+		<Translation>Click to show notifications from previous turns</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_NOTIFICATIONS_CURRENT</zType>
+		<Translation>Click to show notifications from the current turn</Translation>
+	</Entry> 
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_WORKER_ACTION_FILTER_GENERAL</zType>
 		<Translation>Zeige Verbesserungen und Grundfunktionen</Translation>
@@ -1104,6 +1124,14 @@
 		<Translation>Ziehe beim nächsten jahr erneut Technologie aus deinem Kartenstapel</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_DRAW_PILE</zType>
+		<Translation>Zug Stapel:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_DISCARD_PILE</zType>
+		<Translation>Abwurf Stapel:</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_STATE_RELIGION</zType>
 		<Translation>Aktive Religion(en): </Translation>
 	</Entry>
@@ -1216,6 +1244,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PLAYER_NATION_SELECT</zType>
 		<Translation>Klicke um die {0_capital} auszuwählen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_PLAYER_SELECT</zType>
+		<Translation>Click to center the camera on {0_player}'s capital</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PLAYER_LEGITIMACY_COGNOMEN</zType>
@@ -1518,7 +1550,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Ungültig auf {0_link}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_RAISE</zType>
+		<zType>TEXT_HELPTEXT_WIDGET_UPGRADE_IMPROVEMENT</zType>
 		<Translation>Verbessere zu {0_improvement}</Translation>
 	</Entry>
 	<Entry>
@@ -1911,7 +1943,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Wird zu {0_improvement} verbessert in {1_numTurns}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_TRIBE_IMPROVEMENT_NO_UPGRADE</zType>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TRIBE_IMPROVEMENT_NO_DEVELOP</zType>
 		<Translation>Nichts zum verbessern</Translation>
 	</Entry>
 	<Entry>
@@ -1923,7 +1955,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Dieser Stamm wird Einheiten schicken um deine Städte zu plündern.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_HELP_UNDO</zType>
+		<zType>TEXT_HELPTEXT_LINK_HELP_UNDO</zType>
 		<Translation>You can Undo as many decisions as you want using hotkey(HOTKEY_UNDO).</Translation>
 	</Entry>
 	<Entry>
@@ -2256,7 +2288,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Promotions provide various combat buffs at the cost of some Training.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_RAISE_IMPROVEMENTS</zType>
+		<zType>TEXT_HELPTEXT_LINK_HELP_UPGRADE_IMPROVEMENTS</zType>
 		<Translation>Verbessere eine Verbesserung auf die nächste Stufe (zum Beispiel, link(IMPROVEMENT_THEATER_1) zu link(IMPROVEMENT_THEATER_2)).</Translation>
 	</Entry>
 	<Entry>
@@ -2272,12 +2304,12 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Eine link(CONCEPT_REBEL) Einheit wird auftauchen und deine Einheiten und Städte angreifen.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_DESIRED_AMBITION</zType>
-		<Translation>A Character's Desired Ambition will become a new National link(CONCEPT_AMBITION) if s/he becomes Leader.</Translation>
+		<zType>TEXT_HELPTEXT_LINK_HELP_CONCEPT_DESIRED_AMBITION</zType>
+		<Translation>A Character's Desired link(CONCEPT_AMBITION) will become a new National link(CONCEPT_AMBITION) if s/he becomes Leader.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DISCIPLE</zType>
-		<Translation>A link(CONCEPT_DISCIPLE) can spread your link(CONCEPT_STATE_RELIGION) and purge other Religions from your Cities.</Translation>
+		<Translation>A Disciple can spread your link(CONCEPT_STATE_RELIGION), and purge other Religions from your Cities.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_RELIGION_CITIES_US</zType>
@@ -2509,8 +2541,8 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>{0} (PAUSE)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_IMPROVEMENT_UPGRADE</zType>
-		<Translation><![CDATA[Verbessert zu<true_0> {0_barbarian}<false><end> {1_improvment}: {2_turns}]]></Translation>
+		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_IMPROVEMENT_DEVELOP</zType>
+		<Translation>Wird verbessert zu{true_0: {0_barbarian}} {1_improvment}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_IMPROVEMENT_WORK_LEFT</zType>
@@ -3045,14 +3077,6 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<zType>TEXT_HELPTEXT_UNIT_TRAIT</zType>
 		<Translation>{0_trait} Einheiten:</Translation>
 	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_TRAIT_INTO_MODIFIER</zType>
-		<Translation>In {0}: {1}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_TRAIT_INTO_FRACTION_MODIFIER</zType>
-		<Translation>In {0}/{1}: {2}</Translation>
-	</Entry>
 	<!--Promotion Help-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_PROMOTION_LEADS_TO</zType>
@@ -3102,6 +3126,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation><![CDATA[<true_2>In {0_tileLink}: {1_value}<false>{1_value} In {0_tileLink}<end>]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_ATTACK_INTO_OTHER</zType>
+		<Translation><![CDATA[<true_3>In {0_tileLink}/{1_other}: {2_value}<false>{2_value} In {0_tileLink}/{1_other}<end>]]></Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_FIGHT_FROM</zType>
 		<Translation><![CDATA[<true_2>Von {0_tileLink}: {1_value}<false>{1_value} Von {0_tileLink}<end>]]></Translation>
 	</Entry>
@@ -3146,8 +3174,12 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Stuns Target</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_LAST_STAND</zType>
+		<Translation>Cannot die with more than 1 HP</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_IGNORES_DISTANCE</zType>
-		<Translation>Ignoriert Reichweiten Modifikator  ({0_distanceModifier}% pro Feld)</Translation>
+		<Translation>Ignores link(CONCEPT_DISTANCE_MODIFIER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_CRITICAL_IMMUNE</zType>
@@ -3355,6 +3387,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Kann unendlich viele {0_improvementClass,2} bauen</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_URBAN_TERRAIN_VALID</zType>
+		<Translation>Can Build link(CONCEPT_URBAN) Improvements on {0_terrain}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_HURRY_CIVICS</zType>
 		<Translation><![CDATA[Kann Produktion von {0_build} mit <TEXT_YIELD_CIVICS> steigern]]></Translation>
 	</Entry>
@@ -3553,6 +3589,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Verbreitet {0_religion}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_POTENTIAL_BONUSES</zType>
+		<Translation>Mögliche Boni:</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_DEFENSE_MODIFIER</zType>
 		<Translation>{0_value} Verteidigung</Translation>
 	</Entry>
@@ -3562,14 +3602,14 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_CREATES_UNITS</zType>
-		<Translation><![CDATA[Erstellt {LIST,1} <singular_0>jedes Jahr<plural>{0_number}Jahre<end>]]></Translation>
+		<Translation>Erstellt {LIST,1} jede {0_number} {1_turnScale}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_UPGRADE_TURNS</zType>
-		<Translation><![CDATA[Wird zu {0_improvement} in {1_number} <singular_1>Jahr<plural>Jahren<end>]]></Translation>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_DEVELOP_TURNS</zType>
+		<Translation>Verbessert zu {0_improvement} in {1_number} {2_turnScale}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_UPGRADE_TURNS_RANDOM</zType>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_DEVELOP_TURNS_RANDOM</zType>
 		<Translation>Verbessert zu {0_improvement} in {1_number} - {2_number} Runde</Translation>
 	</Entry>
 	<Entry>
@@ -3752,8 +3792,8 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Kann {0_urban} Felder hinzufügen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_CAN_RAISE_IMPROVEMENT</zType>
-		<Translation>Kann link(CONCEPT_RAISE_IMPROVEMENTS)</Translation>
+		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_CAN_UPGRADE_IMPROVEMENT</zType>
+		<Translation>Kann link(CONCEPT_UPGRADE_IMPROVEMENTS)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_NO_WONDERS</zType>
@@ -3883,6 +3923,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILYCLASS_CHARACTER_COMMON_TRAITS</zType>
 		<Translation>Gewöhnliche Eigenschaften: </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_COMMON_FAMILYCLASS</zType>
+		<Translation>Gewöhnlich in Familien:</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_WE_GOVERN_OUR_CITIES</zType>
@@ -4037,6 +4081,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_ADJACENT_SAME_UNIT</zType>
 		<Translation>Benachbarte {0_unit}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_HIDDEN_ATTACK</zType>
+		<Translation>Versteckter Angriff</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_SAME_FAMILY</zType>
@@ -4981,6 +5029,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Wähle Forschung</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_DECISION_NAME_UPGRADE_CHARACTER</zType>
+		<Translation>Wähle link(CONCEPT_AMBITION)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_DECISION_NAME_CHOOSE_AMBITION</zType>
 		<Translation>Wähle Ambition</Translation>
 	</Entry>
@@ -5086,7 +5138,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Stadtteil festlegen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_TILE_RAISE_IMPROVEMENT_BUTTON</zType>
+		<zType>TEXT_HELPTEXT_TILE_UPGRADE_IMPROVEMENT_BUTTON</zType>
 		<Translation>Verbessere zu {0_improvement}</Translation>
 	</Entry>
 	<Entry>
@@ -6616,10 +6668,6 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPPONENT_LEVEL_WAR_PROBABILITY</zType>
 		<Translation>link(DIPLOMACY_WAR) Wahrscheinlichkeit: {0}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_OPPONENT_LEVEL_PLAY_TO_WIN</zType>
-		<Translation>Staaten werden sich vom gewinnen abhalten</Translation>
 	</Entry>
 	<!--Tooltips-->
 	<Entry>

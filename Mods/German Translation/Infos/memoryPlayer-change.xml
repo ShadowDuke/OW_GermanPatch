@@ -148,15 +148,9 @@
 		<bName>1</bName>
 	</Entry>
 	<Entry>
-		<zType>MEMORYPLAYER_HELPED_US</zType>
-		<zText>Hat uns geholfen</zText>
-		<iValue>40</iValue>
-		<iTurns>40</iTurns>
-	</Entry>
-	<Entry>
 		<zType>MEMORYPLAYER_HOLD_HOSTAGE</zType>
-		<zText>Haltet einen Adligen gefangen</zText>
-		<iValue>-10</iValue>
+		<zText>Hielt einen Adligen gefangen</zText>
+		<iValue>-40</iValue>
 		<iTurns>40</iTurns>
 	</Entry>
 	<Entry>

@@ -60,7 +60,7 @@
   <!-- Relation -->
 	<Entry comment="TEXT_CHARACTER_RELATION_XXX texts have the leader (i.e. 'You') as variable index 1 for gender">
 		<zType>TEXT_CHARACTER_RELATION_YOU</zType>
-		<Translation>Du!</Translation>
+		<Translation>Du</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_RELATION_SPOUSE</zType>
@@ -162,7 +162,7 @@
 	<!-- Misc -->
 	<Entry>
 		<zType>TEXT_CHARACTER_DEAD</zType>
-		<Translation><![CDATA[<icon>skull</icon> {0_name}]]></Translation>
+		<Translation><![CDATA[<icon>DeathSkull</icon> {0_name}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_HAS_COGNOMEN</zType>
