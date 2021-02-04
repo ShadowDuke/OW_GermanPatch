@@ -1565,4 +1565,64 @@
 		<zText>Delivered an embarassingly nonsensical speech</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_DEFENDED_PRIEST_PRICES</zType>
+		<zText>Defended priests raising ritual prices</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ARGUED_PRIEST_PRICES</zType>
+		<zText>Sided with family against the priests</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_BURIAL_RITES</zType>
+		<zText>Refused a family member burial rites</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ALLOWED_BURIAL_RITES</zType>
+		<zText>Allowed a family member burial rites</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_HONORED_OUR_DEAD</zType>
+		<zText>Honoured our dead</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_DISHONORED_OUR_DEAD</zType>
+		<zText>Dishonoured our dead</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ABANDONED_BURIAL_PRACTICES</zType>
+		<zText>Abandoned traditional burial practices</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_UPHELD_BURIAL_PRACTICES</zType>
+		<zText>Upheld traditional burial practices</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_TOASTED</zType>
+		<zText>Toasted us at a celebration</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ADOPTED_NEW_GOD_AS_OWN</zType>
+		<zText>Stopped us honouring a new god</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ENCOURAGED_WORSHIP</zType>
+		<zText>Encouraged us in honouring a new god</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_DIVINE_LINEAGE</zType>
+		<zText>Has divine lineage</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
 </Root>

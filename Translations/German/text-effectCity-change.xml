@@ -405,7 +405,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_ARCHIVE</zType>
-		<Translation>Archive~an Archive~Archives</Translation>
+		<Translation>Archiv~ein Archiv~Archive</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_MARBLE</zType>
@@ -722,13 +722,5 @@
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_HERDER</zType>
 		<Translation>Hirten Anführer</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_TRAIT_ASCETIC</zType>
-		<Translation>Enthaltsam</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_TRAIT_PRIEST</zType>
-		<Translation>Priester</Translation>
 	</Entry>
 </Root>

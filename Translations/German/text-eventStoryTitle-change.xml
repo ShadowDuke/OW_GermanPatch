@@ -6830,7 +6830,11 @@
 		<Translation>Tutorial: Harvest Resource</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_TUTORIAL_UNIT_ON_COOLDOWN_TITLE</zType>
+		<zType>TEXT_EVENTSTORY_TUTORIAL_UNIT_ATTACK_COOLDOWN_TITLE</zType>
+		<Translation>Tutorial: Unit Attack Cooldown</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TUTORIAL_UNIT_MOVE_COOLDOWN_TITLE</zType>
 		<Translation>Tutorial: Unit On Cooldown</Translation>
 	</Entry>
 	<Entry>

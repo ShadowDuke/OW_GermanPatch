@@ -76,6 +76,13 @@
 		</aeInvalidateRelationship>
 	</Entry>
 	<Entry>
+		<zType>RELATIONSHIP_INFLUENCED_BY</zType>
+		<zName>Beeinflusst von</zName>
+		<iOpinion>40</iOpinion>
+		<iMinAgeUs>10</iMinAgeUs>
+		<iMinAgeThem>15</iMinAgeThem>
+	</Entry>
+	<Entry>
 		<zType>RELATIONSHIP_JEALOUS_ABOUT</zType>
 		<zName>Eifersüchtig über</zName>
 		<iOpinion>-40</iOpinion>

@@ -439,8 +439,12 @@
 		<Translation>Beansprucht</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_PRIEST</zType>
+		<zType>TEXT_TRAIT_CLERGY</zType>
 		<Translation>Priester</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_ASCETIC</zType>
+		<Translation>Enthaltsam</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ARTIST</zType>
@@ -569,10 +573,6 @@
 	<Entry>
 		<zType>TEXT_TRAIT_DROUGHT_STRICKEN</zType>
 		<Translation>Von Dürre betroffen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_ASCETIC</zType>
-		<Translation>Enthaltsam</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_HORSE</zType>

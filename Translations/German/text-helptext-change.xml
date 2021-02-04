@@ -159,6 +159,10 @@
 		<Translation>{0} ({1})</Translation>
 	</Entry>
 	<Entry>
+        <zType>TEXT_HELPTEXT_CONCAT_ENCLOSED_PARENTHESIS_IF</zType>
+        <Translation>{0}{true_1: ({1})}</Translation>
+    </Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_CONCAT_COLON_ENCLOSED_PARENTHESIS</zType>
 		<Translation>{0}: {1} ({2})</Translation>
 	</Entry>
@@ -609,62 +613,64 @@
 		<Translation><![CDATA[{0}<true_1>*<false><end>]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_EVENT_REQUIRES</zType>
-		<Translation>[Benötigt {0}]</Translation>
-	</Entry>
+		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_SINGLE</zType>
+		 <Translation>Benötigt {LIST}</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_HELPTEXT_EVENT_REQUIRES_MULTI</zType>
+        <Translation>Benötigt:</Translation>
+    </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_NO</zType>
-		<Translation>[Benötigt kein {0}]</Translation>
+		<Translation>Kein {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_NO_ONE</zType>
-		<Translation>[Benötigt das niemand {0} ist]</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_X</zType>
-		<Translation>[Benötigt {0}: {1}]</Translation>
+		<Translation>Keiner ist {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_TWO</zType>
-		<Translation>[Benötigt {0}: {1} {2}]</Translation>
+		<Translation>{0}: {1} {2}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_TWO_NOT</zType>
+		<Translation>{0}: nicht {1} {2}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_GT_LT</zType>
-		<Translation>
-			<![CDATA[[Benötigt {0}: >= {1} und <= {2}]]]>
-		</Translation>
+		<Translation><![CDATA[{0}: >= {1} und <= {2}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_GT</zType>
-		<Translation><![CDATA[[Benötigt {0}: >= {1}]]]></Translation>
+		<Translation><![CDATA[{0}: >= {1}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_LT</zType>
-		<Translation><![CDATA[[Benötigt {0}: <= {1}]]]></Translation>
+		<Translation><![CDATA[{0}: <= {1}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_GT_TWO</zType>
-		<Translation><![CDATA[[Benötigt {0}: >= {1} {2}]]]></Translation>
+		<Translation><![CDATA[{0}: >= {1} {2}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_LT_TWO</zType>
-		<Translation><![CDATA[[Benötigt {0}: <= {1} {2}]]]></Translation>
+		<Translation><![CDATA[{0}: <= {1} {2}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_NOT_X</zType>
-		<Translation><![CDATA[[Benötigt {0}: Nicht {1}]]]></Translation>
+		<Translation><![CDATA[{0}: Nicht {1}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_AGE_RANGE</zType>
-		<Translation><![CDATA[[Benötigt {0} Alter: >= {1} und <= {2}]]]></Translation>
+		<Translation><![CDATA[{0} Alter: >= {1} und <= {2}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_AGE_GT</zType>
-		<Translation><![CDATA[[Benötigt {0} Alter: >= {1}]]]></Translation>
+		<Translation><![CDATA[{0} Alter: >= {1}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_AGE_LT</zType>
-		<Translation><![CDATA[[Benötigt {0} Alter: <= {1}]]]></Translation>
+		<Translation><![CDATA[{0} Alter: <= {1}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIREMENT_MARRIED</zType>
@@ -752,11 +758,11 @@
 	<!--Turns Text-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_TURNS_TEXT</zType>
-		<Translation><![CDATA[<true_1>({0_number}y)<false>{0_number}y<end>]]></Translation>
+		<Translation><![CDATA[<true_1>({0_number}{2_turnScale})<false>{0_number}{2_turnScale}<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TURNS_TEXT_UNKNOWN</zType>
-		<Translation><![CDATA[<true_0>(?)<false>?<end>]]></Translation>
+		<Translation><![CDATA[<true_0>(?{1_turnScale})<false>?{1_turnScale}<end>]]></Translation>
 	</Entry>
 	<!--Widget Help-->
 	<Entry>
@@ -873,11 +879,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_RELIGION_SCREEN</zType>
-		<Translation><![CDATA[Zeige Religion<true_0><br>{0_presskey}<false><end>]]></Translation>
+		<Translation><![CDATA[Zeige Religionen<true_0><br>{0_presskey}<false><end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_INHERITANCE_SCREEN</zType>
-		<Translation><![CDATA[Zeige Erbschaft<true_0><br>{0_presskey}<false><end>]]></Translation>
+		<Translation><![CDATA[Zeige Erbschaften<true_0><br>{0_presskey}<false><end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_CITY_LIST</zType>
@@ -889,27 +895,27 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_GAME_LOG</zType>
-		<Translation>Zeige Spielaufzeichnung</Translation>
+		<Translation><![CDATA[Zeige Spielaufzeichnung{true_0:<br>{0_presskey}}]]></Translation>
 	</Entry>
 	<Entry>
-        <zType>TEXT_HELPTEXT_WIDGET_TOGGLE_DANGER_OVERLAY</zType>
-        <Translation><![CDATA[Zeige Gefahr Einblendung<br>[Shift+Klick] um die Einblendung zu sperren<br><true_0>{0_presskey}<false><end>]]></Translation>
-    </Entry>
-    <Entry>
-        <zType>TEXT_HELPTEXT_WIDGET_TOGGLE_IDLE_OVERLAY</zType>
-        <Translation><![CDATA[Zeige untätige Einheiten Einblendung<br>[Shift+Klick] um die Einblendung zu sperren<br><true_0>{0_presskey}<false><end>]]></Translation>
-    </Entry>
-    <Entry>
-        <zType>TEXT_HELPTEXT_WIDGET_TOGGLE_NETWORK_OVERLAY</zType>
-        <Translation><![CDATA[Zeige Stadt Verbindungen Einblendung<br>[Shift+Klick] um die Einblendung zu sperren<br><true_0>{0_presskey}<false><end>]]></Translation>
-    </Entry>
-    <Entry>
-        <zType>TEXT_HELPTEXT_WIDGET_TOGGLE_RESOURCES_OVERLAY</zType>
-        <Translation><![CDATA[Zeige Feld Ressourcen Einblendung<br>[Shift+Klick] um die Einblendung zu sperren<br><true_0>{0_presskey}<false><end>]]></Translation>
-    </Entry>
-    <Entry>
-        <zType>TEXT_HELPTEXT_WIDGET_TOGGLE_ZOC_OVERLAY</zType>
-        <Translation><![CDATA[Zeige Kontrollzonen Einblendung<br>[Shift+Klick] um die Einblendung zu sperren<br><true_0>{0_presskey}<false><end>]]></Translation>
+		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_DANGER_OVERLAY</zType>
+		<Translation><![CDATA[Zeige Gefahren Übersicht<br>[Shift+Click] um Einblendung fest zu halten<br>{true_0:{0_presskey}}]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_IDLE_OVERLAY</zType>
+		<Translation><![CDATA[Zeige link(CONCEPT_IDLE) Einheiten Übersicht<br>[Shift+Klick] um Einblendung fest zu halten<br>{true_0:{0_presskey}}]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_NETWORK_OVERLAY</zType>
+		<Translation><![CDATA[Zeige Städteverbindungs Übersicht<br>[Shift+Klick] um Einblendung fest zu halten<br>{true_0:{0_presskey}}]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_RESOURCES_OVERLAY</zType>
+		<Translation><![CDATA[Zeige Felder Ressourcen Übersicht<br>[Shift+Klick] um Einblendung fest zu halten<br>{true_0:{0_presskey}}]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_ZOC_OVERLAY</zType>
+		<Translation><![CDATA[Zeige Kontrollzonen Übersicht<br>[Shift+Klick] um Einblendung fest zu halten<br>{true_0:{0_presskey}}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_NOTIFICATIONS_PREVIOUS</zType>
@@ -1023,6 +1029,7 @@
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_DECISIONS_KEYS</zType>
 		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> um umgelehrt zu wechseln<true_0><br><TEXT_HOTKEY_CTRL_SHIFT_CLICK> zu priorisieren<false><end>]]></Translation>
 	</Entry>
+	<!-- Unassigned for now
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_PREVIOUS_CITIES</zType>
 		<Translation><![CDATA[Vorherige Stadt<true_0> {0_presskey}<false><end>]]></Translation>
@@ -1030,6 +1037,15 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_NEXT_CITIES</zType>
 		<Translation><![CDATA[Nächste Stadt<true_0> {0_presskey}<false><end>]]></Translation>
+	</Entry> -->
+	<!-- Temp text entries for city cycling help without hotkey-->
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_PREVIOUS_CITIES</zType>
+		<Translation>Vorherige Stadt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_NEXT_CITIES</zType>
+		<Translation>Nächste Stadt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_TIMER</zType>
@@ -1045,7 +1061,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_WONDERS_OWNED_BY</zType>
-		<Translation> (Gehört {0_player})</Translation>
+		<Translation> ({0_player} in {1_city})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_WONDERS_CAPTURED_BY</zType>
@@ -1061,7 +1077,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LAWS_ACTIVE</zType>
-		<Translation><![CDATA[Aktive <singular_0>Gesetz<plural>Gesetze<end>: ]]></Translation>
+		<Translation>{singular_0:Aktives:Aktive} {singular_0:Gesetz:Gesetze}: </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LAWS_AVAILABLE</zType>
@@ -1117,7 +1133,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_VICTORY_GOAL_FINISHED</zType>
-		<Translation><![CDATA[{0}<true_1> (ERLEDIGT)<false><end>]]></Translation>
+		<Translation>{0}{true_1: (VOLLENDET)}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_REDRAW_TECH</zType>
@@ -1137,13 +1153,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_STATE_RELIGION_CURRENT</zType>
-		<Translation>
-			<![CDATA[State: {0_religion}<true_1> ({1_city})<false><end>]]>
-		</Translation>
+		<Translation>Staat: {0_religion}{true_1: ({1_city})}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_STATE_RELIGION_ITEM</zType>
-		<Translation><![CDATA[{0_religion}<true_1> ({1_city})<false><end><true_2> (State)<false><end>]]></Translation>
+		<Translation>{0_religion}{true_1: ({1_city})}{true_2: (Staat)}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TRADE_LUXURY_SEND</zType>
@@ -1183,7 +1197,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_GIFT_CITY_CANNOT_GIFT</zType>
-		<Translation><![CDATA[Kann Stadt nicht beschenken für weiter(e) {0_number} <singular_0>Jahr<plural>Jahre<end>]]></Translation>
+		<Translation>Kann Stadt nicht für {0_number} {1_turnScale} beschenken</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_BUILD_PROJECT_REPEAT</zType>
@@ -1215,11 +1229,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_HURRY</zType>
-		<Translation><![CDATA[Beschleunige {0} für {1_yield} und {2_yield}]]></Translation>
+		<Translation>Beschleunige {0} für {1_yield} und {2_yield}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_HURRY_POPULATION</zType>
-		<Translation><![CDATA[Beschleunige {0} für {1_number} <singular_1>{2,0_citizenLink}<plural>{2,2_citizenLink}<end> und {3_yield}]]></Translation>
+		<Translation>Beschleunige {0} für {1_number} {singular_1:{2,0_citizenLink}:{2,2_citizenLink}} und {3_yield}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PLAYER_NATION_CAPITAL_CITY</zType>
@@ -1623,7 +1637,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_COLONIZE_TILE</zType>
-		<Translation>Besiedle Kachel für {0_money} ({1_city})</Translation>
+		<Translation>Besiedle Feld für {0_money} ({1_city})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_BECOME_AGENT</zType>
@@ -2058,7 +2072,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DISTANCE_MODIFIER</zType>
-		<Translation>int(DISTANCE_MODIFIER)% pro Kachel für link(UNITTRAIT_RANGED) Einheiten</Translation>
+		<Translation>int(DISTANCE_MODIFIER)% pro Feld für link(UNITTRAIT_RANGED) Einheiten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DEFENSE</zType>
@@ -2927,6 +2941,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_CONSUMPTION</zType>
 		<Translation>Konsumiert</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_TYPE_RAIDING</zType>
+		<Translation>Raubzug</Translation>
+	</Entry>
 	<Entry>	
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_SPREADS_RELIGION</zType>
 		<Translation>Dehnt {0_religion} aus</Translation>
@@ -3495,6 +3513,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_VP</zType>
 		<Translation>{0_value} SP</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_VISION_CHANGE</zType>
+		<Translation>{0_value} Einheiten Sicht</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_PRODUCES_TRIBE_UNITS</zType>
@@ -5357,6 +5379,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Ehepartner: </Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_SUCCESSION_HELP_CURRENT_SUCCESSION_LAW</zType>
+		<Translation>Derzeitiges Nachfolge Gesetz: {0_law}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_TAB_PANEL_CHARACTERS_HEIRS</zType>
 		<Translation>Erbe(n): </Translation>
 	</Entry>
@@ -6302,12 +6328,16 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Wenn fertig: {0}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_GOAL_HELP_THEOLOGY</zType>
-		<Translation>Staatsrelgion mit {0} Religionswissenschaft</Translation>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_START_LAW</zType>
+		<Translation>Verfüge {0} Gesetz{true_1: (Ersetzt {1})}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_GOAL_HELP_START_LAW</zType>
-		<Translation><![CDATA[Führe {0} Gesetz ein<true_1> (Ersetzt {1})<false><end>]]></Translation>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_THEOLOGY</zType>
+		<Translation>Gründe {0} link(CONCEPT_THEOLOGY) für eine Weltreligion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_DIPLOMACY_ALL</zType>
+		<Translation>Benötigt {0_diplomacy} mit allen Stämmen und Bationen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_LEGITIMACY</zType>
@@ -6315,19 +6345,19 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_CITIES</zType>
-		<Translation><![CDATA[Benötigt {0} <singular_0>Stadt<plural>Städte<end>]]></Translation>
+		<Translation>Benötigt {0} {singular_0:Stadt:Städte}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_CONNECTED_CITIES</zType>
-		<Translation><![CDATA[Benötigt {0} {1_connectedLink} <singular_0>Stadt<plural>Städte<end>]]></Translation>
+		<Translation>Benötigt {0} {1_connectedLink} {singular_0:Stadt:Städte}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_CITIZENS</zType>
-		<Translation><![CDATA[Benötigt {0} <singular_0>{1_citizensLink}<plural>{1,2_citizensLink}<end>]]></Translation>
+		<Translation>Benötigt {0} {singular_0:{1_citizenLink}:{1,2_citizensLink}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_SPECIALISTS</zType>
-		<Translation><![CDATA[Benötigt {0} <singular_0>Spezialist<plural>Spezialisten<end>]]></Translation>
+		<Translation>Benötigt {0} {singular_0:Spezialist:Spezialisten}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_POPULATION</zType>
@@ -6339,31 +6369,31 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_LUXURIES</zType>
-		<Translation><![CDATA[Benötigt {0} <singular_0>{1_luxuryLink}<plural>{1,2_luxuriesLink}<end>]]></Translation>
+		<Translation>Benötigt {0} {singular_0:{1_luxuryLink}:{1,2_luxuriesLink}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_PLAYER_LUXURIES</zType>
-		<Translation><![CDATA[Benötigt {0} <singular_0>{1_luxuryLink}<plural>{1,2_luxuriesLink}<end> an rivalisierende Reiche gesendet]]></Translation>
+		<Translation>Benötigt {0} {singular_0:{1_luxuryLink}:{1,2_luxuriesLink}} an eine Rivalen Nation gesendet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_TRIBE_LUXURIES</zType>
-		<Translation><![CDATA[Benötigt {0} <singular_0>{1_luxuryLink}<plural>{1,2_luxuriesLink}<end> an Stämme gesendet]]></Translation>
+		<Translation>Benötigt {0} {singular_0:{1_luxuryLink}:{1,2_luxuriesLink}} an einen Stamm gesendet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_FAMILY_LUXURIES</zType>
-		<Translation><![CDATA[Benötigt {0} <singular_0>{1_luxuryLink}<plural>{1,2_luxuriesLink}<end> an Familien gesendet]]></Translation>
+		<Translation>Benötigt {0} {singular_0:{1_luxuryLink}:{1,2_luxuriesLink}} an Familien gesendet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_URBAN_IMPROVEMENTS</zType>
-		<Translation><![CDATA[Benötigt {0} Stadtteil <singular_0>Verbesserung<plural>Verbesserungen<end>]]></Translation>
+		<Translation>Benötigt {0} link(CONCEPT_URBAN) {singular_0:Verbesserung:Verbesserungen}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_WONDERS</zType>
-		<Translation><![CDATA[Benötigt {0} <singular_0>Wunder<plural>Wunder<end>]]></Translation>
+		<Translation>Benötigt {0} {singular_0:Wunder:Wunder}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_ACTIVE_LAWS</zType>
-		<Translation><![CDATA[Benötigt {0} <singular_0>aktives Gesetz<plural>aktive Gesetze<end>]]></Translation>
+		<Translation>Benötigt {0} {singular_0:Aktives:Aktive} {singular_0:Gesetz:Gesetze}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_REVEAL_LAND</zType>
@@ -6371,47 +6401,47 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_MILITARY_UNITS</zType>
-		<Translation><![CDATA[Requires {0} Militär <singular_0>Einheit<plural>Einheiten<end>]]></Translation>
+		<Translation>Benötigt {0} Militär {singular_0:Einheit:Einheiten}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_MAX_LEVEL_UNITS</zType>
-		<Translation><![CDATA[Benötigt {0} Max Stufe <singular_0>Einheit<plural>Einheiten<end>]]></Translation>
+		<Translation>Benötigt {0} höchste Stufe {singular_0:Einheit:Einheiten}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_GENERALS</zType>
-		<Translation><![CDATA[Requires {0} <singular_0>link(CONCEPT_GENERAL)<plural>link(CONCEPT_GENERAL,1)<end>]]></Translation>
+		<Translation>Benötigt {0} {singular_0:link(CONCEPT_GENERAL):link(CONCEPT_GENERAL,1)}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_GOVERNORS</zType>
-		<Translation><![CDATA[Requires {0} <singular_0>link(CONCEPT_GOVERNOR)<plural>link(CONCEPT_GOVERNOR,1)<end>]]></Translation>
+		<Translation>Benötigt {0} {singular_0:link(CONCEPT_GOVERNOR):link(CONCEPT_GOVERNOR,1)}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_AGENTS</zType>
-		<Translation><![CDATA[Requires {0} Character <singular_0>link(CONCEPT_AGENT)<plural>link(CONCEPT_AGENT,1)<end>]]></Translation>
+		<Translation>Benötigt {0} Charakter {singular_0:link(CONCEPT_AGENT):link(CONCEPT_AGENT,1)}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_TOTAL</zType>
-		<Translation>Benötigt {0} Insgesammt {1_list}</Translation>
+		<Translation>Benötigt {0} Insgesammt {LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_CAPTURE_PLAYER_CITIES</zType>
-		<Translation><![CDATA[Erobere {0} <true_1>{1}<false>gegnerische<end> <singular_0>Stadt<plural>Städte<end>]]></Translation>
+		<Translation>Erobere {0} {true_1:{1}:Enemy} {singular_0:Stadt:Städte}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_CAPTURE_TRIBE_SITES</zType>
-		<Translation><![CDATA[Erobere {0} <true_1>{1}<false>Barbaren<end> <singular_0>Gelände<plural>Gelände<end>]]></Translation>
+		<Translation>Erobere {0} {true_1:{1}:Barbarian} {singular_0:Lager:Lager}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_SETTLE_TRIBE_SITES</zType>
-		<Translation><![CDATA[Found Cities on {0} <true_1>{1}<false>Barbarian<end> <singular_0>Site<plural>Sites<end>]]></Translation>
+		<Translation>Gründe Städte auf {0} {true_1:{1}:Barbarian} {singular_0:Lager:lager}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_KILL_PLAYER_ENEMY_UNITS</zType>
-		<Translation><![CDATA[Töte {0} <true_1>{1}<false>gegnerische<end> <singular_0>Einheit<plural>Einheiten<end>]]></Translation>
+		<Translation>Töte {0} {true_1:{1}:Enemy} {singular_0:Einheit:Einheiten}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_KILL_TRIBE_ENEMY_UNITS</zType>
-		<Translation><![CDATA[Töte {0} <true_1>{1}<false>Barbaren<end> <singular_0>Einheit<plural>Einheiten<end>]]></Translation>
+		<Translation>Töte {0} {true_1:{1}:Barbarian} {singular_0:Einheit:Einheiten}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_STATE_RELIGION</zType>
@@ -6419,51 +6449,51 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_PLAYER_DEAD</zType>
-		<Translation><![CDATA[Eliminiere <true_0>{0}<false>ein Reich<end>]]></Translation>
+		<Translation>Beseitige {true_0:{0}:eine Nation}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_TRIBE_DEAD</zType>
-		<Translation><![CDATA[Eliminiere <true_0>die {0}<false>einen Stamm<end>]]></Translation>
+		<Translation>Beseitige {true_0:den {0}:einen Stamm}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_DIPLOMACY_WITH</zType>
-		<Translation><![CDATA[Benötigt {0_diplomacy} mit {1} <singular_1>Stamm oder Reich<plural>Stämme oder Reiche<end>]]></Translation>
+		<Translation>Benötigt {0_diplomacy} mit {1} {singular_1:Stamm oder Nation:Stämmen oder Nationen}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_KILL_TRIBE_UNITS</zType>
-		<Translation><![CDATA[Töte {0} {1_tribe} <singular_0>Einheit<plural>Einheiten<end>]]></Translation>
+		<Translation>Töte {0} {1_tribe} {singular_0:Einheit:Einheiten}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_PRODUCE_YIELD_PER_YEAR</zType>
-		<Translation>Produziert {0} {1_yield}/Jahr</Translation>
+		<Translation>Produziere {0} {1_yield}/{2_turnScale}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_PRODUCE_YIELD_MASS</zType>
-		<Translation>Produziert {0} {1_yield}</Translation>
+		<Translation>Produziere {0} {1_yield}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_RESOURCE_REVEALED</zType>
-		<Translation>Discover {0} {1_resource}</Translation>
+		<Translation>Entdecke {0} {1_resource}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_X</zType>
-		<Translation><![CDATA[Benötigt {0_num} <singular_0>{1}<plural>{1,2}<end>]]></Translation>
+		<Translation>Benötigt {0_num} {singular_0:{1}:{1,2}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_PLAYER_LUXURY</zType>
-		<Translation><![CDATA[Benötigt {0} {1_resource} <singular_0>{2_luxuryLink}<plural>{2,2_luxuriesLink} an rivalisierende Reiche gesendets<end>]]></Translation>
+		<Translation>Benötigt {0} {1_resource} {singular_0:{2_luxuryLink}:{2,2_luxuriesLink} an eine Rivalen Nation gesendet}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_TRIBE_LUXURY</zType>
-		<Translation><![CDATA[Benötigt {0} {1_resource} <singular_0>{2_luxuryLink}<plural>{2,2_luxuriesLink} an Stämme gesendet<end>]]></Translation>
+		<Translation>Benötigt {0} {1_resource} {singular_0:{2_luxuryLink}:{2,2_luxuriesLink} an Stämme gesendet}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_FAMILY_LUXURY</zType>
-		<Translation><![CDATA[Benötigt {0} {1_resource} <singular_0>{2_luxuryLink}<plural>{2,2_luxuriesLink} an Familien gesendet<end>]]></Translation>
+		<Translation>Benötigt {0} {1_resource} {singular_0:{2_luxuryLink}:{2,2_luxuriesLink} an Familien gesendet}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_CITIES_CULTURE</zType>
-		<Translation><![CDATA[Benötigt {0_num} <singular_0>Stadt<plural>Cities<end> mit {1_cultureLevel}]]></Translation>
+		<Translation>Benötigt {0_num} {singular_0:Stadt:Städte} mit {1_cultureLevel} link(YIELD_CULTURE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_WONDERS_CULTURE</zType>
@@ -6475,20 +6505,20 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_LEGACY</zType>
-		<Translation>(This Ambition is a Legacy)</Translation>
+		<Translation>(This link(CONCEPT_AMBITION) is a Legacy)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_MAX_YEARS</zType>
-		<Translation>Max Jahr(e): {0}</Translation>
+		<Translation>Max {1_turnScale}: {0}</Translation>
 	</Entry>
 	<!--Law Help-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_LAW_HELP_NAME</zType>
-		<Translation><![CDATA[<true_0>{0} (Gesetz)<false><end><true_1> [Derzeitiges]<false><end>]]></Translation>
+		<Translation>{true_0:{0} (Gesetz)}{true_1: [Derzeitig]}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LAW_HELP_EFFECT_UPKEEP</zType>
-		<Translation>Beibehaltung: {0}</Translation>
+		<Translation>Unterhalt: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LAW_HELP_THEOLOGY_OPINION</zType>
@@ -6526,7 +6556,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<!--Memory Help-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_MEMORY_OPINION</zType>
-		<Translation><![CDATA[<true_0>{0}, <false><end>{1} Empfinden<true_2> für {2} <singular_2>Jahr<plural>Jahre<end><false><end>]]></Translation>
+		<Translation>{true_0:{0}, }{1} Meinung{true_2: for {2} {3_turnScale}}</Translation>
 	</Entry>
 	<!--Nation Help-->
 	<Entry>
@@ -6629,7 +6659,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_OPINION_OF_PLAYER</zType>
-		<Translation><![CDATA[{0_player} Meinung über <true_1>{1}<false>dich<end>: {2}]]></Translation>
+		<Translation>{0_player} Meinung über {true_1:{1}:Dich}: {2}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_OPINION_RIVAL_NATION</zType>
@@ -6646,7 +6676,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_OUR_LAWS</zType>
-		<Translation><![CDATA[{0_value}: Unsere Gesetze<true_LIST-COUNT> ({LIST})<false><end>]]></Translation>
+		<Translation>{0_value}: Unsere Gesetze{true_LIST-COUNT: ({LIST})}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_OPINION_RELIGION_OPINION</zType>
@@ -6672,15 +6702,15 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<!--Tooltips-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_TOOLTIP_EXPAND_TOOLTIP</zType>
-		<Translation><![CDATA[Erweitere Kurzinfo: <true_0> {0_presskey}<false><end>]]></Translation>
+		<Translation>Erweitere Kurzinfo: {true_0: {0_presskey}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TOOLTIP_FREEZE_TOOLTIP</zType>
-		<Translation><![CDATA[Raste Kurzinfo ein: [MITTEL-KLICK]<br><true_0> Halte Kurzinfo fest: {0_presskey}<false><end>]]></Translation>
+		<Translation><![CDATA[Halte Kurzinfo fest: [MITTEL-KLICK]<br><true_0> Halte Kurzinfo fest: {0_presskey}<false><end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TOOLTIP_TILE_XY</zType>
-		<Translation><![CDATA[Feld: {0_x}, {1_y}]]></Translation>
+		<Translation>Feld: {0_x}, {1_y}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TOOLTIP_COMMUNITY_CONTRIBUTION</zType>

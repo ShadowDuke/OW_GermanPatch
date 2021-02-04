@@ -102,6 +102,10 @@
 		<Translation>ZIEL FEHLGESCHLAGEN</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_MAKE_LEGACY</zType>
+		<Translation>MAKE LEGACY</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_COURTIER</zType>
 		<Translation>NEUER VERTRAUTER</Translation>
 	</Entry>
@@ -188,6 +192,10 @@
 	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_CITY_CAPTURED</zType>
 		<Translation>STADT EROBERT</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_CITY_RAZED</zType>
+		<Translation>STADT DEM ERDBODEN GLEICHGEMACHT</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_CITY_FOUNDED</zType>
@@ -626,8 +634,8 @@
 		<Translation>GEWONNEN!!!</Translation>
 	</Entry>
 	<Entry>
-    <zType></zType>
-    <Translation>ALLIANCE VICTORY!!!</Translation>
+		<zType/>
+		<Translation>ALLIANCE VICTORY!!!</Translation>
   </Entry>
   <Entry>
 		<zType>TEXT_UI_WINNER_ROSTER_LOSS</zType>
@@ -1672,7 +1680,7 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
     </Entry>
     <Entry>
         <zType>TEXT_TOOL_TIPS_DECKREDRAW</zType>
-        <Translation>STRG+CLICK um neu zu ziehen (Benötigt link(TRAIT_SCHOLAR_ARCHETYPE) Oberhaupt)</Translation>
+        <Translation>STRG+KLICK um neu zu ziehen (Benötigt link(TRAIT_SCHOLAR_ARCHETYPE) Oberhaupt)</Translation>
     </Entry>
     <!--top-bar.xml-->
     <Entry>
@@ -2137,11 +2145,11 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_FILTER_SINGLEPLAYER</zType>
-		<Translation>Singleplayer</Translation>
+		<Translation>Einzelspieler</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_FILTER_MULTIPLAYER</zType>
-		<Translation>Multiplayer</Translation>
+		<Translation>Mehrspieler</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_FILTER_TRANSLATIONS</zType>

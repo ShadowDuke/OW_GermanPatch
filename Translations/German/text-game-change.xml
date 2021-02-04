@@ -158,6 +158,10 @@
 		<Translation>Deine Quest ist gescheitert: {0}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_MAKE_LEGACY</zType>
+		<Translation>An old Ambition, {0_ambition}, is now a Legacy. You will have {1} {2_turnScale} to complete it.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_AMBITION_IMPOSSIBLE</zType>
 		<Translation>Diese Ambition ist nun unmöglich und wurde entfernt: {0}</Translation>
 	</Entry>
@@ -325,7 +329,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_MEMORY_SUBJECT_TURNS</zType>
-		<English> ({0_turns} {1_turnScale})</English>
+		<Translation> ({0_turns} {1_turnScale})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_FORGET_SUBJECT</zType>
@@ -658,6 +662,10 @@
 	<Entry>
 		<zType>TEXT_GAME_CAMP_DESTROYED_LOG_DATA</zType>
 		<Translation>{0_barbarian} {1_improvement} zerstört!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_CITY_RAZED_LOG_DATA</zType>
+		<Translation>{0_city} wurde dem Erdboden gleichgemacht!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CITY_CAPTURED_LOG_DATA</zType>

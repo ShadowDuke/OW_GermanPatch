@@ -606,12 +606,7 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_FAMILYCLASS_SAGES_SEAT</zType>
-		<aiGlobalYieldsBase>
-			<Pair>
-				<zIndex>YIELD_SCIENCE</zIndex>
-				<iValue>100</iValue>
-			</Pair>
-		</aiGlobalYieldsBase>
+		<bFreeTech>1</bFreeTech>				  
 	</Entry>
 	<Entry>
 		<zType>BONUS_FAMILYCLASS_TRADERS_SEAT</zType>
@@ -906,11 +901,6 @@
 		<zName>Abdankung</zName>
 		<iLegitimacy>-2</iLegitimacy>
 		<bAbdicate>1</bAbdicate>
-	</Entry>
-	<Entry>
-		<zType>BONUS_MISSIONRESULT_INFLUENCE</zType>
-		<zName>Einfluss</zName>
-		<MemoryCharacter>MEMORYCHARACTER_INFLUENCE</MemoryCharacter>
 	</Entry>
 	<Entry>
 		<zType>BONUS_MISSIONRESULT_ADOPT</zType>
@@ -6252,6 +6242,10 @@
 		<AddLeaderRelationship>RELATIONSHIP_OBLIGED_TO</AddLeaderRelationship>
 	</Entry>
 	<Entry>
+		<zType>BONUS_LEADER_INFLUENCED_BY</zType>
+		<AddLeaderRelationship>RELATIONSHIP_INFLUENCED_BY</AddLeaderRelationship>
+	</Entry>
+	<Entry>
 		<zType>BONUS_LEADER_JEALOUS_ABOUT</zType>
 		<AddLeaderRelationship>RELATIONSHIP_JEALOUS_ABOUT</AddLeaderRelationship>
 	</Entry>
@@ -6306,6 +6300,10 @@
 	<Entry>
 		<zType>BONUS_LEADER_OBLIGED_TO_REMOVE</zType>
 		<RemoveLeaderRelationship>RELATIONSHIP_OBLIGED_TO</RemoveLeaderRelationship>
+	</Entry>
+	<Entry>
+		<zType>BONUS_LEADER_INFLUENCED_BY_REMOVE</zType>
+		<RemoveLeaderRelationship>RELATIONSHIP_INFLUENCED_BY</RemoveLeaderRelationship>
 	</Entry>
 	<Entry>
 		<zType>BONUS_LEADER_JEALOUS_ABOUT_REMOVE</zType>
@@ -6699,6 +6697,12 @@
 			<zValue>TRAIT_HONEST</zValue>
 		</aeAddTraits>
 	</Entry>
+		<Entry>
+		<zType>BONUS_REMOVE_TRAIT_HONEST</zType>
+		<aeRemoveTraits>
+			<zValue>TRAIT_HONEST</zValue>
+		</aeRemoveTraits>
+	</Entry>
 	<Entry>
 		<zType>BONUS_GIVE_TRAIT_DISHONEST</zType>
 		<aeAddTraits>
@@ -6830,6 +6834,12 @@
 		<aeAddTraits>
 			<zValue>TRAIT_INCUBATED</zValue>
 		</aeAddTraits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_REMOVE_TRAIT_INCUBATED</zType>
+		<aeRemoveTraits>
+			<zValue>TRAIT_INCUBATED</zValue>
+		</aeRemoveTraits>
 	</Entry>
 	<Entry>
 		<zType>BONUS_GIVE_TRAIT_POISONER</zType>
@@ -6982,6 +6992,18 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
+		<zType>BONUS_GIVE_TRAIT_CLERGY</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_CLERGY</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_GIVE_TRAIT_ASCETIC</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_ASCETIC</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>
 		<zType>BONUS_GIVE_TRAIT_FAMOUS</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_FAMOUS</zValue>
@@ -7060,6 +7082,12 @@
 		</aeRemoveTraits>
 	</Entry>
 	<Entry>
+		<zType>BONUS_GIVE_TRAIT_DOG_OWNER</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_DOG_OWNER</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>
 		<zType>BONUS_GIVE_TRAIT_DROUGHT_STRICKEN</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_DROUGHT_STRICKEN</zValue>
@@ -7072,9 +7100,15 @@
 		</aeRemoveTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GIVE_TRAIT_ASCETIC</zType>
+		<zType>BONUS_GIVE_TRAIT_PET_MONKEY</zType>
 		<aeAddTraits>
-			<zValue>TRAIT_ASCETIC</zValue>
+			<zValue>TRAIT_PET_MONKEY</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_GIVE_TRAIT_ARTIST</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_ARTIST</zValue>
 		</aeAddTraits>
 	</Entry>
 	<Entry>

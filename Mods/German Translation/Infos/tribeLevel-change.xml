@@ -18,8 +18,8 @@
 		<iRaidProbTile/>
 		<iRaidProbUnit/>
 		<iRaidRange/>
-		<iTribeFatigue/>
-		<iTribeHeal/>
+		<iFatigue/>
+		<iActiveHeal/>
 		<iWarOfferTurn/>
 		<iWarModifier/>
 		<iAIModifier/>
@@ -40,6 +40,7 @@
 		<iTurnUnitModifier>80</iTurnUnitModifier>
 		<iTurnCityProb>2</iTurnCityProb>
 		<iUnitUpgrade>35</iUnitUpgrade>
+		<iActiveHeal>1</iActiveHeal>
 		<iWarModifier>-100</iWarModifier>
 	</Entry>
 	<Entry>
@@ -59,6 +60,7 @@
 		<iRaidProbTile>3</iRaidProbTile>
 		<iRaidProbUnit>10</iRaidProbUnit>
 		<iRaidRange>14</iRaidRange>
+		<iActiveHeal>1</iActiveHeal>
 		<iWarOfferTurn>40</iWarOfferTurn>
 		<iWarModifier>-50</iWarModifier>
 	</Entry>
@@ -79,7 +81,7 @@
 		<iRaidProbTile>6</iRaidProbTile>
 		<iRaidProbUnit>20</iRaidProbUnit>
 		<iRaidRange>16</iRaidRange>
-		<iTribeHeal>1</iTribeHeal>
+		<iActiveHeal>2</iActiveHeal>
 		<iWarOfferTurn>35</iWarOfferTurn>
 	</Entry>
 	<Entry>
@@ -99,8 +101,8 @@
 		<iRaidProbTile>8</iRaidProbTile>
 		<iRaidProbUnit>30</iRaidProbUnit>
 		<iRaidRange>18</iRaidRange>
-		<iTribeFatigue>1</iTribeFatigue>
-		<iTribeHeal>1</iTribeHeal>
+		<iFatigue>1</iFatigue>
+		<iActiveHeal>2</iActiveHeal>
 		<iWarOfferTurn>30</iWarOfferTurn>
 		<iWarModifier>10</iWarModifier>
 		<iAIModifier>10</iAIModifier>
@@ -120,8 +122,8 @@
 		<iRaidProbTile>10</iRaidProbTile>
 		<iRaidProbUnit>40</iRaidProbUnit>
 		<iRaidRange>20</iRaidRange>
-		<iTribeFatigue>1</iTribeFatigue>
-		<iTribeHeal>2</iTribeHeal>
+		<iFatigue>1</iFatigue>
+		<iActiveHeal>3</iActiveHeal>
 		<iWarOfferTurn>25</iWarOfferTurn>
 		<iWarModifier>20</iWarModifier>
 		<iAIModifier>20</iAIModifier>

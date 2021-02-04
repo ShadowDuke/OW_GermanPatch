@@ -399,4 +399,54 @@
 		<zText>Allowed other family to sponsor worship</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_PRAISED_AHURA_MAZDA</zType>
+		<zText>Payed devotion to Ahura Mazda</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_SACRED_FIRE</zType>
+		<zText>Kept the sacred fires burning</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_IGNORED_INSULT</zType>
+		<zText>Ignored a religious insult</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_LONG</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_AVENGED_INSULT</zType>
+		<zText>Took retribution for a religious insult</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_LONG</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_ADOPTED_BURIAL_PRACTICES</zType>
+		<zText>Adopted our burial practices</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_FOREVER</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_RENEWED_FERVOUR</zType>
+		<zText>Renewed fervour</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_THE_SAOSHYANT</zType>
+		<zText>Is the Saoshyant</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_FOREVER</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_MEMORABLE_CELEBRATION</zType>
+		<zText>Hosted a memorable celebration</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_OWES_A_DEBT</zType>
+		<zText>Owes a debt</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_MADE_A_SACRIFICE</zType>
+		<zText>Sacrificed the deer</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
 </Root>

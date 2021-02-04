@@ -15,11 +15,6 @@
 		<iTurns>4</iTurns>
 	</Entry>
 	<Entry>
-		<zType>MEMORYCHARACTER_INFLUENCE</zType>
-		<zText>Remembers your influence</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
-	</Entry>
-	<Entry>
 		<zType>MEMORYCHARACTER_MATCH_PREVENT</zType>
 		<zText>Verhinderte meine gewünschte Partie</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
@@ -1024,11 +1019,6 @@
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYCHARACER_MADE_NO_DECISION</zType>
-		<zText>Made no decision</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
-	</Entry>
-	<Entry>
 		<zType>MEMORYCHARACTER_CORRESPONDENCE_WITH_HEIR</zType>
 		<zText>Started correspondence with heir</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
@@ -1146,5 +1136,35 @@
 		<zType>MEMORYCHARACTER_DENOUNCED_FINDINGS</zType>
 		<zText>Denounced my findings</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_ACCEPTED_PRAISE</zType>
+		<zText>Denounced my findings</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_IGNORED_OBJECTION</zType>
+		<zText>Ignored my objections</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_UPHELD_OBJECTION</zType>
+		<zText>Accepted my objections</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_IMPRESSED_BY_ORATOR_SKILL</zType>
+		<zText>Impressed by skill as an Orator</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_REFUSED_TO_SACRIFICE</zType>
+		<zText>Refused to make a sacrifice</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_PILGRIMAGED_TOGETHER</zType>
+		<zText>Went on a pilgrimage together</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 </Root>

@@ -279,6 +279,7 @@
 		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
 		<Keys>LeftShift+Alpha6,RightShift+Alpha6</Keys>
 	</Entry>
+	<!-- Unassigned for now
 	<Entry>
 		<zType>HOTKEY_PREVIOUS_CITY</zType>
 		<zName>Vorherige Stadt</zName>
@@ -292,7 +293,7 @@
 		<HotkeyClass>HOTKEYCLASS_NAVIGATION</HotkeyClass>
 		<Keys>E</Keys>
 		<bKeyboardMap>1</bKeyboardMap>						
-	</Entry>
+	</Entry> -->
 	<Entry>
 		<zType>HOTKEY_PASS</zType>
 		<zName>Wechsle und passe für ausgewählte Einheit</zName>
@@ -398,6 +399,20 @@
 		<Keys>F8</Keys>
 	</Entry>
 	<Entry>
+		<zType>HOTKEY_PREVIOUS_TAB</zType>
+		<zName>Vorheriger Tab</zName>
+		<HotkeyClass>HOTKEYCLASS_SCREENS</HotkeyClass>
+		<Keys>Q</Keys>
+		<bKeyboardMap>1</bKeyboardMap>
+	</Entry>
+	<Entry>
+		<zType>HOTKEY_NEXT_TAB</zType>
+		<zName>Nächster Tab</zName>
+		<HotkeyClass>HOTKEYCLASS_SCREENS</HotkeyClass>
+		<Keys>E</Keys>
+		<bKeyboardMap>1</bKeyboardMap>
+	</Entry>
+	<Entry>
 		<zType>HOTKEY_GAME_EDITOR</zType>
 		<zName>Spieleditor</zName>
 		<HotkeyClass>HOTKEYCLASS_SCREENS</HotkeyClass>
@@ -498,7 +513,7 @@
 	</Entry>
 	<Entry>
 		<zType>HOTKEY_RELOAD_INFOS</zType>
-		<zName>Lade Infos erneut</zName>
+		<zName>Infos erneut laden</zName>
 		<HotkeyClass>HOTKEYCLASS_DEBUG</HotkeyClass>
 		<Keys>LeftControl+LeftShift+R,RightControl+RightShift+R</Keys>
 	</Entry>
@@ -644,12 +659,14 @@
 		<zName>Go to next input</zName>
 		<HotkeyClass>HOTKEYCLASS_EVENT_BROWSER</HotkeyClass>
 		<Keys>Tab</Keys>
+		<bOnDown>1</bOnDown>
 	</Entry>
 	<Entry>
 		<zType>HOTKEY_EVENT_BROWSER_PREVIOUS_INPUT</zType>
 		<zName>Go to previous input</zName>
 		<HotkeyClass>HOTKEYCLASS_EVENT_BROWSER</HotkeyClass>
 		<Keys>LeftShift+Tab</Keys>
+		<bOnDown>1</bOnDown>
 	</Entry>
 	<Entry>
 		<zType>HOTKEY_CYCLE_PLAYER_1</zType>
