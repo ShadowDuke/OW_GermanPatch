@@ -127,10 +127,6 @@
 		<Translation>Ausbilder</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_KEEN</zType>
-		<Translation>Scharfsinnig</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_TRAIT_EQUESTRIAN</zType>
 		<Translation>Reiter</Translation>
 	</Entry>
@@ -357,10 +353,6 @@
 	<Entry>
 		<zType>TEXT_TRAIT_INCUBATED</zType>
 		<Translation>Kränkelnd</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_POISONER</zType>
-		<Translation>Meister der Gifte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_POISONED</zType>
@@ -590,4 +582,8 @@
 		<zType>TEXT_TRAIT_SAVIOR_OF_THE_THRONE</zType>
 		<Translation>Retter des Thrones</Translation>
 	</Entry>
+	<Entry>
+        <zType>TEXT_TRAIT_SAOSHYANT</zType>
+        <Translation>Saoshyant</Translation>
+    </Entry>
 </Root>

@@ -1196,6 +1196,10 @@
 		<Translation><![CDATA[Schenke {0_city} an {1_player} [Halte <TEXT_HOTKEY_CTRL> um zu bestätigen]]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_GIFT_CITY_BUTTON</zType>
+		<Translation>Schenke {0_city} an einen anderen Spieler</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_GIFT_CITY_CANNOT_GIFT</zType>
 		<Translation>Kann Stadt nicht für {0_number} {1_turnScale} beschenken</Translation>
 	</Entry>
@@ -1282,6 +1286,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_NO_CANDIDATES</zType>
 		<Translation>Keine Kandidaten verfügbar</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_CANDIDATES_TEXT</zType>
+		<Translation>Verfügbare Kandidat(en)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CANDIDATES</zType>
@@ -1640,8 +1648,8 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Besiedle Feld für {0_money} ({1_city})</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_BECOME_AGENT</zType>
-		<Translation><![CDATA[Werde {0_agent} für {1_money}<true_2> in {2_city}<false><end>]]></Translation>
+		<zType>TEXT_HELPTEXT_WIDGET_CREATE_AGENT_NETWORK</zType>
+		<Translation>Beauftrage {0_agentNetwork} für {1_money} in {2_city}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CARAVAN_MISSION</zType>
@@ -1941,6 +1949,10 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Deckt derzeitige Stadt auf</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_AGENT_NETWORK</zType>
+		<Translation>Insert link(UNIT_SCOUT,1) into a Foreign City to gain visibility. A Character can then be sent to the City to serve as link(CONCEPT_AGENT,1). The link(UNIT_SCOUT) will be returned after int(AGENT_NETWORK_TURNS) Turns.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_HELP_ALLIANCE_TRIBE</zType>
 		<Translation><![CDATA[Can move and attack with the Units of this Tribe.<br>Can found cities near their settlements.<br>Will share your Diplomatic state with other Tribes.<br>Can only have an Alliance with one Tribe.<br>Alliance will last until the end of the current Leader's reign.]]></Translation>
 	</Entry>
@@ -2187,6 +2199,11 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
     <Translation><![CDATA[link(CONCEPT_AMBITION,1) are goals for you to pursue, and completing them will grant you a permanent boost to link(CONCEPT_LEGITIMACY). Complete ten link(CONCEPT_AMBITION,1), and you win the game!]]></Translation>
   </Entry>
   <Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_LEGACY</zType>
+		<Translation>When the Leader dies, all the current link(CONCEPT_AMBITION,2) become Legacies, which must be completed in int(LEGACY_MAX_TURNS) Turns. Failing to finish a Legacy in time will reduce your link(CONCEPT_LEGITIMACY).
+Complete ten Ambitions and link(CONCEPT_LEGACY,2), and you win an Ambition Victory!</Translation>
+	</Entry>
+	<Entry>
     <zType>TEXT_HELPTEXT_HELP_TRIBE</zType>
     <Translation><![CDATA[Tribes can engage in limited diplomacy, but generally won't be coordinated the way opposing nations are.]]></Translation>
   </Entry>
@@ -2622,6 +2639,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_NET_UNIT_CONSUMPTION</zType>
 		<Translation><![CDATA[{0}: {1consumptionLink}<true_2> ({2}x)<false><end>]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_YIELD_NET_AS</zType>
+		<Translation>{0}: {1} ({2}), as {3}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_NET_UPKEEP</zType>
@@ -3311,6 +3332,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_HURRY_DISCONTENT</zType>
 		<Translation>{0_value} icon(YIELD_DISCONTENT) vom beschleunigen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_BUILD_TURNS</zType>
+		<Translation>{0_value} {1_turnScale} um Verbesserungen zu bauen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_URBAN_BUILD_TURNS</zType>
@@ -4327,6 +4352,14 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>{0} (in {1_city})</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_CONVERT_RELIGION</zType>
+		<Translation>Konvertiert zu {0_religion}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_CONVERT_STATE_RELIGION</zType>
+		<Translation>Konvertiert zur Staatsreligion</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_NO_COURTIER</zType>
 		<Translation>Verlässt den Hofstaat</Translation>
 	</Entry>
@@ -5136,8 +5169,8 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>({0_city}) Kolonisieren</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_TILE_BECOME_AGENT_BUTTON</zType>
-		<Translation>Werde ({0_city}) Agent</Translation>
+		<zType>TEXT_HELPTEXT_TILE_CREATE_AGENT_NETWORK_BUTTON</zType>
+		<Translation>Erstelle link(CONCEPT_AGENT_NETWORK) in {0_city}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_CARAVAN_MISSION_BUTTON</zType>
@@ -5810,12 +5843,8 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation><![CDATA[<TEXT_HOTKEY_CTRL_CLICK> um den link(CONCEPT_AGENT) zu ändern]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_CHOOSE_AGENT_CLICK_TO_RETURN_AGENT</zType>
-		<Translation><![CDATA[<TEXT_HOTKEY_ALT_CLICK> um den Agenten zurückzugeben]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_CHOOSE_AGENT_CANNOT_RETURN</zType>
-		<Translation><![CDATA[Cannot Return for {0_number} <singular_0>Year<plural>Years<end>]]></Translation>
+		<zType>TEXT_HELPTEXT_AGENT_WILL_RETURN</zType>
+		<Translation>Wird zurückkehren {0_unit} in {1_number} {singular_1:Year:Years}</Translation>
 	</Entry>
 	<!--POPUPS-->
 	<Entry>
@@ -5915,6 +5944,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Aufgeben</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_RETIRE_BUTTON</zType>
+		<Translation>Zur Ruhe setzen</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_EXIT_BUTTON</zType>
 		<Translation>Zurück zum Menü</Translation>
 	</Entry>
@@ -5954,7 +5987,15 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<zType>TEXT_HELPTEXT_CLOUD_KICK</zType>
 		<Translation>Active player surrenders and becomes controlled by the AI</Translation>
 	</Entry>
-	<Entry>	
+	<Entry>
+		<zType>TEXT_HELPTEXT_OPTION_TEAM_NATIONS</zType>
+		<Translation>Rules for player nation selection</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_OPTION_TEAM_NATIONS_CHARACTERS_WARNING</zType>
+		<Translation>Nations must be Unique when Characters are enabled</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DISBAND_UNIT_PROMPT_TITLE</zType>
 		<Translation>Löse {0_unit} auf?</Translation>
 	</Entry>
@@ -6384,6 +6425,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Benötigt {0} {singular_0:{1_luxuryLink}:{1,2_luxuriesLink}} an Familien gesendet</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_URBAN_TILES</zType>
+		<Translation>Benötigt {0} link(TERRAIN_URBAN) {singular_0:Tile:Tiles}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_URBAN_IMPROVEMENTS</zType>
 		<Translation>Benötigt {0} link(CONCEPT_URBAN) {singular_0:Verbesserung:Verbesserungen}</Translation>
 	</Entry>
@@ -6502,10 +6547,6 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_TURNS_LEFT</zType>
 		<Translation>{1_turnScale} Übrig: {0}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_GOAL_HELP_LEGACY</zType>
-		<Translation>(This link(CONCEPT_AMBITION) is a Legacy)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_MAX_YEARS</zType>
@@ -6652,6 +6693,14 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<zType>TEXT_HELPTEXT_OPINION_HELP_BIRTH_MODIFIER</zType>
 		<Translation>Geburtsmodifikator: {0}</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_OPINION_HELP_MISSION_COST_MODIFIER</zType>
+		<Translation>Mission Cost Modifier: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_OPINION_HELP_COURT_RATE_MODIFIER</zType>
+		<Translation>Global Yield Modifier: {0}</Translation>
+	</Entry>
 	<!--Player Opinion-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_NO_EFFECTS</zType>
@@ -6683,8 +6732,8 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Religion Meinung: {0}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_RELIGION_OPINION_EACH_CITY</zType>
-		<Translation>Jede Stadt: {0}</Translation>
+		<zType>TEXT_HELPTEXT_RELIGION_EFFECT_CITY_EACH</zType>
+		<Translation>[Jede Stadt] {0}</Translation>
 	</Entry>
 	<!--Opponent Level-->
 	<Entry>

@@ -2,7 +2,7 @@
 <!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Leyla Johnson (Private) -->
 <Root>
 	<!--Assets/GameAssets/Resources/Infos/improvement.xml-->
-	<!--NOTE: improvement names that are mass nouns or plural do not need multiple types in Translation-->
+	<!--NOTE: improvement names that are mass nouns or plural do not need multiple types in English-->
 	<Entry>
 		<zType/>
 		<Translation/>
@@ -28,8 +28,8 @@
 		<Translation>Sigeszug</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_PROJECT_CULTURAL_APPROPRIATION</zType>
-		<Translation>Cultural Appropriation</Translation>
+		<zType>TEXT_PROJECT_CULTURAL_PAGEANT</zType>
+		<English>Cultural Pageant</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_PURPLE_DYE</zType>

@@ -86,6 +86,10 @@
 		<Translation>POPUP NACHRICHT</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_ACHIEVEMENT</zType>
+		<Translation>ACHIEVEMENT</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_DO_BONUS</zType>
 		<Translation>BONUS EFFEKTE</Translation>
 	</Entry>
@@ -184,6 +188,10 @@
 	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_UNIT_SEEN</zType>
 		<Translation>EINHEIT GESICHTET</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_UNIT_QUEUE_CANCELLED</zType>
+		<Translation>UNIT QUEUE CANCELLED</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_CITY_ATTACKED</zType>
@@ -574,10 +582,6 @@
 		<Translation>Verbessern zu {0}</Translation>
 	</Entry>
 	<Entry>
-        <zType>TEXT_UI_RELIGION_PANEL_HOLY_CITY</zType>
-        <Translation>Gegründet in {0}</Translation>
-    </Entry>
-	<Entry>
 		<zType>TEXT_UI_RELIGION_PANEL_STATE_RELIGION</zType>
 		<Translation>{0} (Staats)</Translation>
 	</Entry>
@@ -649,6 +653,10 @@
 		<zType>TEXT_UI_RENAME_CITY_POPUP</zType>
 		<Translation>Stadt umbenennen</Translation>
 	</Entry>
+	<Entry>
+        <zType>TEXT_UI_RENAME_UNIT_POPUP</zType>
+        <Translation>Einheit umbenennen</Translation>
+    </Entry>
 	<Entry>
 		<zType>TEXT_UI_RENAME_RELIGION_POPUP</zType>
 		<Translation>Religion umbenennen</Translation>
@@ -930,7 +938,92 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
     <Entry>
         <zType>TEXT_MENU_SCREEN_NEXT_BUTTON</zType>
         <Translation>Nächster</Translation>
-    </Entry>
+	</Entry>
+	<!-- wiki-navigation -->
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_FAMILYCLASSES</zType>
+		<Translation>Familien Art</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_CONCEPTS</zType>
+		<Translation>Konzepte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_YIELDS</zType>
+		<Translation>Gewinne</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_TECHNOLOGIES</zType>
+		<Translation>Technologien</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_UNITS</zType>
+		<Translation>Einheiten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_SPECIALISTS</zType>
+		<Translation>Spezialisten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_PROJECTS</zType>
+		<Translation>Projekte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_LAWS</zType>
+		<Translation>Gesetze</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_RELIGIONS</zType>
+		<Translation>Religionen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_NATIONS</zType>
+		<Translation>Nationen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_TRIBES</zType>
+		<Translation>Stämme</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_COGNOMEN</zType>
+		<Translation>Spitzname</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_CHARACTERS</zType>
+		<Translation>Charaktere</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_IMPROVEMENTS</zType>
+		<Translation>Verbesserungen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_RESOURCES</zType>
+		<Translation>Ressourcen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_VEGETATION</zType>
+		<Translation>Vegetation</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_TERRAIN</zType>
+		<Translation>Terrain</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_ARCHETYPES</zType>
+		<Translation>Archetyp</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_COUNCILS</zType>
+		<Translation>Hofrat</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_TRAITS</zType>
+		<Translation>Eigenschaften</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_THEOLOGIES</zType>
+		<Translation>Religionswissenschaften</Translation>
+	</Entry>
     <!-- selected-city -->
     <Entry>
         <zType>TEXT_GIFT_CITY_TEAMMATE</zType>
@@ -1332,6 +1425,14 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
         <zType>TEXT_MP_SETUP_INVALID_START</zType>
         <Translation>"Keine doppelten Nationen" Spieloption is aktiviert</Translation>
     </Entry>
+	<Entry>
+        <zType>TEXT_MP_SETUP_INVALID_START_NATIONS</zType>
+        <Translation>"No Duplicate Nations" game option is enabled, but there are more players than unique nations or duplicate nations have been selected</Translation>
+    </Entry>
+    <Entry>
+        <zType>TEXT_MP_SETUP_INVALID_START_MAP</zType>
+        <Translation>"Premade Map" is selected, but no map file has been specified</Translation>
+    </Entry>
     <!-- players-->
     <Entry>
         <zType>TEXT_MP_SETUP_PLAYERS_NAME</zType>
@@ -1459,10 +1560,18 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
 		<Translation>Zug Modus</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_SCENARIO_SETUP_SHOWOPTIONS</zType>
+		<zType>TEXT_SCENARIO_SETUP_SHOW_OPTIONS</zType>
 		<Translation>Zeige Optionen</Translation>
 	</Entry>
-   <Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_SETUP_SHOW_DESC</zType>
+		<Translation>Show Description</Translation>
+	</Entry>
+    <Entry>
+        <zType>TEXT_SCENARIO_SETUP_FILE_BROWSE</zType>
+        <Translation>Browse</Translation>
+    </Entry>
+	<Entry>
     <zType>TEXT_SCENARIO_SETUP_FILE_LOADED</zType>
     <Translation>{0} Geladen</Translation>
   </Entry>
@@ -1723,7 +1832,36 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
     <Entry>
         <zType>TEXT_CITY_LIST_SORT_LEVEL</zType>
         <Translation>[CTRL+CLICK] to sort by {0_yield} level</Translation>
-    </Entry>
+	</Entry>
+	<!-- popup-victory.xml-->
+	<Entry>
+		<zType>TEXT_UI_VICTORY_SCREEN_GOALS</zType>
+		<Translation><![CDATA[<true_0>Ambitions and Score<false>Score List<end>]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_VICTORY_SCREEN_PROGRESS</zType>
+		<Translation>Sieg Forschritt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_VICTORY_SCREEN_SCENARIO</zType>
+		<Translation>Scenario Info</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_VICTORY_CURRENT_LEADER</zType>
+		<Translation>Derzeitiger Anführer:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_VICTORY_TIME_PROGRESS</zType>
+		<Translation>Verbleibende Züge: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_VICTORY_CONQUEST_PROGRESS</zType>
+		<Translation>Verbliebene gegnersiche Teams: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_VICTORY_DOUBLE_PROGRESS</zType>
+		<Translation>Punkte benötigt: {0}</Translation>
+	</Entry>
     <!--overview-map.xml-->
     <Entry>
         <zType>TEXT_OVERVIEW_MAP_MAPOPTIONS</zType>
@@ -1828,6 +1966,14 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
 		<Translation>Siegbedingungen</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_POPUP_VICTORY_PROGRESS</zType>
+		<Translation>Victory Progress</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_POPUP_VICTORY_SCENARIO</zType>
+		<Translation>Scenario Info</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_POPUP_VICTORY_AMBITIONS</zType>
 		<Translation>Ambitionen</Translation>
 	</Entry>
@@ -1919,8 +2065,8 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
 		<Translation>Zeitleiste</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_LOG_AI</zType>
-		<Translation>KI Aufzeichnung</Translation>
+		<zType>TEXT_GAME_LOG_DEBUG</zType>
+		<Translation>Debug Log</Translation>
 	</Entry>
 	<!--family-list.xml-->
 	<Entry>
@@ -1971,8 +2117,8 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
 	</Entry>
 	<!--ai-log.xml-->
 	<Entry>
-		<zType>TEXT_AI_LOG</zType>
-		<Translation>KI Aufzeichnung</Translation>
+		<zType>TEXT_DEBUG_LOG</zType>
+		<Translation>Debug Log</Translation>
 	</Entry>	 
     <!--comparisonportrait-->
     <Entry>
@@ -2033,8 +2179,12 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
     </Entry>
 	<!-- Main Menu-->
     <Entry>
-        <zType>TEXT_UI_MAIN_MENU_ACTIVE_MODS</zType>
-        <Translation>Aktive Mods</Translation>
+        <zType>TEXT_MAIN_MENU_ACTIVE_MODS</zType>
+		<Translation><![CDATA[Aktive <color=#e3c08ccc>Mods</color>]]></Translation>
+	</Entry>
+    <Entry>
+        <zType>TEXT_MAIN_MENU_CURRENT_GAMES</zType>
+        <Translation>Current Games</Translation>
     </Entry>
 <!--MPSetupScreenPanel-->
 	<Entry>

@@ -21,6 +21,7 @@
 		<zScaleSingular>Halbjahr</zScaleSingular>
 		<zScalePlural>Halbjährlich</zScalePlural>
 		<zScaleShort>hj</zScaleShort>
+		<bEnabled>1</bEnabled>
 		<azTurnNames>
 			<zValue>Early</zValue>
 			<zValue>Late</zValue>
@@ -44,18 +45,18 @@
 		<zScalePlural>Monate</zScalePlural>
 		<zScaleShort>m</zScaleShort>
 		<azTurnNames>
-			<zValue>January</zValue>
-			<zValue>February</zValue>
-			<zValue>March</zValue>
+			<zValue>Januar</zValue>
+			<zValue>Februar</zValue>
+			<zValue>März</zValue>
 			<zValue>April</zValue>
-			<zValue>May</zValue>
-			<zValue>June</zValue>
-			<zValue>July</zValue>
+			<zValue>Mai</zValue>
+			<zValue>Juni</zValue>
+			<zValue>Juli</zValue>
 			<zValue>August</zValue>
 			<zValue>September</zValue>
-			<zValue>October</zValue>
+			<zValue>Oktober</zValue>
 			<zValue>November</zValue>
-			<zValue>December</zValue>
+			<zValue>Dezember</zValue>
 		</azTurnNames>
 	</Entry>
 </Root>

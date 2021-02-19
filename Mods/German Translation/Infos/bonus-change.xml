@@ -5,7 +5,11 @@
 		<zType/>
 		<zName comment="Bonus title string. This is ONLY necessary if this bonus changes Legitimacy"/>
 		<zIcon comment="Bonus icon. This is only shown in tech tooltips"/>
+		<CharacterName comment="Rename a Character"/>
+		<CityName comment="Rename a City"/>
+		<UnitName comment="Rename a Unit"/>
 		<Victory comment="Player achieves this Victory type"/>
+		<Achievement comment="Player gets this Achievement"/>
 		<MemoryPlayer comment="Memory received by the Player Subject"/>
 		<ForgetPlayer comment="Memory forgotten by the Player Subject"/>
 		<MemoryAllPlayers comment="Memory received by all rival Players"/>
@@ -42,6 +46,7 @@
 		<SetVegetation comment="Sets the Tile's Vegetation"/>
 		<SetResource comment="Sets the Tile's Resource"/>
 		<SetImprovement comment="Sets the Tile's Improvement"/>
+		<AddImprovement comment="Adds Improvement to a random valid Tile for the City Subject"/>
 		<iSpreadUnits comment="List of Religion units that will appear near the City Subject"/>
 		<iRevealRange comment="Reveals this range distance from the Tile"/>
 		<iCitizens comment="Number of citizens added to the City Subject"/>
@@ -93,6 +98,7 @@
 		<bFreeLaw comment="Starts the Law without paying the cost"/>
 		<bFreeTheology comment="Establishes the Theology without paying the cost"/>
 		<bFreeTech comment="The Player will receive a random free Tech"/>
+		<bConvertStateReligion comment="Set this Character's Religion to the Player's State Religion"/>
 		<bNoCourtier comment="Character will no longer be a Courtier"/>
 		<bLeaveCouncil comment="Character will no longer be on the Council"/>
 		<bReleaseGeneral comment="If set to 1 (true), the character Subject will be released from being a general"/>
@@ -153,7 +159,11 @@
 		<zType/>
 		<zName/>
 		<zIcon/>
-		<Victory/>	
+		<CharacterName/>
+		<CityName/>
+		<UnitName/>
+		<Victory/>
+		<Achievement/>
 		<MemoryPlayer/>
 		<ForgetPlayer/>
 		<MemoryTribe/>
@@ -189,6 +199,7 @@
 		<SetVegetation/>
 		<SetResource/>
 		<SetImprovement/>
+		<AddImprovement/>
 		<iSpreadUnits/>		 
 		<iRevealRange/>
 		<iCitizens/>
@@ -240,6 +251,7 @@
 		<bFreeLaw/>
 		<bFreeTheology/>
 		<bFreeTech/>
+		<bConvertStateReligion/>
 		<bNoCourtier/>
 		<bLeaveCouncil/>
 		<bReleaseGeneral/>
@@ -330,6 +342,11 @@
 		<zType>BONUS_FINISHED_LEGACY</zType>
 		<zName>Erfüllte Vermächtnis(se)</zName>
 		<iLegitimacy>5</iLegitimacy>
+	</Entry>
+	<Entry>
+		<zType>BONUS_FAILED_LEGACY</zType>
+		<zName>Failed Legac(ies)</zName>
+		<iLegitimacy>-5</iLegitimacy>
 	</Entry>
 	<Entry>
 		<zType>BONUS_FINISHED_QUEST</zType>
@@ -569,12 +586,7 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_FAMILYCLASS_CHAMPIONS_SEAT</zType>
-		<aiGlobalYieldsBase>
-			<Pair>
-				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>400</iValue>
-			</Pair>
-		</aiGlobalYieldsBase>
+		<AddImprovement>IMPROVEMENT_GARRISON_1</AddImprovement>
 	</Entry>
 	<Entry>
 		<zType>BONUS_FAMILYCLASS_STATESMEN</zType>
@@ -811,6 +823,10 @@
 		<iRevealRange>5</iRevealRange>
 	</Entry>
 	<Entry>
+		<zType>BONUS_RANDOM_TECH</zType>
+		<bFreeTech>1</bFreeTech>
+	</Entry>
+	<Entry>
 		<zType>BONUS_YIELD_ORDERS</zType>
 		<aiGlobalYieldsBase>
 			<Pair>
@@ -901,6 +917,11 @@
 		<zName>Abdankung</zName>
 		<iLegitimacy>-2</iLegitimacy>
 		<bAbdicate>1</bAbdicate>
+	</Entry>
+	<Entry>
+		<zType>BONUS_MISSIONRESULT_CONVERT_RELIGION</zType>
+		<zName>Konvertiere zur Staatsreligion</zName>
+		<bConvertStateReligion>1</bConvertStateReligion>
 	</Entry>
 	<Entry>
 		<zType>BONUS_MISSIONRESULT_ADOPT</zType>
@@ -1180,7 +1201,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>200</iValue>
+				<iValue>150</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1189,7 +1210,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>300</iValue>
+				<iValue>250</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1225,7 +1246,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_CIVICS</zIndex>
-				<iValue>40</iValue>
+				<iValue>50</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1234,7 +1255,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_CIVICS</zIndex>
-				<iValue>50</iValue>
+				<iValue>80</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1252,7 +1273,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
-				<iValue>20</iValue>
+				<iValue>15</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1261,7 +1282,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
-				<iValue>30</iValue>
+				<iValue>25</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1367,7 +1388,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
-				<iValue>80</iValue>
+				<iValue>40</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1376,7 +1397,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
-				<iValue>120</iValue>
+				<iValue>80</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1385,7 +1406,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
-				<iValue>160</iValue>
+				<iValue>120</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1394,7 +1415,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
-				<iValue>200</iValue>
+				<iValue>160</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -6246,6 +6267,10 @@
 		<AddLeaderRelationship>RELATIONSHIP_INFLUENCED_BY</AddLeaderRelationship>
 	</Entry>
 	<Entry>
+		<zType>BONUS_LEADER_INTERCESSED_FOR</zType>
+		<AddLeaderRelationship>RELATIONSHIP_INTERCESSED_FOR</AddLeaderRelationship>
+	</Entry>
+	<Entry>
 		<zType>BONUS_LEADER_JEALOUS_ABOUT</zType>
 		<AddLeaderRelationship>RELATIONSHIP_JEALOUS_ABOUT</AddLeaderRelationship>
 	</Entry>
@@ -6304,6 +6329,10 @@
 	<Entry>
 		<zType>BONUS_LEADER_INFLUENCED_BY_REMOVE</zType>
 		<RemoveLeaderRelationship>RELATIONSHIP_INFLUENCED_BY</RemoveLeaderRelationship>
+	</Entry>
+	<Entry>
+		<zType>BONUS_LEADER_INTERCESSED_FOR_REMOVE</zType>
+		<RemoveLeaderRelationship>RELATIONSHIP_INTERCESSED_FOR</RemoveLeaderRelationship>
 	</Entry>
 	<Entry>
 		<zType>BONUS_LEADER_JEALOUS_ABOUT_REMOVE</zType>
@@ -6455,12 +6484,6 @@
 		<zType>BONUS_GIVE_TRAIT_DRILLMASTER</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_DRILLMASTER</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_GIVE_TRAIT_KEEN</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_KEEN</zValue>
 		</aeAddTraits>
 	</Entry>
 	<Entry>
@@ -6842,12 +6865,6 @@
 		</aeRemoveTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GIVE_TRAIT_POISONER</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_POISONER</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
 		<zType>BONUS_GIVE_TRAIT_POISONED</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_POISONED</zValue>
@@ -7142,5 +7159,120 @@
 	<Entry>
 		<zType>BONUS_RELEASE_AGENT</zType>
 		<bReleaseAgent>1</bReleaseAgent>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_100_YEARS</zType>
+		<Achievement>ACHIEVEMENT_100_YEARS</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER</zType>
+		<Achievement>ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER</Achievement>
+		<bKillCharacter>1</bKillCharacter>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_ASSASSINATED_HEIR</zType>
+		<Achievement>ACHIEVEMENT_ASSASSINATED_HEIR</Achievement>
+		<bKillCharacter>1</bKillCharacter>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_BLADE_OF_THE_MONKEY</zType>
+		<Achievement>ACHIEVEMENT_BLADE_OF_THE_MONKEY</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_BLADE_OF_THE_MONKEY_KILL</zType>
+		<Achievement>ACHIEVEMENT_BLADE_OF_THE_MONKEY</Achievement>
+		<bKillCharacter>1</bKillCharacter>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_ROMAN_PAPACY</zType>
+		<Achievement>ACHIEVEMENT_ROMAN_PAPACY</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_FAMILY_ANGRY</zType>
+		<Achievement>ACHIEVEMENT_FAMILY_ANGRY</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_FAMILY_PLEASED</zType>
+		<Achievement>ACHIEVEMENT_FAMILY_PLEASED</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_MEMPHIS_PYRAMIDS</zType>
+		<Achievement>ACHIEVEMENT_MEMPHIS_PYRAMIDS</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_UR_GREAT_ZIGGURAT</zType>
+		<Achievement>ACHIEVEMENT_UR_GREAT_ZIGGURAT</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_DELPHI_ORACLE</zType>
+		<Achievement>ACHIEVEMENT_DELPHI_ORACLE</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_BABYLON_HANGING_GARDENS</zType>
+		<Achievement>ACHIEVEMENT_BABYLON_HANGING_GARDENS</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_THEBES_NECROPOLIS</zType>
+		<Achievement>ACHIEVEMENT_THEBES_NECROPOLIS</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_BABYLON_ISHTAR_GATE</zType>
+		<Achievement>ACHIEVEMENT_BABYLON_ISHTAR_GATE</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_ALEXANDRIA_LIGHTHOUSE</zType>
+		<Achievement>ACHIEVEMENT_ALEXANDRIA_LIGHTHOUSE</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_PERSEPOLIS_APADANA</zType>
+		<Achievement>ACHIEVEMENT_PERSEPOLIS_APADANA</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_HALICARNASSUS_MAUSOLEUM</zType>
+		<Achievement>ACHIEVEMENT_HALICARNASSUS_MAUSOLEUM</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_ATHENS_ACROPOLIS</zType>
+		<Achievement>ACHIEVEMENT_ATHENS_ACROPOLIS</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_RHODES_COLOSSUS</zType>
+		<Achievement>ACHIEVEMENT_RHODES_COLOSSUS</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_ALEXANDRIA_MUSAEUM</zType>
+		<Achievement>ACHIEVEMENT_ALEXANDRIA_MUSAEUM</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_ROMA_CIRCUS_MAXIMUS</zType>
+		<Achievement>ACHIEVEMENT_ROMA_CIRCUS_MAXIMUS</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_ROMA_PANTHEON</zType>
+		<Achievement>ACHIEVEMENT_ROMA_PANTHEON</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_BYZANTIUM_HAGIA_SOPHIA</zType>
+		<Achievement>ACHIEVEMENT_BYZANTIUM_HAGIA_SOPHIA</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_DAMASCUS_VIA_RECTA_SOUK</zType>
+		<Achievement>ACHIEVEMENT_DAMASCUS_VIA_RECTA_SOUK</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_OLD_WORLD_ORDER</zType>
+		<Achievement>ACHIEVEMENT_OLD_WORLD_ORDER</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_POWER_TO_THE_PEOPLE</zType>
+		<Achievement>ACHIEVEMENT_POWER_TO_THE_PEOPLE</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_PANTHEON_OF_GODS</zType>
+		<Achievement>ACHIEVEMENT_PANTHEON_OF_GODS</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_THE_WORD_OF_GOD</zType>
+		<Achievement>ACHIEVEMENT_THE_WORD_OF_GOD</Achievement>
 	</Entry>
 </Root>

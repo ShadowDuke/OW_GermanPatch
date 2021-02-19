@@ -246,11 +246,6 @@
 		<bUpgrade>1</bUpgrade>
 	</Entry>
 	<Entry>
-		<zType>PROMOTION_VALOR</zType>
-		<zName>Heldenmut</zName>
-		<EffectUnit>EFFECTUNIT_VALOR</EffectUnit>
-	</Entry>
-	<Entry>
 		<zType>PROMOTION_INGENUITY</zType>
 		<zName>Raffinesse</zName>
 		<EffectUnit>EFFECTUNIT_INGENUITY</EffectUnit>

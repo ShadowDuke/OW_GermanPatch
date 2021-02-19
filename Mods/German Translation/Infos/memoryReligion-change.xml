@@ -376,13 +376,13 @@
 	</Entry>
 	<Entry>
         <zType>MEMORYRELIGION_SUPPORTED_FAITH</zType>
-        <zText>Rose to support the faith</zText>
-        <MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+        <zText>Gave support</zText>
+        <MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
     </Entry>
     <Entry>
         <zType>MEMORYRELIGION_REFUSED_SUPPORT</zType>
-        <zText>Refused to support the faith</zText>
-	<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+        <zText>Refused support</zText>
+	<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
     </Entry>
 	<Entry>
 		<zType>MEMORYRELIGION_ACCEPTED_GOVERNOR</zType>
@@ -448,5 +448,30 @@
 		<zType>MEMORYRELIGION_MADE_A_SACRIFICE</zType>
 		<zText>Sacrificed the deer</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_RETURNED_SCROLLS</zType>
+		<zText>Returned the scrolls</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_IGNORED_DIVINE_ANGER</zType>
+		<zText>Ignored divine anger</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_ACCEPTED_DIVINE_ANGER</zType>
+		<zText>Accepted divine anger</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_REFUSED_PAYMENT_FOR_FIGHT</zType>
+		<zText>Didn't pay for medical treatment</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_TEMPLE_MARKET</zType>
+		<zText>Closed temple market</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
 	</Entry>
 </Root>

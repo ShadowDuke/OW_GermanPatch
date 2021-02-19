@@ -99,11 +99,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_IMPROVEMENT_STARTED</zType>
-		<Translation><![CDATA[{0_player} hat den Bau von {1_improvement}! begonnen]]></Translation>
+		<Translation>{0_player} hat den Bau von {1_improvement} begonnen!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_IMPROVEMENT_COMPLETED</zType>
-		<Translation><![CDATA[{0_improvement} fertiggestellt von {1_player}!]]></Translation>
+		<Translation>{0_improvement} abgeschlossen von {1_player}!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_RELIGION_SPREAD_TO_CITY</zType>
@@ -176,6 +176,10 @@
 	<Entry>
 		<zType>TEXT_GAME_COURTIER_JOINED_POPUP</zType>
 		<Translation>{0_character} ist deinem Hofstaat beigetreten!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_CHARACTER_TUTORS_AGE</zType>
+		<Translation>{0_character} is now old enough to be Tutored by {1,2_Courtier}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CHARACTER_ADULT_POPUP</zType>
@@ -336,6 +340,10 @@
 		<Translation>{0_subject}: Vergisst {1_memory} ({2_value} Meinung)</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_RENAME</zType>
+		<Translation>Umbenannt {0_name}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_END_ALLIANCE</zType>
 		<Translation>Beende {0_alliance} mit {1_subject}</Translation>
 	</Entry>
@@ -420,6 +428,10 @@
 		<Translation>Gründete {1_religion}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_ADD_IMPROVEMENT</zType>
+		<Translation>{0_improvement} erstellt</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_CITIZENS</zType>
 		<Translation><![CDATA[{0_value} <singular_0>{1_citizenLink}<plural>{1,2_citizenLink}<end>]]></Translation>
 	</Entry>
@@ -492,6 +504,10 @@
 		<Translation>{0_character} Startet Mission: {1_mission}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_STARTS_MISSION_FREE</zType>
+		<Translation>Free</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_VICTORY</zType>
 		<Translation>{0_victory} Sieg</Translation>
 	</Entry>
@@ -510,14 +526,6 @@
   <Entry>
 		<zType>TEXT_GAME_DO_BONUS_PLAYER_FREE_LAW</zType>
 		<Translation>{0_player}: Freies {1_law}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_LEAVE_COURT</zType>
-		<Translation>Verlässt den Hofstaat</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_LEAVE_COUNCIL</zType>
-		<Translation>Tritt zurück vom {0_council}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_MAKE_GOVERNOR</zType>
@@ -785,6 +793,14 @@
 		<zType>TEXT_GAME_UNIT_FINISHED_CARAVAN_MISSION</zType>
 		<Translation>link(CONCEPT_CARAVAN_MISSION) mit {0_player} Vollendet: {1_money} {2_memory}</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_UNIT_RECEIVED_CARAVAN_MISSION</zType>
+		<Translation>link(CONCEPT_CARAVAN_MISSION) arrives from {0_player}: {1_money}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_UNIT_STUNNED</zType>
+		<Translation>Stunned</Translation>
+	</Entry>
 	<!--City-->
 	<Entry>
 		<zType>TEXT_GAME_CITY_YIELD_FROM_CULTURE_EVENT</zType>
@@ -800,8 +816,12 @@
 	</Entry>
 	<!--Player-->
 	<Entry>
+		<zType>TEXT_GAME_PLAYER_ACHIEVEMENT_UNLOCKED</zType>
+		<Translation>Achievement Unlocked: {0}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_PLAYER_RESOURCE_SHORTFALL</zType>
-		<Translation>Ressourcen Defizit: {0} ausgegeben um {1} zu kaufen</Translation>
+		<Translation>Resource Shortfall: Spent {0} to buy {1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_PLAYER_MISSION_CANCELLED</zType>

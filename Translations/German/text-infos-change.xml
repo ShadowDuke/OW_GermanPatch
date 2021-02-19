@@ -53,6 +53,10 @@
 		<Translation>Agent</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CONCEPT_AGENT_NETWORK</zType>
+		<Translation>Agenten Netzwerk~ein Agenten Netzwerk~Agenten Netzwerke</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CONCEPT_ALLIANCE_TRIBE</zType>
 		<Translation>Barbaren Bündnis</Translation>
 	</Entry>
@@ -102,19 +106,55 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_FAMILY_SEAT</zType>
-		<Translation>Familien Sitz</Translation>
+		<Translation>Famiilien Sitz Seat~ein Familien Sitz ~Familien Sitze</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_FAMILY</zType>
+		<Translation>Familie~eine Familie~Familien</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_GENERAL</zType>
-		<Translation>Heerführer</Translation>
+		<Translation>Heerführer~ein Heerführer~Heerführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_GOVERNOR</zType>
-		<Translation>Stadthalter</Translation>
+		<Translation>Stadthalter~ein Stadthalter~Stadthalter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_COUNCILOR</zType>
+		<Translation>Hofrat~ein Hofrat~Hofräte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_SHRINE</zType>
+		<Translation>Schrein~ein Schrein~Schreine</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_SPECIALIST</zType>
+		<Translation>Spezialist~ein Spezialist~Spezialisten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_HARVEST_RESOURCE</zType>
-		<Translation>Ressourcen ernten</Translation>
+		<Translation>Ressource ernten~Ressourcen ernten~Erntbare Ressourcen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_MARCH</zType>
+		<Translation>Gewzungener Marsch~Gewzungene Märsche~Gewzungener Marsch~Gewzungener Marsch~Gewzungener Marsch</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_FATIGUE</zType>
+		<Translation>Ermüdet~Ermüdet</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_AMBITION</zType>
+		<Translation>Ambition~eine Ambition~Ambitionen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_STATE_RELIGION</zType>
+		<Translation>Staatsreligion ~eine Staatsreligion~Staatsreligionen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_COGNOMEN</zType>
+		<Translation>Spitzname~ein Spitzname~Spitznamen</Translation>
 	</Entry>
 	<Entry>
         <zType>TEXT_CONCEPT_HIDDEN</zType>
@@ -127,6 +167,10 @@
 	<Entry>
 		<zType>TEXT_CONCEPT_IGNORES_ZOC</zType>
 		<Translation>Ignoriert ZOC</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_LEGACY</zType>
+		<Translation>Vermächtmis~ein Vermächtmis~Vermächtmisse</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_LEGITIMACY</zType>
@@ -1225,6 +1269,10 @@
 		<Translation>Nehme eine fremde Hauptstadt ein</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GOAL_ALL_PEACE</zType>
+		<Translation>Peace with All Tribes and Empires</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GOAL_SIX_CAPTURE_CITIES</zType>
 		<Translation>Nehme acht fremde Städte ein</Translation>
 	</Entry>
@@ -1737,8 +1785,8 @@
 		<Translation>Befehlsschub</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TECH_SIEGECRAFT</zType>
-		<Translation>Belagerungskünste</Translation>
+		<zType>TEXT_TECH_MACHINERY</zType>
+		<Translation>Mechanismus</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_COINAGE</zType>

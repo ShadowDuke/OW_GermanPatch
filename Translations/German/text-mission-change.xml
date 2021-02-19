@@ -19,15 +19,15 @@
 		<Translation>Bestimme link(COUNCIL_SPYMASTER)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_TEAM_ALLIANCE</zType>
+		<zType>TEXT_MISSION_PLAYER_ALLIANCE</zType>
 		<Translation>link(CONCEPT_ALLIANCE_PLAYER</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_TEAM_ALLIANCE_TARGET</zType>
+		<zType>TEXT_MISSION_PLAYER_ALLIANCE_TARGET</zType>
 		<Translation>link(CONCEPT_ALLIANCE_PLAYER) mit</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSION_TEAM_ALLIANCE_HUMAN</zType>
+		<zType>TEXT_MISSION_PLAYER_ALLIANCE_HUMAN</zType>
 		<Translation>link(CONCEPT_ALLIANCE_PLAYER)</Translation>
 	</Entry>
 	<Entry>
@@ -225,6 +225,18 @@
 	<Entry>
 		<zType>TEXT_MISSION_INFLUENCE</zType>
 		<Translation>Beeinflussen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_CONVERT_RELIGION</zType>
+		<Translation>Konvertiere Religion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_INTERCESSION</zType>
+		<Translation>Führsprache</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_INTERCESSION_CHARACTER</zType>
+		<Translation>Führsprache durch</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_ADOPT</zType>

@@ -2,7 +2,7 @@
 <!-- edited with XMLSpy v2014 rel. 2 (x64) (http://www.altova.com) by Soren Johnson (private) -->
 <Root>
 	<!--Assets/GameAssets/Resources/Infos/improvement.xml-->
-	<!--NOTE: improvement names that are mass nouns or plural do not need multiple types in English-->
+	<!--NOTE: improvement names that are mass nouns or plural do not need multiple types in Translation-->
 	<Entry>
 		<zType/>
 		<Translation/>
@@ -450,5 +450,9 @@
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_GODS_CONSORT_SHRINE</zType>
 		<Translation>Götter gatten Schrein~ein Götter gatten Schrein~Göttergatten Schreine</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_IMPROVEMENT_SHRINE_TRIBE_PAGANISM</zType>
+		<Translation>Stamm Schrein~ein Stamm Schrein~Stamm Schreine</Translation>
 	</Entry>
 </Root>

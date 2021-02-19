@@ -1625,4 +1625,9 @@
 		<zText>Has divine lineage</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_FAITH_SPONSORING</zType>
+		<zText>Stopped us from sponsoring worship</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
 </Root>

@@ -31,6 +31,10 @@
 		<Translation>{0_key}+{1_key}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HOTKEY_LEFT_CLICK</zType>
+		<Translation>[LINKS-KLICK]</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HOTKEY_RIGHT_CLICK</zType>
 		<Translation>[RECHTS-KLICK]</Translation>
 	</Entry>

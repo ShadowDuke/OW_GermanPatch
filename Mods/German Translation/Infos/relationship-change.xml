@@ -83,6 +83,13 @@
 		<iMinAgeThem>15</iMinAgeThem>
 	</Entry>
 	<Entry>
+		<zType>RELATIONSHIP_INTERCESSED_FOR</zType>
+		<zName>Intercessed for</zName>
+		<iOpinion>60</iOpinion>
+		<iMinAgeUs>10</iMinAgeUs>
+		<iMinAgeThem>15</iMinAgeThem>
+	</Entry>
+	<Entry>
 		<zType>RELATIONSHIP_JEALOUS_ABOUT</zType>
 		<zName>Eifersüchtig über</zName>
 		<iOpinion>-40</iOpinion>
@@ -165,11 +172,11 @@
 	<Entry>
 		<zType>RELATIONSHIP_BYPASSED_BY</zType>
 		<zName>Umgangen von</zName>
-		<iOpinion>-100</iOpinion>
+		<iOpinion>-40</iOpinion>
 	</Entry>
 	<Entry>
 		<zType>RELATIONSHIP_DIVORCED_BY</zType>
 		<zName>Geschieden von</zName>
-		<iOpinion>-100</iOpinion>
+		<iOpinion>-80</iOpinion>
 	</Entry>
 </Root>

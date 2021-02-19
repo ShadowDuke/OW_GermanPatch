@@ -3,7 +3,7 @@
 <Root>
 	<Entry>
 		<zType/>
-		<zName/>
+		<Name/>
 		<bToggle/>
 		<bConquest/>
 		<bAmbitions/>	   
@@ -14,14 +14,14 @@
 	</Entry>
 	<Entry>
 		<zType>VICTORY_POINTS</zType>
-		<zName>Punkte</zName>
+		<Name>TEXT_VICTORY_POINTS</Name>
 		<bToggle>1</bToggle>
 		<iPercentVP>100</iPercentVP>
 		<zHelp>Sieg von der Anzahl der Siegpunkte.</zHelp>
 	</Entry>
 	<Entry>
 		<zType>VICTORY_DOUBLE</zType>
-		<zName>Doppel</zName>
+		<Name>TEXT_VICTORY_DOUBLE</Name>
 		<bToggle>1</bToggle>
 		<iPercentVP>50</iPercentVP>
 		<iOpponentMaxPointPercent>50</iOpponentMaxPointPercent>
@@ -30,21 +30,21 @@
 	</Entry>
 	<Entry>
 		<zType>VICTORY_AMBITION</zType>
-		<zName>Ehrgeiz</zName>
+		<Name>TEXT_VICTORY_AMBITION</Name>
 		<bToggle>1</bToggle>
-		<bAmbitions>10</bAmbitions>
+		<bAmbitions>1</bAmbitions>
 		<zHelp>Sieg bei Erfüllung von 10 Ambitionen.</zHelp>
 	</Entry>
 	<Entry>
 		<zType>VICTORY_TIME</zType>
-		<zName>Zeit</zName>
+		<Name>TEXT_VICTORY_TIME</Name>
 		<iOpponentMaxPointPercent>100</iOpponentMaxPointPercent>
 		<iMinTurns>200</iMinTurns>
 		<zHelp>Sieg wenn man am Ende nach 200 Jahren die meisten Siegpunkte hat.</zHelp>
 	</Entry>
 	<Entry>
 		<zType>VICTORY_CONQUEST</zType>
-		<zName>Eroberung</zName>
+		<Name>TEXT_VICTORY_CONQUEST</Name>
 		<bConquest>1</bConquest>
 		<zHelp>Sieg wenn man alle anderen Nationen erobert hat.</zHelp>
 	</Entry>

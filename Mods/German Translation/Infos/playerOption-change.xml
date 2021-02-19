@@ -19,11 +19,6 @@
 		<zDesc>Der Support der Aufzeichnung der Wiederholung benötigt eine große Menge verfügbaren Arbeitsspeicher.</zDesc>
 	</Entry>
 	<Entry>
-		<zType>PLAYEROPTION_ALL_CANDIDATES</zType>
-		<zName>Alle Beschäftigungskandidaten</zName>
-		<zDesc>Liste Hofrat, Stadthalter und Feldherr Kandidaten welche bereits beschäftigt sind</zDesc>
-	</Entry>
-	<Entry>
 		<zType>PLAYEROPTION_INSTANT_UNIT_MOVEMENT</zType>
 		<zName>Sofortige Einheiten Bewegung</zName>
 		<zDesc>Keine Einheiten Bewegungsanimation</zDesc>

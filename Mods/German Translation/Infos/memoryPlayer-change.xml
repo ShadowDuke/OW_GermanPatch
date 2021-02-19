@@ -66,6 +66,10 @@
 		<iTurns>20</iTurns>
 	</Entry>
 	<Entry>
+		<zType>MEMORYPLAYER_CONTACTED_FIRST_NATION</zType>
+		<zText>Met first rival Nation</zText>
+	</Entry>
+	<Entry>
 		<zType>MEMORYPLAYER_TRUCE</zType>
 		<zText>Spieler Waffenruhe</zText>
 		<iTurns>5</iTurns>
@@ -326,9 +330,6 @@
 		<zType>MEMORYPLAYER_RECEIVED_BRIBE</zType>
 		<zText>Received gifts of bribery</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
-	</Entry>
-	<Entry>
-		<zType>MEMORYPLAYER_SCHEMING_HEIR_ONE_LIVE</zType>
 	</Entry>
 	<Entry beginGroup="Diplomacy">
 		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_GIFT</zType>
@@ -709,5 +710,15 @@
 		<zType>MEMORYPLAYER_REFUSED_PILGRIMS</zType>
 		<zText>Refused entry to our peaceful pilgrims</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+		<Entry>
+		<zType>MEMORYPLAYER_RELEASED_PRISONERS</zType>
+		<zText>Returned our people despite their crimes</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_JUDGED_PRISONERS</zType>
+		<zText>Captured our people for their crimes</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
 	</Entry>
 </Root>

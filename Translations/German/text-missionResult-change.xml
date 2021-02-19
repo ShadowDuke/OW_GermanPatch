@@ -34,6 +34,22 @@
 		<Translation>The Influence Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_CONVERT_RELIGION_DESCRIPTION</zType>
+		<Translation>You have successfully converted {CHARACTER-TARGET} to your State Religion.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_CONVERT_RELIGION_EVENT_DESCRIPTION</zType>
+		<Translation>The Convert Religion Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_INTERCESSION_DESCRIPTION</zType>
+		<Translation>{CHARACTER-SUBJECT} has successfully intercessed upon {CHARACTER-TARGET} on your behalf.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_INTERCESSION_EVENT_DESCRIPTION</zType>
+		<Translation>The Intercession Mission of {CHARACTER-SUBJECT} to {CHARACTER-TARGET} has led to an event...</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_INFILTRATE_REVEAL_DESCRIPTION</zType>
 		<Translation>{CHARACTER-SUBJECT} hat Erfolgreich das Gebiet deines Rivalen infiltriert.</Translation>
 	</Entry>
@@ -349,6 +365,22 @@
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INFLUENCE_EVENT</zType>
 		<Translation>Einfluss Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_CONVERT_RELIGION</zType>
+		<Translation>Religion konvertiert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_CONVERT_RELIGION_EVENT</zType>
+		<Translation>Religions Konvertierungs Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_INTERCESSION</zType>
+		<Translation>Führsprache vollendet</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_INTERCESSION_EVENT</zType>
+		<Translation>Führsprache Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_ADOPT</zType>

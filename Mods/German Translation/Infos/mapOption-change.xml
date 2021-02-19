@@ -382,11 +382,6 @@
 		<zDescription>Two continents of nearly-equal size</zDescription>
 	</Entry>
 	<Entry>
-		<zType>MAP_OPTION_DISJUNCTION_CONTINENTS_TWO_UNEVEN</zType>
-		<zName>Zwei Kontinente, ungleichmäßig geteilt</zName>
-		<zDescription>Two continents, one larger than the other</zDescription>
-	</Entry>
-	<Entry>
 		<zType>MAP_OPTION_DISJUNCTION_CONTINENTS_THREE_EVEN</zType>
 		<zName>Drei Kontinente, gleichmäßig geteilt</zName>
 		<zDescription>Three continents of nearly-equal size</zDescription>
@@ -395,5 +390,10 @@
 		<zType>MAP_OPTION_DISJUNCTION_CONTINENTS_THREE_UNEVEN</zType>
 		<zName>Drei Kontinente, ungleichmäßig geteilt</zName>
 		<zDescription>Three continents of uneven sizes</zDescription>
+	</Entry>
+	<Entry>
+		<zType>MAP_OPTION_DISJUNCTION_CONTINENTS_TEAMS</zType>
+		<zName>Ein Kontinent pro Team</zName>
+		<zDescription>One continent per team, with size proportional to the number of team members</zDescription>
 	</Entry>
 </Root>

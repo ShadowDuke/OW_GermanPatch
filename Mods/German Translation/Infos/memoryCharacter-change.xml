@@ -75,6 +75,10 @@
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
+		<zType>MEMORYCHARACTER_PROVIDED_FAVOR</zType>
+		<zText>Provided a favor</zText>
+	</Entry>
+	<Entry>
 		<zType>MEMORYCHARACTER_LOST_CONSORT</zType>
 		<zText>Took away my consort</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
@@ -93,6 +97,26 @@
 		<zType>MEMORYCHARACTER_IGNORED_SUGGESTION_TO_ABDICATE</zType>
 		<zText>Ignored my plea to abdicate</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+		<Entry>
+		<zType>MEMORYCHARACTER_IGNORED_SUGGESTION_TO_INFILTRATE</zType>
+		<zText>Ignored my plea to infiltrate a suspicious neignor</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_IGNORED_SUGGESTION_TO_SLANDER</zType>
+		<zText>Ignored my plea to slander a neignor</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_FOLLOWED_SUGGESTION_TO_INFILTRATE</zType>
+		<zText>Acceded to my request to infiltrate a suspicious neignor</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_FOLLOWED_SUGGESTION_TO_SLANDER</zType>
+		<zText>Acceded to my request to slander a neignor</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_WARNED_TO_STOP</zType>
@@ -963,6 +987,13 @@
 		<zText>Refused to take me on a holiday</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_POOR_SPOUSE</zType>
+		<zText>My spouse is poor company</zText>
+		<iValue>-20</iValue>
+		<iTurns>5</iTurns>
+		<bName>1</bName>
+	</Entry>
 	<Entry beginGroup="Miscellaneous">
 		<zType>MEMORYCHARACTER_TOOK_MY_AMBITION</zType>
 		<zText>Took my ambition</zText>
@@ -1052,11 +1083,6 @@
 		<zText>Influenced by a foreign spy</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>	 
-	<Entry>
-		<zType>MEMORYCHARACTER_REFUSED_FAITH_SPONSORING</zType>
-		<zText>Stopped me from sponsoring worship</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
-	</Entry>
 	<Entry beginGroup="Diplomacy">
 		<zType>MEMORYCHARACTER_GAVE_TECH</zType>
 		<zText>Shared technology with me</zText>
@@ -1166,5 +1192,14 @@
 		<zType>MEMORYCHARACTER_PILGRIMAGED_TOGETHER</zType>
 		<zText>Went on a pilgrimage together</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_SCHEMING_HEIR_ONE_LIVE</zType>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_SCHEMING_HEIR_TWO_LIVE</zType>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_SCHEMING_HEIR_THREE_LIVE</zType>
 	</Entry>
 </Root>

@@ -11,7 +11,7 @@
 		<iDefenseModifier/>
 		<iCriticalChance/>
 		<iUnitXP/>
-		<aiYieldLeaderRate/>
+		<aiYieldCourtRate/>
 		<aiYieldGovernorModifier/>
 		<aiYieldAgentPercent/>
 	</Entry>
@@ -24,12 +24,12 @@
 Für Feldherren erhöht Weisheit erhöht die kritische Chance der Einheit.
 		</zHelp>
 		<iCriticalChance>1</iCriticalChance>
-		<aiYieldLeaderRate>
+		<aiYieldCourtRate>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
 				<iValue>10</iValue>
 			</Pair>
-		</aiYieldLeaderRate>
+		</aiYieldCourtRate>
 		<aiYieldGovernorModifier>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
@@ -51,12 +51,12 @@ Für Feldherren erhöht Weisheit erhöht die kritische Chance der Einheit.
 		<zHelp>Für Oberhäupter und Stadthalter erhöht Charisma {YIELD_CIVICS}.
 Für Feldherren erhöht Charisma erhöht die Verteidigung der Einheiten.</zHelp>
 		<iDefenseModifier>2</iDefenseModifier>
-		<aiYieldLeaderRate>
+		<aiYieldCourtRate>
 			<Pair>
 				<zIndex>YIELD_CIVICS</zIndex>
 				<iValue>20</iValue>
 			</Pair>
-		</aiYieldLeaderRate>
+		</aiYieldCourtRate>
 		<aiYieldGovernorModifier>
 			<Pair>
 				<zIndex>YIELD_CIVICS</zIndex>
@@ -79,12 +79,12 @@ Für Feldherren erhöht Charisma erhöht die Verteidigung der Einheiten.</zHelp>
 Für Feldherren erhöht Mut die Stärke der Einheiten.
 		</zHelp>
 		<iStrengthModifier>1</iStrengthModifier>
-		<aiYieldLeaderRate>
+		<aiYieldCourtRate>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
 				<iValue>40</iValue>
 			</Pair>
-		</aiYieldLeaderRate>
+		</aiYieldCourtRate>
 		<aiYieldGovernorModifier>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
@@ -107,12 +107,12 @@ Für Feldherren erhöht Mut die Stärke der Einheiten.
 Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.
 		</zHelp>
 		<iUnitXP>1</iUnitXP>
-		<aiYieldLeaderRate>
+		<aiYieldCourtRate>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
 				<iValue>80</iValue>
 			</Pair>
-		</aiYieldLeaderRate>
+		</aiYieldCourtRate>
 		<aiYieldGovernorModifier>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
@@ -136,7 +136,7 @@ Als Stadthalter erhöht sich {YIELD_CULTURE}, {YIELD_SCIENCE}, {YIELD_CIVICS}, {
 Für Feldherren erhöht Bekanntheit die Verteidgung der Einheit.
 		</zHelp>
 		<iDefenseModifier>3</iDefenseModifier>
-		<aiYieldLeaderRate>
+		<aiYieldCourtRate>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
 				<iValue>10</iValue>
@@ -165,7 +165,7 @@ Für Feldherren erhöht Bekanntheit die Verteidgung der Einheit.
 				<zIndex>YIELD_MONEY</zIndex>
 				<iValue>-40</iValue>
 			</Pair>
-		</aiYieldLeaderRate>
+		</aiYieldCourtRate>
 		<aiYieldGovernorModifier>
 			<Pair>
 				<zIndex>YIELD_CULTURE</zIndex>
