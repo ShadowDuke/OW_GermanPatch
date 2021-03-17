@@ -11,10 +11,12 @@
 		<Victory comment="Player achieves this Victory type"/>
 		<Achievement comment="Player gets this Achievement"/>
 		<MemoryPlayer comment="Memory received by the Player Subject"/>
+		<MemoryPlayerOther comment="Memory received by the Player Subject (only works if the Subject is another Player)"/>																											
 		<ForgetPlayer comment="Memory forgotten by the Player Subject"/>
 		<MemoryAllPlayers comment="Memory received by all rival Players"/>
-		<MemoryTribe comment="Memory received by the Barbarian Subject"/>
-		<ForgetTribe comment="Memory forgotten by the Barbarian Subject"/>
+		<MemoryTribe comment="Memory received by the Tribe Subject"/>
+		<ForgetTribe comment="Memory forgotten by the Tribe Subject"/>
+		<MemoryAllTribes comment="Memory received by all Tribes"/>
 		<MemoryReligion comment="Memory received by the Religion Subject"/>
 		<ForgetReligion comment="Memory forgotten by the Religion Subject"/>
 		<MemoryFamily comment="Memory received by the Family Subject"/>
@@ -74,11 +76,15 @@
 		<iSpreadToSubject comment="Religion will spread to the previous Subject City at this index"/>
 		<iRemoveFromSubject comment="Religion will be removed from the previous Subject City at this index"/>
 		<iConvertReligionSubject comment="The previous Subject Character at this index will convert to this Religion"/>																										 
+		<iHeadReligionSubject comment="The previous Subject Character at this index will become Head of this Religion"/>
+		<iHeadFamilySubject comment="The previous Subject Character at this index will become Head of this Family"/>
+		<iAcquireTechSubject comment="The previous Subject at this index acquires the Tech"/>															   
 		<iTradeResourceSubject comment="Trades the Resources to previous Subject at this index"/>
 		<iAgentCitySubject comment="Character will become the Agent in the previous Subject City at this index"/>
 		<iTradeCitySubject comment="Trade the City to the previous Subject at this index"/>
 		<iMissionSubject comment="The Mission will target the previous Subject at this index"/>																		 
 		<iMissionReverse comment="The Mission character will be the previous Subject at this index"/>
+		<iAmbitionFamilySubject comment="Subject index of the Family associated with the Ambition"/>
 		<bMissionFree comment="The Mission will not have Yield costs"/>
 		<bMercenaryUnit comment="The Units created will not be processed through a City (so, no Family, for example)"/>																										 
 		<bRevealTerritory comment="Will reveal all the territory of this Player"/>
@@ -97,7 +103,7 @@
 		<bStartLaw comment="Starts the Law and pays the Civics cost"/>
 		<bFreeLaw comment="Starts the Law without paying the cost"/>
 		<bFreeTheology comment="Establishes the Theology without paying the cost"/>
-		<bFreeTech comment="The Player will receive a random free Tech"/>
+		<bRandomTech comment="The Player will receive a random free Tech"/>
 		<bConvertStateReligion comment="Set this Character's Religion to the Player's State Religion"/>
 		<bNoCourtier comment="Character will no longer be a Courtier"/>
 		<bLeaveCouncil comment="Character will no longer be on the Council"/>
@@ -165,9 +171,12 @@
 		<Victory/>
 		<Achievement/>
 		<MemoryPlayer/>
+		<MemoryPlayerOther/>
 		<ForgetPlayer/>
+		<MemoryAllPlayers/>
 		<MemoryTribe/>
 		<ForgetTribe/>
+		<MemoryAllTribes/>
 		<MemoryReligion/>
 		<ForgetReligion/>
 		<MemoryFamily/>
@@ -181,14 +190,14 @@
 		<DiplomacyPlayerTo/>
 		<DiplomacyTribe/>
 		<MakeCourtier/>
-    <StartLaw/>
-    <EndLaw/>
-    <FreeLaw/>
+		<StartLaw/>
+		<EndLaw/>
+		<FreeLaw/>
 		<FoundReligion/>
 		<AdoptReligion/>
 		<FreeTheology/>
 		<Quest/>
-		<QuestForce/>	   
+		<QuestForce/>
 		<Ambition/>
 		<FinishGoal/>
 		<FailGoal/>
@@ -200,7 +209,7 @@
 		<SetResource/>
 		<SetImprovement/>
 		<AddImprovement/>
-		<iSpreadUnits/>		 
+		<iSpreadUnits/>
 		<iRevealRange/>
 		<iCitizens/>
 		<iBorderGrowth/>
@@ -215,27 +224,31 @@
 		<iLegitimacy/>
 		<iTradeTurns/>
 		<iTributeTurns/>
-		<iAllianceSubject/>			 
+		<iAllianceSubject/>
 		<iMarrySubject/>
-		<iPolyMarrySubject/>			  
+		<iPolyMarrySubject/>
 		<iDivorcedBySubject/>
-		<iBirthWithSubject/>			  
+		<iBirthWithSubject/>
 		<iAdoptedBySubject/>
 		<iGovernorOfSubject/>
 		<iGeneralOfSubject/>
 		<iSeizeThroneSubject/>
 		<iSpreadToSubject/>
-		<iRemoveFromSubject/>			   
-		<iConvertReligionSubject/>					
+		<iRemoveFromSubject/>
+		<iConvertReligionSubject/>
+		<iHeadReligionSubject/>
+		<iHeadFamilySubject/>
+		<iAcquireTechSubject/>
 		<iTradeResourceSubject/>
 		<iAgentCitySubject/>
-		<iTradeCitySubject/>		  
+		<iTradeCitySubject/>
 		<iMissionSubject/>
-		<iMissionReverse/>			
-		<bMissionFree/>		 
-		<bMercenaryUnit/>		   
+		<iMissionReverse/>
+		<iAmbitionFamilySubject/>
+		<bMissionFree/>
+		<bMercenaryUnit/>
 		<bRevealTerritory/>
-		<bHolyCityAgents/>			
+		<bHolyCityAgents/>
 		<bCancelTrade/>
 		<bTeamAlliance/>
 		<bTeamAllianceEnd/>
@@ -246,11 +259,11 @@
 		<bStateReligion/>
 		<bStateReligionEnd/>
 		<bFoundReligion/>
-		<bFoundReligionCity/>			   
+		<bFoundReligionCity/>
 		<bStartLaw/>
 		<bFreeLaw/>
 		<bFreeTheology/>
-		<bFreeTech/>
+		<bRandomTech/>
 		<bConvertStateReligion/>
 		<bNoCourtier/>
 		<bLeaveCouncil/>
@@ -289,7 +302,7 @@
 		<aeRandomTrait/>
 		<aeAddTraits/>
 		<aeRemoveTraits/>
-		<aeRandomLeaderRelationship/>					   
+		<aeRandomLeaderRelationship/>
 		<aeTechs/>
 		<aeCultureProject/>
 		<aaiCultureYield/>
@@ -321,7 +334,7 @@
 	<Entry>
 		<zType>BONUS_TRIBE_FOUND</zType>
 		<zName>Auf Barbaren Land gegründet</zName>
-		<iLegitimacy>-5</iLegitimacy>
+		<iLegitimacy>-4</iLegitimacy>
 	</Entry>
 	<Entry>
 		<zType>BONUS_DISCOVERED_LANDMARK</zType>
@@ -385,6 +398,10 @@
 		<iLegitimacy>-2</iLegitimacy>
 	</Entry>
 	<Entry>
+		<zType>BONUS_ESTABLISH_THEOLOGY</zType>
+		<MemoryReligion>MEMORYRELIGION_ESTABLISH_THEOLOGY</MemoryReligion>
+	</Entry>
+	<Entry>
 		<zType>BONUS_PURGE_RELIGION</zType>
 		<MemoryReligion>MEMORYRELIGION_PURGE_RELIGION</MemoryReligion>
 		<aeBonuses>
@@ -407,6 +424,7 @@
 		<zType>BONUS_BREAK_PEACE</zType>
 		<zName>Friedensvertrag gebrochen</zName>
 		<MemoryAllPlayers>MEMORYPLAYER_BROKE_PEACE</MemoryAllPlayers>													   
+		<MemoryAllTribes>MEMORYTRIBE_BROKE_PEACE</MemoryAllTribes>
 		<iLegitimacy>-2</iLegitimacy>
 	</Entry>
 	<Entry>
@@ -618,7 +636,7 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_FAMILYCLASS_SAGES_SEAT</zType>
-		<bFreeTech>1</bFreeTech>				  
+		<bRandomTech>1</bRandomTech>
 	</Entry>
 	<Entry>
 		<zType>BONUS_FAMILYCLASS_TRADERS_SEAT</zType>
@@ -824,7 +842,7 @@
 	</Entry>
 	<Entry>
 		<zType>BONUS_RANDOM_TECH</zType>
-		<bFreeTech>1</bFreeTech>
+		<bRandomTech>1</bRandomTech>
 	</Entry>
 	<Entry>
 		<zType>BONUS_YIELD_ORDERS</zType>
@@ -933,6 +951,9 @@
 		<zType>BONUS_MISSIONRESULT_LEGITIMIZE</zType>
 		<zName>Legitimierter Bastard</zName>
 		<iLegitimacy>-2</iLegitimacy>
+		<aeAddTraits>
+			<zValue>TRAIT_LEGITIMIZED</zValue>
+		</aeAddTraits>
 		<aeRemoveTraits>
 			<zValue>TRAIT_BASTARD</zValue>
 		</aeRemoveTraits>
@@ -1006,6 +1027,7 @@
 	<Entry>
 		<zType>BONUS_MISSIONRESULT_ASSASSINATE_KILL_EXPOSED</zType>
 		<zName>Meucheln (Töten, Bloßgelegt)</zName>
+		<MemoryPlayerOther>MEMORYPLAYER_ASSASSINATION_EXPOSED</MemoryPlayerOther>
 		<MemoryFamily>MEMORYFAMILY_ASSASSINATION_EXPOSED</MemoryFamily>
 		<iLegitimacy>-2</iLegitimacy>
 		<bKillCharacter>1</bKillCharacter>
@@ -1013,6 +1035,7 @@
 	<Entry>
 		<zType>BONUS_MISSIONRESULT_ASSASSINATE_FAIL_EXPOSED</zType>
 		<zName>Meucheln (Versagt, Bloßgelegt)</zName>
+		<MemoryPlayerOther>MEMORYPLAYER_ASSASSINATION_EXPOSED</MemoryPlayerOther>
 		<MemoryFamily>MEMORYFAMILY_ASSASSINATION_EXPOSED</MemoryFamily>
 		<iLegitimacy>-2</iLegitimacy>
 	</Entry>
@@ -1300,7 +1323,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
-				<iValue>4</iValue>
+				<iValue>6</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1309,7 +1332,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
-				<iValue>6</iValue>
+				<iValue>8</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1318,7 +1341,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
-				<iValue>8</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1327,7 +1350,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
-				<iValue>10</iValue>
+				<iValue>12</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1662,6 +1685,16 @@
 		</aiUnits>
 	</Entry>
 	<Entry>
+		<zType>BONUS_TECH_LAND_CONSOLIDATION_BONUS_CAMEL_ARCHER</zType>
+		<zName>Free link(UNIT_CAMEL_ARCHER)</zName>
+		<aiUnits>
+			<Pair>
+				<zIndex>UNIT_CAMEL_ARCHER</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+		</aiUnits>
+	</Entry>
+	<Entry>
 		<zType>BONUS_TECH_LAND_CONSOLIDATION_BONUS_WAR_ELEPHANT</zType>
 		<zName>Free link(UNIT_WAR_ELEPHANT)</zName>
 		<aiUnits>
@@ -1677,7 +1710,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
-				<iValue>12</iValue>
+				<iValue>20</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1687,7 +1720,7 @@
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>1000</iValue>
+				<iValue>2000</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1722,12 +1755,22 @@
 		</aiUnits>
 	</Entry>
 	<Entry>
+		<zType>BONUS_TECH_STIRRUPS_BONUS_HORSE_ARCHER</zType>
+		<zName>Free link(UNIT_HORSE_ARCHER)</zName>
+		<aiUnits>
+			<Pair>
+				<zIndex>UNIT_HORSE_ARCHER</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+		</aiUnits>
+	</Entry>
+	<Entry>
 		<zType>BONUS_TECH_ARCHITECTURE_BONUS_CIVICS</zType>
 		<zName>Civics Boost</zName>
 		<aiGlobalYieldsBase>
 			<Pair>
 				<zIndex>YIELD_CIVICS</zIndex>
-				<iValue>500</iValue>
+				<iValue>1000</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
 	</Entry>
@@ -1736,7 +1779,7 @@
 		<zName>Goods Boost</zName>
 		<aiGlobalYieldsBase>
 			<Pair>
-				<zIndex>YIELD_WOOD</zIndex>
+				<zIndex>YIELD_IRON</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
@@ -1744,7 +1787,7 @@
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>YIELD_IRON</zIndex>
+				<zIndex>YIELD_WOOD</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 		</aiGlobalYieldsBase>
@@ -1755,26 +1798,6 @@
 		<aiUnits>
 			<Pair>
 				<zIndex>UNIT_ONAGER</zIndex>
-				<iValue>1</iValue>
-			</Pair>
-		</aiUnits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_TECH_MOUNTED_ARCHERY_BONUS_HORSE_ARCHER</zType>
-		<zName>Free link(UNIT_HORSE_ARCHER)</zName>
-		<aiUnits>
-			<Pair>
-				<zIndex>UNIT_HORSE_ARCHER</zIndex>
-				<iValue>1</iValue>
-			</Pair>
-		</aiUnits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_TECH_MOUNTED_ARCHERY_BONUS_CAMEL_ARCHER</zType>
-		<zName>Free link(UNIT_CAMEL_ARCHER)</zName>
-		<aiUnits>
-			<Pair>
-				<zIndex>UNIT_CAMEL_ARCHER</zIndex>
 				<iValue>1</iValue>
 			</Pair>
 		</aiUnits>
@@ -2319,6 +2342,46 @@
 		<aiUnits>
 			<Pair>
 				<zIndex>UNIT_WORKER</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+		</aiUnits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ZOROASTRIANISM_DISCIPLE</zType>
+		<zName>Free link(UNIT_ZOROASTRIANISM_DISCIPLE)</zName>
+		<aiUnits>
+			<Pair>
+				<zIndex>UNIT_ZOROASTRIANISM_DISCIPLE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+		</aiUnits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_JUDAISM_DISCIPLE</zType>
+		<zName>Free link(UNIT_JUDAISM_DISCIPLE)</zName>
+		<aiUnits>
+			<Pair>
+				<zIndex>UNIT_JUDAISM_DISCIPLE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+		</aiUnits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_CHRISTIANITY_DISCIPLE</zType>
+		<zName>Free link(UNIT_CHRISTIANITY_DISCIPLE)</zName>
+		<aiUnits>
+			<Pair>
+				<zIndex>UNIT_CHRISTIANITY_DISCIPLE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+		</aiUnits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_MANICHAEISM_DISCIPLE</zType>
+		<zName>Free link(UNIT_MANICHAEISM_DISCIPLE)</zName>
+		<aiUnits>
+			<Pair>
+				<zIndex>UNIT_MANICHAEISM_DISCIPLE</zIndex>
 				<iValue>1</iValue>
 			</Pair>
 		</aiUnits>
@@ -6307,12 +6370,20 @@
 		<RemoveLeaderRelationship>RELATIONSHIP_IN_LOVE_WITH</RemoveLeaderRelationship>
 	</Entry>
 	<Entry>
+		<zType>BONUS_LEADER_IN_LOVE_WITH_REMOVE_COPY</zType>
+		<RemoveLeaderRelationship>RELATIONSHIP_IN_LOVE_WITH</RemoveLeaderRelationship>
+	</Entry>
+	<Entry>
 		<zType>BONUS_LEADER_ALLIED_WITH_REMOVE</zType>
 		<RemoveLeaderRelationship>RELATIONSHIP_ALLIED_WITH</RemoveLeaderRelationship>
 	</Entry>
 	<Entry>
 		<zType>BONUS_LEADER_LOVER_OF_REMOVE</zType>
 		<RemoveLeaderRelationship>RELATIONSHIP_LOVER_OF</RemoveLeaderRelationship>
+	</Entry>
+	<Entry>
+		<zType>BONUS_LEADER_LOVER_OF_COPY</zType>
+		<AddLeaderRelationship>RELATIONSHIP_LOVER_OF</AddLeaderRelationship>
 	</Entry>
 	<Entry>
 		<zType>BONUS_LEADER_ENDEARED_TO_REMOVE</zType>
@@ -6985,6 +7056,12 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
+		<zType>BONUS_GIVE_TRAIT_LEGITIMIZED</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_LEGITIMIZED</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>
 		<zType>BONUS_GIVE_TRAIT_ADOPTED</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_ADOPTED</zValue>
@@ -7000,12 +7077,6 @@
 		<zType>BONUS_GIVE_TRAIT_SLIGHTED</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_SLIGHTED</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_GIVE_TRAIT_INFAMOUS</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_INFAMOUS</zValue>
 		</aeAddTraits>
 	</Entry>
 	<Entry>
@@ -7027,9 +7098,9 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GIVE_TRAIT_POPULAR_HERO</zType>
+		<zType>BONUS_GIVE_TRAIT_INFAMOUS</zType>
 		<aeAddTraits>
-			<zValue>TRAIT_POPULAR_HERO</zValue>
+			<zValue>TRAIT_INFAMOUS</zValue>
 		</aeAddTraits>
 	</Entry>
 	<Entry>
@@ -7129,6 +7200,22 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
+		<zType>BONUS_PROJECT_PROTECTION_EDICTS</zType>
+		<zName>Issued protection edicts</zName>
+		<iLegitimacy>2</iLegitimacy>
+		<aeAddProjects>
+			<zValue>PROJECT_PROTECTION_EDICTS</zValue>
+		</aeAddProjects>
+	</Entry>
+	<Entry>
+		<zType>BONUS_PROJECT_ROYAL_INSCRIPTIONS</zType>
+		<zName>Erected royal inscriptions</zName>
+		<iLegitimacy>2</iLegitimacy>
+		<aeAddProjects>
+			<zValue>PROJECT_ROYAL_INSCRIPTIONS</zValue>
+		</aeAddProjects>
+	</Entry>
+	<Entry>
 		<zType>BONUS_STUDY_DID_NOT_EXPEL</zType>
 		<MemoryAllFamilies>MEMORYFAMILY_DID_NOT_EXPEL_STUDENT</MemoryAllFamilies>
 	</Entry>
@@ -7161,6 +7248,14 @@
 		<bReleaseAgent>1</bReleaseAgent>
 	</Entry>
 	<Entry>
+		<zType>BONUS_CHARACTER_PROVIDED_FAVOR</zType>
+		<MemoryCharacter>MEMORYCHARACTER_PROVIDED_FAVOR</MemoryCharacter>
+	</Entry>
+	<Entry>
+		<zType>BONUS_CHARACTER_FORGET_FAVOR</zType>
+		<ForgetCharacter>MEMORYCHARACTER_PROVIDED_FAVOR</ForgetCharacter>
+	</Entry>
+	<Entry>
 		<zType>BONUS_ACHIEVEMENT_100_YEARS</zType>
 		<Achievement>ACHIEVEMENT_100_YEARS</Achievement>
 	</Entry>
@@ -7188,12 +7283,24 @@
 		<Achievement>ACHIEVEMENT_ROMAN_PAPACY</Achievement>
 	</Entry>
 	<Entry>
-		<zType>BONUS_ACHIEVEMENT_FAMILY_ANGRY</zType>
-		<Achievement>ACHIEVEMENT_FAMILY_ANGRY</Achievement>
+		<zType>BONUS_ACHIEVEMENT_ELEPHANTINE_ELEPHANT</zType>
+		<Achievement>ACHIEVEMENT_ELEPHANTINE_ELEPHANT</Achievement>
 	</Entry>
 	<Entry>
-		<zType>BONUS_ACHIEVEMENT_FAMILY_PLEASED</zType>
-		<Achievement>ACHIEVEMENT_FAMILY_PLEASED</Achievement>
+		<zType>BONUS_ACHIEVEMENT_KNOWLEDGE_ANCIENTS</zType>
+		<Achievement>ACHIEVEMENT_KNOWLEDGE_ANCIENTS</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_FAMILY_FURIOUS</zType>
+		<Achievement>ACHIEVEMENT_FAMILY_FURIOUS</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_FAMILY_FRIENDLY</zType>
+		<Achievement>ACHIEVEMENT_FAMILY_FRIENDLY</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_COUNCIL_OF_MADNESS</zType>
+		<Achievement>ACHIEVEMENT_COUNCIL_OF_MADNESS</Achievement>
 	</Entry>
 	<Entry>
 		<zType>BONUS_ACHIEVEMENT_MEMPHIS_PYRAMIDS</zType>
@@ -7274,5 +7381,25 @@
 	<Entry>
 		<zType>BONUS_ACHIEVEMENT_THE_WORD_OF_GOD</zType>
 		<Achievement>ACHIEVEMENT_THE_WORD_OF_GOD</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_ALEXANDER_THE_GREAT</zType>
+		<Achievement>ACHIEVEMENT_ALEXANDER_THE_GREAT</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_PUNIC_WARS</zType>
+		<Achievement>ACHIEVEMENT_PUNIC_WARS</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_MACEDONIAN_WARS</zType>
+		<Achievement>ACHIEVEMENT_MACEDONIAN_WARS</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_BATTLE_OF_OPIS</zType>
+		<Achievement>ACHIEVEMENT_BATTLE_OF_OPIS</Achievement>
+	</Entry>
+	<Entry>
+		<zType>BONUS_ACHIEVEMENT_MEDOBABYLONIAN_CONQUEST</zType>
+		<Achievement>ACHIEVEMENT_MEDOBABYLONIAN_CONQUEST</Achievement>
 	</Entry>
 </Root>

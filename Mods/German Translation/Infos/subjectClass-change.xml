@@ -22,6 +22,10 @@
 		<zName>Familie</zName>
 	</Entry>
 	<Entry>
+		<zType>SUBJECTCLASS_TECH</zType>
+		<zName>Technologi</zName>
+	</Entry>
+	<Entry>
 		<zType>SUBJECTCLASS_LAW</zType>
 		<zName>Gesetz</zName>
 	</Entry>

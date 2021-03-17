@@ -32,7 +32,7 @@
 	<Entry>
 		<zType>MEMORYFAMILY_GIVEN_CITY</zType>
 		<zText>Gibt uns eine Stadt</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_GAVE_AWAY_CITY</zType>
@@ -51,12 +51,12 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_PURSUED_AMBITION</zType>
-		<zText>Pursued our Ambition</zText>
+		<zText>Pursued our link(CONCEPT_AMBITION)</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_OUR_AMBITION</zType>
-		<zText>Unsere Ambition verfolgt</zText>
+		<zText>Completed our link(CONCEPT_AMBITION)</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -1391,6 +1391,11 @@
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
+		<zType>MEMORYFAMILY_FOREIGN_DELICASIES</zType>
+		<zText>Brought us foreign delicasies</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
 		<zType>MEMORYFAMILY_IMPRISONED_SPYMASTER</zType>
 		<zText>Imprisoned ineffective spymaster</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
@@ -1434,6 +1439,16 @@
 		<zType>MEMORYFAMILY_GAVE_OLIVE_OIL</zType>
 		<zText>Geschenk (Olivenöl) erhalten</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ENACTED_AMBITION_REVEAL_40</zType>
+		<zText>Agreed with us to focus on exploration</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_DENIED_AMBITION_REVEAL_40</zType>
+		<zText>Denied our wish to focus on exploration</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry beginGroup="Law">
 		<zType>MEMORYFAMILY_IMPRISONED_MEMBER</zType>
@@ -1629,5 +1644,35 @@
 		<zType>MEMORYFAMILY_REFUSED_FAITH_SPONSORING</zType>
 		<zText>Stopped us from sponsoring worship</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REMOVED_CORRUPT_OPPONENT</zType>
+		<zText>Dealt with a corrupt member of another family</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_UNJUSTLY_KILLED_MEMBER</zType>
+		<zText>Unjustly killed a member of our family</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_DISPUTE_DIPLOMAT</zType>
+		<zText>Sorted out a family dispute in a diplomatic way</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_UNDERMINED_RELIGIOUS_POSITION</zType>
+		<zText>Undermined religious standing</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_IMPRESSED_BY_CHEF</zType>
+		<zText>Impressed by 'your' chef</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_PRAISED_CHEF</zType>
+		<zText>Praised our chef</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
 	</Entry>
 </Root>

@@ -757,10 +757,6 @@
 		<Translation>Kontrolliere 100 Einwohner</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_HIGHEST_POPULATION</zType>
-		<Translation>Hächste Bevölkerung</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GOAL_GAULS_5</zType>
 		<Translation>Töte 5 link(BARBARIAN_GAULS)</Translation>
 	</Entry>
@@ -1261,10 +1257,6 @@
 		<Translation>Nehme zwei Stadte erneut ein</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_THREE_CAPTURE_CITIES</zType>
-		<Translation>Nehme vier fremde Städte ein</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GOAL_ONE_CAPITAL</zType>
 		<Translation>Nehme eine fremde Hauptstadt ein</Translation>
 	</Entry>
@@ -1273,8 +1265,8 @@
 		<Translation>Peace with All Tribes and Empires</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_SIX_CAPTURE_CITIES</zType>
-		<Translation>Nehme acht fremde Städte ein</Translation>
+		<zType>TEXT_GOAL_FIVE_CAPTURE_CITIES</zType>
+		<Translation>Nehme fünf fremde Städte ein</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_STATE_RELIGION</zType>
@@ -1843,18 +1835,6 @@
 	<Entry>
 		<zType>TEXT_TECH_MACHINERY_BONUS_ONAGER</zType>
 		<Translation>Freier Onager</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TECH_MOUNTED_ARCHERY</zType>
-		<Translation>Berittene Bogenschützen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TECH_MOUNTED_ARCHERY_BONUS_HORSE_ARCHER</zType>
-		<Translation>Freier berittener Bogenschütze</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TECH_MOUNTED_ARCHERY_BONUS_CAMEL_ARCHER</zType>
-		<Translation>Freier Kamel Bogenschütze</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_CARTOGRAPHY</zType>

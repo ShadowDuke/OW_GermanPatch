@@ -16,6 +16,10 @@
         <zType>TEXT_GENERIC_CANCEL</zType>
         <Translation>Abbrechen</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_GENERIC_NONE</zType>
+		<Translation>Nichts</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_UI_INPUT_MAX_CHARACTERS</zType>
         <Translation> (Max Charaktere: {0})</Translation>
@@ -300,7 +304,11 @@
     <Entry>
         <zType>TEXT_UI_CITY_TOOLTIP_FAMILY</zType>
         <Translation>Familie</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_CITY_TOOLTIP_REBEL_PROB</zType>
+		<Translation>link(TRIBE_REBELS) Wahrscheinlichkeit</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_UI_CITY_TOOLTIP_GOVERNOR</zType>
         <Translation>Stadthalter</Translation>
@@ -351,7 +359,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_GENERAL</zType>
-		<Translation>Feldherr:</Translation>
+		<Translation>Feldherr</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_GENERAL_OPINION</zType>
+		<Translation>Feldherr ({0_opinion})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_GENERAL_ENEMY_DEFENSE</zType>
@@ -534,7 +546,7 @@
 		<Translation>{0} (AKTIV)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_CHARACTER_ACTIONS_LEAVE_UNIT</zType>
+		<zType>TEXT_UI_CHARACTER_ACTIONS_LEAVE</zType>
 		<Translation>Verlasse {0}</Translation>
 	</Entry>
 	<Entry>
@@ -567,7 +579,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_FAMILY_ACTIONS_TRADE_AND_LUXURIES_TITLE</zType>
-		<Translation><![CDATA[Handel & Luxusgüter]]></Translation>
+		<Translation>Handel und link(CONCEPT_LUXURY)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_FAMILY_HEAD</zType>
+		<Translation>Familienoberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_FAMILY_ACTIONS_LIVING_MEMBERS_TITLE</zType>
@@ -576,6 +592,18 @@
 	<Entry>
 		<zType>TEXT_UI_FAMILY_ACTIONS_CITIES_TITLE</zType>
 		<Translation>Städte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_RELIGION_HEAD</zType>
+		<Translation>Religionsoberhaupt Head</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_PLAYER_SUCCESSION</zType>
+		<Translation>Nachfolgelinie</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_PLAYER_LEADER</zType>
+		<Translation>Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UPGRADE_TO</zType>
@@ -638,7 +666,7 @@
 		<Translation>GEWONNEN!!!</Translation>
 	</Entry>
 	<Entry>
-		<zType/>
+		<zType>TEXT_UI_WINNER_ROSTER_VICTORY_ALLIANCE</zType>
 		<Translation>ALLIANCE VICTORY!!!</Translation>
   </Entry>
   <Entry>
@@ -662,8 +690,16 @@
 		<Translation>Religion umbenennen</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_RENAME_PLAYER_POPUP</zType>
+		<Translation>Derzeitigen Spieler umbenennen</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_RENAME_CHARACTER</zType>
 		<Translation>Umbenennen {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_PLAYER_EMAIL_NOTIFICATIONS</zType>
+		<Translation>Enter an email to receive notifications when it's your turn</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_BORDER_GROWTH</zType>
@@ -1118,6 +1154,22 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
         <zType>TEXT_CLOUD_SCREEN_BACK_BUTTON</zType>
         <Translation>Zurück</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_CLOUD_SCREEN_KICK_ACTIVE_PLAYER</zType>
+		<Translation>Kick Active Player</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CLOUD_SCREEN_DOWNLOAD_SAVE</zType>
+		<Translation>Download</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CLOUD_SCREEN_DELETE_GAME</zType>
+		<Translation>Delete</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CLOUD_SCREEN_USER_TITLE</zType>
+		<Translation>Cloud Games</Translation>
+	</Entry>
 	<!--MP wizard screen-->
 	<Entry>
 		<zType>TEXT_MP_WIZARD_SCREEN_TITLE</zType>
@@ -1170,6 +1222,10 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
         <zType>TEXT_MP_GAME_SCREEN_BROWSER_BUTTON</zType>
         <Translation>Spiel Browser</Translation>
     </Entry>
+	<Entry>
+		<zType>TEXT_MP_GAME_SCREEN_TEAM_NAME</zType>
+		<Translation>Team {0}</Translation>
+	</Entry>
 	<!--multiplayer servers screen-->
 	<Entry>
 		<zType>TEXT_MP_SERVERS_SCREEN_TITLE</zType>
@@ -1213,8 +1269,72 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
     <Entry>
         <zType>TOOLS_SCREEN_MAP_EDITOR_BUTTON</zType>
         <Translation>Karten Editor</Translation>
-    </Entry>
-    <Entry>
+	</Entry>
+	<Entry>
+		<zType>TOOLS_SCREEN_MAP_EDITOR_GENERIC_NATION</zType>
+		<Translation>Generic</Translation>
+	</Entry>
+	<Entry>
+		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_VOLCANO</zType>
+		<Translation>Volcanoes</Translation>
+	</Entry>
+	<Entry>
+		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_MOUNTAIN_RANGE</zType>
+		<Translation>Mountain Ranges</Translation>
+	</Entry>
+	<Entry>
+		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_PEAK</zType>
+		<Translation>Peaks</Translation>
+	</Entry>
+	<Entry>
+		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_RIVER</zType>
+		<Translation>Rivers</Translation>
+	</Entry>
+	<Entry>
+		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_FOREST</zType>
+		<Translation>Forests</Translation>
+	</Entry>
+	<Entry>
+		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_HEATH</zType>
+		<Translation>Heaths</Translation>
+	</Entry>
+	<Entry>
+		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_PLAINS</zType>
+		<Translation>Plains</Translation>
+	</Entry>
+	<Entry>
+		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_DESERT</zType>
+		<Translation>Deserts</Translation>
+	</Entry>
+	<Entry>
+		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_PLATEAU</zType>
+		<Translation>Plateaus</Translation>
+	</Entry>
+	<Entry>
+		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_VALLEY</zType>
+		<Translation>Valleys</Translation>
+	</Entry>
+	<Entry>
+		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_OCEAN</zType>
+		<Translation>Oceans</Translation>
+	</Entry>
+	<Entry>
+		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_SEA</zType>
+		<Translation>Seas</Translation>
+	</Entry>
+	<Entry>
+		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_BAY</zType>
+		<Translation>Bays</Translation>
+	</Entry>
+	<Entry>
+		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_LAKE</zType>
+		<Translation>Lakes</Translation>
+	</Entry>
+	<Entry>
+		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_ISLAND</zType>
+		<Translation>Islands</Translation>
+	</Entry>
+	<Entry>	
         <zType>TOOLS_SCREEN_EVENT_BROWSER_BUTTON</zType>
         <Translation>Ereignis Browser</Translation>
     </Entry>
@@ -1783,14 +1903,6 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
         <zType>TEXT_TOOL_TIPS_DISCARDPILE</zType>
         <Translation>Verwerfe Stapel</Translation>
     </Entry>
-    <Entry>
-        <zType>TEXT_TOOL_TIPS_SHOWTECHTREE</zType>
-        <Translation>Zeige Technologie Baum [Drücke F6]</Translation>
-    </Entry>
-    <Entry>
-        <zType>TEXT_TOOL_TIPS_DECKREDRAW</zType>
-        <Translation>STRG+KLICK um neu zu ziehen (Benötigt link(TRAIT_SCHOLAR_ARCHETYPE) Oberhaupt)</Translation>
-    </Entry>
     <!--top-bar.xml-->
     <Entry>
         <zType>TEXT_TOP_BAR_BUY</zType>
@@ -1926,6 +2038,14 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
 	<Entry>
 		<zType>TEXT_TECH_TREE_TECHS</zType>
 		<Translation>Technologien</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_TREE_TECHS_COMPACT</zType>
+		<Translation>Klein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_TREE_TECHS_FULL</zType>
+		<Translation>Ausführlich</Translation>
 	</Entry>
 	<!--selected-worker.xml-->
 	<Entry>

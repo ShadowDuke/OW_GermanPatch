@@ -9,6 +9,8 @@
 		<zInactiveColor/>
 		<iOpinion/>
 		<iOpinionEnemy/>
+		<iOpinionEthnicity/>
+		<iBlock/>
 		<bHostile/>
 		<bPeace/>
 	</Entry>
@@ -27,6 +29,7 @@
 		<zColor>COLOR_DIPLOMACY_PEACE</zColor>
 		<zInactiveColor>COLOR_DIPLOMACY_INACTIVE</zInactiveColor>
 		<iOpinionEnemy>-20</iOpinionEnemy>
+		<iOpinionEthnicity>40</iOpinionEthnicity>
 		<bPeace>1</bPeace>
 	</Entry>
 	<Entry>
@@ -42,8 +45,10 @@
 		<zIconName>DIPLOMACY_WAR</zIconName>
 		<zColor>COLOR_DIPLOMACY_WAR</zColor>
 		<zInactiveColor>COLOR_DIPLOMACY_INACTIVE</zInactiveColor>
-		<iOpinion>-50</iOpinion>
+		<iOpinion>-60</iOpinion>
 		<iOpinionEnemy>20</iOpinionEnemy>
+		<iOpinionEthnicity>-80</iOpinionEthnicity>
+		<iBlock>5</iBlock>
 		<bHostile>1</bHostile>
 	</Entry>
 </Root>

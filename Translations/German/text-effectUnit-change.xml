@@ -43,42 +43,6 @@
 		<Translation>Fokussieren III</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTUNIT_HERO</zType>
-		<Translation>Held</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTUNIT_HERO_LEADER</zType>
-		<Translation>Oberhaupt (Anführer)</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTUNIT_HERO_MELEE</zType>
-		<Translation>Held (link(UNITTRAIT_MELEE))</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTUNIT_COMMANDER</zType>
-		<Translation>Feldherr</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTUNIT_COMMANDER_INFANTRY</zType>
-		<Translation>Feldherr (link(UNITTRAIT_INFANTRY))</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTUNIT_TACTICIAN</zType>
-		<Translation>Taktiker</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTUNIT_TACTICIAN_LEADER</zType>
-		<Translation>Taktiker (Anführer)</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTUNIT_ZEALOT</zType>
-		<Translation>Fanatiker</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTUNIT_ZEALOT_LEADER</zType>
-		<Translation>Fanatiker (Oberhaupt)</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EFFECTUNIT_TRACKER</zType>
 		<Translation>Fährtenleser</Translation>
 	</Entry>
@@ -243,24 +207,68 @@
 		<Translation>Pfadfinder</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_HERO</zType>
+		<Translation>link(TRAIT_HERO_ARCHETYPE)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_HERO_LEADER</zType>
+		<Translation>link(TRAIT_HERO_ARCHETYPE) (Anführer)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_HERO_MELEE</zType>
+		<Translation>link(TRAIT_HERO_ARCHETYPE) (link(UNITTRAIT_MELEE))</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_COMMANDER</zType>
+		<Translation>link(TRAIT_COMMANDER_ARCHETYPE)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_COMMANDER_LEADER</zType>
+		<Translation>link(TRAIT_COMMANDER_ARCHETYPE) (Anführer)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_COMMANDER_INFANTRY</zType>
+		<Translation>link(TRAIT_COMMANDER_ARCHETYPE) (link(UNITTRAIT_INFANTRY))</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_TACTICIAN</zType>
+		<Translation>link(TRAIT_TACTICIAN_ARCHETYPE)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_TACTICIAN_LEADER</zType>
+		<Translation>link(TRAIT_TACTICIAN_ARCHETYPE) (Anführer)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_TACTICIAN_MOUNTED</zType>
+		<Translation>link(TRAIT_TACTICIAN_ARCHETYPE) (link(UNITTRAIT_MOUNTED))</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_ZEALOT</zType>
+		<Translation>link(TRAIT_ZEALOT_ARCHETYPE)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_ZEALOT_LEADER</zType>
+		<Translation>link(TRAIT_ZEALOT_ARCHETYPE) (Anführer)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_OPINIONFAMILY_FURIOUS</zType>
-		<Translation>Wütend (Familie)</Translation>
+		<Translation>link(OPINIONFAMILY_FURIOUS) (Familie)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_OPINIONFAMILY_ANGRY</zType>
-		<Translation>Aufgebracht (Familie)</Translation>
+		<Translation>link(OPINIONFAMILY_ANGRY) (Familie)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_OPINIONFAMILY_UPSET</zType>
-		<Translation>Verärgert (Familie)</Translation>
+		<Translation>link(OPINIONFAMILY_UPSET) (Familie)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_OPINIONFAMILY_PLEASED</zType>
-		<Translation>Zufrieden (Familie)</Translation>
+		<Translation>link(OPINIONFAMILY_PLEASED) (Familie)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_OPINIONFAMILY_FRIENDLY</zType>
-		<Translation>Freundlich (Familie)</Translation>
+		<Translation>link(OPINIONFAMILY_FRIENDLY) (Familie)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SWORD_OF_THE_GODS</zType>

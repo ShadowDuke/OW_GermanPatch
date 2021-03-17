@@ -10,6 +10,11 @@
 		<bName comment="Show the name for event options."/>
 	</Entry>
 	<Entry>
+		<zType>MEMORYRELIGION_ESTABLISH_THEOLOGY</zType>
+		<zText>Established a link(CONCEPT_THEOLOGY)</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_LONG</MemoryLevel>
+	</Entry>
+	<Entry>
 		<zType>MEMORYRELIGION_PURGE_RELIGION</zType>
 		<zText>Uns von unseren Städten gesäubert</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_LONG</MemoryLevel>
@@ -450,6 +455,11 @@
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
+		<zType>MEMORYRELIGION_REFUSED_A_SACRIFICE</zType>
+		<zText>Refused to make a sacrifice</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
 		<zType>MEMORYRELIGION_RETURNED_SCROLLS</zType>
 		<zText>Returned the scrolls</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
@@ -473,5 +483,55 @@
 		<zType>MEMORYRELIGION_TEMPLE_MARKET</zType>
 		<zText>Closed temple market</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_NEW_GOD</zType>
+		<zText>Supported a new god</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_QUESTIONED_GOD</zType>
+		<zText>Questioned God</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_PRAISED_PRIESTS_ACTIONS</zType>
+		<zText>Praised Priest's initiative</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_PUNISHED_PRIESTS_ACTIONS</zType>
+		<zText>Punished Priest's initiative</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_TREATED_EQUALLY_WITH_HEAD</zType>
+		<zText>Treated equally with our religion head</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_CRUMBLING_ZIGGURAT</zType>
+		<zText>Failed to restore The Great Ziggurat</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_IMPROVED_ZIGGURAT</zType>
+		<zText>Restored and Improved The Great Ziggurat</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_IMPROVED_ZIGGURAT_SHRINE</zType>
+		<zText>Restored and Improved The Great Ziggurat</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_ABDICATED_TO_RELIGIOUS_HEIR</zType>
+		<zText>Abdicated for religious heir</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+		<Entry>
+		<zType>MEMORYRELIGION_DISCRACED_BY_RELIGION_HEAD</zType>
+		<zText>Discraced by our Religion Head</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
 	</Entry>
 </Root>

@@ -64,6 +64,11 @@
 		<bMultiPlayer>0</bMultiPlayer>
 	</Entry>
 	<Entry>
+		<zType>GAMEOPTION_RANDOMIZE_LEADERS</zType>
+		<zName>Zufällige Oberhäupter</zName>
+		<zHelp>Randomize starting Leader of each Nation.</zHelp>
+	</Entry>
+	<Entry>
 		<zType>GAMEOPTION_RANDOMIZE_FAMILIES</zType>
 		<zName>Zufällige Familien</zName>
 		<zHelp>Weise die Gruppe jeder Familie zufällig zu (Weisen, Handwerker, Wettkämpfer, etc).</zHelp>

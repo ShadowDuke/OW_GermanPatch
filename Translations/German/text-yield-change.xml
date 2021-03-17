@@ -50,11 +50,11 @@
 		<Translation>Eisen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_YIELD_WOOD</zType>
-		<Translation>Holz</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_YIELD_STONE</zType>
 		<Translation>Stein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_YIELD_WOOD</zType>
+		<Translation>Holz</Translation>
 	</Entry>
 </Root>

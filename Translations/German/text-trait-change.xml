@@ -419,12 +419,12 @@
 		<Translation>Bastard</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_SLIGHTED</zType>
-		<Translation>Schmächtig</Translation>
+		<zType>TEXT_TRAIT_LEGITIMIZED</zType>
+		<Translation>Legitimiert</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_INFAMOUS</zType>
-		<Translation>Berüchtigt</Translation>
+		<zType>TEXT_TRAIT_SLIGHTED</zType>
+		<Translation>Beleidigt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CLAIMED</zType>
@@ -447,8 +447,8 @@
 		<Translation>Berühmt</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_POPULAR_HERO</zType>
-		<Translation>Beliebter Held</Translation>
+		<zType>TEXT_TRAIT_INFAMOUS</zType>
+		<Translation>Berüchtigt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ADOPTED</zType>

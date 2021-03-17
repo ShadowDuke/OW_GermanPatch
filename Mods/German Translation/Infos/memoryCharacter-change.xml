@@ -10,6 +10,18 @@
 		<bName comment="Show the name for event options."/>
 	</Entry>
 	<Entry>
+		<zType>MEMORYCHARACTER_HID_CHILD</zType>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_DEMANDED_MONEY</zType>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_DEMANDED_RESOURCES</zType>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_DEMANDED_TRUCE</zType>
+	</Entry>
+	<Entry>
 		<zType>MEMORYCHARACTER_IMPRISONED_RECENTLY</zType>
 		<zText>Vor kurzem link(TRAIT_IMPRISONED)</zText>
 		<iTurns>4</iTurns>
@@ -115,8 +127,18 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_FOLLOWED_SUGGESTION_TO_SLANDER</zType>
-		<zText>Acceded to my request to slander a neignor</zText>
+		<zText>Acceded to my request to slander a neighbor</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_FOREIGN_COURTIER_FOLLOWED_SUGGESTION</zType>
+		<zText>Acceded to my request to establish relations with my home country</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_FOREIGN_COURTIER_IGNORED_SUGGESTION</zType>
+		<zText>Ignored to my request to establish relations with my home country</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_WARNED_TO_STOP</zType>
@@ -539,11 +561,6 @@
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYCHARACTER_PLAYER_WAR_AT_PEACE_INCIDENT_OPINION_DROP_FRIENDLY</zType>
-		<zText>[STUB] We are sad that an Incident has marred our great friendship</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
-	</Entry>
-	<Entry>
 		<zType>MEMORYCHARACTER_PLAYER_WAR_AT_PEACE_INCIDENT_OPINION_DROP_PLEASED</zType>
 		<zText>[STUB] We are disappointed that an Incident has occurred</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
@@ -593,11 +610,6 @@
 		<zText>[STUB] Our Truce with you is hanging by a thread</zText>
 		<iValue>-100</iValue>
 		<iTurns>20</iTurns>
-	</Entry>
-	<Entry>
-		<zType>MEMORYCHARACTER_PLAYER_WAR_AT_TRUCE_INCIDENT_OPINION_DROP_FRIENDLY</zType>
-		<zText>[STUB] An Incident has marred our friendly relationship</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_PLAYER_WAR_AT_TRUCE_INCIDENT_OPINION_DROP_PLEASED</zType>
@@ -732,7 +744,7 @@
 	<Entry>
 		<zType>MEMORYCHARACTER_SEPARATED_MENTEE</zType>
 		<zText>Separated me from protege</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_KEPT_ME_ON_COURT</zType>
@@ -894,18 +906,6 @@
 		<zText>Destroyed strange remains</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
-	<Entry>
-		<zType>MEMORYCHARACTER_HID_CHILD</zType>
-	</Entry>
-	<Entry>
-		<zType>MEMORYCHARACTER_DEMANDED_MONEY</zType>
-	</Entry>
-	<Entry>
-		<zType>MEMORYCHARACTER_DEMANDED_RESOURCES</zType>
-	</Entry>
-	<Entry>
-		<zType>MEMORYCHARACTER_DEMANDED_TRUCE</zType>
-	</Entry>
 	<Entry beginGroup="Character">
 		<zType>MEMORYCHARACTER_MARRIAGE_OF_STATE</zType>
 		<zText>Married me for politics</zText>
@@ -994,14 +994,17 @@
 		<iTurns>5</iTurns>
 		<bName>1</bName>
 	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_PAWS_REVENGE</zType>
+	</Entry>
 	<Entry beginGroup="Miscellaneous">
 		<zType>MEMORYCHARACTER_TOOK_MY_AMBITION</zType>
-		<zText>Took my ambition</zText>
+		<zText>Took my link(CONCEPT_AMBITION)</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_SUPPORTED_AMBITION</zType>
-		<zText>Supported my ambition</zText>
+		<zText>Supported my link(CONCEPT_AMBITION)</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -1083,6 +1086,11 @@
 		<zText>Influenced by a foreign spy</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>	 
+	<Entry>
+		<zType>MEMORYCHARACTER_SENT_TO_EXPLORE</zType>
+		<zText>Sent me on an important exploration mission</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
 	<Entry beginGroup="Diplomacy">
 		<zType>MEMORYCHARACTER_GAVE_TECH</zType>
 		<zText>Shared technology with me</zText>

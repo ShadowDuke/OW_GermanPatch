@@ -126,7 +126,7 @@
 		<zType>TEXT_HELPTEXT_ENTRY_COLON_SPACE_ONE_ONE</zType>
 		<Translation>{0}: {1} {2}</Translation>
 	</Entry>
-	<Entry>	
+	<Entry comment="Do not change this entry for translations">
 		<zType>TEXT_HELPTEXT_COMMA_DATA_TWO</zType>
 		<Translation>{0},{1}</Translation>
 	</Entry>
@@ -137,6 +137,18 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_COMMA_AND_TWO</zType>
 		<Translation>{0}, und {1}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_NOT_COMMA_SPACE_TWO</zType>
+		<Translation>{0}, nicht {1}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_NOT_COMMA_AND_TWO</zType>
+		<Translation>{0}, und nicht {1}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_NOT_SINGLE</zType>
+		<Translation>Nicht {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_COMMA_OR_TWO</zType>
@@ -153,6 +165,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_SLASH_TWO</zType>
 		<Translation>{0}/{1}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_PARENTHESIS_MULTIPLIER</zType>
+		<Translation> (x{0})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CONCAT_ENCLOSED_PARENTHESIS</zType>
@@ -425,7 +441,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_LEGITIMACY</zType>
-		<Translation>icon(YIELD_LEGITIMACY)Legitimität</Translation>
+		<Translation>icon(YIELD_LEGITIMACY){true_0::link(CONCEPT_LEGITIMACY)}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_COURTIER</zType>
@@ -1029,16 +1045,6 @@
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_DECISIONS_KEYS</zType>
 		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> um umgelehrt zu wechseln<true_0><br><TEXT_HOTKEY_CTRL_SHIFT_CLICK> zu priorisieren<false><end>]]></Translation>
 	</Entry>
-	<!-- Unassigned for now
-	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_PREVIOUS_CITIES</zType>
-		<Translation><![CDATA[Vorherige Stadt<true_0> {0_presskey}<false><end>]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_NEXT_CITIES</zType>
-		<Translation><![CDATA[Nächste Stadt<true_0> {0_presskey}<false><end>]]></Translation>
-	</Entry> -->
-	<!-- Temp text entries for city cycling help without hotkey-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_PREVIOUS_CITIES</zType>
 		<Translation>Vorherige Stadt</Translation>
@@ -1118,6 +1124,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_SELL_YIELD_KEY</zType>
 		<Translation>Halte {0_key} und verkaufe {1_amount} ({2_money})</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_UNDO_TURN</zType>
+		<Translation><![CDATA[<TEXT_HOTKEY_CTRL_CLICK> um ganzen Zug rückgängig zu machen]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_RESEARCH_TECH</zType>
@@ -1328,6 +1338,10 @@
 		<Translation>{0_governor} verwaltet {1_city}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_RELEASE_GOVERNOR</zType>
+		<Translation>Entlässt {0_governor} aus {1_city}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_START_MISSION_CANCEL</zType>
 		<Translation><![CDATA[Halte <TEXT_HOTKEY_CTRL> um abzubrechen]]></Translation>
 	</Entry>
@@ -1420,6 +1434,18 @@
 		<zType>TEXT_HELPTEXT_WIDGET_TESTUDO</zType>
 		<Translation>Schildkröten Formation
 {0_amount} Bonus vs link(UNITTRAIT_RANGED) Einheiten pro {1_turnScale} (up to {2_max}%)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_AUTOMATE_WORKER</zType>
+		<Translation>Automates the Unit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_AUTOMATE_WORKER_CANCEL</zType>
+		<Translation>Cancels the Automation</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_AUTOMATE_WORKER_FRIENDLY_TERRITORY</zType>
+		<Translation>Must be in Friendly territory</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MARCH</zType>
@@ -2006,14 +2032,6 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>{0_yield}: Fremde Bevölkerung ({1_nation})</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_FAMILY_MILITARY</zType>
-		<Translation>{0_yield}: Verteidigende Familien-Einheiten</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_MILITARY</zType>
-		<Translation>{0_yield}: Verteidigende Militär-Einheiten</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_MISSING_FAMILY</zType>
 		<Translation>{0_yield}: Nicht genügend link(CONCEPT_FAMILY_SEAT,1)</Translation>
 	</Entry>
@@ -2028,6 +2046,10 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_CAPITAL_DISTANCE</zType>
 		<Translation>{0_yield}: Entfernung von {1_capitalCity}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_GOVERNOR_OPINION</zType>
+		<Translation>{0_yield}: {1_opinion} link(CONCEPT_GOVERNOR) ({2_governor})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_DISCONTENT</zType>
@@ -2195,6 +2217,10 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
     <Translation><![CDATA[A Unit becomes Fatigued after using all of its moves. A Fatgiued Unit will refresh its moves the next turn. Once Fatigued, a Unit can only move again this turn through a Forced March.]]></Translation>
   </Entry>
   <Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_FLANKING</zType>
+		<Translation>Flanking occurs when attacking an enemy Unit with a friendly Unit on the opposite side. (If attacking from a tile to the West of the target, then your other Unit must be to the East.)</Translation>
+   </Entry>
+   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_AMBITION</zType>
     <Translation><![CDATA[link(CONCEPT_AMBITION,1) are goals for you to pursue, and completing them will grant you a permanent boost to link(CONCEPT_LEGITIMACY). Complete ten link(CONCEPT_AMBITION,1), and you win the game!]]></Translation>
   </Entry>
@@ -2456,7 +2482,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_UNIT_CONSUMES_MERCENARY</zType>
-		<Translation>(Söldner: {0_value})</Translation>
+		<Translation>(link(CONCEPT_MERCENARY): {0_value})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_UNIT_CONSUMES_BORDERS</zType>
@@ -2512,11 +2538,11 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_VICTORY_FROM_CULTURE_CITIES</zType>
-		<Translation><![CDATA[{0}: von {1} {2_culture} <singular_1>Stadt<plural>Städte<end>]]></Translation>
+		<Translation>{0}: von {1} {2_culture} {singular_1:Stadt:Städten}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_VICTORY_FROM_LEGENDARY_CITY</zType>
-		<Translation><![CDATA[{0}: von {1_city} ({2_culture))]]></Translation>
+		<Translation>{0}: von {1_city} ({2_culture})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_VICTORY_FROM</zType>
@@ -2626,7 +2652,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_NET_TRIBUTE_TRIBES</zType>
-		<Translation><![CDATA[{0}: Tribut <true_1>von<false>an<end> {2_barbarian} {3_turns}]]></Translation>
+		<Translation>{0}: Tribut {true_1:from:to} {2_barbarian} {3_turns}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_NET_TRIBUTE_TO_PLAYER</zType>
@@ -2638,7 +2664,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_NET_UNIT_CONSUMPTION</zType>
-		<Translation><![CDATA[{0}: {1consumptionLink}<true_2> ({2}x)<false><end>]]></Translation>
+		<Translation>{0}: {1consumptionLink}{true_2: ({2}x)}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_NET_AS</zType>
@@ -3116,10 +3142,14 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<zType>TEXT_HELPTEXT_UNIT_TRAIT</zType>
 		<Translation>{0_trait} Einheiten:</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_GENERAL_OPINION_MODIFIER</zType>
+		<Translation>{0_general} {1_opinion}: {2}</Translation>
+	</Entry>
 	<!--Promotion Help-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_PROMOTION_LEADS_TO</zType>
-		<Translation>Führt zu {0}</Translation>
+		<Translation>Führt zu {LIST}</Translation>
 	</Entry>
 	<!--Improvement Set Help-->
 	<Entry>
@@ -3146,11 +3176,11 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<!--Effect Unit Help-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_FATIGUE_LIMIT</zType>
-		<Translation>Müdigkeits Limit: {0_value}</Translation>
+		<Translation><![CDATA[<true_1>{0_value} Müdigkeits Limit<false>Müdigkeits Limit: {0_value}<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_VISION</zType>
-		<Translation>Sicht: {0_value}</Translation>
+		<Translation><![CDATA[<true_1>{0_value} Sicht<false>Sicht: {0_value}<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_ATTACK_ACROSS_RIVER</zType>
@@ -3158,7 +3188,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_ATTACK_LAND_WATER</zType>
-		<Translation>Land/Wasser Angriff: {0_value}</Translation>
+		<Translation><![CDATA[<true_1>Land/Wasser Angriffe: {0_value}<false>{0_value} Land/Wasser Angriffe<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_ATTACK_INTO</zType>
@@ -3187,6 +3217,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_VS_TRIBES</zType>
 		<Translation><![CDATA[<true_1>Vs. Stämme/Barbaren: {0_value}<false>{0_value} Vs. Stämme/Barbaren<end>]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_FLANKING_ATTACK</zType>
+		<Translation><![CDATA[<true_1>Wenn link(CONCEPT_FLANKING): {0_value}<false>{0_value} Wenn link(CONCEPT_FLANKING)<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_SAME_UNIT_ADJACENT</zType>
@@ -3499,6 +3533,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation><![CDATA[{0_yield}/{1_turnScale} pro Spezialist<true_2> ({2_cityYield})<false><end>]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_IF_DEFENDING</zType>
+		<Translation>{0_yield}/{1_turnScale} wenn {true_3:Family }Military Defending{true_2: ({2_cityYield})}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_RELIGION</zType>
 		<Translation><![CDATA[{0_yield}/{1_turnScale} pro Religion<true_2> ({2_cityYield})<false><end>]]></Translation>
 	</Entry>
@@ -3574,6 +3612,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_LEGITIMACY</zType>
 		<Translation>{0_value} Legitimacyicon(YIELD_LEGITIMACY)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_OPINION_RELIGION</zType>
+		<Translation>{0_value} Religions Meinung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_UNIT_TRAIT_HEALS_UNIT</zType>
@@ -3903,8 +3945,12 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Can Hire Mercenaries from Tribes</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_UNIT_KILL_YIELD</zType>
-		<Translation>{0_yield} pro getöteter Einheit</Translation>
+		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_AUTOMATE_WORKERS</zType>
+		<Translation>Kann link(UNIT_WORKER,2) automatisieren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_UNIT_MILITARY_KILL_YIELD</zType>
+		<Translation>{0_yield} pro getöteter Militär Einheit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_WAR_YIELD</zType>
@@ -4126,6 +4172,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<!--Unit Attack Preview-->
 	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_FLANKING_ATTACK</zType>
+		<Translation>link(CONCEPT_FLANKING) Angriff</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_ADJACENT_SAME_UNIT</zType>
 		<Translation>Benachbarte {0_unit}</Translation>
 	</Entry>
@@ -4266,6 +4316,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_MEMORY_ALL_PLAYERS_START</zType>
 		<Translation>[Alle Reiche von {0_player}] </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_MEMORY_ALL_TRIBES_START</zType>
+		<Translation>[Alle Stämme von {0_player}] </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_MEMORY_ALL_FAMILIES_START</zType>
@@ -4471,7 +4525,11 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<zType>TEXT_HELPTEXT_BONUS_MAKE_COURTIER</zType>
 		<Translation>Wird Vertrauter: ({0_courtier})</Translation>
 	</Entry>
-  <Entry>
+    <Entry>
+		<zType>TEXT_HELPTEXT_BONUS_SUBJECT_ACQUIRE_TECH</zType>
+		<Translation>{0_player} erlangt {1_tech}</Translation>
+	</Entry>
+	<Entry>
     <zType>TEXT_HELPTEXT_BONUS_START_LAW</zType>
     <Translation>Beginne Gesetz ({0_cost}): {1_law}</Translation>
   </Entry>
@@ -4593,6 +4651,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_MISSION_RESULT_PERCENT_CHANCE</zType>
 		<Translation><![CDATA[{0_percent}% Chance: {1_result}<true_2> ({2})<false><end>]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_MISSION_FROM_RATING</zType>
+		<Translation>{0_percent} von {1_rating}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_MISSION_PER_RATING_LEVEL</zType>
@@ -4882,6 +4944,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Als Staatsreligion: {LIST}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_RELIGION_OPINION_CITY_EFFECT</zType>
+		<Translation>Von {0_opinion} Meinung: {LIST}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_SPREAD_HELP</zType>
 		<Translation>{0}% Chance/{1_turnScale} sich zu neuen Städten auszubreiten</Translation>
 	</Entry>
@@ -5145,6 +5211,14 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Schildkröte</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_TILE_AUTOMATE_BUTTON</zType>
+		<Translation>Automatisierung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TILE_CANCEL_AUTOMATE_BUTTON</zType>
+		<Translation>Automatisierung abgebrochen</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_MARCH_BUTTON</zType>
 		<Translation>Marschieren</Translation>
 	</Entry>
@@ -5210,18 +5284,15 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_FOUND_FAMILY_CAPITAL_BUTTON</zType>
-		<Translation><![CDATA[Gründe {0_capital}
-{1_familyName} {2_familyClass}]]></Translation>
+		<Translation><![CDATA[Gründe {0_capital}<br>{1_familyName} {2_familyClass}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_FOUND_FAMILY_SEAT_BUTTON</zType>
-		<Translation><![CDATA[Gründe link(CONCEPT_FAMILY_SEAT)
-{0_familyName} {1_familyClass}]]></Translation>
+		<Translation><![CDATA[Gründe link(CONCEPT_FAMILY_SEAT)<br>{0_familyName} {1_familyClass}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_FOUND_FAMILY_CITY_BUTTON</zType>
-		<Translation><![CDATA[Gründe Stadt
-{0_familyName} {1_familyClass}]]></Translation>
+		<Translation><![CDATA[Gründe City<br>{0_familyName} {1_familyClass}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_FOUND_CITY_BUTTON</zType>
@@ -5384,6 +5455,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Breitet Grenzen aus</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_SPECIALIST_OPINION_RELIGION</zType>
+		<Translation>{0_value} Religions Meinung</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_SPECIALIST_COSTS_SINGLE</zType>
 		<Translation>Kostet {0,1}</Translation>
 	</Entry>
@@ -5518,16 +5593,12 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>(Einheit hat diese Beförderung bereits)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_EFFECT_GAINS</zType>
-		<Translation>Erringt {0}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_EFFECT_LOSES</zType>
-		<Translation>Verliert {0}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_GENERAL_MOVEMENT</zType>
 		<Translation>{0} Bewegung (als Oberhaupt)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_MAKE_GENERAL_OPINION_STRENGTH</zType>
+		<Translation>{0}icon(STRENGTH): {1_opinion}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_GENERAL_XP_FROM_COMBAT</zType>
@@ -5636,15 +5707,15 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_MISSION</zType>
-		<Translation>Mission: {0} {1_turns}</Translation>
+		<Translation>Mission: {0}{true_2: ({2_link})}, {1_turns}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_OPINION_OF_YOU</zType>
-		<Translation>Meinung von dir: {0} ({1})</Translation>
+		<Translation>Meinung von euch: {0} ({1})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_PLAYER_OPINION_OF_YOU</zType>
-		<Translation>{0,1_player} Meinung von Euch: {1} ({2})</Translation>
+		<Translation>{0,1_player} Meinung von euch: {1} ({2})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_NATION_ETHNICITY</zType>
@@ -5764,7 +5835,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_MARRIES_GLOBAL</zType>
-		<Translation> (Global: {LIST})</Translation>
+		<Translation> (Allgemein: {LIST})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_MARRIES_JOINS_NATION</zType>
@@ -5857,7 +5928,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHOOSE_AGENT_POPUP_TITLE</zType>
-		<Translation><![CDATA[Platziere einen link(CONCEPT_AGENT) in {0_city}]]></Translation>
+		<Translation>Platziere einen link(CONCEPT_AGENT) in {0_city}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHOOSE_COUNCIL_POPUP_TITLE</zType>
@@ -5898,6 +5969,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_LOAD_FROM_CLOUD</zType>
 		<Translation>Von Cloud laden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_NOTIFICATION_EMAIL</zType>
+		<Translation>Turn Notifications</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_DEBUG_REPLAY_FIVE_TURNS_BUTTON</zType>
@@ -5970,7 +6045,11 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
     <Entry>
         <zType>TEXT_HELPTEXT_MAIN_MENU_DISCORD</zType>
         <Translation>Visit the Discord channel for Old World</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_MAIN_MENU_REDDIT</zType>
+		<Translation>Visit the Old World sub on Reddit</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_JOIN_MP_NEED_PASSWORD</zType>
         <Translation>You must enter a password to join the game</Translation>
@@ -6405,10 +6484,6 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Benötigt {0} Bevölkerung ({1,2_citizensLink} + Spezialisten)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_HIGHEST_RIVAL</zType>
-		<Translation>(Höchster Rivale: {0})</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_LUXURIES</zType>
 		<Translation>Benötigt {0} {singular_0:{1_luxuryLink}:{1,2_luxuriesLink}</Translation>
 	</Entry>
@@ -6493,6 +6568,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>Benötigt Staatsreligion</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_HIGHEST_VP</zType>
+		<Translation>Benötigt höchste SP</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_PLAYER_DEAD</zType>
 		<Translation>Beseitige {true_0:{0}:eine Nation}</Translation>
 	</Entry>
@@ -6551,6 +6630,18 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_MAX_YEARS</zType>
 		<Translation>Max {1_turnScale}: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_VICTORY_ELIGIBLE</zType>
+		<Translation>(Will never become link(CONCEPT_LEGACY,1))</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_MIN_TIER</zType>
+		<Translation>*Min Tier: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_MAX_TIER</zType>
+		<Translation>*Max Tier: {0}</Translation>
 	</Entry>
 	<!--Law Help-->
 	<Entry>
@@ -6626,6 +6717,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<!--Opinon Help-->
 	<Entry>
+		<zType>TEXT_HELPTEXT_OPINION_COUNCIL_ETHNICITY</zType>
+		<Translation>{0_opinion}: Mitglieder des Hofrats sind {1,1_ethnicity}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_OUR_ALLY</zType>
 		<Translation>{0_opinion}: Bei einem link(CONCEPT_ALLIANCE_PLAYER)</Translation>
 	</Entry>
@@ -6695,11 +6790,19 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_HELP_MISSION_COST_MODIFIER</zType>
-		<Translation>Mission Cost Modifier: {0}</Translation>
+		<Translation>Missions Kosten Modifikator: {0}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_OPINION_HELP_COURT_RATE_MODIFIER</zType>
-		<Translation>Global Yield Modifier: {0}</Translation>
+		<zType>TEXT_HELPTEXT_OPINION_HELP_RATE_MODIFIER</zType>
+		<Translation>Ertrag/Meinung Modifikator: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_OPINION_HELP_STRENGTH_MODIFIER</zType>
+		<Translation>Als link(CONCEPT_GENERAL): {0}icon(STRENGTH)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_OPINION_HELP_YIELD_RATE</zType>
+		<Translation>Als link(CONCEPT_GOVERNOR): {0}{1_yield}</Translation>
 	</Entry>
 	<!--Player Opinion-->
 	<Entry>

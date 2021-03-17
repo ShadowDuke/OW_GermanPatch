@@ -15,22 +15,8 @@
 		<iTurns>1</iTurns>
 	</Entry>
 	<Entry>
-		<zType>MEMORYPLAYER_BROKE_PEACE</zType>
-		<zText>Friedensabkommen gebrochen</zText>
-		<iValue>-20</iValue>
-		<iTurns>20</iTurns>
-	</Entry>
-	<Entry>
-		<zType>MEMORYPLAYER_SLANDER</zType>
-		<zText>Öffentlich Beleidigt</zText>
-		<iValue>-40</iValue>
-		<iTurns>40</iTurns>
-	</Entry>
-	<Entry>
-		<zType>MEMORYPLAYER_STEAL_RESEARCH</zType>
-		<zText>Forschung gestohlen</zText>
-		<iValue>-40</iValue>
-		<iTurns>40</iTurns>
+		<zType>MEMORYPLAYER_CONTACTED_FIRST_NATION</zType>
+		<zText>Met first rival Nation</zText>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_ADOPTED_RELIGION</zType>
@@ -46,28 +32,6 @@
 		<zType>MEMORYPLAYER_CHOSE_AMBITION</zType>
 		<zText>Wähle eine Ambition</zText>
 		<iTurns>5</iTurns>
-	</Entry>
-	<Entry>
-		<zType>MEMORYPLAYER_DIVORCE</zType>
-		<zText>Scheidung</zText>
-		<iValue>-100</iValue>
-		<iTurns>20</iTurns>
-	</Entry>
-	<Entry>
-		<zType>MEMORYPLAYER_REMOVED_LUXURY</zType>
-		<zText>Luxusgut entfernt</zText>
-		<iValue>-50</iValue>
-		<iTurns>5</iTurns>
-	</Entry>
-	<Entry>
-		<zType>MEMORYPLAYER_TRADE_DEAL</zType>
-		<zText>Neues Handelsabkommen</zText>
-		<iValue>40</iValue>
-		<iTurns>20</iTurns>
-	</Entry>
-	<Entry>
-		<zType>MEMORYPLAYER_CONTACTED_FIRST_NATION</zType>
-		<zText>Met first rival Nation</zText>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_TRUCE</zType>
@@ -170,9 +134,9 @@
 		<iTurns>20</iTurns>
 	</Entry>
 	<Entry>
-		<zType>MEMORYPLAYER_CANCELLED_TRADE</zType>
-		<zText>Handel abgebrochen</zText>
-		<iValue>-40</iValue>
+		<zType>MEMORYPLAYER_BROKE_PEACE</zType>
+		<zText>Broke a Peace Treaty</zText>
+		<iValue>-20</iValue>
 		<iTurns>20</iTurns>
 	</Entry>
 	<Entry>
@@ -180,6 +144,45 @@
 		<zText>Erklärt uns den Krieg</zText>
 		<iValue>-80</iValue>
 		<iTurns>40</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_CANCELLED_TRADE</zType>
+		<zText>Handel abgebrochen</zText>
+		<iValue>-40</iValue>
+		<iTurns>20</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_DIVORCE</zType>
+		<zText>Ehescheidung</zText>
+		<iValue>-100</iValue>
+		<iTurns>20</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_REMOVED_LUXURY</zType>
+		<zText>Luxusgut entfernt</zText>
+		<iValue>-50</iValue>
+		<iTurns>5</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_TRADE_DEAL</zType>
+		<zText>Neues Handelsabkommen</zText>
+		<iValue>40</iValue>
+		<iTurns>20</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_SLANDER</zType>
+		<zText>Publicly Slandered</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_STEAL_RESEARCH</zType>
+		<zText>Forschung gestohlen</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_ASSASSINATION_EXPOSED</zType>
+		<zText>Assassination exposed</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_TRIBE_PLAYER_WAR</zType>
@@ -254,7 +257,7 @@
 	<Entry>
 		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_DELAY</zType>
 		<zText>Aufgeschobene Gerechtigkeit ist verweigerte Gerechtigkeit</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_DELAY_WEAK</zType>
@@ -373,8 +376,8 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_CAUTIOUS</zType>
-		<zText>We are preparing to attack you</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
+		<zText>We may be preparing to attack you</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_CAUTIOUS_LEADER4_THREATEN</zType>
@@ -720,5 +723,8 @@
 		<zType>MEMORYPLAYER_JUDGED_PRISONERS</zType>
 		<zText>Captured our people for their crimes</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_REJECTED_DESTINY_CHILD</zType>
 	</Entry>
 </Root>

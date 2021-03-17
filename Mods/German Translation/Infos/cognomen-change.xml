@@ -14,6 +14,11 @@
 		<zName>der Neue</zName>
 	</Entry>
 	<Entry>
+		<zType>COGNOMEN_FOUNDER</zType>
+		<zName>the Founder</zName>
+		<iLegitimacy>10</iLegitimacy>
+	</Entry>
+	<Entry>
 		<zType>COGNOMEN_WARRIOR</zType>
 		<zName>der Krieger</zName>
 		<iLegitimacy>10</iLegitimacy>
@@ -21,11 +26,11 @@
 		<Achievement>ACHIEVEMENT_COGNOMEN_WARRIOR</Achievement>
 		<aiStatValue>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<zIndex>STAT_UNIT_KILLED_MILITARY_GENERAL</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
@@ -42,11 +47,11 @@
 		<Achievement>ACHIEVEMENT_COGNOMEN_BRAVE</Achievement>
 		<aiStatValue>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<zIndex>STAT_UNIT_KILLED_MILITARY_GENERAL</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
@@ -63,11 +68,11 @@
 		<Achievement>ACHIEVEMENT_COGNOMEN_VALIANT</Achievement>
 		<aiStatValue>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<zIndex>STAT_UNIT_KILLED_MILITARY_GENERAL</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
@@ -84,11 +89,11 @@
 		<Achievement>ACHIEVEMENT_COGNOMEN_MIGHTY</Achievement>
 		<aiStatValue>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<zIndex>STAT_UNIT_KILLED_MILITARY_GENERAL</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
@@ -105,11 +110,11 @@
 		<Achievement>ACHIEVEMENT_COGNOMEN_VICTORIOUS</Achievement>
 		<aiStatValue>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<zIndex>STAT_UNIT_KILLED_MILITARY_GENERAL</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
@@ -126,11 +131,11 @@
 		<Achievement>ACHIEVEMENT_COGNOMEN_LION</Achievement>
 		<aiStatValue>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<zIndex>STAT_UNIT_KILLED_MILITARY_GENERAL</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
@@ -147,11 +152,11 @@
 		<Achievement>ACHIEVEMENT_COGNOMEN_INVINCIBLE</Achievement>
 		<aiStatValue>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<zIndex>STAT_UNIT_KILLED_MILITARY_GENERAL</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
@@ -494,19 +499,6 @@
 		</aiStatValue>
 	</Entry>
 	<Entry>
-		<zType>COGNOMEN_FOUNDER</zType>
-		<zName>der Gründer</zName>
-		<iLegitimacy>20</iLegitimacy>
-		<iMinValue>2000</iMinValue>
-		<Achievement>ACHIEVEMENT_COGNOMEN_FOUNDER</Achievement>
-		<aiStatValue>
-			<Pair>
-				<zIndex>STAT_NATION_FOUNDED</zIndex>
-				<iValue>2000</iValue>
-			</Pair>
-		</aiStatValue>
-	</Entry>
-	<Entry>
 		<zType>COGNOMEN_DEVOUT</zType>
 		<zName>der Fromme</zName>
 		<iLegitimacy>20</iLegitimacy>
@@ -795,10 +787,6 @@
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_NATION_FOUNDED</zIndex>
-				<iValue>2000</iValue>
-			</Pair>
-			<Pair>
 				<zIndex>STAT_SPECIALIST_PRODUCED</zIndex>
 				<iValue>100</iValue>
 			</Pair>
@@ -823,11 +811,11 @@
 				<iValue>100</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<zIndex>STAT_UNIT_KILLED_MILITARY_GENERAL</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
@@ -944,10 +932,6 @@
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_NATION_FOUNDED</zIndex>
-				<iValue>2000</iValue>
-			</Pair>
-			<Pair>
 				<zIndex>STAT_SPECIALIST_PRODUCED</zIndex>
 				<iValue>100</iValue>
 			</Pair>
@@ -972,11 +956,11 @@
 				<iValue>100</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<zIndex>STAT_UNIT_KILLED_MILITARY_GENERAL</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
@@ -1093,10 +1077,6 @@
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_NATION_FOUNDED</zIndex>
-				<iValue>2000</iValue>
-			</Pair>
-			<Pair>
 				<zIndex>STAT_SPECIALIST_PRODUCED</zIndex>
 				<iValue>100</iValue>
 			</Pair>
@@ -1121,11 +1101,11 @@
 				<iValue>100</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<zIndex>STAT_UNIT_KILLED_MILITARY_GENERAL</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
@@ -1242,10 +1222,6 @@
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_NATION_FOUNDED</zIndex>
-				<iValue>2000</iValue>
-			</Pair>
-			<Pair>
 				<zIndex>STAT_SPECIALIST_PRODUCED</zIndex>
 				<iValue>100</iValue>
 			</Pair>
@@ -1270,11 +1246,11 @@
 				<iValue>100</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<zIndex>STAT_UNIT_KILLED_MILITARY_GENERAL</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
@@ -1391,10 +1367,6 @@
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_NATION_FOUNDED</zIndex>
-				<iValue>2000</iValue>
-			</Pair>
-			<Pair>
 				<zIndex>STAT_SPECIALIST_PRODUCED</zIndex>
 				<iValue>100</iValue>
 			</Pair>
@@ -1419,11 +1391,11 @@
 				<iValue>100</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<zIndex>STAT_UNIT_KILLED_MILITARY_GENERAL</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
@@ -1540,10 +1512,6 @@
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_NATION_FOUNDED</zIndex>
-				<iValue>2000</iValue>
-			</Pair>
-			<Pair>
 				<zIndex>STAT_SPECIALIST_PRODUCED</zIndex>
 				<iValue>100</iValue>
 			</Pair>
@@ -1568,11 +1536,11 @@
 				<iValue>100</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<zIndex>STAT_UNIT_KILLED_MILITARY_GENERAL</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
@@ -1689,10 +1657,6 @@
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_NATION_FOUNDED</zIndex>
-				<iValue>2000</iValue>
-			</Pair>
-			<Pair>
 				<zIndex>STAT_SPECIALIST_PRODUCED</zIndex>
 				<iValue>100</iValue>
 			</Pair>
@@ -1717,11 +1681,11 @@
 				<iValue>100</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<zIndex>STAT_UNIT_KILLED_MILITARY_GENERAL</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
@@ -1838,10 +1802,6 @@
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_NATION_FOUNDED</zIndex>
-				<iValue>2000</iValue>
-			</Pair>
-			<Pair>
 				<zIndex>STAT_SPECIALIST_PRODUCED</zIndex>
 				<iValue>100</iValue>
 			</Pair>
@@ -1866,11 +1826,11 @@
 				<iValue>100</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED</zIndex>
+				<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>STAT_UNIT_KILLED_GENERAL</zIndex>
+				<zIndex>STAT_UNIT_KILLED_MILITARY_GENERAL</zIndex>
 				<iValue>200</iValue>
 			</Pair>
 			<Pair>

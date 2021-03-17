@@ -126,12 +126,12 @@
 		<zName>Einheiten Befördert</zName>
 	</Entry>
 	<Entry>
-		<zType>STAT_UNIT_KILLED</zType>
+		<zType>STAT_UNIT_MILITARY_KILLED</zType>
 		<zName>Einheiten getötet</zName>
 	</Entry>
 	<Entry>
-		<zType>STAT_UNIT_KILLED_GENERAL</zType>
-		<zName>Einheiten getötet (als Feldherr</zName>
+		<zType>STAT_UNIT_KILLED_MILITARY_GENERAL</zType>
+		<zName>Einheiten getötet (als Feldherr)</zName>
 	</Entry>
 	<Entry>
 		<zType>STAT_UNIT_LOST</zType>

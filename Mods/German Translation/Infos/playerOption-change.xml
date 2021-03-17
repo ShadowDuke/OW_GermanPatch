@@ -62,7 +62,6 @@
 		<zType>PLAYEROPTION_DEBUG_HELP</zType>
 		<zName>Debug Hilfe</zName>
 		<zDesc>Aktiviere Kurzinfos fürs debugging</zDesc>
-		<bDebug>1</bDebug>			
 	</Entry>
 	<Entry>
 		<zType>PLAYEROPTION_SHOW_SYSTEM_TIME</zType>
@@ -103,5 +102,11 @@
 		<zType>PLAYEROPTION_AZERTY_KEYBOARD</zType>
 		<zName>AZERTY Keyboard</zName>
 		<zDesc>Map hotkeys to their locations in an AZERTY keyboard</zDesc>
+	</Entry>
+	<Entry>
+		<zType>PLAYEROPTION_DEBUG_HELP</zType>
+		<zName>Debug help</zName>
+		<zDesc>Enable tooltips for debugging</zDesc>
+		<bDebug>1</bDebug>
 	</Entry>
 </Root>

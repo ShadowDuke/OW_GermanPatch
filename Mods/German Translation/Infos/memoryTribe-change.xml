@@ -10,6 +10,10 @@
 		<bName comment="Show the name for event options."/>
 	</Entry>
 	<Entry>
+		<zType>MEMORYTRIBE_CONVERT_RELIGION</zType>
+		<zText>Barbarian Convert Religion</zText>
+	</Entry>
+	<Entry>
 		<zType>MEMORYTRIBE_RAID</zType>
 		<zText>Barbaren Überfall</zText>
 		<iTurns>3</iTurns>
@@ -40,14 +44,16 @@
 		<iTurns>4</iTurns>
 	</Entry>
 	<Entry>
+		<zType>MEMORYTRIBE_BROKE_PEACE</zType>
+		<zText>Broke a Peace Treaty</zText>
+		<iValue>-20</iValue>
+		<iTurns>20</iTurns>
+	</Entry>
+	<Entry>
 		<zType>MEMORYTRIBE_REMOVED_LUXURY</zType>
 		<zText>Luxusgut entfernt</zText>
 		<iValue>-50</iValue>
 		<iTurns>5</iTurns>
-	</Entry>
-	<Entry>
-		<zType>MEMORYTRIBE_CONVERT_RELIGION</zType>
-		<zText>Barbaren zu Religion konvertiert</zText>
 	</Entry>
 	<Entry>
 		<zType>MEMORYTRIBE_PLAYER_TRIBE_WAR</zType>
@@ -339,4 +345,14 @@
 		<zText>Agenten entsendet um Unruhe zu schüren</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>	 
+	<Entry>
+		<zType>MEMORYTRIBE_ACCEPTED_RELIGIOUS_PRACTICE</zType>
+		<zText>Accepted religious practice</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYTRIBE_ARGUED_RELIGIOUS_PRACTICE</zType>
+		<zText>Argued religious practice</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
+	</Entry>
 </Root>

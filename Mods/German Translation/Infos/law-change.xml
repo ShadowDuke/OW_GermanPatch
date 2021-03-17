@@ -151,7 +151,7 @@
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_COLONIZATION_SERFDOM</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_SERFDOM</EffectPlayer>
-		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_LOW_CIVICS</EffectPlayerUpkeep>
+		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_LOW_MONEY</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>
 		<zType>LAW_MONOTHEISM</zType>
@@ -161,7 +161,7 @@
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_MONOTHEISM_POLYTHEISM</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_MONOTHEISM</EffectPlayer>
-		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_LOW_MONEY</EffectPlayerUpkeep>
+		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_LOW_CIVICS</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>
 		<zType>LAW_POLYTHEISM</zType>
@@ -181,7 +181,7 @@
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_DIVINE_RULE_LEGAL_CODE</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_DIVINE_RULE</EffectPlayer>
-		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_MEDIUM_TRAINING</EffectPlayerUpkeep>
+		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_MEDIUM_MONEY</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>
 		<zType>LAW_LEGAL_CODE</zType>
@@ -211,7 +211,7 @@
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_TOLERANCE_ORTHODOXY</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_ORTHODOXY</EffectPlayer>
-		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_MEDIUM_CIVICS</EffectPlayerUpkeep>
+		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_MEDIUM_MONEY</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>
 		<zType>LAW_PROFESSIONAL_ARMY</zType>
@@ -251,7 +251,7 @@
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_PHILOSOPHY_ENGINEERING</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_ENGINEERING</EffectPlayer>
-		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_HIGH_TRAINING</EffectPlayerUpkeep>
+		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_HIGH_MONEY</EffectPlayerUpkeep>
 	</Entry>
 	<Entry>
 		<zType>LAW_ICONOGRAPHY</zType>
@@ -281,7 +281,7 @@
 		<iCostPerChange>200</iCostPerChange>
 		<LawClass>LAWCLASS_PILGRIMAGE_HOLY_WAR</LawClass>
 		<EffectPlayer>EFFECTPLAYER_LAW_PILGRIMAGE</EffectPlayer>
-		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_HIGH_CIVICS</EffectPlayerUpkeep>
+		<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_HIGH_TRAINING</EffectPlayerUpkeep>
 	</Entry>	 
 	<Entry>
 		<zType>LAW_HOLY_WAR</zType>

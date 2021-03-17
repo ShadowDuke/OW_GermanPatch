@@ -17,14 +17,15 @@
 		<bEnabled>1</bEnabled>
 	</Entry>
 	<Entry>
-		<zType>TURNSCALE_HALF</zType>
-		<zScaleSingular>Halbjahr</zScaleSingular>
-		<zScalePlural>Halbjährlich</zScalePlural>
-		<zScaleShort>hj</zScaleShort>
+		<zType>TURNSCALE_SEMESTER</zType>
+		<zScaleSingular>Semester</zScaleSingular>
+		<zScalePlural>Semester</zScalePlural>
+		<zScaleShort>s</zScaleShort>
 		<bEnabled>1</bEnabled>
+		<iCognomenModifier>50</iCognomenModifier>
 		<azTurnNames>
-			<zValue>Early</zValue>
-			<zValue>Late</zValue>
+			<zValue>Früh</zValue>
+			<zValue>Spät</zValue>
 		</azTurnNames>
 	</Entry>
 	<Entry>
@@ -32,10 +33,11 @@
 		<zScaleSingular>Jahreszeit</zScaleSingular>
 		<zScalePlural>Jahreszeiten</zScalePlural>
 		<zScaleShort>J</zScaleShort>
+		<iCognomenModifier>100</iCognomenModifier>
 		<azTurnNames>
-			<zValue>Spring</zValue>
-			<zValue>Summer</zValue>
-			<zValue>Fall</zValue>
+			<zValue>Frühling</zValue>
+			<zValue>Sommer</zValue>
+			<zValue>Herbst</zValue>
 			<zValue>Winter</zValue>
 		</azTurnNames>
 	</Entry>
@@ -44,6 +46,7 @@
 		<zScaleSingular>Monat</zScaleSingular>
 		<zScalePlural>Monate</zScalePlural>
 		<zScaleShort>m</zScaleShort>
+		<iCognomenModifier>200</iCognomenModifier>
 		<azTurnNames>
 			<zValue>Januar</zValue>
 			<zValue>Februar</zValue>

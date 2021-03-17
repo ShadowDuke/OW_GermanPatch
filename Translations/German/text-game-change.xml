@@ -118,6 +118,10 @@
 		<Translation>Nachrichten außer Landes haben uns erreicht das {0_oldLeader} Tot ist. Ein neuer Herrscher, {1_newLeader}, hat den Thron übernommen.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_OTHER_TEAM_NEW_RULER_ABDICATE_POPUP</zType>
+		<Translation>News has arrived from abroad that {0_oldLeader} has abdicated. A new ruler, {1_newLeader}, has taken the throne.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_TRIBE_NEW_RULER_POPUP</zType>
 		<Translation>News has arrived from abroad that {0_oldLeader} is dead. {1_newLeader} now leads the {2_tribe}.</Translation>
 	</Entry>
@@ -160,6 +164,14 @@
 	<Entry>
 		<zType>TEXT_GAME_MAKE_LEGACY</zType>
 		<Translation>An old Ambition, {0_ambition}, is now a Legacy. You will have {1} {2_turnScale} to complete it.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_MAKE_LEGACIES</zType>
+		<Translation>The following link(CONCEPT_AMBITION,2) are now link(CONCEPT_LEGACY,2):</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_MAKE_LEGACIES_GOAL</zType>
+		<Translation>{0_goal} ({1} {2_turnScale} Übrig)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_AMBITION_IMPOSSIBLE</zType>
@@ -251,7 +263,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_RAID_WARNING</zType>
-		<Translation>Berichte über einen Barbaren Überfall nähe {0_city}!</Translation>
+		<Translation>Berichte von einem Überfall von {0,2_tribe} {1_improvement} in der Nähe von {2_city}!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_GIVE_BIRTH_LOG_DATA</zType>
@@ -321,15 +333,19 @@
 	<!--Do Bonus-->
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_MEMORY_ALL_PLAYERS</zType>
-		<Translation>Alle Reiche von {0_player}: {1_memory} ({2_value} Meinung)</Translation>
+		<Translation>Alle Reiche von {0_player}: {1_memory}, {2_value} Meinung)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_MEMORY_ALL_TRIBES</zType>
+		<Translation>Alle Stämme of {0_player}: {1_memory}, {2_value} Meinung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_MEMORY_ALL_FAMILIES</zType>
-		<Translation>Alle Famil(ien): {0_memory} ({1_value} Meinung)</Translation>
+		<Translation>Alle Familien: {0_memory}, {1_value} Meinung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_MEMORY_SUBJECT</zType>
-		<Translation>{0_subject}: {1_memory} ({2_value} Meinung)</Translation>
+		<Translation>{0_subject}: {1_memory}, {2_value} Meinung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_MEMORY_SUBJECT_TURNS</zType>
@@ -337,7 +353,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_FORGET_SUBJECT</zType>
-		<Translation>{0_subject}: Vergisst {1_memory} ({2_value} Meinung)</Translation>
+		<Translation>{0_subject}: Vergisst {1_memory}, {2_value} Meinung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_RENAME</zType>
@@ -406,6 +422,10 @@
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_HEAD_RELIGION</zType>
 		<Translation>{0_character} wird Anführer von {1_religion}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_HEAD_FAMILY</zType>
+		<Translation>{0_character} Wird Oberhaupt von {1_family}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_FAMILY_LAW</zType>
@@ -548,8 +568,8 @@
 		<Translation>Heiratet {0_suitor}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_DIVORCES</zType>
-		<Translation>{0_spouse}: Scheidung</Translation>
+		<zType>TEXT_GAME_DO_BONUS_DIVORCED_BY</zType>
+		<Translation>Geschieden von {0_spouse}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_BIRTH_WITH</zType>
@@ -665,7 +685,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CITY_ATTACKED_LOG_DATA</zType>
-		<Translation>{0_city} angegriffen!</Translation>
+		<Translation>{0_city} Angegriffen von {1_owner} {2_unit}!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CAMP_DESTROYED_LOG_DATA</zType>
@@ -680,10 +700,6 @@
 		<Translation>{0_city} eingenommen von {1_player}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_CITY_WE_CAPTURED_LOG_DATA</zType>
-		<Translation>{0_city} eingenommen von {1_player}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GAME_CITY_CANCEL_BUILD_LOG_DATA</zType>
 		<Translation>{0_build} abgebrochen in {1_city}</Translation>
 	</Entry>
@@ -693,15 +709,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_UNIT_ATTACKED_LOG_DATA</zType>
-		<Translation>{0_unit} Angegriffen!</Translation>
+		<Translation>{0_unit} Angegriffen von {1_owner} {2_unit}!</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_UNIT_KILLED</zType>
-		<Translation>{0_unit} getötet!</Translation>
+		<zType>TEXT_GAME_UNIT_KILLED_LOG_DATA</zType>
+		<Translation>{0_unit} Getötet von {1_owner} {2_unit}!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_UNIT_SEEN</zType>
-		<Translation>Feindliche {0_unit} gesehen!</Translation>
+		<Translation>Feindliche {0_owner} {1_unit} gesehen!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_UNIT_MOVE_CANCELLED</zType>
@@ -786,8 +802,8 @@
 		<Translation>{0} {1,2_citizenLink}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_UNIT_PILLAGED_IMPROVEMENT</zType>
-		<Translation>{0} Geplündert!</Translation>
+		<zType>TEXT_GAME_UNIT_PILLAGED_IMPROVEMENT_LOG_DATA</zType>
+		<Translation>{0} Geplündert von {1_owner} {2_unit}!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_UNIT_FINISHED_CARAVAN_MISSION</zType>
@@ -799,7 +815,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_UNIT_STUNNED</zType>
-		<Translation>Stunned</Translation>
+		<Translation>Betäubt</Translation>
 	</Entry>
 	<!--City-->
 	<Entry>

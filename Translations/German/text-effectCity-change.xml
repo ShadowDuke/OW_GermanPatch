@@ -232,14 +232,6 @@
 		<Translation>Der Große</Translation>
 	</Entry>	 
 	<Entry>
-		<zType>TEXT_EFFECTCITY_IMPROVEMENT_SHRINE_FIRE</zType>
-		<Translation>Schrein des Feuers</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_IMPROVEMENT_SHRINE_UNDERWORLD</zType>
-		<Translation>Schrein der Unterwelt</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EFFECTCITY_IMPROVEMENT_SHRINE_HUNTING</zType>
 		<Translation>Schrein des Jagens</Translation>
 	</Entry>
@@ -260,16 +252,16 @@
 		<Translation>Offenbarungs-Tempel</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTCITY_IMPROVEMENTCLASS_TEMPLE_DUALISM</zType>
+		<Translation>Dualismus-Tempel</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTCITY_IMPROVEMENTCLASS_TEMPLE_GNOSTICISM</zType>
 		<Translation>Gnostizismus-Tempel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_IMPROVEMENTCLASS_CATHEDRAL_REDEMPTION</zType>
 		<Translation>Erlösungs-Kathedrale</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_IMPROVEMENTCLASS_CATHEDRAL_DUALISM</zType>
-		<Translation>Dualismus-Kathedrale</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_IMPROVEMENTCLASS_CATHEDRAL_ENLIGHTENMENT</zType>
@@ -288,6 +280,10 @@
 		<Translation>Tyrannei</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTCITY_LAW_CONSTITUTION</zType>
+		<Translation>Verfassung</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTCITY_LAW_CENTRALIZATION</zType>
 		<Translation>Zentralisierung</Translation>
 	</Entry>
@@ -302,6 +298,10 @@
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LAW_POLYTHEISM</zType>
 		<Translation>Polytheismus</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_LAW_DIVINE_RULE</zType>
+		<Translation>Göttliche Herrschaft</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LAW_LEGAL_CODE</zType>
@@ -326,10 +326,6 @@
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LAW_PHILOSOPHY</zType>
 		<Translation>Philosophie</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_ENGINEERING</zType>
-		<Translation>Maschinenbau</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LAW_ICONOGRAPHY</zType>
@@ -368,34 +364,6 @@
 		<Translation>Münzreform</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_NATION_ASSYRIA</zType>
-		<Translation>Assyrien</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_NATION_BABYLONIA</zType>
-		<Translation>Babylonien</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_NATION_CARTHAGE</zType>
-		<Translation>Karthago</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_NATION_EGYPT</zType>
-		<Translation>Ägypten</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_NATION_GREECE</zType>
-		<Translation>Griechenland</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_NATION_ROME</zType>
-		<Translation>Rom</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_NATION_PERSIA</zType>
-		<Translation>Persien</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EFFECTCITY_OPINIONFAMILY_FURIOUS</zType>
 		<Translation>Wütend (Familie)</Translation>
 	</Entry>
@@ -413,7 +381,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_OPINIONFAMILY_FRIENDLY</zType>
-		<Translation>Freundlich (Familie)</Translation>
+		<Translation>Wohlwollend (Familie)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_OPINIONRELIGION_FURIOUS</zType>
@@ -421,11 +389,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_OPINIONRELIGION_ANGRY</zType>
-		<Translation>Aufgebrachte Religion</Translation>
+		<Translation>Aufgebracht (Religion)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_OPINIONRELIGION_UPSET</zType>
-		<Translation>Verärgerte Religion</Translation>
+		<Translation>Verärgert (Religion)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_OPINIONRELIGION_PLEASED</zType>
@@ -433,7 +401,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_OPINIONRELIGION_FRIENDLY</zType>
-		<Translation>Freundlich (Religion)</Translation>
+		<Translation>Wohlwollend (Religion)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_TREASURY</zType>
@@ -442,6 +410,50 @@
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_FORUM</zType>
 		<Translation>Gericht~ein Gericht~Gerichte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_WAR</zType>
+		<Translation>Pagan Cult of War</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_FIRE</zType>
+		<Translation>Pagan Cult of Fire</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_WISDOM</zType>
+		<Translation>Pagan Cult of Wisdom</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_SUN</zType>
+		<Translation>Pagan Cult of the Sun</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_WATER</zType>
+		<Translation>Pagan Cult of the Sea</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_LOVE</zType>
+		<Translation>Pagan Cult of Love</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_UNDERWORLD</zType>
+		<Translation>Pagan Cult of Death</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_HEALING</zType>
+		<Translation>Pagan Cult of Healing</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_KINGSHIP</zType>
+		<Translation>Pagan Cult of Royalty</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_HEARTH</zType>
+		<Translation>Pagan Cult of HearthS</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_HUNTING</zType>
+		<Translation>Pagan Cult of Victory</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_ARCHIVE</zType>
@@ -600,10 +612,6 @@
 		<Translation>Krabben</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_SCROLLS</zType>
-		<Translation>Schriftrollen</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_GRAIN</zType>
 		<Translation>Korn</Translation>
 	</Entry>
@@ -624,135 +632,151 @@
 		<Translation>Ältesten-Spezialist</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_TRAIT_ORATOR_ARCHETYPE_ALL</zType>
-		<Translation>Anführer der Richter</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_TRAIT_BUILDER_ARCHETYPE_ALL</zType>
-		<Translation>Anführer der Baumeister</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_TRAIT_COMMANDER_ARCHETYPE_ALL</zType>
-		<Translation>Anführer der Befehlshaber</Translation>
+		<zType>TEXT_EFFECTCITY_TRAIT_COMMANDER_ARCHETYPE_CAPITAL</zType>
+		<Translation>link(TRAIT_COMMANDER_ARCHETYPE) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_ZEALOT_ARCHETYPE_ALL</zType>
-		<Translation>Anführer der Fanatiker</Translation>
+		<Translation>link(TRAIT_ZEALOT_ARCHETYPE) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_ZEALOT_ARCHETYPE_STATE</zType>
-		<Translation>Anführer der Fanatiker</Translation>
+		<Translation>link(TRAIT_ZEALOT_ARCHETYPE) Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_ORATOR_ARCHETYPE</zType>
+		<Translation>link(TRAIT_ORATOR_ARCHETYPE) link(CONCEPT_GOVERNOR)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_ORATOR_ARCHETYPE_ALL</zType>
+		<Translation>link(TRAIT_ORATOR_ARCHETYPE) Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_JUDGE_ARCHETYPE</zType>
+		<Translation>link(TRAIT_JUDGE_ARCHETYPE) link(CONCEPT_GOVERNOR)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_BUILDER_ARCHETYPE</zType>
+		<Translation>link(TRAIT_BUILDER_ARCHETYPE) link(CONCEPT_GOVERNOR)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_BUILDER_ARCHETYPE_ALL</zType>
+		<Translation>link(TRAIT_BUILDER_ARCHETYPE) Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_SCHOLAR_ARCHETYPE</zType>
+		<Translation>link(TRAIT_SCHOLAR_ARCHETYPE) link(CONCEPT_GOVERNOR)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_AFFABLE_ALL</zType>
-		<Translation>Umgänglicher Anführer</Translation>
+		<Translation>link(TRAIT_AFFABLE) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_ELOQUENT_ALL</zType>
-		<Translation>Redegewandter Anführer</Translation>
+		<Translation>link(TRAIT_ELOQUENT) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_WARLIKE_ALL</zType>
-		<Translation>Kriegerischer Anführer</Translation>
+		<Translation>link(TRAIT_WARLIKE) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_INSPIRING_ALL</zType>
-		<Translation>Ehrwürdiger Anführer</Translation>
+		<Translation>link(TRAIT_INSPIRING) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_INTELLIGENT_ALL</zType>
-		<Translation>Intelligenter Anführer</Translation>
+		<Translation>link(TRAIT_INTELLIGENT) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_PROSPEROUS_ALL</zType>
-		<Translation>Glücklicher Anführer</Translation>
+		<Translation>link(TRAIT_PROSPEROUS) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_FRUGAL_ALL</zType>
-		<Translation>Sparsamer Anführer</Translation>
+		<Translation>link(TRAIT_FRUGAL) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_RIGHTEOUS_ALL</zType>
-		<Translation>Rechtschaffender Anführer</Translation>
+		<Translation>link(TRAIT_RIGHTEOUS) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_CRUEL_ALL</zType>
-		<Translation>Grausamer Anführer</Translation>
+		<Translation>link(TRAIT_CRUEL) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_INTOLERANT_ALL</zType>
-		<Translation>Intoleranter Anführer</Translation>
+		<Translation>link(TRAIT_INTOLERANT) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_SLOTHFUL_ALL</zType>
-		<Translation>Träger Anführer</Translation>
+		<Translation>link(TRAIT_SLOTHFUL) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_UNCOUTH_ALL</zType>
-		<Translation>Korrupter Anführer</Translation>
+		<Translation>link(TRAIT_UNCOUTH) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_FOOLISH_ALL</zType>
-		<Translation>Grober Anführer</Translation>
+		<Translation>link(TRAIT_FOOLISH) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_EXTRAVAGANT_ALL</zType>
-		<Translation>Dummer Anführer</Translation>
+		<Translation>link(TRAIT_EXTRAVAGANT) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_CORRUPT_ALL</zType>
-		<Translation>Ausschweifender Anführer</Translation>
+		<Translation>link(TRAIT_CORRUPT) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_DEBAUCHED_ALL</zType>
-		<Translation>Verdorbener Anführer</Translation>
+		<Translation>link(TRAIT_DEBAUCHED) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_ROBUST</zType>
-		<Translation>Robuster Anführer</Translation>
+		<Translation>link(TRAIT_ROBUST) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_VIGILANT</zType>
-		<Translation>Wachsamer Anführer</Translation>
+		<Translation>link(TRAIT_VIGILANT) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_STRICT</zType>
-		<Translation>Strenger Anführer</Translation>
+		<Translation>link(TRAIT_STRICT) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_DRILLMASTER</zType>
-		<Translation>Drillmaster Anführer</Translation>
+		<Translation>link(TRAIT_DRILLMASTER) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_EQUESTRIAN</zType>
-		<Translation>Reiter Anführer</Translation>
+		<Translation>link(TRAIT_EQUESTRIAN) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_CARPENTER</zType>
-		<Translation>Zimmerer Anführer</Translation>
+		<Translation>link(TRAIT_CARPENTER) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_ANGLER</zType>
-		<Translation>Fischr Anführer</Translation>
+		<Translation>link(TRAIT_ANGLER) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_PLANTER</zType>
-		<Translation>Pflanzer Anführer</Translation>
+		<Translation>link(TRAIT_PLANTER) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_FORESTER</zType>
-		<Translation>Förster Anführer</Translation>
+		<Translation>link(TRAIT_FORESTER) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_DELVER</zType>
-		<Translation>Buddler Anführer</Translation>
+		<Translation>link(TRAIT_DELVER) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_SMELTER</zType>
-		<Translation>Schmelzer Anführer</Translation>
+		<Translation>link(TRAIT_SMELTER) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_HERDER</zType>
-		<Translation>Hirten Anführer</Translation>
+		<Translation>link(TRAIT_HERDER) Anführer</Translation>
 	</Entry>
 </Root>

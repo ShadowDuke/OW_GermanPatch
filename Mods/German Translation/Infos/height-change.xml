@@ -4,6 +4,7 @@
 	<Entry>
 		<zType/>
 		<zName/>
+		<zIconName/>
 		<iMovementCost/>
 		<iRangeChange/>
 		<iRevealChange/>
@@ -20,23 +21,27 @@
 	<Entry>
 		<zType>HEIGHT_OCEAN</zType>
 		<zName>Ozean</zName>
+		<zIconName>OceanEditorIcon</zIconName>
 		<bNoVegetation>1</bNoVegetation>
 	</Entry>
 	<Entry>
 		<zType>HEIGHT_COAST</zType>
 		<zName>Küste</zName>
+		<zIconName>CoastEditorIcon</zIconName>
 		<iLandValueAdjacent>10</iLandValueAdjacent>
 		<bNoVegetation>1</bNoVegetation>
 	</Entry>
 	<Entry>
 		<zType>HEIGHT_LAKE</zType>
 		<zName>See</zName>
+		<zIconName>LakeEditorIcon</zIconName>
 		<iLandValueAdjacent>20</iLandValueAdjacent>
 		<bNoVegetation>1</bNoVegetation>
 	</Entry>
 	<Entry>
 		<zType>HEIGHT_FLAT</zType>
 		<zName>Flach</zName>
+		<zIconName>FlatEditorIcon</zIconName>
 		<iRevealChange>1</iRevealChange>
 		<aiDefendEffectUnit>
 			<Pair>
@@ -52,6 +57,7 @@
 	<Entry>
 		<zType>HEIGHT_HILL</zType>
 		<zName>Hügel</zName>
+		<zIconName>HillsEditorIcon</zIconName>
 		<iMovementCost>9</iMovementCost>
 		<iRangeChange>1</iRangeChange>
 		<iRevealChange>2</iRevealChange>
@@ -63,6 +69,7 @@
 	<Entry>
 		<zType>HEIGHT_MOUNTAIN</zType>
 		<zName>Gebirge</zName>
+		<zIconName>MountainEditorIcon</zIconName>
 		<iRangeChange>2</iRangeChange>
 		<iRevealChange>3</iRevealChange>
 		<iBorderValue>-1</iBorderValue>
@@ -74,6 +81,7 @@
 	<Entry>
 		<zType>HEIGHT_VOLCANO</zType>
 		<zName>Vulkan</zName>
+		<zIconName>VolcanoEditorIcon</zIconName>
 		<iRangeChange>2</iRangeChange>
 		<iRevealChange>3</iRevealChange>
 		<iBorderValue>-1</iBorderValue>

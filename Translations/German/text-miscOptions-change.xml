@@ -204,4 +204,44 @@
         <zType>TEXT_MISCOPTION_LANGUAGE_DESC</zType>
         <Translation>Ändere die Sprache des Spiels</Translation>
     </Entry>
+	<Entry>
+		<zType>TEXT_MISCOPTION_NEWSLETTER_NAME</zType>
+		<Translation>Newsletter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISCOPTION_NEWSLETTER_DESC</zType>
+		<Translation>Subscribe to the Mohawk Games newsletter by submitting your name and email</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISCOPTION_NEWSLETTER</zType>
+		<Translation>Subscribe</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISCOPTION_FIRSTNAME_NAME</zType>
+		<Translation>First name</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISCOPTION_FIRSTNAME_DESC</zType>
+		<Translation>Enter your first name for the newsletter subscription</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISCOPTION_LASTNAME_NAME</zType>
+		<Translation>Last name</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISCOPTION_LASTNAME_DESC</zType>
+		<Translation>Enter your last name for the newsletter subscription</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISCOPTION_NEWSLETTER_STATUS</zType>
+		<Translation>Newsletter subscription status:</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISCOPTION_NEWSLETTER_SUCCEEDED</zType>
+		<Translation>Your subscription has succeeded!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISCOPTION_NEWSLETTER_FAILED</zType>
+		<Translation>Error - Please provide email and try again.</Translation>
+	</Entry>
 </Root>

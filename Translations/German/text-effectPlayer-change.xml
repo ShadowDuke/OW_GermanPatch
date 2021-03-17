@@ -191,28 +191,40 @@
 		<Translation>Musik</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TECH_COINAGE</zType>
+		<Translation>Automatisiere link(UNIT_WORKER,2)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTPLAYER_VICTORY_POINT</zType>
 		<Translation>Siegpunkt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_HERO_ARCHETYPE</zType>
-		<Translation>Wortführer der Helden</Translation>
+		<Translation>Anführer der Helden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_TACTICIAN_ARCHETYPE</zType>
-		<Translation>Wortführer der Taktiker</Translation>
+		<Translation>Anführer der Taktiker</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TRAIT_COMMANDER_ARCHETYPE</zType>
+		<Translation>Anführer der Befehlshaber</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TRAIT_ZEALOT_ARCHETYPE</zType>
+		<Translation>Anführer der Fanatiker</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_JUDGE_ARCHETYPE</zType>
-		<Translation>Wortführer der Richter</Translation>
+		<Translation>Anführer der Richter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_ORATOR_ARCHETYPE</zType>
-		<Translation>Wortführer der Redner</Translation>
+		<Translation>Anführer der Redner</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_SCHOLAR_ARCHETYPE</zType>
-		<Translation>Wortführer der Wissenschaftler</Translation>
+		<Translation>Anführer der Wissenschaftler</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_SCHOLAR_ARCHETYPE_INQUIRY</zType>
@@ -220,19 +232,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_BUILDER_ARCHETYPE</zType>
-		<Translation>Wortführer der Baumeister</Translation>
+		<Translation>Anführer der Baumeister</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_SCHEMER_ARCHETYPE</zType>
-		<Translation>Wortführer der Intriganten</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_TRAIT_COMMANDER_ARCHETYPE</zType>
-		<Translation>Wortführer der Befehlshaber</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_TRAIT_ZEALOT_ARCHETYPE</zType>
-		<Translation>Wortführer der Fanatiker</Translation>
+		<Translation>Anführer der Intriganten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_DIPLOMAT_ARCHETYPE</zType>

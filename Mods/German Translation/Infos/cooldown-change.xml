@@ -7,6 +7,11 @@
 		<zIconName/>
 	</Entry>
 	<Entry>
+		<zType>COOLDOWN_AUTOMATED</zType>
+		<zName>Automated</zName>
+		<zIconName>STATUS_AUTOMATED</zIconName>
+	</Entry>
+	<Entry>
 		<zType>COOLDOWN_PASS</zType>
 		<zName>Aussetzen</zName>
 		<zIconName>STATUS_PASS</zIconName>
