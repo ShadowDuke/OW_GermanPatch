@@ -155,8 +155,16 @@
     <Entry>
         <zType>TEXT_MISCOPTION_COLOR_CORRECTION_DESC</zType>
 	    <Translation>Aktiviere Farbkorrektur Nachbearbeitung</Translation>
-    </Entry>
-    <Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISCOPTION_ANIMATION_LOD_NAME</zType>
+		<Translation>Reduce Animation Detail</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISCOPTION_ANIMATION_LOD_DESC</zType>
+		<Translation>Disable unit/resource idle animations when the camera is zoomed out</Translation>
+	</Entry>
+	<Entry>
         <zType>TEXT_MISCOPTION_MUSIC_VOLUME_NAME</zType>
         <Translation>Musiklautstärke</Translation>
     </Entry>
@@ -195,7 +203,15 @@
     <Entry>
         <zType>TEXT_MISCOPTION_TOOLTIP_SCALE_DESC</zType>
         <Translation>Ändere die Größe der Kurzinfos</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISCOPTION_OVERRIDE_MAX_SCALING_NAME</zType>
+		<Translation>Override Scaling Limit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISCOPTION_OVERRIDE_MAX_SCALING_DESC</zType>
+		<Translation><![CDATA[Increases the maximum value for HUD scaling on the slider<br><color=#ff0000>Warning: Enabling this setting may cause various UI elements to overlap or layouts to otherwise break</color>]]></Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_LANGUAGE_NAME</zType>
         <Translation>Sprache</Translation>
@@ -207,10 +223,6 @@
 	<Entry>
 		<zType>TEXT_MISCOPTION_NEWSLETTER_NAME</zType>
 		<Translation>Newsletter</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MISCOPTION_NEWSLETTER_DESC</zType>
-		<Translation>Subscribe to the Mohawk Games newsletter by submitting your name and email</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_NEWSLETTER</zType>

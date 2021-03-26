@@ -123,10 +123,6 @@
 		<Translation>Streng</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_DRILLMASTER</zType>
-		<Translation>Ausbilder</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_TRAIT_EQUESTRIAN</zType>
 		<Translation>Reiter</Translation>
 	</Entry>
@@ -135,28 +131,20 @@
 		<Translation>Zimmerer</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_ANGLER</zType>
-		<Translation>Fischer</Translation>
+		<zType>TEXT_TRAIT_PATHFINDER</zType>
+		<Translation>Pfadfinder</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_PLANTER</zType>
-		<Translation>Siedler</Translation>
+		<zType>TEXT_TRAIT_CULTIVATOR</zType>
+		<Translation>Landwirt</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_FORESTER</zType>
-		<Translation>Förster</Translation>
+		<zType>TEXT_TRAIT_NATURALIST</zType>
+		<Translation>Naturforscher</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DELVER</zType>
 		<Translation>Schnüffler</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_SMELTER</zType>
-		<Translation>Schmelzer</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_HERDER</zType>
-		<Translation>Hirte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DEALMAKER</zType>
@@ -169,10 +157,6 @@
 	<Entry>
 		<zType>TEXT_TRAIT_SWIFT</zType>
 		<Translation>Flink</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_MARKSMAN</zType>
-		<Translation>Schafschütze</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BESIEGER</zType>
@@ -247,12 +231,20 @@
 		<Translation>Gierig</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_LOYAL</zType>
+		<Translation>Loyal</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_CUNNING</zType>
-		<Translation>Listenreich</Translation>
+		<Translation>Gerissen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ROMANTIC</zType>
 		<Translation>Romantisch</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_BITTER</zType>
+		<Translation>Verbittert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_EDUCATED</zType>
@@ -271,26 +263,6 @@
 		<Translation>Rücksichtslos</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_LOYAL</zType>
-		<Translation>Loyal</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_BITTER</zType>
-		<Translation>Verbittert</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_SPOILED</zType>
-		<Translation>Verwöhnt</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_HONEST</zType>
-		<Translation>Ehrlich</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_DISHONEST</zType>
-		<Translation>Unehrlich</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_TRAIT_PIOUS</zType>
 		<Translation>Fromm</Translation>
 	</Entry>
@@ -307,12 +279,8 @@
 		<Translation>Stolz</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_HEARTBROKEN</zType>
-		<Translation>Untröstlich</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_BEAUTIFUL</zType>
-		<Translation>Schön</Translation>
+		<zType>TEXT_TRAIT_SPOILED</zType>
+		<Translation>Verdorben</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_WITTY</zType>

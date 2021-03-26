@@ -37,10 +37,6 @@
 				<iValue>10</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>TRAIT_MARKSMAN</zIndex>
-				<iValue>10</iValue>
-			</Pair>
-			<Pair>
 				<zIndex>TRAIT_BESIEGER</zIndex>
 				<iValue>10</iValue>
 			</Pair>
@@ -134,10 +130,6 @@
 			</Pair>
 			<Pair>
 				<zIndex>TRAIT_STRICT</zIndex>
-				<iValue>10</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>TRAIT_DRILLMASTER</zIndex>
 				<iValue>10</iValue>
 			</Pair>
 			<Pair>
@@ -245,27 +237,19 @@
 				<iValue>10</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>TRAIT_ANGLER</zIndex>
+				<zIndex>TRAIT_PATHFINDER</zIndex>
 				<iValue>10</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>TRAIT_PLANTER</zIndex>
+				<zIndex>TRAIT_CULTIVATOR</zIndex>
 				<iValue>10</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>TRAIT_FORESTER</zIndex>
+				<zIndex>TRAIT_NATURALIST</zIndex>
 				<iValue>10</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>TRAIT_DELVER</zIndex>
-				<iValue>10</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>TRAIT_SMELTER</zIndex>
-				<iValue>10</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>TRAIT_HERDER</zIndex>
 				<iValue>10</iValue>
 			</Pair>
 		</aiAdjectiveDie>
@@ -337,27 +321,19 @@
 				<iValue>10</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>TRAIT_ANGLER</zIndex>
+				<zIndex>TRAIT_PATHFINDER</zIndex>
 				<iValue>10</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>TRAIT_PLANTER</zIndex>
+				<zIndex>TRAIT_CULTIVATOR</zIndex>
 				<iValue>10</iValue>
 			</Pair>
 			<Pair>
-				<zIndex>TRAIT_FORESTER</zIndex>
+				<zIndex>TRAIT_NATURALIST</zIndex>
 				<iValue>10</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>TRAIT_DELVER</zIndex>
-				<iValue>10</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>TRAIT_SMELTER</zIndex>
-				<iValue>10</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>TRAIT_HERDER</zIndex>
 				<iValue>10</iValue>
 			</Pair>
 		</aiAdjectiveDie>

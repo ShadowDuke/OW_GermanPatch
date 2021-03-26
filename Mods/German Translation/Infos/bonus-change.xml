@@ -47,6 +47,7 @@
 		<SetArchetype comment="Gives the Character this Archetype Trait (and will remove the old one)"/>
 		<SetVegetation comment="Sets the Tile's Vegetation"/>
 		<SetResource comment="Sets the Tile's Resource"/>
+		<AddResource comment="Adds Improvement to a random valid Tile for the City Subject"/>
 		<SetImprovement comment="Sets the Tile's Improvement"/>
 		<AddImprovement comment="Adds Improvement to a random valid Tile for the City Subject"/>
 		<iSpreadUnits comment="List of Religion units that will appear near the City Subject"/>
@@ -207,6 +208,7 @@
 		<SetArchetype/>
 		<SetVegetation/>
 		<SetResource/>
+		<AddResource/>
 		<SetImprovement/>
 		<AddImprovement/>
 		<iSpreadUnits/>
@@ -382,6 +384,11 @@
 		<iLegitimacy>2</iLegitimacy>
 	</Entry>
 	<Entry>
+		<zType>BONUS_HIGH_SYNOD</zType>
+		<zName>High Synod</zName>
+		<iLegitimacy>-2</iLegitimacy>
+	</Entry>
+	<Entry>
 		<zType>BONUS_CONVERT_LEGITIMACY</zType>
 		<zName>Gebraucht für {YIELD_ORDERS}</zName>
 		<iLegitimacy>-1</iLegitimacy>
@@ -425,6 +432,11 @@
 		<zName>Friedensvertrag gebrochen</zName>
 		<MemoryAllPlayers>MEMORYPLAYER_BROKE_PEACE</MemoryAllPlayers>													   
 		<MemoryAllTribes>MEMORYTRIBE_BROKE_PEACE</MemoryAllTribes>
+		<iLegitimacy>-2</iLegitimacy>
+	</Entry>
+	<Entry>
+		<zType>BONUS_END_ALLIANCE</zType>
+		<zName>Beendete Bündnis</zName>
 		<iLegitimacy>-2</iLegitimacy>
 	</Entry>
 	<Entry>
@@ -924,6 +936,15 @@
 		<Council>COUNCIL_SPYMASTER</Council>
 	</Entry>
 	<Entry>
+		<zType>BONUS_MISSIONRESULT_LEAVE_COUNCIL</zType>
+		<bLeaveCouncil>1</bLeaveCouncil>
+	</Entry>
+	<Entry>
+		<zType>BONUS_MISSIONRESULT_LEAVE_RELIGION</zType>
+		<zName>Leave link(CONCEPT_STATE_RELIGION)</zName>
+		<bStateReligionEnd>1</bStateReligionEnd>
+	</Entry>
+	<Entry>
 		<zType>BONUS_MISSIONRESULT_RALLY_TROOPS</zType>
 		<zName>Versammle die Truppen</zName>
 		<aeBonuses>
@@ -933,12 +954,12 @@
 	<Entry>
 		<zType>BONUS_MISSIONRESULT_ABDICATE</zType>
 		<zName>Abdankung</zName>
-		<iLegitimacy>-2</iLegitimacy>
+		<iLegitimacy>-10</iLegitimacy>
 		<bAbdicate>1</bAbdicate>
 	</Entry>
 	<Entry>
 		<zType>BONUS_MISSIONRESULT_CONVERT_RELIGION</zType>
-		<zName>Konvertiere zur Staatsreligion</zName>
+		<zName>Konvertiere zur link(CONCEPT_STATE_RELIGION</zName>
 		<bConvertStateReligion>1</bConvertStateReligion>
 	</Entry>
 	<Entry>
@@ -992,13 +1013,13 @@
 		<aiOtherYieldsBase>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
-				<iValue>80</iValue>
+				<iValue>30</iValue>
 			</Pair>
 		</aiOtherYieldsBase>
 		<aiOtherYieldsPer>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
-				<iValue>40</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiOtherYieldsPer>
 	</Entry>
@@ -1009,13 +1030,13 @@
 		<aiOtherYieldsBase>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
-				<iValue>80</iValue>
+				<iValue>30</iValue>
 			</Pair>
 		</aiOtherYieldsBase>
 		<aiOtherYieldsPer>
 			<Pair>
 				<zIndex>YIELD_SCIENCE</zIndex>
-				<iValue>40</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiOtherYieldsPer>
 	</Entry>
@@ -1058,6 +1079,16 @@
 		<zType>BONUS_MISSIONRESULT_INSURRECTION_FAILURE</zType>
 		<zName>Aufstand (Fehlschlag)</zName>
 		<iLegitimacy>-1</iLegitimacy>
+	</Entry>
+	<Entry>
+		<zType>BONUS_MISSIONRESULT_HIGH_SYNOD_SUCCESS</zType>
+		<zName>High Synod (Success)</zName>
+		<MemoryReligion>MEMORYFAMILY_HIGH_SYNOD_SUCCESS</MemoryReligion>
+	</Entry>
+	<Entry>
+		<zType>BONUS_MISSIONRESULT_HIGH_SYNOD_FAILURE</zType>
+		<zName>High Synod (Failure)</zName>
+		<MemoryReligion>MEMORYFAMILY_HIGH_SYNOD_FAILURE</MemoryReligion>
 	</Entry>
 	<Entry>
 		<zType>BONUS_MISSIONRESULT_FAMILY_GIFT_SUCCESS</zType>
@@ -2580,7 +2611,7 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
-				<iValue>20</iValue>
+				<iValue>2</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 	</Entry>
@@ -2589,7 +2620,7 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
-				<iValue>30</iValue>
+				<iValue>3</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 	</Entry>
@@ -2598,7 +2629,7 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
-				<iValue>40</iValue>
+				<iValue>4</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 	</Entry>
@@ -2607,7 +2638,7 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
-				<iValue>50</iValue>
+				<iValue>5</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 	</Entry>
@@ -2616,7 +2647,7 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
-				<iValue>70</iValue>
+				<iValue>7</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 	</Entry>
@@ -2625,7 +2656,7 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
-				<iValue>100</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 	</Entry>
@@ -2634,7 +2665,7 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_ORDERS</zIndex>
-				<iValue>150</iValue>
+				<iValue>15</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 	</Entry>
@@ -2853,13 +2884,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>80</iValue>
+				<iValue>8</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>20</iValue>
+				<iValue>2</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -2868,13 +2899,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>200</iValue>
+				<iValue>20</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>500</iValue>
+				<iValue>50</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -2883,13 +2914,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>300</iValue>
+				<iValue>30</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>100</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -2898,13 +2929,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>500</iValue>
+				<iValue>50</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>150</iValue>
+				<iValue>15</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -2913,13 +2944,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>750</iValue>
+				<iValue>75</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>250</iValue>
+				<iValue>25</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -2928,13 +2959,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>1000</iValue>
+				<iValue>100</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>350</iValue>
+				<iValue>35</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -2943,13 +2974,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>1500</iValue>
+				<iValue>150</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>500</iValue>
+				<iValue>50</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -3168,13 +3199,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
-				<iValue>80</iValue>
+				<iValue>8</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
-				<iValue>20</iValue>
+				<iValue>2</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -3183,13 +3214,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
-				<iValue>200</iValue>
+				<iValue>20</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
-				<iValue>500</iValue>
+				<iValue>50</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -3198,13 +3229,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
-				<iValue>300</iValue>
+				<iValue>30</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
-				<iValue>100</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -3213,13 +3244,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
-				<iValue>500</iValue>
+				<iValue>50</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
-				<iValue>150</iValue>
+				<iValue>15</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -3228,13 +3259,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
-				<iValue>750</iValue>
+				<iValue>75</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
-				<iValue>250</iValue>
+				<iValue>25</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -3243,13 +3274,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
-				<iValue>1000</iValue>
+				<iValue>100</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
-				<iValue>350</iValue>
+				<iValue>35</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -3258,13 +3289,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
-				<iValue>1500</iValue>
+				<iValue>150</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
-				<iValue>500</iValue>
+				<iValue>50</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -3483,13 +3514,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
-				<iValue>80</iValue>
+				<iValue>8</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
-				<iValue>20</iValue>
+				<iValue>2</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -3498,13 +3529,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
-				<iValue>200</iValue>
+				<iValue>20</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
-				<iValue>500</iValue>
+				<iValue>50</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -3513,13 +3544,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
-				<iValue>300</iValue>
+				<iValue>30</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
-				<iValue>100</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -3528,13 +3559,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
-				<iValue>500</iValue>
+				<iValue>50</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
-				<iValue>150</iValue>
+				<iValue>15</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -3543,13 +3574,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
-				<iValue>750</iValue>
+				<iValue>75</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
-				<iValue>250</iValue>
+				<iValue>25</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -3558,13 +3589,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
-				<iValue>1000</iValue>
+				<iValue>100</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
-				<iValue>350</iValue>
+				<iValue>35</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -3573,13 +3604,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
-				<iValue>1500</iValue>
+				<iValue>150</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
-				<iValue>500</iValue>
+				<iValue>50</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -3798,13 +3829,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_STONE</zIndex>
-				<iValue>80</iValue>
+				<iValue>8</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_STONE</zIndex>
-				<iValue>20</iValue>
+				<iValue>2</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -3813,13 +3844,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_STONE</zIndex>
-				<iValue>200</iValue>
+				<iValue>20</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_STONE</zIndex>
-				<iValue>500</iValue>
+				<iValue>50</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -3828,13 +3859,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_STONE</zIndex>
-				<iValue>300</iValue>
+				<iValue>30</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_STONE</zIndex>
-				<iValue>100</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -3843,13 +3874,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_STONE</zIndex>
-				<iValue>500</iValue>
+				<iValue>50</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_STONE</zIndex>
-				<iValue>150</iValue>
+				<iValue>15</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -3858,13 +3889,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_STONE</zIndex>
-				<iValue>750</iValue>
+				<iValue>75</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_STONE</zIndex>
-				<iValue>250</iValue>
+				<iValue>25</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -3873,13 +3904,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_STONE</zIndex>
-				<iValue>1000</iValue>
+				<iValue>100</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_STONE</zIndex>
-				<iValue>350</iValue>
+				<iValue>35</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -3888,13 +3919,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_STONE</zIndex>
-				<iValue>1500</iValue>
+				<iValue>150</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_STONE</zIndex>
-				<iValue>500</iValue>
+				<iValue>50</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -4218,6 +4249,66 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>8</iValue>
+			</Pair>
+		</aiYieldsSendBase>
+		<aiYieldsSendPerUs>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>2</iValue>
+			</Pair>
+		</aiYieldsSendPerUs>
+	</Entry>
+	<Entry>
+		<zType>BONUS_CIVICS_SEND_TINY</zType>
+		<aiYieldsSendBase>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+		</aiYieldsSendBase>
+		<aiYieldsSendPerUs>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>50</iValue>
+			</Pair>
+		</aiYieldsSendPerUs>
+	</Entry>
+	<Entry>
+		<zType>BONUS_CIVICS_SEND_SMALL</zType>
+		<aiYieldsSendBase>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>40</iValue>
+			</Pair>
+		</aiYieldsSendBase>
+		<aiYieldsSendPerUs>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>10</iValue>
+			</Pair>
+		</aiYieldsSendPerUs>
+	</Entry>
+	<Entry>
+		<zType>BONUS_CIVICS_SEND_AVERAGE</zType>
+		<aiYieldsSendBase>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>60</iValue>
+			</Pair>
+		</aiYieldsSendBase>
+		<aiYieldsSendPerUs>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>15</iValue>
+			</Pair>
+		</aiYieldsSendPerUs>
+	</Entry>
+	<Entry>
+		<zType>BONUS_CIVICS_SEND_LARGE</zType>
+		<aiYieldsSendBase>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
 				<iValue>80</iValue>
 			</Pair>
 		</aiYieldsSendBase>
@@ -4229,77 +4320,17 @@
 		</aiYieldsSendPerUs>
 	</Entry>
 	<Entry>
-		<zType>BONUS_CIVICS_SEND_TINY</zType>
-		<aiYieldsSendBase>
-			<Pair>
-				<zIndex>YIELD_CIVICS</zIndex>
-				<iValue>200</iValue>
-			</Pair>
-		</aiYieldsSendBase>
-		<aiYieldsSendPerUs>
-			<Pair>
-				<zIndex>YIELD_CIVICS</zIndex>
-				<iValue>500</iValue>
-			</Pair>
-		</aiYieldsSendPerUs>
-	</Entry>
-	<Entry>
-		<zType>BONUS_CIVICS_SEND_SMALL</zType>
-		<aiYieldsSendBase>
-			<Pair>
-				<zIndex>YIELD_CIVICS</zIndex>
-				<iValue>400</iValue>
-			</Pair>
-		</aiYieldsSendBase>
-		<aiYieldsSendPerUs>
-			<Pair>
-				<zIndex>YIELD_CIVICS</zIndex>
-				<iValue>100</iValue>
-			</Pair>
-		</aiYieldsSendPerUs>
-	</Entry>
-	<Entry>
-		<zType>BONUS_CIVICS_SEND_AVERAGE</zType>
-		<aiYieldsSendBase>
-			<Pair>
-				<zIndex>YIELD_CIVICS</zIndex>
-				<iValue>600</iValue>
-			</Pair>
-		</aiYieldsSendBase>
-		<aiYieldsSendPerUs>
-			<Pair>
-				<zIndex>YIELD_CIVICS</zIndex>
-				<iValue>150</iValue>
-			</Pair>
-		</aiYieldsSendPerUs>
-	</Entry>
-	<Entry>
-		<zType>BONUS_CIVICS_SEND_LARGE</zType>
-		<aiYieldsSendBase>
-			<Pair>
-				<zIndex>YIELD_CIVICS</zIndex>
-				<iValue>800</iValue>
-			</Pair>
-		</aiYieldsSendBase>
-		<aiYieldsSendPerUs>
-			<Pair>
-				<zIndex>YIELD_CIVICS</zIndex>
-				<iValue>200</iValue>
-			</Pair>
-		</aiYieldsSendPerUs>
-	</Entry>
-	<Entry>
 		<zType>BONUS_CIVICS_SEND_HUGE</zType>
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_CIVICS</zIndex>
-				<iValue>1200</iValue>
+				<iValue>120</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_CIVICS</zIndex>
-				<iValue>300</iValue>
+				<iValue>30</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -4308,13 +4339,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_CIVICS</zIndex>
-				<iValue>1600</iValue>
+				<iValue>160</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_CIVICS</zIndex>
-				<iValue>400</iValue>
+				<iValue>40</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -4533,13 +4564,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>200</iValue>
+				<iValue>20</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>50</iValue>
+				<iValue>5</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -4548,13 +4579,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>400</iValue>
+				<iValue>40</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>100</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -4563,13 +4594,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>600</iValue>
+				<iValue>60</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>150</iValue>
+				<iValue>15</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -4578,13 +4609,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>800</iValue>
+				<iValue>80</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>200</iValue>
+				<iValue>20</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -4593,13 +4624,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>1200</iValue>
+				<iValue>120</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>300</iValue>
+				<iValue>30</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -4608,13 +4639,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>1600</iValue>
+				<iValue>160</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>400</iValue>
+				<iValue>40</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -4623,13 +4654,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>2400</iValue>
+				<iValue>240</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
-				<iValue>600</iValue>
+				<iValue>60</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -4848,13 +4879,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>400</iValue>
+				<iValue>40</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>100</iValue>
+				<iValue>10</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -4863,13 +4894,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>800</iValue>
+				<iValue>80</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>200</iValue>
+				<iValue>20</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -4878,13 +4909,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>1200</iValue>
+				<iValue>120</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>300</iValue>
+				<iValue>30</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -4893,13 +4924,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>1600</iValue>
+				<iValue>160</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>400</iValue>
+				<iValue>40</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -4908,13 +4939,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>2400</iValue>
+				<iValue>240</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>600</iValue>
+				<iValue>60</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -4923,13 +4954,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>3200</iValue>
+				<iValue>320</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>800</iValue>
+				<iValue>80</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -4938,13 +4969,13 @@
 		<aiYieldsSendBase>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>4000</iValue>
+				<iValue>400</iValue>
 			</Pair>
 		</aiYieldsSendBase>
 		<aiYieldsSendPerUs>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
-				<iValue>1000</iValue>
+				<iValue>100</iValue>
 			</Pair>
 		</aiYieldsSendPerUs>
 	</Entry>
@@ -5477,6 +5508,21 @@
 		</aiYieldsTributePerUs>
 	</Entry>
 	<Entry>
+		<zType>BONUS_TRIBUTE_GIVE_SCIENCE_HUGE</zType>
+		<aiYieldsTributeBase>
+			<Pair>
+				<zIndex>YIELD_SCIENCE</zIndex>
+				<iValue>-75</iValue>
+			</Pair>
+		</aiYieldsTributeBase>
+		<aiYieldsTributePerUs>
+			<Pair>
+				<zIndex>YIELD_SCIENCE</zIndex>
+				<iValue>-15</iValue>
+			</Pair>
+		</aiYieldsTributePerUs>
+	</Entry>
+	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_CIVICS_SMALL</zType>
 		<aiYieldsTributeBase>
 			<Pair>
@@ -5522,6 +5568,21 @@
 		</aiYieldsTributePerUs>
 	</Entry>
 	<Entry>
+		<zType>BONUS_TRIBUTE_GIVE_CIVICS_HUGE</zType>
+		<aiYieldsTributeBase>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>-100</iValue>
+			</Pair>
+		</aiYieldsTributeBase>
+		<aiYieldsTributePerUs>
+			<Pair>
+				<zIndex>YIELD_CIVICS</zIndex>
+				<iValue>-20</iValue>
+			</Pair>
+		</aiYieldsTributePerUs>
+	</Entry>
+	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_TRAINING_SMALL</zType>
 		<aiYieldsTributeBase>
 			<Pair>
@@ -5563,6 +5624,21 @@
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>
 				<iValue>-20</iValue>
+			</Pair>
+		</aiYieldsTributePerUs>
+	</Entry>
+	<Entry>
+		<zType>BONUS_TRIBUTE_GIVE_TRAINING_HUGE</zType>
+		<aiYieldsTributeBase>
+			<Pair>
+				<zIndex>YIELD_TRAINING</zIndex>
+				<iValue>-150</iValue>
+			</Pair>
+		</aiYieldsTributeBase>
+		<aiYieldsTributePerUs>
+			<Pair>
+				<zIndex>YIELD_TRAINING</zIndex>
+				<iValue>-30</iValue>
 			</Pair>
 		</aiYieldsTributePerUs>
 	</Entry>
@@ -5687,6 +5763,21 @@
 		</aiYieldsTributePerUs>
 	</Entry>
 	<Entry>
+		<zType>BONUS_TRIBUTE_GIVE_ORDERS_HUGE</zType>
+		<aiYieldsTributeBase>
+			<Pair>
+				<zIndex>YIELD_ORDERS</zIndex>
+				<iValue>-50</iValue>
+			</Pair>
+		</aiYieldsTributeBase>
+		<aiYieldsTributePerUs>
+			<Pair>
+				<zIndex>YIELD_ORDERS</zIndex>
+				<iValue>-10</iValue>
+			</Pair>
+		</aiYieldsTributePerUs>
+	</Entry>
+	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_FOOD_SMALL</zType>
 		<aiYieldsTributeBase>
 			<Pair>
@@ -5728,6 +5819,21 @@
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
 				<iValue>-20</iValue>
+			</Pair>
+		</aiYieldsTributePerUs>
+	</Entry>
+	<Entry>
+		<zType>BONUS_TRIBUTE_GIVE_FOOD_HUGE</zType>
+		<aiYieldsTributeBase>
+			<Pair>
+				<zIndex>YIELD_FOOD</zIndex>
+				<iValue>-150</iValue>
+			</Pair>
+		</aiYieldsTributeBase>
+		<aiYieldsTributePerUs>
+			<Pair>
+				<zIndex>YIELD_FOOD</zIndex>
+				<iValue>-30</iValue>
 			</Pair>
 		</aiYieldsTributePerUs>
 	</Entry>
@@ -5777,6 +5883,21 @@
 		</aiYieldsTributePerUs>
 	</Entry>
 	<Entry>
+		<zType>BONUS_TRIBUTE_GIVE_IRON_HUGE</zType>
+		<aiYieldsTributeBase>
+			<Pair>
+				<zIndex>YIELD_IRON</zIndex>
+				<iValue>-150</iValue>
+			</Pair>
+		</aiYieldsTributeBase>
+		<aiYieldsTributePerUs>
+			<Pair>
+				<zIndex>YIELD_IRON</zIndex>
+				<iValue>-30</iValue>
+			</Pair>
+		</aiYieldsTributePerUs>
+	</Entry>
+	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_WOOD_SMALL</zType>
 		<aiYieldsTributeBase>
 			<Pair>
@@ -5822,6 +5943,21 @@
 		</aiYieldsTributePerUs>
 	</Entry>
 	<Entry>
+		<zType>BONUS_TRIBUTE_GIVE_WOOD_HUGE</zType>
+		<aiYieldsTributeBase>
+			<Pair>
+				<zIndex>YIELD_WOOD</zIndex>
+				<iValue>-150</iValue>
+			</Pair>
+		</aiYieldsTributeBase>
+		<aiYieldsTributePerUs>
+			<Pair>
+				<zIndex>YIELD_WOOD</zIndex>
+				<iValue>-30</iValue>
+			</Pair>
+		</aiYieldsTributePerUs>
+	</Entry>
+	<Entry>
 		<zType>BONUS_TRIBUTE_GIVE_STONE_SMALL</zType>
 		<aiYieldsTributeBase>
 			<Pair>
@@ -5863,6 +5999,21 @@
 			<Pair>
 				<zIndex>YIELD_STONE</zIndex>
 				<iValue>-20</iValue>
+			</Pair>
+		</aiYieldsTributePerUs>
+	</Entry>
+	<Entry>
+		<zType>BONUS_TRIBUTE_GIVE_STONE_HUGE</zType>
+		<aiYieldsTributeBase>
+			<Pair>
+				<zIndex>YIELD_STONE</zIndex>
+				<iValue>-150</iValue>
+			</Pair>
+		</aiYieldsTributeBase>
+		<aiYieldsTributePerUs>
+			<Pair>
+				<zIndex>YIELD_STONE</zIndex>
+				<iValue>-30</iValue>
 			</Pair>
 		</aiYieldsTributePerUs>
 	</Entry>
@@ -6492,6 +6643,12 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
+		<zType>BONUS_REMOVE_TRAIT_RIGHTEOUS</zType>
+		<aeRemoveTraits>
+			<zValue>TRAIT_RIGHTEOUS</zValue>
+		</aeRemoveTraits>
+	</Entry>
+	<Entry>
 		<zType>BONUS_GIVE_TRAIT_CRUEL</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_CRUEL</zValue>
@@ -6552,12 +6709,6 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GIVE_TRAIT_DRILLMASTER</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_DRILLMASTER</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
 		<zType>BONUS_GIVE_TRAIT_EQUESTRIAN</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_EQUESTRIAN</zValue>
@@ -6570,39 +6721,27 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GIVE_TRAIT_ANGLER</zType>
+		<zType>BONUS_GIVE_TRAIT_PATHFINDER</zType>
 		<aeAddTraits>
-			<zValue>TRAIT_ANGLER</zValue>
+			<zValue>TRAIT_PATHFINDER</zValue>
 		</aeAddTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GIVE_TRAIT_PLANTER</zType>
+		<zType>BONUS_GIVE_TRAIT_CULTIVATOR</zType>
 		<aeAddTraits>
-			<zValue>TRAIT_PLANTER</zValue>
+			<zValue>TRAIT_CULTIVATOR</zValue>
 		</aeAddTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GIVE_TRAIT_FORESTER</zType>
+		<zType>BONUS_GIVE_TRAIT_NATURALIST</zType>
 		<aeAddTraits>
-			<zValue>TRAIT_FORESTER</zValue>
+			<zValue>TRAIT_NATURALIST</zValue>
 		</aeAddTraits>
 	</Entry>
 	<Entry>
 		<zType>BONUS_GIVE_TRAIT_DELVER</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_DELVER</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_GIVE_TRAIT_SMELTER</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_SMELTER</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_GIVE_TRAIT_HERDER</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_HERDER</zValue>
 		</aeAddTraits>
 	</Entry>
 	<Entry>
@@ -6621,12 +6760,6 @@
 		<zType>BONUS_GIVE_TRAIT_SWIFT</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_SWIFT</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_GIVE_TRAIT_MARKSMAN</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_MARKSMAN</zValue>
 		</aeAddTraits>
 	</Entry>
 	<Entry>
@@ -6744,6 +6877,12 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
+		<zType>BONUS_GIVE_TRAIT_BITTER</zType>
+		<aeAddTraits>
+			<zValue>TRAIT_BITTER</zValue>
+		</aeAddTraits>
+	</Entry>
+	<Entry>
 		<zType>BONUS_GIVE_TRAIT_EDUCATED</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_EDUCATED</zValue>
@@ -6774,36 +6913,6 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GIVE_TRAIT_BITTER</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_BITTER</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_GIVE_TRAIT_SPOILED</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_SPOILED</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_GIVE_TRAIT_HONEST</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_HONEST</zValue>
-		</aeAddTraits>
-	</Entry>
-		<Entry>
-		<zType>BONUS_REMOVE_TRAIT_HONEST</zType>
-		<aeRemoveTraits>
-			<zValue>TRAIT_HONEST</zValue>
-		</aeRemoveTraits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_GIVE_TRAIT_DISHONEST</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_DISHONEST</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
 		<zType>BONUS_GIVE_TRAIT_PIOUS</zType>
 		<aeAddTraits>
 			<zValue>TRAIT_PIOUS</zValue>
@@ -6828,15 +6937,9 @@
 		</aeAddTraits>
 	</Entry>
 	<Entry>
-		<zType>BONUS_GIVE_TRAIT_HEARTBROKEN</zType>
+		<zType>BONUS_GIVE_TRAIT_SPOILED</zType>
 		<aeAddTraits>
-			<zValue>TRAIT_HEARTBROKEN</zValue>
-		</aeAddTraits>
-	</Entry>
-	<Entry>
-		<zType>BONUS_GIVE_TRAIT_BEAUTIFUL</zType>
-		<aeAddTraits>
-			<zValue>TRAIT_BEAUTIFUL</zValue>
+			<zValue>TRAIT_SPOILED</zValue>
 		</aeAddTraits>
 	</Entry>
 	<Entry>

@@ -431,11 +431,11 @@
 		</aiStatValue>
 	</Entry>
 	<Entry>
-		<zType>COGNOMEN_SURVEYOR</zType>
-		<zName>der Vermesser</zName>
+		<zType>COGNOMEN_BUILDER</zType>
+		<zName>der Erbauer</zName>
 		<iLegitimacy>10</iLegitimacy>
 		<iMinValue>1000</iMinValue>
-		<Achievement>ACHIEVEMENT_COGNOMEN_SURVEYOR</Achievement>
+		<Achievement>ACHIEVEMENT_COGNOMEN_BUILDER</Achievement>
 		<aiStatValue>
 			<Pair>
 				<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>

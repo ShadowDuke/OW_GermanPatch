@@ -3186,18 +3186,6 @@
 	<Translation>Farewell, {G0:Brother:Sister}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_AMBASSADOR_DEATH_TITLE</zType>
-		<Translation>[AMBASSADOR DEATH]</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_CHANCELLOR_DEATH_TITLE</zType>
-		<Translation>[CHANCELLOR DEATH]</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_SPYMASTER_DEATH_TITLE</zType>
-		<Translation>[SPYMASTER DEATH]</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTSTORY_A_TOAST_TITLE</zType>
 		<Translation>Ein Toast</Translation>
 	</Entry>
@@ -4198,10 +4186,6 @@
 		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_INHERITANCE_BEAUTIFUL_TITLE</zType>
-		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTSTORY_INHERITANCE_EXOTIC_TITLE</zType>
 		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
 	</Entry>
@@ -4223,10 +4207,6 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_INHERITANCE_MISERABLE_TITLE</zType>
-		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_INHERITANCE_HEARTBROKEN_TITLE</zType>
 		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
 	</Entry>
 	<Entry>
@@ -4275,14 +4255,6 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_INHERITANCE_RUTHLESS_TITLE</zType>
-		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_INHERITANCE_HONEST_TITLE</zType>
-		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_INHERITANCE_DISHONEST_TITLE</zType>
 		<Translation>Like {G1:father:mother}, like {G0:son:daughter}</Translation>
 	</Entry>
 	<Entry>
@@ -4594,10 +4566,6 @@
 		<Translation>Plane Speaking</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_LEADER_LOVED_BOTH_ANGLERS_TITLE</zType>
-		<Translation>Hook, Line, and Sinker</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_LOVED_BOTH_STRICT_TITLE</zType>
 		<Translation>Spartan Style</Translation>
 	</Entry>
@@ -4608,10 +4576,6 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_LOVED_BOTH_EDUCATED_TITLE</zType>
 		<Translation>The Right Angle</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_LEADER_LOVED_BOTH_ANGLERS_TITLE_COPY</zType>
-		<Translation>The Joy of War</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_LOVED_BOTH_WANTON_TITLE</zType>
@@ -4832,10 +4796,6 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_WONDER_THE_ZIGGURAT_TITLE</zType>
 		<Translation>The Ziggurat of {CITY-0}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_HEIR_EXPERTISE_ANGLER_TITLE</zType>
-		<Translation>Fisher Expertise</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GLADIATOR_GAMES_TITLE</zType>

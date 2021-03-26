@@ -149,7 +149,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_AMBITION_CAPITAL</zType>
-		<Translation>Ambitionen vollendet</Translation>
+		<Translation>link(CONCEPT_AMBITION,2) vollendet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LEGACY_CAPITAL</zType>
@@ -612,8 +612,12 @@
 		<Translation>Krabben</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_GRAIN</zType>
-		<Translation>Korn</Translation>
+		<zType>TEXT_EFFECTCITY_RESOURCE_CROP</zType>
+		<Translation>Getreide</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_RESOURCE_BULLION</zType>
+		<Translation>Bullion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_SPECIALIST_RURAL</zType>
@@ -744,10 +748,6 @@
 		<Translation>link(TRAIT_STRICT) Anführer</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_TRAIT_DRILLMASTER</zType>
-		<Translation>link(TRAIT_DRILLMASTER) Anführer</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_EQUESTRIAN</zType>
 		<Translation>link(TRAIT_EQUESTRIAN) Anführer</Translation>
 	</Entry>
@@ -756,27 +756,19 @@
 		<Translation>link(TRAIT_CARPENTER) Anführer</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_TRAIT_ANGLER</zType>
-		<Translation>link(TRAIT_ANGLER) Anführer</Translation>
+		<zType>TEXT_EFFECTCITY_TRAIT_PATHFINDER</zType>
+		<Translation>link(TRAIT_PATHFINDER) Anführer</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_TRAIT_PLANTER</zType>
-		<Translation>link(TRAIT_PLANTER) Anführer</Translation>
+		<zType>TEXT_EFFECTCITY_TRAIT_CULTIVATOR</zType>
+		<Translation>link(TRAIT_CULTIVATOR) Anführer</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_TRAIT_FORESTER</zType>
-		<Translation>link(TRAIT_FORESTER) Anführer</Translation>
+		<zType>TEXT_EFFECTCITY_TRAIT_NATURALIST</zType>
+		<Translation>link(TRAIT_NATURALIST) Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_DELVER</zType>
 		<Translation>link(TRAIT_DELVER) Anführer</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_TRAIT_SMELTER</zType>
-		<Translation>link(TRAIT_SMELTER) Anführer</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_TRAIT_HERDER</zType>
-		<Translation>link(TRAIT_HERDER) Anführer</Translation>
 	</Entry>
 </Root>

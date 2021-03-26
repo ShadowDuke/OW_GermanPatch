@@ -8,11 +8,13 @@
 		<iValue comment="Effect of this memory on family opinion."/>
 		<iTurns comment="Number of turns this memory lasts."/>
 		<bName comment="Show the name for event options."/>
+		<bVisible comment="Always visible in the player popup help"/>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_HUMAN_DIPLOMACY</zType>
 		<zText>Human Diplomacy</zText>
 		<iTurns>1</iTurns>
+		<bVisible>1</bVisible>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_CONTACTED_FIRST_NATION</zType>

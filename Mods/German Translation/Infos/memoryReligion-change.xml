@@ -20,6 +20,16 @@
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_LONG</MemoryLevel>
 	</Entry>
 	<Entry>
+		<zType>MEMORYFAMILY_HIGH_SYNOD_SUCCESS</zType>
+		<zText>Organized a successful link(MISSION_HIGH_SYNOD)</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_HIGH_SYNOD_FAILURE</zType>
+		<zText>Held a failed link(MISSION_HIGH_SYNOD)</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
 		<zType>MEMORYRELIGION_MADE_OFFERINGS</zType>
 		<zText>Made holy offerings</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_LONG</MemoryLevel>

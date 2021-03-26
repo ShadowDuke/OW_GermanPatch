@@ -19,6 +19,10 @@
 		<Translation>Bestimme link(COUNCIL_SPYMASTER)</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSION_LEAVE_COUNCIL</zType>
+		<Translation>Verlasse Hofrat</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSION_PLAYER_ALLIANCE</zType>
 		<Translation>link(CONCEPT_ALLIANCE_PLAYER</Translation>
 	</Entry>
@@ -183,6 +187,10 @@
 		<Translation>Übernehme Religion</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSION_LEAVE_RELIGION</zType>
+		<Translation>Leave link(CONCEPT_STATE_RELIGION)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSION_PLAYER_MARRIAGE</zType>
 		<Translation>Ausländische Heirat</Translation>
 	</Entry>
@@ -321,6 +329,18 @@
 	<Entry>
 		<zType>TEXT_MISSION_TRADE_MISSION_CHARACTER</zType>
 		<Translation>Handelsmission über</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_HIGH_SYNOD</zType>
+		<Translation>High Synod</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_HIGH_SYNOD_TARGET</zType>
+		<Translation>High Synod with</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_HIGH_SYNOD_CHARACTER</zType>
+		<Translation>High Synod via</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_FAMILY_GIFT</zType>

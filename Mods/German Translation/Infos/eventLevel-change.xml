@@ -13,14 +13,14 @@
 		<zName>Weniger</zName>
 		<zHelp>Weniger Ereignisse als normal</zHelp>
 		<iPercent>50</iPercent>
-		<iTurns>6</iTurns>
+		<iTurns>8</iTurns>
 	</Entry>
 	<Entry>
 		<zType>EVENTLEVEL_MODERATE</zType>
 		<zName>Angemessen</zName>
 		<zHelp>Das vorgegebene Ereignis-Verhältnis</zHelp>
 		<iPercent>75</iPercent>
-		<iTurns>5</iTurns>
+		<iTurns>6</iTurns>
 	</Entry>
 	<Entry>
 		<zType>EVENTLEVEL_HIGH</zType>

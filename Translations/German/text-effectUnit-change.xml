@@ -47,8 +47,16 @@
 		<Translation>Fährtenleser</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_TRACKER_ALL</zType>
+		<Translation>Fährtenleser Anführer</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_SWIFT</zType>
 		<Translation>Flink</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_SWIFT_ALL</zType>
+		<Translation>Flink Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HARDY</zType>
@@ -71,6 +79,10 @@
 		<Translation>Belagerer</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_BESIEGER_ALL</zType>
+		<Translation>Belagerer Anführer</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_GARRISON</zType>
 		<Translation>Besatzung</Translation>
 	</Entry>
@@ -79,20 +91,40 @@
 		<Translation>Taff</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_TOUGH_ALL</zType>
+		<Translation>Taff Anführer</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_BLOODTHIRSTY</zType>
 		<Translation>Blutdürstig</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_BLOODTHIRSTY_ALL</zType>
+		<Translation>Blutdürstig Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HECKLER</zType>
 		<Translation>Störer</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_HECKLER_ALL</zType>
+		<Translation>Störer Anführer</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_STEADFAST</zType>
 		<Translation>Treu</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_STEADFAST_ALL</zType>
+		<Translation>Treu Anführer</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_HERBALIST</zType>
 		<Translation>Pflanzenkenner</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_HERBALIST_ALL</zType>
+		<Translation>Pflanzenkenner Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HEALER</zType>
@@ -111,28 +143,56 @@
 		<Translation>Bergbewohner</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_HIGHLANDER_ALL</zType>
+		<Translation>Bergbewohner Anführer</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_RANGER</zType>
 		<Translation>Ranger</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_RANGER_ALL</zType>
+		<Translation>Ranger Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_BRAVE</zType>
 		<Translation>Tapfer</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_BRAVE_ALL</zType>
+		<Translation>Tapfer Anführer</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_SHIELDBEARER</zType>
 		<Translation>Schildträger</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_SHIELDBEARER_ALL</zType>
+		<Translation>Schildträger Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_FIERCE</zType>
 		<Translation>Unerschütterlich</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_FIERCE_ALL</zType>
+		<Translation>Unerschütterlich Anführer</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_HORSEBANE</zType>
 		<Translation>Unheil</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_HORSEBANE_ALL</zType>
+		<Translation>Unheil Anführer</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_ENGINEER</zType>
 		<Translation>Techniker</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_ENGINEER_ALL</zType>
+		<Translation>Techniker Anführer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SHRAPNEL</zType>
@@ -203,8 +263,8 @@
 		<Translation>Aus dem Hinterhalt</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTUNIT_PATHFINDER</zType>
-		<Translation>Pfadfinder</Translation>
+		<zType>TEXT_EFFECTUNIT_SURVEYOR</zType>
+		<Translation>Vermesser</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HERO</zType>

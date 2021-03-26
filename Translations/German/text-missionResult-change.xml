@@ -126,6 +126,18 @@
 		<Translation>The Insurrection Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_HIGH_SYNOD_SUCCESS_DESCRIPTION</zType>
+		<Translation>The High Synond organized by link(COUNCIL_AMBASSADOR) {CHARACTER-SUBJECT} has improved our standing with the clergy.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_HIGH_SYNOD_FAILURE_DESCRIPTION</zType>
+		<Translation>The High Synond of link(COUNCIL_AMBASSADOR) {CHARACTER-SUBJECT} has ended prematurely in discord.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_HIGH_SYNOD_EVENT_DESCRIPTION</zType>
+		<Translation>The High Synod Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_FAMILY_GIFT_SUCCESS_DESCRIPTION</zType>
 		<Translation>Deine Vasallen Familie schätzt die Geschenke die dein Kanzler {CHARACTER-SUBJECT} ihnen gebracht hat.</Translation>
 	</Entry>
@@ -239,6 +251,10 @@
 		<Translation>link(COUNCIL_SPYMASTER)</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_LEAVE_COUNCIL</zType>
+		<Translation>Verlasse Hofrat</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_TEAM_ALLIANCE_EVENT</zType>
 		<Translation>link(CONCEPT_ALLIANCE_PLAYER) Ereignis</Translation>
 	</Entry>
@@ -333,6 +349,10 @@
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_ADOPT_RELIGION_EVENT</zType>
 		<Translation>Übernehme Religion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_LEAVE_RELIGION</zType>
+		<Translation>Leave link(CONCEPT_STATE_RELIGION)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_MARRIAGE_EVENT</zType>
@@ -485,6 +505,18 @@
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TRADE_MISSION_EVENT</zType>
 		<Translation>Handelsmissions Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_HIGH_SYNOD_SUCCESS</zType>
+		<Translation>Religious Concord is Found</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_HIGH_SYNOD_FAILURE</zType>
+		<Translation>Religious Tensions are Worse</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_HIGH_SYNOD_EVENT</zType>
+		<Translation>High Synod Event</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_FAMILY_GIFT_SUCCESS</zType>

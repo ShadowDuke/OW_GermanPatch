@@ -9,6 +9,7 @@
 		<aiYieldStockpile/>
 		<aiYieldThresholdBase/>
 		<aiYieldThresholdPer/>
+		<aiEffectCityRebelProb/>
 	</Entry>
 	<Entry>
 		<zType>DIFFICULTY_ABLE</zType>
@@ -340,6 +341,12 @@
 				<iValue>10</iValue>
 			</Pair>
 		</aiYieldThresholdPer>
+		<aiEffectCityRebelProb>
+			<Pair>
+				<zIndex>EFFECTCITY_OPINIONFAMILY_FURIOUS</zIndex>
+				<iValue>5</iValue>
+			</Pair>
+		</aiEffectCityRebelProb>
 	</Entry>
 	<Entry>
 		<zType>DIFFICULTY_MAGNIFICENT</zType>
@@ -395,6 +402,16 @@
 				<iValue>10</iValue>
 			</Pair>
 		</aiYieldThresholdPer>
+		<aiEffectCityRebelProb>
+			<Pair>
+				<zIndex>EFFECTCITY_OPINIONFAMILY_FURIOUS</zIndex>
+				<iValue>5</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>EFFECTCITY_OPINIONFAMILY_ANGRY</zIndex>
+				<iValue>5</iValue>
+			</Pair>
+		</aiEffectCityRebelProb>
 	</Entry>
 	<Entry>
 		<zType>DIFFICULTY_GREAT</zType>
@@ -450,5 +467,19 @@
 				<iValue>10</iValue>
 			</Pair>
 		</aiYieldThresholdPer>
+		<aiEffectCityRebelProb>
+			<Pair>
+				<zIndex>EFFECTCITY_OPINIONFAMILY_FURIOUS</zIndex>
+				<iValue>5</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>EFFECTCITY_OPINIONFAMILY_ANGRY</zIndex>
+				<iValue>5</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>EFFECTCITY_OPINIONFAMILY_UPSET</zIndex>
+				<iValue>5</iValue>
+			</Pair>
+		</aiEffectCityRebelProb>
 	</Entry>
 </Root>

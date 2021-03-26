@@ -906,6 +906,13 @@
 		<zText>Destroyed strange remains</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_OVERCOMING_NATURE</zType>
+		<zText>My spouse is trying their best</zText>
+		<iValue>25</iValue>
+		<iTurns>15</iTurns>
+		<bName>1</bName>
+	</Entry>
 	<Entry beginGroup="Character">
 		<zType>MEMORYCHARACTER_MARRIAGE_OF_STATE</zType>
 		<zText>Married me for politics</zText>
@@ -992,6 +999,13 @@
 		<zText>My spouse is poor company</zText>
 		<iValue>-20</iValue>
 		<iTurns>5</iTurns>
+		<bName>1</bName>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_CARES_ABOUT_INTERESTS</zType>
+		<zText>My spouse cares about my interests</zText>
+		<iValue>50</iValue>
+		<iTurns>15</iTurns>
 		<bName>1</bName>
 	</Entry>
 	<Entry>

@@ -763,20 +763,40 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
 		<Translation>[{0} Entdeckt]</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_EVENT_STORY_TRIBE_CONTACTED</zType>
-		<Translation>[Stamm Kontaktiert]</Translation>
+		<zType>TEXT_UI_EVENT_STORY_RELIGION_FOUNDED</zType>
+		<Translation>[{0_religion} gegründet]</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_EVENT_STORY_TRIBE_X_CONTACTED</zType>
+		<zType>TEXT_UI_EVENT_STORY_RELIGION_SPREAD</zType>
+		<Translation>[{0_religion} breitet sich aus nach {1_city}]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_RELIGION_REMOVED</zType>
+		<Translation>[{0_religion} Removed from {1_city}]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_THEOLOGY_ESTABLISHED</zType>
+		<Translation>[{1_theology} Established for {0_religion}]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_TRIBE_CONTACTED</zType>
 		<Translation>[{0_tribe} Kontaktiert]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_PLAYER_CONTACTED</zType>
-		<Translation>[Spieler Kontaktiert]</Translation>
+		<Translation>[{0_player} Kontaktiert]</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_EVENT_STORY_PLAYER_X_CONTACTED</zType>
-		<Translation>[{0_player} Kontaktiert]</Translation>
+		<zType>TEXT_UI_EVENT_STORY_CITY_FOUNDED</zType>
+		<Translation>[{0_city} Gegründet]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_CITY_LOST</zType>
+		<Translation>[{0_city} Verloren]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_CITY_BREACHED</zType>
+		<Translation>[{0_city} Durchbrochen]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_CULTURE_EVENT</zType>
@@ -791,6 +811,14 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
 		<Translation>[{0} zu Ende]</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_X_PILLAGED</zType>
+		<Translation>[{0} Geplündert]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_AMBITION_FINISHED</zType>
+		<Translation>[Ambition Finished: {0}]</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_QUEST_FINISHED</zType>
 		<Translation>[Quest beendet: {0}]</Translation>
 	</Entry>
@@ -803,24 +831,92 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
 		<Translation>[Mission beendet: {0}]</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_MARRIES</zType>
+		<Translation>[{0} Heiratet {1}]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_BORN</zType>
+		<Translation>[{0} Geboren]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_DIES</zType>
+		<Translation>[{0} Stirbt]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_ADULT</zType>
+		<Translation>[{0} Wird Erwachsen]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_COURTIER</zType>
+		<Translation>[{0} Wird {1_courtier}]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_ADOPTED</zType>
+		<Translation>[{0} Adoptiert]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_DIVORCES</zType>
+		<Translation>[{0} Scheidung {1}]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_COGNOMEN</zType>
+		<Translation>[{0} Wird {1}]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_SUCCESSION</zType>
+		<Translation>[Nachfolge: {0}]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_UNIT_COMBAT</zType>
+		<Translation>[{0} Attackiert {1}]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_CITY_COMBAT</zType>
+		<Translation>[{0} Greift an {1}]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_ATTACKED_CITY</zType>
+		<Translation>[Greift an {0}]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_CITY_ATTACKED</zType>
+		<Translation>[{0} Greift an]</Translation>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_UI_EVENT_STORY_KILLED_UNIT</zType>
 		<Translation>[Getötete Einheit]</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_GENERAL_ATTACK</zType>
+		<Translation>[Angegriffen mit Feldherr]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_GENERAL_DUEL</zType>
+		<Translation>[Duell der Feldherren]</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_CRITICAL_HIT</zType>
-		<Translation>[Kritischer Treffer]</Translation>
+		<Translation>[link(CONCEPT_CRITICAL_HIT)]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_GENERAL_INJURY</zType>
 		<Translation>[Feldherr verletzt]</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_EVENT_STORY_GENERAL_ATTACK</zType>
-		<Translation>[Mit Feldherr angegriffen]</Translation>
+		<zType>TEXT_UI_EVENT_STORY_UNIT_PROMOTION</zType>
+		<Translation>[{0_unit} Beförderung: {1_promotion}]</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_EVENT_STORY_GENERAL_DUEL</zType>
-    <Translation>[Duel of Generals]</Translation>
+		<zType>TEXT_UI_EVENT_STORY_RESOURCE_HARVESTED</zType>
+		<Translation>[{0_resource} Geerntet]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_LANDMARK_DISCOVERED</zType>
+		<Translation>[Wahrzeichen entdeckt]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_PLAYER_ELIMINATED</zType>
+		<Translation>[{0_player} Eliminiert]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTERLIST_FILTER_NONE</zType>
@@ -828,31 +924,31 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
 	</Entry>
   <Entry>
 		<zType>TEXT_UI_CHARACTERLIST_FILTER_COURT</zType>
-	<Translation>Court Members</Translation>
+	<Translation>Hofstaat Mitglieder</Translation>
   </Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTERLIST_FILTER_GENERALS</zType>
-		<Translation>Geeignete Feldherren</Translation>
+		<Translation>Geeignete link(CONCEPT_GENERAL,2)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTERLIST_FILTER_GOVERNORS</zType>
-		<Translation>Geeignete Staddthalter</Translation>
+		<Translation>Geeignete link(CONCEPT_GOVERNOR,2)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTERLIST_FILTER_AGENTS</zType>
-		<Translation>Geeignete Agenten</Translation>
+		<Translation>Geeignete link(CONCEPT_AGENT,2)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTERLIST_FILTER_AMBASSADORS</zType>
-		<Translation>Geeignete Botschafter</Translation>
+		<Translation>Geeignete link(COUNCIL_AMBASSADOR,1)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTERLIST_FILTER_CHANCELLORS</zType>
-		<Translation>Geeignete Kanzler</Translation>
+		<Translation>Geeignete link(COUNCIL_CHANCELLOR,1</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTERLIST_FILTER_SPYMASTERS</zType>
-		<Translation>Geeignete Meisterspione</Translation>
+		<Translation>Geeignete link(COUNCIL_SPYMASTER,1)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTERLIST_FILTER_GENERAL_AGE</zType>
@@ -907,8 +1003,8 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
         <Translation>Rang {0}: {1}</Translation>
     </Entry>
     <Entry>
-        <zType>TEXT_UI_SELECTED_RELIGION_THEOLOGY_NONE</zType>
-        <Translation>Rang {0}: None</Translation>
+        <zType>TEXT_UI_NO_THEOLOGY_ADOPTED</zType>
+        <Translation>Nichts</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_UI_SELECTED_RELIGION_FOLLOWERS_EMPIRES</zType>
@@ -929,11 +1025,13 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
 	</Entry>
     <Entry>
         <zType>TEXT_UI_EXIT_DIALOG</zType>
-        <Translation>Bist du sicher das du beenden möchtest? Jeder ungespeicherte Vorgang wird verloren.</Translation>
+        <Translation>Bist du sicher das du beenden möchtest?
+Jeder ungespeicherte Vorgang wird verloren.</Translation>											
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_RESTART_DIALOG</zType>
-		<Translation>Bist du sicher das du neu starten möchtest? Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
+		<Translation>Bist du sicher das du neu starten möchtest?
+Jeglicher ungespeicherter Forschritt geht verloren.</Translation>											
 	</Entry>
     <Entry>
         <zType>TEXT_UI_SURRENDER_CONFIRM</zType>
@@ -972,8 +1070,24 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
         <Translation>Letzter</Translation>
     </Entry>
     <Entry>
-        <zType>TEXT_MENU_SCREEN_NEXT_BUTTON</zType>
-        <Translation>Nächster</Translation>
+        <zType>TEXT_MENU_SCREEN_NEWSLETTER</zType>
+        <Translation>Newsletter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MENU_SCREEN_NEWSLETTER_INPUT</zType>
+		<Translation>Enter email and submit...</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MENU_SCREEN_NEWSLETTER_SUBSCRIBE_SUCCESS</zType>
+		<Translation>Subscription Successful!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MENU_SCREEN_NEWSLETTER_SUBSCRIBE_FAILURE</zType>
+		<Translation><![CDATA[<color=#cc0d0dff>Subscription Failed!</color>]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MENU_SCREEN_NEWSLETTER_DESC</zType>
+		<Translation>Subscribe to the Mohawk Games newsletter by submitting your email</Translation>
 	</Entry>
 	<!-- wiki-navigation -->
 	<Entry>
@@ -1622,8 +1736,8 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
         <Translation>UI</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_OPTIONS_MENU_TITLEBAR_CAMERA</zType>
-		<Translation>KAMERA</Translation>
+		<zType>TEXT_OPTIONS_MENU_TITLEBAR_ACCESSIBILITY</zType>
+		<Translation>Zugänglichkeit</Translation>
 	</Entry>
     <Entry>
         <zType>TEXT_OPTIONS_MENU_TITLEBAR_CONTROLS</zType>
@@ -2248,7 +2362,11 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
     <Entry>
         <zType>TEXT_POPUP_INHERITANCE_NEWHEIR</zType>
         <Translation>Neuer Erbe</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_POPUP_INHERITANCE_CURRENTLAW</zType>
+		<Translation>Derzeitiges Gesetz</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_POPUP_INHERITANCE_CHOOSELAW</zType>
         <Translation>Erlasse Gesetz</Translation>

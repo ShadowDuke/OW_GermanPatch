@@ -16,6 +16,7 @@
 		<iHarvestRoll/>
 		<bNoVegetation/>
 		<bClearVegetation/>
+		<bUseAnimLOD/>
 		<aiYieldReveal/>
 		<aiYieldHarvest/>
 		<abTerrainValid/>
@@ -30,7 +31,7 @@
 		<iProbThousand>10</iProbThousand>
 		<iMinDist>2</iMinDist>
 		<iMinPerPlayer>1</iMinPerPlayer>
-		<iBorderValue>2000</iBorderValue>
+		<iBorderValue>2400</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>6</iHarvestRoll>
 		<bClearVegetation>1</bClearVegetation>
@@ -75,7 +76,7 @@
 		<iProbThousand>20</iProbThousand>
 		<iMinDist>3</iMinDist>
 		<iMinPerPlayer>1</iMinPerPlayer>
-		<iBorderValue>2000</iBorderValue>
+		<iBorderValue>2400</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>6</iHarvestRoll>
 		<bClearVegetation>1</bClearVegetation>
@@ -118,7 +119,7 @@
 		<AssetVariation>ASSET_VARIATION_RESOURCE_SALT</AssetVariation>
 		<zIconName>RESOURCE_SALT</zIconName>
 		<iProbThousand>12</iProbThousand>
-		<iBorderValue>1200</iBorderValue>
+		<iBorderValue>1600</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>8</iHarvestRoll>
 		<bClearVegetation>1</bClearVegetation>
@@ -158,7 +159,7 @@
 		<zIconName>RESOURCE_GEM</zIconName>
 		<iProbThousand>20</iProbThousand>
 		<iMinDist>3</iMinDist>
-		<iBorderValue>1200</iBorderValue>
+		<iBorderValue>1600</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>8</iHarvestRoll>
 		<bClearVegetation>1</bClearVegetation>
@@ -198,7 +199,7 @@
 		<zIconName>RESOURCE_GOLD</zIconName>
 		<iProbThousand>20</iProbThousand>
 		<iMinDist>4</iMinDist>
-		<iBorderValue>800</iBorderValue>
+		<iBorderValue>1200</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>8</iHarvestRoll>
 		<bClearVegetation>1</bClearVegetation>
@@ -238,7 +239,7 @@
 		<zIconName>RESOURCE_SILVER</zIconName>
 		<iProbThousand>20</iProbThousand>
 		<iMinDist>5</iMinDist>
-		<iBorderValue>800</iBorderValue>
+		<iBorderValue>1200</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>8</iHarvestRoll>
 		<bClearVegetation>1</bClearVegetation>
@@ -283,6 +284,7 @@
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>10</iHarvestRoll>
 		<bClearVegetation>1</bClearVegetation>
+		<bUseAnimLOD>1</bUseAnimLOD>
 		<aiYieldReveal>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
@@ -320,10 +322,11 @@
 		<iProbThousand>8</iProbThousand>
 		<iMinDist>2</iMinDist>
 		<iMinLatitude>20</iMinLatitude>
-		<iBorderValue>1200</iBorderValue>
+		<iBorderValue>1600</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>8</iHarvestRoll>
 		<bNoVegetation>1</bNoVegetation>
+		<bUseAnimLOD>1</bUseAnimLOD>
 		<aiYieldReveal>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
@@ -357,10 +360,11 @@
 		<iProbThousand>20</iProbThousand>
 		<iMinDist>2</iMinDist>
 		<iMinLatitude>30</iMinLatitude>
-		<iBorderValue>1200</iBorderValue>
+		<iBorderValue>1600</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>8</iHarvestRoll>
 		<bNoVegetation>1</bNoVegetation>
+		<bUseAnimLOD>1</bUseAnimLOD>
 		<aiYieldReveal>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
@@ -400,9 +404,10 @@
 		<iProbThousand>15</iProbThousand>
 		<iMinDist>3</iMinDist>
 		<iMaxLatitude>50</iMaxLatitude>
-		<iBorderValue>1200</iBorderValue>
+		<iBorderValue>1600</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>8</iHarvestRoll>
+		<bUseAnimLOD>1</bUseAnimLOD>
 		<aiYieldReveal>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
@@ -445,10 +450,11 @@
 		<zIconName>RESOURCE_GOAT</zIconName>
 		<iProbThousand>25</iProbThousand>
 		<iMinDist>2</iMinDist>
-		<iBorderValue>800</iBorderValue>
+		<iBorderValue>1200</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>8</iHarvestRoll>
 		<bNoVegetation>1</bNoVegetation>
+		<bUseAnimLOD>1</bUseAnimLOD>
 		<aiYieldReveal>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
@@ -491,7 +497,7 @@
 		<zIconName>RESOURCE_WHEAT</zIconName>
 		<iProbThousand>20</iProbThousand>
 		<iMinLatitude>30</iMinLatitude>
-		<iBorderValue>1200</iBorderValue>
+		<iBorderValue>1600</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>8</iHarvestRoll>
 		<bNoVegetation>1</bNoVegetation>
@@ -527,7 +533,7 @@
 		<zIconName>RESOURCE_BARLEY</zIconName>
 		<iProbThousand>20</iProbThousand>
 		<iMinLatitude>20</iMinLatitude>
-		<iBorderValue>1200</iBorderValue>
+		<iBorderValue>1600</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>8</iHarvestRoll>
 		<bNoVegetation>1</bNoVegetation>
@@ -562,7 +568,7 @@
 		<AssetVariation>ASSET_VARIATION_RESOURCE_SORGHUM</AssetVariation>
 		<zIconName>RESOURCE_SORGHUM</zIconName>
 		<iProbThousand>25</iProbThousand>
-		<iBorderValue>800</iBorderValue>
+		<iBorderValue>1200</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>8</iHarvestRoll>
 		<bNoVegetation>1</bNoVegetation>
@@ -606,10 +612,11 @@
 		<iProbThousand>20</iProbThousand>
 		<iMinDist>5</iMinDist>
 		<iMaxLatitude>50</iMaxLatitude>
-		<iBorderValue>1600</iBorderValue>
+		<iBorderValue>2000</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>10</iHarvestRoll>
 		<bNoVegetation>1</bNoVegetation>
+		<bUseAnimLOD>1</bUseAnimLOD>
 		<aiYieldReveal>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
@@ -649,7 +656,7 @@
 		<iProbThousand>15</iProbThousand>
 		<iMinDist>5</iMinDist>
 		<iMaxLatitude>60</iMaxLatitude>
-		<iBorderValue>1600</iBorderValue>
+		<iBorderValue>2000</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>10</iHarvestRoll>
 		<bNoVegetation>1</bNoVegetation>
@@ -690,9 +697,10 @@
 		<AssetVariation>ASSET_VARIATION_RESOURCE_GAME</AssetVariation>
 		<zIconName>RESOURCE_GAME</zIconName>
 		<iProbThousand>20</iProbThousand>
-		<iBorderValue>1200</iBorderValue>
+		<iBorderValue>1600</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>8</iHarvestRoll>
+		<bUseAnimLOD>1</bUseAnimLOD>
 		<aiYieldReveal>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
@@ -738,10 +746,11 @@
 		<AssetVariation>ASSET_VARIATION_RESOURCE_FUR</AssetVariation>
 		<zIconName>RESOURCE_FUR</zIconName>
 		<iProbThousand>25</iProbThousand>
-		<iMinLatitude>55</iMinLatitude>
-		<iBorderValue>1200</iBorderValue>
+		<iMinLatitude>40</iMinLatitude>
+		<iBorderValue>1600</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>10</iHarvestRoll>
+		<bUseAnimLOD>1</bUseAnimLOD>
 		<aiYieldReveal>
 			<Pair>
 				<zIndex>YIELD_MONEY</zIndex>
@@ -788,7 +797,7 @@
 		<zIconName>RESOURCE_CITRUS</zIconName>
 		<iProbThousand>15</iProbThousand>
 		<iMaxLatitude>40</iMaxLatitude>
-		<iBorderValue>800</iBorderValue>
+		<iBorderValue>1200</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>8</iHarvestRoll>
 		<bNoVegetation>1</bNoVegetation>
@@ -831,7 +840,7 @@
 		<AssetVariation>ASSET_VARIATION_RESOURCE_HONEY</AssetVariation>
 		<zIconName>RESOURCE_HONEY</zIconName>
 		<iProbThousand>15</iProbThousand>
-		<iBorderValue>800</iBorderValue>
+		<iBorderValue>1200</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>10</iHarvestRoll>
 		<bNoVegetation>1</bNoVegetation>
@@ -870,7 +879,7 @@
 		<AssetVariation>ASSET_VARIATION_RESOURCE_INCENSE</AssetVariation>
 		<zIconName>RESOURCE_INCENSE</zIconName>
 		<iProbThousand>10</iProbThousand>
-		<iBorderValue>800</iBorderValue>
+		<iBorderValue>1200</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>10</iHarvestRoll>
 		<bNoVegetation>1</bNoVegetation>
@@ -909,7 +918,7 @@
 		<AssetVariation>ASSET_VARIATION_RESOURCE_LAVENDER</AssetVariation>
 		<zIconName>RESOURCE_LAVENDER</zIconName>
 		<iProbThousand>10</iProbThousand>
-		<iBorderValue>800</iBorderValue>
+		<iBorderValue>1200</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>10</iHarvestRoll>
 		<bNoVegetation>1</bNoVegetation>
@@ -945,7 +954,7 @@
 		<zIconName>RESOURCE_OLIVE</zIconName>
 		<iProbThousand>15</iProbThousand>
 		<iMaxLatitude>40</iMaxLatitude>
-		<iBorderValue>800</iBorderValue>
+		<iBorderValue>1200</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>10</iHarvestRoll>
 		<bNoVegetation>1</bNoVegetation>
@@ -987,7 +996,7 @@
 		<iProbThousand>15</iProbThousand>
 		<iMinLatitude>30</iMinLatitude>
 		<iMaxLatitude>60</iMaxLatitude>
-		<iBorderValue>800</iBorderValue>
+		<iBorderValue>1200</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>10</iHarvestRoll>
 		<bNoVegetation>1</bNoVegetation>
@@ -1023,7 +1032,7 @@
 		<zIconName>RESOURCE_DYE</zIconName>
 		<iProbThousand>20</iProbThousand>
 		<iMaxLatitude>60</iMaxLatitude>
-		<iBorderValue>1600</iBorderValue>
+		<iBorderValue>2000</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>10</iHarvestRoll>
 		<bNoVegetation>1</bNoVegetation>
@@ -1057,9 +1066,9 @@
 		<zName>Perlen</zName>
 		<AssetVariation>ASSET_VARIATION_RESOURCE_PEARL</AssetVariation>
 		<zIconName>RESOURCE_PEARL</zIconName>
-		<iProbThousand>15</iProbThousand>
+		<iProbThousand>20</iProbThousand>
 		<iMinLatitude>30</iMinLatitude>
-		<iBorderValue>1600</iBorderValue>
+		<iBorderValue>2000</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>10</iHarvestRoll>
 		<bNoVegetation>1</bNoVegetation>
@@ -1094,7 +1103,7 @@
 		<AssetVariation>ASSET_VARIATION_RESOURCE_FISH</AssetVariation>
 		<zIconName>RESOURCE_FISH</zIconName>
 		<iProbThousand>20</iProbThousand>
-		<iBorderValue>1600</iBorderValue>
+		<iBorderValue>2000</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>6</iHarvestRoll>
 		<bNoVegetation>1</bNoVegetation>
@@ -1129,7 +1138,7 @@
 		<AssetVariation>ASSET_VARIATION_RESOURCE_CRAB</AssetVariation>
 		<zIconName>RESOURCE_CRAB</zIconName>
 		<iProbThousand>15</iProbThousand>
-		<iBorderValue>1600</iBorderValue>
+		<iBorderValue>2000</iBorderValue>
 		<iHarvestCost>1</iHarvestCost>
 		<iHarvestRoll>6</iHarvestRoll>
 		<bNoVegetation>1</bNoVegetation>

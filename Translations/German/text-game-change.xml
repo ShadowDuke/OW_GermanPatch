@@ -163,7 +163,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_MAKE_LEGACY</zType>
-		<Translation>An old Ambition, {0_ambition}, is now a Legacy. You will have {1} {2_turnScale} to complete it.</Translation>
+		<Translation>An old link(CONCEPT_AMBITION), {0_ambition}, is now link(CONCEPT_LEGACY,1). You will have {1} {2_turnScale} to complete it.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_MAKE_LEGACIES</zType>
@@ -283,7 +283,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_GIVE_BIRTH_NON_LEADER_ILLEGITIMATE</zType>
-		<Translation><![CDATA[{0_father} hat mit {1_childName} <masculine_1>einen neuen Sohn<feminine>eine neue Tochter<end>!]]></Translation>
+		<Translation><![CDATA[{0_father} hat mit {1_childName} <masculine_1>einen neuen unehelichen Sohn<feminine>eine neue uneheliche Tochter<end>!]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_EVENT_CITY_LOG_DATA</zType>
@@ -296,11 +296,11 @@
 	<!--Decisions-->
 	<Entry>
 		<zType>TEXT_GAME_DECISION_RETIRING_GENERAL_TITLE</zType>
-		<Translation>Feldherr im Ruhestand</Translation>
+		<Translation>link(CONCEPT_GENERAL) im Ruhestand</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DECISION_RETIRING_GENERAL</zType>
-		<Translation>{0_character}, Feldherr der {1_unit} ist zu alt und ist in den Ruhestand gegangen.</Translation>
+		<Translation>{0_character}, link(CONCEPT_GENERAL) der {1_unit} ist zu alt und ist in den Ruhestand gegangen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DECISION_RETIRING_GENERAL_PROMPT</zType>
@@ -320,24 +320,24 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DECISION_DEAD_GOVERNOR_TITLE</zType>
-		<Translation>Tot eines Stadthalters</Translation>
+		<Translation>Tot von link(CONCEPT_GOVERNOR)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DECISION_DEAD_GOVERNOR</zType>
-		<Translation>{0_character}, Stadthalter von {1_city} ist während der Ausübung seines Amtes gestorben.</Translation>
+		<Translation>{0_character}, link(CONCEPT_GOVERNOR) von {1_city} ist während der Ausübung seines Amtes gestorben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DECISION_DEAD_GOVERNOR_PROMPT</zType>
-		<Translation>Wähle neuen Stadthalter</Translation>
+		<Translation>Wähle neuen link(CONCEPT_GOVERNOR)</Translation>
 	</Entry>
 	<!--Do Bonus-->
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_MEMORY_ALL_PLAYERS</zType>
-		<Translation>Alle Reiche von {0_player}: {1_memory}, {2_value} Meinung)</Translation>
+		<Translation>Alle Reiche: {0_memory}, {1_value} Meinung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_MEMORY_ALL_TRIBES</zType>
-		<Translation>Alle Stämme of {0_player}: {1_memory}, {2_value} Meinung</Translation>
+		<Translation>Alle Stämme: {0_memory}, {1_value} Meinung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_MEMORY_ALL_FAMILIES</zType>
@@ -405,7 +405,7 @@
   </Entry>
   <Entry>
 		<zType>TEXT_GAME_DO_BONUS_ADOPT_RELIGION</zType>
-		<Translation>Übernehme {0_religion} als Staatsreligion</Translation>
+		<Translation>Übernehme {0_religion} als link(CONCEPT_STATE_RELIGION)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_SPREAD_RELIGION</zType>
@@ -448,8 +448,8 @@
 		<Translation>Gründete {1_religion}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_ADD_IMPROVEMENT</zType>
-		<Translation>{0_improvement} erstellt</Translation>
+		<zType>TEXT_GAME_DO_BONUS_ADD_X</zType>
+		<Translation>Erstelle {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_CITIZENS</zType>
@@ -465,7 +465,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_DISCONTENT_LEVELS</zType>
-		<Translation><![CDATA[{0_value} Unruhe <singular_0>Stufe<plural>Stufen<end>]]></Translation>
+		<Translation><![CDATA[{0_value} link(YIELD_DISCONTENT) <singular_0>Stufe<plural>Stufen<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_REBEL_UNITS</zType>

@@ -55,8 +55,12 @@
 	</Entry> 
 	<!--General-->
 	<Entry>
-		<zType>TEXT_HELPTEXT_ADD_SPACE</zType>
+		<zType>TEXT_HELPTEXT_ADD_SPACE_AFTER</zType>
 		<Translation>{0} </Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_ADD_SPACE_BEFORE</zType>
+		<Translation> {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_INDENT</zType>
@@ -170,6 +174,10 @@
 		<zType>TEXT_HELPTEXT_PARENTHESIS_MULTIPLIER</zType>
 		<Translation> (x{0})</Translation>
 	</Entry>
+    <Entry>
+        <zType>TEXT_HELPTEXT_ENCLOSED_PARENTHESIS</zType>
+        <Translation>({0})</Translation>
+    </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CONCAT_ENCLOSED_PARENTHESIS</zType>
 		<Translation>{0} ({1})</Translation>
@@ -448,16 +456,12 @@
 		<Translation>Vertrauter~ein Vertrauter~Vertraute</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_GOVERNOR</zType>
-		<Translation>Stadthalter~ein Stadthalter~Stadthaltern</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_GOVERNOR_INDISTICT</zType>
-		<Translation>Stadthalter</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_PILLAGED</zType>
-		<Translation>Plünderung {0_turns}</Translation>
+		<Translation>Geplündert {0_turns}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_PILLAGED_ICON</zType>
+		<Translation>icon(PILLAGED_WORLD){0_turns}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_LAUNCH_OFFENSIVE</zType>
@@ -882,6 +886,10 @@
 		<Translation>Lade das in der Cloud gespeicherte Spiel</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_SURRENDER</zType>
+		<Translation>Gebe das aktuelle Spiel auf</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_MAP_OVERVIEW</zType>
 		<Translation><![CDATA[Zeige Map Übersicht<true_0><br>{0_presskey}<false><end>]]></Translation>
 	</Entry>
@@ -1128,6 +1136,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_UNDO_TURN</zType>
 		<Translation><![CDATA[<TEXT_HOTKEY_CTRL_CLICK> um ganzen Zug rückgängig zu machen]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_UNDO_TURN_PREVIOUS</zType>
+		<Translation><![CDATA[<TEXT_HOTKEY_CTRL_CLICK> um zum letzten Zug zurückzuspulen ]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_RESEARCH_TECH</zType>
@@ -1388,6 +1400,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_CHARACTER_TRAIT</zType>
 		<Translation>{0_character} Wird {1_trait}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_CHARACTER_TRAIT_OPINION</zType>
+		<Translation>{0_character}: {1_value} Meinung von {2_trait}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_CHARACTER_COUNCIL</zType>
@@ -2003,8 +2019,8 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Spezialeinheiten:</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_TRIBE_INVADE</zType>
-		<Translation>Dieser Stamm wird Einheiten schicken um deine Städte zu plündern.</Translation>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TRIBE_INVASION</zType>
+		<Translation>A wave of units from a link(CONCEPT_TRIBE) set out to attack in a massive invasion.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_UNDO</zType>
@@ -2206,7 +2222,11 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_HARVEST_RESOURCE</zType>
-		<Translation><![CDATA[Kann eine Ressource ernten für einen schnellen Vorrat von Gütern.<br>Die Ressource kann nicht nocht einmal geernten werden bis sie zufällig neu erscheint.]]></Translation>
+		<Translation>link(UNIT_SCOUT,2), link(UNIT_SETTLER,2) and link(UNIT_WORKER,2) können eine Ressource ernten für einen schnellen Vorrat von Gütern. Die Ressource kann nicht nocht einmal geernten werden bis sie zufällig neu erscheint.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HARVEST_RESOURCE</zType>
+		<Translation>Diese {0_resource} wurde geerntet und kann nicht wieder geerntet werden bis es zufällig wieder aufgefüllt wurde.</Translation>
 	</Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_MARCH</zType>
@@ -2227,7 +2247,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
   <Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LEGACY</zType>
 		<Translation>When the Leader dies, all the current link(CONCEPT_AMBITION,2) become Legacies, which must be completed in int(LEGACY_MAX_TURNS) Turns. Failing to finish a Legacy in time will reduce your link(CONCEPT_LEGITIMACY).
-Complete ten Ambitions and link(CONCEPT_LEGACY,2), and you win an Ambition Victory!</Translation>
+Complete ten link(CONCEPT_AMBITION,2) and Legacies, and you win link(VICTORY_AMBITION,1) Victory</Translation>
 	</Entry>
 	<Entry>
     <zType>TEXT_HELPTEXT_HELP_TRIBE</zType>
@@ -2247,26 +2267,23 @@ Complete ten Ambitions and link(CONCEPT_LEGACY,2), and you win an Ambition Victo
 	</Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_LINK_HELP_HIDDEN</zType>
-        <Translation>Versteckte Einheiten können nicht von anderen Einheiten gesehen werden. Später sind in neutralen Wäldern versteckt oder aber mit einem Intrigant/en Oberhaupt.</Translation>
+        <Translation>Versteckte Einheiten können nicht von anderen Einheiten gesehen werden. link(UNIT_SCOUT,2) sind in neutralen link(VEGETATION_TREES) versteckt oder aber mit einem link(TRAIT_SCHEMER_ARCHETYPE) Oberhaupt. Versteckte Einheiten haben einen int(HIDDEN_ATTACK_MODIFIER)% Modifikator beim angreifen.</Translation>
     </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_GENERAL</zType>
-		<Translation>Ein link(CONCEPT_GENERAL) kann die Statistiken von Einheiten verbessern.
-Muss jünger sein als int(GENERAL_START_AGE).
-Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
+		<Translation>Ein General kann die Statistiken von Einheiten verbessern. Muss jünger sein als int(GENERAL_START_AGE). Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_GOVERNOR</zType>
-		<Translation>Ein link(CONCEPT_GOVERNOR) kann die Erträge einer Stadt verbessern.
-(Benötigt eine link(IMPROVEMENT_GARRISON_1).)</Translation>
+		<Translation>Ein Stadthalter kann in Städten mit einer link(IMPROVEMENT_GARRISON_1) eingesetzt werden, um einen Bonus auf den Ertrag zu erzielen.</Translation>
 	</Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_COUNCILOR</zType>
-    <Translation>A link(CONCEPT_COUNCILOR) can fill the role of link(COUNCIL_CHANCELLOR), link(COUNCIL_AMBASSADOR), or link(COUNCIL_SPYMASTER)</Translation>
+		<Translation>Councilors can fill the role of link(COUNCIL_CHANCELLOR), link(COUNCIL_AMBASSADOR), or link(COUNCIL_SPYMASTER).</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_SPECIALIST</zType>
-    <Translation>link(CONCEPT_SPECIALIST,0) can boost the yields of link(CONCEPT_IMPROVEMENT,1) at the cost of link(YIELD_CIVICS).</Translation>
+		<Translation>Specialists can boost the Yields of an link(CONCEPT_IMPROVEMENT) at the cost of some link(YIELD_CIVICS).</Translation>
   </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_SHRINE</zType>
@@ -2286,7 +2303,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LEGITIMACY</zType>
-		<Translation>Legitimacy comes from achieving Ambitions and better Cognomens (such as "the Great"). Higher Legitimacy improves Family Opinions and increases link(YIELD_ORDERS) per Year.</Translation>
+		<Translation>Legitimacy comes from achieving link(CONCEPT_AMBITION,2), and acquiring better link(CONCEPT_COGNOMEN,2) (such as link(COGNOMEN_GREAT)). Higher Legitimacy improves Family Opinions, and produces more link(YIELD_ORDERS) per year.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LEGITIMACY_OPINIONS</zType>
@@ -2294,11 +2311,11 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_STATE_RELIGION</zType>
-    <Translation>A State Religion provides Culture and Happiness bonuses, and enables the recruitment of link(CONCEPT_DISCIPLE,1) in your Cities of that religion. However, Cities of a different Religion will suffer Discontent.</Translation>
+    <Translation>Adopting a link(CONCEPT_STATE_RELIGION) improves its Opinion of your Nation and also reduces link(YIELD_DISCONTENT) and enables the recruitment of link(CONCEPT_DISCIPLE,2) in your Cities of that Religion.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_COGNOMEN</zType>
-    <Translation>A Cognomen can increase the Legitimacyicon(YIELD_LEGITIMACY) of your Leader</Translation>
+    <Translation>A Cognomen is an acquired title that increases the Legitimacyicon(YIELD_LEGITIMACY) of your Leader</Translation>
   </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LOCATION</zType>
@@ -2306,23 +2323,23 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LUXURY</zType>
-		<Translation><![CDATA[Can be Traded to a City to reduce link(YIELD_DISCONTENT).<br>Can be Traded to other Nations, Tribes, and Families to improve their Opinion.]]></Translation>
+		<Translation>Luxuries can be Traded to a City to reduce link(YIELD_DISCONTENT). They can also be Traded to other Nations, link(CONCEPT_TRIBE,2), and link(CONCEPT_FAMILY,2) to improve their Opinion of your Nation.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_MERCENARY</zType>
-		<Translation>Mercenary Units have no Family associated with them and have int(CONSUMPTION_MERCENARY_MODIFIER)% higher consumption costs.</Translation>
+		<Translation>Tribal Mercenary Units can be hired from link(CONCEPT_TRIBE,2) by Carthage, and by Nations with link(TRAIT_ORATOR_ARCHETYPE) Leaders. Other Mercenaries are hired from events. They have no associated link(CONCEPT_FAMILY), and int(CONSUMPTION_MERCENARY_MODIFIER)% higher consumption costs.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_MAP_SIZE</zType>
-		<Translation><![CDATA[Breite: {0}<br>Höhe: {1}]]></Translation>
+		<Translation>Breite: {0}{br}Höhe: {1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_MEMORY_TURNS_LEFT</zType>
-		<Translation><![CDATA[{0_value}: {1_turns} <singular_1>Jahr<plural>Jahre<end> über]]></Translation>
+		<Translation>{0_value}: {1_turns} {2_turnScale}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_MEMORY_INFINITE</zType>
-		<Translation><![CDATA[{0_value}: unendlich]]></Translation>
+		<Translation>{0_value}: Unendlich</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_MOVEMENT</zType>
@@ -2330,19 +2347,19 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_NEXT_UNIT</zType>
-		<Translation><![CDATA[Eine neue Einheit wird fertiggestellt in {0} <singular_0>Jahr<plural>Jahren<end>]]></Translation>
+		<Translation>Eine neue Einheit wird fertiggestellt in {0} {1_turnScale}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_PILLAGED</zType>
-		<Translation>Reapriere die {0_improvement} oder sie wird in {1_turns} Jahre(en) zerstört werden.</Translation>
+		<Translation>Reapriere die {0_improvement} oder sie wird in {1_turns} {2_turnScale} zerstört werden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_PROJECT_INFO</zType>
-		<Translation>Projekte existieren nur innerhalb einer Stadt.</Translation>
+		<Translation>Projekte existieren nur innerhalb einer Stadt, zb. ein link(PROJECT_ARCHIVE_1), oder link(PROJECT_WALLS).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_PROMOTION</zType>
-		<Translation>Promotions provide various combat buffs at the cost of some Training.</Translation>
+		<Translation>Promotions provide various combat buffs at the cost of some link(YIELD_TRAINING).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_UPGRADE_IMPROVEMENTS</zType>
@@ -2358,7 +2375,7 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_REBEL</zType>
-		<Translation>Eine link(CONCEPT_REBEL) Einheit wird auftauchen und deine Einheiten und Städte angreifen.</Translation>
+		<Translation>Rebel Units can appear outside of Cities with a high link(YIELD_DISCONTENT). Like link(TRIBE_BARBARIANS), you are always at link(DIPLOMACY_WAR) with Rebels.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CONCEPT_DESIRED_AMBITION</zType>
@@ -2386,15 +2403,15 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_RIVER_CROSSINGS</zType>
-		<Translation>{0} vs. {1} Übergängen</Translation>
+		<Translation>{0} vs. {1} Übergänge</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_ROAD</zType>
-		<Translation>Straßen erweitern dein Handelsnetz und verbessert die Bewegung der Einheiten.</Translation>
+		<Translation>Straßen erweitern dein link(CONCEPT_TRADE_NETWORK), verbessert die Bewegung der Einheiten und verbindet Städte.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_ROUT</zType>
-		<Translation>Wenn eine Einheit getötet wird, vorrücken und noch mal angreifen.</Translation>
+		<Translation>link(UNITTRAIT_MOUNTED) Units, after killing an enemy, may make a followup attack on adjacent enemy Units on the same turn.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_SELECT_TRIBE</zType>
@@ -2693,6 +2710,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_NET_CARAVAN_MISSIONS</zType>
 		<Translation>{0}: Aktive link(CONCEPT_CARAVAN_MISSION)(en)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_YIELD_NET_UNIT_IMPROVEMENT_YIELD</zType>
+		<Translation>{0}: Von {1,2_unit}</Translation>
 	</Entry>
 	<!--City Help-->
 	<Entry>
@@ -3047,6 +3068,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_CONSUMES</zType>
 		<Translation>Konsumiert {LIST}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_TYPE_IMPROVEMENT_YIELD</zType>
+		<Translation>Auf {0_improvement}: {LIST}/{1_turnScale}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_NO_TRAIN_OR_PROMOTE</zType>
@@ -3514,23 +3539,23 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_POPULATION</zType>
-		<Translation><![CDATA[{0_yield}/{1_turnScale} pro Bevölkerung<true_2> ({2_cityYield})<false><end>]]></Translation>
+		<Translation>{0_yield}/{1_turnScale} pro Bevölkerung{true_2: ({2_cityYield})}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_CULTURE_LEVEL</zType>
-		<Translation><![CDATA[{0_yield}/{1_turnScale} pro link(YIELD_CULTURE) Stufe<true_2> ({2_cityYield})<false><end>]]></Translation>
+		<Translation>{0_yield}/{1_turnScale} pro link(YIELD_CULTURE) Stufe{true_2: ({2_cityYield})}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_FAMILY_OPINION</zType>
-		<Translation><![CDATA[{0_yield}/{1_turnScale} pro Familien Meinungs Stufe<true_2> ({2_cityYield})<false><end>]]></Translation>
+		<Translation>{0_yield}/{1_turnScale} pro Familien Meinungsstufe{true_2: ({2_cityYield})}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_MILITARY_IN_CITY</zType>
-		<Translation><![CDATA[{0_yield}/{1_turnScale} pro Militäreinheit im Gebiet<true_2> ({2_cityYield})<false><end>]]></Translation>
+		<Translation>{0_yield}/{1_turnScale} pro Militär Einheit im Gebiet{true_2: ({2_cityYield})}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_SPECIALIST</zType>
-		<Translation><![CDATA[{0_yield}/{1_turnScale} pro Spezialist<true_2> ({2_cityYield})<false><end>]]></Translation>
+		<Translation>{0_yield}/{1_turnScale} pro Spezialist{true_2: ({2_cityYield})}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_IF_DEFENDING</zType>
@@ -3538,19 +3563,19 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_RELIGION</zType>
-		<Translation><![CDATA[{0_yield}/{1_turnScale} pro Religion<true_2> ({2_cityYield})<false><end>]]></Translation>
+		<Translation>{0_yield}/{1_turnScale} pro Religion{true_2: ({2_cityYield})}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_RELIGION_WORLD</zType>
-		<Translation><![CDATA[{0_yield}/{1_turnScale} pro Welt {2,1_religion} Städte und verbesserungen<true_3> ({3_religionYield})<false><end>]]></Translation>
+		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_HOLY_CITY_WORLD</zType>
+		<Translation>[{2_holyCity}] {0_yield}/{1_turnScale} pro Stadt mit Religion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_FROM_EFFECT_CITY</zType>
-		<Translation><![CDATA[{0_yield}/{1_turnScale} von {2_effectCity}<true_3> (x{3_count})<false><end>]]></Translation>
+		<Translation>{0_yield}/{1_turnScale} von {2_effectCity}{true_3: (x{3_count})}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_EFFECT_CITY_YIELD_MODIFIER</zType>
-		<Translation><![CDATA[{0_yield}<true_1> ({1_yieldModified}/{2_turnScale})<false><end>]]></Translation>
+		<Translation>{0_yield}{true_1: ({1_yieldModified}/{2_turnScale}{true_3: in {3_city}})}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_IMPROVEMENT_MODIFIER_YIELD</zType>
@@ -4020,18 +4045,6 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_COMMON_FAMILYCLASS</zType>
 		<Translation>Gewöhnlich in Familien:</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_WE_GOVERN_OUR_CITIES</zType>
-		<Translation>Regieren unsere eigenen Städte: {0_value}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_THEIR_GOVERN_OUR_CITIES</zType>
-		<Translation>Andere Familien regieren unsere Städte: {0_value}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_WE_GOVERN_OTHER_CITIES</zType>
-		<Translation>Regieren anderer Familien Städte: {0_value}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_LEADER_HEIR</zType>
@@ -4790,6 +4803,22 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>{0_value} Meinung wenn mit anderen Nationen mehr gehandelt wird, als wir es tun</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_ADJECTIVE_COUNT</zType>
+		<Translation>Adjective ({0}/int(MAX_ADJECTIVES))</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_ADJECTIVE</zType>
+		<Translation>Adjective (Max: int(MAX_ADJECTIVES))</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_INCLUDED_IN</zType>
+		<Translation>Included in: {LIST}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_EXCUDED_FROM</zType>
+		<Translation>Excluded from: {LIST}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_BIRTH_CHANCE</zType>
 		<Translation>{0_value}% Chance Kinder zu bekommen</Translation>
 	</Entry>
@@ -5015,18 +5044,6 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILY_CITIES_DISTANT</zType>
 		<Translation>{0_value}: Unsere Städte sind weit auseinander</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_OUR_GOVERNORS_US</zType>
-		<Translation>{0_value}: Unserer {1_governorsLink} in unseren Städten</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_THEIR_GOVERNORS_US</zType>
-		<Translation>{0_value}: Wir regieren nicht unsere {1_citiesLink}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_OUR_GOVERNOR_THEM</zType>
-		<Translation>{0_value}: Wir regieren anderer Familien {1_citiesLink}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILY_LEADER</zType>
@@ -5758,12 +5775,8 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<Translation>{0}: Ist {1}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_ETHNICITY_NATION</zType>
-		<Translation>{0}: Im link(DIPLOMACY_WAR) mit {1}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_ETHNICITY_TRIBE</zType>
-		<Translation>{0}: Im link(DIPLOMACY_WAR) mit den {1}</Translation>
+		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_ETHNICITY</zType>
+		<Translation>{0}: In {1_diplomacy} mit {2}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_STATE_RELIGION</zType>
@@ -6050,7 +6063,15 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 		<zType>TEXT_HELPTEXT_MAIN_MENU_REDDIT</zType>
 		<Translation>Visit the Old World sub on Reddit</Translation>
 	</Entry>
-    <Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_MAIN_MENU_TWITCH</zType>
+		<Translation>Visit the Twitch channel for Mohawk Games</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_MAIN_MENU_TWITTER</zType>
+		<Translation>Visit the Twitter account for Mohawk Games</Translation>
+	</Entry>
+	<Entry>
         <zType>TEXT_HELPTEXT_JOIN_MP_NEED_PASSWORD</zType>
         <Translation>You must enter a password to join the game</Translation>
     </Entry>
@@ -6420,6 +6441,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_DIFFICULTY_EXTRA_UNITS</zType>
 		<Translation>Extra {LIST}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_DIFFICULTY_EFFECT_CITY_REBEL_PROB</zType>
+		<Translation>{0_effectCity}: {1} {2_rebels} Einheiten</Translation>
 	</Entry>
 	<!--End Turn-->
 	<Entry>
@@ -6829,6 +6854,10 @@ Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_OUR_LAWS</zType>
 		<Translation>{0_value}: Unsere Gesetze{true_LIST-COUNT: ({LIST})}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_RELIGION_OPINION_DIPLOMACY</zType>
+		<Translation>{0}: {1_diplomacy} mit {2,1_religion} Reichen/Stämmen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_OPINION_RELIGION_OPINION</zType>
