@@ -1991,7 +1991,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_CIVICS_HELP</zType>
-		<Translation>Wird benutzt um Spezialisten auszubilden und Projekte abzuschließen. Unbenutze {YIELD_CIVICS} wird dem nationalen Vorrat beigefügt, welche benutzt werden kann um Gesetze zu Erlassen und Religionswissenschaft zu etablieren. Steigere {YIELD_CIVICS} durch den Bau von link(IMPROVEMENTCLASS_COURTHOUSE,2) und link(PROJECT_FORUM_1,2).</Translation>
+		<Translation>Wird benutzt um Spezialisten auszubilden und Projekte abzuschließen. Unbenutze {YIELD_CIVICS} wird dem nationalen Vorrat beigefügt, welcher benutzt werden kann um Gesetze zu Erlassen und Religionswissenschaft zu etablieren. Steigere {YIELD_CIVICS} durch den Bau von link(IMPROVEMENTCLASS_COURTHOUSE,2) und link(PROJECT_FORUM_1,2).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_TRAINING_HELP</zType>

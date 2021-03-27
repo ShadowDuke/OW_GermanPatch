@@ -139,7 +139,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_34</zType>
-		<Translation>link(YIELD_WOOD)icon(YIELD_WOOD) vom link(VEGETATION_SCRUB) zu entfernen kostet keine link(YIELD_ORDERS)icon(YIELD_ORDERS). Wenn du dich auf einem Weg woanders hin mit einen ink(UNIT_WORKER) durch ein link(VEGETATION_SCRUB) Feld bewegst kannst du etwas kostenloses link(YIELD_WOOD)icon(YIELD_WOOD) sammeln.</Translation>
+		<Translation>link(YIELD_WOOD)icon(YIELD_WOOD) vom link(VEGETATION_SCRUB) zu entfernen kostet keine link(YIELD_ORDERS)icon(YIELD_ORDERS). Wenn du dich auf einem Weg woanders hin mit einen link(UNIT_WORKER) durch ein link(VEGETATION_SCRUB) Feld bewegst kannst du etwas kostenloses link(YIELD_WOOD)icon(YIELD_WOOD) sammeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_35</zType>

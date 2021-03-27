@@ -743,8 +743,8 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_TOOLTIP_LUXURIES_HELP</zType>
-		<Translation>link(CONCEPT_LUXURY) can be given to Nations, Tribes, and Families to improve Opinion. They also can be given to Cities to reduce link(YIELD_DISCONTENT).
-Luxuries are unlocked by constructing Specialists on Improvements. For example, the link(RESOURCE_HONEY) Luxury comes from link(SPECIALIST_GARDENER,1) on link(IMPROVEMENT_GROVE,1).</Translation>
+		<Translation>link(CONCEPT_LUXURY) können an andere Reiche, Stämme und Familien gegeben werden um die Meinung zu verbessern. Sie können außerdem an Städte geliefert werden um link(YIELD_DISCONTENT) zu verringern.
+Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen erstellt. Zum Beispiel, das link(RESOURCE_HONEY) Luxusgut kommt von link(SPECIALIST_GARDENER,1) auf link(IMPROVEMENT_GROVE,1).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_TOOLTIP_LUXURIES_NONE</zType>
@@ -936,19 +936,19 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTERLIST_FILTER_AGENTS</zType>
-		<Translation>Geeignete link(CONCEPT_AGENT,2)</Translation>
+		<Translation>Geeigneter link(CONCEPT_AGENT,2)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTERLIST_FILTER_AMBASSADORS</zType>
-		<Translation>Geeignete link(COUNCIL_AMBASSADOR,1)</Translation>
+		<Translation>Geeigneter link(COUNCIL_AMBASSADOR,1)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTERLIST_FILTER_CHANCELLORS</zType>
-		<Translation>Geeignete link(COUNCIL_CHANCELLOR,1</Translation>
+		<Translation>Geeignete link(COUNCIL_CHANCELLOR,1)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTERLIST_FILTER_SPYMASTERS</zType>
-		<Translation>Geeignete link(COUNCIL_SPYMASTER,1)</Translation>
+		<Translation>Geeigneter link(COUNCIL_SPYMASTER,1)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTERLIST_FILTER_GENERAL_AGE</zType>
@@ -984,7 +984,7 @@ Luxuries are unlocked by constructing Specialists on Improvements. For example, 
     </Entry>
     <Entry>
 		<zType>TEXT_UI_RELIGION_NOT_FOUNDED</zType>
-		<Translation>Noch ncht gegründet</Translation>
+		<Translation>Noch nicht gegründet</Translation>
 	</Entry>
 	<Entry>
         <zType>TEXT_UI_SELECTED_RELIGION_ADOPT_BUTTON</zType>
@@ -2082,7 +2082,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_VICTORY_CONQUEST_PROGRESS</zType>
-		<Translation>Verbliebene gegnersiche Teams: {0}</Translation>
+		<Translation>Verbliebene gegnerische Teams: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_VICTORY_DOUBLE_PROGRESS</zType>

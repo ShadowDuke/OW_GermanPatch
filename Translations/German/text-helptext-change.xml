@@ -1019,39 +1019,39 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_BUILD_KEYS</zType>
-		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> um umgelehrt zu wechseln<br><TEXT_HOTKEY_CTRL_CLICK> um alle Zivileinheiten zu passen<true_0><br><TEXT_HOTKEY_CTRL_SHIFT_CLICK> zu priorisieren<false><end>]]></Translation>
+		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> to Cycle in reverse<br><TEXT_HOTKEY_CTRL_CLICK> to Pass all<br><TEXT_HOTKEY_CTRL_SHIFT_CLICK> to Wake all<br>Drag to prioritize]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_MILITARY</zType>
-		<Translation><![CDATA[Wechsle untätige Militäreinheiten<true_0> {0_presskey}<false><end>]]></Translation>
+		<Translation>Cycle link(CONCEPT_IDLE) Military Units{true_0: {0_presskey}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_MILITARY_KEYS</zType>
-		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> um umgelehrt zu wechseln<br><TEXT_HOTKEY_CTRL_CLICK> um alle Militäreinheiten zu passen<true_0><br><TEXT_HOTKEY_CTRL_SHIFT_CLICK> zu priorisieren<false><end>]]></Translation>
+		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> to Cycle in reverse<br><TEXT_HOTKEY_CTRL_CLICK> to Pass all<br><TEXT_HOTKEY_CTRL_SHIFT_CLICK> to Wake all<br>Drag to prioritize]]></Translation>
 	 </Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_EXPLORATION</zType>
-        <Translation><![CDATA[Wechsle untätige Später und Marine Einheiten<true_0> {0_presskey}<false><end>]]></Translation>
+		<Translation>Cycle link(CONCEPT_IDLE) link(UNIT_SCOUT,2) and Naval Units{true_0: {0_presskey}}</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_EXPLORATION_KEYS</zType>
-        <Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> um rückwärts zu wechseln<br><TEXT_HOTKEY_CTRL_CLICK> to Pass All Scouts and Naval Units<true_0><br><TEXT_HOTKEY_CTRL_SHIFT_CLICK> to prioritize<false><end>]]></Translation>
+		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> to Cycle in reverse<br><TEXT_HOTKEY_CTRL_CLICK> to Pass all<br><TEXT_HOTKEY_CTRL_SHIFT_CLICK> to Wake all<br>Drag to prioritize]]></Translation>
     </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_CITIES</zType>
-		<Translation><![CDATA[Wechsle untätige Städte<true_0> {0_presskey}<false><end>]]></Translation>
+		<Translation>Cycle link(CONCEPT_IDLE) Cities{true_0: {0_presskey}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_CITIES_KEYS</zType>
-		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> um umgelehrt zu wechseln<true_0><br><TEXT_HOTKEY_CTRL_SHIFT_CLICK> zu priorisieren<false><end>]]></Translation>
+		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> to Cycle in reverse<br>Drag to prioritize]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_DECISIONS</zType>
-		<Translation><![CDATA[Fälle die nächste Entscheidung<true_0> {0_presskey}<false><end>]]></Translation>
+		<Translation>Fälle nächste Entscheidung{true_0: {0_presskey}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_DECISIONS_KEYS</zType>
-		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> um umgelehrt zu wechseln<true_0><br><TEXT_HOTKEY_CTRL_SHIFT_CLICK> zu priorisieren<false><end>]]></Translation>
+		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> to Cycle in reverse<br>Drag to prioritize]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_PREVIOUS_CITIES</zType>
@@ -1087,11 +1087,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LAWS</zType>
-		<Translation><![CDATA[Zeige Gesetzlichkeiten<true_0><br>{0_presskey}<false><end>]]></Translation>
+		<English><![CDATA[Zeige Gesetzlichkeiten{true_0:<br>{0_presskey}}]]></English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LAWS_ACTIVE</zType>
-		<Translation>{singular_0:Aktives:Aktive} {singular_0:Gesetz:Gesetze}: </Translation>
+		<English>Aktive/s {singular_0:Gesetz:Gesetze}: </English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LAWS_AVAILABLE</zType>
@@ -1099,7 +1099,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CONVERT_ACTION</zType>
-		<Translation><![CDATA[Klicke um {0_yield} for {1_order} auszugeben<true_2><br>{2_presskey}<false><end>]]></Translation>
+		<English><![CDATA[Klicke um {0_yield} für {1_order} auszugeben{true_2:<br>{2_presskey}}]]></English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_NUM_CITIES</zType>
@@ -1107,7 +1107,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TECH_TREE</zType>
-		<Translation><![CDATA[Zeige Technologiebaum<true_0><br>{0_presskey}<false><end>]]></Translation>
+		<English><![CDATA[Show Technology Tree {true_0:[{0_presskey}}]]]></English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_GIFT_YIELD</zType>
@@ -1115,7 +1115,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_GIFT_YIELD_REVERSE</zType>
-		<Translation><![CDATA[[Hold <TEXT_HOTKEY_CTRL> to Take Instead]]]></Translation>
+		<English><![CDATA[[Hold <TEXT_HOTKEY_CTRL> to Take Instead]]]></English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_BUY_YIELD</zType>
@@ -3963,11 +3963,11 @@ Complete ten link(CONCEPT_AMBITION,2) and Legacies, and you win link(VICTORY_AMB
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_RECRUIT_MERCENARIES</zType>
-		<Translation>Recruit Tribal Mercenaries with {0_legitimacy}</Translation>
+		<Translation>Rekrutiere Stammes Söldner mit {0_legitimacy}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_HIRE_MERCENARIES</zType>
-		<Translation>Can Hire Mercenaries from Tribes</Translation>
+		<Translation>Kann Söldner von Stämmen anheuern</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_AUTOMATE_WORKERS</zType>
@@ -4804,19 +4804,19 @@ Complete ten link(CONCEPT_AMBITION,2) and Legacies, and you win link(VICTORY_AMB
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_ADJECTIVE_COUNT</zType>
-		<Translation>Adjective ({0}/int(MAX_ADJECTIVES))</Translation>
+		<Translation>Adjektiv ({0}/int(MAX_ADJECTIVES))</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_ADJECTIVE</zType>
-		<Translation>Adjective (Max: int(MAX_ADJECTIVES))</Translation>
+		<Translation>Adjektiv (Max: int(MAX_ADJECTIVES))</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_INCLUDED_IN</zType>
-		<Translation>Included in: {LIST}</Translation>
+		<Translation>Dabei in: {LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_EXCUDED_FROM</zType>
-		<Translation>Excluded from: {LIST}</Translation>
+		<Translation>Ausgeschlossen von: {LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_BIRTH_CHANCE</zType>
@@ -5640,7 +5640,7 @@ Complete ten link(CONCEPT_AMBITION,2) and Legacies, and you win link(VICTORY_AMB
 	<!--Character Help-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_NAME</zType>
-		<Translation><![CDATA[{0_gender}, Alter {1}<true_2>, {2}/{3} EP<false><end><true_4> icon(skull)<false><end>]]></Translation>
+		<Translation>{0_gender}, Age {1}{true_2:, {2}/{3} XP}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_LEADER_OF</zType>

@@ -26,7 +26,7 @@
 	</Entry>
 	<Entry>
 		<zType>GAMEOPTION_NO_TRIBES</zType>
-		<zName>Keine Barbaren</zName>
+		<zName>Keine Stämme</zName>
 		<zHelp>Stämme wurden durch link(TRIBE_BARBARIANS) ersetzt.</zHelp>
 	</Entry>
 	<Entry>
@@ -54,7 +54,7 @@
 	<Entry>
 		<zType>GAMEOPTION_NO_UNDO</zType>
 		<zName>Kein Rückgängig</zName>
-		<zHelp>Spieler ist nicht erlaubt eine Bewegung rückgängig zu machen nachdem sie ausgeführt wurde.</zHelp>
+		<zHelp>Spielern ist nicht erlaubt eine Bewegung rückgängig zu machen nachdem sie ausgeführt wurde.</zHelp>
 		<bMultiPlayer>0</bMultiPlayer>
 	</Entry>
 	<Entry>
