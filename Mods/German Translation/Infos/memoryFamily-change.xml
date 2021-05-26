@@ -115,9 +115,9 @@
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYFAMILY_REFUSED_THEOLOGY</zType>
-		<zText>Geweigert eine Religionswissenschaft einzuführen</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+		<zType>MEMORYFAMILY_CHANGED_LAW</zType>
+		<zText>Agreed to change Law</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_SUCCESSION_HONORED</zType>
@@ -173,6 +173,16 @@
 		<zType>MEMORYFAMILY_REPRESSED_ASCETICS</zType>
 		<zText>Repressed ascetic movement</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_WAR_COUNCIL_POS</zType>
+		<zText>Accepted our offer to provide a retinue at court.</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_WAR_COUNCIL_NEG</zType>
+		<zText>Declined our offer to provide a retinue at court.</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_MONKEY_THIEF_KEPT</zType>
@@ -300,6 +310,11 @@
     <MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_LONG</MemoryLevel>
   </Entry>
   <Entry>
+		<zType>MEMORYFAMILY_SLIGHTED_AT_COURT</zType>
+		<zText>Slighted at Hold Court</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_LONG</MemoryLevel>
+	</Entry>
+	<Entry>
     <zType>MEMORYFAMILY_FEMALE_EDUCATION_NO</zType>
     <zText>Maintained educational traditions</zText>
     <MemoryLevel>MEMORYLEVEL_POS_MEDIUM_LONG</MemoryLevel>
@@ -657,7 +672,7 @@
 	<Entry>
 		<zType>MEMORYFAMILY_FAMILY_GAMES</zType>
 		<zText>Hosted games in our honor</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYFAMILY_RADICAL_PHILOSOPHER_RID_FAMILY</zType>
@@ -720,11 +735,6 @@
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYFAMILY_GP_MERCHANT_TOWN_NO</zType>
-		<zText>Refused merchant town status</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
-	</Entry>
-	<Entry>
 		<zType>MEMORYFAMILY_COMFORTED_GRIEVING_FAMILY</zType>
 		<zText>Comforted grieving family</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
@@ -757,6 +767,11 @@
 	<Entry>
 		<zType>MEMORYFAMILY_BURIED_INCRIMINATING_DOCUMENT</zType>
 		<zText>Covered up incriminating document</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_SUCCESSFUL_HOLD_COURT</zType>
+		<zText>Held court successfully</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -978,6 +993,16 @@
 		<zType>MEMORYFAMILY_RECEIVED_GIFT</zType>
 		<zText>Received gift from ruler</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_SECOND_CLASS_CITIZENS_NEG</zType>
+		<zText>Did not permit family to rule as superiors to locals</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_SECOND_CLASS_CITIZENS_POS</zType>
+		<zText>Did permit family to rule as superiors to locals</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_GAVE_DONATION</zType>
@@ -1674,5 +1699,85 @@
 		<zType>MEMORYFAMILY_PRAISED_CHEF</zType>
 		<zText>Praised our chef</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_SUPPORTED_HEIR_CANDIDATE_YES</zType>
+		<zText>Endorsed our favored successor</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_SUPPORTED_HEIR_CANDIDATE_NO</zType>
+		<zText>Endorsed a dispised successor</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ACCEPTED_TRUCE</zType>
+		<zText>Accepted a foreign truce</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_REFUSED_TRUCE</zType>
+		<zText>Refused a foreign truce</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_UNITED_AGAINST_LEADER</zType>
+		<zText>United against leader</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_LONG</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_DUEL_EXECUTION</zType>
+		<zText>Executed kin-slayer</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_DUEL_EXILE</zType>
+		<zText>Exiled kin-slayer</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_DUEL_PARDON</zType>
+		<zText>Released kin-slayer</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_GENERAL_TRAGEDY_SUPPORTED</zType>
+		<zText>Supported us after general's death</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FAMILY_GENERAL_TRAGEDY_OPPOSED</zType>
+		<zText>Sided against us after general's death</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_FLED_BATTLE</zType>
+		<zText>Fled the field of battle</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_DISAPPEARED_AMBASSADOR_WAR</zType>
+		<zText>Stood up to foreign subterfuge</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_DISAPPEARED_AMBASSADOR</zType>
+		<zText>Stood up to foreign subterfuge</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_ALLOWED_MARRIAGE</zType>
+		<zText>Allowed scandalous marriage</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_STOPPED_MARRIAGE</zType>
+		<zText>Stopped scandalous marriage</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYFAMILY_CELEBRATED_SURVIVORS</zType>
+		<zText>Celebrated the survival of our citizens</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 </Root>

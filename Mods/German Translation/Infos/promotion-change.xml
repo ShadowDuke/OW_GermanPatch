@@ -34,6 +34,29 @@
 		<bUpgrade>1</bUpgrade>
 	</Entry>
 	<Entry>
+		<zType>PROMOTION_STRIKE1</zType>
+		<zName>Angriff I</zName>
+		<EffectUnit>EFFECTUNIT_STRIKE1</EffectUnit>
+		<bPriority>1</bPriority>
+		<bUpgrade>1</bUpgrade>
+	</Entry>
+	<Entry>
+		<zType>PROMOTION_STRIKE2</zType>
+		<zName>Angriff II</zName>
+		<PromotionPrereq>PROMOTION_STRIKE1</PromotionPrereq>
+		<EffectUnit>EFFECTUNIT_STRIKE2</EffectUnit>
+		<bPriority>1</bPriority>
+		<bUpgrade>1</bUpgrade>
+	</Entry>
+	<Entry>
+		<zType>PROMOTION_STRIKE3</zType>
+		<zName>Angriff III</zName>
+		<PromotionPrereq>PROMOTION_STRIKE2</PromotionPrereq>
+		<EffectUnit>EFFECTUNIT_STRIKE3</EffectUnit>
+		<bPriority>1</bPriority>
+		<bUpgrade>1</bUpgrade>
+	</Entry>
+	<Entry>
 		<zType>PROMOTION_GUARD1</zType>
 		<zName>Wache I</zName>
 		<EffectUnit>EFFECTUNIT_GUARD1</EffectUnit>
@@ -90,13 +113,6 @@
 		<zName>Flink</zName>
 		<PromotionPrereq>PROMOTION_TRACKER</PromotionPrereq>
 		<EffectUnit>EFFECTUNIT_SWIFT</EffectUnit>
-		<bUpgrade>1</bUpgrade>
-	</Entry>
-	<Entry>
-		<zType>PROMOTION_HARDY</zType>
-		<zName>Abgehärtet</zName>
-		<PromotionPrereq>PROMOTION_TRACKER</PromotionPrereq>
-		<EffectUnit>EFFECTUNIT_HARDY</EffectUnit>
 		<bUpgrade>1</bUpgrade>
 	</Entry>
 	<Entry>

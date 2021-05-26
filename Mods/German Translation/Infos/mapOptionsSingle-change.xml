@@ -29,4 +29,9 @@
 		<bDefault>1</bDefault>
 		<bMultiPlayerValid>0</bMultiPlayerValid>
 	</Entry>
+	<Entry>
+		<zType>MAP_OPTIONS_SINGLE_KING_OF_THE_HILL</zType>
+		<Name>TEXT_MAP_OPTION_KING_OF_THE_HILL</Name>
+		<zDescription>A resource-rich center instead of water at the channel intersection area</zDescription>
+	</Entry>
 </Root>

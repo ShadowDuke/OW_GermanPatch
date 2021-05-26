@@ -42,6 +42,10 @@
 		<Translation>Du bist an der Reihe</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_TURN_ENDED</zType>
+		<Translation>Turn Ended</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_THEIR_TURN</zType>
 		<Translation>{0}s Zug</Translation>
 	</Entry>
@@ -184,6 +188,10 @@
 	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_UNIT_KILLED</zType>
 		<Translation>EINHEIT GETÖTET</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_UNIT_CAPTURED</zType>
+		<Translation>UNIT CAPTURED</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_UNIT_REBELLED</zType>
@@ -387,11 +395,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_DISTANCE</zType>
-		<Translation>Entfernung:</Translation>
+		<Translation>Entfernung</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_STRENGTH</zType>
-		<Translation>Stärke:</Translation>
+		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_ATTACK</zType>
+		<Translation>Angriff</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_DEFENSE</zType>
+		<Translation>Verteidigung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_KILLING_BLOW</zType>
@@ -759,6 +771,14 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
 		<Translation>{0} (begehrt von {1_family} {2_class})</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_WON_GAME</zType>
+		<Translation>[Won Game]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_LOST_GAME</zType>
+		<Translation>[Lost Game]</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_DISCOVERED</zType>
 		<Translation>[{0} Entdeckt]</Translation>
 	</Entry>
@@ -797,6 +817,10 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_CITY_BREACHED</zType>
 		<Translation>[{0_city} Durchbrochen]</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_CITY_RAZED</zType>
+		<Translation>[City Razed at {0_tilePosition}]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_CULTURE_EVENT</zType>
@@ -871,8 +895,8 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
 		<Translation>[{0} Attackiert {1}]</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_EVENT_STORY_CITY_COMBAT</zType>
-		<Translation>[{0} Greift an {1}]</Translation>
+		<zType>TEXT_UI_EVENT_STORY_UNIT_COMBAT_EMPTY</zType>
+		<Translation>[Einheit Angriff]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_ATTACKED_CITY</zType>
@@ -981,7 +1005,15 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
     <Entry>
         <zType>TEXT_UI_UNITLIST_MILITARY_INFANTRY_FILTER</zType>
         <Translation><![CDATA[<true_0>Verstecke<false>Show<end> Nahkampf Einheiten]]></Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_UNITLIST_FILTER_OTHERS</zType>
+		<Translation>{0} to only show this unit type</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_UNITLIST_FILTER_RESET</zType>
+		<Translation>{0} to reset all filters</Translation>
+	</Entry>
     <Entry>
 		<zType>TEXT_UI_RELIGION_NOT_FOUNDED</zType>
 		<Translation>Noch nicht gegründet</Translation>
@@ -1167,8 +1199,20 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 		<Translation>Hofrat</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_WONDERS</zType>
+		<Translation>Improvements (Wonders)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_RELIGIOUSIMPROVEMENTS</zType>
+		<Translation>Improvements (Religion)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_TRAITS</zType>
-		<Translation>Eigenschaften</Translation>
+		<Translation>Eigenschaften (Andere)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_TRAITSADJECTIVES</zType>
+		<Translation>Traits (Adjectives)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_THEOLOGIES</zType>
@@ -1183,7 +1227,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
     <Entry>
         <zType>TEXT_WORKER_FILTERS_LABEL</zType>
         <Translation>Filter</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TAB_PANEL_SORT_LABEL</zType>
+		<Translation>Sortieren</Translation>
+	</Entry>
     <!-- other selection panels-->
     <Entry>
         <zType>TEXT_MANAGE_LUXURIES</zType>
@@ -1288,7 +1336,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	<Entry>
 		<zType>TEXT_MP_WIZARD_SCREEN_TITLE</zType>
 		<Translation>
-      Bitte wähle den Mehrspieler Modus aus
+     Wähle den Mehrspieler Modus aus
 	</Translation>		
 	</Entry>
 	<Entry>
@@ -1632,6 +1680,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
         <Translation>Seed</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MP_SETUP_SHOW_HIDDEN_SCRIPTS</zType>
+		<Translation>Show Hidden Map Scripts</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_USE_OTHER_MODS</zType>
 		<Translation>Benutze andere Mods</Translation>
 	</Entry>
@@ -1844,6 +1896,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
         <zType>TEXT_SP_SETUP_TABS_SETUP_FAMILIES</zType>
         <Translation>Familien</Translation>
     </Entry>
+	<Entry>
+		<zType>TEXT_SP_SETUP_TABS_SETUP_ARCHETYPE</zType>
+		<Translation>Leader Archetype</Translation>
+	</Entry>
     <!--random-->
     <Entry>
         <zType>TEXT_SP_SETUP_RANDOM</zType>
@@ -1922,7 +1978,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	<Entry>
         <zType>TEXT_SP_SETUP_ADVANCED_SEED</zType>
         <Translation>Seed</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SP_SETUP_SHOW_HIDDEN_SCRIPTS</zType>
+		<Translation>Show Hidden Map Scripts</Translation>
+	</Entry>
     <!--tab-panel.xml-->
     <!--character tab-->
     <Entry>
@@ -1964,9 +2024,29 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
         <Translation>Volksstämme</Translation>
     </Entry>
     <Entry>
-        <zType>TEXT_TAB_PANEL_DIPLOTAB_CITIES</zType>
-        <Translation>Städte</Translation>
-    </Entry>
+		<zType>TEXT_TAB_PANEL_DIPLOTAB_CITIES</zType>
+		<Translation>Städte{true_0: by {0_filter}}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_CITYSORT_PRODUCTION</zType>
+		<Translation>Produktion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_CITYSORT_GOVERNOR</zType>
+		<Translation>Stadthalter Status</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_CITYSORT_FAMILY</zType>
+		<Translation>Familie</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_CITYSORT_RELIGION</zType>
+		<Translation>Stadt Religionen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_CITYSORT_POPULATION</zType>
+		<Translation>Bevölkerung (Bürger + Spezialisten)</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_TAB_PANEL_DIPLOTAB_UNITS</zType>
         <Translation>Einheiten</Translation>
@@ -2058,6 +2138,12 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
     <Entry>
         <zType>TEXT_CITY_LIST_SORT_LEVEL</zType>
         <Translation>[CTRL+CLICK] to sort by {0_yield} level</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITY_LIST_SORT_DIRECTION</zType>
+		<Translation>
+			<![CDATA[<TEXT_HOTKEY_LEFT_CLICK> to change sort direction]]>
+		</Translation>
 	</Entry>
 	<!-- popup-victory.xml-->
 	<Entry>
@@ -2158,8 +2244,40 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 		<Translation>Klein</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TECH_TREE_SHOW_NAMES</zType>
+		<Translation>Toggle Names</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_TREE_SHOW_NAMES_TOOLTIP</zType>
+		<Translation>Hold [ALT] to temporarily show technology names</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TECH_TREE_TECHS_FULL</zType>
 		<Translation>Ausführlich</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_TREE_COMPLETED</zType>
+		<Translation>Completed</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_TREE_LOCKED</zType>
+		<Translation>Locked</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_TREE_RESEARCHING</zType>
+		<Translation>Researching</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_TREE_AVAILABLE</zType>
+		<Translation>Available</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_TREE_DISCARD</zType>
+		<Translation>Discard Pile</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_TREE_DECK</zType>
+		<Translation>In Deck</Translation>
 	</Entry>
 	<!--selected-worker.xml-->
 	<Entry>
@@ -2288,11 +2406,31 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	<!--game-log.xml-->
 	<Entry>
 		<zType>TEXT_GAME_LOG</zType>
-		<Translation>Spielaufzeichnung</Translation>
+		<Translation>Zeitlinie: {0_turnScale} {1_turn}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_LOG_LEADERS</zType>
+		<Translation>Oberhäupter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_LOG_LOG</zType>
 		<Translation>Aufzeichnung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_LOG_TOGGLE_FOG</zType>
+		<Translation>Toggle Fog</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_LOG_EXPORT</zType>
+		<Translation>Export GIF</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_LOG_SHOW_MAP</zType>
+		<Translation>Map View</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_LOG_SHOW_TREE</zType>
+		<Translation>Family Tree View</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_LOG_TIMELINE</zType>

@@ -227,12 +227,28 @@
 		<Translation>Versammle die Truppen</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSION_HOLD_COURT</zType>
+		<Translation>Hold Court</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSION_ABDICATE</zType>
 		<Translation>Das Zepter niederlegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_INFLUENCE</zType>
 		<Translation>Beeinflussen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_INFLUENCE_CHARACTER</zType>
+		<Translation>Influence via</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_CONVERT_SELF</zType>
+		<Translation>Convert Religion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_CONVERT_SELF_TARGET</zType>
+		<Translation>Konvertiere zu</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_CONVERT_RELIGION</zType>
@@ -317,6 +333,18 @@
 	<Entry>
 		<zType>TEXT_MISSION_INSURRECTION_TARGET</zType>
 		<Translation>Aufstand in</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_DEMAND_TRIBUTE</zType>
+		<Translation>Demand Tribute</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_DEMAND_TRIBUTE_TARGET</zType>
+		<Translation>Demand Tribute from</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_DEMAND_TRIBUTE_CHARACTER</zType>
+		<Translation>Demand Tribute via</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRADE_MISSION</zType>

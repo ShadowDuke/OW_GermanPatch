@@ -178,23 +178,23 @@
 	<Entry>
     <zType>TEXT_PROJECT_AUTONOMOUS_RULE</zType>
     <Translation>Autonome Herrschaft</Translation>
-  </Entry>  
-<Entry>
+	</Entry>  
+	<Entry>
     <zType>TEXT_PROJECT_MONUMENTAL_GATE</zType>
     <Translation>Monumentales Tor</Translation>
-  </Entry>
-  <Entry>
+	</Entry>
+	<Entry>
 		<zType>TEXT_PROJECT_LEVIATHAN</zType>
 		<Translation>Leviathan Skull</Translation>
-   </Entry>
-   <Entry>
+	</Entry>
+	<Entry>
 		<zType>TEXT_PROJECT_GODS_CONSORT_CULT</zType>
 		<Translation>God's Consort Cult</Translation>
-   </Entry>
-   <Entry>
+	</Entry>
+	<Entry>
 		<zType>TEXT_PROJECT_LABYRINTH</zType>
 		<Translation>Labyrinth</Translation>
-   </Entry>
+	</Entry>
     <Entry>
 		<zType>TEXT_PROJECT_WORK_OF_ART</zType>
 		<Translation>Work of Art</Translation>
@@ -214,6 +214,10 @@
 	<Entry>
 		<zType>TEXT_PROJECT_STATUE_OF_DIONYSUS</zType>
 		<Translation>Statue of Dionysus</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_PAGAN_COLLEGES</zType>
+		<Translation>Pagan Colleges</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_PAGAN_CULT_WAR</zType>
@@ -258,5 +262,9 @@
 	<Entry>
 		<zType>TEXT_PROJECT_PAGAN_CULT_HUNTING</zType>
 		<Translation>Pagan Cult of Hunting</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_FERTILE_SOIL</zType>
+		<Translation>Mineralreicher Boden</Translation>
 	</Entry>
 </Root>

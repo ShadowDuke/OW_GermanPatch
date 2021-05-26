@@ -24,9 +24,9 @@
 		<zDesc>Keine Einheiten Bewegungsanimation</zDesc>
 	</Entry>
 	<Entry>
-		<zType>PLAYEROPTION_NO_UNIT_CYCLING</zType>
-		<zName>Kein Einheiten Wechsel</zName>
-		<zDesc>Wechsle niemals zu einer neuen Einheit</zDesc>
+		<zType>PLAYEROPTION_UNIT_CYCLING</zType>
+		<zName>Einheiten Wechsel</zName>
+		<zDesc>Wechselt automatsich nzur nächsten Einheit</zDesc>
 	</Entry>
 	<Entry>
 		<zType>PLAYEROPTION_FATIGUE_CYCLING</zType>
@@ -59,9 +59,9 @@
         <zDesc>Es wird immer kleine Tech Karten, anstatt des Forschung wählen popup angezeigt</zDesc>
     </Entry>
 	<Entry>
-		<zType>PLAYEROPTION_DEBUG_HELP</zType>
-		<zName>Debug Hilfe</zName>
-		<zDesc>Aktiviere Kurzinfos fürs debugging</zDesc>
+		<zType>PLAYEROPTION_COMPACT_TECH_TREE</zType>
+		<zName>Show Compact Tech Tree</zName>
+		<zDesc>Show mini cards on Technology Tree instead of detailed technology information</zDesc>
 	</Entry>
 	<Entry>
 		<zType>PLAYEROPTION_SHOW_SYSTEM_TIME</zType>

@@ -36,12 +36,12 @@
 	<Entry>
 		<zType>MEMORYTRIBE_OFFER</zType>
 		<zText>Barbaren Angebot</zText>
-		<iTurns>10</iTurns>
+		<iTurns>5</iTurns>
 	</Entry>
 	<Entry>
 		<zType>MEMORYTRIBE_OFFER_ALL</zType>
 		<zText>Barbaren Angebot (Alle)</zText>
-		<iTurns>4</iTurns>
+		<iTurns>2</iTurns>
 	</Entry>
 	<Entry>
 		<zType>MEMORYTRIBE_BROKE_PEACE</zType>
@@ -52,13 +52,13 @@
 	<Entry>
 		<zType>MEMORYTRIBE_REMOVED_LUXURY</zType>
 		<zText>Luxusgut entfernt</zText>
-		<iValue>-50</iValue>
-		<iTurns>5</iTurns>
+		<iValue>-40</iValue>
+		<iTurns>10</iTurns>
 	</Entry>
 	<Entry>
 		<zType>MEMORYTRIBE_PLAYER_TRIBE_WAR</zType>
 		<zText>Convinced a Nation to declare on us</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_LONG</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_LONG</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYTRIBE_ATTACKED_UNIT</zType>
@@ -277,8 +277,8 @@
 	</Entry>
 	<Entry beginGroup="Miscellaneous">
 		<zType>MEMORYTRIBE_SMUGGLED_SPIES</zType>
-		<zText>Smuggled spies</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+		<zText>Smuggled our spies</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYTRIBE_ASSISTED_IN_MONSOON</zType>
@@ -354,5 +354,10 @@
 		<zType>MEMORYTRIBE_ARGUED_RELIGIOUS_PRACTICE</zType>
 		<zText>Argued religious practice</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYTRIBE_EXTORTED</zType>
+		<zText>Extorted us for resources</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 </Root>

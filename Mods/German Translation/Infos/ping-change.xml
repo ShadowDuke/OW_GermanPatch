@@ -65,7 +65,6 @@
 		<PingAsset>ASSET_NOTE_PING</PingAsset>
 		<zIconName>PING_NOTE</zIconName>
 		<zLogText>Ich habe eine Nachricht hinterlassen.</zLogText>
-        <iMPTurnDuration>2</iMPTurnDuration>
 		<bTextInput>1</bTextInput>
 	</Entry>
 </Root>

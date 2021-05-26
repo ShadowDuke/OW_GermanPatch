@@ -34,6 +34,14 @@
 		<zName>Stammes Glaubenswechsel</zName>
 	</Entry>
 	<Entry>
+		<zType>STAT_MERCENARIES_RECRUITED</zType>
+		<zName>Söldner rekrutiert</zName>
+	</Entry>
+	<Entry>
+		<zType>STAT_MERCENARIES_HIRED</zType>
+		<zName>Söldner angeheuert</zName>
+	</Entry>
+	<Entry>
 		<zType>STAT_TEAM_CONTACTED</zType>
 		<zName>Spieler kontaktiert</zName>
 	</Entry>
@@ -86,6 +94,10 @@
 		<zName>Wahrzeichen benannt</zName>
 	</Entry>
 	<Entry>
+		<zType>STAT_LEADER_COUNT</zType>
+		<zName>Leader Count</zName>
+	</Entry>
+	<Entry>
 		<zType>STAT_NATION_FOUNDED</zType>
 		<zName>Staat gegründet</zName>
 	</Entry>
@@ -130,7 +142,7 @@
 		<zName>Einheiten getötet</zName>
 	</Entry>
 	<Entry>
-		<zType>STAT_UNIT_KILLED_MILITARY_GENERAL</zType>
+		<zType>STAT_UNIT_MILITARY_KILLED_GENERAL</zType>
 		<zName>Einheiten getötet (als Feldherr)</zName>
 	</Entry>
 	<Entry>

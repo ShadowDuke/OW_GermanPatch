@@ -19,6 +19,18 @@
 		<Translation>Kampf III</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_STRIKE1</zType>
+		<Translation>Angriff I</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_STRIKE2</zType>
+		<Translation>Angriff II</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_STRIKE3</zType>
+		<Translation>Angriff III</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_GUARD1</zType>
 		<Translation>Wache I</Translation>
 	</Entry>
@@ -57,10 +69,6 @@
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SWIFT_ALL</zType>
 		<Translation>Flink Anführer</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTUNIT_HARDY</zType>
-		<Translation>Abgehärtet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_EAGLE_EYE</zType>
@@ -219,6 +227,18 @@
 		<Translation>Brander</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_INGENUITY</zType>
+		<Translation>Raffinesse</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_SADDLEBORN</zType>
+		<Translation>Geborener Reiter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_SNIPING</zType>
+		<Translation>aus dem Hinterhalt</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_ROUT</zType>
 		<Translation>Vernichtend</Translation>
 	</Entry>
@@ -239,10 +259,6 @@
 		<Translation>Formation</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTUNIT_MANEUVERS</zType>
-		<Translation>Manöver</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EFFECTUNIT_CRIPPLED</zType>
 		<Translation>Verkrüppelt</Translation>
 	</Entry>
@@ -251,20 +267,12 @@
 		<Translation>Soldat</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTUNIT_INGENUITY</zType>
-		<Translation>Raffinesse</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTUNIT_SADDLEBORN</zType>
-		<Translation>Sattelhorn</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTUNIT_SNIPING</zType>
-		<Translation>Aus dem Hinterhalt</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EFFECTUNIT_SURVEYOR</zType>
 		<Translation>Vermesser</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_ASSYRIA</zType>
+		<Translation>link(NATION_ASSYRIA)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HERO</zType>
@@ -299,8 +307,8 @@
 		<Translation>link(TRAIT_TACTICIAN_ARCHETYPE) (Anführer)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTUNIT_TACTICIAN_MOUNTED</zType>
-		<Translation>link(TRAIT_TACTICIAN_ARCHETYPE) (link(UNITTRAIT_MOUNTED))</Translation>
+		<zType>TEXT_EFFECTUNIT_TACTICIAN_RANGED</zType>
+		<Translation>link(TRAIT_TACTICIAN_ARCHETYPE) Leader (link(UNITTRAIT_RANGED))</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_ZEALOT</zType>

@@ -7,7 +7,7 @@
 		<zName/>
 		<zIconName/>
 		<zHelp/>
-		<iStrengthModifier/>
+		<iAttackModifier/>
 		<iDefenseModifier/>
 		<iCriticalChance/>
 		<iUnitXP/>
@@ -78,7 +78,7 @@ Für Feldherren erhöht Charisma erhöht die Verteidigung der Einheiten.</zHelp>
 		<zHelp>Für Oberhäupter und Stadthalter erhöht Mut {YIELD_TRAINING}.
 Für Feldherren erhöht Mut die Stärke der Einheiten.
 		</zHelp>
-		<iStrengthModifier>1</iStrengthModifier>
+		<iAttackModifier>1</iAttackModifier>
 		<aiYieldCourtRate>
 			<Pair>
 				<zIndex>YIELD_TRAINING</zIndex>

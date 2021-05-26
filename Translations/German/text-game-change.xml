@@ -46,8 +46,12 @@
 		<Translation>{0_team} hat nun {1_newDiplomacy} mit {2_team}.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_TEAM_DIPLOMACY_LOG_DATA</zType>
-		<Translation>{0_team}: {1_newDiplomacy}</Translation>
+		<zType>TEXT_GAME_TEAM_FROM_DIPLOMACY_LOG_DATA</zType>
+		<Translation>{true_2:Declared {1_newDiplomacy} on {0_team}:Made {1_newDiplomacy} with {0_team}}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_TEAM_TO_DIPLOMACY_LOG_DATA</zType>
+		<Translation>{true_2:{0_team} Declared {1_newDiplomacy} on us:Made {1_newDiplomacy} with {0_team}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TEAM_ALLIANCE_WAR</zType>
@@ -96,6 +100,10 @@
 	<Entry>
 		<zType>TEXT_GAME_FAMILY_HEAD</zType>
 		<Translation>{0_character} is nun das Oberhaupt der {1_family} Familie!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_IMPROVEMENT_PILLAGED</zType>
+		<Translation>{0_improvement} will disappear in {1} {2_turnScale}!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_IMPROVEMENT_STARTED</zType>
@@ -330,6 +338,18 @@
 		<zType>TEXT_GAME_DECISION_DEAD_GOVERNOR_PROMPT</zType>
 		<Translation>Wähle neuen link(CONCEPT_GOVERNOR)</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_DECISION_DEAD_AGENT_TITLE</zType>
+		<Translation>Death of link(CONCEPT_AGENT)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_DECISION_DEAD_AGENT</zType>
+		<Translation>{0_character}, link(CONCEPT_AGENT) in {1_city}, has died while still serving.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_DECISION_DEAD_AGENT_PROMPT</zType>
+		<Translation>Choose New link(CONCEPT_AGENT)</Translation>
+	</Entry>
 	<!--Do Bonus-->
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_MEMORY_ALL_PLAYERS</zType>
@@ -380,24 +400,12 @@
 		<Translation>Sende {0_trade} an {1_player}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_TRADE_PLAYER</zType>
-		<Translation>{0_trade} Handel mit {1_player}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_TRIBUTE_PLAYER</zType>
-		<Translation>{0_tribute} Tribut mit {1_player}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_OTHER_PLAYER_DIPLOMACY</zType>
 		<Translation>{0_other} bei {1_diplomacy} mit {2_target}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_DIPLOMACY_TRIBE</zType>
 		<Translation>{0_diplomacy} mit {1_barbarian}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_TRIBUTE_TRIBE</zType>
-		<Translation>{0_tribute} Tribut mit {1_barbarian}</Translation>
 	</Entry>
 	<Entry>
     <zType>TEXT_GAME_DO_BONUS_TRIBE_DIPLOMACY_PLAYER</zType>
@@ -532,6 +540,10 @@
 		<Translation>{0_victory} Sieg</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_DO_DEFEAT</zType>
+		<Translation>Spieler bezwungen</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_ADD_COURTIER_OTHER</zType>
 		<Translation>{0,1_player} {1_courtier}</Translation>
 	</Entry>
@@ -549,15 +561,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_MAKE_GOVERNOR</zType>
-		<Translation>Stadthalter von {0_city}</Translation>
+		<Translation>link(CONCEPT_GOVERNOR von {0_city}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_MAKE_GENERAL</zType>
-		<Translation>Feldherr von {0_unit}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_SEIZE_THRONE</zType>
-		<Translation>Oberhaupt von {0_player}</Translation>
+		<Translation>ink(CONCEPT_GENERAL) von {0_unit}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_ADOPTION</zType>
@@ -590,10 +598,6 @@
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_HAS_ILLEGITIMATE_CHILD</zType>
 		<Translation>Hat ein uneheliches Kind</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_RELATIONSHIP_ADD</zType>
-		<Translation>Ist {0_relationship} {1_character}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_RELATIONSHIP_ADD_REMOVE</zType>
@@ -634,10 +638,6 @@
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_TRIBE_RAID</zType>
 		<Translation>Überfall der {0,1_barbarian} {1_improvement} von {2_tile}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_PLAYER_ADOPT_RELIGION</zType>
-		<Translation>{0_player}: Übernehme {1_religion} als Staatsreligionn</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_PLAYER_FREE_THEOLOGY</zType>
@@ -684,6 +684,10 @@
 		<Translation>-{0_damage} HP!</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_UNIT_ATTACK_ENLISTED</zType>
+		<Translation>Angeworben!</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_CITY_ATTACKED_LOG_DATA</zType>
 		<Translation>{0_city} Angegriffen von {1_owner} {2_unit}!</Translation>
 	</Entry>
@@ -714,6 +718,10 @@
 	<Entry>
 		<zType>TEXT_GAME_UNIT_KILLED_LOG_DATA</zType>
 		<Translation>{0_unit} Getötet von {1_owner} {2_unit}!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_UNIT_CAPTURED_LOG_DATA</zType>
+		<Translation>{0_unit} wurde gefangen genommen von {1_owner} {2_unit}!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_UNIT_SEEN</zType>
@@ -803,6 +811,10 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_UNIT_PILLAGED_IMPROVEMENT_LOG_DATA</zType>
+		<Translation>{0} Geplündert von {1_owner} {2_unit}!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_PILLAGED__LOG_DATA</zType>
 		<Translation>{0} Geplündert von {1_owner} {2_unit}!</Translation>
 	</Entry>
 	<Entry>

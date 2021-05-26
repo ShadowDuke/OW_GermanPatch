@@ -58,7 +58,7 @@
 		<Translation>Oligarch {0_name}</Translation>
 	</Entry>
   <!-- Relation -->
-	<Entry comment="TEXT_CHARACTER_RELATION_XXX texts have the leader (i.e. 'You') as variable index 1 for gender">
+	<Entry comment="TEXT_CHARACTER_RELATION texts have the leader (i.e. 'You') as variable index 1 for gender">
 		<zType>TEXT_CHARACTER_RELATION_YOU</zType>
 		<Translation>Du</Translation>
 	</Entry>
@@ -180,6 +180,14 @@
 		<zType>TEXT_CHARACTER_AGENT_IN</zType>
 		<Translation>link(CONCEPT_AGENT) in {0_city}</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_YOUR_HEIR</zType>
+		<Translation>Dein Erbe</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_YOUR_SUCCESSOR</zType>
+		<Translation>Dein Nachfolger</Translation>
+	</Entry>
 	<!-- Name -->
 	<Entry>
 		<zType>TEXT_CHARACTER_FULL_NAME_EXTRA</zType>
@@ -210,10 +218,6 @@
 		<Translation>der Älteste</Translation>
 	</Entry>
 	<!--Game Text-->
-	<Entry>
-		<zType>TEXT_CHARACTER_NEW_RULER</zType>
-		<Translation><![CDATA[Unser vorheriger Herrschwer ist tot. Nun beginnt die Herrschaft von {0_newLeader}. Lang lebe <masculine_0>der King<feminine>die Königin<end>!]]></Translation>
-	</Entry>
 	<Entry>
 		<zType>TEXT_COUNCIL_HAS_DIED</zType>
 		<Translation>Dein {0_council}, {1_character}, ist gestorben!</Translation>

@@ -157,15 +157,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_CULTURE_DEVELOPING</zType>
-		<Translation>Entfaltet</Translation>
+		<Translation>Entfaltete Stadt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_CULTURE_STRONG</zType>
-		<Translation>Solide</Translation>
+		<Translation>Solide Stadt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_CULTURE_LEGENDARY</zType>
-		<Translation>Sagenumwoben</Translation>
+		<Translation>Sagenumwobene Stadt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_DIFFICULTY_ABLE</zType>
@@ -352,8 +352,8 @@
 		<Translation>Eliten</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_ISOLATIONISM</zType>
-		<Translation>Abschottung</Translation>
+		<zType>TEXT_EFFECTCITY_LAW_AUTARKY</zType>
+		<Translation>Autarkie</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LAW_COIN_DEBASEMENT</zType>
@@ -410,6 +410,10 @@
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_FORUM</zType>
 		<Translation>Gericht~ein Gericht~Gerichte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_COLLEGES</zType>
+		<Translation>Heidnische Kollegien</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_WAR</zType>
@@ -656,6 +660,10 @@
 		<Translation>link(TRAIT_ORATOR_ARCHETYPE) Anführer</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_DIPLOMAT_ARCHETYPE</zType>
+		<Translation>link(TRAIT_DIPLOMAT_ARCHETYPE) link(CONCEPT_GOVERNOR)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_JUDGE_ARCHETYPE</zType>
 		<Translation>link(TRAIT_JUDGE_ARCHETYPE) link(CONCEPT_GOVERNOR)</Translation>
 	</Entry>
@@ -770,5 +778,9 @@
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_DELVER</zType>
 		<Translation>link(TRAIT_DELVER) Anführer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_PROJECT_FERTILE_SOIL</zType>
+		<Translation>Mineralreicher Boden</Translation>
 	</Entry>
 </Root>

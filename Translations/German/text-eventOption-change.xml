@@ -30,10 +30,6 @@
 		<Translation><![CDATA[Noch nicht!]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_PLAYER_WAR_YES</zType>
-		<Translation><![CDATA[Wie ihr wollt...]]></Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_PLAYER_WAR_NO</zType>
 		<Translation><![CDATA[Niemals!]]></Translation>
 	</Entry>
@@ -115,11 +111,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_PROPOSAL_HUMAN_YES</zType>
-		<English>Yes.</English>
+		<Translation>Yes.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_PROPOSAL_HUMAN_NO</zType>
-		<English>No.</English>
+		<Translation>No.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_PLAYER_WAR_MONEY</zType>
@@ -294,10 +290,6 @@
 		<Translation><![CDATA[Nur ein reiner Weg führt zu Gottseligkeit.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_LAW_ISOLATIONISM</zType>
-		<Translation><![CDATA[{PLAYER-0} wird selbständig sein.]]></Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_LAW_TRADE_LEAGUE</zType>
 		<Translation><![CDATA[Jeder provitiert vom Handel mit Aussenstehenden.]]></Translation>
 	</Entry>
@@ -387,14 +379,6 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_FAMILY_LAW_NO</zType>
-		<Translation><![CDATA[Unsere Antwort ist nein.]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_FAMILY_THEOLOGY_YES</zType>
-		<Translation><![CDATA[Erziele den Wechsel.]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_FAMILY_THEOLOGY_NO</zType>
 		<Translation><![CDATA[Unsere Antwort ist nein.]]></Translation>
 	</Entry>
 	<Entry>
@@ -656,22 +640,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_FORCED_DEPORTATIONS_OPTION_1</zType>
 		<Translation><![CDATA[So behandelt man auf keinen Fall seine königlichen Untertanen.]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_TRAINING_NEWS_COMBAT</zType>
-		<Translation><![CDATA[Verbessere ihre einfachen Kampffertigkeiten.]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_TRAINING_NEWS_GUARD</zType>
-		<Translation><![CDATA[Unterweise sie in neuen Defensiven Techniken.]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_TRAINING_NEWS_TOUGH</zType>
-		<Translation>Lehre sie wie man während der Jagd kämpft.</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_TRAINING_NEWS_ENGINEERING</zType>
-		<Translation><![CDATA[Unterrichte sie in Schlachtfeld Techniken.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_GOOD_NEWS_OPTION_0</zType>

@@ -26,12 +26,32 @@
 		<Translation>The Rally Troops Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_HOLD_COURT_DESCRIPTION</zType>
+		<Translation>You have held court, handing out wise judgements and important reforms.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_HOLD_COURT_EVENT_DESCRIPTION</zType>
+		<Translation>The Hold Court Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_INFLUENCE_DESCRIPTION</zType>
 		<Translation>You have successfully exerted your influence upon {CHARACTER-TARGET}.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_INFLUENCE_WEAKEN_DESCRIPTION</zType>
+		<Translation>You have successfully exerted your influence upon {CHARACTER-TARGET} but appear weak in the process.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_INFLUENCE_EVENT_DESCRIPTION</zType>
 		<Translation>The Influence Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_CONVERT_SELF_DESCRIPTION</zType>
+		<Translation>You have successfully converted to a new Religion.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_CONVERT_SELF_EVENT_DESCRIPTION</zType>
+		<Translation>The Convert Self Mission has led to an event...</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_CONVERT_RELIGION_DESCRIPTION</zType>
@@ -44,6 +64,10 @@
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INTERCESSION_DESCRIPTION</zType>
 		<Translation>{CHARACTER-SUBJECT} has successfully intercessed upon {CHARACTER-TARGET} on your behalf.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_INTERCESSION_WEAKEN_DESCRIPTION</zType>
+		<Translation>{CHARACTER-SUBJECT} has successfully intercessed upon {CHARACTER-TARGET} on your behalf but also exposes your weakness.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INTERCESSION_EVENT_DESCRIPTION</zType>
@@ -114,8 +138,12 @@
 		<Translation>The Treachery Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSIONRESULT_INSURRECTION_SUCCESS_DESCRIPTION</zType>
+		<zType>TEXT_MISSIONRESULT_INSURRECTION_REVOLT_DESCRIPTION</zType>
 		<Translation>{CHARACTER-SUBJECT} has successfully started a local uprising.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_INSURRECTION_DISCONTENT_DESCRIPTION</zType>
+		<Translation>{CHARACTER-SUBJECT} has successfully stirred up local resentment.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INSURRECTION_FAILURE_DESCRIPTION</zType>
@@ -375,6 +403,14 @@
 		<Translation>Truppen Versammlungs Ereignis</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_HOLD_COURT</zType>
+		<Translation>Hold Court</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_HOLD_COURT_EVENT</zType>
+		<Translation>Hold Court Event</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_ABDICATE</zType>
 		<Translation>Entsagt</Translation>
 	</Entry>
@@ -383,8 +419,20 @@
 		<Translation>Um Einfluss bemüht</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_INFLUENCE_WEAKEN</zType>
+		<Translation>Influence Exposes our Weakeness</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_INFLUENCE_EVENT</zType>
 		<Translation>Einfluss Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_CONVERT_SELF</zType>
+		<Translation>Converted Religion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_CONVERT_SELF_EVENT</zType>
+		<Translation>Convert Self Event</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_CONVERT_RELIGION</zType>
@@ -393,6 +441,10 @@
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_CONVERT_RELIGION_EVENT</zType>
 		<Translation>Religions Konvertierungs Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_INTERCESSION_WEAKEN</zType>
+		<Translation>Intercession Exposes our Weakeness</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INTERCESSION</zType>
@@ -491,8 +543,12 @@
 		<Translation>Verrats Ereignis</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSIONRESULT_INSURRECTION_SUCCESS</zType>
-		<Translation>Aufstand erfolgreich</Translation>
+		<zType>TEXT_MISSIONRESULT_INSURRECTION_REVOLT</zType>
+		<Translation>Insurrection Revolt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_INSURRECTION_DISCONTENT</zType>
+		<Translation>Insurrection link(YIELD_DISCONTENT)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INSURRECTION_FAILURE</zType>
@@ -501,6 +557,10 @@
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INSURRECTION_EVENT</zType>
 		<Translation>Aufstands Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_DEMAND_TRIBUTE_EVENT</zType>
+		<Translation>Demand Tribute Event</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TRADE_MISSION_EVENT</zType>

@@ -87,10 +87,6 @@
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYCHARACTER_PROVIDED_FAVOR</zType>
-		<zText>Provided a favor</zText>
-	</Entry>
-	<Entry>
 		<zType>MEMORYCHARACTER_LOST_CONSORT</zType>
 		<zText>Took away my consort</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
@@ -112,17 +108,17 @@
 	</Entry>
 		<Entry>
 		<zType>MEMORYCHARACTER_IGNORED_SUGGESTION_TO_INFILTRATE</zType>
-		<zText>Ignored my plea to infiltrate a suspicious neignor</zText>
+		<zText>Ignored my plea to infiltrate a suspicious neighbor</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_IGNORED_SUGGESTION_TO_SLANDER</zType>
-		<zText>Ignored my plea to slander a neignor</zText>
+		<zText>Ignored my plea to slander a neighbor</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_FOLLOWED_SUGGESTION_TO_INFILTRATE</zType>
-		<zText>Acceded to my request to infiltrate a suspicious neignor</zText>
+		<zText>Acceded to my request to infiltrate a suspicious neighbor</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -627,11 +623,6 @@
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
-		<zType>MEMORYCHARACTER_PLAYER_WAR_AT_TRUCE_INCIDENT_WAR</zType>
-		<zText>[STUB] We are eager to right the wrongs you have done to us</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
-	</Entry>
-	<Entry>
 		<zType>MEMORYCHARACTER_PLAYER_WAR_OFFER_TRIBUTE_PAID</zType>
 		<zText>Paid us Tribute to avoid a War</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
@@ -658,7 +649,7 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_EVENTOPTION_WAR_OFFER_RELIGION_STATE_YES</zType>
-		<zText>Converted to our State Religion</zText>
+		<zText>Konvertierte zu unserer link(CONCEPT_STATE_RELIGION)</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_HIGH_FOREVER</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -913,6 +904,13 @@
 		<iTurns>15</iTurns>
 		<bName>1</bName>
 	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_GREAT_PARTY</zType>
+		<zText>Hosted a wonderful party!</zText>
+		<iValue>30</iValue>
+		<iTurns>10</iTurns>
+		<bName>1</bName>
+	</Entry>
 	<Entry beginGroup="Character">
 		<zType>MEMORYCHARACTER_MARRIAGE_OF_STATE</zType>
 		<zText>Married me for politics</zText>
@@ -971,8 +969,7 @@
 	<Entry>
 		<zType>MEMORYCHARACTER_PAID_FOR_MY_SILENCE</zType>
 		<zText>Ruler bought my silence</zText>
-		<iValue>20</iValue>
-		<iTurns>10</iTurns>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_RENEWED_BOND</zType>
@@ -997,15 +994,13 @@
 	<Entry>
 		<zType>MEMORYCHARACTER_POOR_SPOUSE</zType>
 		<zText>My spouse is poor company</zText>
-		<iValue>-20</iValue>
-		<iTurns>5</iTurns>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 		<bName>1</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_CARES_ABOUT_INTERESTS</zType>
 		<zText>My spouse cares about my interests</zText>
-		<iValue>50</iValue>
-		<iTurns>15</iTurns>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 		<bName>1</bName>
 	</Entry>
 	<Entry>
@@ -1153,7 +1148,7 @@
 	<Entry>
 		<zType>MEMORYCHARACTER_DENIED_BARRACKS_ASSIGNMENT</zType>
 		<zText>Denied our request to teach at the Barracks</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_COMMENDED_FIELD_LEADERSHIP</zType>
@@ -1223,5 +1218,10 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYCHARACTER_SCHEMING_HEIR_THREE_LIVE</zType>
+	</Entry>
+	<Entry>
+		<zType>MEMORYCHARACTER_TRUSTED</zType>
+		<zText>Hat mir vertraut</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_HIGH_SHORT</MemoryLevel>
 	</Entry>
 </Root>

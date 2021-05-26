@@ -12,7 +12,7 @@
 	<Entry>
 		<zType>MEMORYRELIGION_ESTABLISH_THEOLOGY</zType>
 		<zText>Established a link(CONCEPT_THEOLOGY)</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_LONG</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYRELIGION_PURGE_RELIGION</zType>
@@ -32,7 +32,7 @@
 	<Entry>
 		<zType>MEMORYRELIGION_MADE_OFFERINGS</zType>
 		<zText>Made holy offerings</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_LONG</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_LONG</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYRELIGION_REFUSED_OFFERINGS</zType>
@@ -67,7 +67,7 @@
 	<Entry>
 		<zType>MEMORYRELIGION_ADOPTED_ZOROASTRIANISM</zType>
 		<zText>Zoroastrismus übernommen</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYRELIGION_SPREAD_ZOROASTRIANISM</zType>
@@ -87,7 +87,7 @@
 	<Entry>
 		<zType>MEMORYRELIGION_ADOPTED_JUDAISM</zType>
 		<zText>Judentum übernommen</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYRELIGION_REFUSED_JUDAISM</zType>
@@ -122,12 +122,12 @@
 	<Entry>	
 		<zType>MEMORYRELIGION_ADOPTED_CHRISTIANITY</zType>
 		<zText>Christentum übernommen</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYRELIGION_ADOPTED_MANICHAEISM</zType>
 		<zText>Manichäismus gegründet</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_HIGH_NORMAL</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYRELIGION_ORTHDOXY_AGAINST</zType>
@@ -437,7 +437,7 @@
 	<Entry>
 		<zType>MEMORYRELIGION_ADOPTED_BURIAL_PRACTICES</zType>
 		<zText>Adopted our burial practices</zText>
-		<MemoryLevel>MEMORYLEVEL_POS_LOW_FOREVER</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_LONG</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYRELIGION_RENEWED_FERVOUR</zType>
@@ -543,5 +543,65 @@
 		<zType>MEMORYRELIGION_DISCRACED_BY_RELIGION_HEAD</zType>
 		<zText>Discraced by our Religion Head</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_CENSORED_HEAD_YES</zType>
+		<zText>Censored extreme religion head</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_CENSORED_HEAD_NO</zType>
+		<zText>Praised extreme religion head</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_NO_TRIBUTE</zType>
+		<zText>Didn’t demand faithful for tribute</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_SACRED_LANDMARK</zType>
+		<zText>Gave us access to sacred landmark</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_FIRE_CULT</zType>
+		<zText>Gave us access to sacred landmark</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_STOPPED_CULT_TEMPLE</zType>
+		<zText>Stopped the building of a disliked cult</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_SACRED_GROUND_RESPECTED</zType>
+		<zText>Respected our sacred ground</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_PILGRIMAGE_SITE_YES</zType>
+		<zText>Gave access to pilgrimage site</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_PILGRIMAGE_SITE_NO</zType>
+		<zText>Restricted access to pilgrimage site</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_DEFILED_TEMPLE</zType>
+		<zText>Broke into our temple</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_DEFILED_TEMPLE_KILL</zType>
+		<zText>Shed blood in our temple</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYRELIGION_OTHER_DISCIPLE</zType>
+		<zText>Funded a new religion's disciple</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 </Root>

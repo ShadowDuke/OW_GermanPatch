@@ -5,25 +5,30 @@
 		<zType/>
 		<zName/>
 		<iWarModifier/>
+		<iWarMinTurn/>
 	</Entry>
 	<Entry>
 		<zType>OPPONENTLEVEL_PASSIVE</zType>
 		<zName>Zurückhaltend</zName>
 		<iWarModifier>-100</iWarModifier>
+		<iWarMinTurn>40</iWarMinTurn>
 	</Entry>
 	<Entry>
 		<zType>OPPONENTLEVEL_PEACEFUL</zType>
 		<zName>Friedlich</zName>
 		<iWarModifier>-50</iWarModifier>
+		<iWarMinTurn>30</iWarMinTurn>
 	</Entry>
 	<Entry>
 		<zType>OPPONENTLEVEL_NORMAL</zType>
 		<zName>Normal</zName>
+		<iWarMinTurn>20</iWarMinTurn>
 	</Entry>
 	<Entry>
 		<zType>OPPONENTLEVEL_AGGRESSIVE</zType>
 		<zName>Aggressiv</zName>
 		<iWarModifier>25</iWarModifier>
+		<iWarMinTurn>10</iWarMinTurn>
 	</Entry>
 	<Entry>
 		<zType>OPPONENTLEVEL_COMPETITIVE</zType>

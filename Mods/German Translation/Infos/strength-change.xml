@@ -18,6 +18,7 @@
 		<iTruceModifier>50</iTruceModifier>
 		<iWarModifier>-50</iWarModifier>
 		<bNoTribePeace>1</bNoTribePeace>			
+		<bNoTribeOfferHuman>1</bNoTribeOfferHuman>
 	</Entry>
 	<Entry>
 		<zType>STRENGTH_WEAKER</zType>

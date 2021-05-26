@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Leyla Johnson (Private) -->
+<!-- edited with XMLSpy v2014 rel. 2 (x64) (http://www.altova.com) by Soren Johnson (private) -->
 <Root>
 	<Entry>
 		<zType/>
@@ -69,12 +69,16 @@
 		<Translation>Spieler Bündnis</Translation>
 	</Entry>
     <Entry>
-        <zType>TEXT_CONCEPT_ANCHOR</zType>
-        <Translation>Ankern</Translation>
+        <zType>TEXT_CONCEPT_ANCHORED</zType>
+		<Translation>Geankert~Ankern~Ankern</Translation>
     </Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_BUY_TILE</zType>
 		<Translation>Felder kaufen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_CAPITAL</zType>
+		<Translation>Hauptstadt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_CARAVAN_MISSION</zType>
@@ -91,6 +95,14 @@
 	<Entry>
 		<zType>TEXT_CONCEPT_CULTURE_EVENT</zType>
 		<Translation>Kultur Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_CULTURE_LEVEL</zType>
+		<Translation>Kultur Stufe</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_HURRY</zType>
+		<Translation>Beschleunige Produktion~Beschleunige Produktion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_DESIRED_AMBITION</zType>
@@ -111,6 +123,10 @@
 	<Entry>
 		<zType>TEXT_CONCEPT_FAMILY</zType>
 		<Translation>Familie~eine Familie~Familien</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_FAMILY_CLASS</zType>
+		<Translation>Familien Gattung~eine Familien Gattung~Familien Gattungen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_GENERAL</zType>
@@ -661,8 +677,8 @@
 		<Translation>Erlasse link(LAW_ELITES)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_ISOLATIONISM</zType>
-		<Translation>Erlasse link(LAW_ISOLATIONISM)</Translation>
+		<zType>TEXT_GOAL_AUTARKY</zType>
+		<Translation>Erlasse link(LAW_AUTARKY)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_TRADE_LEAGUE</zType>
@@ -1101,8 +1117,8 @@
 		<Translation>Kontrolliere drei sagenumwobene Städte</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_FIVE_LEGENDARY</zType>
-		<Translation>Kontrolliere fünf sagenumwobene Städte</Translation>
+		<zType>TEXT_GOAL_SIX_LEGENDARY</zType>
+		<Translation>Kontrolliere sechs sagenumwobene Städte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_TWO_WONDERS</zType>
@@ -1717,10 +1733,6 @@
 		<Translation>Befestigungsmauern</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TECH_RAMPARTS_BONUS_ARCHER</zType>
-		<Translation>Freier Bogenschütze</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_TECH_FORESTRY</zType>
 		<Translation>Forstwirtschaft</Translation>
 	</Entry>
@@ -1917,16 +1929,20 @@
 		<Translation>Zahnrad</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TECH_POLITICAL_REFORM</zType>
-		<Translation>Politikreformen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TECH_MILITARY_REFORM</zType>
-		<Translation>Militärreformen</Translation>
+		<zType>TEXT_TECH_BALLISTICS</zType>
+		<Translation>Ballistics</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_ECONOMIC_REFORM</zType>
 		<Translation>Wirtschaftsreformen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_MILITARY_PRESTIGE</zType>
+		<Translation>Military Prestige</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_INDUSTRIAL_PROGRESS</zType>
+		<Translation>Industrial Progress</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_BATTERING_RAM_BONUS</zType>

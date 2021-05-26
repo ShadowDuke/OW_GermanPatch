@@ -162,7 +162,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_ANIMATION_LOD_DESC</zType>
-		<Translation>Disable unit/resource idle animations when the camera is zoomed out</Translation>
+		<Translation>Reduce the level of detail of animated objects when the camera is zoomed out</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISCOPTION_SINGLE_OBJECTS_NAME</zType>
+		<Translation>Show single objects</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISCOPTION_SINGLE_OBJECTS_DESC</zType>
+		<Translation>Display single units and resource instead of groups</Translation>
 	</Entry>
 	<Entry>
         <zType>TEXT_MISCOPTION_MUSIC_VOLUME_NAME</zType>

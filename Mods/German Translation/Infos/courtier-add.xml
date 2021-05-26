@@ -3,10 +3,10 @@
 <Root>
 	<Entry>
 		<zType>COURTIER_GREAT_SKYEXPLORER</zType>
-		<zName>Großer Himmelsgucker</zName>
+		<Name>TEXT_COURTIER_GREAT_SKYEXPLORER</Name>
 	</Entry>
 	<Entry>
 		<zType>COURTIER_GREAT_FAME</zType>
-		<zName>Große Berühmte Person</zName>
+		<Name>TEXT_COURTIER_GREAT_FAME</Name>
 	</Entry>
 </Root>

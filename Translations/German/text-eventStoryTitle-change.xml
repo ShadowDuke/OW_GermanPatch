@@ -174,10 +174,6 @@
 		<Translation><![CDATA[Gute Nachrichten]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_TUTORIAL_BIREME_SELECTED_TITLE</zType>
-		<Translation>Tutorial: link(UNIT_BIREME) Ausgewählt</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_SPEARMAN_SELECTED_TITLE</zType>
 		<Translation>Tutorial: link(UNIT_SPEARMAN Ausgewählt</Translation>
 	</Entry>
@@ -972,10 +968,6 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SEEKING_KNOWLEDGE_TITLE</zType>
 		<Translation>CDATA[Seeking Knowledge</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_WALLS_TITLE</zType>
-		<Translation>Mauern</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_AN_UPGRADE_TITLE</zType>
@@ -2352,10 +2344,6 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_FAMILY_LAW_TITLE</zType>
 		<Translation>Ändere Gesetz</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_ESTABLISH_THEOLOGY_TITLE</zType>
-		<Translation>Establish Theology</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HOMELESS_CHILDREN_TITLE</zType>
@@ -4042,10 +4030,6 @@
 		<Translation>A Matter of Incest</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_PLOTTING_COURTIERS_TITLE</zType>
-		<Translation>Plotting Courtiers</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTSTORY_BEE_OF_BUMBLE_TITLE</zType>
 		<Translation>Bee of Bumble</Translation>
 	</Entry>
@@ -4376,34 +4360,6 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DIVORCE_RECOGNITION_OF_LOVER_TITLE</zType>
 		<Translation>Recognition of Lover</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_STUDY_ASSIGNMENT_FRIENDLY_TITLE</zType>
-		<Translation>An Assignment</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_STUDY_ASSIGNMENT_PLEASED_TITLE</zType>
-		<Translation>An Assignment</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_STUDY_ASSIGNMENT_CAUTIOUS_TITLE</zType>
-		<Translation>An Assignment</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_STUDY_ASSIGNMENT_UPSET_TITLE</zType>
-		<Translation>An Assignment</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_STUDY_ASSIGNMENT_ANGRY_TITLE</zType>
-		<Translation>An Assignment</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_STUDY_ASSIGNMENT_FURIOUS_TITLE</zType>
-		<Translation>An Assignment</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_EVENTSTORY_LEADER_LOVED_TITLE</zType>
-		<Translation>Poem</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_LOVED_LOVE_POEM_TITLE</zType>
@@ -5206,10 +5162,6 @@
 		<Translation>link(LAW_GUILDS) or link(LAW_ELITES)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_ISOLATIONISM_TRADE_LEAGUE_TITLE</zType>
-		<Translation>link(LAW_ISOLATIONISM) or link(LAW_TRADE_LEAGUE)</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTSTORY_COIN_DEBASEMENT_MONETARY_REFORM_TITLE</zType>
 		<Translation>Fiscal Policy</Translation>
 	</Entry>
@@ -5366,16 +5318,8 @@
 		<Translation>Entlaufender Sklave</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_PRIESTLY_DWELLING_TITLE</zType>
-		<Translation><![CDATA[Heilie Behausung]]></Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTSTORY_VETERAN_COLONIES_TITLE</zType>
 		<Translation>Alte Siedlungen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_TRAINING_NEWS_TITLE</zType>
-		<Translation><![CDATA[Trainings-Neuigkeiten]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MERCENARY_AXEMAN_TITLE</zType>
@@ -6820,10 +6764,6 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_MARRIAGE_TITLE</zType>
 		<Translation>Tutorial: Marriage</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_TUTORIAL_PROMOTION_TITLE</zType>
-		<Translation>Take the Field</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_AXEMAN_SELECTED_TITLE</zType>

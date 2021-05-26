@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Leyla Johnson (Private) -->
+<!-- edited with XMLSpy v2014 rel. 2 (x64) (http://www.altova.com) by Soren Johnson (private) -->
 <Root>
 	<Entry>
 		<zType/>
@@ -33,7 +33,7 @@
 	<Entry>
 		<zType>MEMORYPLAYER_CHOSE_AMBITION</zType>
 		<zText>Wähle eine Ambition</zText>
-		<iTurns>5</iTurns>
+		<iTurns>20</iTurns>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_TRUCE</zType>
@@ -80,7 +80,7 @@
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_POACHED_CITY</zType>
-		<zText>Hat eine Stadt erobert die wir angreifen</zText>
+		<zText>Hat eine Stadt erobert die wir angegriffen haben</zText>
 		<iValue>-80</iValue>
 		<iTurns>40</iTurns>
 	</Entry>
@@ -91,9 +91,15 @@
 		<iTurns>20</iTurns>
 	</Entry>
 	<Entry>
+		<zType>MEMORYPLAYER_CARAVAN_ARRIVED</zType>
+		<zText>Caravan Arrived</zText>
+		<iValue>40</iValue>
+		<iTurns>20</iTurns>
+	</Entry>
+	<Entry>
 		<zType>MEMORYPLAYER_GIFTED_CITY</zType>
 		<zText>Stadt geschenkt</zText>
-		<iValue>20</iValue>
+		<iValue>40</iValue>
 		<iTurns>40</iTurns>
 		<bName>1</bName>
 	</Entry>
@@ -112,12 +118,6 @@
 		<bName>1</bName>
 	</Entry>
 	<Entry>
-		<zType>MEMORYPLAYER_GAVE_FAVOR</zType>
-		<zText>Gunst erhalten</zText>
-		<iValue>20</iValue>
-		<bName>1</bName>
-	</Entry>
-	<Entry>
 		<zType>MEMORYPLAYER_HOLD_HOSTAGE</zType>
 		<zText>Hielt einen Adligen gefangen</zText>
 		<iValue>-40</iValue>
@@ -128,12 +128,6 @@
 		<zText>Killed a noble hostage</zText>
 		<iValue>-80</iValue>
 		<iTurns>40</iTurns>
-	</Entry>
-	<Entry>
-		<zType>MEMORYPLAYER_NOBLE_DEFECT</zType>
-		<zText>Convinced a noble to defect</zText>
-		<iValue>-40</iValue>
-		<iTurns>20</iTurns>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_BROKE_PEACE</zType>
@@ -154,6 +148,18 @@
 		<iTurns>20</iTurns>
 	</Entry>
 	<Entry>
+		<zType>MEMORYPLAYER_SECOND_CLASS_CITIZENS_NEG</zType>
+		<zText>Refused Help Citizens</zText>
+		<iValue>-40</iValue>
+		<iTurns>20</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_SECOND_CLASS_CITIZENS_POS</zType>
+		<zText>Helped Citizens</zText>
+		<iValue>40</iValue>
+		<iTurns>20</iTurns>
+	</Entry>
+	<Entry>
 		<zType>MEMORYPLAYER_DIVORCE</zType>
 		<zText>Ehescheidung</zText>
 		<iValue>-100</iValue>
@@ -170,6 +176,32 @@
 		<zText>Neues Handelsabkommen</zText>
 		<iValue>40</iValue>
 		<iTurns>20</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_DEMANDED_TRIBUTE</zType>
+		<zText>Demanded Tribute</zText>
+		<iValue>-40</iValue>
+		<iTurns>20</iTurns>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_NOBLE_DEFECT</zType>
+		<zText>Convinced a noble to defect</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_FEAST_EXILED_PEOPLE</zType>
+		<zText>Exiled People</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_FEAST_ACCEPTED_CITY</zType>
+		<zText>Accepted inter-cultural feast</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_FEAST_REJECTED_CITY</zType>
+		<zText>Rejected inter-cultural feast</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_SLANDER</zType>
@@ -215,6 +247,7 @@
 		<zType>MEMORYPLAYER_NEIGHBORS_ROME_PRIDE</zType>
 		<zText>Du hast uns versetzt!</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+		<bName>1</bName>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_NEIGHBORS_HUMBLE</zType>
@@ -291,6 +324,11 @@
 		<zText>Accused of plotting</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_ENDED_FRIENDSHIP</zType>
+		<zText>You choose another empire over us.</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
 	<Entry beginGroup="Character">
 		<zType>MEMORYPLAYER_HONORED_RULER</zType>
 		<zText>Honored dead ruler</zText>
@@ -349,6 +387,11 @@
 	<Entry>
 		<zType>MEMORYPLAYER_PAID_TRIBUTE</zType>
 		<zText>You paid us Tribute</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_KEPT_FRIENDSHIP</zType>
+		<zText>You choose us over another empire.</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
@@ -519,7 +562,7 @@
 	<Entry>
 		<zType>MEMORYPLAYER_FOREIGN_INTRUSION</zType>
 		<zText>Endured foreign intrusion</zText>
-		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
+		<MemoryLevel>MEMORYLEVEL_NEG_MEDIUM_NORMAL</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_WARNED_AGAINST_MEDDLING</zType>
@@ -641,11 +684,31 @@
 		<zText>Geschenk (Olivenöl) erhalten</zText>
 		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
 	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_RETURNED_LOOT</zType>
+		<zText>Returned loot from a tribal raid</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_SHORT</MemoryLevel>
+	</Entry>
 	<Entry beginGroup="Combat">
 		<zType>MEMORYPLAYER_EXECUTED_GOVERNORS</zType>
 		<zText>Hat die Führung unserer eingenommenen Stadt hingerichtet</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_LOW_SHORT</MemoryLevel>
 	</Entry> 
+	<Entry>
+		<zType>MEMORYPLAYER_HONORED_GENERAL</zType>
+		<zText>Honored slain general</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_SPARED_GENERAL</zType>
+		<zText>Spared our general</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_LOW_NORMAL</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_KILLED_GENERAL</zType>
+		<zText>Killed our general</zText>
+		<MemoryLevel>MEMORYLEVEL_NEG_LOW_NORMAL</MemoryLevel>
+	</Entry>
 	<Entry beginGroup="Community">
 		<zType>MEMORYPLAYER_TROOPS_RANSACK</zType>
 		<zText>Plünderte unsere Stadt</zText>
@@ -725,6 +788,11 @@
 		<zType>MEMORYPLAYER_JUDGED_PRISONERS</zType>
 		<zText>Captured our people for their crimes</zText>
 		<MemoryLevel>MEMORYLEVEL_NEG_HIGH_SHORT</MemoryLevel>
+	</Entry>
+	<Entry>
+		<zType>MEMORYPLAYER_HAD_MERCY</zType>
+		<zText>Gave us mercy</zText>
+		<MemoryLevel>MEMORYLEVEL_POS_MEDIUM_SHORT</MemoryLevel>
 	</Entry>
 	<Entry>
 		<zType>MEMORYPLAYER_REJECTED_DESTINY_CHILD</zType>
