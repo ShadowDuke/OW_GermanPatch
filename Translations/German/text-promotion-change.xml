@@ -1,0 +1,176 @@
+<!-- German Translation (© Revan ©) -->
+
+<Root>
+	<Entry>
+		<zType/>
+		<Translation/>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_COMBAT1</zType>
+		<Translation>Kampf I</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_COMBAT2</zType>
+		<Translation>Kampf II</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_COMBAT3</zType>
+		<Translation>Kampf III</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_STRIKE1</zType>
+		<Translation>Angriff I</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_STRIKE2</zType>
+		<Translation>Angriff II</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_STRIKE3</zType>
+		<Translation>Angriff III</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_GUARD1</zType>
+		<Translation>Wache I</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_GUARD2</zType>
+		<Translation>Wache II</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_GUARD3</zType>
+		<Translation>Wache III</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_FOCUS1</zType>
+		<Translation>Fokussieren I</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_FOCUS2</zType>
+		<Translation>Fokussieren II</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_FOCUS3</zType>
+		<Translation>Fokussieren III</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_TRACKER</zType>
+		<Translation>Fährtenleser</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_SWIFT</zType>
+		<Translation>Flink</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_EAGLE_EYE</zType>
+		<Translation>Adlerauge</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_MARKSMAN</zType>
+		<Translation>Schafschütze</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_AMPHIBIOUS</zType>
+		<Translation>Amphibisch</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_BESIEGER</zType>
+		<Translation>Belagerer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_GARRISON</zType>
+		<Translation>Besatzung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_TOUGH</zType>
+		<Translation>Taff</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_BLOODTHIRSTY</zType>
+		<Translation>Blutdürstig</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_HECKLER</zType>
+		<Translation>Störer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_STEADFAST</zType>
+		<Translation>Treu</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_HERBALIST</zType>
+		<Translation>Pflanzenkenner</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_HEALER</zType>
+		<Translation>Heiler</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_HIGHLANDER</zType>
+		<Translation>Bergbewohner</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_RANGER</zType>
+		<Translation>Ranger</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_BRAVE</zType>
+		<Translation>Tapfer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_SHIELDBEARER</zType>
+		<Translation>Schildträger</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_FIERCE</zType>
+		<Translation>Unerschütterlich</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_HORSEBANE</zType>
+		<Translation>Unheilig</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_ENGINEER</zType>
+		<Translation>Techniker</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_SHRAPNEL</zType>
+		<Translation>Schrapnell</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_COCKSWAIN</zType>
+		<Translation>Wendig</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_GRAPPLER</zType>
+		<Translation>Ringer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_SEABORN</zType>
+		<Translation>Auf See geboren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_OVERWHELM</zType>
+		<Translation>Überfordert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_FIRESHIP</zType>
+		<Translation>Brander</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_LADING</zType>
+		<Translation>Beladend</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_INGENUITY</zType>
+		<Translation>Raffinesse</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_SADDLEBORN</zType>
+		<Translation>Sattelhorn</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROMOTION_SNIPING</zType>
+		<Translation>Aus dem Hinterhalt</Translation>
+	</Entry>
+</Root>

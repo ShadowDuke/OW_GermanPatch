@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSpy v2018 sp1 (x64) (http://www.altova.com) by Joel Bowers (Mohawk Games) -->
+<!-- German Translation (© Revan ©) -->
+
 <Root>
 	<Entry>
 		<zType/>
@@ -133,6 +133,10 @@
 	<Entry>
 		<zType>TEXT_SUBJECTRELATION_MIN_CONFLICT_TURNS</zType>
 		<Translation>Shorter than int(MIN_TREATY_TURNS) Turns since last link(DIPLOMACY_WAR)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECTRELATION_RELIGION_PLAYER</zType>
+		<Translation>Stadt mit dieser Religion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COUNCIL_AMBASSADOR</zType>
@@ -415,10 +419,6 @@
 		<Translation>der Wiederaufbauer</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_COGNOMEN_BUILDER</zType>
-		<Translation>der Erbauer</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_COGNOMEN_MASON</zType>
 		<Translation>der Steinmetz</Translation>
 	</Entry>
@@ -429,6 +429,10 @@
 	<Entry>
 		<zType>TEXT_COGNOMEN_KEYSTONE</zType>
 		<Translation>der Grundpfeiler</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_FOUNTAINHEAD</zType>
+		<Translation>der Ursprung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_DEVOUT</zType>
@@ -573,1078 +577,6 @@
 	<Entry>
 		<zType>TEXT_COLORCLASS_HEALTH</zType>
 		<Translation>Gesundheit</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_UNDEFINED</zType>
-		<Translation />
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_SELECTION</zType>
-		<Translation>Selection</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_SELECTION_FADED</zType>
-		<Translation>Faded</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_SELECTION_SPECIAL</zType>
-		<Translation>Special</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TILE_HIGHLIGHT</zType>
-		<Translation>Tile Highlight</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_WHITE</zType>
-		<Translation>White</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_POSITIVE</zType>
-		<Translation>Positive</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_AVERAGE</zType>
-		<Translation>Average</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NEGATIVE</zType>
-		<Translation>Negative</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_MOVEMENT_BOUNDARY_1</zType>
-		<Translation>Boundary 1</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_MOVEMENT_BOUNDARY_2</zType>
-		<Translation>Boundary 2</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_MOVEMENT_BOUNDARY_3</zType>
-		<Translation>Boundary 3</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_MOVEMENT_BOUNDARY_4</zType>
-		<Translation>Boundary 4</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_MOVEMENT_BOUNDARY_5</zType>
-		<Translation>Boundary 5</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_MOVEMENT_BOUNDARY_NEGATIVE</zType>
-		<Translation>Boundary Unable</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_MOVEMENT_BOUNDARY_FATIGUE</zType>
-		<Translation>Boundary Fatigue</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_MOVEMENT_REGION_1</zType>
-		<Translation>Region 1</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_MOVEMENT_REGION_2</zType>
-		<Translation>Region 2</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_MOVEMENT_REGION_3</zType>
-		<Translation>Region 3</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_MOVEMENT_REGION_4</zType>
-		<Translation>Region 4</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_MOVEMENT_REGION_5</zType>
-		<Translation>Region 5</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_MOVEMENT_REGION_NEGATIVE</zType>
-		<Translation>Region Unable</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_MOVEMENT_REGION_FATIGUE</zType>
-		<Translation>Region Fatigue</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_MULTIPLIER_FOUND_BORDER_PREVIEW</zType>
-		<Translation>Found Border</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_LINK</zType>
-		<Translation>Link</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_LINK_HIGHLIGHTED</zType>
-		<Translation>Link Highlighted</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_SECONDARY_TEXT</zType>
-		<Translation>Secondary Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_SLEEP</zType>
-		<Translation>Sleep</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_COOLDOWN</zType>
-		<Translation>Cooldown</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_HEIGHT_HILL</zType>
-		<Translation>Hill</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_OPINION_FURIOUS</zType>
-		<Translation>Furious</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_OPINION_ANGRY</zType>
-		<Translation>Angry</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_OPINION_UPSET</zType>
-		<Translation>Upset</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_OPINION_CAUTIOUS</zType>
-		<Translation>Cautious</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_OPINION_PLEASED</zType>
-		<Translation>Pleased</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_OPINION_FRIENDLY</zType>
-		<Translation>Friendly</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_BANNER_COOLDOWN</zType>
-		<Translation>Banner Cooldown</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_CAN_ATTACK</zType>
-		<Translation>Can Attack</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NEXT_TILE</zType>
-		<Translation>Next Tile</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_HEALTH_MAX</zType>
-		<Translation>Max Health</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_HEALTH_HIGH</zType>
-		<Translation>High Health</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_HEALTH_LOW</zType>
-		<Translation>Low Health</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_HEALTH_NONE</zType>
-		<Translation>No Health</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_DAMAGE</zType>
-		<Translation>Damage</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_UNIT_MOVE</zType>
-		<Translation>Move</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_UNIT_FATIGUE_MOVE</zType>
-		<Translation>Fatigue Move</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_FORTIFY</zType>
-		<Translation>Fortify</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TESTUDO</zType>
-		<Translation>Testudo</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_FORTIFY_NONE</zType>
-		<Translation>No Fortify</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_DANGER</zType>
-		<Translation>Danger</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_CAPITAL_CONNECTION</zType>
-		<Translation>Capital Connection</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_VALID_CAPITAL_CONNECTION</zType>
-		<Translation>Valid Capital Connection</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_CITY_CONNECTION</zType>
-		<Translation>City Connection</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_VALID_CITY_CONNECTION</zType>
-		<Translation>Valid City Connection</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NEUTRAL_ZOC</zType>
-		<Translation>Neutral Zone of Control</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_HOSTILE_ZOC</zType>
-		<Translation>Hostile Zone of Control</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_ATTACK_OVERLAY</zType>
-		<Translation>Attack</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_WATER_CONTROL_ENEMY</zType>
-		<Translation>Water Control</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_IDLE</zType>
-		<Translation>Idle</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_IDLE_MELEE</zType>
-		<Translation>Idle Melee</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_IDLE_RANGED</zType>
-		<Translation>Idle Ranged</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_RESOURCE</zType>
-		<Translation>Resource</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ASSYRIA</zType>
-		<Translation>Assyria</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ASSYRIA_TEXT</zType>
-		<Translation>Assyria Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ASSYRIA_FAMILY_01</zType>
-		<Translation>Assyria Family 1</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ASSYRIA_FAMILY_01_TEXT</zType>
-		<Translation>Assyria Family 1 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ASSYRIA_FAMILY_02</zType>
-		<Translation>Assyria Family 2</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ASSYRIA_FAMILY_02_TEXT</zType>
-		<Translation>Assyria Family 2 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ASSYRIA_FAMILY_03</zType>
-		<Translation>Assyria Family 3</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ASSYRIA_FAMILY_03_TEXT</zType>
-		<Translation>Assyria Family 3 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ASSYRIA_FAMILY_04</zType>
-		<Translation>Assyria Family 4</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ASSYRIA_FAMILY_04_TEXT</zType>
-		<Translation>Assyria Family 4 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ASSYRIA_FAMILY_NONE</zType>
-		<Translation>Assyria Family None</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ASSYRIA_FAMILY_NONE_TEXT</zType>
-		<Translation>Assyria Family None Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_BABYLONIA</zType>
-		<Translation>Babylon</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_BABYLONIA_TEXT</zType>
-		<Translation>Babylon Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_BABYLONIA_FAMILY_01</zType>
-		<Translation>Babylon Family 1</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_BABYLONIA_FAMILY_01_TEXT</zType>
-		<Translation>Babylon Family 1 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_BABYLONIA_FAMILY_02</zType>
-		<Translation>Babylon Family 2</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_BABYLONIA_FAMILY_02_TEXT</zType>
-		<Translation>Babylon Family 2 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_BABYLONIA_FAMILY_03</zType>
-		<Translation>Babylon Family 3</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_BABYLONIA_FAMILY_03_TEXT</zType>
-		<Translation>Babylon Family 3 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_BABYLONIA_FAMILY_04</zType>
-		<Translation>Babylon Family 4</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_BABYLONIA_FAMILY_04_TEXT</zType>
-		<Translation>Babylon Family 4 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_BABYLONIA_FAMILY_NONE</zType>
-		<Translation>Babylon Family None</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_BABYLONIA_FAMILY_NONE_TEXT</zType>
-		<Translation>Babylon Family None Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_CARTHAGE</zType>
-		<Translation>Carthage</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_CARTHAGE_TEXT</zType>
-		<Translation>Carthage Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_CARTHAGE_FAMILY_01</zType>
-		<Translation>Carthage Family 1</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_CARTHAGE_FAMILY_01_TEXT</zType>
-		<Translation>Carthage Family 1 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_CARTHAGE_FAMILY_02</zType>
-		<Translation>Carthage Family 2</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_CARTHAGE_FAMILY_02_TEXT</zType>
-		<Translation>Carthage Family 2 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_CARTHAGE_FAMILY_03</zType>
-		<Translation>Carthage Family 3</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_CARTHAGE_FAMILY_03_TEXT</zType>
-		<Translation>Carthage Family 3 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_CARTHAGE_FAMILY_04</zType>
-		<Translation>Carthage Family 4</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_CARTHAGE_FAMILY_04_TEXT</zType>
-		<Translation>Carthage Family 4 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_CARTHAGE_FAMILY_NONE</zType>
-		<Translation>Carthage Family None</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_CARTHAGE_FAMILY_NONE_TEXT</zType>
-		<Translation>Carthage Family None Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_EGYPT</zType>
-		<Translation>Egypt</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_EGYPT_TEXT</zType>
-		<Translation>Egypt Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_EGYPT_FAMILY_01</zType>
-		<Translation>Egypt Family 1</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_EGYPT_FAMILY_01_TEXT</zType>
-		<Translation>Egypt Family 1 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_EGYPT_FAMILY_02</zType>
-		<Translation>Egypt Family 2</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_EGYPT_FAMILY_02_TEXT</zType>
-		<Translation>Egypt Family 2 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_EGYPT_FAMILY_03</zType>
-		<Translation>Egypt Family 3</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_EGYPT_FAMILY_03_TEXT</zType>
-		<Translation>Egypt Family 3 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_EGYPT_FAMILY_04</zType>
-		<Translation>Egypt Family 4</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_EGYPT_FAMILY_04_TEXT</zType>
-		<Translation>Egypt Family 4 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_EGYPT_FAMILY_NONE</zType>
-		<Translation>Egypt Family None</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_EGYPT_FAMILY_NONE_TEXT</zType>
-		<Translation>Egypt Family None Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_GREECE</zType>
-		<Translation>Greece</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_GREECE_TEXT</zType>
-		<Translation>Greece Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_GREECE_FAMILY_01</zType>
-		<Translation>Greece Family 1</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_GREECE_FAMILY_01_TEXT</zType>
-		<Translation>Greece Family 1 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_GREECE_FAMILY_02</zType>
-		<Translation>Greece Family 2</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_GREECE_FAMILY_02_TEXT</zType>
-		<Translation>Greece Family 2 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_GREECE_FAMILY_03</zType>
-		<Translation>Greece Family 3</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_GREECE_FAMILY_03_TEXT</zType>
-		<Translation>Greece Family 3 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_GREECE_FAMILY_04</zType>
-		<Translation>Greece Family 4</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_GREECE_FAMILY_04_TEXT</zType>
-		<Translation>Greece Family 4 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_GREECE_FAMILY_NONE</zType>
-		<Translation>Greece Family None</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_GREECE_FAMILY_NONE_TEXT</zType>
-		<Translation>Greece Family None Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ROME</zType>
-		<Translation>Rome</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ROME_TEXT</zType>
-		<Translation>Rome Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ROME_FAMILY_01</zType>
-		<Translation>Rome Family 1</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ROME_FAMILY_01_TEXT</zType>
-		<Translation>Rome Family 1 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ROME_FAMILY_02</zType>
-		<Translation>Rome Family 2</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ROME_FAMILY_02_TEXT</zType>
-		<Translation>Rome Family 2 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ROME_FAMILY_03</zType>
-		<Translation>Rome Family 3</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ROME_FAMILY_03_TEXT</zType>
-		<Translation>Rome Family 3 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ROME_FAMILY_04</zType>
-		<Translation>Rome Family 4</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ROME_FAMILY_04_TEXT</zType>
-		<Translation>Rome Family 4 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ROME_FAMILY_NONE</zType>
-		<Translation>Rome Family None</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_ROME_FAMILY_NONE_TEXT</zType>
-		<Translation>Rome Family None Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_PERSIA</zType>
-		<Translation>Persia</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_PERSIA_TEXT</zType>
-		<Translation>Persia Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_PERSIA_FAMILY_01</zType>
-		<Translation>Persia Family 1</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_PERSIA_FAMILY_01_TEXT</zType>
-		<Translation>Persia Family 1 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_PERSIA_FAMILY_02</zType>
-		<Translation>Persia Family 2</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_PERSIA_FAMILY_02_TEXT</zType>
-		<Translation>Persia Family 2 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_PERSIA_FAMILY_03</zType>
-		<Translation>Persia Family 3</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_PERSIA_FAMILY_03_TEXT</zType>
-		<Translation>Persia Family 3 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_PERSIA_FAMILY_04</zType>
-		<Translation>Persia Family 4</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_PERSIA_FAMILY_04_TEXT</zType>
-		<Translation>Persia Family 4 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_PERSIA_FAMILY_NONE</zType>
-		<Translation>Persia Family None</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_NATION_PERSIA_FAMILY_NONE_TEXT</zType>
-		<Translation>Persia Family None Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_BARBARIANS</zType>
-		<Translation>Tribes</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_BARBARIANS_SECONDARY</zType>
-		<Translation>Tribes Secondary</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_BARBARIANS_TEXT</zType>
-		<Translation>Tribes Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_BARBARIAN_TRIBE_01</zType>
-		<Translation>Tribe 1</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_BARBARIAN_TRIBE_01_TEXT</zType>
-		<Translation>Tribe 1 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_BARBARIAN_TRIBE_02</zType>
-		<Translation>Tribe 2</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_BARBARIAN_TRIBE_02_TEXT</zType>
-		<Translation>Tribe 2 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_BARBARIAN_TRIBE_03</zType>
-		<Translation>Tribe 3</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_BARBARIAN_TRIBE_03_TEXT</zType>
-		<Translation>Tribe 3 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_BARBARIAN_TRIBE_04</zType>
-		<Translation>Tribe 4</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_BARBARIAN_TRIBE_04_TEXT</zType>
-		<Translation>Tribe 4 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_BARBARIAN_TRIBE_05</zType>
-		<Translation>Tribe 5</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_BARBARIAN_TRIBE_05_TEXT</zType>
-		<Translation>Tribe 5 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_BARBARIAN_TRIBE_06</zType>
-		<Translation>Tribe 6</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_BARBARIAN_TRIBE_06_TEXT</zType>
-		<Translation>Tribe 6 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_BARBARIAN_TRIBE_07</zType>
-		<Translation>Tribe 7</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_BARBARIAN_TRIBE_07_TEXT</zType>
-		<Translation>Tribe 7 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_01</zType>
-		<Translation>Team 1</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_01_TEXT</zType>
-		<Translation>Team 1 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_01_SECONDARY</zType>
-		<Translation>Team 1 Secondary</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_01_FIRST</zType>
-		<Translation>Team 1 First</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_01_FIRST_TEXT</zType>
-		<Translation>Team 1 First Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_01_OTHERS</zType>
-		<Translation>Team 1 Others</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_01_OTHERS_TEXT</zType>
-		<Translation>Team 1 Others Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_02</zType>
-		<Translation>Team 2</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_02_TEXT</zType>
-		<Translation>Team 2 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_02_SECONDARY</zType>
-		<Translation>Team 2 Secondary</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_02_PLAYER_01</zType>
-		<Translation>Team 2 Player 1</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_02_FIRST</zType>
-		<Translation>Team 2 First</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_02_FIRST_TEXT</zType>
-		<Translation>Team 2 First Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_02_OTHERS</zType>
-		<Translation>Team 2 Others</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_02_OTHERS_TEXT</zType>
-		<Translation>Team 2 Others Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_03</zType>
-		<Translation>Team 3</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_03_TEXT</zType>
-		<Translation>Team 3 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_03_SECONDARY</zType>
-		<Translation>Team 3 Secondary</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_03_FIRST</zType>
-		<Translation>Team 3 First</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_03_FIRST_TEXT</zType>
-		<Translation>Team 3 First Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_03_OTHERS</zType>
-		<Translation>Team 3 Others</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_03_OTHERS_TEXT</zType>
-		<Translation>Team 3 Others Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_04</zType>
-		<Translation>Team 4</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_04_TEXT</zType>
-		<Translation>Team 4 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_04_SECONDARY</zType>
-		<Translation>Team 4 Secondary</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_04_FIRST</zType>
-		<Translation>Team 4 First</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_04_FIRST_TEXT</zType>
-		<Translation>Team 4 First Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_04_OTHERS</zType>
-		<Translation>Team 4 Others</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_04_OTHERS_TEXT</zType>
-		<Translation>Team 4 Others Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_05</zType>
-		<Translation>Team 5</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_05_TEXT</zType>
-		<Translation>Team 5 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_05_SECONDARY</zType>
-		<Translation>Team 5 Secondary</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_05_FIRST</zType>
-		<Translation>Team 5 First</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_05_FIRST_TEXT</zType>
-		<Translation>Team 5 First Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_05_OTHERS</zType>
-		<Translation>Team 5 Others</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_05_OTHERS_TEXT</zType>
-		<Translation>Team 5 Others Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_06</zType>
-		<Translation>Team 6</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_06_SECONDARY</zType>
-		<Translation>Team 6 Secondary</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_06_TEXT</zType>
-		<Translation>Team 6 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_06_FIRST</zType>
-		<Translation>Team 6 First</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_06_FIRST_TEXT</zType>
-		<Translation>Team 6 First Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_06_OTHERS</zType>
-		<Translation>Team 6 Others</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_06_OTHERS_TEXT</zType>
-		<Translation>Team 6 Others Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_07</zType>
-		<Translation>Team 7</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_07_SECONDARY</zType>
-		<Translation>Team 7 Secondary</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_07_TEXT</zType>
-		<Translation>Team 7 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_07_FIRST</zType>
-		<Translation>Team 7 First</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_07_FIRST_TEXT</zType>
-		<Translation>Team 7 First Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_07_OTHERS</zType>
-		<Translation>Team 7 Others</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_07_OTHERS_TEXT</zType>
-		<Translation>Team 7 Others Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_08</zType>
-		<Translation>Team 8</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_08_SECONDARY</zType>
-		<Translation>Team 8 Secondary</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_08_TEXT</zType>
-		<Translation>Team 8 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_08_FIRST</zType>
-		<Translation>Team 8 First</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_08_FIRST_TEXT</zType>
-		<Translation>Team 8 First Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_08_OTHERS</zType>
-		<Translation>Team 8 Others</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_08_OTHERS_TEXT</zType>
-		<Translation>Team 8 Others Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_09</zType>
-		<Translation>Team 9</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_09_SECONDARY</zType>
-		<Translation>Team 9 Secondary</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_09_TEXT</zType>
-		<Translation>Team 9 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_09_FIRST</zType>
-		<Translation>Team 9 First</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_09_FIRST_TEXT</zType>
-		<Translation>Team 9 First Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_09_OTHERS</zType>
-		<Translation>Team 9 Others</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_09_OTHERS_TEXT</zType>
-		<Translation>Team 9 Others Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_10</zType>
-		<Translation>Team 10</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_10_SECONDARY</zType>
-		<Translation>Team 10 Secondary</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_10_TEXT</zType>
-		<Translation>Team 10 Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_10_FIRST</zType>
-		<Translation>Team 10 First</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_10_FIRST_TEXT</zType>
-		<Translation>Team 10 First Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_10_OTHERS</zType>
-		<Translation>Team 10 Others</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TEAM_10_OTHERS_TEXT</zType>
-		<Translation>Team 10 Others Text</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_YIELD_GROWTH</zType>
-		<Translation>Growth</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_YIELD_CIVICS</zType>
-		<Translation>Civics</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_YIELD_TRAINING</zType>
-		<Translation>Training</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_YIELD_CULTURE</zType>
-		<Translation>Culture</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_YIELD_DISCONTENT</zType>
-		<Translation>Discontent</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_YIELD_SCIENCE</zType>
-		<Translation>Science</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_YIELD_MONEY</zType>
-		<Translation>Money</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_YIELD_MAINTENANCE</zType>
-		<Translation>Maintenance</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_YIELD_ORDERS</zType>
-		<Translation>Orders</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_YIELD_FOOD</zType>
-		<Translation>Food</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_YIELD_IRON</zType>
-		<Translation>Iron</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_YIELD_WOOD</zType>
-		<Translation>Wood</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_YIELD_STONE</zType>
-		<Translation>Stone</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_LAW_NORMAL</zType>
-		<Translation>Normal</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_LAW_ACTIVE</zType>
-		<Translation>Active</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_LAW_PREVIEW</zType>
-		<Translation>Preview</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_LAW_HIGHLIGHT</zType>
-		<Translation>Highlight</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_LAW_BEST</zType>
-		<Translation>Best</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TECH_RESEARCHING</zType>
-		<Translation>Researching</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TECH_RESEARCHED</zType>
-		<Translation>Researched</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TECH_AVAILABLE</zType>
-		<Translation>Available</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TECH_LOCKED</zType>
-		<Translation>Locked</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_TECH_TARGETED</zType>
-		<Translation>Targeted</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_RATING_WISDOM</zType>
-		<Translation>Wisdom</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_RATING_CHARISMA</zType>
-		<Translation>Charisma</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_RATING_COURAGE</zType>
-		<Translation>Courage</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_RATING_DISCIPLINE</zType>
-		<Translation>Discipline</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_DIPLOMACY_TEAM</zType>
-		<Translation>Team</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_DIPLOMACY_PEACE</zType>
-		<Translation>Frieden</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_DIPLOMACY_TRUCE</zType>
-		<Translation>Waffenruhe</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_DIPLOMACY_WAR</zType>
-		<Translation>Krieg</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_DIPLOMACY_INACTIVE</zType>
-		<Translation>Inactive</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_SETTLER_MAIN</zType>
-		<Translation>Settler Main</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COLOR_SETTLER_FLAG_TRIM</zType>
-		<Translation>Settler Flag and Trim</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COOLDOWN_AUTOMATED</zType>
@@ -1951,12 +883,12 @@
 		<Translation>Charaktere und Familien werden aus dem Spiel entfernt.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAMEOPTION_NO_TRIBES</zType>
-		<Translation>Keine Stämme</Translation>
+		<zType>TEXT_GAMEOPTION_BARBARIANS_ONLY</zType>
+		<Translation>Nur Barbaren</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAMEOPTION_NO_TRIBES_HELP</zType>
-		<Translation>Stämme wurden durch link(TRIBE_BARBARIANS) ersetzt.</Translation>
+		<zType>TEXT_GAMEOPTION_BARBARIANS_ONLY_HELP</zType>
+		<Translation>Alle Stämme sind link(TRIBE_BARBARIANS).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAMEOPTION_NO_FOG_OF_WAR</zType>
@@ -2156,7 +1088,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_SHOW_TILE_YIELDS</zType>
-		<Translation>Zeige Kachel Gewinne</Translation>
+		<Translation>Zeige Kachel Erträge</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_SHOW_TILE_SPECIALISTS</zType>
+		<Translation>Zeige Kachel Spezialisten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_TOGGLE_HEX_GRID</zType>
@@ -2169,6 +1105,10 @@
 	<Entry>
 		<zType>TEXT_HOTKEY_ROAD_TO</zType>
 		<Translation>Schalte Stadtverbindugen um</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_REMOVE_VEGETATION</zType>
+		<Translation>Chop Vegetation</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_SPEND_TRAINING_FOR_ORDERS</zType>
@@ -2571,149 +1511,776 @@
 		<Translation>Debug</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_PRIMOGENITURE</zType>
+		<zType>TEXT_MORTALITY_LONG</zType>
+		<Translation>Langlebig</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MORTALITY_LONG_HELP</zType>
+		<Translation>Charaktere leben längere Leben</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MORTALITY_STANDARD</zType>
+		<Translation>Standard</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MORTALITY_STANDARD_HELP</zType>
+		<Translation>Charaktere sterben oftmals nicht in jungem Alter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MORTALITY_REALISTIC</zType>
+		<Translation>Realistisch</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MORTALITY_REALISTIC_HELP</zType>
+		<Translation>Gemein, brutal und kurz</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_GENERIC</zType>
+		<Translation>Attention</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_GENERIC_LOG</zType>
+		<Translation>Look Here.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_ATTACK</zType>
+		<Translation>Attack</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_ATTACK_LOG</zType>
+		<Translation>Attack Here.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_RETREAT</zType>
+		<Translation>Retreat</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_RETREAT_LOG</zType>
+		<Translation>Retreat from here.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_USE</zType>
+		<Translation>Use</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_USE_LOG</zType>
+		<Translation>Use this.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_FOUND</zType>
+		<Translation>Found</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_FOUND_LOG</zType>
+		<Translation>I want to found here.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_NOTE</zType>
+		<Translation>Note</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_NOTE_LOG</zType>
+		<Translation>I dropped a note.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPPONENTLEVEL_PASSIVE</zType>
+		<Translation>Zurückhaltend</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPPONENTLEVEL_PEACEFUL</zType>
+		<Translation>Friedlich</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPPONENTLEVEL_NORMAL</zType>
+		<Translation>Normal</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPPONENTLEVEL_AGGRESSIVE</zType>
+		<Translation>Aggressiv</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPPONENTLEVEL_COMPETITIVE</zType>
+		<Translation>Wettbewerb</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_WISDOM</zType>
+		<Translation>Weisheit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_WISDOM_HELP</zType>
+		<Translation>Für Oberhäupter und Stadthalter erhöht Weisheit {YIELD_SCIENCE}.
+Für Feldherren erhöht Weisheit erhöht die kritische Chance der Einheit.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_CHARISMA</zType>
+		<Translation>Charisma</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_CHARISMA_HELP</zType>
+		<Translation>Für Oberhäupter und Stadthalter erhöht Charisma {YIELD_CIVICS}.
+Für Feldherren erhöht Charisma erhöht die Verteidigung der Einheiten.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_COURAGE</zType>
+		<Translation>Mut</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_COURAGE_HELP</zType>
+		<Translation>Für Oberhäupter und Stadthalter erhöht Mut {YIELD_TRAINING}.
+Für Feldherren erhöht Mut die Stärke der Einheiten.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_DISCIPLINE</zType>
+		<Translation>Disziplin</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_DISCIPLINE_HELP</zType>
+		<Translation>Für Oberhäupter und Stadthalter erhöht Disziplin {YIELD_MONEY}.
+Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_MARBLE</zType>
+		<Translation>Marmor</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_ORE</zType>
+		<Translation>Eisen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_SALT</zType>
+		<Translation>Salz</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_GEM</zType>
+		<Translation>Edelsteine</Translation>
+	</Entry>
+	
+	<Entry>
+		<zType>TEXT_RESOURCE_GOLD</zType>
+		<Translation>Gold</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_SILVER</zType>
+		<Translation>Silber</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_HORSE</zType>
+		<Translation>Pferde</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_CATTLE</zType>
+		<Translation>Vieh</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_SHEEP</zType>
+		<Translation>Schafe</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_PIG</zType>
+		<Translation>Schweine</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_GOAT</zType>
+		<Translation>Ziegen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_WHEAT</zType>
+		<Translation>Weizen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_BARLEY</zType>
+		<Translation>Gerste</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_SORGHUM</zType>
+		<Translation>Besenkorn</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_CAMEL</zType>
+		<Translation>Kamele</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_ELEPHANT</zType>
+		<Translation>Elefanten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_GAME</zType>
+		<Translation>Wild</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_FUR</zType>
+		<Translation>Felle</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_CITRUS</zType>
+		<Translation>Zitronen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_HONEY</zType>
+		<Translation>Honig</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_INCENSE</zType>
+		<Translation>Weihrauch</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_LAVENDER</zType>
+		<Translation>Lavendel</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_OLIVE</zType>
+		<Translation>Oliven</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_WINE</zType>
+		<Translation>Wein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_DYE</zType>
+		<Translation>Färbemittel</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_PEARL</zType>
+		<Translation>Perlen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_FISH</zType>
+		<Translation>Fisch</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_CRAB</zType>
+		<Translation>Krabben</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TEAMNATION_ALLOW_DUPLICATES</zType>
+		<Translation>Allow Duplicates</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TEAMNATION_ALLOW_DUPLICATES_HELP</zType>
+		<Translation>Multiple players can claim each nation</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TEAMNATION_GAME_UNIQUE</zType>
+		<Translation>Einzigartig</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TEAMNATION_GAME_UNIQUE_HELP</zType>
+		<Translation>Each available nation can be claimed by one player</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TEAMNATION_TEAM_UNIQUE</zType>
+		<Translation>Unique within each Team</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TEAMNATION_TEAM_UNIQUE_HELP</zType>
+		<Translation>Each nation can be claimed by one player per team</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TERRAIN_STAMP_VOLCANO_7</zType>
+		<Translation>Volcano 7</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WARSTATE_ROUTED</zType>
+		<Translation>Besiegt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WARSTATE_LOSING</zType>
+		<Translation>Verlierend</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WARSTATE_NEUTRAL</zType>
+		<Translation>Neutral</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WARSTATE_WINNING</zType>
+		<Translation>Gewinnend</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WARSTATE_TRIUMPHANT</zType>
+		<Translation>Siegreich</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONORDER_PRIMOGENITURE</zType>
 		<Translation>Erstgeburt</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_ULTIMOGENITURE</zType>
+		<zType>TEXT_SUCCESSIONORDER_PRIMOGENITURE_HELP</zType>
+		<Translation>Ältestes Kind erbt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONORDER_ULTIMOGENITURE</zType>
 		<Translation>Ultimogenitur</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_LATERAL</zType>
+		<zType>TEXT_SUCCESSIONORDER_ULTIMOGENITURE_HELP</zType>
+		<Translation>Jüngstes Kind erbt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONORDER_LATERAL</zType>
 		<Translation>Lateral</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_DYNASTIC</zType>
+		<zType>TEXT_SUCCESSIONORDER_LATERAL_HELP</zType>
+		<Translation>Ältester Angehöriger des Herrschers erbt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONORDER_DYNASTIC</zType>
 		<Translation>Dynastisch</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_SENIORITY</zType>
+		<zType>TEXT_SUCCESSIONORDER_DYNASTIC_HELP</zType>
+		<Translation>Geschwister erben vor Kindern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONORDER_SENIORITY</zType>
 		<Translation>Dienstalter</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_EPICS</zType>
-		<Translation>Anforderungen</Translation>
+		<zType>TEXT_SUCCESSIONORDER_SENIORITY_HELP</zType>
+		<Translation>Älteste unmittelbare Linie vom Gründer</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_EXPLORATION</zType>
-		<Translation>Erkundung</Translation>
+		<zType>TEXT_SUCCESSIONORDER_RANDOM</zType>
+		<Translation>Zufällig</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_SLAVERY</zType>
-		<Translation>Sklaverei</Translation>
+		<zType>TEXT_SUCCESSIONORDER_RANDOM_HELP</zType>
+		<Translation>Jeder Spieler verfolgt ein zufälliges, möglicherweise anderes, Nachfolge Gesetz</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_FREEDOM</zType>
-		<Translation>Freiheit</Translation>
+		<zType>TEXT_SUCCESSIONGENDER_AGNATIC</zType>
+		<Translation>Senioratsprinzip</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_CENTRALIZATION</zType>
-		<Translation>Zentralisierung</Translation>
+		<zType>TEXT_SUCCESSIONGENDER_AGNATIC_HELP</zType>
+		<Translation>Nur männliche Nachfahren können erben</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_VASSALAGE</zType>
-		<Translation>Vasallentum</Translation>
+		<zType>TEXT_SUCCESSIONGENDER_AGNATIC_COGNATIC</zType>
+		<Translation>Senioratsprinzip Verwandt</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_TYRANNY</zType>
-		<Translation>Tyrannei</Translation>
+		<zType>TEXT_SUCCESSIONGENDER_AGNATIC_COGNATIC_HELP</zType>
+		<Translation>Männer erben vor Frauen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_CONSTITUTION</zType>
-		<Translation>Verfassung</Translation>
+		<zType>TEXT_SUCCESSIONGENDER_ABSOLUTE_COGNATIC</zType>
+		<Translation>Uneingeschränkt Verwandt</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_COLONIZATION</zType>
-		<Translation>Kolonisierung</Translation>
+		<zType>TEXT_SUCCESSIONGENDER_ABSOLUTE_COGNATIC_HELP</zType>
+		<Translation>Geschlechter erben gleichermaßen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_SERFDOM</zType>
-		<Translation>Leibeigenschaft</Translation>
+		<zType>TEXT_SUCCESSIONGENDER_ENATIC_COGNATIC</zType>
+		<Translation>Mütterlich Verwandt</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_MONOTHEISM</zType>
-		<Translation>Monotheismus</Translation>
+		<zType>TEXT_SUCCESSIONGENDER_ENATIC_COGNATIC_HELP</zType>
+		<Translation>Frauen erben vor Männern</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_POLYTHEISM</zType>
-		<Translation>Polytheismus</Translation>
+		<zType>TEXT_SUCCESSIONGENDER_ENATIC</zType>
+		<Translation>Mütterlich</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_DIVINE_RULE</zType>
-		<Translation>Göttliche Herrschaft</Translation>
+		<zType>TEXT_SUCCESSIONGENDER_ENATIC_HELP</zType>
+		<Translation>Nur weibliche Nachfahren können erben</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_LEGAL_CODE</zType>
-		<Translation>Gesetzbuch</Translation>
+		<zType>TEXT_SUCCESSIONGENDER_RANDOM</zType>
+		<Translation>Zufällig</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_TOLERANCE</zType>
-		<Translation>Tolleranz</Translation>
+		<zType>TEXT_SUCCESSIONGENDER_RANDOM_HELP</zType>
+		<Translation>Jeder Spieler verfolgt ein zufälliges, möglicherweise anderes, Nachfolge Geschlecht</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_ORTHODOXY</zType>
-		<Translation>Rechtgläubigkeit</Translation>
+		<zType>TEXT_SUBJECTCLASS_PLAYER</zType>
+		<Translation>Spieler</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_PROFESSIONAL_ARMY</zType>
-		<Translation>Berufsarmee</Translation>
+		<zType>TEXT_SUBJECTCLASS_TRIBE</zType>
+		<Translation>Barbar</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_VOLUNTEERS</zType>
-		<Translation>Freiwillige</Translation>
+		<zType>TEXT_SUBJECTCLASS_RELIGION</zType>
+		<Translation>Religion</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_PHILOSOPHY</zType>
-		<Translation>Weltbild</Translation>
+		<zType>TEXT_SUBJECTCLASS_FAMILY</zType>
+		<Translation>Familie</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_ENGINEERING</zType>
-		<Translation>Konstruktionswesen</Translation>
+		<zType>TEXT_SUBJECTCLASS_TECH</zType>
+		<Translation>Technologie</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_ICONOGRAPHY</zType>
-		<Translation>Bilddeutung</Translation>
+		<zType>TEXT_SUBJECTCLASS_LAW</zType>
+		<Translation>Gesetz</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_CALLIGRAPHY</zType>
-		<Translation>Schönschrift</Translation>
+		<zType>TEXT_SUBJECTCLASS_THEOLOGY</zType>
+		<Translation>Religionswissenschaft</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_PILGRIMAGE</zType>
-		<Translation>Pilgerschaft</Translation>
+		<zType>TEXT_SUBJECTCLASS_RESOURCE</zType>
+		<Translation>Ressource</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_HOLY_WAR</zType>
-		<Translation>Heiliger Krieg</Translation>
+		<zType>TEXT_SUBJECTCLASS_CHARACTER</zType>
+		<Translation>Charakter</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_GUILDS</zType>
-		<Translation>Gilden</Translation>
+		<zType>TEXT_SUBJECTCLASS_CITY</zType>
+		<Translation>Stadt</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_ELITES</zType>
-		<Translation>Eliten</Translation>
+		<zType>TEXT_SUBJECTCLASS_UNIT</zType>
+		<Translation>Einheit</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_AUTARKY</zType>
-		<Translation>Autarkie</Translation>
+		<zType>TEXT_SUBJECTCLASS_TILE</zType>
+		<Translation>Feld</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_TRADE_LEAGUE</zType>
-		<Translation>Handelsverband</Translation>
+		<zType>TEXT_STRENGTH_MUCH_WEAKER</zType>
+		<Translation>Viel schwächer</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_COIN_DEBASEMENT</zType>
-		<Translation>Münz Wertminderung</Translation>
+		<zType>TEXT_STRENGTH_WEAKER</zType>
+		<Translation>Schwächer</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_LAW_MONETARY_REFORM</zType>
-		<Translation>Münzreform</Translation>
+		<zType>TEXT_STRENGTH_SIMILAR</zType>
+		<Translation>Ähnlich</Translation>
 	</Entry>
-<!--
 	<Entry>
-		<zType>TEXT_</zType>
+		<zType>TEXT_STRENGTH_STRONGER</zType>
+		<Translation>Stärker</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STRENGTH_MUCH_STRONGER</zType>
+		<Translation>Viel stärker</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAPCLASS_RANDOM</zType>
+		<Translation>Zufällig</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAPCLASS_RANDOM_HELP</zType>
+		<Translation>Zufälliges Map Script</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_BARBARIAN</zType>
+		<Translation>The Barbarian Horde</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_BARBARIAN_SUB</zType>
 		<Translation></Translation>
 	</Entry>
--->
+	<Entry>
+		<zType>TEXT_SCENARIO_CARTHAGE_1</zType>
+		<Translation>Rise of Carthage - Game One</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_CARTHAGE_1_SUB</zType>
+		<Translation>Ox Hide</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_CARTHAGE_2</zType>
+		<Translation>Rise of Carthage - Game Two</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_CARTHAGE_2_SUB</zType>
+		<Translation>Riches and Influence</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_CARTHAGE_3</zType>
+		<Translation>Rise of Carthage - Game Three</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_CARTHAGE_3_SUB</zType>
+		<Translation>Rise of Rome</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_CARTHAGE_4</zType>
+		<Translation>Rise of Carthage - Game Four</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_CARTHAGE_4_SUB</zType>
+		<Translation>Seizing Destiny</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNITCYCLE_FOUND</zType>
+		<Translation>Found</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNITCYCLE_WORKER</zType>
+		<Translation>Baumeister</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNITCYCLE_DISCIPLE</zType>
+		<Translation>Jünger</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNITCYCLE_SCOUT</zType>
+		<Translation>Späher</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNITCYCLE_CARAVAN</zType>
+		<Translation>Karawane</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNITCYCLE_MILITARY_WATER</zType>
+		<Translation>Wasser</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNITCYCLE_MILITARY_SIEGE</zType>
+		<Translation>Belagerung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNITCYCLE_MILITARY_RANGED</zType>
+		<Translation>Fernkampf</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNITCYCLE_MILITARY_MOUNTED</zType>
+		<Translation>Beritten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNITCYCLE_MILITARY_INFANTRY</zType>
+		<Translation>Infantrie</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNTIMER_NONE</zType>
+		<Translation>Keiner</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNTIMER_24_HOUR</zType>
+		<Translation>24 Stunden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNTIMER_12_HOUR</zType>
+		<Translation>12 Stunden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNTIMER_8_HOUR</zType>
+		<Translation>8 Stunden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNTIMER_4_HOUR</zType>
+		<Translation>4 Stunden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNTIMER_2_HOUR</zType>
+		<Translation>2 Stunden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNTIMER_1_HOUR</zType>
+		<Translation>1 Stunde</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNTIMER_SLOW</zType>
+		<Translation>Langsam</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNTIMER_MEDIUM</zType>
+		<Translation>Mittel</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNTIMER_FAST</zType>
+		<Translation>Schnell</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_SIMULTANEOUS</zType>
+		<Translation>Gleichzeitig</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_SIMULTANEOUS_HELP</zType>
+		<Translation>Gleichzeitige Züge</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_LOOSE</zType>
+		<Translation>Frei</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_LOOSE_HELP</zType>
+		<Translation>Keine Bewegungsbeschränkung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_NORMAL</zType>
+		<Translation>Normal</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_NORMAL_HELP</zType>
+		<Translation>Angriffe bei feindlichem Zug geben doppellte Abklingzeit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_TIGHT</zType>
+		<Translation>Straff</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_TIGHT_HELP</zType>
+		<Translation>Kann nur Zivile Einheiten während des Gegnerzuges bewegen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_TEAMS</zType>
+		<Translation>Teams</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_TEAMS_HELP</zType>
+		<Translation>Kann keine Einheiten während des Zuges eines Teammitglieds bewegen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_STRICT</zType>
+		<Translation>Strikt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_STRICT_HELP</zType>
+		<Translation>Kann keine Einheiten während des Gegnerzuges bewegen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRIBELEVEL_NONE</zType>
+		<Translation>Keins</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRIBELEVEL_PASSIVE</zType>
+		<Translation>Passiv</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRIBELEVEL_WEAK</zType>
+		<Translation>Schwach</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRIBELEVEL_NORMAL</zType>
+		<Translation>Normal</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRIBELEVEL_STRONG</zType>
+		<Translation>Stark</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRIBELEVEL_RAGING</zType>
+		<Translation>Tobend</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_YEAR_SINGULAR</zType>
+		<Translation>Jahr</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_YEAR_PLURAL</zType>
+		<Translation>Jahre</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_YEAR_SHORT</zType>
+		<Translation>j</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_SEMESTER_SINGULAR</zType>
+		<Translation>Semester</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_SEMESTER_PLURAL</zType>
+		<Translation>Semester</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_SEMESTER_SHORT</zType>
+		<Translation>s</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_SEASON_SINGULAR</zType>
+		<Translation>Jahreszeit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_SEASON_PLURAL</zType>
+		<Translation>Jahreszeiten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_SEASON_SHORT</zType>
+		<Translation>j</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_MONTH_SINGULAR</zType>
+		<Translation>Monat</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_MONTH_PLURAL</zType>
+		<Translation>Monate</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_MONTH_SHORT</zType>
+		<Translation>m</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EARLY</zType>
+		<Translation>Früh</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_LATE</zType>
+		<Translation>Spät</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPRING</zType>
+		<Translation>Frühling</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUMMER</zType>
+		<Translation>Sommer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_FALL</zType>
+		<Translation>Herbst</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WINTER</zType>
+		<Translation>Winter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_JANUARY</zType>
+		<Translation>Januar</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_FEBRUARY</zType>
+		<Translation>Februar</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MARCH</zType>
+		<Translation>März</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_APRIL</zType>
+		<Translation>April</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAY</zType>
+		<Translation>Mai</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_JUNE</zType>
+		<Translation>Juni</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_JULY</zType>
+		<Translation>Juli</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUGUST</zType>
+		<Translation>August</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SEPTEMBER</zType>
+		<Translation>September</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OCTOBER</zType>
+		<Translation>Oktober</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_NOVEMBER</zType>
+		<Translation>November</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DECEMBER</zType>
+		<Translation>Dezember</Translation>
+	</Entry>
 </Root>

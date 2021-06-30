@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Leyla Johnson (Private) -->
+<!-- German Translation (© Revan ©) -->
+
 <Root>
 	<!--Assets/GameAssets/Resources/Infos/improvement.xml-->
 	<!--NOTE: improvement names that are mass nouns or plural do not need multiple types in Translation-->
@@ -74,6 +74,10 @@
 	<Entry>
 		<zType>TEXT_PROJECT_MERCHANT_TOWN</zType>
 		<Translation>Kaufmanns-Stadt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_DEN_OF_VICE</zType>
+		<Translation>Lasterhöhle</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_OUTBREAK</zType>
@@ -217,7 +221,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_PAGAN_COLLEGES</zType>
-		<Translation>Pagan Colleges</Translation>
+		<Translation>Heidnische Kollegien</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_PAGAN_CULT_WAR</zType>
@@ -266,5 +270,21 @@
 	<Entry>
 		<zType>TEXT_PROJECT_FERTILE_SOIL</zType>
 		<Translation>Mineralreicher Boden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_IMPROVED_LUDUS</zType>
+		<Translation>Verbesserte Bildung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_ATHLETICS_ARCHERY</zType>
+		<Translation>Sportliche Tradition: Bogenschießen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_ATHLETICS_WRESTLING</zType>
+		<Translation>Sportliche Tradition: Ringen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_ATHLETICS_EQUESTRIAN</zType>
+		<Translation>Sportliche Tradition: Reiter</Translation>
 	</Entry>
 </Root>

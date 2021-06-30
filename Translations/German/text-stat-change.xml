@@ -1,0 +1,168 @@
+<!-- German Translation (© Revan ©) -->
+
+<Root>
+	<Entry>
+		<zType/>
+		<Translation/>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_AMBITION_ACHIEVED</zType>
+		<Translation>Ambition Achieved</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_LEGACY_ACHIEVED</zType>
+		<Translation>Legacy Achieved</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_TRIBE_CONTACTED</zType>
+		<Translation>Tribe Contacted</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_TRIBE_CLEARED</zType>
+		<Translation>Tribe Cleared</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_TRIBE_PEACE</zType>
+		<Translation>Tribal Peace</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_TRIBE_ALLIANCE</zType>
+		<Translation>Tribal Alliance</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_TRIBE_CONVERSION</zType>
+		<Translation>Tribal Conversion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_MERCENARIES_RECRUITED</zType>
+		<Translation>Mercenaries Recruited</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_MERCENARIES_HIRED</zType>
+		<Translation>Mercenaries Hired</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_TEAM_CONTACTED</zType>
+		<Translation>Nation Contacted</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_TEAM_PEACE</zType>
+		<Translation>National Peace</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_TEAM_ALLIANCE</zType>
+		<Translation>National Alliance</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_CARAVAN_ARRIVED</zType>
+		<Translation>Caravan Arrived</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_CAPITAL_CAPTURED</zType>
+		<Translation>Capitals Captured</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_CITY_FOUNDED</zType>
+		<Translation>Cities Founded</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_CITY_CAPTURED</zType>
+		<Translation>Cities Captured</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_CITY_RECAPTURED</zType>
+		<Translation>Cities Recaptured</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_CITY_LOST</zType>
+		<Translation>Cities Lost</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_COURTIER_ADDED</zType>
+		<Translation>Courtier Added</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_IMPROVEMENT_FINISHED</zType>
+		<Translation>Improvements Finished</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_IMPROVEMENT_REPAIRED</zType>
+		<Translation>Improvements Repaired</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_LANDMARK_DISCOVERED</zType>
+		<Translation>Landmarks Discovered</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_LANDMARK_NAMED</zType>
+		<Translation>Landmarks Named</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_LEADER_COUNT</zType>
+		<Translation>Leader Count</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_NATION_FOUNDED</zType>
+		<Translation>Nation Founded</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_WORLD_RELIGION_FOUNDED</zType>
+		<Translation>World Religion Founded</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_RELIGION_SPREAD</zType>
+		<Translation>Religion Spread</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_RUINS_EXPLORED</zType>
+		<Translation>Ruins Explored</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_SPECIALIST_PRODUCED</zType>
+		<Translation>Specialist Trained</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_TECH_DISCOVERED</zType>
+		<Translation>Techs Discovered</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_THEOLOGY_ESTABLISHED</zType>
+		<Translation>Theology Established</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_TILES_REVEALED</zType>
+		<Translation>Tiles Revealed</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_UNIT_TRAINED</zType>
+		<Translation>Units Trained</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_UNIT_PROMOTED</zType>
+		<Translation>Units Promoted</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_UNIT_MILITARY_KILLED</zType>
+		<Translation>Military Units Killed</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_UNIT_MILITARY_KILLED_GENERAL</zType>
+		<Translation>Military Units Killed (as General)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_UNIT_LOST</zType>
+		<Translation>Units Lost</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_VEGETATION_REMOVED</zType>
+		<Translation>Vegetation Removed</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_WONDER_FINISHED</zType>
+		<Translation>Wonder Finished</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_STAT_YEARS_REIGNED</zType>
+		<Translation>Years Reigned</Translation>
+	</Entry>
+</Root>

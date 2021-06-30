@@ -82,10 +82,6 @@
 		<Translation><![CDATA[Wir überlassen {PLAYER-0} seinem Schicksal.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_TRUCE_RESPONSE_OFFER_TRIBUTE_YES</zType>
-		<Translation><![CDATA[Wir akzeptieren euren Vorschlag.]]></Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_TRUCE_RESPONSE_OFFER_TRIBUTE_NO</zType>
 		<Translation><![CDATA[Das ist zu viel für uns.]]></Translation>
 	</Entry>
@@ -240,10 +236,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_LAW_VASSALAGE</zType>
 		<Translation><![CDATA[Vasallen trauen unseren Untertanen das Riegieren zu.]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_LAW_COLONIZATION</zType>
-		<Translation><![CDATA[Der Staat muss wachsen und sich ausbreiten.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_LAW_SERFDOM</zType>
@@ -508,10 +500,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_TEST_OF_FAITH_OPTION_0</zType>
 		<Translation><![CDATA[Wir werden den einzig Wahren Gott ehren.]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_TRAIT_TEST_OF_FAITH_OPTION_1</zType>
-		<Translation><![CDATA[Jeder muss seine eigene Lebenskraft akzeptieren.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_TEST_OF_FAITH_OPTION_2</zType>
@@ -1123,7 +1111,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_HIGH_SPIRITS_OPTION_0</zType>
-		<Translation>Lasst uns diesen Fremden im Hofraat testen.</Translation>
+		<Translation>Lasst uns diesen Fremden im Hofrat testen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_HIGH_SPIRITS_OPTION_1</zType>

@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2018 sp1 (x64) (http://www.altova.com) by Joel Bowers (Mohawk Games) -->
+<Root>
+	<Entry>
+		<zType/>
+		<English/>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_3_PIECES_IN_OLD_STYLE___NO1</zType>
+		<English>3 Pieces in Old Style #1</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_3_PIECES_IN_OLD_STYLE___NO3</zType>
+		<English>3 Pieces in Old Style #3</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_AJAM_ON_BUZUK</zType>
+		<English>Ajam on Buzuk</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_ANOUSH_GARUN__SWEET_SPRING_</zType>
+		<English>Anoush Garun (Sweet Spring)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_APARANI_PAR</zType>
+		<English>Aparani Par</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_ARAVOT_LOUSABER__ASCENDING_LIGHT___ARR__KOMITAS____ARAVOT_LOUSABER__ASCENDING_LIGHT__</zType>
+		<English>Aravot lousaber (Ascending light)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_ARMENIAN_DANCE__ARR__K__NERCESIAN____ARMENIAN_DANCE</zType>
+		<English>Armenian Dance (K. Nercesian)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_ARTSAKHI_PAR</zType>
+		<English>Artsakhi par</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_ASHKHARUMES_AKH_CHIM_KASHIL__I_WILL_NOT_BE_SAD_IN_THIS_WORLD__AS_LONG_AS_I_HAVE_YOU_</zType>
+		<English>Ashkharumes akh chim kashil (I will not be sad in this world, as long as I have you)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_AVE_MARIA_GRATIA_PLENA</zType>
+		<English>Ave Maria</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_BOUDALI__SPIRIT_NAME</zType>
+		<English>Boudali (Spirit Name)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_EL_HAWZI__EL_HAWZI__EGYPT_</zType>
+		<English>El-hawzi (Egypt)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_ERVA_YES__I_AM_BURNED_BY_LOVE_</zType>
+		<English>Erva Yes - I Am Burned By Love</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_EUNTES_IBANT_ET_FLEBANT___OP32</zType>
+		<English>Euntes Ibant et Flebant, Op. 32</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_OPENING_GLASSWORKS</zType>
+		<English>Glassworks - Opening</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_KATOT__LONGING_</zType>
+		<English>Katot (Longing)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_LA_ILLAH_ILLA_ALLAH</zType>
+		<English>La Ilaha Illa Allah</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_LOBGESANG___OP72</zType>
+		<English>Lobgesang, Op. 72</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_LUX_AURUMQUE__LIGHT_OF_GOLD_</zType>
+		<English>Lux Aurumque ("Light of Gold")</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_MAWAL_GNAWI</zType>
+		<English>Mawal Gnawi</English>
+	</Entry>
+	<!--<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_MISERERE___SWEEDISH_RADIO_CHOIR</zType>
+		<English>Miserere - Sweedish Radio Choir</English>
+	</Entry>-->
+	<!-- Miserere Movements *************************************************** -->
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_MISERERE_MOVEMENT_1_MSTR</zType>
+		<English>Miserere - Movement 1</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_MISERERE_MOVEMENT_3_MSTR</zType>
+		<English>Miserere - Movement 3</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_MISERERE_MOVEMENT_4_MSTR</zType>
+		<English>Miserere - Movement 4</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_MISERERE_MOVEMENT_5_MSTR</zType>
+		<English>Miserere - Movement 5</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_MISERERE_MOVEMENT_6_MSTR</zType>
+		<English>Miserere - Movement 6</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_MISERERE_MOVEMENT_7_MSTR</zType>
+		<English>Miserere - Movement 7</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_MISERERE_MOVEMENT_9_MSTR</zType>
+		<English>Miserere - Movement 9</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_MISERERE_MOVEMENT_11_MSTR</zType>
+		<English>Miserere - Movement 11</English>
+	</Entry>
+	<!-- /Miserere Movements ************************************************** -->
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_MISSA_A_CAPPELLA___BENEDICTUS</zType>
+		<English>Missa a cappella - Benedictus</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_MISSA_A_CAPPELLA___CREDO</zType>
+		<English>Missa a cappella - Credo</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_MISSA_A_CAPPELLA___GLORIA</zType>
+		<English>Missa a cappella - Gloria</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_MISSA_A_CAPPELLA___SANCTUS</zType>
+		<English>Missa a cappella - Sanctus</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_MOME_MALENKO</zType>
+		<English>Mome Malenko</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_OROVELA</zType>
+		<English>Orovela</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_01_OUR_FATHER</zType>
+		<English>Our Father</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_OV_ZARMANALI__WHAT_A_MIRACLE___ARR__KOMITAS____OV_ZARMANALI__WHAT_A_MIRACLE_</zType>
+		<English>Ov zarmanali (What a miracle) (arr. Komitas)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_03_TRI_PERSONAL_NATURE_OF_GOD</zType>
+		<English>Tri Personal Nature Of God</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_05_PSALM_16</zType>
+		<English>Psalm 16</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_02_PSALM_50</zType>
+		<English>Psalm 50</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_06_PSALM_53</zType>
+		<English>Psalm 53</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_IRAQ_RAQSAT_ALBEDOI__RAQSAT_ALBEDOI__IRAQ_</zType>
+		<English>Raqsat Albedoi - Iraq</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_RASD</zType>
+		<English>Rasd (Syria)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_SANDIA</zType>
+		<English>Sandia</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_SEV_ORER__DARK_DAYS_</zType>
+		<English>Sev Orer (Dark Days)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_SIRT_IM_SASANI__MY_HEART_IS_TREMBLING___ARR__V__KOMITAS____SIRT_IM_SASANI__MY_HEART_IS_TREMBLING_</zType>
+		<English>Sirt im sasani - My heart is trembling</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_SLUNTSE</zType>
+		<English>Sluntse</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_SPARMASETTA</zType>
+		<English>Sparmasetta</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_TABAT___YA_HABIBI__TABAT__A_SONG_OF_PRAISE____YA_HABIBI__MY_BELOVED_</zType>
+		<English>Tabat - Ya Habibi: Tabat (A Song of Praise)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_TAQSIM_ON_NEY</zType>
+		<English>Taqsim on Ney</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_TAQSIM_ON_VIOLIN</zType>
+		<English>Taqsim on Violin</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_STANKA</zType>
+		<English>Stanka</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_TOURA_TOURA</zType>
+		<English>Toura toura</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_UD_IMPROVISATION_IN_MAKAM_HICAZ</zType>
+		<English>Ud improvisation in Makam Hicaz</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_UNABI___MARALI___SHUSHIKI__MELODY_OF_DANCES___ARR__KOMITAS____UNABI___MARALI___SHUSHIKI__MELODY_OF_DANCES_</zType>
+		<English>Unabi - Marali - Shushiki (Melody of dances)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_VERKLARTE_NACHT__TRANSFIGURED_NIGHT_</zType>
+		<English>Verklärte Nacht (Transfigured Night)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_VIOLIN_CONCERTO___I</zType>
+		<English>Violin Concerto I</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_VIOLIN_CONCERTO___II___PHILIP_GLASS</zType>
+		<English>Violin Concerto II</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_VIOLIN_CONCERTO___III</zType>
+		<English>Violin Concerto III</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_VOCH_ME_DZALEEG__THERE_IS_NO_FLOWER_</zType>
+		<English>Voch Me Dzaleeg (There is No Flower)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_YA_KHALIL__YA_KHALIL__NAME_OF_THE_BELOVED_</zType>
+		<English>Ya khalil (Name of the Beloved)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_YEKYALKS__WE_ARE_GATHERED_</zType>
+		<English>Yekyalks (We are gathered)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_YERAZ</zType>
+		<English>Yeraz</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_ZABLEYALO_AGNE</zType>
+		<English>Zableyalo Agne</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_ALAN_SHAVARSH_BARDEZBANIAN</zType>
+		<English>Alan Shavarsh Bardezbanian</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_SERAPHIM_BIT_KHARIBI</zType>
+		<English>Seraphim Bit-Kharibi</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_NOUR_EDDINE</zType>
+		<English>Nour Eddine</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_HENRYK_GORECKI</zType>
+		<English>Henryk Gorecki</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_PHILIP_GLASS</zType>
+		<English>Philip Glass</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_LE_MYSTERE_DES_VOIX_BULGARES</zType>
+		<English>Le Mystere Des Voix Bulgares</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_EINOJUHANI_RAUTAVAARA</zType>
+		<English>Einojuhani Rautavaara</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARNOLD_SCHOENBERG</zType>
+		<English>Arnold Schoenberg</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_ERIC_WHITACRE</zType>
+		<English>Eric Whitacre</English>
+	</Entry>
+	<!-- MUSICBED ************************************************************* -->
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_ASCENT___CATHEDRAL</zType>
+		<English>Ascent</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_BEAUTY_MARK___CHAD_LAWSON</zType>
+		<English>Beauty Mark</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_BELLY_OF_THE_WHALE___SONGS_OF_WATER</zType>
+		<English>Belly of the Whale</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_CLOUDS__NOT_CLOCKS___SLOW_MEADOW</zType>
+		<English>Clouds, Not Clocks</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_CREATING_LIFE___DEXTER_BRITAIN</zType>
+		<English>Creating Life</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_D_S___ALISTAIR_SUNG</zType>
+		<English>D.S</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_DARK_TRAVELS___ALISTAIR_SUNG</zType>
+		<English>Dark Travels</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_DAYDREAM_IN_D_FOR_CELLO___ERIC_KINNY</zType>
+		<English>Daydream in D for Cello</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_DEEPER___CHRIS_COLEMAN</zType>
+		<English>Deeper</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_DEEPER__EXTENDED_VERSION____CHRIS_COLEMAN</zType>
+		<English>Deeper (Extended Version)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_DIRECTIONS___STEVEN_GUTHEINZ</zType>
+		<English>Directions</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_DON_T_GO___CHRIS_COLEMAN</zType>
+		<English>Don't Go</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_ELEGY___DEXTER_BRITAIN</zType>
+		<English>Elegy</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_FALLING_OCEAN___CHAD_LAWSON</zType>
+		<English>Falling Ocean</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_FOR_HER_FEAT__PHILIP_DANIEL__SOLO_STRINGS____SHAWN_WILLIAMS</zType>
+		<English>For Her feat. Philip Daniel (Solo Strings)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_FOR_KATHERINE__WITH_PETER_CAVALLO____KYLE_MCEVOY</zType>
+		<English>For Katherine (with Peter Cavallo)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_GOLESTAN___MAX_LL</zType>
+		<English>Golestan</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_IN_THE_END___FUTURE_OF_FORESTRY</zType>
+		<English>In the End</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_IRIS___TOPU</zType>
+		<English>Iris</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_LET___GRACIE_AND_RACHEL</zType>
+		<English>Let</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_LITTLE___KINGPINGUIN</zType>
+		<English>Little</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_MY_HARP___FUTURE_OF_FORESTRY</zType>
+		<English>My Harp</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_NEW_BEGINNINGS___ALISTAIR_SUNG</zType>
+		<English>New Beginnings</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_O_HAPPY_FAULT___AUDREY_ASSAD</zType>
+		<English>O Happy Fault</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_POOL___STEVEN_GUTHEINZ</zType>
+		<English>Pool</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_SANDSTONE___BLAKE_EWING</zType>
+		<English>Sandstone</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_SEARCHING_THE_UNKNOWN___ALISTAIR_SUNG</zType>
+		<English>Searching The Unknown</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_SECRETS_OF_SILK___MAX_LL</zType>
+		<English>Secrets of Silk</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_SOMETIMES___STEVEN_GUTHEINZ</zType>
+		<English>Sometimes</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_SUMMER___CATHEDRAL</zType>
+		<English>Summer</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_THE_FRAGILE_PART___AJ_HOCHHALTER</zType>
+		<English>The Fragile Part</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_TORRID__PIANO___PADS_ONLY____BRADFORD_NYGHT</zType>
+		<English>Torrid (Piano and Pads Only)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_TOUCH___CHAD_LAWSON</zType>
+		<English>Touch</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_UNEARTHED_FEAT__PHILIP_DANIEL__SOLO_STRINGS____SHAWN_WILLIAMS</zType>
+		<English>Unearthed feat. Philip Daniel (Solo Strings)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_UNION___TOLO</zType>
+		<English>Union</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_VOWS_ON_THE_HILLSIDE___TIMBRE</zType>
+		<English>Vows on the Hillside</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_WADING___ALISTAIR_SUNG</zType>
+		<English>Wading</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_YULE___KINO</zType>
+		<English>Yule</English>
+	</Entry>
+	<!-- /MUSICBED ************************************************************ -->
+	<!-- MUSICBED ARTISTS ***************************************************** -->
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_CATHEDRAL</zType>
+		<English>Cathedral</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_CHAD_LAWSON</zType>
+		<English>Chad Lawson</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_SONGS_OF_WATER</zType>
+		<English>Songs Of Water</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_SLOW_MEADOW</zType>
+		<English>Slow Meadow</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_DEXTER_BRITAIN</zType>
+		<English>Dexter Britain</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_ALISTAIR_SUNG</zType>
+		<English>Alistair Sung</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_ERIC_KINNY</zType>
+		<English>Eric Kinny</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_CHRIS_COLEMAN</zType>
+		<English>Chris Coleman</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_STEVEN_GUTHEINZ</zType>
+		<English>Steven Gutheinz</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_SHAWN_WILLIAMS</zType>
+		<English>Shawn Williams</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_KYLE_MCEVOY</zType>
+		<English>Kyle Mcevoy</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_MAX_LL</zType>
+		<English>Max LL</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_FUTURE_OF_FORESTRY</zType>
+		<English>Future Of Forestry</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_TOPU</zType>
+		<English>Topu</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_GRACIE_AND_RACHEL</zType>
+		<English>Gracie <![CDATA[&]]> Rachel</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_KINGPINGUIN</zType>
+		<English>Kingpinguin</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_AUDREY_ASSAD</zType>
+		<English>Audrey Assad</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_BLAKE_EWING</zType>
+		<English>Blake Ewing</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_AJ_HOCHHALTER</zType>
+		<English>Aj Hochhalter</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_BRADFORD_NYGHT</zType>
+		<English>Bradford Nyght</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_TOLO</zType>
+		<English>Tolo</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_TIMBRE</zType>
+		<English>Timbre</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_KINO</zType>
+		<English>Kino</English>
+	</Entry>
+	<!-- /MUSICBED ARTISTS***************************************************** -->
+	<!-- SCHUBERT MUSIC PUBLISHING ******************************************** -->
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_ATMADJA_DUMA_STRACHILU</zType>
+		<English>Atmadja Duma Strachilu</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_DRAGANA_I_SLAVEI</zType>
+		<English>Dragana I Slavei</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_EI_MORI_ROUJKE</zType>
+		<English>Ei Mori Roujke</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_ERGHEN_DIADO</zType>
+		<English>Erghen Diado</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_KALIMANKOU_DENKOU</zType>
+		<English>Kalimankou Denkou</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_MESSETSCHINKO_LIO_GREILIVKO</zType>
+		<English>Messetschinko Lio Greilivko</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_MIR_STANKE_LE</zType>
+		<English>Mir Stanke Le</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_PILENTZE_PEE</zType>
+		<English>Pilentze Pee</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_POLEGNALA_E_TODORA</zType>
+		<English>Polegnala E Todora</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_PRITOURITZE_PLANINATA</zType>
+		<English>Pritouritze Planinata</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_SHOPE__SHOPE</zType>
+		<English>Shope  Shope</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_STRATI_NA_ANGELAKI_DOUMASCHE</zType>
+		<English>Strati Na Angelaki Doumasche</English>
+	</Entry>
+	<!-- /SCHUBERT MUSIC PUBLISHING ******************************************* -->
+	<!-- CAPELLA ROMANA ******************************************************* -->
+	<!-- SONGS ******************************************** -->
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_EVENING_HYMN</zType>
+		<English>Evening Hymn (“Phos hilaron”)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_LAMENTATIO_SANCT___MATRIS_ECCLESI___CONSTANTINOPOLITAN</zType>
+		<English>Lamentatio Sanctæ Matris Ecclesiæ Constantinopolitanæ</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_CUM_AUTEM_VENISSENT</zType>
+		<English>Cum Autem Venissent</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_HIERARCHICAL_ENTRANCE_RITE_FOR_A_BYZANTINE_DIVINE_LITURGY_KONTAKION_OF_THE_MOTHER_OF_GOD__MODE_PLAGAL_4_</zType>
+		<English>Hierarchical Entrance Rite for a Byzantine Divine Liturgy: Kontakion of the Mother of God (Mode Plagal 4)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_ALLELUIARION_FOR_CHRISTMAS_DAY</zType>
+		<English>Alleluiarion for Christmas Day</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_ANTIPHON_7_VERSES</zType>
+		<English>Antiphon 7 Verses</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_WHEN_THE_GLORIOUS_DISCIPLES</zType>
+		<English>When the glorious disciples</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_VASILISSA_ERGO_GAUDE</zType>
+		<English>Vasilissa ergo gaude</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_VESPERS_ANTIPHON</zType>
+		<English>Vespers Antiphon</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_YOUR_BRIDAL_CHAMBER</zType>
+		<English>Your bridal chamber</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_SEPULTO_DOMINO</zType>
+		<English>Sepulto Domino</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_LET_ALL_MORTAL_FLESH_KEEP_SILENCE</zType>
+		<English>Let all mortal flesh keep silence</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_O_DULCISSIME</zType>
+		<English>O Dulcissime</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_PASSION_STICHERON___GAZES___TRADITIONAL</zType>
+		<English>Passion Sticheron - Gazes and Traditional</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_SEQUENCE</zType>
+		<English>Sequence</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_THE_PARADISE_IN_EDEN</zType>
+		<English>The Paradise in Eden</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_LIFT_UP_YOUR_GATES___GREEK</zType>
+		<English>Lift up your gates - Greek</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_O_GREAT_PASCHA</zType>
+		<English>O Great Pascha</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_OF_YOUR_MYSTICAL_SUPPER</zType>
+		<English>Of your mystical supper</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_RULERS_OF_THE_PEOPLES___THEY_LAID_A_LAWLESS_CHARGE___LET_US_BRING_OUR_SENSES</zType>
+		<English>Rulers of the Peoples - They Laid a Lawless Charge - Let Us Bring Our Senses</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_THE_WISE_THIEF</zType>
+		<English>The Wise Thief</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_KONTAKION_OF_THE_CROSS</zType>
+		<English>Kontakion of the Cross</English>
+	</Entry>
+	<!-- /SONGS ******************************************* -->
+	<!-- ARTISTS ****************************************** -->
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA__ALEXANDER_LINGAS</zType>
+		<English>Cappella Romana; Alexander Lingas</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA__ALEXANDER_LINGAS__AARON_CAIN__MARK_POWELL</zType>
+		<English>Cappella Romana; Alexander Lingas; Aaron Cain; Mark Powell</English>
+	</Entry>
+
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA</zType>
+		<English>Cappella Romana</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA__ALEXANDER_LINGAS__SPYRIDON_ANTONOPOULOS__AARON_CAIN__MARK_POWELL</zType>
+		<English>Cappella Romana; Alexander Lingas; Spyridon Antonopoulos; Aaron Cain; Mark Powell</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA__ALEXANDER_LINGAS__PHOTINI_DOWNIE_ROBINSON__KERRY_MCCARTHY</zType>
+		<English>Cappella Romana; Alexander Lingas; Photini Downie Robinson; Kerry McCarthy</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA__ALEXANDER_LINGAS__SPYRIDON_ANTONOPOULOS__JOHN_MICHAEL_BOYER</zType>
+		<English>Cappella Romana; Alexander Lingas; Spyridon Antonopoulos; John Michael Boyer</English>
+	</Entry>
+	<!-- /ARTISTS ***************************************** -->
+	<!-- /CAPELLA ROMANA ****************************************************** -->
+	<!-- Tobias Jackle ******************************************************** -->
+	<!-- Songs ******************************************** -->
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_EL_HELWA_DI</zType>
+		<English>El Helwa Di</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_KING_OF_KINGS</zType>
+		<English>King of Kings</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_TWO_RIVERS</zType>
+		<English>Two Rivers</English>
+	</Entry>
+	<!-- /Songs ******************************************* -->
+	<!-- Artists ****************************************** -->
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_TOBIAS_JACKLE__LEYLA_JOHNSON</zType>
+		<English>Tobias J<![CDATA[ä]]>ckle, Leyla Johnson</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_TOBIAS_JACKLE</zType>
+		<English>Tobias J<![CDATA[ä]]>ckle</English>
+	</Entry>
+	<!-- /Artists ***************************************** -->
+	<!-- /Tobias Jackle ******************************************************* -->
+	<!-- Elie Hijaz Segments ************************************************** -->
+	<!-- Songs ******************************************** -->
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_KAM_BOETHNA_MA_A_EL_NASEEM</zType>
+		<English>Kam Boethna ma'a El Naseem</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_HIJAZ_TAQSIM_2</zType>
+		<English>Hijaz Taqsim 2</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_FOUG_EL_NAKHEL</zType>
+		<English>Foug El Nakhel</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_KADDOUKA_AL_MAYYAS___HALI_HAL</zType>
+		<English>kaddouka al mayyas / Hali Hal</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_HIJAZ_TAQSIM_1</zType>
+		<English>Hijaz Taqsim 1</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_TAQSIM_2</zType>
+		<English>Taqsim 2</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_YA_KARAWAN</zType>
+		<English>Ya Karawan</English>
+	</Entry>
+	<!-- /Songs ******************************************* -->
+	<!-- Artists ****************************************** -->
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_UMM_KULTHUM</zType>
+		<English>Umm Kulthum</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_ELIE_APOYAN</zType>
+		<English>Elie Apoyan</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_NAZEM_AL-GHAZAL</zType>
+		<English>Nazem al-Ghazal</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_SABAH_FAKHRY</zType>
+		<English>Sabah Fakhry</English>
+	</Entry>
+	<!-- /Artists ***************************************** -->
+	<!-- /Elie Hijaz Segments ************************************************** -->
+	<!-- Elie Byzantine Chants************************************************** -->
+	<!-- Songs ******************************************** -->
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_GREAT_COMPLINE</zType>
+		<English>Great Compline</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_LORD_I_CALL__TONE_6_</zType>
+		<English>Lord I Call (Tone 6)</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_IHMADOU_AL_RABBA___PSALM_117</zType>
+		<English>Ihmadou Al Rabba - PSALM 117</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_AGNI_PARTHENE_IN_ARABIC</zType>
+		<English>Agni Parthene in Arabic</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_AGNI_PARTHENE</zType>
+		<English>Agni Parthene</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_SECOND_PART_OF_AGNI_PARTHENE</zType>
+		<English>Second Part of Agni Parthene</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_PSALM_50_IN_ARAMAIC__HAVE_MERCY_ON_ME__O_GOD_</zType>
+		<English>Psalm 50 in Aramaic (Have Mercy on Me, O God)</English>
+	</Entry>
+	<!-- /Songs ******************************************* -->
+	<!-- Artists ****************************************** -->
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_FATHER_AGHABIOS_ABOU_SAADAH</zType>
+		<English>Father Aghabios Abou Saadah</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_VASSILIS_HADJINICOLAOU</zType>
+		<English>Vassilis Hadjinicolaou</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_FATHER_NOULA_MALEK</zType>
+		<English>Father Noula Malek</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_FATHER_PETER_HANNA</zType>
+		<English>Father Peter Hanna</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_ST._NECTARIOS_OF_AEGINA</zType>
+		<English>St. Nectarios of Aegina</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_ARCHMANDITE_PANTELEIMON_FARAH</zType>
+		<English>Archmandite Panteleimon Farah</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_FATHER_SERAPHIM_BIT-KHARIBI</zType>
+		<English>Father Seraphim Bit-Kharibi</English>
+	</Entry>
+	<!-- /Artists ***************************************** -->
+	<!-- /Elie Byzantine Chants************************************************** -->
+
+</Root>

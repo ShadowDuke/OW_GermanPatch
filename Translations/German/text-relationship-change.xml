@@ -1,0 +1,166 @@
+<!-- German Translation (© Revan ©) -->
+
+<Root>
+	<Entry>
+		<zType/>
+		<Translation/>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_LOVER_OF</zType>
+		<Translation>Geliebete/r von</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_LOVER_OF_VERB</zType>
+		<Translation>Wird geliebte/r von</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_ALLIED_WITH</zType>
+		<Translation>Verbündetet mit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_ALLIED_WITH_VERB</zType>
+		<Translation>Wird Verbündeter mit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_IN_LOVE_WITH</zType>
+		<Translation>Verliebt in</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_IN_LOVE_WITH_VERB</zType>
+		<Translation>Ist verliebt in</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_TERRIFIED_OF</zType>
+		<Translation>Verängstigt von</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_TERRIFIED_OF_VERB</zType>
+		<Translation>Wird verängstigt von</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_ENDEARED_TO</zType>
+		<Translation>Geschmeichelt von</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_ENDEARED_TO_VERB</zType>
+		<Translation>Wird geschmeichelt von</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_INTERCEDED_FOR</zType>
+		<Translation>Führsprache für</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_INTERCEDED_FOR_VERB</zType>
+		<Translation>Bekommt Führsprache für</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_INFLUENCED_BY</zType>
+		<Translation>Beeinflusst von</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_INFLUENCED_BY_VERB</zType>
+		<Translation>Wird beeinflusst von</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_OWES_FAVOR_TO</zType>
+		<Translation>Schuldet Gefallen an</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_OWES_FAVOR_TO_VERB</zType>
+		<Translation>Schuldet nun Gefallen an</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_ASSASSINATED_BY</zType>
+		<Translation>Ermordert von</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_ASSASSINATED_BY_VERB</zType>
+		<Translation>Wurde ermordert von</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_HOLDS_FAVOR_FROM</zType>
+		<Translation>Hält Gefallen von</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_HOLDS_FAVOR_FROM_VERB</zType>
+		<Translation>Hält jetzt Gefallen von</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_JEALOUS_ABOUT</zType>
+		<Translation>Eifersüchtig wegen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_JEALOUS_ABOUT_VERB</zType>
+		<Translation>Wird eifersüchtig wegent</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_SUSPICIOUS_OF</zType>
+		<Translation>Verdächtig auf</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_SUSPICIOUS_OF_VERB</zType>
+		<Translation>Wird verdächtig auf</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_DISAPPOINTED_WITH</zType>
+		<Translation>Enttäuscht von</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_DISAPPOINTED_WITH_VERB</zType>
+		<Translation>Wird enttäuscht von</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_ESTRANGED_FROM</zType>
+		<Translation>Zerstritten mit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_ESTRANGED_FROM_VERB</zType>
+		<Translation>Wird zerstritten mit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_VENGEFUL_AGAINST</zType>
+		<Translation>VRachsüchtig gegen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_VENGEFUL_AGAINST_VERB</zType>
+		<Translation>Wird rachsüchtig gegen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_PLOTTING_AGAINST</zType>
+		<Translation>Verschwörung gege</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_PLOTTING_AGAINST_VERB</zType>
+		<Translation>eginnt Verschwörung gegen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_MADE_HEIR_BY</zType>
+		<Translation>Zum Erben ernannt von</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_MADE_HEIR_BY_VERB</zType>
+		<Translation>Wurde zum Erben ernannt von</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_BYPASSED_BY</zType>
+		<Translation>Umgangen von</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_BYPASSED_BY_VERB</zType>
+		<Translation>Wurde umgangen von</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_DIVORCED_BY</zType>
+		<Translation>Geschieden von</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_DIVORCED_BY_VERB</zType>
+		<Translation>Wurde geschieden von</Translation>
+	</Entry>
+<!--
+	<Entry>
+		<zType>TEXT_</zType>
+		<Translation></Translation>
+	</Entry>
+-->
+</Root>

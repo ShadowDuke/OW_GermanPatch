@@ -102,7 +102,7 @@ Welche Verbindlichkeiten sollen wir an {PLAYER-0} leisten?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEIGHBORS_PRIDEFUL</zType>
-		<Translation>Ein Aufgebot vom entferten {PLAYER-0} kommt in der Hauptstadt an, die Banner flatternd. Als sie dem Hofraat eintreten, knien sie ehrevoll nieder und bitten um die Ehre mit {PLAYER-1} Beziehungen herzustellen.
+		<Translation>Ein Aufgebot vom entferten {PLAYER-0} kommt in der Hauptstadt an, die Banner flatternd. Als sie dem Hofrat eintreten, knien sie ehrevoll nieder und bitten um die Ehre mit {PLAYER-1} Beziehungen herzustellen.
 
 Wie sollen wir antworten?</Translation>
 	</Entry>
@@ -499,14 +499,6 @@ Unser hinreißender Affe, nun Attentäter, hat erfolgreich euren Erben ermordet.
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MYSTERIOUS_SWORD_USING</zType>
 		<Translation><![CDATA[Was sollen wir mit deinem mysteriösen Schwert anstellen? Es ist auf jeden Fall eine seltes Kostbarkeit.]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_ZOROASTRIANISM_FOUNDED</zType>
-		<Translation>[link(RELIGION_ZOROASTRIANISM) in {CITY-1} GEGRÜNDET]</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_JUDAISM_FOUNDED</zType>
-		<Translation>[link(RELIGION_JUDAISM) in {CITY-1} GEGRÜNDET]</Translation>
 	</Entry>
   <Entry beginGroup="Tutorial">
 		<zType>TEXT_EVENTSTORY_VICTORY_POINTS</zType>

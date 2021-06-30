@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+<!-- German Translation (© Revan ©) -->
+
 <Root>
 	<!--Generic-->
 	<Entry>
@@ -332,5 +333,89 @@
 	<Entry>
 		<zType>TEXT_HINT_82</zType>
 		<Translation>You can verify that a City is connected by checking that the  icon(CONNECTED) icon is displayed under its City banner.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_83</zType>
+		<Translation>To find how many movement steps a unit requires to go from one tile to another: select the unit, [CTRL+Click] on the start tile, and hover over the destination tile with the mouse.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_84</zType>
+		<Translation>link(UNIT_WORKER,2) take more time and resources to improve hills.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_85</zType>
+		<Translation>link(UNIT_WORKER,2) take an extra turn to build improvements outside their family's territory.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_86</zType>
+		<Translation>Your Nation can build its unique units in cities with link(CULTURE_DEVELOPING) Culture and a link(IMPROVEMENT_GARRISON_2).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_87</zType>
+		<Translation>Beware of the map edges. Raiders could be lurking beyond!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_88</zType>
+		<Translation>Any given Character can have a maximum of three good traits like link(TRAIT_VIGILANT), and three bad traits like link(TRAIT_GREEDY).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_89</zType>
+		<Translation>Ratings for Characters like link(RATING_COURAGE), link(RATING_DISCIPLINE), link(RATING_CHARISMA), and link(RATING_WISDOM) can be changed by events, and affect a Character's abilities as a Leader, link(CONCEPT_GOVERNOR), or link(CONCEPT_GENERAL).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_90</zType>
+		<Translation>Hold [hotkey(HOTKEY_SHOW_TILE_SPECIALISTS)] to highlight Specialists and to see what each one produces.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_91</zType>
+		<Translation>Keep your Family Heads happy! Influence them directly, or have other important Characters Intercede on your behalf.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_92</zType>
+		<Translation>The Cities of Families with a high Opinion of you cost less link(YIELD_MAINTENANCE), and their Units fight more effectively.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_93</zType>
+		<Translation>The Cities of Families with a low Opinion of you cost more link(YIELD_MAINTENANCE) and produce fewer link(YIELD_CIVICS) and less link(YIELD_TRAINING). Their Units fight less effectively too!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_94</zType>
+		<Translation>Angry Families can rebel against your rule, spawning Rebel Units around their Cities. Your Units from that Family are not as effective when fighting against Rebels.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_95</zType>
+		<Translation>Family opinion is directly influenced by Family and Religion Head Characters.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_96</zType>
+		<Translation>It may become difficult to keep all the Families happy if they follow different Religions.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_97</zType>
+		<Translation>You can improve your relations with Leaders of other Nations by conducting Trade Missions with them.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_98</zType>
+		<Translation>link(UNIT_SCOUT,2) can establish Agent Networks in Foreign Cities to immediately gain visibility into them. Subsequently, you can assign Characters as Agents, who can perform incite link(MISSION_TREACHERY) or link(MISSION_INSURRECTION) Missions on their Cities.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_99</zType>
+		<Translation>Don't forget to assign link(CONCEPT_COUNCILOR,2). They perform essential Missions for your Nation, and they raise their Family's opinion of you.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_100</zType>
+		<Translation>You need an link(COUNCIL_AMBASSADOR) to conduct diplomacy with other Nations and Tribes. They can also perform the link(MISSION_TRADE_MISSION) and link(MISSION_HIGH_SYNOD) Missions.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_101</zType>
+		<Translation>You need a link(COUNCIL_CHANCELLOR) to perform the link(MISSION_FAMILY_GIFT), link(MISSION_IMPRISON), and link(MISSION_PACIFY_CITY) Missions.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_102</zType>
+		<Translation>You need a link(COUNCIL_SPYMASTER) to perform the link(MISSION_INFILTRATE), link(MISSION_SLANDER), link(MISSION_ASSASSINATE), and link(MISSION_STEAL_RESEARCH) Missions.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_103</zType>
+		<Translation>Cities need at least as many link(CONCEPT_URBAN) tiles as they have Population points, otherwise they start to become discontent.</Translation>
 	</Entry>
 </Root>

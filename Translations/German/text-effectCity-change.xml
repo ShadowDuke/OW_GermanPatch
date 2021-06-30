@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSpy v2020 (x64) (http://www.altova.com) by Andrew Auseon (Private) -->
+<!-- German Translation (© Revan ©) -->
+
 <Root>
 	<Entry>
 		<zType/>
@@ -166,94 +166,10 @@
 	<Entry>
 		<zType>TEXT_EFFECTCITY_CULTURE_LEGENDARY</zType>
 		<Translation>Sagenumwobene Stadt</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_DIFFICULTY_ABLE</zType>
-		<Translation>Der Tüchtige</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_DIFFICULTY_ABLE_CAPITAL</zType>
-		<Translation>Der Tüchtige</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_DIFFICULTY_JUST</zType>
-		<Translation>Der Gerechte</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_DIFFICULTY_JUST_CAPITAL</zType>
-		<Translation>Der Gerechte</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_DIFFICULTY_GOOD</zType>
-		<Translation>Der Zuverlässige</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_DIFFICULTY_GOOD_CAPITAL</zType>
-		<Translation>Der Zuverlässige</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_DIFFICULTY_STRONG</zType>
-		<Translation>Der Kräftige</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_DIFFICULTY_STRONG_CAPITAL</zType>
-		<Translation>Der Kräftige</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_DIFFICULTY_NOBLE</zType>
-		<Translation>Der Großmütige</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_DIFFICULTY_NOBLE_CAPITAL</zType>
-		<Translation>Der Großmütige</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_DIFFICULTY_GLORIOUS</zType>
-		<Translation>Der Glorreiche</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_DIFFICULTY_GLORIOUS_CAPITAL</zType>
-		<Translation>Der Glorreiche</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_DIFFICULTY_MAGNIFICENT</zType>
-		<Translation>Der Prachtvolle</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_DIFFICULTY_MAGNIFICENT_CAPITAL</zType>
-		<Translation>Der Prachtvolle</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_DIFFICULTY_GREAT</zType>
-		<Translation>Der Große</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_DIFFICULTY_GREAT_CAPITAL</zType>
-		<Translation>Der Große</Translation>
-	</Entry>	 
+	</Entry> 
 	<Entry>
 		<zType>TEXT_EFFECTCITY_IMPROVEMENT_SHRINE_HUNTING</zType>
 		<Translation>Schrein des Jagens</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_IMPROVEMENTCLASS_MONASTERY_MYTHOLOGY</zType>
-		<Translation>Mythologie-Kloster</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_IMPROVEMENTCLASS_MONASTERY_VENERATION</zType>
-		<Translation>Verehrungs-Kloster</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_IMPROVEMENTCLASS_MONASTERY_LEGALISM</zType>
-		<Translation>Gesetzlichkeiten-Kloster</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_IMPROVEMENTCLASS_TEMPLE_REVELATION</zType>
-		<Translation>Offenbarungs-Tempel</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_IMPROVEMENTCLASS_TEMPLE_DUALISM</zType>
-		<Translation>Dualismus-Tempel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_IMPROVEMENTCLASS_TEMPLE_GNOSTICISM</zType>
@@ -266,102 +182,6 @@
 	<Entry>
 		<zType>TEXT_EFFECTCITY_IMPROVEMENTCLASS_CATHEDRAL_ENLIGHTENMENT</zType>
 		<Translation>Erleuchtungs-Kathedrale</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_SLAVERY</zType>
-		<Translation>Sklaverei</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_FREEDOM</zType>
-		<Translation>Freiheit</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_TYRANNY</zType>
-		<Translation>Tyrannei</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_CONSTITUTION</zType>
-		<Translation>Verfassung</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_CENTRALIZATION</zType>
-		<Translation>Zentralisierung</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_SERFDOM</zType>
-		<Translation>Leibeigenschaft</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_MONOTHEISM</zType>
-		<Translation>Monotheismus</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_POLYTHEISM</zType>
-		<Translation>Polytheismus</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_DIVINE_RULE</zType>
-		<Translation>Göttliche Herrschaft</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_LEGAL_CODE</zType>
-		<Translation>Gesetzbuch</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_TOLERANCE</zType>
-		<Translation>Tolleranz</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_ORTHODOXY</zType>
-		<Translation>Rechtgläubigkeit</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_PROFESSIONAL_ARMY</zType>
-		<Translation>Berufsarmee</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_VOLUNTEERS</zType>
-		<Translation>Freiwillige</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_PHILOSOPHY</zType>
-		<Translation>Philosophie</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_ICONOGRAPHY</zType>
-		<Translation>Bilddeutung</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_CALLIGRAPHY</zType>
-		<Translation>Schönschrift</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_PILGRIMAGE</zType>
-		<Translation>Pilgerschaft</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_HOLY_WAR</zType>
-		<Translation>Heiliger Krieg</Translation>
-	</Entry>
-		<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_GUILDS</zType>
-		<Translation>Gilden</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_ELITES</zType>
-		<Translation>Eliten</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_AUTARKY</zType>
-		<Translation>Autarkie</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_COIN_DEBASEMENT</zType>
-		<Translation>Münz Wertminderung</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LAW_MONETARY_REFORM</zType>
-		<Translation>Münzreform</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_OPINIONFAMILY_FURIOUS</zType>
@@ -389,19 +209,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_OPINIONRELIGION_ANGRY</zType>
-		<Translation>Aufgebracht (Religion)</Translation>
+		<Translation>Aufgebrachte Religion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_OPINIONRELIGION_UPSET</zType>
-		<Translation>Verärgert (Religion)</Translation>
+		<Translation>Verärgerte Religion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_OPINIONRELIGION_PLEASED</zType>
-		<Translation>Zufrieden (Religion)</Translation>
+		<Translation>Zufriedene Religion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_OPINIONRELIGION_FRIENDLY</zType>
-		<Translation>Wohlwollend (Religion)</Translation>
+		<Translation>Wohlwollende Religion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_TREASURY</zType>
@@ -412,208 +232,48 @@
 		<Translation>Gericht~ein Gericht~Gerichte</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_COLLEGES</zType>
-		<Translation>Heidnische Kollegien</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_WAR</zType>
-		<Translation>Pagan Cult of War</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_FIRE</zType>
-		<Translation>Pagan Cult of Fire</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_WISDOM</zType>
-		<Translation>Pagan Cult of Wisdom</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_SUN</zType>
-		<Translation>Pagan Cult of the Sun</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_WATER</zType>
-		<Translation>Pagan Cult of the Sea</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_LOVE</zType>
-		<Translation>Pagan Cult of Love</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_UNDERWORLD</zType>
-		<Translation>Pagan Cult of Death</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_HEALING</zType>
-		<Translation>Pagan Cult of Healing</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_KINGSHIP</zType>
-		<Translation>Pagan Cult of Royalty</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_HEARTH</zType>
-		<Translation>Pagan Cult of HearthS</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_HUNTING</zType>
-		<Translation>Pagan Cult of Victory</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_ARCHIVE</zType>
 		<Translation>Archiv~ein Archiv~Archive</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_MARBLE</zType>
-		<Translation>Marmor</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_ORE</zType>
-		<Translation>Eisen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_SALT</zType>
-		<Translation>Salz</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_SALT_LUXURY</zType>
 		<Translation>Salz Luxusgut</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_GEM</zType>
-		<Translation>Edelsteine</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_GEM_LUXURY</zType>
 		<Translation>Edelsteine Luxusgut</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_GOLD</zType>
-		<Translation>Gold</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_SILVER</zType>
-		<Translation>Silber</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_HORSE</zType>
-		<Translation>Pferde</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_CATTLE</zType>
-		<Translation>Vieh</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_SHEEP</zType>
-		<Translation>Schaafe</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_PIG</zType>
-		<Translation>Schweine</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_GOAT</zType>
-		<Translation>Ziegen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_WHEAT</zType>
-		<Translation>Weizen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_BARLEY</zType>
-		<Translation>Gerste</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_SORGHUM</zType>
-		<Translation>Sorghum</Translation>
-	</Entry>
-	<Entry>	
-		<zType>TEXT_EFFECTCITY_RESOURCE_CAMEL</zType>
-		<Translation>Kamele</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_ELEPHANT</zType>
-		<Translation>Elefanten</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_GAME</zType>
-		<Translation>Wild</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_FUR</zType>
-		<Translation>Felle</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_FUR_LUXURY</zType>
 		<Translation>Felle Luxusgut</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_CITRUS</zType>
-		<Translation>Zitronen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_HONEY</zType>
-		<Translation>Honig</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_HONEY_LUXURY</zType>
 		<Translation>Honig Luxusgut</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_INCENSE</zType>
-		<Translation>Weihrauch</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_INCENSE_LUXURY</zType>
 		<Translation>Weihrauch Luxusgut</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_LAVENDER</zType>
-		<Translation>Lavendel</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_LAVENDER_LUXURY</zType>
 		<Translation>Lavendel Luxusgut</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_WINE</zType>
-		<Translation>Wein</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_WINE_LUXURY</zType>
 		<Translation>Wein Luxusgut</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_OLIVE</zType>
-		<Translation>Oliven</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_OLIVE_LUXURY</zType>
 		<Translation>Oliven Luxusgut</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_DYE</zType>
-		<Translation>Färbemittel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_DYE_LUXURY</zType>
 		<Translation>Färbemittel Luxusgut</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_PEARL</zType>
-		<Translation>Perlen</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_PEARL_LUXURY</zType>
 		<Translation>Perlen Luxusgut</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_FISH</zType>
-		<Translation>Fisch</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_RESOURCE_CRAB</zType>
-		<Translation>Krabben</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_CROP</zType>
@@ -778,9 +438,5 @@
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_DELVER</zType>
 		<Translation>link(TRAIT_DELVER) Anführer</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_PROJECT_FERTILE_SOIL</zType>
-		<Translation>Mineralreicher Boden</Translation>
 	</Entry>
 </Root>

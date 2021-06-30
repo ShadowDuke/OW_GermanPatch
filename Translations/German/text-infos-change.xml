@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSpy v2014 rel. 2 (x64) (http://www.altova.com) by Soren Johnson (private) -->
+<!-- German Translation (© Revan ©) -->
+
 <Root>
 	<Entry>
 		<zType/>
@@ -201,8 +201,8 @@
 		<Translation>Söldner~ein Söldner~Söldner</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_CONCEPT_PROJECT_INFO</zType>
-		<Translation>Projekt</Translation>
+		<zType>TEXT_CONCEPT_PROJECT</zType>
+		<Translation>Projekt~ein Projekt~Projekte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_PROMOTION</zType>
@@ -605,8 +605,8 @@
 		<Translation>Erlasse link(LAW_VASSALAGE</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_COLONIZATION</zType>
-		<Translation>Erlasse link(LAW_COLONIZATION)</Translation>
+		<zType>TEXT_GOAL_COLONIES</zType>
+		<Translation>Erlasse link(LAW_COLONIES)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_SERFDOM</zType>
@@ -1885,6 +1885,10 @@
 		<Translation>Wölbung</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TECH_BODKIN_ARROW_BONUS_TRAINING</zType>
+		<Translation>link(YIELD_TRAINING) Boost</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TECH_COHORTS</zType>
 		<Translation>Kohorten</Translation>
 	</Entry>
@@ -1899,10 +1903,6 @@
 	<Entry>
 		<zType>TEXT_TECH_WINDLASS_BONUS_CROSSBOWMAN</zType>
 		<Translation>Freier Armbrustschütze</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TECH_BALLISTICS</zType>
-		<Translation>Ballistik</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_LATEEN_SAIL</zType>

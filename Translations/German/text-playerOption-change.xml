@@ -1,0 +1,180 @@
+<!-- German Translation (© Revan ©) -->
+
+<Root>
+	<Entry>
+		<zType/>
+		<Translation/>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_NO_TUTORIAL</zType>
+		<Translation>Disable Tutorial</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_NO_TUTORIAL_DESC</zType>
+		<Translation>Tutorial Events do not occur</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_NO_REPLAY_DESC</zType>
+		<Translation>Replay support requires a larger amount of available system memory</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_INSTANT_UNIT_MOVEMENT</zType>
+		<Translation>Instant Unit Movement</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_INSTANT_UNIT_MOVEMENT_DESC</zType>
+		<Translation>Don't animate your team's Unit movement</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_UNIT_CYCLING</zType>
+		<Translation>Unit Cycling</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_UNIT_CYCLING_DESC</zType>
+		<Translation>Automatically cycle to next idle Unit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_FATIGUE_CYCLING</zType>
+		<Translation>Fatigued Unit Cycling</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_FATIGUE_CYCLING_DESC</zType>
+		<Translation>Fatigued Units included in selection cycling</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_DISABLE_EDGE_SCROLLING</zType>
+		<Translation>Disable Edge Scrolling</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_DISABLE_EDGE_SCROLLING_DESC</zType>
+		<Translation>Do not scroll the map when the mouse is at a screen edge (fullscreen mode only)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_MOVE_TO_FATIGUE</zType>
+		<Translation>Move to Fatigue Limit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_MOVE_TO_FATIGUE_DESC</zType>
+		<Translation>Clicking outside Fatigue limit does not queue up a multi-turn move</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_SHOW_ORDERS_COST</zType>
+		<Translation>Show Orders Cost</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_SHOW_ORDERS_COST_DESC</zType>
+		<Translation>Show Orders Cost instead of Orders left for each move</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_HIDE_MINIMAP</zType>
+		<Translation>Hide Minimap</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_HIDE_MINIMAP_DESC</zType>
+		<Translation>Hide the minimap in the interface</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_HIDE_COUNCIL</zType>
+		<Translation>Hide Council</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_HIDE_COUNCIL_DESC</zType>
+		<Translation>Hide the council panel in the interface</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_MINI_TECH_CARDS</zType>
+		<Translation>Use Minimized Tech Cards</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_MINI_TECH_CARDS_DESC</zType>
+		<Translation>Always use mini tech card display instead of choose research popup</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_COMPACT_TECH_TREE</zType>
+		<Translation>Show Compact Tech Tree</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_COMPACT_TECH_TREE_DESC</zType>
+		<Translation>Show mini cards on Technology Tree instead of detailed technology information</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_SHOW_SYSTEM_TIME</zType>
+		<Translation>Show System Time</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_SHOW_SYSTEM_TIME_DESC</zType>
+		<Translation>Show system time in the interface</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_HIDE_LANDMARK_NAMES</zType>
+		<Translation>Hide Landmark Names</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_HIDE_LANDMARK_NAMES_DESC</zType>
+		<Translation>Hide map element names (e.g. Mountains, Volcanoes, etc.)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_FLIP_UNIT_COLORS</zType>
+		<Translation>Flip Unit Colors</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_FLIP_UNIT_COLORS_DESC</zType>
+		<Translation>Flip unit primary and secondary colors</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_SHOW_RIVAL_FAMILY_COLORS</zType>
+		<Translation>Show Foreign Family Colors</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_SHOW_RIVAL_FAMILY_COLORS_DESC</zType>
+		<Translation>Show Family colors for Foreign Units</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_HIDE_UNIT_MOVEMENT_STEPS</zType>
+		<Translation>Hide Unit Movement Steps</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_HIDE_UNIT_MOVEMENT_STEPS_DESC</zType>
+		<Translation>Hide the movement range for each step of the selected Unit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_SHOW_GHOST_UNITS</zType>
+		<Translation>Show Ghost Units</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_SHOW_GHOST_UNITS_DESC</zType>
+		<Translation>Show units recently visible</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_MUTE_AUDIO</zType>
+		<Translation>Mute</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_MUTE_AUDIO_DESC</zType>
+		<Translation>Don't play any audio</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_SKIP_LICENSED_MUSIC_TRACKS</zType>
+		<Translation>Skip Licensed Music Tracks</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_SKIP_LICENSED_MUSIC_TRACKS_DESC</zType>
+		<Translation>For livestreamers: Skip any music tracks with licensed content, to help avoid copyright strikes on streaming platforms.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_AZERTY_KEYBOARD</zType>
+		<Translation>AZERTY Keyboard</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_AZERTY_KEYBOARD_DESC</zType>
+		<Translation>Map hotkeys to their locations in an AZERTY keyboard</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_DEBUG_HELP</zType>
+		<Translation>Debug help</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_DEBUG_HELP_DESC</zType>
+		<Translation>Enable tooltips for debugging</Translation>
+	</Entry>
+</Root>

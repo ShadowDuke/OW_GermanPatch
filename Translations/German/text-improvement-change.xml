@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSpy v2014 rel. 2 (x64) (http://www.altova.com) by Soren Johnson (private) -->
+<!-- German Translation (© Revan ©) -->
+
 <Root>
 	<!--Assets/GameAssets/Resources/Infos/improvement.xml-->
 	<!--NOTE: improvement names that are mass nouns or plural do not need multiple types in Translation-->
@@ -60,12 +60,12 @@
 		<Translation>Mine~eine Mine~Minen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_IMPROVEMENT_LUMBERMILL</zType>
-		<Translation>Sägewerk~ein Sägewerk~Sägewerken</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_IMPROVEMENT_QUARRY</zType>
 		<Translation>Steinbruch~ein Steinbruch~Steinbrüchen</Translation>
+	</Entry>
+		<Entry>
+		<zType>TEXT_IMPROVEMENT_LUMBERMILL</zType>
+		<Translation>Sägewerk~ein Sägewerk~Sägewerken</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_PASTURE</zType>

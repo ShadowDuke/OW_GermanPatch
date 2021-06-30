@@ -1018,22 +1018,6 @@
 		<Translation>Hunting Grounds Dispute</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_PLAYER_WAR_AT_PEACE_PROBLEM_TITLE</zType>
-		<Translation>{PLAYER-0,2} Raiders</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_PLAYER_WAR_AT_PEACE_INCIDENT_TITLE</zType>
-		<Translation>Foreign Offenses</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_PLAYER_WAR_AT_TRUCE_PROBLEM_TITLE</zType>
-		<Translation>Rabble Rousers</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_PLAYER_WAR_AT_TRUCE_INCIDENT_TITLE</zType>
-		<Translation>Diplomatic Scandal</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_TITLE</zType>
 		<Translation>Agitated Nation</Translation>
 	</Entry>
@@ -5124,10 +5108,6 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CENTRALIZATION_VASSALAGE_TITLE</zType>
 		<Translation>link(LAW_CENTRALIZATION) or link(LAW_VASSALAGE)</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_COLONIZATION_SERFDOM_TITLE</zType>
-		<Translation>link(LAW_COLONIZATION) or link(LAW_SERFDOM)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MONOTHEISM_POLYTHEISM_TITLE</zType>

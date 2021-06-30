@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<!-- German Translation (© Revan ©) -->
+
 <Root>
-	<!-- Title -->
 	<Entry>
 		<zType/>
 		<Translation/>
@@ -184,18 +184,10 @@
 		<zType>TEXT_CHARACTER_YOUR_HEIR</zType>
 		<Translation>Dein Erbe</Translation>
 	</Entry>
-	<Entry>
-		<zType>TEXT_CHARACTER_YOUR_SUCCESSOR</zType>
-		<Translation>Dein Nachfolger</Translation>
-	</Entry>
 	<!-- Name -->
 	<Entry>
 		<zType>TEXT_CHARACTER_FULL_NAME_EXTRA</zType>
 		<Translation> ({0_data})</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_CHARACTER_NAME_WITH_CREST</zType>
-		<Translation>{0_name} {1_crest}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_FIRST_AND_LAST_NAME</zType>
@@ -219,15 +211,11 @@
 	</Entry>
 	<!--Game Text-->
 	<Entry>
-		<zType>TEXT_COUNCIL_HAS_DIED</zType>
-		<Translation>Dein {0_council}, {1_character}, ist gestorben!</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_CHARACTER_HAS_DIED</zType>
 		<Translation>{0_character} ist gestorben!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_LEADER_NEW_COGNOMEN</zType>
-		<Translation><![CDATA[<comment variable 0 is leader for gender purposes>Du bist nun bekannt als {1_cognomen}!]]></Translation>
+		<Translation>Du bist nun bekannt als 0_name {1_cognomen}!</Translation>
 	</Entry>
 </Root>

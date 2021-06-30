@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Andy Auseon (Mohawk Games) -->
+<!-- German Translation (© Revan ©) -->
+
 <Root>
 	<Entry>
 		<zType/>
@@ -207,39 +207,39 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_RELEASE_GRATEFUL_DESCRIPTION</zType>
-		<Translation><![CDATA[{CHARACTER-TARGET} wurde aus dem Gefägnis entlassen. Dankbar wieder frei zu sein, <masculine_CHARACTER-TARGET>er<feminine>sie<end> hat euch eure Geringschätzug der Vergangenheit gegen <masculine_CHARACTER-TARGET>ihn<feminine>ihr<end> verziehen.]]></Translation>
+		<Translation><![CDATA[{CHARACTER-SUBJECT} wurde aus dem Gefägnis entlassen. Dankbar wieder frei zu sein, <masculine_CHARACTER-SUBJECT>er<feminine>sie<end> hat euch eure Geringschätzug der Vergangenheit gegen <masculine_CHARACTER-SUBJECT>ihn<feminine>ihr<end> verziehen.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_RELEASE_BITTER_DESCRIPTION</zType>
-		<Translation><![CDATA[{CHARACTER-TARGET} wurde aus dem Gefägnis entlassen, aber geht einen bitteren Groll gegen Dich für <masculine_CHARACTER-TARGET>seine<feminine>ihre<end> Inhaftierung.]]></Translation>
+		<Translation><![CDATA[{CHARACTER-SUBJECT} wurde aus dem Gefägnis entlassen, aber geht einen bitteren Groll gegen Dich für <masculine_CHARACTER-SUBJECT>seine<feminine>ihre<end> Inhaftierung.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_RELEASE_UNJUST_DESCRIPTION</zType>
-		<Translation><![CDATA[{CHARACTER-TARGET} wurde aus dem Gefägnis entlassen, und ist nicht verlegen sich über <masculine_CHARACTER-TARGET>ihn<feminine>sie<end> für die ungerechte Inhaftierung zu beschweren.]]></Translation>
+		<Translation><![CDATA[{CHARACTER-SUBJECT} wurde aus dem Gefägnis entlassen, und ist nicht verlegen sich über <masculine_CHARACTER-TARGET>ihn<feminine>sie<end> für die ungerechte Inhaftierung zu beschweren.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_CAPTURE_SURRENDER_DESCRIPTION</zType>
-		<Translation><![CDATA[Deine Bemühungen {CHARACTER-TARGET} gefangen zu nehmen waren erfolgreich. <masculine_CHARACTER-TARGET>Er<feminine>Sie<end> hat sich ergeben wurde in Gewahrsam genommen.]]></Translation>
+		<Translation><![CDATA[Deine Bemühungen {CHARACTER-SUBJECT} gefangen zu nehmen waren erfolgreich. <masculine_CHARACTER-SUBJECT>Er<feminine>Sie<end> hat sich ergeben wurde in Gewahrsam genommen.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_CAPTURE_KILLED_DESCRIPTION</zType>
-		<Translation><![CDATA[{CHARACTER-TARGET} weigerte sich der Gruppe zu ergeben die du geschickt hast um <masculine_CHARACTER-TARGET>ihn<feminine>sie<end> gefangen zu nehmen, wählte Tot über Gefangenschaft.]]></Translation>
+		<Translation><![CDATA[{CHARACTER-SUBJECT} weigerte sich der Gruppe zu ergeben die du geschickt hast um <masculine_CHARACTER-SUBJECT>ihn<feminine>sie<end> gefangen zu nehmen, wählte Tot über Gefangenschaft.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_CAPTURE_FLEE_DESCRIPTION</zType>
-		<Translation><![CDATA[{CHARACTER-TARGET} wich deinen Spürhunden aus und floh aus dem Staat! <masculine_CHARACTER-TARGET>Er<feminine>Sie<end> versteckt sich nun irgendwo ausserhalb deines Einflussbereiches...]]></Translation>
+		<Translation><![CDATA[{CHARACTER-SUBJECT} wich deinen Spürhunden aus und floh aus dem Staat! <masculine_CHARACTER-SUBJECT>Er<feminine>Sie<end> versteckt sich nun irgendwo ausserhalb deines Einflussbereiches...]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PAY_RANSOM_DESCRIPTION</zType>
-		<Translation><![CDATA[Deine Spürhunde haben versagt den Aufenthaltsort von {CHARACTER-TARGET} aufzuspüren. Wir können nur sicher sein, dass <masculine_CHARACTER-TARGET>er<feminine>sie<end> weiterhin auf der Flucht ist.]]></Translation>
+		<Translation><![CDATA[You have paid the ransom for {CHARACTER-SUBJECT} and secured <masculine_CHARACTER-SUBJECT>his<feminine>her<end> release!]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_MARRY_COURTIER_DESCRIPTION</zType>
-		<Translation>Gute Nachrichten: {CHARACTER-SUBJECT} hat deinem Heiratsangebot zugestimmt. Herlichen Glückwunsch!</Translation>
+		<Translation>Gute Nachrichten: {CHARACTER-TARGET} hat deinem Heiratsangebot zugestimmt. Herlichen Glückwunsch!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_DIVORCE_DESCRIPTION</zType>
-		<Translation>Nach einem bisschen Überzeugungsarbeit, hat {CHARACTER-SUBJECT} einer gemeinsamen Heiratsübereinstimmung zugestimmt.</Translation>
+		<Translation>Nach einem bisschen Überzeugungsarbeit, hat {CHARACTER-TARGET} einer gemeinsamen Heiratsübereinstimmung zugestimmt.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_DIVORCE_EVENT_DESCRIPTION</zType>
@@ -428,11 +428,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_CONVERT_SELF</zType>
-		<Translation>Converted Religion</Translation>
+		<Translation>Converted Your Religion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_CONVERT_SELF_EVENT</zType>
-		<Translation>Convert Self Event</Translation>
+		<Translation>Convert Your Religion Event</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_CONVERT_RELIGION</zType>

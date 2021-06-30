@@ -1,11 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSpy v2020 (x64) (http://www.altova.com) by Andrew Auseon (Private) -->
+<!-- German Translation (© Revan ©) -->
+
 <Root>
 	<!--Assets/GameAssets/Resources/Infos/effectPlayer.xml-->
 	<Entry>
 		<zType/>
 		<Translation/>
 	</Entry>
+	<!--Source-->
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_CAPITAL_SOURCE</zType>
+		<Translation>in der link(CONCEPT_CAPITAL)</Translation>
+	</Entry>
+	<!--Name-->
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_BASE</zType>
 		<Translation>Grundlage</Translation>
@@ -54,133 +60,9 @@
 		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_GREAT</zType>
 		<Translation>Der Große</Translation>
 	</Entry>
-  <Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_EPICS</zType>
-		<Translation>Anforderungen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_EXPLORATION</zType>
-		<Translation>Erkundung</Translation>
-	</Entry>
-  <Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_SLAVERY</zType>
-		<Translation>Sklaverei</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_FREEDOM</zType>
-		<Translation>Freiheit</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_TYRANNY</zType>
-		<Translation>Tyrannei</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_CONSTITUTION</zType>
-		<Translation>Verfassung</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_CENTRALIZATION</zType>
-		<Translation>Zentralisierung</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_VASSALAGE</zType>
-		<Translation>Vasallentum</Translation>
-	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_LAW_CONSTITUTION_DECREE</zType>
 		<Translation>Erlässe in Hauptstadt</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_COLONIZATION</zType>
-		<Translation>Kolonisierung</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_SERFDOM</zType>
-		<Translation>Leibeigenschaft</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_MONOTHEISM</zType>
-		<Translation>Monotheismus</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_POLYTHEISM</zType>
-		<Translation>Polytheismus</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_DIVINE_RULE</zType>
-		<Translation>Göttliche Herrschaft</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_LEGAL_CODE</zType>
-		<Translation>Gesetzbuch</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_TOLERANCE</zType>
-		<Translation>Tolleranz</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_ORTHODOXY</zType>
-		<Translation>Rechtgläubigkeit</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_PROFESSIONAL_ARMY</zType>
-		<Translation>Berufsarmee</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_VOLUNTEERS</zType>
-		<Translation>Freiwillige</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_PHILOSOPHY</zType>
-		<Translation>Philosophie</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_ENGINEERING</zType>
-		<Translation>Konstruktionswesen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_ICONOGRAPHY</zType>
-		<Translation>Bilddeutung</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_CALLIGRAPHY</zType>
-		<Translation>Schönschrift</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_PILGRIMAGE</zType>
-		<Translation>Pilgerschaft</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_HOLY_WAR</zType>
-		<Translation>Heiliger Krieg</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_GUILDS</zType>
-		<Translation>Gilden</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_ELITES</zType>
-		<Translation>Eliten</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_AUTARKY</zType>
-		<Translation>Autarkie</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_TRADE_LEAGUE</zType>
-		<Translation>Handelsverband</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_TRADE_LEAGUE_CONVOY</zType>
-		<Translation>Eskorte</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_COIN_DEBASEMENT</zType>
-		<Translation>Münz Wertminderung</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LAW_MONETARY_REFORM</zType>
-		<Translation>Münzreform</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TECH_LABOR_FORCE</zType>
@@ -195,52 +77,56 @@
 		<Translation>Automatisiere link(UNIT_WORKER,2)</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTPLAYER_TECH_NAVIGATION</zType>
+		<Translation>Automatisiere link(UNIT_SCOUT,2)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTPLAYER_VICTORY_POINT</zType>
 		<Translation>Siegpunkt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_HERO_ARCHETYPE</zType>
-		<Translation>Anführer der Helden</Translation>
+		<Translation>Anführer der link(TRAIT_HERO_ARCHETYPE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_TACTICIAN_ARCHETYPE</zType>
-		<Translation>Anführer der Taktiker</Translation>
+		<Translation>Anführer der link(TRAIT_TACTICIAN_ARCHETYPE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_COMMANDER_ARCHETYPE</zType>
-		<Translation>Anführer der Befehlshaber</Translation>
+		<Translation>Anführer der link(TRAIT_COMMANDER_ARCHETYPE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_ZEALOT_ARCHETYPE</zType>
-		<Translation>Anführer der Fanatiker</Translation>
+		<Translation>Anführer der link(TRAIT_ZEALOT_ARCHETYPE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_JUDGE_ARCHETYPE</zType>
-		<Translation>Anführer der Richter</Translation>
+		<Translation>Anführer der link(TRAIT_JUDGE_ARCHETYPE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_ORATOR_ARCHETYPE</zType>
-		<Translation>Anführer der Redner</Translation>
+		<Translation>Anführer der link(TRAIT_ORATOR_ARCHETYPE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_SCHOLAR_ARCHETYPE</zType>
-		<Translation>Anführer der Wissenschaftler</Translation>
+		<Translation>Anführer der link(TRAIT_SCHOLAR_ARCHETYPE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_SCHOLAR_ARCHETYPE_INQUIRY</zType>
-		<Translation>Forscher in der Hauptstadt</Translation>
+		<Translation>Forscher in der link(CONCEPT_CAPITAL)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_BUILDER_ARCHETYPE</zType>
-		<Translation>Anführer der Baumeister</Translation>
+		<Translation>Anführer der link(TRAIT_BUILDER_ARCHETYPE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_SCHEMER_ARCHETYPE</zType>
-		<Translation>Anführer der Intriganten</Translation>
+		<Translation>Anführer der link(TRAIT_SCHEMER_ARCHETYPE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_DIPLOMAT_ARCHETYPE</zType>
-		<Translation>Wortführer der Diplomaten</Translation>
+		<Translation>Wortführer der link(TRAIT_DIPLOMAT_ARCHETYPE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_HIGH_SCIENCE</zType>
@@ -249,6 +135,18 @@
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_VERY_HIGH_SCIENCE</zType>
 		<Translation>Sehr hohe Wissenschaft</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_UPKEEP_MEDIUM_ORDERS</zType>
+		<Translation>Mittlere Befehle</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_UPKEEP_HIGH_ORDERS</zType>
+		<Translation>Hohe Befehle</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTPLAYER_UPKEEP_VERY_HIGH_ORDERS</zType>
+		<Translation>Sehr hohe Befehle</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_LOW_CIVICS</zType>

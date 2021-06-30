@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSpy v2018 sp1 (x64) (http://www.altova.com) by Joel Bowers (Mohawk Games) -->
+<!-- German Translation (© Revan ©) -->
+
 <Root>
 	<Entry>
 		<zType/>
@@ -34,28 +34,24 @@
 		<Translation>{0_barbarians}: {1_newDiplomacy}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_UNIT_COMBAT_EFFECT_LOG_DATA</zType>
-		<Translation>{0_character} ist jetzt {1_trait} vom Gefecht!</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GAME_TEAM_CONTACT_LOG_DATA</zType>
 		<Translation>Du hast {0_team} getroffen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TEAM_NEW_DIPLOMACY</zType>
-		<Translation>{0_team} hat nun {1_newDiplomacy} mit {2_team}.</Translation>
+		<Translation>{true_3:{0_team} erklärt {1_newDiplomacy} an {2_team}.:{0_team} hat nun {1_newDiplomacy} mit {2_team}.}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TEAM_FROM_DIPLOMACY_LOG_DATA</zType>
-		<Translation>{true_2:Declared {1_newDiplomacy} on {0_team}:Made {1_newDiplomacy} with {0_team}}</Translation>
+		<Translation>{true_2:Erklärt {1_newDiplomacy} an {0_team}: {1_newDiplomacy} mit {0_team}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TEAM_TO_DIPLOMACY_LOG_DATA</zType>
-		<Translation>{true_2:{0_team} Declared {1_newDiplomacy} on us:Made {1_newDiplomacy} with {0_team}}</Translation>
+		<Translation>{true_2:{0_team} Erklärt {1_newDiplomacy} an uns: {1_newDiplomacy} mit {0_team}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TEAM_ALLIANCE_WAR</zType>
-		<Translation>Wegen einer Verbindung(CONCEPT_ALLIANCE_PLAYER) zu {0_team}, {1_player} erklärt {2_player} den Krieg!</Translation>
+		<Translation>Because of an link(CONCEPT_ALLIANCE_PLAYER) with {0_team}, {1_player} responds to the link(DIPLOMACY_WAR) Declaration by {2_team} with link(DIPLOMACY_WAR)!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TRIBE_ALLIANCE_WAR</zType>
@@ -91,11 +87,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_RELIGION_FAMILY</zType>
-		<Translation>Die {0_family} Familie ist zu {1_religion} konvertiert!</Translation>
+		<Translation>Die {0_family} Familie ist zu {1_religion} konvertiert. (Deren Meinung von euch ist jetzt {2_opinion}.)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_RELIGION_TRIBE</zType>
-		<Translation>Die {0_tribe} sind zum {1_religion} konvertiert!</Translation>
+		<Translation>Die {0_tribe} sind zum {1_religion} konvertiert. (Deren Meinung von euch ist jetzt {2_opinion}.)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_RELIGION_PLAYER</zType>
+		<Translation>{0_player} ist zum {1_religion} konvertiert.{true_2: (Deren Meinung von euch ist jetzt {2_opinion}.)}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_NO_RELIGION_PLAYER</zType>
+		<Translation>{0_player} hat nicht länger eine Staatsreligion. (Deren Meinung von euch ist jetzt {1_opinion}.)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_FAMILY_HEAD</zType>
@@ -103,7 +107,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_IMPROVEMENT_PILLAGED</zType>
-		<Translation>{0_improvement} will disappear in {1} {2_turnScale}!</Translation>
+		<Translation>{0_improvement} wird in {1} {2_turnScale} verschwinden!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_IMPROVEMENT_STARTED</zType>
@@ -115,23 +119,27 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_RELIGION_SPREAD_TO_CITY</zType>
-		<Translation>{0_religion} breitet sich nach {1_city} aus</Translation>
+		<Translation>{0_religion} breitet sich nach {1_city} aus.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DOOMED_POPUP</zType>
 		<Translation>Deine Ärzte und Wahrsager haben dich gewarnt, das Ende ist Nah! Zeit um deine Angelegenheiten zu erledigen.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_NEW_RULER</zType>
+		<Translation>Ein neuer Herrscher, {0_newLeader}, hat den Thron übernommen.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_OTHER_TEAM_NEW_RULER_POPUP</zType>
-		<Translation>Nachrichten außer Landes haben uns erreicht das {0_oldLeader} Tot ist. Ein neuer Herrscher, {1_newLeader}, hat den Thron übernommen.</Translation>
+		<Translation>Nachrichten außer Landes haben uns erreicht, das {0_oldLeader} Tot ist. Ein neuer Herrscher, {1_newLeader}, hat den Thron übernommen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_OTHER_TEAM_NEW_RULER_ABDICATE_POPUP</zType>
-		<Translation>News has arrived from abroad that {0_oldLeader} has abdicated. A new ruler, {1_newLeader}, has taken the throne.</Translation>
+		<Translation>Nachrichten außer Landes haben uns erreicht, das {0_oldLeader} abgedankt hat. Ein neuer Herrscher, {1_newLeader}, hat den Thron übernommen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TRIBE_NEW_RULER_POPUP</zType>
-		<Translation>News has arrived from abroad that {0_oldLeader} is dead. {1_newLeader} now leads the {2_tribe}.</Translation>
+		<Translation>Nachrichten außer Landes haben uns erreicht, das {0_oldLeader} tot ist {1_newLeader} führt nun die {2_tribe} an.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_NEW_LAW_FOR_HEIR_POPUP</zType>
@@ -183,7 +191,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_AMBITION_IMPOSSIBLE</zType>
-		<Translation>Diese Ambition ist nun unmöglich und wurde entfernt: {0}</Translation>
+		<Translation>Diese {true_1:Legacy:Ambition} ist nun unmöglich und wurde entfernt: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_QUEST_IMPOSSIBLE</zType>
@@ -191,7 +199,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_BARBARIAN_WAVE_COMING_POPUP</zType>
-		<Translation>Deine Wachen infomrieren dich, dass eine Barbaren Welle sehr wahrscheinlich in den nächsten Jahren aufbrechen wird.</Translation>
+		<Translation>Deine Wachen infomrieren dich, dass eine link(TRIBE_BARBARIANS,1) Welle sehr wahrscheinlich in den nächsten Jahren aufbrechen wird.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_COURTIER_JOINED_POPUP</zType>
@@ -215,7 +223,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_COVER_DEBTS_LOG_DATA</zType>
-		<Translation>Verkaufe {0_goodsList} um deine Schulde zu begleichen!</Translation>
+		<Translation>Verkaufe {0_goodsList} um deine Schulden zu begleichen!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_SHORTFALL_LOG_DATA</zType>
@@ -235,31 +243,27 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CITY_FINISHED_PROJECT_LOG_DATA</zType>
-		<Translation>{0_city} hat ein Projekt beendet: {1_project}</Translation>
+		<Translation>{0_city} hat ein link(CONCEPT_PROJECT,1) beendet: {1_project}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CITY_DEVELOPED_SPECIALIST_LOG_DATA</zType>
-		<Translation>{0_city} bildet {1,1_specialist} aus</Translation>
+		<Translation>{0_city} bildete einen link(CONCEPT_SPECIALIST,1) aus:  {1_specialist}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CITY_TRAINED_UNIT_LOG_DATA</zType>
-		<Translation>{0_city} trainiert {1,1_unit}</Translation>
+		<Translation>{0_city} trainierte eine Einheit: {1_unit}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CHARACTER_GAINS_TRAIT</zType>
-		<Translation>{0_character} ist jetzt {1_trait}!</Translation>
+		<Translation>{0_character} hat jetzt die {1_trait} Eigenschaft.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CHARACTER_LOSES_TRAIT</zType>
-		<Translation>{0_character} ist nicht länger {1_trait}!</Translation>
+		<Translation>{0_character} hat nicht länger die {1_trait} Eigenschaft.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CHARACTER_RATING_CHANGE</zType>
 		<Translation>{0_character}: {1_value} {2_rating}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GAME_CHARACTER_ACQUIRES_TRAIT</zType>
-		<Translation>{0_character} hat eine neue Eigenschaft erlangt: {1_trait}!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_LANDMARK_DISCOVERED</zType>
@@ -270,8 +274,12 @@
 		<Translation>Ihr seid der erste, der dieses Wahrzeichen entdeckt habt. Wie werdet ihr es nennen?</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_RAID_WARNING</zType>
+		<zType>TEXT_GAME_TRIBE_RAID_WARNING</zType>
 		<Translation>Berichte von einem Überfall von {0,2_tribe} {1_improvement} in der Nähe von {2_city}!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_BOUNDARY_RAID_WARNING</zType>
+		<Translation>Reports of a Raid from distant lands near {0_city}!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_GIVE_BIRTH_LOG_DATA</zType>
@@ -388,6 +396,14 @@
 		<Translation>{0_diplomacy} mit {1_player}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_DIPLOMACY_HOSTILE_FROM</zType>
+		<Translation>Erklärt {0_diplomacy} an {1_player}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_DIPLOMACY_HOSTILE_TO</zType>
+		<Translation>{1_player} erklärt {0_diplomacy}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_ALLIANCE_WITH</zType>
 		<Translation>{0_player} im Bündnis mit {1_other}</Translation>
 	</Entry>
@@ -492,6 +508,10 @@
 		<Translation>{0_character} wird link(CONCEPT_AGENT)</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_DISTANT_RAID</zType>
+		<Translation>Entfernter Überfall</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_PLUS_ONE</zType>
 		<Translation>+1 {0}</Translation>
 	</Entry>
@@ -501,11 +521,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_MEMORY_CHARACTER</zType>
-		<Translation>{0_memory} ({1_value} Meinung)</Translation>
+		<Translation>{0_memory}, {1_value} Meinung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_FORGET_CHARACTER</zType>
-		<Translation>Vergisst {0_memory} ({1_value} Meinung)</Translation>
+		<Translation>Vergisst {0_memory} (Derzeitige {1_value} Meinung)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DO_BONUS_DESIRED_AMBITION</zType>
@@ -533,7 +553,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_STARTS_MISSION_FREE</zType>
-		<Translation>Free</Translation>
+		<Translation>Frei</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_VICTORY</zType>
@@ -700,6 +720,10 @@
 		<Translation>{0_city} wurde dem Erdboden gleichgemacht!</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_CITY_BREACHED_LOG_DATA</zType>
+		<Translation>{0_city} wurde durchbrochen von {1_playerOrTribe}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_CITY_CAPTURED_LOG_DATA</zType>
 		<Translation>{0_city} eingenommen von {1_player}</Translation>
 	</Entry>
@@ -725,7 +749,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_UNIT_SEEN</zType>
-		<Translation>Feindliche {0_owner} {1_unit} gesehen!</Translation>
+		<Translation>Feindliche {0_owner} {1_unit} gesehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_UNIT_MOVE_CANCELLED</zType>
@@ -791,7 +815,11 @@
 	<Entry>
 		<zType>TEXT_GAME_TILE_NOT_UNLIMBERED</zType>
 		<Translation>Not Unlimbered</Translation>
-	</Entry>	 
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_TILE_REQUIRES_ANCHORED</zType>
+		<Translation>Benötigtes geankertes Schiff </Translation>
+	</Entry> 
 	<!--Unit-->
 	<Entry>
 		<zType>TEXT_GAME_UNIT_TILE_DAMAGE</zType>
@@ -799,7 +827,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_UNIT_TILE_LEVEL_UP</zType>
-		<Translation>{0} Neue Stufe!</Translation>
+		<Translation>{0} Neue Stufe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_UNIT_TILE_GAIN_XP</zType>
@@ -823,7 +851,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_UNIT_RECEIVED_CARAVAN_MISSION</zType>
-		<Translation>link(CONCEPT_CARAVAN_MISSION) arrives from {0_player}: {1_money}</Translation>
+		<Translation>link(CONCEPT_CARAVAN_MISSION) kommt von {0_player}: {1_money}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_UNIT_STUNNED</zType>
@@ -832,7 +860,7 @@
 	<!--City-->
 	<Entry>
 		<zType>TEXT_GAME_CITY_YIELD_FROM_CULTURE_EVENT</zType>
-		<Translation>{0} von link(CONCEPT_CULTURE_EVENT)</Translation>
+		<Translation>Von link(CONCEPT_CULTURE_EVENT): {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CITY_REBEL_UNITS_NEAR_CITY</zType>
@@ -869,11 +897,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_PLAYER_FAILED_TO_UPLOAD_TO_CLOUD_POPUP</zType>
-		<Translation>Hochladen fehlgeschlagen</Translation>
+		<Translation>Failed to upload. Please exit and replay your turn.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_PLAYER_YIELD_GIFT_RECIEVED</zType>
-		<Translation>{0_amount} {1} bekommen!</Translation>
+		<Translation>{0_amount} {1} bekommen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_PLAYER_DECLARED_WAR_ON</zType>
@@ -887,4 +915,68 @@
 		<zType>TEXT_GAME_PLAYER_AI_ORDERS_TO_TEAMMATES</zType>
 		<Translation>{0_player} schenkt euch {1} unbenutzte {2_yield}</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_WISDOM_GAIN_1</zType>
+		<Translation>{0} has recently proven {masculine_0:his:her} good sense and insight. {masculine_0:He:She} has gained {1} {2}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_WISDOM_GAIN_2</zType>
+		<Translation>{0} has reflected on {masculine_0:his:her} recent experiences, and absorbed many important lessons. {masculine_0:He:She} has gained {1} {2}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_WISDOM_LOSS_1</zType>
+		<Translation>The recent actions of {0} have called into question the soundness of {masculine_0:his:her} judgement. {masculine_0:He:She} has lost {1} {2}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_WISDOM_LOSS_2</zType>
+		<Translation>{0} has made one mistake after another as of late, and many have begun to question {masculine_0:his:her} judgement. {masculine_0:He:She} has lost {1} {2}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_CHARISMA_GAIN_1</zType>
+		<Translation>{0} has grown more confident and charming. {masculine_0:He:She} has gained {1} {2}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_CHARISMA_GAIN_2</zType>
+		<Translation>Self-assured and assertive, {0} exudes an aura of confidence. {masculine_0:He:She} has gained {1} {2}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_CHARISMA_LOSS_1</zType>
+		<Translation>{0} has lost some of {masculine_0:his:her} confidence and ability to charm. {masculine_0:He:She} has lost {1} {2}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_CHARISMA_LOSS_2</zType>
+		<Translation>Recent events have shaken the confidence of {0}, and {masculine_0:he:she} has lost some of {masculine_0:his:her} charm. {masculine_0:He:She} has lost {1} {2}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_COURAGE_GAIN_1</zType>
+		<Translation>{0} still feels fear, as does any sane {masculine_0:man:woman}, but {masculine_0:he:she} never lets it stop {masculine_0:him:her}. {masculine_0:He:She} has gained {1} {2}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_COURAGE_GAIN_2</zType>
+		<Translation>More confident than ever in the face of danger, {0} has gained {1} {2}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_COURAGE_LOSS_1</zType>
+		<Translation>{0} has been overcome by fear, and has lost {1} {2}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_COURAGE_LOSS_2</zType>
+		<Translation>After recent exposures to danger, {0} has acquired new phobias, and lost {1} {2}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_DISCIPLINE_GAIN_1</zType>
+		<Translation>{0} follows a strict regime, never taking the easy way if it is not the best way. {masculine_0:He:She} has gained {1} {2}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_DISCIPLINE_GAIN_2</zType>
+		<Translation>There is no easy day in the life of {0}! {masculine_0:He:She} has gained {1} {2}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_DISCIPLINE_LOSS_1</zType>
+		<Translation>{0} gives into {masculine_0:his:her} basic desires more often lately. {masculine_0:He:She} has lost {1} {2}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_DISCIPLINE_LOSS_2</zType>
+		<Translation>Ever more slothful and lazy, {0} has stopped following {masculine_0:his:her} strict regimen of diet and exercise. {masculine_0:He:She} has lost {1} {2}.</Translation>
+	</Entry> 
 </Root>

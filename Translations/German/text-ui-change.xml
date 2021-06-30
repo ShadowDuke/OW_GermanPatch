@@ -1,4 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<!-- German Translation (© Revan ©) -->
+
 <Root>
     <Entry>
         <zType/>
@@ -96,6 +97,10 @@
 	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_ACHIEVEMENT</zType>
 		<Translation>ACHIEVEMENT</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_CHARACTER_SUCCESSION</zType>
+		<Translation>NACHFOLGE</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_DO_BONUS</zType>
@@ -262,6 +267,10 @@
 		<Translation>OFFENSIVE starten</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_OFFENSIVE_LAUNCHED</zType>
+		<Translation>OFFENSIVE GESTARTET</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_GIFT_GOOD</zType>
 		<Translation>SCHENKE GUT</Translation>
 	</Entry>
@@ -308,6 +317,10 @@
 	<Entry>
 		<zType>TEXT_UI_TILE_BOUNDARY_TOOLTIP_LAND_BODY</zType>
 		<Translation>Hier sind Löwen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_CITY_TOOLTIP_CAPTURING</zType>
+		<Translation>Einnehmen ({true_1:PAUSED:{0_player}})</Translation>
 	</Entry>
     <Entry>
         <zType>TEXT_UI_CITY_TOOLTIP_FAMILY</zType>
@@ -526,14 +539,6 @@
 		<Translation>{0} EP</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_CITY_ACTIONS_PROJECTS_CATEGORY</zType>
-		<Translation>Projekte</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_UI_CITY_ACTIONS_SPECIALISTS_CATEGORY</zType>
-		<Translation>Spezialisten</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_UI_CITY_ACTIONS_PRODUCTION_CATEGORY_GROWTH</zType>
 		<Translation>Wachstum</Translation>
 	</Entry>
@@ -544,6 +549,14 @@
 	<Entry>
 		<zType>TEXT_UI_CITY_ACTIONS_PRODUCTION_CATEGORY_CIVICS</zType>
 		<Translation>Verwaltung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_CITY_ACTIONS_PRODUCTION_CATEGORY_PROJECTS</zType>
+		<Translation>Verwaltung - Projekte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_CITY_ACTIONS_PRODUCTION_CATEGORY_SPECIALISTS</zType>
+		<Translation>Verwaltung - Spezialisten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTER_ACTIONS_SEND_RESOURCE</zType>
@@ -626,8 +639,8 @@
 		<Translation>{0} (Staats)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_GOAL_PANEL_YEARS_LEFT</zType>
-		<Translation>, Jahr(e): {0}</Translation>
+		<zType>TEXT_UI_GOAL_PANEL_YEARS_LEFT_LEGACY</zType>
+		<Translation>{0_character}'s link(CONCEPT_LEGACY): {1_turnsVariable}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CITY_LIST_IDLE</zType>
@@ -772,11 +785,11 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_WON_GAME</zType>
-		<Translation>[Won Game]</Translation>
+		<Translation>[Spiel gewonnen]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_LOST_GAME</zType>
-		<Translation>[Lost Game]</Translation>
+		<Translation>[Spiel verloren]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_DISCOVERED</zType>
@@ -1032,15 +1045,15 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
     </Entry>
     <Entry>
         <zType>TEXT_UI_SELECTED_RELIGION_THEOLOGY</zType>
-        <Translation>Rang {0}: {1}</Translation>
+        <Translation>Stufe {0}: {1}</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_UI_NO_THEOLOGY_ADOPTED</zType>
         <Translation>Nichts</Translation>
     </Entry>
     <Entry>
-        <zType>TEXT_UI_SELECTED_RELIGION_FOLLOWERS_EMPIRES</zType>
-        <Translation>Eiche:</Translation>
+        <zType>TEXT_UI_SELECTED_RELIGION_FOLLOWERS_NATIONS</zType>
+        <Translation>Reiche:</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_UI_SELECTED_RELIGION_FOLLOWERS_FAMILIES</zType>
@@ -1208,11 +1221,19 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_TRAITS</zType>
-		<Translation>Eigenschaften (Andere)</Translation>
+		<Translation>Merkmale (Andere)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_HINTTEXTS</zType>
+		<Translation>Hinweise</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_PROMOTIONS</zType>
+		<Translation>Beförderungen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_TRAITSADJECTIVES</zType>
-		<Translation>Traits (Adjectives)</Translation>
+		<Translation>Merkmale (Adjektive)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_THEOLOGIES</zType>
@@ -1258,8 +1279,13 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 		<Translation>Agenten Missionen</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_ASSIGN_CHARACTER_AGENTS</zType>
+		<Translation>Agenten Netzwerke</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_AGENT_MISSION_NAME</zType>
-		<Translation><![CDATA[{0_missionLink} <color=#e3c08c>({1_cityLink})</color>]]></Translation>
+		<Translation><![CDATA[{0_missionLink} <color=#e3c08c>({1_cityLink})</color>]]>
+		</Translation>
 	</Entry>
     <!--single player menu-->
     <Entry>
@@ -1335,8 +1361,8 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	<!--MP wizard screen-->
 	<Entry>
 		<zType>TEXT_MP_WIZARD_SCREEN_TITLE</zType>
-		<Translation>
-     Wähle den Mehrspieler Modus aus
+	<Translation>
+		Wähle den Mehrspieler Modus aus
 	</Translation>		
 	</Entry>
 	<Entry>
@@ -1505,6 +1531,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
         <Translation>Enzyklopädie</Translation>
     </Entry>
     <Entry>
+		<zType>TOOLS_SCREEN_CREDITS_BUTTON</zType>
+		<Translation>Credits</Translation>
+	</Entry>
+	<Entry>
         <zType>TOOLS_SCREEN_BACK_BUTTON</zType>
         <Translation>Zurück</Translation>
     </Entry>
@@ -1860,11 +1890,15 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	<Entry>
     <zType>TEXT_SCENARIO_SETUP_FILE_LOADED</zType>
     <Translation>{0} Geladen</Translation>
-  </Entry>
-  <Entry>
+	</Entry>
+	<Entry>
         <zType>TEXT_SCENARIO_SETUP_STARTGAME</zType>
         <Translation>Starte Spiel</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_SETUP_LOCKED_PREREQ</zType>
+		<Translation>Achieve victory on {0_scenario} to unlock</Translation>
+	</Entry>
     <!--sp-setup-screen.xml-->
     <!--tabs-->
     <Entry>
@@ -2016,7 +2050,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
     </Entry>
     <!--diplomacy tab-->
     <Entry>
-        <zType>TEXT_TAB_PANEL_DIPLOTAB_EMPIRES</zType>
+        <zType>TEXT_TAB_PANEL_DIPLOTAB_NATIONS</zType>
         <Translation>Reiche</Translation>
     </Entry>
     <Entry>
@@ -2026,6 +2060,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
     <Entry>
 		<zType>TEXT_TAB_PANEL_DIPLOTAB_CITIES</zType>
 		<Translation>Städte{true_0: by {0_filter}}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TAB_PANEL_DIPLOTAB_AGENTS</zType>
+		<Translation>Agenten Städte{true_0: by {0_filter}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CITYSORT_PRODUCTION</zType>
@@ -2046,6 +2084,14 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	<Entry>
 		<zType>TEXT_UI_CITYSORT_POPULATION</zType>
 		<Translation>Bevölkerung (Bürger + Spezialisten)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_CITYTAB_CITIES_MODE</zType>
+		<Translation>Zeige deine Städte</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_CITYTAB_AGENTS_MODE</zType>
+		<Translation>Zeige Städte mit link(CONCEPT_AGENT_NETWORK,2)</Translation>
 	</Entry>
     <Entry>
         <zType>TEXT_TAB_PANEL_DIPLOTAB_UNITS</zType>
@@ -2132,12 +2178,13 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
         <Translation>Bevölkerung</Translation>
 	</Entry>
     <Entry>
-        <zType>TEXT_CITY_LIST_SORT</zType>
-        <Translation>[CLICK] to sort by {0_yield} production rate</Translation>
-    </Entry>
-    <Entry>
-        <zType>TEXT_CITY_LIST_SORT_LEVEL</zType>
-        <Translation>[CTRL+CLICK] to sort by {0_yield} level</Translation>
+		<zType>TEXT_CITY_LIST_SORT</zType>
+		<Translation><![CDATA[<TEXT_HOTKEY_LEFT_CLICK> to sort by {0_yield} production rate]]>
+		</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITY_LIST_SORT_LEVEL</zType>
+		<Translation><![CDATA[<TEXT_HOTKEY_CTRL_CLICK> to sort by {0_yield} level]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CITY_LIST_SORT_DIRECTION</zType>
@@ -2290,6 +2337,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 		<Translation>Verbessern</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_SELECTED_UNIT_CARAVAN</zType>
+		<Translation>Starte Karawanen Mission</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_SELECTED_UNIT_TURN</zType>
 		<Translation>Zug</Translation>
 	</Entry>
@@ -2347,14 +2398,6 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 		<zType>TEXT_POPUP_LAWS</zType>
 		<Translation>Gesetze</Translation>
 	</Entry>
-    <Entry>
-        <zType>TEXT_POPUP_LAWS_LAW_UPKEEP</zType>
-        <Translation>Unterhalt: {0}</Translation>
-    </Entry>
-    <Entry>
-        <zType>TEXT_POPUP_LAWS_LAW_FAMILY_OPINION</zType>
-        <Translation>{0} Meinung: {1}</Translation>
-    </Entry>
 	<!--popup-input.xml-->
 	<Entry>
 		<zType>TEXT_POPUP_INPUT_TITLE</zType>
@@ -2379,6 +2422,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 		<Translation>Aufträge:</Translation>
 	</Entry>
 	<!--help-screen.xml-->
+	<Entry>
+		<zType>TEXT_HELP_SCREEN_TOGGLE_ALPHA_SORT</zType>
+		<Translation><![CDATA[<true_0>Disable<false>Enable<end> alphabetical sort]]></Translation>
+	</Entry>
 	<Entry>
 		<zType>TEXT_HELP_SCREEN_STATS_HP</zType>
 		<Translation>HP</Translation>
@@ -2542,9 +2589,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
     </Entry>
     <!-- tech tree-->
     <Entry>
-        <zType>TEXT_TECH_TREE_OVERRIDE_CURRENT_RESEARCH</zType>
-        <Translation>[STRG+Klick] um derzeitige Forschund zu wechseln</Translation>
-    </Entry>
+		<zType>TEXT_TECH_TREE_OVERRIDE_CURRENT_RESEARCH</zType>
+		<Translation><![CDATA[<TEXT_HOTKEY_CTRL_CLICK> to switch active research]]>
+		</Translation>
+	</Entry>
     <Entry>
 		<zType>TEXT_TECH_TREE_OVERRIDE_TARGET_RESEARCH</zType>
 		<Translation>[Klick] um Forschung mit einer Fahne als Ziel zu setzen</Translation>
@@ -2560,7 +2608,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
     <Entry>
         <zType>TEXT_MAIN_MENU_CURRENT_GAMES</zType>
-        <Translation>Current Games</Translation>
+        <Translation>Derzeitige Spiele</Translation>
     </Entry>
 <!--MPSetupScreenPanel-->
 	<Entry>
@@ -3004,6 +3052,14 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_MOD_PICTURE_TOOLTIP</zType>
 		<Translation><![CDATA[icon(bullet)1280x720 ooder größer empfohlen<br>icon(bullet)16:9 Bildformatempfohlen<br>icon(bullet)8mb maximal<br>icon(bullet)GIFs werden zu PNGs umgewandelt]]></Translation>
+	</Entry>
+    <Entry>
+        <zType>TEXT_UI_MODS_REPORT_TOOLTIP</zType>
+        <Translation>Report mod content for violating mod.io's {0_tosLink}</Translation>
+    </Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_TERMS_OF_USE_LINK_TEXT</zType>
+		<Translation>Terms of Use</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_LOAD_GAME_MODS_NOT_FOUND_POPUP_TITLE</zType>
