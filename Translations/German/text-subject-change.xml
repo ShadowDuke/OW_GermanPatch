@@ -151,7 +151,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_RELIGION_HEAD</zType>
-		<Translation>Religion Head</Translation>
+		<Translation>Religions Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_OF_STATE_RELIGION</zType>
@@ -207,71 +207,71 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_BABY</zType>
-		<Translation>Max Age 1</Translation>
+		<Translation>Max Alter 1</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_TODDLER</zType>
-		<Translation>Age 2-5</Translation>
+		<Translation>Alter 2-5</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHILD</zType>
-		<Translation>Age 6-11</Translation>
+		<Translation>Alter 6-11</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_TEENAGER</zType>
-		<Translation>Age 12-17</Translation>
+		<Translation>Alter 12-17</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_LATE_TEENAGER</zType>
-		<Translation>Age 16-17</Translation>
+		<Translation>Alter 16-17</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_ADULT</zType>
-		<Translation>Min Age 18</Translation>
+		<Translation>Min Alter 18</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHILD_OR_TEENAGER</zType>
-		<Translation>Age 6-17</Translation>
+		<Translation>Alter 6-17</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_TEENAGER_OR_ADULT</zType>
-		<Translation>Min Age 12</Translation>
+		<Translation>Min Alter 12</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_MIDDLE_AGE</zType>
-		<Translation>Age 18-40</Translation>
+		<Translation>Alter 18-40</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_OLD</zType>
-		<Translation>Min Age 40</Translation>
+		<Translation>Min Alter 40</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_ADULT_UNDER_30</zType>
-		<Translation>Age 18-30</Translation>
+		<Translation>Alter 18-30</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_ADULT_UNDER_40</zType>
-		<Translation>Age 18-40</Translation>
+		<Translation>Alter 18-40</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_OVER_30</zType>
-		<Translation>Min Age 30</Translation>
+		<Translation>Min Alter 30</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_OVER_40</zType>
-		<Translation>Min Age 40</Translation>
+		<Translation>Min Alter 40</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_OVER_50</zType>
-		<Translation>Min Age 50</Translation>
+		<Translation>Min Alter 50</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_OCTOGENARIAN</zType>
-		<Translation>Min Age 80</Translation>
+		<Translation>Min Alter 80</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CENTENARIAN</zType>
-		<Translation>Min Age 100</Translation>
+		<Translation>Min Alter 100</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_NO_JOB</zType>
@@ -295,23 +295,23 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_AWAY_FROM_COURT</zType>
-		<Translation>Away From Court</Translation>
+		<Translation>Vom Hofstaat abwesend</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_HONORABLE</zType>
-		<Translation>Honorable</Translation>
+		<Translation>Ehrenhaft</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_HONORABLE</zType>
-		<Translation>Not Honorable</Translation>
+		<Translation>Nicht Ehrenhaft</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_VILLAINOUS</zType>
-		<Translation>Villainous</Translation>
+		<Translation>Böse</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_VILLAINOUS</zType>
-		<Translation>Not Villainous</Translation>
+		<Translation>Nicht Böse</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_STRONG</zType>
@@ -331,19 +331,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_CARNAL</zType>
-		<Translation>Carnal</Translation>
+		<Translation>Sinnlich</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_CARNAL</zType>
-		<Translation>Not Carnal</Translation>
+		<Translation>Nicht Sinnlich</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_PRODUCTIVE</zType>
-		<Translation>Productive</Translation>
+		<Translation>Produktiv</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_PRODUCTIVE</zType>
-		<Translation>Not Productive</Translation>
+		<Translation>Nicht Produktiv</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_RELIGIOUS</zType>
@@ -355,126 +355,126 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_INQUISITIVE</zType>
-		<Translation>Inquisitive</Translation>
+		<Translation>Wissbegierig</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_INQUISITIVE</zType>
-		<Translation>Not Inquisitive</Translation>
+		<Translation>Nicht Wissbegierig</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_URBAN</zType>
-		<Translation>Urbanite</Translation>
+		<Translation>Stadtbewohner</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_URBAN</zType>
-		<Translation>Not Urbanite</Translation>
+		<Translation>Nicht Stadtbewohner</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_SYLVAN</zType>
-		<Translation>Sylvan</Translation>
+		<Translation>Waldbewohner</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_SYLVAN</zType>
-		<Translation>Not Sylvan</Translation>
+		<Translation>Nicht Waldbewohner</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_VAIN</zType>
-		<Translation>Vain</Translation>
+		<Translation>Eitel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_VAIN</zType>
-		<Translation>Not Vain</Translation>
+		<Translation>Nicht Eitel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_TRADITIONAL</zType>
-		<Translation>Traditional</Translation>
+		<Translation>Traditionell</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_TRADITIONAL</zType>
-		<Translation>Not Traditional</Translation>
+		<Translation>Nicht Traditionell</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_CHARMING</zType>
-		<Translation>Charming</Translation>
+		<Translation>Charmant</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_CHARMING</zType>
-		<Translation>Not Charming</Translation>
+		<Translation>Nicht Charmant</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_DILIGENT</zType>
-		<Translation>Diligent</Translation>
+		<Translation>Fleißig</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_DILIGENT</zType>
-		<Translation>Not Diligent</Translation>
+		<Translation>Nicht Fleißig</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_CONSPIRATOR</zType>
-		<Translation>Conspiratorial</Translation>
+		<Translation>Verschwörerisch</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_CONSPIRATOR</zType>
-		<Translation>Not Conspiratorial</Translation>
+		<Translation>Nicht Verschwörerisch</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_TERRIFYING</zType>
-		<Translation>Terrifying</Translation>
+		<Translation>Furcht erregend</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_TERRIFYING</zType>
-		<Translation>Not Terrifying</Translation>
+		<Translation>Nicht Furcht erregend</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_SEVEN_SINS</zType>
-		<Translation>Seven Sins</Translation>
+		<Translation>Sieben Sünden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_SEVEN_SINS</zType>
-		<Translation>Not Seven Sins</Translation>
+		<Translation>Nicht Sieben Sünden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_SEVEN_VIRTUES</zType>
-		<Translation>Seven Virtues</Translation>
+		<Translation>Sieben Tugenden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_SEVEN_VIRTUES</zType>
-		<Translation>Not Seven Virtues</Translation>
+		<Translation>Nicht Sieben Tugenden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_ARCHETYPE_REGAL</zType>
-		<Translation>Regal</Translation>
+		<Translation>Majestätisch</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_ARCHETYPE_NOT_REGAL</zType>
-		<Translation>Not Regal</Translation>
+		<Translation>Nicht Majestätisch</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_ARCHETYPE_MARTIAL</zType>
-		<Translation>Martial</Translation>
+		<Translation>Kriegerisch</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_ARCHETYPE_NOT_MARTIAL</zType>
-		<Translation>Not Martial</Translation>
+		<Translation>Nicht Kriegerisch</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_ARCHETYPE_COVERT</zType>
-		<Translation>Covert</Translation>
+		<Translation>Verstohlen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_ARCHETYPE_NOT_COVERT</zType>
-		<Translation>Not Covert</Translation>
+		<Translation>Nicht Verstohlen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_ARCHETYPE_THOUGHTFUL</zType>
-		<Translation>Thoughtful</Translation>
+		<Translation>Nachdenklich</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_ARCHETYPE_NOT_THOUGHTFUL</zType>
-		<Translation>Not Thoughtful</Translation>
+		<Translation>Nicht Nachdenklich</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NO_IMPRISONED_RECENTLY</zType>
-		<Translation>Not link(TRAIT_IMPRISONED) recently</Translation>
+		<Translation>Nicht link(TRAIT_IMPRISONED) vor Kurzem</Translation>
 	</Entry>
 </Root>

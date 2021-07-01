@@ -2427,17 +2427,17 @@ Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_SEAT</zType>
-		<Translation>The Seat is the first City given to a Family, with special bonuses beyond other Cities of the same Family.</Translation>
+		<Translation>Der Sitz ist die erste Stadt, die einer Familie gegeben wird, mit speziellen Boni außerhalb anderer Städte der selben Familie.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_FAMILY</zType>
-		<Translation>Families are the leading clans of your empire, with different dispositions and conflicting interests. They are granted control of your Cities, for which their particular bonuses are important to consider.
+		<Translation>Familien sind die führenden Clans deines Reiches, mit verschiedenen Gesinnungen und sich im Konflikt befindlichen Interessen.  Ihnen wird die Kontrolle deiner Städte gewährt, deren speziellen Boni berücksichtigt werden sollten.
 		
-Their preferences control what link(CONCEPT_AMBITION,2) you can pursue, and their opinions of you can lead to different events. Family Units fighting within their Family Territory receive a modifier(FAMILY_TERRITORY_MODIFIER) combat modifier.</Translation>
+Ihre Vorlieben geben vor welche link(CONCEPT_AMBITION,2) du nachgehen kannst. Deren Meinung über dich kann zu verschiedenen Ereignissen führen. Familien Einheiten die innerhalb der Grenzen des Familien Gebietes kämpfen erhalten einen modifier(FAMILY_TERRITORY_MODIFIER) Kampf Modifikator.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_CLASS</zType>
-		<Translation>link(CONCEPT_FAMILY) Classes determine what effects a link(CONCEPT_FAMILY) has on its Cities, as well as what Laws, link(CONCEPT_LUXURY,2), and other conditions keep them happy.</Translation>
+		<Translation>link(CONCEPT_FAMILY) Klassen bestimmen welche Effekte eine link(CONCEPT_FAMILY) in ihren Städten hat, so wie welche Gesetze, link(CONCEPT_LUXURY,2) und andere Bedingungen um sie glücklich zu halten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_FROM_GENERAL</zType>
@@ -2461,7 +2461,7 @@ Their preferences control what link(CONCEPT_AMBITION,2) you can pursue, and thei
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_LAW_OPINION_HEAD</zType>
-		<Translation>{0}: Familien Oberhaupt {1_character} ({2_trait})</Translation>
+		<Translation>{0}: Familien Anführer {1_character} ({2_trait})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_LAW_OPINION_RELIGION_HEAD</zType>
@@ -2481,7 +2481,7 @@ Their preferences control what link(CONCEPT_AMBITION,2) you can pursue, and thei
 	</Entry>
 	<Entry>
         <zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_MILITARY_ALL_DESC</zType>
-        <Translation>Based on number of military units for each Family</Translation>
+        <Translation>Basierend auf der Anzahl der Militär Einheiten für jede Familie</Translation>
     </Entry>
     <Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_POPULATION_ALL</zType>
@@ -2489,7 +2489,7 @@ Their preferences control what link(CONCEPT_AMBITION,2) you can pursue, and thei
 	 </Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_POPULATION_ALL_DESC</zType>
-        <Translation>Based on total citizens and specialists for family's cities</Translation>
+        <Translation>Basierend auf der gesammten Bevölkerung und Spezialisten für Familien Städte</Translation>
     </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_SEAT_EFFECTS</zType>
@@ -2505,7 +2505,7 @@ Their preferences control what link(CONCEPT_AMBITION,2) you can pursue, and thei
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_HARVEST_RESOURCE</zType>
-		<Translation>link(UNIT_SCOUT,2), link(UNIT_SETTLER,2) and link(UNIT_WORKER,2) können eine Ressource ernten für einen schnellen Vorrat von Gütern. Die Ressource kann nicht nocht einmal geernten werden bis sie zufällig neu erscheint.</Translation>
+		<Translation>link(UNIT_SCOUT,2), link(UNIT_SETTLER,2) und link(UNIT_WORKER,2) können eine Ressource ernten für einen schnellen Vorrat von Gütern. Die Ressource kann nicht nocht einmal geernten werden bis sie zufällig neu erscheint.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HARVEST_RESOURCE</zType>
@@ -2517,7 +2517,7 @@ Their preferences control what link(CONCEPT_AMBITION,2) you can pursue, and thei
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_FATIGUE</zType>
-		<Translation>A Unit becomes Fatigued after using all of its Moves, and a Fatigued Unit will refresh its Moves the next turn. Once Fatigued, a Unit can only move again on the same turn with a link(CONCEPT_MARCH).</Translation>
+		<Translation>Eine Einheit ermüdet, wenn alle ihre Bewegungspunkte aufgebraucht wurden und eine ermüdete Einheit wird ihre Bewegungspunkte im nächsten Zug ernuern. Einmal ermüdet kann eine Einheit sich in diesem Zug nur mit einem link(CONCEPT_MARCH) weiter bewegen.</Translation>
   </Entry>
   <Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_FLANKING</zType>
@@ -2551,7 +2551,7 @@ Complete ten link(CONCEPT_AMBITION,2) and Legacies and win link(VICTORY_AMBITION
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_HEIGHT_DEFENDING_CLEAR</zType>
-		<Translation>Vs. {0_unit} (if link(CONCEPT_CLEAR)): {1} (Nahkampf)</Translation>
+		<Translation>Vs. {0_unit} (wenn link(CONCEPT_CLEAR)): {1} (Nahkampf)</Translation>
 	</Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_LINK_HELP_HIDDEN</zType>
@@ -2559,7 +2559,7 @@ Complete ten link(CONCEPT_AMBITION,2) and Legacies and win link(VICTORY_AMBITION
     </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_GENERAL</zType>
-		<Translation>Ein General kann die Statistiken von Einheiten verbessern. Muss jünger sein als int(GENERAL_START_AGE). Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
+		<Translation>Ein Feldherr kann die Statistiken von Einheiten verbessern. Muss jünger sein als int(GENERAL_START_AGE). Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_GOVERNOR</zType>
@@ -2567,27 +2567,27 @@ Complete ten link(CONCEPT_AMBITION,2) and Legacies and win link(VICTORY_AMBITION
 	</Entry>
 	<Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_COUNCILOR</zType>
-		<Translation>Councilors can fill the role of link(COUNCIL_CHANCELLOR), link(COUNCIL_AMBASSADOR), or link(COUNCIL_SPYMASTER).</Translation>
+		<Translation>Ratsmitglieder können die Rolle eines link(COUNCIL_CHANCELLOR), link(COUNCIL_AMBASSADOR), oder link(COUNCIL_SPYMASTER) ausfüllen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITIZEN</zType>
-		<Translation>Citizens are produced by link(YIELD_GROWTH) from Cities. Each link(EFFECTCITY_CITIZEN) can be converted into a link(CONCEPT_SPECIALIST,2), provides a small amount of link(YIELD_ORDERS)icon(YIELD_ORDERS), and augments the output of certain link(CONCEPT_SPECIALIST,2) such as link(SPECIALIST_PRIEST_3,2) and link(SPECIALIST_POET_3,2).</Translation>
+		<Translation>Bürger werden durch link(YIELD_GROWTH) von Städten erzeugt. Jeder link(EFFECTCITY_CITIZEN) kann in einen link(CONCEPT_SPECIALIST,2) konvertiert werden, liefert eine kleine Menge an link(YIELD_ORDERS)icon(YIELD_ORDERS) und vergrößert den Ertrag von gewissen link(CONCEPT_SPECIALIST,2) wie zB. als link(SPECIALIST_PRIEST_3,2) und link(SPECIALIST_POET_3,2).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_POPULATION</zType>
-		<Translation>The sum of your link(CONCEPT_SPECIALIST,2) and link(CONCEPT_CITIZEN,2).</Translation>
+		<Translation>Die Summe deiner link(CONCEPT_SPECIALIST,2) und link(CONCEPT_CITIZEN,2).</Translation>
 	</Entry>
 	<Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_SPECIALIST</zType>
-		<Translation>Specialists can boost the Yields of an link(CONCEPT_IMPROVEMENT) at the cost of some link(YIELD_CIVICS).</Translation>
+		<Translation>Spezialisten können die Erträge von link(CONCEPT_IMPROVEMENT) erhöhen auf Kosten von etwas link(YIELD_CIVICS).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_SUCCESSION</zType>
-		<Translation>Your Succession Law determines who is the next Heir. Changing Succession Laws costs link(YIELD_CIVICS)icon(YIELD_CIVICS) and can upset Characters who are moved farther from the throne.</Translation>
+		<Translation>Dein Nachfolgegesetz bestimmt wer der nächste Erbe ist. Das Gesetz zu ändern kostet link(YIELD_CIVICS)icon(YIELD_CIVICS) und kann Charaktere verärgern die in der Reihenfolge nach unten rücken.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_SHRINE</zType>
-		<Translation>Shrines spread Paganism and provide various benefits.</Translation>
+		<Translation>Schreine verbreiten Heidentum und geben verschiedene Vorteile.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_IDLE</zType>
@@ -2603,7 +2603,7 @@ Complete ten link(CONCEPT_AMBITION,2) and Legacies and win link(VICTORY_AMBITION
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LEGITIMACY</zType>
-		<Translation>Legitimacy comes from achieving link(CONCEPT_AMBITION,2), and acquiring better link(CONCEPT_COGNOMEN,2) (such as link(COGNOMEN_GREAT)). Higher Legitimacy improves Family Opinions, and produces more link(YIELD_ORDERS) per year.</Translation>
+		<Translation>Legitimität erlangt man durch erreichen einer link(CONCEPT_AMBITION,2) und erlangen von besseren link(CONCEPT_COGNOMEN,2) (Wie zB. link(COGNOMEN_GREAT)). Höhrere Legitimität verbessert die Familien Meinung und produziert mehr link(YIELD_ORDERS) pro Jahr.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LEGITIMACY_OPINIONS</zType>
@@ -2611,19 +2611,19 @@ Complete ten link(CONCEPT_AMBITION,2) and Legacies and win link(VICTORY_AMBITION
 	</Entry>
 	<Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_STATE_RELIGION</zType>
-		<Translation>Adopting a link(CONCEPT_STATE_RELIGION) improves that Religion's opinion, reduces link(YIELD_DISCONTENT) in Cities of that Religion, and also enables the recruitment of link(CONCEPT_DISCIPLE,2) in those Cities.</Translation>
+		<Translation>Eine link(CONCEPT_STATE_RELIGION) anzunehmen steigert die Meinung dieser Religion, reduziert link(YIELD_DISCONTENT) in Städten dieser Religion und ermöglicht außerdem die Anwerbung von link(CONCEPT_DISCIPLE,2) in diesen Städten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CLAIM</zType>
-		<Translation>Placing a Unit of any type on a link(IMPROVEMENT_CITY_SITE) Claims it as your own, preventing foreign link(UNIT_SETTLER,2) from founding a City there.</Translation>
+		<Translation>Platziert man irgendeine Einheit auf einem link(IMPROVEMENT_CITY_SITE) beansprucht es für dich und hindert fremde link(UNIT_SETTLER,2) hier eine Stadt zu gründen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_COASTAL_CITIES</zType>
-		<Translation>A Coastal City requires the City Tile to be adjacent to Salt Water.</Translation>
+		<Translation>Eine Küstenstadt benötigt einen Stadtplatz angrenzend zu Salzwasser.</Translation>
 	</Entry>
 	<Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_COGNOMEN</zType>
-    <Translation>A Cognomen is an acquired title that increases the Legitimacyicon(YIELD_LEGITIMACY) of your Leader</Translation>
+    <Translation>Ein Spitzname ist ein erworbener Titel welcher die Legitimacyicon(YIELD_LEGITIMACY) deines Oberhauptes erhöht.</Translation>
   </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LOCATION</zType>
@@ -2631,13 +2631,13 @@ Complete ten link(CONCEPT_AMBITION,2) and Legacies and win link(VICTORY_AMBITION
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LUXURY</zType>
-		<Translation>Luxuries can be Traded to a City to reduce link(YIELD_DISCONTENT). They can also be Traded to other Nations, link(CONCEPT_TRIBE,2), and link(CONCEPT_FAMILY,2) to improve their Opinion of your Nation.</Translation>
+		<Translation>Luxusgüter können an eine Stadt geschickt werden um die link(YIELD_DISCONTENT) zu verringern. Sie können außerdem mit anderen Reichen gehandelt werden, link(CONCEPT_TRIBE,2), und link(CONCEPT_FAMILY,2) um deren Meinung deines Reiches zu erhöhen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_MERCENARY</zType>
-		<Translation>Tribal Mercenary Units can be hired from link(CONCEPT_TRIBE,2) by link(NATION_CARTHAGE) and by Nations with link(TRAIT_ORATOR_ARCHETYPE) Leaders. (The price is determined by the Strength of the Unit, their Tribe's Opinion of you, and the number recruited so far.) Other Mercenaries can be hired from events.
+		<Translation>Stammes-Söldner Einheiten können von link(CONCEPT_TRIBE,2) angeheuert werden, von link(NATION_CARTHAGE) und von Reichen mit link(TRAIT_ORATOR_ARCHETYPE) Oberhäuptern. (Der Preis wird durch die Stärke der Einheit festgelegt, deren Stammes Meinung über dich und die Anzahl der bereits angeheuerten.) Andere Söldner können durch Ereignisse angeheuert werden.
 		
-Mercenaries have no associated link(CONCEPT_FAMILY) and int(CONSUMPTION_MERCENARY_MODIFIER)% higher consumption costs.</Translation>
+Söldner haben keine zugewiesene link(CONCEPT_FAMILY) und int(CONSUMPTION_MERCENARY_MODIFIER)% höhre Konsumierungskosten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_MAP_SIZE</zType>
@@ -2657,7 +2657,7 @@ Mercenaries have no associated link(CONCEPT_FAMILY) and int(CONSUMPTION_MERCENAR
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_NEXT_DEVELOP</zType>
-		<Translation>Will develop into {0,1_improvement} in {1} {2_turnScale}</Translation>
+		<Translation>Wird sich entwicklen in {0,1_improvement} in {1} {2_turnScale}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_NEXT_UNIT</zType>
@@ -2665,7 +2665,7 @@ Mercenaries have no associated link(CONCEPT_FAMILY) and int(CONSUMPTION_MERCENAR
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_PILLAGED</zType>
-		<Translation>Reapriere die {0_improvement} oder sie wird in {1_turns} {2_turnScale} zerstört werden.</Translation>
+		<Translation>Repariere die {0_improvement} oder sie wird in {1_turns} {2_turnScale} zerstört werden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_PROJECT_INFO</zType>
@@ -2673,11 +2673,11 @@ Mercenaries have no associated link(CONCEPT_FAMILY) and int(CONSUMPTION_MERCENAR
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_PROMOTION</zType>
-		<Translation>Promotions provide various combat buffs at the cost of some link(YIELD_TRAINING).</Translation>
+		<Translation>Beförderungen verschaffen verschiedene Kampf Buffs auf Kosten von etwas link(YIELD_TRAINING).</Translation>
 	</Entry>
 	<Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_IMPROVEMENT</zType>
-    <Translation>link(UNIT_WORKER,2) can build link(CONCEPT_URBAN) and Rural link(CONCEPT_IMPROVEMENT,2) for your Cities on available Tiles.</Translation>
+    <Translation>link(UNIT_WORKER,2) können link(CONCEPT_URBAN) bauen und ländliche link(CONCEPT_IMPROVEMENT,2) auf verfügbaren Feldern für deine Städte.</Translation>
   </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_RANGE</zType>
@@ -2685,15 +2685,15 @@ Mercenaries have no associated link(CONCEPT_FAMILY) and int(CONSUMPTION_MERCENAR
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_REBEL</zType>
-		<Translation>Rebel Units can appear outside of Cities with a high link(YIELD_DISCONTENT). Like link(TRIBE_BARBARIANS), you are always at link(DIPLOMACY_WAR) with Rebels.</Translation>
+		<Translation>Rebellen Einheiten können außerhalb von Städten mit einer hohen link(YIELD_DISCONTENT) auftauchen. Wie link(TRIBE_BARBARIANS), bist du mit Rebellen immer im link(DIPLOMACY_WAR).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CONCEPT_DESIRED_AMBITION</zType>
-		<Translation>A Character's Desired link(CONCEPT_AMBITION) will become a new National link(CONCEPT_AMBITION) if s/he becomes Leader.</Translation>
+		<Translation>Eine vom Charakter begehrte link(CONCEPT_AMBITION) wird eine neue link(CONCEPT_AMBITION) werden wenn er/sie Oberhaupt wird.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DISCIPLE</zType>
-		<Translation>A Disciple can spread your link(CONCEPT_STATE_RELIGION), and purge other Religions from your Cities.</Translation>
+		<Translation>Ein Jünger kann deine link(CONCEPT_STATE_RELIGION) verbreiten und andere Religionen von deinen Städten säubern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_RELIGION_CITIES_US</zType>
@@ -2721,7 +2721,7 @@ Mercenaries have no associated link(CONCEPT_FAMILY) and int(CONSUMPTION_MERCENAR
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_ROUT</zType>
-		<Translation>link(UNITTRAIT_MOUNTED) Units, after killing an enemy, may make a followup attack on adjacent enemy Units on the same turn.</Translation>
+		<Translation>link(UNITTRAIT_MOUNTED) Einheiten, nachdem ein Gegner getötet wurde, können einen Folgeangriff auf benachbarte gegnerische Einheiten im selben zug durchführen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_SELECT_TRIBE</zType>
@@ -2769,7 +2769,7 @@ Mercenaries have no associated link(CONCEPT_FAMILY) and int(CONSUMPTION_MERCENAR
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TERRAIN</zType>
-		<Translation>{0} Terrain</Translation>
+		<Translation>{0} Gelände</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TERRAIN_NO_ROADS</zType>
@@ -2781,7 +2781,7 @@ Mercenaries have no associated link(CONCEPT_FAMILY) and int(CONSUMPTION_MERCENAR
 	</Entry>
     <Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_THEOLOGY</zType>
-		<Translation>Establishing a Theology grants additional bonuses to a World Religion. Theologies are established using Disciples, and, once established, will be active for all Nations that adopt the associated Religion.</Translation>
+		<Translation>Eine Religionswissenschaft einzuführen gibt zusätzliche Boni an eine Welt Religion. Religionswissenschaften werden von Jüngern eingeführt und, sobald eingeführt, werden für all Reiche aktiv sein, die diese Religion übernehmen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TRADE_BONUS_US</zType>
@@ -2821,7 +2821,7 @@ Mercenaries have no associated link(CONCEPT_FAMILY) and int(CONSUMPTION_MERCENAR
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_UNIT_CONSUMPTION_OUTSIDE</zType>
-		<Translation>Möglicher fremder Bedarf:</Translation>
+		<Translation>Möglicher Bedarf außerhalb der Grenzen:</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_UNIT_CYCLE</zType>
@@ -2841,11 +2841,11 @@ Mercenaries have no associated link(CONCEPT_FAMILY) and int(CONSUMPTION_MERCENAR
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_URBAN_TRADE_NETWORK</zType>
-		<Translation>Extends link(CONCEPT_TRADE_NETWORK)</Translation>
+		<Translation>Erweitert link(CONCEPT_TRADE_NETWORK)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_URBAN_CITIZEN</zType>
-		<Translation>Each link(CONCEPT_URBAN) Tile supports {0_value} {1_citizen}</Translation>
+		<Translation>Jedes link(CONCEPT_URBAN) Feld unterstüzt {0_value} {1_citizen}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_VEGETATION</zType>
@@ -2885,9 +2885,9 @@ Mercenaries have no associated link(CONCEPT_FAMILY) and int(CONSUMPTION_MERCENAR
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_ZOC</zType>
-		<Translation>A Unit exerts a Zone-of-Control over all adjacent Tiles (except across {0,1_riverLink}), which prevents enemy Units from moving through them.
+		<Translation>Eine Einheit übt eine Kontrollzone (ZOC) über alle benachbarten Felder (außer über {0,1_riverLink}) aus, was gegnerische Einheiten daran hindert sich durch diese zu bewegen.
 
-Hold [{1_key}] to see Unit ZOCs.</Translation>
+Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_LINK_HELP_HOTKEY_NONE</zType>
@@ -3342,7 +3342,7 @@ Hold [{1_key}] to see Unit ZOCs.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_START_LEVELS</zType>
-		<Translation>{0} {singular_0:Level:Levels}</Translation>
+		<Translation>{0} {singular_0:Stufe:Stufen}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_START_XP</zType>
@@ -3366,7 +3366,7 @@ Hold [{1_key}] to see Unit ZOCs.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_POPULATION_COST</zType>
-		<Translation>Costs {0_value} {singular_0:{1_citizenLink}:{1,2_citizenLink}}</Translation>
+		<Translation>Kostet {0_value} {singular_0:{1_citizenLink}:{1,2_citizenLink}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_PRODUCTION</zType>
@@ -3444,7 +3444,7 @@ Hold [{1_key}] to see Unit ZOCs.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_FATIGUE</zType>
-		<Translation>Moves until Fatigued: {0}/{1}</Translation>
+		<Translation>Bewegt sich bis ermüdet: {0}/{1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_FATIGUED_HELP</zType>
@@ -3482,7 +3482,7 @@ Hold [{1_key}] to see Unit ZOCs.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_URBAN_TILE_RURAL_IMPROVEMENT</zType>
-		<Translation>Cannot build {0_improvement} on link(CONCEPT_URBAN) tile</Translation>
+		<Translation>Kann nicht {0_improvement} auf link(CONCEPT_URBAN) Feld bauen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_REPLACES_IMPROVEMENT</zType>
@@ -3504,15 +3504,15 @@ Hold [{1_key}] to see Unit ZOCs.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_WATER_CONTROL</zType>
-		<Translation><![CDATA[<true_1>{0_value} link(CONCEPT_ANCHORED,1) Range<false>link(CONCEPT_ANCHORED,1) Range: {0_value}<end>]]></Translation>
+		<Translation><![CDATA[<true_1>{0_value} link(CONCEPT_ANCHORED,1) Reichweite<false>link(CONCEPT_ANCHORED,1) Reichweite: {0_value}<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_ENLIST_ON_KILL</zType>
-		<Translation><![CDATA[<true_1>Enlist chance on kill: {0_value}<false>{0_value} Enlist chance on kill<end>]]></Translation>
+		<Translation><![CDATA[<true_1>Anwerbungschance bei Tötung: {0_value}<false>{0_value} Anwerbungschance bei Tötung<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_PILLAGE_YIELD</zType>
-		<Translation><![CDATA[<true_1>Pillage Yield: {0_value}<false>{0_value} Pillage Yield<end>]]></Translation>
+		<Translation><![CDATA[<true_1>Plündere Ertrag: {0_value}<false>{0_value} Plündere Ertrag<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_ATTACK_ACROSS_RIVER</zType>
@@ -3524,7 +3524,7 @@ Hold [{1_key}] to see Unit ZOCs.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_HOME_MODIFIER</zType>
-		<Translation><![CDATA[<true_1>Home Territory: {0_value}<false>{0_value} in Home Territory<end>]]></Translation>
+		<Translation><![CDATA[<true_1>Heimisches Gebiet: {0_value}<false>{0_value} In heimischem Gebiet<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_ATTACK_INTO</zType>
@@ -3532,7 +3532,7 @@ Hold [{1_key}] to see Unit ZOCs.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_ATTACK_INTO_MELEE</zType>
-		<Translation><![CDATA[<true_2>Into {0_tileLink}/link(CONCEPT_CLEAR): {1_value} (Melee)<false>{1_value} (Melee) Into {0_tileLink}/link(CONCEPT_CLEAR)<end>]]></Translation>
+		<Translation><![CDATA[<true_2>In {0_tileLink}/link(CONCEPT_CLEAR): {1_value} (Melee)<false>{1_value} (Nahkampf) In {0_tileLink}/link(CONCEPT_CLEAR)<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_FIGHT_FROM</zType>
@@ -3592,11 +3592,11 @@ Hold [{1_key}] to see Unit ZOCs.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_LAST_STAND</zType>
-		<Translation>Cannot die with more than 1 HP</Translation>
+		<Translation>Kann nicht mit mehr als 1 HP sterben</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_IGNORES_DISTANCE</zType>
-		<Translation>Ignores link(CONCEPT_DISTANCE_MODIFIER)</Translation>
+		<Translation>Ignoriert link(CONCEPT_DISTANCE_MODIFIER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_CRITICAL_IMMUNE</zType>
@@ -4077,7 +4077,7 @@ Hold [{1_key}] to see Unit ZOCs.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CITIZENS_URBAN_NEEDED</zType>
-		<Translation>Citizens need {0} more link(CONCEPT_URBAN) {singular_0:Tile:Tiles} ({LIST}/{1_turnScale})</Translation>
+		<Translation>Bürger brauchen {0} mehr link(CONCEPT_URBAN) {singular_0:Feld:Felder} ({LIST}/{1_turnScale})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CITIZENS_COUNT</zType>
@@ -4395,7 +4395,7 @@ Hold [{1_key}] to see Unit ZOCs.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_NO_COUNCIL</zType>
-		<Translation>No Council Members: {0_value}</Translation>
+		<Translation>Keine Hofrat Mitglieder: {0_value}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_GENERAL</zType>
@@ -4659,7 +4659,7 @@ Hold [{1_key}] to see Unit ZOCs.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_FAIL_GOAL</zType>
-		<Translation>Fail Goal {0_goalLink}</Translation>
+		<Translation>Ziel {0_goalLink} fehlgeschlagen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_END_ALLIANCE</zType>
@@ -4679,7 +4679,7 @@ Hold [{1_key}] to see Unit ZOCs.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_REVEAL_TERRITORY</zType>
-		<Translation>Decke Territorium von {0_player} auf</Translation>
+		<Translation>Decke Gebiet von {0_player} auf</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_CANCEL_TRADE</zType>
@@ -4703,11 +4703,11 @@ Hold [{1_key}] to see Unit ZOCs.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_TRADE_FROM</zType>
-		<Translation>Trade from {0_opponent}: {1_yieldList} for {2_years} Years</Translation>
+		<Translation>Handel von {0_opponent}: {1_yieldList} für {2_years} Jahre</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_TRADE_TO</zType>
-		<Translation>Trade to {0_opponent}: {1_yieldList} for {2_years} Years</Translation>
+		<Translation>Handel mit {0_opponent}: {1_yieldList} für {2_years} Jahre</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_TRIBUTE_FROM</zType>
@@ -4767,7 +4767,7 @@ Hold [{1_key}] to see Unit ZOCs.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_JOIN</zType>
-		<Translation>Joins the Nation of {0_player}</Translation>
+		<Translation>Schließt sich dem Reich von {0_player} an</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_SEIZE_THRONE</zType>
@@ -4791,11 +4791,11 @@ Hold [{1_key}] to see Unit ZOCs.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_RELEASE_AGENT</zType>
-		<Translation>Leave role of link(CONCEPT_AGENT) in {0_city}</Translation>
+		<Translation>Gebe die Funktion als link(CONCEPT_AGENT) in {0_city} auf</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_RELEASE_AGENT_GENERIC</zType>
-		<Translation>Leave role of link(CONCEPT_AGENT)</Translation>
+		<Translation>Gebe die Funktion als link(CONCEPT_AGENT) auf</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_CHANGE_SUCCESSION_GENERIC</zType>
@@ -4870,14 +4870,14 @@ Hold [{1_key}] to see Unit ZOCs.</Translation>
 		<Translation>{0_player} erlangt {1_tech}</Translation>
 	</Entry>
 	<Entry>
-    <zType>TEXT_HELPTEXT_BONUS_START_LAW</zType>
-    <Translation>Beginne Gesetz ({0_cost}): {1_law}</Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_BONUS_END_LAW</zType>
-    <Translation>Beende Gesetz: {0_law}</Translation>
-  </Entry>
-  <Entry>
+		<zType>TEXT_HELPTEXT_BONUS_START_LAW</zType>
+		<Translation>Beginne Gesetz ({0_cost}): {1_law}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_END_LAW</zType>
+		<Translation>Beende Gesetz: {0_law}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_FREE_LAW</zType>
 		<Translation>Freies Gesetz: {0_law}</Translation>
 	</Entry>
@@ -4957,7 +4957,7 @@ Hold [{1_key}] to see Unit ZOCs.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_COURTIER</zType>
 		<Translation>Kann als link(CONCEPT_GENERAL), link(CONCEPT_GOVERNOR), oder link(CONCEPT_AGENT) dienen.
-Ratings contribute to Global Yields (for example, link(RATING_COURAGE) adds to link(YIELD_TRAINING)).</Translation>
+Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COURAGE) fügt link(YIELD_TRAINING) hinzu).</Translation>
 	</Entry>
 	<!--Culture Help-->
 	<Entry>
@@ -4974,7 +4974,7 @@ Ratings contribute to Global Yields (for example, link(RATING_COURAGE) adds to l
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CULTURE_HELP_VPS_STEPS</zType>
-		<Translation>+1 VP per Extra Step (II, III, etc)</Translation>
+		<Translation>+1 SP pro extra Schritt (II, III, etc)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CULTURE_HELP_GOVERNOR_XP</zType>
@@ -5031,7 +5031,7 @@ Ratings contribute to Global Yields (for example, link(RATING_COURAGE) adds to l
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_MISSION_DIPLOMACY_TURNS</zType>
-		<Translation>Cannot conduct Diplomacy for {0} more {1_turnScale}</Translation>
+		<Translation>Kann keine Diplomatie für {0} mehr {1_turnScale} durchführen</Translation>
 	</Entry>
 	<!--Trait Help-->
 	<Entry>
@@ -5257,7 +5257,7 @@ Ratings contribute to Global Yields (for example, link(RATING_COURAGE) adds to l
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_OPINION_PLAY_TO_WIN_STOPPED</zType>
-		<Translation>{0_opinion}: You must be stopped from winning</Translation>
+		<Translation>{0_opinion}: Du musst an Gewinnen gehindert werden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_OPINION_PLAY_TO_WIN_VERY_CLOSE</zType>
@@ -5318,11 +5318,11 @@ Ratings contribute to Global Yields (for example, link(RATING_COURAGE) adds to l
 	<!--Religion Help-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_NAME</zType>
-		<Translation>{0} (Religion){true_1:, Founded in Year {1}}</Translation>
+		<Translation>{0} (Religion){true_1:, Gegründet im Jahre {1}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_THEOLOGIES</zType>
-		<Translation>singular_0:Religionswissenschaft:Religionswissenschaften}:</Translation>
+		<Translation>{singular_singular_singular_0:Religionswissenschaft:Religionswissenschaften}:</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_HEAD</zType>
@@ -5354,7 +5354,7 @@ Ratings contribute to Global Yields (for example, link(RATING_COURAGE) adds to l
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_SPREAD_HELP</zType>
-		<Translation>{0}% Chance/{1_turnScale} sich zu neuen Städten auszubreiten</Translation>
+		<Translation>{0}% Chance/{1_turnScale} sich zur neuen Städten auszubreiten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_PREREQ_RELIGION_CITY</zType>
@@ -5415,7 +5415,7 @@ Ratings contribute to Global Yields (for example, link(RATING_COURAGE) adds to l
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILY_LEADER</zType>
-		<Translation>{0_value}: Oberhaupt aus unserer Familie</Translation>
+		<Translation>{0_value}: Anführer aus unserer Familie</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILY_HEIR</zType>
@@ -5451,19 +5451,19 @@ Ratings contribute to Global Yields (for example, link(RATING_COURAGE) adds to l
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILY_GENERALS</zType>
-		<Translation>{0_value}: Our link(CONCEPT_GENERAL,2)</Translation>
+		<Translation>{0_value}: Unsere link(CONCEPT_GENERAL,2)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILY_GOVERNORS</zType>
-		<Translation>{0_value}: Our link(CONCEPT_GOVERNOR,2)</Translation>
+		<Translation>{0_value}: Unsere link(CONCEPT_GOVERNOR,2)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILY_OUR_LUXURIES</zType>
-		<Translation>{0_value}: Our link(CONCEPT_LUXURY){true_LIST-COUNT: ({LIST})}</Translation>
+		<Translation>{0_value}: Unsere link(CONCEPT_LUXURY){true_LIST-COUNT: ({LIST})}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILY_MISSING_LUXURIES</zType>
-		<Translation>{0_value}: Missing link(CONCEPT_LUXURY){true_LIST-COUNT: ({LIST})}</Translation>
+		<Translation>{0_value}: Fehlende link(CONCEPT_LUXURY){true_LIST-COUNT: ({LIST})}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILY_OUR_WONDERS</zType>
@@ -5621,11 +5621,11 @@ Ratings contribute to Global Yields (for example, link(RATING_COURAGE) adds to l
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_CARAVAN_MISSION_START_BUTTON</zType>
-		<Translation>link(CONCEPT_CARAVAN_MISSION) to {0_player}</Translation>
+		<Translation>link(CONCEPT_CARAVAN_MISSION) zu {0_player}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_CARAVAN_MISSION_CANCEL_BUTTON</zType>
-		<Translation>Cancel link(CONCEPT_CARAVAN_MISSION) ({0_player})</Translation>
+		<Translation>link(CONCEPT_CARAVAN_MISSION) ({0_player}) abbrechen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_ADD_ROAD_BUTTON</zType>
@@ -6004,7 +6004,7 @@ Ratings contribute to Global Yields (for example, link(RATING_COURAGE) adds to l
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_FAMILY_HEAD</zType>
-		<Translation>Oberhaupt der Familie: {0}</Translation>
+		<Translation>Anführer der Familie: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_FAMILY</zType>
@@ -6080,7 +6080,7 @@ Ratings contribute to Global Yields (for example, link(RATING_COURAGE) adds to l
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_LAW</zType>
-		<Translation>{0}: Your Law, {1_law} (as {2_trait})</Translation>
+		<Translation>{0}: Dein Gesetz, {1_law} (weil {2_trait})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_IS_LEADER_SPOUSE</zType>
@@ -6112,7 +6112,7 @@ Ratings contribute to Global Yields (for example, link(RATING_COURAGE) adds to l
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_LEADER_RELIGION</zType>
-		<Translation>{0}: You follow {1_religion}</Translation>
+		<Translation>{0}: Du folgst {1_religion}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_STATE_RELIGION</zType>
@@ -6120,7 +6120,7 @@ Ratings contribute to Global Yields (for example, link(RATING_COURAGE) adds to l
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_RELIGION</zType>
-		<Translation>{0}: Du golfst nicht {1_religion}, die link(CONCEPT_STATE_RELIGION) von {2_player}</Translation>
+		<Translation>{0}: Du folgst nicht {1_religion}, die link(CONCEPT_STATE_RELIGION) von {2_player}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_PROXIMITY</zType>
@@ -6157,10 +6157,6 @@ Ratings contribute to Global Yields (for example, link(RATING_COURAGE) adds to l
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_TRADES</zType>
 		<Translation>{0}: Mehr Handel mit anderen Nationen, {1}, als mit {3_player}, {2}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_CHARACTER_TRAIT_ARCHETYPE</zType>
-		<Translation>Archetyp: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_TRAIT_STRENGTH</zType>
@@ -6481,7 +6477,7 @@ Ratings contribute to Global Yields (for example, link(RATING_COURAGE) adds to l
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DECLARE_WAR_TEAM_TURNS</zType>
-		<Translation>Cannot Declare link(DIPLOMACY_WAR) on {0_team} for {1_value} more {2_turnScale}.</Translation>
+		<Translation>Kann keinen link(DIPLOMACY_WAR) an {0_team} für {1_value} mehr {2_turnScale} erklären.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_INHERITANCE_NO_HEIR</zType>
@@ -6646,7 +6642,7 @@ Ratings contribute to Global Yields (for example, link(RATING_COURAGE) adds to l
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HELPSCREEN_LEADERS</zType>
-		<Translation>{singular_0:Oberhaupt:Oberhäupter}</Translation>
+		<Translation>{singular_0:Anführer:Anführer}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HELPSCREEN_CHARACTERS</zType>
@@ -6658,15 +6654,15 @@ Ratings contribute to Global Yields (for example, link(RATING_COURAGE) adds to l
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HELPSCREEN_REQUIRED_TECHS</zType>
-		<Translation>Benötigt {singular_0:Technolie:Technologien}</Translation>
+		<Translation>Benötigt {singular_0:Technologie:Technologien}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HELPSCREEN_STARTING_TECHS</zType>
-		<Translation>Beginne {singular_0:Technolie:Technologien}</Translation>
+		<Translation>Beginne {singular_0:Technologie:Technologien}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HELPSCREEN_UNLOCKS_TECHS</zType>
-		<Translation>Entsperrt {singular_0:Technolie:Technologien}</Translation>
+		<Translation>Entsperrt {singular_0:Technologie:Technologien}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HELPSCREEN_UNLOCKS_COUNCILS</zType>
@@ -6674,7 +6670,7 @@ Ratings contribute to Global Yields (for example, link(RATING_COURAGE) adds to l
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HELPSCREEN_TERRAINS</zType>
-		<Translation>{singular_0:Terrain:Terrains}</Translation>
+		<Translation>{singular_0:Gelände:Gelände}</Translation>
 	</Entry>	 
 	<!--OptionsMenu-->
 	<Entry>
@@ -6700,15 +6696,15 @@ Ratings contribute to Global Yields (for example, link(RATING_COURAGE) adds to l
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DECISION_CITY_FAMILY_DESC</zType>
-		<Translation>Give your newest City, {0_city}, to one of your Families...</Translation>
+		<Translation>Gib deine neuste Stadt, {0_city}, an einen von deinen Familien...</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DECISION_OFFER_PEACE_TITLE</zType>
-		<Translation>Peace Offer</Translation>
+		<Translation>Frieden (Angebot)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DECISION_OFFER_TRUCE_TITLE</zType>
-		<Translation>Truce Offer</Translation>
+		<Translation>Waffenruhe (Angebot)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DECISION_OFFER_PEACE_TRIBE_DESC</zType>
@@ -6760,7 +6756,7 @@ Ratings contribute to Global Yields (for example, link(RATING_COURAGE) adds to l
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DECISION_CHOOSE_AMBITION_DESC</zType>
-		<Translation>Is it time to choose your next link(CONCEPT_AMBITION), the future direction of {0_nation}?</Translation>
+		<Translation>Es ist an der Zeit deine nächste link(CONCEPT_AMBITION) zu wählen, die zukünftige Richtung von {0_nation}?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DECISION_CHOOSE_CITY_FAMILY_TITLE</zType>
@@ -6768,7 +6764,7 @@ Ratings contribute to Global Yields (for example, link(RATING_COURAGE) adds to l
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DECISION_DIPLOMACY_TITLE</zType>
-		<Translation>Knüfpe {0_diplomacy} mit {1} für {2_money}?</Translation>
+		<Translation>Knüpfe {0_diplomacy} mit {1} für {2_money}?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DECISION_UPGRADE</zType>
@@ -7010,15 +7006,15 @@ Ratings contribute to Global Yields (for example, link(RATING_COURAGE) adds to l
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_VICTORY_ELIGIBLE</zType>
-		<Translation>(Will never become link(CONCEPT_LEGACY,1))</Translation>
+		<Translation>(Wird niemals link(CONCEPT_LEGACY,1))</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_MIN_TIER</zType>
-		<Translation>*Min Tier: {0}</Translation>
+		<Translation>*Min Stufe: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_MAX_TIER</zType>
-		<Translation>*Max Tier: {0}</Translation>
+		<Translation>*Max Stufe: {0}</Translation>
 	</Entry>
 	<!--Law Help-->
 	<Entry>

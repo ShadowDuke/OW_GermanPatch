@@ -130,7 +130,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_GENERAL</zType>
-		<Translation>Heerführer~ein Heerführer~Heerführer</Translation>
+		<Translation>Feldherr~ein Feldherr~Feldherren</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_GOVERNOR</zType>
@@ -1490,7 +1490,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_EIGHT_GENERALS</zType>
-		<Translation>telle acht Feldherren auf</Translation>
+		<Translation>Stelle acht Feldherren auf</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_SIX_GOVERNORS</zType>

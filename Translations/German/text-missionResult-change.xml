@@ -380,7 +380,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_LEAVE_RELIGION</zType>
-		<Translation>Leave link(CONCEPT_STATE_RELIGION)</Translation>
+		<Translation>Verlasse link(CONCEPT_STATE_RELIGION)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_MARRIAGE_EVENT</zType>
@@ -404,7 +404,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_HOLD_COURT</zType>
-		<Translation>Hold Court</Translation>
+		<Translation>Hof halten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_HOLD_COURT_EVENT</zType>

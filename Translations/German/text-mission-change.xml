@@ -48,27 +48,27 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_OFFER_TRIBUTE</zType>
-		<Translation>Offer Tribute for link(DIPLOMACY_PEACE)</Translation>
+		<Translation>Biete Tribute für link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_OFFER_TRIBUTE_TARGET</zType>
-		<Translation>Offer Tribute for link(DIPLOMACY_PEACE) with</Translation>
+		<Translation>Biete Tribute für link(DIPLOMACY_PEACE) mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_NO_TRIBUTE</zType>
-		<Translation>Ask for link(DIPLOMACY_PEACE)</Translation>
+		<Translation>Frage nach link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_NO_TRIBUTE_TARGET</zType>
-		<Translation>Ask for link(DIPLOMACY_PEACE) with</Translation>
+		<Translation>Frage nach link(DIPLOMACY_PEACE) mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_DEMAND_TRIBUTE</zType>
-		<Translation>Demand Tribute for link(DIPLOMACY_PEACE)</Translation>
+		<Translation>Verlange Tribute für link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_DEMAND_TRIBUTE_TARGET</zType>
-		<Translation>Demand Tribute for link(DIPLOMACY_PEACE) with</Translation>
+		<Translation>Verlange Tribute für link(DIPLOMACY_PEACE) mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_HUMAN</zType>
@@ -156,7 +156,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_PEACE_CHARACTER</zType>
-		<Translation>Barbarian link(DIPLOMACY_PEACE) über</Translation>
+		<Translation>Barbaren link(DIPLOMACY_PEACE) über</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_TRUCE</zType>
@@ -168,7 +168,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_TRUCE_CHARACTER</zType>
-		<Translation>Barbarian link(DIPLOMACY_TRUCE) über</Translation>
+		<Translation>Barbaren link(DIPLOMACY_TRUCE) über</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_DECLARE_WAR</zType>
@@ -188,7 +188,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_LEAVE_RELIGION</zType>
-		<Translation>Leave link(CONCEPT_STATE_RELIGION)</Translation>
+		<Translation>Verlasse link(CONCEPT_STATE_RELIGION)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_MARRIAGE</zType>
@@ -216,7 +216,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_MARRY_COURTIER</zType>
-		<Translation>Vertrauten Heiraten</Translation>
+		<Translation>Vertrauten heiraten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_MARRY_COURTIER_TARGET</zType>
@@ -232,7 +232,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_HOLD_COURT</zType>
-		<Translation>Hold Court</Translation>
+		<Translation>Hof halten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_ABDICATE</zType>
@@ -244,11 +244,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_INFLUENCE_CHARACTER</zType>
-		<Translation>Influence via</Translation>
+		<Translation>Beeinflussen über</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_CONVERT_SELF</zType>
-		<Translation>Convert Religion</Translation>
+		<Translation>Konvertiere Religion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_CONVERT_SELF_TARGET</zType>
@@ -340,15 +340,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_DEMAND_TRIBUTE</zType>
-		<Translation>Demand Tribute</Translation>
+		<Translation>Verlange Tribute</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_DEMAND_TRIBUTE_TARGET</zType>
-		<Translation>Demand Tribute from</Translation>
+		<Translation>Verlange Tribute von</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_DEMAND_TRIBUTE_CHARACTER</zType>
-		<Translation>Demand Tribute via</Translation>
+		<Translation>Verlange Tribute über</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRADE_MISSION</zType>
@@ -364,15 +364,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_HIGH_SYNOD</zType>
-		<Translation>High Synod</Translation>
+		<Translation>Hohe Kirchenversammlung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_HIGH_SYNOD_TARGET</zType>
-		<Translation>High Synod with</Translation>
+		<Translation>Hohe Kirchenversammlung mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_HIGH_SYNOD_CHARACTER</zType>
-		<Translation>High Synod via</Translation>
+		<Translation>Hohe Kirchenversammlung über</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_FAMILY_GIFT</zType>

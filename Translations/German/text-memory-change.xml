@@ -11,35 +11,35 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_RAID</zType>
-		<Translation>Tribe Raid</Translation>
+		<Translation>Stamm (Überfall)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_PEACE</zType>
-		<Translation>Tribe Peace</Translation>
+		<Translation>Stamm (Frieden)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_TRUCE</zType>
-		<Translation>Tribe Truce</Translation>
+		<Translation>Stamm (Waffenruhe)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_WAR</zType>
-		<Translation>Tribe War</Translation>
+		<Translation>Stamme (Krieg)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_OFFER</zType>
-		<Translation>Tribe Offer</Translation>
+		<Translation>Stamm (Angebot)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_OFFER_ALL</zType>
-		<Translation>Tribe Offer (All)</Translation>
+		<Translation>Stamm (Angebot/Alle)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_BROKE_PEACE</zType>
-		<Translation>Broke a Peace Treaty</Translation>
+		<Translation>Hat einen Friedensvertrag gebrochen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_REMOVED_LUXURY</zType>
-		<Translation>Removed Luxury</Translation>
+		<Translation>Luxusgut entfernt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_PLAYER_TRIBE_WAR</zType>
@@ -59,7 +59,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_DECLARED_WAR</zType>
-		<Translation>Declared War on us</Translation>
+		<Translation>Hat uns den Krieg erklärt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_EXECUTION</zType>

@@ -103,7 +103,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_FAMILY_HEAD</zType>
-		<Translation>{0_character} is nun das Oberhaupt der {1_family} Familie!</Translation>
+		<Translation>{0_character} is nun der Anführer der {1_family} Familie!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_IMPROVEMENT_PILLAGED</zType>
@@ -449,7 +449,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_HEAD_FAMILY</zType>
-		<Translation>{0_character} Wird Oberhaupt von {1_family}</Translation>
+		<Translation>{0_character} Wird Anführer von {1_family}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_FAMILY_LAW</zType>
