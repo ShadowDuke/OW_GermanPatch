@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSpy v2020 (x64) (http://www.altova.com) by Andrew Auseon (Private) -->
+<!-- German Translation (© Revan ©) -->
+
 <Root>
 	<Entry>
 		<zType/>
@@ -107,11 +107,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_PROPOSAL_HUMAN_YES</zType>
-		<Translation>Yes.</Translation>
+		<Translation>Ja.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_PROPOSAL_HUMAN_NO</zType>
-		<Translation>No.</Translation>
+		<Translation>Nein.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_PLAYER_WAR_MONEY</zType>
@@ -1263,15 +1263,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_FILTHY_ANIMALS_OPTION_0</zType>
-		<Translation>Cooks should dispose of all meat in the kitchens.</Translation>
+		<Translation>Köche sollten in den Küchen das ganze Fleisch beseitigen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_FILTHY_ANIMALS_OPTION_1</zType>
-		<Translation>{CHARACTER-SHORT-2} must remain isolated.</Translation>
+		<Translation>{CHARACTER-SHORT-2} muss isoliert bleiben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_FILTHY_ANIMALS_OPTION_2</zType>
-		<Translation>We must study this sickness to learn all we can.</Translation>
+		<Translation>Wir müssen diese Krankheit studieren, damit wir alles lernen können.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_ROSE_MADDER_OPTION_0</zType>
@@ -1287,79 +1287,79 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_CAPSIZED_OPTION_0</zType>
-		<Translation>Allow {CHARACTER-SHORT-2} to publish {G2:his:her} treatise.</Translation>
+		<Translation>Erlaube {CHARACTER-SHORT-2} {G2:seine:ihre} Abhandlung zu veröffentlichen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_CAPSIZED_OPTION_1</zType>
-		<Translation>Send {G2:him:her} on a royal research expedition.</Translation>
+		<Translation>Schicke {G2:ihn:sie} auf eine köngliche Erkundungsexpedition.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_CAPSIZED_OPTION_2</zType>
-		<Translation>Build {G2:him:her} a fishery to practice new methods.</Translation>
+		<Translation>Baue {G2:ihm:ihr} eine Fischerei um neue Methoden zu trainieren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_NECROPOLIS_SAVE</zType>
-		<Translation>Allow the survivors to join us.</Translation>
+		<Translation>Erlsaube den Überlebenden uns anzuschließen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_NECROPOLIS_LEARN</zType>
-		<Translation>A terrible event, but I can learn from it.</Translation>
+		<Translation>Ein schrechliches Ereignis, aber davon kann ich mehr in Erfahrung bringen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_STRANGE_ART_KEEP</zType>
-		<Translation>Display it in {CITY-0}!</Translation>
+		<Translation>Stelle es in {CITY-0} aus!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_STRANGE_ART_SELL</zType>
-		<Translation>Perhaps someone else will appricate it more.</Translation>
+		<Translation>Vielleicht weiß es jemand anderes mehr zu wertschätzen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_STRANGE_SCROLL_STUDY</zType>
-		<Translation>Study the scroll.</Translation>
+		<Translation>Studiere die Schriftrolle.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_STRANGE_SCROLL_DESTROY</zType>
-		<Translation>Something isn’t right, destroy it!</Translation>
+		<Translation>Irgendetwas stimmt nicht, zerstöre es!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_WISE_MAN_WAR</zType>
-		<Translation>Heed his advice on war.</Translation>
+		<Translation>Beherzige seinen Ratschlag über Krieg.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_WISE_MAN_TRADE</zType>
-		<Translation>Heed his advice on trade.</Translation>
+		<Translation>Beherzige seinen Ratschlag über Handel.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_GIANT_STATUE_CARVE</zType>
-		<Translation>I shall have the statue repaired in my own image.</Translation>
+		<Translation>Ich werde die Statue in meinem eigenen Abbild reparieren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_GIANT_STATUE_LOOT</zType>
-		<Translation>We should put the stone to better use.</Translation>
+		<Translation>Wir sollten die Steine für etwas besser verwenden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_CURSED_LAND_ROCKS</zType>
-		<Translation>Fill the pit with rocks!</Translation>
+		<Translation>Fülle die Grube mit Steinen!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_CURSED_LAND_STUDY</zType>
-		<Translation>We should study this pit.</Translation>
+		<Translation>Wir sollten die Grube studieren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_COMET_SIGHTEDE_OMEN</zType>
-		<Translation>It’s an omen!</Translation>
+		<Translation>Es ist ein Omen!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_COMET_SIGHTED_SCIENCE</zType>
-		<Translation>A fascinating observation!</Translation>
+		<Translation>Eine faszinierende Beobachtung!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_CHOSEN_CHILD_ADOPT</zType>
-		<Translation>Adopt the child as my own.</Translation>
+		<Translation>Adoptiere das Kind als meinesgleichen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_CHOSEN_CHILD_REJECT</zType>
-		<Translation>I have no interest in mysterious children.</Translation>
+		<Translation>Ich habe kein Interesse an misteriösen Kindern.</Translation>
 	</Entry>	 
 	<Entry beginGroup="Contact">
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_CALM_EMISSARY_TRUCE</zType>
@@ -1415,7 +1415,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_HAUGHTY_EMISSARY_TRUCE</zType>
-		<Translation><![CDATA[We only treat with our equals.]]></Translation>
+		<Translation><![CDATA[Wir handeln nur mit unseresgleichen.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_HAUGHTY_EMISSARY_WAR</zType>

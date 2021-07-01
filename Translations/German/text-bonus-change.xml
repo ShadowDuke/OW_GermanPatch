@@ -8,147 +8,147 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FAMILY_SEAT</zType>
-		<Translation>Founded link(CONCEPT_FAMILY_SEAT)</Translation>
+		<Translation>link(CONCEPT_FAMILY_SEAT) gegründet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_DISCOVERED_LANDMARK</zType>
-		<Translation>Landmark Discovered</Translation>
+		<Translation>Wahrzeichen entdeckt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_NAMED_LANDMARK</zType>
-		<Translation>Landmark Named</Translation>
+		<Translation>Wahrzeichen benannt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_AMBITION</zType>
-		<Translation>Finished Ambition(s)</Translation>
+		<Translation>Ambition(en) vollendet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_LEGACY</zType>
-		<Translation>Finished Legac(ies)</Translation>
+		<Translation>Vermächtnis(se) vollendet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_ABANDONED_AMBITION</zType>
-		<Translation>Abandoned Ambition(s)</Translation>
+		<Translation>Ambition(en) aufgegeben</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FAILED_LEGACY</zType>
-		<Translation>Failed Legac(ies)</Translation>
+		<Translation>Vermächtnis(se) fehlgeschlagen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_QUEST</zType>
-		<Translation>Finished Quest(s)</Translation>
+		<Translation>Quest(s) vollendet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_HOLY_SITE</zType>
-		<Translation>Built a Holy Site</Translation>
+		<Translation>Eine Heilige Stätte gebaut</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_WONDER_WEAK</zType>
-		<Translation>Built a Wonder</Translation>
+		<Translation>Ein Wunder gebaut</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_WONDER_DEVELOPING</zType>
-		<Translation>Built a Wonder</Translation>
+		<Translation>Ein Wunder gebaut</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_WONDER_STRONG</zType>
-		<Translation>Built a Wonder</Translation>
+		<Translation>Ein Wunder gebaut</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_WONDER_LEGENDARY</zType>
-		<Translation>Built a Wonder</Translation>
+		<Translation>Ein Wunder gebaut</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_INSPIRED_BY_WONDER</zType>
-		<Translation>Inspired by a Wonder</Translation>
+		<Translation>Beflügelt durch ein Wunder</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_HIGH_SYNOD</zType>
-		<Translation>High Synod</Translation>
+		<Translation>Hohe Kirchenversammlung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_CONVERT_LEGITIMACY</zType>
-		<Translation>Used for {YIELD_ORDERS}</Translation>
+		<Translation>Für {YIELD_ORDERS} benutzt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_LEADER_ADOPTS</zType>
-		<Translation>Ruler Adopted a Child</Translation>
+		<Translation>Herrscher adoptierte ein Kind</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_BREAK_PEACE</zType>
-		<Translation>Broke Peace Treaty</Translation>
+		<Translation>Friedensvertrag gebrochen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_END_ALLIANCE</zType>
-		<Translation>Ended Alliance</Translation>
+		<Translation>Bündnis beendet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TRIBE_MARRIAGE</zType>
-		<Translation>Marriage with a Tribe</Translation>
+		<Translation>Heirat mit einem Stamm</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TRIBE_WAR_LEGITIMACY</zType>
-		<Translation>Unafraid of Tribes</Translation>
+		<Translation>Furchtlos gegenüber Stämmen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TRIBE_TRUCE_LEGITIMACY</zType>
-		<Translation>Made a Truce with a Tribe</Translation>
+		<Translation>Waffenstillstand mit einem Stamm</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TRIBE_PEACE_LEGITIMACY</zType>
-		<Translation>Made Peace with a Tribe</Translation>
+		<Translation>Frieden mit einem Stamm</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TRIBE_ALLIANCE</zType>
-		<Translation>Made an Alliance with a Tribe</Translation>
+		<Translation>Bündnis mit einem Stamm</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TRIBAL_INVASION_LEGITIMACY</zType>
-		<Translation>Unafraid of Invasion</Translation>
+		<Translation>Furchtlos gegenüber Einfällen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TRIBE_ELIMINATED_LEGITIMACY</zType>
-		<Translation>Eliminated a Tribe</Translation>
+		<Translation>einen Stamm beseitigt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_PLAYER_WAR_LEGITIMACY</zType>
-		<Translation>Unafraid of War</Translation>
+		<Translation>Furchtlos gegenüber Krieg</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_LEAVE_RELIGION</zType>
-		<Translation>Leave link(CONCEPT_STATE_RELIGION)</Translation>
+		<Translation>Verlasse link(CONCEPT_STATE_RELIGION)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_RALLY_TROOPS</zType>
-		<Translation>Rally Troops</Translation>
+		<Translation>Sammle die Truppen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_HOLD_COURT</zType>
-		<Translation>Hold Court</Translation>
+		<Translation>Hofstaat abhalten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INFLUENCE</zType>
-		<Translation>Influence (Success)</Translation>
+		<Translation>Einfluss (Erfolg)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INFLUENCE_WEAKEN</zType>
-		<Translation>Influence (Success, Weaken)</Translation>
+		<Translation>Einfluss (Erfolg, geschwächt)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_CONVERT_SELF</zType>
-		<Translation>Convert Self</Translation>
+		<Translation>Selbst konvertiert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_CONVERT_RELIGION</zType>
-		<Translation>Convert to link(CONCEPT_STATE_RELIGION)</Translation>
+		<Translation>Konvertiere zur link(CONCEPT_STATE_RELIGION)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INTERCESSION</zType>
-		<Translation>Intercession (Success)</Translation>
+		<Translation>Fürsprache (Erfolg)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INTERCESSION_WEAKEN</zType>
-		<Translation>Influence (Success, Weaken)</Translation>
+		<Translation>Fürsprache (Erfolg, geschwächt)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_ADOPT</zType>
@@ -156,335 +156,335 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_LEGITIMIZE</zType>
-		<Translation>Legitimized Bastard</Translation>
+		<Translation>Bastard legitimiert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_CHOSEN_HEIR</zType>
-		<Translation>Chosen Heir</Translation>
+		<Translation>Gewählter Erbe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INFILTRATE_REVEAL</zType>
-		<Translation>Infiltrate (Success)</Translation>
+		<Translation>Infiltrieren (Erfolg)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INFILTRATE_REVEAL_EXPOSED</zType>
-		<Translation>Infiltrate (Success, Exposed)</Translation>
+		<Translation>Infiltrieren (Erfolg, entblößt)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_SLANDER_SUCCESS</zType>
-		<Translation>Slander (Success)</Translation>
+		<Translation>Verleumden (Erfolg)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_SLANDER_SUCCESS_EXPOSED</zType>
-		<Translation>Slander (Success, Exposed)</Translation>
+		<Translation>Verleumden (Erfolg, entblößt)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_STEAL_RESEARCH_SUCCESS</zType>
-		<Translation>Steal Research (Success)</Translation>
+		<Translation>Forschung stehlen (Erfolg)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_STEAL_RESEARCH_SUCCESS_EXPOSED</zType>
-		<Translation>Steal Research (Success, Exposed)</Translation>
+		<Translation>Forschung stehlen (Erfolg, entblößt)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_ASSASSINATE_KILL</zType>
-		<Translation>Assassinate (Kill)</Translation>
+		<Translation>Ermorden (Getötet)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_ASSASSINATE_KILL_EXPOSED</zType>
-		<Translation>Assassinate (Kill, Exposed)</Translation>
+		<Translation>Ermorden (Getötet, entblößt)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_ASSASSINATE_FAIL_EXPOSED</zType>
-		<Translation>Assassinate (Fail, Exposed)</Translation>
+		<Translation>Ermorden (Fehlschlag, entblößt)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_TREACHERY_SUCCESS</zType>
-		<Translation>Treachery (Success)</Translation>
+		<Translation>Verrat (Erfolg)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_TREACHERY_FAILURE</zType>
-		<Translation>Treachery (Failure)</Translation>
+		<Translation>Verrat (Fehlschlag)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INSURRECTION_REVOLT</zType>
-		<Translation>Insurrection (Revolt)</Translation>
+		<Translation>Aufstand (Revolte)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INSURRECTION_DISCONTENT</zType>
-		<Translation>Insurrection (Discontent)</Translation>
+		<Translation>Aufstand (Unruhe)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INSURRECTION_FAILURE</zType>
-		<Translation>Insurrection (Failure)</Translation>
+		<Translation>Aufstand (Fehlschlag)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_HIGH_SYNOD_SUCCESS</zType>
-		<Translation>High Synod (Success)</Translation>
+		<Translation>Hohe Kirchenversammlung (Erfolg)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_HIGH_SYNOD_FAILURE</zType>
-		<Translation>High Synod (Failure)</Translation>
+		<Translation>Hohe Kirchenversammlung (Fehlschlag)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_FAMILY_GIFT_SUCCESS</zType>
-		<Translation>Family Gift (Success)</Translation>
+		<Translation>Familiengeschenk (Erfolg)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_FAMILY_GIFT_SUCCESS_WEAKEN</zType>
-		<Translation>Family Gift (Success, Weaken)</Translation>
+		<Translation>Familiengeschenk (Erfolg, geschwächt)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_PACIFY_CITY_SUCCESS</zType>
-		<Translation>Pacify City (Success)</Translation>
+		<Translation>Stadt beschwichtigen  (Erfolg)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_PACIFY_CITY_SUCCESS_WEAKEN</zType>
-		<Translation>Pacify City (Success, Weaken)</Translation>
+		<Translation>Stadt beschwichtigen (Erfolg, geschwächt)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_IMPRISON_JUST</zType>
-		<Translation>Imprison (Just)</Translation>
+		<Translation>Einkerkern (Gerecht)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_IMPRISON_UNJUST</zType>
-		<Translation>Imprison (Unjust)</Translation>
+		<Translation>Einkerkern (Ungerecht)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_IMPRISON_ESCAPE</zType>
-		<Translation>Imprison (Escape)</Translation>
+		<Translation>Einkerkern (Flucht)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_RELEASE_GRATEFUL</zType>
-		<Translation>Release (Grateful)</Translation>
+		<Translation>Freilassung (Dankbar)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_RELEASE_BITTER</zType>
-		<Translation>Release (Bitter)</Translation>
+		<Translation>Freilassung (Verbittert)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_RELEASE_UNJUST</zType>
-		<Translation>Release (Unjust)</Translation>
+		<Translation>Freilassung (Ungerecht)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_CAPTURE_SURRENDER</zType>
-		<Translation>Capture (Surrender)</Translation>
+		<Translation>Ergreifen (Surrender)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_CAPTURE_KILLED</zType>
-		<Translation>Capture (Killed)</Translation>
+		<Translation>Ergreifen (Killed)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_CAPTURE_FLEE</zType>
-		<Translation>Capture (Flee)</Translation>
+		<Translation>Ergreifen (Flee)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_PAY_RANSOM</zType>
-		<Translation>Capture Ransom</Translation>
+		<Translation>Ergreifen (Lösegeld)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_MARRY_COURTIER</zType>
-		<Translation>Marry</Translation>
+		<Translation>Heirat</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_DIVORCE</zType>
-		<Translation>Divorce</Translation>
+		<Translation>Scheidung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_STONECUTTING_BONUS_STONE</zType>
-		<Translation>link(YIELD_STONE) Boost</Translation>
+		<Translation>link(YIELD_STONE) Schub</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_HUSBANDRY_BONUS_FOOD</zType>
-		<Translation>link(YIELD_FOOD) Boost</Translation>
+		<Translation>link(YIELD_FOOD) Schub</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_POLIS_BONUS_SETTLER</zType>
-		<Translation>Free link(UNIT_SETTLER)</Translation>
+		<Translation>Kostenloser link(UNIT_SETTLER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_ARISTOCRACY_BONUS_BORDERS</zType>
-		<Translation>Border Boost</Translation>
+		<Translation>Grenzenausdehnung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_NAVIGATION_BONUS_BIREME</zType>
-		<Translation>Free link(UNIT_BIREME)</Translation>
+		<Translation>Kostenlose link(UNIT_BIREME)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_SPOKED_WHEEL_BONUS_CHARIOT</zType>
-		<Translation>Free link(UNIT_CHARIOT)</Translation>
+		<Translation>Kostenloser link(UNIT_CHARIOT)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_CITIZENSHIP_BONUS_MINISTER</zType>
-		<Translation>New link(COURTIER_MINISTER)</Translation>
+		<Translation>Neuer link(COURTIER_MINISTER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_PORTCULLIS_BONUS_MACEMAN</zType>
-		<Translation>Free link(UNIT_MACEMAN)</Translation>
+		<Translation>Kostenloser link(UNIT_MACEMAN)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_LAND_CONSOLIDATION_BONUS_CAMEL_ARCHER</zType>
-		<Translation>Free link(UNIT_CAMEL_ARCHER)</Translation>
+		<Translation>Kostenloser link(UNIT_CAMEL_ARCHER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_LAND_CONSOLIDATION_BONUS_WAR_ELEPHANT</zType>
-		<Translation>Free link(UNIT_WAR_ELEPHANT)</Translation>
+		<Translation>Kostenloser link(UNIT_WAR_ELEPHANT)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_COMPOSITE_BOW_BONUS_ARCHER</zType>
-		<Translation>Free link(UNIT_ARCHER)</Translation>
+		<Translation>Kostenloser link(UNIT_ARCHER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_DOCTRINE_BONUS_ORDERS</zType>
-		<Translation>link(YIELD_ORDERS) Boost</Translation>
+		<Translation>link(YIELD_ORDERS) Schub</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_COINAGE_BONUS_MONEY</zType>
-		<Translation>link(YIELD_MONEY) Boost</Translation>
+		<Translation>link(YIELD_MONEY) Schub</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_SCHOLARSHIP_BONUS_SCIENTIST</zType>
-		<Translation>New link(COURTIER_SCIENTIST)</Translation>
+		<Translation>Neuer link(COURTIER_SCIENTIST)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_TORSION_BONUS_BALLISTA</zType>
-		<Translation>Free link(UNIT_BALLISTA)</Translation>
+		<Translation>Kostenlose link(UNIT_BALLISTA)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_STIRRUPS_BONUS_HORSEMAN</zType>
-		<Translation>Free link(UNIT_HORSEMAN)</Translation>
+		<Translation>Kostenloser link(UNIT_HORSEMAN)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_STIRRUPS_BONUS_HORSE_ARCHER</zType>
-		<Translation>Free link(UNIT_HORSE_ARCHER)</Translation>
+		<Translation>Kostenloser link(UNIT_HORSE_ARCHER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_ARCHITECTURE_BONUS_CIVICS</zType>
-		<Translation>link(YIELD_CIVICS) Boost</Translation>
+		<Translation>link(YIELD_CIVICS) Schub</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_MANOR_BONUS_GOODS</zType>
-		<Translation>Goods Boost</Translation>
+		<Translation>Waren Schub</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_MACHINERY_BONUS_ONAGER</zType>
-		<Translation>Free link(UNIT_ONAGER)</Translation>
+		<Translation>Kostenloser link(UNIT_ONAGER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_CARTOGRAPHY_BONUS_TRIREME</zType>
-		<Translation>Free link(UNIT_TRIREME)</Translation>
+		<Translation>Kostenlose link(UNIT_TRIREME)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_HYDRAULICS_BONUS_MERCHANT</zType>
-		<Translation>New link(COURTIER_MERCHANT)</Translation>
+		<Translation>Neuer link(COURTIER_MERCHANT)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_VAULTING_BONUS_DISCONTENT</zType>
-		<Translation>link(YIELD_DISCONTENT) Reduction</Translation>
+		<Translation>link(YIELD_DISCONTENT) Abnahme</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_BODKIN_ARROW_BONUS_TRAINING</zType>
-		<Translation>link(YIELD_TRAINING) Boost</Translation>
+		<Translation>link(YIELD_TRAINING) Schub</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_COHORTS_BONUS_SOLDIER</zType>
-		<Translation>New link(COURTIER_SOLDIER)</Translation>
+		<Translation>Neuer link(COURTIER_SOLDIER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_WINDLASS_BONUS_CROSSBOWMAN</zType>
-		<Translation>Free link(UNIT_CROSSBOWMAN)</Translation>
+		<Translation>Kostenloser link(UNIT_CROSSBOWMAN)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_LATEEN_SAIL_BONUS_DROMON</zType>
-		<Translation>Free link(UNIT_DROMON)</Translation>
+		<Translation>Kostenlose link(UNIT_DROMON)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_ECONOMIC_REFORM</zType>
-		<Translation>New link(COURTIER_MERCHANT)</Translation>
+		<Translation>Neuer link(COURTIER_MERCHANT)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_MILITARY_PRESTIGE</zType>
-		<Translation>New link(COURTIER_SOLDIER)</Translation>
+		<Translation>Neuer link(COURTIER_SOLDIER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_INDUSTRIAL_PROGRESS</zType>
-		<Translation>New link(COURTIER_MINISTER)</Translation>
+		<Translation>Neuer link(COURTIER_MINISTER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_BATTERING_RAM_UNIT</zType>
-		<Translation>Free link(UNIT_BATTERING_RAM)</Translation>
+		<Translation>Kostenlose link(UNIT_BATTERING_RAM)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_SIEGE_TOWER_UNIT</zType>
-		<Translation>Free link(UNIT_SIEGE_TOWER)</Translation>
+		<Translation>Kostenloser link(UNIT_SIEGE_TOWER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_AKKADIAN_ARCHER_UNIT</zType>
-		<Translation>Free link(UNIT_AKKADIAN_ARCHER)</Translation>
+		<Translation>Kostenloser link(UNIT_AKKADIAN_ARCHER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_CIMMERIAN_ARCHER_UNIT</zType>
-		<Translation>Free link(UNIT_CIMMERIAN_ARCHER)</Translation>
+		<Translation>Kostenloser link(UNIT_CIMMERIAN_ARCHER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_AFRICAN_ELEPHANT_UNIT</zType>
-		<Translation>Free link(UNIT_AFRICAN_ELEPHANT)</Translation>
+		<Translation>Kostenloser link(UNIT_AFRICAN_ELEPHANT)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_TURRETED_ELEPHANT_UNIT</zType>
-		<Translation>Free link(UNIT_TURRETED_ELEPHANT)</Translation>
+		<Translation>Kostenloser link(UNIT_TURRETED_ELEPHANT)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_LIGHT_CHARIOT_UNIT</zType>
-		<Translation>Free link(UNIT_LIGHT_CHARIOT)</Translation>
+		<Translation>Kostenloser link(UNIT_LIGHT_CHARIOT)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_KUSHITE_CAVALRY_UNIT</zType>
-		<Translation>Free link(UNIT_KUSHITE_CAVALRY)</Translation>
+		<Translation>Kostenlose link(UNIT_KUSHITE_CAVALRY)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_HOPLITE_UNIT</zType>
-		<Translation>Free link(UNIT_HOPLITE)</Translation>
+		<Translation>Kostenloser link(UNIT_HOPLITE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_PHALANGITE_UNIT</zType>
-		<Translation>Free link(UNIT_PHALANGITE)</Translation>
+		<Translation>Kostenloser link(UNIT_PHALANGITE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_PALTON_CAVALRY_UNIT</zType>
-		<Translation>Free link(UNIT_PALTON_CAVALRY)</Translation>
+		<Translation>Kostenlose link(UNIT_PALTON_CAVALRY)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_CATAPHRACT_ARCHER_UNIT</zType>
-		<Translation>Free link(UNIT_CATAPHRACT_ARCHER)</Translation>
+		<Translation>Kostenloser link(UNIT_CATAPHRACT_ARCHER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_HASTATUS_UNIT</zType>
-		<Translation>Free link(UNIT_HASTATUS)</Translation>
+		<Translation>Kostenloser link(UNIT_HASTATUS)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_LEGIONARY_UNIT</zType>
-		<Translation>Free link(UNIT_LEGIONARY)</Translation>
+		<Translation>Kostenloser link(UNIT_LEGIONARY)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_ABDICATE</zType>
-		<Translation>Abdication</Translation>
+		<Translation>Abdankung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_ZOROASTRIANISM_DISCIPLE</zType>
-		<Translation>Free link(UNIT_ZOROASTRIANISM_DISCIPLE)</Translation>
+		<Translation>Kostenloser link(UNIT_ZOROASTRIANISM_DISCIPLE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_JUDAISM_DISCIPLE</zType>
-		<Translation>Free link(UNIT_JUDAISM_DISCIPLE)</Translation>
+		<Translation>Kostenloser link(UNIT_JUDAISM_DISCIPLE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_CHRISTIANITY_DISCIPLE</zType>
-		<Translation>Free link(UNIT_CHRISTIANITY_DISCIPLE)</Translation>
+		<Translation>Kostenloser link(UNIT_CHRISTIANITY_DISCIPLE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MANICHAEISM_DISCIPLE</zType>
-		<Translation>Free link(UNIT_MANICHAEISM_DISCIPLE)</Translation>
+		<Translation>Kostenloser link(UNIT_MANICHAEISM_DISCIPLE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_PROJECT_PROTECTION_EDICTS</zType>
@@ -2584,46 +2584,46 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_LEGIT_LOSS_FIVE</zType>
-		<Translation>Failed to lead</Translation>
+		<Translation>Erfolglos angeführt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LEGIT_LOSS_DEBT</zType>
-		<Translation>Refused to pay debts</Translation>
+		<Translation>Geweigert Schulden zu bezahlen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LEGIT_POISONED_MY_PREDECESSOR</zType>
-		<Translation>Poisoned my predecessor</Translation>
+		<Translation>Meinen Vorgänger vergiftet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_LEGITIMACY_FROM_SCHEMING</zType>
-		<Translation>Mastermind Schemer</Translation>
+		<Translation>Meisterhafter Intrigant</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_LEGITIMACY_LOVE_AFFAIR_KEEP</zType>
-		<Translation>Unashamed of my lover</Translation>
+		<Translation>Schamlos wegen meinem Geliebten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_LEGITIMACY_REJECTED_CHILD</zType>
-		<Translation>Rejected mysterious child</Translation>
+		<Translation>Misteriöses Kind zurückgewiesen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_RELIGION_HEAD_REFUSED</zType>
-		<Translation>Refused religious head</Translation>
+		<Translation>Religiöses Oberhaupt verweigert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_RELIGION_HEAD_HUMBLED_BY</zType>
-		<Translation>Humbled by religious head</Translation>
+		<Translation>Von religiösem Oberhaupt erniedrigt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_RETURNED_BODIES</zType>
-		<Translation>Honored fallen bodyguards</Translation>
+		<Translation>Gefallene Leibwächter geehrt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_PLOTTING_FOR_LUST</zType>
-		<Translation>Chose death over being pressured</Translation>
+		<Translation>Wählte Tot über gezwungen zu werden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WILD_REVELS_DISCOVERED</zType>
-		<Translation>Gained a reputation as a foolish drunk</Translation>
+		<Translation>Erlangt den Ruf eines närrischen Säufers</Translation>
 	</Entry>
 </Root>

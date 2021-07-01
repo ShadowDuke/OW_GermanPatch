@@ -1164,35 +1164,35 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_BUILD</zType>
-		<Translation><![CDATA[Wechsle untätige Zivileinheiten<true_0> {0_presskey}<false><end>]]></Translation>
+		<Translation><![CDATA[Durchwechsle untätige Zivileinheiten<true_0> {0_presskey}<false><end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_BUILD_KEYS</zType>
-		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> to Cycle in reverse<br><TEXT_HOTKEY_CTRL_CLICK> to Pass all<br><TEXT_HOTKEY_CTRL_SHIFT_CLICK> to Wake all<br>Drag to prioritize]]></Translation>
+		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> um umgekehrt durchzuwechseln<br><TEXT_HOTKEY_CTRL_CLICK> um alle zu passen<br><TEXT_HOTKEY_CTRL_SHIFT_CLICK> um alle zu wecken<br>Ziehe zum priorisieren]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_MILITARY</zType>
-		<Translation>Cycle link(CONCEPT_IDLE) Military Units{true_0: {0_presskey}}</Translation>
+		<Translation>Durchwechsle link(CONCEPT_IDLE) Militär Einheiten{true_0: {0_presskey}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_MILITARY_KEYS</zType>
-		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> to Cycle in reverse<br><TEXT_HOTKEY_CTRL_CLICK> to Pass all<br><TEXT_HOTKEY_CTRL_SHIFT_CLICK> to Wake all<br>Drag to prioritize]]></Translation>
+		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> um umgekehrt durchzuwechseln<br><TEXT_HOTKEY_CTRL_CLICK> um alle zu passen<br><TEXT_HOTKEY_CTRL_SHIFT_CLICK> um alle zu wecken<br>Ziehe zum priorisieren]]></Translation>
 	 </Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_EXPLORATION</zType>
-		<Translation>Cycle link(CONCEPT_IDLE) link(UNIT_SCOUT,2) and Naval Units{true_0: {0_presskey}}</Translation>
+		<Translation>Durchwechsle link(CONCEPT_IDLE) link(UNIT_SCOUT,2) und  See Einheiten {true_0: {0_presskey}}</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_EXPLORATION_KEYS</zType>
-		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> to Cycle in reverse<br><TEXT_HOTKEY_CTRL_CLICK> to Pass all<br><TEXT_HOTKEY_CTRL_SHIFT_CLICK> to Wake all<br>Drag to prioritize]]></Translation>
+		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> um umgekehrt durchzuwechseln<br><TEXT_HOTKEY_CTRL_CLICK> um alle zu passen<br><TEXT_HOTKEY_CTRL_SHIFT_CLICK> um alle zu wecken<br>Ziehe zum priorisieren]]></Translation>
     </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_CITIES</zType>
-		<Translation>Cycle link(CONCEPT_IDLE) Cities{true_0: {0_presskey}}</Translation>
+		<Translation>Durchwechsle link(CONCEPT_IDLE) Städte{true_0: {0_presskey}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_CITIES_KEYS</zType>
-		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> to Cycle in reverse<br>Drag to prioritize]]></Translation>
+		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> um umgekehrt durchzuwechseln<br>Ziehe zum priorisieren]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_DECISIONS</zType>
@@ -1200,7 +1200,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_DECISIONS_KEYS</zType>
-		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> to Cycle in reverse<br>Drag to prioritize]]></Translation>
+		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> um umgekehrt durchzuwechseln<br>Ziehe zum priorisieren]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_PREVIOUS_CITIES</zType>
@@ -1288,7 +1288,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_UNDO_TURN_PREVIOUS</zType>
-		<Translation><![CDATA[<TEXT_HOTKEY_CTRL_CLICK> um zum letzten Zug zurückzuspulen ]]></Translation>
+		<Translation><![CDATA[<TEXT_HOTKEY_CTRL_CLICK> um zum letzten Zug zurückzuspulen]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_RESEARCH_TECH</zType>
@@ -1384,7 +1384,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_BUILD_INSERT_END</zType>
-		<Translation><![CDATA[Hold <TEXT_HOTKEY_CTRL> to Insert at the End.]]></Translation>
+		<Translation><![CDATA[Hold <TEXT_HOTKEY_CTRL> um dem Ende hinzuzufügen.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_BUILD_SPECIALIST_NEXT</zType>
@@ -1436,15 +1436,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PLAYER_STATUS_DISCONNECTED</zType>
-		<Translation>Disconnected</Translation>
+		<Translation>Getrennt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PLAYER_STATUS_TURN_ENDED</zType>
-		<Translation>Turn Ended</Translation>
+		<Translation>Zug beendet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PLAYER_STATUS_PLAYING</zType>
-		<Translation>Playing Turn</Translation>
+		<Translation>Zum am spielen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PLAYER_NATION_SELECT</zType>
@@ -1452,7 +1452,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PLAYER_SELECT</zType>
-		<Translation>Click to center the camera on {0_player}'s capital</Translation>
+		<Translation>Klicke um die Kamera auf {0_player}'s Hauptstadt zu zentrieren</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PLAYER_LEGITIMACY_COGNOMEN</zType>
@@ -1468,7 +1468,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_RIGHT_CLICK_MISSIONS</zType>
-		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> to Show Potential Missions]]></Translation>
+		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> um mögliche Missionen anzuzeigen]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PLAYER_LEGITIMACY_SHOW_INHERITANCE</zType>
@@ -1504,15 +1504,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_ADD_GENERAL_PREREQS_AGE</zType>
-		<Translation>Must be younger than {0}</Translation>
+		<Translation>Muss jünger als {0} sein</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_ADD_GENERAL_PREREQS_FAMILY</zType>
-		<Translation>Must be not be of a different link(CONCEPT_FAMILY) than {0_family}</Translation>
+		<Translation>Darf nicht von einer anderen link(CONCEPT_FAMILY) als {0_family} sein</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_ADD_GENERAL_PREREQS_TRIBE</zType>
-		<Translation>Must be a descendant of the {0_tribe} link(CONCEPT_TRIBE)</Translation>
+		<Translation>Darf nicht Nachkomme von den {0_tribe} link(CONCEPT_TRIBE) sein</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_RELEASE_GENERAL</zType>
@@ -1536,15 +1536,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_START_MISSION_CONFLICT_TURNS</zType>
-		<Translation>({0} Turn(s) since last link(DIPLOMACY_WAR))</Translation>
+		<Translation>({0} Züge seit dem letzten link(DIPLOMACY_WAR))</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_ABANDON_AMBITION</zType>
-		<Translation>Abandon {true_0:link(CONCEPT_LEGACY):link(CONCEPT_AMBITION)}: {1_goal}</Translation>
+		<Translation>Stelle {true_0:link(CONCEPT_LEGACY):link(CONCEPT_AMBITION)} ein: {1_goal}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_DELAY_DECISION</zType>
-		<Translation>Wait to choose an link(CONCEPT_AMBITION) in int(AMBITION_DELAY_TURNS) {0_turnScale}</Translation>
+		<Translation>Warte um eine link(CONCEPT_AMBITION) in int(AMBITION_DELAY_TURNS) {0_turnScale} auszuwählen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_CITY_FAMILY</zType>
@@ -1740,27 +1740,27 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CITY_OPINION_MISSING_LUXURIES</zType>
-		<Translation>Opinion from Missing link(CONCEPT_LUXURY){true_LIST-COUNT: ({LIST})}: {0} to {1}</Translation>
+		<Translation>Meinung über fehlendes link(CONCEPT_LUXURY){true_LIST-COUNT: ({LIST})}: {0} zu {1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CITY_OPINION_CONNECTED_CITIES</zType>
-		<Translation>Opinion from {0_connected} Cities: {1} to {2}</Translation>
+		<Translation>Meinung über {0_connected} Städte: {1} to {2}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CITY_OPINION_ENVY</zType>
-		<Translation>Opinion from Envy: {0} to {1}</Translation>
+		<Translation>Meinung über Eifersucht: {0} zu {1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CITY_OPINION_ENVY_FAMILY</zType>
-		<Translation>Opinion from Envy ({0_family}): {1} to {2}</Translation>
+		<Translation>Meinung über Eifersucht ({0_family}): {1} zu {2}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CITY_OPINION_MOST_FEWEST_CITIES</zType>
-		<Translation>Opinion from Most/Fewest Cities: {0} to {1}</Translation>
+		<Translation>Meinung über Meisten/Wenigsten Städte: {0} zu {1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CITY_OPINION_MOST_FEWEST_CITIES_FAMILY</zType>
-		<Translation>Opinion from Most/Fewest Cities ({0_family}): {1} to {2}</Translation>
+		<Translation>Meinung über Meisten/Wenigsten Städte ({0_family}): {1} zu {2}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_FOUND_CITY_FOUND_COST</zType>
@@ -1796,7 +1796,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_FOUND_CITY_NEEDS_CITY_SITE</zType>
-		<Translation>Needs to be connected via link(CONCEPT_URBAN) Tiles to a City Site</Translation>
+		<Translation>Muss über link(CONCEPT_URBAN) Felder an einen Stadtplatz verbunden sein</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_FOUND_CITY_CANNOT_FOUND_NEAR_TRIBE</zType>
@@ -1804,11 +1804,11 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_FOUND_CITY_CANNOT_FOUND_NEAR_UNIT</zType>
-		<Translation>Founding blocked by rival {0_unit} on City Site</Translation>
+		<Translation>Gründung blockiert von rivalisierender {0_unit} auf Stadtplatz</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_FOUND_CITY_CANNOT_FOUND_NEAR_UNIT_UNKNOWN</zType>
-		<Translation>Founding blocked by rival Unit on City Site</Translation>
+		<Translation>Gründung blockiert von rivalisierender Einheit auf Stadtplatz</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_JOIN_CITY</zType>
@@ -1840,7 +1840,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_WIDGET_ROAD_TO_KEY</zType>
-		<Translation>{0} to enable Road-To mode</Translation>
+		<Translation>{0} um Straße-Zu Modus zu aktivieren</Translation>
     </Entry>
     <Entry>        
         <zType>TEXT_HELPTEXT_WIDGET_CANCEL_ROAD_TO_KEY</zType>
@@ -1912,7 +1912,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CARAVAN_MISSION_CANCEL</zType>
-		<Translation>Cancel link(CONCEPT_CARAVAN_MISSION) to {0_player}</Translation>
+		<Translation>Breche link(CONCEPT_CARAVAN_MISSION) zu {0_player} ab</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TRADE_ROUTE_DESTINATION</zType>
@@ -1976,7 +1976,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RECRUIT_MERCENARY_COST</zType>
-		<Translation>Costet {0} {1_legitimacy}</Translation>
+		<Translation>Kostet {0} {1_legitimacy}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_HIRE_MERCENARY</zType>
@@ -1984,7 +1984,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HIRE_NO_MERCENARY_TRIBE</zType>
-		<Translation>{0_tribe} cannot be hired as link(CONCEPT_MERCENARY,2)</Translation>
+		<Translation>{0_tribe} können nicht als link(CONCEPT_MERCENARY,2) angeheuert werden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_GIFT_UNIT</zType>
@@ -2012,11 +2012,11 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_WIDGET_ESTABLISH_THEOLOGY_REQUIRES_PREVIOUS_TIER</zType>
-        <Translation>Requires an established Theology from the previous tier</Translation>
+        <Translation>Benötigt eine eingeführte Religionswissenschaft vom vorherigem Rang</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_THEOLOGIES_AVAILABLE_TIER</zType>
-        <Translation>Available theologies (use a Disciple to establish):</Translation>
+        <Translation>Verfügbare Technologien (Benutze einen Jünger um einzuführen):</Translation>
     </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_SPREAD_RELIGION</zType>
@@ -2048,11 +2048,11 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CONVERT_RELIGION_WARNING</zType>
-		<Translation>(Must be adjacent to Site and not be at {0_war})</Translation>
+		<Translation>(Muss an einen Stadtplatz angrenzen und darf nicht im {0_war}) sein</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_COURTIER</zType>
-		<Translation>A new {0_courtier} has emerged.</Translation>
+		<Translation>Ein neuer {0_courtier} ist aufgetaucht.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_RELIGION_FOUNDED</zType>
@@ -2148,19 +2148,19 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_UPGRADE</zType>
-		<Translation>Upgrades convert a Combat Unit to a different type at the cost of some Training and other Unit specific resources.</Translation>
+		<Translation>Verbesserungen konvertieren einen Einheit in einen anderen Typ, auf Kosten von Training und anderen Einheitsspezifischen Ressourcen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_UPGRADE_IMPROVEMENTS</zType>
-		<Translation>Upgrade an Improvement to the next level (for example, link(IMPROVEMENT_THEATER_1) to link(IMPROVEMENT_THEATER_2)).</Translation>
+		<Translation>Verbessere eine Verbesserung auf die nächste Stufe (zum Beispiel, link(IMPROVEMENT_THEATER_1) zu link(IMPROVEMENT_THEATER_2)).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_XP</zType>
-		<Translation>Over time, Units and Characters earn XP (Experience), which can be used for link(CONCEPT_PROMOTION,2) and Traits, respectively.
+		<Translation>Über die Zeit erhalten Einheiten und Charaktere EP (Erfahrung), welche für link(CONCEPT_PROMOTION,2) und Merkmale benutzt werden können, in dieser Reihenfolge.
 		
-Units earn XP during combat or by being link(CONCEPT_IDLE) on certain link(CONCEPT_IMPROVEMENT,2). (link(UNITTRAIT_MELEE) Units earn XP in link(IMPROVEMENT_BARRACKS,1), and link(UNITTRAIT_RANGED) Units earn XP at link(IMPROVEMENT_RANGE,1).
+Einheiten erhalten EP während des Kämpfens oder wenn sie link(CONCEPT_IDLE) auf einer bestimmten link(CONCEPT_IMPROVEMENT,2) stehen. (link(UNITTRAIT_MELEE) Einheiten erlangen EP in link(IMPROVEMENT_BARRACKS,1), und link(UNITTRAIT_RANGED) Einheiten erhalten EP auf dem link(IMPROVEMENT_RANGE,1).
 
-Characters earn XP through performing Missions, holding roles such as link(CONCEPT_GENERAL), link(CONCEPT_GOVERNOR) or link(CONCEPT_COUNCILOR), and through events.</Translation>
+Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link(CONCEPT_GENERAL), link(CONCEPT_GOVERNOR) oder link(CONCEPT_COUNCILOR), und durch Ereignisse.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_REPLAY_MOVE_REDO</zType>
@@ -2176,11 +2176,11 @@ Characters earn XP through performing Missions, holding roles such as link(CONCE
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_MUSIC_PLAYER</zType>
-		<Translation>Click to show/hide music player</Translation>
+		<Translation>Klicke um den Musik Player zu zeigen/verstecken</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MUSIC_PLAYER_LOCKED</zType>
-		<Translation><![CDATA[<color=red>Music requires researching link(TECH_DRAMA)</color>]]></Translation>
+		<Translation><![CDATA[<color=red>Musikc benötigt erforschung von link(TECH_DRAMA)</color>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TECH_DECK</zType>
@@ -2192,31 +2192,31 @@ Characters earn XP through performing Missions, holding roles such as link(CONCE
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_INHERITANCE_TREE_LEADER_FUTURE_LEADER</zType>
-		<Translation>Future Leader</Translation>
+		<Translation>Zukünftigers Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_RECOMMENDED</zType>
-		<Translation>Recommended</Translation>
+		<Translation>Empfohlen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TIMELINE_JUMP_LEADER</zType>
-		<Translation>Jump to {0_leader} ({1_startYear})</Translation>
+		<Translation>Springe zu {0_leader} ({1_startYear})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TIMELINE_ADVANCE</zType>
-		<Translation>Show next event</Translation>
+		<Translation>Zeige nächstes Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TIMELINE_REWIND</zType>
-		<Translation>Show previous turn</Translation>
+		<Translation>Zeige vorherigen Zug</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PLAY_SLOW</zType>
-		<Translation>Play advancing by event</Translation>
+		<Translation>Spiele steigend mit Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PLAY_FAST</zType>
-		<Translation>Play advancing by year</Translation>
+		<Translation>Spiele steigend mit Jahr</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CONSUMES_UNIT</zType>
@@ -2229,15 +2229,15 @@ Characters earn XP through performing Missions, holding roles such as link(CONCE
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_AGENT_NETWORK</zType>
-		<Translation>Insert link(UNIT_SCOUT,1) into a Foreign City to gain visibility. A Character can then be sent to the City to serve as link(CONCEPT_AGENT,1). The link(UNIT_SCOUT) will be returned after int(AGENT_NETWORK_TURNS) Turns.</Translation>
+		<Translation>Setze link(UNIT_SCOUT,1) in eine ausländische Stadt ein um Sichtbarkeit zu erlangen. Ein Charakter kann dann in die Stadt geschickt werden um als link(CONCEPT_AGENT,1) zu dienen. Der link(UNIT_SCOUT) wird nach int(AGENT_NETWORK_TURNS) Zügen zurückkehren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HELP_ALLIANCE_TRIBE</zType>
-		<Translation><![CDATA[Can move and attack with the Units of this Tribe.<br>Can found cities near their settlements.<br>Will share your Diplomatic state with other Tribes.<br>Can only have an Alliance with one Tribe.<br>Alliance will last until the end of the current Leader's reign.]]></Translation>
+		<Translation><![CDATA[Kann sich mit den Einheiten dieses Stammes bewegen und angreifen.<br>Kann Städte in der Nähe derer Siedlungen gründen.<br>Wird deinen diplomatischen Status mit anderen Stämmen teilen.<br>Kann nur ein Bündnis mit einem Stamm gleichzeitig haben.<br>Das Bündnis hält so lange, biss das Ende des derzeitigen Oberhaupts Herrschaft gekommen ist.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HELP_ALLIANCE_PLAYER</zType>
-		<Translation><![CDATA[Can only have an Alliance with one other Player.<br>An Ally will automatically declare War on another Player that declares War on their Ally.]]></Translation>
+		<Translation><![CDATA[Kann nur ein Bündnis mit einem anderen Spieler haben.<br>Ein Verbündeter wird automatisch Krieg an andere Spieler erklären, der Krieg an deren Verbündeten erklärt hat.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_ATTACK</zType>
@@ -2261,11 +2261,11 @@ Characters earn XP through performing Missions, holding roles such as link(CONCE
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TRIBE_INVASION</zType>
-		<Translation>A wave of units from a link(CONCEPT_TRIBE) set out to attack in a massive invasion.</Translation>
+		<Translation>Eine Welle von Einheiten von link(CONCEPT_TRIBE) brechen auf um mit einem massiven Einfall anzugreifen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_UNDO</zType>
-		<Translation>You can Undo as many decisions as you want using hotkey(HOTKEY_UNDO).</Translation>
+		<Translation>Du kannst so viele Entscheidungen rückgängig machen wie du willst in dem du hotkey(HOTKEY_UNDO) benutzt.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_CAPTURE</zType>
@@ -2290,7 +2290,7 @@ Characters earn XP through performing Missions, holding roles such as link(CONCE
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_DEFENDING</zType>
-		<Translation>{0_yield}: Defending {true_1:Family }Unit</Translation>
+		<Translation>{0_yield}: Verteidigen {true_1:Family }Einheit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_MISSING_FAMILY</zType>
@@ -2338,11 +2338,11 @@ Characters earn XP through performing Missions, holding roles such as link(CONCE
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CARAVAN_MISSION</zType>
-		<Translation>Caravan Units can be sent on a Caravan Mission to a Foreign Capital. Upon safe arrival, the Caravan is consumed, producing a lump sum of link(YIELD_MONEY) and an Opinion boost.</Translation>
+		<Translation>Karawanen Einheiten können auf eine Karawanen Mission zu einer ausländischen Hauptstadt geschickt werden. Bei sicherer Ankunft wird die Karawane verbraucht und produziert eine pauschale Summe link(YIELD_MONEY) und einen Meinungs Schub.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CLEAR</zType>
-		<Translation>link(CONCEPT_CLEAR) Felnder sind nicht link(CONCEPT_URBAN) haben keine Vegetation.</Translation>
+		<Translation>link(CONCEPT_CLEAR) Felder sind nicht link(CONCEPT_URBAN) haben keine Vegetation.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CLEAR_DEFENDING</zType>
@@ -2350,8 +2350,8 @@ Characters earn XP through performing Missions, holding roles such as link(CONCE
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CONNECTED_FOREIGN</zType>
-		<Translation>Foreign Cities connected to your {0_capital}:
-(Larger and more distant cities produce more)</Translation>
+		<Translation>Ausländische Städte verbunden zu deiner {0_capital}:
+(Größere und in größerer Reichweite Städte produzieren mehr)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CRITICAL_HIT</zType>
@@ -2363,7 +2363,7 @@ Characters earn XP through performing Missions, holding roles such as link(CONCE
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CULTURE_LEVEL_CONCEPT</zType>
-		<Translation>Increases when a City's link(YIELD_CULTURE) bar fills up.</Translation>
+		<Translation>Erhöht sich wenn eine Stadt's link(YIELD_CULTURE) Balken sich füllt.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CULTURE_LEVEL</zType>
@@ -2371,11 +2371,11 @@ Characters earn XP through performing Missions, holding roles such as link(CONCE
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_HURRY</zType>
-		<Translation>You may hurry City productions at the cost of some yields and link(YIELD_DISCONTENT).</Translation>
+		<Translation>Du kannst die Stadt Produktion auf Kosten von einigen Erträgen und link(YIELD_DISCONTENT) erhöhen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DISTANCE_MODIFIER</zType>
-		<Translation>link(UNITTRAIT_RANGED) Units (excluding those with link(UNITTRAIT_SIEGE)) receive a int(DISTANCE_MODIFIER)% damage penalty per Tile distance to the target.</Translation>
+		<Translation>link(UNITTRAIT_RANGED) Einheiten (ausgenommen diese mit link(UNITTRAIT_SIEGE)) erhalten eine int(DISTANCE_MODIFIER)% Schaden Strafe pro Feld vom Ziel entfernt.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DEFENSE</zType>
@@ -2391,15 +2391,15 @@ Characters earn XP through performing Missions, holding roles such as link(CONCE
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DISCONTENT_FAMILY_DEFENDING</zType>
-		<Translation>Defended by {0_family} Military Unit ({LIST}/{1_turnScale})</Translation>
+		<Translation>Verteidigt von {0_family} Militär Einheit ({LIST}/{1_turnScale})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DISCONTENT_DEFENDING</zType>
-		<Translation>Defended by Military Unit ({LIST}/{0_turnScale})</Translation>
+		<Translation>Verteidigt von Militär Einheit ({LIST}/{0_turnScale})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HIDDEN_WITHOUT_AGENT</zType>
-		<Translation>Details Hidden without an link(CONCEPT_AGENT)</Translation>
+		<Translation>Details versteckt ohne einen link(CONCEPT_AGENT)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DIPLOMACY_PEACE_TRIBE</zType>
@@ -2411,7 +2411,7 @@ Characters earn XP through performing Missions, holding roles such as link(CONCE
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DIPLOMACY_TRUCE</zType>
-		<Translation>Ihr lönnt euch nicht gegenseitig angreifen.</Translation>
+		<Translation>Ihr könnt euch nicht gegenseitig angreifen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DIPLOMACY_WAR</zType>

@@ -186,7 +186,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_LEGACY</zType>
-		<Translation>Vermächtmis~ein Vermächtmis~Vermächtmisse</Translation>
+		<Translation>Vermächtnis~ein Vermächtnis~Vermächtnisse</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_LEGITIMACY</zType>
@@ -210,7 +210,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_UPGRADE_IMPROVEMENTS</zType>
-		<Translation>Verbessere verbesserung</Translation>
+		<Translation>Verbessere Verbesserung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_IMPROVEMENT</zType>
@@ -246,7 +246,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_TRIBE_INVASION</zType>
-		<Translation>Stämme Invasion</Translation>
+		<Translation>Stämme Einfall</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_UNDO</zType>
@@ -794,7 +794,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_NUMIDIANS_5</zType>
-		<Translation>Kill 5 link(TRIBE_NUMIDIANS)</Translation>
+		<Translation>Töte 5 link(TRIBE_NUMIDIANS)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_FOOD_400</zType>
@@ -906,7 +906,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_TWO_TRIBAL_LUXURIES</zType>
-		<Translation>Send Two Luxuries to Tribes</Translation>
+		<Translation>Schicke zwei Luxusgüter an Stämme</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_FOUR_PLAYER_LUXURIES</zType>
@@ -914,7 +914,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_SIX_FAMILY_LUXURIES</zType>
-		<Translation>Send Six Luxuries to Families</Translation>
+		<Translation>Schicke sechs Luxusgüter an Familien</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_EIGHT_LUXURIES</zType>
@@ -1278,7 +1278,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_ALL_PEACE</zType>
-		<Translation>Peace with All Tribes and Empires</Translation>
+		<Translation>Frieden mit allen Stämmen und Reichen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_FIVE_CAPTURE_CITIES</zType>
@@ -1318,31 +1318,31 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_ARCHITECTURE_JURISPRUDENCE</zType>
-		<Translation>Discover Architecture and Jurisprudence</Translation>
+		<Translation>Entdecke Architecture and Jurisprudence</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_COINAGE_FISCAL_POLICY</zType>
-		<Translation>Discover Coinage and Fiscal Policy</Translation>
+		<Translation>Entdecke Coinage and Fiscal Policy</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_HYDRAULICS_CHAIN_DRIVE</zType>
-		<Translation>Discover Hydraulics and Chain Drive</Translation>
+		<Translation>Entdecke Hydraulics and Chain Drive</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_COHORTS_MARTIAL_CODE</zType>
-		<Translation>Discover Cohorts and Martial Code</Translation>
+		<Translation>Entdecke Cohorts and Martial Code</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_BODKIN_ARROW_BALLISTICS</zType>
-		<Translation>Discover Bodkin Arrow and Ballistics</Translation>
+		<Translation>Entdecke Bodkin Arrow and Ballistics</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_WINDLASS_LATEEN_SAIL</zType>
-		<Translation>Discover Windlass and Lateen Sail</Translation>
+		<Translation>Entdecke Windlass and Lateen Sail</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_BARDING_INFANTRY_SQUARE</zType>
-		<Translation>Discover Barding and Infantry Square</Translation>
+		<Translation>Entdecke Barding and Infantry Square</Translation>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_GOAL_5_KILLS</zType>
@@ -1482,19 +1482,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_FOUR_GENERALS</zType>
-		<Translation>Field Four Generals</Translation>
+		<Translation>Stelle vier Feldherren auf</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_THREE_GOVERNORS</zType>
-		<Translation>Maintain Three Governors</Translation>
+		<Translation>Unterhalte drei Stadthalter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_EIGHT_GENERALS</zType>
-		<Translation>Field Eight Generals</Translation>
+		<Translation>telle acht Feldherren auf</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_SIX_GOVERNORS</zType>
-		<Translation>Maintain Six Governors</Translation>
+		<Translation>Unterhalte sechs Stadthalter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_REVEAL_40</zType>
@@ -1510,11 +1510,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_TWO_CARAVANS</zType>
-		<Translation>Two Caravan Missions</Translation>
+		<Translation>Zwei Karawanen Missionen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_FOUR_CARAVANS</zType>
-		<Translation>Four Caravan Missions</Translation>
+		<Translation>Vier Karawanen Missionen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_THREE_CITIES_FOREIGN</zType>
@@ -1686,7 +1686,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_POLIS_BONUS_SETTLER</zType>
-		<Translation>Freier link(UNIT_SETTLER)</Translation>
+		<Translation>Kostenloser link(UNIT_SETTLER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_MILITARY_DRILL</zType>
@@ -1714,7 +1714,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_NAVIGATION_BONUS_BIREME</zType>
-		<Translation>Freie Bireme</Translation>
+		<Translation>Kostenlose Bireme</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_PHALANX</zType>
@@ -1726,7 +1726,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_SPOKED_WHEEL_BONUS_CHARIOT</zType>
-		<Translation>Freier Streitwagen</Translation>
+		<Translation>Kostenloser Streitwagen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_RAMPARTS</zType>
@@ -1758,7 +1758,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_CITIZENSHIP_BONUS_MINISTER</zType>
-		<Translation>Freier großer Minister</Translation>
+		<Translation>Kostenloser großer Minister</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_PORTCULLIS</zType>
@@ -1766,7 +1766,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_PORTCULLIS_BONUS_MACEMAN</zType>
-		<Translation>Freier Keulenkämpfer</Translation>
+		<Translation>Kostenloser Keulenkämpfer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_LAND_CONSOLIDATION</zType>
@@ -1774,7 +1774,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_LAND_CONSOLIDATION_BONUS_WAR_ELEPHANT</zType>
-		<Translation>Freier Kriegselefant</Translation>
+		<Translation>Kostenloser Kriegselefant</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_BATTLELINE</zType>
@@ -1806,7 +1806,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_SCHOLARSHIP_BONUS_SCIENTIST</zType>
-		<Translation>Freier großer Wissenschaftler</Translation>
+		<Translation>Kostenloser großer Wissenschaftler</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_TORSION</zType>
@@ -1814,7 +1814,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_TORSION_BONUS_BALLISTA</zType>
-		<Translation>Freiee Balliste</Translation>
+		<Translation>Kostenlose Balliste</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_STIRRUPS</zType>
@@ -1822,7 +1822,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_STIRRUPS_BONUS_HORSEMAN</zType>
-		<Translation>Freier Reiter</Translation>
+		<Translation>Kostenloser Reiter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_ARCHITECTURE</zType>
@@ -1846,7 +1846,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_MACHINERY_BONUS_ONAGER</zType>
-		<Translation>Freier Onager</Translation>
+		<Translation>Kostenloser Onager</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_CARTOGRAPHY</zType>
@@ -1854,7 +1854,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_CARTOGRAPHY_BONUS_TRIREME</zType>
-		<Translation>Freie Triere</Translation>
+		<Translation>Kostenlose Triere</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_HYDRAULICS</zType>
@@ -1862,7 +1862,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_HYDRAULICS_BONUS_MERCHANT</zType>
-		<Translation>Freier Großer Kaufmann</Translation>
+		<Translation>Kostenloser Großer Kaufmann</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_JURISPRUDENCE</zType>
@@ -1886,7 +1886,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_BODKIN_ARROW_BONUS_TRAINING</zType>
-		<Translation>link(YIELD_TRAINING) Boost</Translation>
+		<Translation>link(YIELD_TRAINING) Schub</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_COHORTS</zType>
@@ -1894,7 +1894,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_COHORTS_BONUS_SOLDIER</zType>
-		<Translation>Freier Hof Krieger</Translation>
+		<Translation>Kostenloser Hof Krieger</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_WINDLASS</zType>
@@ -1902,7 +1902,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_WINDLASS_BONUS_CROSSBOWMAN</zType>
-		<Translation>Freier Armbrustschütze</Translation>
+		<Translation>Kostenloser Armbrustschütze</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_LATEEN_SAIL</zType>
@@ -1910,7 +1910,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_LATEEN_SAIL_BONUS_DROMON</zType>
-		<Translation>Freie Dromone</Translation>
+		<Translation>Kostenlose Dromone</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_BARDING</zType>
@@ -1938,67 +1938,67 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_MILITARY_PRESTIGE</zType>
-		<Translation>Military Prestige</Translation>
+		<Translation>Militärisches Ansehene</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_INDUSTRIAL_PROGRESS</zType>
-		<Translation>Industrial Progress</Translation>
+		<Translation>Industrieller Fortschritt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_BATTERING_RAM_BONUS</zType>
-		<Translation>Freier Rammbock</Translation>
+		<Translation>Kostenloser Rammbock</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_SIEGE_TOWER_BONUS</zType>
-		<Translation>Freier Belagerungsturm</Translation>
+		<Translation>Kostenloser Belagerungsturm</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_AKKADIAN_ARCHER_BONUS</zType>
-		<Translation>Freier akkadischer Bogenschütze</Translation>
+		<Translation>Kostenloser akkadischer Bogenschütze</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_CIMMERIAN_ARCHER_BONUS</zType>
-		<Translation>Freier cimmerischer Bogenschütze</Translation>
+		<Translation>Kostenloser cimmerischer Bogenschütze</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_AFRICAN_ELEPHANT_BONUS</zType>
-		<Translation>Freier afrikanischer Elefant</Translation>
+		<Translation>Kostenloser afrikanischer Elefant</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_TURRETED_ELEPHANT_BONUS</zType>
-		<Translation>Freier gepanzerter Elefant</Translation>
+		<Translation>Kostenloser gepanzerter Elefant</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_LIGHT_CHARIOT_BONUS</zType>
-		<Translation>Freier leichter Streitwagen</Translation>
+		<Translation>Kostenloser leichter Streitwagen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_KUSHITE_CAVALRY_BONUS</zType>
-		<Translation>Freie kuschitisch Kavallerie</Translation>
+		<Translation>Kostenlose kuschitisch Kavallerie</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_HOPLITE_BONUS</zType>
-		<Translation>Freier Hoplit</Translation>
+		<Translation>Kostenloser Hoplit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_PHALANGITE_BONUS</zType>
-		<Translation>Freie Phalanx</Translation>
+		<Translation>Kostenlose Phalanx</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_PALTON_CAVALRY_BONUS</zType>
-		<Translation>Freie Kataphrakt Kavallerie</Translation>
+		<Translation>Kostenlose Kataphrakt Kavallerie</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_CATAPHRACT_ARCHER_BONUS</zType>
-		<Translation>Freier Kataphrakt Bogenschütze</Translation>
+		<Translation>Kostenloser Kataphrakt Bogenschütze</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_HASTATUS_BONUS</zType>
-		<Translation>Freier Hastati</Translation>
+		<Translation>Kostenloser Hastati</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_LEGIONARY_BONUS</zType>
-		<Translation>Freier Legionär</Translation>
+		<Translation>Kostenloser Legionär</Translation>
 	</Entry>
 	<!--InfoYield.Help-->
 	<Entry>

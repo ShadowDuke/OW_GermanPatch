@@ -14,15 +14,15 @@
 		<zType>TEXT_UNIT_WORKER</zType>
 		<Translation>Baumeister~einen Baumeister~Baumeister</Translation>
 	</Entry>
-  <Entry>
-    <zType>TEXT_UNIT_SCOUT</zType>
-    <Translation>Späher~einen Späher~Späher</Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_UNIT_CARAVAN</zType>
-    <Translation>Karawane~eine Karawane~Karawanen</Translation>
-  </Entry>
-  <Entry>
+	<Entry>
+		<zType>TEXT_UNIT_SCOUT</zType>
+		<Translation>Späher~einen Späher~Späher</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_CARAVAN</zType>
+		<Translation>Karawane~eine Karawane~Karawanen</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UNIT_RELIGION_DISCIPLE</zType>
 		<Translation>{UNIT-RELIGION,1} Jünger~{UNIT-RELIGION,2} Jünger~{UNIT-RELIGION,1} Jünger</Translation>
 	</Entry>

@@ -160,11 +160,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_DIPLOMACY_TRUCE</zType>
-		<Translation>Truce</Translation>
+		<Translation>Waffenruhe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DIPLOMACY_WAR</zType>
-		<Translation>War</Translation>
+		<Translation>Krieg</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_ATTACK_FORWARD</zType>
@@ -472,7 +472,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_ABLE</zType>
-		<Translation>er Tüchtige</Translation>
+		<Translation>der Tüchtige</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_JUST</zType>
@@ -1184,11 +1184,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_END_TURN</zType>
-		<Translation>End Turn</Translation>
+		<Translation>Beende Zug</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_END_TURN_FORCE</zType>
-		<Translation>End Turn (Force)</Translation>
+		<Translation>Beende Zug (Erzwungen)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_PASS</zType>
@@ -1212,11 +1212,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_UNDO</zType>
-		<Translation>Undo</Translation>
+		<Translation>Rückgängig</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_REDO</zType>
-		<Translation>Redo</Translation>
+		<Translation>Wiederherstellen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_PING</zType>

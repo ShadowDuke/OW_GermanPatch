@@ -207,7 +207,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CHARACTER_TUTORS_AGE</zType>
-		<Translation>{0_character} is now old enough to be Tutored by {1,2_Courtier}.</Translation>
+		<Translation>{0_character} ist nun alt genug um von {1,2_Courtier} unterrichtet zu werden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CHARACTER_ADULT_POPUP</zType>
@@ -231,7 +231,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_QUEUED_BUILD_BUY_GOODS_LOG_DATA</zType>
-		<Translation>Queued action: Spent {0_money} to buy {1_yields} ({2_improvement})</Translation>
+		<Translation>Warteschlangen Aktion: Gebe {0_money} aus um {1_yields} zu bauen ({2_improvement})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_FOUNDED_CITY_LOG_DATA</zType>
@@ -279,7 +279,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_BOUNDARY_RAID_WARNING</zType>
-		<Translation>Reports of a Raid from distant lands near {0_city}!</Translation>
+		<Translation>Berichte über einen Überfall aus fernen Ländern Nahe {0_city}!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_GIVE_BIRTH_LOG_DATA</zType>
@@ -332,7 +332,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DECISION_DEAD_COUNCIL_PROMPT</zType>
-		<Translation>Choose New {0_council}</Translation>
+		<Translation>Wähle neuen {0_council}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DECISION_DEAD_GOVERNOR_TITLE</zType>
@@ -348,7 +348,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DECISION_DEAD_AGENT_TITLE</zType>
-		<Translation>Death of link(CONCEPT_AGENT)</Translation>
+		<Translation>Tot von link(CONCEPT_AGENT)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DECISION_DEAD_AGENT</zType>
@@ -356,7 +356,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DECISION_DEAD_AGENT_PROMPT</zType>
-		<Translation>Choose New link(CONCEPT_AGENT)</Translation>
+		<Translation>Wähle neuen link(CONCEPT_AGENT)</Translation>
 	</Entry>
 	<!--Do Bonus-->
 	<Entry>
@@ -577,7 +577,7 @@
   </Entry>
   <Entry>
 		<zType>TEXT_GAME_DO_BONUS_PLAYER_FREE_LAW</zType>
-		<Translation>{0_player}: Freies {1_law}</Translation>
+		<Translation>{0_player}: Kostenloses {1_law}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_MAKE_GOVERNOR</zType>
@@ -818,7 +818,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TILE_REQUIRES_ANCHORED</zType>
-		<Translation>Benötigtes geankertes Schiff </Translation>
+		<Translation>Benötigtes geankertes Schiff</Translation>
 	</Entry> 
 	<!--Unit-->
 	<Entry>
@@ -873,11 +873,11 @@
 	<!--Player-->
 	<Entry>
 		<zType>TEXT_GAME_PLAYER_ACHIEVEMENT_UNLOCKED</zType>
-		<Translation>Achievement Unlocked: {0}</Translation>
+		<Translation>Achievement freigeschaltet: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_PLAYER_RESOURCE_SHORTFALL</zType>
-		<Translation>Resource Shortfall: Spent {0} to buy {1}</Translation>
+		<Translation>Ressourcen Fehlbetrag: Gebe {0} aus um {1} zu bauen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_PLAYER_MISSION_CANCELLED</zType>
@@ -893,11 +893,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_PLAYER_SAVE_AND_RELOAD_TO_PLAY_POPUP</zType>
-		<Translation>Save and reload to play as next player</Translation>
+		<Translation>Speichern und neu laden um als nächster Spieler zu spielen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_PLAYER_FAILED_TO_UPLOAD_TO_CLOUD_POPUP</zType>
-		<Translation>Failed to upload. Please exit and replay your turn.</Translation>
+		<Translation>Hochladen fehlgeschlagen. Bitte beende das Spiel und Spiele deinen Zug erneut.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_PLAYER_YIELD_GIFT_RECIEVED</zType>
@@ -917,7 +917,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_RATING_WISDOM_GAIN_1</zType>
-		<Translation>{0} has recently proven {masculine_0:his:her} good sense and insight. {masculine_0:He:She} has gained {1} {2}.</Translation>
+		<Translation>{0} hat vor kurzem {masculine_0:sein:ihr} gutes Gespür und Erkentnis bewiesen. {masculine_0:Er:Sie} hat {1} {2} erlangt.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_RATING_WISDOM_GAIN_2</zType>
