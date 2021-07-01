@@ -843,7 +843,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CAN_ACT_CONSUMES</zType>
-		<Translation>Konsumiert {0_yield}</Translation>
+		<Translation>Verbraucht {0_yield}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CAN_ACT_ROUT</zType>
@@ -2220,7 +2220,7 @@ Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CONSUMES_UNIT</zType>
-		<Translation>Konsumiert die Einheit</Translation>
+		<Translation>Verbraucht die Einheit</Translation>
 	</Entry>
 	<!--Link Help-->
 	<Entry>
@@ -3294,7 +3294,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_CONSUMPTION</zType>
-		<Translation>Konsumiert</Translation>
+		<Translation>Verbraucht</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_RAIDING</zType>
@@ -3354,7 +3354,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_CONSUMES</zType>
-		<Translation>Konsumiert {LIST}</Translation>
+		<Translation>Verbraucht {LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_IMPROVEMENT_YIELD</zType>
@@ -3797,7 +3797,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_IMPROVEMENT_UPGRADE_TURNS</zType>
-		<Translation>{0_value} Upgrade Turns for {1_improvement} Improvements</Translation>
+		<Translation>{0_value} {1_turnScale} zum verbessern für {2_improvement} Verbesserungen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_NO_IMPROVEMENT_CLASS_MAX</zType>
@@ -3841,7 +3841,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_UNLOCKS_PROJECT</zType>
-		<Translation>Entsperrt link(CONCEPT_PROJECT_INFO): {0_project}</Translation>
+		<Translation>Entsperrt link(CONCEPT_PROJECT): {0_project}</Translation>
 	</Entry>
 	<!--Effect City Help Yields-->
 	<Entry>
@@ -3890,11 +3890,11 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_FROM_EFFECT_CITY</zType>
-		<Translation>{0_yield}/{1_turnScale} von {2_effectCity}{true_3: (x{3_count})}</Translation>
+		<Translation>{0_yield}/{1_turnScale} von {2_effectCity}{true_3: ({3_cityYield})}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_EFFECT_CITY_YIELD_MODIFIER</zType>
-		<Translation>{0_yield}{true_1: ({1_yieldModified}/{2_turnScale}{true_3: in {3_city}})}</Translation>
+		<Translation>{0_yield}{true_1: ({1_yieldModified})}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_IMPROVEMENT_MODIFIER_YIELD</zType>
@@ -3914,7 +3914,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_EFFECT_CITY_YIELD_RATE</zType>
-		<Translation><![CDATA[Jede {0_effectCity}: {1_yieldValueList}<true_2> ({2_cityYieldValueList})<false><end>]]></Translation>
+		<Translation>{true_3:Jede }{0_effectCity}: {1_yieldValueList}{true_2: ({2_cityYieldValueList})}</Translation>
 	</Entry>
 	<!--Improvement Help-->
 	<Entry>
@@ -3931,7 +3931,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_PRODUCES_GENERIC_TRIBE_UNITS</zType>
-		<Translation>Erstellt link(BARBARIAN_TRIBE,1) Einheiten</Translation>
+		<Translation>Erstellt link(TRIBE_BARBARIANS,1) Einheiten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_BONUS</zType>
@@ -3955,7 +3955,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_OPINION_RELIGION</zType>
-		<Translation>{0_value} Religions Meinung</Translation>
+		<Translation>{0_value} {1_religion} Meinung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_UNIT_TRAIT_HEALS_UNIT</zType>
@@ -3991,7 +3991,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_PER_YEAR</zType>
-		<Translation>{YIELD-LIST}/Jahr</Translation>
+		<Translation>{YIELD-LIST}/{0_turnScale}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_ADJACENT_IMPROVEMENTCLASS</zType>
@@ -3999,11 +3999,11 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_ADJACENT_WONDER</zType>
-		<Translation>{LIST}/Jahr pro angrenzendem Wunder</Translation>
+		<Translation>{LIST}/{0_turnScale} pro angrenzendem Wunder</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_ADJACENT_RESOURCE</zType>
-		<Translation>{LIST}/Jahr pro angrenzender Ressource</Translation>
+		<Translation>{LIST}/{0_turnScale} pro angrenzender Ressource</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_TRADE_NETWORK</zType>
@@ -4023,7 +4023,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_DEFENSE_MODIFIER</zType>
-		<Translation>{0_value} Verteidigung</Translation>
+		<Translation>{0_value} Feld icon(DEFENSE</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_UNLOCKS_UNIT</zType>
@@ -5152,7 +5152,7 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_OTHER_TRAIT_OPINION</zType>
-		<Translation>{0_value} Meinung über {1_trait} Characters</Translation>
+		<Translation>{0_value} Meinung über {1_trait} Charaktere</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_LAW_OPINION</zType>
@@ -6538,7 +6538,7 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 	<!--HelpScreenPanel-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_HELPSCREEN_CONSUMES</zType>
-		<Translation>Konsumiert</Translation>
+		<Translation>Verbraucht</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HELPSCREEN_COSTS</zType>

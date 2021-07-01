@@ -63,7 +63,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_SEASIDE_PLAYER_START_COAST</zType>
-		<Translation>Coastal</Translation>
+		<Translation>Küstennah</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_SEASIDE_PLAYER_START_COAST_HELP</zType>
@@ -359,7 +359,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_HARDWOOD_FOREST_PLAYER_START_SEA</zType>
-		<Translation>Coastal</Translation>
+		<Translation>Küstennah</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_HARDWOOD_FOREST_PLAYER_START_SEA_HELP</zType>
@@ -431,7 +431,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_PLAYER_START_SEA</zType>
-		<Translation>Coastal</Translation>
+		<Translation>Küstennah</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_PLAYER_START_SEA_HELP</zType>
@@ -479,7 +479,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_TRIBES_COASTAL</zType>
-		<Translation>Coastal Only</Translation>
+		<Translation>Nur Küstennah</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_TRIBES_COASTAL_HELP</zType>

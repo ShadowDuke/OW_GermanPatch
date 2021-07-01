@@ -2107,7 +2107,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HEIR_EDUCATION_TITLE</zType>
-		<Translation>Heir Education</Translation>
+		<Translation>Erben Erziehung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BULLYING_HEIR_TITLE</zType>
@@ -5091,55 +5091,55 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_START_SLAVERY_TITLE</zType>
-		<Translation>link(LAW_SLAVERY) Now?</Translation>
+		<Translation>link(LAW_SLAVERY) gleich?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_EPICS_EXPLORATION_TITLE</zType>
-		<Translation>link(LAW_EPICS or link(LAW_EXPLORATION)</Translation>
+		<Translation>link(LAW_EPICS) oder link(LAW_EXPLORATION)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LAW_SLAVERY_FREEDOM_TITLE</zType>
-		<Translation>link(LAW_SLAVERY) or link(LAW_FREEDOM)</Translation>
+		<Translation>link(LAW_SLAVERY) oder link(LAW_FREEDOM)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TYRANNY_CONSTITUTION_TITLE</zType>
-		<Translation>link(LAW_TYRANNY) or link(LAW_CONSTITUTION)</Translation>
+		<Translation>link(LAW_TYRANNY) oder link(LAW_CONSTITUTION)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CENTRALIZATION_VASSALAGE_TITLE</zType>
-		<Translation>link(LAW_CENTRALIZATION) or link(LAW_VASSALAGE)</Translation>
+		<Translation>link(LAW_CENTRALIZATION) oder link(LAW_VASSALAGE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MONOTHEISM_POLYTHEISM_TITLE</zType>
-		<Translation>link(LAW_MONOTHEISM) or link(LAW_POLYTHEISM)</Translation>
+		<Translation>link(LAW_MONOTHEISM) oder link(LAW_POLYTHEISM)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DIVINE_RULE_LEGAL_CODE_TITLE</zType>
-		<Translation>link(LAW_DIVINE_RULE) or link(LAW_LEGAL_CODE)</Translation>
+		<Translation>link(LAW_DIVINE_RULE) oder link(LAW_LEGAL_CODE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TOLERANCE_ORTHODOXY_TITLE</zType>
-		<Translation>link(LAW_TOLERANCE) or link(LAW_ORTHODOXY)</Translation>
+		<Translation>link(LAW_TOLERANCE) oder link(LAW_ORTHODOXY)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PROFESSIONAL_ARMY_VOLUNTEERS_TITLE</zType>
-		<Translation>link(LAW_PROFESSIONAL_ARMY) or link(LAW_VOLUNTEERS)</Translation>
+		<Translation>link(LAW_PROFESSIONAL_ARMY) oder link(LAW_VOLUNTEERS)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PHILOSOPHY_ENGINEERING_TITLE</zType>
-		<Translation>link(LAW_PHILOSOPHY) or link(LAW_ENGINEERING)</Translation>
+		<Translation>link(LAW_PHILOSOPHY) oder link(LAW_ENGINEERING)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ICONOGRAPHY_CALLIGRAPHY_TITLE</zType>
-		<Translation>link(LAW_ICONOGRAPHY) or link(LAW_CALLIGRAPHY)</Translation>
+		<Translation>link(LAW_ICONOGRAPHY) oder link(LAW_CALLIGRAPHY)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PILGRIMAGE_HOLY_WAR_TITLE</zType>
-		<Translation>link(LAW_PILGRIMAGE) or link(LAW_HOLY_WAR)</Translation>
+		<Translation>link(LAW_PILGRIMAGE) oder link(LAW_HOLY_WAR)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GUILDS_ELITES_TITLE</zType>
-		<Translation>link(LAW_GUILDS) or link(LAW_ELITES)</Translation>
+		<Translation>link(LAW_GUILDS) oder link(LAW_ELITES)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_COIN_DEBASEMENT_MONETARY_REFORM_TITLE</zType>
