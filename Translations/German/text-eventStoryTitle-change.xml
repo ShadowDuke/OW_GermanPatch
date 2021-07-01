@@ -191,7 +191,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_ZEALOT_MILD_TITLE</zType>
-		<Translation>Holy War</Translation>
+		<Translation>Heiliger Krieg</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_SCHEMER_MILD_TITLE</zType>
@@ -199,15 +199,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_ORATOR_MILD_TITLE</zType>
-		<Translation>A Call To Arms!</Translation>
+		<Translation>Auf zu den WAffen!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_JUDGE_MILD_TITLE</zType>
-		<Translation>Judgment Day</Translation>
+		<Translation>Tag des Jüngsten Gerichts</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_BUILDER_MILD_TITLE</zType>
-		<Translation>An Age Of Wonders</Translation>
+		<Translation>Ein Zeitalter der Wunder</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_SCHOLAR_MILD_TITLE</zType>
@@ -219,7 +219,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEVER_ENOUGH_TITLE</zType>
-		<Translation>Never Enough</Translation>
+		<Translation>Niemals genug</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_POWER_TO_THE_PEOPLE_TITLE</zType>
@@ -227,7 +227,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ON_THEIR_OWN_TITLE</zType>
-		<Translation>On their Own</Translation>
+		<Translation>Ohne Hilfe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_A_HEROS_FLIGHT_TITLE</zType>
@@ -239,7 +239,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_A_VIPER_IN_THE_NEST_TITLE</zType>
-		<Translation>A Viper in the Nest</Translation>
+		<Translation>Eine Schlange im Nest</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PRETTY_PERSUASION_TITLE</zType>
@@ -515,7 +515,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_FILTHY_ANIMALS_TITLE</zType>
-		<Translation>Filthy Animals</Translation>
+		<Translation>Dreckige Tiere</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_ROSE_MADDER_TITLE</zType>
@@ -523,39 +523,39 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HARVEST_CAPSIZED_TITLE</zType>
-		<Translation>Capsized</Translation>
+		<Translation>Gekentert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_NECROPOLIS_TITLE</zType>
-		<Translation>Necropolis</Translation>
+		<Translation>Totenstadt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_STRANGE_ART_TITLE</zType>
-		<Translation>Unfamiliar art</Translation>
+		<Translation>Unbekannte Kunst</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_STRANGE_SCROLL_TITLE</zType>
-		<Translation>Strange scroll</Translation>
+		<Translation>Selstame Schriftrolle</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_WISE_MAN_TITLE</zType>
-		<Translation>Wise man</Translation>
+		<Translation>Weiser Mann</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_GIANT_STATUE_TITLE</zType>
-		<Translation>Giant statue</Translation>
+		<Translation>Gigantische Statue</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_CURSED_LAND_TITLE</zType>
-		<Translation>Cursed land</Translation>
+		<Translation>Verfluchtes Land</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_COMET_SIGHTED_TITLE</zType>
-		<Translation>Comet sighted</Translation>
+		<Translation>Kometen Sichtung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RUINS_CHOSEN_CHILD_TITLE</zType>
-		<Translation>Chosen Child</Translation>
+		<Translation>Auserkorenes Kind</Translation>
 	</Entry>
 	<Entry beginGroup="Contact">
 		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_CALM_EMISSARY_TITLE</zType>
@@ -635,7 +635,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CONTACT_WITH_DISTANT_NATION_TITLE</zType>
-		<Translation>Unbekannter Staat</Translation>
+		<Translation>Unbekanntes Reich</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CONTACT_ON_THE_MOVE_TITLE</zType>
@@ -731,47 +731,47 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_TERRIFYING_EMISSARY_TITLE</zType>
-		<Translation>Terrifying Emissary</Translation>
+		<Translation>Furchterregende Abgesandte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_PEACEFUL_EMISSARY_TITLE</zType>
-		<Translation>Peaceful Emissary</Translation>
+		<Translation>Friedliche Abgesandte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_HEAD_COLLECTION_TITLE</zType>
-		<Translation>Head collection</Translation>
+		<Translation>Kopf Sammlung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_DISCIPLINED_TRIBE_TITLE</zType>
-		<Translation>Disciplined Tribe</Translation>
+		<Translation>Disziplinierter Stamm</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_MYSTICAL_TRIBE_TITLE</zType>
-		<Translation>Mystical Tribe</Translation>
+		<Translation>Mystischer Stamm</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_ANIMAL_WORSHIPPERS_TITLE</zType>
-		<Translation>Animal Worshippers</Translation>
+		<Translation>Tier Verehrer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_WOODCUTTING_TRIBE_TITLE</zType>
-		<Translation>Woodcutting Tribe</Translation>
+		<Translation>Holzfäller Stamm</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_STONEMASON_TRIBE_TITLE</zType>
-		<Translation>Stonemason Tribe</Translation>
+		<Translation>Steinmetz Stamm</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_IRON_TRIBE_TITLE</zType>
-		<Translation>Iron Tribe</Translation>
+		<Translation>Eisen Stamm</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_GOLD_TRIBE_TITLE</zType>
-		<Translation>Gold Tribe</Translation>
+		<Translation>Gold Stamm</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_ONCE_GREAT_TRIBE_TITLE</zType>
-		<Translation>Once great Tribe</Translation>
+		<Translation>Einmal bedeutsamer Stamm</Translation>
 	</Entry>
 	<Entry beginGroup="Diplomacy">
 		<zType>TEXT_EVENTSTORY_HOSTILE_NEIGHBORS_TITLE</zType>
@@ -779,7 +779,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_PEACE_HOSTAGE_TITLE</zType>
-		<Translation>Hostage Return</Translation>
+		<Translation>Gefangener zurückgekert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_PEACE_LUMBER_TRADE_TITLE</zType>
@@ -787,11 +787,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_PEACE_SOLID_FOUNDATION_TITLE</zType>
-		<Translation>Solid Foundation</Translation>
+		<Translation>Stabile Grundlage</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_PEACE_ACQUIRED_TASTE_TITLE</zType>
-		<Translation>Acquired Taste</Translation>
+		<Translation>Vorliebe erlangt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_ALLIANCE_OFFER_TITLE</zType>
@@ -815,19 +815,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_RAID_ANGRY_TITLE</zType>
-		<Translation>[TRIBAL RAID]</Translation>
+		<Translation>[STAMMES ÜBERFALL]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_RAID_FURIOUS_TITLE</zType>
-		<Translation>[TRIBAL RAID]</Translation>
+		<Translation>[STAMMES ÜBERFALL]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_WAR_TITLE</zType>
-		<Translation>Tribal Threat</Translation>
+		<Translation>Stammes Bedrohung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_WARLIKE_PRINCESS_TITLE</zType>
-		<Translation>Warlike {G0:Prince:Princess}</Translation>
+		<Translation>Kriegerische/r {G0:Prinz:Prinzessin}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBAL_ENVOY_TITLE</zType>
@@ -891,7 +891,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_TRIBUTE_TITLE</zType>
-		<Translation>Tribal Tribute</Translation>
+		<Translation>Stammes Tribut</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SECURING_PEACE_TITLE</zType>
@@ -915,7 +915,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_PEACE_BUILDING_TRUST_TITLE</zType>
-		<Translation>Building Trust</Translation>
+		<Translation>Vertrauen aufbauen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PAUSE_IN_HOSTILITIES_TITLE</zType>
@@ -923,31 +923,31 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ASSASSINATION_OF_MONARCH_TITLE</zType>
-		<Translation>Assassination of Monarch</Translation>
+		<Translation>Ermordung eines Monarchen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ASSASSINATION_OF_MONARCH_STALL_TITLE</zType>
-		<Translation>Assassination of Monarch</Translation>
+		<Translation>Ermordung eines Monarchen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ASSASSINATION_OF_MONARCH_ACCEPT_TITLE</zType>
-		<Translation>Assassination of Monarch</Translation>
+		<Translation>Ermordung eines Monarchen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ASSASSINATION_OF_MONARCH_STALL_AGAIN_TITLE</zType>
-		<Translation>Assassination of Monarch</Translation>
+		<Translation>Ermordung eines Monarchen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ASSASSINATION_OF_MONARCH_HOLE_TITLE</zType>
-		<Translation>Assassination of Monarch</Translation>
+		<Translation>Ermordung eines Monarchen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ASSASSINATION_OF_MONARCH_SUCCESS_TITLE</zType>
-		<Translation>Assassination of Monarch</Translation>
+		<Translation>Ermordung eines Monarchen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ALLIANCE_PROPOSAL_TITLE</zType>
-		<Translation>Alliance Proposal</Translation>
+		<Translation>Bündnis Vorschlag</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PEACE_PROPOSAL_TITLE</zType>
@@ -959,35 +959,35 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CITY_CAPTURED_TRUCE_TITLE</zType>
-		<Translation>City Captured</Translation>
+		<Translation>Stadt erbeutet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BOASTFUL_HEIR_TITLE</zType>
-		<Translation>Boastful Heir</Translation>
+		<Translation>Überheblicher Erbe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SEEKING_KNOWLEDGE_TITLE</zType>
-		<Translation>CDATA[Seeking Knowledge</Translation>
+		<Translation>CDATA[Wissen suchend</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_AN_UPGRADE_TITLE</zType>
-		<Translation>An Upgrade</Translation>
+		<Translation>Eine Verbesserung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CITIZENSHIP_TITLE</zType>
-		<Translation>Citizenship</Translation>
+		<Translation>Bürgerschaft</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_A_FRIEND_IN_NEED_TITLE</zType>
-		<Translation>CDATA[A Friend In Need</Translation>
+		<Translation>CDATA[Ein Freund in Nöten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ROAD_TO_HEAVEN_TITLE</zType>
-		<Translation>Road to Heaven</Translation>
+		<Translation>Straße zum Himmel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_A_TINY_FAVOR_TITLE</zType>
-		<Translation>A Tiny Favor</Translation>
+		<Translation>Ein kleiner Gefallen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MARTIAL_CODE_TITLE</zType>
@@ -1003,7 +1003,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RETURNING_A_FAVOR_TITLE</zType>
-		<Translation>Returning a Favor</Translation>
+		<Translation>Einen Gefallen erwiedern</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_HOSTAGE_TITLE</zType>
@@ -1027,15 +1027,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRADE_OFFER_TITLE</zType>
-		<Translation>Trade Offer</Translation>
+		<Translation>Handelsangebot</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CANCEL_TRADE_DEMAND_TITLE</zType>
-		<Translation>Cancel Trade</Translation>
+		<Translation>Handel abbrechen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DECLARE_WAR_DEMAND_TITLE</zType>
-		<Translation>link(DIPLOMACY_WAR) Demand</Translation>
+		<Translation>link(DIPLOMACY_WAR) Verlangen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DECLARE_ALLY_DEMAND_WAR_TITLE</zType>
@@ -1043,15 +1043,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_TITLE</zType>
-		<Translation>Grievances</Translation>
+		<Translation>Missstände</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_DELAY_TITLE</zType>
-		<Translation>No More Delays</Translation>
+		<Translation>Keine verzögerungen mehr</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_UPSET_TITLE</zType>
-		<Translation>Crimes in {PLAYER-0}</Translation>
+		<Translation>Verbrechen in {PLAYER-0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_PLEASED_TITLE</zType>
@@ -1059,7 +1059,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_TITLE</zType>
-		<Translation>Talk of War</Translation>
+		<Translation>Gerede über krieg</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_GIFT_TITLE</zType>
@@ -1071,7 +1071,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_PREPARE_TITLE</zType>
-		<Translation>Shadow of War</Translation>
+		<Translation>Schatten des Krieges</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_LEADER4_TITLE</zType>
@@ -1095,11 +1095,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_CHOOSE_WAR_TITLE</zType>
-		<Translation>Choosing Sides</Translation>
+		<Translation>Eine Seite wählen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_WAR_STRONGER_TITLE</zType>
-		<Translation>On the March</Translation>
+		<Translation>Beim marschieren</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBAL_INVASION_DISTANT_TITLE</zType>
@@ -1155,11 +1155,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_ARCHETYPE_UPSET_TITLE</zType>
-		<Translation>An Opening</Translation>
+		<Translation>Ein Anfang</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_ZEALOT_CAUTIOUS_OR_BETTER_TITLE</zType>
-		<Translation>Divine Mission</Translation>
+		<Translation>Göttlicher Auftrag</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_HERO_ARCHETYPE_ANGRY_TITLE</zType>

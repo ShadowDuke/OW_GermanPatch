@@ -7,19 +7,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_HUMAN_DIPLOMACY_NOT_FOUND</zType>
-		<Translation>Mutual Contact and No Diplomatic Mission</Translation>
+		<Translation>Gegenseitiger Kontakt und kein Diplomatischer Auftrag</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_NO_ALLIANCE</zType>
-		<Translation>No link(CONCEPT_ALLIANCE_PLAYER)</Translation>
+		<Translation>Kein link(CONCEPT_ALLIANCE_PLAYER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_NO_ALLIANCE_ANY</zType>
-		<Translation>No link(CONCEPT_ALLIANCE_PLAYER)</Translation>
+		<Translation>Kein link(CONCEPT_ALLIANCE_PLAYER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_PEACE_FRIENDLY</zType>
-		<Translation>link(DIPLOMACY_PEACE) and Min link(OPINIONPLAYER_FRIENDLY)</Translation>
+		<Translation>link(DIPLOMACY_PEACE) und min link(OPINIONPLAYER_FRIENDLY)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_MAX_ANGRY</zType>
@@ -59,39 +59,39 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_ANGRY_PLEASED</zType>
-		<Translation>link(OPINIONPLAYER_ANGRY) to link(OPINIONPLAYER_PLEASED)</Translation>
+		<Translation>link(OPINIONPLAYER_ANGRY) zu link(OPINIONPLAYER_PLEASED)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_ANGRY_CAUTIOUS</zType>
-		<Translation>link(OPINIONPLAYER_ANGRY) to link(OPINIONPLAYER_CAUTIOUS)</Translation>
+		<Translation>link(OPINIONPLAYER_ANGRY) zu link(OPINIONPLAYER_CAUTIOUS)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_ANGRY_UPSET</zType>
-		<Translation>link(OPINIONPLAYER_ANGRY) to link(OPINIONPLAYER_UPSET)</Translation>
+		<Translation>link(OPINIONPLAYER_ANGRY) zu link(OPINIONPLAYER_UPSET)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_UPSET_PLEASED</zType>
-		<Translation>link(OPINIONPLAYER_UPSET) to link(OPINIONPLAYER_PLEASED)</Translation>
+		<Translation>link(OPINIONPLAYER_UPSET) zu link(OPINIONPLAYER_PLEASED)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_UPSET_CAUTIOUS</zType>
-		<Translation>link(OPINIONPLAYER_UPSET) to link(OPINIONPLAYER_CAUTIOUS)</Translation>
+		<Translation>link(OPINIONPLAYER_UPSET) zu link(OPINIONPLAYER_CAUTIOUS)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_CAUTIOUS_PLEASED</zType>
-		<Translation>link(OPINIONPLAYER_CAUTIOUS) to link(OPINIONPLAYER_PLEASED)</Translation>
+		<Translation>link(OPINIONPLAYER_CAUTIOUS) zu link(OPINIONPLAYER_PLEASED)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_MIN_PLEASED_NO_WARS</zType>
-		<Translation>Min link(OPINIONPLAYER_PLEASED) and No Wars</Translation>
+		<Translation>Min link(OPINIONPLAYER_PLEASED) und keine Kriege</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_MIN_COMPETENT</zType>
-		<Translation>Min Competent (Knowledge)</Translation>
+		<Translation>Min Kompetenz (Wissen)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_NO_ADOPTED_RELIGION</zType>
-		<Translation>Did not Adopt Religion recently</Translation>
+		<Translation>Hat Religion nicht vor kurzem adoptiert</Translation>
 	</Entry>
 	<Entry comment="Nation only if Heirs exist">
 		<zType>TEXT_SUBJECT_PLAYER_HAS_HEIRS</zType>
@@ -99,23 +99,23 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_NOT_MIN_CONFLICT_TURNS</zType>
-		<Translation>Longer than int(MIN_TREATY_TURNS) Turns since last link(DIPLOMACY_WAR)</Translation>
+		<Translation>Länger als int(MIN_TREATY_TURNS) Züge seit letztem link(DIPLOMACY_WAR)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_NOT_MIN_CONFLICT_TURNS_HUMAN</zType>
-		<Translation>Longer than int(MIN_TREATY_TURNS) Turns since last link(DIPLOMACY_WAR)</Translation>
+		<Translation>Länger als int(MIN_TREATY_TURNS) Züge seit letztem link(DIPLOMACY_WAR)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_TRIBE_NO_ALLIANCE</zType>
-		<Translation>No link(CONCEPT_ALLIANCE_TRIBE)</Translation>
+		<Translation>Kein link(CONCEPT_ALLIANCE_TRIBE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_TRIBE_NO_ALLIANCE_ANY</zType>
-		<Translation>No link(CONCEPT_ALLIANCE_TRIBE)</Translation>
+		<Translation>Kein link(CONCEPT_ALLIANCE_TRIBE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_TRIBE_PEACE_FRIENDLY</zType>
-		<Translation>link(DIPLOMACY_PEACE) and Min link(OPINIONTRIBE_FRIENDLY)</Translation>
+		<Translation>link(DIPLOMACY_PEACE) und min link(OPINIONTRIBE_FRIENDLY)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_TRIBE_MAX_ANGRY</zType>
@@ -143,11 +143,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_RELIGION_UNLOCKED</zType>
-		<Translation>World Religion or link(LAW_DIVINE_RULE)</Translation>
+		<Translation>Welt Religion oder link(LAW_DIVINE_RULE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_NON_LEADER</zType>
-		<Translation>Not a National Leader</Translation>
+		<Translation>Kein Reich Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_RELIGION_HEAD</zType>
@@ -155,23 +155,23 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_OF_STATE_RELIGION</zType>
-		<Translation>Follows State Religion</Translation>
+		<Translation>Folge Staatsreligion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_LEADER_SCHEMER</zType>
-		<Translation>link(TRAIT_SCHEMER_ARCHETYPE) Leader</Translation>
+		<Translation>link(TRAIT_SCHEMER_ARCHETYPE) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_LEADER_DIPLOMAT</zType>
-		<Translation>link(TRAIT_DIPLOMAT_ARCHETYPE) Leader</Translation>
+		<Translation>link(TRAIT_DIPLOMAT_ARCHETYPE) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_LEADER_JUDGE</zType>
-		<Translation>link(TRAIT_JUDGE_ARCHETYPE) Leader</Translation>
+		<Translation>link(TRAIT_JUDGE_ARCHETYPE) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_LEADER_SCHOLAR</zType>
-		<Translation>link(TRAIT_SCHOLAR_ARCHETYPE) Leader</Translation>
+		<Translation>link(TRAIT_SCHOLAR_ARCHETYPE) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_MAX_CAUTIOUS</zType>
@@ -199,11 +199,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_INTERCEDED_FOR_LEADER</zType>
-		<Translation>Interceded For You</Translation>
+		<Translation>Führsprache für Dich</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_INFLUENCED_BY_LEADER</zType>
-		<Translation>Influence By You</Translation>
+		<Translation>Beeinflusst von Dir</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_BABY</zType>

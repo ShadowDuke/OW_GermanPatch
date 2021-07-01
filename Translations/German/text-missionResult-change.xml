@@ -99,15 +99,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_STEAL_RESEARCH_SUCCESS_DESCRIPTION</zType>
-		<Translation>{CHARACTER-SUBJECT} has successfully stolen research from your rival.</Translation>
+		<Translation>{CHARACTER-SUBJECT} hat erfolgreich Forschung von deinem Rivalen gestohlen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_STEAL_RESEARCH_SUCCESS_EXPOSED_DESCRIPTION</zType>
-		<Translation>{CHARACTER-SUBJECT} has successfully stolen research from your rival but was exposed in the process.</Translation>
+		<Translation>{CHARACTER-SUBJECT} hat erfolgreich Forschung von deinem Rivalen gestohlen aber wurde bei dem Versuch entblößt.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_STEAL_RESEARCH_EVENT_DESCRIPTION</zType>
-		<Translation>The Steal Research Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
+		<Translation>Der Forschung stehlen Auftrag von {CHARACTER-SUBJECT} führte zu einem Ereignis...</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_ASSASSINATE_KILL_DESCRIPTION</zType>
@@ -123,7 +123,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_ASSASSINATE_EVENT_DESCRIPTION</zType>
-		<Translation>The Assassinate Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
+		<Translation>Der Ermordungs Auftrag von {CHARACTER-SUBJECT} führte zu einem Ereignis...</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TREACHERY_SUCCESS_DESCRIPTION</zType>
@@ -135,35 +135,35 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TREACHERY_EVENT_DESCRIPTION</zType>
-		<Translation>The Treachery Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
+		<Translation>Der Verrats Auftrag von {CHARACTER-SUBJECT} führte zu einem Ereignis...</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INSURRECTION_REVOLT_DESCRIPTION</zType>
-		<Translation>{CHARACTER-SUBJECT} has successfully started a local uprising.</Translation>
+		<Translation>{CHARACTER-SUBJECT} hat erfolgreich einen örtlichen Aufstand angezettelt.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INSURRECTION_DISCONTENT_DESCRIPTION</zType>
-		<Translation>{CHARACTER-SUBJECT} has successfully stirred up local resentment.</Translation>
+		<Translation>{CHARACTER-SUBJECT} hat erfolgreich örtliche Missgunst erregt.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INSURRECTION_FAILURE_DESCRIPTION</zType>
-		<Translation>{CHARACTER-SUBJECT} has failed to start a local uprising.</Translation>
+		<Translation>{CHARACTER-SUBJECT} ist gescheitert einen örtlichen Aufstand anzuzetteln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INSURRECTION_EVENT_DESCRIPTION</zType>
-		<Translation>The Insurrection Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
+		<Translation>Der Auflehnungs Auftrag von {CHARACTER-SUBJECT} führte zu einem Ereignis...</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_HIGH_SYNOD_SUCCESS_DESCRIPTION</zType>
-		<Translation>The High Synond organized by link(COUNCIL_AMBASSADOR) {CHARACTER-SUBJECT} has improved our standing with the clergy.</Translation>
+		<Translation>Die hohe Kirchenversammlung organisiert von link(COUNCIL_AMBASSADOR) {CHARACTER-SUBJECT} hat unser Ansehen mit dem Geistlichen erhöht.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_HIGH_SYNOD_FAILURE_DESCRIPTION</zType>
-		<Translation>The High Synond of link(COUNCIL_AMBASSADOR) {CHARACTER-SUBJECT} has ended prematurely in discord.</Translation>
+		<Translation>Die hohe Kirchenversammlung von link(COUNCIL_AMBASSADOR) {CHARACTER-SUBJECT} ist vorzeitig in Uneinigkeit geendet.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_HIGH_SYNOD_EVENT_DESCRIPTION</zType>
-		<Translation>The High Synod Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
+		<Translation>Die hohe Kirchenversammlungs Aufgabe von {CHARACTER-SUBJECT} führte zu einem Ereignis...</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_FAMILY_GIFT_SUCCESS_DESCRIPTION</zType>
@@ -175,19 +175,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_FAMILY_GIFT_EVENT_DESCRIPTION</zType>
-		<Translation>The Family Gift Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
+		<Translation>Die Familien Geschenk Aufgabe von {CHARACTER-SUBJECT} führte zu einem Ereignis...</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PACIFY_CITY_SUCCESS_DESCRIPTION</zType>
-		<Translation>{CHARACTER-SUBJECT} has listened to the grievances of the city's rulers and has reduced link(YIELD_DISCONTENT).</Translation>
+		<Translation>{CHARACTER-SUBJECT} hat den Missständen des Herrschers der Stadt zugehört und hat die link(YIELD_DISCONTENT) gesenkt.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PACIFY_CITY_SUCCESS_WEAKEN_DESCRIPTION</zType>
-		<Translation>{CHARACTER-SUBJECT} has listened to the grievances of the city's rulers and has reduced link(YIELD_DISCONTENT), but this pandering has weakened your reputation.</Translation>
+		<Translation>{CHARACTER-SUBJECT} hat den Missständen des Herrschers der Stadt zugehört und hat die link(YIELD_DISCONTENT) gesenkt, aber diese Begünstigung hat dein Ansehen geschwächt.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PACIFY_CITY_EVENT_DESCRIPTION</zType>
-		<Translation>The Pacify City Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
+		<Translation>Die Beschwichtigungs Aufgabe von {CHARACTER-SUBJECT} führte zu einem Ereignis...</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_IMPRISON_JUST_DESCRIPTION</zType>
@@ -203,7 +203,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_IMPRISON_EVENT_DESCRIPTION</zType>
-		<Translation>The Imprison Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
+		<Translation>Der Gefangennahme Auftrag von {CHARACTER-SUBJECT} führte zu einem Ereignis...</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_RELEASE_GRATEFUL_DESCRIPTION</zType>
@@ -231,7 +231,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PAY_RANSOM_DESCRIPTION</zType>
-		<Translation><![CDATA[You have paid the ransom for {CHARACTER-SUBJECT} and secured <masculine_CHARACTER-SUBJECT>his<feminine>her<end> release!]]></Translation>
+		<Translation><![CDATA[Du hast das Lösegeld für {CHARACTER-SUBJECT} bezahlt und hast <masculine_CHARACTER-SUBJECT>seine<feminine>ihre<end> Freilassung gesichert!]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_MARRY_COURTIER_DESCRIPTION</zType>
@@ -243,7 +243,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_DIVORCE_EVENT_DESCRIPTION</zType>
-		<Translation>The Divorce Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
+		<Translation>Die Scheidungs Aufgabe von {CHARACTER-SUBJECT} führte zu einem Ereignis...</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TUTOR_WISDOM_DESCRIPTION</zType>
@@ -324,7 +324,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_DEMAND_EVENT</zType>
-		<Translation>Verlange Tribur für link(DIPLOMACY_PEACE) Ereignis</Translation>
+		<Translation>Verlange Tribut für link(DIPLOMACY_PEACE) Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_HUMAN_EVENT</zType>
@@ -408,7 +408,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_HOLD_COURT_EVENT</zType>
-		<Translation>Hold Court Event</Translation>
+		<Translation>Hof halten Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_ABDICATE</zType>
@@ -420,7 +420,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INFLUENCE_WEAKEN</zType>
-		<Translation>Influence Exposes our Weakeness</Translation>
+		<Translation>Fürsprache entblößt unsere Schwächen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INFLUENCE_EVENT</zType>
@@ -428,11 +428,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_CONVERT_SELF</zType>
-		<Translation>Converted Your Religion</Translation>
+		<Translation>Kovertiere deine Religion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_CONVERT_SELF_EVENT</zType>
-		<Translation>Convert Your Religion Event</Translation>
+		<Translation>Kovertiere deine Religion Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_CONVERT_RELIGION</zType>
@@ -444,7 +444,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INTERCESSION_WEAKEN</zType>
-		<Translation>Intercession Exposes our Weakeness</Translation>
+		<Translation>Fürsprache entblößt unsere Schwäche</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INTERCESSION</zType>
@@ -484,7 +484,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INFILTRATE_REVEAL_EXPOSED</zType>
-		<Translation>Territory Infiltrated, Effort Exposed</Translation>
+		<Translation>Gebiet infiltriert, Einsatz entblößt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INFILTRATE_EVENT</zType>
@@ -536,7 +536,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TREACHERY_FAILURE</zType>
-		<Translation>Treachery Fails</Translation>
+		<Translation>Verrat fehlgeschlagen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TREACHERY_EVENT</zType>
@@ -544,15 +544,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INSURRECTION_REVOLT</zType>
-		<Translation>Insurrection Revolt</Translation>
+		<Translation>Aufstand Erhebung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INSURRECTION_DISCONTENT</zType>
-		<Translation>Insurrection link(YIELD_DISCONTENT)</Translation>
+		<Translation>Aufstand link(YIELD_DISCONTENT)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INSURRECTION_FAILURE</zType>
-		<Translation>Insurrection Fails</Translation>
+		<Translation>Aufstand fehlgeschlagen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INSURRECTION_EVENT</zType>
@@ -560,7 +560,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_DEMAND_TRIBUTE_EVENT</zType>
-		<Translation>Demand Tribute Event</Translation>
+		<Translation>Verlange Tribut Ereignis </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TRADE_MISSION_EVENT</zType>
@@ -568,15 +568,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_HIGH_SYNOD_SUCCESS</zType>
-		<Translation>Religious Concord is Found</Translation>
+		<Translation>Religiöser Einklang etabliert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_HIGH_SYNOD_FAILURE</zType>
-		<Translation>Religious Tensions are Worse</Translation>
+		<Translation>Religiöse Spannungen sind schlimmer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_HIGH_SYNOD_EVENT</zType>
-		<Translation>High Synod Event</Translation>
+		<Translation>Hohe Kirchenversammlung Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_FAMILY_GIFT_SUCCESS</zType>
@@ -676,7 +676,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TUTOR_EVENT</zType>
-		<Translation>Tutor Event</Translation>
+		<Translation>Erzieher Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TRIBE_PLAYER_WAR_EVENT</zType>

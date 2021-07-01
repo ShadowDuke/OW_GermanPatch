@@ -3805,7 +3805,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_URBAN_TERRAIN_VALID</zType>
-		<Translation>Can Build link(CONCEPT_URBAN) Improvements on {0_terrain}</Translation>
+		<Translation>Kann link(CONCEPT_URBAN) Verbesserungen auf {0_terrain} bauen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_HURRY_CIVICS</zType>
@@ -3821,7 +3821,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_HURRY_POPULATION</zType>
-		<Translation>Kanny {0,2_build} mit Bevölkerung beschleunigen</Translation>
+		<Translation>Kann {0,2_build} mit Bevölkerung beschleunigen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_HURRY_ORDERS</zType>

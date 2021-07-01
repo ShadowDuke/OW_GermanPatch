@@ -7,47 +7,47 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_NO_TUTORIAL</zType>
-		<Translation>Disable Tutorial</Translation>
+		<Translation>Deaktiviere Tutorial</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_NO_TUTORIAL_DESC</zType>
-		<Translation>Tutorial Events do not occur</Translation>
+		<Translation>Tutorial Ereignisse kommen nicht vor</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_NO_REPLAY_DESC</zType>
-		<Translation>Replay support requires a larger amount of available system memory</Translation>
+		<Translation>Wiederholungs Unterstützung benötigt eine größere Menge verfügbaren Systemspeicher</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_INSTANT_UNIT_MOVEMENT</zType>
-		<Translation>Instant Unit Movement</Translation>
+		<Translation>Sofrtige Einheitenbewegung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_INSTANT_UNIT_MOVEMENT_DESC</zType>
-		<Translation>Don't animate your team's Unit movement</Translation>
+		<Translation>Deine Einheitenbewegung wird nicht anmiert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_UNIT_CYCLING</zType>
-		<Translation>Unit Cycling</Translation>
+		<Translation>Einheitenwechsel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_UNIT_CYCLING_DESC</zType>
-		<Translation>Automatically cycle to next idle Unit</Translation>
+		<Translation>Wechselt automatisch zur nächsten untätigen Einheit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_FATIGUE_CYCLING</zType>
-		<Translation>Fatigued Unit Cycling</Translation>
+		<Translation>Ermüdete Einheiten Wechsel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_FATIGUE_CYCLING_DESC</zType>
-		<Translation>Fatigued Units included in selection cycling</Translation>
+		<Translation>Ermüdete Einheiten sind in der Wechselauswahl inbegriffen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_DISABLE_EDGE_SCROLLING</zType>
-		<Translation>Disable Edge Scrolling</Translation>
+		<Translation>Deaktivert Rand Scrolling</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_DISABLE_EDGE_SCROLLING_DESC</zType>
-		<Translation>Do not scroll the map when the mouse is at a screen edge (fullscreen mode only)</Translation>
+		<Translation>Die Map wird nicht bewegt wenn die Maus an der Ecke des Bildschirms ist (Nur Vollbildmodus)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_MOVE_TO_FATIGUE</zType>
@@ -71,7 +71,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_HIDE_MINIMAP_DESC</zType>
-		<Translation>Hide the minimap in the interface</Translation>
+		<Translation>Versteckt die Minimap von der Benutzeroberfläche</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_HIDE_COUNCIL</zType>
@@ -79,31 +79,31 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_HIDE_COUNCIL_DESC</zType>
-		<Translation>Hide the council panel in the interface</Translation>
+		<Translation>Versteckt das Hofrat Feld auf der Benutzoberfläche</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_MINI_TECH_CARDS</zType>
-		<Translation>Use Minimized Tech Cards</Translation>
+		<Translation>Benutze minimierte Technologie Karten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_MINI_TECH_CARDS_DESC</zType>
-		<Translation>Always use mini tech card display instead of choose research popup</Translation>
+		<Translation>Benutzt immer mini Technologie Karten anstatt des 'Forschung wählen' Popups</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_COMPACT_TECH_TREE</zType>
-		<Translation>Show Compact Tech Tree</Translation>
+		<Translation>Zeige komrimierten Technologie Baum</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_COMPACT_TECH_TREE_DESC</zType>
-		<Translation>Show mini cards on Technology Tree instead of detailed technology information</Translation>
+		<Translation>Zeigt mini Karten im Technologie Baum anstatt detalierte Technologie Informationen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SHOW_SYSTEM_TIME</zType>
-		<Translation>Show System Time</Translation>
+		<Translation>Zeige System Uhrzeit </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SHOW_SYSTEM_TIME_DESC</zType>
-		<Translation>Show system time in the interface</Translation>
+		<Translation>Zeigt die System Uhrzeit auf der Benutzeroberfläche an</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_HIDE_LANDMARK_NAMES</zType>
@@ -123,27 +123,27 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SHOW_RIVAL_FAMILY_COLORS</zType>
-		<Translation>Show Foreign Family Colors</Translation>
+		<Translation>Zeige fremde Familien Farben</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SHOW_RIVAL_FAMILY_COLORS_DESC</zType>
-		<Translation>Show Family colors for Foreign Units</Translation>
+		<Translation>Zeigt Familien Farben für fremde Einheiten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_HIDE_UNIT_MOVEMENT_STEPS</zType>
-		<Translation>Hide Unit Movement Steps</Translation>
+		<Translation>Verstecke Einheiten Bewegungsschritte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_HIDE_UNIT_MOVEMENT_STEPS_DESC</zType>
-		<Translation>Hide the movement range for each step of the selected Unit</Translation>
+		<Translation>Versteckt die Bewegungsreichweite für jeden Schritt für die ausgewählte Einheit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SHOW_GHOST_UNITS</zType>
-		<Translation>Show Ghost Units</Translation>
+		<Translation>Zeige Geist Einheiten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SHOW_GHOST_UNITS_DESC</zType>
-		<Translation>Show units recently visible</Translation>
+		<Translation>Zeige Einheiten die vor kurzem noch sichtbar waren</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_MUTE_AUDIO</zType>
@@ -151,11 +151,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_MUTE_AUDIO_DESC</zType>
-		<Translation>Don't play any audio</Translation>
+		<Translation>Keinen Sound bitte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SKIP_LICENSED_MUSIC_TRACKS</zType>
-		<Translation>Skip Licensed Music Tracks</Translation>
+		<Translation>Überspringe lizensierte Musikstücke</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SKIP_LICENSED_MUSIC_TRACKS_DESC</zType>

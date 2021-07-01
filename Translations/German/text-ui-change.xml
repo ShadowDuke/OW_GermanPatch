@@ -2292,7 +2292,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_TREE_SHOW_NAMES</zType>
-		<Translation>Toggle Names</Translation>
+		<Translation>Schalte Namen um</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_TREE_SHOW_NAMES_TOOLTIP</zType>
@@ -2304,27 +2304,27 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_TREE_COMPLETED</zType>
-		<Translation>Completed</Translation>
+		<Translation>Vollständig</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_TREE_LOCKED</zType>
-		<Translation>Locked</Translation>
+		<Translation>Gesperrt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_TREE_RESEARCHING</zType>
-		<Translation>Researching</Translation>
+		<Translation>Forschend</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_TREE_AVAILABLE</zType>
-		<Translation>Available</Translation>
+		<Translation>Verfügbar</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_TREE_DISCARD</zType>
-		<Translation>Discard Pile</Translation>
+		<Translation>Wegwerf Stapel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_TREE_DECK</zType>
-		<Translation>In Deck</Translation>
+		<Translation>Im Deck</Translation>
 	</Entry>
 	<!--selected-worker.xml-->
 	<Entry>
@@ -2370,11 +2370,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_POPUP_VICTORY_PROGRESS</zType>
-		<Translation>Victory Progress</Translation>
+		<Translation>Sieg Fortschritt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_POPUP_VICTORY_SCENARIO</zType>
-		<Translation>Scenario Info</Translation>
+		<Translation>Szenario Info</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_POPUP_VICTORY_AMBITIONS</zType>
@@ -2465,7 +2465,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_LOG_TOGGLE_FOG</zType>
-		<Translation>Toggle Fog</Translation>
+		<Translation>Schalte Nebel um</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_LOG_EXPORT</zType>
@@ -2477,7 +2477,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_LOG_SHOW_TREE</zType>
-		<Translation>Family Tree View</Translation>
+		<Translation>Familienbaum Ansicht</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_LOG_TIMELINE</zType>
@@ -2569,7 +2569,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	<!--selected-decision-->
     <Entry>
 		<zType>TEXT_AMBITION_SKIP_DECISION</zType>
-        <Translation>I don't feel ambitious right now.</Translation>
+        <Translation>Ich fühle mich gerade nicht ehrgeizig.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CITY_FAMILY_DECISION</zType>
@@ -2590,7 +2590,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
     <!-- tech tree-->
     <Entry>
 		<zType>TEXT_TECH_TREE_OVERRIDE_CURRENT_RESEARCH</zType>
-		<Translation><![CDATA[<TEXT_HOTKEY_CTRL_CLICK> to switch active research]]>
+		<Translation><![CDATA[<TEXT_HOTKEY_CTRL_CLICK> um derzeitige Forschung zu wechseln]]>
 		</Translation>
 	</Entry>
     <Entry>
@@ -3059,7 +3059,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
     </Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_TERMS_OF_USE_LINK_TEXT</zType>
-		<Translation>Terms of Use</Translation>
+		<Translation>Nutzungsbedingungen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_LOAD_GAME_MODS_NOT_FOUND_POPUP_TITLE</zType>

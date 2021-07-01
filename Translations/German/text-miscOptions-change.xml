@@ -27,7 +27,7 @@
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_RESOLUTION_DESC</zType>
-        <Translation>Passe die Auflösung an</Translation>
+        <Translation>Passt die Auflösung an</Translation>
 	</Entry>
 	 <Entry>
         <zType>TEXT_MISCOPTION_FULLSCREENMODE_NAME</zType>
@@ -99,7 +99,7 @@
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_COLORBLIND_FILTER_STRENGTH_DESC</zType>
-	    <Translation>Passe die Anzahl der Farbenblind Filter anA</Translation>
+	    <Translation>Passt die Anzahl der Farbenblind Filter anA</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_CAMERA_SPEED_NAME</zType>
@@ -159,19 +159,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_ANIMATION_LOD_NAME</zType>
-		<Translation>Reduce Animation Detail</Translation>
+		<Translation>Reduziere Animations Details</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_ANIMATION_LOD_DESC</zType>
-		<Translation>Reduce the level of detail of animated objects when the camera is zoomed out</Translation>
+		<Translation>Reduziert das Level animierter Objekte wenn mit der Kamera herausgezoomt wird</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_SINGLE_OBJECTS_NAME</zType>
-		<Translation>Show single objects</Translation>
+		<Translation>Zeige einzelne Objekte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_SINGLE_OBJECTS_DESC</zType>
-		<Translation>Display single units and resource instead of groups</Translation>
+		<Translation>Zeigt einzelne Einheiten und Ressourcen anstelle von Gruppen</Translation>
 	</Entry>
 	<Entry>
         <zType>TEXT_MISCOPTION_MUSIC_VOLUME_NAME</zType>
@@ -179,7 +179,7 @@
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_MUSIC_VOLUME_DESC</zType>
-        <Translation>Passe die Lautsärke für Musik an</Translation>
+        <Translation>Passt die Lautsärke für Musik an</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_SFX_VOLUME_NAME</zType>
@@ -195,7 +195,7 @@
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_HUD_SCALE_DESC</zType>
-        <Translation>Ändere die Größe der Benutzeroberfläche auf dem Hauptbildschirm</Translation>
+        <Translation>Ändert die Größe der Benutzeroberfläche auf dem Hauptbildschirm</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_HEALTHBAR_SCALE_NAME</zType>
@@ -203,7 +203,7 @@
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_HEALTHBAR_SCALE_DESC</zType>
-        <Translation>Ändere die Größe der Gesundheitsbalken</Translation>
+        <Translation>Ändert die Größe der Gesundheitsbalken</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_TOOLTIP_SCALE_NAME</zType>
@@ -211,15 +211,15 @@
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_TOOLTIP_SCALE_DESC</zType>
-        <Translation>Ändere die Größe der Kurzinfos</Translation>
+        <Translation>Ändert die Größe der Kurzinfos</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_OVERRIDE_MAX_SCALING_NAME</zType>
-		<Translation>Override Scaling Limit</Translation>
+		<Translation>Überschreibt Skalierungs Limit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_OVERRIDE_MAX_SCALING_DESC</zType>
-		<Translation><![CDATA[Increases the maximum value for HUD scaling on the slider<br><color=#ff0000>Warning: Enabling this setting may cause various UI elements to overlap or layouts to otherwise break</color>]]></Translation>
+		<Translation><![CDATA[Erhöht den maxiamlen Wert für HUD Skalierung mit dem Schieberegler<br><color=#ff0000>Warnung: Dieses zu aktivieren kann verschiedene Ui Elemente oder Layouts überdecken oder anders stören</color>]]></Translation>
 	</Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_LANGUAGE_NAME</zType>
@@ -227,7 +227,7 @@
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_LANGUAGE_DESC</zType>
-        <Translation>Ändere die Sprache des Spiels</Translation>
+        <Translation>Ändert die Sprache des Spiels</Translation>
     </Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_NEWSLETTER_NAME</zType>
