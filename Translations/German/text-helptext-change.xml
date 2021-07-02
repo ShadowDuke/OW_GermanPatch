@@ -888,7 +888,7 @@
 	<!--City Money Summary Text-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_CITY_MONEY_SUMMARY_TEXT</zType>
-		<Translation><![CDATA[{0_moneyGain} (Einkommen)<br>-{1_moneyLoss} (Wartung)<br>= {2_yield} (Netto)]]></Translation>
+		<Translation><![CDATA[{0_moneyGain} (Einkommen)<br>{1_moneyLoss} (link(YIELD_MAINTENANCE))<br> {2_yield} (Netto)]]></Translation>
 	</Entry>
 	<!---->
 	<Entry>
@@ -2274,7 +2274,7 @@ Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_YIELD_FROM_X</zType>
-		<Translation><![CDATA[{0} von {1}<true_2> x{2}<false><end>]]></Translation>
+		<Translation>{0_yield}: von {1}{true_2: x{2}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_YIELD_FROM_IMPROVEMENT</zType>
@@ -2989,7 +2989,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_NET_CITY_SUBTRACT_LIST_ITEM</zType>
-		<Translation> (-{0_yield})</Translation>
+		<Translation> ({0_yield})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_NET_TRADE_TO_PLAYER</zType>
@@ -3017,7 +3017,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_NET_AS</zType>
-		<Translation>{0}: {1} ({2}), as {3}</Translation>
+		<Translation>{0}: {1} ({2}), wie {3}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_NET_UPKEEP</zType>
@@ -3185,7 +3185,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_PER_YEAR</zType>
-		<Translation>{0}/Jahr</Translation>
+		<Translation>{0}/{1_turnScale}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_FROM</zType>
@@ -3217,7 +3217,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_YIELD_PERCENT_OF_YIELD</zType>
-		<Translation>{0} von {1_yield} in {2_city} von {3_effect}</Translation>
+		<Translation>{{0} von {1_yield} in {2_city}{true_3: von {3_effect}}</Translation>
 	</Entry>
 	<!--Unit Type Help-->
 	<Entry>	
@@ -3653,7 +3653,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_NEW_UNIT_LEVEL</zType>
-		<Translation>{0_value} {singular_0:Level:Levels} für neue Einheiten</Translation>
+		<Translation>{0_value} {singular_0:Stufe:Stufen} für neue Einheiten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_UNIT_HEAL</zType>
@@ -3701,7 +3701,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_HURRY_DISCONTENT_NONE</zType>
-		<Translation>No icon(YIELD_DISCONTENT) from Hurrying</Translation>
+		<Translation>Keine icon(YIELD_DISCONTENT) vom beschleunigen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_HURRY_DISCONTENT</zType>
@@ -3717,15 +3717,15 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_FAMILY_OPINION</zType>
-		<Translation><![CDATA[{0_value} Family Opinion<true_1> ({2_familyLink})<false><end>]]></Translation>
+		<Translation>{0_value} Family Opinion{true_1: ({2_familyLink})}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_REBEL_PROBABILITY</zType>
-		<Translation>{0_value} Chance/Jahr auf {1_rebel} Einheiten</Translation>
+		<Translation>{0_value} {1_rebel} Chance</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_ADDS_LUXURY</zType>
-		<Translation>Fügt {0,0_luxuryLink} hinzu</Translation>
+		<Translation>Fügt {0,0_luxuryLink}{true_1: {1_cityYield}} ({2_resource}) hinzu</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_AUTO_BUILD</zType>
@@ -4210,7 +4210,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_RELIGION_OPINION_CHANGE</zType>
-		<Translation>All Religion Opinions {0_value}</Translation>
+		<Translation>Alle Religionen Meinungen {0_value}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_FAMILY_OPINION_CHANGE</zType>
@@ -4294,11 +4294,11 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_WAR_YIELD</zType>
-		<Translation>{0_yield} pro Krieg</Translation>
+		<Translation>{0_yield}/{1_turnScale} per link(DIPLOMACY_WAR)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_YIELD_RATE</zType>
-		<Translation>{0_yield} pro Jahr</Translation>
+		<Translation>{true_0:[Global] }{1_yield}/{2_turnScale)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_YIELD_RATE_LAWS</zType>
@@ -4310,7 +4310,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_TRADE_YIELD</zType>
-		<Translation>Can Kaufen/Verkaufen{0_yield}</Translation>
+		<Translation>Kann {0_yield} Kaufen/Verkaufen </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_WATER_UNIT</zType>
