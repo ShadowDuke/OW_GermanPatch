@@ -36,15 +36,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE</zType>
-		<Translation>link(DIPLOMACY_PEACE mit Spieler</Translation>
+		<Translation>link(DIPLOMACY_PEACE) mit Spieler</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_TARGET</zType>
-		<Translation>link(DIPLOMACY_PEACE mit Spieler</Translation>
+		<Translation>link(DIPLOMACY_PEACE) mit Spieler</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_CHARACTER</zType>
-		<Translation>Spieler link(DIPLOMACY_PEACE über</Translation>
+		<Translation>Spieler link(DIPLOMACY_PEACE) über</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_OFFER_TRIBUTE</zType>

@@ -292,19 +292,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_PEACE_EVENT</zType>
-		<Translation>link(DIPLOMACY_PEACE Ereignis</Translation>
+		<Translation>link(DIPLOMACY_PEACE) Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_PEACE_OFFER_EVENT</zType>
-		<Translation>Biete Tribut für link(DIPLOMACY_PEACE Ereignis</Translation>
+		<Translation>Biete Tribut für link(DIPLOMACY_PEACE) Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_PEACE_NO_EVENT</zType>
-		<Translation>Frag nach link(DIPLOMACY_PEACE Ereignis</Translation>
+		<Translation>Frag nach link(DIPLOMACY_PEACE) Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_PEACE_DEMAND_EVENT</zType>
-		<Translation>Verlange Tribut für link(DIPLOMACY_PEACE Ereignis</Translation>
+		<Translation>Verlange Tribut für link(DIPLOMACY_PEACE) Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_PEACE_HUMAN_EVENT</zType>
