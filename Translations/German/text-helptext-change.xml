@@ -779,11 +779,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_GT</zType>
-		<Translation>{0} {true_3:ist:sind} icon(GreaterThan) {1}</Translation>
+		<Translation>{0} {true_2:ist:sind} icon(GreaterThan) {1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_LT</zType>
-		<Translation>{0} {true_3:ist:sind} icon(LessThan) {1}</Translation>
+		<Translation>{0} {true_2:ist:sind} icon(LessThan) {1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_GT_TWO</zType>
@@ -795,7 +795,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_AGE_RANGE</zType>
-		<Translation>{0} ist Alter icon(GreaterThan) {1} and icon(LessThan) {2}</Translation>
+		<Translation>{0} ist Alter icon(GreaterThan) {1} und icon(LessThan) {2}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_AGE_GT</zType>

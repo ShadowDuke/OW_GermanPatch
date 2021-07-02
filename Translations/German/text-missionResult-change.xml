@@ -259,7 +259,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TUTOR_DISCIPLINE_DESCRIPTION</zType>
-		<Translation><![CDATA[{CHARACTER-SUBJECT} hat (CHARACTER-TARGET} unterrichtet, verbessert <masculine_CHARACTER-TARGET>seine<feminine>ihre<end> link(RATING_DISCIPLINE)!]]></Translation>
+		<Translation><![CDATA[{CHARACTER-SUBJECT} hat {CHARACTER-TARGET} unterrichtet, verbessert <masculine_CHARACTER-TARGET>seine<feminine>ihre<end> link(RATING_DISCIPLINE)!]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TUTOR_EVENT_DESCRIPTION</zType>
