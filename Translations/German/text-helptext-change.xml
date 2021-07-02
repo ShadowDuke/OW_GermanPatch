@@ -4447,7 +4447,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_LUXURY_MISSING</zType>
-		<Translation>Fehlendes {0_luxury}: {1_value}/Stadt</Translation>
+		<Translation>Fehlende/r {0_luxury}: {1_value}/Stadt</Translation>
 	</Entry>
 	<!--Tribe Help-->
 	<Entry>
