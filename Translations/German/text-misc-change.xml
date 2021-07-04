@@ -224,23 +224,23 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAPSIZE_DUEL</zType>
-		<Translation>Duel</Translation>
+		<Translation>Duell</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAPSIZE_SMALL</zType>
-		<Translation>Small</Translation>
+		<Translation>Klein</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAPSIZE_MEDIUM</zType>
-		<Translation>Medium</Translation>
+		<Translation>Mittel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAPSIZE_LARGE</zType>
-		<Translation>Large</Translation>
+		<Translation>Groß</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAPSIZE_HUGE</zType>
-		<Translation>Huge</Translation>
+		<Translation>Riesig</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROXIMITY_VERY_CLOSE</zType>
