@@ -494,7 +494,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HOLY_CITY</zType>
-		<Translation>Heilige Stadt~eine Heilige Stadt~Heilige Städten</Translation>
+		<Translation>Heilige Stadt~eine Heilige Stadt~Heilige Stätten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_CITIES</zType>
@@ -4452,7 +4452,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<!--Tribe Help-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRIBE_LEADER</zType>
-		<Translation>Anführer: {0}</Translation>
+		<Translation>Oberhaupt: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRIBE_TRIBUTE_FROM</zType>
@@ -6084,7 +6084,7 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_IS_LEADER_SPOUSE</zType>
-		<Translation>{0}: Ist Ehepartner des Anführers</Translation>
+		<Translation>{0}: Ist Ehepartner des Oberhauptes</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_IS_HEIR</zType>

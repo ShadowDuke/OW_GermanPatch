@@ -60,7 +60,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_TRACKER_ALL</zType>
-		<Translation>Fährtenleser Anführer</Translation>
+		<Translation>Fährtenleser Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SWIFT</zType>
@@ -68,7 +68,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SWIFT_ALL</zType>
-		<Translation>Flink Anführer</Translation>
+		<Translation>Flink Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_EAGLE_EYE</zType>
@@ -88,7 +88,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_BESIEGER_ALL</zType>
-		<Translation>Belagerer Anführer</Translation>
+		<Translation>Belagerer Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_GARRISON</zType>
@@ -100,7 +100,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_TOUGH_ALL</zType>
-		<Translation>Taff Anführer</Translation>
+		<Translation>Taff Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_BLOODTHIRSTY</zType>
@@ -108,7 +108,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_BLOODTHIRSTY_ALL</zType>
-		<Translation>Blutdürstig Anführer</Translation>
+		<Translation>Blutdürstig Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HECKLER</zType>
@@ -116,7 +116,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HECKLER_ALL</zType>
-		<Translation>Störer Anführer</Translation>
+		<Translation>Störer Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_STEADFAST</zType>
@@ -124,7 +124,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_STEADFAST_ALL</zType>
-		<Translation>Treu Anführer</Translation>
+		<Translation>Treu Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HERBALIST</zType>
@@ -132,7 +132,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HERBALIST_ALL</zType>
-		<Translation>Pflanzenkenner Anführer</Translation>
+		<Translation>Pflanzenkenner Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HEALER</zType>
@@ -152,7 +152,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HIGHLANDER_ALL</zType>
-		<Translation>Bergbewohner Anführer</Translation>
+		<Translation>Bergbewohner Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_RANGER</zType>
@@ -160,7 +160,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_RANGER_ALL</zType>
-		<Translation>Ranger Anführer</Translation>
+		<Translation>Ranger Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_BRAVE</zType>
@@ -168,7 +168,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_BRAVE_ALL</zType>
-		<Translation>Tapfer Anführer</Translation>
+		<Translation>Tapfer Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SHIELDBEARER</zType>
@@ -176,7 +176,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SHIELDBEARER_ALL</zType>
-		<Translation>Schildträger Anführer</Translation>
+		<Translation>Schildträger Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_FIERCE</zType>
@@ -184,7 +184,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_FIERCE_ALL</zType>
-		<Translation>Unerschütterlich Anführer</Translation>
+		<Translation>Unerschütterlich Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HORSEBANE</zType>
@@ -192,7 +192,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HORSEBANE_ALL</zType>
-		<Translation>Unheil Anführer</Translation>
+		<Translation>Unheil Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_ENGINEER</zType>
@@ -200,7 +200,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_ENGINEER_ALL</zType>
-		<Translation>Techniker Anführer</Translation>
+		<Translation>Techniker Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SHRAPNEL</zType>
@@ -284,7 +284,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HERO_LEADER</zType>
-		<Translation>link(TRAIT_HERO_ARCHETYPE) (Anführer)</Translation>
+		<Translation>link(TRAIT_HERO_ARCHETYPE) (Oberhaupt)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HERO_MELEE</zType>
@@ -296,7 +296,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_COMMANDER_LEADER</zType>
-		<Translation>link(TRAIT_COMMANDER_ARCHETYPE) (Anführer)</Translation>
+		<Translation>link(TRAIT_COMMANDER_ARCHETYPE) (Oberhaupt)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_COMMANDER_INFANTRY</zType>
@@ -308,7 +308,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_TACTICIAN_LEADER</zType>
-		<Translation>link(TRAIT_TACTICIAN_ARCHETYPE) (Anführer)</Translation>
+		<Translation>link(TRAIT_TACTICIAN_ARCHETYPE) (Oberhaupt)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_TACTICIAN_RANGED</zType>
@@ -320,7 +320,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_ZEALOT_LEADER</zType>
-		<Translation>link(TRAIT_ZEALOT_ARCHETYPE) (Anführer)</Translation>
+		<Translation>link(TRAIT_ZEALOT_ARCHETYPE) (Oberhaupt)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_OPINIONFAMILY_FURIOUS</zType>

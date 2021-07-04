@@ -301,15 +301,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_COMMANDER_ARCHETYPE_CAPITAL</zType>
-		<Translation>link(TRAIT_COMMANDER_ARCHETYPE) Anführer</Translation>
+		<Translation>link(TRAIT_COMMANDER_ARCHETYPE) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_ZEALOT_ARCHETYPE_ALL</zType>
-		<Translation>link(TRAIT_ZEALOT_ARCHETYPE) Anführer</Translation>
+		<Translation>link(TRAIT_ZEALOT_ARCHETYPE) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_ZEALOT_ARCHETYPE_STATE</zType>
-		<Translation>link(TRAIT_ZEALOT_ARCHETYPE) Anführer</Translation>
+		<Translation>link(TRAIT_ZEALOT_ARCHETYPE) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_ORATOR_ARCHETYPE</zType>
@@ -317,7 +317,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_ORATOR_ARCHETYPE_ALL</zType>
-		<Translation>link(TRAIT_ORATOR_ARCHETYPE) Anführer</Translation>
+		<Translation>link(TRAIT_ORATOR_ARCHETYPE) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_DIPLOMAT_ARCHETYPE</zType>
@@ -333,7 +333,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_BUILDER_ARCHETYPE_ALL</zType>
-		<Translation>link(TRAIT_BUILDER_ARCHETYPE) Anführer</Translation>
+		<Translation>link(TRAIT_BUILDER_ARCHETYPE) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_SCHOLAR_ARCHETYPE</zType>
@@ -341,102 +341,102 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_AFFABLE_ALL</zType>
-		<Translation>link(TRAIT_AFFABLE) Anführer</Translation>
+		<Translation>link(TRAIT_AFFABLE) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_ELOQUENT_ALL</zType>
-		<Translation>link(TRAIT_ELOQUENT) Anführer</Translation>
+		<Translation>link(TRAIT_ELOQUENT) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_WARLIKE_ALL</zType>
-		<Translation>link(TRAIT_WARLIKE) Anführer</Translation>
+		<Translation>link(TRAIT_WARLIKE) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_INSPIRING_ALL</zType>
-		<Translation>link(TRAIT_INSPIRING) Anführer</Translation>
+		<Translation>link(TRAIT_INSPIRING) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_INTELLIGENT_ALL</zType>
-		<Translation>link(TRAIT_INTELLIGENT) Anführer</Translation>
+		<Translation>link(TRAIT_INTELLIGENT) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_PROSPEROUS_ALL</zType>
-		<Translation>link(TRAIT_PROSPEROUS) Anführer</Translation>
+		<Translation>link(TRAIT_PROSPEROUS) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_FRUGAL_ALL</zType>
-		<Translation>link(TRAIT_FRUGAL) Anführer</Translation>
+		<Translation>link(TRAIT_FRUGAL) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_RIGHTEOUS_ALL</zType>
-		<Translation>link(TRAIT_RIGHTEOUS) Anführer</Translation>
+		<Translation>link(TRAIT_RIGHTEOUS) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_CRUEL_ALL</zType>
-		<Translation>link(TRAIT_CRUEL) Anführer</Translation>
+		<Translation>link(TRAIT_CRUEL) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_INTOLERANT_ALL</zType>
-		<Translation>link(TRAIT_INTOLERANT) Anführer</Translation>
+		<Translation>link(TRAIT_INTOLERANT) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_SLOTHFUL_ALL</zType>
-		<Translation>link(TRAIT_SLOTHFUL) Anführer</Translation>
+		<Translation>link(TRAIT_SLOTHFUL) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_UNCOUTH_ALL</zType>
-		<Translation>link(TRAIT_UNCOUTH) Anführer</Translation>
+		<Translation>link(TRAIT_UNCOUTH) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_FOOLISH_ALL</zType>
-		<Translation>link(TRAIT_FOOLISH) Anführer</Translation>
+		<Translation>link(TRAIT_FOOLISH) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_EXTRAVAGANT_ALL</zType>
-		<Translation>link(TRAIT_EXTRAVAGANT) Anführer</Translation>
+		<Translation>link(TRAIT_EXTRAVAGANT) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_CORRUPT_ALL</zType>
-		<Translation>link(TRAIT_CORRUPT) Anführer</Translation>
+		<Translation>link(TRAIT_CORRUPT) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_DEBAUCHED_ALL</zType>
-		<Translation>link(TRAIT_DEBAUCHED) Anführer</Translation>
+		<Translation>link(TRAIT_DEBAUCHED) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_ROBUST</zType>
-		<Translation>link(TRAIT_ROBUST) Anführer</Translation>
+		<Translation>link(TRAIT_ROBUST) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_VIGILANT</zType>
-		<Translation>link(TRAIT_VIGILANT) Anführer</Translation>
+		<Translation>link(TRAIT_VIGILANT) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_STRICT</zType>
-		<Translation>link(TRAIT_STRICT) Anführer</Translation>
+		<Translation>link(TRAIT_STRICT) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_EQUESTRIAN</zType>
-		<Translation>link(TRAIT_EQUESTRIAN) Anführer</Translation>
+		<Translation>link(TRAIT_EQUESTRIAN) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_CARPENTER</zType>
-		<Translation>link(TRAIT_CARPENTER) Anführer</Translation>
+		<Translation>link(TRAIT_CARPENTER) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_PATHFINDER</zType>
-		<Translation>link(TRAIT_PATHFINDER) Anführer</Translation>
+		<Translation>link(TRAIT_PATHFINDER) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_CULTIVATOR</zType>
-		<Translation>link(TRAIT_CULTIVATOR) Anführer</Translation>
+		<Translation>link(TRAIT_CULTIVATOR) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_NATURALIST</zType>
-		<Translation>link(TRAIT_NATURALIST) Anführer</Translation>
+		<Translation>link(TRAIT_NATURALIST) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_DELVER</zType>
-		<Translation>link(TRAIT_DELVER) Anführer</Translation>
+		<Translation>link(TRAIT_DELVER) Oberhaupt</Translation>
 	</Entry>
 </Root>
