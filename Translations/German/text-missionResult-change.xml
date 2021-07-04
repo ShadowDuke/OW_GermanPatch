@@ -247,19 +247,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TUTOR_WISDOM_DESCRIPTION</zType>
-		<Translation><![CDATA[{CHARACTER-SUBJECT} hat {CHARACTER-TARGET} unterrichtet, verbessert <masculine_CHARACTER-TARGET>seine<feminine>ihre<end> link(RATING_WISDOM)!]]></Translation>
+		<Translation><![CDATA[{CHARACTER-SUBJECT} hat {CHARACTER-TARGET} unterrichtet und verbessert <masculine_CHARACTER-TARGET>seine<feminine>ihre<end> link(RATING_WISDOM)!]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TUTOR_CHARISMA_DESCRIPTION</zType>
-		<Translation><![CDATA[{CHARACTER-SUBJECT} hat {CHARACTER-TARGET} unterrichtet, verbessert <masculine_CHARACTER-TARGET>sein<feminine>ihr<end> link(RATING_CHARISMA)!]]></Translation>
+		<Translation><![CDATA[{CHARACTER-SUBJECT} hat {CHARACTER-TARGET} unterrichtet und verbessert <masculine_CHARACTER-TARGET>sein<feminine>ihr<end> link(RATING_CHARISMA)!]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TUTOR_COURAGE_DESCRIPTION</zType>
-		<Translation><![CDATA[{CHARACTER-SUBJECT} hat {CHARACTER-TARGET} unterrichtet, verbessert <masculine_CHARACTER-TARGET>seinen<feminine>ihren<end> link(RATING_COURAGE)!]]></Translation>
+		<Translation><![CDATA[{CHARACTER-SUBJECT} hat {CHARACTER-TARGET} unterrichtet und verbessert <masculine_CHARACTER-TARGET>seinen<feminine>ihren<end> link(RATING_COURAGE)!]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TUTOR_DISCIPLINE_DESCRIPTION</zType>
-		<Translation><![CDATA[{CHARACTER-SUBJECT} hat {CHARACTER-TARGET} unterrichtet, verbessert <masculine_CHARACTER-TARGET>seine<feminine>ihre<end> link(RATING_DISCIPLINE)!]]></Translation>
+		<Translation><![CDATA[{CHARACTER-SUBJECT} hat {CHARACTER-TARGET} unterrichtet und verbessert <masculine_CHARACTER-TARGET>seine<feminine>ihre<end> link(RATING_DISCIPLINE)!]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TUTOR_EVENT_DESCRIPTION</zType>
