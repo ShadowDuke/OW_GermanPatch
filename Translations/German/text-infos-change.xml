@@ -2019,7 +2019,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_DISCONTENT_HELP</zType>
-		<Translation>Städte schüren link(YIELD_DISCONTENT){YIELD_DISCONTENT} über die Zeit. Wenn die sich link(YIELD_DISCONTENT){YIELD_DISCONTENT} einer Stadt vermehrt, erhöht sich seine gesammtes link(YIELD_DISCONTENT){YIELD_DISCONTENT}, welches die link(YIELD_MAINTENANCE){YIELD_MAINTENANCE} erhöht und link(YIELD_GROWTH){YIELD_GROWTH} reduziert. Benutze link(PROJECT_FESTIVAL,2) um Unruhen link(YIELD_DISCONTENT){YIELD_DISCONTENT} zu verringern.</Translation>
+		<Translation>Städte schüren link(YIELD_DISCONTENT){YIELD_DISCONTENT} über die Zeit. Wenn die sich link(YIELD_DISCONTENT){YIELD_DISCONTENT} einer Stadt vermehrt, erhöht sich seine gesammtes link(YIELD_DISCONTENT){YIELD_DISCONTENT}, welches die link(YIELD_MAINTENANCE){YIELD_MAINTENANCE} erhöht und link(YIELD_GROWTH){YIELD_GROWTH} reduziert. Benutze link(PROJECT_FESTIVAL,2) um link(YIELD_DISCONTENT){YIELD_DISCONTENT} zu verringern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_SCIENCE_HELP</zType>
