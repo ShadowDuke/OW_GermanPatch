@@ -3,7 +3,7 @@
 You can still add them manually like before (github) but it would be certainly easier for you to create a [mod.io](https://oldworld.mod.io/) profile and get the mods and updates for them through the game now.**
 
 # Old World German Patch
-German localization for **Old World** for **Release Version (v.1.08)**. (WIP)
+German localization for **Old World** for **Release Version (v.1.10)**. (WIP)
 
 Zur [deutschen Anleitung](https://github.com/ShadowDuke/OW_GermanPatch#deutsch) springen.
 
