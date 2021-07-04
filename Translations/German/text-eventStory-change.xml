@@ -168,25 +168,25 @@ Was ist deine Antwort?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_FAMILY</zType>
-		<Translation><![CDATA[Ein Heiratsangebot von der {FAMILY-1} Familie für {CHARACTER-0} ist eingegangen. 
+		<Translation><![CDATA[Ein Heiratsangebot von der {FAMILY-1} Familie für {RELATIVE-0} {CHARACTER-0} ist eingegangen. 
 
 Was denkst du von diesen Möglichkeiten?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_FOREIGN</zType>
-		<Translation><![CDATA[Eine Gesandtschaft von {PLAYER-1} kommt mit einem Heiratsangebot für {CHARACTER-0} an.
+		<Translation><![CDATA[Eine Gesandtschaft von {PLAYER-1} kommt mit einem Heiratsangebot für {RELATIVE-0} {CHARACTER-0} an.
 
 Wir sollten das sorgfälltig überdenken.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_TRIBE</zType>
-		<Translation><![CDATA[Zum Überraschen des Hoofstaates ist ein Heiratsangebot von den {BARBARIAN-1} eingegangen: {CHARACTER-0} und {CHARACTER-2}.
+		<Translation><![CDATA[Zum Überraschen des Hoofstaates ist ein Heiratsangebot von den {TRIBE-1} eingegangen: {RELATIVE-0} {CHARACTER-0} and {CHARACTER-2}.
 
-Was solle nwir erwiedern?]]></Translation>
+Was sollen wir erwiedern?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MISSION_MARRIAGE_FAMILY</zType>
-		<Translation><![CDATA[Ein neues Heiratsangebot von {FAMILY-0} für {CHARACTER-1} ist eingetroffen. 
+		<Translation><![CDATA[Ein neues Heiratsangebot von {FAMILY-0,1} für {RELATIVE-1} {CHARACTER-1} ist eingetroffen. 
 
 Wie lautet unsere Antwort?]]></Translation>
 	</Entry>
@@ -258,7 +258,7 @@ Welche Rolle ist am besten für {CHARACTER-SHORT-0} geeignet? ]]></Translation>
 		<zType>TEXT_EVENTSTORY_EXPLORING_ENDS</zType>
 		<Translation><![CDATA[{CHARACTER-0} ist für einen kleinen Besuch in die Hauptstadt zurückgekehrt. <masculine_CHARACTER-0>Er<feminine>Sie<end> scheint erschöpft von <masculine_CHARACTER-0>seinenfeminine>ihren<end> Reisen zu sein, aber ist gewillt die Reise fortzusetzen, wenn der Hoftsaat so möchte.
 
-Was solle nwir befehlen?]]></Translation>
+Was sollen wir befehlen?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_DEATH_BASIC_01</zType>
