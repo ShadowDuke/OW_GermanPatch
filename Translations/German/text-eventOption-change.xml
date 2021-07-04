@@ -1933,4 +1933,16 @@
     <zType>TEXT_EVENTOPTION_GOT_YOUR_NOSE_1</zType>
     <Translation>Schreien.</Translation>
     </Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NATION_START_HELP</zType>
+		<Translation>Die Hauptstadt wird das Herz unseres REiches sein.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NATION_START</zType>
+		<Translation>Lasst uns unsere Hauptstadt gründen.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TUTORIAL_INTRO_OKAY</zType>
+		<Translation>Lasst uns unsere Hauptstadt gründen.</Translation>
+	</Entry>
 </Root>

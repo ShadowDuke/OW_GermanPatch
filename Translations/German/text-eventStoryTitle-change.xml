@@ -211,7 +211,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_SCHOLAR_MILD_TITLE</zType>
-		<Translation>A Calculated Gambit</Translation>
+		<Translation>Ein ausgeklügeltes Spiel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_DIPLOMAT_MILD_TITLE</zType>
@@ -1299,11 +1299,11 @@
 	</Entry>
 	<Entry>
     <zType>TEXT_EVENTSTORY_PLAYERS_SAVE_MY_FAMILY_TITLE</zType>
-    <Translation>Save my Family</Translation>
+    <Translation>Rette meine Familie</Translation>
   </Entry>
   <Entry>
 		<zType>TEXT_EVENTSTORY_CARAVAN_OF_LOVE_TITLE</zType>
-		<Translation>Caravan of Love</Translation>
+		<Translation>Liebes-Karawane</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_UNREQUITED_TITLE</zType>
@@ -1351,15 +1351,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_COMMANDER_TITLE</zType>
-		<Translation>Commander Crisis</Translation>
+		<Translation>Feldherr Kriese</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_TACTICIAN_TITLE</zType>
-		<Translation>Tactical Terror</Translation>
+		<Translation>Taktischer Terror</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_ZEALOT_TITLE</zType>
-		<Translation>Holy War</Translation>
+		<Translation>Heiliger Krieg</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_SCHEMER_TITLE</zType>
@@ -1367,19 +1367,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_ORATOR_TITLE</zType>
-		<Translation>A Call To Arms!</Translation>
+		<Translation>Ein Ruf zu den Waffen!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_JUDGE_TITLE</zType>
-		<Translation>Judgment Day</Translation>
+		<Translation>Tag des Jüngsten Gerichts</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_BUILDER_TITLE</zType>
-		<Translation>An Age Of Wonders</Translation>
+		<Translation>Ein Zeitalter der Wunder</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_SCHOLAR_TITLE</zType>
-		<Translation>A Calculated Gambit</Translation>
+		<Translation>Ein ausgeklügeltes Spiel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_DIPLOMAT_TITLE</zType>
@@ -7284,5 +7284,33 @@
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CAPTURED_SUPPLIES_TITLE</zType>
 		<Translation>Captured Supplies</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_START_ROME_TITLE</zType>
+		<Translation>{NATION-0} in der alten Welt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_START_GREECE_TITLE</zType>
+		<Translation>{NATION-0} in der alten Welt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_START_EGYPT_TITLE</zType>
+		<Translation>{NATION-0} in der alten Welt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_START_CARTHAGE_TITLE</zType>
+		<Translation>{NATION-0} in der alten Welt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_START_ASSYRIA_TITLE</zType>
+		<Translation>{NATION-0} in der alten Welt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_START_BABYLONIA_TITLE</zType>
+		<Translation>{NATION-0} in der alten Welt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_START_PERSIA_TITLE</zType>
+		<Translation>{NATION-0} in der alten Welt</Translation>
 	</Entry>
 </Root>

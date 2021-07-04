@@ -392,11 +392,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_WATER_VS_LAND</zType>
-		<Translation>Wasser-vs-Land:</Translation>
+		<Translation>Wasser-vs-Land</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_LAND_VS_WATER</zType>
-		<Translation>Land-vs-Wasser:</Translation>
+		<Translation>Land-vs-Wasser</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_SETTLEMENT</zType>
@@ -404,7 +404,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_AI_MODIFIER</zType>
-		<Translation>KI vs. {0}:</Translation>
+		<Translation>KI vs. {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_DISTANCE</zType>
@@ -468,11 +468,11 @@
   </Entry>
   <Entry>
 		<zType>TEXT_UI_UNIT_SELECTION_MAX_LEVEL</zType>
-		<Translation>(MAX LVL)</Translation>
+		<Translation>MAX LVL</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CITY_SELECTION_PROJECTS_TAB_LABEL</zType>
-		<Translation>Projekte</Translation>
+		<Translation>Projekte: </Translation>
 	</Entry>
     <Entry>
         <zType>TEXT_UI_CITY_SELECTION_CITIZENS_TAB_LABEL</zType>
@@ -568,7 +568,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTER_ACTIONS_ACTIVE_MISSION</zType>
-		<Translation>{0} (AKTIV)</Translation>
+		<Translation>{0} (AKTIV, {1})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTER_ACTIONS_LEAVE</zType>
@@ -688,15 +688,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_WINNER_ROSTER_VICTORY</zType>
-		<Translation>GEWONNEN!!!</Translation>
+		<Translation>GEWONNEN!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_WINNER_ROSTER_VICTORY_ALLIANCE</zType>
-		<Translation>ALLIANCE VICTORY!!!</Translation>
+		<Translation>ALLIANCE VICTORY!</Translation>
   </Entry>
   <Entry>
 		<zType>TEXT_UI_WINNER_ROSTER_LOSS</zType>
-		<Translation>VERLOREN!!!</Translation>
+		<Translation>VERLOREN!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MAX_CITIES</zType>
@@ -853,7 +853,7 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_AMBITION_FINISHED</zType>
-		<Translation>[Ambition Finished: {0}]</Translation>
+		<Translation>[Ambition vollendet: {0}]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_QUEST_FINISHED</zType>
@@ -861,7 +861,7 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
 	</Entry>
 	<Entry>
     <zType>TEXT_UI_EVENT_STORY_QUEST_FAILED</zType>
-    <Translation>[Quest Failed: {0}]</Translation>
+    <Translation>[Quest fehlgeschlagen: {0}]</Translation>
   </Entry>
   <Entry>
 		<zType>TEXT_UI_EVENT_STORY_MISSION_FINISHED</zType>
@@ -913,11 +913,11 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_ATTACKED_CITY</zType>
-		<Translation>[Greift an {0}]</Translation>
+		<Translation>[Griff {0} an]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_CITY_ATTACKED</zType>
-		<Translation>[{0} Greift an]</Translation>
+		<Translation>[{0} angegriffen]</Translation>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_UI_EVENT_STORY_KILLED_UNIT</zType>
@@ -1045,7 +1045,7 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
     </Entry>
     <Entry>
         <zType>TEXT_UI_SELECTED_RELIGION_THEOLOGY</zType>
-        <Translation>Stufe {0}: {1}</Translation>
+        <Translation>Stufe {0}</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_UI_NO_THEOLOGY_ADOPTED</zType>
@@ -1053,15 +1053,15 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
     </Entry>
     <Entry>
         <zType>TEXT_UI_SELECTED_RELIGION_FOLLOWERS_NATIONS</zType>
-        <Translation>Reiche:</Translation>
+        <Translation>Reiche</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_UI_SELECTED_RELIGION_FOLLOWERS_FAMILIES</zType>
-        <Translation>Familien:</Translation>
+        <Translation>Familien</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_UI_SELECTED_RELIGION_FOLLOWERS_TRIBES</zType>
-        <Translation>Stämme:</Translation>
+        <Translation>Stämme</Translation>
     </Entry>
     <!--menu-screens.xml-->
     <Entry>
@@ -1173,7 +1173,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_NATIONS</zType>
-		<Translation>Nationen</Translation>
+		<Translation>Reiche</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_TRIBES</zType>
@@ -1189,7 +1189,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_IMPROVEMENTS</zType>
-		<Translation>Verbesserungen</Translation>
+		<Translation>Verbesserungen (Allgemein)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_RESOURCES</zType>
@@ -1205,19 +1205,19 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_ARCHETYPES</zType>
-		<Translation>Archetyp</Translation>
+		<Translation>Merkmle (Archtypen)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_COUNCILS</zType>
-		<Translation>Hofrat</Translation>
+		<Translation>Hofräte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_WONDERS</zType>
-		<Translation>Improvements (Wonders)</Translation>
+		<Translation>Verbesserungen (Wunder)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_RELIGIOUSIMPROVEMENTS</zType>
-		<Translation>Improvements (Religion)</Translation>
+		<Translation>Verbesserungen (Religion)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_TRAITS</zType>
@@ -1256,11 +1256,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
     <!-- other selection panels-->
     <Entry>
         <zType>TEXT_MANAGE_LUXURIES</zType>
-        <Translation>Verwalte Luxusgüter</Translation>
+        <Translation>Verwalte link(CONCEPT_LUXURY)</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_MANAGE_LUXURIES_DESC</zType>
-        <Translation>Schicke oder stoppe Luxusgüter zu schicken</Translation>
+        <Translation>Schicke oder stoppe link(CONCEPT_LUXURY) zu schicken</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SEND_ITEM</zType>
@@ -1803,7 +1803,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	<!--title bar-->
     <Entry>
 		<zType>TEXT_OPTIONS_MENU_TITLEBAR_GENERAL</zType>
-		<Translation>Ajjgemein</Translation>
+		<Translation>Allgemein</Translation>
 	</Entry>
 	<Entry>
         <zType>TEXT_OPTIONS_MENU_TITLEBAR_GRAPHICS</zType>
@@ -1853,7 +1853,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
     <Entry>
         <zType>TEXT_SCENARIO_SETUP_NATION</zType>
-        <Translation>Nation</Translation>
+        <Translation>Reich</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_SCENARIO_SETUP_OPPONENTS</zType>
@@ -1861,7 +1861,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
     <Entry>
         <zType>TEXT_SCENARIO_SETUP_OPPONENT_NATIONS</zType>
-        <Translation>Gegner Nationen: {LIST}</Translation>
+        <Translation>Gegnerische Reiche: {LIST}</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_SCENARIO_SETUP_TRIBE</zType>
@@ -2641,7 +2641,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MP_SETUP_STATUS_ACTIVE_TURN</zType>
-		<Translation>{0_time} Aktive Runden:</Translation>
+		<Translation>{0_time} Aktive Runde:</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MP_SETUP_STATUS_PAUSE</zType>

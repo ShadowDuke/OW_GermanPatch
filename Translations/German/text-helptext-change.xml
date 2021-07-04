@@ -1352,7 +1352,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TRADE_LUXURY_MISSING_OPINION</zType>
-		<Translation>Meinung über Fehlen von {0_effectCity}: {1_value} Pro Stadt/Jahr</Translation>
+		<Translation>Meinung über Fehlen von {0_effectCity}: {1_value} Pro Stadt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TRADE_LUXURY_TURNS_LEFT</zType>
@@ -3882,7 +3882,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_RELIGION_NON_STATE</zType>
-		<Translation>{0_yield}/{1_turnScale} per Non-State Religion{true_2: ({2_cityYield})}</Translation>
+		<Translation>{0_yield}/{1_turnScale} pro Nicht-Staatsreligion{true_2: ({2_cityYield})}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_HOLY_CITY_WORLD</zType>
@@ -3963,7 +3963,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_UNIT_TRAIT_XP</zType>
-		<Translation>{0_value} EP/Jahr für {1_idle} {LIST} Einheiten</Translation>
+		<Translation>{0_value} EP/{1_turnScale} für {1_idle} {LIST} Einheiten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_ENABLES</zType>
@@ -3971,7 +3971,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_URBAN_BUILDING</zType>
-		<Translation>{0_urban} Gebäude</Translation>
+		<Translation>{0_urban} Verbesserung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_URBAN_BUILDING_ANYWHERE</zType>
@@ -3983,7 +3983,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_TRADE_NETWORK</zType>
-		<Translation>Erweitert Handelsnetz</Translation>
+		<Translation>Erweitert link(CONCEPT_TRADE_NETWORK)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_FRESH_WATER_SOURCE</zType>
@@ -3995,7 +3995,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_ADJACENT_IMPROVEMENTCLASS</zType>
-		<Translation>{LIST}/{0_turnScale} pro angrenzenem {0_improvementClass}</Translation>
+		<Translation>{LIST}/{0_turnScale} pro angrenzendem {1_improvementClass}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_ADJACENT_WONDER</zType>
@@ -4298,7 +4298,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_YIELD_RATE</zType>
-		<Translation>{true_0:[Global] }{1_yield}/{2_turnScale)</Translation>
+		<Translation>{true_0:[Global] }{1_yield}/{2_turnScale}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_YIELD_RATE_LAWS</zType>
