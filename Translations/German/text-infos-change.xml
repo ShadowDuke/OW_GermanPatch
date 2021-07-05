@@ -61,7 +61,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_CLEAR</zType>
-		<Translation>Klar</Translation>
+		<Translation>Rode</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_CRITICAL_HIT</zType>
@@ -572,6 +572,56 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_OPINIONPLAYER_FRIENDLY</zType>
+		<Translation>Freundlich</Translation>
+	</Entry>
+	<!--InfoOpinionFamily-->
+	<Entry>
+		<zType>TEXT_OPINIONFAMILY_FURIOUS</zType>
+		<Translation>Wütend</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONFAMILY_ANGRY</zType>
+		<Translation>Aufgebracht</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONFAMILY_UPSET</zType>
+		<Translation>Verärgert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONFAMILY_CAUTIOUS</zType>
+		<Translation>Vorsichtig</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONFAMILY_PLEASED</zType>
+		<Translation>Zufrieden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONFAMILY_FRIENDLY</zType>
+		<Translation>Freundlich</Translation>
+	</Entry>
+	<!--InfoOpinionReligion-->
+	<Entry>
+		<zType>TEXT_OPINIONRELIGION_FURIOUS</zType>
+		<Translation>Wütend</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONRELIGION_ANGRY</zType>
+		<Translation>Aufgebracht</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONRELIGION_UPSET</zType>
+		<Translation>Verärgert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONRELIGION_CAUTIOUS</zType>
+		<Translation>Vorsichtig</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONRELIGION_PLEASED</zType>
+		<Translation>Zufrieden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONRELIGION_FRIENDLY</zType>
 		<Translation>Freundlich</Translation>
 	</Entry>
 	<!--InfoGoal-->
@@ -1625,7 +1675,7 @@
 	</Entry>
 	<!-- InfoLanguage -->
 	<Entry>
-		<zType>TEXT_LANGUAGE_ENGLISH</zType>
+		<zType>TEXT_LANGUAGE_Translation</zType>
 		<Translation>Translation (US)</Translation>
 	</Entry>
 	<Entry>
