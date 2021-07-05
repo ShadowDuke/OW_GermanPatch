@@ -948,7 +948,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_POSSESSOR_OF_VENERATION</zType>
-		<Translation>Professor der Kulte</Translation>
+		<Translation>Besitzer der Verehrung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_STEWARD_OF_THE_CHAMBER</zType>
@@ -960,15 +960,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_AMULET_OWNER_POSITIVE</zType>
-		<Translation>Fruchtbarkeits Amulett Besitzer</Translation>
+		<Translation>Offenes Fruchtbarkeits Amulett Besitzer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_AMULET_OWNER_NEGATIVE</zType>
-		<Translation>Fruchtbarkeits Amulett Besitzer</Translation>
+		<Translation>Geschlossenes Fruchtbarkeits Amulett Besitzer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_GODS_CONSORT</zType>
-		<Translation>God's Consort</Translation>
+		<Translation>Gott's Gefährte</Translation>
 	</Entry> 
 	<Entry>
 		<zType>TEXT_TRAIT_DROUGHT_STRICKEN</zType>
@@ -988,7 +988,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BARRACKS_INSTRUCTOR</zType>
-		<Translation>Barracks Instructor</Translation>
+		<Translation>Kasernen Ausbilder</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SAVIOR_OF_THE_THRONE</zType>
