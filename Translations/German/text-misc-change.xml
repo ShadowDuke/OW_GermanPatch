@@ -544,7 +544,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_COLORCLASS_OVERLAYS</zType>
-		<Translation>Overlays</Translation>
+		<Translation>Einblendungen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COLORCLASS_SELECTION</zType>
@@ -1192,23 +1192,23 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_PASS</zType>
-		<Translation>Cycle and Pass Selected Unit</Translation>
+		<Translation>Ausgewählte Einheit wechseln und passen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_SLEEP</zType>
-		<Translation>Cycle and Sleep Selected Unit</Translation>
+		<Translation>Ausgewählte Einheit wechseln und ausruhen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_SENTRY</zType>
-		<Translation>Cycle and Sentry Selected Unit</Translation>
+		<Translation>Ausgewählte Einheit wechseln und verschanzen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_CYCLE_ALL</zType>
-		<Translation>Cycle Selection</Translation>
+		<Translation>Auswahl wechseln</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_CYCLE_ALL_REVERSE</zType>
-		<Translation>Cycle Selection (Reverse)</Translation>
+		<Translation>Auswahl wechseln (Umgekehrt)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_UNDO</zType>
@@ -1260,51 +1260,51 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_AI_LOG</zType>
-		<Translation>Show AI Log</Translation>
+		<Translation>Zeige KI Log</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_PREVIOUS_TAB</zType>
-		<Translation>Previous Tab/City</Translation>
+		<Translation>Vorherige/r Tab/Stadt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_NEXT_TAB</zType>
-		<Translation>Next Tab/City</Translation>
+		<Translation>Nächste/r Tab/Stadt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_GAME_EDITOR</zType>
-		<Translation>Game Editor</Translation>
+		<Translation>Spiel Editor</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_CONSOLE</zType>
-		<Translation>Console</Translation>
+		<Translation>Konsole</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_CLOSE_POPUP</zType>
-		<Translation>Close Popup</Translation>
+		<Translation>Schließe Popup</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_EXPAND_TOOLTIP</zType>
-		<Translation>Expand Tooltip</Translation>
+		<Translation>Erweitere Tooltip</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_LOCK_TOOLTIP</zType>
-		<Translation>Lock Tooltip</Translation>
+		<Translation>Sperre Tooltip</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_FREEZE_TOOLTIP</zType>
-		<Translation>Lock Tooltip</Translation>
+		<Translation>Sperre Tooltip</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_SAVE</zType>
-		<Translation>Save</Translation>
+		<Translation>Speichern</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_QUICK_LOAD</zType>
-		<Translation>Load</Translation>
+		<Translation>Laden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_AUTO_LOAD</zType>
-		<Translation>Load Autosave</Translation>
+		<Translation>Autosave laden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_DEBUG_MENU</zType>
@@ -1312,11 +1312,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_REVEAL_MAP</zType>
-		<Translation>Reveal Map</Translation>
+		<Translation>Map aufdecken</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_FULLY_REVEAL_MAP</zType>
-		<Translation>Fully Reveal Map</Translation>
+		<Translation>Map vollständig aufdecken</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_UNLOCK_NEXT_TECH</zType>
@@ -1328,7 +1328,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_RELOAD_INFOS</zType>
-		<Translation>Reload Infos</Translation>
+		<Translation>Infos neuladen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_GRANT_RESOURCES</zType>
@@ -1504,7 +1504,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEYCLASS_EVENT_BROWSER</zType>
-		<Translation>Event Browser</Translation>
+		<Translation>Ereignis Browser</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEYCLASS_DEBUG</zType>
@@ -1536,51 +1536,51 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_PING_GENERIC</zType>
-		<Translation>Attention</Translation>
+		<Translation>Achtung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PING_GENERIC_LOG</zType>
-		<Translation>Look Here.</Translation>
+		<Translation>Hier gucken.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PING_ATTACK</zType>
-		<Translation>Attack</Translation>
+		<Translation>Angreifen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PING_ATTACK_LOG</zType>
-		<Translation>Attack Here.</Translation>
+		<Translation>Hier angreifen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PING_RETREAT</zType>
-		<Translation>Retreat</Translation>
+		<Translation>Zurückziehen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PING_RETREAT_LOG</zType>
-		<Translation>Retreat from here.</Translation>
+		<Translation>Von hier zurückziehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PING_USE</zType>
-		<Translation>Use</Translation>
+		<Translation>Benutze</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PING_USE_LOG</zType>
-		<Translation>Use this.</Translation>
+		<Translation>Das benutzen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PING_FOUND</zType>
-		<Translation>Found</Translation>
+		<Translation>Gründe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PING_FOUND_LOG</zType>
-		<Translation>I want to found here.</Translation>
+		<Translation>Ich möchte hier gründen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PING_NOTE</zType>
-		<Translation>Note</Translation>
+		<Translation>Notitz</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PING_NOTE_LOG</zType>
-		<Translation>I dropped a note.</Translation>
+		<Translation>Ich hab eine Nachricht hinterlassen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_OPPONENTLEVEL_PASSIVE</zType>
@@ -1765,19 +1765,19 @@ Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TEAMNATION_GAME_UNIQUE_HELP</zType>
-		<Translation>Each available nation can be claimed by one player</Translation>
+		<Translation>Jedes verfügbares REich kann von einem Spieler genommen werden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TEAMNATION_TEAM_UNIQUE</zType>
-		<Translation>Unique within each Team</Translation>
+		<Translation>Einzigartig bei jedem Team</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TEAMNATION_TEAM_UNIQUE_HELP</zType>
-		<Translation>Each nation can be claimed by one player per team</Translation>
+		<Translation>Jedes Reich kann von einem Spieler pro Team gewählt werden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TERRAIN_STAMP_VOLCANO_7</zType>
-		<Translation>Volcano 7</Translation>
+		<Translation>Vulkan 7</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WARSTATE_ROUTED</zType>
@@ -1981,39 +1981,39 @@ Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SCENARIO_CARTHAGE_1</zType>
-		<Translation>Rise of Carthage - Game One</Translation>
+		<Translation>Entstehung von Karthago - Spiel eins</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SCENARIO_CARTHAGE_1_SUB</zType>
-		<Translation>Ox Hide</Translation>
+		<Translation>Ox Verstecken</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SCENARIO_CARTHAGE_2</zType>
-		<Translation>Rise of Carthage - Game Two</Translation>
+		<Translation>Entstehung von Karthago - Spiel zwei</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SCENARIO_CARTHAGE_2_SUB</zType>
-		<Translation>Riches and Influence</Translation>
+		<Translation>Wohlstand und Einfluss</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SCENARIO_CARTHAGE_3</zType>
-		<Translation>Rise of Carthage - Game Three</Translation>
+		<Translation>Entstehung von Karthago - Spiel drei</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SCENARIO_CARTHAGE_3_SUB</zType>
-		<Translation>Rise of Rome</Translation>
+		<Translation>Aufstieg Roms</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SCENARIO_CARTHAGE_4</zType>
-		<Translation>Rise of Carthage - Game Four</Translation>
+		<Translation>Entstehung von Karthago - Spiel vier</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SCENARIO_CARTHAGE_4_SUB</zType>
-		<Translation>Seizing Destiny</Translation>
+		<Translation>Ergreife das Schicksal</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNITCYCLE_FOUND</zType>
-		<Translation>Found</Translation>
+		<Translation>Gegründet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNITCYCLE_WORKER</zType>

@@ -1992,7 +1992,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LAUNCH_OFFENSIVE</zType>
-		<Translation><![CDATA[Reduziert den Cooldown von <singular_0>der nähesten Einheit<plural>der nähesten {0_number} Einheiten<end> und gibt ihnen {1_yield} für jede einzelne]]></Translation>
+		<Translation><![CDATA[Reduziert den Cooldown von <singular_0>der nähesten Einheit<plural>der nähesten {0_number} Einheiten<end> und gibt ihnen {0_yield} für jede einzelne]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LAUNCH_OFFENSIVE_NOT_YOUR_TURN</zType>

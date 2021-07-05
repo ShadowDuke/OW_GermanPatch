@@ -7,31 +7,31 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_CONVERT_RELIGION</zType>
-		<Translation>Tribe Convert Religion</Translation>
+		<Translation>Stamm kovertiert Religion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_RAID</zType>
-		<Translation>Stamm (Überfall)</Translation>
+		<Translation>Stamm Überfall</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_PEACE</zType>
-		<Translation>Stamm (Frieden)</Translation>
+		<Translation>Stamm Frieden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_TRUCE</zType>
-		<Translation>Stamm (Waffenruhe)</Translation>
+		<Translation>Stamm Waffenruhe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_WAR</zType>
-		<Translation>Stamme (Krieg)</Translation>
+		<Translation>Stamme Krieg</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_OFFER</zType>
-		<Translation>Stamm (Angebot)</Translation>
+		<Translation>Stamm Angebot</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_OFFER_ALL</zType>
-		<Translation>Stamm (Angebot/Alle)</Translation>
+		<Translation>Stamm Angebot (Alle)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_BROKE_PEACE</zType>
@@ -43,19 +43,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_PLAYER_TRIBE_WAR</zType>
-		<Translation>Convinced a Nation to declare on us</Translation>
+		<Translation>Hat ein Reich überzeugt uns den Krieg zu erklären</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_ATTACKED_UNIT</zType>
-		<Translation>Attacked our Unit(s)</Translation>
+		<Translation>Griff unsere Einheit(en) an</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_ATTACKED_SETTLEMENT</zType>
-		<Translation>Attacked our Sites(s)</Translation>
+		<Translation>Griff unseren Stadtplatz an</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_ATTACKED_ENEMY</zType>
-		<Translation>Attacked our Enem(ies)</Translation>
+		<Translation>Griff unsere(n) Feind(e) an</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_DECLARED_WAR</zType>
@@ -63,143 +63,143 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_EXECUTION</zType>
-		<Translation>They executed our prisoners.</Translation>
+		<Translation>Sie haben unsere Gefangenen hingerichtet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_DESECRATION</zType>
-		<Translation>Our tombs were desecrated.</Translation>
+		<Translation>Unsere Gräbder wurden entweiht.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_RESPECT</zType>
-		<Translation>Our tombs were spared.</Translation>
+		<Translation>Unsere Gräbder wurden verschont.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_DENIED_SPOILS</zType>
-		<Translation>Denied our rival's spoils.</Translation>
+		<Translation>Die Beute unseres Kivalen verweigert.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_SALTED_FIELDS</zType>
-		<Translation>Burned our spoils and salted our fields</Translation>
+		<Translation>Unsere Beute verbrannt und unsere Felder gesalzen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_SHARED_SPOILS</zType>
-		<Translation>Shared rival's spoils</Translation>
+		<Translation>Beute mit RIvalem geteilt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_ZEALOTS_OPPRESSED</zType>
-		<Translation>Subdued warlike zealots</Translation>
+		<Translation>Kriegerische Fanatiker gebändigt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_DISREGARDED_KNOWLEDGE</zType>
-		<Translation>Disregarded our knowledge</Translation>
+		<Translation>Unser Wissen unbeachtet gelassen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_RETURNED_HOSTAGE</zType>
-		<Translation>Returned royal hostage</Translation>
+		<Translation>Königliche Geisel zurückgegeben</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_KEPT_HOSTAGE</zType>
-		<Translation>Kept a royal ward as hostage</Translation>
+		<Translation>Ein königliches Mündel als Geisel gehalten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_DOOMED_HOSTAGE</zType>
-		<Translation>They doomed our royal hostage</Translation>
+		<Translation>Sie verurteilen unsere königliche Geisel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_MURDERED_QUEEN</zType>
-		<Translation>Murdered our queen</Translation>
+		<Translation>Unsere Königin ermordet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_INSULTED_CUSTOMS</zType>
-		<Translation>Insulted our customs</Translation>
+		<Translation>Unsere Gebräuche beleidigt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_ACCEPTED_CUSTOMS</zType>
-		<Translation>Accepted our customs</Translation>
+		<Translation>Unsere Gebräuche anerkannt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_RETURNED_FAMILY</zType>
-		<Translation>Returned the royal family</Translation>
+		<Translation>Die königliche Familie zurückgegeben</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_STOLE_FAMILY</zType>
-		<Translation>Abducted royal family</Translation>
+		<Translation>Entführte königliche Familie</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_MET_OUR_DELEGATION</zType>
-		<Translation>Met our delegation</Translation>
+		<Translation>Unsere Delegation empfangen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_SENT_A_PROXY</zType>
-		<Translation>Sent a proxy to meet our delegation</Translation>
+		<Translation>Schickte einen Stellvertreter um unsere Delegation zu empfangen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_ATTACKED_DELEGATION</zType>
-		<Translation>Attacked our delegation</Translation>
+		<Translation>Unsere Delegation angegriffen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_ANNEXED_LAND</zType>
-		<Translation>Planning to annex our land</Translation>
+		<Translation>Planen unser Land zu annektieren</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_REFUSED_ANNEXATION</zType>
-		<Translation>Did not annex our land</Translation>
+		<Translation>Haben unser land nicht annektiert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_AVOIDED_RUINS</zType>
-		<Translation>Avoided ancient ruins</Translation>
+		<Translation>Antike Ruinen vermieden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_DESECRATED_RUINS</zType>
-		<Translation>Desecrated ancient ruins</Translation>
+		<Translation>Antike Ruinen entweiht</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_TREATED_WITH_LEADER</zType>
-		<Translation>Treated with our leader</Translation>
+		<Translation>Handelte mit unserem Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_RESTRICTED_PIRACY</zType>
-		<Translation>Restricted tribal piracy</Translation>
+		<Translation>Begrenzt Stammes Piraterie</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_TRIBE_WAR_AMBASSADOR_IF</zType>
-		<Translation>Offended our ambassador</Translation>
+		<Translation>Unseren Gesandten beleidigt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_TRIBE_CONTACT_AGGRESSION</zType>
-		<Translation>Acted aggressively on first contact</Translation>
+		<Translation>Sich aggressiv beim ersten Aufeinandertreffen verhalten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_TRIBE_CONTACT_GAVE_GIFTS</zType>
-		<Translation>Gave gifts on first contact</Translation>
+		<Translation>Gab Geschenke ersten Aufeinandertreffen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_TRIBE_CONTACT_RANSOM</zType>
-		<Translation>Paid ransom for their unit</Translation>
+		<Translation>Bezahlte Lösegeld für deren Einheit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_TRIBE_CONTACT_TOOK_HOSTAGE</zType>
-		<Translation>Took our unit hostage</Translation>
+		<Translation>Nahm unsere Einheit als Geisel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_FEASTED_IN_OUR_HONOR</zType>
-		<Translation>Feasted in our honor</Translation>
+		<Translation>Feierte in unseren Ehren</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_TRIBE_CONTACT_CULTURAL_DELEGATION_NO</zType>
-		<Translation>Refused our cultural delegation</Translation>
+		<Translation>Verweigerte unsere kulturelle Delegation</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_REFUSED_OUR_ENEMIES</zType>
-		<Translation>Refused to aid our enemies</Translation>
+		<Translation>Geweigert unseren Feinden zu helfen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_STRANGE_ENCOUNTER</zType>
-		<Translation>Respected our sacred ground</Translation>
+		<Translation>Unseren heiligen Grund respektiert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_RUMOR_HAS_IT_SAVED</zType>
-		<Translation>Respected our snakes</Translation>
+		<Translation>Unsere Schlagen respektiert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_LAW_FREED_CAPTIVES</zType>
@@ -207,219 +207,219 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_RUINS_RESTORED_CITY</zType>
-		<Translation>Restores our ancient capital</Translation>
+		<Translation>Restauriert unsere vorzeitliche Hauptstadt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORY_IGNORED_PROPOSAL</zType>
-		<Translation>Refused king's proposal</Translation>
+		<Translation>Vorschlg des Königs abgewiesen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORY_WOOED_BARBARIAN_KING</zType>
-		<Translation>Wooed our king</Translation>
+		<Translation>Lockte unseren König</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_MARRIAGE_OFFER_NO</zType>
-		<Translation>Rejected marriage proposal</Translation>
+		<Translation>Heiratsangebot abgelehnt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_SMUGGLED_SPIES</zType>
-		<Translation>Smuggled our spies</Translation>
+		<Translation>Unsere Agenten eingeschleust</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_ASSISTED_IN_MONSOON</zType>
-		<Translation>Helped us in a monsoon</Translation>
+		<Translation>Half uns bei einem Monsun</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_REBUKED_US</zType>
-		<Translation>Rebuked our relationship</Translation>
+		<Translation>Unsere Bezeihung getadelt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_REFUSED_INVITATION</zType>
-		<Translation>Refused our invitation</Translation>
+		<Translation>Unsere Einladung abgelehnt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_GAVE_JUSTICE</zType>
-		<Translation>Executed those who desecrated ruins</Translation>
+		<Translation>Die hingerichtet, die Ruinen entweiht haben</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_REFUSED_JUSTICE</zType>
-		<Translation>Refused to give barbarians peace</Translation>
+		<Translation>Geweigert mi den Barbaren Frieden zu schließen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_EXPLAINED_MISTAKE</zType>
-		<Translation>Explained accidental desecration</Translation>
+		<Translation>versehentliche Entweihung erklärt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_ACCEPTED_GENERAL</zType>
-		<Translation>Accepted our veteran general</Translation>
+		<Translation>Unseren Veteranen Feldherr anerkannt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_PRESERVED_PIRACY</zType>
-		<Translation>Preserved piracy as a viable profession</Translation>
+		<Translation>Erhielt Piraterie als lohnende Gewerbe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_MEDIATOR</zType>
-		<Translation>Other tribe mediated on our behalf</Translation>
+		<Translation>Anderer Stamm meditierte an unserer Stelle</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_COURTIER_WED</zType>
-		<Translation>Courtier wed barbarian bride</Translation>
+		<Translation>Vertrauter heiratete barbarische Braut</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_GIFT_OF_CAMELS</zType>
-		<Translation>Received gift of camels</Translation>
+		<Translation>Bekam ein Geschenk in Form von Kamelen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_RETURNED_SHEPHERD</zType>
-		<Translation>Returned young shepherd</Translation>
+		<Translation>Jungen Hirten zurückgegeben</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_SENT_SPIES</zType>
-		<Translation>Sent agents to sow unrest</Translation>
+		<Translation>Schickte Agenten um Unruhe zu schüren</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_ACCEPTED_RELIGIOUS_PRACTICE</zType>
-		<Translation>Accepted religious practice</Translation>
+		<Translation>Billigt religiöse Gebräuche</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_ARGUED_RELIGIOUS_PRACTICE</zType>
-		<Translation>Argued religious practice</Translation>
+		<Translation>Bestreitet religiöse Gebräuche</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_EXTORTED</zType>
-		<Translation>Extorted us for resources</Translation>
+		<Translation>Erpresste uns für Ressourcen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_HUMAN_DIPLOMACY</zType>
-		<Translation>Human Diplomacy</Translation>
+		<Translation>Menschliche Diplomatie</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_CONTACTED_FIRST_NATION</zType>
-		<Translation>Met first rival Nation</Translation>
+		<Translation>Erstes rivalisierendes REich getroffen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_ADOPTED_RELIGION</zType>
-		<Translation>We adopted a link(CONCEPT_STATE_RELIGION)</Translation>
+		<Translation>Wir haben eine link(CONCEPT_STATE_RELIGION) adoptiert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_STARTED_LAW</zType>
-		<Translation>Changed a Law</Translation>
+		<Translation>Ein Gesetz geändert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_CHOSE_AMBITION</zType>
-		<Translation>Chose an Ambition</Translation>
+		<Translation>Eine Ambition gewählt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PEACE</zType>
-		<Translation>Player Peace</Translation>
+		<Translation>Spieler Frieden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_TRUCE</zType>
-		<Translation>Player Truce</Translation>
+		<Translation>Spieler WAffenruhe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_WAR</zType>
-		<Translation>Player War</Translation>
+		<Translation>Spieler Krieg</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_OFFER</zType>
-		<Translation>Player Offer</Translation>
+		<Translation>Spieler Angebot</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_OFFER_ALL</zType>
-		<Translation>Player Offer (All)</Translation>
+		<Translation>Spieler Angebot (Alle)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_ATTACKED_UNIT</zType>
-		<Translation>Attacked our Unit(s)</Translation>
+		<Translation>Griff unsere Einheit(en) an</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_ATTACKED_CITY</zType>
-		<Translation>Attacked our Cit(ies)</Translation>
+		<Translation>Griff unsere Städte an</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_CAPTURED_CITY</zType>
-		<Translation>Captured our Cit(ies)</Translation>
+		<Translation>Eroberte unsere Städte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_POACHED_CITY</zType>
-		<Translation>Captured a City we were attacking</Translation>
+		<Translation>Eroberte eine Stand die wir am angreifen waren</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_STOLE_CITY_SITE</zType>
-		<Translation>Claimed a City Site we wanted</Translation>
+		<Translation>Beanspruchte einen Stadtplatz den wir wollten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_ATTACKED_ENEMY</zType>
-		<Translation>Attacked our Enem(ies)</Translation>
+		<Translation>Griff unsere(n) Gegner an</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_CARAVAN_ARRIVED</zType>
-		<Translation>Caravan Arrived</Translation>
+		<Translation>Karawane eingetroffen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_GIFTED_CITY</zType>
-		<Translation>Gifted City</Translation>
+		<Translation>Stadt geschenkt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_GIFTED_UNIT</zType>
-		<Translation>Gifted Unit</Translation>
+		<Translation>Einheit geschenkt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_GIFTED_YIELD</zType>
-		<Translation>Gifted Goods</Translation>
+		<Translation>Waren geschenkt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_HOLD_HOSTAGE</zType>
-		<Translation>Held a noble hostage</Translation>
+		<Translation>Hielt einen Adligen als Geisel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_KILLED_NOBLE_HOSTAGE</zType>
-		<Translation>Killed a noble hostage</Translation>
+		<Translation>Tötete eine Adlige Geisel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_BROKE_PEACE</zType>
-		<Translation>Broke a Peace Treaty</Translation>
+		<Translation>Brach ein Friedensabkommen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_DECLARED_WAR</zType>
-		<Translation>Declared War on us</Translation>
+		<Translation>hat uns den Krieg erklärt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_CANCELLED_TRADE</zType>
-		<Translation>Cancelled Trade</Translation>
+		<Translation>Handel abgebrochen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_SECOND_CLASS_CITIZENS_NEG</zType>
-		<Translation>Refused Help Citizens</Translation>
+		<Translation>Geweigert Bürgern zu helfen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_SECOND_CLASS_CITIZENS_POS</zType>
-		<Translation>Helped Citizens</Translation>
+		<Translation>Bürgern geholfen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_DIVORCE</zType>
-		<Translation>Divorce</Translation>
+		<Translation>Scheidung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_REMOVED_LUXURY</zType>
-		<Translation>Removed Luxury</Translation>
+		<Translation>Luxusgut entfernt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_TRADE_DEAL</zType>
-		<Translation>New Trade Deal</Translation>
+		<Translation>Neues Handelsabkommen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_DEMANDED_TRIBUTE</zType>
-		<Translation>Demanded Tribute</Translation>
+		<Translation>Verlangte Tribut</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_NOBLE_DEFECT</zType>
-		<Translation>Convinced a noble to defect</Translation>
+		<Translation>Einen Adligen überzeugt überzulaufen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_FEAST_EXILED_PEOPLE</zType>
-		<Translation>Exiled People</Translation>
+		<Translation>Leute verbannt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_FEAST_ACCEPTED_CITY</zType>
