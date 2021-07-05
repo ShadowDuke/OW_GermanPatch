@@ -961,7 +961,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_APADANA</zType>
-		<Translation>Baue  link(IMPROVEMENT_APADANA)</</Translation>
+		<Translation>Baue link(IMPROVEMENT_APADANA)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_MAUSOLEUM</zType>
@@ -1625,7 +1625,7 @@
 	</Entry>
 	<!-- InfoLanguage -->
 	<Entry>
-		<zType>TEXT_LANGUAGE_Translation</zType>
+		<zType>TEXT_LANGUAGE_ENGLISH</zType>
 		<Translation>Translation (US)</Translation>
 	</Entry>
 	<Entry>
@@ -1950,10 +1950,6 @@
 		<Translation>link(YIELD_TRAINING) Schub</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TECH_VAULTING</zType>
-		<Translation>Wölbung</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_TECH_BODKIN_ARROW_BONUS_TRAINING</zType>
 		<Translation>link(YIELD_TRAINING) Schub</Translation>
 	</Entry>
@@ -1989,7 +1985,11 @@
 		<zType>TEXT_TECH_BARDING</zType>
 		<Translation>Rossharnische</Translation>
 	</Entry>
-	<Entry>TEXT_TECH_VAULTING
+	<Entry>
+		<zType>TEXT_TECH_VAULTING</zType>
+		<Translation>Wölbung</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TECH_INFANTRY_SQUARE</zType>
 		<Translation>Karree</Translation>
 	</Entry>
