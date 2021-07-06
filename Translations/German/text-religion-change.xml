@@ -8,54 +8,54 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_RELIGION_ZOROASTRIANISM</zType>
-		<Translation>Zoroastrismus~Zoroastrier~ein Zoroastrier~Zoroastrier</Translation>
+		<Translation>Zoroastrismus~Zoroastrisch~ein Zoroastrier~Zoroastrier~Zoroastrier</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_RELIGION_JUDAISM</zType>
-		<Translation>Judentum~Jude~ein Jüdischer~Juden</Translation>
+		<Translation>Judentum~Jüdisch~ein Jude~Juden~Jude</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_RELIGION_CHRISTIANITY</zType>
-		<Translation>Christentum~Christ~ein Christ~Christen</Translation>
+		<Translation>Christentum~Christlich~ein Christ~Christen~Christ</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_RELIGION_MANICHAEISM</zType>
-		<Translation>Manichäismus~Manichäer~ein Manichäer~Manichäer</Translation>
+		<Translation>Manichäismus~Manichäisch~ein Manichäer~Manichäer~Manichäer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_RELIGION_PAGAN</zType>
-		<Translation>Heidentum~Heide~ein Heide~Heiden</Translation>
+		<Translation>Heidentum~Heidnisch~ein Heide~Heiden~Heide</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_RELIGION_PAGAN_ASSYRIA</zType>
-		<Translation>Assyrisches Heidentum~Assyrischer Heide~ein Assyrischer Heide~Assyrische Heiden</Translation>
+		<Translation>Assyrisches Heidentum~Assyrisch Heidnisch~ein Assyrischer Heide~Assyrische Heiden~Assyrischer Heide</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_RELIGION_PAGAN_BABYLONIA</zType>
-		<Translation>Babylonisches Heidentum~Babylonischer Heide~ein Babylonischer Heide~Babylonische Heiden</Translation>
+		<Translation>Babylonisches Heidentum~Babylonisch Heidnisch~ein Babylonischer Heide~Babylonische Heiden~Babylonischer Heide</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_RELIGION_PAGAN_CARTHAGE</zType>
-		<Translation>Karthagisches Heidentum~Karthagischer Heide~ein Karthagischer Heide~Karthagische Heiden</Translation>
+		<Translation>Karthagisches Heidentum~Karthagisch Heidnisch~ein Karthagischer Heide~Karthagische Heiden~Karthagischer Heide</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_RELIGION_PAGAN_EGYPT</zType>
-		<Translation>Ägyptisches Heidentum~Ägyptischer Heide~ein Ägyptsicher Heide~Ägyptische Heiden</Translation>
+		<Translation>Ägyptisches Heidentum~Ägyptisch Heidnisch~ein Ägyptischer Heide~Ägyptische Heiden~Ägyptischer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_RELIGION_PAGAN_GREECE</zType>
-		<Translation>Griechisches Heidentum~Griechischer Heide~ein Griechischer Heide~Griechische Heiden</Translation>
+		<Translation>Griechisches Heidentum~Griechisch Heidnisch~ein Griechischer Heide~Griechische Heiden~Griechischer Heide</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_RELIGION_PAGAN_ROME</zType>
-		<Translation>Römisches Heidentum~Römischer Heide~ein Römischer Heide~Römische Heiden</Translation>
+		<Translation>Römisches Heidentum~Römisch Heidnisch~ein Römischer Heide~Römische Heiden~Römischer Heide</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_RELIGION_PAGAN_PERSIA</zType>
-		<Translation>Persisches Heidentum~Persischer Heide~ein Persischer Heide~Persische Heiden</Translation>
+		<Translation>Persisches Heidentum~Persisch Heidnisch~ein Persischer Heide~Persian Persischer Heide</Translation>
 	</Entry>
   <Entry>
 		<zType>TEXT_RELIGION_CUSTOM</zType>
-		<Translation>{RELIGION-NOUN}~{RELIGION-ADJECTIVE}~a(n) {RELIGION-ADJECTIVE}~{RELIGION-ADJECTIVE}(s)</Translation>
+		<Translation>{RELIGION-NOUN}~{RELIGION-ADJECTIVE}~ein {RELIGION-ADJECTIVE}~{RELIGION-ADJECTIVE}</Translation>
   </Entry>
 </Root>
