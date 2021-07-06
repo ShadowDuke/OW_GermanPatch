@@ -120,21 +120,21 @@ Nach Auskunft der Männer, hat ihre Karawane Waren zu der nähesten Stadt von {P
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_PEACE_OFFER</zType>
-		<Translation><![CDATA[Die {BARBARIAN-0,0} legen ein Angebot für stabilen Frieden vor. Stimmen wir zu?]]></Translation>
+		<Translation><![CDATA[Die {TRIBE-0} legen ein Angebot für stabilen Frieden vor. Stimmen wir zu?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_TRUCE_OFFER</zType>
-		<Translation><![CDATA[Die {BARBARIAN-0,0} kontaktieren uns sich nach Waffenruhe zu erkundigen. Stimmen wir den Bedingungen zu?]]></Translation>
+		<Translation><![CDATA[Die {TRIBE-0} kontaktieren uns sich nach Waffenruhe zu erkundigen. Stimmen wir den Bedingungen zu?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBAL_INVASION</zType>
-		<Translation><![CDATA[Schreckliche Nachrichten! Die {BARBARIAN-0,0} bedrohen uns zu Überfallen falls wir ihre Vorderrungen nicht erfüllen.
+		<Translation><![CDATA[Schreckliche Nachrichten! Die {TRIBE-0} bedrohen uns zu Überfallen falls wir ihre Vorderrungen nicht erfüllen.
 
 Was sollen wir tun?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBAL_MIGRATION</zType>
-		<Translation><![CDATA[Später berichten über große Mengen von {BARBARIAN-0} Siedlern die auf Suche nach Land unsere Grenzen überqueren. 
+		<Translation><![CDATA[Später berichten über große Mengen von {TRIBE-0,1} Siedlern die auf Suche nach Land unsere Grenzen überqueren. 
 
 Was sollen wir tun?]]></Translation>
 	</Entry>
@@ -487,7 +487,7 @@ Wie soll der Hofstaat erwiedern?]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_FRONTIER_WALL</zType>
-		<Translation>Die {BARBARIAN-0} haben unser Land geplündert und unsere Leute sind verängstlich. Wir sollten in Erwägung ziehen unsere Verteidigungen in {CITY-2} zu verstärken.</Translation>
+		<Translation>Die {TRIBE-0} haben unser Land geplündert und unsere Leute sind verängstlich. Wir sollten in Erwägung ziehen unsere Verteidigungen in {CITY-2} zu verstärken.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_EXOTIC_PETS_FISH_FAN</zType>

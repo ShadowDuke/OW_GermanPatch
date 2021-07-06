@@ -119,7 +119,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_PLAYER_WAR_TRIBUTE</zType>
-		<Translation>Tribut an die {BARBARIAN-1} wird in Auftrag gegeben.</Translation>
+		<Translation>Tribut an die {TRIBE-1} wird in Auftrag gegeben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_PLAYER_WAR_NO</zType>
@@ -611,7 +611,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_FACING_THE_HORDE_OPTION_0</zType>
-		<Translation><![CDATA[Ich werde selbst ausreiten um die {BARBARIAN-1,0} zu treffen.]]></Translation>
+		<Translation><![CDATA[Ich werde selbst ausreiten um die {TRIBE-1} zu treffen.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_FACING_THE_HORDE_OPTION_1</zType>
@@ -619,7 +619,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_FACING_THE_HORDE_OPTION_2</zType>
-		<Translation><![CDATA[Tötet diese {BARBARIAN-1,2} Heiden.]]></Translation>
+		<Translation><![CDATA[Tötet diese {TRIBE-1,1} Heiden.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_FORCED_DEPORTATIONS_OPTION_0</zType>
@@ -807,7 +807,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_WEARY_MARAUDERS_FIGHT</zType>
-		<Translation><![CDATA[Wir könnten gegen die {BARBARIAN-1} Hilfe gebrauchen.]]></Translation>
+		<Translation><![CDATA[Wir könnten gegen die {TRIBE-1} Hilfe gebrauchen.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_GREAT_MIGRATION_OPTION_0</zType>
@@ -831,7 +831,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_ANCIENT_BARBARIANS_OPTION_0</zType>
-		<Translation><![CDATA[Ich möchte die {BARBARIAN-2,0} nicht verärgern.]]></Translation>
+		<Translation><![CDATA[Ich möchte die {TRIBE-2,0} nicht verärgern.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_ANCIENT_BARBARIANS_OPTION_1</zType>
@@ -967,7 +967,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_IN_THE_CLOUDS_OPTION_0</zType>
-		<Translation><![CDATA[Stelle die {BARBARIAN-2,2} antike Stätte wieder her.]]></Translation>
+		<Translation><![CDATA[Stelle die {TRIBE-2,1} antike Stätte wieder her.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_IN_THE_CLOUDS_OPTION_1</zType>
@@ -1123,7 +1123,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_CAMEL_BITE_OPTION_1</zType>
-		<Translation>Gebe die Kamele an {BARBARIAN-3} um sie los zu sein.</Translation>
+		<Translation>Gebe die Kamele an {TRIBE-3} um sie los zu sein.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_TOUGH_GAME_OPTION_0</zType>
@@ -1211,7 +1211,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_YOUNG_SHEPHERD_OPTION_2</zType>
-		<Translation>Sie muss zu den {BARBARIAN-4} zurückkehren.</Translation>
+		<Translation>Sie muss zu den {TRIBE-3} zurückkehren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HARVEST_PEARL_DIVERS_OPTION_0</zType>
@@ -1459,7 +1459,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_FUMING_MESSENGER_WAR_1</zType>
-		<Translation><![CDATA[Die {BARBARIAN-2,0} sind nicht unsere Feinde.]]></Translation>
+		<Translation><![CDATA[Die {TRIBE-2,0} sind nicht unsere Feinde.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_FUMING_MESSENGER_WAR_2</zType>
