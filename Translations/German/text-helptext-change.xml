@@ -490,7 +490,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_CITIZEN</zType>
-		<Translation>Bürger~ein Bürger~Bürgern</Translation>
+		<Translation>Bürger~ein Bürger~Bürger</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HOLY_CITY</zType>
@@ -755,15 +755,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_IS_X</zType>
-		<Translation>{0} ist {1}</Translation>
+		<Translation>{0} hat {1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_IS_TWO</zType>
-		<Translation>{0} ist {1} {2}</Translation>
+		<Translation>{0} hat {1} {2}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_ARE_X</zType>
-		<Translation>{0} sind {1}</Translation>
+		<Translation>{0} bist {1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_IN_X</zType>
@@ -775,23 +775,23 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_GT_LT</zType>
-		<Translation>{0} {true_3:ist:sind} icon(GreaterThan) {1} und icon(LessThan) {2}</Translation>
+		<Translation>{0} {true_3:hat:bist } icon(GreaterThan) {1} und icon(LessThan) {2}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_GT</zType>
-		<Translation>{0} {true_2:ist:sind} icon(GreaterThan) {1}</Translation>
+		<Translation>{0} {true_2:hat:bist } icon(GreaterThan) {1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_LT</zType>
-		<Translation>{0} {true_2:ist:sind} icon(LessThan) {1}</Translation>
+		<Translation>{0} {true_2:hat:bist } icon(LessThan) {1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_GT_TWO</zType>
-		<Translation>{0} {true_3:ist:sind} icon(GreaterThan) {1} {2}</Translation>
+		<Translation>{0} {true_3:hat:bist } icon(GreaterThan) {1} {2}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_LT_TWO</zType>
-		<Translation>{0} {true_3:ist:sind} icon(LessThan) {1} {2}</Translation>
+		<Translation>{0} {true_3:hat:bist } icon(LessThan) {1} {2}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_AGE_RANGE</zType>
@@ -2928,7 +2928,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_REMOVE_VEGETATION</zType>
-		<Translation>Entferne {0}: {1}</Translation>
+		<Translation>Entferne {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_IMPROVEMENT</zType>
@@ -4727,7 +4727,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_REMOVE_PROJECT</zType>
-		<Translation>Entferne {0}</Translation>
+		<Translation>Entferne</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_IN_CITY</zType>
@@ -4831,11 +4831,11 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_FREE_UNIT</zType>
-		<Translation><![CDATA[Erhalte {0_unit}<true_1> (x{1_number})<false><end><true_2> in {2_city}<false><end>]]></Translation>
+		<Translation>Erhalte {0_unit}{true_1: (x{1_number})}{true_2: in {2_city}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_FREE_UNIT_MERCENARY</zType>
-		<Translation><![CDATA[Gain link(CONCEPT_MERCENARY) {0_unit}<true_1> (x{1_number})<false><end>]]></Translation>
+		<Translation>lErhalte ink(CONCEPT_MERCENARY) {0_unit}{true_1: (x{1_number})}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_TRIBE_UNIT</zType>
@@ -5755,7 +5755,7 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 	<!--Resource Help-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_RESOURCE_NAME</zType>
-		<Translation><![CDATA[{0_resource}<true_1> (* Geerntet)<false><end>]]></Translation>
+		<Translation><![CDATA[{0_resource}<true_1> (Geerntet)<false><end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RESOURCE_HARVEST</zType>
@@ -6112,7 +6112,7 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_LEADER_RELIGION</zType>
-		<Translation>{0}: Du folgst {1_religion}</Translation>
+		<Translation>{0}: Du follow {true_2:nicht }{1_religion}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_STATE_RELIGION</zType>
@@ -6220,7 +6220,7 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_DEATH_WARNING</zType>
-		<Translation>WArnung: {0_character} ist {1_trait}</Translation>
+		<Translation>Warnung: {0_character} ist {1_trait}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHOOSE_GOVERNOR</zType>

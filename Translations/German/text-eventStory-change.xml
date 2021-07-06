@@ -146,13 +146,13 @@ Wen soll {CHARACTER-SHORT-1} heiraten?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ORDER_OF_BUSINESS</zType>
-		<Translation><![CDATA[Es ist ein Tag für wundervolle Nachrichten!
+		<Translation>Es ist ein Tag für wundervolle Nachrichten!
 
-Euer {RELATIVE-2} und Erbe, {CHARACTER-2}, wurde geboren!
+{CHARACTER-2}, {RELATIVE-2} und Erbe wurde geboren!
 Unser großer Feldherr, {CHARACTER-0}, hat einen ausschlaggebend Sieg errungen.
 Euer Lieblingspferd hat das alljährliche Tunier gewonnen.
 
-Was sollen wir zuerst feiern?]]></Translation>
+Was sollen wir zuerst feiern?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BATTLEFIELD_PROMOTION</zType>
