@@ -1363,23 +1363,23 @@
 	</Entry>	 
 	<Entry beginGroup="Contact">
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_CALM_EMISSARY_TRUCE</zType>
-		<Translation><![CDATA[Wir wollen uns nicht zanken.]]></Translation>
+		<Translation>Wir wollen uns nicht zanken.></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_CALM_EMISSARY_WAR</zType>
-		<Translation><![CDATA[Sagt euren Leuten sie sollen sich auf den Krieg vorbereiten.]]></Translation>
+		<Translation>Sagt euren Leuten sie sollen sich auf den Krieg vorbereiten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_SEEDY_MESSENGER_TRUCE</zType>
-		<Translation><![CDATA[Schön, nehmt das und verschwindet.]]></Translation>
+		<Translation>Schön, nehmt das und verschwindet.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_SEEDY_MESSENGER_WAR</zType>
-		<Translation><![CDATA[Hinfort, du Schuft.]]></Translation>
+		<Translation>Hinfort, du Schuft.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_GIFT_EXCHANGE_WOOD</zType>
-		<Translation><![CDATA[Nimmt etwas von unserem Holz.]]></Translation>
+		<Translation>Nimmt etwas von unserem Holz.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_GIFT_EXCHANGE_METAL</zType>
@@ -1523,7 +1523,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_OPTION_0_HELP</zType>
-		<Translation><![CDATA[<br>Ein bescheidene Annäherung sollte niemanden verärgern, aber verhaltene Kulturen könnten es zu verdächtig finden.<br>]]></Translation>
+		<Translation>Ein bescheidene Annäherung sollte niemanden verärgern, aber verhaltene Kulturen könnten es zu verdächtig finden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_OPTION_1</zType>
@@ -1531,7 +1531,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_OPTION_1_HELP</zType>
-		<Translation><![CDATA[<br>Eine freundliche Annäherung wird sich gut auf extrovertiert Kulturen auswirken, aggressive Kulturen könnten es jedoch als Schwäche ansehen.<br>]]></Translation>
+		<Translation>Eine freundliche Annäherung wird sich gut auf extrovertiert Kulturen auswirken, aggressive Kulturen könnten es jedoch als Schwäche ansehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_OPTION_2</zType>
@@ -1539,99 +1539,99 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_OPTION_2_HELP</zType>
-		<Translation><![CDATA[<br>Eine stolze Annäherung riskiert einige Kulturen zu verärgern, aber andere könnten gut auf unsere Kühnheit reagieren.<br>]]></Translation>
+		<Translation>Eine stolze Annäherung riskiert einige Kulturen zu verärgern, aber andere könnten gut auf unsere Kühnheit reagieren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_ASSYRIA_ROOT_OPTION_0</zType>
-		<Translation><![CDATA[Sichere {PLAYER-0} Tribut zu.]]></Translation>
+		<Translation>Sichere {PLAYER-0} Tribut zu.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_ASSYRIA_ROOT_OPTION_1</zType>
-		<Translation><![CDATA[Schwöre sie niemals zu bezahlen.]]></Translation>
+		<Translation>Schwöre sie niemals zu bezahlen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_ASSYRIA_ROOT_OPTION_2</zType>
-		<Translation><![CDATA[Richte die {PLAYER-0,1} Trottel hin.]]></Translation>
+		<Translation>Richte die {PLAYER-0,1} Trottel hin.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_ASSYRIA_TRIBUTE_OPTION_0</zType>
-		<Translation><![CDATA[Uns bleibt nichts anderes ürbig als ihnen Tribut zu zollen.]]></Translation>
+		<Translation>Uns bleibt nichts anderes ürbig als ihnen Tribut zu zollen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_ASSYRIA_TRIBUTE_OPTION_1</zType>
-		<Translation><![CDATA[{PLAYER-1} bezahlt nicht für Frieden.]]></Translation>
+		<Translation>{PLAYER-1} bezahlt nicht für Frieden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_GREECE_OPTION_0</zType>
-		<Translation><![CDATA[Was wenn wir Silber als Tribut zollenr?]]></Translation>
+		<Translation>Was wenn wir Silber als Tribut zollenr?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_GREECE_OPTION_1</zType>
-		<Translation><![CDATA[Wir werden gerne bezahlen um einen Konflikt zu vermeiden.]]></Translation>
+		<Translation>Wir werden gerne bezahlen um einen Konflikt zu vermeiden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_GREECE_OPTION_2</zType>
-		<Translation><![CDATA[Euer falscher Gott wird vor uns fallen.]]></Translation>
+		<Translation>Euer falscher Gott wird vor uns fallen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_OPTION_2</zType>
-		<Translation><![CDATA[Ungebetene Besucher werden nicht gehört.]]></Translation>
+		<Translation>Ungebetene Besucher werden nicht gehört.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_OPTION_1</zType>
-		<Translation><![CDATA[Empfange sie wenn es passend ist.]]></Translation>
+		<Translation>Empfange sie wenn es passend ist.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_OPTION_0</zType>
-		<Translation><![CDATA[Heiße sie mit offenen Armen willkommen.]]></Translation>
+		<Translation>Heiße sie mit offenen Armen willkommen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_EGYPT_OPTION_0</zType>
-		<Translation><![CDATA[Wir werden als Zeichen des guten Willen den Frieden akzeptieren.]]></Translation>
+		<Translation>Wir werden als Zeichen des guten Willen den Frieden akzeptieren</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_EGYPT_OPTION_1</zType>
-		<Translation><![CDATA[Osiris hat unseren Respekt und {PLAYER-0} hat unsere Freundschaft.]]></Translation>
+		<Translation>Osiris hat unseren Respekt und {PLAYER-0} hat unsere Freundschaft</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_EGYPT_OPTION_2</zType>
-		<Translation><![CDATA[Jetzt ist nicht die Zeit für Frieden.]]></Translation>
+		<Translation>Jetzt ist nicht die Zeit für Frieden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_EGYPT_ALLIANCE_OPTION_0</zType>
-		<Translation><![CDATA[Beginne damit ein Bündnis mit {PLAYER-0} zu schmieden.]]></Translation>
+		<Translation>Beginne damit ein Bündnis mit {PLAYER-0} zu schmieden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_EGYPT_ALLIANCE_OPTION_1</zType>
-		<Translation><![CDATA[Fahre mit den Handel fort, aber verweigere offizielle Bindungen.]]></Translation>
+		<Translation>Fahre mit den Handel fort, aber verweigere offizielle Bindungen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_PERSIA_OPTION_0</zType>
-		<Translation><![CDATA[Fahre mit den Handel fort, aber verweigere den offiziellen Frieden.]]></Translation>
+		<Translation>Fahre mit den Handel fort, aber verweigere den offiziellen Frieden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_PERSIA_OPTION_1</zType>
-		<Translation><![CDATA[Wi begrüßen Frieden und Handel.]]></Translation>
+		<Translation>Wi begrüßen Frieden und Handel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_PERSIA_OPTION_2</zType>
-		<Translation><![CDATA[Gäste sollten ihre Gastgeber nicht beleidigen.]]></Translation>
+		<Translation>Gäste sollten ihre Gastgeber nicht beleidigen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_IGNORE_PERSIA_OPTION_0</zType>
-		<Translation><![CDATA[Nehme Persiens Gold Geschenk an und akzeptiere den Frieden.]]></Translation>
+		<Translation>Nehme Persiens Gold Geschenk an und akzeptiere den Frieden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_OPTION_2</zType>
-		<Translation><![CDATA[Hanel für Eisenerz.]]></Translation>
+		<Translation>Hanel für Eisenerz</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_OPTION_1</zType>
-		<Translation><![CDATA[Handel für Kalkstein.]]></Translation>
+		<Translation>Handel für Kalkstein</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_WELCOME_OPTION_0</zType>
-		<Translation><![CDATA[Handel für Holz.]]></Translation>
+		<Translation>Handel für Holz</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_HUMBLE_IGNORE_OPTION_0</zType>
