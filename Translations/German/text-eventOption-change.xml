@@ -1945,4 +1945,8 @@
 		<zType>TEXT_EVENTOPTION_TUTORIAL_INTRO_OKAY</zType>
 		<Translation>Lasst uns unsere Hauptstadt gründen.</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RUINS_STRANGE_SCROLL_SCIENTIST</zType>
+		<Translation>Finde jemanden, der den Text entziffert.</Translation>
+	</Entry>
 </Root>
