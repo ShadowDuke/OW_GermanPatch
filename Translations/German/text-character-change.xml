@@ -216,6 +216,6 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_LEADER_NEW_COGNOMEN</zType>
-		<Translation>Du bist nun bekannt als (0_name) {1_cognomen}!</Translation>
+		<Translation>Du bist nun bekannt als {0_name} {1_cognomen}!</Translation>
 	</Entry>
 </Root>

@@ -7,11 +7,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_AMBITION_ACHIEVED</zType>
-		<Translation>Ambition Achieved</Translation>
+		<Translation>Ambition vollendet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_LEGACY_ACHIEVED</zType>
-		<Translation>Legacy Achieved</Translation>
+		<Translation>Vermächtnis vollendet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_TRIBE_CONTACTED</zType>
@@ -19,150 +19,150 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_TRIBE_CLEARED</zType>
-		<Translation>Tribe Cleared</Translation>
+		<Translation>Stamm erledigt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_TRIBE_PEACE</zType>
-		<Translation>Tribal Peace</Translation>
+		<Translation>Stamm Frieden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_TRIBE_ALLIANCE</zType>
-		<Translation>Tribal Alliance</Translation>
+		<Translation>Stamm Bpndnis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_TRIBE_CONVERSION</zType>
-		<Translation>Tribal Conversion</Translation>
+		<Translation>Stamm Konvertierung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_MERCENARIES_RECRUITED</zType>
-		<Translation>Mercenaries Recruited</Translation>
+		<Translation>Söldner rekrutiert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_MERCENARIES_HIRED</zType>
-		<Translation>Mercenaries Hired</Translation>
+		<Translation>Söldner angeheuert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_TEAM_CONTACTED</zType>
-		<Translation>Nation Contacted</Translation>
+		<Translation>Reich kontaktiert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_TEAM_PEACE</zType>
-		<Translation>National Peace</Translation>
+		<Translation>Reich Frieden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_TEAM_ALLIANCE</zType>
-		<Translation>National Alliance</Translation>
+		<Translation>Staatliches Bündnis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_CARAVAN_ARRIVED</zType>
-		<Translation>Caravan Arrived</Translation>
+		<Translation>Karawane eingetroffen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_CAPITAL_CAPTURED</zType>
-		<Translation>Capitals Captured</Translation>
+		<Translation>Hauptstädte erobert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_CITY_FOUNDED</zType>
-		<Translation>Cities Founded</Translation>
+		<Translation>Städte gegründet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_CITY_CAPTURED</zType>
-		<Translation>Cities Captured</Translation>
+		<Translation>Städte erobert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_CITY_RECAPTURED</zType>
-		<Translation>Cities Recaptured</Translation>
+		<Translation>Städte zurückerobert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_CITY_LOST</zType>
-		<Translation>Cities Lost</Translation>
+		<Translation>Verlorene Städte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_COURTIER_ADDED</zType>
-		<Translation>Courtier Added</Translation>
+		<Translation>Vertrauten gewonnen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_IMPROVEMENT_FINISHED</zType>
-		<Translation>Improvements Finished</Translation>
+		<Translation>Verbesserungen vertiggestellt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_IMPROVEMENT_REPAIRED</zType>
-		<Translation>Improvements Repaired</Translation>
+		<Translation>Verbesserungen repariert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_LANDMARK_DISCOVERED</zType>
-		<Translation>Landmarks Discovered</Translation>
+		<Translation>Wahrzeichen entdeckt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_LANDMARK_NAMED</zType>
-		<Translation>Landmarks Named</Translation>
+		<Translation>Wahrzeichen benannt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_LEADER_COUNT</zType>
-		<Translation>Leader Count</Translation>
+		<Translation>Oberhaupt Anzahl</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_NATION_FOUNDED</zType>
-		<Translation>Nation Founded</Translation>
+		<Translation>Reich gegründet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_WORLD_RELIGION_FOUNDED</zType>
-		<Translation>World Religion Founded</Translation>
+		<Translation>Welt Religion gegründet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_RELIGION_SPREAD</zType>
-		<Translation>Religion Spread</Translation>
+		<Translation>Religion verbreitet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_RUINS_EXPLORED</zType>
-		<Translation>Ruins Explored</Translation>
+		<Translation>Ruinen erkundet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_SPECIALIST_PRODUCED</zType>
-		<Translation>Specialist Trained</Translation>
+		<Translation>Spezialisten ausgebildet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_TECH_DISCOVERED</zType>
-		<Translation>Techs Discovered</Translation>
+		<Translation>Technologie entdeckt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_THEOLOGY_ESTABLISHED</zType>
-		<Translation>Theology Established</Translation>
+		<Translation>Religionswissenschaft eingeführt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_TILES_REVEALED</zType>
-		<Translation>Tiles Revealed</Translation>
+		<Translation>Felder aufgedeckt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_UNIT_TRAINED</zType>
-		<Translation>Units Trained</Translation>
+		<Translation>Einheiten trainiert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_UNIT_PROMOTED</zType>
-		<Translation>Units Promoted</Translation>
+		<Translation>Einheiten befördert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_UNIT_MILITARY_KILLED</zType>
-		<Translation>Military Units Killed</Translation>
+		<Translation>Militär Einheiten getötet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_UNIT_MILITARY_KILLED_GENERAL</zType>
-		<Translation>Military Units Killed (as General)</Translation>
+		<Translation>Militär Einheiten getötet (als Feldherr)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_UNIT_LOST</zType>
-		<Translation>Units Lost</Translation>
+		<Translation>Einheiten verloren</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_VEGETATION_REMOVED</zType>
-		<Translation>Vegetation Removed</Translation>
+		<Translation>Vegetation entfernt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_WONDER_FINISHED</zType>
-		<Translation>Wonder Finished</Translation>
+		<Translation>Wunder fertiggestellt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_YEARS_REIGNED</zType>
-		<Translation>Years Reigned</Translation>
+		<Translation>jahre regiert</Translation>
 	</Entry>
 </Root>

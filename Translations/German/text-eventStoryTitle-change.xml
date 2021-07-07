@@ -671,7 +671,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CONTACT_THE_INJURED_PLAYER_TITLE</zType>
-		<Translation>Verwundet {PLAYER-0,1}</Translation>
+		<Translation>{PLAYER-0,1} Verwundet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CONTACT_POLITICAL_PRISONER_TITLE</zType>
@@ -783,7 +783,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_PEACE_LUMBER_TRADE_TITLE</zType>
-		<Translation>CDATA[Holz Handel</Translation>
+		<Translation>Holz Handel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_PEACE_SOLID_FOUNDATION_TITLE</zType>
@@ -807,7 +807,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_TRUCE_OFFER_TITLE</zType>
-		<Translation>Barbaren link(DIPLOMACY_TRUCE Angebot</Translation>
+		<Translation>Barbaren link(DIPLOMACY_TRUCE) Angebot</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_RAID_UPSET_TITLE</zType>
@@ -5639,7 +5639,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHANCELLOR_CANDIDATES_TITLE</zType>
-		<Translation>link(COUNCIL_CHANCELLOR Kandidaten</Translation>
+		<Translation>link(COUNCIL_CHANCELLOR) Kandidaten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SPYMASTER_CANDIDATES_TITLE</zType>

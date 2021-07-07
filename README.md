@@ -3,7 +3,7 @@
 You can still add them manually like before (github) but it would be certainly easier for you to create a [mod.io](https://oldworld.mod.io/) profile and get the mods and updates for them through the game now.**
 
 # Old World German Patch
-German localization for **Old World** for **Release Version (v.1.11)**. (WIP)
+German localization for **Old World** for **Release Version (v.1.18e)**. (WIP)
 
 Zur [deutschen Anleitung](https://github.com/ShadowDuke/OW_GermanPatch#deutsch) springen.
 
@@ -26,8 +26,8 @@ Loading an existing savegame should work without the need to do the procedure ag
 
 - All core features translated
 - A few stories, more story options and story titles have been translated
-- Right now its not planned to translated any more stories, etc.
 - Even more helptext, info text, etc. will be translated one by one
+- Green archetype strings at heir education belonging to my "archetypes+" mod, if you dont use it, you can ignore it.
 - Its possible you need to restart the game once, after activatin the mod to see the whole translation in the game setup (Mohawk is looking into this why)
 
 If you want, you can now support me with a donation at [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5X8TNX5DN2G5C&source=url). Thank you!
@@ -51,8 +51,8 @@ Einen vorhandenen Spielstand zu laden sollte ohne Probleme funktionieren, ohne d
 
 - Core Features alle übersetzt
 - Ein paar Stories, mehr Story-optionen und Story-Titel wurden übersetzt
-- Es ist aktuell nicht geplant weitere Stories, etc. zu übersetzen
 - Mehr und mehr Helptexte, infos, usw. werden nach und nach weiter übersetzt
+- Grüne archetype strings bei der Erziehung gehören zu meiner "archetypes+" mod, habt ihr die nicht, einfach ignorieren.
 - Es könnte möglich sein, dass man nach Aktivierung der Mod ein mal das Spiel neu starten muss, um die Übersetzung im Spiel Setup Screen zu sehen (Mohawk guckt sich an wieso)
 
 Wenn ihr wollt, könnt ihr mich nun mit einer Spende bei [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5X8TNX5DN2G5C&source=url) unterstützen. Danke!

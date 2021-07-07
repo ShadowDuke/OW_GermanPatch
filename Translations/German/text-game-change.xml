@@ -131,11 +131,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_OTHER_TEAM_NEW_RULER_POPUP</zType>
-		<Translation>Nachrichten außer Landes haben uns erreicht, das {0_oldLeader} Tot ist. Ein neuer Herrscher, {1_newLeader}, hat den Thron übernommen.</Translation>
+		<Translation>Nachrichten außer Landes haben uns erreicht, das {0_oldLeader} Tot ist. Ein neuer Herrscher, {1_newLeader}, hat den Thron übernommen. (Deren Meinung von dir ist jetzt {2_opinion}.)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_OTHER_TEAM_NEW_RULER_ABDICATE_POPUP</zType>
-		<Translation>Nachrichten außer Landes haben uns erreicht, das {0_oldLeader} abgedankt hat. Ein neuer Herrscher, {1_newLeader}, hat den Thron übernommen.</Translation>
+		<Translation>Nachrichten außer Landes haben uns erreicht, das {0_oldLeader} abgedankt hat. Ein neuer Herrscher, {1_newLeader}, hat den Thron übernommen. (Deren Meinung von dir ist jetzt {2_opinion}.)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TRIBE_NEW_RULER_POPUP</zType>
@@ -147,7 +147,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_START_AMBITION</zType>
-		<Translation>Du hast eine Ambition gestartet: {0}</Translation>
+		<Translation>{0_character} verfolgt eine neue Ambition: {1_ambition}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_START_AMBITION_DESIRED</zType>
@@ -155,15 +155,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_START_QUEST</zType>
-		<Translation>Du hast eine Quest gestartet: {0}</Translation>
+		<Translation>Du hast eine Quest gestartet: {0}{true_1: (within {1} turns)}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_FINISH_AMBITION</zType>
-		<Translation>Du hast eine Ambition erfüllt: {0}</Translation>
+		<Translation>Du hast eine Ambition vollendet: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_FINISH_LEGACY</zType>
-		<Translation>Du hast ein Vermächtnis erfüllt: {0}</Translation>
+		<Translation>Du hast {true_1:das Vermächtmis von {1_character}:ein Vermächtmis} vollendet: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_FINISH_QUEST</zType>
@@ -171,7 +171,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_FAIL_AMBITION</zType>
-		<Translation>You have failed {true_1:a Legacy:an Ambition}: {0}</Translation>
+		<Translation>{true_1:ein Vermächtmis:eine Ambition} ist gescheitert: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_FAIL_QUEST</zType>
