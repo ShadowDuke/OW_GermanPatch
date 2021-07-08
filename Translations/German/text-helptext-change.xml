@@ -646,7 +646,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_OPINION_PREFERENCES</zType>
-		<Translation>Meinung über</Translation>
+		<Translation>Meinung Präferenzen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_OUR_CITIES</zType>
@@ -666,7 +666,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_RIVER</zType>
-		<Translation>Fluss</Translation>
+		<Translation>Fluss~ein Fluss~Flüsse</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_ROLE_LEADER</zType>
@@ -711,7 +711,7 @@
 	<!--Event Prereqs-->
 	<Entry>
 		<zType>TEXT_DEBUG_STAR</zType>
-		<Translation><![CDATA[{0}<true_1>*<false><end>]]></Translation>
+		<Translation>{0}{true_1:*}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_SINGLE</zType>
@@ -815,11 +815,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIREMENT_SINGLE</zType>
-		<Translation>Single</Translation>
+		<Translation>Einzelne</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIREMENT_DESCENDANT_OF</zType>
-		<Translation>Descendant of {0}</Translation>
+		<Translation>Nachkomme von {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENTOPTION_ADDS_LINK</zType>
@@ -915,11 +915,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TURNS_TEXT</zType>
-		<Translation><![CDATA[<true_1>({0_number}{2_turnScale})<false>{0_number}{2_turnScale}<end>]]></Translation>
+		<Translation><![CDATA[<true_1>({0_number} {2_turnScale})<false>{0_number} {2_turnScale}<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TURNS_TEXT_UNKNOWN</zType>
-		<Translation><![CDATA[<true_0>(?{1_turnScale})<false>?{1_turnScale}<end>]]></Translation>
+		<Translation><![CDATA[<true_0>(? {1_turnScale})<false>? {1_turnScale}<end>]]></Translation>
 	</Entry>
 	<!--Widget Help-->
 	<Entry>
@@ -1012,11 +1012,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MENU_DEBUG_HUMAN_ATTACKS</zType>
-		<Translation><![CDATA[Jüngste menschliche Angriffe ({0_number})<true_1> ON!<false><end>]]></Translation>
+		<Translation>Jüngste menschliche Angriffe ({0_number}){true_1: AUF!}*</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_SAVE</zType>
-		<Translation>Speicher das Spiel {0_presskey}</Translation>
+		<Translation>Speichere das Spiel {0_presskey}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_SAVE_CLOUD</zType>
@@ -1036,27 +1036,27 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_MAP_OVERVIEW</zType>
-		<Translation><![CDATA[Zeige Map Übersicht<true_0><br>{0_presskey}<false><end>]]></Translation>
+		<Translation><![CDATA[Zeige Map Übersicht{true_0:<br>{0_presskey}}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_HELP_SCREEN</zType>
-		<Translation><![CDATA[Zeige Hilfe<true_0><br>{0_presskey}<false><end>]]></Translation>
+		<Translation><![CDATA[Zeige Hilfe{true_0:<br>{0_presskey}}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_VICTORY_SCREEN</zType>
-		<Translation><![CDATA[Zeige Siegbedingungen<true_0><br>{0_presskey}<false><end>]]></Translation>
+		<Translation><![CDATA[Zeige Siegbedingungen{true_0:<br>{0_presskey}}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_RELIGION_SCREEN</zType>
-		<Translation><![CDATA[Zeige Religionen<true_0><br>{0_presskey}<false><end>]]></Translation>
+		<Translation><![CDATA[Zeige Religionen{true_0:<br>{0_presskey}}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_INHERITANCE_SCREEN</zType>
-		<Translation><![CDATA[Zeige Erbschaften<true_0><br>{0_presskey}<false><end>]]></Translation>
+		<Translation><![CDATA[Zeige Erbschaften{true_0:<br>{0_presskey}}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_CITY_LIST</zType>
-		<Translation><![CDATA[Zeige Städte<true_0><br>{0_presskey}<false><end>]]></Translation>
+		<Translation><![CDATA[Zeige Städte{true_0:<br>{0_presskey}}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_CITY_LIST_ENTRY</zType>
@@ -1120,7 +1120,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_STATE_WAITING_TRIBE_TURN</zType>
-		<Translation>Barbaren am Zug (Please wait...)</Translation>
+		<Translation>Barbaren am Zug (Bitte warten...)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_STATE_WAITING_OTHER_TEAMS_TURN</zType>
@@ -1128,11 +1128,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_STATE_WAITING_SKIP_TO_AMBITIONS</zType>
-		<Translation>Klicke um Animationen zu überspringen</Translation>
+		<Translation><![CDATA[<TEXT_HOTKEY_LEFT_CLICK> um Animationen zu überspringen]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_STATE_IDLE_NEXT_UNIT</zType>
-		<Translation><![CDATA[Wechsle zur nächsten Einheit ({0_unit})<true_1> {1_presskey}<false><end><br><TEXT_HOTKEY_RIGHT_CLICK><true_2> oder {2_presskey}<false><end> um zur nächsten Einheit zu passen ({0_unit})]]></Translation>
+		<Translation>Wechsle zur nächsten Einheit ({0_unit}){true_1: {1_presskey}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_STATE_UNIT_CYCLE_KEY</zType>
@@ -1144,7 +1144,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_STATE_IDLE_CHOOSE_CITY_PRODUCTION</zType>
-		<Translation><![CDATA[Wähle Produktion in {0_city}<true_1> {1_presskey}<false><end>]]></Translation>
+		<Translation>Wähle Produktion in {0_city}{true_1: {1_presskey}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_STATE_IDLE_LOOK_AT</zType>
@@ -1152,7 +1152,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_STATE_IDLE_DECISION</zType>
-		<Translation><![CDATA[Fälle eine Entscheidung über das Ereignis<true_0><br>{0_presskey}<false><end>]]></Translation>
+		<Translation><![CDATA[Fälle eine Entscheidung über das Ereignis{true_0:<br>{0_presskey}}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_STATE_IDLE_RESEARCH</zType>
@@ -1164,7 +1164,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_BUILD</zType>
-		<Translation><![CDATA[Durchwechsle untätige Zivileinheiten<true_0> {0_presskey}<false><end>]]></Translation>
+		<Translation>Wechsle link(CONCEPT_IDLE) Zivileinheiten{true_0: {0_presskey}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_BUILD_KEYS</zType>
@@ -1180,7 +1180,7 @@
 	 </Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_EXPLORATION</zType>
-		<Translation>Durchwechsle link(CONCEPT_IDLE) link(UNIT_SCOUT,2) und  See Einheiten {true_0: {0_presskey}}</Translation>
+		<Translation>Wechsle link(CONCEPT_IDLE) link(UNIT_SCOUT,2) und  See Einheiten{true_0: {0_presskey}}</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_EXPLORATION_KEYS</zType>
@@ -1188,7 +1188,7 @@
     </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_CITIES</zType>
-		<Translation>Durchwechsle link(CONCEPT_IDLE) Städte{true_0: {0_presskey}}</Translation>
+		<Translation>Wechsle link(CONCEPT_IDLE) Städte{true_0: {0_presskey}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_CITIES_KEYS</zType>
@@ -1204,11 +1204,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_PREVIOUS_CITIES</zType>
-		<Translation>Vorherige Stadt</Translation>
+		<Translation>Vorherige Stadt {true_0: {0_presskey}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CYCLE_NEXT_CITIES</zType>
-		<Translation>Nächste Stadt</Translation>
+		<Translation>Nächste Stadt {true_0: {0_presskey}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_TIMER</zType>
@@ -1256,7 +1256,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TECH_TREE</zType>
-		<Translation><![CDATA[Show Technology Tree {true_0:[{0_presskey}}]]]></Translation>
+		<Translation><![CDATA[Zeige Technologiebaum {true_0:[{0_presskey}}]]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_GIFT_YIELD</zType>
@@ -1264,7 +1264,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_GIFT_YIELD_REVERSE</zType>
-		<Translation><![CDATA[[Hold <TEXT_HOTKEY_CTRL> to Take Instead]]]></Translation>
+		<Translation><![CDATA[[Halte <TEXT_HOTKEY_CTRL> um stattdessen zu nehmen]]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_BUY_YIELD</zType>
@@ -1292,15 +1292,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_RESEARCH_TECH</zType>
-		<Translation>Forschung {0_tech}</Translation>
+		<Translation>Erforsche {0_tech}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_RESEARCH_TECH_CANCEL</zType>
-		<Translation>Abbrechen {0_tech}</Translation>
+		<Translation>{0_tech} abbrechen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_VICTORY_AMBITIONS</zType>
-		<Translation>Ambitionssieg: {0}/{1}</Translation>
+		<Translation>link(CONCEPT_AMBITION) Sieg: {0}/{1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_VICTORY_GOAL_FINISHED</zType>
@@ -1308,7 +1308,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_REDRAW_TECH</zType>
-		<Translation>Ziehe beim nächsten jahr erneut Technologie aus deinem Kartenstapel</Translation>
+		<Translation>Ziehe erneut Technologien aus deinem Kartenstapel (nur einmal pro {0_turnScale})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_DRAW_PILE</zType>
@@ -1348,7 +1348,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TRADE_LUXURY_OPINION</zType>
-		<Translation>Meinung von einem Luxusartikel: {0_value}/Year</Translation>
+		<Translation>Meinung von einem Luxusgut: {0_value}/Year</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TRADE_LUXURY_MISSING_OPINION</zType>
@@ -1356,11 +1356,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TRADE_LUXURY_TURNS_LEFT</zType>
-		<Translation>Kann für {0_turns} weiter(e) Jahr(e) nicht zurückschicken</Translation>
+		<Translation>Kann für {0_turns} weiter(e) {1_turnScale} nicht zurückkehren</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TRADE_LUXURY_AVAILABLE</zType>
-		<Translation>Gerade Verfügbar: {0_amount}</Translation>
+		<Translation>Derzeitig Verfügbar: {0_amount}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_GIFT_CITY</zType>
@@ -1388,11 +1388,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_BUILD_SPECIALIST_NEXT</zType>
-		<Translation>Bauen {0_specialist}:</Translation>
+		<Translation>Baue {0_specialist}:</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_BUILD_SPECIALIST_CURRENT</zType>
-		<Translation>Derzeitig {0_specialist}:</Translation>
+		<Translation>Derzeitiger {0_specialist}:</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_BUILD_QUEUE_DRAG</zType>
@@ -1420,7 +1420,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TABPANEL_COURT_MEMBERS</zType>
-		<Translation>Hofbeamter:</Translation>
+		<Translation>Hof Vertraute:</Translation>
 	</Entry>
   <Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TABPANEL_OTHER_CHARACTERS</zType>
@@ -1464,7 +1464,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PLAYER_LEGITIMACY_COUNT</zType>
-		<Translation><![CDATA[{0_value}: {1_link} <true_2> (x{2})<false><end>]]></Translation>
+		<Translation>{0_value}: {1_link}{true_2: (x{2})}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_RIGHT_CLICK_MISSIONS</zType>
@@ -1480,11 +1480,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CANDIDATES</zType>
-		<Translation>Kandidaten verfügbar:</Translation>
+		<Translation>Verfügbare Kandidaten:</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CANDIDATES_JOBS</zType>
-		<Translation>Kandidaten verfügbar (Stellen):</Translation>
+		<Translation>Verfügbare Kandidaten (mit Aufgaben):</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_COUNCIL_CHARACTER</zType>
@@ -1508,11 +1508,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_ADD_GENERAL_PREREQS_FAMILY</zType>
-		<Translation>Darf nicht von einer anderen link(CONCEPT_FAMILY) als {0_family} sein</Translation>
+		<Translation>Muss von einer anderen link(CONCEPT_FAMILY) als {0_family} sein</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_ADD_GENERAL_PREREQS_TRIBE</zType>
-		<Translation>Darf nicht Nachkomme von den {0_tribe} link(CONCEPT_TRIBE) sein</Translation>
+		<Translation>Muss ein Nachkomme von den {0_tribe} link(CONCEPT_TRIBE) sein</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_RELEASE_GENERAL</zType>
@@ -1540,7 +1540,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_ABANDON_AMBITION</zType>
-		<Translation>Stelle {true_0:link(CONCEPT_LEGACY):link(CONCEPT_AMBITION)} ein: {1_goal}</Translation>
+		<Translation>Gebe {true_0:link(CONCEPT_LEGACY) auf:link(CONCEPT_AMBITION)}: {1_goal}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_DELAY_DECISION</zType>
@@ -1560,7 +1560,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_OFFER_TRUCE_TRIBE</zType>
-		<Translation>Beende {0_barbarian} {1_diplomacy} für {2_money}</Translation>
+		<Translation>Beende {0_barbarian} {1_diplomacy} (Kostet {2_money})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_OFFER_TRUCE_TRIBE_INSPIRE_TROOPS</zType>
@@ -1568,11 +1568,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_OFFER_PEACE_PLAYER</zType>
-		<Translation>Erziele {0_peace} mit {1_player} für {2_money}</Translation>
+		<Translation>Erziele {0_peace} mit {1_player} (Kostet {2_money})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_OFFER_TRUCE_PLAYER</zType>
-		<Translation>Beende {0_player} {1_diplomacy} für {2_money}</Translation>
+		<Translation>Beende {0_player} {1_diplomacy} (Kostet {2_money})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_STORY_LAW_SCREEN</zType>
@@ -1658,7 +1658,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MARCH_ORDERS</zType>
-		<Translation>(Jede Bewegung kostet {0_orders})</Translation>
+		<Translation>(Jede Bewegung wird {0_orders} kosten)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_UNLIMBER</zType>
@@ -1666,7 +1666,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_UNLIMBER_HELP</zType>
-		<Translation>Darf erst in einem Jahr wieder angreifen, nachdem sie vorher abprotzte</Translation>
+		<Translation>Manche link(UNITTRAIT_SIEGE) Einheiten könne nicht wieder den Zug angreifen,  nachdem sie abprotzen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_ANCHOR</zType>
@@ -1695,7 +1695,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PASS</zType>
-		<Translation>Passe (für eine Runde)</Translation>
+		<Translation>Passe (für eine {0_turnScale})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_SLEEP</zType>
@@ -1728,15 +1728,15 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_FOUND_CITY_FAMILY_SEAT</zType>
-		<Translation>{0_family} gründen</Translation>
+		<Translation>{0_family} gegründet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_FOUND_CITY</zType>
-		<Translation>Eine Stadt gründen</Translation>
+		<Translation>Eine Stadt gegründet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CITY_OPINION_DISTANCE</zType>
-		<Translation>Meinung über die Reichweite: {0} nach {1}</Translation>
+		<Translation>Meinung über Reichweite: {0} nach {1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CITY_OPINION_MISSING_LUXURIES</zType>
@@ -1744,7 +1744,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CITY_OPINION_CONNECTED_CITIES</zType>
-		<Translation>Meinung über {0_connected} Städte: {1} to {2}</Translation>
+		<Translation>Meinung über {0_connected} Städte: {1} zu {2}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CITY_OPINION_ENVY</zType>
@@ -1828,7 +1828,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_UPGRADE_IMPROVEMENT</zType>
-		<Translation>Verbessere zu {0_improvement}</Translation>
+		<Translation>Verbessern zu {0_improvement}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_ADD_REMOVE_VEGETATION</zType>
@@ -1848,7 +1848,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
     </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CANCEL_IMPROVEMENT</zType>
-		<Translation><![CDATA[Abbrechen {0_improvementLink}<br>Jeglicher Forschritt wird verloren gehen!]]></Translation>
+		<Translation><![CDATA[{0_improvementLink} abbrechen<br>Jeglicher Forschritt wird verloren gehen!]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CANCEL_IMPROVEMENT_REFUNDS</zType>
@@ -1904,7 +1904,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CREATE_AGENT_NETWORK</zType>
-		<Translation>Beauftrage {0_agentNetwork} für {1_money} in {2_city}</Translation>
+		<Translation>Erstelle {0_agentNetwork} für {1_money} in {2_city}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CARAVAN_MISSION_START</zType>
@@ -1920,7 +1920,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TRADE_ROUTE_PROFIT</zType>
-		<Translation>Profit: {0_money}</Translation>
+		<Translation>Gewinn: {0_money}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TRADE_ROUTE_HOSTILE</zType>
@@ -1944,11 +1944,11 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PROMOTE_COST</zType>
-		<Translation>Kosten: {0_yield}</Translation>
+		<Translation>Kostet: {0_yield}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_UPGRADE</zType>
-		<Translation>Verbessere zu {0_unit}</Translation>
+		<Translation>Verbessern zu {0_unit}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_UPGRADE_COSTS</zType>
@@ -1992,15 +1992,15 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LAUNCH_OFFENSIVE</zType>
-		<Translation><![CDATA[Reduziert den Cooldown von <singular_0>der nähesten Einheit<plural>der nähesten {0_number} Einheiten<end> und gibt ihnen {0_yield} für jede einzelne]]></Translation>
+		<Translation>Reduziert den Cooldown von benachbarten Einheiten und gibt ihnen {0_yield} für jede einzelne</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LAUNCH_OFFENSIVE_NOT_YOUR_TURN</zType>
-		<Translation>Du bist dran</Translation>
+		<Translation>Du musst am Zug sein</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LAUNCH_OFFENSIVE_ONLY_ONE_PER_TURN</zType>
-		<Translation>Kann nur eine Offensive pro Jahr ausführen</Translation>
+		<Translation>Kann nur eine Offensive pro {0_turnScale} starten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_ESTABLISH_THEOLOGY</zType>
@@ -2008,11 +2008,11 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_ESTABLISH_THEOLOGY_REQUIRES_STATE_RELIGION</zType>
-		<Translation>Benötigt eine Staatsreligion</Translation>
+		<Translation>Benötigt eine link(CONCEPT_STATE_RELIGION)</Translation>
 	</Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_WIDGET_ESTABLISH_THEOLOGY_REQUIRES_PREVIOUS_TIER</zType>
-        <Translation>Benötigt eine eingeführte Religionswissenschaft vom vorherigem Rang</Translation>
+        <Translation>Benötigt eine eingeführte link(CONCEPT_THEOLOGY) von der vorherigen Stufe</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_THEOLOGIES_AVAILABLE_TIER</zType>
@@ -2020,15 +2020,15 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
     </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_SPREAD_RELIGION</zType>
-		<Translation><![CDATA[Dehne {0_religion} zu <true_1>{1_city}<false>einer Stadt<end>]]></Translation>
+		<Translation>Verbreite {0_religion} zu {true_1:{1_city}:einer Stadt}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_SPREAD_RELIGION_AS_STATE_RELIGION</zType>
-		<Translation>Als Staatsreligion: </Translation>
+		<Translation>Als link(CONCEPT_STATE_RELIGION): {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_SPREAD_RELIGION_EFFECT_YIELDS</zType>
-		<Translation>{0_effect} ({1_city}): {2_list}</Translation>
+		<Translation>{0_effect} ({1_city}): {LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_SPREAD_RELIGION_ALREADY_HAS</zType>
@@ -2036,15 +2036,15 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PURGE_RELIGION</zType>
-		<Translation><![CDATA[Säubere {0_religion} von <true_1>{1_city}<false>einer Stadt<end>]]></Translation>
+		<Translation>Säubere {0_religion} von {true_1:{1_city}:einer Stadt}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CONVERT_RELIGION</zType>
-		<Translation>Konvertiere {0_barbarian} zu {1_religion}</Translation>
+		<Translation>Konvertiere {0,1_tribe} Stadtplatz zu {1_religion}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CONVERT_RELIGION_GENERIC</zType>
-		<Translation>Konvertiere Barbaren zu {1_religion}</Translation>
+		<Translation>Konvertiere Barbaren Stadtplatz zu {0_religion}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CONVERT_RELIGION_WARNING</zType>
@@ -2060,7 +2060,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_THEOLOGY_ESTABLISHED</zType>
-		<Translation>{0_religion} hat die THelogie von {1_theology} in {2_city} eingeführt</Translation>
+		<Translation>{0_religion} hat die link(CONCEPT_THEOLOGY) von {1_theology} eingeführt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_RELIGION_SPREAD</zType>
@@ -2068,11 +2068,11 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_COVER_DEBT</zType>
-		<Translation>Deine Verschuldung war {0_money} am ende des Jahres.</Translation>
+		<Translation>Deine Verschuldung war {0_money} am ende des {1_turnScale}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_MAX_ACTIONS</zType>
-		<Translation>{0_action} welche nicht gelagert werden können werden für {1_training} verkauft.</Translation>
+		<Translation>{0_action} welche nicht gelagert werden können, werden für {1_training} verkauft.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_MAX_CIVICS</zType>
@@ -2084,7 +2084,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_GENERAL_INJURY</zType>
-		<Translation>Feldherren haben eine kleine ({0_number}%) Chance sich während die Einheit angegriffen wird zu verletzen.</Translation>
+		<Translation>link(CONCEPT_GENERAL,2) haben eine kleine ({0_number}%) Chance sich während die Einheit angegriffen wird zu verletzen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_UNIT_ATTACKED</zType>
@@ -2096,7 +2096,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_UNIT_REBELLED</zType>
-		<Translation><![CDATA[<sentencecase>{0,1_unit}</sentencecase><true_1> (von der {1_family} Familie)<false><end> hat rebelliert! {2_tilePosition}]]></Translation>
+		<Translation>{sentencecase:{0,1_unit}}{true_1: (von der {1_family} Familie)} hat rebelliert {2_tilePosition}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_UNIT_SEEN</zType>
@@ -2116,7 +2116,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_WONDER_FINISHED</zType>
-		<Translation><![CDATA[{0,1_improvement} wurde das erste mal gebaut.<true_1> (Wert {1} SP!)<false><end>]]></Translation>
+		<Translation>Bau von {0,1_improvement} hat begonnen.{true_1: (Wert {1} SP)}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_GIFT_GOODS</zType>
@@ -2124,7 +2124,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_REPLAY_WHOLE_GAME</zType>
-		<Translation><![CDATA[Wiederhole das gesammte Spiel<true_0> in 1-Jahr Schritten<false><end>]]></Translation>
+		<Translation>Wiederhole das gesammte Spiel{true_0: in 1-Jahr Schritten}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_REPLAY_CLEAR_DATA</zType>
@@ -2132,15 +2132,15 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_REPLAY_LAST_TURN</zType>
-		<Translation><![CDATA[Wiederhole die Aktionen vom letzten Zug]]></Translation>
+		<Translation>Wiederhole die Aktionen vom letzten Zug</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_REPLAY_LAST_X_TURNS</zType>
-		<Translation><![CDATA[Wiederhole die Aktionen von den letzten {0_number} Zügen]]></Translation>
+		<Translation>Wiederhole die Aktionen von den letzten {0_number} Zügen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_REPLAY_CANCEL</zType>
-		<Translation><![CDATA[Breche die Wiederholung ab und kehre zum Spiel zurück]]></Translation>
+		<Translation>Breche die Wiederholung ab und kehre zum Spiel zurück</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_REPLAY_MOVE_UNDO</zType>
@@ -2172,7 +2172,7 @@ Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_REPLAY_DO_AI_MOVES_X</zType>
-		<Translation><![CDATA[Auto-play {0_number} <singular_0>Zug<plural>Züge<end>]]></Translation>
+		<Translation>Auto-play {0_number} {singular_0:Zug:Züge}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_MUSIC_PLAYER</zType>
@@ -2180,7 +2180,7 @@ Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MUSIC_PLAYER_LOCKED</zType>
-		<Translation><![CDATA[<color=red>Musikc benötigt erforschung von link(TECH_DRAMA)</color>]]></Translation>
+		<Translation><![CDATA[<color=red>Musik benötigt erforschung von link(TECH_DRAMA)</color>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TECH_DECK</zType>
@@ -2233,15 +2233,15 @@ Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HELP_ALLIANCE_TRIBE</zType>
-		<Translation><![CDATA[Kann sich mit den Einheiten dieses Stammes bewegen und angreifen.<br>Kann Städte in der Nähe derer Siedlungen gründen.<br>Wird deinen diplomatischen Status mit anderen Stämmen teilen.<br>Kann nur ein Bündnis mit einem Stamm gleichzeitig haben.<br>Das Bündnis hält so lange, biss das Ende des derzeitigen Oberhaupts Herrschaft gekommen ist.]]></Translation>
+		<Translation>Kann sich mit den Einheiten eines verbündeten link(CONCEPT_TRIBE) bewegen und angreifen und kann Städte in der Nähe derer link(CONCEPT_SETTLEMENT,2) gründen. Verbündete link(CONCEPT_TRIBE,2) werden deinenn diplomatischen Status mit anderen link(CONCEPT_TRIBE,2) teilen und werden link(DIPLOMACY_WAR) gegen andere Reiche erklären, die dir den link(DIPLOMACY_WAR) erklärt haben. Du kannst nur ein Bündnis gleichzeitig mit einem link(CONCEPT_TRIBE) haben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HELP_ALLIANCE_PLAYER</zType>
-		<Translation><![CDATA[Kann nur ein Bündnis mit einem anderen Spieler haben.<br>Ein Verbündeter wird automatisch Krieg an andere Spieler erklären, der Krieg an deren Verbündeten erklärt hat.]]></Translation>
+		<Translation>Verbündete Einheiten teilen Sicht und werden automatisch link(DIPLOMACY_WAR) an andere Spieler erklären, der link(DIPLOMACY_WAR) an deren Verbündeten erklärt hat. Der Spieler kann nur ein Bündnis mit einem Reich haben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_ATTACK</zType>
-		<Translation>Angriff-Stärke</Translation>
+		<Translation>Angriff Stärke</Translation>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_HELPTEXT_LINK_HELP_BUY_TILE</zType>
@@ -2249,11 +2249,11 @@ Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TRIBE_IMPROVEMENT</zType>
-		<Translation>Wird zu {0_improvement} verbessert in {1_numTurns}</Translation>
+		<Translation>Wird zu {0_improvement} in {1_numTurns} verbessert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TRIBE_IMPROVEMENT_NO_DEVELOP</zType>
-		<Translation>Nichts zum verbessern</Translation>
+		<Translation>Entwicklet sich nicht</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TRIBE_UNITS</zType>
@@ -2265,7 +2265,7 @@ Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_UNDO</zType>
-		<Translation>Du kannst so viele Entscheidungen rückgängig machen wie du willst in dem du hotkey(HOTKEY_UNDO) benutzt.</Translation>
+		<Translation>Du kannst so viele Entscheidungen rückgängig machen wie du willst in dem du STRG+Z drückst.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_CAPTURE</zType>
@@ -2278,11 +2278,11 @@ Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_YIELD_FROM_IMPROVEMENT</zType>
-		<Translation>{0_yield} {1} (von Verbesserung)</Translation>
+		<Translation>{0_yield}: {1} (von Verbesserung)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_GOVERNOR_IS_LEADER</zType>
-		<Translation>{0_yield}: König/Königin ist Stadthalter</Translation>
+		<Translation>{0_yield}: König/Königin ist link(CONCEPT_GOVERNOR)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_FOREIGN_POPULATION</zType>
@@ -2290,19 +2290,19 @@ Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_DEFENDING</zType>
-		<Translation>{0_yield}: Verteidigen {true_1:Family }Einheit</Translation>
+		<Translation>{0_yield}: Verteidigende {true_1:Familien ) Einheit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_MISSING_FAMILY</zType>
-		<Translation>{0_yield}: Nicht genügend link(CONCEPT_FAMILY_SEAT,1)</Translation>
+		<Translation>{0_yield}: Nicht genügend link(CONCEPT_FAMILY_SEAT,2)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_URBAN_TILE</zType>
-		<Translation>{0_yield}: Benötigt mehr {1_urbanLink} Felder</Translation>
+		<Translation>{0_yield}: Benötigt mehr {1_urbanLink} Felder für {2,2_citizens}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_EMPTY_IMPROVEMENT</zType>
-		<Translation>{0_yield}: Verbesserungen ohne Spezialist</Translation>
+		<Translation>{0_yield}: Verbesserungen ohne Spezialisten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_CAPITAL_DISTANCE</zType>
@@ -2322,11 +2322,11 @@ Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_ASSIMILATE_YIELD_MODIFIER</zType>
-		<Translation>{0_yield}: von Angleichung</Translation>
+		<Translation>{0_yield}: von Aufnahme</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_GOVERNOR_YIELD_MODIFIER</zType>
-		<Translation>{0_yield}: Stadthalter {1} ({2})</Translation>
+		<Translation>{0_yield}: link(CONCEPT_GOVERNOR) {1} ({2})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_PROJECT_YIELD_MODIFIER</zType>
@@ -2334,7 +2334,7 @@ Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_NO_AMBITIONS_FINISHED</zType>
-		<Translation>Keine link(CONCEPT_AMBITION,0) fertiggestellt</Translation>
+		<Translation>Keine link(CONCEPT_AMBITION,0) vollendet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CARAVAN_MISSION</zType>
@@ -2346,24 +2346,24 @@ Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CLEAR_DEFENDING</zType>
-		<Translation>vs. {0_unit} auf {1_terrain}: {2_value}</Translation>
+		<Translation>vs. {0_unit} auf {1_terrain}: {2_value} (Nahkampf)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CONNECTED_FOREIGN</zType>
-		<Translation>Ausländische Städte verbunden zu deiner {0_capital}:
+		<Translation>Fremde Städte verbunden zu deiner {0_capital} (Benötigt link(DIPLOMACY_PEACE)):
 (Größere und in größerer Reichweite Städte produzieren mehr)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CRITICAL_HIT</zType>
-		<Translation>Kritische Treffer teilen doppelten Schaden aus</Translation>
+		<Translation>Kritische Treffer teilen doppelten Schaden aus. Kritische Trefferchance wird mit link(CONCEPT_PROMOTION,2) und von link(CONCEPT_GENERAL,2) mit link(RATING_WISDOM) verbessert.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CULTURE_EVENT</zType>
-		<Translation>link(YIELD_CULTURE) Es treten jedes Mal Ereignisse auf, wenn die link(YIELD_CULTURE) Leiste der Stadt voll gefüllt ist.</Translation>
+		<Translation>link(YIELD_CULTURE) Ereignisse treten auf, wenn die link(YIELD_CULTURE) Leiste der Stadt voll gefüllt ist.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CULTURE_LEVEL_CONCEPT</zType>
-		<Translation>Erhöht sich wenn eine Stadt's link(YIELD_CULTURE) Balken sich füllt.</Translation>
+		<Translation>Erhöht sich wenn der link(YIELD_CULTURE) Balken einer Stadt sich füllt.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CULTURE_LEVEL</zType>
@@ -2399,15 +2399,15 @@ Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HIDDEN_WITHOUT_AGENT</zType>
-		<Translation>Details versteckt ohne einen link(CONCEPT_AGENT)</Translation>
+		<Translation>Angaben versteckt ohne einen link(CONCEPT_AGENT)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DIPLOMACY_PEACE_TRIBE</zType>
-		<Translation>You cannot attack each other.{br}They will not send link(TRIBE_RAIDERS) against you.{br}They can enter and heal in your territory.</Translation>
+		<Translation>Ihr könnt euch nicht gegenseitg angreifen.{br}Sie werden keine link(TRIBE_RAIDERS) gegen dich schicken.{br}Sie können dein Gebiet betreten und sich heilen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DIPLOMACY_PEACE_PLAYER</zType>
-		<Translation>You cannot attack each other.{br}They are less likely to declare link(DIPLOMACY_WAR) against you.{br}You can enter and heal in each other's territory.</Translation>
+		<Translation>Ihr könnt euch nicht gegenseitg angreifen.{br}Sie erklären weniger wahrscheinlich link(DIPLOMACY_WAR) gegen dich.{br}Du kannst sein Gebiet betreten und dich heilen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DIPLOMACY_TRUCE</zType>
@@ -2423,7 +2423,7 @@ Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_ENVY</zType>
-		<Translation>Familien mit weniger Städten als andere haben höheren Neid.</Translation>
+		<Translation>Familien mit weniger Städten als andere haben höheren Neid und eine niedrigere Meinung vom Oberhaupt.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_SEAT</zType>
@@ -2493,7 +2493,7 @@ Ihre Vorlieben geben vor welche link(CONCEPT_AMBITION,2) du nachgehen kannst. De
     </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_SEAT_EFFECTS</zType>
-		<Translation>Erste {0_family} Stadt gegründet:</Translation>
+		<Translation>{0_family} link(CONCEPT_FAMILY_SEAT):</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_UNITS</zType>
@@ -2591,11 +2591,11 @@ Complete ten link(CONCEPT_AMBITION,2) and Legacies and win link(VICTORY_AMBITION
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_IDLE</zType>
-		<Translation>link(CONCEPT_IDLE) Einheiten können sich bewegt haben aber dürfen keinen Cooldown haben. (Sngreifen, Beförderung, Verbesserung, etc.)</Translation>
+		<Translation>link(CONCEPT_IDLE) Einheiten können sich bewegt haben aber dürfen keinen Cooldown haben. (Angreifen oder link(CONCEPT_UPGRADE))</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_IGNORES_ZOC</zType>
-		<Translation>Ignoriert die link(CONCEPT_ZOC) von gegnersichen Einheiten.</Translation>
+		<Translation>Ignoriert die Kontrollzone von gegnersichen Einheiten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_IMPROVEMENT_KEY</zType>
@@ -2603,7 +2603,7 @@ Complete ten link(CONCEPT_AMBITION,2) and Legacies and win link(VICTORY_AMBITION
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LEGITIMACY</zType>
-		<Translation>Legitimität erlangt man durch erreichen einer link(CONCEPT_AMBITION,2) und erlangen von besseren link(CONCEPT_COGNOMEN,2) (Wie zB. link(COGNOMEN_GREAT)). Höhrere Legitimität verbessert die Familien Meinung und produziert mehr link(YIELD_ORDERS) pro Jahr.</Translation>
+		<Translation>Legitimität erlangt man durch erreichen einer link(CONCEPT_AMBITION,2) und erlangen von besseren link(CONCEPT_COGNOMEN,2) (Wie zB. link(COGNOMEN_GREAT)). Höhrere Legitimität verbessert die Familien Meinung und produziert mehr link(YIELD_ORDERS) pro Zug.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LEGITIMACY_OPINIONS</zType>
@@ -2635,7 +2635,7 @@ Complete ten link(CONCEPT_AMBITION,2) and Legacies and win link(VICTORY_AMBITION
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_MERCENARY</zType>
-		<Translation>Stammes-Söldner Einheiten können von link(CONCEPT_TRIBE,2) angeheuert werden, von link(NATION_CARTHAGE) und von Reichen mit link(TRAIT_ORATOR_ARCHETYPE) Oberhäuptern. (Der Preis wird durch die Stärke der Einheit festgelegt, deren Stammes Meinung über dich und die Anzahl der bereits angeheuerten.) Andere Söldner können durch Ereignisse angeheuert werden.
+		<Translation>Stammes Söldner Einheiten können von link(CONCEPT_TRIBE,2) angeheuert werden, von link(NATION_CARTHAGE) und von Reichen mit link(TRAIT_ORATOR_ARCHETYPE) Oberhäuptern. (Der Preis wird durch die Stärke der Einheit festgelegt, deren Stammes Meinung über dich und die Anzahl der bereits angeheuerten.) Andere Söldner können durch Ereignisse angeheuert werden.
 		
 Söldner haben keine zugewiesene link(CONCEPT_FAMILY) und int(CONSUMPTION_MERCENARY_MODIFIER)% höhre Konsumierungskosten.</Translation>
 	</Entry>
@@ -2653,7 +2653,7 @@ Söldner haben keine zugewiesene link(CONCEPT_FAMILY) und int(CONSUMPTION_MERCEN
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_MOVEMENT</zType>
-		<Translation>Zusätzliche Züge pro Ordericon(YIELD_ORDERS)</Translation>
+		<Translation>Züge pro Ordericon(YIELD_ORDERS)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_NEXT_DEVELOP</zType>
@@ -2669,7 +2669,7 @@ Söldner haben keine zugewiesene link(CONCEPT_FAMILY) und int(CONSUMPTION_MERCEN
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_PROJECT_INFO</zType>
-		<Translation>Projekte existieren nur innerhalb einer Stadt, zb. ein link(PROJECT_ARCHIVE_1), oder link(PROJECT_WALLS).</Translation>
+		<Translation>Projekte existieren nur innerhalb einer Stadt, zb. ein link(PROJECT_ARCHIVE_2), oder link(PROJECT_WALLS).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_PROMOTION</zType>
@@ -2677,7 +2677,7 @@ Söldner haben keine zugewiesene link(CONCEPT_FAMILY) und int(CONSUMPTION_MERCEN
 	</Entry>
 	<Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_IMPROVEMENT</zType>
-    <Translation>link(UNIT_WORKER,2) können link(CONCEPT_URBAN) bauen und ländliche link(CONCEPT_IMPROVEMENT,2) auf verfügbaren Feldern für deine Städte.</Translation>
+    <Translation>link(UNIT_WORKER,2) können link(CONCEPT_URBAN) bauen und ländliche Verbesserungen für deine Städte auf verfügbaren Feldern.</Translation>
   </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_RANGE</zType>
@@ -2693,15 +2693,15 @@ Söldner haben keine zugewiesene link(CONCEPT_FAMILY) und int(CONSUMPTION_MERCEN
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DISCIPLE</zType>
-		<Translation>Ein Jünger kann deine link(CONCEPT_STATE_RELIGION) verbreiten und andere Religionen von deinen Städten säubern.</Translation>
+		<Translation>Ein Jünger kann seine Religion verbreiten, Religiöse Verbesserungen bauen und andere Religionen von deinen Städten mit link(LAW_ORTHODOXY) säubern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_RELIGION_CITIES_US</zType>
-		<Translation><![CDATA[Unsere {0_religion} Städte:<br>{1_list}]]></Translation>
+		<Translation><![CDATA[Unsere {0_religion} Städte:<br>{LIST}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_RELIGION_CITIES_THEM</zType>
-		<Translation><![CDATA[Andere {0_religion} Städte:<br>{1_list}]]></Translation>
+		<Translation><![CDATA[Andere {0_religion} Städte:<br>{LIST}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_RIVER_BLOCKS_ZOC</zType>
@@ -2717,31 +2717,31 @@ Söldner haben keine zugewiesene link(CONCEPT_FAMILY) und int(CONSUMPTION_MERCEN
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_ROAD</zType>
-		<Translation>Straßen erweitern dein link(CONCEPT_TRADE_NETWORK), verbessert die Bewegung der Einheiten und verbindet Städte.</Translation>
+		<Translation>Straßen erweitern dein link(CONCEPT_TRADE_NETWORK) und erhöhen die Bewegungsreichweite der Einheiten und verbindet Städte.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_ROUT</zType>
-		<Translation>link(UNITTRAIT_MOUNTED) Einheiten, nachdem ein Gegner getötet wurde, können einen Folgeangriff auf benachbarte gegnerische Einheiten im selben zug durchführen.</Translation>
+		<Translation>Nachdem ein benachbarter Gegner getötet wurde, werden Einheiten mit Vernichtend in das neue leere Feld vordringen und können einen Folgeangriff im selben Zug durchführen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_SELECT_TRIBE</zType>
-		<Translation>Klicke um Barbaren auszuwählen</Translation>
+		<Translation>Klicke um Stamm auszuwählen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_SELECT_CHARACTER</zType>
-		<Translation>Klicken um Charakter auszuwählen.</Translation>
+		<Translation>Klicke um Charakter auszuwählen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_SELECT_CITY</zType>
-		<Translation>Klicken um Stadt auszuwählen</Translation>
+		<Translation>Klicke um Stadt auszuwählen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_SELECT_FAMILY</zType>
-		<Translation>Klicken um Familie auszuwählen.</Translation>
+		<Translation>Klicke um Familie auszuwählen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_SELECT_UNIT</zType>
-		<Translation>Klicken um Einheit auszuwählen</Translation>
+		<Translation>Klicke um Einheit auszuwählen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_SPECIALIST_CLASS_TYPES</zType>
@@ -2753,7 +2753,7 @@ Söldner haben keine zugewiesene link(CONCEPT_FAMILY) und int(CONSUMPTION_MERCEN
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_STRENGTH</zType>
-		<Translation>Modifikator für Kampfstärke</Translation>
+		<Translation>Angriff und Verteidungs Stärke</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_SUBJECT_TRAIT_ANY</zType>
@@ -2781,19 +2781,19 @@ Söldner haben keine zugewiesene link(CONCEPT_FAMILY) und int(CONSUMPTION_MERCEN
 	</Entry>
     <Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_THEOLOGY</zType>
-		<Translation>Eine Religionswissenschaft einzuführen gibt zusätzliche Boni an eine Welt Religion. Religionswissenschaften werden von Jüngern eingeführt und, sobald eingeführt, werden für all Reiche aktiv sein, die diese Religion übernehmen.</Translation>
+		<Translation>Eine Religionswissenschaft einzuführen gibt zusätzliche Boni an eine Welt Religion. Religionswissenschaften werden von link(CONCEPT_DISCIPLE,2) eingeführt und, sobald eingeführt, werden für all Reiche aktiv sein, die diese Religion übernehmen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TRADE_BONUS_US</zType>
-		<Translation>Handelsbonus (für uns): {0_yield} {1_turns}</Translation>
+		<Translation>Handel von: {0_yield} {1_turns}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TRADE_BONUS_THEM</zType>
-		<Translation>Handelsbonus (für sie): {0_yield} {1_turns}</Translation>
+		<Translation>Handel mit: {0_yield} {1_turns}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TRADE_NETWORK</zType>
-		<Translation>Das Handelsnetz sind alle Felder, die mit eurer {0_capital} über {1_roads}, {2_roads}, und Wasser verbunden sind.</Translation>
+		<Translation>Das Handelsnetz sind alle Felder, die mit eurer {0_capital} über {1,2_roads}, {2,2_rivers}, {3_urban} Gebiet  oder offenem Wasser verunden sind.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TRIBUTE_FROM_TURNS</zType>
@@ -3176,7 +3176,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TECH_BONUS_CARDS</zType>
-		<Translation><![CDATA[Bonus <singular_0>Karte<plural>Karten<end>: {LIST}]]></Translation>
+		<Translation>Bonus {singular_LIST-COUNT:Karte:Karten}: {LIST}</Translation>
 	</Entry>
 	<!--Improvement Tooltip-->
 	<Entry>

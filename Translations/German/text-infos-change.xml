@@ -253,7 +253,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_URBAN</zType>
-		<Translation><![CDATA[Stadtteil~Stadtteil<comment this text is an adjective>]]></Translation>
+		<Translation>Stadteil~ein Stadteil</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_ZOC</zType>
@@ -851,35 +851,35 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_FOOD_400</zType>
-		<Translation>Prodziere 400 icon(YIELD_FOOD)</Translation>
+		<Translation>Produziere 400 icon(YIELD_FOOD)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_FOOD_800</zType>
-		<Translation>Prodziere 800 icon(YIELD_FOOD)</Translation>
+		<Translation>Produziere 800 icon(YIELD_FOOD)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_WOOD_400</zType>
-		<Translation>Prodziere 400 icon(YIELD_WOOD)</Translation>
+		<Translation>Produziere 400 icon(YIELD_WOOD)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_WOOD_800</zType>
-		<Translation>Prodziere 800 icon(YIELD_WOOD)</Translation>
+		<Translation>Produziere 800 icon(YIELD_WOOD)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_STONE_400</zType>
-		<Translation>Prodziere 400 icon(YIELD_STONE)</Translation>
+		<Translation>Produziere 400 icon(YIELD_STONE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_STONE_800</zType>
-		<Translation>Prodziere 800 icon(YIELD_STONE)</Translation>
+		<Translation>Produziere 800 icon(YIELD_STONE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_IRON_400</zType>
-		<Translation>Prodziere 400 icon(YIELD_IRON)</Translation>
+		<Translation>Produziere 400 icon(YIELD_IRON)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_IRON_800</zType>
-		<Translation>Prodziere 800 icon(YIELD_IRON)</Translation>
+		<Translation>Produziere 800 icon(YIELD_IRON)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_20_GOODS_TURN</zType>

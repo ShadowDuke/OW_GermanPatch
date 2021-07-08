@@ -423,27 +423,27 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_FEAST_ACCEPTED_CITY</zType>
-		<Translation>Accepted inter-cultural feast</Translation>
+		<Translation>interkulturelles Fest gebilligt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_FEAST_REJECTED_CITY</zType>
-		<Translation>Rejected inter-cultural feast</Translation>
+		<Translation>interkulturelles Fest verweigert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_SLANDER</zType>
-		<Translation>Publicly Slandered</Translation>
+		<Translation>Öffentlich beleidigt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_STEAL_RESEARCH</zType>
-		<Translation>Stole Research</Translation>
+		<Translation>Forschung gestohlen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_ASSASSINATION_EXPOSED</zType>
-		<Translation>Assassination exposed</Translation>
+		<Translation>Attentat aufgeflogen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_TRIBE_PLAYER_WAR</zType>
-		<Translation>Convinced a Tribe to declare on us</Translation>
+		<Translation>Einen Stamm  a Tribe to declare on us</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_PLAYER_WAR</zType>
@@ -455,43 +455,43 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PEACEMAKER_GOOD</zType>
-		<Translation>Removed intrusive settlements</Translation>
+		<Translation>Störende Siedlungen beseitigt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_CONTACT_GIFT</zType>
-		<Translation>Your initial gift</Translation>
+		<Translation>Dein erstes Geschenk</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_NEIGHBORS_ROME_PRIDE</zType>
-		<Translation>You stood up to us!</Translation>
+		<Translation>Ihr habt uns sitzengelassen!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_NEIGHBORS_HUMBLE</zType>
-		<Translation>Impressed us with your humility</Translation>
+		<Translation>Uns mit seiner Bescheidenheit beeindruckt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_NEIGHBORS_FRIENDLY</zType>
-		<Translation>Your people seem friendly</Translation>
+		<Translation>Eure Leute scheinen freundlich</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_NEIGHBORS_PRIDEFUL</zType>
-		<Translation>You spoke boldly to us when we met</Translation>
+		<Translation>Ihr habt offen Geredet als wir uns trafen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_MADE_CONTACT</zType>
-		<Translation>Made contact with your people</Translation>
+		<Translation>Kontakt mit euren Leuten hergestellt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_EVENTOPTION_TRADE_MISSION_YES_FAIL</zType>
-		<Translation>Gave us a gift to improve relations</Translation>
+		<Translation>Gab uns ein Geschenk um die Beziehungen zu verbessern</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_DECLARE_WAR_DEMAND_YES</zType>
-		<Translation>Agreed to Declare War on our enemy</Translation>
+		<Translation>Akzeptiere Krieg an unseren Feind zu erklären</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_DECLARE_WAR_DEMAND_NO</zType>
-		<Translation>Refused to Declare War on our enemy</Translation>
+		<Translation>Weigerte sich Krieg gegen unseren Freind zu erklären</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_JUSTICE</zType>
@@ -3325,7 +3325,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SPREAD_RELIGION</zType>
-		<Translation>Spread our true faith</Translation>
+		<Translation>Unseren wahren Glauben verbreitet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_PURGE_RELIGION</zType>
@@ -3361,7 +3361,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_TRAINED_CHILD</zType>
-		<Translation>Trained your child</Translation>
+		<Translation>Unser Kind unterrichtet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_WONDER_HAGIA_SOPHIA</zType>
@@ -3369,11 +3369,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ADOPTED_ZOROASTRIANISM</zType>
-		<Translation>Adopted Zoroastrianism</Translation>
+		<Translation>Zoroastrismus adoptiert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SPREAD_ZOROASTRIANISM</zType>
-		<Translation>Spread Zoroastrianism</Translation>
+		<Translation>Zoroastrismus verbreitet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_OUTLAWED_ZOROASTRIANISM</zType>
@@ -3385,7 +3385,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ADOPTED_JUDAISM</zType>
-		<Translation>Adopted Judaism</Translation>
+		<Translation>Judentum adoptiert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_REFUSED_JUDAISM</zType>
@@ -3393,7 +3393,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SPREAD_CHRISTIANITY</zType>
-		<Translation>Spread Christianity</Translation>
+		<Translation>Christentum verbreitet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_BROKE_UP_GATHERING</zType>
@@ -3401,11 +3401,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ALLOWED_GATHERING</zType>
-		<Translation>Allowed us to gather</Translation>
+		<Translation>Erlaubte uns zu versammeln</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_RELIGION_OPINION_GOOD</zType>
-		<Translation>Honored our beliefs</Translation>
+		<Translation>Unseren Glauben geehrt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_RELIGION_OPINION_BAD</zType>
@@ -3413,11 +3413,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ADOPTED_CHRISTIANITY</zType>
-		<Translation>Adopted Christianity</Translation>
+		<Translation>Christentum adoptiert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ADOPTED_MANICHAEISM</zType>
-		<Translation>Founded Manichaeism</Translation>
+		<Translation>Manichäismus gegründet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ORTHDOXY_AGAINST</zType>
@@ -3521,11 +3521,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_DECLARED_HOLY_WAR</zType>
-		<Translation>Declared holy war</Translation>
+		<Translation>Heiligen Krieg erklärt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_KEPT_THE_PEACE</zType>
-		<Translation>Kept the peace</Translation>
+		<Translation>Den Frieden bewahrt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_NEGOTIATED_RELEASE</zType>
@@ -3537,7 +3537,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_RESCUED_PRISONER</zType>
-		<Translation>Rescued imprisoned priest</Translation>
+		<Translation>Gefangengenommenen Priester befreit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SOLDIERS_FOR_ZOROASTER</zType>
@@ -3581,7 +3581,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SPREAD_NO</zType>
-		<Translation>Refused to spread our faith</Translation>
+		<Translation>Geweigert unseren Glauben zu verbreiten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_PUBLIC_SUPPORT</zType>
@@ -3589,15 +3589,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ADOPTED_FALSE_RELIGION</zType>
-		<Translation>Adopted false religion</Translation>
+		<Translation>Unrechte Religion adoptiert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_REFUSED_LAW</zType>
-		<Translation>Refused to change law</Translation>
+		<Translation>Geweigert ein Gesetz zu ändern</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_IMPRESSED_PRIESTS</zType>
-		<Translation>Impressed angry priests</Translation>
+		<Translation>Wütende Priester beeindruckt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SHOWED_DEVOTION</zType>
@@ -3645,19 +3645,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SUPPORTED_FAITH</zType>
-		<Translation>Gave support</Translation>
+		<Translation>Gab Unterstützung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_REFUSED_SUPPORT</zType>
-		<Translation>Refused support</Translation>
+		<Translation>Unterstützung verweigert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ACCEPTED_GOVERNOR</zType>
-		<Translation>Accepted proposed governor</Translation>
+		<Translation>Vorgeschlagenen Stadthalter zugestimmt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_REFUSED_GOVERNOR</zType>
-		<Translation>Refused proposed governor</Translation>
+		<Translation>Vorgeschlagenen Stadthalter abgewiesen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ALLOWED_SPONSORS</zType>
@@ -3673,7 +3673,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_IGNORED_INSULT</zType>
-		<Translation>Ignored a religious insult</Translation>
+		<Translation>Eine religiöse Beleidigung ignoriert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_AVENGED_INSULT</zType>
@@ -3685,7 +3685,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_RENEWED_FERVOUR</zType>
-		<Translation>Renewed fervour</Translation>
+		<Translation>Leidenschaft erneuert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_THE_SAOSHYANT</zType>
@@ -3697,15 +3697,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_OWES_A_DEBT</zType>
-		<Translation>Owes a debt</Translation>
+		<Translation>Schuldet etwas</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_MADE_A_SACRIFICE</zType>
-		<Translation>Sacrificed the deer</Translation>
+		<Translation>Den Hirsch geopfert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_REFUSED_A_SACRIFICE</zType>
-		<Translation>Refused to make a sacrifice</Translation>
+		<Translation>Geweigert eine Opfer zu geben</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_RETURNED_SCROLLS</zType>
@@ -3721,7 +3721,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_REFUSED_PAYMENT_FOR_FIGHT</zType>
-		<Translation>Didn't pay for medical treatment</Translation>
+		<Translation>Nicht für medizinische Behandlung bezahlt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_TEMPLE_MARKET</zType>
@@ -3729,11 +3729,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_NEW_GOD</zType>
-		<Translation>Supported a new god</Translation>
+		<Translation>Unterstüzte einen neuen Gott</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_QUESTIONED_GOD</zType>
-		<Translation>Questioned God</Translation>
+		<Translation>Gott infrage gestellt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_PRAISED_PRIESTS_ACTIONS</zType>
@@ -3805,7 +3805,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_DEFILED_TEMPLE</zType>
-		<Translation>Broke into our temple</Translation>
+		<Translation>Brach in unseren Tempel ein</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_DEFILED_TEMPLE_KILL</zType>
