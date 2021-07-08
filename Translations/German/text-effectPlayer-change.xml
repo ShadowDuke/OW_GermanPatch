@@ -81,10 +81,6 @@
 		<Translation>Automatisiere link(UNIT_SCOUT,2)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTPLAYER_VICTORY_POINT</zType>
-		<Translation>Siegpunkt</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_HERO_ARCHETYPE</zType>
 		<Translation>Oberhaupt der link(TRAIT_HERO_ARCHETYPE)</Translation>
 	</Entry>

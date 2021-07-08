@@ -2039,16 +2039,16 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Säubere {0_religion} von {true_1:{1_city}:einer Stadt}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_CONVERT_RELIGION</zType>
-		<Translation>Konvertiere {0,1_tribe} Stadtplatz zu {1_religion}</Translation>
+		<zType>TEXT_HELPTEXT_WIDGET_SPREAD_RELIGION_TRIBE</zType>
+		<Translation>Breite {0_religion} zu {1,1_tribe} Stadtplatz aus</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_CONVERT_RELIGION_GENERIC</zType>
+		<zType>TEXT_HELPTEXT_WIDGET_SPREAD_RELIGION_TRIBE_GENERIC</zType>
 		<Translation>Konvertiere Barbaren Stadtplatz zu {0_religion}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_CONVERT_RELIGION_WARNING</zType>
-		<Translation>(Muss an einen Stadtplatz angrenzen und darf nicht im {0_war}) sein</Translation>
+		<zType>TEXT_HELPTEXT_WIDGET_SPREAD_RELIGION_TRIBE_WARNING</zType>
+		<Translation>(Muss an einen Stadtplatz angrenzen und darf nicht im {0_war} sein)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_COURTIER</zType>
@@ -2684,8 +2684,10 @@ Söldner haben keine zugewiesene link(CONCEPT_FAMILY) und int(CONSUMPTION_MERCEN
 		<Translation>Reichweite für link(UNITTRAIT_RANGED) Angriffe</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_REBEL</zType>
-		<Translation>Rebellen Einheiten können außerhalb von Städten mit einer hohen link(YIELD_DISCONTENT) auftauchen. Wie link(TRIBE_BARBARIANS), bist du mit Rebellen immer im link(DIPLOMACY_WAR).</Translation>
+		<zType>TEXT_HELPTEXT_LINK_HELP_RELIGION</zType>
+		<English>There are two types of Religions: World and Pagan. link(CONCEPT_WORLD_RELIGION,2), such as link(RELIGION_JUDAISM), are founded by the first link(CONCEPT_NATION) to fulfill its specific requirements. link(CONCEPT_PAGAN_RELIGION,2) are founded by building the first of your Nation's link(CONCEPT_SHRINE,2).
+		
+All Religions give link(YIELD_CULTURE){YIELD_CULTURE} to their Cities, and a link(OPINIONRELIGION_PLEASED) or link(OPINIONRELIGION_FRIENDLY) Religion will reduce link(YIELD_DISCONTENT){YIELD_DISCONTENT} while an link(OPINIONRELIGION_UPSET), link(OPINIONRELIGION_ANGRY), or link(OPINIONRELIGION_FURIOUS) Religion will increase link(YIELD_DISCONTENT){YIELD_DISCONTENT}.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CONCEPT_DESIRED_AMBITION</zType>
@@ -2842,10 +2844,6 @@ Söldner haben keine zugewiesene link(CONCEPT_FAMILY) und int(CONSUMPTION_MERCEN
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_URBAN_TRADE_NETWORK</zType>
 		<Translation>Erweitert link(CONCEPT_TRADE_NETWORK)</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_URBAN_CITIZEN</zType>
-		<Translation>Jedes link(CONCEPT_URBAN) Feld unterstüzt {0_value} {1_citizen}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_VEGETATION</zType>
@@ -3980,10 +3978,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_SPREADS_BORDERS</zType>
 		<Translation>Wird Grenzen ausdehnen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_TRADE_NETWORK</zType>
-		<Translation>Erweitert link(CONCEPT_TRADE_NETWORK)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_FRESH_WATER_SOURCE</zType>
@@ -5720,12 +5714,12 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 		<Translation>Säubere {0_religion}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_TILE_CONVERT_TRIBE_TO_RELIGION_BUTTON</zType>
-		<Translation>Konvertiere zu {0_religion} ({1_barbarian})</Translation>
+		<zType>TEXT_HELPTEXT_TILE_SPREAD_RELIGION_TO_TRIBE_BUTTON</zType>
+		<Translation>Verbreite {0_religion} zu {1_tribe}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_TILE_CONVERT_TRIBE_TO_RELIGION_GENERIC_BUTTON</zType>
-		<Translation>Konvertiere zu {0_religion}</Translation>
+		<zType>TEXT_HELPTEXT_TILE_SPREAD_RELIGION_TO_TRIBE_GENERIC_BUTTON</zType>
+		<Translation>Breite {0_religion} zu link(CONCEPT_TRIBE,1) aus</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_LOCK_BUTTON</zType>
@@ -6255,10 +6249,6 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 		<Translation>Ist bereits link(CONCEPT_AGENT)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_MAKE_AGENT_OPINION</zType>
-		<Translation>Meinung: {0} ({1})</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_CHOOSE_AGENT_FOR_CITY</zType>
 		<Translation>Wähle link(CONCEPT_AGENT für {0_city}</Translation>
 	</Entry>
@@ -6385,7 +6375,7 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_QUIT_BUTTON</zType>
-		<Translation>Zurück zum Desktop</Translation>
+		<Translation>Zum Desktop</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_TITLE</zType>
@@ -7126,36 +7116,44 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 		<Translation>Total: {0}</Translation>
 	</Entry>
 	<Entry>	
-		<zType>TEXT_HELPTEXT_OPINION_HELP_OPINION_OF</zType>
-		<Translation>{0} Meinung von {1}: {2}</Translation>
+		<zType>TEXT_HELPTEXT_OPINION_HELP_TRIBE_OPINION_OF</zType>
+		<Translation>{0} link(CONCEPT_OPINION_TRIBE,3) von {true_1:{1}:Euch}: {2}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_HELP_TRIBE_OPINION</zType>
-		<Translation>Stammes Meinung: {0}</Translation>
+		<Translation>link(CONCEPT_OPINION_TRIBE,1): {0}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_OPINION_HELP_OPINION_OF_YOU</zType>
-		<Translation>{0} Meinung von euch: {1}</Translation>
+		<zType>TEXT_HELPTEXT_OPINION_HELP_CHARACTER_OPINION_OF</zType>
+		<Translation>{0} link(CONCEPT_OPINION_CHARACTER,3) von {true_1:{1}:Euch}: {2}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_HELP_CHARACTER_OPINION</zType>
-		<Translation>Charaker Meinung: {0}</Translation>
+		<Translation>link(CONCEPT_OPINION_CHARACTER,1): {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_OPINION_HELP_FAMILY_OPINION_OF</zType>
+		<Translation>{0} link(CONCEPT_OPINION_FAMILY,3) von {true_1:{1}:Euch}: {2}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_HELP_FAMILY_OPINION</zType>
-		<Translation>Familie Meinung: {0}</Translation>
+		<Translation>link(CONCEPT_OPINION_FAMILY,1): {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_OPINION_OF_PLAYER</zType>
-		<Translation>{0_player} Meinung von {true_1:{1}:You}: {2}</Translation>
+		<English>{0_player} link(CONCEPT_OPINION_PLAYER,3) von {true_1:{1}:Euch}: {2}</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_OPINION_RIVAL_NATION</zType>
-		<Translation>Ausländische Meinung: {0}</Translation>
+		<Translation>Ausländische link(CONCEPT_OPINION_PLAYER,3): {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_OPINION_HELP_RELIGION_OPINION_OF</zType>
+		<English>{0} link(CONCEPT_OPINION_RELIGION,3) von {true_1:{1}:Euch}: {2}</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_HELP_RELIGION_OPINION</zType>
-		<Translation>Religion Meinung: {0}</Translation>
+		<English>link(CONCEPT_OPINION_RELIGION,1): {0}</English>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_HELPTEXT_OPINION_HELP_BIRTH_MODIFIER</zType>

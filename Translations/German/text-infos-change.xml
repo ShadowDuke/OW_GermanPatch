@@ -212,10 +212,6 @@
 		<Translation>Verbesserung~Verbesserungen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_CONCEPT_REBEL</zType>
-		<Translation>Rebellen</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_CONCEPT_DISCIPLE</zType>
 		<Translation>Jünger~Jünger</Translation>
 	</Entry>
@@ -1202,8 +1198,8 @@
 		<Translation>Forme ein Bündnis mit einem Stamm</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_TRIBE_CONVERSION</zType>
-		<Translation>Konvertiere 2 Barbaren Stammesdörfer</Translation>
+		<zType>TEXT_GOAL_TRIBE_ALLIANCE</zType>
+		<Translation>Bilde ein Bündnis mit einem Stamm</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_THREE_PEACE</zType>

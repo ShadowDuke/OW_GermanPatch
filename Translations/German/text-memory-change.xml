@@ -6,8 +6,8 @@
 		<Translation/>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MEMORYTRIBE_CONVERT_RELIGION</zType>
-		<Translation>Stamm kovertiert Religion</Translation>
+		<zType>TEXT_MEMORYTRIBE_SPREAD_RELIGION</zType>
+		<Translation>Stamm verbreitete Religion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_RAID</zType>
@@ -2535,7 +2535,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_PLEASED</zType>
-		<Translation>Pleased with ruler</Translation>
+		<Translation>Zufrieden mit Herrscher</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_RITUAL</zType>
