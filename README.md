@@ -30,7 +30,7 @@ Loading an existing savegame should work without the need to do the procedure ag
 - Green archetype strings at heir education belonging to my "archetypes+" mod, if you dont use it, you can ignore it.
 - Its possible you need to restart the game once, after activatin the mod to see the whole translation in the game setup (Mohawk is looking into this why)
 
-If you want, you can now support me with a donation at [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5X8TNX5DN2G5C&source=url). Thank you!
+If you want to, you can give me a tip at [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5X8TNX5DN2G5C&source=url) to support the mod. Thank you!
 
 # Deutsch
 ## Installation und Benutzung
@@ -55,4 +55,4 @@ Einen vorhandenen Spielstand zu laden sollte ohne Probleme funktionieren, ohne d
 - Grüne archetype strings bei der Erziehung gehören zu meiner "archetypes+" mod, habt ihr die nicht, einfach ignorieren.
 - Es könnte möglich sein, dass man nach Aktivierung der Mod ein mal das Spiel neu starten muss, um die Übersetzung im Spiel Setup Screen zu sehen (Mohawk guckt sich an wieso)
 
-Wenn ihr wollt, könnt ihr mich nun mit einer Spende bei [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5X8TNX5DN2G5C&source=url) unterstützen. Danke!
+Wenn ihr wollt, könnt ihr bei [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5X8TNX5DN2G5C&source=url) spenden, um die Mod zu unterstützen. Danke!
