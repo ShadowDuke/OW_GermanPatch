@@ -1106,6 +1106,14 @@
 		<zType>TEXT_BONUS_EVENTOPTION_SUCESSION_THEM_DEPOSED_0</zType>
 		<Translation>Refused to treat with a new ruler</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_MOST_BLESSED_PEOPLE_ON_EARTH_OPTION_0_CHARACTER</zType>
+		<Translation>Sagte einem anderen Oberhaupt er sei mehr gesegnet als unserer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_MOST_BLESSED_PEOPLE_ON_EARTH_OPTION_2_CHARACTER</zType>
+		<Translation>Der höcht gesegnete</Translation>
+	</Entry>
 	<Entry beginGroup="Combat">	
 		<zType>TEXT_BONUS_EVENTOPTION_LEADER_SMITING_FOES_STATUE</zType>
 		<Translation>Smiting Foes</Translation>
@@ -2144,7 +2152,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_ASCETIC_MOVEMENT_ALLOW</zType>
-		<Translation>Joined the Ascetic movement in the streets</Translation>
+		<Translation>Unafraid of Ascetic movement</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_INSOLENT_GENERALS_TRAINING_CHARACTER_0</zType>

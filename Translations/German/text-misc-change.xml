@@ -655,6 +655,10 @@
 		<Translation>Geschenkt</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COOLDOWN_PURGED</zType>
+		<Translation>Gesäubert</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COOLDOWN_HEALED</zType>
 		<Translation>Geheilt</Translation>
 	</Entry>

@@ -235,6 +235,10 @@
 		<Translation>STADT GEBAUT</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_CITY_BREACHED</zType>
+		<Translation>STADT DURCHBROCHEN</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_CITY_CANCELLED</zType>
 		<Translation>STADT AUFGEGEBEN</Translation>
 	</Entry>
@@ -300,7 +304,7 @@
 	</Entry>
 	<Entry>	
 		<zType>TEXT_UI_EVENT_LOG_DISMISS_TOOLTIP</zType>
-		<Translation>Rechts-Klick zum ausblenden</Translation>
+		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> um Mitteilungen zu verwerfen<br><TEXT_HOTKEY_CTRL_RIGHT_CLICK> um alle Mitteilungen zu verwerfen]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_TILE_BOUNDARY_TOOLTIP_WATER_TITLE</zType>
@@ -1196,6 +1200,14 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 		<Translation>Vegetation</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_HEIGHTS</zType>
+		<Translation>Höhen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_RATINGS</zType>
+		<Translation>Veranlagung</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_TERRAIN</zType>
 		<Translation>Terrain</Translation>
 	</Entry>
@@ -1234,6 +1246,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_THEOLOGIES</zType>
 		<Translation>Religionswissenschaften</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_TUTORIALS</zType>
+		<Translation>Tutorials</Translation>
 	</Entry>
     <!-- selected-city -->
     <Entry>
@@ -1308,7 +1324,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
    <Entry>
         <zType>TEXT_MP_KICK_ACTIVE_PLAYER</zType>
         <Translation>Schmeiße den derzeigen Spieler raus?</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_SKIP_ACTIVE_PLAYER</zType>
+		<Translation>Skip the current player's turn?</Translation>
+	</Entry>
 	<Entry>
 		<zType>TEXT_MP_DELETE_CLOUD_SAVE</zType>
 		<Translation>Diesen Spielstand löschen?</Translation>
@@ -1341,6 +1361,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	<Entry>
 		<zType>TEXT_CLOUD_SCREEN_KICK_ACTIVE_PLAYER</zType>
 		<Translation>Kick Active Player</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CLOUD_SCREEN_SKIP_ACTIVE_PLAYER</zType>
+		<Translation>Skip Active Player</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CLOUD_SCREEN_DOWNLOAD_SAVE</zType>
@@ -1833,7 +1857,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
     <Entry>
         <zType>TEXT_OPTIONS_MENU_CONTROLS_RESET</zType>
         <Translation>Zurücksetzen</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPTIONS_MENU_REQUIRES_RESTART_DIALOG</zType>
+		<Translation>Das Spiel muss neu gestartet werden um die Einstellungen zu übernehmen.</Translation>
+	</Entry>
     <!--scenario-setup-screen.xml -->
     <Entry>
         <zType>TEXT_SCENARIO_SETUP_NEWSCENARIO</zType>

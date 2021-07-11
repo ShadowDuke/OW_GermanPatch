@@ -455,4 +455,41 @@
 		<zType>TEXT_IMPROVEMENT_SHRINE_TRIBE_PAGANISM</zType>
 		<Translation>Stamm Schrein~ein Stamm Schrein~Stamm Schreine</Translation>
 	</Entry>
+	<!-- Hints -->
+	<Entry>
+		<zType>TEXT_IMPROVEMENT_FARM_HINT</zType>
+		<Translation>Boosts link(YIELD_FOOD), which units consume every turn. If built over link(EFFECTCITY_RESOURCE_CROP) or next to a link(IMPROVEMENT_GRANARY), also increases link(YIELD_GROWTH), which makes cities produce link(UNIT_SETTLER,2) or link(UNIT_WORKER,2) faster.
+Can be further improved by developing a link(SPECIALISTCLASS_FARMER).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_IMPROVEMENT_MINE_HINT</zType>
+		<Translation>Boosts link(YIELD_IRON) production, which is needed for many military units. Higher output on Hills. Provides link(YIELD_MONEY) instead if built on link(RESOURCE_SILVER), link(RESOURCE_GOLD), link(RESOURCE_SALT) or link(RESOURCE_GEM).
+Can be developed with a link(SPECIALISTCLASS_MINER), which increases link(YIELD_TRAINING).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_IMPROVEMENT_QUARRY_HINT</zType>
+		<Translation>Boosts link(YIELD_STONE) production, which is needed to construct most buildings and some units.
+		Can be further developed with link(SPECIALISTCLASS_STONECUTTER), which grants more stone and additional link(YIELD_CIVICS).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_IMPROVEMENT_LUMBERMILL_HINT</zType>
+		<Translation>The only improvement that provides link(YIELD_WOOD). Extra effective when built on a river.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_IMPROVEMENT_PASTURE_HINT</zType>
+		<Translation>Provides link(YIELD_ORDERS) if built on link(RESOURCE_HORSE), or link(YIELD_FOOD) and link(YIELD_GROWTH) on other resources.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_IMPROVEMENT_CAMP_HINT</zType>
+		<Translation>Provides yields depending on the resource it's built on. If built on link(RESOURCE_ELEPHANT) or link(RESOURCE_CAMEL), will allow the city to build units that require those resources, once the necessary technology is acquired. Extra effective next to a link(IMPROVEMENT_LUMBERMILL).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_IMPROVEMENT_GROVE_HINT</zType>
+		<Translation>Usually built on a link(CONCEPT_LUXURY) resource, provides different yields depending on the resource.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_IMPROVEMENT_GRANARY_HINT</zType>
+		<Translation>Provides link(YIELD_GROWTH) and boosts adjacent link(IMPROVEMENT_FARM,2). Most effective when surrounded by link(IMPROVEMENT_FARM,2).
+Granaries do not have any associated link(CONCEPT_SPECIALIST).</Translation>
+	</Entry>
 </Root>

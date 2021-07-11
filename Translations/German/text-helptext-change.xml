@@ -400,6 +400,10 @@
 		<Translation>{0} EP</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_ADJACENT_UNITS</zType>
+		<Translation>[Benachbarte Einheiten] {0}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_XP_PER_YEAR</zType>
 		<Translation>{0} EP/{1_turnScale}</Translation>
 	</Entry>
@@ -2010,6 +2014,10 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<zType>TEXT_HELPTEXT_WIDGET_ESTABLISH_THEOLOGY_REQUIRES_STATE_RELIGION</zType>
 		<Translation>Benötigt eine link(CONCEPT_STATE_RELIGION)</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_ESTABLISH_THEOLOGY_REQUIRES_DIFFERENT_STATE_RELIGION</zType>
+		<Translation>Vebötigt {0_religion} als link(CONCEPT_STATE_RELIGION)</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_WIDGET_ESTABLISH_THEOLOGY_REQUIRES_PREVIOUS_TIER</zType>
         <Translation>Benötigt eine eingeführte link(CONCEPT_THEOLOGY) von der vorherigen Stufe</Translation>
@@ -2147,22 +2155,6 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Letzen Zug rückgängig machen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_UPGRADE</zType>
-		<Translation>Verbesserungen konvertieren einen Einheit in einen anderen Typ, auf Kosten von Training und anderen Einheitsspezifischen Ressourcen.</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_UPGRADE_IMPROVEMENTS</zType>
-		<Translation>Verbessere eine Verbesserung auf die nächste Stufe (zum Beispiel, link(IMPROVEMENT_THEATER_1) zu link(IMPROVEMENT_THEATER_2)).</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_XP</zType>
-		<Translation>Über die Zeit erhalten Einheiten und Charaktere EP (Erfahrung), welche für link(CONCEPT_PROMOTION,2) und Merkmale benutzt werden können, in dieser Reihenfolge.
-		
-Einheiten erhalten EP während des Kämpfens oder wenn sie link(CONCEPT_IDLE) auf einer bestimmten link(CONCEPT_IMPROVEMENT,2) stehen. (link(UNITTRAIT_MELEE) Einheiten erlangen EP in link(IMPROVEMENT_BARRACKS,1), und link(UNITTRAIT_RANGED) Einheiten erhalten EP auf dem link(IMPROVEMENT_RANGE,1).
-
-Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link(CONCEPT_GENERAL), link(CONCEPT_GOVERNOR) oder link(CONCEPT_COUNCILOR), und durch Ereignisse.</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_REPLAY_MOVE_REDO</zType>
 		<Translation>Wiederhole den letzten rückgängig gemachten Zug</Translation>
 	</Entry>
@@ -2222,6 +2214,320 @@ Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link
 		<zType>TEXT_HELPTEXT_CONSUMES_UNIT</zType>
 		<Translation>Verbraucht die Einheit</Translation>
 	</Entry>
+	<!--Tutorial Encyclopedia-->
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_ORDERS</zType>
+		<Translation>Units can move multiple times each turn, but each move consumes one link(YIELD_ORDERS,1)icon(YIELD_ORDERS). Other actions, such as attacking or building, also consume link(YIELD_ORDERS)icon(YIELD_ORDERS).
+
+Your remaining link(YIELD_ORDERS)icon(YIELD_ORDERS) can be seen in the lower left corner of your screen to the right of your Leader's Portrait. Consider your use of link(YIELD_ORDERS)icon(YIELD_ORDERS) carefully and whether you need to prioritize construction, combat, or movement.
+		
+At turn end, unused link(YIELD_ORDERS)icon(YIELD_ORDERS) are exchanged for link(YIELD_MONEY)icon(YIELD_MONEY).
+
+Units can't act if you don't have an link(YIELD_ORDERS,1)icon(YIELD_ORDERS) to command them. You get more link(YIELD_ORDERS)icon(YIELD_ORDERS) at the start of each turn, but if you need to, you can spend int(TRAINING_PER_ORDER) link(YIELD_TRAINING)icon(YIELD_TRAINING) to get a new link(YIELD_ORDERS,1)icon(YIELD_ORDERS).
+
+The most important source of link(YIELD_ORDERS)icon(YIELD_ORDERS) is link(CONCEPT_LEGITIMACY).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_SCOUTS</zType>
+		<Translation>link(UNIT_SCOUT,2) are fantastic explorers that can see further into the unknown than other Units. They can also hide in link(VEGETATION_TREES), making them invaluable as an early warning against invading enemies.
+
+Send link(UNIT_SCOUT,2) out into the wilderness to look for new link(IMPROVEMENT_CITY_SITE,2) and mysterious link(IMPROVEMENT_ANCIENT_RUINS,2). link(UNIT_SCOUT,2) (as well as link(UNIT_SETTLER,2) and link(UNIT_WORKER,2)) can also link(CONCEPT_HARVEST_RESOURCE,1).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_AGENTS</zType>
+		<Translation>With a link(COUNCIL_SPYMASTER) on your Council, you can convert link(UNIT_SCOUT,2) into an link(CONCEPT_AGENT_NETWORK) in a rival City (temporarily consuming the link(UNIT_SCOUT) in the process). If you move your link(UNIT_SCOUT) adjacent to the territory of that City, the link(CONCEPT_AGENT_NETWORK)  icon(CREATE_AGENT_NETWORK) Button will be enabled in the Unit Panel on the left. 
+
+Once you have established an link(CONCEPT_AGENT_NETWORK) in a City, an eligible Character can then be assigned as the local link(CONCEPT_AGENT) there. To do so, you need to click the link(CONCEPT_AGENT)  icon(AGENT_HIGHLIGHTED) Button below the City Banner.
+
+In addition to the visibility gained when you initially established your link(CONCEPT_AGENT_NETWORK), a dedicated link(CONCEPT_AGENT) Character can perform link(MISSION_INSURRECTION) and link(MISSION_TREACHERY) Missions.
+
+You can choose link(CONCEPT_AGENT) Missions to perform from the link(CONCEPT_AGENT) Character's Panel, the link(COUNCIL_SPYMASTER) Character's Panel, or even directly from the City in question by clicking the link(CONCEPT_AGENT)  icon(AGENT_HIGHLIGHTED) Button beneath the City banner.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_SPYMASTER</zType>
+		<Translation>You can use your link(COUNCIL_SPYMASTER) to conduct secret Missions! Just select the portrait of your link(COUNCIL_SPYMASTER) in the top right, and you will see their available actions in the panel on the left side of the screen.
+
+A link(COUNCIL_SPYMASTER) can can execute missions like link(MISSION_INFILTRATE), link(MISSION_STEAL_RESEARCH), link(MISSION_ASSASSINATE), and more!		
+	
+If you have researched the link(TECH_PORTCULLIS) technology and you have an available candidate on your court with the link(TRAIT_TACTICIAN_ARCHETYPE), link(TRAIT_SCHEMER_ARCHETYPE), or link(TRAIT_SCHOLAR_ARCHETYPE) trait, then you may appoint link(COUNCIL_SPYMASTER,1) using the glowing eye icon  icon(COUNCIL_SPYMASTER) in the top right of the screen.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_CHANCELLOR</zType>
+		<Translation>You can use your link(COUNCIL_CHANCELLOR) to help manage your realm with special Missions. Just select the portrait of your link(COUNCIL_CHANCELLOR) in the top right, and you will see their available actions in the panel on the left side of the screen.
+
+A link(COUNCIL_CHANCELLOR) can give link(MISSION_FAMILY_GIFT) to improve relations with your powerful link(CONCEPT_FAMILY,2), quell unrest with link(MISSION_PACIFY_CITY), and even link(MISSION_IMPRISON) troublesome Characters!	
+	
+If you have researched the link(TECH_SPOKED_WHEEL) technology and you have an available candidate on your court with the link(TRAIT_ZEALOT_ARCHETYPE), link(TRAIT_JUDGE_ARCHETYPE), or link(TRAIT_BUILDER_ARCHETYPE) trait, then you may appoint link(COUNCIL_CHANCELLOR,1) using the glowing quill pen icon  icon(COUNCIL_CHANCELLOR) in the top right of the screen.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_AMBASSADOR</zType>
+		<Translation>You can use your link(COUNCIL_AMBASSADOR) to conduct diplomatic Missions. Just select the portrait of your link(COUNCIL_AMBASSADOR) in the top right, and you will see their available actions in the panel on the left side of the screen. An link(COUNCIL_AMBASSADOR) can make link(DIPLOMACY_PEACE) with Nations and link(CONCEPT_TRIBE,2), form a link(MISSION_TRADE_MISSION), offer and demand Tribute, and more!	
+	
+If you have researched the link(TECH_ARISTOCRACY) technology and you have an available candidate on your court with the link(TRAIT_ORATOR_ARCHETYPE), link(TRAIT_DIPLOMAT_ARCHETYPE), or link(TRAIT_COMMANDER_ARCHETYPE) Trait, then you may appoint link(COUNCIL_AMBASSADOR,1) using the glowing scroll icon  icon(COUNCIL_AMBASSADOR) in the top right of the screen.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_FAMILY</zType>
+		<Translation>link(CONCEPT_FAMILY) opinion is influenced by the link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) in their Cities and by player Event choices. Cities gain link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) over time. You can reduce link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) by connecting your cities with link(CONCEPT_ROAD,2), adopting a link(CONCEPT_STATE_RELIGION), building certain link(CONCEPT_IMPROVEMENT,2) like link(IMPROVEMENTCLASS_BATHS,2), and enacting certain Laws such as link(LAW_CONSTITUTION) and link(LAW_TOLERANCE).
+
+If link(CONCEPT_FAMILY,1) is link(OPINIONFAMILY_ANGRY) with you, then Rebel Units may begin spawning in their Cities!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_ONAGER</zType>
+		<Translation>The link(UNIT_ONAGER) is a link(UNITTRAIT_RANGED) link(UNITTRAIT_SIEGE) Unit has splash damage, so it will hurt all enemies adjacent to the target Tile.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_AXEMAN</zType>
+		<Translation>The link(UNIT_AXEMAN) Unit has an arcing attack, striking foes adjacent to its target for partial damage.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_SPEARMAN</zType>
+		<Translation>The link(UNIT_SPEARMAN) is the first link(UNITTRAIT_POLEARM) Unit available to your Nation. link(UNITTRAIT_POLEARM) Units excel against enemy link(UNITTRAIT_MOUNTED) Units. Only link(UNITTRAIT_POLEARM) Units can exert a link(CONCEPT_ZOC) on link(UNITTRAIT_MOUNTED) Units. link(UNIT_SPEARMAN,2) also have a piercing attack, striking the unit behind their target for partial damage.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_GENERAL</zType>
+		<Translation>A Character can be assigned as a link(CONCEPT_GENERAL) to a Unit, contributing their Unique bonuses to the Unit's performance. Assign a link(CONCEPT_GENERAL) by selecting a Unit, and then clicking the Add link(CONCEPT_GENERAL)  icon(JOB_GENERAL) Button in the action panel on the left.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_MARRIAGE</zType>
+		<Translation>Marriages are a useful diplomatic tool for forming bonds with other link(CONCEPT_FAMILY,2), link(CONCEPT_TRIBE,2), and Nations. They also allow your link(CONCEPT_FAMILY) to continue their line with legitimate Heirs, who will be eligible to take over once your current Ruler is gone.
+
+If you die without an Heir, the game will end!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_LEGITIMACY</zType>
+		<Translation>Higher link(CONCEPT_LEGITIMACY)icon(YIELD_LEGITIMACY) grants you additional link(YIELD_ORDERS)icon(YIELD_ORDERS) and improves your standing with your link(CONCEPT_FAMILY,2). Keeping your link(CONCEPT_LEGITIMACY)icon(YIELD_LEGITIMACY) high is important for controlling a large Nation!
+
+link(CONCEPT_LEGITIMACY)icon(YIELD_LEGITIMACY) comes from achieving link(CONCEPT_AMBITION,2) and acquiring better link(CONCEPT_COGNOMEN,2) (such as link(COGNOMEN_GREAT)). There are also Events that can raise your link(CONCEPT_LEGITIMACY)icon(YIELD_LEGITIMACY).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_INHERITANCE_LAWS</zType>
+		<Translation>On the left side of the top bar, you can open the Inheritance Screen with the Crown icon(INHERITANCE_Normal) button. 
+
+The Inheritance Screen will show your current Heir and link(CONCEPT_SUCCESSION,1) along with your whole Line of Succession. If you click the Change Law button, you can see who the new Heir would be, depending on which link(CONCEPT_SUCCESSION) you select to preview.
+
+You can choose different schemes like link(LAW_ULTIMOGENITURE), link(LAW_SENIORITY), and more based on your preference.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_SUCCESSION</zType>
+		<Translation>Training strong Heirs will be vital for the survival of your Nation as once your current Ruler is gone, someone will need to take the reins.
+
+Once your Heir has grown up a bit, you'll be able to choose an educational path to guide them into the role you need them to fulfill.
+
+Your Heir (and other Family members) can do more than just wait around to inherit the throne; you can employ them as link(CONCEPT_GENERAL,2), link(CONCEPT_GOVERNOR,2), and link(CONCEPT_COUNCILOR,2).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_AMBITION</zType>
+		<Translation>link(CONCEPT_AMBITION,2) are goals that your link(CONCEPT_FAMILY,2) would like for you to pursue, and completing them will grant you, and all of your descendants, a permanent boost to link(CONCEPT_LEGITIMACY)icon(YIELD_LEGITIMACY).
+
+Completing an link(CONCEPT_AMBITION) unlocks a new one and completing ten is one way to win the game, so always do your best to fulfill your current link(CONCEPT_AMBITION,2).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_MERCENARIES</zType>
+		<Translation>Any Nation with an link(TRAIT_ORATOR_ARCHETYPE) Leader may recruit Tribal link(CONCEPT_MERCENARY,2) at the cost of some link(CONCEPT_LEGITIMACY)icon(YIELD_LEGITIMACY). As link(NATION_CARTHAGE), you can hire link(CONCEPT_MERCENARY,2) in exchange for link(YIELD_MONEY)icon(YIELD_MONEY) instead. You may not hire link(TRIBE_RAIDERS).
+
+link(CONCEPT_MERCENARY,2) have no associated link(CONCEPT_FAMILY), and int(CONSUMPTION_MERCENARY_MODIFIER)% higher consumption costs. They cannot receive link(CONCEPT_PROMOTION,2), but they can occasionally link(CONCEPT_UPGRADE) themselves. They may only be led by link(CONCEPT_GENERAL,1) from their own Ethnicity.
+
+To recruit a link(CONCEPT_MERCENARY) Unit, simply select a Tribal Unit that is not garrisoning a Tribal Site, and click the Recruit link(CONCEPT_MERCENARY)  icon(RECRUIT_MERCENARY) button, or the Hire link(CONCEPT_MERCENARY)icon(HIRE_MERCENARY) button as Carthage, in the Unit Panel on the left.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_TRAINING_IMPROVEMENT</zType>
+		<Translation>link(UNITTRAIT_MELEE) Units that remain idle on a link(IMPROVEMENT_BARRACKS) will earn link(CONCEPT_XP). There is a similar bonus for idle link(UNITTRAIT_RANGED) Units on a link(IMPROVEMENT_RANGE).
+
+Unit link(CONCEPT_PROMOTION,2) are cheaper for Units with more link(CONCEPT_XP,1), so make sure to train your Units while not at war to keep them sharp!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_SPECIALIST</zType>
+		<Translation>A link(CONCEPT_SPECIALIST) can be recruited from the City Screen by clicking the  icon(specialist_border) Button on an link(CONCEPT_IMPROVEMENT) so long as you have an available link(CONCEPT_CITIZEN). Although link(CONCEPT_IMPROVEMENT,2) are already productive on their own, a link(CONCEPT_SPECIALIST) can boost their yields.
+
+link(CONCEPT_LUXURY) are special resources that you acquire by adding a Rural link(CONCEPT_SPECIALIST) to an link(CONCEPT_IMPROVEMENT) on the correct Tile. For example, you access link(RESOURCE_GEM) by adding a link(SPECIALIST_MINER) link(CONCEPT_SPECIALIST) to a link(IMPROVEMENT_MINE) link(CONCEPT_IMPROVEMENT) on a link(RESOURCE_GEM) Tile.
+
+Urban link(CONCEPT_SPECIALIST,2), like link(SPECIALISTCLASS_ACOLYTE,1) and link(SPECIALISTCLASS_OFFICER,1), can be trained to higher levels for further yield boosts.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_TRIBES</zType>
+		<Translation>Once you've driven the local link(CONCEPT_TRIBE,2) away from a link(IMPROVEMENT_CITY_SITE), you can claim it by placing a Unit on it. This will prevent the return of the link(CONCEPT_TRIBE) and will also keep other Nations from founding a City there.
+
+link(CONCEPT_TRIBE,2) can engage in limited diplomacy, but generally won't be coordinated in the way opposing Nations are.
+
+Finding a weak link(CONCEPT_TRIBE) and claiming their link(IMPROVEMENT_CITY_SITE,2) for yourself will be an important step toward growing your Nation
+			
+You may have to defeat some link(TRIBE_BARBARIANS) to access more link(IMPROVEMENT_CITY_SITE,2). link(TRIBE_BARBARIANS) do not behave like link(CONCEPT_TRIBE,2), as you are always at link(DIPLOMACY_WAR) with them. They are good targets for early expansion as they are easier to drive away than a more organized link(CONCEPT_TRIBE).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_NATION_CONTACT</zType>
+		<Translation>Rival Nations are your primary opponents in Old World. You may engage them diplomatically, which could lead to gaining a powerful trade partner and ally, or declare link(DIPLOMACY_WAR) on them to conquer their territory. You decide which Nations are worthy of being your allies and which should simply be conquered.
+
+At some difficulty levels, other Nations begin the game already established with a number of Cities, Units and Improvements. If you hover the mouse over a Nation's name and score in the leaderboard at the top left of screen, you can find out important information about them, such as the number of Cities they have, how strong their Military is, how developed they are technologically, and also with whom they are currently at War icon(DIPLOMACY_WAR) or Peace icon(DIPLOMACY_PEACE).
+
+To conduct diplomacy, you must appoint an link(COUNCIL_AMBASSADOR).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_CHARIOT_SELECTED</zType>
+		<Translation>link(UNITTRAIT_MOUNTED) link(UNITTRAIT_MELEE) Units move quickly and have the unique ability to link(EFFECTUNIT_ROUT) your enemies, allowing you an additional attack if the first one destroys a Unit.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_GOVERNOR</zType>
+		<Translation>A City link(CONCEPT_GOVERNOR) can be recruited from your court by clicking the wreath icon  icon(JOB_GOVERNOR) button below the City banner or within the City Screen by clicking the question mark button in the bottom left. A link(CONCEPT_GOVERNOR) can boost the yields of a City based on their unique Traits.
+
+A City can only be governed by a member of its ruling link(CONCEPT_FAMILY) or by the leader.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_RELIGION</zType>
+		<Translation>Religions provide link(YIELD_CULTURE)icon(YIELD_CULTURE) to the Cities they're in. You can choose to adopt a link(CONCEPT_STATE_RELIGION) for your Nation, allowing you to guide the impact that Religion has on your Cities.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_UNDO</zType>
+		<Translation>You can link(CONCEPT_UNDO) as many decisions as you want, including moves, combat, building link(CONCEPT_IMPROVEMENT,2), and Event choices up to five past turns. Undo is Performed with hotkey(HOTKEY_UNDO), or pressing the backwards arrow link(CONCEPT_UNDO) button in the bottom left of the screen.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_LUXURIES</zType>
+		<Translation>link(CONCEPT_LUXURY) are special Resources (like link(RESOURCE_GEM), link(RESOURCE_DYE), and more) that can be traded to other Nations, link(CONCEPT_TRIBE,2) and link(CONCEPT_FAMILY,2) in exchange for an Opinion boost. Certain link(CONCEPT_FAMILY_CLASS,2) even have favorite link(CONCEPT_LUXURY) that they especially desire! In order to acquire a link(CONCEPT_LUXURY,1), you must build the correct link(CONCEPT_IMPROVEMENT) on that resource, and the link(CONCEPT_IMPROVEMENT) must be augmented with a link(CONCEPT_SPECIALIST).
+
+link(CONCEPT_LUXURY) can be sent to the desired target with the Manage Luxuries  icon(LuxuryUp) Button on the action panel, while a Nation, link(CONCEPT_TRIBE), or link(CONCEPT_FAMILY) is selected, or in the bottom left of the City screen for Cities. To send the same type of link(CONCEPT_LUXURY,1) to multiple targets, you must have multiple sources of it.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_TOOLTIPS</zType>
+		<Translation>The nested tooltip system in Old World allows windows to persist as you link from one to another. Simply hold hotkey(HOTKEY_FREEZE_TOOLTIP) while clicking a link, or click it with the Middle Mouse Button, to lock the new window in place. This lets you continue to view a window while opening more links, even if you move the cursor off of the window altogether.
+
+Try it out on this Unit link: link(UNIT_SPEARMAN). Press the ESC key, or click away from all tooltip windows, to make them disappear after they are locked.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_TECH_DECK</zType>
+		<Translation>Upon completing the research for a new Technology, you will unlock the next Technology on the Tree (entering it into the discard pile), and four new cards will be drawn from the draw pile of available Technologies for you to select from.
+
+After making your new selection from the four drawn cards, the remaining three cards will be sent to the discard pile, and ultimately recycled back into the draw pile when it is empty.
+
+Free Unit and Bonus cards are never recycled and are instead permanently discarded if not chosen.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_CHOP_WOODS</zType>
+		<Translation>link(UNIT_WORKER,2) can spend one link(YIELD_ORDERS,1)icon(YIELD_ORDERS) to Cut down link(VEGETATION_TREES) with the  icon(REMOVE_TREES) Button in the Actions panel on the left, and two more link(YIELD_ORDERS)icon(YIELD_ORDERS) to further Clear  icon(REMOVE_TREES_CUT) the land. These actions both harvest the link(YIELD_WOOD)icon(YIELD_WOOD), and add it to your stockpile. The Tile in question does not have to be in your territory to Cut  icon(REMOVE_TREES) down the link(VEGETATION_TREES).
+
+Once Cut down, link(VEGETATION_TREES) take some time to regenerate. If you build an link(CONCEPT_IMPROVEMENT) on a link(VEGETATION_TREES,1) Tile, the link(YIELD_WOOD)icon(YIELD_WOOD) is automatically harvested as the link(VEGETATION_TREES) are Cut down, and the land is Cleared, simultaneously, all at the cost of three link(YIELD_ORDERS)icon(YIELD_ORDERS).
+
+Eventually, you can research the link(TECH_FORESTRY) Tech to enable the construction of link(IMPROVEMENT_LUMBERMILL,2), which are a more regular and sustainable source of link(YIELD_WOOD)icon(YIELD_WOOD). However, they must be built on a link(VEGETATION_TREES) Tile, so don't Cut down all of your forests!
+
+You can also spend link(YIELD_MONEY)icon(YIELD_MONEY) to purchase link(YIELD_WOOD)icon(YIELD_WOOD) directly from the top bar where it shows your current resource totals.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_ANCHORING</zType>
+		<Translation>link(UNITTRAIT_SHIP) Units, like the link(UNIT_BIREME), link(UNIT_TRIREME), and link(UNIT_DROMON), in addition to fighting enemy link(UNITTRAIT_SHIP) Units, can link(CONCEPT_ANCHORED,1) to enable Land Units to move over water tiles. Without the help of an link(CONCEPT_ANCHORED) link(UNITTRAIT_SHIP), Land Units can only move through water Tiles within their Nation's territory.
+
+link(CONCEPT_ANCHORED,2) comes at the cost of one link(YIELD_ORDERS,1)icon(YIELD_ORDERS), and puts the link(UNITTRAIT_SHIP) Unit on Cooldown. Land Units may move over water, between Land Tiles, within the movement range of the link(CONCEPT_ANCHORED) link(UNITTRAIT_SHIP), starting on the turn after the link(UNITTRAIT_SHIP) in question has link(CONCEPT_ANCHORED). link(UNIT_WORKER,2) can stop on water Tiles, but Combat Land Units can only move through them. 
+
+The link(CONCEPT_ANCHORED) status of a link(UNITTRAIT_SHIP) persists until it is moved. link(CONCEPT_ANCHORED,1) a link(UNITTRAIT_SHIP) by pressing the  icon(ANCHOR) button in it's action panel on the left side of the screen while the link(UNITTRAIT_SHIP) Unit is selected.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_SECOND_CITY</zType>
+		<Translation>link(UNIT_SETTLER,2) are key to expanding your Nation, because only they can found new Cities. Move a link(UNIT_SETTLER,1) to a link(CONCEPT_CLAIM,3) link(IMPROVEMENT_CITY_SITE) to be able to establish a new City.
+
+link(IMPROVEMENT_CITY_SITE,2) can be link(CONCEPT_CLAIM,2) prior to sending a link(UNIT_SETTLER) to colonize them. Place a Unit of any type on the link(IMPROVEMENT_CITY_SITE) Tile to link(CONCEPT_CLAIM) it as your own, thereby preventing Foreign link(UNIT_SETTLER,2) from founding a City there.
+
+When you found a City, you will have to choose which link(CONCEPT_FAMILY) to grant it to. This link(CONCEPT_FAMILY) will provide powerful bonuses to the City. After granting a City to a third distinct link(CONCEPT_FAMILY), you will lose the fourth link(CONCEPT_FAMILY), so carefully consider what bonuses you want and which link(CONCEPT_FAMILY) you can go without.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_PAGAN_SHRINE</zType>
+		<Translation>Pagan religions are founded by building your first link(CONCEPT_SHRINE), and they spread by building more link(CONCEPT_SHRINE,2). They have no link(CONCEPT_DISCIPLE,2), link(CONCEPT_THEOLOGY,2), or access to special Religious link(CONCEPT_IMPROVEMENT,2), but improving the Religion's Opinion will reduce link(YIELD_DISCONTENT).
+
+Paganism can be adopted as a link(CONCEPT_STATE_RELIGION) if you enact link(LAW_DIVINE_RULE).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_RALLY_TROOPS</zType>
+		<Translation>You can conduct a link(MISSION_RALLY_TROOPS) Mission by clicking the icon(MISSION_RALLY_TROOPS) button in the action panel on the left while your leader is selected. link(MISSION_RALLY_TROOPS) Missions give you the chance to gain some  link(YIELD_TRAINING)icon(YIELD_TRAINING), at the cost of a few link(YIELD_ORDERS)icon(YIELD_ORDERS) and some link(YIELD_CIVICS)icon(YIELD_CIVICS). They may also lead to follow up events.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_HOLD_COURT</zType>
+		<Translation>link(MISSION_HOLD_COURT) Missions give you the chance to gain some link(YIELD_CIVICS)icon(YIELD_CIVICS), at the cost of a few link(YIELD_ORDERS)icon(YIELD_ORDERS) and some link(YIELD_TRAINING)icon(YIELD_TRAINING). They may also lead to follow up events.
+
+With a link(TRAIT_JUDGE_ARCHETYPE) Leader, you can conduct a link(MISSION_HOLD_COURT) Mission by clicking the gavel icon(MISSION_HOLD_COURT) button in the action panel on the left while your leader is selected.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_INFLUENCE</zType>
+		<Translation>link(MISSION_INFLUENCE) Missions give you the chance to improve another Character's Opinion of your leader, at the cost of a few link(YIELD_ORDERS)icon(YIELD_ORDERS) and some link(YIELD_MONEY)icon(YIELD_MONEY). They may also lead to follow up Events.
+
+You can conduct an link(MISSION_INFLUENCE) Mission by clicking the silhouette  icon(MISSION_INFLUENCE) button in the action panel on the left while a character other than your leader is selected. You may influence members of any Nation, not just your own.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_INTERCESSION</zType>
+		<Translation>link(MISSION_INTERCESSION_RELIGION) Missions give you the chance to have a Religion or link(CONCEPT_FAMILY) Head speak to another Character on behalf of your leader, potentially increasing that Character's Opinion of your leader at the cost of a few link(YIELD_ORDERS)icon(YIELD_ORDERS) and some link(YIELD_MONEY)icon(YIELD_MONEY). Such Missions may also lead to follow up Events.
+
+You can conduct an link(MISSION_INTERCESSION_FAMILY) Mission by clicking the dialogue  icon(MISSION_INTERCESSION) button in the action panel on the left while a Character other than your leader is selected. The Religion Head may intercede with members of any Nation, if they follow the same religion.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_WORKER</zType>
+		<Translation>link(UNIT_WORKER,2) build Improvements for your City. Rural Improvements, such as link(IMPROVEMENT_FARM,2) and link(IMPROVEMENT_MINE,2), gather raw materials. link(CONCEPT_URBAN) Improvements, such as link(IMPROVEMENT_BARRACKS,2) or link(IMPROVEMENT_THEATER_1,2), provide link(YIELD_TRAINING)icon(YIELD_TRAINING) or link(YIELD_CULTURE)icon(YIELD_CULTURE).
+
+With some exceptions, link(CONCEPT_URBAN) Improvements must be built on or adjacent to other link(CONCEPT_URBAN) Tiles. A lack of link(CONCEPT_URBAN) Improvements will lead to link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT), so plan carefully, and leave some room for them near your cities. link(CONCEPT_IMPROVEMENT) output can be augmented with link(CONCEPT_SPECIALIST,2) from the City screen.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_RUSH_BUYING</zType>
+		<Translation>Once a City has reached the link(CULTURE_DEVELOPING) link(CONCEPT_CULTURE_LEVEL), various options for link(CONCEPT_HURRY,1) in it become available. 
+
+With the link(CULTURE_DEVELOPING) (or higher) link(CONCEPT_CULTURE_LEVEL) alone, a City can link(CONCEPT_HURRY) at the cost of some link(YIELD_CIVICS)icon(YIELD_CIVICS) and link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT). Other methods of link(CONCEPT_HURRY,1) are further enabled by certain link(CONCEPT_GOVERNOR) traits, a link(CONCEPT_STATE_RELIGION), or laws like link(LAW_ORTHODOXY) and link(LAW_VOLUNTEERS). These distinct means of link(CONCEPT_HURRY,1) cost resources other than link(YIELD_CIVICS)icon(YIELD_CIVICS) (although they all produce link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT)).
+
+You can see the different options for link(CONCEPT_HURRY,1) in the City Panel underneath the current production in progress. link(CONCEPT_HURRY,1) can be expensive, but can also save you in a tight spot!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_CARAVAN_SELECTED</zType>
+		<Translation>link(UNIT_CARAVAN) Units can be sent on a link(CONCEPT_CARAVAN_MISSION) to a Foreign link(CONCEPT_CAPITAL). Upon safe arrival, the link(UNIT_CARAVAN) is consumed, and you receive a lump sum of link(YIELD_MONEY)icon(YIELD_MONEY). A successful link(CONCEPT_CARAVAN_MISSION) also results in an Opinion boost from their Nation.
+
+Be sure to protect your link(UNIT_CARAVAN,2) en-route to their destination as they are quite vulnerable to attack!
+		</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_SLINGER</zType>
+		<Translation>The link(UNIT_SLINGER) is a link(UNITTRAIT_RANGED) Unit with a default maximum range of two Tiles. link(UNITTRAIT_RANGED) Units can shoot farther from on top of a link(HEIGHT_HILL,1) but suffer a 20% damage reduction for every Tile between them and their target. Firing into link(VEGETATION_TREES) or link(VEGETATION_SCRUB) also reduces their damage.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_WARRIOR</zType>
+		<Translation>The link(UNIT_WARRIOR) is the first link(UNITTRAIT_MELEE) Unit available to your Nation. link(UNITTRAIT_MELEE) Units will form the backbone of your army, defending you from enemy link(CONCEPT_TRIBE,2) and Nations.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_ROUT</zType>
+		<Translation>Units that can link(CONCEPT_ROUT) will move into an enemy's Tile upon destroying them and have their attack Cooldown reset. This allows them to attack again this turn as long as there is another enemy Unit adjacent to their new location.
+
+Generally, only link(UNITTRAIT_MOUNTED) link(UNITTRAIT_MELEE) Units like link(UNIT_HORSEMAN,2) and link(UNIT_CHARIOT,2) can perform a link(CONCEPT_ROUT). If well placed, this can permit a single Unit to chain together multiple kills in one turn.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_UNIT_UPGRADES</zType>
+		<Translation>Combat Units can receive both link(CONCEPT_UPGRADE,2) and link(CONCEPT_PROMOTION,2). link(CONCEPT_UPGRADE,2) convert a Combat Unit to a different type. For example, a link(UNIT_WARRIOR) can be link(CONCEPT_UPGRADE,3) to an link(UNIT_AXEMAN). link(CONCEPT_PROMOTION,2) provide various combat buffs. Both link(CONCEPT_PROMOTION,2) and link(CONCEPT_UPGRADE,2) cost link(YIELD_TRAINING)icon(YIELD_TRAINING). link(CONCEPT_UPGRADE,2) can only be performed inside of Friendly territory, while link(CONCEPT_PROMOTION,2) can be done anywhere.
+
+link(CONCEPT_PROMOTION,2) and link(CONCEPT_UPGRADE,2) can be chosen while a Unit is selected.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_IMPRISON</zType>
+		<Translation>link(MISSION_IMPRISON) Missions let you place a member of your court in jail at the cost of a few link(YIELD_ORDERS)icon(YIELD_ORDERS) and some link(YIELD_TRAINING)icon(YIELD_TRAINING). You must have a link(COUNCIL_CHANCELLOR) to conduct link(MISSION_IMPRISON) Missions. link(MISSION_IMPRISON) Missions may also lead to follow up Events.
+
+You can conduct an link(MISSION_IMPRISON) Mission by clicking the prison bars  icon(MISSION_IMPRISON) button in the action panel on the left while a character other than your leader or link(COUNCIL_CHANCELLOR) is selected. You may only link(MISSION_IMPRISON) members of your own Nation. An link(TRAIT_IMPRISONED) Character cannot marry, have children, succeed to the throne, or have a job of any kind.</Translation>	
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_CITY_CAPTURED</zType>
+		<Translation>It will take some time for the people of a City you have conquered to accept you as their new ruler. Keep a Unit stationed in a newly conquered City for a few years until the period of post conquest anarchy has subsided if you want to keep it.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_CULTURE</zType>
+		<Translation>Higher tiers of link(YIELD_CULTURE)icon(YIELD_CULTURE) unlock additional Improvements and Wonders for your Cities. Each new tier will also trigger a positive Event for the City.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_TRADE_NETWORK</zType>
+		<Translation>A link(IMPROVEMENT_HAMLET), and its upgrades link(IMPROVEMENT_VILLAGE) and link(IMPROVEMENT_TOWN), will produce extra link(YIELD_MONEY)icon(YIELD_MONEY) if brought into your link(CONCEPT_TRADE_NETWORK)! Bringing a City into your link(CONCEPT_TRADE_NETWORK) will reduce link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) there.
+
+The link(CONCEPT_TRADE_NETWORK) consists of all Tiles connected to your link(CONCEPT_CAPITAL) City. Cities and link(IMPROVEMENT_HAMLET,2) can be connected with one another over link(CONCEPT_ROAD,2), rivers, and even open water if they are on the coast. A City that is not on the coast requires a connected link(IMPROVEMENT_HARBOR) to reach other Cities over open water. You can connect a City to its link(IMPROVEMENT_HARBOR) with a link(CONCEPT_ROAD). You can check the link(CONCEPT_TRADE_NETWORK) overlay with the icon(MAP_OVERLAY_NETWORK) button below the mini-map, or the hotkey(HOTKEY_SHOW_TRADE_NETWORK) key, and verify that a City is connected by checking that the  icon(CONNECTED) icon is displayed under its City banner.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_HARVEST_RESOURCE</zType>
+		<Translation>link(UNIT_SCOUT,2), link(UNIT_SETTLER,2) and link(UNIT_WORKER,2) can spend an link(YIELD_ORDERS,1)icon(YIELD_ORDERS) to yield a small amount of materials from a link(CONCEPT_HARVEST_RESOURCE,2).
+
+Resources that are within any City's limits, or that are too far from one of your Cities, cannot be harvested.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_UNIT_ATTACK_COOLDOWN</zType>
+		<Translation>If a Unit is on Cooldown, which can come from combat, construction, or other actions, it must wait until the next turn to act again.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_UNIT_FATIGUED</zType>
+		<Translation>A Unit that has used all of its moves becomes link(CONCEPT_FATIGUE,1). A link(CONCEPT_FATIGUE,1) Unit can be ordered to take a link(CONCEPT_MARCH), but each move on a link(CONCEPT_MARCH) costs twice as many link(YIELD_ORDERS)icon(YIELD_ORDERS) to execute. Units will refresh their moves on a new turn.</Translation>
+	</Entry>
 	<!--Link Help-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_AGENT</zType>
@@ -2262,6 +2568,10 @@ Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TRIBE_INVASION</zType>
 		<Translation>Eine Welle von Einheiten von link(CONCEPT_TRIBE) brechen auf um mit einem massiven Einfall anzugreifen.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTOR</zType>
+		<Translation>Children older than int(TUTORS_AGE) can be tutored by link(CONCEPT_COURTIER,2).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_UNDO</zType>
@@ -2333,12 +2643,20 @@ Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link
 		<Translation>{0_yield}: {1_project} (Derzeit am Bauen)</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_AMBITION_VICTORY</zType>
+		<Translation>Complete int(MAX_AMBITIONS) link(CONCEPT_AMBITION,2) for link(VICTORY_AMBITION,1) Victory</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_NO_AMBITIONS_FINISHED</zType>
 		<Translation>Keine link(CONCEPT_AMBITION,0) vollendet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CARAVAN_MISSION</zType>
 		<Translation>Karawanen Einheiten können auf eine Karawanen Mission zu einer ausländischen Hauptstadt geschickt werden. Bei sicherer Ankunft wird die Karawane verbraucht und produziert eine pauschale Summe link(YIELD_MONEY) und einen Meinungs Schub.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_SITE</zType>
+		<Translation>The map is full of City Sites, which are the only locations link(UNIT_SETTLER,2) can found new Cities. (The City can be founded on any of the link(CONCEPT_URBAN) Tiles connected to the City Site.) Many City Sites are occupied by link(CONCEPT_TRIBE,2), which must either be defeated or joined in link(CONCEPT_ALLIANCE_TRIBE,2) before founding a City is possible.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CLEAR</zType>
@@ -2521,25 +2839,35 @@ Ihre Vorlieben geben vor welche link(CONCEPT_AMBITION,2) du nachgehen kannst. De
   </Entry>
   <Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_FLANKING</zType>
-		<Translation>Flanking occurs when attacking an enemy Unit with a friendly Unit on the opposite side. (If attacking from a tile to the West of the target, then your other Unit must be to the East.)</Translation>
-   </Entry>
-   <Entry>
+		<Translation>Flanking occurs when attacking an enemy Unit with a friendly Unit on the opposite side. For example, if you are attacking from a Tile West of a target, you must have another Unit to its East.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_AMBITION</zType>
-		<Translation>Ambitions are goals to pursue - completing them will grant you a permanent boost to link(CONCEPT_LEGITIMACY).
-Complete ten Ambitions and link(CONCEPT_LEGACY,2) and win link(VICTORY_AMBITION,1) Victory</Translation>
+		<Translation>Complete ten Ambitions and link(CONCEPT_LEGACY,2) to win link(VICTORY_AMBITION,1) Victory. Completing individual Ambitions (and link(CONCEPT_LEGACY,2)) will also grant you a permanent boost to link(CONCEPT_LEGITIMACY).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LEGACY</zType>
-		<Translation>When the Leader dies, all the current link(CONCEPT_AMBITION,2) become Legacies, which must be completed in int(LEGACY_MAX_TURNS) Turns. Failing to finish a Legacy in time will reduce link(CONCEPT_LEGITIMACY).
-Complete ten link(CONCEPT_AMBITION,2) and Legacies and win link(VICTORY_AMBITION,1) Victory</Translation>
+		<Translation>Complete ten link(CONCEPT_AMBITION,2) and Legacies to win link(VICTORY_AMBITION,1) Victory. When the Leader dies, all the current link(CONCEPT_AMBITION,2) become Legacies, which must be completed in int(LEGACY_MAX_TURNS) Turns. Failing to finish a Legacy will reduce link(CONCEPT_LEGITIMACY).</Translation>
 	</Entry>
-	<Entry>
+	<Entry>	
 		<zType>TEXT_HELPTEXT_HELP_TRIBE</zType>
 		<Translation>Tribes can engage in limited diplomacy but generally won't be coordinated the way opposing Nations are.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_GENERAL</zType>
+		<Translation>Ein Feldherr kann die Statistiken von Einheiten verbessern. Muss jünger sein als int(GENERAL_START_AGE). Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_GOVERNOR</zType>
+		<Translation>Ein Stadthalter kann in Städten mit einer link(IMPROVEMENT_GARRISON_1) eingesetzt werden, um einen Bonus auf den Ertrag zu erzielen.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_HEIGHT</zType>
 		<Translation>{0} Höhe</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_MOVEMENT_COST</zType>
+		<Translation>{0}{MOVEMENT} (Bewegungskosten)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_HEIGHT_BUILD</zType>
@@ -2553,18 +2881,14 @@ Complete ten link(CONCEPT_AMBITION,2) and Legacies and win link(VICTORY_AMBITION
 		<zType>TEXT_HELPTEXT_LINK_HELP_HEIGHT_DEFENDING_CLEAR</zType>
 		<Translation>Vs. {0_unit} (wenn link(CONCEPT_CLEAR)): {1} (Nahkampf)</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_HEIRS</zType>
+		<Translation>The Ratings of your first four Heir(s) affect your Global Yields (at a non-linear rate). For example, their link(RATING_COURAGE) will increase your link(YIELD_TRAINING){YIELD_TRAINING}. Further, their link(CONCEPT_OPINION_CHARACTER,3) of you will increase or decrease these Yield rates.</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_LINK_HELP_HIDDEN</zType>
         <Translation>Versteckte Einheiten können nicht von anderen Einheiten gesehen werden. link(UNIT_SCOUT,2) sind in neutralen link(VEGETATION_TREES) versteckt oder aber mit einem link(TRAIT_SCHEMER_ARCHETYPE) Oberhaupt. Versteckte Einheiten haben einen int(HIDDEN_ATTACK_MODIFIER)% Modifikator beim angreifen.</Translation>
     </Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_GENERAL</zType>
-		<Translation>Ein Feldherr kann die Statistiken von Einheiten verbessern. Muss jünger sein als int(GENERAL_START_AGE). Geht in den Ruhestand mit int(GENERAL_RETIRE_AGE).</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_GOVERNOR</zType>
-		<Translation>Ein Stadthalter kann in Städten mit einer link(IMPROVEMENT_GARRISON_1) eingesetzt werden, um einen Bonus auf den Ertrag zu erzielen.</Translation>
-	</Entry>
 	<Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_COUNCILOR</zType>
 		<Translation>Ratsmitglieder können die Rolle eines link(COUNCIL_CHANCELLOR), link(COUNCIL_AMBASSADOR), oder link(COUNCIL_SPYMASTER) ausfüllen.</Translation>
@@ -2590,6 +2914,10 @@ Complete ten link(CONCEPT_AMBITION,2) and Legacies and win link(VICTORY_AMBITION
 		<Translation>Schreine verbreiten Heidentum und geben verschiedene Vorteile.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_HOLY_CITY</zType>
+		<Translation>The Holy City is where link(CONCEPT_RELIGION,1) was first founded. The link(IMPROVEMENTCLASS_HOLY_SITE) can only be built in a Holy City.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_IDLE</zType>
 		<Translation>link(CONCEPT_IDLE) Einheiten können sich bewegt haben aber dürfen keinen Cooldown haben. (Angreifen oder link(CONCEPT_UPGRADE))</Translation>
 	</Entry>
@@ -2598,20 +2926,21 @@ Complete ten link(CONCEPT_AMBITION,2) and Legacies and win link(VICTORY_AMBITION
 		<Translation>Ignoriert die Kontrollzone von gegnersichen Einheiten.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_IMPROVEMENT</zType>
+		<Translation>link(UNIT_WORKER,2) can build link(CONCEPT_URBAN) and Rural Improvements on Tiles within a City's territory. Improvements without link(CONCEPT_SPECIALIST,1) increase the City's link(YIELD_MAINTENANCE){YIELD_MAINTENANCE}.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_IMPROVEMENT_KEY</zType>
 		<Translation>Halte [{0_key}] um alle Verbesserungen zu verbergen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LEGITIMACY</zType>
-		<Translation>Legitimität erlangt man durch erreichen einer link(CONCEPT_AMBITION,2) und erlangen von besseren link(CONCEPT_COGNOMEN,2) (Wie zB. link(COGNOMEN_GREAT)). Höhrere Legitimität verbessert die Familien Meinung und produziert mehr link(YIELD_ORDERS) pro Zug.</Translation>
+		<Translation>Legitimität erlangt man durch erreichen einer link(CONCEPT_AMBITION,2) und erlangen von besseren link(CONCEPT_COGNOMEN,2) (Wie zB. link(COGNOMEN_GREAT)). Höhrere Legitimität verbessert die Familien Meinung und produziert mehr link(YIELD_ORDERS) pro Zug.
+Höhre Legitimität verbessert die link(CONCEPT_OPINION_FAMILY,1) und erzeugt mehr link(YIELD_ORDERS) pro Zug.</Translation>																												  
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LEGITIMACY_OPINIONS</zType>
-		<Translation>{0_value}: Familien Meinung</Translation>
-	</Entry>
-	<Entry>
-    <zType>TEXT_HELPTEXT_LINK_HELP_STATE_RELIGION</zType>
-		<Translation>Eine link(CONCEPT_STATE_RELIGION) anzunehmen steigert die Meinung dieser Religion, reduziert link(YIELD_DISCONTENT) in Städten dieser Religion und ermöglicht außerdem die Anwerbung von link(CONCEPT_DISCIPLE,2) in diesen Städten.</Translation>
+		<Translation>{0_value}: link(CONCEPT_OPINION_FAMILY,2)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CLAIM</zType>
@@ -2624,14 +2953,19 @@ Complete ten link(CONCEPT_AMBITION,2) and Legacies and win link(VICTORY_AMBITION
 	<Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_COGNOMEN</zType>
     <Translation>Ein Spitzname ist ein erworbener Titel welcher die Legitimacyicon(YIELD_LEGITIMACY) deines Oberhauptes erhöht.</Translation>
-  </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_COURT</zType>
+		<Translation>A Nation's Court consists of you, your link(CONCEPT_SPOUSE), your link(CONCEPT_HEIRS), and your link(CONCEPT_COURTIER,2). The Ratings of Characters in your Court affect your Global Yields (at a non-linear rate). For example, their link(RATING_COURAGE) will increase your link(YIELD_TRAINING){YIELD_TRAINING}.</Translation>
+	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LOCATION</zType>
 		<Translation>Klicken zum anschauen von...</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LUXURY</zType>
-		<Translation>Luxusgüter können an eine Stadt geschickt werden um die link(YIELD_DISCONTENT) zu verringern. Sie können außerdem mit anderen Reichen gehandelt werden, link(CONCEPT_TRIBE,2), und link(CONCEPT_FAMILY,2) um deren Meinung deines Reiches zu erhöhen.</Translation>
+		<Translation>Luxusgüter können an eine Stadt geschickt werden um die link(YIELD_DISCONTENT) zu verringern. Sie können außerdem mit anderen Reichen gehandelt werden, link(CONCEPT_TRIBE,2), und link(CONCEPT_FAMILY,2) um deren Meinung deines Reiches zu erhöhen.
+link(CONCEPT_FAMILY_CLASS,2) haben alle 2 Luxusgüter welche ihnen höhren link(CONCEPT_OPINION_FAMILY,3) Schub gibt. (Zum Beispiel, link(FAMILYCLASS_CLERICS,2) bevorzugen link(RESOURCE_INCENSE) und link(RESOURCE_LAVENDER).)</Translation>																																																								  
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_MERCENARY</zType>
@@ -2664,8 +2998,36 @@ Söldner haben keine zugewiesene link(CONCEPT_FAMILY) und int(CONSUMPTION_MERCEN
 		<Translation>Eine neue Einheit wird fertiggestellt in {0} {1_turnScale}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_NATION</zType>
+		<Translation>Nations are the major states that are vying for Victory in Old World.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_OPINION_FAMILY</zType>
+		<Translation>link(CONCEPT_FAMILY) Opinion modifies the {STRENGTH}Strength of their Units and the link(YIELD_CIVICS)icon(YIELD_CIVICS), link(YIELD_TRAINING){YIELD_TRAINING}, and link(YIELD_MAINTENANCE)icon(YIELD_MAINTENANCE) of their Cities. Further, a negative Opinion can lead to link(TRIBE_REBELS) spawing near the link(CONCEPT_FAMILY) Cities.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_OPINION_CHARACTER</zType>
+		<Translation>Character Opinion affects the cost of their Missions, their combat effectiveness as link(CONCEPT_GENERAL,2), and the link(YIELD_DISCONTENT){YIELD_DISCONTENT} of their Cities as link(CONCEPT_GOVERNOR,2). The Opinion of the Heads of link(CONCEPT_FAMILY,2), link(CONCEPT_RELIGION,2), link(CONCEPT_NATION,2), and link(CONCEPT_TRIBE,2) will also affect the Opinion towards you of those entities as a whole.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_OPINION_PLAYER</zType>
+		<Translation>link(CONCEPT_NATION) Opinion affects the success rates of diplomatic Mission like link(CONCEPT_ALLIANCE_PLAYER), link(DIPLOMACY_PEACE), and link(DIPLOMACY_TRUCE), as well as the odds that a Player will declare link(DIPLOMACY_WAR) on you.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_OPINION_RELIGION</zType>
+		<Translation>Religious Opinion affects the link(YIELD_DISCONTENT){YIELD_DISCONTENT} of your Cities with that link(CONCEPT_RELIGION).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_OPINION_TRIBE</zType>
+		<Translation>link(CONCEPT_TRIBE) Opinion affects the success rates of diplomatic Missions like link(CONCEPT_ALLIANCE_TRIBE), link(DIPLOMACY_PEACE) and link(DIPLOMACY_TRUCE), as well as the odds that a link(CONCEPT_TRIBE) will declare link(DIPLOMACY_WAR) on you or send link(TRIBE_RAIDERS) into your lands. link(CONCEPT_TRIBE) Opinion also affects the cost of both hiring them as link(CONCEPT_MERCENARY,2) and settling Cities on their Tribal sites.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_PILLAGED</zType>
 		<Translation>Repariere die {0_improvement} oder sie wird in {1_turns} {2_turnScale} zerstört werden.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_PAGAN_RELIGION_INFO</zType>
+		<Translation>Each link(CONCEPT_NATION) has a unique Pagan Religion which is founded and spread by building link(IMPROVEMENTCLASS_SHRINE,1). link(LAW_POLYTHEISM) allows building unlimited link(CONCEPT_SHRINE,2), and link(LAW_DIVINE_RULE) unlocks adopting Paganism as a link(CONCEPT_STATE_RELIGION). Pagan Religions don’t have the link(CONCEPT_DISCIPLE,2), link(CONCEPT_IMPROVEMENT,2), or link(CONCEPT_THEOLOGY,2) of link(CONCEPT_WORLD_RELIGION,2).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_PROJECT_INFO</zType>
@@ -2676,18 +3038,14 @@ Söldner haben keine zugewiesene link(CONCEPT_FAMILY) und int(CONSUMPTION_MERCEN
 		<Translation>Beförderungen verschaffen verschiedene Kampf Buffs auf Kosten von etwas link(YIELD_TRAINING).</Translation>
 	</Entry>
 	<Entry>
-    <zType>TEXT_HELPTEXT_LINK_HELP_IMPROVEMENT</zType>
-    <Translation>link(UNIT_WORKER,2) können link(CONCEPT_URBAN) bauen und ländliche Verbesserungen für deine Städte auf verfügbaren Feldern.</Translation>
-  </Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_RANGE</zType>
 		<Translation>Reichweite für link(UNITTRAIT_RANGED) Angriffe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_RELIGION</zType>
-		<English>There are two types of Religions: World and Pagan. link(CONCEPT_WORLD_RELIGION,2), such as link(RELIGION_JUDAISM), are founded by the first link(CONCEPT_NATION) to fulfill its specific requirements. link(CONCEPT_PAGAN_RELIGION,2) are founded by building the first of your Nation's link(CONCEPT_SHRINE,2).
+		<Translation>There are two types of Religions: World and Pagan. link(CONCEPT_WORLD_RELIGION,2), such as link(RELIGION_JUDAISM), are founded by the first link(CONCEPT_NATION) to fulfill its specific requirements. link(CONCEPT_PAGAN_RELIGION,2) are founded by building the first of your Nation's link(CONCEPT_SHRINE,2).
 		
-All Religions give link(YIELD_CULTURE){YIELD_CULTURE} to their Cities, and a link(OPINIONRELIGION_PLEASED) or link(OPINIONRELIGION_FRIENDLY) Religion will reduce link(YIELD_DISCONTENT){YIELD_DISCONTENT} while an link(OPINIONRELIGION_UPSET), link(OPINIONRELIGION_ANGRY), or link(OPINIONRELIGION_FURIOUS) Religion will increase link(YIELD_DISCONTENT){YIELD_DISCONTENT}.</English>
+All Religions give link(YIELD_CULTURE){YIELD_CULTURE} to their Cities, and a link(OPINIONRELIGION_PLEASED) or link(OPINIONRELIGION_FRIENDLY) Religion will reduce link(YIELD_DISCONTENT){YIELD_DISCONTENT} while an link(OPINIONRELIGION_UPSET), link(OPINIONRELIGION_ANGRY), or link(OPINIONRELIGION_FURIOUS) Religion will increase link(YIELD_DISCONTENT){YIELD_DISCONTENT}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CONCEPT_DESIRED_AMBITION</zType>
@@ -2712,6 +3070,10 @@ All Religions give link(YIELD_CULTURE){YIELD_CULTURE} to their Cities, and a lin
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_RIVER_FRESH_WATER</zType>
 		<Translation>{0_freshWaterLink} Zugang</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_RIVER_MOVEMENT</zType>
+		<Translation>Movement along the edge of a River costs 2/3 of a {MOVEMENT} movement point (and ignores any extra costs from Terrain, Height, or Vegetation). Crossing a River costs an extra {MOVEMENT} movement point.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_RIVER_CROSSINGS</zType>
@@ -2754,8 +3116,16 @@ All Religions give link(YIELD_CULTURE){YIELD_CULTURE} to their Cities, and a lin
 		<Translation>Siedlungsfelder beeinhalten Stadt- und Barbaren-Plätze</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_STATE_RELIGION</zType>
+		<Translation>Eine link(CONCEPT_STATE_RELIGION) anzunehmen steigert die Meinung dieser Religion, reduziert link(YIELD_DISCONTENT) in Städten dieser Religion und ermöglicht außerdem die Anwerbung von link(CONCEPT_DISCIPLE,2) in diesen Städten.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_STRENGTH</zType>
 		<Translation>Angriff und Verteidungs Stärke</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_SUCCESSION</zType>
+		<Translation>Your Succession Law determines who is the next Heir. Changing Succession Laws costs link(YIELD_CIVICS)icon(YIELD_CIVICS) and can upset Characters who are moved farther from the throne.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_SUBJECT_TRAIT_ANY</zType>
@@ -2830,6 +3200,10 @@ All Religions give link(YIELD_CULTURE){YIELD_CULTURE} to their Cities, and a lin
 		<Translation>{0_unitCycle} Einheiten:</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_UNIT_STRENGTH</zType>
+		<Translation>Attack and Defense Strength</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_UPKEEP</zType>
 		<Translation>Aktueller Unterhalt:</Translation>
 	</Entry>
@@ -2880,6 +3254,34 @@ All Religions give link(YIELD_CULTURE){YIELD_CULTURE} to their Cities, and a lin
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_VICTORY_NO_WONDERS</zType>
 		<Translation>0: von Wundern</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_UPGRADE</zType>
+		<Translation>Verbesserungen konvertieren einen Einheit in einen anderen Typ, auf Kosten von Training und anderen Einheitsspezifischen Ressourcen.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_UPGRADE_IMPROVEMENTS</zType>
+		<Translation>Verbessere eine Verbesserung auf die nächste Stufe (zum Beispiel, link(IMPROVEMENT_THEATER_1) zu link(IMPROVEMENT_THEATER_2)).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_VISION</zType>
+		<Translation>Vision is the range of Tiles around a Unit which are visible. (These Tiles must have been previously revealed.)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_WEAKNESS</zType>
+		<Translation>Negative Character Trait, of which they can have a maximum of int(MAX_WEAKNESSES).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_WORLD_RELIGION</zType>
+		<Translation>The four World Religions (link(RELIGION_JUDAISM), link(RELIGION_ZOROASTRIANISM), link(RELIGION_CHRISTIANITY), and link(RELIGION_MANICHAEISM)) are founded when a link(CONCEPT_NATION) achieves each one's specific prerequisites. Cities with that Religion can then build link(CONCEPT_DISCIPLE,2) which are capable of spreading the Religion to other link(CONCEPT_SETTLEMENT,2). These link(CONCEPT_DISCIPLE,2) can also build link(IMPROVEMENTCLASS_MONASTERY,2), link(IMPROVEMENTCLASS_TEMPLE,2), link(IMPROVEMENTCLASS_CATHEDRAL,2), and link(IMPROVEMENTCLASS_HOLY_SITE,2) of their link(CONCEPT_RELIGION). Finally, link(CONCEPT_DISCIPLE,2) can establish link(CONCEPT_THEOLOGY,1) for World Religions.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_XP</zType>
+		<Translation>Über die Zeit erhalten Einheiten und Charaktere EP (Erfahrung), welche für link(CONCEPT_PROMOTION,2) und Merkmale benutzt werden können, in dieser Reihenfolge.
+		
+Einheiten erhalten EP während des Kämpfens oder wenn sie link(CONCEPT_IDLE) auf einer bestimmten link(CONCEPT_IMPROVEMENT,2) stehen. (link(UNITTRAIT_MELEE) Einheiten erlangen EP in link(IMPROVEMENT_BARRACKS,1), und link(UNITTRAIT_RANGED) Einheiten erhalten EP auf dem link(IMPROVEMENT_RANGE,1).
+
+Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link(CONCEPT_GENERAL), link(CONCEPT_GOVERNOR) oder link(CONCEPT_COUNCILOR), und durch Ereignisse.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_ZOC</zType>
@@ -3313,6 +3715,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_CAN_ESTABLISH_THEOLOGY</zType>
 		<Translation>Kann eine Religionswissenschaft einführen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_TYPE_MUST_UNLIMBER</zType>
+		<Translation>Must be link(CONCEPT_UNLIMBERED) before Attacking</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_CAN_FOUND_CITY</zType>
@@ -4949,6 +5355,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>Missionen:</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_POTENTIAL_COURTIER</zType>
+		<Translation>Mögliche Vertraute:</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_COURTIER</zType>
 		<Translation>Kann als link(CONCEPT_GENERAL), link(CONCEPT_GOVERNOR), oder link(CONCEPT_AGENT) dienen.
 Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COURAGE) fügt link(YIELD_TRAINING) hinzu).</Translation>
@@ -5028,6 +5438,10 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 		<Translation>Kann keine Diplomatie für {0} mehr {1_turnScale} durchführen</Translation>
 	</Entry>
 	<!--Trait Help-->
+	<Entry>
+		<zType>TEXT_HELPTEXT_ARCHETYPE_HELP</zType>
+		<Translation>A character can only have one Archetype, and they are Traits that determine which jobs a Character may have. (For example, link(TRAIT_JUDGE_ARCHETYPE,1) can be either link(CONCEPT_GOVERNOR,1) or link(COUNCIL_CHANCELLOR,1).) Each Archetype also grants different bonuses, some of which only apply if the character is doing a particular job, such as link(CONCEPT_GENERAL) or link(CONCEPT_GOVERNOR). The field of study you choose for your link(CONCEPT_HEIRS) determines their eventual Archetype.</Translation>
+	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_TITLE</zType>
 		<Translation>{true_0:{0_icon} }{1_trait} (Merkmal)</Translation>
@@ -6426,6 +6840,10 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 		<Translation>Active player surrenders and becomes controlled by the AI</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_CLOUD_SKIP</zType>
+		<Translation>Skip the active player's turn</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_CLOUD_REFRESH</zType>
 		<Translation>Click to check for updates for the status of your cloud games</Translation>
 	</Entry>
@@ -7141,7 +7559,7 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_OPINION_OF_PLAYER</zType>
-		<English>{0_player} link(CONCEPT_OPINION_PLAYER,3) von {true_1:{1}:Euch}: {2}</English>
+		<Translation>{0_player} link(CONCEPT_OPINION_PLAYER,3) von {true_1:{1}:Euch}: {2}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_OPINION_RIVAL_NATION</zType>
@@ -7149,11 +7567,11 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_HELP_RELIGION_OPINION_OF</zType>
-		<English>{0} link(CONCEPT_OPINION_RELIGION,3) von {true_1:{1}:Euch}: {2}</English>
+		<Translation>{0} link(CONCEPT_OPINION_RELIGION,3) von {true_1:{1}:Euch}: {2}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_HELP_RELIGION_OPINION</zType>
-		<English>link(CONCEPT_OPINION_RELIGION,1): {0}</English>
+		<Translation>link(CONCEPT_OPINION_RELIGION,1): {0}</Translation>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_HELPTEXT_OPINION_HELP_BIRTH_MODIFIER</zType>
@@ -7228,7 +7646,8 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TOOLTIP_FREEZE_TOOLTIP</zType>
-		<Translation><![CDATA[Halte Kurzinfo fest: [MITTEL-KLICK]<br><true_0> Halte Kurzinfo fest: {0_presskey}<false><end>]]></Translation>
+		<Translation><![CDATA[Halte Kurzinfo fest:
+[MITTLERER-MAUSKLICK]<br>{true_0: or {0_presskey}}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TOOLTIP_TILE_XY</zType>

@@ -252,11 +252,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_CONVERT_SELF_TARGET</zType>
-		<Translation>Konvertiere zu</Translation>
+		<Translation>Konvertiere zu </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_CONVERT_RELIGION</zType>
-		<Translation>Konvertiere Religion</Translation>
+		<Translation>Konvertiere zu link(CONCEPT_STATE_RELIGION)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_INTERCESSION</zType>

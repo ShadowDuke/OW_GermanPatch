@@ -60,8 +60,16 @@
     <Entry>
         <zType>TEXT_MISCOPTION_GRAPHICS_PRESET_DESC</zType>
 	    <Translation>Grafik Voreinstellungen für alle Optionen</Translation>
-    </Entry>
-    <Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISCOPTION_LOD_QUALITY_NAME</zType>
+		<Translation>Gebäude Qualität</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISCOPTION_LOD_QUALITY_DESC</zType>
+		<Translation>Gebäude Qualität und Detaillevel</Translation>
+	</Entry>
+	<Entry>
         <zType>TEXT_MISCOPTION_RENDERING_QUALITY_NAME</zType>
         <Translation>Renderqualität</Translation>
     </Entry>

@@ -18,6 +18,211 @@
 		<zType>TEXT_BUILD_UNIT</zType>
 		<Translation>Einheit</Translation>
 	</Entry>
+	<!--TutorialConcept-->
+	<Entry>
+		<zType>TEXT_TUTORIAL_ORDERS</zType>
+		<Translation>Orders</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_SCOUTS</zType>
+		<Translation>Scout</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_LUXURIES</zType>
+		<Translation>Luxuries</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_TOOLTIPS</zType>
+		<Translation>Tooltips</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_TECH_DECK</zType>
+		<Translation>Tech Deck</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_CHOP_WOOD</zType>
+		<Translation>Chop Wood</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_ANCHORING</zType>
+		<Translation>Anchoring</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_SECOND_CITY</zType>
+		<Translation>Second City</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_PAGAN_SHRINE</zType>
+		<Translation>Pagan Shrine</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_RALLY_TROOPS</zType>
+		<Translation>Rally Troops</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_HOLD_COURT</zType>
+		<Translation>Hold Court</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_INFLUENCE</zType>
+		<Translation>Influence</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_IMPRISON</zType>
+		<Translation>Imprison</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_INTERCESSION</zType>
+		<Translation>Intercession</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_WORKER</zType>
+		<Translation>Worker</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_RUSH_BUYING</zType>
+		<Translation>Rush Buying</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_CARAVAN_SELECTED</zType>
+		<Translation>Caravans</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_SLINGER</zType>
+		<Translation>Slinger</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_WARRIOR</zType>
+		<Translation>Warrior</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_ROUT</zType>
+		<Translation>Rout</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_UNIT_UPGRADES</zType>
+		<Translation>Unit Upgrades</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_TRIBE_CAMP_CLEARED</zType>
+		<Translation>Tribal Camps</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_CITY_CAPTURED</zType>
+		<Translation>City Capture</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_CULTURE</zType>
+		<Translation>Culture</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_HARVEST_RESOURCE</zType>
+		<Translation>Harvest Resource</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_UNIT_ATTACK_COOLDOWN</zType>
+		<Translation>Attack Cooldown</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_UNIT_FATIGUED</zType>
+		<Translation>Unit Fatigued</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_UNDO</zType>
+		<Translation>Undo</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_RELIGION</zType>
+		<Translation>Religion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_CHARIOT_SELECTED</zType>
+		<Translation>Chariots</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_NATION_CONTACT</zType>
+		<Translation>Nations</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_TRIBES</zType>
+		<Translation>Tribes</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_SPECIALIST</zType>
+		<Translation>Specialist</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_GOVERNOR</zType>
+		<Translation>Governor</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_TRAINING_IMPROVEMENT</zType>
+		<Translation>Training Improvement</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_TRADE_NETWORK</zType>
+		<Translation>Trade Network</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_MERCENARIES</zType>
+		<Translation>Mercenaries</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_AMBITION</zType>
+		<Translation>Ambitions</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_SUCCESSION</zType>
+		<Translation>Succession</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_INHERITANCE_LAWS</zType>
+		<Translation>Inheritance Laws</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_LEGITIMACY</zType>
+		<Translation>Legitimacy</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_MARRIAGE</zType>
+		<Translation>Marriage</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_GENERAL</zType>
+		<Translation>General</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_SPEARMAN</zType>
+		<Translation>Spearman</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_AXEMAN</zType>
+		<Translation>Axeman</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_ONAGER</zType>
+		<Translation>Onager</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_FAMILY</zType>
+		<Translation>Families</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_AMBASSADOR</zType>
+		<Translation>Ambassador</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_CHANCELLOR</zType>
+		<Translation>Chancellor</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_SPYMASTER</zType>
+		<Translation>Spymaster</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_AGENTS</zType>
+		<Translation>Agents</Translation>
+	</Entry>
 	<!--InfoConcept-->
 	<Entry>
 		<zType>TEXT_CONCEPT_AGENT</zType>
@@ -963,7 +1168,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_SIX_RESOURCE_IMPROVEMENTS</zType>
-		<Translation>Sechs link(IMPROVEMENT_PASTURE,2), link(IMPROVEMENT_CAMP,2), link(IMPROVEMENT_GROVE,2), oder link(IMPROVEMENT_NETS)</Translation>
+		<Translation>Kontrolliere sechs link(IMPROVEMENT_PASTURE,2), link(IMPROVEMENT_CAMP,2), link(IMPROVEMENT_GROVE,2), oder link(IMPROVEMENT_NETS)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_SIX_URBAN_IMPROVEMENTS</zType>
@@ -2147,42 +2352,6 @@
 	<Entry>
 		<zType>TEXT_TERRAIN_TUNDRA</zType>
 		<Translation>Tundra</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_YIELD_GROWTH_HELP</zType>
-		<Translation>Wenn das link(YIELD_GROWTH){YIELD_GROWTH} einer Stadt steigt, bekommt die Stadt einen neuen Bürger. Grundlegende Wege um {link(YIELD_GROWTH){YIELD_GROWTH} zu steigern beinhaltet das ausbilden von link(SPECIALIST_FARMER,2) und bauen von link(IMPROVEMENTCLASS_BATHS,2).</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_YIELD_CIVICS_HELP</zType>
-		<Translation>Wird benutzt um Spezialisten auszubilden und Projekte abzuschließen. Unbenutze {YIELD_CIVICS} wird dem nationalen Vorrat beigefügt, welcher benutzt werden kann um Gesetze zu Erlassen und Religionswissenschaft zu etablieren. Steigere {YIELD_CIVICS} durch den Bau von link(IMPROVEMENTCLASS_COURTHOUSE,2) und link(PROJECT_FORUM_1,2).</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_YIELD_TRAINING_HELP</zType>
-		<Translation>Wird benutzt um Militäreinheiten auszubilden. Unbenutzes link(YIELD_TRAINING){YIELD_TRAINING} wird dem nationalen Vorrat beigefügt, welches benutzt werden kann um Einheiten zu befördern und zu verbessern. Verstärke link(YIELD_TRAINING){YIELD_TRAINING} durch den Bau von link(IMPROVEMENT_BARRACKS,2) und link(IMPROVEMENT_RANGE,2).</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_YIELD_CULTURE_HELP</zType>
-		<Translation>Wenn die link(YIELD_CULTURE){YIELD_CULTURE} einer Stadt sich erhöht, geschieht ein positives Ereignis. Die komplette link(YIELD_CULTURE){YIELD_CULTURE} der Stadt beeinflusst welche Verbesserungen und Wunder gebaut werden können. Erhöhe link(YIELD_CULTURE){YIELD_CULTURE} durch den Bau von link(IMPROVEMENTCLASS_SHRINE,2) und link(IMPROVEMENTCLASS_ODEON,2).</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_YIELD_DISCONTENT_HELP</zType>
-		<Translation>Städte schüren link(YIELD_DISCONTENT){YIELD_DISCONTENT} über die Zeit. Wenn die sich link(YIELD_DISCONTENT){YIELD_DISCONTENT} einer Stadt vermehrt, erhöht sich seine gesammtes link(YIELD_DISCONTENT){YIELD_DISCONTENT}, welches die link(YIELD_MAINTENANCE){YIELD_MAINTENANCE} erhöht und link(YIELD_GROWTH){YIELD_GROWTH} reduziert. Benutze link(PROJECT_FESTIVAL,2) um link(YIELD_DISCONTENT){YIELD_DISCONTENT} zu verringern.</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_YIELD_SCIENCE_HELP</zType>
-		<Translation>Wird benutzt um Technologien zu erforschen. Steigere link(YIELD_SCIENCE){YIELD_SCIENCE} durch den Bau von link(PROJECT_ARCHIVE_1,2) und link(IMPROVEMENTCLASS_LIBRARY,2).</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_YIELD_MONEY_HELP</zType>
-		<Translation>Wird benutzt um andere Ressourcen zu kaufen. Steigert link(YIELD_MONEY){YIELD_MONEY} durch den Bau von link(IMPROVEMENT_HAMLET,2) und link(IMPROVEMENTCLASS_MARKET,2).</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_YIELD_MAINTENANCE_HELP</zType>
-		<Translation>Mindert die Anzahl von link(YIELD_MONEY){YIELD_MONEY} Einkommen die eine Stadt generiert. link(YIELD_MAINTENANCE){YIELD_MAINTENANCE} kann verringert werden wenn die Stadt mit deiner Hauptstadt verbunden wird.</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_YIELD_ORDERS_HELP</zType>
-		<Translation>link(YIELD_ORDERS){YIELD_ORDERS} können für verschiedene Aktionen ausgegeben werden, wie etwa bewegen, angreifen und Verbesserungen bauen. Ungenutzte {YIELD_ORDERS} werden für link(YIELD_MONEY){YIELD_MONEY} am Ende des Jahres verkauft.</Translation>		   
 	</Entry>
 	<!-- InfoTheology-->
 	<Entry>

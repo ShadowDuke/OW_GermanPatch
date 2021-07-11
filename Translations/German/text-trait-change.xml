@@ -604,7 +604,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SPOILED_GAIN_1</zType>
-		<Translation>{0_character} vermutlich aus der Haut fahren wenn es für {masculine_0:ihn:sie} nicht nach {masculine_0:seiner:ihrer} Pfeife geht, eine höchst {1_trait} Person!</Translation>
+		<Translation>Vermutlich wird {0_character} aus der Haut fahren wenn es für {masculine_0:ihn:sie} nicht nach {masculine_0:seiner:ihrer} Pfeife geht, eine höchst {1_trait} Person!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_STUDY_PHILOSOPHY</zType>

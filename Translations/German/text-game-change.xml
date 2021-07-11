@@ -271,7 +271,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_LANDMARK_NAMED</zType>
-		<Translation>Ihr seid der erste, der dieses Wahrzeichen entdeckt habt. Wie werdet ihr es nennen?</Translation>
+		<Translation>Ihr seid der erste, der dieses Wahrzeichen entdeckt hat. Wie werdet ihr es nennen?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TRIBE_RAID_WARNING</zType>
@@ -299,7 +299,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_GIVE_BIRTH_NON_LEADER_ILLEGITIMATE</zType>
-		<Translation><![CDATA[{0_father} hat mit {1_childName} <masculine_1>einen neuen unehelichen Sohn<feminine>eine neue uneheliche Tochter<end>!]]></Translation>
+		<Translation><![CDATA[{0_father} hat mit {1_childName} <masculine_1>einen neuen unehelichen Sohn<feminine>eine neue uneheliche Tochter<end>, {1_childName}!]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_EVENT_CITY_LOG_DATA</zType>
@@ -461,11 +461,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_FREE_LAW</zType>
-		<Translation>Freies {0_law}</Translation>
+		<Translation>Kostenloses {0_law}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_FREE_THEOLOGY</zType>
-		<Translation>Freie {0_theology} ({1_religion})</Translation>
+		<Translation>Kostenlose {0_theology} ({1_religion})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_FOUND_RELIGION_CITY</zType>
