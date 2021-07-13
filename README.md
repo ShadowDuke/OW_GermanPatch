@@ -20,7 +20,7 @@ Zur [deutschen Anleitung](https://github.com/ShadowDuke/OW_GermanPatch#deutsch) 
 At the 5th line it says *Version* make it look like this (edit the version-nr to the current one you want to play with) **Version="Version: 0.1.52901+German Translation Part 1=-1983943"** - make sure *German Translation* is selected at the Mods options.<br>
 For the **mod.io** version its **Version="Version: 0.1.53207+German Translation Part 1=-1983943"**
 
-**Its possible that since the Release Version the dir name could have changed. You need to change the name in the savegame to the name in \Documents\My Games\OldWorld\Translations instead "German Translation Part 1". Possible its german1**
+**Its possible that since the Release Version the dir name could have changed. You need to change the name in the savegame to the name in \Documents\My Games\OldWorld\Translations instead "German Translation Part 1". Possible its german1 (for mod.io) & german (for github).**
 
 Loading an existing savegame should work without the need to do the procedure again. Language in the options are also saved upon exting the game.
 
@@ -47,7 +47,7 @@ If you want to, you can give me a tip at [Paypal](https://www.paypal.com/cgi-bin
 Auf der 5 Zeile steht *Version* - bearbeite die Zeile das sie so aussieht, **Version="Version: 0.1.52901+German Translation Part 1=-1983943"** - gehe sicher das *German Translation* bei Modifikationen eingestellt ist.<br>
 Für die **mod.io** Version ist das **Version="Version: 0.1.53207+German Translation Part 1=-1983943"**
 
-**Es kann sein, dass durch die Umstellung von EA zu Release version der Ordername sich geändert hat, Guckt in \Documents\My Games\OldWorld\Translations wie der Ordername heißt, und bennent den dann im Savegame auch so anstatt "German Translation Part 1". Es kann sein das es german1 ist**
+**Es kann sein, dass durch die Umstellung von EA zu Release version der Ordername sich geändert hat, Guckt in \Documents\My Games\OldWorld\Translations wie der Ordername heißt, und bennent den dann im Savegame auch so anstatt "German Translation Part 1". Es kann sein das es german1 (für mod.io) & german (für github) ist.**
 
 Einen vorhandenen Spielstand zu laden sollte ohne Probleme funktionieren, ohne dass man das ganze noch ein mal so einstellen muss. Die Sprache wird in den Optionen gesspeichert.
 
