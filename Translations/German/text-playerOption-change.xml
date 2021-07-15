@@ -170,6 +170,14 @@
 		<Translation>For livestreamers: Skip any music tracks with licensed content, to help avoid copyright strikes on streaming platforms.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_PLAYEROPTION_DONT_MUTE_FOCUS</zType>
+		<Translation>Play Sound without Focus</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_DONT_MUTE_FOCUS_DESC</zType>
+		<Translation>Game audio continues playing in the background even when switching to another application (useful for streaming or recording purposes).</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_PLAYEROPTION_AZERTY_KEYBOARD</zType>
 		<Translation>AZERTY Tastatur</Translation>
 	</Entry>

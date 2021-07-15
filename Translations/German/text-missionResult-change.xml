@@ -335,10 +335,6 @@
 		<Translation>Erkläre link(DIPLOMACY_WAR)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSIONRESULT_PLAYER_DECLARE_WAR_HUMAN_EVENT</zType>
-		<Translation>Erkläre link(DIPLOMACY_WAR)</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_BREAK_PEACE_EVENT</zType>
 		<Translation>Breche link(DIPLOMACY_PEACE)</Translation>
 	</Entry>

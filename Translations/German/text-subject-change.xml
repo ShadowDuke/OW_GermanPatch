@@ -14,10 +14,6 @@
 		<Translation>Kein link(CONCEPT_ALLIANCE_PLAYER)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_SUBJECT_PLAYER_NO_ALLIANCE_ANY</zType>
-		<Translation>Kein link(CONCEPT_ALLIANCE_PLAYER)</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_PEACE_FRIENDLY</zType>
 		<Translation>link(DIPLOMACY_PEACE) und min link(OPINIONPLAYER_FRIENDLY)</Translation>
 	</Entry>
@@ -107,10 +103,6 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_TRIBE_NO_ALLIANCE</zType>
-		<Translation>Kein link(CONCEPT_ALLIANCE_TRIBE)</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_SUBJECT_TRIBE_NO_ALLIANCE_ANY</zType>
 		<Translation>Kein link(CONCEPT_ALLIANCE_TRIBE)</Translation>
 	</Entry>
 	<Entry>

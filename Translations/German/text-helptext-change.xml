@@ -438,7 +438,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_EFFECT_CITY_SOURCE_GOVERNOR</zType>
-		<Translation>{0_source} Stadthalter</Translation>
+		<Translation>{0_source} Statthalter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_EFFECT_CITY_SOURCE_FAMILY</zType>
@@ -1087,6 +1087,10 @@
 		<Translation><![CDATA[Zeige Städteverbindungs Übersicht<br>[Shift+Klick] um Einblendung fest zu halten<br>{true_0:{0_presskey}}]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_ROADS_RIVERS_OVERLAY</zType>
+		<Translation><![CDATA[Zeige Straßen und Flüsse Overlay<br>[Shift+Click] um Overlay festzuhalten<br>{true_0:{0_presskey}}]]></Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_TILE_YIELDS_OVERLAY</zType>
 		<Translation><![CDATA[Show Tile Yields Overlay<br>[Shift+Click] to lock overlay<br>{true_0:{0_presskey}}]]></Translation>
 	</Entry>
@@ -1531,6 +1535,14 @@
 		<Translation>Entlässt {0_governor} aus {1_city}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_RELEASE_AGENT</zType>
+		<Translation>Entlässt {0_agent} von {1_city}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_RELEASE_AGENT_MISSION</zType>
+		<Translation>Kann nicht entlassen wärhend einer Missio: {0}{true_2: ({2_link})}, {1_turns}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_START_MISSION_CANCEL</zType>
 		<Translation><![CDATA[Halte <TEXT_HOTKEY_CTRL> um abzubrechen]]></Translation>
 	</Entry>
@@ -1846,7 +1858,11 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
         <zType>TEXT_HELPTEXT_WIDGET_ROAD_TO_KEY</zType>
 		<Translation>{0} um Straße-Zu Modus zu aktivieren</Translation>
     </Entry>
-    <Entry>        
+    <Entry>
+		<zType>TEXT_HELPTEXT_ROAD_NETWORK_HOTKEY</zType>
+		<Translation>Halte [{0_key}] um alle link(CONCEPT_ROAD,2) und link(CONCEPT_RIVER,2) zu sehen.</Translation>
+	</Entry>
+	<Entry>
         <zType>TEXT_HELPTEXT_WIDGET_CANCEL_ROAD_TO_KEY</zType>
         <Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> um "Verbundene Städte" Modus abzubrechen]]></Translation>
     </Entry>
@@ -2267,9 +2283,31 @@ If you have researched the link(TECH_ARISTOCRACY) technology and you have an ava
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_FAMILY</zType>
-		<Translation>link(CONCEPT_FAMILY) opinion is influenced by the link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) in their Cities and by player Event choices. Cities gain link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) over time. You can reduce link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) by connecting your cities with link(CONCEPT_ROAD,2), adopting a link(CONCEPT_STATE_RELIGION), building certain link(CONCEPT_IMPROVEMENT,2) like link(IMPROVEMENTCLASS_BATHS,2), and enacting certain Laws such as link(LAW_CONSTITUTION) and link(LAW_TOLERANCE).
+		<Translation>link(CONCEPT_OPINION_FAMILY,1) is influenced by the link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) in their Cities and by Event choices. Cities gain link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) over time. You can reduce link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) by connecting your cities with the link(CONCEPT_TRADE_NETWORK), adopting a link(CONCEPT_STATE_RELIGION), building certain link(CONCEPT_IMPROVEMENT,2) like link(IMPROVEMENTCLASS_BATHS,2), and enacting certain Laws such as link(LAW_CONSTITUTION) and link(LAW_TOLERANCE).
 
-If link(CONCEPT_FAMILY,1) is link(OPINIONFAMILY_ANGRY) with you, then Rebel Units may begin spawning in their Cities!</Translation>
+If a link(CONCEPT_FAMILY) is link(OPINIONFAMILY_ANGRY) with you, then Rebel Units may begin spawning in their Cities!
+
+link(CONCEPT_FAMILY,2) have link(CONCEPT_FAMILY_CLASS,2) that determine what Laws, link(CONCEPT_LUXURY,2), and other conditions keep them happy.
+
+link(FAMILYCLASS_LANDOWNERS) need land of course, so they want to have the most Cities of any of your link(CONCEPT_FAMILY,2), and they are especially displeased by having the fewest. Their opinion of you will improve with access to link(CONCEPT_LUXURY,2) like link(RESOURCE_OLIVE) and link(RESOURCE_HONEY). Always in need of labor for their fields, link(FAMILYCLASS_LANDOWNERS) are pleased by the link(LAW_SERFDOM) Law
+	
+link(FAMILYCLASS_CHAMPIONS) like to fight, and their opinion of you will improve if they have the largest military of all your link(CONCEPT_FAMILY,2). Likewise, they will feel insulted if given the fewest military units. Their opinion of you will also increase with access to link(CONCEPT_LUXURY,2) like link(RESOURCE_WINE) and link(RESOURCE_DYE). link(FAMILYCLASS_CHAMPIONS) are pleased by the link(LAW_VOLUNTEERS) Law.
+	
+link(FAMILYCLASS_STATESMEN) are of course concerned with matters of state and public opinion, and cast a wary eye on unmarried Leaders. They also seek advancement for themselves, and are dismayed by a Leader who does not share power by appointing Council Members. Their opinion of you will improve with access to link(CONCEPT_LUXURY,2) like link(RESOURCE_PEARL) and link(RESOURCE_WINE). link(FAMILYCLASS_STATESMEN) are pleased by the adoption of a link(LAW_CONSTITUTION).
+	
+link(FAMILYCLASS_PATRONS) are especially impressed by building Wonders, but they don't have much tolerance for child Leaders. Their opinion of you will improve with access to link(CONCEPT_LUXURY,2) like link(RESOURCE_GEM) and link(RESOURCE_INCENSE). link(FAMILYCLASS_PATRONS) are also pleased by the link(LAW_CALLIGRAPHY) Law.
+	
+link(FAMILYCLASS_CLERICS) want nothing more than to spread their faith, and so they are especially pleased when ruling over the most subjects of all your link(CONCEPT_FAMILY,2). Likewise, they will be displeased when ruling over a City without a Religion. Their opinion of you will improve with access to link(CONCEPT_LUXURY,2) like link(RESOURCE_INCENSE) and link(RESOURCE_LAVENDER). Enacting link(LAW_DIVINE_RULE) will also improve their opinion of you.
+	
+link(FAMILYCLASS_SAGES) look down on leaders with Tribal spouses, and they especially like their Cities to be protected. Their opinion of you will improve with access to link(CONCEPT_LUXURY,2) like link(RESOURCE_SALT) and link(RESOURCE_LAVENDER). link(FAMILYCLASS_SAGES) are also pleased by the link(LAW_FREEDOM) Law.
+	
+link(FAMILYCLASS_TRADERS) will like you more if you keep their Cities connected, but are displeased by damaged Cities. It's bad for business. Their opinion of you will improve with access to link(CONCEPT_LUXURY,2) like link(RESOURCE_OLIVE) and link(RESOURCE_PEARL). link(FAMILYCLASS_TRADERS) are naturally pleased by the link(LAW_TRADE_LEAGUE) and link(LAW_MONETARY_REFORM) Laws.
+	
+link(FAMILYCLASS_ARTISANS) can't stand interruptions in production, and so they are particularly distressed by pillaged link(CONCEPT_IMPROVEMENT,2) in their territories. Their opinion of you will improve with access to link(CONCEPT_LUXURY,2), especially link(RESOURCE_GEM) and link(RESOURCE_DYE). link(FAMILYCLASS_ARTISANS) are also pleased by the link(LAW_GUILDS) Law.
+	
+link(FAMILYCLASS_RIDERS) won't suffer the indignity of hostile Units inside their territory, but their opinion of you will improve with access to link(CONCEPT_LUXURY,2) like link(RESOURCE_FUR) and link(RESOURCE_SALT). link(FAMILYCLASS_RIDERS) are also pleased by the link(LAW_VASSALAGE) Law.
+	
+link(FAMILYCLASS_HUNTERS) want to keep their Units close to home, and their opinion of you will improve with access to link(CONCEPT_LUXURY,2) like link(RESOURCE_FUR) and link(RESOURCE_HONEY). link(FAMILYCLASS_HUNTERS) are also pleased by the link(LAW_EXPLORATION) Law.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_ONAGER</zType>
@@ -2369,11 +2407,11 @@ To conduct diplomacy, you must appoint an link(COUNCIL_AMBASSADOR).</Translation
 		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_GOVERNOR</zType>
 		<Translation>A City link(CONCEPT_GOVERNOR) can be recruited from your court by clicking the wreath icon  icon(JOB_GOVERNOR) button below the City banner or within the City Screen by clicking the question mark button in the bottom left. A link(CONCEPT_GOVERNOR) can boost the yields of a City based on their unique Traits.
 
-A City can only be governed by a member of its ruling link(CONCEPT_FAMILY) or by the leader.</Translation>
+A Governor (with the exception of the Leader) cannot be from a different link(CONCEPT_FAMILY) from that of the City.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_RELIGION</zType>
-		<Translation>Religions provide link(YIELD_CULTURE)icon(YIELD_CULTURE) to the Cities they're in. You can choose to adopt a link(CONCEPT_STATE_RELIGION) for your Nation, allowing you to guide the impact that Religion has on your Cities.</Translation>
+		<Translation>link(CONCEPT_RELIGION,2) provide link(YIELD_CULTURE)icon(YIELD_CULTURE) to the Cities they're in. You can choose to adopt a link(CONCEPT_STATE_RELIGION) for your Nation, allowing you to guide the impact that Religion has on your Cities.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_UNDO</zType>
@@ -2483,6 +2521,72 @@ Be sure to protect your link(UNIT_CARAVAN,2) en-route to their destination as th
 		<Translation>The link(UNIT_WARRIOR) is the first link(UNITTRAIT_MELEE) Unit available to your Nation. link(UNITTRAIT_MELEE) Units will form the backbone of your army, defending you from enemy link(CONCEPT_TRIBE,2) and Nations.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_URBAN_RESOURCES</zType>
+		<Translation>Stadtteil Felder beinhalten link(YIELD_GROWTH)icon(YIELD_GROWTH), link(YIELD_MAINTENANCE)icon(YIELD_MAINTENANCE), link(YIELD_DISCONTENT){YIELD_DISCONTENT}, link(YIELD_CIVICS)icon(YIELD_CIVICS), link(YIELD_TRAINING)icon(YIELD_TRAINING), link(YIELD_CULTURE)icon(YIELD_CULTURE), link(YIELD_SCIENCE)icon(YIELD_SCIENCE), und link(YIELD_MONEY)icon(YIELD_MONEY).
+			
+icon(bullet) link(YIELD_GROWTH)icon(YIELD_GROWTH)
+			
+link(YIELD_GROWTH)icon(YIELD_GROWTH) is essential for expanding your Population and increasing the yields of your Cities. Cities produce a new link(CONCEPT_CITIZEN) each time their Growth{YIELD_GROWTH} bar fills up. Each link(EFFECTCITY_CITIZEN) provides a small amount of link(YIELD_ORDERS)icon(YIELD_ORDERS), can be converted into link(CONCEPT_SPECIALIST,1), and augments the output of certain link(CONCEPT_SPECIALIST,2) such as link(SPECIALIST_PRIEST_3,2) and link(SPECIALIST_POET_3,2).  
+
+Cities with high link(YIELD_GROWTH)icon(YIELD_GROWTH) train new Civilian Units like link(UNIT_SETTLER,2), link(UNIT_WORKER,2), and link(UNIT_SCOUT,2) more rapidly. While a City produces a Civilian Unit, its Growth{YIELD_GROWTH} bar no longer fills. link(UNIT_MILITIA) and link(UNIT_CONSCRIPT) Units are also produced with link(YIELD_GROWTH)icon(YIELD_GROWTH), instead of link(YIELD_TRAINING)icon(YIELD_TRAINING) like other Military Units.
+			
+You can increase a City's Growth{YIELD_GROWTH} by training link(SPECIALIST_FARMER,2), link(SPECIALIST_DOCTOR_1,2), and link(SPECIALIST_SHOPKEEPER_1,2) (and their upgrades), and building link(IMPROVEMENT_GRANARY,2) and link(IMPROVEMENT_TOWN,2). link(IMPROVEMENT_FARM,2) will also augment link(YIELD_GROWTH) even further if built on a link(EFFECTCITY_RESOURCE_CROP) like link(RESOURCE_WHEAT) or link(RESOURCE_BARLEY), or next to a link(IMPROVEMENT_GRANARY). link(IMPROVEMENT_PASTURE,2) provide link(YIELD_ORDERS) if built on link(RESOURCE_HORSE), but will yield link(YIELD_FOOD) and link(YIELD_GROWTH)icon(YIELD_GROWTH) on other resources. link(IMPROVEMENTCLASS_CAMP,2) on link(RESOURCE_GAME), link(IMPROVEMENTCLASS_GROVE,2) on link(RESOURCE_CITRUS), and link(IMPROVEMENTCLASS_NETS,2) on link(RESOURCE_CRAB) or link(RESOURCE_FISH) also provide link(YIELD_GROWTH)icon(YIELD_GROWTH). It is worth noting that although many link(CONCEPT_IMPROVEMENT,2) and link(CONCEPT_SPECIALIST,2) provide both link(YIELD_GROWTH)icon(YIELD_GROWTH) and link(YIELD_FOOD)icon(YIELD_FOOD), they are not the same Resource.
+
+link(CONCEPT_FAMILY,2) of the link(FAMILYCLASS_LANDOWNERS) link(CONCEPT_FAMILY_CLASS) provide link(YIELD_GROWTH)icon(YIELD_GROWTH) bonuses to their Cities. link(COUNCIL_AMBASSADOR,2) with a high link(RATING_DISCIPLINE) Rating also boost link(YIELD_GROWTH)icon(YIELD_GROWTH). Keeping your Cities link(EFFECTCITY_CONNECTED), building link(IMPROVEMENTCLASS_BATHS,2) and some Wonders, as well as Projects like link(PROJECT_CONVOY) all increase link(YIELD_GROWTH)icon(YIELD_GROWTH). Leaders and link(CONCEPT_GOVERNOR,2) with the link(TRAIT_AFFABLE) Trait can also boost link(YIELD_GROWTH)icon(YIELD_GROWTH). Certain Religious link(CONCEPT_IMPROVEMENT,2) like link(IMPROVEMENTCLASS_TEMPLE,2), especially when combined with link(LAW_ICONOGRAPHY), and certain link(IMPROVEMENTCLASS_SHRINE,2) also contribute to link(YIELD_GROWTH)icon(YIELD_GROWTH).
+
+icon(bullet) link(YIELD_MAINTENANCE)icon(YIELD_MAINTENANCE)
+
+link(YIELD_MAINTENANCE)icon(YIELD_MAINTENANCE) decreases the amount of link(YIELD_MONEY){YIELD_MONEY} a City generates. link(YIELD_MAINTENANCE)icon(YIELD_MAINTENANCE) costs increase with each link(CONCEPT_CITIZEN) and link(CONCEPT_SPECIALIST), with the distance a City is from your link(CONCEPT_CAPITAL), and with some Leader and link(CONCEPT_GOVERNOR) Traits like link(TRAIT_CORRUPT), and Projects like the link(PROJECT_GRAIN_DOLE). link(YIELD_MAINTENANCE)icon(YIELD_MAINTENANCE) can be reduced by connecting a City to your link(CONCEPT_TRADE_NETWORK), and by improving the link(CONCEPT_OPINION_FAMILY,3) of its ruling link(CONCEPT_FAMILY). Certain link(CONCEPT_IMPROVEMENT,2) like the link(IMPROVEMENT_GARRISON_3) and the link(IMPROVEMENT_COURTHOUSE_3) also reduce link(YIELD_MAINTENANCE)icon(YIELD_MAINTENANCE), but link(CONCEPT_IMPROVEMENT,2) without link(CONCEPT_SPECIALIST,1) increase link(YIELD_MAINTENANCE){YIELD_MAINTENANCE} costs. Adopting link(THEOLOGY_LEGALISM) will also reduce link(YIELD_MAINTENANCE)icon(YIELD_MAINTENANCE).
+
+icon(bullet) link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT)
+
+Cities gain link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) over time. Having fewer of link(CONCEPT_URBAN) Tiles than Population will lead to link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT), and so do certain laws like link(LAW_SLAVERY), and link(PROJECT_CHILD_LABOR), as well has having a link(TRAIT_DEBAUCHED) Leader or link(CONCEPT_GOVERNOR). When a City's link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) meter is filled, its overall link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) Level goes up, which increases link(YIELD_MAINTENANCE)icon(YIELD_MAINTENANCE), and reduces link(YIELD_GROWTH)icon(YIELD_GROWTH) and link(YIELD_SCIENCE)icon(YIELD_SCIENCE). High Discontent{YIELD_DISCONTENT} Levels reduce the link(CONCEPT_OPINION_FAMILY,3) of the ruling link(CONCEPT_FAMILY) of that City. 
+
+You can reduce link(YIELD_DISCONTENT){YIELD_DISCONTENT} by connecting your Cities with the link(CONCEPT_TRADE_NETWORK), adopting Laws such as link(LAW_CONSTITUTION), link(LAW_TOLERANCE), and link(LAW_MONETARY_REFORM), and building link(IMPROVEMENTCLASS_BATHS,2) and link(IMPROVEMENT_THEATER_3,2). link(CONCEPT_LUXURY,2) can be traded to a City to reduce link(YIELD_DISCONTENT), and Religious Opinion affects the link(YIELD_DISCONTENT){YIELD_DISCONTENT} of your Cities with that link(CONCEPT_RELIGION). Adopting a link(CONCEPT_STATE_RELIGION) can reduce link(YIELD_DISCONTENT){YIELD_DISCONTENT}. A link(COUNCIL_SPYMASTER) with a high link(RATING_COURAGE) Rating can reduce link(YIELD_DISCONTENT){YIELD_DISCONTENT}, and so can Leaders and link(CONCEPT_GOVERNOR,2) with the link(TRAIT_RIGHTEOUS) Trait. Projects like link(PROJECT_WALLS), link(PROJECT_MOAT,2) and link(PROJECT_TOWERS), link(PROJECT_FESTIVAL_1), link(PROJECT_FORUM_4), link(PROJECT_TREASURY_4), link(PROJECT_ARCHIVE_4), and Wonders like the link(IMPROVEMENT_HAGIA_SOPHIA) also help reduce link(YIELD_DISCONTENT){YIELD_DISCONTENT}. link(CONCEPT_SPECIALIST,2) like link(SPECIALIST_PRIEST_1) and its upgrades, as well as certain combinations like link(LAW_ICONOGRAPHY) with link(IMPROVEMENTCLASS_CATHEDRAL,2), any Elder link(CONCEPT_SPECIALIST) with link(LAW_CALLIGRAPHY), link(IMPROVEMENT_TOWN,2) with link(LAW_GUILDS), link(SPECIALIST_MONK_3,2) with link(THEOLOGY_ENLIGHTENMENT), link(PROJECT_ARCHIVE_1) with link(TRAIT_SCHOLAR_ARCHETYPE) link(CONCEPT_GOVERNOR,2), and link(THEOLOGY_DUALISM) with link(IMPROVEMENTCLASS_TEMPLE,2) help with link(YIELD_DISCONTENT){YIELD_DISCONTENT}. The link(MISSION_PACIFY_CITY) Mission can also reduce link(YIELD_DISCONTENT){YIELD_DISCONTENT} in targeted Cities.
+	
+icon(bullet) link(YIELD_CIVICS)icon(YIELD_CIVICS)
+	
+Cities produce link(CONCEPT_SPECIALIST,2) and link(CONCEPT_PROJECT,2) with their link(YIELD_CIVICS)icon(YIELD_CIVICS). Unused link(YIELD_CIVICS)icon(YIELD_CIVICS) go into the Global stockpile, which can be used to enact Laws, establish link(CONCEPT_THEOLOGY,2), construct Wonders, hire link(CONCEPT_SPECIALIST,2), link(CONCEPT_HURRY), execute Character Missions like link(MISSION_INFLUENCE), and conduct diplomacy. link(YIELD_CIVICS)icon(YIELD_CIVICS) stockpiles are capped at int(MAX_CIVICS). Above this value, they'll be converted to link(YIELD_SCIENCE)icon(YIELD_SCIENCE).
+
+Increase link(YIELD_CIVICS)icon(YIELD_CIVICS) by hiring link(SPECIALIST_STONECUTTER,2) and completing projects like link(PROJECT_FORUM_1), link(PROJECT_COUNCIL_1), and link(PROJECT_ARCHIVE_1) in your Cities. Global link(YIELD_CIVICS)icon(YIELD_CIVICS) also comes from members of your link(CONCEPT_COURT) with high link(RATING_CHARISMA). Laws like link(LAW_CENTRALIZATION) and link(LAW_LEGAL_CODE) also improve link(YIELD_CIVICS)icon(YIELD_CIVICS) production. link(CONCEPT_FAMILY,2) of the link(FAMILYCLASS_PATRONS), link(FAMILYCLASS_SAGES), and link(FAMILYCLASS_STATESMEN) link(CONCEPT_FAMILY_CLASS,2) provide link(YIELD_CIVICS)icon(YIELD_CIVICS) bonuses to their Cities. Leaders and link(CONCEPT_GOVERNOR,2) with the link(TRAIT_ELOQUENT) or link(TRAIT_PROPHET) Traits can also boost link(YIELD_CIVICS)icon(YIELD_CIVICS). You can increase a City's link(YIELD_CIVICS)icon(YIELD_CIVICS) by training link(SPECIALIST_PHILOSOPHER_2,2), link(SPECIALIST_MONK_2,2), and link(SPECIALIST_SCRIBE_1,2) (and their upgrades), and building link(IMPROVEMENT_LIBRARY_3,2) and link(IMPROVEMENT_COURTHOUSE_1,2) can also help. Certain combinations like a link(IMPROVEMENTCLASS_QUARRY) built on link(RESOURCE_MARBLE), or a link(IMPROVEMENTCLASS_MONASTERY) with the link(THEOLOGY_LEGALISM) link(CONCEPT_THEOLOGY) can also improve link(YIELD_CIVICS)icon(YIELD_CIVICS).
+
+icon(bullet) link(YIELD_TRAINING)icon(YIELD_TRAINING)
+
+link(YIELD_TRAINING)icon(YIELD_TRAINING) is used by Cities to produce Military Units. Unused link(YIELD_TRAINING)icon(YIELD_TRAINING) goes into the Global stockpile, which can be used to buy link(YIELD_ORDERS){YIELD_ORDERS}, conduct link(CONCEPT_MARCH,1), and for Unit link(CONCEPT_PROMOTION,2) and link(CONCEPT_UPGRADE,2). Increase Training{YIELD_TRAINING} by producing link(SPECIALIST_MINER,2) and building link(IMPROVEMENT_BARRACKS,2) or link(IMPROVEMENT_RANGE,2). Both link(IMPROVEMENT_BARRACKS,2) and link(IMPROVEMENT_RANGE,2) can build link(SPECIALISTCLASS_OFFICER) Specialists, which boost their Training{YIELD_TRAINING} yields. Global Training{YIELD_TRAINING} also comes from members of your link(CONCEPT_COURT) with high link(RATING_COURAGE). link(IMPROVEMENT_MINE,2) provide Training{YIELD_TRAINING} if built on link(RESOURCE_ORE), and the link(MISSION_RALLY_TROOPS) Mission can also provide link(YIELD_TRAINING)icon(YIELD_TRAINING). link(CONCEPT_FAMILY,2) of the link(FAMILYCLASS_CHAMPIONS), link(FAMILYCLASS_RIDERS), or link(FAMILYCLASS_HUNTERS) link(CONCEPT_FAMILY_CLASS) generate more Training{YIELD_TRAINING} in their Cities. link(YIELD_TRAINING)icon(YIELD_TRAINING) stockpiles are capped at int(MAX_TRAINING). Above this value, they'll be converted automatically to to link(YIELD_ORDERS)icon(YIELD_ORDERS).
+
+icon(bullet) link(YIELD_CULTURE)icon(YIELD_CULTURE)
+
+When a City's link(YIELD_CULTURE)icon(YIELD_CULTURE) bar fills up, a positive Event occurs, and the City's overall Culture{YIELD_CULTURE} Level increases. Cities start at link(CULTURE_WEAK) link(YIELD_CULTURE)icon(YIELD_CULTURE) Level, and the highest Level is link(CULTURE_LEGENDARY). The link(YIELD_CULTURE)icon(YIELD_CULTURE) Level affects which link(CONCEPT_IMPROVEMENT,2) and Wonders can be built in a City's territory, and whether the City can link(CONCEPT_HURRY) (which requires at least link(CULTURE_DEVELOPING) Culture{YIELD_CULTURE} Level).
+
+You can Improve link(YIELD_CULTURE)icon(YIELD_CULTURE) by building Urban link(CONCEPT_IMPROVEMENT,2) like link(IMPROVEMENTCLASS_SHRINE,2), link(IMPROVEMENTCLASS_ODEON,2), and link(IMPROVEMENT_THEATER_2,2), and by building Rural link(CONCEPT_IMPROVEMENT,2) on certain Resources, like a link(IMPROVEMENTCLASS_MINE) on link(RESOURCE_SALT) or link(RESOURCE_GEM), a link(IMPROVEMENTCLASS_CAMP) on link(RESOURCE_FUR), a link(IMPROVEMENTCLASS_GROVE) on link(RESOURCE_HONEY), link(RESOURCE_INCENSE), link(RESOURCE_WINE), link(RESOURCE_OLIVE), or link(RESOURCE_LAVENDER), or link(IMPROVEMENTCLASS_NETS) on link(RESOURCE_DYE) or link(RESOURCE_PEARL). The link(YIELD_CULTURE)icon(YIELD_CULTURE) of a City can also be improved by gaining access to the preferred link(CONCEPT_LUXURY,2) of the ruling link(CONCEPT_FAMILY_CLASS). For example, link(RESOURCE_OLIVE) and link(RESOURCE_HONEY) for link(FAMILYCLASS_LANDOWNERS). A link(EFFECTCITY_IMPROVEMENT_MARKET_3) can also augment the link(YIELD_CULTURE)icon(YIELD_CULTURE) production of link(CONCEPT_LUXURY,2). 
+
+Adopting a link(CONCEPT_STATE_RELIGION) and building the unique Religious link(CONCEPT_IMPROVEMENT,2) of that Religion can increase link(YIELD_CULTURE)icon(YIELD_CULTURE), and those gains be even further augmented by Laws and link(CONCEPT_THEOLOGY,2). The link(YIELD_CULTURE)icon(YIELD_CULTURE) yields of a link(IMPROVEMENTCLASS_MONASTERY) are improved by link(LAW_ICONOGRAPHY), and link(IMPROVEMENTCLASS_SHRINE) yields by link(THEOLOGY_MYTHOLOGY), and the link(LAW_EPICS) Law improves link(YIELD_CULTURE)icon(YIELD_CULTURE) on its own. link(CONCEPT_SPECIALIST,2) like the link(SPECIALIST_ACOLYTE_1), the link(SPECIALIST_POET_1), and the link(SPECIALIST_MONK_1), and their upgrades, also improve link(YIELD_CULTURE)icon(YIELD_CULTURE) production. Leaders and link(CONCEPT_GOVERNOR,2) with the right traits, like link(TRAIT_INSPIRING), can also boost Culture{YIELD_CULTURE} production.
+
+link(CONCEPT_FAMILY,2) of the link(FAMILYCLASS_ARTISANS) link(CONCEPT_FAMILY_CLASS) generate extra link(YIELD_CULTURE){YIELD_CULTURE} in their Cities, and each link(CONCEPT_SPECIALIST) increases the link(YIELD_CULTURE){YIELD_CULTURE} of link(FAMILYCLASS_PATRONS,1) Cities. A link(COUNCIL_CHANCELLOR) with a high link(RATING_WISDOM) Rating will also produce link(YIELD_CULTURE)icon(YIELD_CULTURE). Certain Events can provide link(YIELD_CULTURE)icon(YIELD_CULTURE) boosts.
+
+icon(bullet) link(YIELD_SCIENCE)icon(YIELD_SCIENCE)
+
+link(YIELD_SCIENCE)icon(YIELD_SCIENCE) increases the rate at which your link(CONCEPT_NATION) discovers Technologies. Increase link(YIELD_SCIENCE)icon(YIELD_SCIENCE) by adopting the Laws link(LAW_FREEDOM) and link(LAW_CENTRALIZATION), completing Projects like link(PROJECT_ARCHIVE_1) and link(PROJECT_FORUM_1), or hiring any type of link(CONCEPT_SPECIALIST) in your Cities. link(YIELD_SCIENCE)icon(YIELD_SCIENCE) also comes from members of your link(CONCEPT_COURT) with high link(RATING_WISDOM). link(CONCEPT_FAMILY,2) of the link(FAMILYCLASS_SAGES) link(CONCEPT_FAMILY_CLASS) provide link(YIELD_SCIENCE)icon(YIELD_SCIENCE) bonuses to their Cities. Building link(IMPROVEMENT_LIBRARY_1,2), link(IMPROVEMENT_WATERMILL,2), link(IMPROVEMENT_WINDMILL,2) and the link(IMPROVEMENT_MUSAEUM) will also provide you with link(YIELD_SCIENCE)icon(YIELD_SCIENCE), and so can Leaders and link(CONCEPT_GOVERNOR,2) with the link(TRAIT_INTELLIGENT) Trait.
+
+icon(bullet) link(YIELD_MONEY)icon(YIELD_MONEY)
+
+link(YIELD_MONEY)icon(YIELD_MONEY) is most useful for purchasing link(YIELD_FOOD){YIELD_FOOD}, link(YIELD_IRON){YIELD_IRON}, link(YIELD_STONE){YIELD_STONE}, and link(YIELD_WOOD){YIELD_WOOD} (You can also sell all of these if you need more link(YIELD_MONEY)icon(YIELD_MONEY)). Increase link(YIELD_MONEY)icon(YIELD_MONEY) by building link(IMPROVEMENT_HAMLET,2) and link(IMPROVEMENTCLASS_MARKET,2). link(YIELD_MONEY)icon(YIELD_MONEY) also comes from members of your link(CONCEPT_COURT) with high link(RATING_DISCIPLINE).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_RURAL_RESOURCES</zType>
+		<Translation>The Rural Yields are link(YIELD_WOOD)icon(YIELD_WOOD), link(YIELD_STONE)icon(YIELD_STONE), link(YIELD_IRON)icon(YIELD_IRON), and link(YIELD_FOOD)icon(YIELD_FOOD). They are primarily drawn from rural link(CONCEPT_IMPROVEMENT,2), and collect in your national stockpile. You can spend link(YIELD_MONEY)icon(YIELD_MONEY) to purchase Rural Resources directly from the top bar where it shows your current resource totals.  
+		
+The link(TECH_FORESTRY) Tech enables the construction of link(IMPROVEMENT_LUMBERMILL,2) on link(VEGETATION_TREES) to produce link(YIELD_WOOD)icon(YIELD_WOOD). link(UNIT_WORKER,2) can also cut down link(VEGETATION_TREES) with the  icon(REMOVE_TREES) Button in the Actions panel.  link(YIELD_WOOD)icon(YIELD_WOOD) is needed to build City Improvements like link(IMPROVEMENT_BARRACKS), Military Units like link(UNIT_ARCHER,2), and link(UNITTRAIT_SHIP) Units like link(UNIT_BIREME,2).
+			
+The primary source of link(YIELD_STONE)icon(YIELD_STONE) is link(IMPROVEMENT_QUARRY,2), which are most productive on link(RESOURCE_MARBLE), on link(TERRAIN_ARID) Terrain, and when adjacent to link(HEIGHT_MOUNTAIN,2). link(YIELD_STONE)icon(YIELD_STONE) is needed primarily to build link(CONCEPT_IMPROVEMENT,2) like link(IMPROVEMENTCLASS_SHRINE,2), and City link(CONCEPT_PROJECT,2) such as link(PROJECT_WALLS).
+		
+The primary source of link(YIELD_IRON)icon(YIELD_IRON) is link(IMPROVEMENT_MINE,2), which are most productive on link(RESOURCE_ORE) and link(HEIGHT_HILL,2). link(YIELD_IRON)icon(YIELD_IRON) is needed to build many types of Military Units, including link(UNIT_WARRIOR,2) and link(UNIT_AXEMAN,2).
+	
+The primary source of link(YIELD_FOOD)icon(YIELD_FOOD) is link(IMPROVEMENT_FARM,2), which are most fruitful next to link(CONCEPT_FRESH_WATER) and on link(TERRAIN_LUSH) Terrain. link(YIELD_FOOD)icon(YIELD_FOOD) is needed to feed your link(CONCEPT_POPULATION) and to produce new link(UNIT_SETTLER,2).
+
+link(UNIT_SCOUT,2), link(UNIT_SETTLER,2), and link(UNIT_WORKER,2) can also link(CONCEPT_HARVEST_RESOURCE,2) outside your borders to increase your stockpiles.</Translation>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_ROUT</zType>
 		<Translation>Units that can link(CONCEPT_ROUT) will move into an enemy's Tile upon destroying them and have their attack Cooldown reset. This allows them to attack again this turn as long as there is another enemy Unit adjacent to their new location.
 
@@ -2705,7 +2809,7 @@ Resources that are within any City's limits, or that are too far from one of you
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DISCONTENT_FAMILY_OPINION</zType>
-		<Translation>{0_value} {1_family} Meinung</Translation>
+		<Translation>{0_value} link(CONCEPT_OPINION_FAMILY,3)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DISCONTENT_FAMILY_DEFENDING</zType>
@@ -2829,17 +2933,21 @@ Ihre Vorlieben geben vor welche link(CONCEPT_AMBITION,2) du nachgehen kannst. De
 		<zType>TEXT_HELPTEXT_LINK_HARVEST_RESOURCE</zType>
 		<Translation>Diese {0_resource} wurde geerntet und kann nicht wieder geerntet werden bis es zufällig wieder aufgefüllt wurde.</Translation>
 	</Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_LINK_HELP_MARCH</zType>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_MARCH</zType>
 		<Translation>A Forced March permits a Unit to continue moving this Turn when out of Moves, at the cost of int(UNIT_MARCH_COST) link(YIELD_TRAINING)icon(YIELD_TRAINING) and twice as many link(YIELD_ORDERS)icon(YIELD_ORDERS) per additional Move.</Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_LINK_HELP_FATIGUE</zType>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_FATIGUE</zType>
 		<Translation>Eine Einheit ermüdet, wenn alle ihre Bewegungspunkte aufgebraucht wurden und eine ermüdete Einheit wird ihre Bewegungspunkte im nächsten Zug ernuern. Einmal ermüdet kann eine Einheit sich in diesem Zug nur mit einem link(CONCEPT_MARCH) weiter bewegen.</Translation>
-  </Entry>
-  <Entry>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_FLANKING</zType>
 		<Translation>Flanking occurs when attacking an enemy Unit with a friendly Unit on the opposite side. For example, if you are attacking from a Tile West of a target, you must have another Unit to its East.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_FORTIFY</zType>
+		<Translation>Verschanzte Einheiten erhalten einen +int(FORTIFY_BONUS_PER)% Verteidigungsbonus pro Zug (bis zu einem Maximum von int(MAX_FORTIFY_TURNS) Zügen). Nach dem ersten Verschanzungs Turn können Einheiten noch immer angreifen, solange sie auf diesem Feld stehen bleiben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_AMBITION</zType>
@@ -2859,7 +2967,7 @@ Ihre Vorlieben geben vor welche link(CONCEPT_AMBITION,2) du nachgehen kannst. De
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_GOVERNOR</zType>
-		<Translation>Ein Stadthalter kann in Städten mit einer link(IMPROVEMENT_GARRISON_1) eingesetzt werden, um einen Bonus auf den Ertrag zu erzielen.</Translation>
+		<Translation>Ein Statthalter kann in Städten mit einer link(IMPROVEMENT_GARRISON_1) eingesetzt werden, um einen Bonus auf den Ertrag zu erzielen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_HEIGHT</zType>
@@ -2906,8 +3014,12 @@ Ihre Vorlieben geben vor welche link(CONCEPT_AMBITION,2) du nachgehen kannst. De
 		<Translation>Spezialisten können die Erträge von link(CONCEPT_IMPROVEMENT) erhöhen auf Kosten von etwas link(YIELD_CIVICS).</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_SUCCESSION</zType>
-		<Translation>Dein Nachfolgegesetz bestimmt wer der nächste Erbe ist. Das Gesetz zu ändern kostet link(YIELD_CIVICS)icon(YIELD_CIVICS) und kann Charaktere verärgern die in der Reihenfolge nach unten rücken.</Translation>
+		<zType>TEXT_HELPTEXT_LINK_HELP_SPREAD_RELIGION</zType>
+		<Translation>Each link(CONCEPT_WORLD_RELIGION,2) has a specific % chance (which can be modified by link(CONCEPT_THEOLOGY,2)) of spreading to one random City or Tribal Site each Turn. Cities and Tribal Sites are more likely to get the the link(CONCEPT_RELIGION) if they are closer to the link(CONCEPT_HOLY_CITY) and less likely if they already have link(CONCEPT_RELIGION,2). link(CONCEPT_WORLD_RELIGION,2) can also be spread with link(CONCEPT_DISCIPLE,2), and link(CONCEPT_PAGAN_RELIGION,2) are spread with link(CONCEPT_SHRINE,2).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_SPOUSE</zType>
+		<Translation>The Ratings of your Spouse(s) affect your Global Yields (at half the rate of the Leader). For example, their link(RATING_DISCIPLINE) will increase your link(YIELD_MONEY){YIELD_MONEY}. Further, their link(CONCEPT_OPINION_CHARACTER,3) of you will increase or decrease these Yield rates.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_SHRINE</zType>
@@ -2932,6 +3044,23 @@ Ihre Vorlieben geben vor welche link(CONCEPT_AMBITION,2) du nachgehen kannst. De
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_IMPROVEMENT_KEY</zType>
 		<Translation>Halte [{0_key}] um alle Verbesserungen zu verbergen.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_INJURY</zType>
+		<Translation>link(CONCEPT_GENERAL,2) whose Units are attacked have a int(INJURY_PROB)% chance of suffering an Injury, such as link(TRAIT_SCARRED), link(TRAIT_CRIPPLED), and link(TRAIT_BLINDED).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_INVISIBLE</zType>
+		<Translation>Invisible units are considered always link(CONCEPT_HIDDEN) and can also freely enter the territory of link(CONCEPT_NATION,2) during a link(DIPLOMACY_TRUCE). link(UNIT_SCOUT,2) are Invisible at all times with a link(TRAIT_SCHEMER_ARCHETYPE) Leader.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_KNOWLEDGE</zType>
+		<Translation>Comparison of the technological advancement of the two link(CONCEPT_NATION,2), with the following levels:
+{bullet}Primitive
+{bullet}Naive
+{bullet}Competent
+{bullet}Learned
+{bullet}Erudite</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LEGITIMACY</zType>
@@ -2971,7 +3100,7 @@ link(CONCEPT_FAMILY_CLASS,2) haben alle 2 Luxusgüter welche ihnen höhren link(
 		<zType>TEXT_HELPTEXT_LINK_HELP_MERCENARY</zType>
 		<Translation>Stammes Söldner Einheiten können von link(CONCEPT_TRIBE,2) angeheuert werden, von link(NATION_CARTHAGE) und von Reichen mit link(TRAIT_ORATOR_ARCHETYPE) Oberhäuptern. (Der Preis wird durch die Stärke der Einheit festgelegt, deren Stammes Meinung über dich und die Anzahl der bereits angeheuerten.) Andere Söldner können durch Ereignisse angeheuert werden.
 		
-Söldner haben keine zugewiesene link(CONCEPT_FAMILY) und int(CONSUMPTION_MERCENARY_MODIFIER)% höhre Konsumierungskosten.</Translation>
+Söldner haben keine zugewiesene link(CONCEPT_FAMILY) und int(CONSUMPTION_MERCENARY_MODIFIER)% höhre Verbrauchskosten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_MAP_SIZE</zType>
@@ -3026,16 +3155,38 @@ Söldner haben keine zugewiesene link(CONCEPT_FAMILY) und int(CONSUMPTION_MERCEN
 		<Translation>Repariere die {0_improvement} oder sie wird in {1_turns} {2_turnScale} zerstört werden.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_PAGAN_RELIGION_INFO</zType>
+		<zType>TEXT_HELPTEXT_LINK_HELP_PAGAN_RELIGION</zType>
 		<Translation>Each link(CONCEPT_NATION) has a unique Pagan Religion which is founded and spread by building link(IMPROVEMENTCLASS_SHRINE,1). link(LAW_POLYTHEISM) allows building unlimited link(CONCEPT_SHRINE,2), and link(LAW_DIVINE_RULE) unlocks adopting Paganism as a link(CONCEPT_STATE_RELIGION). Pagan Religions don’t have the link(CONCEPT_DISCIPLE,2), link(CONCEPT_IMPROVEMENT,2), or link(CONCEPT_THEOLOGY,2) of link(CONCEPT_WORLD_RELIGION,2).</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_PROJECT_INFO</zType>
-		<Translation>Projekte existieren nur innerhalb einer Stadt, zb. ein link(PROJECT_ARCHIVE_2), oder link(PROJECT_WALLS).</Translation>
+		<zType>TEXT_HELPTEXT_LINK_HELP_POWER</zType>
+		<Translation>Vergleich der Militärischen Stärke der zwei link(CONCEPT_NATION,2) und/oder link(CONCEPT_TRIBE,2),mit den folgeenden Stufen:
+{bullet}Much Weaker
+{bullet}Weaker
+{bullet}Similar
+{bullet}Stronger
+{bullet}Much Stronger
+		</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_PROJECT</zType>
+		<Translation>Projects are internal City enhancements such as an link(EFFECTCITY_PROJECT_ARCHIVE,2) or link(PROJECT_WALLS), and they are produced using a City's link(YIELD_CIVICS){YIELD_CIVICS} output.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_PROMOTION</zType>
-		<Translation>Beförderungen verschaffen verschiedene Kampf Buffs auf Kosten von etwas link(YIELD_TRAINING).</Translation>
+		<Translation>Promotions provide various combat bonuses to Units. They are earned when leveling up from either acquiring link(CONCEPT_XP) or spending some link(YIELD_TRAINING){YIELD_TRAINING}. Each time a Unit chooses a Promotion, three new ones are randomly chosen from the eligible pool for the Unit's next Level. (Units have a maximum of int(MAX_LEVELS) Levels.)
+
+Units also can temporarily inherit Promotions from the Traits of their link(CONCEPT_GENERAL,2).
+		</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_PROXIMITY</zType>
+		<Translation>Comparison of the distance between the Cities of the two link(CONCEPT_NATION,2) and/or link(CONCEPT_TRIBE,2), with the following levels:
+{bullet}Very Close
+{bullet}Close
+{bullet}Near
+{bullet}Distant
+{bullet}Far</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_RANGE</zType>
@@ -3125,7 +3276,7 @@ All Religions give link(YIELD_CULTURE){YIELD_CULTURE} to their Cities, and a lin
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_SUCCESSION</zType>
-		<Translation>Your Succession Law determines who is the next Heir. Changing Succession Laws costs link(YIELD_CIVICS)icon(YIELD_CIVICS) and can upset Characters who are moved farther from the throne.</Translation>
+		<Translation>Dein Nachfolgegesetz bestimmt wer der nächste Erbe ist. Das Gesetz zu ändern kostet link(YIELD_CIVICS)icon(YIELD_CIVICS) und kann Charaktere verärgern die in der Reihenfolge nach unten rücken.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_SUBJECT_TRAIT_ANY</zType>
@@ -3151,6 +3302,10 @@ All Religions give link(YIELD_CULTURE){YIELD_CULTURE} to their Cities, and a lin
 		<zType>TEXT_HELPTEXT_LINK_HELP_TERRAIN_DEFENDING_CLEAR</zType>
 		<Translation>Vs. {0_unit} (if link(CONCEPT_CLEAR)): {1} (Nahkampf)</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TESTUDO</zType>
+		<Translation>Units in Testudo receive a +int(TESTUDO_BONUS_PER)% defensive bonus against ranged Units per Turn (up to a maximum of int(MAX_TESTUDO_TURNS) Turns). After the first Testudo Turn, Units can still attack as long as they stay on the Tile.</Translation>
+	</Entry>
     <Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_THEOLOGY</zType>
 		<Translation>Eine Religionswissenschaft einzuführen gibt zusätzliche Boni an eine Welt Religion. Religionswissenschaften werden von link(CONCEPT_DISCIPLE,2) eingeführt und, sobald eingeführt, werden für all Reiche aktiv sein, die diese Religion übernehmen.</Translation>
@@ -3165,7 +3320,8 @@ All Religions give link(YIELD_CULTURE){YIELD_CULTURE} to their Cities, and a lin
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TRADE_NETWORK</zType>
-		<Translation>Das Handelsnetz sind alle Felder, die mit eurer {0_capital} über {1,2_roads}, {2,2_rivers}, {3_urban} Gebiet  oder offenem Wasser verunden sind.</Translation>
+		<Translation>Das Handelsnetz sind alle Felder, die mit eurer {0_capital} über {1,2_roads}, {2,2_rivers}, {3_urban} Gebiet  oder offenem Wasser verunden sind.
+Foreign Cities on your Trade Network (which requires link(CONCEPT_PEACE_PLAYER)) produce link(YIELD_MONEY){YIELD_MONEY} each Turn.</Translation>																																			
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TRIBUTE_FROM_TURNS</zType>
@@ -3351,8 +3507,12 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>Wird verbessert zu{true_0: {0_barbarian}} {1_improvment}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_IMPROVEMENT_WORK_LEFT</zType>
-		<Translation>Verbleibende Arbeit</Translation>
+		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_IMPROVEMENT_WORK_COMPLETED</zType>
+		<Translation>Arbeit abgeschlossen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_IMPROVEMENT_WORK_COMPLETED_VALUE</zType>
+		<Translation>{0}/{1}{2_turnScale}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_IMPROVEMENT_PILLAGED</zType>
@@ -3496,6 +3656,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_URBAN</zType>
 		<Translation>Must be Adjacent to City or {true_0:one {1_urban} Coast Tile:two {1_urban} Tiles}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_NO_TERRAIN</zType>
+		<Translation>Kann nicht auf {0_terrain} gebaut werden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_NO_ADJACENT</zType>
@@ -3741,6 +3905,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>Hat {0_zocLink}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_TYPE_CAN_FORTIFY</zType>
+		<Translation>Kann sich link(CONCEPT_FORTIFY)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_CAN_TESTUDO</zType>
 		<Translation>Kann Schildkröte benutzen (Bonus vs link(UNITTRAIT_RANGED))</Translation>
 	</Entry>
@@ -3775,6 +3943,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_PRODUCTION</zType>
 		<Translation>Benötigt: {0} {1_yield}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_PRODUCTION_TRAINING</zType>
+		<Translation>Benötigt: {0} {YIELD_TRAINING}link(YIELD_TRAINING)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_UPGRADES_FROM</zType>
@@ -3866,7 +4038,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<zType>TEXT_HELPTEXT_UNIT_GENERAL_OPINION_MODIFIER</zType>
 		<Translation>{0_general} {1_opinion}: {2}</Translation>
 	</Entry>
-	<!--Promotion Help-->
+	<Entry>
+		<zType>TEXT_HELPTEXT_MELEE_COUNTER</zType>
+		<Translation>Konterangriff für -1 HP während Nahkampf</Translation>
+	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PROMOTION_LEADS_TO</zType>
 		<Translation>Führt zu {LIST}</Translation>
@@ -4031,8 +4206,8 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation><![CDATA[<true_2>link(UNITTRAIT_MELEE) Kampf Vs. {0_unitTrait}: {1_value}<false>{1_value} link(UNITTRAIT_MELEE) Kampf Vs. {0_unitTrait}<end>]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_INVISIBLE_IN</zType>
-		<Translation>Unsichtbar in {0_vegetation}</Translation>
+		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_HIDDEN_IN</zType>
+		<Translation>link(CONCEPT_HIDDEN) in freundlichem oder Neutralem {0_vegetation}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_ZOC_BLOCKS</zType>
@@ -4570,7 +4745,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_CONSUMPTION_MODIFIER</zType>
-		<Translation>{0_value} Konsumausgaben der Einheiten</Translation>
+		<Translation>{0_value} Verbrauch der Einheiten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_WONDER_MODIFIER</zType>
@@ -4658,7 +4833,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_NO_OUTSIDE_UNIT_CONSUMPTION</zType>
-		<Translation>Keine zussätzlichen Konsumausgaben der Einheiten wenn {0_outsideBorders}</Translation>
+		<Translation>Kein zussätzlicher Verbrauch der Einheiten wenn {0_outsideBorders}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_PURGE_RELIGIONS</zType>
@@ -4717,8 +4892,8 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>{0,2_unit} Bewegt sich auf Wasser</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_HIDE_UNIT</zType>
-		<Translation>{0,2_unit} Immer link(CONCEPT_HIDDEN)</Translation>
+		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_INVISIBLE_UNIT</zType>
+		<Translation>{0,2_unit} ist link(CONCEPT_INVISIBLE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_UNLOCKS_PROJECT</zType>
@@ -4803,7 +4978,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_GOVERNOR</zType>
-		<Translation>Jeder Stadthalter: {0_value}</Translation>
+		<Translation>Jeder Statthalter: {0_value}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_WONDERS</zType>
@@ -4867,12 +5042,12 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>Momentane Religion: {0}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_TRIBE_STRENGTH</zType>
-		<Translation>Stärke: {0}</Translation>
+		<zType>TEXT_HELPTEXT_TRIBE_POWER</zType>
+		<Translation>link(CONCEPT_POWER): {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRIBE_PROXIMITY</zType>
-		<Translation>Nähe: {0}*</Translation>
+		<Translation>link(CONCEPT_PROXIMITY): {0}*</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRIBE_LEVEL</zType>
@@ -4960,11 +5135,11 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<!--City Selection-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_CITY_SELECTION_CHOOSE_GOVERNOR</zType>
-		<Translation>Wähle Stadthalter</Translation>
+		<Translation>Wähle Statthalter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CITY_SELECTION_GOVERNOR</zType>
-		<Translation>Stadthalter</Translation>
+		<Translation>Statthalter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CITY_SELECTION_FAMILY_OPINION</zType>
@@ -5159,7 +5334,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_MAKE_GOVERNOR</zType>
-		<Translation>Stadthalter von {0_city}</Translation>
+		<Translation>Statthalter von {0_city}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_MAKE_GENERAL</zType>
@@ -5183,11 +5358,11 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_RELEASE_GOVERNOR</zType>
-		<Translation>Beende Stadthalterschaft von {0_city}</Translation>
+		<Translation>Beende Statthalterschaft von {0_city}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_RELEASE_GOVERNOR_GENERIC</zType>
-		<Translation>Beende Stadthalterschaft</Translation>
+		<Translation>Beende Statthalterschaft</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_RELEASE_AGENT</zType>
@@ -5382,7 +5557,7 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CULTURE_HELP_GOVERNOR_XP</zType>
-		<Translation>Stadthalter: {0} EP/Jahr</Translation>
+		<Translation>Statthalter: {0} EP/Jahr</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CULTURE_HELP_CAN_HURRY</zType>
@@ -5488,7 +5663,7 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_NO_JOB</zType>
-		<Translation>Kann kein Lehrer, Stadthalter, Feldherr oder im Hofrat sein</Translation>
+		<Translation>Kann kein Lehrer, Statthalter, Feldherr oder im Hofrat sein</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_NO_COURTIER</zType>
@@ -5708,20 +5883,20 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 		<Translation>[Das bist Du]</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_PLAYER_STRENGTH</zType>
-		<Translation>Stärke: {0}</Translation>
+		<zType>TEXT_HELPTEXT_PLAYER_POWER</zType>
+		<Translation>link(CONCEPT_POWER): {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_KNOWLEDGE</zType>
-		<Translation>Wissen: {0}</Translation>
+		<Translation>link(CONCEPT_KNOWLEDGE): {0}</Translation>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_HELPTEXT_PLAYER_PROXIMITY</zType>
-		<Translation>Nähe: {0}</Translation>
+		<Translation>link(CONCEPT_PROXIMITY): {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELATIONSHIP_OPINION</zType>
-		<Translation>Meinung: {0}</Translation>
+		<Translation>link(CONCEPT_OPINION_CHARACTER,3): {0}</Translation>
 	</Entry>
 	<!--Religion Help-->
 	<Entry>
@@ -6207,8 +6382,8 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 		<Translation>Ersetzt {0}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_PROJECT_BUILD_COST</zType>
-		<Translation>Benötigt: {0} link(YIELD_CIVICS)</Translation>
+		<zType>TEXT_HELPTEXT_PRODUCTION_CIVICS</zType>
+		<Translation>Benötigt: {0} {YIELD_CIVICS}link(YIELD_CIVICS)</Translation>
 	</Entry>
 	<!--Specialist Help-->
 	<Entry>
@@ -6448,7 +6623,7 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_GOVERNOR</zType>
-		<Translation>Stadthalter: {0}</Translation>
+		<Translation>Statthalter: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_AGENT</zType>
@@ -6504,7 +6679,7 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_IS_GOVERNOR</zType>
-		<Translation>{0}: Ist Stadthalter</Translation>
+		<Translation>{0}: Ist Statthalter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_IS_GENERAL</zType>

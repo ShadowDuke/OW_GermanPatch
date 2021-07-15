@@ -1937,7 +1937,7 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_GIFT_EXCHANGE_TITLE</zType>
-		<Translation>Geschenk Austausch</Translation>
+		<Translation>Austausch von Geschenken</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_REFUGEE_OUTLAWS_TITLE</zType>
@@ -2425,11 +2425,11 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DECLARE_WAR_DEMAND_TITLE</zType>
-		<Translation>link(DIPLOMACY_WAR) Verlangen</Translation>
+		<Translation>Verlangen nach link(DIPLOMACY_WAR)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DECLARE_ALLY_DEMAND_WAR_TITLE</zType>
-		<Translation>[BÜNDNIS VERLANGEN]</Translation>
+		<Translation>{PLAYER-1} ruft nach Hilfe!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_TITLE</zType>

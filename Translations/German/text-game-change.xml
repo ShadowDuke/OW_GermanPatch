@@ -126,6 +126,10 @@
 		<Translation>Deine Ärzte und Wahrsager haben dich gewarnt, das Ende ist Nah! Zeit um deine Angelegenheiten zu erledigen.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_ABDICATION</zType>
+		<Translation>{0_oldLeader} hat dem Thron entsagt.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_NEW_RULER</zType>
 		<Translation>Ein neuer Herrscher, {0_newLeader}, hat den Thron übernommen.</Translation>
 	</Entry>
@@ -556,10 +560,6 @@
 		<Translation>Frei</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_DO_BONUS_VICTORY</zType>
-		<Translation>{0_victory} Sieg</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GAME_DO_DEFEAT</zType>
 		<Translation>Spieler bezwungen</Translation>
 	</Entry>
@@ -738,6 +738,10 @@
 	<Entry>
 		<zType>TEXT_GAME_UNIT_ATTACKED_LOG_DATA</zType>
 		<Translation>{0_unit} Angegriffen von {1_owner} {2_unit}!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_UNIT_CRITICAL_LOG_DATA</zType>
+		<Translation>{0_unit} link(CONCEPT_CRITICAL_HIT) von {1,2_owner} {2_unit}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_UNIT_KILLED_LOG_DATA</zType>

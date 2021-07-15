@@ -1087,6 +1087,10 @@
 		<Translation>Zeige Handelsnetz</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HOTKEY_SHOW_ROADS_RIVERS</zType>
+		<Translation>Zeige Straßen und Flüsse</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HOTKEY_SHOW_IDLE_UNITS</zType>
 		<Translation>Zeige untätige Einheiten</Translation>
 	</Entry>
@@ -1612,7 +1616,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_RATING_WISDOM_HELP</zType>
-		<Translation>Für Oberhäupter und Stadthalter erhöht Weisheit {YIELD_SCIENCE}.
+		<Translation>Für Oberhäupter und Statthalter erhöht Weisheit {YIELD_SCIENCE}.
 Für Feldherren erhöht Weisheit erhöht die kritische Chance der Einheit.</Translation>
 	</Entry>
 	<Entry>
@@ -1621,7 +1625,7 @@ Für Feldherren erhöht Weisheit erhöht die kritische Chance der Einheit.</Tran
 	</Entry>
 	<Entry>
 		<zType>TEXT_RATING_CHARISMA_HELP</zType>
-		<Translation>Für Oberhäupter und Stadthalter erhöht Charisma {YIELD_CIVICS}.
+		<Translation>Für Oberhäupter und Statthalter erhöht Charisma {YIELD_CIVICS}.
 Für Feldherren erhöht Charisma erhöht die Verteidigung der Einheiten.</Translation>
 	</Entry>
 	<Entry>
@@ -1630,7 +1634,7 @@ Für Feldherren erhöht Charisma erhöht die Verteidigung der Einheiten.</Transl
 	</Entry>
 	<Entry>
 		<zType>TEXT_RATING_COURAGE_HELP</zType>
-		<Translation>Für Oberhäupter und Stadthalter erhöht Mut {YIELD_TRAINING}.
+		<Translation>Für Oberhäupter und Statthalter erhöht Mut {YIELD_TRAINING}.
 Für Feldherren erhöht Mut die Stärke der Einheiten.</Translation>
 	</Entry>
 	<Entry>
@@ -1639,7 +1643,7 @@ Für Feldherren erhöht Mut die Stärke der Einheiten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_RATING_DISCIPLINE_HELP</zType>
-		<Translation>Für Oberhäupter und Stadthalter erhöht Disziplin {YIELD_MONEY}.
+		<Translation>Für Oberhäupter und Statthalter erhöht Disziplin {YIELD_MONEY}.
 Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.</Translation>
 	</Entry>
 	<Entry>
@@ -1948,23 +1952,23 @@ Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.</Translation>
 		<Translation>Feld</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_STRENGTH_MUCH_WEAKER</zType>
+		<zType>TEXT_POWER_MUCH_WEAKER</zType>
 		<Translation>Viel schwächer</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_STRENGTH_WEAKER</zType>
+		<zType>TEXT_POWER_WEAKER</zType>
 		<Translation>Schwächer</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_STRENGTH_SIMILAR</zType>
+		<zType>TEXT_POWER_SIMILAR</zType>
 		<Translation>Ähnlich</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_STRENGTH_STRONGER</zType>
+		<zType>TEXT_POWER_STRONGER</zType>
 		<Translation>Stärker</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_STRENGTH_MUCH_STRONGER</zType>
+		<zType>TEXT_POWER_MUCH_STRONGER</zType>
 		<Translation>Viel stärker</Translation>
 	</Entry>
 	<Entry>
@@ -2017,7 +2021,7 @@ Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNITCYCLE_FOUND</zType>
-		<Translation>Gegründet</Translation>
+		<Translation>Gegründete</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNITCYCLE_WORKER</zType>

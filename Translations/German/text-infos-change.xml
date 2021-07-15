@@ -314,7 +314,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_GOVERNOR</zType>
-		<Translation>Stadthalter~ein Stadthalter~Stadthalter</Translation>
+		<Translation>Statthalter~ein Statthalter~Statthalter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_COUNCILOR</zType>
@@ -1476,7 +1476,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_COHORTS_MARTIAL_CODE</zType>
-		<Translation>Entdecke link(TECH_COHORTS und link(TECH_MARTIAL_CODE)</Translation>
+		<Translation>Entdecke link(TECH_COHORTS) und link(TECH_MARTIAL_CODE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_BODKIN_ARROW_BALLISTICS</zType>

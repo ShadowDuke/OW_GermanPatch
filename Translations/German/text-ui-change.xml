@@ -24,7 +24,11 @@
     <Entry>
         <zType>TEXT_UI_INPUT_MAX_CHARACTERS</zType>
         <Translation> (Max Charaktere: {0})</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_FAILED_LOAD_LOCKED_SAVE</zType>
+		<Translation>Failed to load save. Specified file is either invalid or was started with the "Locked Save" option enabled and the file has subsequently been modified</Translation>
+	</Entry>
 <!--ClientUI-->
 	<Entry>
 		<zType>TEXT_UI_REDRAW_TECH</zType>
@@ -77,6 +81,10 @@
 	<Entry>
 		<zType>TEXT_UI_IDLE_LABEL_NEXT_UNIT</zType>
 		<Translation>Nächste Einheit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_IDLE_LABEL_MOVE_UNIT</zType>
+		<Translation>Bewege Einheit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_IDLE_LABEL_CHOOSE_PRODUCTION</zType>
@@ -336,7 +344,7 @@
 	</Entry>
     <Entry>
         <zType>TEXT_UI_CITY_TOOLTIP_GOVERNOR</zType>
-        <Translation>Stadthalter</Translation>
+        <Translation>Statthalter</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_UI_CITY_TOOLTIP_HP</zType>
@@ -1071,7 +1079,14 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
     <Entry>
         <zType>TEXT_UI_EXIT_DIALOG</zType>
         <Translation>Bist du sicher das du beenden möchtest?
-Jeder ungespeicherte Vorgang wird verloren.</Translation>											
+Jeglicher ungespeicherter Forschritt geht verloren.
+		</Translation>											
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_LOAD_DIALOG</zType>
+		<Translation>Bist du sicher das du ein weiteres Spiel laden möchtest?
+Jeglicher ungespeicherter Forschritt geht verloren.
+		</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_RESTART_DIALOG</zType>
@@ -1594,10 +1609,6 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
         <zType>TEXT_MP_SETUP_SEC_BUTTON_ADVANCED</zType>
         <Translation>Fortgeschritten</Translation>
 	</Entry>
-	<Entry>
-		<zType>TEXT_MP_SETUP_VICTORY</zType>
-		<Translation>Sieg</Translation>
-	</Entry>
     <Entry>
         <zType>TEXT_MP_SETUP_TITLE_LABEL_HOSTG</zType>
         <Translation>Hoste Spiel</Translation>
@@ -2091,7 +2102,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CITYSORT_GOVERNOR</zType>
-		<Translation>Stadthalter Status</Translation>
+		<Translation>Statthalter Status</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CITYSORT_FAMILY</zType>
@@ -2183,7 +2194,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_CITY_LIST_GOVERNOR</zType>
-        <Translation>Stadthalter</Translation>
+        <Translation>Statthalter</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_CITY_LIST_FAMILY</zType>

@@ -198,10 +198,6 @@
 		<Translation>Unseren heiligen Grund respektiert</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MEMORYTRIBE_RUMOR_HAS_IT_SAVED</zType>
-		<Translation>Unsere Schlagen respektiert</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_MEMORYTRIBE_LAW_FREED_CAPTIVES</zType>
 		<Translation>Freed our captives</Translation>
 	</Entry>
@@ -1154,16 +1150,8 @@
 		<Translation>Promoted to a higher title</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MEMORYCHARACTER_GP_DIPLOMATIC_MISSION_GOOD</zType>
-		<Translation>Welcomed our ambassadors</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_GP_DIPLOMATIC_VISIT_BAD</zType>
 		<Translation>Ignored my ambassadors</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYCHARACTER_GP_DIPLOMATIC_MISSION_GREAT</zType>
-		<Translation>Wished to treat with our ambassadors</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_GIFTED_PRICELESS_ARTIFACTS</zType>
@@ -1498,22 +1486,6 @@
 		<Translation>Made me Chancellor</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MEMORYCHARACTER_UNHAPPY_SIBLING_NO</zType>
-		<Translation>Still feel unappreciated</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYCHARACTER_DOMESTIC_DISPUTE</zType>
-		<Translation>Exiled a rival for your attention</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYCHARACTER_IMPUDENT_MATCH</zType>
-		<Translation>Married one of our enemies</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYCHARACTER_A_LITTLE_PUSHBACK_CHILD</zType>
-		<Translation>Didn't force a match on me</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_GRANTED_SPECIAL_RECOGNITION</zType>
 		<Translation>Granted special title</Translation>
 	</Entry>
@@ -1536,10 +1508,6 @@
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_FORCED_RIVAL_OFF_COURT</zType>
 		<Translation>Forced rival off court</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYCHARACTER_A_NEW_GENERAL_NO</zType>
-		<Translation>Didn't make our child a link(CONCEPT_GENERAL)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_LAW_SUPPORTED_IN_COURT</zType>
@@ -1776,10 +1744,6 @@
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_DEMAND_APOLOGY</zType>
 		<Translation>Demanded an apology for flirting</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYCHARACTER_BLAMED_FOR_EXECUTED_SPIES</zType>
-		<Translation>Blamed for espionage debacle</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_REFUSED_FUNDS</zType>
@@ -2070,10 +2034,6 @@
 		<Translation>We had to sacrifice more</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MEMORYFAMILY_STRICTER_RULES</zType>
-		<Translation>Angered the Gods</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_MEMORYFAMILY_IGNORED_WARNING</zType>
 		<Translation>Ignored our warnings</Translation>
 	</Entry>
@@ -2266,14 +2226,6 @@
 		<Translation>Rejected payment for public work</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MEMORYFAMILY_GRAVE_OFFENSE</zType>
-		<Translation>Ritual humiliation</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_SECURING_PEACE_NO</zType>
-		<Translation>Refused our helpful offer</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_MEMORYFAMILY_HUNTING_PARTY_IMPRISONED</zType>
 		<Translation>Hunting party imprisoned</Translation>
 	</Entry>
@@ -2326,142 +2278,6 @@
 		<Translation>Added enemy leadership to court</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MEMORYFAMILY_DELICIOUS_DRINKS_FRIEND</zType>
-		<Translation>Insulted at feast</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_CHILD_ROYAL_BIRTH_SEND</zType>
-		<Translation>Received gifts for royal birth</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_JOYOUS_WEDDING_ARISTOCRATS</zType>
-		<Translation>Invited to heir's wedding</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_HEIR_WEDDING_FAUX_PAS_NOTHING</zType>
-		<Translation>Faux pas at heir's wedding</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_FAMILY_PARTISANS_HELP</zType>
-		<Translation>Helped some of our Furious citizens</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_SABOTAGE_OK</zType>
-		<Translation>Punished us for sabotage</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_LAND_SUPPORTED</zType>
-		<Translation>Sided with us in land dispute</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_LAND_OPPOSED</zType>
-		<Translation>Sided against us in land dispute</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_LAND_SEIZED</zType>
-		<Translation>Seized an estate that we claim</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_US</zType>
-		<Translation>Let us join honor guard</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_THEM</zType>
-		<Translation>Let our rival join honor guard</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_NO</zType>
-		<Translation>Refused our candidate for honor guard</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_TOOK_BRIBE</zType>
-		<Translation>Sided with us in squabble</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_REJECTED</zType>
-		<Translation>Sided against us in squabble</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_WASTED_BRIBE</zType>
-		<Translation>Took our bribe and did nothing</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_REFUSED_BRIBE</zType>
-		<Translation>Refused to side with us in squabble</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_US</zType>
-		<Translation>Attended our ceremony</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_THEM</zType>
-		<Translation>Attended our rival's ceremony</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_NO</zType>
-		<Translation>Refused to attend our ceremony</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_FAMILY_QUARREL_ALLOW</zType>
-		<Translation>Allowed lovers to escape</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_FAMILY_QUARREL_HELP</zType>
-		<Translation>Helped pursue fleeing wife</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_FAMILY_GAMES</zType>
-		<Translation>Hosted games in our honor</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_RADICAL_PHILOSOPHER_RID_FAMILY</zType>
-		<Translation>Got rid of our philosopher friend</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_CONTEST_OF_RHETORIC_REFUSE</zType>
-		<Translation>Refused to debate your policy</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_IMPROPER_VASSAL_REPRIMAND</zType>
-		<Translation>Reprimanded us for impropriety</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_IMPROPER_VASSAL_LET_GO</zType>
-		<Translation>Failed to reprimand other vassals</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_HEATED_RIVALRY_REFUSE</zType>
-		<Translation>Refused to abandon support for heir</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_FAVORED_VASSAL_NO</zType>
-		<Translation>Refused to cover our costs</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_FAVORED_VASSAL_FEAST_NO</zType>
-		<Translation>Refused to supply our feast</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_OK_FAMILY_MAIN</zType>
-		<Translation>Cemented our close ties</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_OK_FAMILY_OTHER</zType>
-		<Translation>Blatantly favored other vassals</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_COMPROMISE_FAMILY_MAIN</zType>
-		<Translation>Refused to preside over our ceremony</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_COMPROMISE_FAMILY_OTHER</zType>
-		<Translation>Favored other vassals</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORFAMILYY_FAVORED_VASSAL_CEREMONY_NO</zType>
-		<Translation>Refused our most sacred honor</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_MEMORYFAMILY_COMFORTED_GRIEVING_FAMILY</zType>
 		<Translation>Comforted grieving family</Translation>
 	</Entry>
@@ -2472,10 +2288,6 @@
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_GOVERNORSHIP</zType>
 		<Translation>Refused governorship to outsider</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_A_LITTLE_PUSHBACK_FAMILY</zType>
-		<Translation>Refused our suitor for your child</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_CENTRALIZATION</zType>
@@ -2496,10 +2308,6 @@
 	<Entry>
 		<zType>TEXT_MEMORY_HOSTED_FEAST</zType>
 		<Translation>Hosted feast for noble families</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_CHOSEN_HEIR_NO</zType>
-		<Translation>Refused to make one of the us the Heir</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FOREIGN_FEAST</zType>
@@ -2768,14 +2576,6 @@
 		<Translation>Utilized professional expertise of our elder</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MEMORYFAMILY_CEREMONIAL_OFFERING_NO</zType>
-		<Translation>Refused to perform ceremonies for us</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_CEREMONIAL_OFFERING_REQUISITION</zType>
-		<Translation>Requisitioned supplies for ceremonies</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_MEMORYFAMILY_PYRAMIDS_BLOODLINE</zType>
 		<Translation>Immortalized our bloodline</Translation>
 	</Entry>
@@ -2806,10 +2606,6 @@
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_EXOTIC_PETS_MONKEY_CHARM</zType>
 		<Translation>Charmed by your adorable monkey</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_SUCCESSION_NO</zType>
-		<Translation>Refused our succession changes</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_WAYWARD_SUBJECT_FORGIVE</zType>
@@ -3653,11 +3449,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ACCEPTED_GOVERNOR</zType>
-		<Translation>Vorgeschlagenen Stadthalter zugestimmt</Translation>
+		<Translation>Vorgeschlagenen Statthalter zugestimmt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_REFUSED_GOVERNOR</zType>
-		<Translation>Vorgeschlagenen Stadthalter abgewiesen</Translation>
+		<Translation>Vorgeschlagenen Statthalter abgewiesen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ALLOWED_SPONSORS</zType>
@@ -3823,4 +3619,208 @@
 		<zType>TEXT_MEMORYPLAYER_SCHISM_AGAINST</zType>
 		<Translation>Sided against us in religious schism</Translation>
 	</Entry>
+	<Entry beginGroup="Tribe">
+		<zType>TEXT_MEMORYCHARACTER_BLAMED_FOR_EXECUTED_SPIES</zType>
+		<Translation>Blamed for espionage debacle</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_SECURING_PEACE_NO</zType>
+		<Translation>Refused our helpful offer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_GRAVE_OFFENSE</zType>
+		<Translation>Ritual humiliation</Translation>
+	</Entry>
+	<Entry beginGroup="Family">
+		<zType>TEXT_MEMORYFAMILY_CHOSEN_HEIR_NO</zType>
+		<Translation>Refused to make one of the us the Heir</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_SUCCESSION_NO</zType>
+		<Translation>Refused our succession changes</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_CEREMONIAL_OFFERING_NO</zType>
+		<Translation>Refused to perform ceremonies for us</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_CEREMONIAL_OFFERING_REQUISITION</zType>
+		<Translation>Requisitioned supplies for ceremonies</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAMILY_GAMES</zType>
+		<Translation>Hosted games in our honor</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAMILY_QUARREL_ALLOW</zType>
+		<Translation>Allowed lovers to escape</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAMILY_QUARREL_HELP</zType>
+		<Translation>Helped pursue fleeing wife</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_US</zType>
+		<Translation>Attended our ceremony</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_THEM</zType>
+		<Translation>Attended our rival's ceremony</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_NO</zType>
+		<Translation>Refused to attend our ceremony</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_TOOK_BRIBE</zType>
+		<Translation>Sided with us in squabble</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_REJECTED</zType>
+		<Translation>Sided against us in squabble</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_WASTED_BRIBE</zType>
+		<Translation>Took our bribe and did nothing</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_REFUSED_BRIBE</zType>
+		<Translation>Refused to side with us in squabble</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_US</zType>
+		<Translation>Let us join honor guard</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_THEM</zType>
+		<Translation>Let our rival join honor guard</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_NO</zType>
+		<Translation>Refused our candidate for honor guard</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_LAND_SUPPORTED</zType>
+		<Translation>Sided with us in land dispute</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_LAND_OPPOSED</zType>
+		<Translation>Sided against us in land dispute</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_LAND_SEIZED</zType>
+		<Translation>Seized an estate that we claim</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAMILY_PARTISANS_HELP</zType>
+		<Translation>Helped some of our Furious citizens</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_OK_FAMILY_MAIN</zType>
+		<Translation>Cemented our close ties</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_OK_FAMILY_OTHER</zType>
+		<Translation>Blatantly favored other vassals</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_COMPROMISE_FAMILY_MAIN</zType>
+		<Translation>Refused to preside over our ceremony</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_COMPROMISE_FAMILY_OTHER</zType>
+		<Translation>Favored other vassals</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORFAMILYY_FAVORED_VASSAL_CEREMONY_NO</zType>
+		<Translation>Refused our most sacred honor</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAVORED_VASSAL_FEAST_NO</zType>
+		<Translation>Refused to supply our feast</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAVORED_VASSAL_NO</zType>
+		<Translation>Refused to cover our costs</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_HEATED_RIVALRY_REFUSE</zType>
+		<Translation>Refused to abandon support for heir</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_IMPROPER_VASSAL_REPRIMAND</zType>
+		<Translation>Reprimanded us for impropriety</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_IMPROPER_VASSAL_LET_GO</zType>
+		<Translation>Failed to reprimand other vassals</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_CONTEST_OF_RHETORIC_REFUSE</zType>
+		<Translation>Refused to debate your policy</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_RADICAL_PHILOSOPHER_RID_FAMILY</zType>
+		<Translation>Got rid of our philosopher friend</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_STRICTER_RULES</zType>
+		<Translation>Angered the Gods</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_SABOTAGE_OK</zType>
+		<Translation>Punished us for sabotage</Translation>
+	</Entry>
+	<Entry beginGroup="Royalty">
+		<zType>TEXT_MEMORYFAMILY_HEIR_WEDDING_FAUX_PAS_NOTHING</zType>
+		<Translation>Faux pas at heir's wedding</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_JOYOUS_WEDDING_ARISTOCRATS</zType>
+		<Translation>Invited to heir's wedding</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_CHILD_ROYAL_BIRTH_SEND</zType>
+		<Translation>Received gifts for royal birth</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_RUMOR_HAS_IT_SAVED</zType>
+		<Translation>Unsere Schlangen respektiert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYCHARACTER_A_LITTLE_PUSHBACK_CHILD</zType>
+		<Translation>Didn't force a match on me</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_A_LITTLE_PUSHBACK_FAMILY</zType>
+		<Translation>Refused our suitor for your child</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYCHARACTER_IMPUDENT_MATCH</zType>
+		<Translation>Married one of our enemies</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYCHARACTER_DOMESTIC_DISPUTE</zType>
+		<Translation>Exiled a rival for your attention</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYCHARACTER_UNHAPPY_SIBLING_NO</zType>
+		<Translation>Still feel unappreciated</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYCHARACTER_A_NEW_GENERAL_NO</zType>
+		<Translation>Didn't make our child a link(CONCEPT_GENERAL)</Translation>
+	</Entry>
+	<Entry beginGroup="Courtier">
+		<zType>TEXT_MEMORYCHARACTER_GP_DIPLOMATIC_MISSION_GOOD</zType>
+		<Translation>Welcomed our ambassadors</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYCHARACTER_GP_DIPLOMATIC_MISSION_GREAT</zType>
+		<Translation>Wished to treat with our ambassadors</Translation>
+	</Entry>
+	<Entry beginGroup="Leader">
+		<zType>TEXT_MEMORYFAMILY_DELICIOUS_DRINKS_FRIEND</zType>
+		<Translation>Insulted at feast</Translation>
+	</Entry>	 
 </Root>
