@@ -223,10 +223,18 @@
 		<zType>TEXT_TUTORIAL_AGENTS</zType>
 		<Translation>Agents</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_RURAL_RESOURCES</zType>
+		<Translation>Tutorial: Ländliche Felder</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_URBAN_RESOURCES</zType>
+		<Translation>Tutorial: Stadtteil Felder</Translation>
+	</Entry>
 	<!--InfoConcept-->
 	<Entry>
 		<zType>TEXT_CONCEPT_AGENT</zType>
-		<Translation>Agent</Translation>
+		<Translation>Agent~ein Agent~Agenten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_AGENT_NETWORK</zType>
@@ -234,7 +242,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_ALLIANCE_TRIBE</zType>
-		<Translation>Barbaren Bündnis</Translation>
+		<Translation>Stammes Bündnis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_TRIBE</zType>
@@ -245,9 +253,17 @@
 		<Translation>Spieler Bündnis</Translation>
 	</Entry>
     <Entry>
+		<zType>TEXT_CONCEPT_AMBITION</zType>
+		<Translation>Ambition~eine Ambition~Ambitionen</Translation>
+	</Entry>
+	<Entry>
         <zType>TEXT_CONCEPT_ANCHORED</zType>
 		<Translation>Geankert~Ankern~Ankern</Translation>
     </Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_ARCHETYPE</zType>
+		<Translation>Archetyp~ein Archetyp~Archetypen</Translation>
+	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_BUY_TILE</zType>
 		<Translation>Felder kaufen</Translation>
@@ -261,6 +277,14 @@
 		<Translation>Karawanen Mission</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CONCEPT_CITIZEN</zType>
+		<Translation>Bürger~ein Bürger~Bürger</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_CITY_SITE</zType>
+		<Translation>Stadtplatz~ein Stadtplatz~Stadtplätze</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CONCEPT_CLAIM</zType>
 		<Translation>Beanspruchen~Beansprucht~Beansprucht~Unbeansprucht</Translation>
 	</Entry>
@@ -269,6 +293,10 @@
 		<Translation>Rode</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CONCEPT_COUNCILOR</zType>
+		<Translation>Hofrat~ein Hofrat~Hofräte</Translation>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_CONCEPT_CRITICAL_HIT</zType>
 		<Translation>Kritischer Treffer</Translation>
 	</Entry>
@@ -289,6 +317,10 @@
 		<Translation>Begehrte Ambition</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CONCEPT_DISCIPLE</zType>
+		<Translation>Jünger~ein Jünger~Jünger</Translation>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_CONCEPT_DISTANCE_MODIFIER</zType>
 		<Translation>Entfernungs Modifikator</Translation>
 	</Entry>
@@ -309,22 +341,6 @@
 		<Translation>Familien Gattung~eine Familien Gattung~Familien Gattungen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_CONCEPT_GENERAL</zType>
-		<Translation>Feldherr~ein Feldherr~Feldherren</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_CONCEPT_GOVERNOR</zType>
-		<Translation>Statthalter~ein Statthalter~Statthalter</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_CONCEPT_COUNCILOR</zType>
-		<Translation>Hofrat~ein Hofrat~Hofräte</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_CONCEPT_CITIZEN</zType>
-		<Translation>Bürger~ein Bürger~Bürger</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_CONCEPT_POPULATION</zType>
 		<Translation>Bevölkerung</Translation>
 	</Entry>
@@ -341,6 +357,14 @@
 		<Translation>Ressource ernten~Ressourcen ernten~Erntbare Ressourcen</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CONCEPT_GENERAL</zType>
+		<Translation>Feldherr~ein Feldherr~Feldherren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_GOVERNOR</zType>
+		<Translation>Statthalter~ein Statthalter~Statthalter</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CONCEPT_MARCH</zType>
 		<Translation>Gewzungener Marsch~Gewzungene Märsche~Gewzungener Marsch~Gewzungener Marsch~Gewzungener Marsch</Translation>
 	</Entry>
@@ -349,16 +373,24 @@
 		<Translation>Ermüdet~Ermüdet</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CONCEPT_FRESH_WATER</zType>
+		<Translation>Frischwasser</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CONCEPT_FLANKING</zType>
 		<Translation>Flankierend</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_CONCEPT_AMBITION</zType>
-		<Translation>Ambition~eine Ambition~Ambitionen</Translation>
+		<zType>TEXT_CONCEPT_FORTIFY</zType>
+		<Translation>Verschanzen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_STATE_RELIGION</zType>
 		<Translation>Staatsreligion ~eine Staatsreligion~Staatsreligionen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_STRENGTH</zType>
+		<Translation>Stärke</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_SUCCESSION</zType>
@@ -397,8 +429,12 @@
 		<Translation>Legitimität</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CONCEPT_HOLY_CITY</zType>
+		<Translation>Heilige Stadt~eine Heilige Stadt~Heilige Städte</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CONCEPT_LUXURY</zType>
-		<Translation>Luxusgüter</Translation>
+		<Translation>Luxusgüter~Luxusgut</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_MERCENARY</zType>
@@ -410,15 +446,23 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_PROMOTION</zType>
-		<Translation>Beförderung~Beförderungen~Befördern~Befördert</Translation>
+		<Translation>Beförderung~eine Beförderung~Beförderungen~Befördert~Befördern</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_IMPROVEMENT</zType>
 		<Translation>Verbesserung~Verbesserungen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_CONCEPT_DISCIPLE</zType>
-		<Translation>Jünger~Jünger</Translation>
+		<zType>TEXT_CONCEPT_PROXIMITY</zType>
+		<Translation>Nähe</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_RELIGION</zType>
+		<Translation>Religion~eine Religion~Religionen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_RIVER</zType>
+		<Translation>Fluss~ein Fluss~Flüsse</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_ROAD</zType>
@@ -509,6 +553,62 @@
 	<Entry>
 		<zType>TEXT_SPECIALIST_STONECUTTER</zType>
 		<Translation>Steinmetz~ein Steinmetz~Steinmetzen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_INJURY</zType>
+		<Translation>Verletzung~eine Verletzung~Verletzungen~Verletzt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_INVISIBLE</zType>
+		<Translation>Unsichtbar</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_KNOWLEDGE</zType>
+		<Translation>Wissen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_NATION</zType>
+		<Translation>Reich~ein Reich~Reiche</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_OPINION_FAMILY</zType>
+		<Translation>Meinung: Familie~Familien Meinung~Familien Meinungen~Meinung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_OPINION_PLAYER</zType>
+		<Translation>Meinung: Landesweit~Landesweite Meinung~landesweite Meinungen~Meinung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_OPINION_RELIGION</zType>
+		<Translation>Meinung: Religion~Religions Meinung~Religions Meinungen~Meinung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_OPINION_TRIBE</zType>
+		<Translation>Meinung: Stamm~Stammes Meinung~Stammes Meinungen~Meinung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_OPINION_CHARACTER</zType>
+		<Translation>Meinung: Charakter~Charakter Meinung~Charakter Meinungen~Meinung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_PAGAN_RELIGION</zType>
+		<Translation>Heidnische Religion~eine Heidnische Religion~Heidnische Religionen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_PEACE_TRIBE</zType>
+		<Translation>Stammes Frieden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_PEACE_PLAYER</zType>
+		<Translation>Landesweiter Frieden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_POPULATION</zType>
+		<Translation>Bevölkerung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_POWER</zType>
+		<Translation>Macht</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_MINER</zType>
@@ -1874,19 +1974,10 @@
 		<zType>TEXT_GOAL_HOLY_SITE_MANICHAEISM</zType>
 		<Translation>Kontrolliere link(IMPROVEMENT_HOLY_SITE_MANICHAEISM)</Translation>
 	</Entry>
-	<!-- InfoLanguage -->
-	<Entry>
-		<zType>TEXT_LANGUAGE_ENGLISH</zType>
-		<Translation>Translation (US)</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_LANGUAGE_DEBUG</zType>
-		<Translation>Text Debug</Translation>
-	</Entry>
 	<!--InfoNation-->
 	<Entry>
 		<zType>TEXT_NATION_PICK_LATER</zType>
-		<Translation>Wähle Später</Translation>
+		<Translation>Später wählen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_NATION_RANDOM</zType>
