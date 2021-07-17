@@ -295,7 +295,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_GIVE_BIRTH_LEADER_ILLEGITIMATE</zType>
-		<Translation><![CDATA[<comment variable 0 is the leader i.e. "you" for gender purposes for foreign languages>Du hast einen neuen unrechtmäßigen <masculine_1>Sohn<feminine>Tochter<end>, {1_childName}!]]></Translation>
+		<Translation><![CDATA[<comment variable 0 is the leader i.e. "you" for gender purposes for foregn languages>Du hast <masculine_1>einen neuen unrechtmäßigen Sohn<feminine>eine neue unrechtmäßige Tochter<end>, {1_childName}!]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_GIVE_BIRTH_NON_LEADER</zType>

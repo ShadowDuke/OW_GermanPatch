@@ -3132,7 +3132,7 @@ Söldner haben keine zugewiesene link(CONCEPT_FAMILY) und int(CONSUMPTION_MERCEN
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_OPINION_FAMILY</zType>
-		<Translation>link(CONCEPT_FAMILY) Opinion modifies the {STRENGTH}Strength of their Units and the link(YIELD_CIVICS)icon(YIELD_CIVICS), link(YIELD_TRAINING){YIELD_TRAINING}, and link(YIELD_MAINTENANCE)icon(YIELD_MAINTENANCE) of their Cities. Further, a negative Opinion can lead to link(TRIBE_REBELS) spawing near the link(CONCEPT_FAMILY) Cities.</Translation>
+		<Translation>link(CONCEPT_FAMILY) Opinion modifies the icon(ATTACKDEFENSE)Strength of their Units and the link(YIELD_CIVICS)icon(YIELD_CIVICS), link(YIELD_TRAINING){YIELD_TRAINING}, and link(YIELD_MAINTENANCE)icon(YIELD_MAINTENANCE) of their Cities. Further, a negative Opinion can lead to link(TRIBE_REBELS) spawing near the link(CONCEPT_FAMILY) Cities.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_OPINION_CHARACTER</zType>

@@ -144,7 +144,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_35</zType>
-		<Translation>link(UNIT_MILITIA) und link(UNIT_LEVY) Einheiten können nicht befördert werden aber sie werden mit link(YIELD_GROWTH)icon(YIELD_GROWTH) anstatt mit link(YIELD_TRAINING)icon(YIELD_TRAINING) ausgebildet. Städte mit hoher link(YIELD_GROWTH)icon(YIELD_GROWTH) Produktion können sie zügig ausbilden.</Translation>
+		<Translation>link(UNIT_MILITIA) und link(UNIT_CONSCRIPT) Einheiten können nicht befördert werden aber sie werden mit link(YIELD_GROWTH)icon(YIELD_GROWTH) anstatt mit link(YIELD_TRAINING)icon(YIELD_TRAINING) ausgebildet. Städte mit hoher link(YIELD_GROWTH)icon(YIELD_GROWTH) Produktion können sie zügig ausbilden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_36</zType>
