@@ -1356,7 +1356,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TRADE_LUXURY_OPINION</zType>
-		<Translation>Meinung von einem Luxusgut: {0_value}/Year</Translation>
+		<Translation>Meinung von einem Luxusgut: {0_value}/Jahr</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TRADE_LUXURY_MISSING_OPINION</zType>
@@ -2032,7 +2032,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_ESTABLISH_THEOLOGY_REQUIRES_DIFFERENT_STATE_RELIGION</zType>
-		<Translation>Vebötigt {0_religion} als link(CONCEPT_STATE_RELIGION)</Translation>
+		<Translation>Bebötigt {0_religion} als link(CONCEPT_STATE_RELIGION)</Translation>
 	</Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_WIDGET_ESTABLISH_THEOLOGY_REQUIRES_PREVIOUS_TIER</zType>
@@ -2704,7 +2704,7 @@ Resources that are within any City's limits, or that are too far from one of you
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_DEFENDING</zType>
-		<Translation>{0_yield}: Verteidigende {true_1:Familien ) Einheit</Translation>
+		<Translation>{0_yield}: Verteidigende {true_1:Familien } Einheit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_MISSING_FAMILY</zType>
@@ -5929,7 +5929,7 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_STATE_PLAYER_EFFECT</zType>
-		<Translation>Als link(CONCEPT_STATE_RELIGION: {LIST}</Translation>
+		<Translation>Als link(CONCEPT_STATE_RELIGION): {LIST}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_OPINION_CITY_EFFECT</zType>

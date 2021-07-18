@@ -1184,15 +1184,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_20_GOODS_TURN</zType>
-		<Translation>+20 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD), und icon(YIELD_STONE)/Jahr</Translation>
+		<Translation>+20 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD) und icon(YIELD_STONE)/Jahr</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_50_GOODS_TURN</zType>
-		<Translation>+50 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD), und icon(YIELD_STONE)/Year</Translation>
+		<Translation>+50 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD) und icon(YIELD_STONE)/Jahr</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_100_GOODS_TURN</zType>
-		<Translation>+100 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD), und icon(YIELD_STONE)/Year</Translation>
+		<Translation>+100 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD) und icon(YIELD_STONE)/Jahr</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_CIVICS_2000</zType>
@@ -1344,7 +1344,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_VIA_RECTA_SOUK</zType>
-		<Translation>Baue link(IMPROVEMENT_VIA_RECTA_SOUK</Translation>
+		<Translation>Baue link(IMPROVEMENT_VIA_RECTA_SOUK)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_FIVE_DEVELOPING</zType>
