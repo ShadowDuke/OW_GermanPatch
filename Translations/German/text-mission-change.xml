@@ -44,15 +44,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_CHARACTER</zType>
-		<Translation>Spieler link(DIPLOMACY_PEACE) über</Translation>
+		<Translation>Spieler link(DIPLOMACY_PEACE) mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_OFFER_TRIBUTE</zType>
-		<Translation>Biete Tribute für link(DIPLOMACY_PEACE)</Translation>
+		<Translation>Biete Tribut für link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_OFFER_TRIBUTE_TARGET</zType>
-		<Translation>Biete Tribute für link(DIPLOMACY_PEACE) mit</Translation>
+		<Translation>Biete Tribut für link(DIPLOMACY_PEACE) mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_NO_TRIBUTE</zType>
@@ -64,11 +64,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_DEMAND_TRIBUTE</zType>
-		<Translation>Verlange Tribute für link(DIPLOMACY_PEACE)</Translation>
+		<Translation>Verlange Tribut für link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_DEMAND_TRIBUTE_TARGET</zType>
-		<Translation>Verlange Tribute für link(DIPLOMACY_PEACE) mit</Translation>
+		<Translation>Verlange Tribut für link(DIPLOMACY_PEACE) mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_HUMAN</zType>
@@ -84,7 +84,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_CHARACTER</zType>
-		<Translation>Spieler link(DIPLOMACY_TRUCE) über</Translation>
+		<Translation>Spieler link(DIPLOMACY_TRUCE) mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_OFFER_TRIBUTE</zType>
@@ -140,7 +140,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_ALLIANCE_CHARACTER</zType>
-		<Translation>Barbaren Bündnis über</Translation>
+		<Translation>Barbaren Bündnis mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_PEACE</zType>
@@ -152,7 +152,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_PEACE_CHARACTER</zType>
-		<Translation>Barbaren link(DIPLOMACY_PEACE) über</Translation>
+		<Translation>Barbaren link(DIPLOMACY_PEACE) mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_TRUCE</zType>
@@ -164,7 +164,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_TRUCE_CHARACTER</zType>
-		<Translation>Barbaren link(DIPLOMACY_TRUCE) über</Translation>
+		<Translation>Barbaren link(DIPLOMACY_TRUCE) mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_DECLARE_WAR</zType>
@@ -240,7 +240,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_INFLUENCE_CHARACTER</zType>
-		<Translation>Beeinflussen über</Translation>
+		<Translation>Beeinflussen mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_CONVERT_SELF</zType>
@@ -284,7 +284,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_INFILTRATE_CHARACTER</zType>
-		<Translation>Infiltriere Staat über</Translation>
+		<Translation>Infiltriere Staat mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_SLANDER</zType>
@@ -296,7 +296,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_SLANDER_CHARACTER</zType>
-		<Translation>Beleidige Reich über</Translation>
+		<Translation>Beleidige Reich mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_STEAL_RESEARCH</zType>
@@ -316,7 +316,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_ASSASSINATE_CHARACTER</zType>
-		<Translation>Attentat über</Translation>
+		<Translation>Attentat mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TREACHERY</zType>
@@ -336,15 +336,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_DEMAND_TRIBUTE</zType>
-		<Translation>Verlange Tribute</Translation>
+		<Translation>Verlange Tribut</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_DEMAND_TRIBUTE_TARGET</zType>
-		<Translation>Verlange Tribute von</Translation>
+		<Translation>Verlange Tribut von</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_DEMAND_TRIBUTE_CHARACTER</zType>
-		<Translation>Verlange Tribute über</Translation>
+		<Translation>Verlange Tribut mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRADE_MISSION</zType>
@@ -356,7 +356,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRADE_MISSION_CHARACTER</zType>
-		<Translation>Handelsmission über</Translation>
+		<Translation>Handelsmission mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_HIGH_SYNOD</zType>
@@ -368,7 +368,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_HIGH_SYNOD_CHARACTER</zType>
-		<Translation>Hohe Kirchenversammlung über</Translation>
+		<Translation>Hohe Kirchenversammlung mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_FAMILY_GIFT</zType>
@@ -376,7 +376,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_FAMILY_GIFT_CHARACTER</zType>
-		<Translation>Familien Geschenke über</Translation>
+		<Translation>Familien Geschenke mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PACIFY_CITY</zType>
@@ -388,7 +388,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PACIFY_CITY_CHARACTER</zType>
-		<Translation>Beschwichtige Stadt über</Translation>
+		<Translation>Beschwichtige Stadt mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_IMPRISON</zType>
@@ -396,7 +396,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_IMPRISON_CHARACTER</zType>
-		<Translation>Einsperren über</Translation>
+		<Translation>Einsperren mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_RELEASE</zType>
