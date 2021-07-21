@@ -32,10 +32,6 @@
 		<Translation>Wehrtürme</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_PROJECT_TREASURY</zType>
-		<Translation>Staatskassen</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_PROJECT_TREASURY_1</zType>
 		<Translation>Staatskasse I~eine Staatskasse I~Staatskassen I</Translation>
 	</Entry>
@@ -52,10 +48,6 @@
 		<Translation>Staatskasse IV~eine Staatskasse IV~Staatskassen IV</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_PROJECT_FORUM</zType>
-		<Translation>Gerichte</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_PROJECT_FORUM_1</zType>
 		<Translation>Gericht I~ein Gericht I~Gerichte I</Translation>
 	</Entry>
@@ -70,10 +62,6 @@
 	<Entry>
 		<zType>TEXT_PROJECT_FORUM_4</zType>
 		<Translation>Gericht IV~ein Gericht IV~Gerichte IV</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_PROJECT_ARCHIVE</zType>
-		<Translation>Archive</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_ARCHIVE_1</zType>

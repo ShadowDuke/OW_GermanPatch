@@ -239,10 +239,6 @@
 		<Translation>STADT EREIGNIS</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_EVENT_LOG_CITY_BUILT</zType>
-		<Translation>STADT GEBAUT</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_CITY_BREACHED</zType>
 		<Translation>STADT DURCHBROCHEN</Translation>
 	</Entry>
@@ -2063,8 +2059,8 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
         <Translation>Ehepartner</Translation>
     </Entry>
     <Entry>
-        <zType>TEXT_TAB_PANEL_CHARTAB_HEIRS</zType>
-        <Translation>Erben</Translation>
+        <zType>TEXT_TAB_PANEL_CHARTAB_SUCCESSION</zType>
+        <Translation>Nachfolge</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_TAB_PANEL_CHARTAB_COURT_COURTIERS</zType>

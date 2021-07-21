@@ -14,12 +14,12 @@
 		<Translation>Wird geliebte/r von</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_RELATIONSHIP_ALLIED_WITH</zType>
-		<Translation>Verbündetet mit</Translation>
+		<zType>TEXT_RELATIONSHIP_CONSPIRING_WITH</zType>
+		<Translation>Verschwärebn mit</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_RELATIONSHIP_ALLIED_WITH_VERB</zType>
-		<Translation>Wird Verbündeter mit</Translation>
+		<zType>TEXT_RELATIONSHIP_CONSPIRING_WITH_VERB</zType>
+		<Translation>Beginnt Verschwörung mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_RELATIONSHIP_IN_LOVE_WITH</zType>

@@ -220,16 +220,40 @@
 		<Translation>Spymaster</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TUTORIAL_AGENTS</zType>
-		<Translation>Agents</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TUTORIAL_RURAL_RESOURCES</zType>
+		<zType>TEXT_TUTORIAL_RURAL_YIELDS</zType>
 		<Translation>Tutorial: Ländliche Felder</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TUTORIAL_URBAN_RESOURCES</zType>
+		<zType>TEXT_TUTORIAL_URBAN_YIELDS</zType>
 		<Translation>Tutorial: Stadtteil Felder</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_URBAN_GROWTH</zType>
+		<Translation>Tutorial: Stadtteil Felde (Wachstum)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_URBAN_CIVICS</zType>
+		<Translation>Tutorial: Stadtteil Felde (Verawtlung)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_URBAN_TRAINING</zType>
+		<Translation>Tutorial: Stadtteil Feldes (Training)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_URBAN_CULTURE</zType>
+		<Translation>Tutorial: Stadtteil Felde (Kultur)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_URBAN_DISCONTENT</zType>
+		<Translation>Tutorial: Stadtteil Felde (Unzufriedenheit)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_URBAN_SCIENCE</zType>
+		<Translation>Tutorial: Stadtteil Felde (Wissenschaft)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TUTORIAL_URBAN_MONEY</zType>
+		<Translation>Tutorial: Stadtteil Felde (GEld)</Translation>
 	</Entry>
 	<!--InfoConcept-->
 	<Entry>
@@ -283,10 +307,6 @@
 	<Entry>
 		<zType>TEXT_CONCEPT_CITY_SITE</zType>
 		<Translation>Stadtplatz~ein Stadtplatz~Stadtplätze</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_CONCEPT_CLAIM</zType>
-		<Translation>Beanspruchen~Beansprucht~Beansprucht~Unbeansprucht</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_CLEAR</zType>
@@ -1128,7 +1148,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_GAULS_5</zType>
-		<Translation>Töte 5 link(BARBARIAN_GAULS)</Translation>
+		<Translation>Töte 5 link(TRIBE_GAULS)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_VANDALS_5</zType>

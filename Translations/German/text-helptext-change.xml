@@ -1348,11 +1348,7 @@
 	</Entry>
 	 <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_TRADE_CITY_LUXURY_TT</zType>
-    <Translation>Stadt Luxusgüter:</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_TRADE_LUXURY_FAMILY</zType>
-		<Translation>Von {0_family}:</Translation>
+		<Translation>Stadt Luxusgüter:</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TRADE_LUXURY_OPINION</zType>
@@ -2521,70 +2517,70 @@ Be sure to protect your link(UNIT_CARAVAN,2) en-route to their destination as th
 		<Translation>The link(UNIT_WARRIOR) is the first link(UNITTRAIT_MELEE) Unit available to your Nation. link(UNITTRAIT_MELEE) Units will form the backbone of your army, defending you from enemy link(CONCEPT_TRIBE,2) and Nations.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_URBAN_RESOURCES</zType>
-		<Translation>Stadtteil Felder beinhalten link(YIELD_GROWTH)icon(YIELD_GROWTH), link(YIELD_MAINTENANCE)icon(YIELD_MAINTENANCE), link(YIELD_DISCONTENT){YIELD_DISCONTENT}, link(YIELD_CIVICS)icon(YIELD_CIVICS), link(YIELD_TRAINING)icon(YIELD_TRAINING), link(YIELD_CULTURE)icon(YIELD_CULTURE), link(YIELD_SCIENCE)icon(YIELD_SCIENCE), und link(YIELD_MONEY)icon(YIELD_MONEY).
-			
-icon(bullet) link(YIELD_GROWTH)icon(YIELD_GROWTH)
-			
-link(YIELD_GROWTH)icon(YIELD_GROWTH) is essential for expanding your Population and increasing the yields of your Cities. Cities produce a new link(CONCEPT_CITIZEN) each time their Growth{YIELD_GROWTH} bar fills up. Each link(EFFECTCITY_CITIZEN) provides a small amount of link(YIELD_ORDERS)icon(YIELD_ORDERS), can be converted into link(CONCEPT_SPECIALIST,1), and augments the output of certain link(CONCEPT_SPECIALIST,2) such as link(SPECIALIST_PRIEST_3,2) and link(SPECIALIST_POET_3,2).  
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_RURAL_YIELDS</zType>
+		<Translation>The Rural Yields are {YIELD_FOOD}link(YIELD_FOOD), {YIELD_IRON}link(YIELD_IRON), {YIELD_STONE}link(YIELD_STONE), and {YIELD_WOOD}link(YIELD_WOOD). They are primarily drawn from rural link(CONCEPT_IMPROVEMENT,2) and collect in the Global stockpile. You can spend {YIELD_MONEY}link(YIELD_MONEY) to purchase Rural Yields directly from the top bar where it shows your current stockpile.
 
-Cities with high link(YIELD_GROWTH)icon(YIELD_GROWTH) train new Civilian Units like link(UNIT_SETTLER,2), link(UNIT_WORKER,2), and link(UNIT_SCOUT,2) more rapidly. While a City produces a Civilian Unit, its Growth{YIELD_GROWTH} bar no longer fills. link(UNIT_MILITIA) and link(UNIT_CONSCRIPT) Units are also produced with link(YIELD_GROWTH)icon(YIELD_GROWTH), instead of link(YIELD_TRAINING)icon(YIELD_TRAINING) like other Military Units.
-			
-You can increase a City's Growth{YIELD_GROWTH} by training link(SPECIALIST_FARMER,2), link(SPECIALIST_DOCTOR_1,2), and link(SPECIALIST_SHOPKEEPER_1,2) (and their upgrades), and building link(IMPROVEMENT_GRANARY,2) and link(IMPROVEMENT_TOWN,2). link(IMPROVEMENT_FARM,2) will also augment link(YIELD_GROWTH) even further if built on a link(EFFECTCITY_RESOURCE_CROP) like link(RESOURCE_WHEAT) or link(RESOURCE_BARLEY), or next to a link(IMPROVEMENT_GRANARY). link(IMPROVEMENT_PASTURE,2) provide link(YIELD_ORDERS) if built on link(RESOURCE_HORSE), but will yield link(YIELD_FOOD) and link(YIELD_GROWTH)icon(YIELD_GROWTH) on other resources. link(IMPROVEMENTCLASS_CAMP,2) on link(RESOURCE_GAME), link(IMPROVEMENTCLASS_GROVE,2) on link(RESOURCE_CITRUS), and link(IMPROVEMENTCLASS_NETS,2) on link(RESOURCE_CRAB) or link(RESOURCE_FISH) also provide link(YIELD_GROWTH)icon(YIELD_GROWTH). It is worth noting that although many link(CONCEPT_IMPROVEMENT,2) and link(CONCEPT_SPECIALIST,2) provide both link(YIELD_GROWTH)icon(YIELD_GROWTH) and link(YIELD_FOOD)icon(YIELD_FOOD), they are not the same Resource.
+The primary source of {YIELD_FOOD}link(YIELD_FOOD) is link(IMPROVEMENT_FARM,2), which are most fruitful next to link(CONCEPT_FRESH_WATER) and on link(TERRAIN_LUSH) Terrain. {YIELD_FOOD}link(YIELD_FOOD) is needed to feed your link(CONCEPT_POPULATION) and to produce new link(UNIT_SETTLER,2).
 
-link(CONCEPT_FAMILY,2) of the link(FAMILYCLASS_LANDOWNERS) link(CONCEPT_FAMILY_CLASS) provide link(YIELD_GROWTH)icon(YIELD_GROWTH) bonuses to their Cities. link(COUNCIL_AMBASSADOR,2) with a high link(RATING_DISCIPLINE) Rating also boost link(YIELD_GROWTH)icon(YIELD_GROWTH). Keeping your Cities link(EFFECTCITY_CONNECTED), building link(IMPROVEMENTCLASS_BATHS,2) and some Wonders, as well as Projects like link(PROJECT_CONVOY) all increase link(YIELD_GROWTH)icon(YIELD_GROWTH). Leaders and link(CONCEPT_GOVERNOR,2) with the link(TRAIT_AFFABLE) Trait can also boost link(YIELD_GROWTH)icon(YIELD_GROWTH). Certain Religious link(CONCEPT_IMPROVEMENT,2) like link(IMPROVEMENTCLASS_TEMPLE,2), especially when combined with link(LAW_ICONOGRAPHY), and certain link(IMPROVEMENTCLASS_SHRINE,2) also contribute to link(YIELD_GROWTH)icon(YIELD_GROWTH).
+The primary source of {YIELD_IRON}link(YIELD_IRON) is link(IMPROVEMENT_MINE,2), which are most productive on link(RESOURCE_ORE) and link(HEIGHT_HILL,2). {YIELD_IRON}link(YIELD_IRON) is needed to produce many types of Military Units, including link(UNIT_WARRIOR,2) and link(UNIT_AXEMAN,2).
 
-icon(bullet) link(YIELD_MAINTENANCE)icon(YIELD_MAINTENANCE)
+The primary source of {YIELD_STONE}link(YIELD_STONE) is link(IMPROVEMENT_QUARRY,2), which are most productive on link(RESOURCE_MARBLE), on link(TERRAIN_ARID) Terrain, and when adjacent to link(HEIGHT_MOUNTAIN,2). {YIELD_STONE}link(YIELD_STONE) is needed primarily to build link(CONCEPT_IMPROVEMENT,2) like link(IMPROVEMENTCLASS_SHRINE,2) and City link(CONCEPT_PROJECT,2) such as link(PROJECT_WALLS).
 
-link(YIELD_MAINTENANCE)icon(YIELD_MAINTENANCE) decreases the amount of link(YIELD_MONEY){YIELD_MONEY} a City generates. link(YIELD_MAINTENANCE)icon(YIELD_MAINTENANCE) costs increase with each link(CONCEPT_CITIZEN) and link(CONCEPT_SPECIALIST), with the distance a City is from your link(CONCEPT_CAPITAL), and with some Leader and link(CONCEPT_GOVERNOR) Traits like link(TRAIT_CORRUPT), and Projects like the link(PROJECT_GRAIN_DOLE). link(YIELD_MAINTENANCE)icon(YIELD_MAINTENANCE) can be reduced by connecting a City to your link(CONCEPT_TRADE_NETWORK), and by improving the link(CONCEPT_OPINION_FAMILY,3) of its ruling link(CONCEPT_FAMILY). Certain link(CONCEPT_IMPROVEMENT,2) like the link(IMPROVEMENT_GARRISON_3) and the link(IMPROVEMENT_COURTHOUSE_3) also reduce link(YIELD_MAINTENANCE)icon(YIELD_MAINTENANCE), but link(CONCEPT_IMPROVEMENT,2) without link(CONCEPT_SPECIALIST,1) increase link(YIELD_MAINTENANCE){YIELD_MAINTENANCE} costs. Adopting link(THEOLOGY_LEGALISM) will also reduce link(YIELD_MAINTENANCE)icon(YIELD_MAINTENANCE).
-
-icon(bullet) link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT)
-
-Cities gain link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) over time. Having fewer of link(CONCEPT_URBAN) Tiles than Population will lead to link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT), and so do certain laws like link(LAW_SLAVERY), and link(PROJECT_CHILD_LABOR), as well has having a link(TRAIT_DEBAUCHED) Leader or link(CONCEPT_GOVERNOR). When a City's link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) meter is filled, its overall link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) Level goes up, which increases link(YIELD_MAINTENANCE)icon(YIELD_MAINTENANCE), and reduces link(YIELD_GROWTH)icon(YIELD_GROWTH) and link(YIELD_SCIENCE)icon(YIELD_SCIENCE). High Discontent{YIELD_DISCONTENT} Levels reduce the link(CONCEPT_OPINION_FAMILY,3) of the ruling link(CONCEPT_FAMILY) of that City. 
-
-You can reduce link(YIELD_DISCONTENT){YIELD_DISCONTENT} by connecting your Cities with the link(CONCEPT_TRADE_NETWORK), adopting Laws such as link(LAW_CONSTITUTION), link(LAW_TOLERANCE), and link(LAW_MONETARY_REFORM), and building link(IMPROVEMENTCLASS_BATHS,2) and link(IMPROVEMENT_THEATER_3,2). link(CONCEPT_LUXURY,2) can be traded to a City to reduce link(YIELD_DISCONTENT), and Religious Opinion affects the link(YIELD_DISCONTENT){YIELD_DISCONTENT} of your Cities with that link(CONCEPT_RELIGION). Adopting a link(CONCEPT_STATE_RELIGION) can reduce link(YIELD_DISCONTENT){YIELD_DISCONTENT}. A link(COUNCIL_SPYMASTER) with a high link(RATING_COURAGE) Rating can reduce link(YIELD_DISCONTENT){YIELD_DISCONTENT}, and so can Leaders and link(CONCEPT_GOVERNOR,2) with the link(TRAIT_RIGHTEOUS) Trait. Projects like link(PROJECT_WALLS), link(PROJECT_MOAT,2) and link(PROJECT_TOWERS), link(PROJECT_FESTIVAL_1), link(PROJECT_FORUM_4), link(PROJECT_TREASURY_4), link(PROJECT_ARCHIVE_4), and Wonders like the link(IMPROVEMENT_HAGIA_SOPHIA) also help reduce link(YIELD_DISCONTENT){YIELD_DISCONTENT}. link(CONCEPT_SPECIALIST,2) like link(SPECIALIST_PRIEST_1) and its upgrades, as well as certain combinations like link(LAW_ICONOGRAPHY) with link(IMPROVEMENTCLASS_CATHEDRAL,2), any Elder link(CONCEPT_SPECIALIST) with link(LAW_CALLIGRAPHY), link(IMPROVEMENT_TOWN,2) with link(LAW_GUILDS), link(SPECIALIST_MONK_3,2) with link(THEOLOGY_ENLIGHTENMENT), link(PROJECT_ARCHIVE_1) with link(TRAIT_SCHOLAR_ARCHETYPE) link(CONCEPT_GOVERNOR,2), and link(THEOLOGY_DUALISM) with link(IMPROVEMENTCLASS_TEMPLE,2) help with link(YIELD_DISCONTENT){YIELD_DISCONTENT}. The link(MISSION_PACIFY_CITY) Mission can also reduce link(YIELD_DISCONTENT){YIELD_DISCONTENT} in targeted Cities.
-	
-icon(bullet) link(YIELD_CIVICS)icon(YIELD_CIVICS)
-	
-Cities produce link(CONCEPT_SPECIALIST,2) and link(CONCEPT_PROJECT,2) with their link(YIELD_CIVICS)icon(YIELD_CIVICS). Unused link(YIELD_CIVICS)icon(YIELD_CIVICS) go into the Global stockpile, which can be used to enact Laws, establish link(CONCEPT_THEOLOGY,2), construct Wonders, hire link(CONCEPT_SPECIALIST,2), link(CONCEPT_HURRY), execute Character Missions like link(MISSION_INFLUENCE), and conduct diplomacy. link(YIELD_CIVICS)icon(YIELD_CIVICS) stockpiles are capped at int(MAX_CIVICS). Above this value, they'll be converted to link(YIELD_SCIENCE)icon(YIELD_SCIENCE).
-
-Increase link(YIELD_CIVICS)icon(YIELD_CIVICS) by hiring link(SPECIALIST_STONECUTTER,2) and completing projects like link(PROJECT_FORUM_1), link(PROJECT_COUNCIL_1), and link(PROJECT_ARCHIVE_1) in your Cities. Global link(YIELD_CIVICS)icon(YIELD_CIVICS) also comes from members of your link(CONCEPT_COURT) with high link(RATING_CHARISMA). Laws like link(LAW_CENTRALIZATION) and link(LAW_LEGAL_CODE) also improve link(YIELD_CIVICS)icon(YIELD_CIVICS) production. link(CONCEPT_FAMILY,2) of the link(FAMILYCLASS_PATRONS), link(FAMILYCLASS_SAGES), and link(FAMILYCLASS_STATESMEN) link(CONCEPT_FAMILY_CLASS,2) provide link(YIELD_CIVICS)icon(YIELD_CIVICS) bonuses to their Cities. Leaders and link(CONCEPT_GOVERNOR,2) with the link(TRAIT_ELOQUENT) or link(TRAIT_PROPHET) Traits can also boost link(YIELD_CIVICS)icon(YIELD_CIVICS). You can increase a City's link(YIELD_CIVICS)icon(YIELD_CIVICS) by training link(SPECIALIST_PHILOSOPHER_2,2), link(SPECIALIST_MONK_2,2), and link(SPECIALIST_SCRIBE_1,2) (and their upgrades), and building link(IMPROVEMENT_LIBRARY_3,2) and link(IMPROVEMENT_COURTHOUSE_1,2) can also help. Certain combinations like a link(IMPROVEMENTCLASS_QUARRY) built on link(RESOURCE_MARBLE), or a link(IMPROVEMENTCLASS_MONASTERY) with the link(THEOLOGY_LEGALISM) link(CONCEPT_THEOLOGY) can also improve link(YIELD_CIVICS)icon(YIELD_CIVICS).
-
-icon(bullet) link(YIELD_TRAINING)icon(YIELD_TRAINING)
-
-link(YIELD_TRAINING)icon(YIELD_TRAINING) is used by Cities to produce Military Units. Unused link(YIELD_TRAINING)icon(YIELD_TRAINING) goes into the Global stockpile, which can be used to buy link(YIELD_ORDERS){YIELD_ORDERS}, conduct link(CONCEPT_MARCH,1), and for Unit link(CONCEPT_PROMOTION,2) and link(CONCEPT_UPGRADE,2). Increase Training{YIELD_TRAINING} by producing link(SPECIALIST_MINER,2) and building link(IMPROVEMENT_BARRACKS,2) or link(IMPROVEMENT_RANGE,2). Both link(IMPROVEMENT_BARRACKS,2) and link(IMPROVEMENT_RANGE,2) can build link(SPECIALISTCLASS_OFFICER) Specialists, which boost their Training{YIELD_TRAINING} yields. Global Training{YIELD_TRAINING} also comes from members of your link(CONCEPT_COURT) with high link(RATING_COURAGE). link(IMPROVEMENT_MINE,2) provide Training{YIELD_TRAINING} if built on link(RESOURCE_ORE), and the link(MISSION_RALLY_TROOPS) Mission can also provide link(YIELD_TRAINING)icon(YIELD_TRAINING). link(CONCEPT_FAMILY,2) of the link(FAMILYCLASS_CHAMPIONS), link(FAMILYCLASS_RIDERS), or link(FAMILYCLASS_HUNTERS) link(CONCEPT_FAMILY_CLASS) generate more Training{YIELD_TRAINING} in their Cities. link(YIELD_TRAINING)icon(YIELD_TRAINING) stockpiles are capped at int(MAX_TRAINING). Above this value, they'll be converted automatically to to link(YIELD_ORDERS)icon(YIELD_ORDERS).
-
-icon(bullet) link(YIELD_CULTURE)icon(YIELD_CULTURE)
-
-When a City's link(YIELD_CULTURE)icon(YIELD_CULTURE) bar fills up, a positive Event occurs, and the City's overall Culture{YIELD_CULTURE} Level increases. Cities start at link(CULTURE_WEAK) link(YIELD_CULTURE)icon(YIELD_CULTURE) Level, and the highest Level is link(CULTURE_LEGENDARY). The link(YIELD_CULTURE)icon(YIELD_CULTURE) Level affects which link(CONCEPT_IMPROVEMENT,2) and Wonders can be built in a City's territory, and whether the City can link(CONCEPT_HURRY) (which requires at least link(CULTURE_DEVELOPING) Culture{YIELD_CULTURE} Level).
-
-You can Improve link(YIELD_CULTURE)icon(YIELD_CULTURE) by building Urban link(CONCEPT_IMPROVEMENT,2) like link(IMPROVEMENTCLASS_SHRINE,2), link(IMPROVEMENTCLASS_ODEON,2), and link(IMPROVEMENT_THEATER_2,2), and by building Rural link(CONCEPT_IMPROVEMENT,2) on certain Resources, like a link(IMPROVEMENTCLASS_MINE) on link(RESOURCE_SALT) or link(RESOURCE_GEM), a link(IMPROVEMENTCLASS_CAMP) on link(RESOURCE_FUR), a link(IMPROVEMENTCLASS_GROVE) on link(RESOURCE_HONEY), link(RESOURCE_INCENSE), link(RESOURCE_WINE), link(RESOURCE_OLIVE), or link(RESOURCE_LAVENDER), or link(IMPROVEMENTCLASS_NETS) on link(RESOURCE_DYE) or link(RESOURCE_PEARL). The link(YIELD_CULTURE)icon(YIELD_CULTURE) of a City can also be improved by gaining access to the preferred link(CONCEPT_LUXURY,2) of the ruling link(CONCEPT_FAMILY_CLASS). For example, link(RESOURCE_OLIVE) and link(RESOURCE_HONEY) for link(FAMILYCLASS_LANDOWNERS). A link(EFFECTCITY_IMPROVEMENT_MARKET_3) can also augment the link(YIELD_CULTURE)icon(YIELD_CULTURE) production of link(CONCEPT_LUXURY,2). 
-
-Adopting a link(CONCEPT_STATE_RELIGION) and building the unique Religious link(CONCEPT_IMPROVEMENT,2) of that Religion can increase link(YIELD_CULTURE)icon(YIELD_CULTURE), and those gains be even further augmented by Laws and link(CONCEPT_THEOLOGY,2). The link(YIELD_CULTURE)icon(YIELD_CULTURE) yields of a link(IMPROVEMENTCLASS_MONASTERY) are improved by link(LAW_ICONOGRAPHY), and link(IMPROVEMENTCLASS_SHRINE) yields by link(THEOLOGY_MYTHOLOGY), and the link(LAW_EPICS) Law improves link(YIELD_CULTURE)icon(YIELD_CULTURE) on its own. link(CONCEPT_SPECIALIST,2) like the link(SPECIALIST_ACOLYTE_1), the link(SPECIALIST_POET_1), and the link(SPECIALIST_MONK_1), and their upgrades, also improve link(YIELD_CULTURE)icon(YIELD_CULTURE) production. Leaders and link(CONCEPT_GOVERNOR,2) with the right traits, like link(TRAIT_INSPIRING), can also boost Culture{YIELD_CULTURE} production.
-
-link(CONCEPT_FAMILY,2) of the link(FAMILYCLASS_ARTISANS) link(CONCEPT_FAMILY_CLASS) generate extra link(YIELD_CULTURE){YIELD_CULTURE} in their Cities, and each link(CONCEPT_SPECIALIST) increases the link(YIELD_CULTURE){YIELD_CULTURE} of link(FAMILYCLASS_PATRONS,1) Cities. A link(COUNCIL_CHANCELLOR) with a high link(RATING_WISDOM) Rating will also produce link(YIELD_CULTURE)icon(YIELD_CULTURE). Certain Events can provide link(YIELD_CULTURE)icon(YIELD_CULTURE) boosts.
-
-icon(bullet) link(YIELD_SCIENCE)icon(YIELD_SCIENCE)
-
-link(YIELD_SCIENCE)icon(YIELD_SCIENCE) increases the rate at which your link(CONCEPT_NATION) discovers Technologies. Increase link(YIELD_SCIENCE)icon(YIELD_SCIENCE) by adopting the Laws link(LAW_FREEDOM) and link(LAW_CENTRALIZATION), completing Projects like link(PROJECT_ARCHIVE_1) and link(PROJECT_FORUM_1), or hiring any type of link(CONCEPT_SPECIALIST) in your Cities. link(YIELD_SCIENCE)icon(YIELD_SCIENCE) also comes from members of your link(CONCEPT_COURT) with high link(RATING_WISDOM). link(CONCEPT_FAMILY,2) of the link(FAMILYCLASS_SAGES) link(CONCEPT_FAMILY_CLASS) provide link(YIELD_SCIENCE)icon(YIELD_SCIENCE) bonuses to their Cities. Building link(IMPROVEMENT_LIBRARY_1,2), link(IMPROVEMENT_WATERMILL,2), link(IMPROVEMENT_WINDMILL,2) and the link(IMPROVEMENT_MUSAEUM) will also provide you with link(YIELD_SCIENCE)icon(YIELD_SCIENCE), and so can Leaders and link(CONCEPT_GOVERNOR,2) with the link(TRAIT_INTELLIGENT) Trait.
-
-icon(bullet) link(YIELD_MONEY)icon(YIELD_MONEY)
-
-link(YIELD_MONEY)icon(YIELD_MONEY) is most useful for purchasing link(YIELD_FOOD){YIELD_FOOD}, link(YIELD_IRON){YIELD_IRON}, link(YIELD_STONE){YIELD_STONE}, and link(YIELD_WOOD){YIELD_WOOD} (You can also sell all of these if you need more link(YIELD_MONEY)icon(YIELD_MONEY)). Increase link(YIELD_MONEY)icon(YIELD_MONEY) by building link(IMPROVEMENT_HAMLET,2) and link(IMPROVEMENTCLASS_MARKET,2). link(YIELD_MONEY)icon(YIELD_MONEY) also comes from members of your link(CONCEPT_COURT) with high link(RATING_DISCIPLINE).</Translation>
+The link(TECH_FORESTRY) Tech enables the construction of link(IMPROVEMENT_LUMBERMILL,2) on link(VEGETATION_TREES) to produce {YIELD_WOOD}link(YIELD_WOOD). link(UNIT_WORKER,2) can also cut down link(VEGETATION_TREES) with the  icon(REMOVE_TREES) Button in the Actions panel.  {YIELD_WOOD}link(YIELD_WOOD) is needed to build City link(CONCEPT_IMPROVEMENT,2) like link(IMPROVEMENT_BARRACKS), Military Units like link(UNIT_ARCHER,2), and link(UNITTRAIT_SHIP) Units like link(UNIT_BIREME,2).</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_RURAL_RESOURCES</zType>
-		<Translation>The Rural Yields are link(YIELD_WOOD)icon(YIELD_WOOD), link(YIELD_STONE)icon(YIELD_STONE), link(YIELD_IRON)icon(YIELD_IRON), and link(YIELD_FOOD)icon(YIELD_FOOD). They are primarily drawn from rural link(CONCEPT_IMPROVEMENT,2), and collect in your national stockpile. You can spend link(YIELD_MONEY)icon(YIELD_MONEY) to purchase Rural Resources directly from the top bar where it shows your current resource totals.  
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_URBAN_YIELDS</zType>
+		<Translation>Cities produce the following Yields: {YIELD_GROWTH}link(YIELD_GROWTH), {YIELD_TRAINING}link(YIELD_TRAINING), {YIELD_CIVICS}link(YIELD_CIVICS), {YIELD_MONEY}link(YIELD_MONEY), {YIELD_SCIENCE}link(YIELD_SCIENCE), {YIELD_CULTURE}link(YIELD_CULTURE), and {YIELD_DISCONTENT}link(YIELD_DISCONTENT).
 		
-The link(TECH_FORESTRY) Tech enables the construction of link(IMPROVEMENT_LUMBERMILL,2) on link(VEGETATION_TREES) to produce link(YIELD_WOOD)icon(YIELD_WOOD). link(UNIT_WORKER,2) can also cut down link(VEGETATION_TREES) with the  icon(REMOVE_TREES) Button in the Actions panel.  link(YIELD_WOOD)icon(YIELD_WOOD) is needed to build City Improvements like link(IMPROVEMENT_BARRACKS), Military Units like link(UNIT_ARCHER,2), and link(UNITTRAIT_SHIP) Units like link(UNIT_BIREME,2).
-			
-The primary source of link(YIELD_STONE)icon(YIELD_STONE) is link(IMPROVEMENT_QUARRY,2), which are most productive on link(RESOURCE_MARBLE), on link(TERRAIN_ARID) Terrain, and when adjacent to link(HEIGHT_MOUNTAIN,2). link(YIELD_STONE)icon(YIELD_STONE) is needed primarily to build link(CONCEPT_IMPROVEMENT,2) like link(IMPROVEMENTCLASS_SHRINE,2), and City link(CONCEPT_PROJECT,2) such as link(PROJECT_WALLS).
-		
-The primary source of link(YIELD_IRON)icon(YIELD_IRON) is link(IMPROVEMENT_MINE,2), which are most productive on link(RESOURCE_ORE) and link(HEIGHT_HILL,2). link(YIELD_IRON)icon(YIELD_IRON) is needed to build many types of Military Units, including link(UNIT_WARRIOR,2) and link(UNIT_AXEMAN,2).
-	
-The primary source of link(YIELD_FOOD)icon(YIELD_FOOD) is link(IMPROVEMENT_FARM,2), which are most fruitful next to link(CONCEPT_FRESH_WATER) and on link(TERRAIN_LUSH) Terrain. link(YIELD_FOOD)icon(YIELD_FOOD) is needed to feed your link(CONCEPT_POPULATION) and to produce new link(UNIT_SETTLER,2).
+{YIELD_GROWTH}link(YIELD_GROWTH), {YIELD_TRAINING}link(YIELD_TRAINING), and {YIELD_CIVICS}link(YIELD_CIVICS) are all used for City production. ({YIELD_GROWTH}link(YIELD_GROWTH) for Civilian Units, {YIELD_TRAINING}link(YIELD_TRAINING) for Military Units, and {YIELD_CIVICS}link(YIELD_CIVICS) for link(CONCEPT_PROJECT,2) and link(CONCEPT_SPECIALIST,2).) When not being used for City production, {YIELD_TRAINING}link(YIELD_TRAINING) and {YIELD_CIVICS}link(YIELD_CIVICS) go to the Global stockpile and {YIELD_GROWTH}link(YIELD_GROWTH) goes into the production of new link(CONCEPT_CITIZEN,2).
 
-link(UNIT_SCOUT,2), link(UNIT_SETTLER,2), and link(UNIT_WORKER,2) can also link(CONCEPT_HARVEST_RESOURCE,2) outside your borders to increase your stockpiles.</Translation>
+{YIELD_CULTURE}link(YIELD_CULTURE) and {YIELD_DISCONTENT}link(YIELD_DISCONTENT) both go into their respective progress bars. When the {YIELD_CULTURE}link(YIELD_CULTURE) bar fills, a positive Event occurs and new link(CONCEPT_IMPROVEMENT,2) and link(CONCEPT_WONDER,2) are unlocked. When the {YIELD_DISCONTENT}link(YIELD_DISCONTENT) bar fills, icon(YIELD_MAINTENANCE)link(YIELD_MAINTENANCE) goes us and {YIELD_GROWTH}link(YIELD_GROWTH) and {YIELD_SCIENCE}link(YIELD_SCIENCE) go down.
+
+{YIELD_MONEY}link(YIELD_MONEY) and {YIELD_SCIENCE}link(YIELD_SCIENCE) both go directly into the Global stockpile.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_URBAN_GROWTH</zType>
+		<Translation>{YIELD_GROWTH}link(YIELD_GROWTH) is essential for expanding your Population and increasing the Yields of your Cities. Cities produce a new link(CONCEPT_CITIZEN) each time their Growth{YIELD_GROWTH} bar fills up. Each link(EFFECTCITY_CITIZEN) provides a small amount of icon(YIELD_ORDERS)link(YIELD_ORDERS) and can be converted into link(CONCEPT_SPECIALIST,1).  
+
+Cities with high {YIELD_GROWTH}link(YIELD_GROWTH) train new Civilian Units like link(UNIT_SETTLER,2), link(UNIT_WORKER,2), and link(UNIT_SCOUT,2) more rapidly. While a City produces a Civilian Unit, its Growth{YIELD_GROWTH} bar no longer fills. link(UNIT_MILITIA) and link(UNIT_CONSCRIPT) Units are also produced with {YIELD_GROWTH}link(YIELD_GROWTH) instead of {YIELD_TRAINING}link(YIELD_TRAINING) like other Military Units.
+			
+You can increase a City's Growth{YIELD_GROWTH} by training link(SPECIALIST_FARMER,2) and building link(IMPROVEMENT_GRANARY,2) and link(IMPROVEMENT_TOWN,2). link(IMPROVEMENT_FARM,2) will also augment link(YIELD_GROWTH) even further if built on a link(EFFECTCITY_RESOURCE_CROP) like link(RESOURCE_WHEAT) or link(RESOURCE_BARLEY). It is worth noting that although many link(CONCEPT_IMPROVEMENT,2) and link(CONCEPT_SPECIALIST,2) provide both {YIELD_GROWTH}link(YIELD_GROWTH) and {YIELD_FOOD}link(YIELD_FOOD), they are not the same Resource (link(YIELD_FOOD) is used to start producing link(UNIT_SETTLER,2) and feed your link(CONCEPT_POPULATION)).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_URBAN_CIVICS</zType>
+		<Translation>Cities produce link(CONCEPT_SPECIALIST,2) and link(CONCEPT_PROJECT,2) with their {YIELD_CIVICS}link(YIELD_CIVICS). Unused {YIELD_CIVICS}link(YIELD_CIVICS) go into the Global stockpile, which can be used to enact Laws, establish link(CONCEPT_THEOLOGY,2), construct Wonders, hire link(CONCEPT_SPECIALIST,2), link(CONCEPT_HURRY), execute Character Missions like link(MISSION_INFLUENCE), and conduct diplomacy. {YIELD_CIVICS}link(YIELD_CIVICS) stockpiles are capped at int(MAX_CIVICS). Above this value, they'll be converted to {YIELD_SCIENCE}link(YIELD_SCIENCE).
+
+Increase {YIELD_CIVICS}link(YIELD_CIVICS) by hiring link(SPECIALIST_STONECUTTER,2), building link(IMPROVEMENTCLASS_COURTHOUSE,2), and completing link(EFFECTCITY_PROJECT_FORUM,2) in your Cities. Global {YIELD_CIVICS}link(YIELD_CIVICS) also comes from members of your link(CONCEPT_COURT) with high link(RATING_CHARISMA). Laws like link(LAW_CENTRALIZATION) and link(LAW_LEGAL_CODE) also improve {YIELD_CIVICS}link(YIELD_CIVICS) production. Certain combinations, like a link(IMPROVEMENTCLASS_QUARRY) built on link(RESOURCE_MARBLE) or a link(IMPROVEMENTCLASS_MONASTERY) with the link(THEOLOGY_LEGALISM) link(CONCEPT_THEOLOGY), can also improve {YIELD_CIVICS}link(YIELD_CIVICS).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_URBAN_TRAINING</zType>
+		<Translation>{YIELD_TRAINING}link(YIELD_TRAINING) is used by Cities to produce Military Units. Unused {YIELD_TRAINING}link(YIELD_TRAINING) goes into the Global stockpile, which can be used to buy {YIELD_ORDERS}link(YIELD_ORDERS), conduct link(CONCEPT_MARCH,1), and for Unit link(CONCEPT_PROMOTION,2) and link(CONCEPT_UPGRADE,2). Increase {YIELD_TRAINING}Training by producing link(SPECIALIST_MINER,2) and building link(IMPROVEMENT_BARRACKS,2) or link(IMPROVEMENT_RANGE,2). Both link(IMPROVEMENT_BARRACKS,2) and link(IMPROVEMENT_RANGE,2) can have link(SPECIALISTCLASS_OFFICER) Specialists, which further boosts {YIELD_TRAINING}Training in the City.
+		
+Global {YIELD_TRAINING}Training also comes from members of your link(CONCEPT_COURT) with high link(RATING_COURAGE). link(IMPROVEMENT_MINE,2) provide {YIELD_TRAINING}Training if built on link(RESOURCE_ORE), and the link(MISSION_RALLY_TROOPS) Mission of the Leader can also provide {YIELD_TRAINING}link(YIELD_TRAINING). {YIELD_TRAINING}link(YIELD_TRAINING) stockpiles are capped at int(MAX_TRAINING). Above this value, they'll be converted automatically to to icon(YIELD_ORDERS)link(YIELD_ORDERS).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_URBAN_CULTURE</zType>
+		<Translation>When a City's {YIELD_CULTURE}link(YIELD_CULTURE) bar fills up, a positive Event occurs, and the City's overall {YIELD_CULTURE}Culture Level increases. Cities start at link(CULTURE_WEAK) {YIELD_CULTURE}link(YIELD_CULTURE) Level, and the highest Level is link(CULTURE_LEGENDARY). The {YIELD_CULTURE}link(YIELD_CULTURE) Level affects which link(CONCEPT_IMPROVEMENT,2) and Wonders can be built in a City's territory, and whether the City can link(CONCEPT_HURRY) (which requires at least link(CULTURE_DEVELOPING) {YIELD_CULTURE}Culture Level).
+
+You can Improve {YIELD_CULTURE}link(YIELD_CULTURE) by building Urban link(CONCEPT_IMPROVEMENT,2), like link(IMPROVEMENTCLASS_SHRINE,2) and link(IMPROVEMENTCLASS_ODEON,2), and by building Rural link(CONCEPT_IMPROVEMENT,2) on certain Resources, like a link(IMPROVEMENTCLASS_MINE) on link(RESOURCE_GEM), a link(IMPROVEMENTCLASS_CAMP) on link(RESOURCE_FUR), a link(IMPROVEMENTCLASS_GROVE) on link(RESOURCE_INCENSE), or link(IMPROVEMENTCLASS_NETS) on link(RESOURCE_DYE).
+
+link(CONCEPT_RELIGION,2) that link(CONCEPT_SPREAD_RELIGION,1) to a City and the unique link(CONCEPT_IMPROVEMENT,2) of that link(CONCEPT_RELIGION) also increase {YIELD_CULTURE}link(YIELD_CULTURE), and those gains be even further augmented by Laws and link(CONCEPT_THEOLOGY,2). link(CONCEPT_SPECIALIST,2) like the link(SPECIALIST_ACOLYTE_1), the link(SPECIALIST_POET_1), and the link(SPECIALIST_MONK_1), and their upgrades, also improve {YIELD_CULTURE}link(YIELD_CULTURE) production.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_URBAN_DISCONTENT</zType>
+		<Translation>Cities gain {YIELD_DISCONTENT}link(YIELD_DISCONTENT) over time. Having fewer of link(CONCEPT_URBAN) Tiles than link(CONCEPT_POPULATION) will increase {YIELD_DISCONTENT}link(YIELD_DISCONTENT), and so do certain laws like link(LAW_SLAVERY). When a City's {YIELD_DISCONTENT}link(YIELD_DISCONTENT) bar is filled, its overall {YIELD_DISCONTENT}link(YIELD_DISCONTENT) Level goes up, which increases icon(YIELD_MAINTENANCE)link(YIELD_MAINTENANCE) and reduces {YIELD_GROWTH}link(YIELD_GROWTH) and {YIELD_SCIENCE}link(YIELD_SCIENCE). High {YIELD_DISCONTENT}Discontent Levels reduce the link(CONCEPT_OPINION_FAMILY,3) of the ruling link(CONCEPT_FAMILY) of that City. 
+
+You can reduce {YIELD_DISCONTENT}link(YIELD_DISCONTENT) by connecting your Cities with the link(CONCEPT_TRADE_NETWORK), adopting Laws such as link(LAW_CONSTITUTION), link(LAW_TOLERANCE), and link(LAW_MONETARY_REFORM), and building link(IMPROVEMENTCLASS_BATHS,2) and link(IMPROVEMENT_THEATER_3,2). link(CONCEPT_LUXURY,2) can be traded to a City to reduce link(YIELD_DISCONTENT), and Religious Opinion affects the {YIELD_DISCONTENT}link(YIELD_DISCONTENT) of your Cities with that link(CONCEPT_RELIGION). The link(MISSION_PACIFY_CITY) Mission of the link(COUNCIL_CHANCELLOR) can also reduce {YIELD_DISCONTENT}link(YIELD_DISCONTENT) in targeted Cities.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_URBAN_SCIENCE</zType>
+		<Translation>{YIELD_SCIENCE}link(YIELD_SCIENCE) increases the rate at which your link(CONCEPT_NATION) discovers Technologies. Increase {YIELD_SCIENCE}link(YIELD_SCIENCE) by adopting the Laws link(LAW_FREEDOM) and link(LAW_CENTRALIZATION), completing link(EFFECTCITY_PROJECT_ARCHIVE,2), or producing any type of link(CONCEPT_SPECIALIST) in your Cities. {YIELD_SCIENCE}link(YIELD_SCIENCE) also comes from members of your link(CONCEPT_COURT) with high link(RATING_WISDOM). Building link(IMPROVEMENTCLASS_LIBRARY,2), link(IMPROVEMENT_WATERMILL,2), and link(IMPROVEMENT_WINDMILL,2) will also provide you with {YIELD_SCIENCE}link(YIELD_SCIENCE).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_URBAN_MONEY</zType>
+		<Translation>{YIELD_MONEY}link(YIELD_MONEY) is most useful for purchasing {YIELD_FOOD}link(YIELD_FOOD), {YIELD_IRON}link(YIELD_IRON), {YIELD_STONE}link(YIELD_STONE), and {YIELD_WOOD}link(YIELD_WOOD) (You can also sell all of these if you need more {YIELD_MONEY}link(YIELD_MONEY)). Increase {YIELD_MONEY}link(YIELD_MONEY) by building link(IMPROVEMENT_HAMLET,2) and producing link(EFFECTCITY_PROJECT_TREASURY,2) in your Cities. {YIELD_MONEY}link(YIELD_MONEY) also comes from members of your link(CONCEPT_COURT) with high link(RATING_DISCIPLINE).
+
+icon(YIELD_MAINTENANCE)link(YIELD_MAINTENANCE) decreases the amount of {YIELD_MONEY}link(YIELD_MONEY) a City generates. icon(YIELD_MAINTENANCE)link(YIELD_MAINTENANCE) costs increase with each link(CONCEPT_CITIZEN) and link(CONCEPT_SPECIALIST) and with the distance a City is from your link(CONCEPT_CAPITAL). icon(YIELD_MAINTENANCE)link(YIELD_MAINTENANCE) can be reduced by connecting a City to your link(CONCEPT_TRADE_NETWORK) and by improving the link(CONCEPT_OPINION_FAMILY,3) of its ruling link(CONCEPT_FAMILY). Certain link(CONCEPT_IMPROVEMENT,2) like the link(IMPROVEMENT_GARRISON_3) and the link(IMPROVEMENT_COURTHOUSE_3) also reduce icon(YIELD_MAINTENANCE)link(YIELD_MAINTENANCE), but link(CONCEPT_IMPROVEMENT,2) without link(CONCEPT_SPECIALIST,1) increase {YIELD_MAINTENANCE}link(YIELD_MAINTENANCE) costs.</Translation>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_ROUT</zType>
@@ -2656,14 +2652,6 @@ Resources that are within any City's limits, or that are too far from one of you
 	<Entry>	
 		<zType>TEXT_HELPTEXT_LINK_HELP_BUY_TILE</zType>
 		<Translation>Kann Land Felder angrenzend an dein Territorium kaufen.</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_TRIBE_IMPROVEMENT</zType>
-		<Translation>Wird zu {0_improvement} in {1_numTurns} verbessert</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_TRIBE_IMPROVEMENT_NO_DEVELOP</zType>
-		<Translation>Entwicklet sich nicht</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TRIBE_UNITS</zType>
@@ -2989,10 +2977,6 @@ Ihre Vorlieben geben vor welche link(CONCEPT_AMBITION,2) du nachgehen kannst. De
 		<zType>TEXT_HELPTEXT_LINK_HELP_HEIGHT_DEFENDING_CLEAR</zType>
 		<Translation>Vs. {0_unit} (wenn link(CONCEPT_CLEAR)): {1} (Nahkampf)</Translation>
 	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_HEIRS</zType>
-		<Translation>The Ratings of your first four Heir(s) affect your Global Yields (at a non-linear rate). For example, their link(RATING_COURAGE) will increase your link(YIELD_TRAINING){YIELD_TRAINING}. Further, their link(CONCEPT_OPINION_CHARACTER,3) of you will increase or decrease these Yield rates.</Translation>
-	</Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_LINK_HELP_HIDDEN</zType>
         <Translation>Versteckte Einheiten können nicht von anderen Einheiten gesehen werden. link(UNIT_SCOUT,2) sind in neutralen link(VEGETATION_TREES) versteckt oder aber mit einem link(TRAIT_SCHEMER_ARCHETYPE) Oberhaupt. Versteckte Einheiten haben einen int(HIDDEN_ATTACK_MODIFIER)% Modifikator beim angreifen.</Translation>
@@ -3070,10 +3054,6 @@ Höhre Legitimität verbessert die link(CONCEPT_OPINION_FAMILY,1) und erzeugt me
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LEGITIMACY_OPINIONS</zType>
 		<Translation>{0_value}: link(CONCEPT_OPINION_FAMILY,2)</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_CLAIM</zType>
-		<Translation>Platziert man irgendeine Einheit auf einem link(IMPROVEMENT_CITY_SITE) beansprucht es für dich und hindert fremde link(UNIT_SETTLER,2) hier eine Stadt zu gründen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_COASTAL_CITIES</zType>
@@ -3287,8 +3267,8 @@ All Religions give link(YIELD_CULTURE){YIELD_CULTURE} to their Cities, and a lin
 		<Translation>Darf nicht {0_list} sein</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_TEAM_LIST</zType>
-		<Translation>Team {0_num}: {LIST}</Translation>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TEAM</zType>
+		<Translation>Team {0_num}:</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TERRAIN</zType>
@@ -3727,8 +3707,12 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>Schaltet neue Gesetze frei:</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_TECH_TRASHED_WHEN_DISCARDED</zType>
+		<zType>TEXT_HELPTEXT_TECH_TRASHED</zType>
 		<Translation>Dauerhaft abgelegt wenn verworfen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TECH_REPEATABLE</zType>
+		<Translation>Kann mehrmals erforscht werden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TECH_WITH</zType>
@@ -5644,10 +5628,6 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_GENERAL_ADJACENT</zType>
 		<Translation>link(CONCEPT_GENERAL) (Benachbarte Einheiten): {0}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_TRAIT_NO_EVENTS</zType>
-		<Translation>Kommt weniger wahrscheinlich in einem Ereignis vor</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_NO_MARRY</zType>

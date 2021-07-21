@@ -15976,18 +15976,6 @@ At some difficulty levels, other Nations begin the game already established with
 To conduct diplomacy, you must appoint an link(COUNCIL_AMBASSADOR).</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_TUTORIAL_TRIBES</zType>
-		<Translation>Your Cities have trained another link(UNIT_SETTLER), but you may have to defeat some link(TRIBE_BARBARIANS) to access more link(IMPROVEMENT_CITY_SITE,2). link(TRIBE_BARBARIANS) do not behave like link(CONCEPT_TRIBE,2), as you are always at link(DIPLOMACY_WAR) with them. They are good targets for early expansion as they are easier to drive away than a more organized link(CONCEPT_TRIBE).</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_TUTORIAL_SPECIALIST</zType>
-		<Translation>A link(CONCEPT_SPECIALIST) can be recruited from the City Screen by clicking the  icon(specialist_border) Button on an link(CONCEPT_IMPROVEMENT) so long as you have an available link(CONCEPT_CITIZEN). Although link(CONCEPT_IMPROVEMENT,2) are already productive on their own, a link(CONCEPT_SPECIALIST) can boost their yields.
-
-link(CONCEPT_LUXURY) are special resources that you acquire by adding a Rural link(CONCEPT_SPECIALIST) to an link(CONCEPT_IMPROVEMENT) on the correct Tile. For example, you access link(RESOURCE_GEM) by adding a link(SPECIALIST_MINER) link(CONCEPT_SPECIALIST) to a link(IMPROVEMENT_MINE) link(CONCEPT_IMPROVEMENT) on a link(RESOURCE_GEM) Tile.
-
-Urban link(CONCEPT_SPECIALIST,2), like link(SPECIALISTCLASS_ACOLYTE,1) and link(SPECIALISTCLASS_OFFICER,1), can be trained to higher levels for further yield boosts.</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_GOVERNOR</zType>
 		<Translation>A City link(CONCEPT_GOVERNOR) can be recruited from your court by clicking the wreath icon  icon(JOB_GOVERNOR) button below the City banner or within the City Screen by clicking the question mark button in the bottom left. A link(CONCEPT_GOVERNOR) can boost the yields of a City based on their unique Traits.
 

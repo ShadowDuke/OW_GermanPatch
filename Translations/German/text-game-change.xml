@@ -868,7 +868,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CITY_REBEL_UNITS_NEAR_CITY</zType>
-		<Translation>link(BARBARIAN_REBELS) haben eine {0_unit} nahe {1_city} gebildet!</Translation>
+		<Translation>link(TRIBE_REBELS) haben eine {0_unit} nahe {1_city} gebildet!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CITY_CURRY_POPULATION_CITIZENS_COST</zType>

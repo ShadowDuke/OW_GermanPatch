@@ -167,20 +167,36 @@
 		<Translation>Krieg</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_ATTACK_FORWARD</zType>
-		<Translation>nach vorne gerichtet</Translation>
+		<zType>TEXT_ATTACK_PIERCE</zType>
+		<Translation>Pierce</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_ATTACK_ARC</zType>
-		<Translation>ARC</Translation>
+		<zType>TEXT_ATTACK_PIERCE_HELP</zType>
+		<Translation>A Pierce attack also damages the Tile behind the target.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ATTACK_CLEAVE</zType>
+		<Translation>Cleave</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ATTACK_CLEAVE_HELP</zType>
+		<Translation>A Cleave attack also damages the two Tiles to the right and left of the target.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_ATTACK_CIRCLE</zType>
 		<Translation>im Kreis</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_ATTACK_CIRCLE_HELP</zType>
+		<Translation>A Circle attack damages all six Tiles surrounding the attacking Unit.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_ATTACK_SPLASH</zType>
 		<Translation>mit Umgebungsschaden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ATTACK_SPLASH_HELP</zType>
+		<Translation>A Splash attack also damages all six Tiles surrounding the target.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CULTURE_WEAK</zType>
