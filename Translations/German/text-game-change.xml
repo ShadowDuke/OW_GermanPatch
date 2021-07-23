@@ -585,7 +585,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_MAKE_GENERAL</zType>
-		<Translation>ink(CONCEPT_GENERAL) von {0_unit}</Translation>
+		<Translation>link(CONCEPT_GENERAL) von {0_unit}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_ADOPTION</zType>

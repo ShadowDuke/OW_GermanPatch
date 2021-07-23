@@ -64,7 +64,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_15</zType>
-		<Translation>link(IMPROVEMENT_QUARRY,2) die neben einem Gebirge gebaut werden produzieren mehr link(YIELD_STONE)icon(YIELD_STONE) für jedes angrenzendes Gebirgsfeld. ink(IMPROVEMENT_QUARRY,2) erhalten einen kleinen Anstieg wenn sie in trockenem Gebiet gebaut werden.</Translation>
+		<Translation>link(IMPROVEMENT_QUARRY,2) die neben einem Gebirge gebaut werden produzieren mehr link(YIELD_STONE)icon(YIELD_STONE) für jedes angrenzendes Gebirgsfeld. link(IMPROVEMENT_QUARRY,2) erhalten einen kleinen Anstieg wenn sie in trockenem Gebiet gebaut werden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_16</zType>
@@ -116,7 +116,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_28</zType>
-		<Translation>Städte mit hohem ink(YIELD_GROWTH)icon(YIELD_GROWTH) bilden neue link(UNIT_SETTLER,2), link(UNIT_WORKER,2) und link(UNIT_SCOUT,2) schneller aus.</Translation>
+		<Translation>Städte mit hohem link(YIELD_GROWTH)icon(YIELD_GROWTH) bilden neue link(UNIT_SETTLER,2), link(UNIT_WORKER,2) und link(UNIT_SCOUT,2) schneller aus.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_29</zType>

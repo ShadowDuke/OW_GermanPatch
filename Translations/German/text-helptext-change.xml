@@ -5394,7 +5394,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_FREE_UNIT_MERCENARY</zType>
-		<Translation>lErhalte ink(CONCEPT_MERCENARY) {0_unit}{true_1: (x{1_number})}</Translation>
+		<Translation>Erhalte link(CONCEPT_MERCENARY) {0_unit}{true_1: (x{1_number})}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_TRIBE_UNIT</zType>
