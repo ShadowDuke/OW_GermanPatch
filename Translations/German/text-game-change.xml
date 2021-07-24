@@ -473,7 +473,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_FOUND_RELIGION_CITY</zType>
-		<Translation>Gründete {1_religion}</Translation>
+		<Translation>Gründete {0_religion}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_ADD_X</zType>

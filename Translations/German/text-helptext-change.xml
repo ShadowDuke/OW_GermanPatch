@@ -3858,7 +3858,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_CAN_CARAVAN_MISSION</zType>
-		<Translation>Kann eine link(CONCEPT_CARAVAN_MISSION durchführen</Translation>
+		<Translation>Kann eine link(CONCEPT_CARAVAN_MISSION) durchführen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_CAN_ESTABLISH_THEOLOGY</zType>
@@ -4614,7 +4614,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_COST_PER_YEAR</zType>
-		<Translation>{0} (für {1} {2_turnScale})</Translation>
+		<Translation>{0} (für {1})</Translation>
 	</Entry>
 	<!--City Connected Help-->
 	<Entry>
