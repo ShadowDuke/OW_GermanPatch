@@ -5519,8 +5519,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_COURTIER</zType>
-		<Translation>Kann als link(CONCEPT_GENERAL), link(CONCEPT_GOVERNOR), oder link(CONCEPT_AGENT) dienen.
-Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COURAGE) fügt link(YIELD_TRAINING) hinzu).</Translation>
+		<Translation>Alle Vertrauten können als link(CONCEPT_GENERAL,2), link(CONCEPT_GOVERNOR,2), oder link(CONCEPT_AGENT,2) dienen, unabhängig von deren link(CONCEPT_ARCHETYPE). Deren Stellenwert beeinflusst die allgemeinen Erträge (ein Drittel vom Oberhaupt). Zum Beispiel, deren link(RATING_CHARISMA) wird deine {YIELD_CIVICS}link(YIELD_CIVICS) erhöhen. Zusätzlich wird deren link(CONCEPT_OPINION_CHARACTER,3) die Erträge von dir erhöhen oder verringern.</Translation>
 	</Entry>
 	<!--Culture Help-->
 	<Entry>
@@ -5599,7 +5598,7 @@ Bewertungen steuern zu allgemeinen Erträgen bei (zum Beispiel, link(RATING_COUR
 	<!--Trait Help-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_ARCHETYPE_HELP</zType>
-		<Translation>A character can only have one Archetype, and they are Traits that determine which jobs a Character may have. (For example, link(TRAIT_JUDGE_ARCHETYPE,1) can be either link(CONCEPT_GOVERNOR,1) or link(COUNCIL_CHANCELLOR,1).) Each Archetype also grants different bonuses, some of which only apply if the character is doing a particular job, such as link(CONCEPT_GENERAL) or link(CONCEPT_GOVERNOR). The field of study you choose for your link(CONCEPT_HEIRS) determines their eventual Archetype.</Translation>
+		<Translation>Ein Charakter kann nur einen Archetyp haben und sie sind Merkmale die bestimmen, welche Aufgaben ein Charakter haben kann. (Zum Beispiel, link(TRAIT_JUDGE_ARCHETYPE,1) kann entweder ein link(CONCEPT_GOVERNOR) oder ein link(COUNCIL_CHANCELLOR) sein.) Jeder Archetyp erlangt außerdem zusätzliche Boni, von denen manche nur zutreffen wenn der Charakter eine bestimmte Aufgabe verrichtet, wie zB. link(CONCEPT_GENERAL) oder link(CONCEPT_GOVERNOR). Der Lehrgang den du für deine Nachkommen auswählst bestimmt deren möglichen Archetyp.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_TITLE</zType>

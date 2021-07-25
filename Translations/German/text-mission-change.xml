@@ -420,15 +420,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TUTOR</zType>
-		<Translation>Unterrichte Kind</Translation>
+		<Translation>link(CONCEPT_TUTOR) Kinder</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TUTOR_TARGET</zType>
-		<Translation>Unterrichte</Translation>
+		<Translation>link(CONCEPT_TUTOR)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TUTOR_CHARACTER</zType>
-		<Translation>Unterrichte mit</Translation>
+		<Translation>link(CONCEPT_TUTOR) mit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_PLAYER_WAR</zType>

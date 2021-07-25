@@ -509,6 +509,10 @@
 		<Translation>Stämme Einfall</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CONCEPT_TUTOR</zType>
+		<Translation>Unterrichte~ein Lehrer~Lehrer~Unterrichtet</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CONCEPT_UNDO</zType>
 		<Translation>Rückgängig</Translation>
 	</Entry>
