@@ -156,7 +156,7 @@
 	</Entry>
 	<Entry>	
 		<zType>TEXT_TRAIT_INTOLERANT</zType>
-		<Translation>Unduldsam</Translation>
+		<Translation>Intolerant</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_INTOLERANT_GAIN_1</zType>
@@ -471,12 +471,12 @@
 		<Translation>Never afraid to take risks, {0_character} is {1_trait}!</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_COWARDLY</zType>
-		<Translation>Feige</Translation>
+		<zType>TEXT_TRAIT_TIMID</zType>
+		<Translation>Schüchtern</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_COWARDLY_GAIN_1</zType>
-		<Translation>Scared of {masculine_0:his:her} own shadow, and everything else, {0_character} is {1_trait}!</Translation>
+		<zType>TEXT_TRAIT_TIMID_GAIN_1</zType>
+		<Translation>Scared to take any risks or even make mistakes, {0_character} has become {1_trait}!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_GRACIOUS</zType>
@@ -567,12 +567,12 @@
 		<Translation>Devoted to any cause {masculine_0:he:she} swears to, everyone knows that {0_character} is {1_trait}!</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_CUNNING</zType>
-		<Translation>Gerissen</Translation>
+		<zType>TEXT_TRAIT_DECEITFUL</zType>
+		<Translation>Hinterlistig</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_CUNNING_GAIN_1</zType>
-		<Translation>Deceitful and evasive, {0_character} is known to be {1_trait}.</Translation>
+		<zType>TEXT_TRAIT_DECEITFUL_GAIN_1</zType>
+		<Translation>{0_character} never seems to keep {masculine_0:his:her} word and is now known as {1_trait}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_HUMBLE</zType>
@@ -589,6 +589,14 @@
 	<Entry>
 		<zType>TEXT_TRAIT_PROUD_GAIN_1</zType>
 		<Translation>{0_character} takes a deep pleasure in {masculine_0:his:her} own achievements. It is no lie to call {masculine_0:him:her} {1_trait}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_CUNNING</zType>
+		<Translation>Gerissen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_CUNNING_GAIN_1</zType>
+		<Translation>Elusive and evasive, {0_character} is known to be {1_trait}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_WITTY</zType>
@@ -624,7 +632,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_EXPLORING</zType>
-		<Translation>Erkunden</Translation>
+		<Translation>Erkunder</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_EXOTIC</zType>

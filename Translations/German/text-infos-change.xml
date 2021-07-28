@@ -397,6 +397,18 @@
 		<Translation>Frischwasser</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CONCEPT_SPREAD_RELIGION</zType>
+		<English>Verbreite Religion~Verbreite</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_SPOUSE</zType>
+		<English>Ehepartner</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_TESTUDO</zType>
+		<English>Schildkröte</English>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CONCEPT_FLANKING</zType>
 		<Translation>Flankierend</Translation>
 	</Entry>
@@ -1899,8 +1911,8 @@
 		<Translation>Kontrolliere drei link(IMPROVEMENTCLASS_CATHEDRAL,2)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_HOLY_SITE_SIX_CATHEDRAL</zType>
-		<Translation>Kontrolliere Sechs link(IMPROVEMENTCLASS_CATHEDRAL,2) und link(IMPROVEMENTCLASS_HOLY_SITE,1)</Translation>
+		<zType>TEXT_GOAL_TWO_HOLY_SITE_SIX_CATHEDRAL</zType>
+		<Translation>Kontrolliere Zwei link(IMPROVEMENTCLASS_HOLY_SITE,2) und Sechs link(IMPROVEMENTCLASS_CATHEDRAL,2)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_SIX_URBAN_IMPROVEMENTS</zType>
@@ -2785,8 +2797,8 @@
 		<Translation>der Mutige</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_COWARDLY_NICKNAME</zType>
-		<Translation>der Feige</Translation>
+		<zType>TEXT_TRAIT_TIMID_NICKNAME</zType>
+		<Translation>der Schüchterne</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_GRACIOUS_NICKNAME</zType>

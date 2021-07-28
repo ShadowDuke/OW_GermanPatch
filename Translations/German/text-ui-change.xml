@@ -18,6 +18,10 @@
         <Translation>Abbrechen</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GENERIC_OK</zType>
+		<Translation>Ok</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GENERIC_NONE</zType>
 		<Translation>Nichts</Translation>
 	</Entry>
@@ -52,7 +56,8 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_THEIR_TURN</zType>
-		<Translation>{0}s Zug</Translation>
+		<Translation>{0}'s Zug{true_1:
+{1}{YIELD_ORDERS}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_HOTSEAT_PLAYER</zType>
@@ -64,11 +69,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_YEAR_ENDED</zType>
-		<Translation>Jahr geendet</Translation>
+		<Translation>{0_turnScale} geendet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_END_YEAR</zType>
-		<Translation>Beende Jahr</Translation>
+		<Translation>Beende {0_turnScale}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_YEAR_NUMBER</zType>
@@ -237,6 +242,10 @@
 	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_CITY_EVENT</zType>
 		<Translation>STADT EREIGNIS</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_CITY_PRODUCTION</zType>
+		<Translation>STADT PRODUKTION</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_CITY_BREACHED</zType>
@@ -1122,10 +1131,6 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
         <Translation>Zum Desktop</Translation>
     </Entry>
     <Entry>
-        <zType>TEXT_MENU_SCREEN_PREVIOUS_BUTTON</zType>
-        <Translation>Letzter</Translation>
-    </Entry>
-    <Entry>
         <zType>TEXT_MENU_SCREEN_NEWSLETTER</zType>
         <Translation>Newsletter</Translation>
 	</Entry>
@@ -1233,6 +1238,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_WONDERS</zType>
 		<Translation>Verbesserungen (Wunder)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_MISSIONS</zType>
+		<Translation>Missionen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_RELIGIOUSIMPROVEMENTS</zType>
@@ -1466,7 +1475,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
     <Entry>
         <zType>TEXT_GAME_HEADER_VERSION_CELL</zType>
         <Translation>Version</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_HEADER_PASSWORD_CELL</zType>
+		<Translation>Passwort</Translation>
+	</Entry>
     <!--multiplayer-->
     <Entry>
         <zType>TEXT_MP_PLAYERS_SCREEN_OBSERVE_BUTTON</zType>
@@ -1646,7 +1659,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_HOSTPASSWORD</zType>
-		<Translation>Passwort</Translation>
+		<Translation>Host Passwort</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_TURN_URL</zType>
+		<Translation>Turn Notification URL</Translation>
 	</Entry>
 	<Entry>
         <zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_PLAYERS</zType>

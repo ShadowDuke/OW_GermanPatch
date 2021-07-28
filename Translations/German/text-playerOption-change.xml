@@ -167,7 +167,12 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SKIP_LICENSED_MUSIC_TRACKS_DESC</zType>
-		<Translation>For livestreamers: Skip any music tracks with licensed content, to help avoid copyright strikes on streaming platforms.</Translation>
+		<Translation>For players who are livestreaming or recording video: When enabled, the game will skip any licensed music tracks with known copyright flagging issues on video sharing websites. This helps to reduce music-related content issues in your videos.</Translation>		
+	</Entry>
+	<Entry>
+		<zType>TEXT_JUKEBOX_EXPLANATION</zType>
+		<Translation>In-game music begins when you research link(TECH_DRAMA). 
+Below, you can play or disable specific music tracks.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_DONT_MUTE_FOCUS</zType>

@@ -92,7 +92,15 @@
     <Entry>
         <zType>TEXT_MISCOPTION_FOW_QUALITY_DESC</zType>
 		<Translation>Nebel des Krieges Renderqualität</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISCOPTION_FOREST_QUALITY_NAME</zType>
+		<Translation>Wald Qualität</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISCOPTION_FOREST_QUALITY_DESC</zType>
+		<Translation>Wald Dichte und Varietät</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_COLORBLIND_FILTER_NAME</zType>
         <Translation>Farbenblind Filter</Translation>
@@ -156,8 +164,16 @@
     <Entry>
         <zType>TEXT_MISCOPTION_MOTION_BLUR_DESC</zType>
 	    <Translation>Aktiviere Bewegungsunschärfe Nachbearbeitung</Translation>
-    </Entry>
-    <Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISCOPTION_DEPTH_OF_FIELD_NAME</zType>
+		<Translation>Schärfentiefe</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISCOPTION_DEPTH_OF_FIELD_DESC</zType>
+		<Translation>Aktiviert Blur Effekte auf dem Bild</Translation>
+	</Entry>
+	<Entry>
         <zType>TEXT_MISCOPTION_COLOR_CORRECTION_NAME</zType>
         <Translation>Farbkorrektur</Translation>
     </Entry>

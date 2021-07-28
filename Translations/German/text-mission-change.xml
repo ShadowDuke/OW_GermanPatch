@@ -259,6 +259,14 @@
 		<Translation>Führsprache</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSION_INTERCESSION_RELIGION</zType>
+		<Translation>Führsprache (Religion)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_INTERCESSION_FAMILY</zType>
+		<Translation>Führsprache (Familie)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSION_INTERCESSION_CHARACTER</zType>
 		<Translation>Führsprache durch</Translation>
 	</Entry>
@@ -421,6 +429,14 @@
 	<Entry>
 		<zType>TEXT_MISSION_TUTOR</zType>
 		<Translation>link(CONCEPT_TUTOR) Kinder</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_TUTOR_LEADER</zType>
+		<Translation>link(CONCEPT_TUTOR) Kind (Oberhaupt)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_TUTOR_COURTIER</zType>
+		<Translation>link(CONCEPT_TUTOR) Kind (Vertrauter)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TUTOR_TARGET</zType>

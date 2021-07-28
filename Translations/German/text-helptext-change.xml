@@ -68,6 +68,10 @@
 		<Translation> {0}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_ADD_TWO_SPACES_BETWEEN</zType>
+		<Translation>{0}  {1}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_INDENT</zType>
 		<Translation>   {0}</Translation>
 	</Entry>
@@ -392,6 +396,10 @@
 		<Translation>{0} Meinung: {1}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_EACH_COLON</zType>
+		<Translation>Jede {0}: {1}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_NOTABLE_CHARACTERS</zType>
 		<Translation>Bedeutende Charaktere:</Translation>
 	</Entry>
@@ -678,11 +686,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_ROLE_SPOUSE</zType>
-		<Translation>Ehepartner</Translation>
+		<Translation>link(CONCEPT_SPOUSE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_ROLE_HEIR</zType>
-		<Translation>Erbe</Translation>
+		<Translation>Erbe (link(CONCEPT_SUCCESSION))</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_ROLE_RATING_YIELD</zType>
+		<Translation>{0_rating} {true_1:erhöhen:verringern} {2_yield}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_ROLE_RATING_YIELD_NON_LINEAR</zType>
+		<Translation>(Alle bei einer nicht-linearen Stufe)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_RURAL_SPECIALISTS</zType>
@@ -1923,6 +1939,14 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 		<Translation>Erstelle {0_agentNetwork} für {1_money} in {2_city}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_CARAVAN_MISSION_NO_PLAYERS</zType>
+		<Translation>Beginne link(CONCEPT_CARAVAN_MISSION)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_CARAVAN_MISSION_NO_PLAYERS_CONTACT</zType>
+		<Translation>Benötigt Kontakt mit anderer link(CONCEPT_NATION,2)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CARAVAN_MISSION_START</zType>
 		<Translation>>Beginne link(CONCEPT_CARAVAN_MISSION) mit {0_player}</Translation>
 	</Entry>
@@ -1953,6 +1977,10 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PROMOTE_ALREADY_HAS</zType>
 		<Translation>(Hat bereits diese Beförderung)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_PROMOTE_ALREADY_HAS_GENERAL</zType>
+		<Translation>(hat bereits von {0_character})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PROMOTE_LEVEL</zType>
@@ -2319,8 +2347,10 @@ link(FAMILYCLASS_HUNTERS) want to keep their Units close to home, and their opin
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_GENERAL</zType>
-		<Translation>A Character can be assigned as a link(CONCEPT_GENERAL) to a Unit, contributing their Unique bonuses to the Unit's performance. Assign a link(CONCEPT_GENERAL) by selecting a Unit, and then clicking the Add link(CONCEPT_GENERAL)  icon(JOB_GENERAL) Button in the action panel on the left.</Translation>
-	</Entry>
+		<Translation>A Character can be assigned as a link(CONCEPT_GENERAL) to a Unit, contributing their Unique bonuses to the Unit. Assign a link(CONCEPT_GENERAL) by selecting a Unit and then clicking the Add link(CONCEPT_GENERAL)  icon(JOB_GENERAL) Button in the action panel on the left.
+
+A General (with the exception of the Leader) cannot be from a different link(CONCEPT_FAMILY) from that of the Unit.</Translation>
+	</Entry>																										 
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_MARRIAGE</zType>
 		<Translation>Marriages are a useful diplomatic tool for forming bonds with other link(CONCEPT_FAMILY,2), link(CONCEPT_TRIBE,2), and Nations. They also allow your link(CONCEPT_FAMILY) to continue their line with legitimate Heirs, who will be eligible to take over once your current Ruler is gone.
@@ -2343,11 +2373,9 @@ You can choose different schemes like link(LAW_ULTIMOGENITURE), link(LAW_SENIORI
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_SUCCESSION</zType>
-		<Translation>Training strong Heirs will be vital for the survival of your Nation as once your current Ruler is gone, someone will need to take the reins.
+		<Translation>Training strong Heirs will be vital for the survival of your Nation as once your current Ruler is gone, someone will need to take the reins. Once your Heir has grown up a bit, you'll be able to choose an educational path to guide them into the role you need them to fulfill.
 
-Once your Heir has grown up a bit, you'll be able to choose an educational path to guide them into the role you need them to fulfill.
-
-Your Heir (and other Family members) can do more than just wait around to inherit the throne; you can employ them as link(CONCEPT_GENERAL,2), link(CONCEPT_GOVERNOR,2), and link(CONCEPT_COUNCILOR,2).</Translation>
+The first four Heirs in the link(CONCEPT_SUCCESSION) are members of your link(CONCEPT_COURT), and their Ratings will affect your Global Yields. (For example, an Heir with high link(RATING_WISDOM) will increase your {YIELD_SCIENCE}link(YIELD_SCIENCE).)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_AMBITION</zType>
@@ -2381,11 +2409,9 @@ Urban link(CONCEPT_SPECIALIST,2), like link(SPECIALISTCLASS_ACOLYTE,1) and link(
 		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_TRIBES</zType>
 		<Translation>Once you've driven the local link(CONCEPT_TRIBE,2) away from a link(IMPROVEMENT_CITY_SITE), you can claim it by placing a Unit on it. This will prevent the return of the link(CONCEPT_TRIBE) and will also keep other Nations from founding a City there.
 
-link(CONCEPT_TRIBE,2) can engage in limited diplomacy, but generally won't be coordinated in the way opposing Nations are.
-
-Finding a weak link(CONCEPT_TRIBE) and claiming their link(IMPROVEMENT_CITY_SITE,2) for yourself will be an important step toward growing your Nation
+link(CONCEPT_TRIBE,2) can engage in limited diplomacy but generally won't be coordinated in the way opposing Nations are. Finding a weak link(CONCEPT_TRIBE) and claiming their link(IMPROVEMENT_CITY_SITE,2) for yourself will be an important step toward growing your Nation
 			
-You may have to defeat some link(TRIBE_BARBARIANS) to access more link(IMPROVEMENT_CITY_SITE,2). link(TRIBE_BARBARIANS) do not behave like link(CONCEPT_TRIBE,2), as you are always at link(DIPLOMACY_WAR) with them. They are good targets for early expansion as they are easier to drive away than a more organized link(CONCEPT_TRIBE).</Translation>
+You may have to defeat some link(TRIBE_BARBARIANS) to access more link(IMPROVEMENT_CITY_SITE,2). link(TRIBE_BARBARIANS) do not behave like link(CONCEPT_TRIBE,2) as you are always at link(DIPLOMACY_WAR) with them. They are good targets for early expansion as they are easier to drive away than a more organized link(CONCEPT_TRIBE).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_NATION_CONTACT</zType>
@@ -2590,9 +2616,7 @@ Generally, only link(UNITTRAIT_MOUNTED) link(UNITTRAIT_MELEE) Units like link(UN
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_UNIT_UPGRADES</zType>
-		<Translation>Combat Units can receive both link(CONCEPT_UPGRADE,2) and link(CONCEPT_PROMOTION,2). link(CONCEPT_UPGRADE,2) convert a Combat Unit to a different type. For example, a link(UNIT_WARRIOR) can be link(CONCEPT_UPGRADE,3) to an link(UNIT_AXEMAN). link(CONCEPT_PROMOTION,2) provide various combat buffs. Both link(CONCEPT_PROMOTION,2) and link(CONCEPT_UPGRADE,2) cost link(YIELD_TRAINING)icon(YIELD_TRAINING). link(CONCEPT_UPGRADE,2) can only be performed inside of Friendly territory, while link(CONCEPT_PROMOTION,2) can be done anywhere.
-
-link(CONCEPT_PROMOTION,2) and link(CONCEPT_UPGRADE,2) can be chosen while a Unit is selected.</Translation>
+		<Translation>Units can receive both link(CONCEPT_UPGRADE,2) and link(CONCEPT_PROMOTION,2). link(CONCEPT_UPGRADE,2) convert a Unit to a different type. For example, a link(UNIT_WARRIOR) can be link(CONCEPT_UPGRADE,3) to an link(UNIT_AXEMAN). link(CONCEPT_PROMOTION,2) provide various combat buffs. Both link(CONCEPT_PROMOTION,2) and link(CONCEPT_UPGRADE,2) cost {YIELD_TRAINING}link(YIELD_TRAINING). link(CONCEPT_UPGRADE,2) can only be performed inside of friendly territory while link(CONCEPT_PROMOTION,2) can be done anywhere.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_IMPRISON</zType>
@@ -2748,7 +2772,9 @@ Resources that are within any City's limits, or that are too far from one of you
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_SITE</zType>
-		<Translation>The map is full of City Sites, which are the only locations link(UNIT_SETTLER,2) can found new Cities. (The City can be founded on any of the link(CONCEPT_URBAN) Tiles connected to the City Site.) Many City Sites are occupied by link(CONCEPT_TRIBE,2), which must either be defeated or joined in link(CONCEPT_ALLIANCE_TRIBE,2) before founding a City is possible.</Translation>
+		<Translation>The map is full of City Sites, which are the only locations link(UNIT_SETTLER,2) can found new Cities. (The City can be founded on any of the link(CONCEPT_URBAN) Tiles connected to the City Site.) Many City Sites are occupied by link(CONCEPT_TRIBE,2), which must either be defeated or joined in link(CONCEPT_ALLIANCE_TRIBE,2) before founding a City is possible.
+
+A Unit placed directly on a City Site will block other link(CONCEPT_NATION,2) from founding Cities there (although doing so costs one link(YIELD_ORDERS,3) per Turn).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CLEAR</zType>
@@ -2977,6 +3003,10 @@ Ihre Vorlieben geben vor welche link(CONCEPT_AMBITION,2) du nachgehen kannst. De
 		<zType>TEXT_HELPTEXT_LINK_HELP_HEIGHT_DEFENDING_CLEAR</zType>
 		<Translation>Vs. {0_unit} (wenn link(CONCEPT_CLEAR)): {1} (Nahkampf)</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_HEAL</zType>
+		<Translation>link(CONCEPT_IDLE) Units in friendly territory will Heal 1 Hit Point (HP) each Turn. Units can also take a Heal action in friendly territory, at the cost of one {YIELD_ORDERS}link(YIELD_ORDERS), to Heal int(ACTIVE_HEAL) HP.</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_LINK_HELP_HIDDEN</zType>
         <Translation>Versteckte Einheiten können nicht von anderen Einheiten gesehen werden. link(UNIT_SCOUT,2) sind in neutralen link(VEGETATION_TREES) versteckt oder aber mit einem link(TRAIT_SCHEMER_ARCHETYPE) Oberhaupt. Versteckte Einheiten haben einen int(HIDDEN_ATTACK_MODIFIER)% Modifikator beim angreifen.</Translation>
@@ -3014,6 +3044,10 @@ Ihre Vorlieben geben vor welche link(CONCEPT_AMBITION,2) du nachgehen kannst. De
 		<Translation>The Holy City is where link(CONCEPT_RELIGION,1) was first founded. The link(IMPROVEMENTCLASS_HOLY_SITE) can only be built in a Holy City.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_HOLY_SITE</zType>
+		<Translation>A Holy Site is a Religious link(CONCEPT_IMPROVEMENT) which can only be built at the link(CONCEPT_HOLY_CITY) of a link(CONCEPT_WORLD_RELIGION). For example, link(IMPROVEMENT_HOLY_SITE_CHRISTIANITY) can only be built at the link(RELIGION_CHRISTIANITY,1) link(CONCEPT_HOLY_CITY).</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_IDLE</zType>
 		<Translation>link(CONCEPT_IDLE) Einheiten können sich bewegt haben aber dürfen keinen Cooldown haben. (Angreifen oder link(CONCEPT_UPGRADE))</Translation>
 	</Entry>
@@ -3028,6 +3062,18 @@ Ihre Vorlieben geben vor welche link(CONCEPT_AMBITION,2) du nachgehen kannst. De
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_IMPROVEMENT_KEY</zType>
 		<Translation>Halte [{0_key}] um alle Verbesserungen zu verbergen.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_IMPROVEMENT_BUILD_TURNS</zType>
+		<Translation>{0} {1_turnScale} um {2,1_improvement} zu errichten</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_IMPROVEMENT_BUILD_TURNS_DAMAGED</zType>
+		<Translation>Verletzte Einheit</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_IMPROVEMENT_BUILD_TURNS_FAMILY</zType>
+		<Translation>Andere Familie</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_INJURY</zType>
@@ -3073,8 +3119,21 @@ Höhre Legitimität verbessert die link(CONCEPT_OPINION_FAMILY,1) und erzeugt me
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LUXURY</zType>
-		<Translation>Luxusgüter können an eine Stadt geschickt werden um die link(YIELD_DISCONTENT) zu verringern. Sie können außerdem mit anderen Reichen gehandelt werden, link(CONCEPT_TRIBE,2), und link(CONCEPT_FAMILY,2) um deren Meinung deines Reiches zu erhöhen.
-link(CONCEPT_FAMILY_CLASS,2) haben alle 2 Luxusgüter welche ihnen höhren link(CONCEPT_OPINION_FAMILY,3) Schub gibt. (Zum Beispiel, link(FAMILYCLASS_CLERICS,2) bevorzugen link(RESOURCE_INCENSE) und link(RESOURCE_LAVENDER).)</Translation>																																																								  
+		<Translation>Luxuries can be traded to a City to reduce link(YIELD_DISCONTENT). They can also be traded to other link(CONCEPT_NATION,2), link(CONCEPT_TRIBE,2), and link(CONCEPT_FAMILY,2) to improve their Opinion of you.
+		
+link(CONCEPT_FAMILY_CLASS,2) all have two specific Luxuries which give them a higher link(CONCEPT_OPINION_FAMILY,3) boost. (For example, link(FAMILYCLASS_CLERICS,2) prefer link(RESOURCE_INCENSE) and link(RESOURCE_LAVENDER).)
+
+Luxuries come from the following Resources:
+{bullet}link(RESOURCE_SALT)
+{bullet}link(RESOURCE_GEM)
+{bullet}link(RESOURCE_FUR)
+{bullet}link(RESOURCE_HONEY)
+{bullet}link(RESOURCE_INCENSE)
+{bullet}link(RESOURCE_LAVENDER)
+{bullet}link(RESOURCE_OLIVE)
+{bullet}link(RESOURCE_WINE)
+{bullet}link(RESOURCE_DYE)
+{bullet}link(RESOURCE_PEARL)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_MERCENARY</zType>
@@ -3083,8 +3142,20 @@ link(CONCEPT_FAMILY_CLASS,2) haben alle 2 Luxusgüter welche ihnen höhren link(
 Söldner haben keine zugewiesene link(CONCEPT_FAMILY) und int(CONSUMPTION_MERCENARY_MODIFIER)% höhre Verbrauchskosten.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_MAP_SIZE</zType>
-		<Translation>Breite: {0}{br}Höhe: {1}</Translation>
+		<zType>TEXT_HELPTEXT_LINK_HELP_MINOR_CITY</zType>
+		<Translation>link(CONCEPT_CITY_SITE,2) without a Tribal link(CONCEPT_SETTLEMENT) can be turned into a link(IMPROVEMENT_MINOR_CITY) if all of the link(TERRAIN_URBAN) Tiles connected to the link(CONCEPT_CITY_SITE) are surrounded by your territory.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_MAP_SIZE_WIDTH</zType>
+		<Translation>Breite: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_MAP_SIZE_HEIGHT</zType>
+		<Translation>Höhe: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_MAP_SIZE_RECOMMENDED_PLAYERS</zType>
+		<Translation>Empfohlen für {0} Spieler</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_MEMORY_TURNS_LEFT</zType>
@@ -3160,6 +3231,10 @@ Units also can temporarily inherit Promotions from the Traits of their link(CONC
 		</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_PROMOTION_AVAILABLE</zType>
+		<Translation>Beförderung verfügbar</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_PROXIMITY</zType>
 		<Translation>Comparison of the distance between the Cities of the two link(CONCEPT_NATION,2) and/or link(CONCEPT_TRIBE,2), with the following levels:
 {bullet}Very Close
@@ -3184,7 +3259,12 @@ All Religions give link(YIELD_CULTURE){YIELD_CULTURE} to their Cities, and a lin
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DISCIPLE</zType>
-		<Translation>Ein Jünger kann seine Religion verbreiten, Religiöse Verbesserungen bauen und andere Religionen von deinen Städten mit link(LAW_ORTHODOXY) säubern.</Translation>
+		<Translation>Ein Jünger kann seine Religion verbreiten, Religiöse Verbesserungen bauen und andere Religionen von deinen Städten mit link(LAW_ORTHODOXY) säubern.
+link(CONCEPT_IDLE) Disciples produce a small Yield amount if positioned on an link(CONCEPT_IMPROVEMENT) of their link(CONCEPT_RELIGION). For example, a Disciple on a link(IMPROVEMENTCLASS_MONASTERY) will produce some {YIELD_SCIENCE}link(YIELD_SCIENCE) each Turn.</Translation>																										
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_RELIGION_CITY_IMPROVEMENTS</zType>
+		<Translation>link(CONCEPT_IMPROVEMENT,2) in {0_city}:</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_RELIGION_CITIES_US</zType>
@@ -3256,6 +3336,10 @@ All Religions give link(YIELD_CULTURE){YIELD_CULTURE} to their Cities, and a lin
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_SUCCESSION</zType>
+		<Translation>The Ratings of your first four Characters in your Succession affect your Global Yields (at half the rate of the Leader). For example, their link(RATING_COURAGE) will increase your {YIELD_TRAINING}link(YIELD_TRAINING). Further, their link(CONCEPT_OPINION_CHARACTER,3) of you will increase or decrease these Yield rates.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_SUCCESSION_LAW</zType>
 		<Translation>Dein Nachfolgegesetz bestimmt wer der nächste Erbe ist. Das Gesetz zu ändern kostet link(YIELD_CIVICS)icon(YIELD_CIVICS) und kann Charaktere verärgern die in der Reihenfolge nach unten rücken.</Translation>
 	</Entry>
 	<Entry>
@@ -3406,6 +3490,12 @@ Foreign Cities on your Trade Network (which requires link(CONCEPT_PEACE_PLAYER))
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_WEAKNESS</zType>
 		<Translation>Negative Character Trait, of which they can have a maximum of int(MAX_WEAKNESSES).</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_WONDER</zType>
+		<Translation>Wonders are unique link(CONCEPT_IMPROVEMENT,2) which can only be built once. As soon as one link(CONCEPT_NATION) begins a Wonder, no one else can build it unless a hostile Units enters the Tile of an unfinished Wonder and destroys it.
+		
+Not all Wonders are available each game; the Wonders available are chosen randomly at the start of the game.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_WORLD_RELIGION</zType>
@@ -3564,6 +3654,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>{0}: Unterhalt</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_YIELD_NET_GLOBAL_STOCKPILE</zType>
+		<Translation>Lagerbestand:</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_NET_ROYALS</zType>
 		<Translation>{0}: Königlich(e)</Translation>
 	</Entry>
@@ -3586,6 +3680,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_NET_UNIT_IMPROVEMENT_YIELD</zType>
 		<Translation>{0}: Von {1,2_unit}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_YIELD_NET_CITY_PRODUCTION</zType>
+		<Translation>Stadt Produktion:</Translation>
 	</Entry>
 	<!--City Capital Help-->
 	<Entry>
@@ -4048,6 +4146,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>Kann nicht {0_improvement} auf link(CONCEPT_URBAN) Feld bauen</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_CANNOT_REPLACE_IMPROVEMENT</zType>
+		<Translation>Kann nicht {0_improvement} ersetzen (Verbesserung ist endgültig)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_REPLACES_IMPROVEMENT</zType>
 		<Translation><![CDATA[Ersetzt die {0_improvement} (Halte <TEXT_HOTKEY_CTRL>)]]></Translation>
 	</Entry>
@@ -4155,7 +4257,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_LAST_STAND</zType>
-		<Translation>Kann nicht mit mehr als 1 HP sterben</Translation>
+		<Translation>Kann nicht mit 2HP+ sterben</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_IGNORES_DISTANCE</zType>
@@ -4421,31 +4523,35 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_CULTURE_LEVEL</zType>
-		<Translation>{0_yield}/{1_turnScale} pro link(YIELD_CULTURE) Stufe{true_2: ({2_cityYield})}</Translation>
+		<Translation>{0_yield}/{1_turnScale} pro link(YIELD_CULTURE) Stufe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_FAMILY_OPINION</zType>
-		<Translation>{0_yield}/{1_turnScale} pro Familien Meinungsstufe{true_2: ({2_cityYield})}</Translation>
+		<Translation>{0_yield}/{1_turnScale} pro link(CONCEPT_OPINION_FAMILY,1) Stufe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_MILITARY_IN_CITY</zType>
-		<Translation>{0_yield}/{1_turnScale} pro Militär Einheit im Gebiet{true_2: ({2_cityYield})}</Translation>
+		<Translation>{0_yield}/{1_turnScale} pro Militär Einheit im Gebiet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_SPECIALIST</zType>
-		<Translation>{0_yield}/{1_turnScale} pro Spezialist{true_2: ({2_cityYield})}</Translation>
+		<Translation>{0_yield}/{1_turnScale} pro Spezialist</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_IF_DEFENDING</zType>
-		<Translation>{0_yield}/{1_turnScale} wenn {true_3:Family }Military Defending{true_2: ({2_cityYield})}</Translation>
+		<Translation>{0_yield}/{1_turnScale} wenn Militär verteidigt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_IF_DEFENDING_FAMILY</zType>
+		<Translation>{0_yield}/{1_turnScale} wenn link(CONCEPT_FAMILY) Militär verteidigt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_RELIGION</zType>
-		<Translation>{0_yield}/{1_turnScale} pro Religion{true_2: ({2_cityYield})}</Translation>
+		<Translation>{0_yield}/{1_turnScale} pro Religion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_RELIGION_NON_STATE</zType>
-		<Translation>{0_yield}/{1_turnScale} pro Nicht-Staatsreligion{true_2: ({2_cityYield})}</Translation>
+		<Translation>{0_yield}/{1_turnScale} pro Nicht-Staatsreligion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_HOLY_CITY_WORLD</zType>
@@ -4453,7 +4559,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_FROM_EFFECT_CITY</zType>
-		<Translation>{0_yield}/{1_turnScale} von {2_effectCity}{true_3: ({3_cityYield})}</Translation>
+		<Translation>{0_yield}/{1_turnScale} von {2_effectCity}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_EFFECT_CITY_YIELD_MODIFIER</zType>
@@ -4537,6 +4643,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>{0_urban} Verbesserung</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_PERMANENT_BUILDING</zType>
+		<Translation>Kann nicht ersetzt werden</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_URBAN_BUILDING_ANYWHERE</zType>
 		<Translation>{0} (Ignoriert Nachbarschafts Anforderungen)</Translation>
 	</Entry>
@@ -4587,6 +4697,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_UNLOCKS_UNIT</zType>
 		<Translation>Schaltet {0_unit} frei</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_WONDER</zType>
+		<Translation>link(CONCEPT_WONDER) der Welt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_CITY_SITE</zType>
@@ -5389,6 +5503,14 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>Entferne Vegetation von {0_tile}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_CLEAR_ANY_IMPROVEMENT</zType>
+		<Translation>Entferne link(CONCEPT_IMPROVEMENT) von {0_tile}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_PILLAGE_ANY_IMPROVEMENT</zType>
+		<Translation>Plündere link(CONCEPT_IMPROVEMENT) von {0_tile}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_FREE_UNIT</zType>
 		<Translation>Erhalte {0_unit}{true_1: (x{1_number})}{true_2: in {2_city}}</Translation>
 	</Entry>
@@ -5398,7 +5520,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_TRIBE_UNIT</zType>
-		<Translation>Neue {0,1_tribe} {1_unit}{true_2: (x{2_number})} auf {tile_3}</Translation>
+		<Translation>Neue {0,1_tribe} {1_unit}{true_2: (x{2_number})} auf {3_tile}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_TRADE_CITY</zType>
@@ -5634,7 +5756,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_NO_BIRTH</zType>
-		<Translation>Kann keine Kidner bekommen</Translation>
+		<Translation>Kann keine Kinder bekommen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_NO_HEIR</zType>
@@ -6184,6 +6306,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_CARAVAN_MISSION_START_BUTTON</zType>
 		<Translation>link(CONCEPT_CARAVAN_MISSION) zu {0_player}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TILE_CARAVAN_MISSION_NO_PLAYERS</zType>
+		<Translation>link(CONCEPT_CARAVAN_MISSION) (Keine Kontakte)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_CARAVAN_MISSION_CANCEL_BUTTON</zType>
@@ -7810,5 +7936,57 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TOOLTIP_COMMUNITY_CONTRIBUTION</zType>
 		<Translation><![CDATA[Community Contribution:<br>{0}]]></Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_AND</zType>
+		<Translation>und</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_OR</zType>
+		<Translation>oder</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_AI_VALUE</zType>
+		<Translation>KI Wert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_AI_STOCKPILE</zType>
+		<Translation>KI Lagerbestand</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_AI_ROLE</zType>
+		<Translation>KI Rolle</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TARGET</zType>
+		<Translation>Ziel</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_BEST_FAMILY</zType>
+		<Translation>Beste Familie</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_DEBUG_STAR</zType>
+		<Translation>debug*</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_STAR_ID</zType>
+		<Translation>*ID</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_INFERTILE</zType>
+		<Translation>Unfruchtbar</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_ROYAL</zType>
+		<Translation>Königlich</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_RETIRED</zType>
+		<Translation>im Ruhestand</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TEMPORARY</zType>
+		<Translation>Vorübergehend</Translation>
 	</Entry>
 </Root>

@@ -3631,6 +3631,14 @@
 		<zType>TEXT_MEMORYFAMILY_GRAVE_OFFENSE</zType>
 		<Translation>Ritual humiliation</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYPLAYER_RAID_EARLY_WARNING</zType>
+		<Translation>Appreciated our warning</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_RAID_DEFAULT_POS</zType>
+		<Translation>Sent aid to our city</Translation>
+	</Entry>
 	<Entry beginGroup="Family">
 		<zType>TEXT_MEMORYFAMILY_CHOSEN_HEIR_NO</zType>
 		<Translation>Refused to make one of the us the Heir</Translation>

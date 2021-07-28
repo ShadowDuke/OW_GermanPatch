@@ -15830,11 +15830,11 @@ Your remaining link(YIELD_ORDERS)icon(YIELD_ORDERS) can be seen in the lower lef
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SECOND_CITY</zType>
-		<Translation>Your link(CONCEPT_CAPITAL) has finished training a new link(UNIT_SETTLER)! link(UNIT_SETTLER,2) are key to expanding your Nation, because only they can found new Cities. Take this link(UNIT_SETTLER) to a nearby link(CONCEPT_CLAIM,3) link(IMPROVEMENT_CITY_SITE) to establish a new City. 
+		<Translation>Your link(CONCEPT_CAPITAL) has finished training a new link(UNIT_SETTLER)! link(UNIT_SETTLER,2) are key to expanding your nation because only they can found new Cities. Take this link(UNIT_SETTLER) to a nearby link(CONCEPT_CITY_SITE) to establish a new City.
 
-link(IMPROVEMENT_CITY_SITE,2) can be link(CONCEPT_CLAIM,2) prior to sending a link(UNIT_SETTLER) to colonize them. Place a Unit of any type on the link(IMPROVEMENT_CITY_SITE) Tile to link(CONCEPT_CLAIM) it as your own, thereby preventing Foreign link(UNIT_SETTLER,2) from founding a City there.
+link(CONCEPT_CITY_SITE,2) can be claimed prior to sending a link(UNIT_SETTLER) to colonize them. Place a Unit of any type on the link(CONCEPT_CITY_SITE) Tile to claim it as your own, thereby preventing Foreign link(UNIT_SETTLER,2) from founding a City there.
 
-When you found a City, you will have to choose which link(CONCEPT_FAMILY) to grant it to. This link(CONCEPT_FAMILY) will provide powerful bonuses to the City. After granting a City to a third distinct link(CONCEPT_FAMILY), you will lose the fourth link(CONCEPT_FAMILY), so carefully consider what bonuses you want and which link(CONCEPT_FAMILY) you can go without.</Translation>
+When you found a City, you will have to choose which link(CONCEPT_FAMILY) to grant it to. This link(CONCEPT_FAMILY) will provide powerful bonuses to the City. After granting a City to a third distinct link(CONCEPT_FAMILY), you will lose access to your nation's fourth link(CONCEPT_FAMILY), so carefully consider what bonuses you want and which link(CONCEPT_FAMILY) you can go without.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_PAGAN_SHRINE</zType>

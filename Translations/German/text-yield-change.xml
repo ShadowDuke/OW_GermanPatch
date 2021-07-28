@@ -8,7 +8,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_GROWTH</zType>
-		<Translation>Wachstum</Translation>
+		<Translation>Wachstum~icon(YIELD_GROWTH)Wachstum</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_GROWTH_HELP</zType>
@@ -16,7 +16,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_CIVICS</zType>
-		<Translation>Verwaltung</Translation>
+		<Translation>Verwaltung~icon(YIELD_CIVICS)Verwaltung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_CIVICS_HELP</zType>
@@ -32,7 +32,7 @@ Wonders such as link(IMPROVEMENT_COLOSSUS) or link(IMPROVEMENT_ACROPOLIS), or th
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_TRAINING</zType>
-		<Translation>Training</Translation>
+		<Translation>Training~icon(YIELD_TRAINING)Training</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_TRAINING_HELP</zType>
@@ -46,7 +46,7 @@ Families that are link(FAMILYCLASS_CHAMPIONS), link(FAMILYCLASS_RIDERS), or link
 	</Entry>
 	<Entry>	
 		<zType>TEXT_YIELD_CULTURE</zType>
-		<Translation>Kultur</Translation>
+		<Translation>Kultur~icon(YIELD_CULTURE)Kultur</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_CULTURE_HELP</zType>
@@ -54,15 +54,15 @@ Families that are link(FAMILYCLASS_CHAMPIONS), link(FAMILYCLASS_RIDERS), or link
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_DISCONTENT</zType>
-		<Translation>Unzufriedenheit</Translation>
+		<Translation>Unzufriedenheit~icon(YIELD_DISCONTENT)Unzufriedenheit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_DISCONTENT_HELP</zType>
-		<Translation>Städte schüren link(YIELD_DISCONTENT){YIELD_DISCONTENT} über die Zeit. Wenn die sich link(YIELD_DISCONTENT){YIELD_DISCONTENT} einer Stadt vermehrt, erhöht sich seine gesammtes link(YIELD_DISCONTENT){YIELD_DISCONTENT}, welches die link(YIELD_MAINTENANCE){YIELD_MAINTENANCE} erhöht und link(YIELD_GROWTH){YIELD_GROWTH} reduziert. Benutze link(PROJECT_FESTIVAL,2) um link(YIELD_DISCONTENT){YIELD_DISCONTENT} zu verringern.</Translation>
+		<Translation>Städte schüren langsam link(YIELD_DISCONTENT){YIELD_DISCONTENT} über die Zeit. Wenn sich die link(YIELD_DISCONTENT){YIELD_DISCONTENT} einer Stadt vermehrt, erhöht sich seine gesammtes link(YIELD_DISCONTENT){YIELD_DISCONTENT}, welches die link(YIELD_MAINTENANCE){YIELD_MAINTENANCE} erhöht und link(YIELD_GROWTH){YIELD_GROWTH} reduziert. Benutze link(PROJECT_FESTIVAL,2) um link(YIELD_DISCONTENT){YIELD_DISCONTENT} zu verringern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_SCIENCE</zType>
-		<Translation>Wissenschaft</Translation>
+		<Translation>Wissenschaft~icon(YIELD_SCIENCE)Wissenschaft</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_SCIENCE_HELP</zType>
@@ -70,15 +70,15 @@ Families that are link(FAMILYCLASS_CHAMPIONS), link(FAMILYCLASS_RIDERS), or link
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_MONEY</zType>
-		<Translation>Geld</Translation>
+		<Translation>Geld~icon(YIELD_MONEY)Geld</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_MONEY_HELP</zType>
-		<Translation>Wird benutzt um andere Ressourcen zu kaufen. Steigert link(YIELD_MONEY){YIELD_MONEY} durch den Bau von link(IMPROVEMENT_HAMLET,2) und link(IMPROVEMENTCLASS_MARKET,2).</Translation>
+		<Translation>{YIELD_MONEY}Geld wird benutzt um andere Ressourcen zu kaufen. Steigert link(YIELD_MONEY){YIELD_MONEY} durch den Bau von link(IMPROVEMENT_HAMLET,2) und link(IMPROVEMENTCLASS_MARKET,2).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_MAINTENANCE</zType>
-		<Translation>Instandhaltung</Translation>					
+		<Translation>Instandhaltung~icon(YIELD_MAINTENANCE)Instandhaltung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_MAINTENANCE_HELP</zType>
@@ -86,7 +86,7 @@ Families that are link(FAMILYCLASS_CHAMPIONS), link(FAMILYCLASS_RIDERS), or link
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_ORDERS</zType>
-		<Translation>Befehle</Translation>
+		<Translation>Befehle~icon(YIELD_ORDERS)Befehle~Befehl~icon(YIELD_ORDERS)Befehl</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_ORDERS_HELP</zType>
@@ -94,34 +94,34 @@ Families that are link(FAMILYCLASS_CHAMPIONS), link(FAMILYCLASS_RIDERS), or link
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_FOOD</zType>
-		<Translation>Nahrung</Translation>
+		<Translation>Nahrung~icon(YIELD_FOOD)Nahrung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_FOOD_HELP</zType>
-		<Translation>The best source of Food{YIELD_FOOD} is link(IMPROVEMENT_FARM,2), which are most fruitful next to link(CONCEPT_FRESH_WATER) and on link(TERRAIN_LUSH) Terrain. Food{YIELD_FOOD} is needed to feed your link(CONCEPT_POPULATION) and to produce new link(UNIT_SETTLER,2).</Translation>
+		<Translation>The best source of {YIELD_FOOD}Food is link(IMPROVEMENT_FARM,2), which are most fruitful next to link(CONCEPT_FRESH_WATER) and on link(TERRAIN_LUSH) Terrain. {YIELD_FOOD}Food is needed to feed your link(CONCEPT_POPULATION) and to produce new link(UNIT_SETTLER,2).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_IRON</zType>
-		<Translation>Eisen</Translation>
+		<Translation>Eisen~icon(YIELD_IRON)Eisen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_IRON_HELP</zType>
-		<Translation>The primary source of Iron{YIELD_IRON} is link(IMPROVEMENT_MINE,2), which are most productive on link(RESOURCE_ORE) and/or link(HEIGHT_HILL,2). Iron{YIELD_IRON} is needed to build many types of Military Units, including link(UNIT_WARRIOR,2) and link(UNIT_AXEMAN,2).</Translation>
+		<Translation>The primary source of {YIELD_IRON}Iron is link(IMPROVEMENT_MINE,2), which are most productive on link(RESOURCE_ORE) and/or link(HEIGHT_HILL,2). {YIELD_IRON}Iron is needed to build many types of Military Units, including link(UNIT_WARRIOR,2) and link(UNIT_AXEMAN,2).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_STONE</zType>
-		<Translation>Stein</Translation>
+		<Translation>Stein~icon(YIELD_STONE)Stein</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_STONE_HELP</zType>
-		<Translation>The primary source of Stone{YIELD_STONE} is link(IMPROVEMENT_QUARRY,2), which are most productive on link(RESOURCE_MARBLE), on link(TERRAIN_ARID) Terrain, and adjacent to link(HEIGHT_MOUNTAIN,2). Stone{YIELD_STONE} is needed primarily to build Improvements, such as link(IMPROVEMENTCLASS_SHRINE,2), and link(CONCEPT_PROJECT,2), such as link(PROJECT_WALLS).</Translation>
+		<Translation>The primary source of {YIELD_STONE}Stone is link(IMPROVEMENT_QUARRY,2), which are most productive on link(RESOURCE_MARBLE), on link(TERRAIN_ARID) Terrain, and adjacent to link(HEIGHT_MOUNTAIN,2). {YIELD_STONE}Stone is needed primarily to build Improvements, such as link(IMPROVEMENTCLASS_SHRINE,2), and link(CONCEPT_PROJECT,2), such as link(PROJECT_WALLS).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_WOOD</zType>
-		<Translation>Holz</Translation>
+		<Translation>Holz~icon(YIELD_WOOD)Holz</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_WOOD_HELP</zType>
-		<Translation>Wood{YIELD_WOOD} can be gathered either by chopping down link(VEGETATION_TREES) or by building link(IMPROVEMENT_LUMBERMILL,2) instead. Wood{YIELD_WOOD} is necessary for build City Improvements (like link(IMPROVEMENT_BARRACKS)), Military Units (link(UNIT_ARCHER,2)), and Naval Units (link(UNIT_BIREME,2)).</Translation>
+		<Translation>{YIELD_WOOD}Wood can be gathered either by chopping down link(VEGETATION_TREES) or by building link(IMPROVEMENT_LUMBERMILL,2) instead. {YIELD_WOOD}Wood is necessary for building City Improvements (like link(IMPROVEMENT_BARRACKS)), Military Units (link(UNIT_ARCHER,2)), and link(UNITTRAIT_SHIP) Units (link(UNIT_BIREME,2)).</Translation>
 	</Entry>
 </Root>
