@@ -955,14 +955,6 @@
 		<Translation>Schwierigkeitsgrad: {0}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_MENU_OPPONENT_LEVEL</zType>
-		<Translation>Gegner Stufe: {0}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_MENU_TRIBE_LEVEL</zType>
-		<Translation>Barbaren Stufe: {0}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MENU_SUCCESSION</zType>
 		<Translation>Erbfolge Geschlecht: {0}</Translation>
 	</Entry>
@@ -979,8 +971,20 @@
 		<Translation>Ereignisstufe: {0}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_MENU_OPPONENT_LEVEL</zType>
+		<Translation>KI Aggressivität: {0}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MENU_DEVELOPMENT</zType>
-		<Translation>Entwicklung: {0}</Translation>
+		<Translation>KI Entwicklung: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_MENU_ADVANTAGE</zType>
+		<Translation>KI Vorteil: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_MENU_TRIBE_LEVEL</zType>
+		<Translation>Stamm Stufe: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MENU_MAP_TYPE</zType>
@@ -1563,6 +1567,10 @@
 		<Translation>Benötigt {0_character}: {1_subject}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_START_MISSION_CHARACTER_REQUIRES_NOT</zType>
+		<Translation>Benötigt {0_character}: Nicht {1_subject}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_START_MISSION_CONFLICT_TURNS</zType>
 		<Translation>({0} Züge seit dem letzten link(DIPLOMACY_WAR))</Translation>
 	</Entry>
@@ -1912,15 +1920,15 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_HARVEST_RESOURCE_CITY_TERRITORY</zType>
-		<Translation>Darf nicht innerhalb der Stadtgrenzen ernten</Translation>
+		<Translation>Darf nicht innerhalb der Stadtgrenzen sammeln</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_HARVEST_RESOURCE_IMPROVEMENT</zType>
-		<Translation>Darf nicht auf einem Feld mit einer Verbesserung ernten</Translation>
+		<Translation>Darf nicht auf einem Feld mit einer Verbesserung sammeln</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_HARVEST_RESOURCE_NEEDS_TIME</zType>
-		<Translation>{0_resource} benötigt Zeit um wieder geernten werden zu können</Translation>
+		<Translation>{0_resource} benötigt Zeit um wieder gesammelt werden zu können</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_HARVEST_RESOURCE_NO_YIELD</zType>
@@ -2037,6 +2045,10 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LAUNCH_OFFENSIVE</zType>
 		<Translation>Reduziert den Cooldown von benachbarten Einheiten und gibt ihnen {0_yield} für jede einzelne</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_LAUNCH_OFFENSIVE_CONCEPT</zType>
+		<Translation>Reduziert den Cooldown von benachbarten Einheiten und gibt +1 icon(YIELD_ORDERS) für jede</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LAUNCH_OFFENSIVE_NOT_YOUR_TURN</zType>
@@ -2433,7 +2445,9 @@ A Governor (with the exception of the Leader) cannot be from a different link(CO
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_RELIGION</zType>
-		<Translation>link(CONCEPT_RELIGION,2) provide link(YIELD_CULTURE)icon(YIELD_CULTURE) to the Cities they're in. You can choose to adopt a link(CONCEPT_STATE_RELIGION) for your Nation, allowing you to guide the impact that Religion has on your Cities.</Translation>
+		<Translation>link(CONCEPT_RELIGION,2) provide link(YIELD_CULTURE,1) and affect link(YIELD_DISCONTENT,1) in Cities with them. (For example, a City with a link(OPINIONRELIGION_FRIENDLY) link(CONCEPT_RELIGION) will have its link(YIELD_DISCONTENT) reduced by 2.)
+		
+You can choose to adopt a link(CONCEPT_STATE_RELIGION) for your link(CONCEPT_NATION), allowing you to guide the impact that link(CONCEPT_RELIGION) has on your Cities via link(CONCEPT_THEOLOGY,2).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TUTORIAL_UNDO</zType>
@@ -2941,7 +2955,7 @@ Ihre Vorlieben geben vor welche link(CONCEPT_AMBITION,2) du nachgehen kannst. De
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_HARVEST_RESOURCE</zType>
-		<Translation>link(UNIT_SCOUT,2), link(UNIT_SETTLER,2) und link(UNIT_WORKER,2) können eine Ressource ernten für einen schnellen Vorrat von Gütern. Die Ressource kann nicht nocht einmal geernten werden bis sie zufällig neu erscheint.</Translation>
+		<Translation>link(UNIT_SCOUT,2), link(UNIT_SETTLER,2) und link(UNIT_WORKER,2) können eine Ressource sammeln für einen schnellen Vorrat von Gütern. Die Ressource kann nicht nocht einmal gesammelt werden bis sie zufällig neu erscheint.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HARVEST_RESOURCE</zType>
@@ -2990,6 +3004,10 @@ Ihre Vorlieben geben vor welche link(CONCEPT_AMBITION,2) du nachgehen kannst. De
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_MOVEMENT_COST</zType>
 		<Translation>{0}{MOVEMENT} (Bewegungskosten)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_HEIGHT_RANGE</zType>
+		<Translation>{0} Einheit {REICHWEITE}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_HEIGHT_BUILD</zType>
@@ -3182,6 +3200,10 @@ Söldner haben keine zugewiesene link(CONCEPT_FAMILY) und int(CONSUMPTION_MERCEN
 		<Translation>Nations are the major states that are vying for Victory in Old World.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_ONE_CITY_CHALLENGE</zType>
+		<Translation>The One City Challenge (OCC for short) is a specific game mode for Human players. When playing an OCC game the Human players are limited to one City, their link(CONCEPT_CAPITAL). Human players are not able to build link(UNIT_SETTLER,2), found more than one City, or capture Cities from other link(CONCEPT_NATION,2) (Cities captured by human players remain in anarchy). To play an OCC game select the correct option from the Advanced Setup menu when creating a new game.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_OPINION_FAMILY</zType>
 		<Translation>link(CONCEPT_FAMILY) Opinion modifies the icon(ATTACKDEFENSE)Strength of their Units and the link(YIELD_CIVICS)icon(YIELD_CIVICS), link(YIELD_TRAINING){YIELD_TRAINING}, and link(YIELD_MAINTENANCE)icon(YIELD_MAINTENANCE) of their Cities. Further, a negative Opinion can lead to link(TRIBE_REBELS) spawing near the link(CONCEPT_FAMILY) Cities.</Translation>
 	</Entry>
@@ -3252,6 +3274,10 @@ Units also can temporarily inherit Promotions from the Traits of their link(CONC
 		<Translation>There are two types of Religions: World and Pagan. link(CONCEPT_WORLD_RELIGION,2), such as link(RELIGION_JUDAISM), are founded by the first link(CONCEPT_NATION) to fulfill its specific requirements. link(CONCEPT_PAGAN_RELIGION,2) are founded by building the first of your Nation's link(CONCEPT_SHRINE,2).
 		
 All Religions give link(YIELD_CULTURE){YIELD_CULTURE} to their Cities, and a link(OPINIONRELIGION_PLEASED) or link(OPINIONRELIGION_FRIENDLY) Religion will reduce link(YIELD_DISCONTENT){YIELD_DISCONTENT} while an link(OPINIONRELIGION_UPSET), link(OPINIONRELIGION_ANGRY), or link(OPINIONRELIGION_FURIOUS) Religion will increase link(YIELD_DISCONTENT){YIELD_DISCONTENT}.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_RETREAT</zType>
+		<Translation>Units forced to Retreat will move to a valid adjacent Tile. If none exists, then the Unit is link(CONCEPT_STUN,2).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CONCEPT_DESIRED_AMBITION</zType>
@@ -3365,6 +3391,10 @@ link(CONCEPT_IDLE) Disciples produce a small Yield amount if positioned on an li
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TERRAIN_DEFENDING_CLEAR</zType>
 		<Translation>Vs. {0_unit} (if link(CONCEPT_CLEAR)): {1} (Nahkampf)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_STUN</zType>
+		<Translation>A Stunned Unit cannot move, attack, or take any other type of action.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TESTUDO</zType>
@@ -5499,6 +5529,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>Setze {0_improvement} auf {1_tile}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_SET_SPECIALIST</zType>
+		<Translation>{0_specialist} auf {1_tile}{true_2: nähe {2_city}} festlegen</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_REMOVE_ANY_VEGETATION</zType>
 		<Translation>Entferne Vegetation von {0_tile}</Translation>
 	</Entry>
@@ -5771,6 +5805,14 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>Kann kein {0_courtier} sein</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_NO_RELIGION</zType>
+		<Translation>Kann keine link(CONCEPT_RELIGION) haben</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_JOB_ANY_FAMILY</zType>
+		<Translation>{0_job} (für jede link(CONCEPT_FAMILY))</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_JOB_PREREQ</zType>
 		<Translation>Kann dienen als {0_list}</Translation>
 	</Entry>
@@ -5878,6 +5920,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_DIFFICULTY</zType>
 		<Translation>Schwierigkeitsgrad: {0_difficulty}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_PLAYER_NATION</zType>
+		<Translation>Reich: {0_difficulty}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_END_TURN_NOTE</zType>
@@ -6447,7 +6493,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RESOURCE_HARVEST</zType>
-		<Translation>Ernten: {0}</Translation>
+		<Translation>{0}: Sammeln</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RESOURCE_MISSING</zType>
@@ -7459,8 +7505,12 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>Verbessere {0_character}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_ADVANTAGE</zType>
+		<Translation>KI Vorteil: {0}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_DEVELOPMENT</zType>
-		<Translation>Entwicklung: {0}</Translation>
+		<Translation>KI Entwicklung: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_AI_DIFFICULTY</zType>
@@ -7927,7 +7977,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TOOLTIP_FREEZE_TOOLTIP</zType>
 		<Translation><![CDATA[Halte Kurzinfo fest:
-[MITTLERER-MAUSKLICK]<br>{true_0: or {0_presskey}}]]></Translation>
+[MITTLERER-MAUSKLICK]<br>{true_0: oder {0_presskey}}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TOOLTIP_TILE_XY</zType>

@@ -19,6 +19,10 @@
 		<Translation>Wahrzeichen benannt</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_BONUS_EVENTPLAYER_LEGITIMACY</zType>
+		<Translation>Spieler Ereignis</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_BONUS_FINISHED_AMBITION</zType>
 		<Translation>Ambition(en) vollendet</Translation>
 	</Entry>
@@ -2633,5 +2637,21 @@
 	<Entry>
 		<zType>TEXT_WILD_REVELS_DISCOVERED</zType>
 		<Translation>Erlangt den Ruf eines närrischen Säufers</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_RAID_FRIENDS_IN_FAR_PLACES</zType>
+		<Translation>Protected courtier from invaders</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_AUTONOMOUS_EMPRESS_1</zType>
+		<Translation>Allowed autonomous rule</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS_REBEL_SLAVE</zType>
+		<Translation>Made a deal with the rebel slaves</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS_PLAYER</zType>
+		<Translation>Made a deal with the rebel slaves</Translation>
 	</Entry>
 </Root>

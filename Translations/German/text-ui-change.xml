@@ -1658,6 +1658,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 		<Translation>Spiel Passwort</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MP_SETUP_SHOW_PASSWORD</zType>
+		<Translation>Zeige Passwort</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_HOSTPASSWORD</zType>
 		<Translation>Host Passwort</Translation>
 	</Entry>
@@ -1679,7 +1683,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_AI_AGGRESSION</zType>
-		<Translation>KI Aggression</Translation>
+		<Translation>KI Aggressivität</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_AI_ADVANTAGE</zType>
+		<Translation>KI Vorteil</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_AI_DEVELOPMENT</zType>
@@ -1914,7 +1922,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
     <Entry>
         <zType>TEXT_SCENARIO_SETUP_TRIBE</zType>
         <Translation>Stämme</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_SETUP_ADVANTAGE</zType>
+		<Translation>KI Vorteil</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_SCENARIO_SETUP_DIFFICULTY</zType>
         <Translation>Schwierigkeitsgrad</Translation>
@@ -2053,6 +2065,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
         <zType>TEXT_SP_SETUP_ADVANCED_AI_AGGRESSION</zType>
         <Translation>KI Aggressivität</Translation>
     </Entry>
+	<Entry>
+		<zType>TEXT_SP_SETUP_ADVANCED_AI_ADVANTAGE</zType>
+		<Translation>KI Vorteil</Translation>
+	</Entry>
 	<Entry>
 		<zType>TEXT_SP_SETUP_ADVANCED_AI_DEVELOPMENT</zType>
 		<Translation>KI Entwicklung</Translation>

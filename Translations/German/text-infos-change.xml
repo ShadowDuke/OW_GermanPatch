@@ -220,6 +220,10 @@
 		<Translation>Spymaster</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TUTORIAL_AGENTS</zType>
+		<Translation>Tutorial: Agenten</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TUTORIAL_RURAL_YIELDS</zType>
 		<Translation>Tutorial: Ländliche Felder</Translation>
 	</Entry>
@@ -374,7 +378,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_HARVEST_RESOURCE</zType>
-		<Translation>Ressource ernten~Ressourcen ernten~Erntbare Ressourcen</Translation>
+		<Translation>Ressource sammeln~Ressourcen sammeln~Sammelbare Ressourcen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_GENERAL</zType>
@@ -398,15 +402,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_SPREAD_RELIGION</zType>
-		<English>Verbreite Religion~Verbreite</English>
+		<Translation>Verbreite Religion~Verbreite</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_SPOUSE</zType>
-		<English>Ehepartner</English>
+		<Translation>Ehepartner</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_TESTUDO</zType>
-		<English>Schildkröte</English>
+		<Translation>Schildkröte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_FLANKING</zType>
@@ -885,8 +889,6 @@
 		<zType>TEXT_OPINIONCHARACTER_FRIENDLY</zType>
 		<Translation>Freundlich</Translation>
 	</Entry>
-	<!--InfoOpinionPlayer-->
-	<!--Assets/GameAssets/Resources/Infos/opinionPlayer.xml-->
 	<Entry>
 		<zType>TEXT_OPINIONPLAYER_FURIOUS</zType>
 		<Translation>Wütend</Translation>
@@ -2270,6 +2272,10 @@
 	<Entry>
 		<zType>TEXT_TECH_STIRRUPS_BONUS_HORSEMAN</zType>
 		<Translation>Kostenloser Reiter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_STIRRUPS_BONUS_HORSE_ARCHER</zType>
+		<Translation>Kostenloser Berittener Bogenschütze</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_ARCHITECTURE</zType>

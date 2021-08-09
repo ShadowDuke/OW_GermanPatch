@@ -755,6 +755,22 @@
 		<Translation>Große Berühmte Person</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_ADVANTAGE_NONE</zType>
+		<Translation>Keiner</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ADVANTAGE_LOW</zType>
+		<Translation>Klein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ADVANTAGE_MEDIUM</zType>
+		<Translation>Mittel</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ADVANTAGE_HIGH</zType>
+		<Translation>Hoch</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_DEVELOPMENT_NONE</zType>
 		<Translation>Keine</Translation>
 	</Entry>
@@ -1996,6 +2012,14 @@ Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.</Translation>
 		<Translation>Zufälliges Map Script</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_SCENARIO_LEARNTOPLAY_1</zType>
+		<Translation>Learn zu Spielen - Lektion 1</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_LEARNTOPLAY_1_SUB</zType>
+		<Translation>Die alte Welt</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_SCENARIO_BARBARIAN</zType>
 		<Translation>The Barbarian Horde</Translation>
 	</Entry>
@@ -2306,5 +2330,29 @@ Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.</Translation>
 	<Entry>
 		<zType>TEXT_DECEMBER</zType>
 		<Translation>Dezember</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RUINS</zType>
+		<Translation>Ruinen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OF</zType>
+		<Translation>von</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_QUEUE_ROAD</zType>
+		<Translation>Straße</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_QUEUE_REPAIR</zType>
+		<Translation>Reparieren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONNECTION_LOST</zType>
+		<Translation>Verbindung zum Server verloren.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURN</zType>
+		<Translation>Zug</Translation>
 	</Entry>
 </Root>

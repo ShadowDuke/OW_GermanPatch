@@ -3830,5 +3830,17 @@
 	<Entry beginGroup="Leader">
 		<zType>TEXT_MEMORYFAMILY_DELICIOUS_DRINKS_FRIEND</zType>
 		<Translation>Insulted at feast</Translation>
-	</Entry>	 
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_SLAVE_REVOLT_1</zType>
+		<Translation>Allowed us to try to deal with slave revolt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_SLAVE_REVOLT_4</zType>
+		<Translation>Freed the slaves who killed our family head</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_SLAVE_REVOLT_4_FORGIVENESS</zType>
+		<Translation>Gave into the demands of the slave revolt</Translation>
+	</Entry>
 </Root>

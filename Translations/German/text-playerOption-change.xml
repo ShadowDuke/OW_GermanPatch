@@ -146,14 +146,6 @@
 		<Translation>Versteckt die Bewegungsreichweite für jeden Schritt für die ausgewählte Einheit</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_PLAYEROPTION_SHOW_GHOST_UNITS</zType>
-		<Translation>Zeige Geist Einheiten</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_PLAYEROPTION_SHOW_GHOST_UNITS_DESC</zType>
-		<Translation>Zeige Einheiten die vor kurzem noch sichtbar waren</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_PLAYEROPTION_MUTE_AUDIO</zType>
 		<Translation>Stumm</Translation>
 	</Entry>

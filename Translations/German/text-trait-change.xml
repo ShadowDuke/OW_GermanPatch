@@ -1030,4 +1030,8 @@
 		<zType>TEXT_TRAIT_SEVERELY_WOUNDED_LOSS_1</zType>
 		<Translation>{0_character} hat eine übernatürliche Genesung gemacht nachdem {masculine_0:er:sie} {1_trait} war, die schwerwiegende Verletzung ist komplett verheilt!</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_REBEL_SLAVE</zType>
+		<Translation>Rebellen Sklave</Translation>
+	</Entry>
 </Root>

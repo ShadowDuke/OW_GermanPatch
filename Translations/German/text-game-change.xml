@@ -652,8 +652,20 @@
 		<Translation>Setze {0_improvement} auf {1_tile}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_SET_SPECIALIST</zType>
+		<Translation>{0_specialist} auf {1_tile} festlegen</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_REMOVE_VEGETATION</zType>
 		<Translation>{0_vegetation} von {1_tile}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_CLEAR_IMPROVEMENT</zType>
+		<Translation>Beseitige {0_improvement} von {1_tile}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_PILLAGE_IMPROVEMENT</zType>
+		<Translation>Plündere {0_improvement} von {1_tile}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_TRIBE_RAID</zType>

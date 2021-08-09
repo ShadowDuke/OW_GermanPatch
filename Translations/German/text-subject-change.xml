@@ -10,6 +10,22 @@
 		<Translation>Gegenseitiger Kontakt und kein Diplomatischer Auftrag</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_SUBJECT_PLAYER_WAR</zType>
+		<Translation>link(DIPLOMACY_WAR)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECT_PLAYER_TRUCE</zType>
+		<Translation>link(DIPLOMACY_TRUCE)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECT_PLAYER_PEACE</zType>
+		<Translation>link(DIPLOMACY_PEACE)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECT_PLAYER_PEACE_OR_TRUCE</zType>
+		<Translation>link(DIPLOMACY_PEACE) oder link(DIPLOMACY_TRUCE)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_NO_ALLIANCE</zType>
 		<Translation>Kein link(CONCEPT_ALLIANCE_PLAYER)</Translation>
 	</Entry>
@@ -102,6 +118,22 @@
 		<Translation>Länger als int(MIN_TREATY_TURNS) Züge seit letztem link(DIPLOMACY_WAR)</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_SUBJECT_TRIBE_WAR</zType>
+		<Translation>link(DIPLOMACY_WAR)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECT_TRIBE_TRUCE</zType>
+		<Translation>link(DIPLOMACY_TRUCE)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECT_TRIBE_PEACE</zType>
+		<Translation>link(DIPLOMACY_PEACE)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECT_TRIBE_PEACE_OR_TRUCE</zType>
+		<Translation>link(DIPLOMACY_PEACE) oder link(DIPLOMACY_TRUCE)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_SUBJECT_TRIBE_NO_ALLIANCE</zType>
 		<Translation>Kein link(CONCEPT_ALLIANCE_TRIBE)</Translation>
 	</Entry>
@@ -164,6 +196,30 @@
 	<Entry>
 		<zType>TEXT_SUBJECT_LEADER_SCHOLAR</zType>
 		<Translation>link(TRAIT_SCHOLAR_ARCHETYPE) Oberhaupt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECT_LEADER_HERO</zType>
+		<Translation>link(TRAIT_HERO_ARCHETYPE) Oberhaupt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECT_LEADER_COMMANDER</zType>
+		<Translation>link(TRAIT_COMMANDER_ARCHETYPE) Oberhaupt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECT_LEADER_TACTICIAN</zType>
+		<Translation>link(TRAIT_TACTICIAN_ARCHETYPE) Oberhaupt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECT_LEADER_ZEALOT</zType>
+		<Translation>link(TRAIT_ZEALOT_ARCHETYPE) Oberhaupt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECT_LEADER_ORATOR</zType>
+		<Translation>link(TRAIT_ORATOR_ARCHETYPE) Oberhaupt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECT_LEADER_BUILDER</zType>
+		<Translation>link(TRAIT_BUILDER_ARCHETYPE) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_MAX_CAUTIOUS</zType>
@@ -272,6 +328,10 @@
 	<Entry>
 		<zType>TEXT_SUBJECT_AMBASSADOR</zType>
 		<Translation>Gesandter</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECT_ROYAL_NON_LEADER_OR_HEIR_OR_BASTARD</zType>
+		<Translation>Königlich und nicht Oberhaupt, Erbe oder Bastard</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHANCELLOR</zType>
