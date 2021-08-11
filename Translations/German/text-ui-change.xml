@@ -1098,11 +1098,19 @@ Jeglicher ungespeicherter Forschritt geht verloren.
 		<Translation>Bist du sicher das du neu starten möchtest?
 Jeglicher ungespeicherter Forschritt geht verloren.</Translation>											
 	</Entry>
+	<Entry>
+		<zType>TEXT_UI_KICK_DIALOG</zType>
+		<Translation>Are you sure you want to remove this player from the game?</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_UI_SURRENDER_CONFIRM</zType>
         <Translation>Ja</Translation>
     </Entry>
    <Entry>
+		<zType>TEXT_UI_KICK_CONFIRM</zType>
+		<Translation>Kick</Translation>
+	</Entry>
+	<Entry>
     <zType>TEXT_MENU_SCREEN_RESUME_BUTTON</zType>
     <Translation>Fortfahren</Translation>
   </Entry>
@@ -1883,6 +1891,18 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>-->
     <!--controls-->
     <Entry>
+		<zType>TEXT_OPTIONS_MENU_CONTROLS_CLEAR_HOTKEY</zType>
+		<Translation>Clear</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPTIONS_MENU_CONTROLS_HOTKEY_INVALID</zType>
+		<Translation>Hotkey combination invalid (must contain a key other than Alt, Ctrl, or Shift). Change will not be applied.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPTIONS_MENU_CONTROLS_HOTKEY_CONFLICT</zType>
+		<Translation>Hotkey combination already assigned to {0_hotkey}. Change will not be applied.</Translation>
+	</Entry>
+	<Entry>
         <zType>TEXT_OPTIONS_MENU_CONTROLS_SAVE</zType>
         <Translation>Speichern</Translation>
     </Entry>

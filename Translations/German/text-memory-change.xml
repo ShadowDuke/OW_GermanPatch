@@ -1578,6 +1578,10 @@
 		<Translation>Liked my head collection</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MEMORYCHARACTER_LIED_TO</zType>
+		<Translation>Wurde von mir belogen</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_MARRIAGE_OF_STATE</zType>
 		<Translation>Married me for politics</Translation>
 	</Entry>

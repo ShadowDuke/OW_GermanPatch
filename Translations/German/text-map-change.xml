@@ -634,14 +634,6 @@
 		<Translation>East-West symmetric map: need even number of teams</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MAP_OPTIONS_SINGLE_SEASIDE_CENTER_BIAS_HELP</zType>
-		<Translation>Player starts near the center of the map, only in single player</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTIONS_SINGLE_CENTER_BIAS_HELP</zType>
-		<Translation>Avoid starting near west or east map edges, only in single player</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_MAP_OPTIONS_SINGLE_KING_OF_THE_HILL_HELP</zType>
 		<Translation>A resource-rich center instead of water at the channel intersection area</Translation>
 	</Entry>

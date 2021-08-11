@@ -114,6 +114,10 @@
 		<Translation>{0_player} hat den Bau von {1_improvement} begonnen!</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_IMPROVEMENT_SCRAPPED</zType>
+		<Translation>Construction of {1_improvement} by {0_player} has been scrapped.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_IMPROVEMENT_COMPLETED</zType>
 		<Translation>{0_improvement} abgeschlossen von {1_player}!</Translation>
 	</Entry>
@@ -626,6 +630,10 @@
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_RELATIONSHIP_REMOVE</zType>
 		<Translation>Nicht länger {0_relationship} {1_character}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_CHARACTER_NAME_CHANGE</zType>
+		<Translation>Nicht bekannt als {0_character}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_XP</zType>

@@ -1118,6 +1118,13 @@
 		<zType>TEXT_BONUS_EVENTOPTION_MOST_BLESSED_PEOPLE_ON_EARTH_OPTION_2_CHARACTER</zType>
 		<Translation>Der höcht gesegnete</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_GIVE_TRAIT_DECEITFUL</zType>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_FORBIDDEN_KNOWLEDGE_OPTION_3_CHARACTER</zType>
+		<Translation>"Disregarded" Barbarian knowledge</Translation>
+	</Entry>
 	<Entry beginGroup="Combat">	
 		<zType>TEXT_BONUS_EVENTOPTION_LEADER_SMITING_FOES_STATUE</zType>
 		<Translation>Smiting Foes</Translation>
@@ -2653,5 +2660,46 @@
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS_PLAYER</zType>
 		<Translation>Made a deal with the rebel slaves</Translation>
+	</Entry>
+	<!-- Named Units -->
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_MEDJAY</zType>
+		<Translation>The Medjay</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_SACRED_BAND</zType>
+		<Translation>The Sacred Band</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_IMMORTALS</zType>
+		<Translation>The Immortals</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_COMPANIONS</zType>
+		<Translation>The Companions</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_NUMERUS_BATAVORUM</zType>
+		<Translation>The Numerus Batavorum</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_SILVER_SHIELDS</zType>
+		<Translation>The Silver Shields</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_HARII</zType>
+		<Translation>The Harii</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_PAINTED_WARRIORS</zType>
+		<Translation>The Painted Demons</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_WARRIORS_OF_GOD</zType>
+		<Translation>The Warriors of God</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_TERRORS</zType>
+		<Translation>The Terrors</Translation>
 	</Entry>
 </Root>

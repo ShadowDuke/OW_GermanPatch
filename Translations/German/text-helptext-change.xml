@@ -1059,6 +1059,10 @@
 		<Translation>Gebe das aktuelle Spiel auf</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_KICK</zType>
+		<Translation>[Shift+Klick] um Spieler zu kicken</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_MAP_OVERVIEW</zType>
 		<Translation><![CDATA[Zeige Map Übersicht{true_0:<br>{0_presskey}}]]></Translation>
 	</Entry>
@@ -1629,6 +1633,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_CHARACTER_ARCHETYPE</zType>
 		<Translation>{0_character} Erringt {1_trait}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_CHARACTER_NAME_CHANGE</zType>
+		<Translation>{0_character} ändert Namen zu {1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_STORY_FUTURE_EVENTS</zType>
