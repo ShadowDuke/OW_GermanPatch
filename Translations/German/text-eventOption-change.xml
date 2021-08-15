@@ -5843,11 +5843,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_PLAYER_CHOOSE_WAR_GENERIC_2</zType>
-		<Translation>Joining {CHARACTER-SHORT-0} in {G0:his:her} war with the {PLAYER-1,3} is agreeable to me. </Translation>
+		<Translation>Joining {CHARACTER-SHORT-0} in {G0:his:her} war with the {PLAYER-1,3} is agreeable to me.</Translation>
 	</Entry>	 
 	<Entry beginGroup="Contact">
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_CALM_EMISSARY_TRUCE</zType>
-		<Translation>Wir wollen uns nicht zanken.></Translation>
+		<Translation>Wir wollen uns nicht zanken.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_CALM_EMISSARY_WAR</zType>

@@ -1924,7 +1924,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_HARVEST_RESOURCE</zType>
-		<Translation>Ernte {0_resource}</Translation>
+		<Translation>{0_resource} sammeln</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_HARVEST_RESOURCE_CITY_TERRITORY</zType>
@@ -1944,7 +1944,7 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_HARVEST_RESOURCE_AUTO_HARVEST_HOTKEY</zType>
-		<Translation><![CDATA[Halte <TEXT_HOTKEY_CTRL> um Auto-Ernte auf <true_0>aus<false>an<end> zu stellen]]></Translation>
+		<Translation><![CDATA[Halte <TEXT_HOTKEY_CTRL> um Auto-Sammeln auf <true_0>aus<false>an<end> zu stellen]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_COLONIZE_TILE</zType>
@@ -2967,7 +2967,7 @@ Ihre Vorlieben geben vor welche link(CONCEPT_AMBITION,2) du nachgehen kannst. De
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HARVEST_RESOURCE</zType>
-		<Translation>Diese {0_resource} wurde geerntet und kann nicht wieder geerntet werden bis es zufällig wieder aufgefüllt wurde.</Translation>
+		<Translation>Diese {0_resource} wurde gesammelt und kann nicht wieder gesammelt werden bis es zufällig wieder aufgefüllt wurde.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_MARCH</zType>
@@ -3584,7 +3584,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_HARVEST</zType>
-		<Translation>Ernte</Translation>
+		<Translation>Sammeln</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_RELIGION</zType>
@@ -6307,7 +6307,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_HARVEST_RESOURCE_BUTTON</zType>
-		<Translation><![CDATA[Ernte {0_resource}<true_1> (Auto)<false><end>]]></Translation>
+		<Translation><![CDATA[{0_resource} sammeln<true_1> (Auto)<false><end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_HEAL_BUTTON</zType>
@@ -6497,7 +6497,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<!--Resource Help-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_RESOURCE_NAME</zType>
-		<Translation><![CDATA[{0_resource}<true_1> (Geerntet)<false><end>]]></Translation>
+		<Translation><![CDATA[{0_resource}<true_1> (Gesammelt)<false><end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RESOURCE_HARVEST</zType>

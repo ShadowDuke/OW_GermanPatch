@@ -958,7 +958,7 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_RESOURCE_HARVESTED</zType>
-		<Translation>[{0_resource} Geerntet]</Translation>
+		<Translation>[{0_resource} gesammelt]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_LANDMARK_DISCOVERED</zType>
