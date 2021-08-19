@@ -123,6 +123,10 @@
 		<Translation>Kontinente</Translation>
 	</Entry>	 
 	<Entry>
+		<zType>TEXT_MAP_OPTION_ARCHIPELAGO_LANDMASS</zType>
+		<Translation>Insel Größe</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MAP_OPTION_KING_OF_THE_HILL</zType>
 		<Translation>King of the Hill</Translation>
 	</Entry>
@@ -2014,6 +2018,14 @@ Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.</Translation>
 	<Entry>
 		<zType>TEXT_SCENARIO_LEARNTOPLAY_1_SUB</zType>
 		<Translation>Die alte Welt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_LEARNTOPLAY_2</zType>
+		<Translation>Lerne zu Spielen - Lektion 2</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_LEARNTOPLAY_2_SUB</zType>
+		<Translation>Ein Platz zum Leben</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SCENARIO_BARBARIAN</zType>

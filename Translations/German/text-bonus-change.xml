@@ -1125,6 +1125,10 @@
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_FORBIDDEN_KNOWLEDGE_OPTION_3_CHARACTER</zType>
 		<Translation>"Disregarded" Barbarian knowledge</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_RUINS_PROPHECY_OPTION_3_CHARACTER</zType>
+		<Translation>Göttliches Recht zu herrschen</Translation>
+	</Entry>
 	<Entry beginGroup="Combat">	
 		<zType>TEXT_BONUS_EVENTOPTION_LEADER_SMITING_FOES_STATUE</zType>
 		<Translation>Smiting Foes</Translation>
@@ -1416,6 +1420,10 @@
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_MASTER_OF_WHISPERS_FRIENDS</zType>
 		<Translation>Just friends</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_HEIR_BYPASSED_SITUATION_INFLUENCE</zType>
+		<Translation>Sie werden nachgeben</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_ASSASSINATION_BETRAYAL_ADMIT</zType>

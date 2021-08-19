@@ -180,6 +180,10 @@
 		<Translation>{0}/{1}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINE_SPACE_TWO</zType>
+		<Translation>{0} | {1}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_SPACE_SLASH_THREE</zType>
 		<Translation>{0} {1}/{2}</Translation>
 	</Entry>

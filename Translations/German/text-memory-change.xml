@@ -1518,6 +1518,10 @@
 		<Translation>Ignored in court</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MEMORYCHARACTER_HEIR_BYPASSED_SITUATION_SPOUSE_NEGATIVE</zType>
+		<Translation>Vom Hofstaat ignoriert</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_LAW_ADOPTED_PROFESSIONAL_ARMY</zType>
 		<Translation>Created plan for a Professional Army</Translation>
 	</Entry>

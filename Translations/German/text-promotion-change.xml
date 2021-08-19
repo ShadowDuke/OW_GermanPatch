@@ -31,15 +31,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROMOTION_GUARD1</zType>
-		<Translation>Wache I</Translation>
+		<Translation>Wächter I</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROMOTION_GUARD2</zType>
-		<Translation>Wache II</Translation>
+		<Translation>Wächter II</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROMOTION_GUARD3</zType>
-		<Translation>Wache III</Translation>
+		<Translation>Wächter III</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROMOTION_FOCUS1</zType>
@@ -170,7 +170,7 @@
 		<Translation>Sattelhorn</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_PROMOTION_SNIPING</zType>
-		<Translation>Aus dem Hinterhalt</Translation>
+		<zType>TEXT_PROMOTION_SENTINEL</zType>
+		<Translation>Wache</Translation>
 	</Entry>
 </Root>

@@ -32,15 +32,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_GUARD1</zType>
-		<Translation>Wache I</Translation>
+		<Translation>Wächter I</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_GUARD2</zType>
-		<Translation>Wache II</Translation>
+		<Translation>Wächter II</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_GUARD3</zType>
-		<Translation>Wache III</Translation>
+		<Translation>Wächter III</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_FOCUS1</zType>
@@ -239,8 +239,8 @@
 		<Translation>Geborener Reiter</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTUNIT_SNIPING</zType>
-		<Translation>aus dem Hinterhalt</Translation>
+		<zType>TEXT_EFFECTUNIT_SENTINEL</zType>
+		<Translation>Wache</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_ROUT</zType>

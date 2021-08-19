@@ -637,6 +637,30 @@
 		<zType>TEXT_MAP_OPTIONS_SINGLE_KING_OF_THE_HILL_HELP</zType>
 		<Translation>A resource-rich center instead of water at the channel intersection area</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_OPTION_ARCHIPELAGO_LANDMASS_SMALL</zType>
+		<Translation>Klein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_OPTION_ARCHIPELAGO_LANDMASS_MEDIUM</zType>
+		<Translation>Mittel</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_OPTION_ARCHIPELAGO_LANDMASS_LARGE</zType>
+		<Translation>Groß</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_OPTION_ARCHIPELAGO_LANDMASS_SMALL_HELP</zType>
+		<Translation>Kleine Inseln</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_OPTION_ARCHIPELAGO_LANDMASS_MEDIUM_HELP</zType>
+		<Translation>Water occupies approximately half of the map</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_OPTION_ARCHIPELAGO_LANDMASS_LARGE_HELP</zType>
+		<Translation>Land occupies more area than water</Translation>
+	</Entry>
 <!--
 	<Entry>
 		<zType>TEXT_</zType>
