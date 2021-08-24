@@ -61,7 +61,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_HOTSEAT_PLAYER</zType>
-		<Translation>{0} in the hotseat!</Translation>
+		<Translation>{0} im hotseat!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_RIVALS_TURN</zType>
@@ -69,7 +69,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_YEAR_ENDED</zType>
-		<Translation>{0_turnScale} geendet</Translation>
+		<Translation>{0_turnScale} beendet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_END_YEAR</zType>
@@ -93,11 +93,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_IDLE_LABEL_CHOOSE_PRODUCTION</zType>
-		<Translation><![CDATA[Wähle Produktion<br>({0_city})]]></Translation>
+		<Translation><![CDATA[Wähle Produktion<br><color=#e3c08c>({0_city})</color>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_IDLE_LABEL_OPEN_CITY</zType>
-		<Translation><![CDATA[Öffne Stadt<br>({0_city})]]></Translation>
+		<Translation><![CDATA[Öffne Stadt<br><color=#e3c08c>({0_city})</color>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_TURN_SUMMARY</zType>
@@ -209,7 +209,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_UNIT_CAPTURED</zType>
-		<Translation>UNIT CAPTURED</Translation>
+		<Translation>EINHEIT ERBEUTET</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_UNIT_REBELLED</zType>
@@ -221,11 +221,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_UNIT_QUEUE_CANCELLED</zType>
-		<Translation>UNIT QUEUE CANCELLED</Translation>
+		<Translation>EINHEITEN WARTESCHLANGE AGEBROCHEN</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_CITY_ATTACKED</zType>
-		<Translation>STADT ABGEGRIFFEN</Translation>
+		<Translation>STADT ANGEGRIFFEN</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_CITY_CAPTURED</zType>
@@ -389,11 +389,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_TECH_TOOLTIP_LEADS_TO_WITH</zType>
-		<Translation>{0_tech} (mit {1})</Translation>
+		<Translation>{0_tech} (with {LIST})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_BASE</zType>
-		<Translation>Grundwert:</Translation>
+		<Translation>Grundwert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_GENERAL</zType>
@@ -569,11 +569,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CITY_ACTIONS_PRODUCTION_CATEGORY_PROJECTS</zType>
-		<Translation>Verwaltung - Projekte</Translation>
+		<Translation>Verwaltung: Projekte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CITY_ACTIONS_PRODUCTION_CATEGORY_SPECIALISTS</zType>
-		<Translation>Verwaltung - Spezialisten</Translation>
+		<Translation>Verwaltung: Spezialisten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTER_ACTIONS_SEND_RESOURCE</zType>
@@ -609,7 +609,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTER_ACTIONS_RELATIVES_TITLE</zType>
-		<Translation>Angehörige</Translation>
+		<Translation>Lebende Verwandte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_FAMILY_ACTIONS_SEND_LUXURY</zType>
@@ -625,7 +625,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_FAMILY_HEAD</zType>
-		<Translation>Familienanführer</Translation>
+		<Translation>Familienoberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_FAMILY_ACTIONS_LIVING_MEMBERS_TITLE</zType>
@@ -657,7 +657,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_GOAL_PANEL_YEARS_LEFT_LEGACY</zType>
-		<Translation>{0_character}'s link(CONCEPT_LEGACY): {1_turnsVariable}</Translation>
+		<Translation>{0_character}{true_1: {1_cognomen}}'s link(CONCEPT_LEGACY): {2_turnsVariable}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CITY_LIST_IDLE</zType>
@@ -709,7 +709,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_WINNER_ROSTER_VICTORY_ALLIANCE</zType>
-		<Translation>ALLIANCE VICTORY!</Translation>
+		<Translation>BÜNDNIS SIEG!</Translation>
   </Entry>
   <Entry>
 		<zType>TEXT_UI_WINNER_ROSTER_LOSS</zType>
@@ -753,7 +753,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_TECH_TREE_TOOLTIP_CURRENTLY_AVAILABLE</zType>
-		<Translation>Technologie Derzeitig Verfügbar!</Translation>
+		<Translation>Technologie derzeitig Verfügbar!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_TECH_TREE_TOOLTIP_TECH_ACQUIRED</zType>
@@ -818,11 +818,11 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_RELIGION_REMOVED</zType>
-		<Translation>[{0_religion} Removed from {1_city}]</Translation>
+		<Translation>[{0_religion} aus {1_city}] entfernt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_THEOLOGY_ESTABLISHED</zType>
-		<Translation>[{1_theology} Established for {0_religion}]</Translation>
+		<Translation>[{1_theology} für {0_religion}] etabliert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_TRIBE_CONTACTED</zType>
@@ -846,7 +846,7 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_CITY_RAZED</zType>
-		<Translation>[City Razed at {0_tilePosition}]</Translation>
+		<Translation>[Stadt ausgelöscht bei {0_tilePosition}]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_CULTURE_EVENT</zType>
@@ -922,7 +922,7 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_UNIT_COMBAT_EMPTY</zType>
-		<Translation>[Einheit Angriff]</Translation>
+		<Translation>[Einheiten Angriff]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_ATTACKED_CITY</zType>
@@ -950,7 +950,7 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_GENERAL_INJURY</zType>
-		<Translation>[Feldherr verletzt]</Translation>
+		<Translation>[Feldherr link(CONCEPT_INJURY,3)]</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_UNIT_PROMOTION</zType>
@@ -974,7 +974,7 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
 	</Entry>
   <Entry>
 		<zType>TEXT_UI_CHARACTERLIST_FILTER_COURT</zType>
-	<Translation>Hofstaat Mitglieder</Translation>
+		<Translation>link(CONCEPT_COURT) Mitglieder</Translation>
   </Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTERLIST_FILTER_GENERALS</zType>
@@ -1034,11 +1034,11 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNITLIST_FILTER_OTHERS</zType>
-		<Translation>{0} to only show this unit type</Translation>
+		<Translation>{0} um nur Einheiten-Typen zu zeigen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNITLIST_FILTER_RESET</zType>
-		<Translation>{0} to reset all filters</Translation>
+		<Translation>{0} um alle Filter zurückzusetzen</Translation>
 	</Entry>
     <Entry>
 		<zType>TEXT_UI_RELIGION_NOT_FOUNDED</zType>
@@ -1108,7 +1108,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
     </Entry>
    <Entry>
 		<zType>TEXT_UI_KICK_CONFIRM</zType>
-		<Translation>Kick</Translation>
+		<Translation>Kicken</Translation>
 	</Entry>
 	<Entry>
     <zType>TEXT_MENU_SCREEN_RESUME_BUTTON</zType>
@@ -1124,7 +1124,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MENU_SCREEN_MOD_MANAGER_BUTTON</zType>
-		<Translation>Modifikationen</Translation>
+		<Translation>Mods</Translation>
 	</Entry>
     <Entry>
         <zType>TEXT_MENU_SCREEN_TOOLS_BUTTON</zType>
@@ -1161,7 +1161,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	<!-- wiki-navigation -->
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_FAMILYCLASSES</zType>
-		<Translation>Familien Art</Translation>
+		<Translation>Familien Arten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_CONCEPTS</zType>
@@ -1169,7 +1169,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_YIELDS</zType>
-		<Translation>Gewinne</Translation>
+		<Translation>Erträge</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_TECHNOLOGIES</zType>
@@ -1229,11 +1229,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_RATINGS</zType>
-		<Translation>Veranlagung</Translation>
+		<Translation>Bewertungen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_TERRAIN</zType>
-		<Translation>Terrain</Translation>
+		<Translation>Gelände</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_ARCHETYPES</zType>
@@ -1304,7 +1304,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SEND_ITEM</zType>
-		<Translation>Schicken {0}</Translation>
+		<Translation>Schicke {0}</Translation>
 	</Entry>
     <Entry>
         <zType>TEXT_STOP_SENDING_LUXURY</zType>
@@ -1400,11 +1400,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CLOUD_SCREEN_DELETE_GAME</zType>
-		<Translation>Delete</Translation>
+		<Translation>Löschen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CLOUD_SCREEN_USER_TITLE</zType>
-		<Translation>Cloud Games</Translation>
+		<Translation>Cloud Spiele</Translation>
 	</Entry>
 	<!--MP wizard screen-->
 	<Entry>
@@ -1512,39 +1512,39 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TOOLS_SCREEN_MAP_EDITOR_GENERIC_NATION</zType>
-		<Translation>Generic</Translation>
+		<Translation>Generisch</Translation>
 	</Entry>
 	<Entry>
 		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_VOLCANO</zType>
-		<Translation>Volcanoes</Translation>
+		<Translation>Vulkane</Translation>
 	</Entry>
 	<Entry>
 		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_MOUNTAIN_RANGE</zType>
-		<Translation>Mountain Ranges</Translation>
+		<Translation>Gebierge</Translation>
 	</Entry>
 	<Entry>
 		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_PEAK</zType>
-		<Translation>Peaks</Translation>
+		<Translation>Gipfel</Translation>
 	</Entry>
 	<Entry>
 		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_RIVER</zType>
-		<Translation>Rivers</Translation>
+		<Translation>Flüsse</Translation>
 	</Entry>
 	<Entry>
 		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_FOREST</zType>
-		<Translation>Forests</Translation>
+		<Translation>Wälder</Translation>
 	</Entry>
 	<Entry>
 		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_HEATH</zType>
-		<Translation>Heaths</Translation>
+		<Translation>Heideland</Translation>
 	</Entry>
 	<Entry>
 		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_PLAINS</zType>
-		<Translation>Plains</Translation>
+		<Translation>Ebenen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_DESERT</zType>
-		<Translation>Deserts</Translation>
+		<Translation>Wüsten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_PLATEAU</zType>
@@ -1552,27 +1552,27 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_VALLEY</zType>
-		<Translation>Valleys</Translation>
+		<Translation>Täler</Translation>
 	</Entry>
 	<Entry>
 		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_OCEAN</zType>
-		<Translation>Oceans</Translation>
+		<Translation>Ozeane</Translation>
 	</Entry>
 	<Entry>
 		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_SEA</zType>
-		<Translation>Seas</Translation>
+		<Translation>Meere</Translation>
 	</Entry>
 	<Entry>
 		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_BAY</zType>
-		<Translation>Bays</Translation>
+		<Translation>Buchten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_LAKE</zType>
-		<Translation>Lakes</Translation>
+		<Translation>Seen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TOOLS_SCREEN_MAP_EDITOR_ELEMENT_ISLAND</zType>
-		<Translation>Islands</Translation>
+		<Translation>Inseln</Translation>
 	</Entry>
 	<Entry>	
         <zType>TOOLS_SCREEN_EVENT_BROWSER_BUTTON</zType>
@@ -1633,7 +1633,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
     <!--servers-->
    <Entry>
 		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_SERVERPASSWORD</zType>
-		<Translation>Server Password</Translation>
+		<Translation>Server Passwort</Translation>
 	</Entry>
 	<Entry>
         <zType>TEXT_MP_SETUP_OPTIONS_LABEL_SERVERS</zType>
@@ -1759,7 +1759,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_MAP_FILE</zType>
-        <Translation>Karte Datei</Translation>
+        <Translation>Karten Datei</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_MAP_SIZE</zType>
@@ -1771,11 +1771,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MP_SETUP_SHOW_HIDDEN_SCRIPTS</zType>
-		<Translation>Show Hidden Map Scripts</Translation>
+		<Translation>Zeige versteckte karten Scripts</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_USE_OTHER_MODS</zType>
-		<Translation>Benutze andere Mods</Translation>
+		<Translation>Benutze Mods</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MP_SETUP_GAMEOPTIONS_BUTTON_LABEL_MOD_SELECTION</zType>
@@ -1799,11 +1799,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_MP_SETUP_INVALID_START</zType>
-        <Translation>"Keine doppelten Nationen" Spieloption is aktiviert</Translation>
+        <Translation>Kann das Spiel nicht starten</Translation>
     </Entry>
 	<Entry>
         <zType>TEXT_MP_SETUP_INVALID_START_NATIONS</zType>
-        <Translation>"No Duplicate Nations" game option is enabled, but there are more players than unique nations or duplicate nations have been selected</Translation>
+		<Translation>There are more players than unique nations, or duplicate nations have been selected.</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_MP_SETUP_INVALID_START_MAP</zType>
@@ -1875,7 +1875,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_OPTIONS_MENU_TITLEBAR_UI</zType>
-        <Translation>UI</Translation>
+        <Translation>Benutzeroberfläche</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_OPTIONS_MENU_TITLEBAR_ACCESSIBILITY</zType>
@@ -1892,7 +1892,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
     <!--controls-->
     <Entry>
 		<zType>TEXT_OPTIONS_MENU_CONTROLS_CLEAR_HOTKEY</zType>
-		<Translation>Clear</Translation>
+		<Translation>Löschen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_OPTIONS_MENU_CONTROLS_HOTKEY_INVALID</zType>
@@ -1961,11 +1961,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SCENARIO_SETUP_SHOW_DESC</zType>
-		<Translation>Show Description</Translation>
+		<Translation>Zeige Beschreibung</Translation>
 	</Entry>
     <Entry>
         <zType>TEXT_SCENARIO_SETUP_FILE_BROWSE</zType>
-        <Translation>Browse</Translation>
+        <Translation>Durchsuchen</Translation>
     </Entry>
 	<Entry>
     <zType>TEXT_SCENARIO_SETUP_FILE_LOADED</zType>
@@ -2043,7 +2043,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
     <!--advanced-->
     <Entry>
         <zType>TEXT_SP_SETUP_ADVANCED_NATION</zType>
-        <Translation>Nation</Translation>
+        <Translation>Reich</Translation>
     </Entry>
     <Entry>
         <zType>TEXT_SP_SETUP_ADVANCED_NUMOPPS</zType>
@@ -2099,7 +2099,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SP_SETUP_SHOW_HIDDEN_SCRIPTS</zType>
-		<Translation>Show Hidden Map Scripts</Translation>
+		<Translation>Zeige versteckte Karten Scripts</Translation>
 	</Entry>
     <!--tab-panel.xml-->
     <!--character tab-->
@@ -2275,7 +2275,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	<!-- popup-victory.xml-->
 	<Entry>
 		<zType>TEXT_UI_VICTORY_SCREEN_GOALS</zType>
-		<Translation><![CDATA[<true_0>Ambitions and Score<false>Score List<end>]]></Translation>
+		<Translation><![CDATA[<true_0>Ambitionen und Punkte<false>Punkte Liste<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_VICTORY_SCREEN_PROGRESS</zType>
@@ -2283,7 +2283,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_VICTORY_SCREEN_SCENARIO</zType>
-		<Translation>Scenario Info</Translation>
+		<Translation>Szenario Infos</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_VICTORY_CURRENT_LEADER</zType>
@@ -2299,7 +2299,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_VICTORY_DOUBLE_PROGRESS</zType>
-		<Translation>Punkte benötigt: {0}</Translation>
+		<Translation>Siegpunkte benötigt: {0}</Translation>
 	</Entry>
     <!--overview-map.xml-->
     <Entry>
