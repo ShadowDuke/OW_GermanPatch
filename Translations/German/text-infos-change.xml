@@ -652,27 +652,27 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_MINER</zType>
-		<Translation>Bergarbeiter~ein Bergarbeiter~Bergarbeitern</Translation>
+		<Translation>Bergarbeiter~ein Bergarbeiter~Bergarbeiter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_RANCHER</zType>
-		<Translation>Viehzüchter~ein Viehzüchter~Viehzüchtern</Translation>
+		<Translation>Viehzüchter~ein Viehzüchter~Viehzüchter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_TRAPPER</zType>
-		<Translation>Pelzjäger~ein Pelzjäger~Pelzjägern</Translation>
+		<Translation>Pelzjäger~ein Pelzjäger~Pelzjäger</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_GARDENER</zType>
-		<Translation>Gärtner~ein Gärtner~Gärtnern</Translation>
+		<Translation>Gärtner~ein Gärtner~Gärtner</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_FISHER</zType>
-		<Translation>Fischer~ein Fischer~Fischern</Translation>
+		<Translation>Fischer~ein Fischer~Fischer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_ACOLYTE_1</zType>
-		<Translation>Akolyth Lehrling~ein Akolyth Lehrling~Akolythen Lehrlingen</Translation>
+		<Translation>Akolyth Lehrling~ein Akolyth Lehrling~Akolythen Lehrlinge</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_ACOLYTE_2</zType>
@@ -684,7 +684,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_DOCTOR_1</zType>
-		<Translation>Medikus Lehrling~ein Medikus Lehrling~Medikus Lehrlingen</Translation>
+		<Translation>Medikus Lehrling~ein Medikus Lehrling~Medikus Lehrlinge</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_DOCTOR_2</zType>
@@ -696,35 +696,35 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_MONK_1</zType>
-		<Translation>Mönch Lehrling~ein Mönch Lehrling~Mönch Lehrlingen</Translation>
+		<Translation>Mönch Lehrling~ein Mönch Lehrling~Mönch Lehrlinge</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_MONK_2</zType>
-		<Translation>Meister Mönch~ein Meister Mönch~Meister Mönchen</Translation>
+		<Translation>Meister Mönch~ein Meister Mönch~Meister Mönche</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_MONK_3</zType>
-		<Translation>Ältesten Mönch~ein Ältester Mönch~Ältesten Mönchen</Translation>
+		<Translation>Ältesten Mönch~ein Ältester Mönch~Ältesten Mönche</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_PRIEST_1</zType>
-		<Translation>Priester Lehrling~ein Priester Lehrling~Priester Lehrlingen</Translation>
+		<Translation>Priester Lehrling~ein Priester Lehrling~Priester Lehrlinge</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_PRIEST_2</zType>
-		<Translation>Meister Priester~ein Meister Priester~Meister Priestern</Translation>
+		<Translation>Meister Priester~ein Meister Priester~Meister Priester</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_PRIEST_3</zType>
-		<Translation>Ältesten Priester~ein Ältester Priester~Ältesten Priestern</Translation>
+		<Translation>Ältesten Priester~ein Ältester Priester~Ältesten Priester</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_BISHOP_1</zType>
-		<Translation>Bischof Lehrling~ein Bischof Lehrling~Bischof Lehrlingen</Translation>
+		<Translation>Bischof Lehrling~ein Bischof Lehrling~Bischof Lehrlinge</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_BISHOP_2</zType>
-		<Translation>Meister Bischof~ein Meister Bischof~Meister Bischöfen</Translation>
+		<Translation>Meister Bischof~ein Meister Bischof~Meister Bischöfe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_BISHOP_3</zType>
@@ -732,11 +732,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_POET_1</zType>
-		<Translation>Dichter Lehrling~ein Dichter Lehrling~Dichter Lehrlingen</Translation>
+		<Translation>Dichter Lehrling~ein Dichter Lehrling~Dichter Lehrlinge</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_POET_2</zType>
-		<Translation>Meister Dichter~ein Meister Dichter~Meister Dichtern</Translation>
+		<Translation>Meister Dichter~ein Meister Dichter~Meister Dichter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_POET_3</zType>
@@ -744,11 +744,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_SHOPKEEPER_1</zType>
-		<Translation>Krämer Lehrling~ein Krämer Lehrling~Krämer Lehrlingen</Translation>
+		<Translation>Krämer Lehrling~ein Krämer Lehrling~Krämer Lehrlinge</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_SHOPKEEPER_2</zType>
-		<Translation>Meister Krämer~ein Meister Krämer~Meister Krämern</Translation>
+		<Translation>Meister Krämer~ein Meister Krämer~Meister Krämer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_SHOPKEEPER_3</zType>
@@ -756,7 +756,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_PHILOSOPHER_1</zType>
-		<Translation>Philosoph Lehrling~ein Philosoph Lehrling~Philosoph Lehrlingen</Translation>
+		<Translation>Philosoph Lehrling~ein Philosoph Lehrling~Philosoph Lehrlinge</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_PHILOSOPHER_2</zType>
@@ -768,27 +768,27 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_SCRIBE_1</zType>
-		<Translation>Schreiber Lehrling~ein Schreiber Lehrling~Schreiber Lehrlingen</Translation>
+		<Translation>Schreiber Lehrling~ein Schreiber Lehrling~Schreiber Lehrlinge</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_SCRIBE_2</zType>
-		<Translation>Meister Schreiber~ein Meister Schreiber~Meister Schreibern</Translation>
+		<Translation>Meister Schreiber~ein Meister Schreiber~Meister Schreiber</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_SCRIBE_3</zType>
-		<Translation>Ältesten Schreiber~ein Ältester Schreiber~Ältesten Schreibern</Translation>
+		<Translation>Ältesten Schreiber~ein Ältester Schreiber~Ältesten Schreiber</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_OFFICER_1</zType>
-		<Translation>Offiziers Lehrling~ein Offizier Lehrling~Offiziers Lehrlingen</Translation>
+		<Translation>Offiziers Lehrling~ein Offizier Lehrling~Offiziers Lehrlinge</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_OFFICER_2</zType>
-		<Translation>Meister Offizier~ein Meister Offizier~Meister Offizieren</Translation>
+		<Translation>Meister Offizier~ein Meister Offizier~Meister Offiziere</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALIST_OFFICER_3</zType>
-		<Translation>Ältesten Offizier~ein Ältesten Offizier~Ältesten Offizieren</Translation>
+		<Translation>Ältesten Offizier~ein Ältesten Offizier~Ältesten Offiziere</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_OPINIONTRIBE_FURIOUS</zType>

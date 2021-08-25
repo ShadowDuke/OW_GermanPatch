@@ -1160,7 +1160,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_STATE_WAITING_OTHER_TEAMS_TURN</zType>
-		<Translation>Es ist jemand anderes Zug...</Translation>
+		<Translation>Es ist jemand anderes am Zug...</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_STATE_WAITING_SKIP_TO_AMBITIONS</zType>
@@ -1168,15 +1168,16 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_STATE_IDLE_NEXT_UNIT</zType>
-		<Translation>Wechsle zur nächsten Einheit ({0_unit}){true_1: {1_presskey}</Translation>
+		<Translation><![CDATA[um zur nächsten Einheit z uwechseln{true_0: ({0_unit})}{true_1: {1_presskey}}
+<TEXT_HOTKEY_RIGHT_CLICK> um rückwärts zu wechseln]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_STATE_UNIT_CYCLE_KEY</zType>
-		<Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK><true_0> oder {0_presskey}<false><end> passen und zur nächsten Einheit]]></Translation>
+		<Translation>{true_0:{0_key} to Pass this Unit.}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_STATE_UNIT_CENTER_KEY</zType>
-		<Translation>Drücke [{0_key}] um die Kamera auf die Einheit zu zentrieren.</Translation>
+		<Translation>{true_0:{0_key} um die Kamera auf die Einheit zu zentrieren.}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TURN_STATE_IDLE_CHOOSE_CITY_PRODUCTION</zType>

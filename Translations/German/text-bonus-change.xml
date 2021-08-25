@@ -304,7 +304,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_POLIS_BONUS_SETTLER</zType>
-		<Translation>Kostenloser link(UNIT_SETTLER)</Translation>
+		<Translation>Freier link(UNIT_SETTLER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_ARISTOCRACY_BONUS_BORDERS</zType>
@@ -312,11 +312,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_NAVIGATION_BONUS_BIREME</zType>
-		<Translation>Kostenlose link(UNIT_BIREME)</Translation>
+		<Translation>Freie link(UNIT_BIREME)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_SPOKED_WHEEL_BONUS_CHARIOT</zType>
-		<Translation>Kostenloser link(UNIT_CHARIOT)</Translation>
+		<Translation>Freier link(UNIT_CHARIOT)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_CITIZENSHIP_BONUS_MINISTER</zType>
@@ -324,19 +324,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_PORTCULLIS_BONUS_MACEMAN</zType>
-		<Translation>Kostenloser link(UNIT_MACEMAN)</Translation>
+		<Translation>Freier link(UNIT_MACEMAN)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_LAND_CONSOLIDATION_BONUS_CAMEL_ARCHER</zType>
-		<Translation>Kostenloser link(UNIT_CAMEL_ARCHER)</Translation>
+		<Translation>Freier link(UNIT_CAMEL_ARCHER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_LAND_CONSOLIDATION_BONUS_WAR_ELEPHANT</zType>
-		<Translation>Kostenloser link(UNIT_WAR_ELEPHANT)</Translation>
+		<Translation>Freier link(UNIT_WAR_ELEPHANT)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_COMPOSITE_BOW_BONUS_ARCHER</zType>
-		<Translation>Kostenloser link(UNIT_ARCHER)</Translation>
+		<Translation>Freier link(UNIT_ARCHER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_DOCTRINE_BONUS_ORDERS</zType>
@@ -352,15 +352,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_TORSION_BONUS_BALLISTA</zType>
-		<Translation>Kostenlose link(UNIT_BALLISTA)</Translation>
+		<Translation>Freie link(UNIT_BALLISTA)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_STIRRUPS_BONUS_HORSEMAN</zType>
-		<Translation>Kostenloser link(UNIT_HORSEMAN)</Translation>
+		<Translation>Freier link(UNIT_HORSEMAN)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_STIRRUPS_BONUS_HORSE_ARCHER</zType>
-		<Translation>Kostenloser link(UNIT_HORSE_ARCHER)</Translation>
+		<Translation>Freier link(UNIT_HORSE_ARCHER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_ARCHITECTURE_BONUS_CIVICS</zType>
@@ -372,11 +372,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_MACHINERY_BONUS_ONAGER</zType>
-		<Translation>Kostenloser link(UNIT_ONAGER)</Translation>
+		<Translation>Freier link(UNIT_ONAGER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_CARTOGRAPHY_BONUS_TRIREME</zType>
-		<Translation>Kostenlose link(UNIT_TRIREME)</Translation>
+		<Translation>Freie link(UNIT_TRIREME)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_HYDRAULICS_BONUS_MERCHANT</zType>
@@ -396,11 +396,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_WINDLASS_BONUS_CROSSBOWMAN</zType>
-		<Translation>Kostenloser link(UNIT_CROSSBOWMAN)</Translation>
+		<Translation>Freier link(UNIT_CROSSBOWMAN)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_LATEEN_SAIL_BONUS_DROMON</zType>
-		<Translation>Kostenlose link(UNIT_DROMON)</Translation>
+		<Translation>Freie link(UNIT_DROMON)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_ECONOMIC_REFORM</zType>
@@ -416,59 +416,59 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_BATTERING_RAM_UNIT</zType>
-		<Translation>Kostenlose link(UNIT_BATTERING_RAM)</Translation>
+		<Translation>Freie link(UNIT_BATTERING_RAM)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_SIEGE_TOWER_UNIT</zType>
-		<Translation>Kostenloser link(UNIT_SIEGE_TOWER)</Translation>
+		<Translation>Freier link(UNIT_SIEGE_TOWER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_AKKADIAN_ARCHER_UNIT</zType>
-		<Translation>Kostenloser link(UNIT_AKKADIAN_ARCHER)</Translation>
+		<Translation>Freier link(UNIT_AKKADIAN_ARCHER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_CIMMERIAN_ARCHER_UNIT</zType>
-		<Translation>Kostenloser link(UNIT_CIMMERIAN_ARCHER)</Translation>
+		<Translation>Freier link(UNIT_CIMMERIAN_ARCHER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_AFRICAN_ELEPHANT_UNIT</zType>
-		<Translation>Kostenloser link(UNIT_AFRICAN_ELEPHANT)</Translation>
+		<Translation>Freier link(UNIT_AFRICAN_ELEPHANT)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_TURRETED_ELEPHANT_UNIT</zType>
-		<Translation>Kostenloser link(UNIT_TURRETED_ELEPHANT)</Translation>
+		<Translation>Freier link(UNIT_TURRETED_ELEPHANT)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_LIGHT_CHARIOT_UNIT</zType>
-		<Translation>Kostenloser link(UNIT_LIGHT_CHARIOT)</Translation>
+		<Translation>Freier link(UNIT_LIGHT_CHARIOT)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_KUSHITE_CAVALRY_UNIT</zType>
-		<Translation>Kostenlose link(UNIT_KUSHITE_CAVALRY)</Translation>
+		<Translation>Freie link(UNIT_KUSHITE_CAVALRY)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_HOPLITE_UNIT</zType>
-		<Translation>Kostenloser link(UNIT_HOPLITE)</Translation>
+		<Translation>Freier link(UNIT_HOPLITE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_PHALANGITE_UNIT</zType>
-		<Translation>Kostenloser link(UNIT_PHALANGITE)</Translation>
+		<Translation>Freier link(UNIT_PHALANGITE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_PALTON_CAVALRY_UNIT</zType>
-		<Translation>Kostenlose link(UNIT_PALTON_CAVALRY)</Translation>
+		<Translation>Freie link(UNIT_PALTON_CAVALRY)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_CATAPHRACT_ARCHER_UNIT</zType>
-		<Translation>Kostenloser link(UNIT_CATAPHRACT_ARCHER)</Translation>
+		<Translation>Freier link(UNIT_CATAPHRACT_ARCHER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_HASTATUS_UNIT</zType>
-		<Translation>Kostenloser link(UNIT_HASTATUS)</Translation>
+		<Translation>Freier link(UNIT_HASTATUS)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_LEGIONARY_UNIT</zType>
-		<Translation>Kostenloser link(UNIT_LEGIONARY)</Translation>
+		<Translation>Freier link(UNIT_LEGIONARY)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_ABDICATE</zType>
@@ -476,19 +476,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_ZOROASTRIANISM_DISCIPLE</zType>
-		<Translation>Kostenloser link(UNIT_ZOROASTRIANISM_DISCIPLE)</Translation>
+		<Translation>Freier link(UNIT_ZOROASTRIANISM_DISCIPLE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_JUDAISM_DISCIPLE</zType>
-		<Translation>Kostenloser link(UNIT_JUDAISM_DISCIPLE)</Translation>
+		<Translation>Freier link(UNIT_JUDAISM_DISCIPLE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_CHRISTIANITY_DISCIPLE</zType>
-		<Translation>Kostenloser link(UNIT_CHRISTIANITY_DISCIPLE)</Translation>
+		<Translation>Freier link(UNIT_CHRISTIANITY_DISCIPLE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MANICHAEISM_DISCIPLE</zType>
-		<Translation>Kostenloser link(UNIT_MANICHAEISM_DISCIPLE)</Translation>
+		<Translation>Freier link(UNIT_MANICHAEISM_DISCIPLE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_PROJECT_PROTECTION_EDICTS</zType>
@@ -536,7 +536,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_DUEL_OF_FATES_OPTION_2</zType>
-		<Translation>Declared war when challenged</Translation>
+		<Translation>Krieg erklärt wenn herausgefordert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_DUEL_OF_FATES_VICTORIOUS_OPTION_0</zType>

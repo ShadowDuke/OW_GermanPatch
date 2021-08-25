@@ -6915,19 +6915,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_WOOD_TRIBE_TRUCE</zType>
-		<Translation>Tremendous!</Translation>
+		<Translation>Wunderbar!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_WOOD_TRIBE_WAR</zType>
-		<Translation>Cut them down.</Translation>
+		<Translation>Fällt sie.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_WOODCUTTING_TRIBE_DEAL</zType>
-		<Translation>Such fine wood could really spruce up {CITY-0}!</Translation>
+		<Translation>Solch feines Holz könnte wirklich {CITY-0} aufhübschen!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_WOODCUTTING_TRIBE_DEAL_HELP</zType>
-		<Translation>Maintain the initial link(DIPLOMACY_TRUCE).</Translation>
+		<Translation>Behalte die ursprüngliche link(DIPLOMACY_TRUCE) bei.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_STONEMASON_TRIBE_TRUCE</zType>
@@ -7275,27 +7275,27 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_ALLIANCE_PROPOSAL_YES</zType>
-		<Translation>Let us forge an alliance.</Translation>
+		<Translation>Lasst uns ein Bündnis schmieden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_ALLIANCE_PROPOSAL_NO</zType>
-		<Translation>We are fine with peace.</Translation>
+		<Translation>Wir sind glücklich mit unserem Frieden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_PEACE_PROPOSAL_OFFER_TRIBUTE</zType>
-		<Translation>Let a gift of tribute show our goodwill.</Translation>
+		<Translation>Zeigen wir einem Geschenk als Tribut unseres guten Willens.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_PEACE_PROPOSAL_NO_TRIBUTE</zType>
-		<Translation>Peace is desirable.</Translation>
+		<Translation>Frieden ist erwünschenswert.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_PEACE_PROPOSAL_DEMAND_TRIBUTE</zType>
-		<Translation>We demand a tribute before any peace.</Translation>
+		<Translation>Wir verlangen Tribut bevor es Frieden geben wird.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_PEACE_PROPOSAL_CANCEL</zType>
-		<Translation>Maybe later.</Translation>
+		<Translation>Vielleicht später.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRUCE_PROPOSAL_OFFER_TRIBUTE</zType>
@@ -7311,15 +7311,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRUCE_PROPOSAL_CANCEL</zType>
-		<Translation>Maybe later.</Translation>
+		<Translation>Vielleicht später.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CITY_CAPTURED_TRUCE_YES</zType>
-		<Translation>Let us end the fighting.</Translation>
+		<Translation>Lass uns die Kämpfe beenden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CITY_CAPTURED_TRUCE_NO</zType>
-		<Translation>There will be no truce.</Translation>
+		<Translation>Es wird keine Waffenruhe geben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_PLAYER_TECH_TRADE_YES</zType>
@@ -7671,167 +7671,167 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_MONEY_ORDERS</zType>
-		<Translation>We could use the Money. You could use the Orders.</Translation>
+		<Translation>Wir könnten Geld gebrauchen. Ihr könntet die Befehle gebrauchen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_MONEY_CIVICS</zType>
-		<Translation>Trade money for Civics.</Translation>
+		<Translation>Handle Geld für Verwaltung.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_MONEY_TRAINING</zType>
-		<Translation>Fill our treasury with Money for troop Training.</Translation>
+		<Translation>Fülle unsere Schatzkammer mit Geld um Truppen zu auszubilden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_MONEY_SCIENCE</zType>
-		<Translation>We will share our Science with you for the link(YIELD_MONEY).</Translation>
+		<Translation>Wir werden unsere Forschung mit euch für link(YIELD_MONEY) teilen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_FOOD_ORDERS</zType>
-		<Translation>We will trade Orders for Food.</Translation>
+		<Translation>Wir werden Befehle für Essen handeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_FOOD_CIVICS</zType>
-		<Translation>We will give Civics for Food.</Translation>
+		<Translation>Wir werden Verwaltung für Nahrung geben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_FOOD_TRAINING</zType>
-		<Translation>Give our troops Food, and we will provide Training.</Translation>
+		<Translation>Gibt unseren Truppen Nahrung und wir werden Training beisteuern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_FOOD_SCIENCE</zType>
-		<Translation>How about Food for thought?</Translation>
+		<Translation>Wie wäre es mit Nahrung für den Gedanken?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_IRON_ORDERS</zType>
-		<Translation>We will provide Orders for Iron.</Translation>
+		<Translation>Wir werden Befehle für Eisen bieten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_IRON_CIVICS</zType>
-		<Translation>We will give Civics for Iron.</Translation>
+		<Translation>Wir werden Verwaltung für Eisen geben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_IRON_TRAINING</zType>
-		<Translation>Let us trade Iron for Training.</Translation>
+		<Translation>Lasst uns Eisen für Training handeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_IRON_SCIENCE</zType>
-		<Translation>We are willing to share Science for Iron.</Translation>
+		<Translation>Wir sind gewillt Forschung für Eisen zu tauschen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_WOOD_ORDERS</zType>
-		<Translation>We will give Orders for Wood.</Translation>
+		<Translation>Wir werden Befehle für Holz geben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_WOOD_CIVICS</zType>
-		<Translation>We will give Civics for Wood.</Translation>
+		<Translation>Wir werden Verwaltung für Holz geben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_WOOD_TRAINING</zType>
-		<Translation>Let us trade Training for Wood.</Translation>
+		<Translation>Lasst uns Training für Holz handeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_WOOD_SCIENCE</zType>
-		<Translation>We will share Science for Wood.</Translation>
+		<Translation>Wir werden Forschung für Holz tauschen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_STONE_ORDERS</zType>
-		<Translation>We will give Orders for Stone.</Translation>
+		<Translation>Wir werden Befehle für Stein geben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_STONE_CIVICS</zType>
-		<Translation>We will give Civics for Stone.</Translation>
+		<Translation>Wir werden Verwaltung für Stein geben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_STONE_TRAINING</zType>
-		<Translation>Let us trade Stone for additional Training.</Translation>
+		<Translation>Lasst uns Stein für zusätzliches Training handeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_STONE_SCIENCE</zType>
-		<Translation>Let us share our Science for Stone.</Translation>
+		<Translation>Lasst uns unsere Forschung für Stein tauschen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_ORDERS_MONEY</zType>
-		<Translation>We will pay Money for Orders.</Translation>
+		<Translation>Wir werden für Befehle mit Geld bezahlen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_CIVICS_MONEY</zType>
-		<Translation>We will pay Money for Civics.</Translation>
+		<Translation>Wir werden für Verwaltung mit Geld bezahlen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_TRAINING_MONEY</zType>
-		<Translation>We will pay Money for additional Training.</Translation>
+		<Translation>Wir werden für zusätzliches Training mit Geld bezahlen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_SCIENCE_MONEY</zType>
-		<Translation>We will pay Money for Science.</Translation>
+		<Translation>Wir werden für Forschung mit Geld bezahlen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_ORDERS_FOOD</zType>
-		<Translation>We will trade Food for Orders.</Translation>
+		<Translation>Wir werden Nahrung für Befehle handeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_CIVICS_FOOD</zType>
-		<Translation>We will trade Food for Civics.</Translation>
+		<Translation>Wir werden Nahrung für Verwaltung handeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_TRAINING_FOOD</zType>
-		<Translation>We will trade Food for additional Training.</Translation>
+		<Translation>Wir werden Nahrung für zusätzliches Training handeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_SCIENCE_FOOD</zType>
-		<Translation>We will trade Food for Science.</Translation>
+		<Translation>Wir werden Nahrung für Forschung handeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_ORDERS_IRON</zType>
-		<Translation>We will trade Iron for Orders.</Translation>
+		<Translation>Wir werden Eisen für Befehle handeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_CIVICS_IRON</zType>
-		<Translation>We will trade Iron for Civics.</Translation>
+		<Translation>Wir werden We will trade Iron for Civics.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_TRAINING_IRON</zType>
-		<Translation>We will trade Iron for additional Training.</Translation>
+		<Translation>Wir werden Eisen für zusätzliches Training handeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_SCIENCE_IRON</zType>
-		<Translation>We will trade Iron for Science.</Translation>
+		<Translation>Wir werden Eisen für Forschung handeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_ORDERS_WOOD</zType>
-		<Translation>We will trade Wood for Orders.</Translation>
+		<Translation>Wir werden Holz für Befehle handeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_CIVICS_WOOD</zType>
-		<Translation>We will trade Wood for Civics.</Translation>
+		<Translation>Wir werden Holz für Verwaltung handeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_TRAINING_WOOD</zType>
-		<Translation>We will trade Wood for additional Training.</Translation>
+		<Translation>Wir werden Holz für zusätzliches Training handeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_SCIENCE_WOOD</zType>
-		<Translation>We will trade Wood for Science.</Translation>
+		<Translation>Wir werden Holz für Forschung handeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_ORDERS_STONE</zType>
-		<Translation>We will trade Stone for Orders.</Translation>
+		<Translation>Wir werden Stein für Befehle handeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_CIVICS_STONE</zType>
-		<Translation>We will trade Stone for Civics.</Translation>
+		<Translation>Wir werden Stein für Verwaltung handeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_TRAINING_STONE</zType>
-		<Translation>We will trade Stone for additional Training.</Translation>
+		<Translation>Wir werden Stein für zusätzliches Training handeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_SCIENCE_STONE</zType>
-		<Translation>We will trade Stone for Science.</Translation>
+		<Translation>Wir werden Stein für Forschung handeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_NO</zType>
-		<Translation>For now, we prefer not to trade.</Translation>
+		<Translation>Derzeitig bevorzugen wir es nicht zu handeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRADE_MISSION_YES_FAIL</zType>
@@ -7843,7 +7843,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CANCEL_TRADE_DEMAND_YES</zType>
-		<Translation>We will stop trading with {PLAYER-2}.</Translation>
+		<Translation>Wir werden nicht weiter mit {PLAYER-2} handeln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CANCEL_TRADE_DEMAND_NO</zType>
@@ -8059,19 +8059,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_WAR_OR_INVASION_WAR</zType>
-		<Translation>If they wish to fight, then we will fight.</Translation>
+		<Translation>Wenn sie kämpfen wollen, kämpfen wirt.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_WAR_OR_INVASION_INVASION</zType>
-		<Translation>Let the {TRIBE-0} come! We will be ready.</Translation>
+		<Translation>Lasst die {TRIBE-0} kommen! Wir werden bereit sein.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_CHOOSE_WAR_1</zType>
-		<Translation>If the {TRIBE-0} want a fight, then we will give it to them.</Translation>
+		<Translation>Wenn die {TRIBE-0} einen Kampf wollen, werden wir ihnen einen geben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_CHOOSE_WAR_2</zType>
-		<Translation>We will join in their campaign against the {TRIBE-1}.</Translation>
+		<Translation>Wir werden uns ihrem Feldzug gegen die {TRIBE-1} anschließen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_PLAYER_CHOOSE_WAR_1</zType>
@@ -8819,23 +8819,23 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_UNREQUITED_OPTION_0</zType>
-		<Translation>Sit with {CHARACTER-SHORT-2} and listen.</Translation>
+		<Translation>Treff dich mit {CHARACTER-SHORT-2} uns höre zu.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_UNREQUITED_OPTION_1</zType>
-		<Translation>Send condolences to {PLAYER-0}.</Translation>
+		<Translation>Sprich dein Beileid an {PLAYER-0} aus.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_UNREQUITED_OPTION_2</zType>
-		<Translation>Do nothing.</Translation>
+		<Translation>Tu gar nix.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRUE_INHERITANCE_OPTION_0</zType>
-		<Translation>We will tell the people of {PLAYER-4} the truth.</Translation>
+		<Translation>Wir werden dem Volk von {PLAYER-4} die Wahrheit erzählen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRUE_INHERITANCE_OPTION_1</zType>
-		<Translation>We must choose a new heir secretly.</Translation>
+		<Translation>Wir müssen einen neuen Erben im Geheimen wählen.</Translation>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_EVENTOPTION_RETURN_CITY_OK</zType>
@@ -10394,19 +10394,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_FAMILY_1</zType>
-		<Translation>{CHARACTER-2} is the best option.</Translation>
+		<Translation>{CHARACTER-2} ist die bessere Wahl.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_FAMILY_2</zType>
-		<Translation>{CHARACTER-3} is the best option.</Translation>
+		<Translation>{CHARACTER-3} ist die bessere Wahl.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_TWO_FAMILIES_1</zType>
-		<Translation>{CHARACTER-1} is the best option.</Translation>
+		<Translation>{CHARACTER-1} ist die bessere Wahl.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_TWO_FAMILIES_2</zType>
-		<Translation>{CHARACTER-2} is the best option.</Translation>
+		<Translation>{CHARACTER-2} ist die bessere Wahl.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_TWO_FAMILIES_NO</zType>
@@ -10414,27 +10414,27 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_FOREIGN_1</zType>
-		<Translation>{CHARACTER-2} is the best option.</Translation>
+		<Translation>{CHARACTER-2} ist die bessere Wahl.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_FOREIGN_2</zType>
-		<Translation>{CHARACTER-3} is the best option.</Translation>
+		<Translation>{CHARACTER-3} ist die bessere Wahl.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MISSION_MARRIAGE_FAMILY_1</zType>
-		<Translation>{CHARACTER-2} is the best option.</Translation>
+		<Translation>{CHARACTER-2} ist die bessere Wahl.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MISSION_MARRIAGE_FAMILY_2</zType>
-		<Translation>{CHARACTER-3} is the best option.</Translation>
+		<Translation>{CHARACTER-3} ist die bessere Wahl.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MISSION_MARRIAGE_FOREIGN_1</zType>
-		<Translation>{CHARACTER-2} is the best option.</Translation>
+		<Translation>{CHARACTER-2} ist die bessere Wahl.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MISSION_MARRIAGE_FOREIGN_2</zType>
-		<Translation>{CHARACTER-3} is the best option.</Translation>
+		<Translation>{CHARACTER-3} ist die bessere Wahl.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MISSION_MARRIAGE_TRIBE_YES</zType>
@@ -22829,19 +22829,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TEMPTING_RUMORS_OPTION_0</zType>
-		<Translation>Yes, tell us everything.</Translation>
+		<Translation>Ja, erzählt uns alles.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TEMPTING_RUMORS_OPTION_1</zType>
-		<Translation>No, we trust {G0:him:her}.</Translation>
+		<Translation>Nein, wir vertrauen {G0:ihm:ihr}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_FAMILY_SUCCESSION_YES</zType>
-		<Translation>Very well. Make the change.</Translation>
+		<Translation>Nun gut. Nehmen wir die Änderung durch.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_FAMILY_SUCCESSION_NO</zType>
-		<Translation>Succession is not up for debate.</Translation>
+		<Translation>Abfolge steht nicht zur Debatte.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_ASCETIC_MOVEMENT_REPRESS</zType>
@@ -22857,11 +22857,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_WAYWARD_SUBJECT_FORGIVE</zType>
-		<Translation>Yes, all is forgiven.</Translation>
+		<Translation>Ja, vergeben und vergessen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_WAYWARD_SUBJECT_IMPRISON</zType>
-		<Translation>{G0:He:She} should never have returned.</Translation>
+		<Translation>{G0:Er:Sie} hätte niemals zurückkommen sollen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_GEM_SEEKERS_YES</zType>
@@ -22877,11 +22877,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEW_AMBASSADOR_OPTION_0</zType>
-		<Translation>It will be done.</Translation>
+		<Translation>Es wird geschehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEW_AMBASSADOR_OPTION_1</zType>
-		<Translation>No, {CHARACTER-1} is too valuable.</Translation>
+		<Translation>Nein, {CHARACTER-1} ist zu wertvoll.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_DARKENED_MOON_ATTACK</zType>
@@ -22929,11 +22929,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INSOLENT_GENERALS_TRAINING</zType>
-		<Translation>Our people need thicker skin.</Translation>
+		<Translation>Unser Volk brauch ein dickeres Fell.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INSOLENT_GENERALS_WAR</zType>
-		<Translation>{PLAYER-1,3} have always been cruel.</Translation>
+		<Translation>{PLAYER-1,3} war schon immer grausam.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_VIEW_FROM_THE_THRONE_OPTION_0</zType>
@@ -22949,15 +22949,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_WONDER_WARM_RELATIONS_OPTION_0</zType>
-		<Translation>The {FAMILY-1, 1}.</Translation>
+		<Translation>Die {FAMILY-1, 1}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_WONDER_WARM_RELATIONS_OPTION_1</zType>
-		<Translation>The {FAMILY-2,1}.</Translation>
+		<Translation>Die {FAMILY-2,1}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_WONDER_WARM_RELATIONS_OPTION_2</zType>
-		<Translation>The {FAMILY-3,1}.</Translation>
+		<Translation>Die {FAMILY-3,1}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_WONDER_ETERNAL_REST_OPTION_0</zType>
@@ -22973,15 +22973,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_WONDER_GODS_AND_MEN_OPTION_0</zType>
-		<Translation>Icons of our royal line.</Translation>
+		<Translation>Symbole unserer königlichen Linie.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_WONDER_GODS_AND_MEN_OPTION_1</zType>
-		<Translation>Statues of the gods.</Translation>
+		<Translation>Statuen der Götter.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_WONDER_GODS_AND_MEN_OPTION_2</zType>
-		<Translation>Busts of... me.</Translation>
+		<Translation>Büsten von... mir.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_WONDER_THE_CIRCUS_OPTION_0</zType>
@@ -23897,7 +23897,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELIGION_SPREAD_YES</zType>
-		<Translation>Local festivals do no harm.</Translation>
+		<Translation>Örtliche Festivitäten schaden nicht.</Translation>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_EVENTOPTION_RELIGION_SPREAD_NO</zType>
@@ -23913,39 +23913,39 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_JUDAISM_TEMPLES_YES</zType>
-		<Translation>Let them have their temples.</Translation>
+		<Translation>Lasst sie ihre Tempel haben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_JUDAISM_TEMPLES_NO</zType>
-		<Translation>{RELIGION-0,3} must find some place else to worship.</Translation>
+		<Translation>{RELIGION-0,3} müssen sich einen anderen Ort zum verehren suchen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CHRISTIANITY_CATHEDRALS_YES</zType>
-		<Translation>Let them have their cathedrals.</Translation>
+		<Translation>Lasst sie ihre Kathedralen haben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CHRISTIANITY_CATHEDRALS_NO</zType>
-		<Translation>{RELIGION-0,3} must find some place else to worship.</Translation>
+		<Translation>{RELIGION-0,3} müssen sich einen anderen Ort zum verehren suchen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MANICHAEISM_CATHEDRALS_YES</zType>
-		<Translation>Let them have their cathedrals.</Translation>
+		<Translation>Lasst sie ihre Kathedralen haben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MANICHAEISM_CATHEDRALS_NO</zType>
-		<Translation>{RELIGION-0,3} must find some place else to worship.</Translation>
+		<Translation>{RELIGION-0,3} müssen sich einen anderen Ort zum verehren suchen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CHARACTER_CREATURES_OF_THE_COAST_OPTION_0</zType>
-		<Translation>Save the settlers and laborers.</Translation>
+		<Translation>Rette die Siedler und Arbeiter.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CHARACTER_CREATURES_OF_THE_COAST_OPTION_1</zType>
-		<Translation>Bring us the valuable metals.</Translation>
+		<Translation>Bringt uns die wertvollen Metalle.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CHARACTER_CREATURES_OF_THE_COAST_OPTION_2</zType>
-		<Translation>Bring it all back, whatever the cost.</Translation>
+		<Translation>Bringt alles zurück, was auch immer nötig ist.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_DREAMS_OF_HOME_OPTION_0</zType>
@@ -23969,27 +23969,27 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_THE_LAND_OF_HAIRY_MEN_OPTION_0</zType>
-		<Translation>Order {CHARACTER-SHORT-0} home immediately.</Translation>
+		<Translation>Bestelle {CHARACTER-SHORT-0} sofort nach Hause.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_THE_LAND_OF_HAIRY_MEN_OPTION_1</zType>
-		<Translation>Allow {CHARACTER-SHORT-0} to continue exploring.</Translation>
+		<Translation>Erlaube {CHARACTER-SHORT-0} weiter zu erkunden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_THE_LAND_OF_HAIRY_MEN_OPTION_2</zType>
-		<Translation>Send men to study these fascinating creatures.</Translation>
+		<Translation>Schicke Leute um diese faszinierenden Kreaturen zu unteruschen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_MONSOON_OPTION_0</zType>
-		<Translation>Leave immediately and return to {CITY-1}.</Translation>
+		<Translation>Geht sofort und kehrt zu {CITY-1} zurück.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_MONSOON_OPTION_1</zType>
-		<Translation>Assist the {TRIBE-2} guides with their retreat.</Translation>
+		<Translation>Helfe den {TRIBE-2} Führern bei ihrem Rückzug.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_MONSOON_OPTION_2</zType>
-		<Translation>We will remain in the wild, where we belong.</Translation>
+		<Translation>Wir bleiben verboren, wo wir hingehören.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_WRATH_OF_THE_WATCHERS_OPTION_0</zType>
@@ -24005,19 +24005,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELATIONSHIP_SHARED_INTERESTS_OPTION_0</zType>
-		<Translation>Send scholars to {PLAYER-0} to teach {CHARACTER-SHORT-0}.</Translation>
+		<Translation>Schicke Wissenschafter zu {PLAYER-0} um {CHARACTER-SHORT-0} zu unterrichten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELATIONSHIP_SHARED_INTERESTS_OPTION_1</zType>
-		<Translation>I refuse a gift, but I will gladly accept the compliments.</Translation>
+		<Translation>Ich verweigere Geschenke, aber ich werde gerne die Komplimente akzeptieren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELATIONSHIP_SHARED_INTERESTS_OPTION_2</zType>
-		<Translation>Take the advisor captive as a scholar for the court.</Translation>
+		<Translation>Nimm den Berater als Vertrauten für den Hofstaat gefangen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELATIONSHIP_SHARED_INTERESTS_OPTION_3</zType>
-		<Translation>Burn the texts and send them back to {PLAYER-0}.</Translation>
+		<Translation>Verbrenne die Schriften und schicke ihn zurück zu {PLAYER-0}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELATIONSHIP_AN_ADMIRER_OPTION_0</zType>
@@ -24045,23 +24045,23 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELATIONSHIP_MAKING_PEACE_OPTION_0</zType>
-		<Translation>Treason must be punished with death.</Translation>
+		<Translation>Verrat muss mit dem Tot bestraft werden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELATIONSHIP_MAKING_PEACE_OPTION_1</zType>
-		<Translation>{G0:He:She} will spend time in prison and be released.</Translation>
+		<Translation>{G0:Er:Sie} wird etwas Zeit im Gefängnis verbringen und dann wieder freigelassen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELATIONSHIP_MAKING_PEACE_OPTION_2</zType>
-		<Translation>Agree to {G0:his:her} terms for military reform.</Translation>
+		<Translation>Akzeptiere {G0:seine:ihre} Bedingungen für militärische Reformen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELATIONSHIP_IN_THE_BLOOD_OPTION_0</zType>
-		<Translation>Share some of our knowledge with {PLAYER-0}.</Translation>
+		<Translation>Tausche etwas unseres Wissens mit {PLAYER-0}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELATIONSHIP_IN_THE_BLOOD_OPTION_1</zType>
-		<Translation>Let us begin with a military alliance.</Translation>
+		<Translation>Lasst uns mit einem militärischen Bündnis beginnen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELATIONSHIP_IN_THE_BLOOD_OPTION_2</zType>
@@ -25485,47 +25485,47 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_SWORD_OF_THE_FALLEN_OPTION_0</zType>
-		<Translation>It is not my place to accept such a gift.</Translation>
+		<Translation>Es steht mir nicht zu so ein Geschenk zu akzeptieren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_SWORD_OF_THE_FALLEN_OPTION_1</zType>
-		<Translation>I will bear the sword proudly.</Translation>
+		<Translation>Ich werde das Schwert voller Stolz tragen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_SWORD_OF_THE_FALLEN_OPTION_2</zType>
-		<Translation>That sword is cursed, and I will not take it.</Translation>
+		<Translation>Dieses Schwert ist verflucht und ich werde es nicht nehmen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TINY_HANDS_OPTION_0</zType>
-		<Translation>Brilliant! Put them to work at once!</Translation>
+		<Translation>Ausgezeichnet! Stellt sie sofort zur Arbeit ab!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TINY_HANDS_OPTION_1</zType>
-		<Translation>How dare {CHARACTER-SHORT-0} suggest such a thing!</Translation>
+		<Translation>Wie kann {CHARACTER-SHORT-0} es nur wagen so etwas vorzuschlagen!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TINY_HANDS_OPTION_2</zType>
-		<Translation>I will fund an effort to feed and house these children.</Translation>
+		<Translation>Ich werde mich bemühen diese Kinder zu ernähren und ein Haus über dem Kopf zu geben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_COMPLICATIONS_OPTION_0</zType>
-		<Translation>The court has more important matters to consider.</Translation>
+		<Translation>Der Hofstaat hat sich um wichtigere Dinge zu kümmern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_COMPLICATIONS_OPTION_1</zType>
-		<Translation>Wisdom demands that we change our ways.</Translation>
+		<Translation>Weisheit verlangt, dass wir unsere Gepflogenheiten ändern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_COMPLICATIONS_OPTION_2</zType>
-		<Translation>Propose a new marriage for {CHARACTER-SHORT-1}.</Translation>
+		<Translation>Schlage eine neue Heirat für {CHARACTER-SHORT-1} vor.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_COMPLICATIONS_OPTION_3</zType>
-		<Translation>Give {CHARACTER-SHORT-1} whatever is required.</Translation>
+		<Translation>Gib {CHARACTER-SHORT-1} was auch immer nötig ist.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_COMPLICATIONS_OPTION_4</zType>
-		<Translation>We will honor {CHARACTER-SHORT-0} with a city-wide celebration.</Translation>
+		<Translation>Wir werden {CHARACTER-SHORT-0} mit einem stadtweiten Festspiel ehren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_IN_THE_WATER_OPTION_0</zType>
@@ -26169,19 +26169,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INFLUENCE_MISSION_YES</zType>
-		<Translation>Let me work my wiles on {CHARACTER-1}.</Translation>
+		<Translation>Lasst mich meiner List auf {CHARACTER-1} bedienen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INFLUENCE_MISSION_NO</zType>
-		<Translation>I am too busy for that at the moment.</Translation>
+		<Translation>Dafür bin ich im Moment zu beschäftigt.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INTERCESSION_MISSION_YES</zType>
-		<Translation>Have {CHARACTER-0} intercede with {CHARACTER-1} on my behalf.</Translation>
+		<Translation>Lass {CHARACTER-0} mit {CHARACTER-1} in meinem Namen vermitteln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INTERCESSION_MISSION_NO</zType>
-		<Translation>I am too busy for that at the moment.</Translation>
+		<Translation>Dafür bin ich im Moment zu beschäftigt.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_IMPRISON_MISSION_YES</zType>
