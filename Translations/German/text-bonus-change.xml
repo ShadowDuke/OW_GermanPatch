@@ -1586,6 +1586,10 @@
 		<Translation>Successful Coup</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_HEIR_BYPASSED_DOUBLE_MURDER</zType>
+		<Translation>Palace Coup</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_LOVE_AFFAIR_END</zType>
 		<Translation>Forced to send away my lover</Translation>
 	</Entry>
@@ -2669,6 +2673,10 @@
 		<zType>TEXT_BONUS_EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS_PLAYER</zType>
 		<Translation>Made a deal with the rebel slaves</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_MYTHICAL_BEASTS</zType>
+		<Translation>Adopted elephant as royal symbol</Translation>
+	</Entry>
 	<!-- Named Units -->
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_MEDJAY</zType>
@@ -2709,5 +2717,17 @@
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_TERRORS</zType>
 		<Translation>The Terrors</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_FURIES</zType>
+		<Translation>The Furies</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_PRAISE_OF_THE_TWO_LANDS</zType>
+		<Translation>Praise of the Two Lands</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_WILD_HUNTERS</zType>
+		<Translation>The Wild Hunters</Translation>
 	</Entry>
 </Root>

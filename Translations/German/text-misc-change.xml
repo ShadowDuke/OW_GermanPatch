@@ -771,6 +771,10 @@
 		<Translation>Hoch</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_ADVANTAGE_VERY_HIGH</zType>
+		<Translation>Sehr hoch</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_DEVELOPMENT_NONE</zType>
 		<Translation>Keine</Translation>
 	</Entry>
@@ -2010,6 +2014,18 @@ Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.</Translation>
 	<Entry>
 		<zType>TEXT_MAPCLASS_RANDOM_HELP</zType>
 		<Translation>Zufälliges Map Script</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIOCLASS_LEARNTOPLAY</zType>
+		<Translation>Lerne zu spielen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIOCLASS_CARTHAGE</zType>
+		<Translation>Der Aufstieg Karthagos</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIOCLASS_OTHER</zType>
+		<Translation>Solo Szenarien</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SCENARIO_LEARNTOPLAY_1</zType>

@@ -6,6 +6,18 @@
 		<Translation/>
 	</Entry>
 	<Entry>
+		<zType>TEXT_THE_CHANNEL</zType>
+		<Translation>Der Kanal</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GREAT_EUROPEAN_PRIMEVAL_FOREST</zType>
+		<Translation>Great European Primeval Forest</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_NORTHERN_OCEAN</zType>
+		<Translation>Northern Ocean</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_AATAL_VALLEY</zType>
 		<Translation>Aatal Valley</Translation>
 	</Entry>
@@ -310,6 +322,10 @@
 		<Translation>Caecus River</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_SAROS_RIVER</zType>
+		<Translation>Saros River</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CAESTERT_PLATEAU</zType>
 		<Translation>Caestert Plateau</Translation>
 	</Entry>
@@ -482,6 +498,10 @@
 		<Translation>Totes Meer</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_SEA_OF_KINNERET</zType>
+		<Translation>Sea of Kinneret</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_DELIBLATO_SANDS</zType>
 		<Translation>Deliblato Sands</Translation>
 	</Entry>
@@ -496,6 +516,10 @@
 	<Entry>
 		<zType>TEXT_DINARIC_ALPS</zType>
 		<Translation>Dinaric Alps</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCARDUS_MOUNTAINS</zType>
+		<Translation>Scardus Mountains</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DISCHMA_VALLEY</zType>
@@ -516,6 +540,10 @@
 	<Entry>
 		<zType>TEXT_DRAUS_RIVER</zType>
 		<Translation>Draus River</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_NARENTA_RIVER</zType>
+		<Translation>Narenta River</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DRILO_RIVER</zType>
@@ -864,6 +892,10 @@
 	<Entry>
 		<zType>TEXT_KARAKUM_DESERT</zType>
 		<Translation>Karakum Desert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GREAT_SALT_DESERT</zType>
+		<Translation>Great Salt Desert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_KARPATHIAN_SEA</zType>
@@ -1558,10 +1590,6 @@
 		<Translation>Nile Valley</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_NIPUR_MOUNTAIN</zType>
-		<Translation>Nipur Mountain</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_NISAEAN_PLAIN</zType>
 		<Translation>Nisaean Plain</Translation>
 	</Entry>
@@ -2030,6 +2058,10 @@
 		<Translation>Thasos Island</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_KARPATHOS_ISLAND</zType>
+		<Translation>Karpathos Island</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_THE_ALPS</zType>
 		<Translation>The Alps</Translation>
 	</Entry>
@@ -2213,4 +2245,436 @@
 		<zType>TEXT_ZERRAH_DEPRESSION</zType>
 		<Translation>Zerrah Depression</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_WESTERN_DESERT</zType>
+		<Translation>Western Desert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EASTERN_DESERT</zType>
+		<Translation>Eastern Desert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ERYTHREAN_SEA</zType>
+		<Translation>Erythrean Sea</Translation>
+	</Entry>
+	<Entry>
+		<!--Tarout Island-->
+		<zType>TEXT_ISHTARUT</zType>
+		<Translation>Ishtarut</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_ELATH</zType>
+		<Translation>Elath</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_QATTARA_DEPRESSION</zType>
+		<Translation>Qattara Depression</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SINAI_DESERT</zType>
+		<Translation>Sinai Desert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ANTI_LEBANON_MOUNTAINS</zType>
+		<Translation>Anti-Lebanon Mountains</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_TYRE</zType>
+		<Translation>Tyre</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GREAT_ZAB_RIVER</zType>
+		<Translation>Great Zab River</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_LITTLE_ZAB_RIVER</zType>
+		<Translation>Little Zab River</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_GANZAK</zType>
+		<Translation>Ganzak</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_LAMBAESA</zType>
+		<Translation>Lambaesa</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_AUZIA</zType>
+		<Translation>Auzia</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_ANCYRA</zType>
+		<Translation>Ancyra</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_MAZAKA</zType>
+		<Translation>Mazaka</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_SIGA</zType>
+		<Translation>Siga</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_ARDABIL</zType>
+		<Translation>Ardabil</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_AINOS</zType>
+		<Translation>Ainos</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_SINOPE</zType>
+		<Translation>Sinope</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_PHASIS</zType>
+		<Translation>Phasis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_ODESSOS</zType>
+		<Translation>Odessos</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_BURDIGALA</zType>
+		<Translation>Burdigala</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_TROESMIS</zType>
+		<Translation>Troesmis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_PAPHOS</zType>
+		<Translation>Paphos</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_SARMIZEGETUSA</zType>
+		<Translation>Sarmizegetusa</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_TERMESSOS</zType>
+		<Translation>Termessos</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_ICOSIUM</zType>
+		<Translation>Icosium</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_SALAMIS</zType>
+		<Translation>Salamis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_TARTESSOS</zType>
+		<Translation>Tartessos</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_EPIDAUROS</zType>
+		<Translation>Epidauros</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_SOBA</zType>
+		<Translation>Soba</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_PUNT</zType>
+		<Translation>Punt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_MARIB</zType>
+		<Translation>Ma'rib</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_UPI</zType>
+		<!--Opis-->
+		<Translation>UPI</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_TOMIS</zType>
+		<!--Constanța-->
+		<Translation>Tomis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DELOS</zType>
+		<Translation>Delos</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELLESPONT</zType>
+		<Translation>Hellespont</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MOUNT_MASIA</zType>
+		<Translation>Masia</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GIBRALTAR</zType>
+		<Translation>Pillars of Hercules</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BOSPORUS</zType>
+		<Translation>Bosporus</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_METSEP</zType>
+		<Translation>Metsep</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_LAKE_MAEOTIS</zType>
+		<Translation>Lake Maeotis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CANTABRICUS_BAY</zType>
+		<Translation>Cantabricus Bay</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RED_SEA_HILLS</zType>
+		<Translation>Red Sea Hills</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_NILE_DELTA</zType>
+		<Translation>Nile Delta</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PELOPONNESOS</zType>
+		<Translation>Peloponnesos</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ATTICA</zType>
+		<Translation>Attica</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TROY</zType>
+		<Translation>Troy</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAUL</zType>
+		<Translation>Gaul</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MALVA_RIVER</zType>
+		<Translation>Malva River</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CEPHALLENIA</zType>
+		<Translation>Cephallenia</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHIOS</zType>
+		<Translation>Chios</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_KORKYRA</zType>
+		<Translation>Korkyra</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_LESBOS</zType>
+		<Translation>Lesbos</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_IMBROS</zType>
+		<Translation>Imbros</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SIERRA_NEVADA</zType>
+		<Translation>Sierra Nevada</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DRINUS_RIVER</zType>
+		<Translation>Drinus River</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ILLYRIAN_FORESTS</zType>
+		<Translation>Illyrian Forests</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MARRAH_MOUNTAINS</zType>
+		<Translation>Marrah Mountains</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ASIR_MOUNTAINS</zType>
+		<Translation>Asir Mountains</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DAM_OF_MARIB</zType>
+		<Translation>Dam of Ma'rib</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_KHORRORI</zType>
+		<Translation>Khor Rori</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_SIRAF</zType>
+		<Translation>Siraf</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_ZRANKA</zType>
+		<Translation>Zranka</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_PETRA</zType>
+		<Translation>Petra</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_STAGYDIA</zType>
+		<Translation>Stagydia</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_YATHRIB</zType>
+		<Translation>Yathrib</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_KASI</zType>
+		<Translation>Kasi</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_HEGRA</zType>
+		<Translation>Hegra</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_PANTICAPAION</zType>
+		<Translation>Panticapaion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SARAWAT_MOUNTAINS</zType>
+		<Translation>Sarawat Mounains</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HAJAR_MOUNTAINS</zType>
+		<Translation>Al Hajar Mountains</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_INDIAN_DESERT</zType>
+		<Translation>Great Indian Desert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_LEUKE_KOME</zType>
+		<Translation>Leuke Kome</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_FERGHANA_VALLEY</zType>
+		<Translation>Ferghana Valley</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_NARYN_RIVER</zType>
+		<Translation>Naryn River</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINDU_KUSH</zType>
+		<Translation>Hindu Kush</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHORASMIA</zType>
+		<Translation>Chorasmia</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MASSAGETAE</zType>
+		<Translation>Massagetae</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DAHAE</zType>
+		<Translation>Dahae</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHERSONESUS</zType>
+		<Translation>Chersonesus</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_LAKE_BALKAS</zType>
+		<Translation>Lake Balkas</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_VOLGA_RIVER</zType>
+		<Translation>Volga River</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_INDIA</zType>
+		<Translation>India</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAGAN</zType>
+		<Translation>Magan</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_KARMANA</zType>
+		<Translation>Karmana</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HARAIVA</zType>
+		<Translation>Haraiva</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ARIUS_RIVER</zType>
+		<Translation>Arius River</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_KOPET_DAG</zType>
+		<Translation>Kopet Dag</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MARGIANA_RIVER</zType>
+		<Translation>Margiana River</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_MERV</zType>
+		<Translation>Merv</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DAIKOS_RIVER</zType>
+		<!--Ural River-->
+		<Translation>Daikos River</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BACTRIA_VALLEY</zType>
+		<Translation>Bactria Valley</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_CYROPOLIS</zType>
+		<Translation>Cyropolis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_KUBHA</zType>
+		<Translation>Kubha</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_DRAPSAKA</zType>
+		<Translation>Drapsaka</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_KUKKUTARMA</zType>
+		<Translation>Kukkutarma</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_HARAPPA</zType>
+		<Translation>Harappa</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_MAIKHERKOT</zType>
+		<Translation>Malkherkot</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_NISA</zType>
+		<Translation>Nisa</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_GERMI</zType>
+		<Translation>Germi</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_SLABADA</zType>
+		<Translation>Slabada</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_SIGHNAQ</zType>
+		<Translation>Sighnaq</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_SARAI_BATU</zType>
+		<Translation>Sarai Batu</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_TYRAS</zType>
+		<Translation>Tyras</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_GORGIPPIA</zType>
+		<Translation>Gorgippia</Translation>
+	</Entry>	 
 </Root>

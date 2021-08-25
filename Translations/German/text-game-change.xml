@@ -94,6 +94,10 @@
 		<Translation>Die {0_tribe} sind zum {1_religion} konvertiert. (Deren Meinung von euch ist jetzt {2_opinion}.)</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_RELIGION_PLAYER_US</zType>
+		<Translation>Dein link(CONCEPT_NATION) hat die {0_religion} als seine link(CONCEPT_STATE_RELIGION) adoptiert.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_RELIGION_PLAYER</zType>
 		<Translation>{0_player} ist zum {1_religion} konvertiert.{true_2: (Deren Meinung von euch ist jetzt {2_opinion}.)}</Translation>
 	</Entry>
@@ -158,10 +162,6 @@
 		<Translation>{0_character} verfolgt eine neue Ambition: {1_ambition}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_START_AMBITION_DESIRED</zType>
-		<Translation><![CDATA[{0_character} verfolgt nun <masculine_0>seine<feminine>ihre<end> begehrte Ambition: {1_ambition}]]></Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GAME_START_QUEST</zType>
 		<Translation>Du hast eine Quest gestartet: {0}{true_1: (within {1} turns)}</Translation>
 	</Entry>
@@ -220,10 +220,6 @@
 	<Entry>
 		<zType>TEXT_GAME_CHARACTER_ADULT_POPUP</zType>
 		<Translation>{0_character} ist jetzt Erwachsen (age {1_age})</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GAME_CHARACTER_DESIRED_AMBITION</zType>
-		<Translation>{0_character} hat jetzt eine begehrte Ambition: {1_goal}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CHARACTER_CHOOSES_RELIGION</zType>
@@ -534,10 +530,6 @@
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_FORGET_CHARACTER</zType>
 		<Translation>Vergisst {0_memory} (Derzeitige {1_value} Meinung)</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_DO_BONUS_DESIRED_AMBITION</zType>
-		<Translation>Begehrt {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_RANDOM_TRAIT</zType>

@@ -38,6 +38,10 @@
 		<Translation>Antiocheia</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CITYNAME_AMBRACIA</zType>
+		<Translation>Ambracia</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CITYNAME_ANTIUM</zType>
 		<Translation>Antium</Translation>
 	</Entry>
@@ -152,6 +156,11 @@
 	<Entry>
 		<zType>TEXT_CITYNAME_BUHEN</zType>
 		<Translation>Buhen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_AMUNIA</zType>
+		<!--Mersa Matruh-->
+		<Translation>Amunia</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CITYNAME_BUSIRIS</zType>
@@ -272,6 +281,10 @@
 	<Entry>
 		<zType>TEXT_CITYNAME_DILBAT</zType>
 		<Translation>Dilbat</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_AN_AT</zType>
+		<Translation>An-at</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CITYNAME_DION</zType>
@@ -635,6 +648,14 @@
 		<Translation>Meliddu</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CITYNAME_TUSHPA</zType>
+		<Translation>Tushpa</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_GAZA</zType>
+		<Translation>Gaza</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CITYNAME_MELITE</zType>
 		<Translation>Maleth</Translation>
 	</Entry>
@@ -896,7 +917,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CITYNAME_RHAGES</zType>
-		<Translation>Rhages</Translation>
+		<Translation>Raga</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CITYNAME_RHEGION</zType>
@@ -1003,6 +1024,10 @@
 		<Translation>Sirmium</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CITYNAME_OESCUS</zType>
+		<Translation>Oescus</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CITYNAME_SISCIA</zType>
 		<Translation>Siscia</Translation>
 	</Entry>
@@ -1065,6 +1090,14 @@
 	<Entry>
 		<zType>TEXT_CITYNAME_TEREDON</zType>
 		<Translation>Teredon</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_CATURA</zType>
+		<Translation>Catura</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_KOMIS</zType>
+		<Translation>Komis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CITYNAME_THAENAE</zType>
@@ -1278,5 +1311,17 @@
 	<Entry>
 		<zType>TEXT_CITYNAME_TARENTUM</zType>
 		<Translation>Tarentum</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_JERUSALEM</zType>
+		<Translation>Jerusalem</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_MEROE</zType>
+		<Translation>Meroe</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITYNAME_NPY</zType>
+		<Translation>Npy</Translation>
 	</Entry>
 </Root>

@@ -554,6 +554,10 @@
 		<Translation>Zoushan</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_NAME_KARALY</zType>
+		<Translation>Karaly</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_NAME_AMATBAAL</zType>
 		<Translation>Amatbaal</Translation>
 	</Entry>
@@ -1396,6 +1400,14 @@
 	<Entry>
 		<zType>TEXT_NAME_YAZDEGERD</zType>
 		<Translation>Yazdegerd</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_NAME_DARBAND</zType>
+		<Translation>Darband</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_NAME_ASPADANA</zType>
+		<Translation>Aspadana</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_NAME_AMESTRIS</zType>

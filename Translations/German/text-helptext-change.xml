@@ -180,6 +180,10 @@
 		<Translation>{0}/{1}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINE_TWO</zType>
+		<Translation><![CDATA[{0}<size=200%>|</size>{1}]]></Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINE_SPACE_TWO</zType>
 		<Translation>{0} | {1}</Translation>
 	</Entry>
@@ -535,10 +539,6 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_COURTIER</zType>
 		<Translation>Vertrauter~ein Vertrauter~Vertraute</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_PILLAGED</zType>
-		<Translation>Geplündert {0_turns}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_PILLAGED_ICON</zType>
@@ -1642,6 +1642,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_CHARACTER_NAME_CHANGE</zType>
 		<Translation>{0_character} ändert Namen zu {1}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_SUCCESSION_WARNING</zType>
+		<Translation>Warnung: Könnte die link(CONCEPT_SUCCESSION) ändern</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_STORY_FUTURE_EVENTS</zType>
@@ -3133,10 +3137,6 @@ Höhre Legitimität verbessert die link(CONCEPT_OPINION_FAMILY,1) und erzeugt me
 		<Translation>{0_value}: link(CONCEPT_OPINION_FAMILY,2)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_COASTAL_CITIES</zType>
-		<Translation>Eine Küstenstadt benötigt einen Stadtplatz angrenzend zu Salzwasser.</Translation>
-	</Entry>
-	<Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_COGNOMEN</zType>
     <Translation>Ein Spitzname ist ein erworbener Titel welcher die Legitimacyicon(YIELD_LEGITIMACY) deines Oberhauptes erhöht.</Translation>
 	</Entry>
@@ -3293,10 +3293,6 @@ All Religions give link(YIELD_CULTURE){YIELD_CULTURE} to their Cities, and a lin
 		<Translation>Units forced to Retreat will move to a valid adjacent Tile. If none exists, then the Unit is link(CONCEPT_STUN,2).</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_CONCEPT_DESIRED_AMBITION</zType>
-		<Translation>Eine vom Charakter begehrte link(CONCEPT_AMBITION) wird eine neue link(CONCEPT_AMBITION) werden wenn er/sie Oberhaupt wird.</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DISCIPLE</zType>
 		<Translation>Ein Jünger kann seine Religion verbreiten, Religiöse Verbesserungen bauen und andere Religionen von deinen Städten mit link(LAW_ORTHODOXY) säubern.
 link(CONCEPT_IDLE) Disciples produce a small Yield amount if positioned on an link(CONCEPT_IMPROVEMENT) of their link(CONCEPT_RELIGION). For example, a Disciple on a link(IMPROVEMENTCLASS_MONASTERY) will produce some {YIELD_SCIENCE}link(YIELD_SCIENCE) each Turn.</Translation>																										
@@ -3336,6 +3332,10 @@ link(CONCEPT_IDLE) Disciples produce a small Yield amount if positioned on an li
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_ROUT</zType>
 		<Translation>Nachdem ein benachbarter Gegner getötet wurde, werden Einheiten mit Vernichtend in das neue leere Feld vordringen und können einen Folgeangriff im selben Zug durchführen.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_ROYAL</zType>
+		<Translation>All descendants of your dynasty's founder are Royals, which makes them eligible for the link(CONCEPT_SUCCESSION) and to be link(CONCEPT_TUTOR,3). Each Royal will cost some link(YIELD_MONEY,1) per Turn.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_SELECT_TRIBE</zType>
@@ -4746,6 +4746,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>link(CONCEPT_WONDER) der Welt</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_HEAL</zType>
+		<Translation>Kann über all Einheiten link(CONCEPT_HEAL)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_CITY_SITE</zType>
 		<Translation>Occupy this Tile with a Unit to prevent Rival Nations from founding a City</Translation>
 	</Entry>
@@ -4831,10 +4835,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_ALL_CITIES_EFFECT</zType>
 		<Translation>[Alle Städte] {0}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_COAST_CITIES_EFFECT</zType>
-		<Translation>[link(CONCEPT_COASTAL_CITIES,2)] {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_RELIGIOUS_CITIES_EFFECT</zType>
@@ -4923,6 +4923,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_LEADER_OPINION_CHANGE</zType>
 		<Translation>Alle fremden Oberhäupter Meinungen {0_value}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_HEAD_OPINION_CHANGE</zType>
+		<Translation>Alle Stammes Oberhäupter und link(CONCEPT_RELIGION)/link(CONCEPT_FAMILY) Oberhaupt Meinungen {0_value}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_PLAYER_RELIGION_OPINION_CHANGE</zType>
@@ -5104,6 +5108,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_LEADER_UNMARRIED</zType>
 		<Translation>Oberhaupt unverheiratet: {0_value}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_LEADER_MARRIED_FOREIGN</zType>
+		<Translation>Oberhaupts Ehegatte von link(CONCEPT_NATION): {0_value}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_LEADER_MARRIED_TRIBE</zType>
@@ -5687,6 +5695,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>Mögliche Vertraute:</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_EACH_COURTIER</zType>
+		<Translation>Jeder Vertraute: {0} per {1_turnScale}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_COURTIER</zType>
 		<Translation>Alle Vertrauten können als link(CONCEPT_GENERAL,2), link(CONCEPT_GOVERNOR,2), oder link(CONCEPT_AGENT,2) dienen, unabhängig von deren link(CONCEPT_ARCHETYPE). Deren Stellenwert beeinflusst die allgemeinen Erträge (ein Drittel vom Oberhaupt). Zum Beispiel, deren link(RATING_CHARISMA) wird deine {YIELD_CIVICS}link(YIELD_CIVICS) erhöhen. Zusätzlich wird deren link(CONCEPT_OPINION_CHARACTER,3) die Erträge von dir erhöhen oder verringern.</Translation>
 	</Entry>
@@ -6177,20 +6189,24 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>{0_value}: Heirate(n) zu Nachkommen des Oberhauptes</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_ROYAL_CHILD_LEADER</zType>
-		<Translation>{0_value}: Oberhaupt ist kein Erwachsener</Translation>
+		<zType>TEXT_HELPTEXT_FAMILY_CHILD_LEADER</zType>
+		<Translation>{0_value}: Oberhaupt nicht erwachsen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_ROYAL_UMARRIED_LEADER</zType>
+		<zType>TEXT_HELPTEXT_FAMILY_UMARRIED_LEADER</zType>
 		<Translation>{0_value}: Unverheiratetes Oberhaupt</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_ROYAL_LEADER_MARRIED_TRIBE</zType>
-		<Translation>{0_value}: Oberhaupt hat einen Barbaren geheiratet</Translation>
+		<zType>TEXT_HELPTEXT_FAMILY_LEADER_MARRIED_FOREIGN</zType>
+		<Translation>{0_value}: Oberhaupt hat ausländischen Ehepartner</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_FAMILY_LEADER_MARRIED_TRIBE</zType>
+		<Translation>{0_value}: Oberhaupt heiratet link(CONCEPT_TRIBE,3) Ehepartner</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILY_NO_COUNCIL_MEMBERS</zType>
-		<Translation>{0_value}: Wählbare Hofrat Kandidat(en)</Translation>
+		<Translation>{0_value}: Keine link(CONCEPT_COUNCILOR,2) aus unserer Familie</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILY_GENERALS</zType>
@@ -6766,10 +6782,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>Volksstamm: {0}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_CHARACTER_HELP_AMBITION</zType>
-		<Translation>Ambition: {0}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_COURTIER</zType>
 		<Translation>Vertrauter: {0}</Translation>
 	</Entry>
@@ -6924,6 +6936,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_TRAIT_GENERAL_ADJACENT</zType>
 		<Translation>Als link(CONCEPT_GENERAL): [Benachbarte Einheiten]{0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_TRAIT_GENERAL_LEADER</zType>
+		<Translation>Als link(CONCEPT_GENERAL) (wenn Oberhaupt): {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LEADER_COLON_SPACE</zType>

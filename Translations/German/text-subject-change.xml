@@ -102,6 +102,10 @@
 		<Translation>Min Kompetenz (Wissen)</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_SUBJECT_PLAYER_MAX_NAIVE</zType>
+		<Translation>Max natürliches (link(CONCEPT_KNOWLEDGE)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_NO_ADOPTED_RELIGION</zType>
 		<Translation>Hat Religion nicht vor kurzem adoptiert</Translation>
 	</Entry>

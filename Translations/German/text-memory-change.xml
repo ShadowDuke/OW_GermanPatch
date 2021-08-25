@@ -1018,6 +1018,10 @@
 		<Translation>My request for diplomacy was ignored</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MEMORYPLAYER_REFUSED_TROOPS</zType>
+		<Translation>Refused our troops</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_LOST_CONSORT</zType>
 		<Translation>Took away my consort</Translation>
 	</Entry>
@@ -2506,6 +2510,10 @@
 		<Translation>Accuse the throne of bribes</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MEMORYFAMILY_MILITARY_TECH</zType>
+		<Translation>Shared military technology with our rivals</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DID_NOT_ABDUCT_HEIR</zType>
 		<Translation>Ruler would not abduct foreign heir</Translation>
 	</Entry>
@@ -3850,5 +3858,17 @@
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SLAVE_REVOLT_4_FORGIVENESS</zType>
 		<Translation>Gave into the demands of the slave revolt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYPLAYER_GIFTED_TECH</zType>
+		<Translation>Gab uns neue Technologie</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYPLAYER_DECEIVED_US</zType>
+		<Translation>We have been deceived!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_GAVE_AUTONOMY</zType>
+		<Translation>Allowed autonomous rule of our city</Translation>
 	</Entry>
 </Root>

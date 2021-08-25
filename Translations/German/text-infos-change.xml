@@ -337,10 +337,6 @@
 		<Translation>Beschleunige Produktion~Beschleunige Produktion</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_CONCEPT_DESIRED_AMBITION</zType>
-		<Translation>Begehrte Ambition</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_CONCEPT_DISCIPLE</zType>
 		<Translation>Jünger~ein Jünger~Jünger</Translation>
 	</Entry>
@@ -437,8 +433,8 @@
 		<Translation>Spitzname~ein Spitzname~Spitznamen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_CONCEPT_COASTAL_CITIES</zType>
-		<Translation>Küstenstadt~eine Küstenstadt~Küstenstädte</Translation>
+		<zType>TEXT_CONCEPT_COURT</zType>
+		<Translation>Hofstaat</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_COURTIER</zType>
