@@ -178,18 +178,18 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_LOW_MONEY</zType>
-		<Translation>Wenig Gold</Translation>
+		<Translation>Wenig Geld</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_MEDIUM_MONEY</zType>
-		<Translation>Mittleres Gold</Translation>
+		<Translation>Mittleres Geld</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_HIGH_MONEY</zType>
-		<Translation>Hohes Gold</Translation>
+		<Translation>Hohes Geld</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_VERY_HIGH_MONEY</zType>
-		<Translation>Sehr hohes Gold</Translation>
+		<Translation>Sehr hohes Geld</Translation>
 	</Entry>
 </Root>

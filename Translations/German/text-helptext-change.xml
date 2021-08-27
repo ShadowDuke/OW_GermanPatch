@@ -1277,7 +1277,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LAWS_ACTIVE</zType>
-		<Translation>Aktive/s {singular_0:Gesetz:Gesetze}: </Translation>
+		<Translation>{singular_0:Aktives Gesetz:Aktive Gesetze}: </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LAWS_AVAILABLE</zType>
@@ -1381,7 +1381,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TRADE_LUXURY_OPINION</zType>
-		<Translation>Meinung von einem Luxusgut: {0_value}/Jahr</Translation>
+		<Translation>Meinung von beliebigem Luxusgut: {0_value}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TRADE_LUXURY_MISSING_OPINION</zType>
@@ -1477,7 +1477,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PLAYER_STATUS_PLAYING</zType>
-		<Translation>Zum am spielen</Translation>
+		<Translation>Zug am spielen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PLAYER_NATION_SELECT</zType>

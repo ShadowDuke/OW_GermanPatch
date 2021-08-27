@@ -163,7 +163,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_START_QUEST</zType>
-		<Translation>Du hast eine Quest gestartet: {0}{true_1: (within {1} turns)}</Translation>
+		<Translation>Du hast eine Quest gestartet: {0}{true_1: (innerhalb {1} turns)}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_FINISH_AMBITION</zType>
@@ -187,11 +187,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_MAKE_LEGACY</zType>
-		<Translation>An old link(CONCEPT_AMBITION), {0_ambition}, is now link(CONCEPT_LEGACY,1). You will have {1} {2_turnScale} to complete it.</Translation>
+		<Translation>Eine alte link(CONCEPT_AMBITION), {0_ambition}, ist nun ein link(CONCEPT_LEGACY,1). Du hast {1} {2_turnScale} Zeit um sie zu vollenden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_MAKE_LEGACIES</zType>
-		<Translation>The following link(CONCEPT_AMBITION,2) are now link(CONCEPT_LEGACY,2):</Translation>
+		<Translation>Die folgendenden link(CONCEPT_AMBITION,2) sind nun link(CONCEPT_LEGACY,2):</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_MAKE_LEGACIES_GOAL</zType>
@@ -199,7 +199,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_AMBITION_IMPOSSIBLE</zType>
-		<Translation>Diese {true_1:Legacy:Ambition} ist nun unmöglich und wurde entfernt: {0}</Translation>
+		<Translation>{true_1:Dieses Vermächtmis:Diese Ambition} ist nun unmöglich und wurde entfernt: {0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_QUEST_IMPOSSIBLE</zType>
@@ -356,7 +356,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DECISION_DEAD_AGENT</zType>
-		<Translation>{0_character}, link(CONCEPT_AGENT) in {1_city}, has died while still serving.</Translation>
+		<Translation>{0_character}, link(CONCEPT_AGENT) in {1_city} starb, während er sein Amt ausübte.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DECISION_DEAD_AGENT_PROMPT</zType>
@@ -449,11 +449,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_HEAD_RELIGION</zType>
-		<Translation>{0_character} wird Anführer von {1_religion}</Translation>
+		<Translation>{0_character} wird Oberhaupt von {1_religion}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_HEAD_FAMILY</zType>
-		<Translation>{0_character} Wird Anführer von {1_family}</Translation>
+		<Translation>{0_character} Wird Oberhaupt von {1_family}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_FAMILY_LAW</zType>
@@ -465,11 +465,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_FREE_LAW</zType>
-		<Translation>Kostenloses {0_law}</Translation>
+		<Translation>Freies {0_law}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_FREE_THEOLOGY</zType>
-		<Translation>Kostenlose {0_theology} ({1_religion})</Translation>
+		<Translation>Freie {0_theology} ({1_religion})</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_FOUND_RELIGION_CITY</zType>
@@ -501,7 +501,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_IMPROVEMENTS_DESTROYED</zType>
-		<Translation><![CDATA[{0_value} <singular_0>Verbesserung<plural>Verbesserungen<end> Destroyed]]></Translation>
+		<Translation><![CDATA[{0_value} <singular_0>Verbesserung<plural>Verbesserungen<end> zerstört]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_HP</zType>
@@ -573,11 +573,11 @@
   </Entry>
   <Entry>
 		<zType>TEXT_GAME_DO_BONUS_PLAYER_FREE_LAW</zType>
-		<Translation>{0_player}: Kostenloses {1_law}</Translation>
+		<Translation>{0_player}: Freies {1_law}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_MAKE_GOVERNOR</zType>
-		<Translation>link(CONCEPT_GOVERNOR von {0_city}</Translation>
+		<Translation>link(CONCEPT_GOVERNOR) von {0_city}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_MAKE_GENERAL</zType>
@@ -745,7 +745,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CITY_DISCONTENT_CHANGE_LOG_DATA</zType>
-		<Translation><![CDATA[{0_level} Unruhe <singular_0>Stufe<plural>Stufen<end> in {1_city}]]></Translation>
+		<Translation><![CDATA[{0_level} Unzufriedenheit <singular_0>Stufe<plural>Stufen<end> in {1_city}]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_UNIT_ATTACKED_LOG_DATA</zType>
@@ -830,7 +830,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TILE_NOT_UNLIMBERED</zType>
-		<Translation>Not Unlimbered</Translation>
+		<Translation>Nicht abgeprotzt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TILE_REQUIRES_ANCHORED</zType>

@@ -216,7 +216,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INSURRECTION_DISCONTENT</zType>
-		<Translation>Aufstand (Unruhe)</Translation>
+		<Translation>Aufstand (Unzufriedenheit)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INSURRECTION_FAILURE</zType>
@@ -240,7 +240,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_PACIFY_CITY_SUCCESS</zType>
-		<Translation>Stadt beschwichtigen  (Erfolg)</Translation>
+		<Translation>Stadt beschwichtigen (Erfolg)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_PACIFY_CITY_SUCCESS_WEAKEN</zType>
@@ -272,15 +272,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_CAPTURE_SURRENDER</zType>
-		<Translation>Ergreifen (Surrender)</Translation>
+		<Translation>Ergreifen (Ergeben)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_CAPTURE_KILLED</zType>
-		<Translation>Ergreifen (Killed)</Translation>
+		<Translation>Ergreifen (Getötet)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_CAPTURE_FLEE</zType>
-		<Translation>Ergreifen (Flee)</Translation>
+		<Translation>Ergreifen (Fliehen)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_PAY_RANSOM</zType>
@@ -532,7 +532,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_A_DARK_PALL_OPTION_0</zType>
-		<Translation>Took my own life</Translation>
+		<Translation>Mir das Leben genommen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_DUEL_OF_FATES_OPTION_2</zType>
@@ -1028,11 +1028,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_EXECUTED_SPIES_OPTION_1_CHARACTER_1</zType>
-		<Translation>Sent spies who were caught and executed</Translation>
+		<Translation>Schickte Spione welche gefasst und exekutiert wurden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NEW_ALLIANCE_OPTION_0_CHARACTER_1</zType>
-		<Translation>Successfully forced barbarian alliance</Translation>
+		<Translation>Erfolgreich barbarisches Bündnis erzwungen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DEMAND_TRIBUTE_MERCY_AGREE</zType>
@@ -1044,11 +1044,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DEMAND_TRIBUTE_DENOUNCED</zType>
-		<Translation>Fought back against corrupt religion head</Translation>
+		<Translation>Wehrte sich gegen korruptes Religions Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DEMAND_TRIBUTE_DEPOSED_RD</zType>
-		<Translation>Deposed Religion head</Translation>
+		<Translation>Religions Oberhaupt abgesetzt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DEMAND_TRIBUTE_MISSING_AMBASSADOR_3</zType>
@@ -1064,15 +1064,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_A_FRIENDLY_WARNING_REJECT_PLAYER</zType>
-		<Translation>Refused tribal help</Translation>
+		<Translation>Verweigerte Stammes Hilfe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SUCESSION_THEM_VISIT_1</zType>
-		<Translation>Befriended a new ruler</Translation>
+		<Translation>Mit neuem Herrscher angefreundet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SUCESSION_THEM_VISIT_3</zType>
-		<Translation>Refused to treat with a new ruler</Translation>
+		<Translation>Geweigert mit einem neuen Herrscher zu handeln</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SUCCESSION_THEM_GIFTS_1</zType>
@@ -1080,7 +1080,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SUCCESSION_THEM_PEACE_1</zType>
-		<Translation>Accepted new ruler's peace</Translation>
+		<Translation>Erkannte Frieden des neuen Herrschers an</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SUCCESSION_THEM_PRIDE_0</zType>
@@ -1104,7 +1104,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SUCCESSION_THEM_AGENT_0</zType>
-		<Translation>Exposed leader's agent</Translation>
+		<Translation>Entblößte Oberhaupts Agent</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SUCESSION_THEM_DEPOSED_0</zType>
@@ -1155,11 +1155,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_TEACHING_THE_ENEMY_OPTION_0_CHARACTER_0</zType>
-		<Translation>I made a barbarian a courtier</Translation>
+		<Translation>Ich habe einen Barbar zum Vertrauen gemacht</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_HOMELAND_BURNING_OPTION_2</zType>
-		<Translation>Watched a conquered city burn</Translation>
+		<Translation>Guckte zu, wie eine eroberte Stadt brannte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_EXOTIC_INFLUENCE_OPTION_0_CHARACTER</zType>
@@ -1167,7 +1167,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_EXOTIC_INFLUENCE_OPTION_1_CHARACTER</zType>
-		<Translation>Displayed barbarian spoils</Translation>
+		<Translation>Barbarische Beute ausgestellt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_KINGS_RANSOM_OPTION_1_CHARACTER_0</zType>
@@ -1183,7 +1183,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_PRINCE_WARD</zType>
-		<Translation>Adopted a barbarian prince</Translation>
+		<Translation>Einen barbarsichen Prinzen adoptiert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_TRIBAL_CONFEDERATION_OPTION_1</zType>
@@ -1199,7 +1199,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_LOVE_AND_WAR_OPTION_0_CHARACTER_0</zType>
-		<Translation>Refused barbarian marriage proposal</Translation>
+		<Translation>Lehnte einen barbarischen Heiratsvorschlag ab</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_ACQUIRED_TASTES_DESTROY</zType>
@@ -1215,7 +1215,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_THE_TIDE_OF_BATTLE_OPTION_2_PLAYER_1</zType>
-		<Translation>Died in battle after refusing to retreat</Translation>
+		<Translation>Starb in der Schlacht weil geweigert sich zurückzuziehen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_GENERAL_DUEL</zType>
@@ -1223,11 +1223,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_HONORED_ENEMY_LEG_NEG</zType>
-		<Translation>General honored by enemy</Translation>
+		<Translation>Feldherr geehrt vom Gegner</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_HONORED_ENEMY_LEG_POS</zType>
-		<Translation>General honored by enemy</Translation>
+		<Translation>Feldherr geehrt vom Gegner</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_BARRACKS_HEIR_1</zType>
@@ -1243,11 +1243,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_STUDY_TRANSLATIONS_YES_LEADER</zType>
-		<Translation>Looked to foreign texts for knowledge</Translation>
+		<Translation>Blickte wissbegierig auf ausländische Schriften</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_STUDY_TRANSLATIONS_EDUCATED</zType>
-		<Translation>Translated foreign texts myself</Translation>
+		<Translation>Übersetzte ausländische Schriften selber</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_INCRIMINATING_MESSAGES_OPTION_0_CHARACTER_0</zType>
@@ -1255,7 +1255,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_BASELESS_ACCUSATIONS_OPTION_0_CHARACTER_0</zType>
-		<Translation>Made false accusations</Translation>
+		<Translation>Machte falsche Anschuldigungen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTSTORY_NO_EVIDENCE_CHARACTER_2</zType>
@@ -1263,27 +1263,27 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_WINNING_FAVOR_OPTION_2_CHARACTER_2</zType>
-		<Translation>Threatened family</Translation>
+		<Translation>Familie bedroht</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_FEAST_OPTION_3_CHARACTER</zType>
-		<Translation>Attended tribal feast alone</Translation>
+		<Translation>Besuchte Festmahl eines Stammes alleine</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_STUDY_RIVALS_2</zType>
-		<Translation>Child under-performing in studies</Translation>
+		<Translation>Kind beim lernen leistungsschwach</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TEEN_IDOL_0</zType>
-		<Translation>Child encouraged in leadership</Translation>
+		<Translation>Führung des Kindes ermutigt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TEEN_IDOL_1</zType>
-		<Translation>Child following others</Translation>
+		<Translation>Kind befolgt Befehle</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TIME_FOR_A_BREAK_DRINK</zType>
-		<Translation>Time for a Break</Translation>
+		<Translation>Zeit für eine Pause</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_EPIC_POETRY_TEACH</zType>
@@ -1319,7 +1319,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_TAX_HIKE_OPTION_1</zType>
-		<Translation>Refused to raise taxes</Translation>
+		<Translation>Geweigert die Steuern zu erhöhen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_FORBIDDEN_KNOWLEDGE_OPTION_2</zType>
@@ -1331,11 +1331,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_KIDNAPPED_CONSORT_OPTION_2</zType>
-		<Translation>I removed my son as heir</Translation>
+		<Translation>Ich habe meinen Sohn als Erben entfernt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_AMITY_OR_TREASON_OPTION_0</zType>
-		<Translation>Agreed to abidcate</Translation>
+		<Translation>Einverstanden abzudanken</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_TEDIUM_ON_THE_THRONE_OPTION_0</zType>
@@ -1343,15 +1343,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_THE_WILD_HUNT_OPTION_0</zType>
-		<Translation>I went on the Wild Hunt</Translation>
+		<Translation>Ich nahm an der Wilden Jagd teil</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_THE_WILD_HUNT_OPTION_1</zType>
-		<Translation>I refused the Wild Hunt</Translation>
+		<Translation>Ich habe mich der Wilden Jadg verweigert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_A_FAMILY_WARNING_OPTION_1</zType>
-		<Translation>Imprisoned member of noble family</Translation>
+		<Translation>Mitglied einer Adelsfamilie gefangengenommen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_JOB_OPENING_OPTION_0</zType>
@@ -1387,11 +1387,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_TOO_MUCH_OF_A_GOOD_THING_OPTION_0</zType>
-		<Translation>I defied medicine</Translation>
+		<Translation>Ich verachtete Heilkünste</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHILD_ROYAL_BIRTH_PRESENT</zType>
-		<Translation>Royal Birth</Translation>
+		<Translation>Königliche Geburt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_BULLYING_HEIR_ESCALATION_DISCOVERED_OK</zType>
@@ -1419,7 +1419,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_MASTER_OF_WHISPERS_FRIENDS</zType>
-		<Translation>Just friends</Translation>
+		<Translation>Nur Freunde</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_HEIR_BYPASSED_SITUATION_INFLUENCE</zType>

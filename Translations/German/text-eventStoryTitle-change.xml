@@ -275,7 +275,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THOUGHTS_WORDS_DEEDS_TITLE</zType>
-		<Translation>Thoughts, Words and Deeds</Translation>
+		<Translation>Gedanken, Worte und Taten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_A_HOUSE_OF_SONG_TITLE</zType>
@@ -4145,19 +4145,19 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_COURTIER_A1_TITLE</zType>
-		<Translation>Great Achievers</Translation>
+		<Translation>Großartige Überflieger</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_COURTIER_A2_TITLE</zType>
-		<Translation>Brilliant Achievers</Translation>
+		<Translation>Brilliante Überflieger</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_COURTIER_B1_TITLE</zType>
-		<Translation>Great Thinkers</Translation>
+		<Translation>Großartige Denker</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_COURTIER_B2_TITLE</zType>
-		<Translation>Brilliant Thinkers</Translation>
+		<Translation>Brilliante Denker</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_WISDOM_LITERATURE_TITLE</zType>
@@ -4165,11 +4165,11 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_A_PROMOTION_TITLE</zType>
-		<Translation>A Promotion</Translation>
+		<Translation>Eine Beförderung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_DIPLOMATIC_MISSION_TITLE</zType>
-		<Translation>Diplomatic Mission</Translation>
+		<Translation>Diplomatische Mission</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_RIFT_IN_THE_COURT_TITLE</zType>
@@ -4177,11 +4177,11 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_ANNEXATION_TITLE</zType>
-		<Translation>Annexation</Translation>
+		<Translation>Annektierung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_POISON_ON_THE_TREE_TITLE</zType>
-		<Translation>Poison on the Tree</Translation>
+		<Translation>Gift am Baum</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_A_GRUESOME_EXAMPLE_TITLE</zType>
@@ -4189,11 +4189,11 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_FOREIGN_FIGHTERS_TITLE</zType>
-		<Translation>Foreign Fighters</Translation>
+		<Translation>Fremde Kämpfer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_OFFENSIVE_BEHAVIOR_TITLE</zType>
-		<Translation>Offensive Behavior</Translation>
+		<Translation>Anzügliches Verhalten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_THE_UNIVERSAL_ORDER_TITLE</zType>
@@ -4205,7 +4205,7 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_THE_MECHANISM_TITLE</zType>
-		<Translation>The Mechanism</Translation>
+		<Translation>Die Vorrichtung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_TABOOS_TITLE</zType>
@@ -4213,35 +4213,35 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_SCIENCE_OR_MAGIC_TITLE</zType>
-		<Translation>link(YIELD_SCIENCE) or Magic?</Translation>
+		<Translation>link(YIELD_SCIENCE) oder Magie?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_UNETHICAL_PRACTICES_TITLE</zType>
-		<Translation>Unethical Practices</Translation>
+		<Translation>Unmoralische Methoden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_LIFESTYLES_OF_THE_RICH_TITLE</zType>
-		<Translation>Lifestyles of the Rich</Translation>
+		<Translation>Lebensweise der Reichen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_LEFT_BEHIND_TITLE</zType>
-		<Translation>Left Behind</Translation>
+		<Translation>Zurückgelassen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_MERCHANT_TOWN_TITLE</zType>
-		<Translation>Merchant Town</Translation>
+		<Translation>Kaufmann Stadt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GP_STICKY_FINGERS_TITLE</zType>
-		<Translation>Sticky Fingers</Translation>
+		<Translation>Klebrige Finger</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DEATH_A_LONG_FALL_TITLE</zType>
-		<Translation>A Long Fall</Translation>
+		<Translation>Ein weiter Fall</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DEATH_TRAMPLED_TITLE</zType>
-		<Translation>Trampled</Translation>
+		<Translation>Zerstampft</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DEATH_STRICKEN_DOWN_TITLE</zType>
@@ -4249,39 +4249,39 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DEATH_VANISHED_TITLE</zType>
-		<Translation>Vanished</Translation>
+		<Translation>Verschwunden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DEATH_DARK_WATERS_TITLE</zType>
-		<Translation>Dark Waters</Translation>
+		<Translation>Dunkle Gewässer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DEATH_DEADLY_DRINK_TITLE</zType>
-		<Translation>Deadly Drink</Translation>
+		<Translation>Tötlicher Trunk</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DEATH_BRAWL_TITLE</zType>
-		<Translation>Brawl</Translation>
+		<Translation>Rauferei</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DEATH_THE_PRICE_OF_POWER_TITLE</zType>
-		<Translation>The Price of Power</Translation>
+		<Translation>Der Preis der Macht</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DEATH_ACT_OF_MALICE_TITLE</zType>
-		<Translation>Act of Malice</Translation>
+		<Translation>Niederträchtiger Akt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_NO_SIGNS_OF_LIFE_TITLE</zType>
-		<Translation>No Signs of Life</Translation>
+		<Translation>Kein Zeichen von Leben</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_MYSTERIOUS_INFANT_TITLE</zType>
-		<Translation>Mysterious Infant</Translation>
+		<Translation>Geheimnisvoller Säugling</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_FRAGILE_TITLE</zType>
-		<Translation>Fragile</Translation>
+		<Translation>Zerbrechlich</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_NATAL_ASTROLOGER_TITLE</zType>
@@ -4289,31 +4289,31 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_JOY_AND_PAIN_TITLE</zType>
-		<Translation>Joy and Pain</Translation>
+		<Translation>Freude und Schmerz</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HEIR_THE_CALLING_TITLE</zType>
-		<Translation>The Calling</Translation>
+		<Translation>Die Berufung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_KILLED_IN_ACTION_TITLE</zType>
-		<Translation>Killed in Action</Translation>
+		<Translation>Im Felde gefallen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_ENLISTMENT_TITLE</zType>
-		<Translation>Enlistment</Translation>
+		<Translation>Einberufung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_COMMON_LOVE_TITLE</zType>
-		<Translation>Common Love</Translation>
+		<Translation>Alltägliche Liebe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_STRONG_OPINIONS_TITLE</zType>
-		<Translation>Strong Opinions</Translation>
+		<Translation>Starke Meinungen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_BIG_QUESTIONS_TITLE</zType>
-		<Translation>Big Questions</Translation>
+		<Translation>Wichtige Fragen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_PETTY_CRIMES_TITLE</zType>
@@ -4321,7 +4321,7 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_THE_PUPPIES_TITLE</zType>
-		<Translation>The Puppies</Translation>
+		<Translation>Die Welpen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_AFFAIRS_OF_THE_CITY_TITLE</zType>
@@ -4329,23 +4329,23 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_WISE_INVESTMENTS_TITLE</zType>
-		<Translation>Wise Investments</Translation>
+		<Translation>Weise Investitionen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_WITH_CHILD_M_TITLE</zType>
-		<Translation>Paternity</Translation>
+		<Translation>Vaterschaft</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_WITH_CHILD_F_TITLE</zType>
-		<Translation>With Child</Translation>
+		<Translation>Schwanger</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_THE_BIRTHDAY_GIFT_TITLE</zType>
-		<Translation>The Birthday Gift</Translation>
+		<Translation>Das Geburtstagsgeschenk</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_FALSE_ACCUSATION_TITLE</zType>
-		<Translation>False Accusation</Translation>
+		<Translation>Falsche Anschuldigungen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_SEE_THE_WORLD_TITLE</zType>
@@ -4361,7 +4361,7 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_ELOPED_TITLE</zType>
-		<Translation>Eloped!</Translation>
+		<Translation>Durchgebrannt!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_A_QUESTION_OF_SUCCESSION_TITLE</zType>
@@ -4373,27 +4373,27 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_OPPORTUNISTS_TITLE</zType>
-		<Translation>Opportunists</Translation>
+		<Translation>Opportunisten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_THE_RETURN_TITLE</zType>
-		<Translation>The Return</Translation>
+		<Translation>Die Rückkehr</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_HARSH_WORDS_TITLE</zType>
-		<Translation>Harsh Words</Translation>
+		<Translation>Harsche Worte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_REVENANTS_TITLE</zType>
-		<Translation>Revenants</Translation>
+		<Translation>Wiedergänger</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_WISDOM_WITH_AGE_TITLE</zType>
-		<Translation>Wisdom with Age</Translation>
+		<Translation>Lebenserfahrung aufgrund Alter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_BLOODLESS_REBELLION_TITLE</zType>
-		<Translation>Bloodless Rebellion</Translation>
+		<Translation>Unblutige Rebellion</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_LEGACY_OF_GOLD_TITLE</zType>
@@ -4401,7 +4401,7 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_TWILIGHT_YEARS_TITLE</zType>
-		<Translation>Twilight Years</Translation>
+		<Translation>Zwielichtige Jahre</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_THE_HEIRS_CUP_TITLE</zType>
@@ -4409,27 +4409,27 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_THE_HEIRS_CUP_POISONED_TITLE</zType>
-		<Translation>Poisoned!</Translation>
+		<Translation>Vergiftet!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_FINAL_CAMPAIGN_TITLE</zType>
-		<Translation>The Final Campaign</Translation>
+		<Translation>Der letzte Wettkampf</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_BIOGRAPHY_TITLE</zType>
-		<Translation>Biography</Translation>
+		<Translation>Biographie</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RELATIONSHIP_NO_SMALL_FAVOR_TITLE</zType>
-		<Translation>No Small Favor</Translation>
+		<Translation>Keine kleinen Gefallen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RELATIONSHIP_PROBLEM_CHILD_TITLE</zType>
-		<Translation>Problem Child</Translation>
+		<Translation>Sorgenkind</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RELATIONSHIP_DEATH_IN_THE_FAMILY_TITLE</zType>
-		<Translation>Death in the Family</Translation>
+		<Translation>Tot in der Familie</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RELATIONSHIP_A_SPARK_TITLE</zType>
@@ -4437,11 +4437,11 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SOMETHING_REAL_TITLE</zType>
-		<Translation>Something Real</Translation>
+		<Translation>Etwas echtes</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RELATIONSHIP_LOVE_TRIANGLE_TITLE</zType>
-		<Translation>Love Triangle</Translation>
+		<Translation>Dreiecksbeziehung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GRADUATED_RIVAL_MENTOR_TITLE</zType>
@@ -4449,23 +4449,23 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_TIME_FOR_REJOICING_TITLE</zType>
-		<Translation>Time to Rejoice</Translation>
+		<Translation>Zeit sich zu freuen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GRADUATED_CHILD_RETURNS_TITLE</zType>
-		<Translation>{CHARACTER-SHORT-0} Returns</Translation>
+		<Translation>{CHARACTER-SHORT-0} kehrt zurück</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GRADUATE_AIR_OF_CERTAINTY_TITLE</zType>
-		<Translation>Family or Loyalty?</Translation>
+		<Translation>Familie oder Loyalität?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_NOT_WITHOUT_RISK_TITLE</zType>
-		<Translation>Training Accident</Translation>
+		<Translation>Trainings Unfall</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_EXCELLENT_STUDENT_TITLE</zType>
-		<Translation>Excellent Student</Translation>
+		<Translation>Ausgezeichneter Schüler</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_WILDERNESS_SURVIVAL_TITLE</zType>
@@ -4477,19 +4477,19 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_DISCIPLINARY_ACTION_TITLE</zType>
-		<Translation><![CDATA[Disciplinary Action]]></Translation>
+		<Translation><![CDATA[Disziplinarische Handlung]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_GOLDEN_VOICE_TITLE</zType>
-		<Translation>Golden Voice</Translation>
+		<Translation>Goldene Stimme</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_SPENDTHRIFT_TITLE</zType>
-		<Translation>Spendthrift</Translation>
+		<Translation>Verschwenderisch</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_THE_MISEDUCATION_OF_TITLE</zType>
-		<Translation>Miseducation of {CHARACTER-SHORT-0}</Translation>
+		<Translation>Fehlerziehung von {CHARACTER-SHORT-0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_KINDRED_SPIRITS_TITLE</zType>
@@ -4505,15 +4505,15 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DEAR_PARENT_TITLE</zType>
-		<Translation>Dear {G1:Father:Mother}</Translation>
+		<Translation>{G1:Lieber Vater:Liebe Mutter}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHANGE_STUDIES_TITLE</zType>
-		<Translation>Change of Studies</Translation>
+		<Translation>Wechsel des Studiums</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_A_REMARKABLE_YOUTH_TITLE</zType>
-		<Translation>A Remarkable Youth</Translation>
+		<Translation>Eine bemerkenswerte Jugend</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CAUSE_FOR_WORRY_TITLE</zType>
@@ -4525,11 +4525,11 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_INFIDELITY_TITLE</zType>
-		<Translation>Infidelity</Translation>
+		<Translation>Untreue</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLEA_FOR_MERCY_TITLE</zType>
-		<Translation>Plea for Mercy</Translation>
+		<Translation>Bitte um Erbarmen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GOWNS_OF_SILK_TITLE</zType>
@@ -4537,7 +4537,7 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_FAMILY_FIRST_TITLE</zType>
-		<Translation>Family First</Translation>
+		<Translation>Familie zuerst</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_WORD_OF_A_COUP_TITLE</zType>
@@ -4553,11 +4553,11 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_UNHAPPY_SIBLING_TITLE</zType>
-		<Translation>Unhappy Sibling</Translation>
+		<Translation>Unzufriedene Geschwister</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DATE_NIGHT_TITLE</zType>
-		<Translation>Romantic Evening</Translation>
+		<Translation>Romantischer Abend</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DOMESTIC_DISPUTE_TITLE</zType>
@@ -4565,7 +4565,7 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SIGNS_OF_LUNACY_TITLE</zType>
-		<Translation>Signs of Lunacy</Translation>
+		<Translation>Anzeichen von Wahsninn</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_WORRISOME_MATCH_TITLE</zType>
@@ -4581,7 +4581,7 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_VERY_CHARMING_TITLE</zType>
-		<Translation>Very Charming</Translation>
+		<Translation>Sehr charmant</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LOVE_AFFAIR_TITLE</zType>
@@ -4597,7 +4597,7 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GRADUATE_THE_RETURN_OF_CHARACTER_TITLE</zType>
-		<Translation>The Return of {CHARACTER-0}</Translation>
+		<Translation>Die Rückkehr von {CHARACTER-0}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_A_SCOUNDREL_TITLE</zType>
@@ -4605,11 +4605,11 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GRADUATION_A_CITY_CELEBRATES_TITLE</zType>
-		<Translation>A City Celebrates</Translation>
+		<Translation>Eine Stadt feiert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_GRADUATION_HOMECOMING_TITLE</zType>
-		<Translation>Homecoming</Translation>
+		<Translation>Heimkehr</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHANGE_OF_HEART_TITLE</zType>
@@ -4621,11 +4621,11 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DISMISSAL_TITLE</zType>
-		<Translation>Source of Power</Translation>
+		<Translation>Quelle der Macht</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_SPECIAL_RECOGNITION_01_TITLE</zType>
-		<Translation>Special Recognition</Translation>
+		<Translation>Besondere Anerkennung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_SPECIAL_RECOGNITION_02_TITLE</zType>
@@ -4633,11 +4633,11 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_SPECIAL_RECOGNITION_03_TITLE</zType>
-		<Translation>The Bloody Court</Translation>
+		<Translation>Der blutige Hofstaat</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_NEW_FRIENDS_01_TITLE</zType>
-		<Translation>Making Friends</Translation>
+		<Translation>Freunde suchen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_A_RULER_FALLS_TITLE</zType>
@@ -4645,7 +4645,7 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CULTURE_ORIGIN_OF_THE_STATE_TITLE</zType>
-		<Translation>Origin of the State</Translation>
+		<Translation>Ursprung des Reiches</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CULTURE_A_FIERY_RIDE_TITLE</zType>
@@ -4657,7 +4657,7 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CULTURE_THE_LOSER_TITLE</zType>
-		<Translation>The Loser</Translation>
+		<Translation>Der Versager</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CULTURE_CELEBRATION_CHAMPIONS_TITLE</zType>
@@ -4665,23 +4665,23 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_RIOTS_IN_THE_STREETS_TITLE</zType>
-		<Translation>Riots in the Streets</Translation>
+		<Translation>Unruhen in den Straßen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_TACTICS_ARCHETYPES_TITLE</zType>
-		<Translation>Tactics Studies</Translation>
+		<Translation>Taktik Studium</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_RHETORIC_ARCHETYPES_TITLE</zType>
-		<Translation>Rhetoric Studies</Translation>
+		<Translation>Redekunst Studium</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_COMMERCE_ARCHETYPES_TITLE</zType>
-		<Translation>Commerce Studies</Translation>
+		<Translation>Wirtschaft Studium</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_PHILOSOPHY_ARCHETYPES_TITLE</zType>
-		<Translation>Philosophy Studies</Translation>
+		<Translation>Philosophie Studium</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SCHEMER_SUCCESSION_TITLE</zType>
@@ -4701,11 +4701,11 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_FOREIGN_BRIBES_TITLE</zType>
-		<Translation>Foreign Bribes</Translation>
+		<Translation>Fremde Bestechungen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_SYCOPHANT_TITLE</zType>
-		<Translation>Sycophant</Translation>
+		<Translation>Speichellecker</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_PREEMPTIVE_STRIKE_TITLE</zType>
@@ -4713,7 +4713,7 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_THE_OLD_GUARD_TITLE</zType>
-		<Translation>The Old Guard</Translation>
+		<Translation>Die alte Garde</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_AFFAIRS_OF_THE_HEART_TITLE</zType>
@@ -4729,15 +4729,15 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_WARMONGERS_TITLE</zType>
-		<Translation>Warmongers?</Translation>
+		<Translation>Kriegstreiber?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_THE_SPEECHES_TITLE</zType>
-		<Translation>The Speeches</Translation>
+		<Translation>Die Ansprachen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_BIRTHRIGHT_TITLE</zType>
-		<Translation>Birthright</Translation>
+		<Translation>Geburtsrecht</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_STOP_THE_FIGHTING_TITLE</zType>
@@ -4749,23 +4749,23 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_AUDITED_TITLE</zType>
-		<Translation>Audited</Translation>
+		<Translation>Geprüft</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_RULER_FOR_LIFE_TITLE</zType>
-		<Translation>Ruler for Life</Translation>
+		<Translation>Herrscher auf Lebenszeit </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_ASCENSION_TITLE</zType>
-		<Translation>Ascension</Translation>
+		<Translation>Aufstieg</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SUCCESSION_TRUCE_TITLE</zType>
-		<Translation>A New Leaf</Translation>
+		<Translation>Ein neues Blatt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ALLIANCE_UPKEEP_TITLE</zType>
-		<Translation>Ongoing Alliance</Translation>
+		<Translation>Fortlaufendes Bündnis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ALLIANCE_END_TITLE</zType>
@@ -4773,31 +4773,31 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ALLIANCE_OPINION_TITLE</zType>
-		<Translation>Parting Ways</Translation>
+		<Translation>Trennende Wege</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_ALLIANCE_UPKEEP_TITLE</zType>
-		<Translation>Ongoing Alliance</Translation>
+		<Translation>Fortlaufendes Bündnis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_ALLIANCE_OPINION_TITLE</zType>
-		<Translation>Parting Ways</Translation>
+		<Translation>Trennende Wege</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_PEACE_UPKEEP_TITLE</zType>
-		<Translation>Renewing the link(DIPLOMACY_PEACE)</Translation>
+		<Translation>Erneuert den link(DIPLOMACY_PEACE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRIBE_PEACE_OPINION_TITLE</zType>
-		<Translation>All Good Things</Translation>
+		<Translation>All die guten Dinge</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_LOVE_KILLS_TITLE</zType>
-		<Translation>Love Kills</Translation>
+		<Translation>Liebe tötet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_FAMILY_FEUD_TITLE</zType>
-		<Translation>Family Feud</Translation>
+		<Translation>Familien Fehde</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_GREEDY_AMBITION_TITLE</zType>
@@ -4809,7 +4809,7 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_ARCHETYPE_TITLE</zType>
-		<Translation>Choose a Path</Translation>
+		<Translation>Wähle einne Weg</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_EXPLORING_ENDS_TITLE</zType>
@@ -4817,11 +4817,11 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_DEATH_TITLE</zType>
-		<Translation>End of an Era</Translation>
+		<Translation>Ende einer Ära</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_FAMILY_CHOSEN_HEIR_TITLE</zType>
-		<Translation>New Blood</Translation>
+		<Translation>Nachwuchs</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RELATIONSHIP_MAP_DISPUTE_TITLE</zType>
@@ -4833,7 +4833,7 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RELATIONSHIP_A_CALL_FOR_HELP_TITLE</zType>
-		<Translation>A Call for Help</Translation>
+		<Translation>Ein Ruf nach Hilfe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RELATIONSHIP_A_PERSONAL_LETTER_TITLE</zType>
@@ -4841,23 +4841,23 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_INSIDER_TITLE</zType>
-		<Translation>The Insider</Translation>
+		<Translation>Der Eingeweihte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RELATIONSHIP_INTRUDER_IN_THE_PALACE_TITLE</zType>
-		<Translation>Palace Intruder</Translation>
+		<Translation>Schloss Eindringling</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RELATIONSHIP_VENGEANCE_FROM_AFAR_TITLE</zType>
-		<Translation>Your Revenge</Translation>
+		<Translation>Deine Vergeltung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_A_FALLEN_RIVAL_TITLE</zType>
-		<Translation>A Fallen Rival</Translation>
+		<Translation>Ein gefallener Rivale</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_THE_STEWARD_TITLE</zType>
-		<Translation>The Steward</Translation>
+		<Translation>Der Hausmeier</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHARACTER_A_NOBLE_UPBRINGING_TITLE</zType>
@@ -4869,7 +4869,7 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTOR_SEERS_TEACHINGS_TITLE</zType>
-		<Translation>The Seer's Teachings</Translation>
+		<Translation>Die Lehren des Wahrsagers</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTOR_OUTDOOR_LESSON_TITLE</zType>
@@ -4877,27 +4877,27 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTOR_ART_OF_WAR_TITLE</zType>
-		<Translation>Art of War</Translation>
+		<Translation>Kriegskunst</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTOR_COMBAT_TRAINING_TITLE</zType>
-		<Translation>Combat Training</Translation>
+		<Translation>Schlachten Training</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTOR_MONEY_MANAGEMENT_TITLE</zType>
-		<Translation>Money Management</Translation>
+		<Translation>Geld Handhabung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTOR_TRADE_NEGOTIATIONS_TITLE</zType>
-		<Translation>Trade Negotiations</Translation>
+		<Translation>Gewerbliche Verhanldungen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTOR_HANDS_DIRTY_TITLE</zType>
-		<Translation>Hands Dirty</Translation>
+		<Translation>Schmutzige Hände</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTOR_THE_LION_TITLE</zType>
-		<Translation>The Lion</Translation>
+		<Translation>Der Löwe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTOR_ACTS_OF_CHARITY_TITLE</zType>
@@ -4905,27 +4905,27 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTOR_DAY_IN_COURT_TITLE</zType>
-		<Translation>Day in Court</Translation>
+		<Translation>Ein Tag im Hofstaat</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTOR_BYSTANDER_TITLE</zType>
-		<Translation>Bystander</Translation>
+		<Translation>Zuschauer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RELATIONSHIP_AT_DEATHS_DOOR_TITLE</zType>
-		<Translation>At Death's Door</Translation>
+		<Translation>An der Schwelle des Todes</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HEIR_SULKING_HEIR_TITLE</zType>
-		<Translation>Sulking Heir</Translation>
+		<Translation>Schmollender Erbe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HEIR_FUTURE_ACCOMPLISHMENTS_TITLE</zType>
-		<Translation>Empty Accomplishments</Translation>
+		<Translation>Bedeutungslose Fertigkeiten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HEIR_TROUBLING_BEHAVIOR_TITLE</zType>
-		<Translation>Troubling Behavior</Translation>
+		<Translation>Beunruhigendes Verhalten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_HEIR_RISING_TO_THE_ROLE_TITLE</zType>
@@ -4933,7 +4933,7 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SPOUSE_DEATH_01_TITLE</zType>
-		<Translation>A Terrible Loss</Translation>
+		<Translation>Ein schrecklicher Verlust</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SPOUSE_DEATH_02_TITLE</zType>
@@ -4941,7 +4941,7 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_SIBLING_DEATH_01_TITLE</zType>
-	<Translation>Farewell, {G0:Brother:Sister}</Translation>
+	<Translation>Gehab Dich wohl, {G0:Bruder:Schwester}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_A_TOAST_TITLE</zType>
@@ -4957,43 +4957,43 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_A_TOAST_MOTHERS_TOUCH_TITLE</zType>
-		<Translation>A {G0:Father's:Mother's} Touch</Translation>
+		<Translation>Eine {G0:Vater:Mutter} Berührung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MOTHER_IN_EXILE_TITLE</zType>
-		<Translation>{G0:Father:Mother} in Exile</Translation>
+		<Translation>{G0:Vater:Mutter} in Verbannung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_RETURN_HOME_TITLE</zType>
-		<Translation>The Return Home</Translation>
+		<Translation>Die Rückkehr nach Hause</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_RETURN_HOME_DATES_TITLE</zType>
-		<Translation>The Return Home: The Dates</Translation>
+		<Translation>Die Rückkehr nach Hause: Die Datteln</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_RETURN_HOME_WINE_TITLE</zType>
-		<Translation>The Return Home: The Wine</Translation>
+		<Translation>Die Rückkehr nach Hause: Der Wein</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_RETURN_HOME_INCENSE_TITLE</zType>
-		<Translation>The Return Home: The Incense</Translation>
+		<Translation>Die Rückkehr nach Hause: Der Weihrauch</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TIME_TO_FEAST_TITLE</zType>
-		<Translation>Time to Feast</Translation>
+		<Translation>Zeit zu feiern</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_DARK_ARTS_TITLE</zType>
-		<Translation>The Dark Arts</Translation>
+		<Translation>Die dunklen Künste</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_A_NEW_GENERAL_TITLE</zType>
-		<Translation>A New General</Translation>
+		<Translation>Ein neuer Feldherr</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CONFIRMATION_TITLE</zType>
-		<Translation>A Confirmation</Translation>
+		<Translation>Eine Zusage</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_UNFAITHFUL_TIDINGS_TITLE</zType>
@@ -5005,11 +5005,11 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CULTURE_VISITOR_FROM_THE_EAST_TITLE</zType>
-		<Translation>Visitor from the East</Translation>
+		<Translation>Besucher aus dem Osten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_LOVESICK_TITLE</zType>
-		<Translation>Lovesick</Translation>
+		<Translation>Liebeskrank</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_YOUTHFUL_ZEAL_TITLE</zType>
@@ -5017,15 +5017,15 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_EAGER_FOR_COMBAT_TITLE</zType>
-		<Translation>Eager for Combat</Translation>
+		<Translation>Eifrig zu kämpfen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_PEACEABLE_KINGDOM_TITLE</zType>
-		<Translation>Peaceable Kingdom</Translation>
+		<Translation>Friedliches Königreich</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_RETURNING_SOLDIER_TITLE</zType>
-		<Translation>Returning Soldier</Translation>
+		<Translation>Zurückkehrender Soldat</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_PHYSICAL_CONFRONTATION_TITLE</zType>
@@ -5065,15 +5065,15 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTOR_DEAD_END_TITLE</zType>
-		<Translation>Dead End</Translation>
+		<Translation>Sackgasse</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_LISTLESS_GOVERNING_TITLE</zType>
-		<Translation>Impatience</Translation>
+		<Translation>Ungeduld</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_A_KEEN_EYE_TITLE</zType>
-		<Translation>A Keen Eye</Translation>
+		<Translation>Ein wacher Blick</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_SECRET_STRIKE_TITLE</zType>
@@ -5085,19 +5085,19 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_ENTRAILS_TITLE</zType>
-		<Translation>Entrails</Translation>
+		<Translation>Gedärme</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_COURT_MOURNS_TITLE</zType>
-		<Translation>The Court Mourns</Translation>
+		<Translation>Der Hofstaat trauert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_DISTURBING_THE_PEACE_TITLE</zType>
-		<Translation>Disturbing the Peace</Translation>
+		<Translation>Den Frieden am stören</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_OUTRAGE_IN_CITY_TITLE</zType>
-		<Translation>Outrage in {CITY-1}</Translation>
+		<Translation>Ausschreitung in {CITY-1}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_REKINDLED_LOVE_TITLE</zType>
@@ -5113,11 +5113,11 @@ It seems that your quick thinking has saved you on this occassion, but what will
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_FREED_SLAVE_TITLE</zType>
-    <Translation>Freed Slave</Translation>
+    <Translation>Sklave befreit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_PERSONAL_INFLUENCE_TITLE</zType>
-		<Translation>Personal Influence</Translation>
+		<Translation>Persönlicher Einfluss</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_SYMBOLIC_GESTURE_TITLE</zType>
@@ -5133,7 +5133,7 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_AMNESTY_TITLE</zType>
-		<Translation>Amnesty</Translation>
+		<Translation>Begnadigung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_HUNGER_IN_CITY_TITLE</zType>

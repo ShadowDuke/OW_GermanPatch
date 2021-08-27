@@ -47,7 +47,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_ASSASSINATION_OF_MONARCH_REJECT</zType>
-		<Translation><![CDATA[Weise die Drohungen zurück und räche den Tot <masculine_CHARACTER-2>König<feminine>Königin<end>.]]></Translation>
+		<Translation><![CDATA[Weise die Drohungen zurück und räche <masculine_CHARACTER-2>den Toten König<feminine>die Tote Königin<end>.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_ASSASSINATION_OF_MONARCH_HOLE</zType>
@@ -55,11 +55,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_ASSASSINATION_OF_MONARCH_STALL_AGAIN</zType>
-		<Translation><![CDATA[Halt sie hin während wir uns etwas überlegen.]]></Translation>
+		<Translation><![CDATA[Haltet sie hin während wir uns etwas überlegen.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_ASSASSINATION_OF_MONARCH_BATHS</zType>
-		<Translation><![CDATA[Bereit für die Bäder. Dann verschließt die Tore und zuündet alles an.]]></Translation>
+		<Translation><![CDATA[Bereit für die Bäder. Dann verschließt die Tore und zündet alles an.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_PEACE_RESPONSE_OFFER_TRIBUTE_YES</zType>
@@ -79,7 +79,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_PEACE_RESPONSE_DEMAND_TRIBUTE_YES</zType>
-		<Translation><![CDATA[Das ist eine Vertretbare Abmachung.]]></Translation>
+		<Translation><![CDATA[Das ist eine vertretbare Abmachung.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_PEACE_RESPONSE_DEMAND_TRIBUTE_NO</zType>

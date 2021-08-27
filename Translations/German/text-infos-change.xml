@@ -21,19 +21,19 @@
 	<!--TutorialConcept-->
 	<Entry>
 		<zType>TEXT_TUTORIAL_ORDERS</zType>
-		<Translation>Orders</Translation>
+		<Translation>Befehle</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_SCOUTS</zType>
-		<Translation>Scout</Translation>
+		<Translation>Späher</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_LUXURIES</zType>
-		<Translation>Luxuries</Translation>
+		<Translation>Luxusgüter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_TOOLTIPS</zType>
-		<Translation>Tooltips</Translation>
+		<Translation>Kurzinfos</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_TECH_DECK</zType>
@@ -41,19 +41,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_CHOP_WOOD</zType>
-		<Translation>Chop Wood</Translation>
+		<Translation>Holz hacken</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_ANCHORING</zType>
-		<Translation>Anchoring</Translation>
+		<Translation>Ankern</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_SECOND_CITY</zType>
-		<Translation>Second City</Translation>
+		<Translation>Zweite Stadt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_PAGAN_SHRINE</zType>
-		<Translation>Pagan Shrine</Translation>
+		<Translation>Heidnische Schreine</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_RALLY_TROOPS</zType>
@@ -65,19 +65,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_INFLUENCE</zType>
-		<Translation>Influence</Translation>
+		<Translation>Einfluss</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_IMPRISON</zType>
-		<Translation>Imprison</Translation>
+		<Translation>Einsperren</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_INTERCESSION</zType>
-		<Translation>Intercession</Translation>
+		<Translation>Fürsprache</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_WORKER</zType>
-		<Translation>Worker</Translation>
+		<Translation>Baumeister</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_RUSH_BUYING</zType>
@@ -85,23 +85,23 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_CARAVAN_SELECTED</zType>
-		<Translation>Caravans</Translation>
+		<Translation>Karawanen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_SLINGER</zType>
-		<Translation>Slinger</Translation>
+		<Translation>Schleuderer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_WARRIOR</zType>
-		<Translation>Warrior</Translation>
+		<Translation>Krieger</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_ROUT</zType>
-		<Translation>Rout</Translation>
+		<Translation>Aufstöbern</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_UNIT_UPGRADES</zType>
-		<Translation>Unit Upgrades</Translation>
+		<Translation>Einheit befördern</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_TRIBE_CAMP_CLEARED</zType>
@@ -113,23 +113,23 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_CULTURE</zType>
-		<Translation>Culture</Translation>
+		<Translation>Kultur</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_HARVEST_RESOURCE</zType>
-		<Translation>Harvest Resource</Translation>
+		<Translation>Ressource sammeln</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_UNIT_ATTACK_COOLDOWN</zType>
-		<Translation>Attack Cooldown</Translation>
+		<Translation>Angriffs Cooldown</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_UNIT_FATIGUED</zType>
-		<Translation>Unit Fatigued</Translation>
+		<Translation>Einheit ermüdet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_UNDO</zType>
-		<Translation>Undo</Translation>
+		<Translation>Rückgängig machen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_RELIGION</zType>
@@ -137,23 +137,23 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_CHARIOT_SELECTED</zType>
-		<Translation>Chariots</Translation>
+		<Translation>Streitwagen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_NATION_CONTACT</zType>
-		<Translation>Nations</Translation>
+		<Translation>Reiche</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_TRIBES</zType>
-		<Translation>Tribes</Translation>
+		<Translation>Stämme</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_SPECIALIST</zType>
-		<Translation>Specialist</Translation>
+		<Translation>Spezialisten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_GOVERNOR</zType>
-		<Translation>Governor</Translation>
+		<Translation>Statthalter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_TRAINING_IMPROVEMENT</zType>
@@ -161,19 +161,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_TRADE_NETWORK</zType>
-		<Translation>Trade Network</Translation>
+		<Translation>Handelsnetzwerk</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_MERCENARIES</zType>
-		<Translation>Mercenaries</Translation>
+		<Translation>Söldner</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_AMBITION</zType>
-		<Translation>Ambitions</Translation>
+		<Translation>Ambitionen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_SUCCESSION</zType>
-		<Translation>Succession</Translation>
+		<Translation>Nachfolge</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_INHERITANCE_LAWS</zType>
@@ -181,19 +181,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_LEGITIMACY</zType>
-		<Translation>Legitimacy</Translation>
+		<Translation>Legitimität</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_MARRIAGE</zType>
-		<Translation>Marriage</Translation>
+		<Translation>Heirat</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_GENERAL</zType>
-		<Translation>General</Translation>
+		<Translation>Feldherr</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_SPEARMAN</zType>
-		<Translation>Spearman</Translation>
+		<Translation>Speerkämpfer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_AXEMAN</zType>
@@ -205,7 +205,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_FAMILY</zType>
-		<Translation>Families</Translation>
+		<Translation>Familien</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_AMBASSADOR</zType>
