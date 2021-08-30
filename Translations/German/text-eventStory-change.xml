@@ -4262,19 +4262,19 @@ How will we respond to this accusation?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_PEACE</zType>
-		<Translation>An envoy from {PLAYER-0,0} arrives at court. {G0:He:She} makes an offer of long-lasting peace with the {PLAYER-0,3}.
+		<Translation>Ein Gesandter von {PLAYER-0,0} kommt am Hofstaat an. {G0:Er:Sie} unterbreitet ein Angebot für einen langanhaltenden Frieden mit den {PLAYER-0,3}.
 
-How shall we reply?</Translation>
+Was sollen wir erwiedern?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_PEACE_BUILDING_TRUST</zType>
-		<Translation>A messenger arrives from {PLAYER-0,0}. "Your actions have taught us to trust your good intentions. Let us build our trust further. We should agree to a mutual peace."
+		<Translation>Eine Bote von {PLAYER-0,0} ist eingetroffen. "Eure Tanten haben uns eure guten Absichten gezeigt. Lasst uns unser Vertrauen weiter ausbauen. Wir sollten einem gegenseitigen Frieden zustimmen."
 
-How shall we reply?</Translation>
+Was sollen wir erwiedern?</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PAUSE_IN_HOSTILITIES</zType>
-		<Translation>Our enemies, the {PLAYER-0,3}, are willing to declare a truce if we will join their war against the {TRIBE-1}.</Translation>
+		<Translation>Unsere Feinde, die {PLAYER-0,3}, sind gewillt einer Waffenruhe zuzustimmen, wenn wir ihren Krieg gegen die {TRIBE-1} beitreten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_ASSASSINATION_OF_MONARCH</zType>
@@ -6401,19 +6401,19 @@ The respective heads of these link(CONCEPT_FAMILY,2), {CHARACTER-4} and {CHARACT
 	</Entry>
 	<Entry beginGroup="Character">
 		<zType>TEXT_EVENTSTORY_NEW_COURTIER_SOLDIER</zType>
-		<Translation>A new link(COURTIER_SOLDIER), {CHARACTER-SHORT-0}, has joined the court. {G0:His:Her} experience in matters of war will help keep {PLAYER-0} safe.</Translation>
+		<Translation>Ein neuer link(COURTIER_SOLDIER), {CHARACTER-SHORT-0}, ist dem Hofstaat beigetreten. {G0:Seine:Ihre} Erfahrung im Umgang mit Krieg wird {PLAYER-0} beschützen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEW_COURTIER_MINISTER</zType>
-		<Translation>A new link(COURTIER_MINISTER), {CHARACTER-SHORT-0}, has joined the court. {G0:His:Her} aptitude in matters of state will keep {PLAYER-0} moving forward.</Translation>
+		<Translation>Ein neuer link(COURTIER_MINISTER), {CHARACTER-SHORT-0}, ist dem Hofstaat beigetreten. {G0:Seine:Ihre} Begabung in Staatsangelegenheiten wird {PLAYER-0} nach Vorne treiben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEW_COURTIER_MERCHANT</zType>
-		<Translation>A new link(COURTIER_MERCHANT), {CHARACTER-SHORT-0}, has joined the court. {G0:His:Her} keen attention to economic affairs will help {PLAYER-0} prosper.</Translation>
+		<Translation>Ein neuer link(COURTIER_MERCHANT), {CHARACTER-SHORT-0}, ist dem Hofstaat beigetreten. {G0:Seine:Ihre} ausgeprägte Aufmerksamkeit für wirtschaftliche Angelegenheiten wird {PLAYER-0} helfen zu gedeihen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEW_COURTIER_SCIENTIST</zType>
-		<Translation>A new link(COURTIER_SCIENTIST), {CHARACTER-SHORT-0}, has joined the court. {G0:His:Her} curiosity and insight will aid {PLAYER-0} in unraveling the mysteries of the world.</Translation>
+		<Translation>Ein neuer link(COURTIER_SCIENTIST), {CHARACTER-SHORT-0}, ist dem Hofstaat beigetreten. {G0:Seine:Ihre} Neugier und Erkenntnis wird {PLAYER-0} helfen die in Mysterien dieser Welt zu enträtseln.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DELICIOUS_DRINKS</zType>

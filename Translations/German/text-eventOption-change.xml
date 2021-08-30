@@ -1254,11 +1254,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_PLACE_OF_DWELLING_0</zType>
-		<Translation>link(IMPROVEMENT_HOLY_SITE_JUDAISM) will be a beacon to all.</Translation>
+		<Translation>link(IMPROVEMENT_HOLY_SITE_JUDAISM) wird ein Signalfeuer für jedermann.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_PLACE_OF_DWELLING_1</zType>
-		<Translation>This is not a priority for {PLAYER-2}.</Translation>
+		<Translation>Das hat für {PLAYER-2} keine Priorität.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_GUARDIAN_FIRE_0</zType>
@@ -1286,43 +1286,43 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_DIVINE_RETRIBUTION_0</zType>
-		<Translation>None shall be spared.</Translation>
+		<Translation>Niemand wird verschont.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_DIVINE_RETRIBUTION_1</zType>
-		<Translation>Their cities shall burn for this.</Translation>
+		<Translation>Deren Städte sollen dafür brennen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_DIVINE_RETRIBUTION_2</zType>
-		<Translation>We must forgive and move on from this loss.</Translation>
+		<Translation>Wir müssen vergeben und vergessen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_THE_HOLY_CITY_0</zType>
-		<Translation>We will put on festivals like the world has never seen!</Translation>
+		<Translation>Wir werden Festspiele veranstalten, die diese Welt noch nicht gesehen hat!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_THE_HOLY_CITY_1</zType>
-		<Translation>We will train up priests as guides to the city.</Translation>
+		<Translation>Wir werden Geistliche als Führer der Städte heranbilden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_THE_HOLY_CITY_2</zType>
-		<Translation>Increase the taxes for visitors to the city.</Translation>
+		<Translation>Erhöhe die Steuern für Besucher der Stadt.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_THE_HOLY_CITY_3</zType>
-		<Translation>The city is doing well enough for now.</Translation>
+		<Translation>Der Stadt geht es noch gut genug.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_THE_HOLY_ARMY_0</zType>
-		<Translation>All shall tremble before our divine might.</Translation>
+		<Translation>Jeder soll vor unserer göttlichen Macht erzittern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_THE_HOLY_ARMY_1</zType>
-		<Translation>The {PLAYER-2,1} forces are strong enough.</Translation>
+		<Translation>Die Truppen von {PLAYER-2,1} sind stark genug.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_DIVINE_PUNISHMENT_0</zType>
-		<Translation>This was the {PLAYER-1,3} and no one else.</Translation>
+		<Translation>Das waren die {PLAYER-1,3} niemand sonst.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_DIVINE_PUNISHMENT_1</zType>
@@ -1330,7 +1330,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_DIVINE_PUNISHMENT_2</zType>
-		<Translation>We're all doomed. </Translation>
+		<Translation>Wir sind alle verloren. </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RETURNED_TO_THE_FOLD_0</zType>
@@ -1338,11 +1338,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RETURNED_TO_THE_FOLD_1</zType>
-		<Translation>Denounce the bond between them.</Translation>
+		<Translation>Verurteile deren Verbindung.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RETURNED_TO_THE_FOLD_2</zType>
-		<Translation>{CHARACTER-SHORT-0} will return on {G0:his:her} own.</Translation>
+		<Translation>{CHARACTER-SHORT-0} wird {G0:selbst:selber} zurückkehren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_AGAINST_APION_1</zType>
@@ -1354,11 +1354,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TEMPLE_MARKET_0</zType>
-		<Translation>Create a market for the whole City.</Translation>
+		<Translation>Erschaffe einen markt für die ganze Stadt.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TEMPLE_MARKET_1</zType>
-		<Translation>Let the market grow naturally.</Translation>
+		<Translation>Lass den Markt auf natürliche Weise wachsen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TEMPLE_MARKET_2</zType>
@@ -1373,35 +1373,35 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MEDICAL_AID_0</zType>
-		<Translation>It is only right to pay. </Translation>
+		<Translation>Man sollte schon bezahlen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MEDICAL_AID_1</zType>
-		<Translation>Refuse to pay.</Translation>
+		<Translation>Weigere zu zahlen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MEDICAL_AID_2</zType>
-		<Translation>These herbs will 'ease {G1:his:her} pain'...</Translation>
+		<Translation>Diese Kräter werden {G1:seine:ihre} Schmerzen lindern...</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_DEAD_SEA_SCROLLS_0</zType>
-		<Translation>Send a team to find the scrolls.</Translation>
+		<Translation>Schicke eine Gruppe um die Schriften zu finden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_DEAD_SEA_SCROLLS_1</zType>
-		<Translation>It is a tragedy, but they are lost to us.</Translation>
+		<Translation>Eine Tragödie, nun sind sie aber verloren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_DEAD_SEA_SCROLLS_2</zType>
-		<Translation>Study them yourself.</Translation>
+		<Translation>Untersuche sie selber.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_DEAD_SEA_SCROLLS_3</zType>
-		<Translation>Give them to your scholars.</Translation>
+		<Translation>Übergebe sie an deine Wissenschafler.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_DEAD_SEA_SCROLLS_4_</zType>
-		<Translation>Return them to the {RELIGION-2,1} priests.</Translation>
+		<Translation>Gib sie den {RELIGION-2,1} Priestern.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HOLY_MATRIMONY_0</zType>
@@ -1417,47 +1417,47 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MEDICAL_AID_3</zType>
-		<Translation>These herbs will ease {G1:his:her} pain...</Translation>
+		<Translation>Diese Kräter werden {G1:seine:ihre} Schmerzen lindern...</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PIT_STUDY_HELP</zType>
-		<Translation>Summon a scholar!</Translation>
+		<Translation>Rufe einen Wissenschaftler!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_THE_WEIGHT_OF_DEBT_0</zType>
-		<Translation>Our smiths will forge {G1:him:her} a great weapon.</Translation>
+		<Translation>Unsere Schmiede werden {G1:ihm:ihr} eine großartige Waffe schmieden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_THE_WEIGHT_OF_DEBT_1</zType>
-		<Translation>Set our scholars to write {G1:him:her} a book of great works.</Translation>
+		<Translation>Sagen unseren Wissenschaftlern sie sollen {G1:ihm:ihr} ein Buch der großen Worte schreiben.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_THE_WEIGHT_OF_DEBT_2</zType>
-		<Translation>Send servants with as much gold as they can carry.</Translation>
+		<Translation>Schicke Diener mit so viel Gold wie sie trange können.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_THE_WEIGHT_OF_DEBT_3</zType>
-		<Translation>I will carry this burden a little longer.</Translation>
+		<Translation>Ich werde diese Last ein wenig Länger tragen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_WEIGHT_OF_DEBT_TOOLTIP</zType>
-		<Translation>I no longer owe {CHARACTER-1}.</Translation>
+		<Translation>Ich schulde {CHARACTER-1} nichts mehr.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_SACRIFICIAL_DEER_0</zType>
-		<Translation>It will make a fine sacrifice. </Translation>
+		<Translation>Es wird ein gutes Opfer sein.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_SACRIFICIAL_DEER_1</zType>
-		<Translation>Keep the stag with the herd. </Translation>
+		<Translation>Behalte den Hirsch mit der Herde.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_SACRIFICIAL_DEER_2</zType>
-		<Translation>Take it for your own hunting grounds. </Translation>
+		<Translation>Beanspruche es als dein eigenes Jagdrevier.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_SACRIFICIAL_DEER_3</zType>
-		<Translation>Let it go free. </Translation>
+		<Translation>Überlasse es umsonst.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INSCRIPTIONS_TO_AHURA_MAZDA_0</zType>
@@ -1497,15 +1497,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_APOSTATE_LEADER_0</zType>
-		<Translation>Adopt the ways of {RELIGION-2}.</Translation>
+		<Translation>Übernehme die Gebräuche von {RELIGION-2}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_APOSTATE_LEADER_1</zType>
-		<Translation>Make {RELIGION-3} the new link(CONCEPT_STATE_RELIGION) of {PLAYER-1}.</Translation>
+		<Translation>Mache {RELIGION-3} die neue link(CONCEPT_STATE_RELIGION) von {PLAYER-1}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_APOSTATE_LEADER_2</zType>
-		<Translation>It doesn’t matter what I believe. </Translation>
+		<Translation>Es ist egal was ich glaube. </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_LEADER_OF_FAITH_0</zType>
@@ -1521,11 +1521,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_THE_OTHER_RELIGION_0</zType>
-		<Translation>Make {RELIGION-2} the new link(CONCEPT_STATE_RELIGION). </Translation>
+		<Translation>Mache {RELIGION-2} die neue link(CONCEPT_STATE_RELIGION). </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_OTHER_RELIGION_1</zType>
-		<Translation>Refuse and stay true to the ways of {RELIGION-0}.</Translation>
+		<Translation>Verweigere und bleib den Gebräuchen von {RELIGION-0} treu.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_BONDED_BY_FAITH_2</zType>
@@ -1541,15 +1541,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_BABY_IN_THE_BASKET_0</zType>
-		<Translation>Allow {CHARACTER-SHORT-1} to keep the child. </Translation>
+		<Translation>Erlaube {CHARACTER-SHORT-1} das Kind zu behalten. </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_BABY_IN_THE_BASKET_1</zType>
-		<Translation>Adopt the child as your own.</Translation>
+		<Translation>Adoptire das Kind als dein eigenes.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_BABY_IN_THE_BASKET_2</zType>
-		<Translation>Demand that the baby is cast out.</Translation>
+		<Translation>Verlange das Kind zu verstoßen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_JACHIN_AND_BOAZ_0</zType>
@@ -1589,15 +1589,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_EL_YAHWEH_BAAL_0</zType>
-		<Translation>Maybe God is not the only divine being. </Translation>
+		<Translation>Vielleicht ist Gott nicht das einzige göttliche Wesen. </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_EL_YAHWEH_BAAL_1</zType>
-		<Translation>Baal may just be another name for God. </Translation>
+		<Translation>Baal mag nur ein anderer Name für Gott sein. </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_EL_YAHWEH_BAAL_2</zType>
-		<Translation>They must be corrected. </Translation>
+		<Translation>Sie müssen Recht haben. </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_JUSTICE_AND_KINDNESS_0</zType>
@@ -1609,15 +1609,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_ALL_IS_VANITY_0</zType>
-		<Translation>Challenge him yourself.</Translation>
+		<Translation>Fordere ihn selbst heraus.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_ALL_IS_VANITY_1</zType>
-		<Translation>Allow him to continue.</Translation>
+		<Translation>Erluabe ihm weiterzumachen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_ALL_IS_VANITY_2</zType>
-		<Translation>Ban him from debating in {CITY-1}.</Translation>
+		<Translation>Banne ihn wegen Streit aus {CITY-1}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_STATUE_OF_GOD_0</zType>
@@ -1653,23 +1653,23 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_THE_CALLING_0</zType>
-		<Translation>Encourage {G1:him:her} to follow the calling.</Translation>
+		<Translation>Ermutige {G1:ihn:sie} dem Ruf zu folgen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_THE_CALLING_1</zType>
-		<Translation>Insist that {G1:he:she} didn’t hear God.</Translation>
+		<Translation>Beharre darauf, dass {G1:er:sie} nicht Gott gehört hat.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_REBEL_WRITER_0</zType>
-		<Translation>Execute him. {CHARACTER-SHORT-3} will never be {G3:king:queen}.</Translation>
+		<Translation>Richte ihn hin. {CHARACTER-SHORT-3} wird niemals {G3:König:Königin} sein.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_REBEL_WRITER_1</zType>
-		<Translation>Allow the general to go free. </Translation>
+		<Translation>Erlaube dem Feldherr als freier Mann zu gehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_REBEL_WRITER_2</zType>
-		<Translation>Give the man a trial.</Translation>
+		<Translation>Halte eine Gerichtsverhandlung für den Mann ab.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_REBEL_WRITER_RETURNS_0</zType>
@@ -1685,7 +1685,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_SACRED_LAND_0</zType>
-		<Translation>We will pay the fine. </Translation>
+		<Translation>Wir bezahlen das Strafgeld.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_SACRED_LAND_1</zType>
@@ -1745,11 +1745,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CONVERT_PERSONAL_RELIGION_YES</zType>
-		<Translation>Teach me your ways.</Translation>
+		<Translation>Lehrt mich eure Gebräuche.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CONVERT_PERSONAL_RELIGION_NO</zType>
-		<Translation>Refuse their offer.</Translation>
+		<Translation>Lehne das Angebot ab.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_EPICS_OPTION_FIVE_KILLS_GENERAL</zType>
@@ -1781,47 +1781,47 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RETURNING_THE_FAVOR_REFUSE</zType>
-		<Translation>No, {CHARACTER-SHORT-0} asks too much. </Translation>
+		<Translation>Nein, {CHARACTER-SHORT-0} verlangt zu viel. </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RETURNING_THE_FAVOR_CHANCELLOR_ACCEPT</zType>
-		<Translation>Accept, {CHARACTER-SHORT-0} will be the new link(COUNCIL_CHANCELLOR). </Translation>
+		<Translation>Akzeptiere, {CHARACTER-SHORT-0} wird der neue link(COUNCIL_CHANCELLOR). </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RETURNING_THE_FAVOR_AMBASSADOR_ACCEPT</zType>
-		<Translation>Accept {CHARACTER-SHORT-0} as link(COUNCIL_AMBASSADOR). </Translation>
+		<Translation>Akzeptiere {CHARACTER-SHORT-0} als link(COUNCIL_AMBASSADOR). </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RETURNING_THE_FAVOR_SPYMASTER_ACCEPT</zType>
-		<Translation>Serve me well, {CHARACTER-0}. </Translation>
+		<Translation>Leiste mit gute Dienste, {CHARACTER-0}. </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RETURNING_THE_FAVOR_GOVERNOR_ACCEPT</zType>
-		<Translation>Make {CHARACTER-SHORT-1} the Governor of {CITY-0}.</Translation>
+		<Translation>Mache {CHARACTER-SHORT-1} den Statthalter von {CITY-0}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RETURNING_THE_FAVOR_RELIGION_HEAD_ACCEPT</zType>
-		<Translation>We will see what we can do.</Translation>
+		<Translation>Wir werden sehen was wir tun können.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RETURNING_THE_FAVOR_DONATION_ACCEPT</zType>
-		<Translation>Let’s be done with this. </Translation>
+		<Translation>Lasst es uns hinter uns bringen. </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RETURNING_THE_FAVOR_TOOLTIP</zType>
-		<Translation>I no longer owe {CHARACTER-0}</Translation>
+		<Translation>Ich schulde {CHARACTER-0} nichts mehr</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RIVAL_AT_THE_BRIDGE_0</zType>
-		<Translation>{CHARACTER-SHORT-0} deserves every punishment possible. </Translation>
+		<Translation>{CHARACTER-SHORT-0} verdient jede mögliche Bestrafung.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RIVAL_AT_THE_BRIDGE_1</zType>
-		<Translation>No, that is too far.</Translation>
+		<Translation>Nein, das geht zu weit.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RIVAL_AT_THE_BRIDGE_2</zType>
-		<Translation>I feel nothing but forgiveness for {CHARACTER-0}. </Translation>
+		<Translation>Ich vergebe {CHARACTER-0}. </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_FOUNDING_AVESTAN_0</zType>
@@ -1833,15 +1833,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INFLUENCE_OF_RELIGION_HEAD_0</zType>
-		<Translation>Introduce {G0:him:her} to {CHARACTER-SHORT-3}.</Translation>
+		<Translation>Stelle {G0:ihn:sie} {CHARACTER-SHORT-3} vor.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INFLUENCE_OF_RELIGION_HEAD_1</zType>
-		<Translation>Encourage {G0:his:her} faith through other priests. </Translation>
+		<Translation>Ermutige {G0:seinen:ihren} Glauben durch andere Priester.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INFLUENCE_OF_RELIGION_HEAD_2</zType>
-		<Translation>This is not worth it.</Translation>
+		<Translation>Das ist es nicht Wert.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INFLUENCE_OF_RELIGION_0</zType>
@@ -1853,23 +1853,23 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INFLUENCE_OF_RELIGION_2</zType>
-		<Translation>Pressure {G0:him:her} into accepting {RELIGION-1}.</Translation>
+		<Translation>Zwinge {G0:ihn:sie} die {RELIGION-1} zu akzeptieren.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELIGIOUS_INTRIGUE_THREAT_0</zType>
-		<Translation>Refuse to be blackmailed.</Translation>
+		<Translation>Weigere dich erpresst zu werden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELIGIOUS_INTRIGUE_THREAT_1</zType>
-		<Translation>Convince {G3:him:her} that it’s all a misunderstanding. </Translation>
+		<Translation>Überzeuge {G3:ihn:sie} das es alles nur ein Missverständnis ist.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELIGIOUS_INTRIGUE_THREAT_2</zType>
-		<Translation>Agree to drop the plans.</Translation>
+		<Translation>Stimme den Plänen zu.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELIGIOUS_INTRIGUE_ENDED_OKAY</zType>
-		<Translation>What a disappointment. </Translation>
+		<Translation>Welch Enttäuschung. </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELIGIOUS_INTRIGUE_SUPPORT_0</zType>
@@ -1885,11 +1885,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELIGIOUS_INTRIGUE_SUPPORT_3</zType>
-		<Translation>No, this has gone too far.</Translation>
+		<Translation>Nein, das geht zu weit.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELIGIOUS_INTRIGUE_INFILTRATION_0</zType>
-		<Translation>Kill {CHARACTER-2}.</Translation>
+		<Translation>Töte {CHARACTER-2}.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELIGIOUS_INTRIGUE_INFILTRATION_1</zType>
@@ -1897,7 +1897,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELIGIOUS_INTRIGUE_INFILTRATION_2</zType>
-		<Translation>No, this has gone too far. </Translation>
+		<Translation>Nein, das geht zu weit.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELIGIOUS_INTRIGUE_OPPORTUNITY_0</zType>
@@ -1905,19 +1905,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELIGIOUS_INTRIGUE_OPPORTUNITY_1</zType>
-		<Translation>Not like this, we will wait for a better opportunity. </Translation>
+		<Translation>Nicht so, wir werden auf eine bessere Gelegenheit warten. </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELIGIOUS_INTRIGUE_OPPORTUNITY_2</zType>
-		<Translation>No, enough is enough.</Translation>
+		<Translation>Nein, Genug ist Genug.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELIGIOUS_INTRIGUE_DISCOVERED_0</zType>
-		<Translation>Beg forgiveness for your actions.</Translation>
+		<Translation>Flehe um Vergebung für deine Taten.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELIGIOUS_INTRIGUE_DISCOVERED_1</zType>
-		<Translation>Refuse to apologize.</Translation>
+		<Translation>Weigere dich zu entschuldigen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELIGIOUS_INTRIGUE_DISCOVERED_2</zType>

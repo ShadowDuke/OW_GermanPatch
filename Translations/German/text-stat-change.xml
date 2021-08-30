@@ -15,7 +15,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_TRIBE_CONTACTED</zType>
-		<Translation>Tribe Contacted</Translation>
+		<Translation>Stanm kontaktiert</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_TRIBE_CLEARED</zType>
@@ -27,7 +27,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_TRIBE_ALLIANCE</zType>
-		<Translation>Stamm Bpndnis</Translation>
+		<Translation>Stamm Bündnis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_MERCENARIES_RECRUITED</zType>
@@ -79,7 +79,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_IMPROVEMENT_FINISHED</zType>
-		<Translation>Verbesserungen vertiggestellt</Translation>
+		<Translation>Verbesserungen fertiggestellt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_IMPROVEMENT_REPAIRED</zType>
@@ -159,6 +159,6 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_YEARS_REIGNED</zType>
-		<Translation>jahre regiert</Translation>
+		<Translation>Jahre regiert</Translation>
 	</Entry>
 </Root>

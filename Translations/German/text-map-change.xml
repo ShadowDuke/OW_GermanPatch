@@ -179,7 +179,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_ARID_TRIBES_FIVE_HELP</zType>
-		<Translation>Verstreut</Translation>
+		<Translation>Sporadisch</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_ARID_TRIBES_FOUR</zType>
@@ -231,19 +231,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_ARID_WATER_SIZE_LARGE</zType>
-		<Translation>Große Meere</Translation>
+		<Translation>Große Seen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_ARID_WATER_SIZE_LARGE_HELP</zType>
-		<Translation>Weniger, größere Meere in unregelmäßigen Formen</Translation>
+		<Translation>Weniger, größere Seen in unregelmäßigen Formen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_ARID_WATER_SIZE_SMALL</zType>
-		<Translation>Kleine zackige Meere</Translation>
+		<Translation>Kleine zackige Seen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_ARID_WATER_SIZE_SMALL_HELP</zType>
-		<Translation>Mehrere kleine Meere werden eng und zacking sein. Sie können verbunden sein.</Translation>
+		<Translation>Mehrere kleine Seen werden eng und zacking sein. Sie können verbunden sein.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_ARID_WATER_LOCATION_RANDOM</zType>
@@ -259,23 +259,23 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_ARID_WATER_LOCATION_FAR_NORTH_HELP</zType>
-		<Translation>Usually forms bays that range offscreen</Translation>
+		<Translation>Formt meist Buchten die aus der Karte reichen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_ARID_WATER_LOCATION_MIDDLE_NORTH</zType>
-		<Translation>Middle North</Translation>
+		<Translation>Im mittleren Norden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_ARID_WATER_LOCATION_MIDDLE_NORTH_HELP</zType>
-		<Translation>Usually forms seas with land passage to their north</Translation>
+		<Translation>Formt meist Seen mit Land Passagen gen Norden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_INLAND_SEA_TRIBES_SIX</zType>
-		<Translation>Six Tribes</Translation>
+		<Translation>Sechs Stämme</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_INLAND_SEA_TRIBES_SIX_HELP</zType>
-		<Translation>Clockwise around the inland sea(s)</Translation>
+		<Translation>Gegen den Uhrzeigersinn um die Binnenseen herum</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_INLAND_SEA_TRIBES_RANDOM</zType>
@@ -283,63 +283,63 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_INLAND_SEA_TRIBES_RANDOM_HELP</zType>
-		<Translation>Varied in number and distribution</Translation>
+		<Translation>Variiert in der Anzahl und Verteilung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_INLAND_SEA_TRIBES_FOUR</zType>
-		<Translation>Four Tribes</Translation>
+		<Translation>Vier Stämme</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_INLAND_SEA_TRIBES_FOUR_HELP</zType>
-		<Translation>Quadrants</Translation>
+		<Translation>Quadranten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_INLAND_SEA_TRIBES_THREE</zType>
-		<Translation>Three Tribes</Translation>
+		<Translation>Drei Stämme</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_INLAND_SEA_TRIBES_THREE_HELP</zType>
-		<Translation>One Tribe per latitude band</Translation>
+		<Translation>Ein Stamm per Breitengrad</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_INLAND_SEA_TRIBES_TWO</zType>
-		<Translation>Two Tribes</Translation>
+		<Translation>Zwei Stämme</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_INLAND_SEA_TRIBES_TWO_HELP</zType>
-		<Translation>One west, one east</Translation>
+		<Translation>Einer Westen, einer Osten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_INLAND_SEA_TRIBES_TWO_INLAND</zType>
-		<Translation>Two Tribes, Inland</Translation>
+		<Translation>Zwei Stämme, landeinwärts</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_INLAND_SEA_TRIBES_TWO_INLAND_HELP</zType>
-		<Translation>Tribes inhabit land away from the water</Translation>
+		<Translation>Stämme bevölkern Land vom Wasser entfernt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_INLAND_SEA_TRIBES_BARBARIANS</zType>
-		<Translation>Barbarians Only</Translation>
+		<Translation>Nur Barbaren</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_INLAND_SEA_TRIBES_BARBARIANS_HELP</zType>
-		<Translation>No Tribes, only Barbarian camps</Translation>
+		<Translation>Keine Stämme, nur Barbaren Lager</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_INLAND_SEA_WATER_SIZE_LARGE</zType>
-		<Translation>Large Sea</Translation>
+		<Translation>Große Seen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_INLAND_SEA_WATER_SIZE_LARGE_HELP</zType>
-		<Translation>Aims to provide one large, irregular sea</Translation>
+		<Translation>Versucht ein großes, ungleichmäßigen See zu bestimmen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_INLAND_SEA_WATER_SIZE_SMALL</zType>
-		<Translation>Small Jagged Seas</Translation>
+		<Translation>Kleine zackige Seen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_INLAND_SEA_WATER_SIZE_SMALL_HELP</zType>
-		<Translation>Several small seas will be narrow and jagged. They may interconnect.</Translation>
+		<Translation>Mehrere kleine Seen welche schmal und zackig sind. Sie können sich verbinden.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_INLAND_SEA_PLAYER_START_SEA</zType>
@@ -347,15 +347,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_INLAND_SEA_PLAYER_START_SEA_HELP</zType>
-		<Translation>Start on the Sea</Translation>
+		<Translation>Starte auf dem Meer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_INLAND_SEA_PLAYER_START_INLAND</zType>
-		<Translation>Inland</Translation>
+		<Translation>Landeinwärts</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_INLAND_SEA_PLAYER_START_INLAND_HELP</zType>
-		<Translation>Start away from the Sea</Translation>
+		<Translation>Beginne weg vom Meer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_HARDWOOD_FOREST_PLAYER_START_SEA</zType>
@@ -363,71 +363,71 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_HARDWOOD_FOREST_PLAYER_START_SEA_HELP</zType>
-		<Translation>Start adjacent to salt water</Translation>
+		<Translation>Beginne neben Salzwasser</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_HARDWOOD_FOREST_PLAYER_START_INLAND</zType>
-		<Translation>Inland</Translation>
+		<Translation>Landeinwärts</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_HARDWOOD_FOREST_PLAYER_START_INLAND_HELP</zType>
-		<Translation>Start away from salt water</Translation>
+		<Translation>Beginne weg von Salzwasser</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_HARDWOOD_FOREST_TRIBES_FOREST</zType>
-		<Translation>Forest</Translation>
+		<Translation>Wald</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_HARDWOOD_FOREST_TRIBES_FOREST_HELP</zType>
-		<Translation>Tribes own the great forest. Nations start in the plains.</Translation>
+		<Translation>Stämmen gehört der große Wald. Reiche beginne auf den Ebenen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_HARDWOOD_FOREST_TRIBES_PLAINS</zType>
-		<Translation>Plains</Translation>
+		<Translation>Ebenen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_HARDWOOD_FOREST_TRIBES_PLAINS_HELP</zType>
-		<Translation>Tribes occupy the open plains. Nations start in the forest.</Translation>
+		<Translation>Stämme bewohnen die offenen Ebenen. Reiche beginnen im Wald.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_HARDWOOD_FOREST_TRIBES_SCATTERED</zType>
-		<Translation>Scattered</Translation>
+		<Translation>Sporadisch</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_HARDWOOD_FOREST_TRIBES_SCATTERED_HELP</zType>
-		<Translation>Nations and Tribes can start anywhere</Translation>
+		<Translation>Reiche und Stämme können überall beginnen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_NORTHERN_OCEAN_PLAYER_START_CONTINENT</zType>
-		<Translation>On the Continent</Translation>
+		<Translation>Auf dem Kontinent</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_NORTHERN_OCEAN_PLAYER_START_CONTINENT_HELP</zType>
-		<Translation>Start on the main continent. Selecting a high number of Nations may require some to be in the north.</Translation>
+		<Translation>Beginne auf dem Hauptkontinent. Mehrere Reiche auszuwählen kann einige von ihnen im Norden erforderlich machen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_NORTHERN_OCEAN_PLAYER_START_ISLANDS</zType>
-		<Translation>Islands and Peninsulas</Translation>
+		<Translation>Landeinwärts und Halbinseln</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_NORTHERN_OCEAN_PLAYER_START_ISLANDS_HELP</zType>
-		<Translation>Start in the north, on an island or snaky peninsula. Selecting a high number of Nations may require some to be on the continent.</Translation>
+		<Translation>Beginne im Norden auf einer Insel oder Halbinsel. Mehrere Reiche auszuwählen kann einige von ihnen auf einem Kontinent erforderlich machen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_NORTHERN_OCEAN_TRIBES_NATIVE</zType>
-		<Translation>Native</Translation>
+		<Translation>Einheimische</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_NORTHERN_OCEAN_TRIBES_NATIVE_HELP</zType>
-		<Translation>Use Tribal homelands native to Northern Ocean</Translation>
+		<Translation>Benutzt Stammesvaterland beiheimatet zur Nordsee</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_NORTHERN_OCEAN_TRIBES_RANDOM</zType>
-		<Translation>Random</Translation>
+		<Translation>Zufällig</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_NORTHERN_OCEAN_TRIBES_RANDOM_HELP</zType>
-		<Translation>Makes use of a randomly selected core Tribe method instead of using the one tailored to this map</Translation>
+		<Translation>Benutzt zufällig ausgewählte Hauptstämme "Methode" anstatt die, die auf diese Karte zugeschnitten sind</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_PLAYER_START_SEA</zType>
@@ -435,47 +435,47 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_PLAYER_START_SEA_HELP</zType>
-		<Translation>Start adjacent to salt water</Translation>
+		<Translation>Beginne neben Salzwasser</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_PLAYER_START_INLAND</zType>
-		<Translation>Inland</Translation>
+		<Translation>Landeinwärts</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_PLAYER_START_INLAND_HELP</zType>
-		<Translation>Start away from salt water</Translation>
+		<Translation>Beginne weg von Salzwasser</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_TRIBES_RANDOM</zType>
-		<Translation>Random</Translation>
+		<Translation>Zufällig</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_TRIBES_RANDOM_HELP</zType>
-		<Translation>Varied in number and distribution</Translation>
+		<Translation>Variiert in der Anzahl und Verteilung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_TRIBES_SCATTERED</zType>
-		<Translation>Five Tribes</Translation>
+		<Translation>Fünf Stämme</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_TRIBES_SCATTERED_HELP</zType>
-		<Translation>Scattered</Translation>
+		<Translation>Sporadisch</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_TRIBES_QUADRANTS</zType>
-		<Translation>Four Tribes</Translation>
+		<Translation>Vier Stämme</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_TRIBES_QUADRANTS_HELP</zType>
-		<Translation>Quadrants</Translation>
+		<Translation>Quadranten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_TRIBES_INLAND</zType>
-		<Translation>Inland Only</Translation>
+		<Translation>Landeinwärts</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_TRIBES_INLAND_HELP</zType>
-		<Translation>Two Tribes in play, all camps away from the ocean</Translation>
+		<Translation>Zwei Stämme im Spiel, alle Lager weg vom Meer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_TRIBES_COASTAL</zType>
@@ -483,15 +483,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_TRIBES_COASTAL_HELP</zType>
-		<Translation>Two Mounted Tribes in play, all camps near salt water</Translation>
+		<Translation>Zwei gelagerte Stämme im Spiel, alle Laher in der Nähe von Salzwasser</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_TERRAIN_EITHER</zType>
-		<Translation>Either</Translation>
+		<Translation>Beides</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_TERRAIN_EITHER_HELP</zType>
-		<Translation>Extreme terrain can be either tundra or desert</Translation>
+		<Translation>Extremes Gelände kann entweder Tundra oder Wüste sein</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_TERRAIN_TUNDRA</zType>
@@ -499,143 +499,143 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_TERRAIN_TUNDRA_HELP</zType>
-		<Translation>Extreme terrain on this map will be tundra</Translation>
+		<Translation>Extremes Gelände auf dieser Karte wird Tundra sein</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_TERRAIN_DESERT</zType>
-		<Translation>Desert</Translation>
+		<Translation>Wüste</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENT_TERRAIN_DESERT_HELP</zType>
-		<Translation>Extreme terrain on this map will be desert</Translation>
+		<Translation>Extremes Gelände auf dieser Karte wird Wüste sein</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_PLAYER_START_PLATEAU</zType>
-		<Translation>The Plateau</Translation>
+		<Translation>Die Hochebene</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_PLAYER_START_PLATEAU_HELP</zType>
-		<Translation>Start in the south, on the great plateau</Translation>
+		<Translation>Beginne im Süden, auf der Hochebene.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_PLAYER_START_MIDLAND</zType>
-		<Translation>The Midland</Translation>
+		<Translation>Das Mittelland</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_PLAYER_START_MIDLAND_HELP</zType>
-		<Translation>Start in the middle latitudes</Translation>
+		<Translation>Beginne in mittleren Breiten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_PLAYER_START_OCEAN</zType>
-		<Translation>Near the Ocean</Translation>
+		<Translation>Nahe dem Meer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_PLAYER_START_OCEAN_HELP</zType>
-		<Translation>Start in the north, near the ocean</Translation>
+		<Translation>Beginne im Norden, in der Nähe des Meeres</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_RANDOM</zType>
-		<Translation>Random</Translation>
+		<Translation>Zufällig</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_RANDOM_HELP</zType>
-		<Translation>Varied in number and distribution</Translation>
+		<Translation>Variiert in der Anzahl und Verteilung</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_FIVE</zType>
-		<Translation>Five Tribes</Translation>
+		<Translation>Fünf Stämme</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_FIVE_HELP</zType>
-		<Translation>Scattered</Translation>
+		<Translation>Sporadisch</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_FOUR</zType>
-		<Translation>Four Tribes</Translation>
+		<Translation>Vier Stämme</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_FOUR_HELP</zType>
-		<Translation>Quadrants</Translation>
+		<Translation>Quadranten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_THREE</zType>
-		<Translation>Three Tribes</Translation>
+		<Translation>Drei Stämme</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_THREE_HELP</zType>
-		<Translation>One Tribe per latitude band</Translation>
+		<Translation>Ein Stamm pro Breitengrad</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_TWO</zType>
-		<Translation>Two Tribes</Translation>
+		<Translation>Zwei Stämme</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_TWO_HELP</zType>
-		<Translation>One Tribe in the west, the other in the east</Translation>
+		<Translation>Ein Stamm im Westen, der andere im Osten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_ONE</zType>
-		<Translation>One Tribe</Translation>
+		<Translation>Ein Stamm</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_ONE_HELP</zType>
-		<Translation>One colossal Tribe owns the middle of the map</Translation>
+		<Translation>Ein riesiger Stamm bewohnt die Mitte der Karte</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_BARBARIANS</zType>
-		<Translation>Barbarians Only</Translation>
+		<Translation>Nur Barbaren</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_BARBARIANS_HELP</zType>
-		<Translation>No Tribes, only Barbarian camps</Translation>
+		<Translation>Keine Stämme, nur Barbaren Lager</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_DISJUNCTION_CONTINENTS_WEIGHTED_RANDOM</zType>
-		<Translation>Weighted Random</Translation>
+		<Translation>Ausgeglichen, Zufällig</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_DISJUNCTION_CONTINENTS_WEIGHTED_RANDOM_HELP</zType>
-		<Translation>Each of the eight continent generation methods has an equal chance to be used</Translation>
+		<Translation>Jede der acht Kontinenten Generierung hat die gleiche Chance benutzt zu werden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_DISJUNCTION_CONTINENTS_TWO_EVEN</zType>
-		<Translation>Two Continents, Split Evenly</Translation>
+		<Translation>Zwei Kontinente, gerecht geteilt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_DISJUNCTION_CONTINENTS_TWO_EVEN_HELP</zType>
-		<Translation>Two continents of nearly-equal size</Translation>
+		<Translation>Zwei Kontinente beinahe gleich groß</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_DISJUNCTION_CONTINENTS_THREE_EVEN</zType>
-		<Translation>Three Continents, Split Evenly</Translation>
+		<Translation>Drei Kontinente, gerecht geteilt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_DISJUNCTION_CONTINENTS_THREE_EVEN_HELP</zType>
-		<Translation>Three continents of nearly-equal size</Translation>
+		<Translation>Drei Kontinente beinahe gleich groß</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_DISJUNCTION_CONTINENTS_THREE_UNEVEN</zType>
-		<Translation>Three Continents, Split Unevenly</Translation>
+		<Translation>Drei Kontinente, ungerecht geteilt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_DISJUNCTION_CONTINENTS_THREE_UNEVEN_HELP</zType>
-		<Translation>Three continents of uneven sizes</Translation>
+		<Translation>Drei Kontinente von unterschiedlicher Größe</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_DISJUNCTION_CONTINENTS_TEAMS</zType>
-		<Translation>One continent per team</Translation>
+		<Translation>Ein Kontinent pro Team</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_DISJUNCTION_CONTINENTS_TEAMS_HELP</zType>
-		<Translation>One continent per team, with size proportional to the number of team members</Translation>
+		<Translation>Ein Kontinent pro Team, mit proportionaler Größe zur Anzahl der Teammitglieder</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTIONS_SINGLE_MIRROR_HELP</zType>
-		<Translation>East-West symmetric map: need even number of teams</Translation>
+		<Translation>Ost-West symmetrische Karte: benötigt gleiche Anzahl von Teams</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTIONS_SINGLE_KING_OF_THE_HILL_HELP</zType>
-		<Translation>A resource-rich center instead of water at the channel intersection area</Translation>
+		<Translation>Eine Ressourcen-Reiche Mitte anstatt von Wasser bei den Kanal-Kreuzungs-Gebieten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_ARCHIPELAGO_LANDMASS_SMALL</zType>
@@ -655,11 +655,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_ARCHIPELAGO_LANDMASS_MEDIUM_HELP</zType>
-		<Translation>Water occupies approximately half of the map</Translation>
+		<Translation>Ca. die Hälfte der Karte besteht aus Wasser</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_ARCHIPELAGO_LANDMASS_LARGE_HELP</zType>
-		<Translation>Land occupies more area than water</Translation>
+		<Translation>Mehr Land als Wasser</Translation>
 	</Entry>
 <!--
 	<Entry>

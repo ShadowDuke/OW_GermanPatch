@@ -59,19 +59,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_MOVE_TO_FATIGUE</zType>
-		<Translation>Move to Fatigue Limit</Translation>
+		<Translation>Bewege weiter als Ermüdungslimit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_MOVE_TO_FATIGUE_DESC</zType>
-		<Translation>Clicking outside Fatigue limit does not queue up a multi-turn move</Translation>
+		<Translation>Ausserhalb des Müdigkeitslimit zu klicken, fügt keine mehrfach-Züge der Warteschlange hinzu.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SHOW_ORDERS_COST</zType>
-		<Translation>Zeige Befehl Kosten</Translation>
+		<Translation>Zeige Befehlskosten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SHOW_ORDERS_COST_DESC</zType>
-		<Translation>Zeige Befehl Kosten anstatt wieviele Befehle noch für diesen Zug übrig sind.</Translation>
+		<Translation>Zeige Befehlskosten anstatt wieviele Befehle noch für diesen Zug übrig sind.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_HIDE_MINIMAP</zType>
@@ -99,7 +99,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_COMPACT_TECH_TREE</zType>
-		<Translation>Zeige komrimierten Technologie Baum</Translation>
+		<Translation>Zeige komrpimierten Technologie Baum</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_COMPACT_TECH_TREE_DESC</zType>
@@ -107,7 +107,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SHOW_SYSTEM_TIME</zType>
-		<Translation>Zeige System Uhrzeit </Translation>
+		<Translation>Zeige System Uhrzeit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SHOW_SYSTEM_TIME_DESC</zType>
@@ -115,11 +115,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_HIDE_LANDMARK_NAMES</zType>
-		<Translation>Hide Landmark Names</Translation>
+		<Translation>Verstcke Namen der Wahrzeichen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_HIDE_LANDMARK_NAMES_DESC</zType>
-		<Translation>Hide map element names (e.g. Mountains, Volcanoes, etc.)</Translation>
+		<Translation>Verstecke Karten-Element-Namen, (zB. Berge, Vulkane, etc.)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_FLIP_UNIT_COLORS</zType>
@@ -127,7 +127,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_FLIP_UNIT_COLORS_DESC</zType>
-		<Translation>Tausche primärer und sekundäre Farben von Einheiten</Translation>
+		<Translation>Tausche primäre und sekundäre Farben von Einheiten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SHOW_RIVAL_FAMILY_COLORS</zType>
