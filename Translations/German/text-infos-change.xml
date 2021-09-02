@@ -2130,8 +2130,8 @@
 		<Translation>Polis</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TECH_POLIS_BONUS_SETTLER</zType>
-		<Translation>Kostenloser link(UNIT_SETTLER)</Translation>
+		<zType>TEXT_TECH_POLIS_BONUS_WORKER</zType>
+		<Translation>Freier link(UNIT_WORKER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_MILITARY_DRILL</zType>
@@ -2159,7 +2159,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_NAVIGATION_BONUS_BIREME</zType>
-		<Translation>Kostenlose Bireme</Translation>
+		<Translation>Freie Bireme</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_PHALANX</zType>
@@ -2171,7 +2171,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_SPOKED_WHEEL_BONUS_CHARIOT</zType>
-		<Translation>Kostenloser Streitwagen</Translation>
+		<Translation>Freier Streitwagen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_RAMPARTS</zType>
@@ -2203,7 +2203,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_CITIZENSHIP_BONUS_MINISTER</zType>
-		<Translation>Kostenloser großer Minister</Translation>
+		<Translation>Freier großer Minister</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_PORTCULLIS</zType>
@@ -2211,7 +2211,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_PORTCULLIS_BONUS_MACEMAN</zType>
-		<Translation>Kostenloser Keulenkämpfer</Translation>
+		<Translation>Freier Keulenkämpfer</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_LAND_CONSOLIDATION</zType>
@@ -2219,7 +2219,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_LAND_CONSOLIDATION_BONUS_WAR_ELEPHANT</zType>
-		<Translation>Kostenloser Kriegselefant</Translation>
+		<Translation>Freier Kriegselefant</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_BATTLELINE</zType>
@@ -2230,7 +2230,7 @@
 		<Translation>Grundsätze</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TECH_DOCTRINE_BONUS_ORDERS</zType>
+		<zType>TEXT_TECH_PHALANX_BONUS_ORDERS</zType>
 		<Translation>link(YIELD_ORDERS) Schub</Translation>
 	</Entry>
 	<Entry>
@@ -2251,7 +2251,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_SCHOLARSHIP_BONUS_SCIENTIST</zType>
-		<Translation>Kostenloser großer Wissenschaftler</Translation>
+		<Translation>Freier großer Wissenschaftler</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_TORSION</zType>
@@ -2259,7 +2259,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_TORSION_BONUS_BALLISTA</zType>
-		<Translation>Kostenlose Balliste</Translation>
+		<Translation>Freie Balliste</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_STIRRUPS</zType>
@@ -2267,18 +2267,18 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_STIRRUPS_BONUS_HORSEMAN</zType>
-		<Translation>Kostenloser Reiter</Translation>
+		<Translation>Freier Reiter</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_STIRRUPS_BONUS_HORSE_ARCHER</zType>
-		<Translation>Kostenloser Berittener Bogenschütze</Translation>
+		<Translation>Freier Berittener Bogenschütze</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_ARCHITECTURE</zType>
 		<Translation>Baukunst</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TECH_ARCHITECTURE_BONUS_CIVICS</zType>
+		<zType>TEXT_TECH_SOVEREIGNITY_BONUS_CIVICS</zType>
 		<Translation>link(YIELD_CIVICS) Schub</Translation>
 	</Entry>
 	<Entry>
@@ -2295,7 +2295,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_MACHINERY_BONUS_ONAGER</zType>
-		<Translation>Kostenloser Onager</Translation>
+		<Translation>Freier Onager</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_CARTOGRAPHY</zType>
@@ -2303,7 +2303,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_CARTOGRAPHY_BONUS_TRIREME</zType>
-		<Translation>Kostenlose Triere</Translation>
+		<Translation>Freie Triere</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_HYDRAULICS</zType>
@@ -2311,7 +2311,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_HYDRAULICS_BONUS_MERCHANT</zType>
-		<Translation>Kostenloser Großer Kaufmann</Translation>
+		<Translation>Freier Großer Kaufmann</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_JURISPRUDENCE</zType>
@@ -2338,16 +2338,16 @@
 		<Translation>Kohorten</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TECH_COHORTS_BONUS_SOLDIER</zType>
-		<Translation>Kostenloser Hof Krieger</Translation>
+		<zType>TEXT_TECH_BATTLELINE_BONUS_SOLDIER</zType>
+		<Translation>Freier link(COURTIER_SOLDIER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_WINDLASS</zType>
-		<Translation>Ankerwinden</Translation>
+		<Translation>Winden</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_WINDLASS_BONUS_CROSSBOWMAN</zType>
-		<Translation>Kostenloser Armbrustschütze</Translation>
+		<Translation>Freier Armbrustschütze</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_VAULTING_BONUS_DISCONTENT</zType>
@@ -2359,7 +2359,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_LATEEN_SAIL_BONUS_DROMON</zType>
-		<Translation>Kostenlose Dromone</Translation>
+		<Translation>Freie Dromone</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_BARDING</zType>
@@ -2399,59 +2399,59 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_BATTERING_RAM_BONUS</zType>
-		<Translation>Kostenloser Rammbock</Translation>
+		<Translation>Freier Rammbock</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_SIEGE_TOWER_BONUS</zType>
-		<Translation>Kostenloser Belagerungsturm</Translation>
+		<Translation>Freier Belagerungsturm</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_AKKADIAN_ARCHER_BONUS</zType>
-		<Translation>Kostenloser akkadischer Bogenschütze</Translation>
+		<Translation>Freier akkadischer Bogenschütze</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_CIMMERIAN_ARCHER_BONUS</zType>
-		<Translation>Kostenloser cimmerischer Bogenschütze</Translation>
+		<Translation>Freier cimmerischer Bogenschütze</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_AFRICAN_ELEPHANT_BONUS</zType>
-		<Translation>Kostenloser afrikanischer Elefant</Translation>
+		<Translation>Freier afrikanischer Elefant</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_TURRETED_ELEPHANT_BONUS</zType>
-		<Translation>Kostenloser gepanzerter Elefant</Translation>
+		<Translation>Freier gepanzerter Elefant</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_LIGHT_CHARIOT_BONUS</zType>
-		<Translation>Kostenloser leichter Streitwagen</Translation>
+		<Translation>Freier leichter Streitwagen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_KUSHITE_CAVALRY_BONUS</zType>
-		<Translation>Kostenlose kuschitisch Kavallerie</Translation>
+		<Translation>Freie kuschitisch Kavallerie</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_HOPLITE_BONUS</zType>
-		<Translation>Kostenloser Hoplit</Translation>
+		<Translation>Freier Hoplit</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_PHALANGITE_BONUS</zType>
-		<Translation>Kostenlose Phalanx</Translation>
+		<Translation>Freie Phalanx</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_PALTON_CAVALRY_BONUS</zType>
-		<Translation>Kostenlose Kataphrakt Kavallerie</Translation>
+		<Translation>Freie Kataphrakt Kavallerie</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_CATAPHRACT_ARCHER_BONUS</zType>
-		<Translation>Kostenloser Kataphrakt Bogenschütze</Translation>
+		<Translation>Freier Kataphrakt Bogenschütze</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_HASTATUS_BONUS</zType>
-		<Translation>Kostenloser Hastati</Translation>
+		<Translation>Freier Hastati</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_LEGIONARY_BONUS</zType>
-		<Translation>Kostenloser Legionär</Translation>
+		<Translation>Freier Legionär</Translation>
 	</Entry>
 	<!-- InfoTerrain -->
 	<Entry>

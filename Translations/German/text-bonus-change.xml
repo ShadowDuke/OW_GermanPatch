@@ -303,7 +303,7 @@
 		<Translation>link(YIELD_FOOD) Schub</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_TECH_POLIS_BONUS_SETTLER</zType>
+		<zType>TEXT_BONUS_TECH_DRAMA_BONUS_SETTLER</zType>
 		<Translation>Freier link(UNIT_SETTLER)</Translation>
 	</Entry>
 	<Entry>
@@ -339,7 +339,7 @@
 		<Translation>Freier link(UNIT_ARCHER)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_TECH_DOCTRINE_BONUS_ORDERS</zType>
+		<zType>TEXT_BONUS_TECH_PHALANX_BONUS_ORDERS</zType>
 		<Translation>link(YIELD_ORDERS) Schub</Translation>
 	</Entry>
 	<Entry>
@@ -363,7 +363,7 @@
 		<Translation>Freier link(UNIT_HORSE_ARCHER)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_TECH_ARCHITECTURE_BONUS_CIVICS</zType>
+		<zType>TEXT_BONUS_TECH_SOVEREIGNITY_BONUS_CIVICS</zType>
 		<Translation>link(YIELD_CIVICS) Schub</Translation>
 	</Entry>
 	<Entry>
@@ -391,7 +391,7 @@
 		<Translation>link(YIELD_TRAINING) Schub</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_TECH_COHORTS_BONUS_SOLDIER</zType>
+		<zType>TEXT_BONUS_TECH_BATTLELINE_BONUS_SOLDIER</zType>
 		<Translation>Neuer link(COURTIER_SOLDIER)</Translation>
 	</Entry>
 	<Entry>

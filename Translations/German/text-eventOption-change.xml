@@ -346,11 +346,11 @@
 		<Translation>Kann zu link(TRAIT_TACTICIAN_ARCHETYPE), link(TRAIT_ZEALOT_ARCHETYPE), link(TRAIT_JUDGE_ARCHETYPE), link(TRAIT_BUILDER_ARCHETYPE), link(TRAIT_SCHOLAR_ARCHETYPE), link(TRAIT_SKYEXPLORER_ARCHETYPE), oder eventuell zu link(TRAIT_CORRUPTIONIST_ARCHETYPE) und link(TRAIT_ARTIST_ARCHETYPE) führen.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_STUDY_RHETORIC</zType>
-		<Translation><![CDATA[<masculine_CHARACTER-0>Er<feminine>Sie<end> wird Redekunst lernen.]]></Translation>
+		<zType>TEXT_EVENTOPTION_STUDY_POLITICS</zType>
+		<Translation><![CDATA[<masculine_CHARACTER-0>Er<feminine>Sie<end> wird Politik lernen.]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_STUDY_RHETORIC_HELP</zType>
+		<zType>TEXT_EVENTOPTION_STUDY_POLITICS_HELP</zType>
 		<Translation>Kann zu link(TRAIT_HERO_ARCHETYPE), link(TRAIT_ORATOR_ARCHETYPE), link(TRAIT_JUDGE_ARCHETYPE), link(TRAIT_SCHOLAR_ARCHETYPE), link(TRAIT_DIPLOMAT_ARCHETYPE), link(TRAIT_ARTIST_ARCHETYPE), link(TRAIT_MERCHANT_ARCHETYPE) oder eventuell zu link(TRAIT_SKYEXPLORER_ARCHETYPE) und link(TRAIT_CORRUPTIONIST_ARCHETYPE) führen.</Translation>
 	</Entry>
 	<Entry>
@@ -3987,11 +3987,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_YOUNG_RULER_DISCIPLINE_2_HELP</zType>
-		<Translation>I'm just glad to get my money back!</Translation>
+		<Translation>Ich bin einfach froh, mein Geld zurück zu bekommen!</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NATION_START_HELP</zType>
-		<Translation>Die Hauptstadt wird das Herz unseres REiches sein.</Translation>
+		<Translation>Die Hauptstadt wird das Herz unseres Reiches sein.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NATION_START</zType>
@@ -5967,7 +5967,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_THE_NUMBERLESS_GAULS_CONTACT_OPTION_1</zType>
-		<Translation><![CDATA[Wir sind fleißig und bieten Metal an.]]></Translation>
+		<Translation><![CDATA[Wir sind fleißig und bieten Metall an.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_THE_NUMBERLESS_GAULS_CONTACT_OPTION_2</zType>

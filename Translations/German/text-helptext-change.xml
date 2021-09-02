@@ -404,10 +404,6 @@
 		<Translation>{0} Meinung: {1}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_EACH_COLON</zType>
-		<Translation>Jede {0}: {1}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_NOTABLE_CHARACTERS</zType>
 		<Translation>Bedeutende Charaktere:</Translation>
 	</Entry>
@@ -699,10 +695,6 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_ROLE_RATING_YIELD</zType>
 		<Translation>{0_rating} {true_1:erhöhen:verringern} {2_yield}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_ROLE_RATING_YIELD_NON_LINEAR</zType>
-		<Translation>(Alle bei einer nicht-linearen Stufe)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_RURAL_SPECIALISTS</zType>
@@ -3138,7 +3130,7 @@ Höhre Legitimität verbessert die link(CONCEPT_OPINION_FAMILY,1) und erzeugt me
 	</Entry>
 	<Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_COGNOMEN</zType>
-    <Translation>Ein Spitzname ist ein erworbener Titel welcher die Legitimacyicon(YIELD_LEGITIMACY) deines Oberhauptes erhöht.</Translation>
+    <Translation>Ein Spitzname ist ein erworbener Titel welcher die Legitimität icon(YIELD_LEGITIMACY) deines Oberhauptes erhöht.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_COURT</zType>
@@ -4257,10 +4249,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_VS_GENERAL</zType>
 		<Translation><![CDATA[<true_1>Vs. link(CONCEPT_GENERAL): {0_value}<false>{0_value} Vs. link(CONCEPT_GENERAL)<end>]]></Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_VS_TRIBES</zType>
-		<Translation><![CDATA[<true_1>Vs. Stämme/Barbaren: {0_value}<false>{0_value} Vs. Stämme/Barbaren<end>]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_FLANKING_ATTACK</zType>
@@ -5656,23 +5644,39 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<!--Make Council-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_COUNCIL_RIVAL_NATION_OPINION</zType>
-		<Translation>{0} Ausländische Meinung </Translation>
+		<Translation>{0} Ausländische link(CONCEPT_OPINION_PLAYER,3)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_COUNCIL_TRIBE_OPINION</zType>
-		<Translation>{0} Stamm Meinung</Translation>
+		<Translation>{0} link(CONCEPT_OPINION_TRIBE,1)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_COUNCIL_RELIGION_OPINION</zType>
-		<Translation>{0} Religion Meinung</Translation>
+		<Translation>{0} link(CONCEPT_OPINION_RELIGION,1)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_COUNCIL_FAMILY_OPINION</zType>
-		<Translation>{0} Familien Meinung</Translation>
+		<Translation>{0} link(CONCEPT_OPINION_FAMILY,1)</Translation>
+	</Entry>
+<Entry>
+		<zType>TEXT_HELPTEXT_MAKE_COUNCIL_RIVAL_NATION_OPINION_CHANGE</zType>
+		<Translation>{0} {true_1:Erhöht:Verringert} Ausländische link(CONCEPT_OPINION_PLAYER,3)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_MAKE_COUNCIL_YIELD_GLOBAL</zType>
-		<Translation>{0}</Translation>
+		<zType>TEXT_HELPTEXT_MAKE_COUNCIL_TRIBE_OPINION_CHANGE</zType>
+		<Translation>{0} {true_1:Erhöht:Verringert} link(CONCEPT_OPINION_TRIBE,1)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_MAKE_COUNCIL_RELIGION_OPINION_CHANGE</zType>
+		<Translation>{0} {true_1:Erhöht:Verringert} link(CONCEPT_OPINION_RELIGION,1)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_MAKE_COUNCIL_FAMILY_OPINION_CHANGE</zType>
+		<Translation>{0} {true_1:Erhöht:Verringert} link(CONCEPT_OPINION_FAMILY,1)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_MAKE_COUNCIL_YIELD_CHANGE</zType>
+		<Translation>{0} {true_1:Erhöht:Verringert} {2_yield}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_COUNCIL_YIELD_CITY</zType>

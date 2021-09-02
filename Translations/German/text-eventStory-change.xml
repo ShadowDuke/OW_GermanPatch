@@ -8042,25 +8042,25 @@ We worry that this insurrection might spread. What shall we do?</Translation>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_EVENTSTORY_STUDY_TACTICS_ARCHETYPES</zType>
-		<Translation><![CDATA[Nun da {CHARACTER-0} <masculine_CHARACTER-0>sein<feminine>ihr<end> Studium als Taktiker abgeschlossen hat, wie soll <masculine_CHARACTER-0>er<feminine>sie<end> dem Hoftstaat beisteuern? 
+		<Translation><![CDATA[Nun da {CHARACTER-0} <masculine_CHARACTER-0>sein<feminine>ihr<end> Studium in Taktik abgeschlossen hat, wie soll <masculine_CHARACTER-0>er<feminine>sie<end> dem Hoftstaat beisteuern? 
 
 Welche Rolle ist am besten für {CHARACTER-SHORT-0} geeignet? ]]></Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_STUDY_RHETORIC_ARCHETYPES</zType>
-		<Translation><![CDATA[Nun da {CHARACTER-0} <masculine_CHARACTER-0>sein<feminine>ihr<end> Studium als Redekünstler abgeschlossen hat, wie soll <masculine_CHARACTER-0>er<feminine>sie<end> dem Hoftstaat beisteuern? 
+		<zType>TEXT_EVENTSTORY_STUDY_POLITICS_ARCHETYPES</zType>
+		<Translation><![CDATA[Nun da {CHARACTER-0} <masculine_CHARACTER-0>sein<feminine>ihr<end> Studium in Politik abgeschlossen hat, wie soll <masculine_CHARACTER-0>er<feminine>sie<end> dem Hoftstaat beisteuern? 
 
 Welche Rolle ist am besten für {CHARACTER-SHORT-0} geeignet? ]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_COMMERCE_ARCHETYPES</zType>
-		<Translation><![CDATA[Nun da {CHARACTER-0} <masculine_CHARACTER-0>sein<feminine>ihr<end> Studium als Händler abgeschlossen hat, wie soll <masculine_CHARACTER-0>er<feminine>sie<end> dem Hoftstaat beisteuern?  
+		<Translation><![CDATA[Nun da {CHARACTER-0} <masculine_CHARACTER-0>sein<feminine>ihr<end> Studium in Handel abgeschlossen hat, wie soll <masculine_CHARACTER-0>er<feminine>sie<end> dem Hoftstaat beisteuern?  
 
 Welche Rolle ist am besten für {CHARACTER-SHORT-0} geeignet? ]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_PHILOSOPHY_ARCHETYPES</zType>
-		<Translation><![CDATA[Nun da {CHARACTER-0}<masculine_CHARACTER-0>sein<feminine>ihr<end> Studium als Philosoph abgeschlossen hat, wie soll <masculine_CHARACTER-0>er<feminine>sie<end> dem Hoftstaat beisteuern? 
+		<Translation><![CDATA[Nun da {CHARACTER-0}<masculine_CHARACTER-0>sein<feminine>ihr<end> Studium in Philosophie abgeschlossen hat, wie soll <masculine_CHARACTER-0>er<feminine>sie<end> dem Hoftstaat beisteuern? 
 
 Welche Rolle ist am besten für {CHARACTER-SHORT-0} geeignet? ]]></Translation>
 	</Entry>
