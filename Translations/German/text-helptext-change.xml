@@ -485,8 +485,8 @@
 		<Translation>Unzufrieden</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_LARGEST_POPULATION</zType>
-		<Translation>Größte Bevölkerung</Translation>
+		<zType>TEXT_HELPTEXT_LINK_MOST_SPECIALISTS</zType>
+		<Translation>Meisten Spezalisten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_LARGEST_MILITARY</zType>
@@ -2943,13 +2943,13 @@ Ihre Vorlieben geben vor welche link(CONCEPT_AMBITION,2) du nachgehen kannst. De
         <Translation>Basierend auf der Anzahl der Militär Einheiten für jede Familie</Translation>
     </Entry>
     <Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_POPULATION_ALL</zType>
-		<Translation>Ganze Bevölkerung</Translation>
-	 </Entry>
-    <Entry>
-        <zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_POPULATION_ALL_DESC</zType>
-        <Translation>Basierend auf der gesammten Bevölkerung und Spezialisten für Familien Städte</Translation>
-    </Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_SPECIALISTS_ALL</zType>
+		<Translation>Gesammte link(CONCEPT_SPECIALIST,2)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_SPECIALISTS_ALL_DESC</zType>
+		<Translation>Basiert auf den totalen link(CONCEPT_SPECIALIST,2) für Familienstädte</Translation>
+	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_SEAT_EFFECTS</zType>
 		<Translation>{0_family} link(CONCEPT_FAMILY_SEAT):</Translation>
@@ -5146,10 +5146,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>Geplünderte Verbesserungen innerhalb unseres Gebietes: {0_value}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_UNITS_IN_TERRITORY</zType>
-		<Translation>Unsere Einheiten innerhalb unseres Gebietes: {0_value}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_HOSTILE_UNITS_IN_TERRITORY</zType>
 		<Translation>Feindliche Einheiten innerhalb unseres gebietes: {0_value}</Translation>
 	</Entry>
@@ -6267,10 +6263,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILY_PILLAGED</zType>
 		<Translation>{0_value}: Fortschrittlichere Plünderungen innerhalb unseres Gebietes</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_UNITS_IN_TERRITORY</zType>
-		<Translation>{0_value}: Unsere Einheiten sind innerhalb unseres Gebietes</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILY_HOSTILE_UNITS_IN_TERRITORY</zType>

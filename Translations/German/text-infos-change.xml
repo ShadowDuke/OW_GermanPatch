@@ -1089,8 +1089,8 @@
 		<Translation>Erlasse 8 Gesetze</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_ALL_LAWS</zType>
-		<Translation>Erlasse alle Gesetze</Translation>
+		<zType>TEXT_GOAL_ALL_LAWS_FRIENDLY</zType>
+		<Translation>Erlasse alle Gesetze, alle link(CONCEPT_FAMILY,2) link(OPINIONFAMILY_FRIENDLY)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_VENERATION</zType>

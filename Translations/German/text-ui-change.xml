@@ -75,14 +75,6 @@
 		<Translation>Beende {0_turnScale}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_YEAR_NUMBER</zType>
-		<Translation>Jahr {0}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_UI_YEAR_NUMBER_AND_MAX</zType>
-		<Translation>Jahr: {0}/{1}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_UI_IDLE_LABEL_NEXT_UNIT</zType>
 		<Translation>Nächste Einheit</Translation>
 	</Entry>
