@@ -2360,8 +2360,8 @@ Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.</Translation>
 		<Translation>Ruinen</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_OF</zType>
-		<Translation>von</Translation>
+		<zType>TEXT_OF_CITY</zType>
+		<Translation>von {0_city}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_QUEUE_ROAD</zType>

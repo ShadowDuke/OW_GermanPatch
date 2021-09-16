@@ -1118,9 +1118,9 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
 		<Translation>Mods</Translation>
 	</Entry>
     <Entry>
-        <zType>TEXT_MENU_SCREEN_TOOLS_BUTTON</zType>
-        <Translation>Werkzeuge</Translation>
-    </Entry>
+		<zType>TEXT_MENU_SCREEN_EXTRAS_BUTTON</zType>
+		<Translation>Extras</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_MENU_SCREEN_OPTIONS_BUTTON</zType>
         <Translation>Optionen</Translation>

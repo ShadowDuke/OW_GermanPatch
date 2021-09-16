@@ -862,8 +862,12 @@
 		<Translation>{0} Geplündert von {1_owner} {2_unit}!</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_UNIT_FINISHED_CARAVAN_MISSION</zType>
+		<zType>TEXT_GAME_UNIT_FINISHED_CARAVAN_MISSION_MONEY</zType>
 		<Translation>link(CONCEPT_CARAVAN_MISSION) mit {0_player} Vollendet: {1_money} {2_memory}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_UNIT_FINISHED_CARAVAN_MISSION_MEMORY</zType>
+		<Translation>{1_memory} in {0_player}: +{2_value} Meinung für {3_value} </Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_UNIT_RECEIVED_CARAVAN_MISSION</zType>

@@ -326,38 +326,6 @@
 		<Translation>Keine Stämme, nur Barbaren Lager</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MAP_OPTION_INLAND_SEA_WATER_SIZE_LARGE</zType>
-		<Translation>Große Seen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_INLAND_SEA_WATER_SIZE_LARGE_HELP</zType>
-		<Translation>Versucht ein großes, ungleichmäßigen See zu bestimmen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_INLAND_SEA_WATER_SIZE_SMALL</zType>
-		<Translation>Kleine zackige Seen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_INLAND_SEA_WATER_SIZE_SMALL_HELP</zType>
-		<Translation>Mehrere kleine Seen welche schmal und zackig sind. Sie können sich verbinden.</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_INLAND_SEA_PLAYER_START_SEA</zType>
-		<Translation>Küste</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_INLAND_SEA_PLAYER_START_SEA_HELP</zType>
-		<Translation>Starte auf dem Meer</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_INLAND_SEA_PLAYER_START_INLAND</zType>
-		<Translation>Landeinwärts</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_INLAND_SEA_PLAYER_START_INLAND_HELP</zType>
-		<Translation>Beginne weg vom Meer</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_MAP_OPTION_HARDWOOD_FOREST_PLAYER_START_SEA</zType>
 		<Translation>Küstennah</Translation>
 	</Entry>

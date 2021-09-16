@@ -4792,16 +4792,8 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>Bürger: {0}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_CITIZENS_AVAILABLE_COUNT</zType>
-		<Translation>Bürger verfügbar: {0}</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_SPECIALISTS_COUNT</zType>
 		<Translation>Spezialisten: {0}</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_SPECIALISTS_AVAILABLE_COUNT</zType>
-		<Translation>Spezialisten verfügbar</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CITY_STRENGTH_TITLE</zType>
