@@ -7,6 +7,10 @@
 		<Translation/>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNITCLASS_COMBAT</zType>
+		<Translation>Kampf</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_COMBAT1</zType>
 		<Translation>Kampf I</Translation>
 	</Entry>
@@ -17,6 +21,10 @@
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_COMBAT3</zType>
 		<Translation>Kampf III</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNITCLASS_STRIKE</zType>
+		<Translation>Angriff</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_STRIKE1</zType>
@@ -31,6 +39,10 @@
 		<Translation>Angriff III</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNITCLASS_GUARD</zType>
+		<Translation>Wächter</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_GUARD1</zType>
 		<Translation>Wächter I</Translation>
 	</Entry>
@@ -41,6 +53,10 @@
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_GUARD3</zType>
 		<Translation>Wächter III</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNITCLASS_FOCUS</zType>
+		<Translation>Fokussieren</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_FOCUS1</zType>
@@ -269,6 +285,10 @@
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SOLDIER</zType>
 		<Translation>Soldat</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_PROPHET</zType>
+		<Translation>Prophet</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SURVEYOR</zType>

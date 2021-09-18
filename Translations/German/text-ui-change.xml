@@ -792,6 +792,10 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
 		<Translation>[Spiel gewonnen]</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_WON_GAME_ALLIANCE</zType>
+		<Translation>[Verbündeter Spiel gewonnen]</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_LOST_GAME</zType>
 		<Translation>[Spiel verloren]</Translation>
 	</Entry>
@@ -1576,7 +1580,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
     <Entry>
         <zType>TOOLS_SCREEN_ENCYCLOPEDIA_BUTTON</zType>
         <Translation>Enzyklopädie</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TOOLS_SCREEN_MANUAL_BUTTON</zType>
+		<Translation>Leitfaden</Translation>
+	</Entry>
     <Entry>
 		<zType>TOOLS_SCREEN_CREDITS_BUTTON</zType>
 		<Translation>Credits</Translation>

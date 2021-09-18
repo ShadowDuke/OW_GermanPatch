@@ -28,7 +28,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_6</zType>
-		<Translation>link(YIELD_TRAINING)icon(YIELD_TRAINING) stockpiles are capped at int(MAX_TRAINING). Above this value, they'll be converted to link(YIELD_ORDERS)icon(YIELD_ORDERS).</Translation>
+		<Translation>link(YIELD_TRAINING,1) stockpiles are capped at int(MAX_TRAINING). Above this value, they'll be converted to link(YIELD_ORDERS,1).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_7</zType>
@@ -417,5 +417,9 @@
 	<Entry>
 		<zType>TEXT_HINT_103</zType>
 		<Translation>Cities need at least as many link(CONCEPT_URBAN) tiles as they have Population points, otherwise they start to become discontent.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_104</zType>
+		<Translation>With a link(UNIT_WORKER) selected, hold down [SHIFT] to queue up multiple moves and link(CONCEPT_IMPROVEMENT,2).</Translation>
 	</Entry>
 </Root>

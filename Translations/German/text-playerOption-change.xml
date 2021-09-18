@@ -183,6 +183,14 @@ Below, you can play or disable specific music tracks.</Translation>
 		<Translation>Map hotkeys to their locations in an AZERTY keyboard</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_PLAYEROPTION_SLOW</zType>
+		<Translation>Langsame KI</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_SLOW_DESC</zType>
+		<Translation>KI Berechnungen werden nicht auf alle CPU Kerne angewendet CPU cores so das Zyklen für andere Aufgaben zwischen den Zügen verfügbar sind</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_PLAYEROPTION_DEBUG_HELP</zType>
 		<Translation>Debug help</Translation>
 	</Entry>

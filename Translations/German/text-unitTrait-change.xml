@@ -45,4 +45,8 @@
 		<zType>TEXT_UNITTRAIT_SHIP</zType>
 		<Translation>Schiff</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_UNITTRAIT_TRIBAL</zType>
+		<Translation>Stamm</Translation>
+	</Entry>
 </Root>

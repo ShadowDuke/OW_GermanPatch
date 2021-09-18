@@ -1088,35 +1088,57 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_GAME_LOG</zType>
-		<Translation><![CDATA[Zeige Spielaufzeichnung{true_0:<br>{0_presskey}}]]></Translation>
+		<Translation>Zeigt Spielaufzeichnung{true_0:
+{0_presskey}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_ZOC_OVERLAY</zType>
-		<Translation><![CDATA[Show Zone of Control Overlay<br>[Shift+Click] to lock overlay<br>{true_0:{0_presskey}}]]></Translation>
+		<Translation>Zeigt link(CONCEPT_ZOC,1) Übersicht
+[Shift+Click] to lock overlay
+{true_0:{0_presskey}}
+{true_1:{1_presskey}} to toggle lock</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_DANGER_OVERLAY</zType>
-		<Translation><![CDATA[Zeige Gefahren Übersicht<br>[Shift+Click] um Einblendung fest zu halten<br>{true_0:{0_presskey}}]]></Translation>
+		<Translation>Zeigt Gefahren Übersicht
+[Shift+Click] to lock overlay
+{true_0:{0_presskey}}
+{true_1:{1_presskey}} to toggle lock</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_IDLE_OVERLAY</zType>
-		<Translation><![CDATA[Zeige link(CONCEPT_IDLE) Einheiten Übersicht<br>[Shift+Klick] um Einblendung fest zu halten<br>{true_0:{0_presskey}}]]></Translation>
+		<Translation>Zeigt link(CONCEPT_PROMOTION,2) und link(CONCEPT_IDLE) Einheiten Übersicht
+[Shift+Click] to lock overlay
+{true_0:{0_presskey}}
+{true_1:{1_presskey}} to toggle lock</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_NETWORK_OVERLAY</zType>
-		<Translation><![CDATA[Zeige Städteverbindungs Übersicht<br>[Shift+Klick] um Einblendung fest zu halten<br>{true_0:{0_presskey}}]]></Translation>
+		<Translation>Zeigt link(CONCEPT_TRADE_NETWORK) Übersicht
+[Shift+Click] to lock overlay
+{true_0:{0_presskey}}
+{true_1:{1_presskey}} to toggle lock</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_ROADS_RIVERS_OVERLAY</zType>
-		<Translation><![CDATA[Zeige Straßen und Flüsse Overlay<br>[Shift+Click] um Overlay festzuhalten<br>{true_0:{0_presskey}}]]></Translation>
+		<Translation>Zeigt link(CONCEPT_ROAD,2) und link(CONCEPT_RIVER,2) Übersicht
+[Shift+Click] to lock overlay
+{true_0:{0_presskey}}
+{true_1:{1_presskey}} to toggle lock</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_TILE_YIELDS_OVERLAY</zType>
-		<Translation><![CDATA[Show Tile Yields Overlay<br>[Shift+Click] to lock overlay<br>{true_0:{0_presskey}}]]></Translation>
+		<Translation>Zeigt Erträge Felder Übersicht
+[Shift+Click] to lock overlay
+{true_0:{0_presskey}}
+{true_1:{1_presskey}} to toggle lock</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_TILE_SPECIALISTS_OVERLAY</zType>
-		<Translation><![CDATA[Show Tile Specialists Overlay<br>[Shift+Click] to lock overlay<br>{true_0:{0_presskey}}]]></Translation>
+		<Translation>Zeigt link(CONCEPT_SPECIALIST,2) Felder Übersicht 
+[Shift+Click] to lock overlay
+{true_0:{0_presskey}}
+{true_1:{1_presskey}} to toggle lock</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_NOTIFICATIONS_PREVIOUS</zType>
@@ -1570,6 +1592,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_START_MISSION_CHARACTER_REQUIRES_NOT</zType>
 		<Translation>Benötigt {0_character}: Nicht {1_subject}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_START_MISSION_IS_TARGET</zType>
+		<Translation>Bereits Ziel der {0_mission} Mission</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_START_MISSION_CONFLICT_TURNS</zType>
@@ -3130,7 +3156,72 @@ Höhre Legitimität verbessert die link(CONCEPT_OPINION_FAMILY,1) und erzeugt me
 	</Entry>
 	<Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_COGNOMEN</zType>
-    <Translation>Ein Spitzname ist ein erworbener Titel welcher die Legitimität icon(YIELD_LEGITIMACY) deines Oberhauptes erhöht.</Translation>
+    <Translation>Ein Spitzname ist ein erworbener Titel welcher die icon(YIELD_LEGITIMACY)Legitimität deines Oberhauptes erhöht, such as link(COGNOMEN_INVINCIBLE), link(COGNOMEN_WISE), and link(COGNOMEN_GREAT). New Cognomens are acquired when the specific stats associated with that Cognomen cross the necessary threshold. For example, one becomes link(COGNOMEN_WISE) by discovering a great number of Technologies. (The threshold increases for each subsequent Leader of a link(CONCEPT_NATION).)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_COMMUNITY_SHORTHAND</zType>
+		<Translation>The Old World community on the official Discord server has created their own Community Shorthand to discuss concepts within the game. You may join the official Discord server by clicking the Discord icon on the main menu. A list of the most common shorthand follows.
+
+{bullet}1UPT - One Unit Per Tile, when only one unit is able to occupy a tile. A concept used by some strategy games, including Old World for military units. There are cases when a civilian unit may stack with other units. For example, a settler may stack with a military unit.
+
+{bullet}AAR - After Action Report, commentary and discussion of how a game went. Conducted after the game is completed.
+
+{bullet}Alex - Refers to link(CHARACTER_ALEXANDER), first Heir of link(NATION_GREECE).
+
+{bullet}Babs - Refers to the link(CONCEPT_NATION) of link(NATION_BABYLONIA).
+
+{bullet}Chad/Neb - Refers to link(CHARACTER_NEBUCHADNEZZAR), first Leader of link(NATION_BABYLONIA).
+
+{bullet}COD - Carpet of Doom, when every tile contains a military unit.
+
+{bullet}DAR - During Action Report, commentary and discussion of how an in progress game is going. Suggestions of what to do next are usually encouraged from readers.
+
+{bullet}EA - Early Access, the period of time before release when the game was available to the public. Old World was in Early Access from 5 May 2020 till release on 1 July 2021.
+
+{bullet}EGS - Epic Game Store, where Old World is currently available for purchase.
+
+{bullet}{RESOURCE_ELEPHANT} - Have an Elephant, or using the elephant emoji, is an indication other readers think that comment is a great idea.
+
+{bullet}FFA - Free For All, a way of playing where there are no teams. Everyone plays to win against everyone else.
+
+{bullet}GOTW - Game Of The Week, a weekly game setup exactly the same for all players of Old World. Play and compare with others in the #game-of-the-week channel on the official Discord.
+
+{bullet}Haty - Refers to link(CHARACTER_HATSHEPSUT), first Leader of link(NATION_EGYPT).
+
+{bullet}ICS - Infinite City Slease, the process of packing in cities as tightly as possible to extract the maximum amount of resources for the least amount of development. A recurring issue in strategy games, Old World addresses this issue by using preset link(CONCEPT_CITY_SITE,2).
+
+{bullet}Main - Main Branch, the public release version of the game. Mohawk applies updates to the Main branch only after being tested on the Test branch.
+
+{bullet}Mod - An addition to the game that modifies how the base game plays. Popular mods are new link(CONCEPT_NATION,2), game modes and character portraits. Access the Mods Manager from the Main menu of the game.
+
+{bullet}Mohawk/s - Refers to either Mohawk Games, the studio that created Old World, or Mohawks, the team at Mohawk Games.
+
+{bullet}MP - Multiplayer, game mode where there are multiple Human players. May be played online via Network, Play By Cloud (similar to Play By Email), Hotseat or Server mode (PITBOSS).
+
+{bullet}OCC - link(CONCEPT_ONE_CITY_CHALLENGE), a game option where the Human player/s only have one City. They are unable to build link(UNIT_SETTLER,2).
+
+{bullet}OTC - Offworld Trading Company, Mohawk Game's economic strategy game based on Mars.
+
+{bullet}PTW - Play To Win, a game option where AI players will race to claim link(CONCEPT_CITY_SITE,2) and receive negative opinion boosts towards a player who is approaching victory.
+
+{bullet}RNG - Random Number Generator, refers to the random factor in a game mechanic. For example, the percentage change of a critical hit incorporates a random number.
+
+{bullet}Shurbie - link(CHARACTER_ASHURBANIPAL), first Leader of link(NATION_ASSYRIA).
+
+{bullet}SOD - Stack of Doom, when an entire army of units are in a single tile. A concept used by some strategy games.
+
+{bullet}SP - Single Player, game mode where there is one Human player versus multiple AI players.
+
+{bullet}Stomp - Comp Stomp, a way of playing where the Humans team up to eliminate all the AI players.
+
+{bullet}Test - Test Branch, a public version of the game that Mohawk uses to test updates. Can be unstable as a result. Not recommended for Multiplayer or GOTW, use the Main branch instead.
+
+{bullet}UU - Unique Unit, link(CONCEPT_NATION) specific units that become available to build in Cities that contain a link(IMPROVEMENT_GARRISON_2) or link(IMPROVEMENT_GARRISON_3). For example, the link(UNIT_LEGIONARY) of link(NATION_ROME).
+
+{bullet}VHA - Very High Advantage, a game option that gives the highest level of AI Advantage, where the AI receives many bonuses per turn. Combined with link(DIFFICULTY_GREAT), link(TRIBELEVEL_RAGING) link(TRIBE_BARBARIANS) and Play to Win game option, makes for the hardest Old World game.
+
+{bullet}XML - Text files with markup that store structures for events, characters, bonuses, etc in the game. They ship with the game in the Reference folder.
+</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_COURT</zType>
@@ -3783,6 +3874,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>Kann nicht zu einer weiteren Religion angrenzen.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_LAWS</zType>
+		<Translation>Benötigt {0} {singular_0:Aktives Gesetz:Aktive Gesetze}</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_CULTURE</zType>
 		<Translation>Benötigt Kultur: {0_link}</Translation>
 	</Entry>
@@ -4323,6 +4418,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation><![CDATA[<true_2>link(UNITTRAIT_MELEE) Kampf Vs. {0_unitTrait}: {1_value}<false>{1_value} link(UNITTRAIT_MELEE) Kampf Vs. {0_unitTrait}<end>]]></Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_UNIT_MILITARY_KILL_YIELD</zType>
+		<Translation>{0_yield} pro getöteter Militäreinheit</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_HIDDEN_IN</zType>
 		<Translation>link(CONCEPT_HIDDEN) in freundlichem oder Neutralem {0_vegetation}</Translation>
 	</Entry>
@@ -4390,6 +4489,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_URBAN_SPECIALIST_TRAIN_TIME</zType>
 		<Translation>{0_value} {1_specialist} Ausbildungsdauer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_PROJECT_COST</zType>
+		<Translation>{0_value} link(CONCEPT_PROJECT) Kosten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_DISCIPLE_TRAIN_TIME</zType>
@@ -4642,8 +4745,20 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>{0_value} für Angrenzende {LIST,2}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_FOR_ADJACENT_IMPROVEMENT_CLASS_MODIFIER</zType>
+		<Translation>{0_value} für angrenzende {LIST} Klassen Verbesserungen</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_PER_ADJACENT_IMPROVEMENT_MODIFIER</zType>
 		<Translation>{0_value} pro angrenzender {LIST}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_PER_ADJACENT_IMPROVEMENT_CLASS_MODIFIER</zType>
+		<Translation>{0_value} pro angrenzender {LIST} Klassen Verbesserung</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_THEOLOGY_YIELD_RATE</zType>
+		<Translation>{0_theology}: {1_yieldValueList}{true_2: ({2_cityYieldValueList})}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_HEALS_UNIT</zType>
@@ -5378,6 +5493,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>{0_player} Bündnis mit {1_other}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_CHARACTER_JOIN</zType>
+		<Translation>{0_character} tritt der link(CONCEPT_NATION) von {1_player} bei</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_REVEAL_TERRITORY</zType>
 		<Translation>Decke Gebiet von {0_player} auf</Translation>
 	</Entry>
@@ -5671,6 +5790,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>{0} pro Stadt</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_MAKE_COUNCIL_YIELD_CITY_CHANGE</zType>
+		<Translation>{0} {true_1:erhöht:verringert} {2_yield} pro Stadt</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_COUNCIL_CHARACTER_OPINION</zType>
 		<Translation>{0} Meinung</Translation>
 	</Entry>
@@ -5822,8 +5945,20 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>Kann kein {0_courtier} sein</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_NO_FAMILY_HEAD</zType>
+		<Translation>Kann kein link(CONCEPT_FAMILY) Oberhaupt sein</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_NO_RELIGION_HEAD</zType>
+		<Translation>Kann kein link(CONCEPT_RELIGION) Oberhaupt sein</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_NO_RELIGION</zType>
 		<Translation>Kann keine link(CONCEPT_RELIGION) haben</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_NO_EVENTS</zType>
+		<Translation>Kann nur Teil von {0_trait} Ereignissen sein</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_JOB_ANY_FAMILY</zType>
@@ -7149,7 +7284,15 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<Entry>
         <zType>TEXT_HELPTEXT_MAIN_MENU_WEBSITE</zType>
         <Translation>Visit the Mohawk website for more info</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_MAIN_MENU_BLOG</zType>
+		<Translation>Visit the Old World developer blog</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_MAIN_MENU_MANUAL</zType>
+		<Translation>Open the player manual for Old World (Opens in browser)</Translation>
+	</Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_MAIN_MENU_DISCORD</zType>
         <Translation>Visit the Discord channel for Old World</Translation>
@@ -7165,6 +7308,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_MAIN_MENU_TWITTER</zType>
 		<Translation>Visit the Twitter account for Mohawk Games</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_MAIN_MENU_CIV_FANATICS</zType>
+		<Translation>Visit the Old World forum on Civ Fanatics</Translation>
 	</Entry>
 	<Entry>
         <zType>TEXT_HELPTEXT_JOIN_MP_NEED_PASSWORD</zType>
@@ -7592,6 +7739,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>Benötigt {0_diplomacy} mit allen Stämmen und Reichen</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_MIN_OPINION_FAMILY</zType>
+		<Translation>Benötigt mindestens {0_opinion} mit allen link(CONCEPT_FAMILY,2)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_LEGITIMACY</zType>
 		<Translation>Benötigt {0} Legitimacy icon(YIELD_LEGITIMACY)</Translation>
 	</Entry>
@@ -7981,6 +8132,14 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPPONENT_LEVEL_WAR_PROBABILITY</zType>
 		<Translation>link(DIPLOMACY_WAR) Wahrscheinlichkeit: {0}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_OPPONENT_LEVEL_START_WAR_MIN_TURN</zType>
+		<Translation>Wird nicht vor Zug {0} link(DIPLOMACY_WAR) erklären</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_OPPONENT_LEVEL_END_WAR_MIN_TURNS</zType>
+		<Translation>Wird nicht für {0} {singular_0:Zug:Züge} link(DIPLOMACY_TRUCE) schließen</Translation>
 	</Entry>
 	<!--Tooltips-->
 	<Entry>

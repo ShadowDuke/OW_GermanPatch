@@ -187,6 +187,14 @@
 		<Translation>Verlasse link(CONCEPT_STATE_RELIGION)</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSION_SEND_COURTIER</zType>
+		<Translation>Schicke link(CONCEPT_COURTIER)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_SEND_COURTIER_TARGET</zType>
+		<Translation>Schicke link(CONCEPT_COURTIER) nach</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSION_PLAYER_MARRIAGE</zType>
 		<Translation>Ausländische Heirat</Translation>
 	</Entry>
@@ -239,8 +247,16 @@
 		<Translation>Konvertiere zu </Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSION_CONVERT_STATE</zType>
+		<Translation>Konvertiere zur link(CONCEPT_STATE_RELIGION)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSION_CONVERT_RELIGION</zType>
 		<Translation>Konvertiere zu link(CONCEPT_STATE_RELIGION)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSION_CONVERT_RELIGION_CHARACTER</zType>
+		<Translation>Konvertiere link(CONCEPT_RELIGION) über</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_INTERCESSION</zType>

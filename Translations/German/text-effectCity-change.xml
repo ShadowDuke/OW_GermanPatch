@@ -152,6 +152,10 @@
 		<Translation>Vermächtnisse vollendet</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTCITY_CULTURE_WEAK</zType>
+		<Translation>Schwache Stadt</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTCITY_CULTURE_DEVELOPING</zType>
 		<Translation>Entfaltete Stadt</Translation>
 	</Entry>

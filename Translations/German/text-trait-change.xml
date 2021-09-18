@@ -643,8 +643,16 @@
 		<Translation>Gesegnet</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_BLESSED_DESCRIPTION</zType>
+		<Translation>Some people are blessed with better fortune than others. Who knows what good things it might lead to?</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_CURSED</zType>
 		<Translation>Verflucht</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_CURSED_DESCRIPTION</zType>
+		<Translation>Nobody knows whether curses are real, but the misfortune some people attract definitely is. Whatever comes next will likely not be pleasant.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ILL</zType>

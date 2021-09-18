@@ -123,6 +123,10 @@
 		<Translation>Verlasse link(CONCEPT_STATE_RELIGION)</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_BONUS_MISSIONRESULT_SEND_COURTIER</zType>
+		<Translation>Schicke link(CONCEPT_COURTIER)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_RALLY_TROOPS</zType>
 		<Translation>Sammle die Truppen</Translation>
 	</Entry>
@@ -141,6 +145,10 @@
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_CONVERT_SELF</zType>
 		<Translation>Selbst konvertiert</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_MISSIONRESULT_CONVERT_STATE</zType>
+		<Translation>Konvertiere zur link(CONCEPT_STATE_RELIGION)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_CONVERT_RELIGION</zType>
@@ -307,6 +315,10 @@
 		<Translation>Freier link(UNIT_SETTLER)</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_BONUS_TECH_POLIS_BONUS_WORKER</zType>
+		<Translation>Freier link(UNIT_WORKER)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_BONUS_TECH_ARISTOCRACY_BONUS_BORDERS</zType>
 		<Translation>Grenzenausdehnung</Translation>
 	</Entry>
@@ -315,8 +327,20 @@
 		<Translation>Freie link(UNIT_BIREME)</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_BONUS_TECH_PHALANX_BONUS_ORDERS</zType>
+		<Translation>link(YIELD_ORDERS) Schub</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_BONUS_TECH_SPOKED_WHEEL_BONUS_CHARIOT</zType>
 		<Translation>Freier link(UNIT_CHARIOT)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_TECH_SOVEREIGNITY_BONUS_CIVICS</zType>
+		<Translation>link(YIELD_CIVICS) Schub</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_TECH_FORESTRY_BONUS_SCIENTIST</zType>
+		<Translation>Neuer link(COURTIER_SCIENTIST)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_CITIZENSHIP_BONUS_MINISTER</zType>
@@ -339,10 +363,6 @@
 		<Translation>Freier link(UNIT_ARCHER)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_TECH_PHALANX_BONUS_ORDERS</zType>
-		<Translation>link(YIELD_ORDERS) Schub</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_BONUS_TECH_COINAGE_BONUS_MONEY</zType>
 		<Translation>link(YIELD_MONEY) Schub</Translation>
 	</Entry>
@@ -363,12 +383,12 @@
 		<Translation>Freier link(UNIT_HORSE_ARCHER)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_TECH_SOVEREIGNITY_BONUS_CIVICS</zType>
-		<Translation>link(YIELD_CIVICS) Schub</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_BONUS_TECH_MANOR_BONUS_GOODS</zType>
 		<Translation>Waren Schub</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_TECH_BATTLELINE_BONUS_SOLDIER</zType>
+		<Translation>Neuer link(COURTIER_SOLDIER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_MACHINERY_BONUS_ONAGER</zType>
@@ -391,16 +411,24 @@
 		<Translation>link(YIELD_TRAINING) Schub</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_TECH_BATTLELINE_BONUS_SOLDIER</zType>
-		<Translation>Neuer link(COURTIER_SOLDIER)</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_BONUS_TECH_WINDLASS_BONUS_CROSSBOWMAN</zType>
 		<Translation>Freier link(UNIT_CROSSBOWMAN)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_LATEEN_SAIL_BONUS_DROMON</zType>
 		<Translation>Freie link(UNIT_DROMON)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_TECH_FISCAL_POLICY_BONUS_MERCHANT</zType>
+		<Translation>Neuer link(COURTIER_MERCHANT)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_TECH_INFANTRY_SQUARE_BONUS_SOLDIER</zType>
+		<Translation>Neuer link(COURTIER_SOLDIER)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_TECH_CHAIN_DRIVE_BONUS_MINISTER</zType>
+		<Translation>Neuer link(COURTIER_MINISTER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_ECONOMIC_REFORM</zType>

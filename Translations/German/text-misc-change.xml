@@ -6,6 +6,14 @@
 		<Translation/>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MAINMENU_HIRING_NOTICE</zType>
+		<Translation>Mohawk Games stellt ein!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAINMENU_HIRING_NOTICE_GRAPHICS</zType>
+		<Translation><![CDATA[<i>Senior Graphics Engineer</i>]]></Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRIBE_ADJECTIVE</zType>
 		<Translation>{0,1_TribeAdjective}</Translation>
 	</Entry>
@@ -213,6 +221,14 @@
 	<Entry>
 		<zType>TEXT_CULTURE_LEGENDARY</zType>
 		<Translation>Sagenumwoben</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTLEVEL_MINIMAL</zType>
+		<Translation>Minimal</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTLEVEL_MINIMAL_HELP</zType>
+		<Translation>So wenig Ereignisse wie möglich</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTLEVEL_LOW</zType>
@@ -1111,6 +1127,34 @@
 		<Translation>Verstecke Alles</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HOTKEY_LOCK_ZOC</zType>
+		<Translation>Lock link(CONCEPT_ZOC,1) Overlay</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_LOCK_DANGER_TILES</zType>
+		<Translation>Lock Danger Tiles Overlay</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_LOCK_TRADE_NETWORK</zType>
+		<Translation>Lock link(CONCEPT_TRADE_NETWORK) Overlay</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_LOCK_ROADS_RIVERS</zType>
+		<Translation>Lock link(CONCEPT_ROAD,2) and link(CONCEPT_RIVER,2) Overlay</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_LOCK_IDLE_UNITS</zType>
+		<Translation>Lock link(CONCEPT_PROMOTION,2) and link(CONCEPT_IDLE) Units Overlay</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_LOCK_TILE_YIELDS</zType>
+		<Translation>Lock Tile Yields Overlay</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_LOCK_TILE_SPECIALISTS</zType>
+		<Translation>Lock Tile link(CONCEPT_SPECIALIST,2) Overlay</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HOTKEY_SHOW_ZOC</zType>
 		<Translation>Zeige Kontrollzone (ZOC)</Translation>
 	</Entry>
@@ -1269,6 +1313,10 @@
 	<Entry>
 		<zType>TEXT_HOTKEY_CHAT</zType>
 		<Translation>Chat</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CHAT_ALL</zType>
+		<Translation>Chat an alle</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_VICTORY_SCREEN</zType>

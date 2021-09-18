@@ -54,12 +54,20 @@
 		<Translation>The Convert Self Mission has led to an event...</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_CONVERT_STATE_DESCRIPTION</zType>
+		<Translation>Du hast erfolgreich {CHARACTER-TARGET} zu deiner link(CONCEPT_STATE_RELIGION) konvertiert.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_CONVERT_STATE_EVENT_DESCRIPTION</zType>
+		<Translation>Die Konvertierung zur link(CONCEPT_STATE_RELIGION) Mission von {CHARACTER-SUBJECT} führte zu einem Ereignis...</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_CONVERT_RELIGION_DESCRIPTION</zType>
-		<Translation>You have successfully converted {CHARACTER-TARGET} to your State Religion.</Translation>
+		<Translation><![CDATA[{CHARACTER-SUBJECT} hat erfolgreich {CHARACTER-TARGET} zu <masculine_CHARACTER-SUBJECT>seiner<feminine>ihrer<end> link(CONCEPT_RELIGION) konvertiert.]]></Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_CONVERT_RELIGION_EVENT_DESCRIPTION</zType>
-		<Translation>The Convert Religion Mission of {CHARACTER-SUBJECT} has led to an event...</Translation>
+		<Translation>The Convert link(CONCEPT_RELIGION) Mission of {CHARACTER-TARGET} by {CHARACTER-SUBJECT} has led to an event...</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INTERCESSION_DESCRIPTION</zType>
@@ -379,6 +387,10 @@
 		<Translation>Verlasse link(CONCEPT_STATE_RELIGION)</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_SEND_COURTIER</zType>
+		<Translation>Schicke link(CONCEPT_COURTIER)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_PLAYER_MARRIAGE_EVENT</zType>
 		<Translation>Ausländische Heirat</Translation>
 	</Entry>
@@ -429,6 +441,14 @@
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_CONVERT_SELF_EVENT</zType>
 		<Translation>Kovertiere deine Religion Ereignis</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_CONVERT_STATE</zType>
+		<Translation>Konvertiere zur link(CONCEPT_STATE_RELIGION)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_CONVERT_STATE_EVENT</zType>
+		<Translation>Konvertiere zur link(CONCEPT_STATE_RELIGION) Ereignis</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_CONVERT_RELIGION</zType>

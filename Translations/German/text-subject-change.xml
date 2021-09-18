@@ -99,7 +99,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_MIN_COMPETENT</zType>
-		<Translation>Min Kompetenz (Wissen)</Translation>
+		<Translation>Min Kompetenz (link(CONCEPT_KNOWLEDGE))</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_MAX_NAIVE</zType>
@@ -107,9 +107,9 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_NO_ADOPTED_RELIGION</zType>
-		<Translation>Hat Religion nicht vor kurzem adoptiert</Translation>
+		<Translation>Hat link(CONCEPT_STATE_RELIGION) nicht vor kurzem adoptiert</Translation>
 	</Entry>
-	<Entry comment="Nation only if Heirs exist">
+	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_HAS_HEIRS</zType>
 		<Translation>Hat Erbe(n)</Translation>
 	</Entry>
@@ -224,6 +224,10 @@
 	<Entry>
 		<zType>TEXT_SUBJECT_LEADER_BUILDER</zType>
 		<Translation>link(TRAIT_BUILDER_ARCHETYPE) Oberhaupt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECT_LEADER_OR_DESCENDANT</zType>
+		<Translation>Oberhaupt oder Nachkomme</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_MAX_CAUTIOUS</zType>

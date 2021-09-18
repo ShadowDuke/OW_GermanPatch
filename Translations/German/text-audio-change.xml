@@ -3,8 +3,45 @@
 <Root>
 	<Entry>
 		<zType/>
-		<English/>
+		<Translation/>
 	</Entry>
+	 <!-- audio options menu text -->
+	<Entry>
+		<zType>TEXT_MUSIC_TRACK_DISABLED__USER_SKIPPED</zType>
+		<Translation>Track disabled (Marked as skippable by you)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MUSIC_TRACK_DISABLED__IS_NOT_MENU_MUSIC</zType>
+		<Translation>Track disabled (Only menu tracks allowed in menu screen)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MUSIC_TRACK_DISABLED__BY_MUSIC_SYSTEM</zType>
+		<Translation>Track disabled (Licensed track is disabled, or, another reason)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_JUKEBOX_MUSIC_TRACK_SKIP_HOVER</zType>
+		<Translation>Include this track in the playlist.</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_STREAMING_LICENSED_WARNING_TITLE</zType>
+		<Translation>Video Creators / LiveStreamers</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_STREAMING_LICENSED_WARNING_BODY</zType>
+		<Translation>
+Recording and Streaming Copyright Safety Mode is now enabled.
+
+This will reduce issues when recording online videos and streams
+by skipping any music tracks known to cause content protection 
+flagging issues.
+			
+Warning: Online video sharing sites may still flag remaining 
+music tracks and can prevent monetization of your videos. 
+Streaming any music from the game is at your own risk.
+		</Translation>
+	</Entry>
+	
+	<!-- music track names -->
 	<Entry>
 		<zType>TEXT_AUDIO_MUSIC_BG_3_PIECES_IN_OLD_STYLE___NO1</zType>
 		<Translation>3 Pieces in Old Style #1</Translation>

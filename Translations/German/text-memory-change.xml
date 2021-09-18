@@ -674,6 +674,14 @@
 		<Translation>Refused to marry into our royal succession</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MEMORY_REFUSED_MARRIAGE</zType>
+		<Translation>Refused to marry our offered suitor</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORY_ACCEPTED_MARRIAGE</zType>
+		<Translation>Accepted our offered suitor</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MEMORYPLAYER_DENOUNCED_US</zType>
 		<Translation>Denounce us publicly</Translation>
 	</Entry>
@@ -928,6 +936,10 @@
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_UPGRADED_RECENTLY</zType>
 		<Translation>Upgraded recently</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYCHARACTER_ASSASSINATE_FAIL</zType>
+		<Translation>Versucht mich zu link(MISSION_ASSASSINATE)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_MATCH_PREVENT</zType>
@@ -3870,5 +3882,9 @@
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GAVE_AUTONOMY</zType>
 		<Translation>Allowed autonomous rule of our city</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYRELIGION_DIVORCED_SPOUSE</zType>
+		<Translation>Divorced spouse of our religion</Translation>
 	</Entry>
 </Root>
