@@ -307,8 +307,8 @@
 		<Translation>link(TRAIT_HERO_ARCHETYPE) (Oberhaupt)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTUNIT_HERO_MELEE</zType>
-		<Translation>link(TRAIT_HERO_ARCHETYPE) (link(UNITTRAIT_MELEE))</Translation>
+		<zType>TEXT_EFFECTUNIT_HERO_ALL</zType>
+		<Translation>link(TRAIT_HERO_ARCHETYPE) Oberhaupt (Alle Einheiten)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_COMMANDER</zType>

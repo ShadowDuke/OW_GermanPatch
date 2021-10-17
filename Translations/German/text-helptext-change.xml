@@ -221,7 +221,8 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CONCAT_COLON_ENCLOSED_PARENTHESIS_X_COUNT</zType>
-		<Translation><![CDATA[{0}: {1}<true_2> ({2}x)<false><end>]]></Translation>
+		<Translation>{0}: {1}{true_2: ({2}x)}
+		</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CONCAT_COLON_X_COUNT</zType>
@@ -233,7 +234,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TIMES_NUMBERS</zType>
-		<Translation><![CDATA[<true_0> (x{0_number})<false><end>]]></Translation>
+		<Translation>{true_0: (x{0_number})}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_INDENTED_BULLET_LIST_BUILDER_FIRST</zType>
@@ -269,7 +270,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_ERA_YEAR</zType>
-		<Translation><![CDATA[{0_year} <true_1>n. Chr.<false>BCE<end>]]></Translation>
+		<Translation>{0_year} {true_1:n. Chr.:v. Chr}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LEADER_REIGN</zType>
@@ -416,12 +417,16 @@
 		<Translation>[Benachbarte Einheiten] {0}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_XP_PER_YEAR</zType>
-		<Translation>{0} EP/{1_turnScale}</Translation>
+		<zType>TEXT_HELPTEXT_XP_PER_YEAR_ALWAYS</zType>
+		<Translation>{0} link(CONCEPT_XP)/{1_turnScale}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_XP_PER_YEAR_IDLE</zType>
+		<Translation>{0} link(CONCEPT_XP)/{1_turnScale} (wenn link(CONCEPT_IDLE))</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HP_PER_YEAR</zType>
-		<Translation>{0} HP/{1_turnScale}</Translation>
+		<Translation>{0} HP/{1_turnScale} (wenn link(CONCEPT_IDLE))</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_SELECTION_OPTIONAL_ARROWS</zType>
@@ -438,7 +443,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_EFFECT_PLAYER_SOURCE_RELIGION</zType>
-		<Translation>{0_religion} als Staatsreligion</Translation>
+		<Translation>{0_religion} als link(CONCEPT_STATE_RELIGION)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_EFFECT_PLAYER_SOURCE_TRAIT</zType>
@@ -450,19 +455,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_EFFECT_CITY_SOURCE_GOVERNOR</zType>
-		<Translation>{0_source} Statthalter</Translation>
+		<Translation>{0_source} link(CONCEPT_GOVERNOR)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_EFFECT_CITY_SOURCE_FAMILY</zType>
-		<Translation>{0_source} Stadt</Translation>
+		<Translation>Stadt mit {0_source} link(CONCEPT_FAMILY)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_EFFECT_CITY_SOURCE_RELIGION</zType>
-		<Translation>{0_source} Religion</Translation>
+		<Translation>Stadt mit {0_source} link(CONCEPT_RELIGION)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_CONNECTED</zType>
-		<Translation><![CDATA[{0_icon}<true_1> Verbunden<false><end>]]></Translation>
+		<Translation>{0_icon}{true_1: Verbunden}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_FRESH_WATER</zType>
@@ -470,7 +475,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_ROAD</zType>
-		<Translation>Straße</Translation>
+		<Translation>Straße~eine Straße~Straßen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_OUTSIDE_BORDERS</zType>
@@ -1657,13 +1662,13 @@
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_CHARACTER_ARCHETYPE</zType>
 		<Translation>{0_character} Erringt {1_trait}</Translation>
 	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_CHARACTER_NAME_CHANGE</zType>
-		<Translation>{0_character} ändert Namen zu {1}</Translation>
+		<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_ADD_PROJECT</zType>
+		<Translation>{0_city} Erlangt {1_project}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_SUCCESSION_WARNING</zType>
-		<Translation>Warnung: Könnte die link(CONCEPT_SUCCESSION) ändern</Translation>
+		<Translation>Warnung: Könnte die link(CONCEPT_SUCCESSION) verändern</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_STORY_FUTURE_EVENTS</zType>
@@ -1740,13 +1745,20 @@
 		<Translation>Manche link(UNITTRAIT_SIEGE) Einheiten könne nicht wieder den Zug angreifen,  nachdem sie abprotzen</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_UNLIMBER_HELP_ALREADY</zType>
+		<Translation>The Unit is already link(CONCEPT_UNLIMBERED)</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_ANCHOR</zType>
 		<Translation>Anker</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_ANCHOR_HELP</zType>
-		<Translation>Nach dem ankern können Landeinheiten über Wasserfelder
-sich in der Einheits Bewegungsreichtweite bewegen</Translation>
+		<Translation>Nach dem ankern können Landeinheiten über Wasserfelder sich in der Einheits Bewegungsreichtweite bewegen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_ANCHOR_HELP_ALREADY</zType>
+		<Translation>The Unit is already link(CONCEPT_ANCHORED)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PILLAGE</zType>
@@ -1758,7 +1770,11 @@ sich in der Einheits Bewegungsreichtweite bewegen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PILLAGE_YIELDS</zType>
-		<Translation>Beute: {0_list}</Translation>
+		<Translation>Beute: {LIST}</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_PILLAGE_HEAL</zType>
+		<Translation>link(CONCEPT_HEAL): {0_amount} HP</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_WAKE</zType>
@@ -2703,16 +2719,20 @@ Resources that are within any City's limits, or that are too far from one of you
 	</Entry>
 	<!--Link Help-->
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_OPEN_ENCYCLOPEDIA</zType>
+		<Translation>{0_key} to open associated encyclopedia entry</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_AGENT</zType>
-		<Translation>Deckt derzeitige Stadt auf</Translation>
+		<Translation>Agents can be sent to Cities with an link(CONCEPT_AGENT_NETWORK) to conduct link(MISSION_TREACHERY) and link(MISSION_INSURRECTION) Missions and siphon off a percentage of its Yields, depending on the Ratings of the Character. (For example, a Character's link(RATING_WISDOM) will determine how much {YIELD_SCIENCE}link(YIELD_SCIENCE) they will gather.)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_AGENT_NETWORK</zType>
-		<Translation>Setze link(UNIT_SCOUT,1) in eine ausländische Stadt ein um Sichtbarkeit zu erlangen. Ein Charakter kann dann in die Stadt geschickt werden um als link(CONCEPT_AGENT,1) zu dienen. Der link(UNIT_SCOUT) wird nach int(AGENT_NETWORK_TURNS) Zügen zurückkehren.</Translation>
+		<Translation>Once you have a link(COUNCIL_SPYMASTER), link(UNIT_SCOUT,1) can create an Agent Network in a Foreign City to gain visibility. (The link(UNIT_SCOUT) will be automatically returned after int(AGENT_NETWORK_TURNS) Turns.) A Character can then be sent to the City to serve as an link(CONCEPT_AGENT).</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HELP_ALLIANCE_TRIBE</zType>
-		<Translation>Kann sich mit den Einheiten eines verbündeten link(CONCEPT_TRIBE) bewegen und angreifen und kann Städte in der Nähe derer link(CONCEPT_SETTLEMENT,2) gründen. Verbündete link(CONCEPT_TRIBE,2) werden deinenn diplomatischen Status mit anderen link(CONCEPT_TRIBE,2) teilen und werden link(DIPLOMACY_WAR) gegen andere Reiche erklären, die dir den link(DIPLOMACY_WAR) erklärt haben. Du kannst nur ein Bündnis gleichzeitig mit einem link(CONCEPT_TRIBE) haben.</Translation>
+		<Translation>You can move and attack with Units of an Allied link(CONCEPT_TRIBE) and also found Cities near their link(CONCEPT_SETTLEMENT,2). Allied link(CONCEPT_TRIBE,2) will share your Diplomatic stance toward other link(CONCEPT_TRIBE,2) and declare link(DIPLOMACY_WAR) against Nations that declare link(DIPLOMACY_WAR) on you. You can have an Alliance with only one link(CONCEPT_TRIBE) at a time. Only link(TRAIT_DIPLOMAT_ARCHETYPE) Leaders can initiate Tribal Alliances.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HELP_ALLIANCE_PLAYER</zType>
@@ -2776,8 +2796,8 @@ Resources that are within any City's limits, or that are too far from one of you
 		<Translation>{0_yield}: Benötigt mehr {1_urbanLink} Felder für {2,2_citizens}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_EMPTY_IMPROVEMENT</zType>
-		<Translation>{0_yield}: Verbesserungen ohne Spezialisten</Translation>
+		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_IMPROVEMENT</zType>
+		<Translation>{0_yield}: Verbesserungen{true_1: x{1}}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_CAPITAL_DISTANCE</zType>
@@ -2997,6 +3017,10 @@ Ihre Vorlieben geben vor welche link(CONCEPT_AMBITION,2) du nachgehen kannst. De
 		<Translation>Diese {0_resource} wurde gesammelt und kann nicht wieder gesammelt werden bis es zufällig wieder aufgefüllt wurde.</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_PILLAGE</zType>
+		<Translation>Military Units can disable link(CONCEPT_IMPROVEMENT,2) by pillaging them. When an Improvement is pillaged by a Unit with a Nation, Resources are added to that Nation's stockpile. Once pillaged, an Improvement will not grant any Resource yields or other bonuses until repaired by a link(UNIT_WORKER). If left in a Pillaged state, an Improvement will eventually be lost.</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_MARCH</zType>
 		<Translation>A Forced March permits a Unit to continue moving this Turn when out of Moves, at the cost of int(UNIT_MARCH_COST) link(YIELD_TRAINING)icon(YIELD_TRAINING) and twice as many link(YIELD_ORDERS)icon(YIELD_ORDERS) per additional Move.</Translation>
 	</Entry>
@@ -3148,6 +3172,7 @@ Ihre Vorlieben geben vor welche link(CONCEPT_AMBITION,2) du nachgehen kannst. De
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_LEGITIMACY</zType>
 		<Translation>Legitimität erlangt man durch erreichen einer link(CONCEPT_AMBITION,2) und erlangen von besseren link(CONCEPT_COGNOMEN,2) (Wie zB. link(COGNOMEN_GREAT)). Höhrere Legitimität verbessert die Familien Meinung und produziert mehr link(YIELD_ORDERS) pro Zug.
+  
 Höhre Legitimität verbessert die link(CONCEPT_OPINION_FAMILY,1) und erzeugt mehr link(YIELD_ORDERS) pro Zug.</Translation>																												  
 	</Entry>
 	<Entry>
@@ -3378,6 +3403,7 @@ All Religions give link(YIELD_CULTURE){YIELD_CULTURE} to their Cities, and a lin
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DISCIPLE</zType>
 		<Translation>Ein Jünger kann seine Religion verbreiten, Religiöse Verbesserungen bauen und andere Religionen von deinen Städten mit link(LAW_ORTHODOXY) säubern.
+  
 link(CONCEPT_IDLE) Disciples produce a small Yield amount if positioned on an link(CONCEPT_IMPROVEMENT) of their link(CONCEPT_RELIGION). For example, a Disciple on a link(IMPROVEMENTCLASS_MONASTERY) will produce some {YIELD_SCIENCE}link(YIELD_SCIENCE) each Turn.</Translation>																										
 	</Entry>
 	<Entry>
@@ -3511,6 +3537,7 @@ link(CONCEPT_IDLE) Disciples produce a small Yield amount if positioned on an li
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TRADE_NETWORK</zType>
 		<Translation>Das Handelsnetz sind alle Felder, die mit eurer {0_capital} über {1,2_roads}, {2,2_rivers}, {3_urban} Gebiet  oder offenem Wasser verunden sind.
+
 Foreign Cities on your Trade Network (which requires link(CONCEPT_PEACE_PLAYER)) produce link(YIELD_MONEY){YIELD_MONEY} each Turn.</Translation>																																			
 	</Entry>
 	<Entry>
@@ -3824,10 +3851,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_WARN_HARVESTED</zType>
 		<Translation>Kann nicht auf einem geernteten Feld bauen</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_TECH</zType>
-		<Translation>Benötigt Technologie: {0_techLink}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_HOLY_CITY</zType>
@@ -4391,11 +4414,15 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_CRITICAL_IMMUNE</zType>
-		<Translation>Geschützt von link(CONCEPT_CRITICAL_HIT)</Translation>
+		<Translation>Immun gegen link(CONCEPT_CRITICAL_HIT)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_HEAL_NEUTRAL</zType>
 		<Translation>Heile in neutralem Gebiet</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_HEAL_PILLAGE</zType>
+		<Translation>link(CONCEPT_HEAL) beim plündern</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_LAUNCH_OFFENSIVE</zType>
@@ -4404,6 +4431,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_NO_ROAD_COOLDOWN</zType>
 		<Translation>Kann mehrere Straßen pro Jahr konstruieren</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_REMOVE_VEGETATION</zType>
+		<Translation>Kann Vegetation entfernen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_ATTACK_VALUE_ITEM</zType>
@@ -4761,16 +4792,16 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</Translation>
 		<Translation>{0_theology}: {1_yieldValueList}{true_2: ({2_cityYieldValueList})}</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_HEALS_UNIT</zType>
-		<Translation>Heilt {0_value} HP für {1_idle} Einheiten</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_LEGITIMACY</zType>
-		<Translation>{0_value} Legitimacyicon(YIELD_LEGITIMACY)</Translation>
+		<Translation>{0_value}  icon(YIELD_LEGITIMACY)Legitimität</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_OPINION_RELIGION</zType>
-		<Translation>{0_value} {1_religion} Meinung</Translation>
+		<Translation>{0_value} {1_religion} link(CONCEPT_OPINION_RELIGION,3)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_HEALS_UNIT</zType>
+		<Translation>Heals {0_value} HP für link(CONCEPT_IDLE) Einheiten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_UNIT_TRAIT_HEALS_UNIT</zType>

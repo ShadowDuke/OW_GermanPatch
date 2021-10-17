@@ -485,7 +485,11 @@
     <Entry>
         <zType>TEXT_UI_CITY_SELECTION_CITIZENS_TAB_LABEL</zType>
         <Translation>Bürger  {0}</Translation>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_CITY_SELECTION_HURRY_PRODUCTION</zType>
+		<Translation>Beschleunige Produktion</Translation>
+	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTER_SELECTION_FAMILY</zType>
 		<Translation>Familie: {0}</Translation>
@@ -1687,6 +1691,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</Translation>
     <Entry>
         <zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_TEAMS</zType>
         <Translation>Teams</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_SCENARIO</zType>
+		<Translation>Szenario</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_TRIBAL_STRENGTH</zType>

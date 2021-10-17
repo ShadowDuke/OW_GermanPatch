@@ -14,7 +14,9 @@ The name base will be automatically appended to generic prefixes like EVENTSTORY
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTEDITOR_OPTION_NAME_BASES_DESC</zType>
-		<Translation><![CDATA[The name bases for this story’s options. These will be appended to the option zTypes after the story name base.<br><br>If you intend to add existing options or options whose name is not calculated by the same nature, just add blank items here.]]></Translation>
+		<Translation>The name bases for this story’s options. These will be appended to the option zTypes after the story name base.
+		
+If you intend to add existing options or options whose name is not calculated by the same nature, just add blank items here.</Translation>
 	</Entry>
 	<!-- Other -->
 	<Entry>

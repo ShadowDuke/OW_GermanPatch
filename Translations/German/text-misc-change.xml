@@ -135,6 +135,10 @@
 		<Translation>Insel Größe</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MAP_OPTION_CONTINENTS_NUMBER</zType>
+		<Translation>Anzahl der Kontinente</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MAP_OPTION_KING_OF_THE_HILL</zType>
 		<Translation>King of the Hill</Translation>
 	</Entry>
@@ -803,7 +807,7 @@
 		<Translation>Jung</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_DEVELOPMENT_FLEDGLING_HELP</zType>
+		<zType>TEXT_DEVELOPMENT_HELP</zType>
 		<Translation>Vorhandene Staaten starten im Schnitt mit einer Stadt</Translation>
 	</Entry>
 	<Entry>
@@ -811,24 +815,12 @@
 		<Translation>Bekannt</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_DEVELOPMENT_ESTABLISHED_HELP</zType>
-		<Translation>Vorhandene Staaten starten im Schnitt mit drei Städten</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_DEVELOPMENT_ADVANCED</zType>
 		<Translation>Fortgeschritten</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_DEVELOPMENT_ADVANCED_HELP</zType>
-		<Translation>Vorhandene Staaten starten im Schnitt mit vier Städten</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_DEVELOPMENT_MASSIVE</zType>
 		<Translation>Mächtig</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_DEVELOPMENT_MASSIVE_HELP</zType>
-		<Translation>Vorhandene Staaten starten im Schnitt mit fünf Städten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DIFFICULTY_ABLE</zType>
@@ -893,10 +885,6 @@
 	<Entry>
 		<zType>TEXT_DIFFICULTYMODE_GREAT</zType>
 		<Translation>Der Große</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_DIFFICULTYMODE_CUSTOM</zType>
-		<Translation>Zufällig</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DIRECTION_NW</zType>
@@ -1193,6 +1181,14 @@
 	<Entry>
 		<zType>TEXT_HOTKEY_ROAD_TO</zType>
 		<Translation>Schalte Stadtverbindugen um</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_HEAL</zType>
+		<Translation>Heilen</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_FORTIFY</zType>
+		<Translation>Verschanzen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_REMOVE_VEGETATION</zType>
@@ -2092,6 +2088,22 @@ Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.</Translation>
 		<Translation>Ein Platz zum Leben</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_SCENARIO_LEARNTOPLAY_3</zType>
+		<Translation>Lektion 3</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_LEARNTOPLAY_3_SUB</zType>
+		<Translation>Jeder hat eine Meinung - NOCH NICHT SPIELBAR</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_LEARNTOPLAY_4</zType>
+		<Translation>Lektion 4</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_LEARNTOPLAY_4_SUB</zType>
+		<Translation>Die schwere Last der Krone - NOCH NICHT SPIELBAR</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_SCENARIO_BARBARIAN</zType>
 		<Translation>The Barbarian Horde</Translation>
 	</Entry>
@@ -2426,5 +2438,57 @@ Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.</Translation>
 	<Entry>
 		<zType>TEXT_TURN</zType>
 		<Translation>Zug</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURN_SUMMARY</zType>
+		<Translation>-Zusammenfassung-</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURN_COMBAT</zType>
+		<Translation>-Kampf-</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURN_COMBAT_ATTACKED</zType>
+		<Translation>Deine Einheiten wurden angegriffen {1} time{true_0:s}!</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURN_DIPLOMACY</zType>
+		<Translation>-Diplomatie-</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURN_ECONOMY</zType>
+		<Translation>-Wirtschaft-</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURN_GOAL</zType>
+		<Translation>-Ziele und Ambitionen-</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURN_RELIGION</zType>
+		<Translation>-Wunder und Religion-</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GRAMMATICAL_GENDER_MASCULINE</zType>
+		<Translation>Männlich</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GRAMMATICAL_GENDER_FEMININE</zType>
+		<Translation>Weiblich</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GRAMMATICAL_GENDER_NEUTER</zType>
+		<Translation>Geschlechtslos</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GRAMMATICAL_GENDER_COMMON</zType>
+		<Translation>Häufig</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GRAMMATICAL_GENDER_ANIMATE</zType>
+		<Translation>Lebhaft</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GRAMMATICAL_GENDER_INANIMATE</zType>
+		<Translation>Leblos</Translation>
 	</Entry>
 </Root>

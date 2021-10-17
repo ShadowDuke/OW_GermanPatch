@@ -261,11 +261,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_BULLION</zType>
-		<Translation>Bullion</Translation>
+		<Translation>Edelmetall Ressource~eine Edelmetall Ressource~Edelmetall Ressourcen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_SPECIALIST_RURAL</zType>
-		<Translation>Land-Spezialist</Translation>
+		<Translation>Land-Spezialist~ein Land-Spezialist~Land-Spezialisten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_SPECIALIST_APPRENTICE</zType>
@@ -324,60 +324,60 @@
 		<Translation>link(TRAIT_AFFABLE) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTCITY_TRAIT_ELOQUENT_ALL</zType>
-		<Translation>link(TRAIT_ELOQUENT) Oberhaupt</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_TRAIT_WARLIKE_ALL</zType>
-		<Translation>link(TRAIT_WARLIKE) Oberhaupt</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_TRAIT_INSPIRING_ALL</zType>
-		<Translation>link(TRAIT_INSPIRING) Oberhaupt</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_TRAIT_INTELLIGENT_ALL</zType>
-		<Translation>link(TRAIT_INTELLIGENT) Oberhaupt</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_TRAIT_PROSPEROUS_ALL</zType>
-		<Translation>link(TRAIT_PROSPEROUS) Oberhaupt</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_TRAIT_FRUGAL_ALL</zType>
-		<Translation>link(TRAIT_FRUGAL) Oberhaupt</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_TRAIT_RIGHTEOUS_ALL</zType>
-		<Translation>link(TRAIT_RIGHTEOUS) Oberhaupt</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_CRUEL_ALL</zType>
 		<Translation>link(TRAIT_CRUEL) Oberhaupt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_ELOQUENT_ALL</zType>
+		<Translation>link(TRAIT_ELOQUENT) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_INTOLERANT_ALL</zType>
 		<Translation>link(TRAIT_INTOLERANT) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_WARLIKE_ALL</zType>
+		<Translation>link(TRAIT_WARLIKE) Oberhaupt</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_SLOTHFUL_ALL</zType>
 		<Translation>link(TRAIT_SLOTHFUL) Oberhaupt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_INSPIRING_ALL</zType>
+		<Translation>link(TRAIT_INSPIRING) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_UNCOUTH_ALL</zType>
 		<Translation>link(TRAIT_UNCOUTH) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_INTELLIGENT_ALL</zType>
+		<Translation>link(TRAIT_INTELLIGENT) Oberhaupt</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_FOOLISH_ALL</zType>
 		<Translation>link(TRAIT_FOOLISH) Oberhaupt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_PROSPEROUS_ALL</zType>
+		<Translation>link(TRAIT_PROSPEROUS) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_EXTRAVAGANT_ALL</zType>
 		<Translation>link(TRAIT_EXTRAVAGANT) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_FRUGAL_ALL</zType>
+		<Translation>link(TRAIT_FRUGAL) Oberhaupt</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_CORRUPT_ALL</zType>
 		<Translation>link(TRAIT_CORRUPT) Oberhaupt</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_TRAIT_RIGHTEOUS_ALL</zType>
+		<Translation>link(TRAIT_RIGHTEOUS) Oberhaupt</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_DEBAUCHED_ALL</zType>

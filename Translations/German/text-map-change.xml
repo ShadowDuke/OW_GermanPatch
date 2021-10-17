@@ -629,10 +629,28 @@
 		<zType>TEXT_MAP_OPTION_ARCHIPELAGO_LANDMASS_LARGE_HELP</zType>
 		<Translation>Mehr Land als Wasser</Translation>
 	</Entry>
-<!--
 	<Entry>
-		<zType>TEXT_</zType>
-		<Translation></Translation>
+		<zType>TEXT_MAP_OPTION_CONTINENTS_NUMBER_RANDOM</zType>
+		<Translation>Random</Translation>
 	</Entry>
--->
+	<Entry>
+		<zType>TEXT_MAP_OPTION_CONTINENTS_NUMBER_TWO</zType>
+		<Translation>Zwei Kontinente</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_OPTION_CONTINENTS_NUMBER_THREE</zType>
+		<Translation>Drei Kontinente</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_OPTION_CONTINENTS_NUMBER_RANDOM_HELP</zType>
+		<Translation>Entweder zwei oder drei Kontinente</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_OPTION_CONTINENTS_NUMBER_TWO_HELP</zType>
+		<Translation>Zwei Kontinente, einer im Norden und einer im Süden</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_OPTION_CONTINENTS_NUMBER_THREE_HELP</zType>
+		<Translation>Drei Kontinente, wo entweder der Norden oder Süden zwei Kontinente besitzt</Translation>
+	</Entry>
 </Root>

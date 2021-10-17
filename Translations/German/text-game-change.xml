@@ -829,6 +829,10 @@
 		<Translation>{0_fromPlayer}[{1_tag}]: {2_msg}</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_TILE_STUNNED</zType>
+		<Translation>Betäubt</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_TILE_NOT_UNLIMBERED</zType>
 		<Translation>Nicht abgeprotzt</Translation>
 	</Entry>

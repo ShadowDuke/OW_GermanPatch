@@ -1776,10 +1776,6 @@
 		<Translation>There are many ways to enrich our nation's culture.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_EPICS_OPTION_NO</zType>
-		<Translation>I have something else in mind.</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_RETURNING_THE_FAVOR_REFUSE</zType>
 		<Translation>Nein, {CHARACTER-SHORT-0} verlangt zu viel. </Translation>
 	</Entry>
@@ -2072,10 +2068,6 @@
 		<Translation>I will commission the construction of a grand hillside garden, to be the envy of all.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_SLAVERY_OPTION_NO</zType>
-		<Translation>I have something else in mind.</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_SLAVERY_OPTION_FREEDOM</zType>
 		<Translation>I’ve made a huge mistake.</Translation>
 	</Entry>
@@ -2124,10 +2116,6 @@
 		<Translation>Let us seek out {PLAYER-0}’s most notable members and bring them to the court.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_FREEDOM_OPTION_NO</zType>
-		<Translation>I have something else in mind.</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_CENTRALIZATION_BUREAUCRACY</zType>
 		<Translation>Bureaucracy is the path forward!</Translation>
 	</Entry>
@@ -2138,10 +2126,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_CENTRALIZATION_CONNECTED</zType>
 		<Translation>Our cities must have access to the capital.</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_CENTRALIZATION_OPTION_NO</zType>
-		<Translation>I have something else in mind.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INFLUENCE_SPOUSE_START_OPTION_0</zType>
@@ -2186,14 +2170,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_FOUR_CITIES_OPTION_SIX_FORUMS</zType>
 		<Translation>We must focus on the governance of our new cities.</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_FOUR_CITIES_OPTION_THREE_GOVERNORS</zType>
-		<Translation>We must focus on the governance of our new cities.</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_FOUR_CITIES_OPTION_NO</zType>
-		<Translation>I have something else in mind.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INFLUENCE_SPOUSE_DATE_NIGHT</zType>
@@ -2545,10 +2521,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_SIX_URBAN_IMPROVEMENTS_OPTION_50_GOODS_TURN</zType>
 		<Translation>We must ramp up production to support our growing cities.</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_SIX_URBAN_IMPROVEMENTS_OPTION_NO</zType>
-		<Translation>I have something else in mind.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_FLAWS_CARNAL_RESULT</zType>
@@ -3455,10 +3427,6 @@
 		<Translation>We will need scribes to maintain our new laws.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_CONSTITUTION_OPTION_NO</zType>
-		<Translation>I have something else in mind.</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_INFLUENCE_AFFAIR_0</zType>
 		<Translation>Return the next night. </Translation>
 	</Entry>
@@ -3509,10 +3477,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_5_KILLS_TWO_OFFICERS</zType>
 		<Translation>Let’s focus on supporting our growing army.</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_5_KILLS_NO</zType>
-		<Translation>I have something else in mind.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_SUCCESSION_THEM_OKAY_VISIT_0</zType>
@@ -26882,10 +26846,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEW_AMBITION_EIGHT_GENERALS</zType>
 		<Translation>Diverse leadership on the battlefield will win the day.</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_NEW_AMBITION_SIX_GOVERNORS</zType>
-		<Translation>City governance should be a top priority.</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEW_AMBITION_REVEAL_80</zType>

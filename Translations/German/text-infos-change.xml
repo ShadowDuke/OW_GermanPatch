@@ -1257,16 +1257,16 @@
 		<Translation>Kontrolliere sechs link(IMPROVEMENT_FARM,2)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_SIX_LUMBERMILLS</zType>
-		<Translation>Kontrolliere sechs link(IMPROVEMENT_LUMBERMILL,2)</Translation>
+		<zType>TEXT_GOAL_SIX_MINES</zType>
+		<Translation>Kontrolliere sechs link(IMPROVEMENT_MINE,2)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_SIX_QUARRIES</zType>
 		<Translation>Kontrolliere sechs link(IMPROVEMENT_QUARRY,2)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_SIX_MINES</zType>
-		<Translation>Kontrolliere sechs link(IMPROVEMENT_MINE,2)</Translation>
+		<zType>TEXT_GOAL_SIX_LUMBERMILLS</zType>
+		<Translation>Kontrolliere sechs link(IMPROVEMENT_LUMBERMILL,2)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_SIX_PASTURES</zType>
@@ -1303,10 +1303,6 @@
 	<Entry>
 		<zType>TEXT_GOAL_SIX_RESOURCE_IMPROVEMENTS</zType>
 		<Translation>Kontrolliere sechs link(IMPROVEMENT_PASTURE,2), link(IMPROVEMENT_CAMP,2), link(IMPROVEMENT_GROVE,2), oder link(IMPROVEMENT_NETS)</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_SIX_URBAN_IMPROVEMENTS</zType>
-		<Translation>Kontrolliere sechs link(CONCEPT_URBAN) Verbesserungen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_SIX_REPAIRED</zType>
@@ -1765,16 +1761,16 @@
 		<Translation>Stelle vier link(CONCEPT_GENERAL,2) auf</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_THREE_GOVERNORS</zType>
-		<Translation>Unterhalte drei link(CONCEPT_GOVERNOR,2)</Translation>
+		<zType>TEXT_GOAL_FOUR_GOVERNORS</zType>
+		<Translation>Unterhalte vier link(CONCEPT_GOVERNOR,2)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_EIGHT_GENERALS</zType>
 		<Translation>Stelle acht link(CONCEPT_GENERAL,2) auf</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_SIX_GOVERNORS</zType>
-		<Translation>Unterhalte sechs link(CONCEPT_GOVERNOR,2)</Translation>
+		<zType>TEXT_GOAL_EIGHT_GOVERNORS</zType>
+		<Translation>Unterhalte acht link(CONCEPT_GOVERNOR,2)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_REVEAL_40</zType>
@@ -2008,6 +2004,27 @@
 		<zType>TEXT_GOAL_HOLY_SITE_MANICHAEISM</zType>
 		<Translation>Kontrolliere link(IMPROVEMENT_HOLY_SITE_MANICHAEISM)</Translation>
 	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_RELIGIOUS_COUNCIL</zType>
+		<Translation>Habe einen link(COUNCIL_AMBASSADOR), link(COUNCIL_CHANCELLOR) und link(COUNCIL_SPYMASTER) von deiner link(CONCEPT_STATE_RELIGION)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TO_BE_KING</zType>
+		<Translation>Töte den link(TRAIT_RIGHTFUL_HEIR)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SPECIFIC_CITY</zType>
+		<Translation>Kontrolliere die link(CONCEPT_HOLY_CITY) von deiner link(CONCEPT_STATE_RELIGION)</Translation>
+	</Entry>
+	<!-- InfoLanguage -->
+	<Entry>
+		<zType>TEXT_LANGUAGE_ENGLISH</zType>
+		<Translation>English (US)</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_LANGUAGE_DEBUG</zType>
+		<Translation>Text Debug</Translation>
+	</Entry>
 	<!--InfoNation-->
 	<Entry>
 		<zType>TEXT_NATION_PICK_LATER</zType>
@@ -2084,6 +2101,31 @@
 
     Ich bin Romulus, und ich habe Rom gegründet, die Stadt, bestimmt die Welt zu beherrschen.</Translation>
 	</Entry>
+	<!--OpinionRange-->
+	<Entry>
+		<zType>TEXT_OPINIONRANGE_FURIOUS</zType>
+		<Translation>-200 und weniger</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONRANGE_ANGRY</zType>
+		<Translation>-199 bis -100</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONRANGE_UPSET</zType>
+		<Translation>-99 bis -1</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONRANGE_CAUTIOUS</zType>
+		<Translation>0 bis 99</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONRANGE_PLEASED</zType>
+		<Translation>100 bis 199</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPINIONRANGE_FRIENDLY</zType>
+		<Translation>200 und höher</Translation>
+	</Entry>
 	<!--InfoTech-->
 	<Entry>
 		<zType>TEXT_TECH_IRONWORKING</zType>
@@ -2124,6 +2166,10 @@
 	<Entry>
 		<zType>TEXT_TECH_DRAMA</zType>
 		<Translation>Schauspiel</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_DRAMA_BONUS_SETTLER</zType>
+		<Translation>Freier link(UNIT_SETTLER)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_POLIS</zType>
@@ -2180,6 +2226,10 @@
 	<Entry>
 		<zType>TEXT_TECH_FORESTRY</zType>
 		<Translation>Forstwirtschaft</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_FORESTRY_BONUS_SCIENTIST</zType>
+		<Translation>Freier link(COURTIER_SCIENTIST)</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_STEEL</zType>

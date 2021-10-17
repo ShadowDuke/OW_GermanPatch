@@ -1854,6 +1854,14 @@
 		<Translation>Hat mir vertraut</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MEMORYFAMILY_OUR_AMBITION</zType>
+		<Translation>Unsere link(CONCEPT_AMBITION) vollendet</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_OUR_LEGACY</zType>
+		<Translation>Unser link(CONCEPT_LEGACY) vollendet</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FOUNDED_CITY</zType>
 		<Translation>Hat ine Stadt für uns gegründet</Translation>
 	</Entry>
@@ -1888,14 +1896,6 @@
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_PURSUED_AMBITION</zType>
 		<Translation>Pursued our link(CONCEPT_AMBITION)</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_OUR_AMBITION</zType>
-		<Translation>Completed our link(CONCEPT_AMBITION)</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_OUR_LEGACY</zType>
-		<Translation>Completed our Legacy</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DIVORCE</zType>
@@ -3140,6 +3140,14 @@
 		<Translation>Rejected dangerous ideas</Translation>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MEMORYRELIGION_OUR_AMBITION</zType>
+		<Translation>Unsere link(CONCEPT_AMBITION) vollendet</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYRELIGION_OUR_LEGACY</zType>
+		<Translation>Unser link(CONCEPT_LEGACY) vollendet</Translation>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ADOPT_RELIGION_OTHER</zType>
 		<Translation>Wähle eine andere link(CONCEPT_STATE_RELIGION)</Translation>
 	</Entry>
@@ -3886,5 +3894,9 @@
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_DIVORCED_SPOUSE</zType>
 		<Translation>Divorced spouse of our religion</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYCHARACTER_ACCEPTED_AMBITION</zType>
+		<Translation>Meine Ambition zugesagt</Translation>
 	</Entry>
 </Root>

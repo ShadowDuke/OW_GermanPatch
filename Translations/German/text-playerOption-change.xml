@@ -58,14 +58,6 @@
 		<Translation>Die Map wird nicht bewegt wenn die Maus an der Ecke des Bildschirms ist (Nur Vollbildmodus)</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_PLAYEROPTION_MOVE_TO_FATIGUE</zType>
-		<Translation>Bewege weiter als Ermüdungslimit</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_PLAYEROPTION_MOVE_TO_FATIGUE_DESC</zType>
-		<Translation>Ausserhalb des Müdigkeitslimit zu klicken, fügt keine mehrfach-Züge der Warteschlange hinzu.</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_PLAYEROPTION_SHOW_ORDERS_COST</zType>
 		<Translation>Zeige Befehlskosten</Translation>
 	</Entry>
@@ -74,36 +66,12 @@
 		<Translation>Zeige Befehlskosten anstatt wieviele Befehle noch für diesen Zug übrig sind.</Translation>
 	</Entry>
 	<Entry>
-		<zType>TEXT_PLAYEROPTION_HIDE_MINIMAP</zType>
-		<Translation>Verstecke Minimap</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_PLAYEROPTION_HIDE_MINIMAP_DESC</zType>
-		<Translation>Versteckt die Minimap von der Benutzeroberfläche</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_PLAYEROPTION_HIDE_COUNCIL</zType>
-		<Translation>Verstecke Hofrat</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_PLAYEROPTION_HIDE_COUNCIL_DESC</zType>
-		<Translation>Versteckt das Hofrat Feld auf der Benutzoberfläche</Translation>
-	</Entry>
-	<Entry>
 		<zType>TEXT_PLAYEROPTION_MINI_TECH_CARDS</zType>
 		<Translation>Benutze minimierte Technologie Karten</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_MINI_TECH_CARDS_DESC</zType>
 		<Translation>Benutzt immer mini Technologie Karten anstatt des 'Forschung wählen' Popups</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_PLAYEROPTION_COMPACT_TECH_TREE</zType>
-		<Translation>Zeige komrpimierten Technologie Baum</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_PLAYEROPTION_COMPACT_TECH_TREE_DESC</zType>
-		<Translation>Zeigt mini Karten im Technologie Baum anstatt detalierte Technologie Informationen</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SHOW_SYSTEM_TIME</zType>

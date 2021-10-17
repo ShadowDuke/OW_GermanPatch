@@ -7,31 +7,31 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_TITLE_KING</zType>
-		<Translation><![CDATA[<masculine_0>König<feminine>Königin<end> {0_name}]]></Translation>
+		<Translation>{masculine_0:König:Königin} {0_name}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_TITLE_KING_CONSORT</zType>
-		<Translation><![CDATA[<masculine_0>König Gemahl<feminine>Königin Gemahlin<end> {0_name}]]></Translation>
+		<Translation>{masculine_0:König Gemahl:Königin Gemahlin} {0_name}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_TITLE_KING_DOWAGER</zType>
-		<Translation><![CDATA[<masculine_0>Königswitwer<feminine>Königinwitwe<end> {0_name}]]></Translation>
+		<Translation>{masculine_0:Königswitwer:Königinwitwe} {0_name}</Translation>
 	</Entry>
   <Entry>
     <zType>TEXT_CHARACTER_TITLE_PRINCE</zType>
-    <Translation><![CDATA[<masculine_0>Prinz<feminine>Prinzessin<end> {0_name}]]></Translation>
+		<Translation>{masculine_0:Prinz:Prinzessin} {0_name}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_CHARACTER_TITLE_PRINCE_CONSORT</zType>
-    <Translation><![CDATA[<masculine_0>Prinz Gemahl<feminine>Prinzessin Gemahlin<end> {0_name}]]></Translation>
+		<Translation>{masculine_0:Prinz Gemahl:Prinzessin Gemahlin} {0_name}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_CHARACTER_TITLE_DUKE</zType>
-    <Translation><![CDATA[<masculine_0>Herzog<feminine>Herzogin<end> {0_name}]]></Translation>
+		<Translation>{masculine_0:Herzog:Herzogin} {0_name}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_CHARACTER_TITLE_DUKE_CONSORT</zType>
-    <Translation><![CDATA[<masculine_0>Herzog Gemahl<feminine>Herzogin Gemahlin<end> {0_name}]]></Translation>
+		<Translation>{masculine_0:Herzog Gemahl:Herzogin Gemahlin} {0_name}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_CHARACTER_TITLE_COUNCIL</zType>
@@ -51,7 +51,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_TITLE_PATRIARCH</zType>
-		<Translation><![CDATA[<masculine_0>Patriarch<feminine>Matriarchin<end> {0_name}]]></Translation>
+		<Translation>{masculine_0:Patriarch:Matriarch} {0_name}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_TITLE_OLIGRARCH</zType>
@@ -136,7 +136,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_CHARACTER_RELATION_IN_LAW</zType>
-    <Translation>Deine angeheirateten Familienangehörigen</Translation>
+    <Translation>Deine angeheirateten Verwandten</Translation>
   </Entry>
   <!-- Heir -->
 	<Entry>
@@ -162,7 +162,7 @@
 	<!-- Misc -->
 	<Entry>
 		<zType>TEXT_CHARACTER_DEAD</zType>
-		<Translation><![CDATA[<icon>DeathSkull</icon> {0_name}]]></Translation>
+		<Translation>icon(DeathSkull) {0_name}</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_HAS_COGNOMEN</zType>
