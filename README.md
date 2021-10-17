@@ -18,7 +18,7 @@ Zur [deutschen Anleitung](https://github.com/ShadowDuke/OW_GermanPatch#deutsch) 
 
 **To enable the full patch (step 2) on your saved game begun in english**, find your save in \Documents\My Games\Old World\Save\.. and edit the file with an editor.
 At the 5th line it says *Version* make it look like this (edit the version-nr to the current one you want to play with) **Version="Version: 0.1.52901+German Translation Part 1=-1983943"** - make sure *German Translation* is selected at the Mods options.<br>
-For the **mod.io** version its **Version="Version: 0.1.53207+German Translation Part 1=-1983943"**
+For the **mod.io** version its **Version="Version: 0.1.55488+German Translation Part 1=-1983943"**
 
 **Its possible that since the Release Version the dir name could have changed. You need to change the name in the savegame to the name in \Documents\My Games\OldWorld\Translations instead "German Translation Part 1". Possible its german1 (for mod.io) & german (for github).**
 
@@ -44,7 +44,7 @@ If you want to, you can give me a tip at [Paypal](https://www.paypal.com/cgi-bin
 
 **Um den vollständigen Patch (Schritt 2) auf einem gespeicherten Spiel, welches auf englisch angefangen wurde zu aktivieren**, suche dein save in \Dokumente\My Games\Old World\Save\.. und bearbeite die Datei mit einem Editor.
 Auf der 5 Zeile steht *Version* - bearbeite die Zeile das sie so aussieht, **Version="Version: 0.1.52901+German Translation Part 1=-1983943"** - gehe sicher das *German Translation* bei Modifikationen eingestellt ist.<br>
-Für die **mod.io** Version ist das **Version="Version: 0.1.53207+German Translation Part 1=-1983943"**
+Für die **mod.io** Version ist das **Version="Version: 0.1.55488+German Translation Part 1=-1983943"**
 
 **Es kann sein, dass durch die Umstellung von EA zu Release version der Ordername sich geändert hat, Guckt in \Documents\My Games\OldWorld\Translations wie der Ordername heißt, und bennent den dann im Savegame auch so anstatt "German Translation Part 1". Es kann sein das es german1 (für mod.io) & german (für github) ist.**
 
