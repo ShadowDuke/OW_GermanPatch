@@ -1,2729 +1,2729 @@
-<!-- German Translation (© Revan ©) -->
+<!-- German de-DE (© Revan ©) -->
 
 <Root>
 	<!-- Title -->
 	<Entry>
 		<zType/>
-		<Translation/>
+		<de-DE/>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FAMILY_SEAT</zType>
-		<Translation>link(CONCEPT_FAMILY_SEAT) gegründet</Translation>
+		<de-DE>link(CONCEPT_FAMILY_SEAT) gegründet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_DISCOVERED_LANDMARK</zType>
-		<Translation>Wahrzeichen entdeckt</Translation>
+		<de-DE>Wahrzeichen entdeckt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_NAMED_LANDMARK</zType>
-		<Translation>Wahrzeichen benannt</Translation>
+		<de-DE>Wahrzeichen benannt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTPLAYER_LEGITIMACY</zType>
-		<Translation>Spieler Ereignis</Translation>
+		<de-DE>Spieler Ereignis</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_AMBITION</zType>
-		<Translation>Ambition(en) vollendet</Translation>
+		<de-DE>Ambition(en) vollendet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_LEGACY</zType>
-		<Translation>Vermächtnis(se) vollendet</Translation>
+		<de-DE>Vermächtnis(se) vollendet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_ABANDONED_AMBITION</zType>
-		<Translation>Ambition(en) aufgegeben</Translation>
+		<de-DE>Ambition(en) aufgegeben</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FAILED_LEGACY</zType>
-		<Translation>Vermächtnis(se) fehlgeschlagen</Translation>
+		<de-DE>Vermächtnis(se) fehlgeschlagen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_QUEST</zType>
-		<Translation>Quest(s) vollendet</Translation>
+		<de-DE>Quest(s) vollendet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_HOLY_SITE</zType>
-		<Translation>Eine Heilige Stätte gebaut</Translation>
+		<de-DE>Eine Heilige Stätte gebaut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_WONDER_WEAK</zType>
-		<Translation>Ein Wunder gebaut</Translation>
+		<de-DE>Ein Wunder gebaut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_WONDER_DEVELOPING</zType>
-		<Translation>Ein Wunder gebaut</Translation>
+		<de-DE>Ein Wunder gebaut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_WONDER_STRONG</zType>
-		<Translation>Ein Wunder gebaut</Translation>
+		<de-DE>Ein Wunder gebaut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_WONDER_LEGENDARY</zType>
-		<Translation>Ein Wunder gebaut</Translation>
+		<de-DE>Ein Wunder gebaut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_INSPIRED_BY_WONDER</zType>
-		<Translation>Beflügelt durch ein Wunder</Translation>
+		<de-DE>Beflügelt durch ein Wunder</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_HIGH_SYNOD</zType>
-		<Translation>Hohe Kirchenversammlung</Translation>
+		<de-DE>Hohe Kirchenversammlung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_CONVERT_LEGITIMACY</zType>
-		<Translation>Für {YIELD_ORDERS} benutzt</Translation>
+		<de-DE>Für {YIELD_ORDERS} benutzt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_LEADER_ADOPTS</zType>
-		<Translation>Herrscher adoptierte ein Kind</Translation>
+		<de-DE>Herrscher adoptierte ein Kind</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_BREAK_PEACE</zType>
-		<Translation>Friedensvertrag gebrochen</Translation>
+		<de-DE>Friedensvertrag gebrochen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_END_ALLIANCE</zType>
-		<Translation>Bündnis beendet</Translation>
+		<de-DE>Bündnis beendet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TRIBE_MARRIAGE</zType>
-		<Translation>Heirat mit einem Stamm</Translation>
+		<de-DE>Heirat mit einem Stamm</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TRIBE_WAR_LEGITIMACY</zType>
-		<Translation>Furchtlos gegenüber Stämmen</Translation>
+		<de-DE>Furchtlos gegenüber Stämmen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TRIBE_TRUCE_LEGITIMACY</zType>
-		<Translation>Waffenruhe mit einem Stamm</Translation>
+		<de-DE>Waffenruhe mit einem Stamm</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TRIBE_PEACE_LEGITIMACY</zType>
-		<Translation>Frieden mit einem Stamm</Translation>
+		<de-DE>Frieden mit einem Stamm</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TRIBE_ALLIANCE</zType>
-		<Translation>Bündnis mit einem Stamm</Translation>
+		<de-DE>Bündnis mit einem Stamm</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TRIBAL_INVASION_LEGITIMACY</zType>
-		<Translation>Furchtlos gegenüber Einfällen</Translation>
+		<de-DE>Furchtlos gegenüber Einfällen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TRIBE_ELIMINATED_LEGITIMACY</zType>
-		<Translation>einen Stamm beseitigt</Translation>
+		<de-DE>einen Stamm beseitigt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_PLAYER_WAR_LEGITIMACY</zType>
-		<Translation>Furchtlos gegenüber Krieg</Translation>
+		<de-DE>Furchtlos gegenüber Krieg</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_LEAVE_RELIGION</zType>
-		<Translation>Verlasse link(CONCEPT_STATE_RELIGION)</Translation>
+		<de-DE>Verlasse link(CONCEPT_STATE_RELIGION)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_SEND_COURTIER</zType>
-		<Translation>Schicke link(CONCEPT_COURTIER)</Translation>
+		<de-DE>Schicke link(CONCEPT_COURTIER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_RALLY_TROOPS</zType>
-		<Translation>Sammle die Truppen</Translation>
+		<de-DE>Sammle die Truppen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_HOLD_COURT</zType>
-		<Translation>Hofstaat abhalten</Translation>
+		<de-DE>Hofstaat abhalten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INFLUENCE</zType>
-		<Translation>Einfluss (Erfolg)</Translation>
+		<de-DE>Einfluss (Erfolg)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INFLUENCE_WEAKEN</zType>
-		<Translation>Einfluss (Erfolg, geschwächt)</Translation>
+		<de-DE>Einfluss (Erfolg, geschwächt)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_CONVERT_SELF</zType>
-		<Translation>Selbst konvertiert</Translation>
+		<de-DE>Selbst konvertiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_CONVERT_STATE</zType>
-		<Translation>Konvertiere zur link(CONCEPT_STATE_RELIGION)</Translation>
+		<de-DE>Konvertiere zur link(CONCEPT_STATE_RELIGION)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_CONVERT_RELIGION</zType>
-		<Translation>Konvertiere zur link(CONCEPT_STATE_RELIGION)</Translation>
+		<de-DE>Konvertiere zur link(CONCEPT_STATE_RELIGION)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INTERCESSION</zType>
-		<Translation>Fürsprache (Erfolg)</Translation>
+		<de-DE>Fürsprache (Erfolg)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INTERCESSION_WEAKEN</zType>
-		<Translation>Fürsprache (Erfolg, geschwächt)</Translation>
+		<de-DE>Fürsprache (Erfolg, geschwächt)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_ADOPT</zType>
-		<Translation>Adoption</Translation>
+		<de-DE>Adoption</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_LEGITIMIZE</zType>
-		<Translation>Bastard legitimiert</Translation>
+		<de-DE>Bastard legitimiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_CHOSEN_HEIR</zType>
-		<Translation>Gewählter Erbe</Translation>
+		<de-DE>Gewählter Erbe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INFILTRATE_REVEAL</zType>
-		<Translation>Infiltrieren (Erfolg)</Translation>
+		<de-DE>Infiltrieren (Erfolg)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INFILTRATE_REVEAL_EXPOSED</zType>
-		<Translation>Infiltrieren (Erfolg, entblößt)</Translation>
+		<de-DE>Infiltrieren (Erfolg, entblößt)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_SLANDER_SUCCESS</zType>
-		<Translation>Verleumden (Erfolg)</Translation>
+		<de-DE>Verleumden (Erfolg)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_SLANDER_SUCCESS_EXPOSED</zType>
-		<Translation>Verleumden (Erfolg, entblößt)</Translation>
+		<de-DE>Verleumden (Erfolg, entblößt)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_STEAL_RESEARCH_SUCCESS</zType>
-		<Translation>Forschung stehlen (Erfolg)</Translation>
+		<de-DE>Forschung stehlen (Erfolg)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_STEAL_RESEARCH_SUCCESS_EXPOSED</zType>
-		<Translation>Forschung stehlen (Erfolg, entblößt)</Translation>
+		<de-DE>Forschung stehlen (Erfolg, entblößt)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_ASSASSINATE_KILL</zType>
-		<Translation>Ermorden (Getötet)</Translation>
+		<de-DE>Ermorden (Getötet)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_ASSASSINATE_KILL_EXPOSED</zType>
-		<Translation>Ermorden (Getötet, entblößt)</Translation>
+		<de-DE>Ermorden (Getötet, entblößt)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_ASSASSINATE_FAIL_EXPOSED</zType>
-		<Translation>Ermorden (Fehlschlag, entblößt)</Translation>
+		<de-DE>Ermorden (Fehlschlag, entblößt)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_TREACHERY_SUCCESS</zType>
-		<Translation>Verrat (Erfolg)</Translation>
+		<de-DE>Verrat (Erfolg)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_TREACHERY_FAILURE</zType>
-		<Translation>Verrat (Fehlschlag)</Translation>
+		<de-DE>Verrat (Fehlschlag)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INSURRECTION_REVOLT</zType>
-		<Translation>Aufstand (Revolte)</Translation>
+		<de-DE>Aufstand (Revolte)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INSURRECTION_DISCONTENT</zType>
-		<Translation>Aufstand (Unzufriedenheit)</Translation>
+		<de-DE>Aufstand (Unzufriedenheit)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INSURRECTION_FAILURE</zType>
-		<Translation>Aufstand (Fehlschlag)</Translation>
+		<de-DE>Aufstand (Fehlschlag)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_HIGH_SYNOD_SUCCESS</zType>
-		<Translation>Hohe Kirchenversammlung (Erfolg)</Translation>
+		<de-DE>Hohe Kirchenversammlung (Erfolg)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_HIGH_SYNOD_FAILURE</zType>
-		<Translation>Hohe Kirchenversammlung (Fehlschlag)</Translation>
+		<de-DE>Hohe Kirchenversammlung (Fehlschlag)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_FAMILY_GIFT_SUCCESS</zType>
-		<Translation>Familiengeschenk (Erfolg)</Translation>
+		<de-DE>Familiengeschenk (Erfolg)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_FAMILY_GIFT_SUCCESS_WEAKEN</zType>
-		<Translation>Familiengeschenk (Erfolg, geschwächt)</Translation>
+		<de-DE>Familiengeschenk (Erfolg, geschwächt)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_PACIFY_CITY_SUCCESS</zType>
-		<Translation>Stadt beschwichtigen (Erfolg)</Translation>
+		<de-DE>Stadt beschwichtigen (Erfolg)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_PACIFY_CITY_SUCCESS_WEAKEN</zType>
-		<Translation>Stadt beschwichtigen (Erfolg, geschwächt)</Translation>
+		<de-DE>Stadt beschwichtigen (Erfolg, geschwächt)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_IMPRISON_JUST</zType>
-		<Translation>Einkerkern (Gerecht)</Translation>
+		<de-DE>Einkerkern (Gerecht)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_IMPRISON_UNJUST</zType>
-		<Translation>Einkerkern (Ungerecht)</Translation>
+		<de-DE>Einkerkern (Ungerecht)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_IMPRISON_ESCAPE</zType>
-		<Translation>Einkerkern (Flucht)</Translation>
+		<de-DE>Einkerkern (Flucht)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_RELEASE_GRATEFUL</zType>
-		<Translation>Freilassung (Dankbar)</Translation>
+		<de-DE>Freilassung (Dankbar)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_RELEASE_BITTER</zType>
-		<Translation>Freilassung (Verbittert)</Translation>
+		<de-DE>Freilassung (Verbittert)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_RELEASE_UNJUST</zType>
-		<Translation>Freilassung (Ungerecht)</Translation>
+		<de-DE>Freilassung (Ungerecht)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_CAPTURE_SURRENDER</zType>
-		<Translation>Ergreifen (Ergeben)</Translation>
+		<de-DE>Ergreifen (Ergeben)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_CAPTURE_KILLED</zType>
-		<Translation>Ergreifen (Getötet)</Translation>
+		<de-DE>Ergreifen (Getötet)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_CAPTURE_FLEE</zType>
-		<Translation>Ergreifen (Fliehen)</Translation>
+		<de-DE>Ergreifen (Fliehen)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_PAY_RANSOM</zType>
-		<Translation>Ergreifen (Lösegeld)</Translation>
+		<de-DE>Ergreifen (Lösegeld)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_MARRY_COURTIER</zType>
-		<Translation>Heirat</Translation>
+		<de-DE>Heirat</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_DIVORCE</zType>
-		<Translation>Scheidung</Translation>
+		<de-DE>Scheidung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_STONECUTTING_BONUS_STONE</zType>
-		<Translation>link(YIELD_STONE) Schub</Translation>
+		<de-DE>link(YIELD_STONE) Schub</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_HUSBANDRY_BONUS_FOOD</zType>
-		<Translation>link(YIELD_FOOD) Schub</Translation>
+		<de-DE>link(YIELD_FOOD) Schub</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_DRAMA_BONUS_SETTLER</zType>
-		<Translation>Freier link(UNIT_SETTLER)</Translation>
+		<de-DE>Freier link(UNIT_SETTLER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_POLIS_BONUS_WORKER</zType>
-		<Translation>Freier link(UNIT_WORKER)</Translation>
+		<de-DE>Freier link(UNIT_WORKER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_ARISTOCRACY_BONUS_BORDERS</zType>
-		<Translation>Grenzenausdehnung</Translation>
+		<de-DE>Grenzenausdehnung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_NAVIGATION_BONUS_BIREME</zType>
-		<Translation>Freie link(UNIT_BIREME)</Translation>
+		<de-DE>Freie link(UNIT_BIREME)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_PHALANX_BONUS_ORDERS</zType>
-		<Translation>link(YIELD_ORDERS) Schub</Translation>
+		<de-DE>link(YIELD_ORDERS) Schub</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_SPOKED_WHEEL_BONUS_CHARIOT</zType>
-		<Translation>Freier link(UNIT_CHARIOT)</Translation>
+		<de-DE>Freier link(UNIT_CHARIOT)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_SOVEREIGNITY_BONUS_CIVICS</zType>
-		<Translation>link(YIELD_CIVICS) Schub</Translation>
+		<de-DE>link(YIELD_CIVICS) Schub</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_FORESTRY_BONUS_SCIENTIST</zType>
-		<Translation>Neuer link(COURTIER_SCIENTIST)</Translation>
+		<de-DE>Neuer link(COURTIER_SCIENTIST)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_CITIZENSHIP_BONUS_MINISTER</zType>
-		<Translation>Neuer link(COURTIER_MINISTER)</Translation>
+		<de-DE>Neuer link(COURTIER_MINISTER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_PORTCULLIS_BONUS_MACEMAN</zType>
-		<Translation>Freier link(UNIT_MACEMAN)</Translation>
+		<de-DE>Freier link(UNIT_MACEMAN)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_LAND_CONSOLIDATION_BONUS_CAMEL_ARCHER</zType>
-		<Translation>Freier link(UNIT_CAMEL_ARCHER)</Translation>
+		<de-DE>Freier link(UNIT_CAMEL_ARCHER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_LAND_CONSOLIDATION_BONUS_WAR_ELEPHANT</zType>
-		<Translation>Freier link(UNIT_WAR_ELEPHANT)</Translation>
+		<de-DE>Freier link(UNIT_WAR_ELEPHANT)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_COMPOSITE_BOW_BONUS_ARCHER</zType>
-		<Translation>Freier link(UNIT_ARCHER)</Translation>
+		<de-DE>Freier link(UNIT_ARCHER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_COINAGE_BONUS_MONEY</zType>
-		<Translation>link(YIELD_MONEY) Schub</Translation>
+		<de-DE>link(YIELD_MONEY) Schub</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_SCHOLARSHIP_BONUS_SCIENTIST</zType>
-		<Translation>Neuer link(COURTIER_SCIENTIST)</Translation>
+		<de-DE>Neuer link(COURTIER_SCIENTIST)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_TORSION_BONUS_BALLISTA</zType>
-		<Translation>Freie link(UNIT_BALLISTA)</Translation>
+		<de-DE>Freie link(UNIT_BALLISTA)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_STIRRUPS_BONUS_HORSEMAN</zType>
-		<Translation>Freier link(UNIT_HORSEMAN)</Translation>
+		<de-DE>Freier link(UNIT_HORSEMAN)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_STIRRUPS_BONUS_HORSE_ARCHER</zType>
-		<Translation>Freier link(UNIT_HORSE_ARCHER)</Translation>
+		<de-DE>Freier link(UNIT_HORSE_ARCHER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_MANOR_BONUS_GOODS</zType>
-		<Translation>Waren Schub</Translation>
+		<de-DE>Waren Schub</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_BATTLELINE_BONUS_SOLDIER</zType>
-		<Translation>Neuer link(COURTIER_SOLDIER)</Translation>
+		<de-DE>Neuer link(COURTIER_SOLDIER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_MACHINERY_BONUS_ONAGER</zType>
-		<Translation>Freier link(UNIT_ONAGER)</Translation>
+		<de-DE>Freier link(UNIT_ONAGER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_CARTOGRAPHY_BONUS_TRIREME</zType>
-		<Translation>Freie link(UNIT_TRIREME)</Translation>
+		<de-DE>Freie link(UNIT_TRIREME)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_HYDRAULICS_BONUS_MERCHANT</zType>
-		<Translation>Neuer link(COURTIER_MERCHANT)</Translation>
+		<de-DE>Neuer link(COURTIER_MERCHANT)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_VAULTING_BONUS_DISCONTENT</zType>
-		<Translation>link(YIELD_DISCONTENT) Abnahme</Translation>
+		<de-DE>link(YIELD_DISCONTENT) Abnahme</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_BODKIN_ARROW_BONUS_TRAINING</zType>
-		<Translation>link(YIELD_TRAINING) Schub</Translation>
+		<de-DE>link(YIELD_TRAINING) Schub</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_WINDLASS_BONUS_CROSSBOWMAN</zType>
-		<Translation>Freier link(UNIT_CROSSBOWMAN)</Translation>
+		<de-DE>Freier link(UNIT_CROSSBOWMAN)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_LATEEN_SAIL_BONUS_DROMON</zType>
-		<Translation>Freie link(UNIT_DROMON)</Translation>
+		<de-DE>Freie link(UNIT_DROMON)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_FISCAL_POLICY_BONUS_MERCHANT</zType>
-		<Translation>Neuer link(COURTIER_MERCHANT)</Translation>
+		<de-DE>Neuer link(COURTIER_MERCHANT)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_INFANTRY_SQUARE_BONUS_SOLDIER</zType>
-		<Translation>Neuer link(COURTIER_SOLDIER)</Translation>
+		<de-DE>Neuer link(COURTIER_SOLDIER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_CHAIN_DRIVE_BONUS_MINISTER</zType>
-		<Translation>Neuer link(COURTIER_MINISTER)</Translation>
+		<de-DE>Neuer link(COURTIER_MINISTER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_ECONOMIC_REFORM</zType>
-		<Translation>Neuer link(COURTIER_MERCHANT)</Translation>
+		<de-DE>Neuer link(COURTIER_MERCHANT)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_MILITARY_PRESTIGE</zType>
-		<Translation>Neuer link(COURTIER_SOLDIER)</Translation>
+		<de-DE>Neuer link(COURTIER_SOLDIER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_INDUSTRIAL_PROGRESS</zType>
-		<Translation>Neuer link(COURTIER_MINISTER)</Translation>
+		<de-DE>Neuer link(COURTIER_MINISTER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_BATTERING_RAM_UNIT</zType>
-		<Translation>Freie link(UNIT_BATTERING_RAM)</Translation>
+		<de-DE>Freie link(UNIT_BATTERING_RAM)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_SIEGE_TOWER_UNIT</zType>
-		<Translation>Freier link(UNIT_SIEGE_TOWER)</Translation>
+		<de-DE>Freier link(UNIT_SIEGE_TOWER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_AKKADIAN_ARCHER_UNIT</zType>
-		<Translation>Freier link(UNIT_AKKADIAN_ARCHER)</Translation>
+		<de-DE>Freier link(UNIT_AKKADIAN_ARCHER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_CIMMERIAN_ARCHER_UNIT</zType>
-		<Translation>Freier link(UNIT_CIMMERIAN_ARCHER)</Translation>
+		<de-DE>Freier link(UNIT_CIMMERIAN_ARCHER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_AFRICAN_ELEPHANT_UNIT</zType>
-		<Translation>Freier link(UNIT_AFRICAN_ELEPHANT)</Translation>
+		<de-DE>Freier link(UNIT_AFRICAN_ELEPHANT)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_TURRETED_ELEPHANT_UNIT</zType>
-		<Translation>Freier link(UNIT_TURRETED_ELEPHANT)</Translation>
+		<de-DE>Freier link(UNIT_TURRETED_ELEPHANT)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_LIGHT_CHARIOT_UNIT</zType>
-		<Translation>Freier link(UNIT_LIGHT_CHARIOT)</Translation>
+		<de-DE>Freier link(UNIT_LIGHT_CHARIOT)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_KUSHITE_CAVALRY_UNIT</zType>
-		<Translation>Freie link(UNIT_KUSHITE_CAVALRY)</Translation>
+		<de-DE>Freie link(UNIT_KUSHITE_CAVALRY)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_HOPLITE_UNIT</zType>
-		<Translation>Freier link(UNIT_HOPLITE)</Translation>
+		<de-DE>Freier link(UNIT_HOPLITE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_PHALANGITE_UNIT</zType>
-		<Translation>Freier link(UNIT_PHALANGITE)</Translation>
+		<de-DE>Freier link(UNIT_PHALANGITE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_PALTON_CAVALRY_UNIT</zType>
-		<Translation>Freie link(UNIT_PALTON_CAVALRY)</Translation>
+		<de-DE>Freie link(UNIT_PALTON_CAVALRY)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_CATAPHRACT_ARCHER_UNIT</zType>
-		<Translation>Freier link(UNIT_CATAPHRACT_ARCHER)</Translation>
+		<de-DE>Freier link(UNIT_CATAPHRACT_ARCHER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_HASTATUS_UNIT</zType>
-		<Translation>Freier link(UNIT_HASTATUS)</Translation>
+		<de-DE>Freier link(UNIT_HASTATUS)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TECH_LEGIONARY_UNIT</zType>
-		<Translation>Freier link(UNIT_LEGIONARY)</Translation>
+		<de-DE>Freier link(UNIT_LEGIONARY)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_ABDICATE</zType>
-		<Translation>Abdankung</Translation>
+		<de-DE>Abdankung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_ZOROASTRIANISM_DISCIPLE</zType>
-		<Translation>Freier link(UNIT_ZOROASTRIANISM_DISCIPLE)</Translation>
+		<de-DE>Freier link(UNIT_ZOROASTRIANISM_DISCIPLE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_JUDAISM_DISCIPLE</zType>
-		<Translation>Freier link(UNIT_JUDAISM_DISCIPLE)</Translation>
+		<de-DE>Freier link(UNIT_JUDAISM_DISCIPLE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_CHRISTIANITY_DISCIPLE</zType>
-		<Translation>Freier link(UNIT_CHRISTIANITY_DISCIPLE)</Translation>
+		<de-DE>Freier link(UNIT_CHRISTIANITY_DISCIPLE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MANICHAEISM_DISCIPLE</zType>
-		<Translation>Freier link(UNIT_MANICHAEISM_DISCIPLE)</Translation>
+		<de-DE>Freier link(UNIT_MANICHAEISM_DISCIPLE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_PROJECT_PROTECTION_EDICTS</zType>
-		<Translation>Issued protection edicts</Translation>
+		<de-DE>Issued protection edicts</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_PROJECT_ROYAL_INSCRIPTIONS</zType>
-		<Translation>Erected royal inscriptions</Translation>
+		<de-DE>Erected royal inscriptions</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_PROJECT_CORRUPTION_REFORM</zType>
-		<Translation>Corruption Reform</Translation>
+		<de-DE>Corruption Reform</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_FEAST_REJECTED_CITY_PLAYER</zType>
-		<Translation>Didn't pander to foreigners</Translation>
+		<de-DE>Didn't pander to foreigners</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_HEIR_COMING_OF_AGE_CEREMONY_PLAYER</zType>
-		<Translation>Coming of Age</Translation>
+		<de-DE>Coming of Age</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_MOUTHPIECE_OF_THE_GODS_OPTION_0</zType>
-		<Translation>Erected royal inscriptions</Translation>
+		<de-DE>Erected royal inscriptions</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_DIVINE_MANDATE_OPTION_1</zType>
-		<Translation>Ich habe auf meine Berater gehört</Translation>
+		<de-DE>Ich habe auf meine Berater gehört</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_OF_THE_PEOPLE_OPTION_0</zType>
-		<Translation>Acted as a humble example</Translation>
+		<de-DE>Acted as a humble example</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_QUESTION_AUTHORITY_OPTION_2</zType>
-		<Translation>Punished outspoken general</Translation>
+		<de-DE>Punished outspoken general</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_COLLISION_COURSE_OPTION_1</zType>
-		<Translation>Stood up for the nation</Translation>
+		<de-DE>Stood up for the nation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_A_DARK_PALL_OPTION_0</zType>
-		<Translation>Mir das Leben genommen</Translation>
+		<de-DE>Mir das Leben genommen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_DUEL_OF_FATES_OPTION_2</zType>
-		<Translation>Krieg erklärt wenn herausgefordert</Translation>
+		<de-DE>Krieg erklärt wenn herausgefordert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_DUEL_OF_FATES_VICTORIOUS_OPTION_0</zType>
-		<Translation>Siegreich im Einzelkampf</Translation>
+		<de-DE>Siegreich im Einzelkampf</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_DUEL_OF_FATES_DEFEATED_OPTION_0</zType>
-		<Translation>Besiegt im Einzelkampf</Translation>
+		<de-DE>Besiegt im Einzelkampf</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_FAMILY_RETREAT_OPTION_0</zType>
-		<Translation>Defied suspected plotting</Translation>
+		<de-DE>Defied suspected plotting</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_FAMILY_TARNISHED_OPTION_1_FAMILY</zType>
-		<Translation>Gefangenen freigelassen um Familie zufriedenzustellen</Translation>
+		<de-DE>Gefangenen freigelassen um Familie zufriedenzustellen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PRETTY_PERSUASION_OPTION_2_CHARACTER_2</zType>
-		<Translation>Nahm mehrere Bestechungen an</Translation>
+		<de-DE>Nahm mehrere Bestechungen an</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_UNLIKELY_ALLIES_OPTION_0_CHARACTER_3</zType>
-		<Translation>Dem ausländischen Druck nachgegeben</Translation>
+		<de-DE>Dem ausländischen Druck nachgegeben</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_THE_ZIGGURAT_CRUMBLES_OPTION_RESTORE_PLAYER</zType>
-		<Translation>Das Zikkurat des Mondgottes Nanna gesichert</Translation>
+		<de-DE>Das Zikkurat des Mondgottes Nanna gesichert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_THE_ZIGGURAT_CRUMBLES_OPTION_IMPROVE_PLAYER</zType>
-		<Translation>Das Zikkurat des Mondgottes Nanna verbessert</Translation>
+		<de-DE>Das Zikkurat des Mondgottes Nanna verbessert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_THE_ZIGGURAT_CRUMBLES_OPTION_STUDY_PLAYER</zType>
-		<Translation>Das Zikkurat des Mondgottes Nanna restauriert und studiert</Translation>
+		<de-DE>Das Zikkurat des Mondgottes Nanna restauriert und studiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_THE_ZIGGURAT_CRUMBLES_OPTION_SHRINE_PLAYER</zType>
-		<Translation>Das Zikkurat des Mondgottes Nanna verbessert</Translation>
+		<de-DE>Das Zikkurat des Mondgottes Nanna verbessert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RUINS_GIANT_STATUE_CARVE</zType>
-		<Translation>Statue in meinem Abbild erneuert</Translation>
+		<de-DE>Statue in meinem Abbild erneuert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RUINS_CURSED_LAND_ROCKS</zType>
-		<Translation>Filled in an accursed hole</Translation>
+		<de-DE>Filled in an accursed hole</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RUINS_VULGAR_SPEECH_OPTION_2</zType>
-		<Translation>Replaced ancient text with my sigil</Translation>
+		<de-DE>Replaced ancient text with my sigil</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SACRED_TOMB_DESTROY</zType>
-		<Translation>Destroyed the Sacred Tomb</Translation>
+		<de-DE>Destroyed the Sacred Tomb</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RUINS_NEW_HUMANS_OPTION_0_CHARACTER_0</zType>
-		<Translation>Destroyed strange human remains</Translation>
+		<de-DE>Destroyed strange human remains</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RUINS_EMERALD_MINE_REBUILT_OPTION_0_CHARACTER</zType>
-		<Translation>Rebuilt ancient emerald mine</Translation>
+		<de-DE>Rebuilt ancient emerald mine</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_HARVEST_CAUGHT_IN_THE_ACT_OPTION_0_CHARACTER</zType>
-		<Translation>Disciplined thieving scout</Translation>
+		<de-DE>Disciplined thieving scout</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_HARVEST_CAUGHT_IN_THE_ACT_OPTION_1_CHARACTER</zType>
-		<Translation>Allowed scout to steal silver</Translation>
+		<de-DE>Allowed scout to steal silver</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RUINS_STRANGE_SCROLL_DESTROY</zType>
-		<Translation>Zerstörte eine seltsame und gefährliche Schriftrolle</Translation>
+		<de-DE>Zerstörte eine seltsame und gefährliche Schriftrolle</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RUINS_COMET_SIGHTED_OMEN</zType>
-		<Translation>A comet foretold our triumphs</Translation>
+		<de-DE>A comet foretold our triumphs</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_ELIMINATED_THE_EBBING_SPRING_CULTURAL_PAGEANT</zType>
-		<Translation>Appropriated the culture of a vanquished tribe</Translation>
+		<de-DE>Appropriated the culture of a vanquished tribe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_ELIMINATED_THE_EBBING_SPRING_PLAYER_FIRST</zType>
-		<Translation>Vanquished a tribe and had no regrets</Translation>
+		<de-DE>Vanquished a tribe and had no regrets</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTSTORY_TRIBE_ELIMINATED_FATAL_OVERSIGHT</zType>
-		<Translation>Vanquished a tribe (to which my spouse happened to belong)</Translation>
+		<de-DE>Vanquished a tribe (to which my spouse happened to belong)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_ELIMINATED_IN_THEIR_PLACE_PURGE</zType>
-		<Translation>Purged the land of a Tribe</Translation>
+		<de-DE>Purged the land of a Tribe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_ELIMINATED_THE_WAY_FORWARD_OPTION_FREEDOM</zType>
-		<Translation>Allowed a family to dictate the laws</Translation>
+		<de-DE>Allowed a family to dictate the laws</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_AMBITION_FINISHED_SLAVERY_OPTION_FREEDOM</zType>
-		<Translation>Changed my mind after establishing a law</Translation>
+		<de-DE>Changed my mind after establishing a law</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RIVER_CROSSING_1</zType>
-		<Translation>Bridged natural landmark</Translation>
+		<de-DE>Bridged natural landmark</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_THOSE_BEFORE_3</zType>
-		<Translation>Ich weigerte mich meine Gesetze zu ändern</Translation>
+		<de-DE>Ich weigerte mich meine Gesetze zu ändern</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_CONTACT_GRINNING_EMISSARY_WAR</zType>
-		<Translation>Ich verweigerte Frieden im Ausstausch für ein Geschenk</Translation>
+		<de-DE>Ich verweigerte Frieden im Ausstausch für ein Geschenk</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_MONSTERS_DEEP_FOLLOWUP</zType>
-		<Translation>Refused adoption of foreign Fisher</Translation>
+		<de-DE>Refused adoption of foreign Fisher</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_MIDNIGHT_SUN_FOLLOWUP</zType>
-		<Translation>Brought home exploring character.</Translation>
+		<de-DE>Brought home exploring character.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RESOLVED_ADULT_CHILDREN_DISPUTE</zType>
-		<Translation>Resolved adult children hunting dispute</Translation>
+		<de-DE>Resolved adult children hunting dispute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RESOLVED_DISAGREEMENT_COUNCIL_DISPUTE</zType>
-		<Translation>Resolved council dispute</Translation>
+		<de-DE>Resolved council dispute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NEIGHBORS_HUMBLE_ASSYRIA_ROOT_OPTION_1_NO</zType>
-		<Translation>Vowed to never pay tribute to Assyria</Translation>
+		<de-DE>Vowed to never pay tribute to Assyria</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NEIGHBORS_HUMBLE_OPTION_1_PLAYER</zType>
-		<Translation>Refused foreign diplomats</Translation>
+		<de-DE>Refused foreign diplomats</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NEIGHBORS_HUMBLE_REFUSE_OPTION_0_PLAYER_1</zType>
-		<Translation>Zeigte feindlichen Spionen keine Gnade</Translation>
+		<de-DE>Zeigte feindlichen Spionen keine Gnade</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NEIGHBORS_HUMBLE_PERSIA_EXCHANGE_OPTION_1_PLAYER_1</zType>
-		<Translation>Ongoing Exchange of Ideas With Persia</Translation>
+		<de-DE>Ongoing Exchange of Ideas With Persia</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NEIGHBORS_FRIENDLY_EGYPT_REFUSED_DONATION_OPTION_1_PLAYER_1</zType>
-		<Translation>Ägypten die Stirn geboten</Translation>
+		<de-DE>Ägypten die Stirn geboten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NEIGHBORS_FRIENDLY_LAVISH_GREECE_OPTION_0_PLAYER_1</zType>
-		<Translation>Aufwendige Geschenke an Griechenland</Translation>
+		<de-DE>Aufwendige Geschenke an Griechenland</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NEIGHBORS_FRIENDLY_LAVISH_MORE_OPTION_0_PLAYER_1</zType>
-		<Translation>Aufwendige Geschenke für Frieden getauscht</Translation>
+		<de-DE>Aufwendige Geschenke für Frieden getauscht</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NEIGHBORS_PRIDEFUL_ROME_OPTION_1_PLAYER_1</zType>
-		<Translation>Dem Willen Roms gebeugt</Translation>
+		<de-DE>Dem Willen Roms gebeugt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NEIGHBORS_PRIDEFUL_ROME_OPTION_0_PLAYER_1</zType>
-		<Translation>Rom die Stirn geboten</Translation>
+		<de-DE>Rom die Stirn geboten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NEIGHBORS_CAPTURED_ROMAN_CITY_OPTION_1_PLAYER_1</zType>
-		<Translation>Vowed to destroy the entire Roman civilization</Translation>
+		<de-DE>Vowed to destroy the entire Roman civilization</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NEIGHBORS_CAPTURED_ROMAN_CITY_OPTION_0_PLAYER_1</zType>
-		<Translation>Eine römische Stadt erobert, danach Frieden akzeptiert</Translation>
+		<de-DE>Eine römische Stadt erobert, danach Frieden akzeptiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NEIGHBORS_ROMANS_HAVE_TAKEN_OUR_CITY_OPTION_1_PLAYER_1</zType>
-		<Translation>Geweigert sich Rom zu beugen, selbst nach dem Sie eine unserer Stadt erobert haben</Translation>
+		<de-DE>Geweigert sich Rom zu beugen, selbst nach dem Sie eine unserer Stadt erobert haben</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NEIGHBORS_ROMANS_HAVE_TAKEN_OUR_CITY_OPTION_0_PLAYER_1</zType>
-		<Translation>Sich Rom gebeugt, nach dem Sie eine unserer Stadt erobert haben</Translation>
+		<de-DE>Sich Rom gebeugt, nach dem Sie eine unserer Stadt erobert haben</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NEIGHBORS_PRIDEFUL_PERSIA_OPTION_1_PLAYER_1</zType>
-		<Translation>Persien die Stirn geboten</Translation>
+		<de-DE>Persien die Stirn geboten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NEIGHBORS_PRIDEFUL_PERSIA_RESPECT_OPTION_2_PLAYER_1</zType>
-		<Translation>Talked Persia out of requiring Tribute for Peace</Translation>
+		<de-DE>Talked Persia out of requiring Tribute for Peace</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NEIGHBORS_PRIDEFUL_BABYLON_OPTION_2_PLAYER_1</zType>
-		<Translation>Talked Babylon into a Peace deal</Translation>
+		<de-DE>Talked Babylon into a Peace deal</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NEIGHBORS_PRIDEFUL_SUGGEST_OPTION_0_PLAYER_1</zType>
-		<Translation>Our pride has led to peace</Translation>
+		<de-DE>Our pride has led to peace</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NEIGHBORS_PRIDEFUL_ASSYRIA_OPTION_1_PLAYER_1</zType>
-		<Translation>Rejected Assyria's Peace Offer in the boldest way</Translation>
+		<de-DE>Rejected Assyria's Peace Offer in the boldest way</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_HOSTILE_NEIGHBORS_OPTION_4_PLAYER_1</zType>
-		<Translation>Defused tensions with hostile neighbors</Translation>
+		<de-DE>Defused tensions with hostile neighbors</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_HOSTILE_NEIGHBORS_WAR_OPTION_1_PLAYER_1</zType>
-		<Translation>Increase training and raised militias</Translation>
+		<de-DE>Increase training and raised militias</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CONTACT_BORDER_DISPUTE_OPTION_2_CHARACTER</zType>
-		<Translation>Calmed barbarian tempers</Translation>
+		<de-DE>Calmed barbarian tempers</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CONTACT_MOMENTOUS_MEETING_OPTION_0_PLAYER_1</zType>
-		<Translation>Treated with strange travelers</Translation>
+		<de-DE>Treated with strange travelers</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CONTACT_MOMENTOUS_MEETING_OPTION_1_PLAYER_1</zType>
-		<Translation>Refused to treat with foreigners</Translation>
+		<de-DE>Refused to treat with foreigners</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CONTACT_LETHAL_AFFLICTION_OPTION_2_PLAYER_0</zType>
-		<Translation>Declared war after subjects poisoned</Translation>
+		<de-DE>Declared war after subjects poisoned</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHARACTER_HONORARY_COUNSEL_OPTION_1_PLAYER_0</zType>
-		<Translation>Refused to house foreign counsel</Translation>
+		<de-DE>Refused to house foreign counsel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHARACTER_PLOTTING_HEIR_OPTION_1_CHARACTER_0</zType>
-		<Translation>Denied foreign ruler's request</Translation>
+		<de-DE>Denied foreign ruler's request</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHARACTER_DEADLY_INHERITANCE_OPTION_2_CHARACTER_0</zType>
-		<Translation>Joined a plot to kill a visiting ruler</Translation>
+		<de-DE>Joined a plot to kill a visiting ruler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_WRITING_ON_THE_WALL_OPTION_0_CHARACTER_1</zType>
-		<Translation>Intrepreted writings on wall</Translation>
+		<de-DE>Intrepreted writings on wall</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHARACTER_IMMUNITY_OPTION_3_CHARACTER_0</zType>
-		<Translation>Executed foreign counsel for crimes</Translation>
+		<de-DE>Executed foreign counsel for crimes</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CONTACT_SECRET_OF_THE_FOOL_OPTION_0_CHARACTER_1</zType>
-		<Translation>Turned away Pieface</Translation>
+		<de-DE>Turned away Pieface</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CONTACT_ART_AND_FAITH_1</zType>
-		<Translation>Banned foreign iconography</Translation>
+		<de-DE>Banned foreign iconography</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CONTACT_ART_AND_FAITH_2</zType>
-		<Translation>Allowed foreign iconography</Translation>
+		<de-DE>Allowed foreign iconography</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CONTACT_ZEALOT_3</zType>
-		<Translation>Took hostage from other nation</Translation>
+		<de-DE>Took hostage from other nation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CONTACT_TROUBLE_ON_THE_ROAD</zType>
-		<Translation>Praised another nation's heroism</Translation>
+		<de-DE>Praised another nation's heroism</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_YOUNG_RULER_PARENTAL_WISDOM_0</zType>
-		<Translation>Asked for help with ruling</Translation>
+		<de-DE>Asked for help with ruling</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_YOUNG_RULER_PARENTAL_WISDOM_1</zType>
-		<Translation>Asked for help with ruling</Translation>
+		<de-DE>Asked for help with ruling</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_YOUNG_RULER_PARENTAL_WISDOM_2</zType>
-		<Translation>Carving own path</Translation>
+		<de-DE>Carving own path</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_YOUNG_RULER_ART</zType>
-		<Translation>Statues emphasizing legitimacy</Translation>
+		<de-DE>Statues emphasizing legitimacy</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_YOUNG_RULER_SUCCESSORS</zType>
-		<Translation>Rose above squabbles of succession</Translation>
+		<de-DE>Rose above squabbles of succession</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_YOUNG_RULER_INSULT</zType>
-		<Translation>Ignored insult from another ruler</Translation>
+		<de-DE>Ignored insult from another ruler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_YOUNG_RULER_LEGACY_0</zType>
-		<Translation>Punished dissenting city</Translation>
+		<de-DE>Punished dissenting city</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_YOUNG_RULER_LEGACY_1</zType>
-		<Translation>Refused dissenting city</Translation>
+		<de-DE>Refused dissenting city</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_YOUNG_RULER_LEGACY_2</zType>
-		<Translation>Trod on ancestor's legacy</Translation>
+		<de-DE>Trod on ancestor's legacy</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBAL_ENVOY_PEACE</zType>
-		<Translation>Barbarian Envoy</Translation>
+		<de-DE>Barbarian Envoy</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_HOSTILE_GARRISON_ACCEPT</zType>
-		<Translation>Hostile Garrison</Translation>
+		<de-DE>Hostile Garrison</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_HOSTILE_GARRISON_EXPEL_YES</zType>
-		<Translation>Expelling the Garrison</Translation>
+		<de-DE>Expelling the Garrison</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SCALES_OF_TRIBUTE_ACQUIESCE</zType>
-		<Translation>Scales of Tribute</Translation>
+		<de-DE>Scales of Tribute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SECURING_PEACE_FURIOUS_EMISSARY_MISUNDERSTANDING</zType>
-		<Translation>Furious Emissary</Translation>
+		<de-DE>Furious Emissary</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_ASSASSINATION_OF_MONARCH_SUCCESS</zType>
-		<Translation>Assassination Revenge</Translation>
+		<de-DE>Assassination Revenge</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_AT_PEACE_HUNTING_GROUNDS_DISPUTE_OPTION_2_PLAYER_1</zType>
-		<Translation>Called in a Favor to get a hunting party released</Translation>
+		<de-DE>Called in a Favor to get a hunting party released</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_TACTICIAN_ARCHETYPE_UPSET_OPTION_1_PLAYER_1</zType>
-		<Translation>Tactician Leader inspired our people to War!</Translation>
+		<de-DE>Tactician Leader inspired our people to War!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_TACTICIAN_ARCHETYPE_ANGRY_OPTION_1_PLAYER_1</zType>
-		<Translation>We trained Ranged units to prepare for War</Translation>
+		<de-DE>We trained Ranged units to prepare for War</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_TACTICIAN_ARCHETYPE_ANGRY_OPTION_2_PLAYER_1</zType>
-		<Translation>We trained Melee units to prepare for War</Translation>
+		<de-DE>We trained Melee units to prepare for War</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_TACTICIAN_ARCHETYPE_ANGRY_2_OPTION_1_PLAYER_1</zType>
-		<Translation>Deployed Mounted units in preparation for War</Translation>
+		<de-DE>Deployed Mounted units in preparation for War</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_TACTICIAN_ARCHETYPE_ANGRY_3_OPTION_1_PLAYER_1</zType>
-		<Translation>Recruited new Melee units in preparation for War</Translation>
+		<de-DE>Recruited new Melee units in preparation for War</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_TACTICIAN_ARCHETYPE_ANGRY_3_OPTION_2_PLAYER_1</zType>
-		<Translation>Organized special Mounted units in preparation for War</Translation>
+		<de-DE>Organized special Mounted units in preparation for War</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DEMAND_TRIBUTE_REFUSE_LEGITIMACY</zType>
-		<Translation>Backed down after link(MISSION_DEMAND_TRIBUTE) Mission</Translation>
+		<de-DE>Backed down after link(MISSION_DEMAND_TRIBUTE) Mission</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_OPTION_1_PLAYER_1</zType>
-		<Translation>Negotiated peace and an extradition treaty</Translation>
+		<de-DE>Negotiated peace and an extradition treaty</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_DELAY_OPTION_0_PLAYER_1</zType>
-		<Translation>Delivered justice in international criminal cases</Translation>
+		<de-DE>Delivered justice in international criminal cases</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_DELAY_OPTION_2_PLAYER_1</zType>
-		<Translation>Failed to ensure that our accused would get fair trials</Translation>
+		<de-DE>Failed to ensure that our accused would get fair trials</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_DELAY_OPTION_3_PLAYER_1</zType>
-		<Translation>Pardoned our citizens of crimes against foreigners</Translation>
+		<de-DE>Pardoned our citizens of crimes against foreigners</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_UPSET_OPTION_0_PLAYER_1</zType>
-		<Translation>Delivered justice in cases involving a neighboring nation</Translation>
+		<de-DE>Delivered justice in cases involving a neighboring nation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_UPSET_OPTION_1_PLAYER_1</zType>
-		<Translation>Allowed another nation to put our citizens on trial</Translation>
+		<de-DE>Allowed another nation to put our citizens on trial</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_PLEASED_OPTION_0_PLAYER_1</zType>
-		<Translation>Forged Peace with an agitated Nation</Translation>
+		<de-DE>Forged Peace with an agitated Nation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_PLEASED_OPTION_1_PLAYER_1</zType>
-		<Translation>Avoided conflict by sharing our knowledge</Translation>
+		<de-DE>Avoided conflict by sharing our knowledge</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_TRADE_OPTION_0_PLAYER_1</zType>
-		<Translation>Avoided a war by striking up a research agreement</Translation>
+		<de-DE>Avoided a war by striking up a research agreement</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_AMBITION_CAPTURE_PLAYER_CITIES_NO_PLAYER_1</zType>
-		<Translation>Did not make our enemies pay</Translation>
+		<de-DE>Did not make our enemies pay</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_AMBITION_NEW_PLAYER_WAR_NO_PLAYER_1</zType>
-		<Translation>Did not commit to war</Translation>
+		<de-DE>Did not commit to war</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_WAR_MARRIAGE_YES</zType>
-		<Translation>Pressured into Tribal Marriage</Translation>
+		<de-DE>Pressured into Tribal Marriage</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_BUILDER_ARCHETYPE_PLEASED_OPTION_1_PLAYER_1</zType>
-		<Translation>We built a Granary for a Nation who had Food struggles</Translation>
+		<de-DE>We built a Granary for a Nation who had Food struggles</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_BUILDER_ARCHETYPE_CAUTIOUS_LEADER4_INTIMIDATED_OPTION_0_PLAYER_1</zType>
-		<Translation>Intimidated a foe who had been preparing to attack us</Translation>
+		<de-DE>Intimidated a foe who had been preparing to attack us</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_ARCHETYPE_ANGRY_OPTION_0_PLAYER_1</zType>
-		<Translation>We calmed down an angry Nation through diplomacy</Translation>
+		<de-DE>We calmed down an angry Nation through diplomacy</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_ARCHETYPE_ANGRY_OPTION_1_PLAYER_1</zType>
-		<Translation>Tied up an angry Nation in diplomatic knots to delay a War</Translation>
+		<de-DE>Tied up an angry Nation in diplomatic knots to delay a War</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_ARCHETYPE_UPSET_OPTION_0_PLAYER_1</zType>
-		<Translation>Spent big to turn a burgeoning adversary into a Peace partner</Translation>
+		<de-DE>Spent big to turn a burgeoning adversary into a Peace partner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_ZEALOT_CAUTIOUS_OR_BETTER_OPTION_0_PLAYER_1</zType>
-		<Translation>Our grand religious mission to another Nation was a big success</Translation>
+		<de-DE>Our grand religious mission to another Nation was a big success</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_WAR_DECLARE_PLAY_TO_WIN</zType>
-		<Translation>Ich habe es so gewollt, allem Anschein nach</Translation>
+		<de-DE>Ich habe es so gewollt, allem Anschein nach</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_PEACE_END_OPINION_PLAYER_1</zType>
-		<Translation>Nach link(DIPLOMACY_PEACE) gebettelt</Translation>
+		<de-DE>Nach link(DIPLOMACY_PEACE) gebettelt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DINNER_WITH_A_RIVAL_OPTION_1_CHARACTER_2</zType>
-		<Translation>Unseren Feldherren angetrieben</Translation>
+		<de-DE>Unseren Feldherren angetrieben</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TOKEN_OF_GOODWILL_OPTION_0_PLAYER_1</zType>
-		<Translation>Geweigert Technologie an ein fremdes Reich zu geben</Translation>
+		<de-DE>Geweigert Technologie an ein fremdes Reich zu geben</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_FACE_IN_GOLD_OPTION_0_PLAYER_1</zType>
-		<Translation>Münzen haben nur mein Gesicht</Translation>
+		<de-DE>Münzen haben nur mein Gesicht</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CARAVAN_OF_LOVE_OPTION_1_CHARACTER_2</zType>
-		<Translation>Warned heir of falling in love with a foreigner</Translation>
+		<de-DE>Warned heir of falling in love with a foreigner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_EXECUTED_SPIES_OPTION_1_CHARACTER_1</zType>
-		<Translation>Schickte Spione welche gefasst und exekutiert wurden</Translation>
+		<de-DE>Schickte Spione welche gefasst und exekutiert wurden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NEW_ALLIANCE_OPTION_0_CHARACTER_1</zType>
-		<Translation>Erfolgreich barbarisches Bündnis erzwungen</Translation>
+		<de-DE>Erfolgreich barbarisches Bündnis erzwungen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DEMAND_TRIBUTE_MERCY_AGREE</zType>
-		<Translation>Backed out of demanding tribute</Translation>
+		<de-DE>Backed out of demanding tribute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DEMAND_TRIBUTE_THE_FAITHFUL_LEG</zType>
-		<Translation>Backed out of demanding tribute</Translation>
+		<de-DE>Backed out of demanding tribute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DEMAND_TRIBUTE_DENOUNCED</zType>
-		<Translation>Wehrte sich gegen korruptes Religions Oberhaupt</Translation>
+		<de-DE>Wehrte sich gegen korruptes Religions Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DEMAND_TRIBUTE_DEPOSED_RD</zType>
-		<Translation>Religions Oberhaupt abgesetzt</Translation>
+		<de-DE>Religions Oberhaupt abgesetzt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DEMAND_TRIBUTE_MISSING_AMBASSADOR_3</zType>
-		<Translation>Reinforced border connections</Translation>
+		<de-DE>Reinforced border connections</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DEMAND_TRIBUTE_CUT_0</zType>
-		<Translation>Allowed ambassador’s shady dealings</Translation>
+		<de-DE>Allowed ambassador’s shady dealings</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DEMAND_TRIBUTE_CUT_1</zType>
-		<Translation>Honorable tribute dealings</Translation>
+		<de-DE>Honorable tribute dealings</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_A_FRIENDLY_WARNING_REJECT_PLAYER</zType>
-		<Translation>Verweigerte Stammes Hilfe</Translation>
+		<de-DE>Verweigerte Stammes Hilfe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SUCESSION_THEM_VISIT_1</zType>
-		<Translation>Mit neuem Herrscher angefreundet</Translation>
+		<de-DE>Mit neuem Herrscher angefreundet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SUCESSION_THEM_VISIT_3</zType>
-		<Translation>Geweigert mit einem neuen Herrscher zu handeln</Translation>
+		<de-DE>Geweigert mit einem neuen Herrscher zu handeln</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SUCCESSION_THEM_GIFTS_1</zType>
-		<Translation>Refused to return diplomatic gifts</Translation>
+		<de-DE>Refused to return diplomatic gifts</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SUCCESSION_THEM_PEACE_1</zType>
-		<Translation>Erkannte Frieden des neuen Herrschers an</Translation>
+		<de-DE>Erkannte Frieden des neuen Herrschers an</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SUCCESSION_THEM_PRIDE_0</zType>
-		<Translation>Went to war to avenge an insult</Translation>
+		<de-DE>Went to war to avenge an insult</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SUCCESSION_THEM_PRIDE_1</zType>
-		<Translation>Returned insult to proud ruler</Translation>
+		<de-DE>Returned insult to proud ruler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SUCCESSION_THEM_PRIDE_2</zType>
-		<Translation>Ignored insult from a proud ruler</Translation>
+		<de-DE>Ignored insult from a proud ruler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SUCCESSION_THEM_TRIBUTE</zType>
-		<Translation>Geweigert Tribut zu zahlen</Translation>
+		<de-DE>Geweigert Tribut zu zahlen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SUCCESSION_THEM_SNUBBED_1</zType>
-		<Translation>Refused to be snubbed by new leader</Translation>
+		<de-DE>Refused to be snubbed by new leader</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SUCCESSION_THEM_AGENT_0</zType>
-		<Translation>Entblößte Oberhaupts Agent</Translation>
+		<de-DE>Entblößte Oberhaupts Agent</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SUCESSION_THEM_DEPOSED_0</zType>
-		<Translation>Geweigert mit neuem Herrscher zu verhandeln</Translation>
+		<de-DE>Geweigert mit neuem Herrscher zu verhandeln</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_MOST_BLESSED_PEOPLE_ON_EARTH_OPTION_0_CHARACTER</zType>
-		<Translation>Sagte einem anderen Oberhaupt er sei mehr gesegnet als unserer</Translation>
+		<de-DE>Sagte einem anderen Oberhaupt er sei mehr gesegnet als unserer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_MOST_BLESSED_PEOPLE_ON_EARTH_OPTION_2_CHARACTER</zType>
-		<Translation>Der höcht gesegnete</Translation>
+		<de-DE>Der höcht gesegnete</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_GIVE_TRAIT_DECEITFUL</zType>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_FORBIDDEN_KNOWLEDGE_OPTION_3_CHARACTER</zType>
-		<Translation>"Disregarded" Barbarian knowledge</Translation>
+		<de-DE>"Disregarded" Barbarian knowledge</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RUINS_PROPHECY_OPTION_3_CHARACTER</zType>
-		<Translation>Göttliches Recht zu herrschen</Translation>
+		<de-DE>Göttliches Recht zu herrschen</de-DE>
 	</Entry>
 	<Entry beginGroup="Combat">	
 		<zType>TEXT_BONUS_EVENTOPTION_LEADER_SMITING_FOES_STATUE</zType>
-		<Translation>Smiting Foes</Translation>
+		<de-DE>Smiting Foes</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_ORDER_OF_BUSINESS_HEIR_FIRST_CHARACTER_1</zType>
-		<Translation>Celebrations for the birth of my Heir</Translation>
+		<de-DE>Celebrations for the birth of my Heir</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_BATTLEFIELD_BRILLIANCE_AMUSE</zType>
-		<Translation>Laughed in the face of danger</Translation>
+		<de-DE>Laughed in the face of danger</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_SECRET_ALLIANCES_OPTION_1</zType>
-		<Translation>I declared war on a conspiring nation</Translation>
+		<de-DE>I declared war on a conspiring nation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_YOUNG_HOSTAGE_OPTION_2</zType>
-		<Translation>Refused a barbarian ward</Translation>
+		<de-DE>Refused a barbarian ward</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_WITCH_QUEEN_OPTION_2</zType>
-		<Translation>Removed witch queen</Translation>
+		<de-DE>Removed witch queen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_TEACHING_THE_ENEMY_OPTION_0_CHARACTER_0</zType>
-		<Translation>Ich habe einen Barbar zum Vertrauen gemacht</Translation>
+		<de-DE>Ich habe einen Barbar zum Vertrauen gemacht</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_HOMELAND_BURNING_OPTION_2</zType>
-		<Translation>Guckte zu, wie eine eroberte Stadt brannte</Translation>
+		<de-DE>Guckte zu, wie eine eroberte Stadt brannte</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_EXOTIC_INFLUENCE_OPTION_0_CHARACTER</zType>
-		<Translation>Refused barbarian customs</Translation>
+		<de-DE>Refused barbarian customs</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_EXOTIC_INFLUENCE_OPTION_1_CHARACTER</zType>
-		<Translation>Barbarische Beute ausgestellt</Translation>
+		<de-DE>Barbarische Beute ausgestellt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_KINGS_RANSOM_OPTION_1_CHARACTER_0</zType>
-		<Translation>Took barbarian royal family</Translation>
+		<de-DE>Took barbarian royal family</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_CULT_OF_FLAME_SMASH</zType>
-		<Translation>Purified the Cult of Flame</Translation>
+		<de-DE>Purified the Cult of Flame</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_PRINCE_ENSLAVE</zType>
-		<Translation>Enslaved a barbarian chief</Translation>
+		<de-DE>Enslaved a barbarian chief</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_PRINCE_WARD</zType>
-		<Translation>Einen barbarsichen Prinzen adoptiert</Translation>
+		<de-DE>Einen barbarsichen Prinzen adoptiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_TRIBAL_CONFEDERATION_OPTION_1</zType>
-		<Translation>Warred with tribal confederation</Translation>
+		<de-DE>Warred with tribal confederation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_RIVALS_OPTION_2</zType>
-		<Translation>Kept rival barbarians from seizing land</Translation>
+		<de-DE>Kept rival barbarians from seizing land</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_REBEL_GLADIATORS_OPTION_1</zType>
-		<Translation>Recruited rebel gladiators as citizens</Translation>
+		<de-DE>Recruited rebel gladiators as citizens</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_LOVE_AND_WAR_OPTION_0_CHARACTER_0</zType>
-		<Translation>Lehnte einen barbarischen Heiratsvorschlag ab</Translation>
+		<de-DE>Lehnte einen barbarischen Heiratsvorschlag ab</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_ACQUIRED_TASTES_DESTROY</zType>
-		<Translation>Not tempted by foreign philosophers</Translation>
+		<de-DE>Not tempted by foreign philosophers</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DEFIANCE_OPTION_1_CHARACTER</zType>
-		<Translation>Rallied city under siege</Translation>
+		<de-DE>Rallied city under siege</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_MERCY_IN_CITY_OPTION_0_PLAYER_1</zType>
-		<Translation>Made an example of enemy city's leadership</Translation>
+		<de-DE>Made an example of enemy city's leadership</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_THE_TIDE_OF_BATTLE_OPTION_2_PLAYER_1</zType>
-		<Translation>Starb in der Schlacht weil geweigert sich zurückzuziehen</Translation>
+		<de-DE>Starb in der Schlacht weil geweigert sich zurückzuziehen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_GENERAL_DUEL</zType>
-		<Translation>Erected statue of famous duel</Translation>
+		<de-DE>Erected statue of famous duel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_HONORED_ENEMY_LEG_NEG</zType>
-		<Translation>Feldherr geehrt vom Gegner</Translation>
+		<de-DE>Feldherr geehrt vom Gegner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_HONORED_ENEMY_LEG_POS</zType>
-		<Translation>Feldherr geehrt vom Gegner</Translation>
+		<de-DE>Feldherr geehrt vom Gegner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_BARRACKS_HEIR_1</zType>
-		<Translation>Refused the army's chosen heir</Translation>
+		<de-DE>Refused the army's chosen heir</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_THREE_WEEKS_2</zType>
-		<Translation>Heir returned from elopement in disgrace</Translation>
+		<de-DE>Heir returned from elopement in disgrace</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SUDDEN_RETURN_WELCOME</zType>
-		<Translation>Welcomed back eloper</Translation>
+		<de-DE>Welcomed back eloper</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_STUDY_TRANSLATIONS_YES_LEADER</zType>
-		<Translation>Blickte wissbegierig auf ausländische Schriften</Translation>
+		<de-DE>Blickte wissbegierig auf ausländische Schriften</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_STUDY_TRANSLATIONS_EDUCATED</zType>
-		<Translation>Übersetzte ausländische Schriften selber</Translation>
+		<de-DE>Übersetzte ausländische Schriften selber</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_INCRIMINATING_MESSAGES_OPTION_0_CHARACTER_0</zType>
-		<Translation>Exposed alliance against me</Translation>
+		<de-DE>Exposed alliance against me</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_BASELESS_ACCUSATIONS_OPTION_0_CHARACTER_0</zType>
-		<Translation>Machte falsche Anschuldigungen</Translation>
+		<de-DE>Machte falsche Anschuldigungen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTSTORY_NO_EVIDENCE_CHARACTER_2</zType>
-		<Translation>Ordered failed investigation</Translation>
+		<de-DE>Ordered failed investigation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_WINNING_FAVOR_OPTION_2_CHARACTER_2</zType>
-		<Translation>Familie bedroht</Translation>
+		<de-DE>Familie bedroht</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_FEAST_OPTION_3_CHARACTER</zType>
-		<Translation>Besuchte Festmahl eines Stammes alleine</Translation>
+		<de-DE>Besuchte Festmahl eines Stammes alleine</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_STUDY_RIVALS_2</zType>
-		<Translation>Kind beim lernen leistungsschwach</Translation>
+		<de-DE>Kind beim lernen leistungsschwach</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TEEN_IDOL_0</zType>
-		<Translation>Führung des Kindes ermutigt</Translation>
+		<de-DE>Führung des Kindes ermutigt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TEEN_IDOL_1</zType>
-		<Translation>Kind befolgt Befehle</Translation>
+		<de-DE>Kind befolgt Befehle</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TIME_FOR_A_BREAK_DRINK</zType>
-		<Translation>Zeit für eine Pause</Translation>
+		<de-DE>Zeit für eine Pause</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_EPIC_POETRY_TEACH</zType>
-		<Translation>Epic Poetry</Translation>
+		<de-DE>Epic Poetry</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_LOST_RELATIVE_OPTION_0_CHARACTER_0</zType>
-		<Translation>Held audience with lost relative</Translation>
+		<de-DE>Held audience with lost relative</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_LOST_RELATIVE_OPTION_2_CHARACTER_0</zType>
-		<Translation>Ignored the false heir</Translation>
+		<de-DE>Ignored the false heir</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_A_PRIVATE_AUDIENCE_OPTION_0</zType>
-		<Translation>Added mysterious relative to court</Translation>
+		<de-DE>Added mysterious relative to court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_DEMAND_FOR_JUSTICE_OPTION_0</zType>
-		<Translation>Jailed the false relative</Translation>
+		<de-DE>Jailed the false relative</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_DEMAND_FOR_JUSTICE_OPTION_1</zType>
-		<Translation>Added questionable relative to my court</Translation>
+		<de-DE>Added questionable relative to my court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_PEACEMAKER_OPTION_2</zType>
-		<Translation>Stayed out of foreign affairs</Translation>
+		<de-DE>Stayed out of foreign affairs</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_COURTLY_DRAMA_OPTION_2</zType>
-		<Translation>My reign is bigger than literature</Translation>
+		<de-DE>My reign is bigger than literature</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_TAX_HIKE_OPTION_1</zType>
-		<Translation>Geweigert die Steuern zu erhöhen</Translation>
+		<de-DE>Geweigert die Steuern zu erhöhen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_FORBIDDEN_KNOWLEDGE_OPTION_2</zType>
-		<Translation>Disregarded Barbarian knowledge</Translation>
+		<de-DE>Disregarded Barbarian knowledge</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_KIDNAPPED_CONSORT_OPTION_1</zType>
-		<Translation>Kept a kidnapped consort</Translation>
+		<de-DE>Kept a kidnapped consort</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_KIDNAPPED_CONSORT_OPTION_2</zType>
-		<Translation>Ich habe meinen Sohn als Erben entfernt</Translation>
+		<de-DE>Ich habe meinen Sohn als Erben entfernt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_AMITY_OR_TREASON_OPTION_0</zType>
-		<Translation>Einverstanden abzudanken</Translation>
+		<de-DE>Einverstanden abzudanken</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_TEDIUM_ON_THE_THRONE_OPTION_0</zType>
-		<Translation>Appointed horse to council</Translation>
+		<de-DE>Appointed horse to council</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_THE_WILD_HUNT_OPTION_0</zType>
-		<Translation>Ich nahm an der Wilden Jagd teil</Translation>
+		<de-DE>Ich nahm an der Wilden Jagd teil</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_THE_WILD_HUNT_OPTION_1</zType>
-		<Translation>Ich habe mich der Wilden Jadg verweigert</Translation>
+		<de-DE>Ich habe mich der Wilden Jadg verweigert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_A_FAMILY_WARNING_OPTION_1</zType>
-		<Translation>Mitglied einer Adelsfamilie gefangengenommen</Translation>
+		<de-DE>Mitglied einer Adelsfamilie gefangengenommen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_JOB_OPENING_OPTION_0</zType>
-		<Translation>I took over a minister's role on the council</Translation>
+		<de-DE>I took over a minister's role on the council</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_FAMILY_COUNCIL_OPTION_0</zType>
-		<Translation>Imprisoned those who wished to curb my power</Translation>
+		<de-DE>Imprisoned those who wished to curb my power</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_FAMILY_COUNCIL_OPTION_2</zType>
-		<Translation>Attemped cooperative leadership</Translation>
+		<de-DE>Attemped cooperative leadership</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_AN_EXODUS_OPTION_0</zType>
-		<Translation>Nobles abandoned our Nation</Translation>
+		<de-DE>Nobles abandoned our Nation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_AN_EXODUS_OPTION_1</zType>
-		<Translation>I made peace with my rivals</Translation>
+		<de-DE>I made peace with my rivals</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_A_BITTER_ALLIANCE_OPTION_0</zType>
-		<Translation>Warred with former allies</Translation>
+		<de-DE>Warred with former allies</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_A_MAN_OF_PEACE_OPTION_1</zType>
-		<Translation>Disagreed with retiring general</Translation>
+		<de-DE>Disagreed with retiring general</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_DAUGHTERS_DREAM_OPTION_0</zType>
-		<Translation>Executed a murderous father</Translation>
+		<de-DE>Executed a murderous father</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_TOO_MUCH_OF_A_GOOD_THING_OPTION_0</zType>
-		<Translation>Ich verachtete Heilkünste</Translation>
+		<de-DE>Ich verachtete Heilkünste</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHILD_ROYAL_BIRTH_PRESENT</zType>
-		<Translation>Königliche Geburt</Translation>
+		<de-DE>Königliche Geburt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_BULLYING_HEIR_ESCALATION_DISCOVERED_OK</zType>
-		<Translation>Plotted to kill own Heir</Translation>
+		<de-DE>Plotted to kill own Heir</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_HOLD_COURT_HAPPY_FAMILIES_OK</zType>
-		<Translation>Held Court successfully</Translation>
+		<de-DE>Held Court successfully</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_BRUTAL_HEIR_OPTION_1</zType>
-		<Translation>Allowed heir to act out</Translation>
+		<de-DE>Allowed heir to act out</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_HEIR_HOLY_WAR_OPTION_0</zType>
-		<Translation>Dealt with zealots</Translation>
+		<de-DE>Dealt with zealots</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_HEIR_COMING_OF_AGE_GIFTS_PLAYER</zType>
-		<Translation>Coming of Age</Translation>
+		<de-DE>Coming of Age</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_HEIR_OF_CORRUPTION_OPTION_2</zType>
-		<Translation>Ejected my heir</Translation>
+		<de-DE>Ejected my heir</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_MASTER_OF_WHISPERS_FRIENDS</zType>
-		<Translation>Nur Freunde</Translation>
+		<de-DE>Nur Freunde</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_HEIR_BYPASSED_SITUATION_INFLUENCE</zType>
-		<Translation>Sie werden nachgeben</Translation>
+		<de-DE>Sie werden nachgeben</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_ASSASSINATION_BETRAYAL_ADMIT</zType>
-		<Translation>Assassination Betrayal</Translation>
+		<de-DE>Assassination Betrayal</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_FAMILY_PARTISANS_HELP</zType>
-		<Translation>Made concessions to a disloyal Family</Translation>
+		<de-DE>Made concessions to a disloyal Family</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SABOTAGE_OK</zType>
-		<Translation>Punished disloyal Family</Translation>
+		<de-DE>Punished disloyal Family</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_FAVORED_VASSAL_CEREMONY_OK_PLAYER</zType>
-		<Translation>Vassal Ceremony</Translation>
+		<de-DE>Vassal Ceremony</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_GP_A_PROMOTION_OPTION_2_CHARACTER_1</zType>
-		<Translation>Installed a Steward of the Chamber</Translation>
+		<de-DE>Installed a Steward of the Chamber</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_GP_POISON_ON_THE_TREE_OPTION_0_CHARACTER_1</zType>
-		<Translation>Purged conspirator</Translation>
+		<de-DE>Purged conspirator</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_GP_A_GRUESOME_EXAMPLE_OPTION_0_CHARACTER_1</zType>
-		<Translation>No more taking prisoners</Translation>
+		<de-DE>No more taking prisoners</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_GP_FOREIGN_FIGHTERS_OPTION_1_CHARACTER_1</zType>
-		<Translation>Refused foreign fighters</Translation>
+		<de-DE>Refused foreign fighters</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_GP_TABOOS_OPTION_0_CHARACTER_1</zType>
-		<Translation>Refused to allow human dissections</Translation>
+		<de-DE>Refused to allow human dissections</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_GP_LEFT_BEHIND_OPTION_2_CHARACTER_1</zType>
-		<Translation>I gilded my halls with imported marble</Translation>
+		<de-DE>I gilded my halls with imported marble</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_GP_MERCHANT_TOWN_OPTION_1_CHARACTER_1</zType>
-		<Translation>All must respect the same laws</Translation>
+		<de-DE>All must respect the same laws</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DEATH_VANISHED_OPTION_2</zType>
-		<Translation>Disapproved of my dead child's behavior</Translation>
+		<de-DE>Disapproved of my dead child's behavior</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DEATH_THE_PRICE_OF_POWER_OPTION_0_CHARACTER</zType>
-		<Translation>I disowned my tainted child</Translation>
+		<de-DE>I disowned my tainted child</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHILD_MYSTERIOUS_INFANT_OPTION_0_CHARACTER_0</zType>
-		<Translation>Adopted a mysterious child</Translation>
+		<de-DE>Adopted a mysterious child</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHILD_MYSTERIOUS_INFANT_OPTION_2_CHARACTER_0</zType>
-		<Translation>Refused adoption of mysterious child</Translation>
+		<de-DE>Refused adoption of mysterious child</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHILD_ENLISTMENT_OPTION_0</zType>
-		<Translation>Urged child to join military</Translation>
+		<de-DE>Urged child to join military</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHILD_COMMON_LOVE_OPTION_1_CHARACTER_0</zType>
-		<Translation>Child married a commoner</Translation>
+		<de-DE>Child married a commoner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHILD_THE_PUPPIES_OPTION_1_CHARACTER_1</zType>
-		<Translation>Had to enlist problem child</Translation>
+		<de-DE>Had to enlist problem child</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHILD_ELOPED_OPTION_2_CHARACTER_0</zType>
-		<Translation>Brought back eloping child</Translation>
+		<de-DE>Brought back eloping child</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_DOWNWARD_SPIRAL_OPTION_1</zType>
-		<Translation>Stayed in city while spouse mourned</Translation>
+		<de-DE>Stayed in city while spouse mourned</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_OPPORTUNISTS_OPTION_1</zType>
-		<Translation>Stood up to rival threats</Translation>
+		<de-DE>Stood up to rival threats</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_OPPORTUNISTS_OPTION_2</zType>
-		<Translation>Imprisoned rival who threatened me</Translation>
+		<de-DE>Imprisoned rival who threatened me</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_HARSH_WORDS_OPTION_0</zType>
-		<Translation>Bowed to the military's will</Translation>
+		<de-DE>Bowed to the military's will</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_LEADER_WISDOM_WITH_AGE_OPTION_1</zType>
-		<Translation>Kept the laws of succession</Translation>
+		<de-DE>Kept the laws of succession</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_LEADER_BLOODLESS_REBELLION_OPTION_2</zType>
-		<Translation>Brought my rival to ruin</Translation>
+		<de-DE>Brought my rival to ruin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_LEADER_LEGACY_OF_GOLD_OPTION_0</zType>
-		<Translation>Protected my legacy of riches</Translation>
+		<de-DE>Protected my legacy of riches</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_LEADER_TWILIGHT_YEARS_OPTION_0_CHARACTER_2</zType>
-		<Translation>Parent abdicated to me</Translation>
+		<de-DE>Parent abdicated to me</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_LEADER_THE_HEIRS_CUP_POISONED_OPTION_0</zType>
-		<Translation>Poisoned my predecessor</Translation>
+		<de-DE>Poisoned my predecessor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_THE_FINAL_CAMPAIGN_OPTION_1</zType>
-		<Translation>Cemented my martial legacy</Translation>
+		<de-DE>Cemented my martial legacy</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_LEADER_BIOGRAPHY_OPTION_0</zType>
-		<Translation>Refused a biography of my life</Translation>
+		<de-DE>Refused a biography of my life</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_PROBLEM_CHILD_OPTION_0</zType>
-		<Translation>Made foolish sibling chancellor</Translation>
+		<de-DE>Made foolish sibling chancellor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_DEATH_IN_THE_FAMILY_OPTION_1</zType>
-		<Translation>Admitted military blunder</Translation>
+		<de-DE>Admitted military blunder</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_GRADUATED_RIVAL_MENTOR_OPTION_1_CHARACTER_1</zType>
-		<Translation>Allow rival to influnce our child</Translation>
+		<de-DE>Allow rival to influnce our child</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_GRADUATE_AIR_OF_CERTAINTY_OPTION_2</zType>
-		<Translation>Could not decide between child and courtier</Translation>
+		<de-DE>Could not decide between child and courtier</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_STUDY_DISCIPLINARY_ACTION_OPTION_2_CHARACTER_1</zType>
-		<Translation>Covered up child's misdeeds</Translation>
+		<de-DE>Covered up child's misdeeds</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_GRADUATE_TAKING_THE_MANTLE_OPTION_1_CHARACTER_1</zType>
-		<Translation>Bowed to pressure over governship</Translation>
+		<de-DE>Bowed to pressure over governship</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_GRADUATE_A_RAISED_VOICE_OPTION_0_CHARACTER_1</zType>
-		<Translation>Let criticism go unanswered</Translation>
+		<de-DE>Let criticism go unanswered</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_GRADUATE_A_RAISED_VOICE_OPTION_2_CHARACTER_1</zType>
-		<Translation>Disciplined rowdy youth</Translation>
+		<de-DE>Disciplined rowdy youth</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLEA_FOR_MERCY_YES</zType>
-		<Translation>Mercy for the guily</Translation>
+		<de-DE>Mercy for the guily</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_WORD_OF_A_COUP_THE_COUP_SUCCEEDS</zType>
-		<Translation>Successful Coup</Translation>
+		<de-DE>Successful Coup</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_EVENTOPTION_HEIR_BYPASSED_DOUBLE_MURDER</zType>
-		<Translation>Palace Coup</Translation>
+		<zType>TEXT_BONUS_EVENTOPTION_HEIR_BYPASSED_COUP</zType>
+		<de-DE>Palace Coup</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_LOVE_AFFAIR_END</zType>
-		<Translation>Forced to send away my lover</Translation>
+		<de-DE>Forced to send away my lover</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_01_OPTION_0_CHARACTER_0</zType>
-		<Translation>Caved to demands for special recognition</Translation>
+		<de-DE>Caved to demands for special recognition</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_02_OPTION_0_CHARACTER_0</zType>
-		<Translation>Expelled attempt usurper</Translation>
+		<de-DE>Expelled attempt usurper</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_1_CHARACTER_0</zType>
-		<Translation>Accused courtiers of corruption</Translation>
+		<de-DE>Accused courtiers of corruption</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_2_CHARACTER_0</zType>
-		<Translation>Ingratiated myself to rival</Translation>
+		<de-DE>Ingratiated myself to rival</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PAY_TO_PLAY_OPTION_0_CHARACTER_1</zType>
-		<Translation>Refused to pay courtier dispensation</Translation>
+		<de-DE>Refused to pay courtier dispensation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHARACTER_AFFAIRS_OF_THE_HEART_OPTION_2_CHARACTER_1</zType>
-		<Translation>Executed a nosy churl</Translation>
+		<de-DE>Executed a nosy churl</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHARACTER_WICKED_CHARGES_OPTION_1_CHARACTER_1</zType>
-		<Translation>Faced charges of wickedness in court</Translation>
+		<de-DE>Faced charges of wickedness in court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHARACTER_WARMONGERS_OPTION_1_CHARACTER_1</zType>
-		<Translation>Waged war against barbarians</Translation>
+		<de-DE>Waged war against barbarians</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHARACTER_THE_SPEECHES_OPTION_1_CHARACTER_1</zType>
-		<Translation>Addressed critical speeches</Translation>
+		<de-DE>Addressed critical speeches</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_ALLIANCE_UPKEEP_LEGITIMACY</zType>
-		<Translation>Humbled ourselves for a link(CONCEPT_ALLIANCE_PLAYER)</Translation>
+		<de-DE>Humbled ourselves for a link(CONCEPT_ALLIANCE_PLAYER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_ALLIANCE_UPKEEP_LEGITIMACY</zType>
-		<Translation>Humbled ourselves for a link(CONCEPT_ALLIANCE_TRIBE)</Translation>
+		<de-DE>Humbled ourselves for a link(CONCEPT_ALLIANCE_TRIBE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_PEACE_UPKEEP_LEGITIMACY</zType>
-		<Translation>Humbled ourselves for link(DIPLOMACY_PEACE)</Translation>
+		<de-DE>Humbled ourselves for link(DIPLOMACY_PEACE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHARACTER_LOVE_KILLS_OPTION_0_CHARACTER_2</zType>
-		<Translation>Decried murder allegations</Translation>
+		<de-DE>Decried murder allegations</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHARACTER_FAMILY_FEUD_OPTION_0_CHARACTER_1</zType>
-		<Translation>Bowed to pressure from Oligarch</Translation>
+		<de-DE>Bowed to pressure from Oligarch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_EXPLORING_ENDS_LEGITIMACY</zType>
-		<Translation>Commissioned a great exploration</Translation>
+		<de-DE>Commissioned a great exploration</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_DEATH_COMES_OPTION_0_CHARACTER_1</zType>
-		<Translation>Begged for a foreign ruler's forgiveness</Translation>
+		<de-DE>Begged for a foreign ruler's forgiveness</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_A_CALL_FOR_HELP_OPTION_2_CHARACTER_1</zType>
-		<Translation>Brokered peace between warring nations</Translation>
+		<de-DE>Brokered peace between warring nations</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_THE_INSIDER_OPTION_2_CHARACTER_1</zType>
-		<Translation>Refused foreign ruler's demands</Translation>
+		<de-DE>Refused foreign ruler's demands</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHARACTER_A_NOBLE_UPBRINGING_OPTION_1_PLAYER</zType>
-		<Translation>Did not fraternize captured princess</Translation>
+		<de-DE>Did not fraternize captured princess</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_AT_DEATHS_DOOR_OPTION_2_CHARACTER_1</zType>
-		<Translation>Ignored ruler's desperate plea</Translation>
+		<de-DE>Ignored ruler's desperate plea</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_MOTHER_IN_EXILE_RETURN</zType>
-		<Translation>Let a murderer return home</Translation>
+		<de-DE>Let a murderer return home</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_UNFAITHFUL_TIDINGS_STOP_LEADER</zType>
-		<Translation>Chastened for being unfaithful</Translation>
+		<de-DE>Chastened for being unfaithful</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CONFIRMATION_YES</zType>
-		<Translation>Bullied to confirm my heir</Translation>
+		<de-DE>Bullied to confirm my heir</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CULTURE_VISITOR_FROM_THE_EAST_OPTION_2_CHARACTER_1</zType>
-		<Translation>Refused influence of foreign prophet </Translation>
+		<de-DE>Refused influence of foreign prophet </de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TUTOR_RULE_OF_LAW_OPTION_0_CHARACTER_2</zType>
-		<Translation>Recognized as seat of law</Translation>
+		<de-DE>Recognized as seat of law</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TUTOR_BETRAYED_OPTION_1_CHARACTER_2</zType>
-		<Translation>Left the heir's fate to chance</Translation>
+		<de-DE>Left the heir's fate to chance</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_SECRET_STRIKE_OPTION_0_CHARACTER_0</zType>
-		<Translation>Refused to approve murder plot</Translation>
+		<de-DE>Refused to approve murder plot</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_A_TIME_TO_REAP_OPTION_3_CHARACTER_0</zType>
-		<Translation>Let Courtier walk away</Translation>
+		<de-DE>Let Courtier walk away</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTSTORY_TRAIT_ENTRAILS</zType>
-		<Translation>Held audience with diviner</Translation>
+		<de-DE>Held audience with diviner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_DISTURBING_THE_PEACE_OPTION_2_CHARACTER_0</zType>
-		<Translation>Held foreign heir for ransom</Translation>
+		<de-DE>Held foreign heir for ransom</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_FREED_SLAVE_KEEP</zType>
-		<Translation>Stood up to Epictetus</Translation>
+		<de-DE>Stood up to Epictetus</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_WILD_REVELS_OPTION_1_CHARACTER_0</zType>
-		<Translation>Did not participate in wild revels (but really did)</Translation>
+		<de-DE>Did not participate in wild revels (but really did)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_RIDING_CONTEST_OPTION_1_CHARACTER_0</zType>
-		<Translation>Rode in barbarian contests</Translation>
+		<de-DE>Rode in barbarian contests</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_AMNESTY_OPTION_1_CHARACTER_0</zType>
-		<Translation>Defied calls to release prisoner</Translation>
+		<de-DE>Defied calls to release prisoner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_SECRET_FUND_OPTION_0_CHARACTER</zType>
-		<Translation>Overlooked family tax theft</Translation>
+		<de-DE>Overlooked family tax theft</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_PUSHED_TOO_FAR_OPTION_0_CHARACTER_0</zType>
-		<Translation>Gave vengeful courtier a second chance</Translation>
+		<de-DE>Gave vengeful courtier a second chance</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_PUSHED_TOO_FAR_OPTION_1_CHARACTER_0</zType>
-		<Translation>Punished treacherous courtier</Translation>
+		<de-DE>Punished treacherous courtier</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_THE_TRAVELER_OPTION_2_CHARACTER_0</zType>
-		<Translation>Gave bed to traveling beggar</Translation>
+		<de-DE>Gave bed to traveling beggar</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_SACRILEGE_OPTION_0_CHARACTER</zType>
-		<Translation>Appeased barbarians</Translation>
+		<de-DE>Appeased barbarians</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_UNCHALLENGED_OPTION_0_CHARACTER_1</zType>
-		<Translation>Returned with stories of my authority</Translation>
+		<de-DE>Returned with stories of my authority</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_THE_MYSTIC_OPTION_0</zType>
-		<Translation>Brought a strange mystic to court</Translation>
+		<de-DE>Brought a strange mystic to court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_THE_MONKEYS_PAW_OPTION_1_CHARACTER_1</zType>
-		<Translation>Kindische Geschichten ignoriert</Translation>
+		<de-DE>Kindische Geschichten ignoriert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CUTS_BOTH_WAYS_OPTION_0_CHARACTER_0</zType>
-		<Translation>My renown grows... by supenatural means</Translation>
+		<de-DE>My renown grows... by supenatural means</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CRONE_KILLER_OPTION_0_CHARACTER_0</zType>
-		<Translation>Slayed a dastardly crone</Translation>
+		<de-DE>Slayed a dastardly crone</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_IN_PRIVATE_OPTION_2_CHARACTER_1</zType>
-		<Translation>Rebuffed barbarian ruler</Translation>
+		<de-DE>Rebuffed barbarian ruler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_SURPRISE_PROPOSAL_OPTION_2_CHARACTER_1</zType>
-		<Translation>Married barbrian leader</Translation>
+		<de-DE>Married barbrian leader</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_THE_ORPHAN_EATER_OPTION_0_CHARACTER_3</zType>
-		<Translation>Refused a barbarian general</Translation>
+		<de-DE>Refused a barbarian general</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_REQUEST_REFUSED_OPTION_0_CHARACTER_1</zType>
-		<Translation>Pleaded with barbarian ruler</Translation>
+		<de-DE>Pleaded with barbarian ruler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLEA_FOR_LENIENCY_OPTION_1_CHARACTER_2</zType>
-		<Translation>Refused leniency for political prisoner</Translation>
+		<de-DE>Refused leniency for political prisoner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_ALLIES_OF_CONVENIENCE_OPTION_3_CHARACTER_2</zType>
-		<Translation>Exposed potential plotters</Translation>
+		<de-DE>Exposed potential plotters</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_YOUR_SPOUSES_WEDDING_OPTION_2_CHARACTER_0</zType>
-		<Translation>Insulted foreign ruler on wedding day</Translation>
+		<de-DE>Insulted foreign ruler on wedding day</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_IN_SEARCH_OF_TRUTH_OPTION_0_CHARACTER_1</zType>
-		<Translation>Insisted that royal heir return to court</Translation>
+		<de-DE>Insisted that royal heir return to court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_CARAVAN_ATTACK_OPTION_1_CHARACTER_1</zType>
-		<Translation>Would not accept blame for barbarian incident</Translation>
+		<de-DE>Would not accept blame for barbarian incident</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_THE_VOYAGE_RUSE_OPTION_1_CHARACTER_2</zType>
-		<Translation>Punished plotter</Translation>
+		<de-DE>Punished plotter</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_THE_LONG_NIGHT_OPTION_1_CHARACTER_1</zType>
-		<Translation>Executed my murderous heir</Translation>
+		<de-DE>Executed my murderous heir</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_UNEXPECTED_GUEST_OPTION_1_CHARACTER_2</zType>
-		<Translation>Scolded Heir for interrupting meeting</Translation>
+		<de-DE>Scolded Heir for interrupting meeting</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_VIOLENT_ALTERCATION_OPTION_1_CHARACTER_2</zType>
-		<Translation>Ruler refused to punish rightful heir</Translation>
+		<de-DE>Ruler refused to punish rightful heir</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DISHONOR_OUR_ANCESTORS_OPTION_1_CHARACTER_2</zType>
-		<Translation>Imprisoned rightful heir</Translation>
+		<de-DE>Imprisoned rightful heir</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_ROGUE_NATION_OPTION_0_CHARACTER_1</zType>
-		<Translation>Allowed some city autonomy</Translation>
+		<de-DE>Allowed some city autonomy</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SNAKE_CHARMER_OPTION_0_CHARACTER_1</zType>
-		<Translation>Did not seek revenge on tribal ruler</Translation>
+		<de-DE>Did not seek revenge on tribal ruler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_FEEL_THE_PRESSURE_OPTION_0_CHARACTER_1</zType>
-		<Translation>Would not bow to pressure</Translation>
+		<de-DE>Would not bow to pressure</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLOTTING_NOBLES_OPTION_1</zType>
-		<Translation>Imprisoned nobles unjustly</Translation>
+		<de-DE>Imprisoned nobles unjustly</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_LEGITIMIZE_BASTARDS_BODY_RELEASE</zType>
-		<Translation>We did not prosecute the murder of a royal bastard</Translation>
+		<de-DE>We did not prosecute the murder of a royal bastard</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_INTERCESSION_YOUNG_BOND</zType>
-		<Translation>Heir bonded with nobles</Translation>
+		<de-DE>Heir bonded with nobles</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_INTERCESSION_ELOPEMENT_LEGITIMACY</zType>
-		<Translation>Heir had scandelous marriage</Translation>
+		<de-DE>Heir had scandelous marriage</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_INTERCESSION_FEAST_IGNORE</zType>
-		<Translation>Ignored family slandor</Translation>
+		<de-DE>Ignored family slandor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_INTERCESSION_FEAST_ACCEPT</zType>
-		<Translation>Accepted drunken apology</Translation>
+		<de-DE>Accepted drunken apology</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_INTERCESSION_FAMILY_UNITED_LEG_NEG</zType>
-		<Translation>Interfered in family affairs</Translation>
+		<de-DE>Interfered in family affairs</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_INTERCESSION_FAMILY_UNITED_LEG_POS</zType>
-		<Translation>Above family affairs</Translation>
+		<de-DE>Above family affairs</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_MERCINARY_ARMY_1</zType>
-		<Translation>Invited exile home</Translation>
+		<de-DE>Invited exile home</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLEA_FOR_FORGIVENESS_0</zType>
-		<Translation>Revoked punishment</Translation>
+		<de-DE>Revoked punishment</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLEA_FOR_FORGIVENESS_1</zType>
-		<Translation>Upheld punishment</Translation>
+		<de-DE>Upheld punishment</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_COVERT_MARRIAGE_LEADER</zType>
-		<Translation>Married for love</Translation>
+		<de-DE>Married for love</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_FALLEN_SPYMASTER_OPTION_1_CHARACTER_0</zType>
-		<Translation>Refused to cowar before a conspiracy</Translation>
+		<de-DE>Refused to cowar before a conspiracy</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_FALLEN_SPYMASTER_OPTION_2_CHARACTER_0</zType>
-		<Translation>Reacted a bit too fearfully to a conspiracy</Translation>
+		<de-DE>Reacted a bit too fearfully to a conspiracy</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_HAPPINESS_FOUND_RELIGION_NO</zType>
-		<Translation>The people look to me for divine guidance</Translation>
+		<de-DE>The people look to me for divine guidance</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_FOREST_FIRE_EMBERS_OPTION_0_PLAYER</zType>
-		<Translation>Helped your people after a forest fire</Translation>
+		<de-DE>Helped your people after a forest fire</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_FOREST_FIRE_ORPHAN_OPTION_0_PLAYER</zType>
-		<Translation>Invited forest fire orphan to your Court</Translation>
+		<de-DE>Invited forest fire orphan to your Court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_FOREST_FIRE_ORPHAN_OPTION_1_PLAYER</zType>
-		<Translation>Forest fire orphan became a Scribe</Translation>
+		<de-DE>Forest fire orphan became a Scribe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_FOREST_FIRE_TOMB_OPTION_1_PLAYER</zType>
-		<Translation>Ein antikes Grab erhalten</Translation>
+		<de-DE>Ein antikes Grab erhalten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_FOREST_FIRE_TOMB_OPTION_0_PLAYER</zType>
-		<Translation>Ein antikes Grab geplündert</Translation>
+		<de-DE>Ein antikes Grab geplündert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_FOREST_FIRE_MONUMENT_OPTION_2_PLAYER</zType>
-		<Translation>Geweigert ein antikes Grab zu ehren</Translation>
+		<de-DE>Geweigert ein antikes Grab zu ehren</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_FOREST_FIRE_MONUMENT_OPTION_1_PLAYER</zType>
-		<Translation>Decreed an ancient tomb to be a Monument</Translation>
+		<de-DE>Decreed an ancient tomb to be a Monument</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NEW_TYPE_OF_ANIMAL_SYMBOL_PLAYER</zType>
-		<Translation>Made noble creature a symbol of our nation</Translation>
+		<de-DE>Made noble creature a symbol of our nation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CULTURE_A_BEACON_OPTION_0_CHARACTER_1</zType>
-		<Translation>Added foreign refugees to military</Translation>
+		<de-DE>Added foreign refugees to military</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CULTURE_A_BEACON_OPTION_2_CHARACTER_1</zType>
-		<Translation>Gave foreign refugees citizenship</Translation>
+		<de-DE>Gave foreign refugees citizenship</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CULTURE_TEMPLE_HYMNS_OPTION_2_CHARACTER</zType>
-		<Translation>Established a link(CONCEPT_STATE_RELIGION)</Translation>
+		<de-DE>Established a link(CONCEPT_STATE_RELIGION)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CULTURE_FREEDOM_MOVEMENT_OPTION_1_CHARACTER</zType>
-		<Translation>Permitted anti-slavery sentiment</Translation>
+		<de-DE>Permitted anti-slavery sentiment</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CULTURE_THE_PUBLIC_PURSE_OPTION_1_CHARACTER</zType>
-		<Translation>Paid to influence nobles</Translation>
+		<de-DE>Paid to influence nobles</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_GLADIATOR_GAMES_SOLDIER</zType>
-		<Translation>Personally trained a cohort of link(PROJECT_GLADIATORS)</Translation>
+		<de-DE>Personally trained a cohort of link(PROJECT_GLADIATORS)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_THE_OLYMPIAD_SPEECH</zType>
-		<Translation>Eloquent speech during the link(PROJECT_OLYMPICS)</Translation>
+		<de-DE>Eloquent speech during the link(PROJECT_OLYMPICS)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_THE_LABYRINTH_SUCCESS</zType>
-		<Translation>Solved the infamous link(PROJECT_LABYRINTH)</Translation>
+		<de-DE>Solved the infamous link(PROJECT_LABYRINTH)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CITY_ANARCHY_DISTRACT</zType>
-		<Translation>Choose to entertain the rebels</Translation>
+		<de-DE>Choose to entertain the rebels</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SUPPORTING_THE_FAITH_OPTION_REFUSE</zType>
-		<Translation>Geweigert Glauben zu unterstützen</Translation>
+		<de-DE>Geweigert Glauben zu unterstützen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_FOUNDING_FAITH_THEM_YES</zType>
-		<Translation>Einen fremden Glauben unterstüzt</Translation>
+		<de-DE>Einen fremden Glauben unterstüzt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_BLESSINGS_OF_OUR_ANCESTORS_OPTION_1_PLAYER</zType>
-		<Translation>Forbid the veneration of ancestors</Translation>
+		<de-DE>Forbid the veneration of ancestors</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_THE_RIGHTEOUS_PATH_OPTION_2_CHARACTER</zType>
-		<Translation>Avoided difficult decision about religion</Translation>
+		<de-DE>Avoided difficult decision about religion</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SHRINE_REFUSE</zType>
-		<Translation>Geweiger sich den Heiden zu beugen</Translation>
+		<de-DE>Geweiger sich den Heiden zu beugen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_THE_DEDICATION_2</zType>
-		<Translation>Meinen eigenen Weg schmieden</Translation>
+		<de-DE>Meinen eigenen Weg schmieden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_FIRE_OF_FIRES_YES</zType>
-		<Translation>Donated embers for a sacred fire</Translation>
+		<de-DE>Donated embers for a sacred fire</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_FIRE_OF_FIRES_NO</zType>
-		<Translation>Refused embers for a sacred fire</Translation>
+		<de-DE>Refused embers for a sacred fire</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_HOUSE_OF_SONG</zType>
-		<Translation>Palace compared to the Divine's</Translation>
+		<de-DE>Palace compared to the Divine's</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_BEATING_THE_POETS_RULER</zType>
-		<Translation>Showed skills as an Orator</Translation>
+		<de-DE>Showed skills as an Orator</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_OFFERINGS_TO_THE_DEAD_1</zType>
-		<Translation>Moved past tragic a loss</Translation>
+		<de-DE>Moved past tragic a loss</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_INTO_THE_SKY_1</zType>
-		<Translation>Abandoned traditional burial practices</Translation>
+		<de-DE>Abandoned traditional burial practices</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_INTO_THE_SKY_2</zType>
-		<Translation>Upheld traditional burial practices</Translation>
+		<de-DE>Upheld traditional burial practices</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_IMPERFECT_MADE_PERFECT_0</zType>
-		<Translation>Refused to forgive a subject</Translation>
+		<de-DE>Refused to forgive a subject</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_IMPERFECT_MADE_PERFECT_1</zType>
-		<Translation>Publicly forgave a subject</Translation>
+		<de-DE>Publicly forgave a subject</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_INSCRIPTIONS_TO_AHURA_MAZDA_0</zType>
-		<Translation>Erected royal inscriptions</Translation>
+		<de-DE>Erected royal inscriptions</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTIONS_NOWRUZ_1</zType>
-		<Translation>Toasted you court</Translation>
+		<de-DE>Toasted you court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTIONS_SACRIFICIAL_DEER_2</zType>
-		<Translation>Hunted an impressive stag</Translation>
+		<de-DE>Hunted an impressive stag</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTIONS_RITUAL_AND_LIFE_0</zType>
-		<Translation>Bound by legal code</Translation>
+		<de-DE>Bound by legal code</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTIONS_RITUAL_AND_LIFE_1</zType>
-		<Translation>Refused religious legal code</Translation>
+		<de-DE>Refused religious legal code</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTIONS_DIVINE_PRIEST_0</zType>
-		<Translation>Adopted new god as patron</Translation>
+		<de-DE>Adopted new god as patron</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTIONS_FOUNDING_AVESTAN_1</zType>
-		<Translation>Claims divine lineage</Translation>
+		<de-DE>Claims divine lineage</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RIVAL_AT_THE_BRIDGE_LEG_0</zType>
-		<Translation>Got final vengence on rival</Translation>
+		<de-DE>Got final vengence on rival</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RIVAL_AT_THE_BRIDGE_LEG_1</zType>
-		<Translation>Forgave rival after death</Translation>
+		<de-DE>Forgave rival after death</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_MEDICAL_AID_PAID</zType>
-		<Translation>Paid for opponent's treatment</Translation>
+		<de-DE>Paid for opponent's treatment</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELIGIOUS_GOVERNOR_LEGIT</zType>
-		<Translation>Refused proposed Governor</Translation>
+		<de-DE>Refused proposed Governor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_ZURVANITES_1</zType>
-		<Translation>Ahura Mazda weakened</Translation>
+		<de-DE>Ahura Mazda weakened</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_ZURVANITES_2</zType>
-		<Translation>Ahura Mazda weakened</Translation>
+		<de-DE>Ahura Mazda weakened</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_BONDED_BY_FAITH_0</zType>
-		<Translation>Accepted Religion Head’s alliance</Translation>
+		<de-DE>Accepted Religion Head’s alliance</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_BABY_IN_THE_BASKET_0</zType>
-		<Translation>Accepted child from the river</Translation>
+		<de-DE>Accepted child from the river</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_BABY_IN_THE_BASKET_3</zType>
-		<Translation>Cast out child from the river</Translation>
+		<de-DE>Cast out child from the river</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_ASHERAH_1</zType>
-		<Translation>Spouse took support</Translation>
+		<de-DE>Spouse took support</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_ASHERAH_2</zType>
-		<Translation>Spouse took support</Translation>
+		<de-DE>Spouse took support</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_WEALTH_OF_DAVID_RELIGION_LEG_NEG</zType>
-		<Translation>Ancestor’s tomb defiled</Translation>
+		<de-DE>Ancestor’s tomb defiled</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_WEALTH_OF_DAVID_RELIGION_LEG_POS</zType>
-		<Translation>Avenged tomb robbing</Translation>
+		<de-DE>Avenged tomb robbing</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_LEADER_OF_FAITH_1</zType>
-		<Translation>Treated equally with religion head</Translation>
+		<de-DE>Treated equally with religion head</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_GENEROUS_OFFER_REFUSE</zType>
-		<Translation>Eine Spende abgelehnt</Translation>
+		<de-DE>Eine Spende abgelehnt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELIGIOUS_ABDICATION</zType>
-		<Translation>Geweigert abzudanken</Translation>
+		<de-DE>Geweigert abzudanken</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_FOUNDING_AVESTAN_1</zType>
-		<Translation>Claims descent from Zoroaster</Translation>
+		<de-DE>Claims descent from Zoroaster</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELIGIOUS_INTRIGUE_DISCOVERED_0</zType>
-		<Translation>Begged religion head for forgiveness</Translation>
+		<de-DE>Begged religion head for forgiveness</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_LAW_HEAVENS_CHOSEN_OPTION_0_CHARACTER</zType>
-		<Translation>Clarified my mortality</Translation>
+		<de-DE>Clarified my mortality</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_LAW_UNPAID_DEBTS_OPTION_0_CHARACTER_0</zType>
-		<Translation>Considered coin debasement</Translation>
+		<de-DE>Considered coin debasement</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RULE_BY_GODS_WILL_OPTION_0_PLAYER</zType>
-		<Translation>Accepted the title Defender of the Faith</Translation>
+		<de-DE>Accepted the title Defender of the Faith</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_COLOSSUS_ANCESTOR</zType>
-		<Translation>Dedication of the Colossus</Translation>
+		<de-DE>Dedication of the Colossus</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NECROPOLIS_RECORD_CITY</zType>
-		<Translation>Records at the Necropolis</Translation>
+		<de-DE>Records at the Necropolis</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DINOSAUR_BONES_SLAVERY_VERSION_OPTION_2</zType>
-		<Translation>Destroyed the bones of monsters</Translation>
+		<de-DE>Destroyed the bones of monsters</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DINOSAUR_BONES_FREEDOM_VERSION_OPTION_2</zType>
-		<Translation>Commissioned an epic poem about Dragons</Translation>
+		<de-DE>Commissioned an epic poem about Dragons</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DINOSAUR_BONES_LITERATURE_VERSION_OPTION_2</zType>
-		<Translation>Preserved bones for study</Translation>
+		<de-DE>Preserved bones for study</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PILLAGING_TRIBE_SUCCESS</zType>
-		<Translation>Pillaging Revenge</Translation>
+		<de-DE>Pillaging Revenge</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_EXOTIC_PETS_MONKEY_BAD_POLITICS</zType>
-		<Translation>Too much monkey business</Translation>
+		<de-DE>Too much monkey business</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_MYSTERIOUS_SWORD_USING_DISPLAY_LEADER</zType>
-		<Translation>Stellt das Schwert aus</Translation>
+		<de-DE>Stellt das Schwert aus</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_MYSTERIOUS_SWORD_BREAK_ACCEPT</zType>
-		<Translation>Schwert ist gebrochen</Translation>
+		<de-DE>Schwert ist gebrochen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_ASCETIC_MOVEMENT_ALLOW</zType>
-		<Translation>Unafraid of Ascetic movement</Translation>
+		<de-DE>Unafraid of Ascetic movement</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_INSOLENT_GENERALS_TRAINING_CHARACTER_0</zType>
-		<Translation>Allowed us to be insulted</Translation>
+		<de-DE>Allowed us to be insulted</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_VIEW_FROM_THE_THRONE_OPTION_2</zType>
-		<Translation>I sit alone on the high throne</Translation>
+		<de-DE>I sit alone on the high throne</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_WONDER_ETERNAL_REST_OPTION_2</zType>
-		<Translation>I built myself a grand Mausoleum</Translation>
+		<de-DE>I built myself a grand Mausoleum</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_WONDER_GODS_AND_MEN_OPTION_0</zType>
-		<Translation>Built a dynastic sanctuary</Translation>
+		<de-DE>Built a dynastic sanctuary</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELIGION_NOMADS_OPTION_1</zType>
-		<Translation>Refused to permit a foreign faith</Translation>
+		<de-DE>Refused to permit a foreign faith</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELIGION_THE_APOSTLES_OPTION_1_CHARACTER</zType>
-		<Translation>Broke up Christian gathering</Translation>
+		<de-DE>Broke up Christian gathering</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELIGION_YOUR_BLESSING_OPTION_2_CHARACTER_1</zType>
-		<Translation>Kept courtier from leaving</Translation>
+		<de-DE>Kept courtier from leaving</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CULTURE_GADFLY_OPTION_0</zType>
-		<Translation>Added gadfly to court</Translation>
+		<de-DE>Added gadfly to court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CULTURE_GADFLY_OPTION_1</zType>
-		<Translation>Banished a gadfly from nation</Translation>
+		<de-DE>Banished a gadfly from nation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TECH_VAULTING_NEW_OBSESSION_OPTION_0_CHARACTER_0</zType>
-		<Translation>Chose a new royal ambition</Translation>
+		<de-DE>Chose a new royal ambition</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TECH_LATEEN_CAPSIZED_SPIES_OPTION_0_CHARACTER_0</zType>
-		<Translation>Revealed treachery</Translation>
+		<de-DE>Revealed treachery</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TECH_WINDLASS_ROPE_AND_WINCH_OPTION_0_CHARACTER_0</zType>
-		<Translation>Refused to build torture device</Translation>
+		<de-DE>Refused to build torture device</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TECH_BARDING_NOBLE_EXCESS_OPTION_0_CHARACTER_0</zType>
-		<Translation>Claimed noble's horse armor</Translation>
+		<de-DE>Claimed noble's horse armor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TECH_BARDING_CLEMENCY_OPTION_2_CHARACTER_0</zType>
-		<Translation>Negotiated political exile</Translation>
+		<de-DE>Negotiated political exile</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_TREACHERY_OPTION_2_CHARACTER_1</zType>
-		<Translation>Bowed to traitor's pressure</Translation>
+		<de-DE>Bowed to traitor's pressure</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_ALLIED_INTELLIGENCE_OPTION_1_CHARACTER_1</zType>
-		<Translation>Relied on a Tribe to smuggle spies</Translation>
+		<de-DE>Relied on a Tribe to smuggle spies</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SEDITIOUS_MEETINGS_OPTION_2_CHARACTER_1</zType>
-		<Translation>Bowed to pressure for political reform</Translation>
+		<de-DE>Bowed to pressure for political reform</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_BAD_BLOOD_OPTION_2_CHARACTER_1</zType>
-		<Translation>Warned other nation against meddling</Translation>
+		<de-DE>Warned other nation against meddling</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_FAMILY_DEBTS_OPTION_1_CHARACTER_1</zType>
-		<Translation>Threatened lowly debt collectors</Translation>
+		<de-DE>Threatened lowly debt collectors</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_FAMILY_DEBTS_OPTION_2_CHARACTER_1</zType>
-		<Translation>Threatened lowly debt collectors</Translation>
+		<de-DE>Threatened lowly debt collectors</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELIGION_THE_CONVERTED_OPTION_3_CHARACTER_0</zType>
-		<Translation>Bent to Christian influence</Translation>
+		<de-DE>Bent to Christian influence</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELIGION_AWAITING_EXECUTION_OPTION_0_CHARACTER</zType>
-		<Translation>Used the state to protect a religion</Translation>
+		<de-DE>Used the state to protect a religion</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELIGION_AWAITING_EXECUTION_OPTION_1_CHARACTER</zType>
-		<Translation>Did not mix politics and religion</Translation>
+		<de-DE>Did not mix politics and religion</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELIGION_OUR_ALLEGIANCE_OPTION_1_CHARACTER</zType>
-		<Translation>My armies fight for me, not a god</Translation>
+		<de-DE>My armies fight for me, not a god</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_MONSOON_OPTION_2_CHARACTER</zType>
-		<Translation>Continued exploring</Translation>
+		<de-DE>Continued exploring</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_SHARED_INTERESTS_OPTION_0_CHARACTER</zType>
-		<Translation>Formed friendship with foreign ruler</Translation>
+		<de-DE>Formed friendship with foreign ruler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_MAKING_PEACE_OPTION_1_CHARACTER_1</zType>
-		<Translation>Sentence mutinous general to short prison term</Translation>
+		<de-DE>Sentence mutinous general to short prison term</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_THE_RANT_OPTION_2_CHARACTER_1</zType>
-		<Translation>Toyed with foreign ruler</Translation>
+		<de-DE>Toyed with foreign ruler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_INNER_CIRCLE_OPTION_0</zType>
-		<Translation>Added foreign adviser to court</Translation>
+		<de-DE>Added foreign adviser to court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_MORAL_DEGRADATION_OPTION_0_CHARACTER_1</zType>
-		<Translation>Resisted foreign intervention</Translation>
+		<de-DE>Resisted foreign intervention</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_GIVE_AN_INCH_OPTION_0_CHARACTER_1</zType>
-		<Translation>Refused to bow to foreign pressure</Translation>
+		<de-DE>Refused to bow to foreign pressure</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_HAPPINESS_PLEASURE_BANQUET_OPTION_2</zType>
-		<Translation>Made a fool of myself at a banquet</Translation>
+		<de-DE>Made a fool of myself at a banquet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_REINED_IN_OPTION_1_CHARACTER_0</zType>
-		<Translation>Refused to impose tyranny</Translation>
+		<de-DE>Refused to impose tyranny</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_HANDS_TIED_OPTION_2_CHARACTER_0</zType>
-		<Translation>Publicly admonished outspoken heir</Translation>
+		<de-DE>Publicly admonished outspoken heir</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_THE_BIG_PICTURE_OPTION_1_CHARACTER_0</zType>
-		<Translation>Gesetz verteidigt</Translation>
+		<de-DE>Gesetz verteidigt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SUPPLY_CHAIN_WOES_OPTION_0_CHARACTER_0</zType>
-		<Translation>Caved to worker protests</Translation>
+		<de-DE>Caved to worker protests</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_IRREPARABLE_DAMAGE_OPTION_2_CHARACTER_0</zType>
-		<Translation>Broke up radical sect</Translation>
+		<de-DE>Broke up radical sect</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SMALL_MINDEDNESS_OPTION_1_CHARACTER_0</zType>
-		<Translation>Bullied by rival family</Translation>
+		<de-DE>Bullied by rival family</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_LEADERS_OR_LUNATICS_OPTION_2_CHARACTER_0</zType>
-		<Translation>Removed eccentric governor</Translation>
+		<de-DE>Removed eccentric governor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_A_MESSY_AFFAIR_OPTION_1_CHARACTER_1</zType>
-		<Translation>Investigated controversial murder</Translation>
+		<de-DE>Investigated controversial murder</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_HIRED_KILLERS_OPTION_2_CHARACTER_0</zType>
-		<Translation>Pledged to root out conspirators</Translation>
+		<de-DE>Pledged to root out conspirators</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_LAST_KISS_OPTION_0_CHARACTER_2</zType>
-		<Translation>Familie des Mordes bezichtigt</Translation>
+		<de-DE>Familie des Mordes bezichtigt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_WOOD_SHORTAGES_OPTION_0_PLAYER_0</zType>
-		<Translation>Braucht ausländische Hilfe</Translation>
+		<de-DE>Braucht ausländische Hilfe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SLANDER_NO_MORE_SECRETS_OPTION_0_PLAYER_0</zType>
-		<Translation>Spies surrendered secrets</Translation>
+		<de-DE>Spies surrendered secrets</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PACIFY_SEND_HIM_OUT_OPTION_2_PLAYER</zType>
-		<Translation>Heard rebellious city's demands</Translation>
+		<de-DE>Heard rebellious city's demands</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DIVORCE_FLIGHT_FROM_NATION_OPTION_0_CHARACTER_0</zType>
-		<Translation>Declared traitorous heir illegitimate</Translation>
+		<de-DE>Declared traitorous heir illegitimate</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_INFLUENCE_A_DEADLY_REQUEST_OPTION_2_CHARACTER_2</zType>
-		<Translation>Fought off usurpers</Translation>
+		<de-DE>Fought off usurpers</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_FEAR_OF_THE_OTHER_OPTION_1_CHARACTER_3</zType>
-		<Translation>Ignored public unrest</Translation>
+		<de-DE>Ignored public unrest</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SECRET_RITUALS_OPTION_0_CHARACTER_3</zType>
-		<Translation>Did not enforce authority</Translation>
+		<de-DE>Did not enforce authority</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SPECIAL_STATUS_OPTION_2_CHARACTER_1</zType>
-		<Translation>Kämpfte um Korruption ein Ende zu setzen</Translation>
+		<de-DE>Kämpfte um Korruption ein Ende zu setzen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_IN_REMEMBRANCE_OPTION_1_CHARACTER_2</zType>
-		<Translation>Refused to honor one ruler above all</Translation>
+		<de-DE>Refused to honor one ruler above all</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_MILITARY_GRIEVANCES_OPTION_0_CHARACTER_2</zType>
-		<Translation>Refused military pressure</Translation>
+		<de-DE>Refused military pressure</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBAL_MERCENARIES_0</zType>
-		<Translation>Took Tribal Mercenaries</Translation>
+		<de-DE>Took Tribal Mercenaries</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBAL_MERCENARIES_1</zType>
-		<Translation>Took Tribal Mercenaries</Translation>
+		<de-DE>Took Tribal Mercenaries</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBAL_MERCENARIES_2</zType>
-		<Translation>Refused Tribal Mercenaries</Translation>
+		<de-DE>Refused Tribal Mercenaries</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TWO_MOTHERS_ONE_CHILD_2</zType>
-		<Translation>Decreed a brutal judgement</Translation>
+		<de-DE>Decreed a brutal judgement</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_END_OF_A_SIEGE_BAD_OPTION_1</zType>
-		<Translation>Fooled by a wooden horse</Translation>
+		<de-DE>Fooled by a wooden horse</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TROOPS_RANSACK_OPTION_1_LEADER</zType>
-		<Translation>Gave away our share of the spoils</Translation>
+		<de-DE>Gave away our share of the spoils</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TROOPS_RANSACK_SLAVERY_OPTION_2</zType>
-		<Translation>Showed our enemies no mercy</Translation>
+		<de-DE>Showed our enemies no mercy</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_MERCENARY_DEMANDS_YES</zType>
-		<Translation>Caved to mercenary demands</Translation>
+		<de-DE>Caved to mercenary demands</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_THE_POLEMICIST_GRACIOUS</zType>
-		<Translation>Ignored a hostile polemicist</Translation>
+		<de-DE>Ignored a hostile polemicist</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_THE_POLEMICIST_ELOQUENT</zType>
-		<Translation>Rebutted a hostile polemicist</Translation>
+		<de-DE>Rebutted a hostile polemicist</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RIOTS_AT_THE_RACES_OPTION_1</zType>
-		<Translation>Frightened of angering the people</Translation>
+		<de-DE>Frightened of angering the people</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_LEGITIMACY_CALENDAR</zType>
-		<Translation>Named a new calendar after oneself</Translation>
+		<de-DE>Named a new calendar after oneself</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CAPTURED_NOBLE_EXECUTE</zType>
-		<Translation>We take no prisoners</Translation>
+		<de-DE>We take no prisoners</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_MONUMENTAL_EVENING</zType>
-		<Translation>A memorable feast was thrown in your honor</Translation>
+		<de-DE>A memorable feast was thrown in your honor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DISMAL_EVENING</zType>
-		<Translation>A terrible feast was thrown in your honor</Translation>
+		<de-DE>A terrible feast was thrown in your honor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SUCCESSION_POWER_STRUGGLES_OPTION_REMOVE_LEADER</zType>
-		<Translation>Dealt with a corrupt member of a family</Translation>
+		<de-DE>Dealt with a corrupt member of a family</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CODE_OF_LAWS_MYSELF_PLAYER</zType>
-		<Translation>Personally appointed the nation's judges</Translation>
+		<de-DE>Personally appointed the nation's judges</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NAIVE_AMBASSADOR_CHASTIZE_CHARACTER</zType>
-		<Translation>Chastised an incompetent ambassador</Translation>
+		<de-DE>Chastised an incompetent ambassador</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_FIFTH_COLUMN_EXECUTE_CITY</zType>
-		<Translation>Made an example of a traitorous subject</Translation>
+		<de-DE>Made an example of a traitorous subject</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_FIFTH_COLUMN_DENY_CITY</zType>
-		<Translation>Denied the possibility of traitors</Translation>
+		<de-DE>Denied the possibility of traitors</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_INTERFAITH_DIALOGUE_ATTEND_CITY</zType>
-		<Translation>Attended an interfaith dialogue</Translation>
+		<de-DE>Attended an interfaith dialogue</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_KILLED_IN_COLD_WATER_NO_SUSPICION_TERROR_DISMISS_CITY</zType>
-		<Translation>Refused to take action</Translation>
+		<de-DE>Refused to take action</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_KILLED_IN_COLD_WATER_SUSPICION_CAUGHT_RED_HANDED_SELF_CITY</zType>
-		<Translation>Captured a murderer</Translation>
+		<de-DE>Captured a murderer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_THE_MENACE_ELIMINATED_COHORTES_CITY</zType>
-		<Translation>Reinforced the city guard</Translation>
+		<de-DE>Reinforced the city guard</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_THE_MENACE_ELIMINATED_EXECUTION_CITY</zType>
-		<Translation>Publicly executed a murderer</Translation>
+		<de-DE>Publicly executed a murderer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_KILLED_IN_COLD_WATER_A_FIERY_END_HIGHPROB_REPAIR</zType>
-		<Translation>Repaired damage caused by the murderer</Translation>
+		<de-DE>Repaired damage caused by the murderer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_LOST_IN_TRANSLATION_DEALMAKER_PLAYER_0</zType>
-		<Translation>Charmed our neighbors in a diplomatic mediation</Translation>
+		<de-DE>Charmed our neighbors in a diplomatic mediation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_A_GREEN_DEDICATION_SELF_CHARACTER_1</zType>
-		<Translation>Supported by your governors</Translation>
+		<de-DE>Supported by your governors</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_GOLDEN_GIFTS_WEAR_CHARACTER</zType>
-		<Translation>Resplendent in golden gifts</Translation>
+		<de-DE>Resplendent in golden gifts</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_VICTORY_FOR_THE_LEADER_SELF_CHARACTER_0</zType>
-		<Translation>Leadership proclaimed by your generals</Translation>
+		<de-DE>Leadership proclaimed by your generals</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RESISTANCE_TO_ATENISM_OPTION_1_PLAYER_0</zType>
-		<Translation>Allowed other gods to Aten</Translation>
+		<de-DE>Allowed other gods to Aten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RESISTANCE_TO_ATENISM_OPTION_2_PLAYER_0</zType>
-		<Translation>Centralized religion into the worship of Aten</Translation>
+		<de-DE>Centralized religion into the worship of Aten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PURIM_BAN_PLAYER</zType>
-		<Translation>Banned a festival that spoke ill of your nation</Translation>
+		<de-DE>Banned a festival that spoke ill of your nation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLOT_BY_HERETICS_SURRENDER_PLAYER</zType>
-		<Translation>Surrendered to blackmail</Translation>
+		<de-DE>Surrendered to blackmail</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_ATENISM_PLOT_UNCOVERED_PUNISH_PLAYER</zType>
-		<Translation>Punished would-be assassins</Translation>
+		<de-DE>Punished would-be assassins</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_BLOODSHED_AMONG_THE_RIGHTEOUS_ELOQUENT_CHARACTER</zType>
-		<Translation>Emphasized nation as the true followers of the faith</Translation>
+		<de-DE>Emphasized nation as the true followers of the faith</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_COMING_OF_AGE_SELF_PLAYER</zType>
-		<Translation>Personally led coming of age ceremonies</Translation>
+		<de-DE>Personally led coming of age ceremonies</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_INAPPROPRIATE_FAITH_CONVINCE_LEGITIMACY</zType>
-		<Translation>Led a family to the light</Translation>
+		<de-DE>Led a family to the light</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_AN_UNUSUAL_CHANCELLOR_PROCLAIM</zType>
-		<Translation>Refused to name a chancellor</Translation>
+		<de-DE>Refused to name a chancellor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_INSOLENT_GENERAL_OPTION_1_PLAYER</zType>
-		<Translation>Rebuked insolent general</Translation>
+		<de-DE>Rebuked insolent general</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_UNEXPECTED_REUNION_REINSTATE_CHARACTER_1</zType>
-		<Translation>Forgave a deserter general</Translation>
+		<de-DE>Forgave a deserter general</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_UNEXPECTED_REUNION_IMPRISON_CHARACTER_1</zType>
-		<Translation>Punished a deserter general</Translation>
+		<de-DE>Punished a deserter general</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_BATTLE_IN_THE_SKIES_LEGITIMACY_CITY</zType>
-		<Translation>Promised protection after astrological signs</Translation>
+		<de-DE>Promised protection after astrological signs</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELIGIOUS_PILGRIMS_WAR_HOSTAGES_FAIL_DEPORT_CHARACTER</zType>
-		<Translation>Failed to deal with foreign hostages</Translation>
+		<de-DE>Failed to deal with foreign hostages</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELIGIOUS_PRAISE_YES</zType>
-		<Translation>Allowed other families to sponsor religious events</Translation>
+		<de-DE>Allowed other families to sponsor religious events</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELIGIOUS_PRAISE_NO</zType>
-		<Translation>Prevented other families from sponsoring religious events</Translation>
+		<de-DE>Prevented other families from sponsoring religious events</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CULINARY_ESCAPADES_3</zType>
-		<Translation>Shown up by another family</Translation>
+		<de-DE>Shown up by another family</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBAL_TRAINING_1</zType>
-		<Translation>Turned down tribal training</Translation>
+		<de-DE>Turned down tribal training</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBAL_TRAINING_3</zType>
-		<Translation>Accepted tribal training</Translation>
+		<de-DE>Accepted tribal training</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_YOUNG_LEADER_MARK_LARGE</zType>
-		<Translation>Making large changes to the nation</Translation>
+		<de-DE>Making large changes to the nation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_YOUNG_LEADER_MARK_SMALL</zType>
-		<Translation>Making changes to the nation</Translation>
+		<de-DE>Making changes to the nation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_STUDY_FOREIGN_LIT</zType>
-		<Translation>Encouraged national literature</Translation>
+		<de-DE>Encouraged national literature</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_STUDY_MORAL_CORRUPTION_0</zType>
-		<Translation>Allowed morally corrupt athletics</Translation>
+		<de-DE>Allowed morally corrupt athletics</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_STUDY_MORAL_CORRUPTION_1</zType>
-		<Translation>Steered student away from corruption</Translation>
+		<de-DE>Steered student away from corruption</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_STUDY_MUSIC_0</zType>
-		<Translation>Encouraged student in playing music</Translation>
+		<de-DE>Encouraged student in playing music</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_STUDY_CURSE_OF_AGADE_0</zType>
-		<Translation>Instilled pride in successor</Translation>
+		<de-DE>Instilled pride in successor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_STUDY_CURSE_OF_AGADE_1</zType>
-		<Translation>Encouraged humility in successor</Translation>
+		<de-DE>Encouraged humility in successor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LEGIT_LOSS_FIVE</zType>
-		<Translation>Erfolglos angeführt</Translation>
+		<de-DE>Erfolglos angeführt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LEGIT_LOSS_DEBT</zType>
-		<Translation>Geweigert Schulden zu bezahlen</Translation>
+		<de-DE>Geweigert Schulden zu bezahlen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LEGIT_POISONED_MY_PREDECESSOR</zType>
-		<Translation>Meinen Vorgänger vergiftet</Translation>
+		<de-DE>Meinen Vorgänger vergiftet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_LEGITIMACY_FROM_SCHEMING</zType>
-		<Translation>Meisterhafter Intrigant</Translation>
+		<de-DE>Meisterhafter Intrigant</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_LEGITIMACY_LOVE_AFFAIR_KEEP</zType>
-		<Translation>Schamlos wegen meinem Geliebten</Translation>
+		<de-DE>Schamlos wegen meinem Geliebten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_LEGITIMACY_REJECTED_CHILD</zType>
-		<Translation>Misteriöses Kind zurückgewiesen</Translation>
+		<de-DE>Misteriöses Kind zurückgewiesen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_RELIGION_HEAD_REFUSED</zType>
-		<Translation>Religiöses Oberhaupt verweigert</Translation>
+		<de-DE>Religiöses Oberhaupt verweigert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_RELIGION_HEAD_HUMBLED_BY</zType>
-		<Translation>Von religiösem Oberhaupt erniedrigt</Translation>
+		<de-DE>Von religiösem Oberhaupt erniedrigt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_RETURNED_BODIES</zType>
-		<Translation>Gefallene Leibwächter geehrt</Translation>
+		<de-DE>Gefallene Leibwächter geehrt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_PLOTTING_FOR_LUST</zType>
-		<Translation>Wählte Tot über gezwungen zu werden</Translation>
+		<de-DE>Wählte Tot über gezwungen zu werden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WILD_REVELS_DISCOVERED</zType>
-		<Translation>Erlangt den Ruf eines närrischen Säufers</Translation>
+		<de-DE>Erlangt den Ruf eines närrischen Säufers</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RAID_FRIENDS_IN_FAR_PLACES</zType>
-		<Translation>Protected courtier from invaders</Translation>
+		<de-DE>Protected courtier from invaders</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_AUTONOMOUS_EMPRESS_1</zType>
-		<Translation>Allowed autonomous rule</Translation>
+		<de-DE>Allowed autonomous rule</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS_REBEL_SLAVE</zType>
-		<Translation>Made a deal with the rebel slaves</Translation>
+		<de-DE>Made a deal with the rebel slaves</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS_PLAYER</zType>
-		<Translation>Made a deal with the rebel slaves</Translation>
+		<de-DE>Made a deal with the rebel slaves</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_MYTHICAL_BEASTS</zType>
-		<Translation>Adopted elephant as royal symbol</Translation>
+		<de-DE>Adopted elephant as royal symbol</de-DE>
 	</Entry>
 	<!-- Named Units -->
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_MEDJAY</zType>
-		<Translation>The Medjay</Translation>
+		<de-DE>The Medjay</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_SACRED_BAND</zType>
-		<Translation>The Sacred Band</Translation>
+		<de-DE>The Sacred Band</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_IMMORTALS</zType>
-		<Translation>The Immortals</Translation>
+		<de-DE>The Immortals</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_COMPANIONS</zType>
-		<Translation>The Companions</Translation>
+		<de-DE>The Companions</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_NUMERUS_BATAVORUM</zType>
-		<Translation>The Numerus Batavorum</Translation>
+		<de-DE>The Numerus Batavorum</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_SILVER_SHIELDS</zType>
-		<Translation>The Silver Shields</Translation>
+		<de-DE>The Silver Shields</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_HARII</zType>
-		<Translation>The Harii</Translation>
+		<de-DE>The Harii</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_PAINTED_WARRIORS</zType>
-		<Translation>The Painted Demons</Translation>
+		<de-DE>The Painted Demons</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_WARRIORS_OF_GOD</zType>
-		<Translation>The Warriors of God</Translation>
+		<de-DE>The Warriors of God</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_TERRORS</zType>
-		<Translation>The Terrors</Translation>
+		<de-DE>The Terrors</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_FURIES</zType>
-		<Translation>The Furies</Translation>
+		<de-DE>The Furies</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_PRAISE_OF_THE_TWO_LANDS</zType>
-		<Translation>Praise of the Two Lands</Translation>
+		<de-DE>Praise of the Two Lands</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_WILD_HUNTERS</zType>
-		<Translation>The Wild Hunters</Translation>
+		<de-DE>The Wild Hunters</de-DE>
 	</Entry>
 </Root>

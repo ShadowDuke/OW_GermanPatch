@@ -1,292 +1,292 @@
-﻿<!-- German Translation (© Revan ©) -->
+﻿<!-- German de-DE (© Revan ©) -->
 
 <Root>
     <Entry>
         <zType/>
-        <Translation/>
+        <de-DE/>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_EMAIL_NAME</zType>
-        <Translation>Email</Translation>
+        <de-DE>Email</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_EMAIL_DESC</zType>
-        <Translation>Deine email address wird für cloud Spiele (wenn sie verfügbar werden) benutzt, oder um dich im Notfall zu kontaktieren wenn du ein Bug mitteilst.</Translation>
+        <de-DE>Deine email address wird für cloud Spiele (wenn sie verfügbar werden) benutzt, oder um dich im Notfall zu kontaktieren wenn du ein Bug mitteilst.</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_CAMERA_FOLLOW_AI_MOVES_NAME</zType>
-        <Translation>Folge KI Bewegungen</Translation>
+        <de-DE>Folge KI Bewegungen</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_CAMERA_FOLLOW_AI_MOVES_DESC</zType>
-        <Translation>Wann soll die Kamera KI Bewegungen folgen?</Translation>
+        <de-DE>Wann soll die Kamera KI Bewegungen folgen?</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_RESOLUTION_NAME</zType>
-        <Translation>Auflösung</Translation>
+        <de-DE>Auflösung</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_RESOLUTION_DESC</zType>
-        <Translation>Passt die Auflösung an</Translation>
+        <de-DE>Passt die Auflösung an</de-DE>
 	</Entry>
 	 <Entry>
         <zType>TEXT_MISCOPTION_FULLSCREENMODE_NAME</zType>
-        <Translation>Vollbild</Translation>
+        <de-DE>Vollbild</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_FULLSCREENMODE_DESC</zType>
-	    <Translation>Vollbildschirm</Translation>
+	    <de-DE>Vollbildschirm</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_MONITOR_NAME</zType>
-        <Translation>Monitor</Translation>
+        <de-DE>Monitor</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_MONITOR_DESC</zType>
-        <Translation>Dein gewählter Monitor</Translation>
+        <de-DE>Dein gewählter Monitor</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_FRAME_LIMIT_NAME</zType>
-        <Translation>Framelimit</Translation>
+        <de-DE>Framelimit</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_FRAME_LIMIT_DESC</zType>
-	    <Translation>Stelle das Framelimit ein</Translation>
+	    <de-DE>Stelle das Framelimit ein</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_GRAPHICS_PRESET_NAME</zType>
-        <Translation>Grafik Voreinstellungen</Translation>
+        <de-DE>Grafik Voreinstellungen</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_GRAPHICS_PRESET_DESC</zType>
-	    <Translation>Grafik Voreinstellungen für alle Optionen</Translation>
+	    <de-DE>Grafik Voreinstellungen für alle Optionen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_LOD_QUALITY_NAME</zType>
-		<Translation>Gebäude Qualität</Translation>
+		<de-DE>Gebäude Qualität</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_LOD_QUALITY_DESC</zType>
-		<Translation>Gebäude Qualität und Detaillevel</Translation>
+		<de-DE>Gebäude Qualität und Detaillevel</de-DE>
 	</Entry>
 	<Entry>
         <zType>TEXT_MISCOPTION_RENDERING_QUALITY_NAME</zType>
-        <Translation>Renderqualität</Translation>
+        <de-DE>Renderqualität</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_RENDERING_QUALITY_DESC</zType>
-		<Translation>Renderqualität Voreinstellung</Translation>
+		<de-DE>Renderqualität Voreinstellung</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_TERRAIN_QUALITY_NAME</zType>
-        <Translation>Geländequalität</Translation>
+        <de-DE>Geländequalität</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_TERRAIN_QUALITY_DESC</zType>
-	    <Translation>Geländerenderqualität und Speichernutzung</Translation>
+	    <de-DE>Geländerenderqualität und Speichernutzung</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_FOW_QUALITY_NAME</zType>
-        <Translation>Nebel des Krieges Qualität</Translation>
+        <de-DE>Nebel des Krieges Qualität</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_FOW_QUALITY_DESC</zType>
-		<Translation>Nebel des Krieges Renderqualität</Translation>
+		<de-DE>Nebel des Krieges Renderqualität</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_FOREST_QUALITY_NAME</zType>
-		<Translation>Wald Qualität</Translation>
+		<de-DE>Wald Qualität</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_FOREST_QUALITY_DESC</zType>
-		<Translation>Wald Dichte und Varietät</Translation>
+		<de-DE>Wald Dichte und Varietät</de-DE>
 	</Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_COLORBLIND_FILTER_NAME</zType>
-        <Translation>Farbenblind Filter</Translation>
+        <de-DE>Farbenblind Filter</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_COLORBLIND_FILTER_DESC</zType>
-	    <Translation>Farbenblind Filter mit zahlreichen Arten</Translation>
+	    <de-DE>Farbenblind Filter mit zahlreichen Arten</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_COLORBLIND_FILTER_STRENGTH_NAME</zType>
-        <Translation>Filter Stärke</Translation>
+        <de-DE>Filter Stärke</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_COLORBLIND_FILTER_STRENGTH_DESC</zType>
-	    <Translation>Passt die Anzahl der Farbenblind Filter anA</Translation>
+	    <de-DE>Passt die Anzahl der Farbenblind Filter anA</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_CAMERA_SPEED_NAME</zType>
-        <Translation>Kamerageschwindigkeit</Translation>
+        <de-DE>Kamerageschwindigkeit</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_CAMERA_SPEED_DESC</zType>
-	    <Translation>Kamerascrollgeschwindigkeit</Translation>
+	    <de-DE>Kamerascrollgeschwindigkeit</de-DE>
     </Entry>
 	<Entry>	
         <zType>TEXT_MISCOPTION_ANTIALIASING_NAME</zType>
-        <Translation>Antialiasing</Translation>
+        <de-DE>Antialiasing</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_ANTIALIASING_DESC</zType>
-	    <Translation>Aktiviere FXAA Antialiasing</Translation>
+	    <de-DE>Aktiviere FXAA Antialiasing</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_AMBIENT_OCCLUSION_NAME</zType>
-        <Translation>Umgebungsverdeckung</Translation>
+        <de-DE>Umgebungsverdeckung</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_AMBIENT_OCCLUSION_DESC</zType>
-	    <Translation>Aktiviere Umgebungsverdeckung Nachbearbeitung</Translation>
+	    <de-DE>Aktiviere Umgebungsverdeckung Nachbearbeitung</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_BLOOM_NAME</zType>
-        <Translation>Bloom</Translation>
+        <de-DE>Bloom</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_BLOOM_DESC</zType>
-	    <Translation>Aktiviere Bloom Nachbearbeitung</Translation>
+	    <de-DE>Aktiviere Bloom Nachbearbeitung</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_VIGNETTE_NAME</zType>
-        <Translation>Vignette</Translation>
+        <de-DE>Vignette</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_VIGNETTE_DESC</zType>
-	    <Translation>Aktiviere Vignette Kameraeffekt</Translation>
+	    <de-DE>Aktiviere Vignette Kameraeffekt</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_MOTION_BLUR_NAME</zType>
-        <Translation>Bewegungsunschärfe</Translation>
+        <de-DE>Bewegungsunschärfe</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_MOTION_BLUR_DESC</zType>
-	    <Translation>Aktiviere Bewegungsunschärfe Nachbearbeitung</Translation>
+	    <de-DE>Aktiviere Bewegungsunschärfe Nachbearbeitung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_DEPTH_OF_FIELD_NAME</zType>
-		<Translation>Schärfentiefe</Translation>
+		<de-DE>Schärfentiefe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_DEPTH_OF_FIELD_DESC</zType>
-		<Translation>Aktiviert Blur Effekte auf dem Bild</Translation>
+		<de-DE>Aktiviert Blur Effekte auf dem Bild</de-DE>
 	</Entry>
 	<Entry>
         <zType>TEXT_MISCOPTION_COLOR_CORRECTION_NAME</zType>
-        <Translation>Farbkorrektur</Translation>
+        <de-DE>Farbkorrektur</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_COLOR_CORRECTION_DESC</zType>
-	    <Translation>Aktiviere Farbkorrektur Nachbearbeitung</Translation>
+	    <de-DE>Aktiviere Farbkorrektur Nachbearbeitung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_ANIMATION_LOD_NAME</zType>
-		<Translation>Reduziere Animations Details</Translation>
+		<de-DE>Reduziere Animations Details</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_ANIMATION_LOD_DESC</zType>
-		<Translation>Reduziert das Level animierter Objekte wenn mit der Kamera herausgezoomt wird</Translation>
+		<de-DE>Reduziert das Level animierter Objekte wenn mit der Kamera herausgezoomt wird</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_SINGLE_OBJECTS_NAME</zType>
-		<Translation>Zeige einzelne Objekte</Translation>
+		<de-DE>Zeige einzelne Objekte</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_SINGLE_OBJECTS_DESC</zType>
-		<Translation>Zeigt einzelne Einheiten und Ressourcen anstelle von Gruppen</Translation>
+		<de-DE>Zeigt einzelne Einheiten und Ressourcen anstelle von Gruppen</de-DE>
 	</Entry>
 	<Entry>
         <zType>TEXT_MISCOPTION_MUSIC_VOLUME_NAME</zType>
-        <Translation>Musiklautstärke</Translation>
+        <de-DE>Musiklautstärke</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_MUSIC_VOLUME_DESC</zType>
-        <Translation>Passt die Lautsärke für Musik an</Translation>
+        <de-DE>Passt die Lautsärke für Musik an</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_SFX_VOLUME_NAME</zType>
-        <Translation>Effektlautstärke</Translation>
+        <de-DE>Effektlautstärke</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_SFX_VOLUME_DESC</zType>
-	    <Translation>Effektlautstärke Stufe</Translation>
+	    <de-DE>Effektlautstärke Stufe</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_HUD_SCALE_NAME</zType>
-        <Translation>Benutzeroberflächen Anpassung</Translation>
+        <de-DE>Benutzeroberflächen Anpassung</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_HUD_SCALE_DESC</zType>
-        <Translation>Ändert die Größe der Benutzeroberfläche auf dem Hauptbildschirm</Translation>
+        <de-DE>Ändert die Größe der Benutzeroberfläche auf dem Hauptbildschirm</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_HEALTHBAR_SCALE_NAME</zType>
-        <Translation>Gesundheitsbalken Anpassung</Translation>
+        <de-DE>Gesundheitsbalken Anpassung</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_HEALTHBAR_SCALE_DESC</zType>
-        <Translation>Ändert die Größe der Gesundheitsbalken</Translation>
+        <de-DE>Ändert die Größe der Gesundheitsbalken</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_TOOLTIP_SCALE_NAME</zType>
-        <Translation>Kurzinfo Anpassung</Translation>
+        <de-DE>Kurzinfo Anpassung</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_TOOLTIP_SCALE_DESC</zType>
-        <Translation>Ändert die Größe der Kurzinfos</Translation>
+        <de-DE>Ändert die Größe der Kurzinfos</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_OVERRIDE_MAX_SCALING_NAME</zType>
-		<Translation>Überschreibt Skalierungs Limit</Translation>
+		<de-DE>Überschreibt Skalierungs Limit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_OVERRIDE_MAX_SCALING_DESC</zType>
-		<Translation><![CDATA[Erhöht den maxiamlen Wert für HUD Skalierung mit dem Schieberegler<br><color=#ff0000>Warnung: Dieses zu aktivieren kann verschiedene Ui Elemente oder Layouts überdecken oder anders stören</color>]]></Translation>
+		<de-DE><![CDATA[Erhöht den maxiamlen Wert für HUD Skalierung mit dem Schieberegler<br><color=#ff0000>Warnung: Dieses zu aktivieren kann verschiedene Ui Elemente oder Layouts überdecken oder anders stören</color>]]></de-DE>
 	</Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_LANGUAGE_NAME</zType>
-        <Translation>Sprache</Translation>
+        <de-DE>Sprache</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_LANGUAGE_DESC</zType>
-        <Translation>Ändert die Sprache des Spiels</Translation>
+        <de-DE>Ändert die Sprache des Spiels</de-DE>
     </Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_NEWSLETTER_NAME</zType>
-		<Translation>Newsletter</Translation>
+		<de-DE>Newsletter</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_NEWSLETTER</zType>
-		<Translation>Abonnieren</Translation>
+		<de-DE>Abonnieren</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_FIRSTNAME_NAME</zType>
-		<Translation>First name</Translation>
+		<de-DE>First name</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_FIRSTNAME_DESC</zType>
-		<Translation>Enter your first name for the newsletter subscription</Translation>
+		<de-DE>Enter your first name for the newsletter subscription</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_LASTNAME_NAME</zType>
-		<Translation>Last name</Translation>
+		<de-DE>Last name</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_LASTNAME_DESC</zType>
-		<Translation>Enter your last name for the newsletter subscription</Translation>
+		<de-DE>Enter your last name for the newsletter subscription</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_NEWSLETTER_STATUS</zType>
-		<Translation>Newsletter subscription status:</Translation>
+		<de-DE>Newsletter subscription status:</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_NEWSLETTER_SUCCEEDED</zType>
-		<Translation>Your subscription has succeeded!</Translation>
+		<de-DE>Your subscription has succeeded!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_NEWSLETTER_FAILED</zType>
-		<Translation>Error - Please provide email and try again.</Translation>
+		<de-DE>Error - Please provide email and try again.</de-DE>
 	</Entry>
 </Root>

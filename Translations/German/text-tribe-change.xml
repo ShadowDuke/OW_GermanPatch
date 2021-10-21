@@ -1,85 +1,85 @@
-<!-- German Translation (© Revan ©) -->
+<!-- German de-DE (© Revan ©) -->
 
 <Root>
 	<!-- NOTE: Proper Name ~ Adjective ~ Indefinite & Adjective ~ Plural -->
 	<Entry>
 		<zType/>
-		<Translation/>
+		<de-DE/>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_REBELS</zType>
-		<Translation>Rebellen~Rebbeln~ein Rebelle~Rebellen~Rebelle</Translation>
+		<de-DE>Rebellen~Rebbeln~ein Rebelle~Rebellen~Rebelle</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_REBELS_HELP</zType>
-		<Translation>Rebel Units are spawned from Cities with link(CONCEPT_FAMILY,2) with negative link(CONCEPT_OPINION_FAMILY,3). These Units will prefer to attack Units of the Nation from which they spawned. Rebel Units remember their oringinal link(CONCEPT_FAMILY), so Units of the same link(CONCEPT_FAMILY) receive a int(SAME_FAMILY_MODIFIER)%{ATTACKDEFENSE} combat modifier.)</Translation>
+		<de-DE>Rebel Units are spawned from Cities with link(CONCEPT_FAMILY,2) with negative link(CONCEPT_OPINION_FAMILY,3). These Units will prefer to attack Units of the Nation from which they spawned. Rebel Units remember their oringinal link(CONCEPT_FAMILY), so Units of the same link(CONCEPT_FAMILY) receive a int(SAME_FAMILY_MODIFIER)%{ATTACKDEFENSE} combat modifier.)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_ANARCHY</zType>
-		<Translation>Anarchie</Translation>
+		<de-DE>Anarchie</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_RAIDERS</zType>
-		<Translation>Räuber~Räuber~ein Räuber~Räuber~Räuber</Translation>
+		<de-DE>Räuber~Räuber~ein Räuber~Räuber~Räuber</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_RAIDERS_HELP</zType>
-		<Translation>Raiders emerge from Tribal Sites which have too many Units. A random number of the Tribe's Units are turned into Raiders, who target a nearby City at link(DIPLOMACY_WAR) or link(DIPLOMACY_TRUCE) with the Tribe. However, Raiders are always at link(DIPLOMACY_WAR) with all link(CONCEPT_NATION,2). (Tribes in link(CONCEPT_ALLIANCE_TRIBE,1) will never become Raiders.)</Translation>
+		<de-DE>Raiders emerge from Tribal Sites which have too many Units. A random number of the Tribe's Units are turned into Raiders, who target a nearby City at link(DIPLOMACY_WAR) or link(DIPLOMACY_TRUCE) with the Tribe. However, Raiders are always at link(DIPLOMACY_WAR) with all link(CONCEPT_NATION,2). (Tribes in link(CONCEPT_ALLIANCE_TRIBE,1) will never become Raiders.)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_BARBARIANS</zType>
-		<Translation>Barbaren~Barbarische~ein Barbare~Barbaren~Barbare</Translation>
+		<de-DE>Barbaren~Barbarische~ein Barbare~Barbaren~Barbare</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_BARBARIANS_HELP</zType>
-		<Translation>Barbarians occupy link(CONCEPT_CITY_SITE,2) like other link(CONCEPT_TRIBE,2), but they are in a permanent state of link(DIPLOMACY_WAR) with all link(CONCEPT_NATION,2).</Translation>
+		<de-DE>Barbarians occupy link(CONCEPT_CITY_SITE,2) like other link(CONCEPT_TRIBE,2), but they are in a permanent state of link(DIPLOMACY_WAR) with all link(CONCEPT_NATION,2).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_GAULS</zType>
-		<Translation>Gallier~Gallische~ein Gallier~Galliern~Gallier</Translation>
+		<de-DE>Gallier~Gallische~ein Gallier~Galliern~Gallier</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_GAULS_NICK</zType>
-		<Translation>der Gallier</Translation>
+		<de-DE>der Gallier</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_VANDALS</zType>
-		<Translation>Vandalen~Vandalische~ein Vandale~Vandalen~Vandale</Translation>
+		<de-DE>Vandalen~Vandalische~ein Vandale~Vandalen~Vandale</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_VANDALS_NICK</zType>
-		<Translation>der Vandale</Translation>
+		<de-DE>der Vandale</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_DANES</zType>
-		<Translation>Dänen~Dänische~ein Däne~Dänen~Däne</Translation>
+		<de-DE>Dänen~Dänische~ein Däne~Dänen~Däne</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_DANES_NICK</zType>
-		<Translation>der Däne</Translation>
+		<de-DE>der Däne</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_THRACIANS</zType>
-		<Translation>Thraker~Thrakische~ein Thraker~Thraker~Thraker</Translation>
+		<de-DE>Thraker~Thrakische~ein Thraker~Thraker~Thraker</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_THRACIANS_NICK</zType>
-		<Translation>der Thraker</Translation>
+		<de-DE>der Thraker</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_SCYTHIANS</zType>
-		<Translation>Skythen~Skythische~ein Skythe~Skythen~Skythe</Translation>
+		<de-DE>Skythen~Skythische~ein Skythe~Skythen~Skythe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_SCYTHIANS_NICK</zType>
-		<Translation>der Skythe</Translation>
+		<de-DE>der Skythe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_NUMIDIANS</zType>
-		<Translation>Numiden~Numidische~ein Numide~Numiden~Numide</Translation>
+		<de-DE>Numiden~Numidische~ein Numide~Numiden~Numide</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_NUMIDIANS_NICK</zType>
-		<Translation>der Numide</Translation>
+		<de-DE>der Numide</de-DE>
 	</Entry>
 </Root>

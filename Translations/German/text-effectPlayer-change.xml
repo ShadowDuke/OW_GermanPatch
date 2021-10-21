@@ -1,195 +1,195 @@
-<!-- German Translation (© Revan ©) -->
+<!-- German de-DE (© Revan ©) -->
 
 <Root>
 	<!--Assets/GameAssets/Resources/Infos/effectPlayer.xml-->
 	<Entry>
 		<zType/>
-		<Translation/>
+		<de-DE/>
 	</Entry>
 	<!--Source-->
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_CAPITAL_SOURCE</zType>
-		<Translation>in der link(CONCEPT_CAPITAL)</Translation>
+		<de-DE>in der link(CONCEPT_CAPITAL)</de-DE>
 	</Entry>
 	<!--Name-->
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_BASE</zType>
-		<Translation>Grundwert</Translation>
+		<de-DE>Grundwert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_AMBITION</zType>
-		<Translation>Ambition</Translation>
+		<de-DE>Ambition</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_LEGACY</zType>
-		<Translation>Vermächtnis</Translation>
+		<de-DE>Vermächtnis</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_COUNCIL_SPYMASTER</zType>
-		<Translation>Meisterspion</Translation>
+		<de-DE>Meisterspion</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_ABLE</zType>
-		<Translation>Der Tüchtige</Translation>
+		<de-DE>Der Tüchtige</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_JUST</zType>
-		<Translation>Der Gerechte</Translation>
+		<de-DE>Der Gerechte</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_GOOD</zType>
-		<Translation>Der Zuverlässige</Translation>
+		<de-DE>Der Zuverlässige</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_STRONG</zType>
-		<Translation>Der Kräftige</Translation>
+		<de-DE>Der Kräftige</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_NOBLE</zType>
-		<Translation>Der Großmütige</Translation>
+		<de-DE>Der Großmütige</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_GLORIOUS</zType>
-		<Translation>Der Glorreiche</Translation>
+		<de-DE>Der Glorreiche</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_MAGNIFICENT</zType>
-		<Translation>Der Prachtvolle</Translation>
+		<de-DE>Der Prachtvolle</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_GREAT</zType>
-		<Translation>Der Große</Translation>
+		<de-DE>Der Große</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_LAW_CONSTITUTION_DECREE</zType>
-		<Translation>Erlässe in Hauptstadt</Translation>
+		<de-DE>Erlässe in Hauptstadt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TECH_LABOR_FORCE</zType>
-		<Translation>Straßen</Translation>
+		<de-DE>Straßen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TECH_DRAMA</zType>
-		<Translation>Musik</Translation>
+		<de-DE>Musik</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TECH_COINAGE</zType>
-		<Translation>Automatisiere link(UNIT_WORKER,2)</Translation>
+		<de-DE>Automatisiere link(UNIT_WORKER,2)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TECH_NAVIGATION</zType>
-		<Translation>Automatisiere link(UNIT_SCOUT,2)</Translation>
+		<de-DE>Automatisiere link(UNIT_SCOUT,2)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_HERO_ARCHETYPE</zType>
-		<Translation>Oberhaupt der link(TRAIT_HERO_ARCHETYPE)</Translation>
+		<de-DE>Oberhaupt der link(TRAIT_HERO_ARCHETYPE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_TACTICIAN_ARCHETYPE</zType>
-		<Translation>Oberhaupt der link(TRAIT_TACTICIAN_ARCHETYPE)</Translation>
+		<de-DE>Oberhaupt der link(TRAIT_TACTICIAN_ARCHETYPE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_COMMANDER_ARCHETYPE</zType>
-		<Translation>Oberhaupt der link(TRAIT_COMMANDER_ARCHETYPE)</Translation>
+		<de-DE>Oberhaupt der link(TRAIT_COMMANDER_ARCHETYPE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_ZEALOT_ARCHETYPE</zType>
-		<Translation>Oberhaupt der link(TRAIT_ZEALOT_ARCHETYPE)</Translation>
+		<de-DE>Oberhaupt der link(TRAIT_ZEALOT_ARCHETYPE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_JUDGE_ARCHETYPE</zType>
-		<Translation>Oberhaupt der link(TRAIT_JUDGE_ARCHETYPE)</Translation>
+		<de-DE>Oberhaupt der link(TRAIT_JUDGE_ARCHETYPE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_ORATOR_ARCHETYPE</zType>
-		<Translation>Oberhaupt der link(TRAIT_ORATOR_ARCHETYPE)</Translation>
+		<de-DE>Oberhaupt der link(TRAIT_ORATOR_ARCHETYPE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_SCHOLAR_ARCHETYPE</zType>
-		<Translation>Oberhaupt der link(TRAIT_SCHOLAR_ARCHETYPE)</Translation>
+		<de-DE>Oberhaupt der link(TRAIT_SCHOLAR_ARCHETYPE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_SCHOLAR_ARCHETYPE_INQUIRY</zType>
-		<Translation>Forscher in der link(CONCEPT_CAPITAL)</Translation>
+		<de-DE>Forscher in der link(CONCEPT_CAPITAL)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_BUILDER_ARCHETYPE</zType>
-		<Translation>Oberhaupt der link(TRAIT_BUILDER_ARCHETYPE)</Translation>
+		<de-DE>Oberhaupt der link(TRAIT_BUILDER_ARCHETYPE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_SCHEMER_ARCHETYPE</zType>
-		<Translation>Oberhaupt der link(TRAIT_SCHEMER_ARCHETYPE)</Translation>
+		<de-DE>Oberhaupt der link(TRAIT_SCHEMER_ARCHETYPE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_TRAIT_DIPLOMAT_ARCHETYPE</zType>
-		<Translation>Wortführer der link(TRAIT_DIPLOMAT_ARCHETYPE)</Translation>
+		<de-DE>Wortführer der link(TRAIT_DIPLOMAT_ARCHETYPE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_HIGH_SCIENCE</zType>
-		<Translation>Hohe Wissenschaft</Translation>
+		<de-DE>Hohe Wissenschaft</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_VERY_HIGH_SCIENCE</zType>
-		<Translation>Sehr hohe Wissenschaft</Translation>
+		<de-DE>Sehr hohe Wissenschaft</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_MEDIUM_ORDERS</zType>
-		<Translation>Mittlere Befehle</Translation>
+		<de-DE>Mittlere Befehle</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_HIGH_ORDERS</zType>
-		<Translation>Hohe Befehle</Translation>
+		<de-DE>Hohe Befehle</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_VERY_HIGH_ORDERS</zType>
-		<Translation>Sehr hohe Befehle</Translation>
+		<de-DE>Sehr hohe Befehle</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_LOW_CIVICS</zType>
-		<Translation>Niedrige Verwaltung</Translation>
+		<de-DE>Niedrige Verwaltung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_MEDIUM_CIVICS</zType>
-		<Translation>Mittlere Verwaltung</Translation>
+		<de-DE>Mittlere Verwaltung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_HIGH_CIVICS</zType>
-		<Translation>Hohe Verwaltung</Translation>
+		<de-DE>Hohe Verwaltung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_VERY_HIGH_CIVICS</zType>
-		<Translation>Sehr hohe Verwaltung</Translation>
+		<de-DE>Sehr hohe Verwaltung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_LOW_TRAINING</zType>
-		<Translation>Niedriges Training</Translation>
+		<de-DE>Niedriges Training</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_MEDIUM_TRAINING</zType>
-		<Translation>Mittleres Training</Translation>
+		<de-DE>Mittleres Training</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_HIGH_TRAINING</zType>
-		<Translation>Hohes Training</Translation>
+		<de-DE>Hohes Training</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_VERY_HIGH_TRAINING</zType>
-		<Translation>Sehr hohes Training</Translation>
+		<de-DE>Sehr hohes Training</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_LOW_MONEY</zType>
-		<Translation>Wenig Geld</Translation>
+		<de-DE>Wenig Geld</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_MEDIUM_MONEY</zType>
-		<Translation>Mittleres Geld</Translation>
+		<de-DE>Mittleres Geld</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_HIGH_MONEY</zType>
-		<Translation>Hohes Geld</Translation>
+		<de-DE>Hohes Geld</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_UPKEEP_VERY_HIGH_MONEY</zType>
-		<Translation>Sehr hohes Geld</Translation>
+		<de-DE>Sehr hohes Geld</de-DE>
 	</Entry>
 </Root>

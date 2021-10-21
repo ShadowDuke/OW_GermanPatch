@@ -1,148 +1,148 @@
-<!-- German Translation (© Revan ©) -->
+<!-- German de-DE (© Revan ©) -->
 
 <Root>
 	<Entry>
 		<zType/>
-		<Translation/>
+		<de-DE/>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_PRIMOGENITURE</zType>
-		<Translation>Erstgeburt</Translation>
+		<de-DE>Erstgeburt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_ULTIMOGENITURE</zType>
-		<Translation>Ultimogenitur</Translation>
+		<de-DE>Ultimogenitur</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_LATERAL</zType>
-		<Translation>Lateral</Translation>
+		<de-DE>Lateral</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_DYNASTIC</zType>
-		<Translation>Dynastisch</Translation>
+		<de-DE>Dynastisch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_SENIORITY</zType>
-		<Translation>Dienstalter</Translation>
+		<de-DE>Dienstalter</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_EPICS</zType>
-		<Translation>Anforderungen</Translation>
+		<de-DE>Anforderungen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_EXPLORATION</zType>
-		<Translation>Erkundung</Translation>
+		<de-DE>Erkundung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_SLAVERY</zType>
-		<Translation>Sklaverei</Translation>
+		<de-DE>Sklaverei</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_FREEDOM</zType>
-		<Translation>Freiheit</Translation>
+		<de-DE>Freiheit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_CENTRALIZATION</zType>
-		<Translation>Zentralisierung</Translation>
+		<de-DE>Zentralisierung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_VASSALAGE</zType>
-		<Translation>Vasallentum</Translation>
+		<de-DE>Vasallentum</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_TYRANNY</zType>
-		<Translation>Tyrannei</Translation>
+		<de-DE>Tyrannei</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_CONSTITUTION</zType>
-		<Translation>Verfassung</Translation>
+		<de-DE>Verfassung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_COLONIES</zType>
-		<Translation>Kolonien</Translation>
+		<de-DE>Kolonien</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_SERFDOM</zType>
-		<Translation>Leibeigenschaft</Translation>
+		<de-DE>Leibeigenschaft</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_MONOTHEISM</zType>
-		<Translation>Monotheismus</Translation>
+		<de-DE>Monotheismus</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_POLYTHEISM</zType>
-		<Translation>Polytheismus</Translation>
+		<de-DE>Polytheismus</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_DIVINE_RULE</zType>
-		<Translation>Göttliche Herrschaft</Translation>
+		<de-DE>Göttliche Herrschaft</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_LEGAL_CODE</zType>
-		<Translation>Gesetzbuch</Translation>
+		<de-DE>Gesetzbuch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_TOLERANCE</zType>
-		<Translation>Toleranz</Translation>
+		<de-DE>Toleranz</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_ORTHODOXY</zType>
-		<Translation>Rechtgläubigkeit</Translation>
+		<de-DE>Rechtgläubigkeit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_PROFESSIONAL_ARMY</zType>
-		<Translation>Berufsarmee</Translation>
+		<de-DE>Berufsarmee</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_VOLUNTEERS</zType>
-		<Translation>Freiwillige</Translation>
+		<de-DE>Freiwillige</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_PHILOSOPHY</zType>
-		<Translation>Philosophie</Translation>
+		<de-DE>Philosophie</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_ENGINEERING</zType>
-		<Translation>Maschinenbau</Translation>
+		<de-DE>Maschinenbau</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_ICONOGRAPHY</zType>
-		<Translation>Bilddeutung</Translation>
+		<de-DE>Bilddeutung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_CALLIGRAPHY</zType>
-		<Translation>Schönschrift</Translation>
+		<de-DE>Schönschrift</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_PILGRIMAGE</zType>
-		<Translation>Pilgerschaft</Translation>
+		<de-DE>Pilgerschaft</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_HOLY_WAR</zType>
-		<Translation>Heiliger Krieg</Translation>
+		<de-DE>Heiliger Krieg</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_GUILDS</zType>
-		<Translation>Gilden</Translation>
+		<de-DE>Gilden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_ELITES</zType>
-		<Translation>Eliten</Translation>
+		<de-DE>Eliten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_AUTARKY</zType>
-		<Translation>Autarkie</Translation>
+		<de-DE>Autarkie</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_TRADE_LEAGUE</zType>
-		<Translation>Handelsliga</Translation>
+		<de-DE>Handelsliga</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_COIN_DEBASEMENT</zType>
-		<Translation>Münz Wertminderung</Translation>
+		<de-DE>Münz Wertminderung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_LAW_MONETARY_REFORM</zType>
-		<Translation>Münzreform</Translation>
+		<de-DE>Münzreform</de-DE>
 	</Entry>
 </Root>

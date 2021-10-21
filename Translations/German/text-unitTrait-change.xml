@@ -1,52 +1,52 @@
-<!-- German Translation (© Revan ©) -->
+<!-- German de-DE (© Revan ©) -->
 
 <Root>
 	<Entry>
 		<zType/>
-		<Translation/>
+		<de-DE/>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNITTRAIT_MELEE</zType>
-		<Translation>Nahkampf</Translation>
+		<de-DE>Nahkampf</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNITTRAIT_RANGED</zType>
-		<Translation>Fernkampf</Translation>
+		<de-DE>Fernkampf</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNITTRAIT_INFANTRY</zType>
-		<Translation>Infanterie</Translation>
+		<de-DE>Infanterie</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNITTRAIT_POLEARM</zType>
-		<Translation>Stangenwaffe</Translation>
+		<de-DE>Stangenwaffe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNITTRAIT_MOUNTED</zType>
-		<Translation>Beritten</Translation>
+		<de-DE>Beritten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNITTRAIT_HORSE</zType>
-		<Translation>Roß</Translation>
+		<de-DE>Roß</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNITTRAIT_CAMEL</zType>
-		<Translation>Kamel</Translation>
+		<de-DE>Kamel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNITTRAIT_ELEPHANT</zType>
-		<Translation>Elefant</Translation>
+		<de-DE>Elefant</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNITTRAIT_SIEGE</zType>
-		<Translation>Belagerung</Translation>
+		<de-DE>Belagerung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNITTRAIT_SHIP</zType>
-		<Translation>Schiff</Translation>
+		<de-DE>Schiff</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNITTRAIT_TRIBAL</zType>
-		<Translation>Stamm</Translation>
+		<de-DE>Stamm</de-DE>
 	</Entry>
 </Root>

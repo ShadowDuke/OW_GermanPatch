@@ -1,169 +1,169 @@
-<!-- German Translation (© Revan ©) -->
+<!-- German de-DE (© Revan ©) -->
 
 <Root>
 	<Entry>
 		<zType/>
-		<Translation/>
+		<de-DE/>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_NO_TUTORIAL</zType>
-		<Translation>Deaktiviere Tutorial</Translation>
+		<de-DE>Deaktiviere Tutorial</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_NO_TUTORIAL_DESC</zType>
-		<Translation>Tutorial Ereignisse kommen nicht vor</Translation>
+		<de-DE>Tutorial Ereignisse kommen nicht vor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_NO_REPLAY_DESC</zType>
-		<Translation>Wiederholungs Unterstützung benötigt eine größere Menge verfügbaren Systemspeicher</Translation>
+		<de-DE>Wiederholungs Unterstützung benötigt eine größere Menge verfügbaren Systemspeicher</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_INSTANT_UNIT_MOVEMENT</zType>
-		<Translation>Sofortige Einheitenbewegung</Translation>
+		<de-DE>Sofortige Einheitenbewegung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_INSTANT_UNIT_MOVEMENT_DESC</zType>
-		<Translation>Deine Einheitenbewegung wird nicht anmiert</Translation>
+		<de-DE>Deine Einheitenbewegung wird nicht anmiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_UNIT_CYCLING</zType>
-		<Translation>Einheitenwechsel</Translation>
+		<de-DE>Einheitenwechsel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_UNIT_CYCLING_DESC</zType>
-		<Translation>Wechselt automatisch zur nächsten untätigen Einheit</Translation>
+		<de-DE>Wechselt automatisch zur nächsten untätigen Einheit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_FATIGUE_CYCLING</zType>
-		<Translation>Ermüdete Einheiten Wechsel</Translation>
+		<de-DE>Ermüdete Einheiten Wechsel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_FATIGUE_CYCLING_DESC</zType>
-		<Translation>Ermüdete Einheiten sind in der Wechselauswahl inbegriffen</Translation>
+		<de-DE>Ermüdete Einheiten sind in der Wechselauswahl inbegriffen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_AUTOMATED_UNITS_LAST</zType>
-		<Translation>Automated Units Last</Translation>
+		<de-DE>Automated Units Last</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_AUTOMATED_UNITS_LAST_DESC</zType>
-		<Translation>Automated Units move at the end of the turn</Translation>
+		<de-DE>Automated Units move at the end of the turn</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_DISABLE_EDGE_SCROLLING</zType>
-		<Translation>Deaktivert Rand Scrolling</Translation>
+		<de-DE>Deaktivert Rand Scrolling</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_DISABLE_EDGE_SCROLLING_DESC</zType>
-		<Translation>Die Map wird nicht bewegt wenn die Maus an der Ecke des Bildschirms ist (Nur Vollbildmodus)</Translation>
+		<de-DE>Die Map wird nicht bewegt wenn die Maus an der Ecke des Bildschirms ist (Nur Vollbildmodus)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SHOW_ORDERS_COST</zType>
-		<Translation>Zeige Befehlskosten</Translation>
+		<de-DE>Zeige Befehlskosten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SHOW_ORDERS_COST_DESC</zType>
-		<Translation>Zeige Befehlskosten anstatt wieviele Befehle noch für diesen Zug übrig sind.</Translation>
+		<de-DE>Zeige Befehlskosten anstatt wieviele Befehle noch für diesen Zug übrig sind.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_MINI_TECH_CARDS</zType>
-		<Translation>Benutze minimierte Technologie Karten</Translation>
+		<de-DE>Benutze minimierte Technologie Karten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_MINI_TECH_CARDS_DESC</zType>
-		<Translation>Benutzt immer mini Technologie Karten anstatt des 'Forschung wählen' Popups</Translation>
+		<de-DE>Benutzt immer mini Technologie Karten anstatt des 'Forschung wählen' Popups</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SHOW_SYSTEM_TIME</zType>
-		<Translation>Zeige System Uhrzeit</Translation>
+		<de-DE>Zeige System Uhrzeit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SHOW_SYSTEM_TIME_DESC</zType>
-		<Translation>Zeigt die System Uhrzeit auf der Benutzeroberfläche an</Translation>
+		<de-DE>Zeigt die System Uhrzeit auf der Benutzeroberfläche an</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_HIDE_LANDMARK_NAMES</zType>
-		<Translation>Verstcke Namen der Wahrzeichen</Translation>
+		<de-DE>Verstcke Namen der Wahrzeichen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_HIDE_LANDMARK_NAMES_DESC</zType>
-		<Translation>Verstecke Karten-Element-Namen, (zB. Berge, Vulkane, etc.)</Translation>
+		<de-DE>Verstecke Karten-Element-Namen, (zB. Berge, Vulkane, etc.)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_FLIP_UNIT_COLORS</zType>
-		<Translation>Tausche Einheiten Farben</Translation>
+		<de-DE>Tausche Einheiten Farben</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_FLIP_UNIT_COLORS_DESC</zType>
-		<Translation>Tausche primäre und sekundäre Farben von Einheiten</Translation>
+		<de-DE>Tausche primäre und sekundäre Farben von Einheiten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SHOW_RIVAL_FAMILY_COLORS</zType>
-		<Translation>Zeige fremde Familien Farben</Translation>
+		<de-DE>Zeige fremde Familien Farben</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SHOW_RIVAL_FAMILY_COLORS_DESC</zType>
-		<Translation>Zeigt Familien Farben für fremde Einheiten</Translation>
+		<de-DE>Zeigt Familien Farben für fremde Einheiten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_HIDE_UNIT_MOVEMENT_STEPS</zType>
-		<Translation>Verstecke Einheiten Bewegungsschritte</Translation>
+		<de-DE>Verstecke Einheiten Bewegungsschritte</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_HIDE_UNIT_MOVEMENT_STEPS_DESC</zType>
-		<Translation>Versteckt die Bewegungsreichweite für jeden Schritt für die ausgewählte Einheit</Translation>
+		<de-DE>Versteckt die Bewegungsreichweite für jeden Schritt für die ausgewählte Einheit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_MUTE_AUDIO</zType>
-		<Translation>Stumm</Translation>
+		<de-DE>Stumm</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_MUTE_AUDIO_DESC</zType>
-		<Translation>Keinen Sound bitte</Translation>
+		<de-DE>Keinen Sound bitte</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SKIP_LICENSED_MUSIC_TRACKS</zType>
-		<Translation>Überspringe lizensierte Musikstücke</Translation>
+		<de-DE>Überspringe lizensierte Musikstücke</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SKIP_LICENSED_MUSIC_TRACKS_DESC</zType>
-		<Translation>For players who are livestreaming or recording video: When enabled, the game will skip any licensed music tracks with known copyright flagging issues on video sharing websites. This helps to reduce music-related content issues in your videos.</Translation>		
+		<de-DE>For players who are livestreaming or recording video: When enabled, the game will skip any licensed music tracks with known copyright flagging issues on video sharing websites. This helps to reduce music-related content issues in your videos.</de-DE>		
 	</Entry>
 	<Entry>
 		<zType>TEXT_JUKEBOX_EXPLANATION</zType>
-		<Translation>In-game music begins when you research link(TECH_DRAMA). 
-Below, you can play or disable specific music tracks.</Translation>
+		<de-DE>In-game music begins when you research link(TECH_DRAMA). 
+Below, you can play or disable specific music tracks.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_DONT_MUTE_FOCUS</zType>
-		<Translation>Play Sound without Focus</Translation>
+		<de-DE>Play Sound without Focus</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_DONT_MUTE_FOCUS_DESC</zType>
-		<Translation>Game audio continues playing in the background even when switching to another application (useful for streaming or recording purposes).</Translation>
+		<de-DE>Game audio continues playing in the background even when switching to another application (useful for streaming or recording purposes).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_AZERTY_KEYBOARD</zType>
-		<Translation>AZERTY Tastatur</Translation>
+		<de-DE>AZERTY Tastatur</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_AZERTY_KEYBOARD_DESC</zType>
-		<Translation>Map hotkeys to their locations in an AZERTY keyboard</Translation>
+		<de-DE>Map hotkeys to their locations in an AZERTY keyboard</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SLOW</zType>
-		<Translation>Langsame KI</Translation>
+		<de-DE>Langsame KI</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_SLOW_DESC</zType>
-		<Translation>KI Berechnungen werden nicht auf alle CPU Kerne angewendet CPU cores so das Zyklen für andere Aufgaben zwischen den Zügen verfügbar sind</Translation>
+		<de-DE>KI Berechnungen werden nicht auf alle CPU Kerne angewendet CPU cores so das Zyklen für andere Aufgaben zwischen den Zügen verfügbar sind</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_DEBUG_HELP</zType>
-		<Translation>Debug help</Translation>
+		<de-DE>Debug help</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PLAYEROPTION_DEBUG_HELP_DESC</zType>
-		<Translation>Enable tooltips for debugging</Translation>
+		<de-DE>Enable tooltips for debugging</de-DE>
 	</Entry>
 </Root>

@@ -1,2561 +1,2561 @@
-<!-- German Translation (© Revan ©) -->
+<!-- German de-DE (© Revan ©) -->
 
 <Root>
 	<Entry>
 		<zType/>
-		<Translation/>
+		<de-DE/>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_SPREAD_RELIGION</zType>
-		<Translation>Stamm verbreitete Religion</Translation>
+		<de-DE>Stamm verbreitete Religion</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_RAID</zType>
-		<Translation>Stamm Überfall</Translation>
+		<de-DE>Stamm Überfall</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_PEACE</zType>
-		<Translation>Stamm Frieden</Translation>
+		<de-DE>Stamm Frieden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_TRUCE</zType>
-		<Translation>Stamm Waffenruhe</Translation>
+		<de-DE>Stamm Waffenruhe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_WAR</zType>
-		<Translation>Stamme Krieg</Translation>
+		<de-DE>Stamme Krieg</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_OFFER</zType>
-		<Translation>Stamm Angebot</Translation>
+		<de-DE>Stamm Angebot</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_OFFER_ALL</zType>
-		<Translation>Stamm Angebot (Alle)</Translation>
+		<de-DE>Stamm Angebot (Alle)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_BROKE_PEACE</zType>
-		<Translation>Hat einen Friedensvertrag gebrochen</Translation>
+		<de-DE>Hat einen Friedensvertrag gebrochen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_REMOVED_LUXURY</zType>
-		<Translation>Luxusgut entfernt</Translation>
+		<de-DE>Luxusgut entfernt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_PLAYER_TRIBE_WAR</zType>
-		<Translation>Hat ein Reich überzeugt uns den Krieg zu erklären</Translation>
+		<de-DE>Hat ein Reich überzeugt uns den Krieg zu erklären</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_ATTACKED_UNIT</zType>
-		<Translation>Griff unsere Einheit(en) an</Translation>
+		<de-DE>Griff unsere Einheit(en) an</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_ATTACKED_SETTLEMENT</zType>
-		<Translation>Griff unseren Stadtplatz an</Translation>
+		<de-DE>Griff unseren Stadtplatz an</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_ATTACKED_ENEMY</zType>
-		<Translation>Griff unsere(n) Feind(e) an</Translation>
+		<de-DE>Griff unsere(n) Feind(e) an</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_DECLARED_WAR</zType>
-		<Translation>Hat uns den Krieg erklärt</Translation>
+		<de-DE>Hat uns den Krieg erklärt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_EXECUTION</zType>
-		<Translation>Sie haben unsere Gefangenen hingerichtet</Translation>
+		<de-DE>Sie haben unsere Gefangenen hingerichtet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_DESECRATION</zType>
-		<Translation>Unsere Gräbder wurden entweiht.</Translation>
+		<de-DE>Unsere Gräbder wurden entweiht.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_RESPECT</zType>
-		<Translation>Unsere Gräbder wurden verschont.</Translation>
+		<de-DE>Unsere Gräbder wurden verschont.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_DENIED_SPOILS</zType>
-		<Translation>Die Beute unseres Kivalen verweigert.</Translation>
+		<de-DE>Die Beute unseres Kivalen verweigert.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_SALTED_FIELDS</zType>
-		<Translation>Unsere Beute verbrannt und unsere Felder gesalzen</Translation>
+		<de-DE>Unsere Beute verbrannt und unsere Felder gesalzen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_SHARED_SPOILS</zType>
-		<Translation>Beute mit RIvalem geteilt</Translation>
+		<de-DE>Beute mit RIvalem geteilt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_ZEALOTS_OPPRESSED</zType>
-		<Translation>Kriegerische Fanatiker gebändigt</Translation>
+		<de-DE>Kriegerische Fanatiker gebändigt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_DISREGARDED_KNOWLEDGE</zType>
-		<Translation>Unser Wissen unbeachtet gelassen</Translation>
+		<de-DE>Unser Wissen unbeachtet gelassen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_RETURNED_HOSTAGE</zType>
-		<Translation>Königliche Geisel zurückgegeben</Translation>
+		<de-DE>Königliche Geisel zurückgegeben</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_KEPT_HOSTAGE</zType>
-		<Translation>Ein königliches Mündel als Geisel gehalten</Translation>
+		<de-DE>Ein königliches Mündel als Geisel gehalten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_DOOMED_HOSTAGE</zType>
-		<Translation>Sie verurteilen unsere königliche Geisel</Translation>
+		<de-DE>Sie verurteilen unsere königliche Geisel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_MURDERED_QUEEN</zType>
-		<Translation>Unsere Königin ermordet</Translation>
+		<de-DE>Unsere Königin ermordet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_INSULTED_CUSTOMS</zType>
-		<Translation>Unsere Gebräuche beleidigt</Translation>
+		<de-DE>Unsere Gebräuche beleidigt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_ACCEPTED_CUSTOMS</zType>
-		<Translation>Unsere Gebräuche anerkannt</Translation>
+		<de-DE>Unsere Gebräuche anerkannt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_RETURNED_FAMILY</zType>
-		<Translation>Die königliche Familie zurückgegeben</Translation>
+		<de-DE>Die königliche Familie zurückgegeben</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_STOLE_FAMILY</zType>
-		<Translation>Entführte königliche Familie</Translation>
+		<de-DE>Entführte königliche Familie</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_MET_OUR_DELEGATION</zType>
-		<Translation>Unsere Delegation empfangen</Translation>
+		<de-DE>Unsere Delegation empfangen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_SENT_A_PROXY</zType>
-		<Translation>Schickte einen Stellvertreter um unsere Delegation zu empfangen</Translation>
+		<de-DE>Schickte einen Stellvertreter um unsere Delegation zu empfangen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_ATTACKED_DELEGATION</zType>
-		<Translation>Unsere Delegation angegriffen</Translation>
+		<de-DE>Unsere Delegation angegriffen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_ANNEXED_LAND</zType>
-		<Translation>Planen unser Land zu annektieren</Translation>
+		<de-DE>Planen unser Land zu annektieren</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_REFUSED_ANNEXATION</zType>
-		<Translation>Haben unser land nicht annektiert</Translation>
+		<de-DE>Haben unser land nicht annektiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_AVOIDED_RUINS</zType>
-		<Translation>Antike Ruinen vermieden</Translation>
+		<de-DE>Antike Ruinen vermieden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_DESECRATED_RUINS</zType>
-		<Translation>Antike Ruinen entweiht</Translation>
+		<de-DE>Antike Ruinen entweiht</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_TREATED_WITH_LEADER</zType>
-		<Translation>Handelte mit unserem Oberhaupt</Translation>
+		<de-DE>Handelte mit unserem Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_RESTRICTED_PIRACY</zType>
-		<Translation>Begrenzt Stammes Piraterie</Translation>
+		<de-DE>Begrenzt Stammes Piraterie</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_TRIBE_WAR_AMBASSADOR_IF</zType>
-		<Translation>Unseren Gesandten beleidigt</Translation>
+		<de-DE>Unseren Gesandten beleidigt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_TRIBE_CONTACT_AGGRESSION</zType>
-		<Translation>Sich aggressiv beim ersten Aufeinandertreffen verhalten</Translation>
+		<de-DE>Sich aggressiv beim ersten Aufeinandertreffen verhalten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_TRIBE_CONTACT_GAVE_GIFTS</zType>
-		<Translation>Gab Geschenke ersten Aufeinandertreffen</Translation>
+		<de-DE>Gab Geschenke ersten Aufeinandertreffen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_TRIBE_CONTACT_RANSOM</zType>
-		<Translation>Bezahlte Lösegeld für deren Einheit</Translation>
+		<de-DE>Bezahlte Lösegeld für deren Einheit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_TRIBE_CONTACT_TOOK_HOSTAGE</zType>
-		<Translation>Nahm unsere Einheit als Geisel</Translation>
+		<de-DE>Nahm unsere Einheit als Geisel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_FEASTED_IN_OUR_HONOR</zType>
-		<Translation>Feierte in unseren Ehren</Translation>
+		<de-DE>Feierte in unseren Ehren</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_TRIBE_CONTACT_CULTURAL_DELEGATION_NO</zType>
-		<Translation>Verweigerte unsere kulturelle Delegation</Translation>
+		<de-DE>Verweigerte unsere kulturelle Delegation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_REFUSED_OUR_ENEMIES</zType>
-		<Translation>Geweigert unseren Feinden zu helfen</Translation>
+		<de-DE>Geweigert unseren Feinden zu helfen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_STRANGE_ENCOUNTER</zType>
-		<Translation>Unseren heiligen Grund respektiert</Translation>
+		<de-DE>Unseren heiligen Grund respektiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_LAW_FREED_CAPTIVES</zType>
-		<Translation>Freed our captives</Translation>
+		<de-DE>Freed our captives</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_RUINS_RESTORED_CITY</zType>
-		<Translation>Restauriert unsere vorzeitliche Hauptstadt</Translation>
+		<de-DE>Restauriert unsere vorzeitliche Hauptstadt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORY_IGNORED_PROPOSAL</zType>
-		<Translation>Vorschlg des Königs abgewiesen</Translation>
+		<de-DE>Vorschlg des Königs abgewiesen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORY_WOOED_BARBARIAN_KING</zType>
-		<Translation>Lockte unseren König</Translation>
+		<de-DE>Lockte unseren König</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_MARRIAGE_OFFER_NO</zType>
-		<Translation>Heiratsangebot abgelehnt</Translation>
+		<de-DE>Heiratsangebot abgelehnt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_SMUGGLED_SPIES</zType>
-		<Translation>Unsere Agenten eingeschleust</Translation>
+		<de-DE>Unsere Agenten eingeschleust</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_ASSISTED_IN_MONSOON</zType>
-		<Translation>Half uns bei einem Monsun</Translation>
+		<de-DE>Half uns bei einem Monsun</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_REBUKED_US</zType>
-		<Translation>Unsere Bezeihung getadelt</Translation>
+		<de-DE>Unsere Bezeihung getadelt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_REFUSED_INVITATION</zType>
-		<Translation>Unsere Einladung abgelehnt</Translation>
+		<de-DE>Unsere Einladung abgelehnt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_GAVE_JUSTICE</zType>
-		<Translation>Die hingerichtet, die Ruinen entweiht haben</Translation>
+		<de-DE>Die hingerichtet, die Ruinen entweiht haben</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_REFUSED_JUSTICE</zType>
-		<Translation>Geweigert mi den Barbaren Frieden zu schließen</Translation>
+		<de-DE>Geweigert mi den Barbaren Frieden zu schließen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_EXPLAINED_MISTAKE</zType>
-		<Translation>versehentliche Entweihung erklärt</Translation>
+		<de-DE>versehentliche Entweihung erklärt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_ACCEPTED_GENERAL</zType>
-		<Translation>Unseren Veteranen Feldherr anerkannt</Translation>
+		<de-DE>Unseren Veteranen Feldherr anerkannt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_PRESERVED_PIRACY</zType>
-		<Translation>Erhielt Piraterie als lohnende Gewerbe</Translation>
+		<de-DE>Erhielt Piraterie als lohnende Gewerbe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_MEDIATOR</zType>
-		<Translation>Anderer Stamm meditierte an unserer Stelle</Translation>
+		<de-DE>Anderer Stamm meditierte an unserer Stelle</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_COURTIER_WED</zType>
-		<Translation>Vertrauter heiratete barbarische Braut</Translation>
+		<de-DE>Vertrauter heiratete barbarische Braut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_GIFT_OF_CAMELS</zType>
-		<Translation>Bekam ein Geschenk in Form von Kamelen</Translation>
+		<de-DE>Bekam ein Geschenk in Form von Kamelen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_RETURNED_SHEPHERD</zType>
-		<Translation>Jungen Hirten zurückgegeben</Translation>
+		<de-DE>Jungen Hirten zurückgegeben</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_SENT_SPIES</zType>
-		<Translation>Schickte Agenten um Unruhe zu schüren</Translation>
+		<de-DE>Schickte Agenten um Unruhe zu schüren</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_ACCEPTED_RELIGIOUS_PRACTICE</zType>
-		<Translation>Billigt religiöse Gebräuche</Translation>
+		<de-DE>Billigt religiöse Gebräuche</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_ARGUED_RELIGIOUS_PRACTICE</zType>
-		<Translation>Bestreitet religiöse Gebräuche</Translation>
+		<de-DE>Bestreitet religiöse Gebräuche</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_EXTORTED</zType>
-		<Translation>Erpresste uns für Ressourcen</Translation>
+		<de-DE>Erpresste uns für Ressourcen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_HUMAN_DIPLOMACY</zType>
-		<Translation>Menschliche Diplomatie</Translation>
+		<de-DE>Menschliche Diplomatie</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_CONTACTED_FIRST_NATION</zType>
-		<Translation>Erstes rivalisierendes REich getroffen</Translation>
+		<de-DE>Erstes rivalisierendes REich getroffen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_ADOPTED_RELIGION</zType>
-		<Translation>Wir haben eine link(CONCEPT_STATE_RELIGION) adoptiert</Translation>
+		<de-DE>Wir haben eine link(CONCEPT_STATE_RELIGION) adoptiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_STARTED_LAW</zType>
-		<Translation>Ein Gesetz geändert</Translation>
+		<de-DE>Ein Gesetz geändert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_CHOSE_AMBITION</zType>
-		<Translation>Eine Ambition gewählt</Translation>
+		<de-DE>Eine Ambition gewählt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PEACE</zType>
-		<Translation>Spieler Frieden</Translation>
+		<de-DE>Spieler Frieden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_TRUCE</zType>
-		<Translation>Spieler WAffenruhe</Translation>
+		<de-DE>Spieler WAffenruhe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_WAR</zType>
-		<Translation>Spieler Krieg</Translation>
+		<de-DE>Spieler Krieg</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_OFFER</zType>
-		<Translation>Spieler Angebot</Translation>
+		<de-DE>Spieler Angebot</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_OFFER_ALL</zType>
-		<Translation>Spieler Angebot (Alle)</Translation>
+		<de-DE>Spieler Angebot (Alle)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_ATTACKED_UNIT</zType>
-		<Translation>Griff unsere Einheit(en) an</Translation>
+		<de-DE>Griff unsere Einheit(en) an</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_ATTACKED_CITY</zType>
-		<Translation>Griff unsere Städte an</Translation>
+		<de-DE>Griff unsere Städte an</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_CAPTURED_CITY</zType>
-		<Translation>Eroberte unsere Städte</Translation>
+		<de-DE>Eroberte unsere Städte</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_POACHED_CITY</zType>
-		<Translation>Eroberte eine Stand die wir am angreifen waren</Translation>
+		<de-DE>Eroberte eine Stand die wir am angreifen waren</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_STOLE_CITY_SITE</zType>
-		<Translation>Beanspruchte einen Stadtplatz den wir wollten</Translation>
+		<de-DE>Beanspruchte einen Stadtplatz den wir wollten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_ATTACKED_ENEMY</zType>
-		<Translation>Griff unsere(n) Gegner an</Translation>
+		<de-DE>Griff unsere(n) Gegner an</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_CARAVAN_ARRIVED</zType>
-		<Translation>Karawane eingetroffen</Translation>
+		<de-DE>Karawane eingetroffen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_GIFTED_CITY</zType>
-		<Translation>Stadt geschenkt</Translation>
+		<de-DE>Stadt geschenkt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_GIFTED_UNIT</zType>
-		<Translation>Einheit geschenkt</Translation>
+		<de-DE>Einheit geschenkt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_GIFTED_YIELD</zType>
-		<Translation>Waren geschenkt</Translation>
+		<de-DE>Waren geschenkt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_HOLD_HOSTAGE</zType>
-		<Translation>Hielt einen Adligen als Geisel</Translation>
+		<de-DE>Hielt einen Adligen als Geisel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_KILLED_NOBLE_HOSTAGE</zType>
-		<Translation>Tötete eine Adlige Geisel</Translation>
+		<de-DE>Tötete eine Adlige Geisel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_BROKE_PEACE</zType>
-		<Translation>Brach ein Friedensabkommen</Translation>
+		<de-DE>Brach ein Friedensabkommen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_DECLARED_WAR</zType>
-		<Translation>hat uns den Krieg erklärt</Translation>
+		<de-DE>hat uns den Krieg erklärt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_CANCELLED_TRADE</zType>
-		<Translation>Handel abgebrochen</Translation>
+		<de-DE>Handel abgebrochen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_SECOND_CLASS_CITIZENS_NEG</zType>
-		<Translation>Geweigert Bürgern zu helfen</Translation>
+		<de-DE>Geweigert Bürgern zu helfen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_SECOND_CLASS_CITIZENS_POS</zType>
-		<Translation>Bürgern geholfen</Translation>
+		<de-DE>Bürgern geholfen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_DIVORCE</zType>
-		<Translation>Scheidung</Translation>
+		<de-DE>Scheidung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_REMOVED_LUXURY</zType>
-		<Translation>Luxusgut entfernt</Translation>
+		<de-DE>Luxusgut entfernt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_TRADE_DEAL</zType>
-		<Translation>Neues Handelsabkommen</Translation>
+		<de-DE>Neues Handelsabkommen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_DEMANDED_TRIBUTE</zType>
-		<Translation>Verlangte Tribut</Translation>
+		<de-DE>Verlangte Tribut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_NOBLE_DEFECT</zType>
-		<Translation>Einen Adligen überzeugt überzulaufen</Translation>
+		<de-DE>Einen Adligen überzeugt überzulaufen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_FEAST_EXILED_PEOPLE</zType>
-		<Translation>Leute verbannt</Translation>
+		<de-DE>Leute verbannt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_FEAST_ACCEPTED_CITY</zType>
-		<Translation>interkulturelles Fest gebilligt</Translation>
+		<de-DE>interkulturelles Fest gebilligt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_FEAST_REJECTED_CITY</zType>
-		<Translation>interkulturelles Fest verweigert</Translation>
+		<de-DE>interkulturelles Fest verweigert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_SLANDER</zType>
-		<Translation>Öffentlich beleidigt</Translation>
+		<de-DE>Öffentlich beleidigt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_STEAL_RESEARCH</zType>
-		<Translation>Forschung gestohlen</Translation>
+		<de-DE>Forschung gestohlen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_ASSASSINATION_EXPOSED</zType>
-		<Translation>Attentat aufgeflogen</Translation>
+		<de-DE>Attentat aufgeflogen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_TRIBE_PLAYER_WAR</zType>
-		<Translation>Einen Stamm  a Tribe to declare on us</Translation>
+		<de-DE>Einen Stamm  a Tribe to declare on us</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_PLAYER_WAR</zType>
-		<Translation>Convinced a Nation to declare on us</Translation>
+		<de-DE>Convinced a Nation to declare on us</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PEACEMAKER_BAD</zType>
-		<Translation>Advised against our settlements</Translation>
+		<de-DE>Advised against our settlements</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PEACEMAKER_GOOD</zType>
-		<Translation>Störende Siedlungen beseitigt</Translation>
+		<de-DE>Störende Siedlungen beseitigt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_CONTACT_GIFT</zType>
-		<Translation>Dein erstes Geschenk</Translation>
+		<de-DE>Dein erstes Geschenk</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_NEIGHBORS_ROME_PRIDE</zType>
-		<Translation>Ihr habt uns sitzengelassen!</Translation>
+		<de-DE>Ihr habt uns sitzengelassen!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_NEIGHBORS_HUMBLE</zType>
-		<Translation>Uns mit seiner Bescheidenheit beeindruckt</Translation>
+		<de-DE>Uns mit seiner Bescheidenheit beeindruckt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_NEIGHBORS_FRIENDLY</zType>
-		<Translation>Eure Leute scheinen freundlich</Translation>
+		<de-DE>Eure Leute scheinen freundlich</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_NEIGHBORS_PRIDEFUL</zType>
-		<Translation>Ihr habt offen Geredet als wir uns trafen</Translation>
+		<de-DE>Ihr habt offen Geredet als wir uns trafen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_MADE_CONTACT</zType>
-		<Translation>Kontakt mit euren Leuten hergestellt</Translation>
+		<de-DE>Kontakt mit euren Leuten hergestellt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_EVENTOPTION_TRADE_MISSION_YES_FAIL</zType>
-		<Translation>Gab uns ein Geschenk um die Beziehungen zu verbessern</Translation>
+		<de-DE>Gab uns ein Geschenk um die Beziehungen zu verbessern</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_DECLARE_WAR_DEMAND_YES</zType>
-		<Translation>Akzeptiere Krieg an unseren Feind zu erklären</Translation>
+		<de-DE>Akzeptiere Krieg an unseren Feind zu erklären</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_DECLARE_WAR_DEMAND_NO</zType>
-		<Translation>Weigerte sich Krieg gegen unseren Freind zu erklären</Translation>
+		<de-DE>Weigerte sich Krieg gegen unseren Freind zu erklären</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_JUSTICE</zType>
-		<Translation>You dispensed justice at our request</Translation>
+		<de-DE>You dispensed justice at our request</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_DELAY</zType>
-		<Translation>Justice delayed is justice denied</Translation>
+		<de-DE>Justice delayed is justice denied</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_DELAY_WEAK</zType>
-		<Translation>Our aggrieved citizens did not receive justice</Translation>
+		<de-DE>Our aggrieved citizens did not receive justice</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_DELAY_INJUSTICE</zType>
-		<Translation>Your leader's claim to represent justice is a farce!</Translation>
+		<de-DE>Your leader's claim to represent justice is a farce!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_UPSET_JUSTICE</zType>
-		<Translation>Allowed us to dispense justice in our way</Translation>
+		<de-DE>Allowed us to dispense justice in our way</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_UPSET_JUSTICE_NO</zType>
-		<Translation>Refused us justice involving your citizens</Translation>
+		<de-DE>Refused us justice involving your citizens</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_PLEASED_SOLVED</zType>
-		<Translation>You solved our grievances</Translation>
+		<de-DE>You solved our grievances</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_PLEASED_IGNORED</zType>
-		<Translation>You ignored our grievances</Translation>
+		<de-DE>You ignored our grievances</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_ACCUSED_OF_PLOTTING</zType>
-		<Translation>Accused of plotting</Translation>
+		<de-DE>Accused of plotting</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_ENDED_FRIENDSHIP</zType>
-		<Translation>You choose another empire over us.</Translation>
+		<de-DE>You choose another empire over us.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_HONORED_RULER</zType>
-		<Translation>Honored dead ruler</Translation>
+		<de-DE>Honored dead ruler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_SUPPORTED_WAR</zType>
-		<Translation>Supported our war</Translation>
+		<de-DE>Supported our war</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_REFUSED_TO_FIRE_COURTIER</zType>
-		<Translation>Refused to fire insider on court</Translation>
+		<de-DE>Refused to fire insider on court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_IMPRESSED_BY_HEIR</zType>
-		<Translation>Impressed by young student</Translation>
+		<de-DE>Impressed by young student</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_ESCORTED_RULER</zType>
-		<Translation>Provided escort for ruler</Translation>
+		<de-DE>Provided escort for ruler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_RETURNED_HEIR</zType>
-		<Translation>Returned heir after incident</Translation>
+		<de-DE>Returned heir after incident</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_THE_OLYMPIAD</zType>
-		<Translation>Impressed by our Olympiad</Translation>
+		<de-DE>Impressed by our Olympiad</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_MEDDLED_IN_AFFAIRS</zType>
-		<Translation>Meddled in our affairs</Translation>
+		<de-DE>Meddled in our affairs</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_RECEIVED_BRIBE</zType>
-		<Translation>Received gifts of bribery</Translation>
+		<de-DE>Received gifts of bribery</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_GIFT</zType>
-		<Translation>You sent us a small gift</Translation>
+		<de-DE>You sent us a small gift</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_TRADE</zType>
-		<Translation>We are interested in your suggestion of a research treaty</Translation>
+		<de-DE>We are interested in your suggestion of a research treaty</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PAID_TRIBUTE</zType>
-		<Translation>You paid us Tribute</Translation>
+		<de-DE>You paid us Tribute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_REFUSED_HOLY_WAR</zType>
-		<Translation>Refused to aid in holy war</Translation>
+		<de-DE>Refused to aid in holy war</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_REFUSED_SPOUSE_WAR</zType>
-		<Translation>Refused to aid in war on behalf of spouse</Translation>
+		<de-DE>Refused to aid in war on behalf of spouse</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_KEPT_FRIENDSHIP</zType>
-		<Translation>You choose us over another empire.</Translation>
+		<de-DE>You choose us over another empire.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_REFUSED_TO_PAY_TRIBUTE</zType>
-		<Translation>You refused to pay us Tribute</Translation>
+		<de-DE>You refused to pay us Tribute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_RESEARCH</zType>
-		<Translation>Our research deal ensures your security for now</Translation>
+		<de-DE>Our research deal ensures your security for now</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_WAR</zType>
-		<Translation>Your feeble offer triggered our thirst for conflict</Translation>
+		<de-DE>Your feeble offer triggered our thirst for conflict</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_PLEASED_CONSTRUCTION</zType>
-		<Translation>Your builder expertise helped us improve our food production</Translation>
+		<de-DE>Your builder expertise helped us improve our food production</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_PLEASED_TECHNOLOGY</zType>
-		<Translation>Your technological expertise helped us improve our food production</Translation>
+		<de-DE>Your technological expertise helped us improve our food production</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_CAUTIOUS</zType>
-		<Translation>We may be preparing to attack you</Translation>
+		<de-DE>We may be preparing to attack you</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_CAUTIOUS_LEADER4_THREATEN</zType>
-		<Translation>Your threats have been persuasive</Translation>
+		<de-DE>Your threats have been persuasive</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_CAUTIOUS_LEADER4_PREPARE</zType>
-		<Translation>You seem to be preparing for War</Translation>
+		<de-DE>You seem to be preparing for War</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_CAUTIOUS_LEADER4_WAR</zType>
-		<Translation>We knew you could not be trusted</Translation>
+		<de-DE>We knew you could not be trusted</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_ANGRY_SOLUTION</zType>
-		<Translation>You solved one of the reasons that we were angry</Translation>
+		<de-DE>You solved one of the reasons that we were angry</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_ANGRY_DELAY</zType>
-		<Translation>You tied us up in diplomatic knots</Translation>
+		<de-DE>You tied us up in diplomatic knots</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_UPSET_PEACE</zType>
-		<Translation>You redressed our primary grievance and signed a Peace treaty</Translation>
+		<de-DE>You redressed our primary grievance and signed a Peace treaty</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_UPSET_BUILDUP</zType>
-		<Translation>Your military buildup is a provocation</Translation>
+		<de-DE>Your military buildup is a provocation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_MATERIALS</zType>
-		<Translation>You gifted us materials that were in short supply</Translation>
+		<de-DE>You gifted us materials that were in short supply</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_ZEALOT_ARCHETYPE_GRAND_MISSION</zType>
-		<Translation>Your religious mission to our lands has pleased our people</Translation>
+		<de-DE>Your religious mission to our lands has pleased our people</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_ZEALOT_MINOR_MISSION</zType>
-		<Translation>Your religious mission to our capital was unimpressive</Translation>
+		<de-DE>Your religious mission to our capital was unimpressive</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHEMER_ARCHETYPE_ANGRY</zType>
-		<Translation>We suspect you of plotting mischief against us</Translation>
+		<de-DE>We suspect you of plotting mischief against us</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHEMER_ARCHETYPE_PLEASED</zType>
-		<Translation>We are grateful to have a trustworthy friend like your Nation</Translation>
+		<de-DE>We are grateful to have a trustworthy friend like your Nation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_EVENTOPTION_PLAYER_PEACE_END_OPINION</zType>
-		<Translation>Begged us for a second chance at link(DIPLOMACY_PEACE)</Translation>
+		<de-DE>Begged us for a second chance at link(DIPLOMACY_PEACE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_EVENTOPTION_PLAYER_DIPLO_MARRIAGE_YES</zType>
-		<Translation>Married into our royal succession</Translation>
+		<de-DE>Married into our royal succession</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_EVENTOPTION_PLAYER_DIPLO_MARRIAGE_NO</zType>
-		<Translation>Refused to marry into our royal succession</Translation>
+		<de-DE>Refused to marry into our royal succession</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORY_REFUSED_MARRIAGE</zType>
-		<Translation>Refused to marry our offered suitor</Translation>
+		<de-DE>Refused to marry our offered suitor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORY_ACCEPTED_MARRIAGE</zType>
-		<Translation>Accepted our offered suitor</Translation>
+		<de-DE>Accepted our offered suitor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_DENOUNCED_US</zType>
-		<Translation>Denounce us publicly</Translation>
+		<de-DE>Denounce us publicly</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_GAVE_TECH</zType>
-		<Translation>Gifted us with technology</Translation>
+		<de-DE>Gifted us with technology</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_REFUSED_TECH</zType>
-		<Translation>Refused to share technology</Translation>
+		<de-DE>Refused to share technology</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_COMPLIMENTED_GENERAL</zType>
-		<Translation>Complimented our General</Translation>
+		<de-DE>Complimented our General</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_DENIED_OUR_GENERAL</zType>
-		<Translation>Insulted our General</Translation>
+		<de-DE>Insulted our General</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_REFUSED_EXCAVATION</zType>
-		<Translation>Refused excavation</Translation>
+		<de-DE>Refused excavation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_COVERED_UP_PRISONER</zType>
-		<Translation>Covered up disappearance</Translation>
+		<de-DE>Covered up disappearance</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_FREED_CAPTIVE</zType>
-		<Translation>Freed our ambassador</Translation>
+		<de-DE>Freed our ambassador</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_FIXED_MISUNDERSTANDING</zType>
-		<Translation>Fixed misunderstanding over prisoner</Translation>
+		<de-DE>Fixed misunderstanding over prisoner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_INTERVENED_IN_LOVE</zType>
-		<Translation>Intervened in heir love affair</Translation>
+		<de-DE>Intervened in heir love affair</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_DELIVERED_ASSASSINS</zType>
-		<Translation>Delivered assassins to us</Translation>
+		<de-DE>Delivered assassins to us</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_ACCEPTED_EXCUSE</zType>
-		<Translation>Accepted diplomatic solution</Translation>
+		<de-DE>Accepted diplomatic solution</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_SENT_UNIT</zType>
-		<Translation>Sent unit to other nation</Translation>
+		<de-DE>Sent unit to other nation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_FOREIGN_INTRUSION</zType>
-		<Translation>Endured foreign intrusion</Translation>
+		<de-DE>Endured foreign intrusion</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_WARNED_AGAINST_MEDDLING</zType>
-		<Translation>Warned us against meddling</Translation>
+		<de-DE>Warned us against meddling</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_HELPED_FREE_SLAVES</zType>
-		<Translation>Helped free our Jewish slaves</Translation>
+		<de-DE>Helped free our Jewish slaves</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_HELD_CELEBRATION</zType>
-		<Translation>Would not convert</Translation>
+		<de-DE>Would not convert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_FREED_PRISONER</zType>
-		<Translation>Freed royal prisoner</Translation>
+		<de-DE>Freed royal prisoner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_SHARED_FAITH</zType>
-		<Translation>Banned our gatherings</Translation>
+		<de-DE>Banned our gatherings</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_RETURNED_TRAITOR</zType>
-		<Translation>Returned traitorous heir</Translation>
+		<de-DE>Returned traitorous heir</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_INSULTED_DIPLOMAT</zType>
-		<Translation>Insulted visiting diplomat</Translation>
+		<de-DE>Insulted visiting diplomat</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_DISMISSED_RUMORS</zType>
-		<Translation>Dismissed link to assassination</Translation>
+		<de-DE>Dismissed link to assassination</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_DENIED_RANSOM</zType>
-		<Translation>Denied ransom for captured spies</Translation>
+		<de-DE>Denied ransom for captured spies</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_WORKED_TOGETHER</zType>
-		<Translation>Worked together to slander rival nation</Translation>
+		<de-DE>Worked together to slander rival nation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_HELPED_CARAVAN</zType>
-		<Translation>Helped supply caravan</Translation>
+		<de-DE>Helped supply caravan</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_SACKED_CARAVAN</zType>
-		<Translation>Sacked our caravan</Translation>
+		<de-DE>Sacked our caravan</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_DID_NOT_INTERFERE</zType>
-		<Translation>Did not interfere with prisoner</Translation>
+		<de-DE>Did not interfere with prisoner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_FOUGHT_FOR_PRISONER</zType>
-		<Translation>Freed political prisoner</Translation>
+		<de-DE>Freed political prisoner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_MADE_FOOL_LABORER</zType>
-		<Translation>Made our fool a laborer</Translation>
+		<de-DE>Made our fool a laborer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_ACCEPTED_FOOD</zType>
-		<Translation>Accepted friendly gesture</Translation>
+		<de-DE>Accepted friendly gesture</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_REFUSED_FOOD</zType>
-		<Translation>Refused our gracious offer</Translation>
+		<de-DE>Refused our gracious offer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_THREATENED</zType>
-		<Translation>Accused us of poisoning</Translation>
+		<de-DE>Accused us of poisoning</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_HOSTED_COUNSEL</zType>
-		<Translation>Hosted our court counsel</Translation>
+		<de-DE>Hosted our court counsel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_REFUSED_COUNSEL</zType>
-		<Translation>Refused our court counsel</Translation>
+		<de-DE>Refused our court counsel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_DISCOURTEOUS_RULER</zType>
-		<Translation>Treated discourteously in court</Translation>
+		<de-DE>Treated discourteously in court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_EXECUTED_OUR_AGENT</zType>
-		<Translation>Executed our diplomatic agent</Translation>
+		<de-DE>Executed our diplomatic agent</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_STOPPED_IMPORTS</zType>
-		<Translation>Banned from importing our wares</Translation>
+		<de-DE>Banned from importing our wares</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_ACCEPTED_RELIGIOUS_DIGNITARIES</zType>
-		<Translation>Accepted our religious dignitaries</Translation>
+		<de-DE>Accepted our religious dignitaries</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_GIFT_OF_GEMS</zType>
-		<Translation>Received harvested gems</Translation>
+		<de-DE>Received harvested gems</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_GAVE_OLIVE_OIL</zType>
-		<Translation>Received gift of olive oil</Translation>
+		<de-DE>Received gift of olive oil</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_RETURNED_LOOT</zType>
-		<Translation>Returned loot from a tribal raid</Translation>
+		<de-DE>Returned loot from a tribal raid</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_EXECUTED_GOVERNORS</zType>
-		<Translation>Executed our conquered city's leadership</Translation>
+		<de-DE>Executed our conquered city's leadership</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_HONORED_GENERAL</zType>
-		<Translation>Honored slain general</Translation>
+		<de-DE>Honored slain general</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_SPARED_GENERAL</zType>
-		<Translation>Spared our general</Translation>
+		<de-DE>Spared our general</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_KILLED_GENERAL</zType>
-		<Translation>Killed our general</Translation>
+		<de-DE>Killed our general</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_TROOPS_RANSACK</zType>
-		<Translation>Ransacked our city</Translation>
+		<de-DE>Ransacked our city</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_INFILTRATED_US</zType>
-		<Translation>Infiltrated us</Translation>
+		<de-DE>Infiltrated us</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_EXPOSED_INFILTRATORS</zType>
-		<Translation>Helped expose foreign infiltrators</Translation>
+		<de-DE>Helped expose foreign infiltrators</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_REFUSED_APOLOGY</zType>
-		<Translation>Refused to apologize for an international incident</Translation>
+		<de-DE>Refused to apologize for an international incident</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_LOST_IN_TRANSLATION_POS</zType>
-		<Translation>Settled a contract dispute</Translation>
+		<de-DE>Settled a contract dispute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_LOST_IN_TRANSLATION_NEG</zType>
-		<Translation>Disagreed in a contract dispute</Translation>
+		<de-DE>Disagreed in a contract dispute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_SENT_DELICACIES</zType>
-		<Translation>Sent us some delicacies</Translation>
+		<de-DE>Sent us some delicacies</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_SENT_DELICACIES_EXOTIC</zType>
-		<Translation>Sent us exotic delicacies</Translation>
+		<de-DE>Sent us exotic delicacies</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_DECLINED_INVITATION</zType>
-		<Translation>Declined our invitation to a festival</Translation>
+		<de-DE>Declined our invitation to a festival</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_HELD_LECTURE</zType>
-		<Translation>Held a lecture in one of our cities</Translation>
+		<de-DE>Held a lecture in one of our cities</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_HELD_TRAINING</zType>
-		<Translation>Trained our soldiers personally</Translation>
+		<de-DE>Trained our soldiers personally</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_INSULTED_BY_AMBASSADOR</zType>
-		<Translation>Your ambassador insulted us</Translation>
+		<de-DE>Your ambassador insulted us</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_TOOK_CARE_PILGRIMS</zType>
-		<Translation>Took good care of our pilgrims</Translation>
+		<de-DE>Took good care of our pilgrims</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_REFUSED_PILGRIMS</zType>
-		<Translation>Refused entry to our peaceful pilgrims</Translation>
+		<de-DE>Refused entry to our peaceful pilgrims</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_RELEASED_PRISONERS</zType>
-		<Translation>Returned our people despite their crimes</Translation>
+		<de-DE>Returned our people despite their crimes</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_JUDGED_PRISONERS</zType>
-		<Translation>Captured our people for their crimes</Translation>
+		<de-DE>Captured our people for their crimes</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_HAD_MERCY</zType>
-		<Translation>Gave us mercy</Translation>
+		<de-DE>Gave us mercy</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_IMPRISONED_RECENTLY</zType>
-		<Translation>link(TRAIT_IMPRISONED) recently</Translation>
+		<de-DE>link(TRAIT_IMPRISONED) recently</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_UPGRADED_RECENTLY</zType>
-		<Translation>Upgraded recently</Translation>
+		<de-DE>Upgraded recently</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_ASSASSINATE_FAIL</zType>
-		<Translation>Versucht mich zu link(MISSION_ASSASSINATE)</Translation>
+		<de-DE>Versucht mich zu link(MISSION_ASSASSINATE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_MATCH_PREVENT</zType>
-		<Translation>Prevented my desired match</Translation>
+		<de-DE>Prevented my desired match</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_BOASTFUL_HEIR_LEADER_DEFENDED</zType>
-		<Translation>Chided my boastful heir</Translation>
+		<de-DE>Chided my boastful heir</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_BOASTFUL_HEIR_OPPOSED</zType>
-		<Translation>Chided me for boasting</Translation>
+		<de-DE>Chided me for boasting</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_BOASTFUL_HEIR_LEADER_OPPOSED</zType>
-		<Translation>Supported heir's arrogant boast</Translation>
+		<de-DE>Supported heir's arrogant boast</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_BOASTFUL_HEIR_DEFENDED</zType>
-		<Translation>Supported my boast</Translation>
+		<de-DE>Supported my boast</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_BOASTFUL_HEIR_LEADER_SMOOTHED</zType>
-		<Translation>Smoothed over my heir's boast</Translation>
+		<de-DE>Smoothed over my heir's boast</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_BOASTFUL_HEIR_SMOOTHED</zType>
-		<Translation>Smoothed over my boast</Translation>
+		<de-DE>Smoothed over my boast</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NO_WAR</zType>
-		<Translation>Stepped back from the brink</Translation>
+		<de-DE>Stepped back from the brink</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_SMUGGLED_OUT_POET</zType>
-		<Translation>Welcomed my enemy</Translation>
+		<de-DE>Welcomed my enemy</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_SPOUSE_WAR_NEG</zType>
-		<Translation>Refused to join war on behalf of my people</Translation>
+		<de-DE>Refused to join war on behalf of my people</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_SPOUSE_WAR_POS</zType>
-		<Translation>Joined war on behalf of my people</Translation>
+		<de-DE>Joined war on behalf of my people</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_ADULT_CHILDREN_NEG</zType>
-		<Translation>Took my side in trophy dispute</Translation>
+		<de-DE>Took my side in trophy dispute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_ADULT_CHILDREN_POS</zType>
-		<Translation>Did not take my side in trophy dispute</Translation>
+		<de-DE>Did not take my side in trophy dispute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_SPOUSE_AMB_NEG</zType>
-		<Translation>Took my side in diplomatic dispute</Translation>
+		<de-DE>Took my side in diplomatic dispute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_SPOUSE_AMB_POS</zType>
-		<Translation>Did not take my side in diplomatic dispute</Translation>
+		<de-DE>Did not take my side in diplomatic dispute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_PATRIARCH_OLIGARCH_POS</zType>
-		<Translation>Took my side in theological dispute</Translation>
+		<de-DE>Took my side in theological dispute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_PATRIARCH_OLIGARCH_NEG</zType>
-		<Translation>Did not take my side in theological dispute</Translation>
+		<de-DE>Did not take my side in theological dispute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_DISAGREEMENT_COUNCIL_NEG</zType>
-		<Translation>Did not favor me in the council dispute</Translation>
+		<de-DE>Did not favor me in the council dispute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_DISAGREEMENT_COUNCIL_POS</zType>
-		<Translation>Favored me in the council dispute</Translation>
+		<de-DE>Favored me in the council dispute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_DENIED_POET</zType>
-		<Translation>Denied entry of my enemy</Translation>
+		<de-DE>Denied entry of my enemy</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_SPOUSE_TOO_EXPENSIVE</zType>
-		<Translation>Didn't help my education</Translation>
+		<de-DE>Didn't help my education</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_DENIED_PEACE_DEAL</zType>
-		<Translation>My request for diplomacy was ignored</Translation>
+		<de-DE>My request for diplomacy was ignored</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_REFUSED_TROOPS</zType>
-		<Translation>Refused our troops</Translation>
+		<de-DE>Refused our troops</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_LOST_CONSORT</zType>
-		<Translation>Took away my consort</Translation>
+		<de-DE>Took away my consort</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_KEPT_CONSORT</zType>
-		<Translation>I was able to keep my consort</Translation>
+		<de-DE>I was able to keep my consort</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_RELEASED_CONSORT</zType>
-		<Translation>Released our stolen princess</Translation>
+		<de-DE>Released our stolen princess</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_IGNORED_SUGGESTION_TO_ABDICATE</zType>
-		<Translation>Ignored my plea to abdicate</Translation>
+		<de-DE>Ignored my plea to abdicate</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_IGNORED_SUGGESTION_TO_INFILTRATE</zType>
-		<Translation>Ignored my plea to infiltrate a suspicious neighbor</Translation>
+		<de-DE>Ignored my plea to infiltrate a suspicious neighbor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_IGNORED_SUGGESTION_TO_SLANDER</zType>
-		<Translation>Ignored my plea to slander a neighbor</Translation>
+		<de-DE>Ignored my plea to slander a neighbor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_FOLLOWED_SUGGESTION_TO_INFILTRATE</zType>
-		<Translation>Acceded to my request to infiltrate a suspicious neighbor</Translation>
+		<de-DE>Acceded to my request to infiltrate a suspicious neighbor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_FOLLOWED_SUGGESTION_TO_SLANDER</zType>
-		<Translation>Acceded to my request to slander a neighbor</Translation>
+		<de-DE>Acceded to my request to slander a neighbor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_FOREIGN_COURTIER_FOLLOWED_SUGGESTION</zType>
-		<Translation>Acceded to my request to establish relations with my home country</Translation>
+		<de-DE>Acceded to my request to establish relations with my home country</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_FOREIGN_COURTIER_IGNORED_SUGGESTION</zType>
-		<Translation>Ignored to my request to establish relations with my home country</Translation>
+		<de-DE>Ignored to my request to establish relations with my home country</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_WARNED_TO_STOP</zType>
-		<Translation>Warned to stop expanding</Translation>
+		<de-DE>Warned to stop expanding</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_AVOIDED_WAR</zType>
-		<Translation>We avoided a costly war</Translation>
+		<de-DE>We avoided a costly war</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_HOSTILE_ACCUSATIONS</zType>
-		<Translation>Hostile accusations</Translation>
+		<de-DE>Hostile accusations</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_TRADE_DEAL</zType>
-		<Translation>Better trade terms</Translation>
+		<de-DE>Better trade terms</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_WORKED_IT_OUT</zType>
-		<Translation>Found solution to dispute</Translation>
+		<de-DE>Found solution to dispute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_ACCEPTED_CHALLENGE</zType>
-		<Translation>Accepted my challenge</Translation>
+		<de-DE>Accepted my challenge</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_REFUSED_CHALLENGE</zType>
-		<Translation>Refused my challenge</Translation>
+		<de-DE>Refused my challenge</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_IMPRISONED</zType>
-		<Translation>Imprisoned by paranoid ruler</Translation>
+		<de-DE>Imprisoned by paranoid ruler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_TAKE_NO_PRISONERS</zType>
-		<Translation>We take no prisoners now</Translation>
+		<de-DE>We take no prisoners now</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_MERCY_FOR_PRISONERS</zType>
-		<Translation>Declined to slaughter prisoners</Translation>
+		<de-DE>Declined to slaughter prisoners</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_FOREIGN_FIGHTERS_RECRUITED</zType>
-		<Translation>We recruited foreign fighters</Translation>
+		<de-DE>We recruited foreign fighters</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_REFUSED_FOREIGN_FIGHTERS</zType>
-		<Translation>Refused foreign fighters</Translation>
+		<de-DE>Refused foreign fighters</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_GP_NO_DISSECTION</zType>
-		<Translation>Did not permit human dissection</Translation>
+		<de-DE>Did not permit human dissection</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_GP_YES_DISSECTION</zType>
-		<Translation>Allowed for human dissections</Translation>
+		<de-DE>Allowed for human dissections</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_SOLDIER_DISSECTIONS</zType>
-		<Translation>Ordered me to supply bodies for dissection</Translation>
+		<de-DE>Ordered me to supply bodies for dissection</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_GP_IGNORED_MY_INFLUENCE</zType>
-		<Translation>Ignored rumors about me</Translation>
+		<de-DE>Ignored rumors about me</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_GP_REMOVED_FROM_COURT</zType>
-		<Translation>Removed me from court</Translation>
+		<de-DE>Removed me from court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_GP_FOUGHT_USURY</zType>
-		<Translation>Warned unethical traders</Translation>
+		<de-DE>Warned unethical traders</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_GP_USURY_CRACKDOWN</zType>
-		<Translation>Cracked down on usury</Translation>
+		<de-DE>Cracked down on usury</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_GP_KEPT_IN_COURT</zType>
-		<Translation>Kept me on as court merchant</Translation>
+		<de-DE>Kept me on as court merchant</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_GP_LITERATURE_YES</zType>
-		<Translation>Approved writing of wisdom literature</Translation>
+		<de-DE>Approved writing of wisdom literature</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_GP_LITERATURE_NO</zType>
-		<Translation>Refused creation of wisdom literature</Translation>
+		<de-DE>Refused creation of wisdom literature</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_GP_PROMOTION</zType>
-		<Translation>Promoted to a higher title</Translation>
+		<de-DE>Promoted to a higher title</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_GP_DIPLOMATIC_VISIT_BAD</zType>
-		<Translation>Ignored my ambassadors</Translation>
+		<de-DE>Ignored my ambassadors</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_GIFTED_PRICELESS_ARTIFACTS</zType>
-		<Translation>Gifted priceless artifacts</Translation>
+		<de-DE>Gifted priceless artifacts</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_APPROVED_POISON_LAB</zType>
-		<Translation>Approved the poison lab</Translation>
+		<de-DE>Approved the poison lab</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_GIVEN_AUDIENCE</zType>
-		<Translation>Given audience with ruler</Translation>
+		<de-DE>Given audience with ruler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_REFUSED_AUDIENCE</zType>
-		<Translation>Refused audience with ruler</Translation>
+		<de-DE>Refused audience with ruler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_ADDED_TO_COURT</zType>
-		<Translation>Made me a courtier</Translation>
+		<de-DE>Made me a courtier</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_FRIEND_OR_FOE_HOSTAGE</zType>
-		<Translation>Took our citizen hostage</Translation>
+		<de-DE>Took our citizen hostage</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_EXECUTION</zType>
-		<Translation>Executed our emissary!</Translation>
+		<de-DE>Executed our emissary!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_TRIBUTE</zType>
-		<Translation>Paid your Tribute</Translation>
+		<de-DE>Paid your Tribute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_IGNORED_US</zType>
-		<Translation>Ignored our Emissary</Translation>
+		<de-DE>Ignored our Emissary</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_PERSIA_HUMILITY</zType>
-		<Translation>We admire your culture's humility</Translation>
+		<de-DE>We admire your culture's humility</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_PERSIA_OFFEND</zType>
-		<Translation>We did not mean to offend</Translation>
+		<de-DE>We did not mean to offend</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_SPIES</zType>
-		<Translation>Spared the lives of our spies</Translation>
+		<de-DE>Spared the lives of our spies</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_SOLD_ART</zType>
-		<Translation>Sold us fine works of art</Translation>
+		<de-DE>Sold us fine works of art</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_CARTHAGE_BIG_INSULT</zType>
-		<Translation>An imposter duped you into insulting us</Translation>
+		<de-DE>An imposter duped you into insulting us</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_CARTHAGE_SMALL_INSULT</zType>
-		<Translation>Our relations are off to a rocky start</Translation>
+		<de-DE>Our relations are off to a rocky start</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_EGYPT_REFUSED</zType>
-		<Translation>You refused to honor our gods</Translation>
+		<de-DE>You refused to honor our gods</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_EGYPT_RA</zType>
-		<Translation>You displeased Ra</Translation>
+		<de-DE>You displeased Ra</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_ROME_TRUST</zType>
-		<Translation>Your friendliness has earned our trust</Translation>
+		<de-DE>Your friendliness has earned our trust</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_LAVISH</zType>
-		<Translation>You lavished us with gifts</Translation>
+		<de-DE>You lavished us with gifts</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_BABYLON_CODE</zType>
-		<Translation>You respected the Code of Hammurabi</Translation>
+		<de-DE>You respected the Code of Hammurabi</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_LAVISH_GREECE</zType>
-		<Translation>Your generosity knows no bounds</Translation>
+		<de-DE>Your generosity knows no bounds</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_LAVISH_NO_MORE</zType>
-		<Translation>Your lack of generosity</Translation>
+		<de-DE>Your lack of generosity</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_ROME_VICTORY</zType>
-		<Translation>You proved your strength!</Translation>
+		<de-DE>You proved your strength!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_ROME_DEFEAT</zType>
-		<Translation>You kissed our ring in defeat</Translation>
+		<de-DE>You kissed our ring in defeat</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_ROME_VENDETTA</zType>
-		<Translation>Only one of our cultures will survive this war!</Translation>
+		<de-DE>Only one of our cultures will survive this war!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_PERSIA_DUEL</zType>
-		<Translation>You are braggarts but you do pay your debts</Translation>
+		<de-DE>You are braggarts but you do pay your debts</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_PERSIA_WAR</zType>
-		<Translation>Your arrogance knows no bounds</Translation>
+		<de-DE>Your arrogance knows no bounds</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_PERSIA_TRICKED</zType>
-		<Translation>How did we end up at peace with you?</Translation>
+		<de-DE>How did we end up at peace with you?</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_FEE</zType>
-		<Translation>You made us pay a fee to talk with you</Translation>
+		<de-DE>You made us pay a fee to talk with you</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_BABYLON_FEE</zType>
-		<Translation>Your turn to pay a fee</Translation>
+		<de-DE>Your turn to pay a fee</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_BABLYON_CHARISMA</zType>
-		<Translation>You are arrogant yet we like you anyway</Translation>
+		<de-DE>You are arrogant yet we like you anyway</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_BABYLON_WAR</zType>
-		<Translation>Your insufferable pride led to war</Translation>
+		<de-DE>Your insufferable pride led to war</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_BABYLON_INSULT</zType>
-		<Translation>Your insults are unforgivable</Translation>
+		<de-DE>Your insults are unforgivable</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_BABYLON_TEDIOUS</zType>
-		<Translation>You are tedious but you paid us to put up with you</Translation>
+		<de-DE>You are tedious but you paid us to put up with you</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_CARTHAGE_GREED</zType>
-		<Translation>We admire your strength and your greed</Translation>
+		<de-DE>We admire your strength and your greed</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_CARTHAGE_BULLIED</zType>
-		<Translation>You bullied us into paying excessive tribute</Translation>
+		<de-DE>You bullied us into paying excessive tribute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_CARTHAGE_TRADE</zType>
-		<Translation>We admire your strength and your negotiating skill</Translation>
+		<de-DE>We admire your strength and your negotiating skill</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_ASSYRIA_PRIDE</zType>
-		<Translation>You are strong like us</Translation>
+		<de-DE>You are strong like us</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_ASSYRIA_CRAZY</zType>
-		<Translation>The gods have touched you with madness!</Translation>
+		<de-DE>The gods have touched you with madness!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NEIGHBORS_TALK_IS_CHEAP</zType>
-		<Translation>We may have misjudged you</Translation>
+		<de-DE>We may have misjudged you</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_TRUSTED_ALLY</zType>
-		<Translation>We trust you like family</Translation>
+		<de-DE>We trust you like family</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_ATTACKED_BY_A_BEAR_AID</zType>
-		<Translation>You aided our citizens</Translation>
+		<de-DE>You aided our citizens</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_ATTACKED_BY_A_BEAR_NOTIFY</zType>
-		<Translation>Notified us of our citizens in distress</Translation>
+		<de-DE>Notified us of our citizens in distress</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_HOSTILE_NEIGHBORS_FIRST_REFUSE</zType>
-		<Translation>You refused to pay Tribute</Translation>
+		<de-DE>You refused to pay Tribute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_HOSTILE_NEIGHBORS_PAID_TWICE</zType>
-		<Translation>You paid us sufficient Tribute for now</Translation>
+		<de-DE>You paid us sufficient Tribute for now</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_HOSTILE_NEIGHBORS_DIPLOMAT</zType>
-		<Translation>Persuaded us to trade with you</Translation>
+		<de-DE>Persuaded us to trade with you</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_HOSTILE_NEIGHBORS_SECOND_REFUSE</zType>
-		<Translation>Your refusal to pay us Tribute must be punished</Translation>
+		<de-DE>Your refusal to pay us Tribute must be punished</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NO_TRADE_TECH</zType>
-		<Translation>Refused to trade us a technology</Translation>
+		<de-DE>Refused to trade us a technology</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_YES_TRADE_TECH</zType>
-		<Translation>Helped us with a technology</Translation>
+		<de-DE>Helped us with a technology</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_PEACE_GIFT</zType>
-		<Translation>You were generous for Peace</Translation>
+		<de-DE>You were generous for Peace</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_TRIBUTE_DEMAND_REFUSED</zType>
-		<Translation>You refused to pay us Tribute</Translation>
+		<de-DE>You refused to pay us Tribute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_HONORED_OUR_SOVEREIGNTY</zType>
-		<Translation>Honored Our Sovereignty</Translation>
+		<de-DE>Honored Our Sovereignty</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_STEPPED_ON_OUR_SOVEREIGNTY</zType>
-		<Translation>Stepped on our sovereignty</Translation>
+		<de-DE>Stepped on our sovereignty</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_PLAYER_WAR_OFFER_TRIBUTE_PAID</zType>
-		<Translation>Paid us Tribute to avoid a War</Translation>
+		<de-DE>Paid us Tribute to avoid a War</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_PLAYER_WAR_OFFER_TRAIT_TACTICIAN_ARCHETYPE_UPSET</zType>
-		<Translation>We are unsettled by your threat to instruct us in the arts of war</Translation>
+		<de-DE>We are unsettled by your threat to instruct us in the arts of war</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_PLAYER_WAR_OFFER_WAR_DECLARED_BECAUSE_NO_TRIBUTE</zType>
-		<Translation>We declared War over your refusal to pay Tribute.</Translation>
+		<de-DE>We declared War over your refusal to pay Tribute.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_CANCEL_TRADE_DEMAND_YES</zType>
-		<Translation>Agreed to Cancel Trade with our enemy</Translation>
+		<de-DE>Agreed to Cancel Trade with our enemy</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_CANCEL_TRADE_DEMAND_NO</zType>
-		<Translation>Refused to Cancel Trade with our enemy</Translation>
+		<de-DE>Refused to Cancel Trade with our enemy</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_EVENTOPTION_WAR_OFFER_RELIGION_STATE_YES</zType>
-		<Translation>Converted to our link(CONCEPT_STATE_RELIGION)</Translation>
+		<de-DE>Converted to our link(CONCEPT_STATE_RELIGION)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_LET_KEEP_LOOT</zType>
-		<Translation>Let me keet the loot</Translation>
+		<de-DE>Let me keet the loot</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_ADOPTED_MYSTERIOUS_CHILD</zType>
-		<Translation>Adopted mysterious child</Translation>
+		<de-DE>Adopted mysterious child</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_RETURNED_MYSTERIOUS_CHILD</zType>
-		<Translation>Returned mysterious child</Translation>
+		<de-DE>Returned mysterious child</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_CHILD_NO_BABY</zType>
-		<Translation>Made me give up baby</Translation>
+		<de-DE>Made me give up baby</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_CHILD_DISOWNED_DAUGHTER</zType>
-		<Translation>Disowned our daughter</Translation>
+		<de-DE>Disowned our daughter</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_TRAIT_CHANGE_SUCCESSION_NEGATIVE</zType>
-		<Translation>My request to change the heir was refused</Translation>
+		<de-DE>My request to change the heir was refused</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_TRAIT_CHANGE_SUCCESSION_POSITIVE</zType>
-		<Translation>My request to change heir was heeded</Translation>
+		<de-DE>My request to change heir was heeded</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_TRAIT_TOOK_ME_TO_RECOVER</zType>
-		<Translation>Took me away to recover</Translation>
+		<de-DE>Took me away to recover</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_CHANGED_TO_SENIORITY</zType>
-		<Translation>Removed me from succession</Translation>
+		<de-DE>Removed me from succession</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_KEPT_IN_SUCCESSION</zType>
-		<Translation>Kept me as successor</Translation>
+		<de-DE>Kept me as successor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_LEADER_REFUSED_TO_ABDICATE</zType>
-		<Translation>Refused to abdicate</Translation>
+		<de-DE>Refused to abdicate</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_SPOUSE_NO_ABDICATE</zType>
-		<Translation>Spouse would not step down</Translation>
+		<de-DE>Spouse would not step down</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_PARENT_NO_ABDICATE</zType>
-		<Translation>Ruler would not abdicate</Translation>
+		<de-DE>Ruler would not abdicate</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_RULER_ACCEPTED_CUP</zType>
-		<Translation>Accepted my cup of wine</Translation>
+		<de-DE>Accepted my cup of wine</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_RULER_REFUSED_CUP</zType>
-		<Translation>Refused my cup of wine</Translation>
+		<de-DE>Refused my cup of wine</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_LEADER_WISHED_FOR_PEACE</zType>
-		<Translation>Reached out to improve relations</Translation>
+		<de-DE>Reached out to improve relations</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_SEPARATED_MENTEE</zType>
-		<Translation>Separated me from protege</Translation>
+		<de-DE>Separated me from protege</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_KEPT_ME_ON_COURT</zType>
-		<Translation>Kept me on the court</Translation>
+		<de-DE>Kept me on the court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_DISCIPLINED_AT_TRAINING</zType>
-		<Translation>Disciplined in training</Translation>
+		<de-DE>Disciplined in training</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_SUPPORTED_AT_SCHOOL</zType>
-		<Translation>Did not discipline me</Translation>
+		<de-DE>Did not discipline me</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_RUINED_RELATIONSHIP</zType>
-		<Translation>Ruined romantic relationship</Translation>
+		<de-DE>Ruined romantic relationship</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_SUPPORTED_RELATIONSHIP</zType>
-		<Translation>Supported my romantic relationship</Translation>
+		<de-DE>Supported my romantic relationship</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_MADE_GOVERNOR</zType>
-		<Translation>Installed me as governor</Translation>
+		<de-DE>Installed me as governor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_MADE_CHANCELLOR</zType>
-		<Translation>Made me Chancellor</Translation>
+		<de-DE>Made me Chancellor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_GRANTED_SPECIAL_RECOGNITION</zType>
-		<Translation>Granted special title</Translation>
+		<de-DE>Granted special title</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_SUPPORTED_ALLIANCE</zType>
-		<Translation>Supported alliance with family</Translation>
+		<de-DE>Supported alliance with family</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_ACCUSED_OF_PLOTTING</zType>
-		<Translation>Accused of plotting</Translation>
+		<de-DE>Accused of plotting</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_GP_IGNORED_MY_REQUEST</zType>
-		<Translation>Ignored my request</Translation>
+		<de-DE>Ignored my request</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_APPROVED_CAMPAIGN</zType>
-		<Translation>Approved preemptive strike</Translation>
+		<de-DE>Approved preemptive strike</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_FORCED_RIVAL_OFF_COURT</zType>
-		<Translation>Forced rival off court</Translation>
+		<de-DE>Forced rival off court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_LAW_SUPPORTED_IN_COURT</zType>
-		<Translation>Supported in court</Translation>
+		<de-DE>Supported in court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_LAW_IGNORED_IN_COURT</zType>
-		<Translation>Ignored in court</Translation>
+		<de-DE>Ignored in court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_HEIR_BYPASSED_SITUATION_SPOUSE_NEGATIVE</zType>
-		<Translation>Vom Hofstaat ignoriert</Translation>
+		<de-DE>Vom Hofstaat ignoriert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_LAW_ADOPTED_PROFESSIONAL_ARMY</zType>
-		<Translation>Created plan for a Professional Army</Translation>
+		<de-DE>Created plan for a Professional Army</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_REFUSED_TO_CHANGE_LAW</zType>
-		<Translation>Refused to change law</Translation>
+		<de-DE>Refused to change law</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_LAW_REFUSED_TO_PAY_DEBT</zType>
-		<Translation>Refused to pay debt</Translation>
+		<de-DE>Refused to pay debt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_WONDER_GIFTED_MAUSOLEUM</zType>
-		<Translation>I was given a wondrous resting place</Translation>
+		<de-DE>I was given a wondrous resting place</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_ADOPTED_SPOUSE_RELIGION</zType>
-		<Translation>Adopted my religion</Translation>
+		<de-DE>Adopted my religion</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_DID_NOT_ADOPT_SPOUSE_RELIGION</zType>
-		<Translation>Did not convert to Zoroastrianism</Translation>
+		<de-DE>Did not convert to Zoroastrianism</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_SCRIPTURE_AS_TEXT</zType>
-		<Translation>Read religious text for pleasure only</Translation>
+		<de-DE>Read religious text for pleasure only</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_TRAIT_GIFT_POSITIVE_LEADER</zType>
-		<Translation>Accepted my condolences</Translation>
+		<de-DE>Accepted my condolences</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_TRAIT_GIFT_NEGATIVE_LEADER</zType>
-		<Translation>Refused my condolences</Translation>
+		<de-DE>Refused my condolences</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_STUDY_PHILOSOPHY_PUNISH</zType>
-		<Translation>Punished while Studying Philosopy</Translation>
+		<de-DE>Punished while Studying Philosopy</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_RECEIVED_CONGRATULATORY_GIFT</zType>
-		<Translation>Recieved congratulatory gift</Translation>
+		<de-DE>Recieved congratulatory gift</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_RUINS_NEW_HUMANS</zType>
-		<Translation>Destroyed strange remains</Translation>
+		<de-DE>Destroyed strange remains</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_OVERCOMING_NATURE</zType>
-		<Translation>My spouse is trying their best</Translation>
+		<de-DE>My spouse is trying their best</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_GREAT_PARTY</zType>
-		<Translation>Hosted a wonderful party!</Translation>
+		<de-DE>Hosted a wonderful party!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_LIKES_HEADS</zType>
-		<Translation>Liked my head collection</Translation>
+		<de-DE>Liked my head collection</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_LIED_TO</zType>
-		<Translation>Wurde von mir belogen</Translation>
+		<de-DE>Wurde von mir belogen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_MARRIAGE_OF_STATE</zType>
-		<Translation>Married me for politics</Translation>
+		<de-DE>Married me for politics</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_BOUGHT_SILENCE</zType>
-		<Translation>Bought my silence</Translation>
+		<de-DE>Bought my silence</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_IGNORED_MILITARY_ADVICE</zType>
-		<Translation>Ignored military advice</Translation>
+		<de-DE>Ignored military advice</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_ADDRESSED_GRIEVANCES</zType>
-		<Translation>Addressed grievances publicly</Translation>
+		<de-DE>Addressed grievances publicly</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_MADE_TRUCE</zType>
-		<Translation>Made truce at my suggestion</Translation>
+		<de-DE>Made truce at my suggestion</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORY_FIXED_FINANCIALS</zType>
-		<Translation>Fixed financial inconsistencies</Translation>
+		<de-DE>Fixed financial inconsistencies</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORY_BECAME_PERSONAL_ADVISER</zType>
-		<Translation>Made personal adviser</Translation>
+		<de-DE>Made personal adviser</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_FIRED_FROM_COURT</zType>
-		<Translation>Removed from court</Translation>
+		<de-DE>Removed from court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_WATCH_CLOSELY</zType>
-		<Translation>Watching me closely</Translation>
+		<de-DE>Watching me closely</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_GIVEN_BAD_JOB</zType>
-		<Translation>Told to watch dangerous student</Translation>
+		<de-DE>Told to watch dangerous student</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_CONVINCE_TO_CHANGE</zType>
-		<Translation>Convinced to give up questionable interests</Translation>
+		<de-DE>Convinced to give up questionable interests</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_PAID_FOR_MY_SILENCE</zType>
-		<Translation>Ruler bought my silence</Translation>
+		<de-DE>Ruler bought my silence</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_RENEWED_BOND</zType>
-		<Translation>Renewed bond with me</Translation>
+		<de-DE>Renewed bond with me</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_BLAMED_REVELS_ON_ME</zType>
-		<Translation>Blamed for wild, drunken revels</Translation>
+		<de-DE>Blamed for wild, drunken revels</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_EXOTIC_GETAWAY</zType>
-		<Translation>Took me on exotic getaway</Translation>
+		<de-DE>Took me on exotic getaway</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_NO_EXOTIC_GETAWAY</zType>
-		<Translation>Refused to take me on a holiday</Translation>
+		<de-DE>Refused to take me on a holiday</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_POOR_SPOUSE</zType>
-		<Translation>My spouse is poor company</Translation>
+		<de-DE>My spouse is poor company</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_CARES_ABOUT_INTERESTS</zType>
-		<Translation>My spouse cares about my interests</Translation>
+		<de-DE>My spouse cares about my interests</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_TOOK_MY_AMBITION</zType>
-		<Translation>Took my link(CONCEPT_AMBITION)</Translation>
+		<de-DE>Took my link(CONCEPT_AMBITION)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_SUPPORTED_AMBITION</zType>
-		<Translation>Supported my link(CONCEPT_AMBITION)</Translation>
+		<de-DE>Supported my link(CONCEPT_AMBITION)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_CITY_EXECUTION</zType>
-		<Translation>Refused to support execution</Translation>
+		<de-DE>Refused to support execution</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_COURT_FAVORS</zType>
-		<Translation>Provided favors in court</Translation>
+		<de-DE>Provided favors in court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_IN_INNER_CIRCLE</zType>
-		<Translation>Invited to feast of inner circle</Translation>
+		<de-DE>Invited to feast of inner circle</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_KILLED_SPOUSE</zType>
-		<Translation>Killed spouse for me</Translation>
+		<de-DE>Killed spouse for me</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_AGREED_WITH_LEADER</zType>
-		<Translation>Agreed with philosophy of war</Translation>
+		<de-DE>Agreed with philosophy of war</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_DISAGREED_WITH_LEADER</zType>
-		<Translation>Disagreed with policy of peace</Translation>
+		<de-DE>Disagreed with policy of peace</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_AGREED_WITH_HEIR</zType>
-		<Translation>Disagreed with policy of war</Translation>
+		<de-DE>Disagreed with policy of war</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_DISAGREED_WITH_HEIR</zType>
-		<Translation>Disagreed with policy of peace</Translation>
+		<de-DE>Disagreed with policy of peace</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_MADE_NO_DECISION</zType>
-		<Translation>Made no decision</Translation>
+		<de-DE>Made no decision</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_CORRESPONDENCE_WITH_HEIR</zType>
-		<Translation>Started correspondence with heir</Translation>
+		<de-DE>Started correspondence with heir</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_SPURNED_MY_INVITATION</zType>
-		<Translation>Refused to correspond with me</Translation>
+		<de-DE>Refused to correspond with me</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_LEADER_MADE_A_SCENE</zType>
-		<Translation>Made a scene at a funeral</Translation>
+		<de-DE>Made a scene at a funeral</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_PLOTTED_WITH_ME</zType>
-		<Translation>Supported my plot for the throne</Translation>
+		<de-DE>Supported my plot for the throne</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_IGNORED_MY_CAUSE</zType>
-		<Translation>Ignored my cause</Translation>
+		<de-DE>Ignored my cause</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_EARNED_CONFIDENCE</zType>
-		<Translation>Earned confidence of a critic</Translation>
+		<de-DE>Earned confidence of a critic</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_INFLUENCED_BY_SPY</zType>
-		<Translation>Influenced by a foreign spy</Translation>
+		<de-DE>Influenced by a foreign spy</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_SENT_TO_EXPLORE</zType>
-		<Translation>Sent me on an important exploration mission</Translation>
+		<de-DE>Sent me on an important exploration mission</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_GAVE_TECH</zType>
-		<Translation>Shared technology with me</Translation>
+		<de-DE>Shared technology with me</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_REFUSED_TECH</zType>
-		<Translation>Refused to share technology</Translation>
+		<de-DE>Refused to share technology</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_SCOLDED_ME</zType>
-		<Translation>Admonished me in public</Translation>
+		<de-DE>Admonished me in public</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_LIKED_FLIRTATION</zType>
-		<Translation>Enjoyed flirtation</Translation>
+		<de-DE>Enjoyed flirtation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_DEMAND_APOLOGY</zType>
-		<Translation>Demanded an apology for flirting</Translation>
+		<de-DE>Demanded an apology for flirting</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_REFUSED_FUNDS</zType>
-		<Translation>Refused to provide military funds</Translation>
+		<de-DE>Refused to provide military funds</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_REFUSED_REQUEST</zType>
-		<Translation>Ignored my advice and refused my request</Translation>
+		<de-DE>Ignored my advice and refused my request</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_ALLOWED_BARRACKS_ASSIGNMENT</zType>
-		<Translation>Granted a request for a Barracks assignment</Translation>
+		<de-DE>Granted a request for a Barracks assignment</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_DENIED_BARRACKS_ASSIGNMENT</zType>
-		<Translation>Denied our request to teach at the Barracks</Translation>
+		<de-DE>Denied our request to teach at the Barracks</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_COMMENDED_FIELD_LEADERSHIP</zType>
-		<Translation>Commended our battlefield leadership</Translation>
+		<de-DE>Commended our battlefield leadership</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_ACCEPTED_JUDGMENT</zType>
-		<Translation>Sided with our view of justice</Translation>
+		<de-DE>Sided with our view of justice</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_DAY_OF_DUPES_DEAL</zType>
-		<Translation>Resolved a power struggle</Translation>
+		<de-DE>Resolved a power struggle</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_DAY_OF_DUPES_POS</zType>
-		<Translation>Supported us in a power struggle</Translation>
+		<de-DE>Supported us in a power struggle</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_DAY_OF_DUPES_NEG</zType>
-		<Translation>Sided against us in a power struggle</Translation>
+		<de-DE>Sided against us in a power struggle</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_DENOUNCED_FINDINGS</zType>
-		<Translation>Denounced my findings</Translation>
+		<de-DE>Denounced my findings</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_ACCEPTED_PRAISE</zType>
-		<Translation>Denounced my findings</Translation>
+		<de-DE>Denounced my findings</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_IGNORED_OBJECTION</zType>
-		<Translation>Ignored my objections</Translation>
+		<de-DE>Ignored my objections</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_UPHELD_OBJECTION</zType>
-		<Translation>Accepted my objections</Translation>
+		<de-DE>Accepted my objections</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_IMPRESSED_BY_ORATOR_SKILL</zType>
-		<Translation>Impressed by skill as an Orator</Translation>
+		<de-DE>Impressed by skill as an Orator</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_REFUSED_TO_SACRIFICE</zType>
-		<Translation>Refused to make a sacrifice</Translation>
+		<de-DE>Refused to make a sacrifice</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_PILGRIMAGED_TOGETHER</zType>
-		<Translation>Went on a pilgrimage together</Translation>
+		<de-DE>Went on a pilgrimage together</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_SCHEMING_HEIR_ONE_LIVE</zType>
-		<Translation>Someone tried to kill me!</Translation>
+		<de-DE>Someone tried to kill me!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_SCHEMING_HEIR_TWO_LIVE</zType>
-		<Translation>Someone keeps trying to kill me!</Translation>
+		<de-DE>Someone keeps trying to kill me!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_SCHEMING_HEIR_THREE_LIVE</zType>
-		<Translation>My heir is trying to kill me!</Translation>
+		<de-DE>My heir is trying to kill me!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_POISONED_MY_PREDECESSOR</zType>
-		<Translation>Poisoned my predecessor</Translation>
+		<de-DE>Poisoned my predecessor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_TRUSTED</zType>
-		<Translation>Hat mir vertraut</Translation>
+		<de-DE>Hat mir vertraut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_OUR_AMBITION</zType>
-		<Translation>Unsere link(CONCEPT_AMBITION) vollendet</Translation>
+		<de-DE>Unsere link(CONCEPT_AMBITION) vollendet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_OUR_LEGACY</zType>
-		<Translation>Unser link(CONCEPT_LEGACY) vollendet</Translation>
+		<de-DE>Unser link(CONCEPT_LEGACY) vollendet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FOUNDED_CITY</zType>
-		<Translation>Hat ine Stadt für uns gegründet</Translation>
+		<de-DE>Hat ine Stadt für uns gegründet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FOUNDED_FAMILY_SEAT</zType>
-		<Translation>Gründete unseren link(CONCEPT_FAMILY_SEAT)</Translation>
+		<de-DE>Gründete unseren link(CONCEPT_FAMILY_SEAT)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REGAINED_CITY</zType>
-		<Translation>We regained a City</Translation>
+		<de-DE>We regained a City</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_LOST_CITY</zType>
-		<Translation>We lost a City</Translation>
+		<de-DE>We lost a City</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GIVEN_CITY</zType>
-		<Translation>Gave us a City</Translation>
+		<de-DE>Gave us a City</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GAVE_AWAY_CITY</zType>
-		<Translation>Gave away our City</Translation>
+		<de-DE>Gave away our City</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_US_CITY</zType>
-		<Translation>Refused to give us a City</Translation>
+		<de-DE>Refused to give us a City</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_US_LUXURY</zType>
-		<Translation>Refused to give us a Luxury</Translation>
+		<de-DE>Refused to give us a Luxury</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_PURSUED_AMBITION</zType>
-		<Translation>Pursued our link(CONCEPT_AMBITION)</Translation>
+		<de-DE>Pursued our link(CONCEPT_AMBITION)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DIVORCE</zType>
-		<Translation>Divorce</Translation>
+		<de-DE>Divorce</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_BYPASSED_HEIR</zType>
-		<Translation>Bypassed Heir</Translation>
+		<de-DE>Bypassed Heir</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REMOVED_LUXURY</zType>
-		<Translation>Removed Luxury</Translation>
+		<de-DE>Removed Luxury</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_MARRIAGE_DECLINE</zType>
-		<Translation>Declined Marriage</Translation>
+		<de-DE>Declined Marriage</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_MARRIAGE_OTHER</zType>
-		<Translation>Married other Family</Translation>
+		<de-DE>Married other Family</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ASSASSINATION_EXPOSED</zType>
-		<Translation>Assassination exposed</Translation>
+		<de-DE>Assassination exposed</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_GIFTS</zType>
-		<Translation>Sent us gifts</Translation>
+		<de-DE>Sent us gifts</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_MEMBER_EXILED</zType>
-		<Translation>Exiled our family member</Translation>
+		<de-DE>Exiled our family member</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_MEMBER_IMPRISONED</zType>
-		<Translation>Imprisoned our family member</Translation>
+		<de-DE>Imprisoned our family member</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_LAW</zType>
-		<Translation>Refused to change Law</Translation>
+		<de-DE>Refused to change Law</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_CHANGED_LAW</zType>
-		<Translation>Agreed to change Law</Translation>
+		<de-DE>Agreed to change Law</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SUCCESSION_HONORED</zType>
-		<Translation>Honored us during succession</Translation>
+		<de-DE>Honored us during succession</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_HOSTED_CORONATION</zType>
-		<Translation>Hosted a grand coronation</Translation>
+		<de-DE>Hosted a grand coronation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_PLANNED_CORONATION</zType>
-		<Translation>Planned coronation festivities</Translation>
+		<de-DE>Planned coronation festivities</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SECURING_PEACE_SUICIDE</zType>
-		<Translation>Forced suicide</Translation>
+		<de-DE>Forced suicide</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SECURING_PEACE_MISUNDERSTANDING</zType>
-		<Translation>Kept a kidnapped infant</Translation>
+		<de-DE>Kept a kidnapped infant</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_WIFE_ASSASSINATED</zType>
-		<Translation>Assassinated your own wife</Translation>
+		<de-DE>Assassinated your own wife</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FOREIGN_DELEGATION_KILLED</zType>
-		<Translation>Murdered a gift-bearing delegation</Translation>
+		<de-DE>Murdered a gift-bearing delegation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ADOPT_HEIR_YES</zType>
-		<Translation>Adopted our child</Translation>
+		<de-DE>Adopted our child</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ADOPT_HEIR_NO</zType>
-		<Translation>Did not adopt from us</Translation>
+		<de-DE>Did not adopt from us</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_MURDEROUS_INTRIGUE</zType>
-		<Translation>Plotted to kill own Heir</Translation>
+		<de-DE>Plotted to kill own Heir</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REPRESSED_ASCETICS</zType>
-		<Translation>Repressed ascetic movement</Translation>
+		<de-DE>Repressed ascetic movement</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_WAR_COUNCIL_POS</zType>
-		<Translation>Accepted our offer to provide a retinue at court.</Translation>
+		<de-DE>Accepted our offer to provide a retinue at court.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_WAR_COUNCIL_NEG</zType>
-		<Translation>Declined our offer to provide a retinue at court.</Translation>
+		<de-DE>Declined our offer to provide a retinue at court.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_PILLAGED_COMPENSATION_POS</zType>
-		<Translation>Offered compensation for pillaged improvements,</Translation>
+		<de-DE>Offered compensation for pillaged improvements,</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_PILLAGED_COMPENSATION_NEG</zType>
-		<Translation>Declined to offer compensation for pillaged improvements.</Translation>
+		<de-DE>Declined to offer compensation for pillaged improvements.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_MONKEY_THIEF_KEPT</zType>
-		<Translation>Kept our stolen things</Translation>
+		<de-DE>Kept our stolen things</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_MONKEY_THIEF_RETURNED</zType>
-		<Translation>Returned our stolen things</Translation>
+		<de-DE>Returned our stolen things</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_MONKEY_DIPLOMAT_KEPT</zType>
-		<Translation>Kept our stolen regalia</Translation>
+		<de-DE>Kept our stolen regalia</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_MONKEY_DIPLOMAT_RETURNED</zType>
-		<Translation>Returned our stolen regalia</Translation>
+		<de-DE>Returned our stolen regalia</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_QUARREL_RETURN</zType>
-		<Translation>Returned fleeing wife</Translation>
+		<de-DE>Returned fleeing wife</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FORCED_MATCH</zType>
-		<Translation>Forced us to marry a Barbarian</Translation>
+		<de-DE>Forced us to marry a Barbarian</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_HIDEOUS_MATCH</zType>
-		<Translation>Chose us a hideous spouse</Translation>
+		<de-DE>Chose us a hideous spouse</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_DIFF_NEGATIVE</zType>
-		<Translation>Called us fools</Translation>
+		<de-DE>Called us fools</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_DIFFERENT</zType>
-		<Translation>Adhered to our council</Translation>
+		<de-DE>Adhered to our council</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GENERAL_TRIUMPH</zType>
-		<Translation>Triumph for our General</Translation>
+		<de-DE>Triumph for our General</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_OVERCROWDED_CITY</zType>
-		<Translation>Overcrowded our cities with children</Translation>
+		<de-DE>Overcrowded our cities with children</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_HIGH_PRIESTS</zType>
-		<Translation>You obeyed the Gods</Translation>
+		<de-DE>You obeyed the Gods</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_RELIGIOUS_FREEDOM</zType>
-		<Translation>Protected us from the high priests</Translation>
+		<de-DE>Protected us from the high priests</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ANGRY_FAMILIES</zType>
-		<Translation>We had to sacrifice more</Translation>
+		<de-DE>We had to sacrifice more</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_IGNORED_WARNING</zType>
-		<Translation>Ignored our warnings</Translation>
+		<de-DE>Ignored our warnings</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_INITIATED_REFORMS</zType>
-		<Translation>Initiated reforms</Translation>
+		<de-DE>Initiated reforms</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_COUNCIL_GOVERNMENT</zType>
-		<Translation>Formed a council government</Translation>
+		<de-DE>Formed a council government</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_IMPRISONED_FAMILY_ELDER</zType>
-		<Translation>Imprisoned our elder</Translation>
+		<de-DE>Imprisoned our elder</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_KILLED_FAMILY_ELDER</zType>
-		<Translation>Killed our elder</Translation>
+		<de-DE>Killed our elder</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_HEALED_RIFT</zType>
-		<Translation>Ruler extended a hand in peace</Translation>
+		<de-DE>Ruler extended a hand in peace</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_MURDERED_ALL_FAMILY</zType>
-		<Translation>Murdered bloodline</Translation>
+		<de-DE>Murdered bloodline</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_CELEBRATED_GENERAL</zType>
-		<Translation>A general celebrated by the people</Translation>
+		<de-DE>A general celebrated by the people</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_CELEBRATION</zType>
-		<Translation>Refused to celebrate our family general</Translation>
+		<de-DE>Refused to celebrate our family general</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_NO_TRANSLATIONS</zType>
-		<Translation>Refused to translate foreign texts</Translation>
+		<de-DE>Refused to translate foreign texts</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SLIGHTED_AT_COURT</zType>
-		<Translation>Slighted at Hold Court</Translation>
+		<de-DE>Slighted at Hold Court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FEMALE_EDUCATION_NO</zType>
-		<Translation>Maintained educational traditions</Translation>
+		<de-DE>Maintained educational traditions</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DID_NOT_ATTACK</zType>
-		<Translation>Did not attack barbarians</Translation>
+		<de-DE>Did not attack barbarians</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_WENT_TO_WAR</zType>
-		<Translation>Took our advice and attacked barbarians</Translation>
+		<de-DE>Took our advice and attacked barbarians</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_SCUFFLE_FAVORED</zType>
-		<Translation>Did not take our side in a family scuffle at court</Translation>
+		<de-DE>Did not take our side in a family scuffle at court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_SCUFFLE_UNFAVORED</zType>
-		<Translation>Did not take our side in a family scuffle at court</Translation>
+		<de-DE>Did not take our side in a family scuffle at court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_BORROWED_MONEY</zType>
-		<Translation>Borrowed money from us</Translation>
+		<de-DE>Borrowed money from us</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FRUGAL_RULER</zType>
-		<Translation>Remained a ruler of the people</Translation>
+		<de-DE>Remained a ruler of the people</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_NOT_FRUGAL_RULER</zType>
-		<Translation>Set a royal example</Translation>
+		<de-DE>Set a royal example</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FIRED_GENERAL</zType>
-		<Translation>Released a beloved general</Translation>
+		<de-DE>Released a beloved general</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ELEVATED_GENERAL</zType>
-		<Translation>Elevated a general to the court</Translation>
+		<de-DE>Elevated a general to the court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_EXECUTED_OFFICER</zType>
-		<Translation>Executed our officer</Translation>
+		<de-DE>Executed our officer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DISTRIBUTED_PLUNDER</zType>
-		<Translation>Distributed plunder to the families</Translation>
+		<de-DE>Distributed plunder to the families</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_OVERLOOKED_GATHERINGS</zType>
-		<Translation>Overlooked our gatherings</Translation>
+		<de-DE>Overlooked our gatherings</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_APPROVED_FORCED_DEPORTATION</zType>
-		<Translation>Approved deportation of our people</Translation>
+		<de-DE>Approved deportation of our people</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_PLUNDER_LOOTERS</zType>
-		<Translation>Punished our soldiers for looting</Translation>
+		<de-DE>Punished our soldiers for looting</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_RECRUITED_FOREIGNERS</zType>
-		<Translation>Recruited foreign fighters</Translation>
+		<de-DE>Recruited foreign fighters</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_NO_FOREIGN_FIGHTERS</zType>
-		<Translation>Refused foreign fighters</Translation>
+		<de-DE>Refused foreign fighters</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DENIED_MERCHANT_GUILD</zType>
-		<Translation>Denied request for noble merchant guild</Translation>
+		<de-DE>Denied request for noble merchant guild</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_APPROVED_MERCHANT_GUILD</zType>
-		<Translation>Approved request for merchant guild</Translation>
+		<de-DE>Approved request for merchant guild</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GP_MERCHANT_CITY_YES</zType>
-		<Translation>Approved merchant city status</Translation>
+		<de-DE>Approved merchant city status</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GP_EXECUTED_MERCHANT</zType>
-		<Translation>Executed relative on court</Translation>
+		<de-DE>Executed relative on court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GP_KEPT_RELATIVE_ON_COURT</zType>
-		<Translation>Kept relative as court merchant</Translation>
+		<de-DE>Kept relative as court merchant</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GP_LET_RELATIVE_ESCAPE</zType>
-		<Translation>Allowed corrupt relative to escape</Translation>
+		<de-DE>Allowed corrupt relative to escape</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GP_IMPRISONED_RIVAL</zType>
-		<Translation>Imprisoned court rival</Translation>
+		<de-DE>Imprisoned court rival</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GP_IMPRISONED_FAMILY</zType>
-		<Translation>Imprisoned family member</Translation>
+		<de-DE>Imprisoned family member</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GP_PUNISHED_FAMILY</zType>
-		<Translation>Punished family member</Translation>
+		<de-DE>Punished family member</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GP_PUNISHED_RIVAL</zType>
-		<Translation>Punished family rival</Translation>
+		<de-DE>Punished family rival</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GP_RECUSED_LEADER</zType>
-		<Translation>Ignored our plea for justice</Translation>
+		<de-DE>Ignored our plea for justice</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GIFTED_PRICELESS_ARTIFACTS</zType>
-		<Translation>Gifted priceless artifacts</Translation>
+		<de-DE>Gifted priceless artifacts</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_APPEASED_BARBARIANS</zType>
-		<Translation>Appeased the barbarians</Translation>
+		<de-DE>Appeased the barbarians</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_HOMECOMING_FEAST</zType>
-		<Translation>Attended a homecoming feast for the heir</Translation>
+		<de-DE>Attended a homecoming feast for the heir</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DENIED_RIVAL_FAMILY</zType>
-		<Translation>Ruler denied a rival family</Translation>
+		<de-DE>Ruler denied a rival family</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_RELEASED_FANATICAL_PRIESTS</zType>
-		<Translation>Release fanatical priests</Translation>
+		<de-DE>Release fanatical priests</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_KILLED_FAMILY_MEMBER</zType>
-		<Translation>Executed family member</Translation>
+		<de-DE>Executed family member</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_RELEASE</zType>
-		<Translation>Request to release prisoner denied</Translation>
+		<de-DE>Request to release prisoner denied</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ACCEPTED_MISTHOPHORIA</zType>
-		<Translation>Permitted payment for public work</Translation>
+		<de-DE>Permitted payment for public work</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REJECTED_MISTHOPHORIA</zType>
-		<Translation>Rejected payment for public work</Translation>
+		<de-DE>Rejected payment for public work</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_HUNTING_PARTY_IMPRISONED</zType>
-		<Translation>Hunting party imprisoned</Translation>
+		<de-DE>Hunting party imprisoned</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_HUNTING_PARTY_SCOLDED</zType>
-		<Translation>Scolded us after rescuing our hunting party</Translation>
+		<de-DE>Scolded us after rescuing our hunting party</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_PROTECTED_OUR_HUNTING_PARTY</zType>
-		<Translation>Protected our hunting party during foreign dispute</Translation>
+		<de-DE>Protected our hunting party during foreign dispute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_RELIGION_DENOUNCE_NO</zType>
-		<Translation>Refused to stand up for our beliefs</Translation>
+		<de-DE>Refused to stand up for our beliefs</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_RELIGION_WAR_NO</zType>
-		<Translation>Refused to fight for our beliefs</Translation>
+		<de-DE>Refused to fight for our beliefs</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_LAW_DENOUNCE_NO</zType>
-		<Translation>Refused to stand up for our values</Translation>
+		<de-DE>Refused to stand up for our values</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_LAW_WAR_NO</zType>
-		<Translation>Refused to fight for our values</Translation>
+		<de-DE>Refused to fight for our values</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_HELPED_COVER_UP</zType>
-		<Translation>Helped cover up disappearance</Translation>
+		<de-DE>Helped cover up disappearance</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_RELEASED_CAPTIVE</zType>
-		<Translation>Released our prisoner</Translation>
+		<de-DE>Released our prisoner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FIXED_MISUNDERSTANDING</zType>
-		<Translation>Fixed misunderstanding over prisoner</Translation>
+		<de-DE>Fixed misunderstanding over prisoner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_HONOR_AND_GLORY</zType>
-		<Translation>Honored our General</Translation>
+		<de-DE>Honored our General</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SAVED_TREASURES</zType>
-		<Translation>Tried to rescue fleeing nobles</Translation>
+		<de-DE>Tried to rescue fleeing nobles</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_RAISED_ENEMY_LEADERSHIP</zType>
-		<Translation>Added enemy leadership to court</Translation>
+		<de-DE>Added enemy leadership to court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_COMFORTED_GRIEVING_FAMILY</zType>
-		<Translation>Comforted grieving family</Translation>
+		<de-DE>Comforted grieving family</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_MADE_OTHER_GOVERNOR</zType>
-		<Translation>Gave away governorship of city seat</Translation>
+		<de-DE>Gave away governorship of city seat</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_GOVERNORSHIP</zType>
-		<Translation>Refused governorship to outsider</Translation>
+		<de-DE>Refused governorship to outsider</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_CENTRALIZATION</zType>
-		<Translation>Refused to adopt Centralization</Translation>
+		<de-DE>Refused to adopt Centralization</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ACCUSED_OF_CORRUPTION</zType>
-		<Translation>Accused of corruption</Translation>
+		<de-DE>Accused of corruption</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_BURIED_INCRIMINATING_DOCUMENT</zType>
-		<Translation>Covered up incriminating document</Translation>
+		<de-DE>Covered up incriminating document</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SUCCESSFUL_HOLD_COURT</zType>
-		<Translation>Held court successfully</Translation>
+		<de-DE>Held court successfully</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORY_HOSTED_FEAST</zType>
-		<Translation>Hosted feast for noble families</Translation>
+		<de-DE>Hosted feast for noble families</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FOREIGN_FEAST</zType>
-		<Translation>Hosted by a foreign ruler</Translation>
+		<de-DE>Hosted by a foreign ruler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DELIVERED_RELATIVE_TO_FOREIGNER</zType>
-		<Translation>Delivered relative to foreign power</Translation>
+		<de-DE>Delivered relative to foreign power</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_A_TOAST_MOTHERS_TOUCH_IGNORE</zType>
-		<Translation>Allowed our general to be murdered</Translation>
+		<de-DE>Allowed our general to be murdered</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_FUNERAL</zType>
-		<Translation>Refused to fund funeral</Translation>
+		<de-DE>Refused to fund funeral</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FUNDED_FUNERAL</zType>
-		<Translation>Funded family funeral</Translation>
+		<de-DE>Funded family funeral</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_RODE_IN_FUNERAL</zType>
-		<Translation>Rode in family funeral</Translation>
+		<de-DE>Rode in family funeral</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_IGNORED_INTERVENTION</zType>
-		<Translation>Ignored the court's intervention</Translation>
+		<de-DE>Ignored the court's intervention</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REPRIMANDED</zType>
-		<Translation>Reprimanded by ruler</Translation>
+		<de-DE>Reprimanded by ruler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_PLEASED</zType>
-		<Translation>Zufrieden mit Herrscher</Translation>
+		<de-DE>Zufrieden mit Herrscher</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_RITUAL</zType>
-		<Translation>Refused religious ritual</Translation>
+		<de-DE>Refused religious ritual</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_PARTICIPATED_IN_RITUAL</zType>
-		<Translation>Participated in ritual</Translation>
+		<de-DE>Participated in ritual</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_INVITATION</zType>
-		<Translation>Refused barbarian invitation</Translation>
+		<de-DE>Refused barbarian invitation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_OVERLOOKED_LOST_TAXES</zType>
-		<Translation>Overlooked our tax theft</Translation>
+		<de-DE>Overlooked our tax theft</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DEMANDED_REPAYMENT</zType>
-		<Translation>Demanded payment of stolen taxes</Translation>
+		<de-DE>Demanded payment of stolen taxes</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_TOLD_OF_PLOT</zType>
-		<Translation>Told of conspiracy plot</Translation>
+		<de-DE>Told of conspiracy plot</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_TURNED_AWAY_TRAVELER</zType>
-		<Translation>Turned away traveling beggar</Translation>
+		<de-DE>Turned away traveling beggar</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_MADE_EXCUSES_TO_BARBARIANS</zType>
-		<Translation>Made excuses to barbarians</Translation>
+		<de-DE>Made excuses to barbarians</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_BIRTH_GIFT</zType>
-		<Translation>Gave new heir birth gift</Translation>
+		<de-DE>Gave new heir birth gift</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_MONKEY_PAW_JEALOUS</zType>
-		<Translation>Jealous of great renown</Translation>
+		<de-DE>Jealous of great renown</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DEFIED_BARBARIAN</zType>
-		<Translation>Defied barbarian ruler</Translation>
+		<de-DE>Defied barbarian ruler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ALLIED_WITH_BARBARIAN</zType>
-		<Translation>Allied with barbarian leader</Translation>
+		<de-DE>Allied with barbarian leader</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ACCEPTED_BARBARIAN_GIFTS</zType>
-		<Translation>Accepted barbarian gifts</Translation>
+		<de-DE>Accepted barbarian gifts</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REJECTED_BARBARIAN_GIFTS</zType>
-		<Translation>Rejected barbarian gifts</Translation>
+		<de-DE>Rejected barbarian gifts</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_RECEIVED_BARBARIAN_GENERAL</zType>
-		<Translation>Accepted barbarian general</Translation>
+		<de-DE>Accepted barbarian general</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_HOSTED_BARBARIAN_RULER</zType>
-		<Translation>Ruler hosted barbarian ruler</Translation>
+		<de-DE>Ruler hosted barbarian ruler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SURRENDERED_REMAINS</zType>
-		<Translation>Surrendered remains of a fallen relative</Translation>
+		<de-DE>Surrendered remains of a fallen relative</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_REMAINS</zType>
-		<Translation>Denied the remains of a fallen relative</Translation>
+		<de-DE>Denied the remains of a fallen relative</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_IGNORED_DISPLEASURE</zType>
-		<Translation>Ignored displeasure at mistreatment of spouse</Translation>
+		<de-DE>Ignored displeasure at mistreatment of spouse</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_LET_LEGEND_GROW</zType>
-		<Translation>Allowed hero's legend to grow</Translation>
+		<de-DE>Allowed hero's legend to grow</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ROYAL_VISITOR</zType>
-		<Translation>Hosted member of the royal family</Translation>
+		<de-DE>Hosted member of the royal family</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_RESPECT_FOR_FOLLOWER</zType>
-		<Translation>Gained respect for royal scholar</Translation>
+		<de-DE>Gained respect for royal scholar</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_TROUBLES_MEDIATED</zType>
-		<Translation>Had troubles with rival mediated</Translation>
+		<de-DE>Had troubles with rival mediated</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DENIED_TRIBAL_HELP</zType>
-		<Translation>Denied help from tribal intermediary</Translation>
+		<de-DE>Denied help from tribal intermediary</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_PUNISHED_HEIR</zType>
-		<Translation>Punished the heir for street brawl</Translation>
+		<de-DE>Punished the heir for street brawl</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ALLOWED_AUTONOMY</zType>
-		<Translation>Allowed some city autonomy</Translation>
+		<de-DE>Allowed some city autonomy</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SHARED_THEIR_GRIEF</zType>
-		<Translation>Shared their grief</Translation>
+		<de-DE>Shared their grief</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DID_NOT_EXPEL_STUDENT</zType>
-		<Translation>You did not expel an unruly student.</Translation>
+		<de-DE>You did not expel an unruly student.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FORCED_TO_KISS_FEET</zType>
-		<Translation>Forced to kiss foreign ruler's feet</Translation>
+		<de-DE>Forced to kiss foreign ruler's feet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DID_NOT_PUNISH_FOREIGNER</zType>
-		<Translation>Refused to punish foreign counsel</Translation>
+		<de-DE>Refused to punish foreign counsel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_THE_FOOL</zType>
-		<Translation>Refused the fool</Translation>
+		<de-DE>Refused the fool</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_GIFT_YES</zType>
-		<Translation>Sent us extra gifts</Translation>
+		<de-DE>Sent us extra gifts</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_RECEIVED_GIFT</zType>
-		<Translation>Received gift from ruler</Translation>
+		<de-DE>Received gift from ruler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SECOND_CLASS_CITIZENS_NEG</zType>
-		<Translation>Did not permit family to rule as superiors to locals</Translation>
+		<de-DE>Did not permit family to rule as superiors to locals</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SECOND_CLASS_CITIZENS_POS</zType>
-		<Translation>Did permit family to rule as superiors to locals</Translation>
+		<de-DE>Did permit family to rule as superiors to locals</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_GAVE_DONATION</zType>
-		<Translation>Gave donation to a worthy cause</Translation>
+		<de-DE>Gave donation to a worthy cause</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_STATUE_DISPLAYED</zType>
-		<Translation>Ruler displayed our statue</Translation>
+		<de-DE>Ruler displayed our statue</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_BRIBE</zType>
-		<Translation>Accuse the throne of bribes</Translation>
+		<de-DE>Accuse the throne of bribes</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_MILITARY_TECH</zType>
-		<Translation>Shared military technology with our rivals</Translation>
+		<de-DE>Shared military technology with our rivals</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DID_NOT_ABDUCT_HEIR</zType>
-		<Translation>Ruler would not abduct foreign heir</Translation>
+		<de-DE>Ruler would not abduct foreign heir</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_KILLED_HEIR</zType>
-		<Translation>Ruler ordered assassination of foreign heir</Translation>
+		<de-DE>Ruler ordered assassination of foreign heir</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SUCCESSFUL_ABDUCTION</zType>
-		<Translation>Staged a successful abduction</Translation>
+		<de-DE>Staged a successful abduction</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_EXPOSED_PLOT</zType>
-		<Translation>Exposed our plot</Translation>
+		<de-DE>Exposed our plot</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_APOLOGIZED_FOR_SLANDER</zType>
-		<Translation>Apologized for slander</Translation>
+		<de-DE>Apologized for slander</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_STOOD_BY_ACCUSATIONS</zType>
-		<Translation>Ruler stood by accusations</Translation>
+		<de-DE>Ruler stood by accusations</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SUSPECT_KIDNAPPING</zType>
-		<Translation>Learned to fear ruler's power</Translation>
+		<de-DE>Learned to fear ruler's power</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FORCED_END_TO_HOSTING</zType>
-		<Translation>Forced to stop hosting successors</Translation>
+		<de-DE>Forced to stop hosting successors</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_INVITED_TO_FEAST</zType>
@@ -2565,1338 +2565,1338 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ATTENDED_FEAST_ALONE</zType>
-		<Translation>Attended tribal feast alone</Translation>
+		<de-DE>Attended tribal feast alone</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_IGNORED_FESTIVAL_REQUEST</zType>
-		<Translation>Ignored request for a festival</Translation>
+		<de-DE>Ignored request for a festival</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SENT_DOCTORS_TO_PLAGUED_CITY</zType>
-		<Translation>Sent doctors to plagued city</Translation>
+		<de-DE>Sent doctors to plagued city</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_BURNED_OUT_PLAGUE</zType>
-		<Translation>Burned areas to kill plague</Translation>
+		<de-DE>Burned areas to kill plague</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ENCOURAGED_THE_POOR</zType>
-		<Translation>Encouraged poor with religion</Translation>
+		<de-DE>Encouraged poor with religion</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FREED_SLAVES</zType>
-		<Translation>Freed the nation's slaves</Translation>
+		<de-DE>Freed the nation's slaves</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REDIRECTED_FUNDS</zType>
-		<Translation>Treated lavishly with royal funds</Translation>
+		<de-DE>Treated lavishly with royal funds</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_RUINS_GIFT_OF_VALUABLES</zType>
-		<Translation>Gave us ancient treasures</Translation>
+		<de-DE>Gave us ancient treasures</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_IMPRISONED_FIREBRAND</zType>
-		<Translation>Imprisoned firebrand</Translation>
+		<de-DE>Imprisoned firebrand</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_HEIR_EXPERTISE_ELDER_RECOGNITION</zType>
-		<Translation>Utilized professional expertise of our elder</Translation>
+		<de-DE>Utilized professional expertise of our elder</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_PYRAMIDS_BLOODLINE</zType>
-		<Translation>Immortalized our bloodline</Translation>
+		<de-DE>Immortalized our bloodline</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ACROPOLIS_TREASURY</zType>
-		<Translation>Granted a treasury in the Acropolis</Translation>
+		<de-DE>Granted a treasury in the Acropolis</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_NECROPOLIS_RITES</zType>
-		<Translation>Conducted a pious royal funeral</Translation>
+		<de-DE>Conducted a pious royal funeral</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_QUESTIONABLE_CARVING_DISPLAY</zType>
-		<Translation>Displayed questionable carving</Translation>
+		<de-DE>Displayed questionable carving</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_COTTAGE_DECOR_BUSTS</zType>
-		<Translation>Installed ancestral busts</Translation>
+		<de-DE>Installed ancestral busts</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_RUNAWAY_SLAVE_REPRIMAND</zType>
-		<Translation>Reprimanded for cruelty</Translation>
+		<de-DE>Reprimanded for cruelty</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_RUNAWAY_SLAVE_BEAT</zType>
-		<Translation>Returned runaway slave</Translation>
+		<de-DE>Returned runaway slave</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_EXOTIC_PETS_MONKEY_CHARM</zType>
-		<Translation>Charmed by your adorable monkey</Translation>
+		<de-DE>Charmed by your adorable monkey</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_WAYWARD_SUBJECT_FORGIVE</zType>
-		<Translation>Forgave our wayward family member</Translation>
+		<de-DE>Forgave our wayward family member</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_WAYWARD_SUBJECT_IMPRISON</zType>
-		<Translation>Imprisoned our wayward family member</Translation>
+		<de-DE>Imprisoned our wayward family member</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GEM_SEEKERS_YES</zType>
-		<Translation>Let us purchase gems</Translation>
+		<de-DE>Let us purchase gems</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GEM_SEEKERS_GIFT</zType>
-		<Translation>Gave us gems for free</Translation>
+		<de-DE>Gave us gems for free</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GEM_SEEKERS_NO</zType>
-		<Translation>Refused to sell us gems</Translation>
+		<de-DE>Refused to sell us gems</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_NEW_AMBASSADOR_YES</zType>
-		<Translation>Made our family member the Ambassador</Translation>
+		<de-DE>Made our family member the Ambassador</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_NEW_AMBASSADOR_NO</zType>
-		<Translation>Refused us the Ambassadorship</Translation>
+		<de-DE>Refused us the Ambassadorship</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_TOOK_CONTROL</zType>
-		<Translation>Leader took control of estates</Translation>
+		<de-DE>Leader took control of estates</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_CONTROL</zType>
-		<Translation>Leader left estates alone</Translation>
+		<de-DE>Leader left estates alone</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_LAW_ADOPTED_TYRANNY</zType>
-		<Translation>Adopted Tyranny</Translation>
+		<de-DE>Adopted Tyranny</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_LAW_IMPRISONED_PATRIARCH</zType>
-		<Translation>Imprisoned our patriarch</Translation>
+		<de-DE>Imprisoned our patriarch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_LAW_PROMOTED_FAMILY</zType>
-		<Translation>Promoted family member to court</Translation>
+		<de-DE>Promoted family member to court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_LAW_ADOPTED_VOLUNTEERS</zType>
-		<Translation>Adopted plan for Volunteers</Translation>
+		<de-DE>Adopted plan for Volunteers</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_LAW_DENIED_DIVINITY</zType>
-		<Translation>Denied Divine Rule</Translation>
+		<de-DE>Denied Divine Rule</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_LAW_ADOPTED_DIVINE_RULE</zType>
-		<Translation>Established Divine Rule</Translation>
+		<de-DE>Established Divine Rule</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_LAW_REFUSED_ASCETISM</zType>
-		<Translation>Refused to embrace Ascetism</Translation>
+		<de-DE>Refused to embrace Ascetism</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_LAW_PAID_OUR_DEBT</zType>
-		<Translation>Paid our foreign debt</Translation>
+		<de-DE>Paid our foreign debt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_LAW_REFUSED_TO_PAY_DEBT</zType>
-		<Translation>Refused to pay debt</Translation>
+		<de-DE>Refused to pay debt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_WONDER_INVITED_BATHS</zType>
-		<Translation>Invited us to the new baths</Translation>
+		<de-DE>Invited us to the new baths</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_IGNORED_MANICHAEISM</zType>
-		<Translation>Ignored interest in Manichaeism</Translation>
+		<de-DE>Ignored interest in Manichaeism</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_COUNCIL</zType>
-		<Translation>Refused our choice for the Council</Translation>
+		<de-DE>Refused our choice for the Council</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_BETRAYED_TO_FOREIGNERS</zType>
-		<Translation>Betrayed us to foreign power</Translation>
+		<de-DE>Betrayed us to foreign power</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_PLOT_HIDDEN</zType>
-		<Translation>International plot kept hidden</Translation>
+		<de-DE>International plot kept hidden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_PLEASURE_YACHTS</zType>
-		<Translation>Built us pleasure yachts</Translation>
+		<de-DE>Built us pleasure yachts</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REVEALED_TREACHERY</zType>
-		<Translation>Revealed our treachery</Translation>
+		<de-DE>Revealed our treachery</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SACKED_SCIENTIST</zType>
-		<Translation>Sacked irresponsible scientist</Translation>
+		<de-DE>Sacked irresponsible scientist</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SEIZED_ARMOR</zType>
-		<Translation>Seized family horse armor</Translation>
+		<de-DE>Seized family horse armor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_EXECUTED_PLOTTERS</zType>
-		<Translation>Executed bath-house plotters</Translation>
+		<de-DE>Executed bath-house plotters</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_IMPRISONED_RIVAL</zType>
-		<Translation>Imprisoned innocent courtier</Translation>
+		<de-DE>Imprisoned innocent courtier</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_IMPRISONED_FAMILY_HEAD_UNJUST</zType>
-		<Translation>Unjustly imprisoned family oligarch</Translation>
+		<de-DE>Unjustly imprisoned family oligarch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ALLY_WITH_LEADER</zType>
-		<Translation>Convinced to favor our ruler</Translation>
+		<de-DE>Convinced to favor our ruler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_THREATENED_FAMILY</zType>
-		<Translation>Give the {FAMILY-2,1} an ultimatum: join us, or suffer</Translation>
+		<de-DE>Give the {FAMILY-2,1} an ultimatum: join us, or suffer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SACRIFICED_RELATIVE</zType>
-		<Translation>Sacrificed a relative at sea</Translation>
+		<de-DE>Sacrificed a relative at sea</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_REQUEST_OF_TROOPS</zType>
-		<Translation>Refused foreign request for troops</Translation>
+		<de-DE>Refused foreign request for troops</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ATTENDED_FOREIGN_FEAST</zType>
-		<Translation>Attended foreign feast</Translation>
+		<de-DE>Attended foreign feast</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_BLAMED_FOR_LAWS</zType>
-		<Translation>Blamed for harsh laws</Translation>
+		<de-DE>Blamed for harsh laws</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_FOREIGN_FRIENDSHIP</zType>
-		<Translation>Refused to continue foreign friendship</Translation>
+		<de-DE>Refused to continue foreign friendship</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SUPPORTED_EXPEDITION</zType>
-		<Translation>Supported plans for southern expedition</Translation>
+		<de-DE>Supported plans for southern expedition</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_IGNORED_DOMESTIC_ISSUES</zType>
-		<Translation>Invested in silly expedition</Translation>
+		<de-DE>Invested in silly expedition</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_IGNORED_EXPEDITION</zType>
-		<Translation>Refused to support our southern expedition</Translation>
+		<de-DE>Refused to support our southern expedition</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SUPPORTED_DOMESTIC_ISSUES</zType>
-		<Translation>Supported the domestic agenda</Translation>
+		<de-DE>Supported the domestic agenda</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_COMPROMISED</zType>
-		<Translation>Comprised with other family on key issue</Translation>
+		<de-DE>Comprised with other family on key issue</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORY_DEFIED_ACCUSATION</zType>
-		<Translation>Defied our accusation</Translation>
+		<de-DE>Defied our accusation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORY_BELIEVED_ACCUSATION</zType>
-		<Translation>Ostracized family member</Translation>
+		<de-DE>Ostracized family member</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SAVED_ACCUSED</zType>
-		<Translation>Proved family member's innocence</Translation>
+		<de-DE>Proved family member's innocence</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_BORING_LEADER</zType>
-		<Translation>We have a boring ruler</Translation>
+		<de-DE>We have a boring ruler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_RUMORS</zType>
-		<Translation>Refused to heed rumors</Translation>
+		<de-DE>Refused to heed rumors</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ACCUSED_OF_MURDER</zType>
-		<Translation>Accused us of plotting murder</Translation>
+		<de-DE>Accused us of plotting murder</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_THE_LUTE_PLAYER</zType>
-		<Translation>Sent your condolences</Translation>
+		<de-DE>Sent your condolences</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FOREIGN_DELICASIES</zType>
-		<Translation>Brought us foreign delicasies</Translation>
+		<de-DE>Brought us foreign delicasies</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_IMPRISONED_SPYMASTER</zType>
-		<Translation>Imprisoned ineffective spymaster</Translation>
+		<de-DE>Imprisoned ineffective spymaster</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DID_NOT_PUNISH_SPYMASTER</zType>
-		<Translation>Refused to punish ineffective spymaster</Translation>
+		<de-DE>Refused to punish ineffective spymaster</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_CURRY_FAVOR</zType>
-		<Translation>Curried favor to win approval</Translation>
+		<de-DE>Curried favor to win approval</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_HONORED_FOR_INDIVIDUALS_ACT</zType>
-		<Translation>Honored for one member's service</Translation>
+		<de-DE>Honored for one member's service</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_STAGED_PLAY</zType>
-		<Translation>Staged play critical of court</Translation>
+		<de-DE>Staged play critical of court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_CONSULAR_TRIBUNES</zType>
-		<Translation>Granted military power on court</Translation>
+		<de-DE>Granted military power on court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_LIED</zType>
-		<Translation>Lied about intentions</Translation>
+		<de-DE>Lied about intentions</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_RAISED_MARBLE_PRICES</zType>
-		<Translation>Raised marble prices</Translation>
+		<de-DE>Raised marble prices</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GAVE_OLIVE_OIL</zType>
-		<Translation>Received gift of olive oil</Translation>
+		<de-DE>Received gift of olive oil</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ENACTED_AMBITION_REVEAL_40</zType>
-		<Translation>Agreed with us to focus on exploration</Translation>
+		<de-DE>Agreed with us to focus on exploration</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DENIED_AMBITION_REVEAL_40</zType>
-		<Translation>Denied our wish to focus on exploration</Translation>
+		<de-DE>Denied our wish to focus on exploration</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_IMPRISONED_MEMBER</zType>
-		<Translation>Imprisoned family member</Translation>
+		<de-DE>Imprisoned family member</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_IMPRESSED_IN_COURT</zType>
-		<Translation>Impressed us in court</Translation>
+		<de-DE>Impressed us in court</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SEIZED_ESTATES_INFLATION</zType>
-		<Translation>Seized family estates to cover debasement induced inflation.</Translation>
+		<de-DE>Seized family estates to cover debasement induced inflation.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_WATCHED_BABY_LEADER_CRY</zType>
-		<Translation>Remembered when you lost your nose and cried</Translation>
+		<de-DE>Remembered when you lost your nose and cried</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_TWO_MOTHERS_WISELY</zType>
-		<Translation>You judged justly and wisely in a dispute between two mothers</Translation>
+		<de-DE>You judged justly and wisely in a dispute between two mothers</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_TWO_MOTHERS_MURDER</zType>
-		<Translation>You murdered a child in a dispute between two mothers</Translation>
+		<de-DE>You murdered a child in a dispute between two mothers</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_TWO_MOTHERS_VICTORY</zType>
-		<Translation>You ruled in our favor in a dispute between two mothers</Translation>
+		<de-DE>You ruled in our favor in a dispute between two mothers</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_TWO_MOTHERS_DEFEAT</zType>
-		<Translation>You ruled against us in a dispute between two mothers</Translation>
+		<de-DE>You ruled against us in a dispute between two mothers</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_RENOUNCED_OUR_DISLIKED_RELIGION</zType>
-		<Translation>Renounced religion we dislike</Translation>
+		<de-DE>Renounced religion we dislike</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_ENLIGHTENED_US</zType>
-		<Translation>Enlightened Us</Translation>
+		<de-DE>Enlightened Us</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_KILLED_NOBLES</zType>
-		<Translation>Killed Nobles</Translation>
+		<de-DE>Killed Nobles</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DENOUNCED_ANTICHRIST</zType>
-		<Translation>Denounced the Antichrist</Translation>
+		<de-DE>Denounced the Antichrist</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_APPOINTED_JUDGES</zType>
-		<Translation>Appointed us as judges</Translation>
+		<de-DE>Appointed us as judges</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_LEGAL_DISPUTE_AGAINST</zType>
-		<Translation>Sided against us in a legal dispute</Translation>
+		<de-DE>Sided against us in a legal dispute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_LEGAL_DISPUTE_SUPPORT</zType>
-		<Translation>Sided with us in a legal dispute</Translation>
+		<de-DE>Sided with us in a legal dispute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GAVE_BOARD_GAME</zType>
-		<Translation>Introduced a popular board game</Translation>
+		<de-DE>Introduced a popular board game</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_KILLED_IN_COLD_WATER_POS</zType>
-		<Translation>Sided with us after the bathhouse killing</Translation>
+		<de-DE>Sided with us after the bathhouse killing</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_KILLED_IN_COLD_WATER_NEG</zType>
-		<Translation>Accused us in the bathhouse murder</Translation>
+		<de-DE>Accused us in the bathhouse murder</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_KILLED_IN_COLD_WATER_LATER_POS</zType>
-		<Translation>Supported us in the wake of the bath murders</Translation>
+		<de-DE>Supported us in the wake of the bath murders</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_KILLED_IN_COLD_WATER_BODYGUARDS</zType>
-		<Translation>Guarded us during a killing spree</Translation>
+		<de-DE>Guarded us during a killing spree</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GAVE_JEWELS</zType>
-		<Translation>Gave us beautiful jewelry</Translation>
+		<de-DE>Gave us beautiful jewelry</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_ANTICHRIST</zType>
-		<Translation>Refused to warn of the Antichrist</Translation>
+		<de-DE>Refused to warn of the Antichrist</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_REFORMED_RELIGION_ATENISM</zType>
-		<Translation>Mandated Aten worship</Translation>
+		<de-DE>Mandated Aten worship</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DESTROYED_TEMPLES_ATENISM</zType>
-		<Translation>Destroyed temples in the name of Aten</Translation>
+		<de-DE>Destroyed temples in the name of Aten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_HONORED_GENERAL</zType>
-		<Translation>Honored our Geneal</Translation>
+		<de-DE>Honored our Geneal</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GAVE_DELICIOUS_WINE</zType>
-		<Translation>Gave us delicious drinks</Translation>
+		<de-DE>Gave us delicious drinks</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_NONSENSE_SPEECH</zType>
-		<Translation>Delivered an embarassingly nonsensical speech</Translation>
+		<de-DE>Delivered an embarassingly nonsensical speech</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DEFENDED_PRIEST_PRICES</zType>
-		<Translation>Defended priests raising ritual prices</Translation>
+		<de-DE>Defended priests raising ritual prices</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ARGUED_PRIEST_PRICES</zType>
-		<Translation>Sided with family against the priests</Translation>
+		<de-DE>Sided with family against the priests</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_BURIAL_RITES</zType>
-		<Translation>Refused a family member burial rites</Translation>
+		<de-DE>Refused a family member burial rites</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ALLOWED_BURIAL_RITES</zType>
-		<Translation>Allowed a family member burial rites</Translation>
+		<de-DE>Allowed a family member burial rites</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_HONORED_OUR_DEAD</zType>
-		<Translation>Honoured our dead</Translation>
+		<de-DE>Honoured our dead</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DISHONORED_OUR_DEAD</zType>
-		<Translation>Dishonoured our dead</Translation>
+		<de-DE>Dishonoured our dead</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ABANDONED_BURIAL_PRACTICES</zType>
-		<Translation>Abandoned traditional burial practices</Translation>
+		<de-DE>Abandoned traditional burial practices</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_UPHELD_BURIAL_PRACTICES</zType>
-		<Translation>Upheld traditional burial practices</Translation>
+		<de-DE>Upheld traditional burial practices</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_TOASTED</zType>
-		<Translation>Toasted us at a celebration</Translation>
+		<de-DE>Toasted us at a celebration</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ADOPTED_NEW_GOD_AS_OWN</zType>
-		<Translation>Stopped us honouring a new god</Translation>
+		<de-DE>Stopped us honouring a new god</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ENCOURAGED_WORSHIP</zType>
-		<Translation>Encouraged us in honouring a new god</Translation>
+		<de-DE>Encouraged us in honouring a new god</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DIVINE_LINEAGE</zType>
-		<Translation>Has divine lineage</Translation>
+		<de-DE>Has divine lineage</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_FAITH_SPONSORING</zType>
-		<Translation>Stopped us from sponsoring worship</Translation>
+		<de-DE>Stopped us from sponsoring worship</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REMOVED_CORRUPT_OPPONENT</zType>
-		<Translation>Dealt with a corrupt member of another family</Translation>
+		<de-DE>Dealt with a corrupt member of another family</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_UNJUSTLY_KILLED_MEMBER</zType>
-		<Translation>Unjustly killed a member of our family</Translation>
+		<de-DE>Unjustly killed a member of our family</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_DISPUTE_DIPLOMAT</zType>
-		<Translation>Sorted out a family dispute in a diplomatic way</Translation>
+		<de-DE>Sorted out a family dispute in a diplomatic way</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_UNDERMINED_RELIGIOUS_POSITION</zType>
-		<Translation>Undermined religious standing</Translation>
+		<de-DE>Undermined religious standing</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_IMPRESSED_BY_CHEF</zType>
-		<Translation>Impressed by 'your' chef</Translation>
+		<de-DE>Impressed by 'your' chef</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_PRAISED_CHEF</zType>
-		<Translation>Praised our chef</Translation>
+		<de-DE>Praised our chef</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SUPPORTED_HEIR_CANDIDATE_YES</zType>
-		<Translation>Endorsed our favored successor</Translation>
+		<de-DE>Endorsed our favored successor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SUPPORTED_HEIR_CANDIDATE_NO</zType>
-		<Translation>Endorsed a dispised successor</Translation>
+		<de-DE>Endorsed a dispised successor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ACCEPTED_TRUCE</zType>
-		<Translation>Accepted a foreign truce</Translation>
+		<de-DE>Accepted a foreign truce</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_TRUCE</zType>
-		<Translation>Refused a foreign truce</Translation>
+		<de-DE>Refused a foreign truce</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_UNITED_AGAINST_LEADER</zType>
-		<Translation>United against leader</Translation>
+		<de-DE>United against leader</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DUEL_EXECUTION</zType>
-		<Translation>Executed kin-slayer</Translation>
+		<de-DE>Executed kin-slayer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DUEL_EXILE</zType>
-		<Translation>Exiled kin-slayer</Translation>
+		<de-DE>Exiled kin-slayer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DUEL_PARDON</zType>
-		<Translation>Released kin-slayer</Translation>
+		<de-DE>Released kin-slayer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_GENERAL_TRAGEDY_SUPPORTED</zType>
-		<Translation>Supported us after general's death</Translation>
+		<de-DE>Supported us after general's death</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_GENERAL_TRAGEDY_OPPOSED</zType>
-		<Translation>Sided against us after general's death</Translation>
+		<de-DE>Sided against us after general's death</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FLED_BATTLE</zType>
-		<Translation>Fled the field of battle</Translation>
+		<de-DE>Fled the field of battle</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DISAPPEARED_AMBASSADOR_WAR</zType>
-		<Translation>Stood up to foreign subterfuge</Translation>
+		<de-DE>Stood up to foreign subterfuge</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DISAPPEARED_AMBASSADOR</zType>
-		<Translation>Stood up to foreign subterfuge</Translation>
+		<de-DE>Stood up to foreign subterfuge</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ALLOWED_MARRIAGE</zType>
-		<Translation>Allowed scandalous marriage</Translation>
+		<de-DE>Allowed scandalous marriage</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_STOPPED_MARRIAGE</zType>
-		<Translation>Stopped scandalous marriage</Translation>
+		<de-DE>Stopped scandalous marriage</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_CELEBRATED_SURVIVORS</zType>
-		<Translation>Celebrated the survival of our citizens</Translation>
+		<de-DE>Celebrated the survival of our citizens</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_KILLED_SUCCESSOR</zType>
-		<Translation>Suspects that you killed your heir</Translation>
+		<de-DE>Suspects that you killed your heir</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DANGEROUS_IDEAS</zType>
-		<Translation>Listened to dangerous ideas</Translation>
+		<de-DE>Listened to dangerous ideas</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_DANGEROUS_IDEAS_REJECT</zType>
-		<Translation>Rejected dangerous ideas</Translation>
+		<de-DE>Rejected dangerous ideas</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_OUR_AMBITION</zType>
-		<Translation>Unsere link(CONCEPT_AMBITION) vollendet</Translation>
+		<de-DE>Unsere link(CONCEPT_AMBITION) vollendet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_OUR_LEGACY</zType>
-		<Translation>Unser link(CONCEPT_LEGACY) vollendet</Translation>
+		<de-DE>Unser link(CONCEPT_LEGACY) vollendet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ADOPT_RELIGION_OTHER</zType>
-		<Translation>Wähle eine andere link(CONCEPT_STATE_RELIGION)</Translation>
+		<de-DE>Wähle eine andere link(CONCEPT_STATE_RELIGION)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ESTABLISH_THEOLOGY</zType>
-		<Translation>Etablierte eine link(CONCEPT_THEOLOGY)</Translation>
+		<de-DE>Etablierte eine link(CONCEPT_THEOLOGY)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SPREAD_RELIGION</zType>
-		<Translation>Unseren wahren Glauben verbreitet</Translation>
+		<de-DE>Unseren wahren Glauben verbreitet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_PURGE_RELIGION</zType>
-		<Translation>Purged us from your Cities</Translation>
+		<de-DE>Purged us from your Cities</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_HIGH_SYNOD_SUCCESS</zType>
-		<Translation>Organized a successful link(MISSION_HIGH_SYNOD)</Translation>
+		<de-DE>Organized a successful link(MISSION_HIGH_SYNOD)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_HIGH_SYNOD_FAILURE</zType>
-		<Translation>Held a failed link(MISSION_HIGH_SYNOD)</Translation>
+		<de-DE>Held a failed link(MISSION_HIGH_SYNOD)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_MADE_OFFERINGS</zType>
-		<Translation>Made holy offerings</Translation>
+		<de-DE>Made holy offerings</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_REFUSED_OFFERINGS</zType>
-		<Translation>Refuse to make offerings</Translation>
+		<de-DE>Refuse to make offerings</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_RELEASED_PRIESTS</zType>
-		<Translation>Release zealous priests</Translation>
+		<de-DE>Release zealous priests</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_FAMILY_WAR_YES</zType>
-		<Translation>Fought for a Family of our faith</Translation>
+		<de-DE>Fought for a Family of our faith</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_MOURNED_IN_PRAYER</zType>
-		<Translation>Mourned child in prayer</Translation>
+		<de-DE>Mourned child in prayer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_TRAINED_CHILD</zType>
-		<Translation>Unser Kind unterrichtet</Translation>
+		<de-DE>Unser Kind unterrichtet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_WONDER_HAGIA_SOPHIA</zType>
-		<Translation>Our faith has been given a home</Translation>
+		<de-DE>Our faith has been given a home</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ADOPTED_ZOROASTRIANISM</zType>
-		<Translation>Zoroastrismus adoptiert</Translation>
+		<de-DE>Zoroastrismus adoptiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SPREAD_ZOROASTRIANISM</zType>
-		<Translation>Zoroastrismus verbreitet</Translation>
+		<de-DE>Zoroastrismus verbreitet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_OUTLAWED_ZOROASTRIANISM</zType>
-		<Translation>Outlawed Zoroastrianism</Translation>
+		<de-DE>Outlawed Zoroastrianism</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_JAILED_MISSIONARY</zType>
-		<Translation>Left our missionary in prison</Translation>
+		<de-DE>Left our missionary in prison</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ADOPTED_JUDAISM</zType>
-		<Translation>Judentum adoptiert</Translation>
+		<de-DE>Judentum adoptiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_REFUSED_JUDAISM</zType>
-		<Translation>Refuse to adopt Judaism</Translation>
+		<de-DE>Refuse to adopt Judaism</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SPREAD_CHRISTIANITY</zType>
-		<Translation>Christentum verbreitet</Translation>
+		<de-DE>Christentum verbreitet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_BROKE_UP_GATHERING</zType>
-		<Translation>Broke up our gathering</Translation>
+		<de-DE>Broke up our gathering</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ALLOWED_GATHERING</zType>
-		<Translation>Erlaubte uns zu versammeln</Translation>
+		<de-DE>Erlaubte uns zu versammeln</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_RELIGION_OPINION_GOOD</zType>
-		<Translation>Unseren Glauben geehrt</Translation>
+		<de-DE>Unseren Glauben geehrt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_RELIGION_OPINION_BAD</zType>
-		<Translation>Disrespected our beliefs</Translation>
+		<de-DE>Disrespected our beliefs</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ADOPTED_CHRISTIANITY</zType>
-		<Translation>Christentum adoptiert</Translation>
+		<de-DE>Christentum adoptiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ADOPTED_MANICHAEISM</zType>
-		<Translation>Manichäismus gegründet</Translation>
+		<de-DE>Manichäismus gegründet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ORTHDOXY_AGAINST</zType>
-		<Translation>Chose Orthodoxy against us</Translation>
+		<de-DE>Chose Orthodoxy against us</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_HYMNS_TO_THE_PEOPLE</zType>
-		<Translation>Brought hymns to the people</Translation>
+		<de-DE>Brought hymns to the people</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_PATRIARCH_OLIGARCH_POS</zType>
-		<Translation>Favored us in theological dispute</Translation>
+		<de-DE>Favored us in theological dispute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_PATRIARCH_OLIGARCH_NEG</zType>
-		<Translation>Did not favor us in theological dispute</Translation>
+		<de-DE>Did not favor us in theological dispute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_DECADENT_CITY</zType>
-		<Translation>Disapproved of city's decadence</Translation>
+		<de-DE>Disapproved of city's decadence</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_RUINS_RESTORED_TEMPLE</zType>
-		<Translation>Restored ancient temple ruins</Translation>
+		<de-DE>Restored ancient temple ruins</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_GIVEN_INCENSE</zType>
-		<Translation>Given ritual incense</Translation>
+		<de-DE>Given ritual incense</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_FUNDED_VAULTED_TEMPLES</zType>
-		<Translation>Funded vaulted temples</Translation>
+		<de-DE>Funded vaulted temples</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_NO_FUNDING_TEMPLES</zType>
-		<Translation>Would not fund vaulted temples</Translation>
+		<de-DE>Would not fund vaulted temples</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_REFUSED_HOLY_WAR</zType>
-		<Translation>Refused to join holy war.</Translation>
+		<de-DE>Refused to join holy war.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_REFUSED_SPOUSE_WAR</zType>
-		<Translation>Refused to join war on behalf of spouse's nation.</Translation>
+		<de-DE>Refused to join war on behalf of spouse's nation.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_PROTECTED_PRACTITIONERS</zType>
-		<Translation>Protected followers</Translation>
+		<de-DE>Protected followers</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_PROTECTED_PILGRIMS</zType>
-		<Translation>Protected our pilgrims</Translation>
+		<de-DE>Protected our pilgrims</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ALLOWED_PERSECUTION</zType>
-		<Translation>Allowed our persecution</Translation>
+		<de-DE>Allowed our persecution</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ALLOWED_PURCHASE_OF_LAND</zType>
-		<Translation>Allowed purchase of land for tomb</Translation>
+		<de-DE>Allowed purchase of land for tomb</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_DENIED_PURCHASE</zType>
-		<Translation>Forced to rent tomb land</Translation>
+		<de-DE>Forced to rent tomb land</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_REFUSED_FREEING_SLAVES</zType>
-		<Translation>Would not help free Egyptian slaves</Translation>
+		<de-DE>Would not help free Egyptian slaves</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_HELPED_FREE_SLAVES</zType>
-		<Translation>Would helped free Egyptian slaves</Translation>
+		<de-DE>Would helped free Egyptian slaves</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_DEMANDED_WAR</zType>
-		<Translation>Threatened Egypt with war over our enslaved peoples</Translation>
+		<de-DE>Threatened Egypt with war over our enslaved peoples</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_BLOCKED_LAWS</zType>
-		<Translation>Blocked favorable laws</Translation>
+		<de-DE>Blocked favorable laws</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SUPPORTED_LAWS</zType>
-		<Translation>Supported punitive laws</Translation>
+		<de-DE>Supported punitive laws</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SWITCHED_STATE_RELIGION</zType>
-		<Translation>Abandoned our link(CONCEPT_STATE_RELIGION)</Translation>
+		<de-DE>Abandoned our link(CONCEPT_STATE_RELIGION)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_WOULD_NOT_CONVERT</zType>
-		<Translation>Would not convert</Translation>
+		<de-DE>Would not convert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_FAVORED_OTHER_RELIGION</zType>
-		<Translation>Favored other faith</Translation>
+		<de-DE>Favored other faith</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_IGNORED_AUGUSTINE</zType>
-		<Translation>Ignored the leader Augustine</Translation>
+		<de-DE>Ignored the leader Augustine</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_DECLARED_HOLY_WAR</zType>
-		<Translation>Heiligen Krieg erklärt</Translation>
+		<de-DE>Heiligen Krieg erklärt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_KEPT_THE_PEACE</zType>
-		<Translation>Den Frieden bewahrt</Translation>
+		<de-DE>Den Frieden bewahrt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_NEGOTIATED_RELEASE</zType>
-		<Translation>Negotiated release of priest</Translation>
+		<de-DE>Negotiated release of priest</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_REFUSED_PRISONER</zType>
-		<Translation>Would not rescue imprisoned priest</Translation>
+		<de-DE>Would not rescue imprisoned priest</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_RESCUED_PRISONER</zType>
-		<Translation>Gefangengenommenen Priester befreit</Translation>
+		<de-DE>Gefangengenommenen Priester befreit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SOLDIERS_FOR_ZOROASTER</zType>
-		<Translation>Our soldiers fight for Ahura Mazda</Translation>
+		<de-DE>Our soldiers fight for Ahura Mazda</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SOLDIERS_FOR_RULER</zType>
-		<Translation>Our soldiers spurn Ahura Mazda</Translation>
+		<de-DE>Our soldiers spurn Ahura Mazda</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_HELPED_RECOVER</zType>
-		<Translation>Helped us recover after destruction</Translation>
+		<de-DE>Helped us recover after destruction</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_REFUSED_TREASURY</zType>
-		<Translation>Refused to support new treasury</Translation>
+		<de-DE>Refused to support new treasury</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_PLACED_SECURITY</zType>
-		<Translation>Saw us as instigators</Translation>
+		<de-DE>Saw us as instigators</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_BUILT_SHRINE_TO_MARTYRS</zType>
-		<Translation>Built a shrine to martyrs</Translation>
+		<de-DE>Built a shrine to martyrs</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_IMPRISONED_MURDEROUS_GENERAL</zType>
-		<Translation>Imprisoned murderous general</Translation>
+		<de-DE>Imprisoned murderous general</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_DISHONORED_MARTYRS</zType>
-		<Translation>Dishonored our martyrs</Translation>
+		<de-DE>Dishonored our martyrs</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_BANNED_GATHERINGS</zType>
-		<Translation>Banned our gatherings</Translation>
+		<de-DE>Banned our gatherings</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SHARED_FAITH</zType>
-		<Translation>Shared faith with ruler</Translation>
+		<de-DE>Shared faith with ruler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SPREAD_NO</zType>
-		<Translation>Geweigert unseren Glauben zu verbreiten</Translation>
+		<de-DE>Geweigert unseren Glauben zu verbreiten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_PUBLIC_SUPPORT</zType>
-		<Translation>Supported the faith in diplomacy</Translation>
+		<de-DE>Supported the faith in diplomacy</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ADOPTED_FALSE_RELIGION</zType>
-		<Translation>Unrechte Religion adoptiert</Translation>
+		<de-DE>Unrechte Religion adoptiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_REFUSED_LAW</zType>
-		<Translation>Geweigert ein Gesetz zu ändern</Translation>
+		<de-DE>Geweigert ein Gesetz zu ändern</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_IMPRESSED_PRIESTS</zType>
-		<Translation>Wütende Priester beeindruckt</Translation>
+		<de-DE>Wütende Priester beeindruckt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SHOWED_DEVOTION</zType>
-		<Translation>Show devotion to the faith</Translation>
+		<de-DE>Show devotion to the faith</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_PARTICIPATED_IN_OPPOSING_RITUAL</zType>
-		<Translation>Ruler participated in other religion's ritual</Translation>
+		<de-DE>Ruler participated in other religion's ritual</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_MADE_OTHER_RELIGION_STATE</zType>
-		<Translation>Chose a different link(CONCEPT_STATE_RELIGION)</Translation>
+		<de-DE>Chose a different link(CONCEPT_STATE_RELIGION)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SHRINE_DEDICATION_YES</zType>
-		<Translation>Attended the dedication of a new shrine</Translation>
+		<de-DE>Attended the dedication of a new shrine</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SHRINE_DEDICATION_NO</zType>
-		<Translation>Rejected the dedication of a new shrine</Translation>
+		<de-DE>Rejected the dedication of a new shrine</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ENCOURAGED_DIALOGUE</zType>
-		<Translation>Encouraged interfaith dialogue</Translation>
+		<de-DE>Encouraged interfaith dialogue</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_PUT_DOWN_UPRISING</zType>
-		<Translation>Violently responded to discontent</Translation>
+		<de-DE>Violently responded to discontent</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SHOWED_ARTIFACTS</zType>
-		<Translation>Showed artifacts of interest to our faith</Translation>
+		<de-DE>Showed artifacts of interest to our faith</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_LAID_DOWN_ARMS</zType>
-		<Translation>Laid down arms against the righteous</Translation>
+		<de-DE>Laid down arms against the righteous</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ALLOWED_PILGRIMS_WAR</zType>
-		<Translation>Allowed pilgrims into our holy city despite a war</Translation>
+		<de-DE>Allowed pilgrims into our holy city despite a war</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_TOOK_PILGRIMS_HOSTAGE</zType>
-		<Translation>Took pilgrims approaching our holy city hostage</Translation>
+		<de-DE>Took pilgrims approaching our holy city hostage</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SUPPORTED_FAITH</zType>
-		<Translation>Gab Unterstützung</Translation>
+		<de-DE>Gab Unterstützung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_REFUSED_SUPPORT</zType>
-		<Translation>Unterstützung verweigert</Translation>
+		<de-DE>Unterstützung verweigert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ACCEPTED_GOVERNOR</zType>
-		<Translation>Vorgeschlagenen Statthalter zugestimmt</Translation>
+		<de-DE>Vorgeschlagenen Statthalter zugestimmt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_REFUSED_GOVERNOR</zType>
-		<Translation>Vorgeschlagenen Statthalter abgewiesen</Translation>
+		<de-DE>Vorgeschlagenen Statthalter abgewiesen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ALLOWED_SPONSORS</zType>
-		<Translation>Allowed other family to sponsor worship</Translation>
+		<de-DE>Allowed other family to sponsor worship</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_PRAISED_AHURA_MAZDA</zType>
-		<Translation>Payed devotion to Ahura Mazda</Translation>
+		<de-DE>Payed devotion to Ahura Mazda</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SACRED_FIRE</zType>
-		<Translation>Kept the sacred fires burning</Translation>
+		<de-DE>Kept the sacred fires burning</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_IGNORED_INSULT</zType>
-		<Translation>Eine religiöse Beleidigung ignoriert</Translation>
+		<de-DE>Eine religiöse Beleidigung ignoriert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_AVENGED_INSULT</zType>
-		<Translation>Took retribution for a religious insult</Translation>
+		<de-DE>Took retribution for a religious insult</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ADOPTED_BURIAL_PRACTICES</zType>
-		<Translation>Adopted our burial practices</Translation>
+		<de-DE>Adopted our burial practices</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_RENEWED_FERVOUR</zType>
-		<Translation>Leidenschaft erneuert</Translation>
+		<de-DE>Leidenschaft erneuert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_THE_SAOSHYANT</zType>
-		<Translation>Is the Saoshyant</Translation>
+		<de-DE>Is the Saoshyant</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_MEMORABLE_CELEBRATION</zType>
-		<Translation>Hosted a memorable celebration</Translation>
+		<de-DE>Hosted a memorable celebration</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_OWES_A_DEBT</zType>
-		<Translation>Schuldet etwas</Translation>
+		<de-DE>Schuldet etwas</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_MADE_A_SACRIFICE</zType>
-		<Translation>Den Hirsch geopfert</Translation>
+		<de-DE>Den Hirsch geopfert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_REFUSED_A_SACRIFICE</zType>
-		<Translation>Geweigert eine Opfer zu geben</Translation>
+		<de-DE>Geweigert eine Opfer zu geben</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_RETURNED_SCROLLS</zType>
-		<Translation>Returned the scrolls</Translation>
+		<de-DE>Returned the scrolls</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_IGNORED_DIVINE_ANGER</zType>
-		<Translation>Ignored divine anger</Translation>
+		<de-DE>Ignored divine anger</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ACCEPTED_DIVINE_ANGER</zType>
-		<Translation>Accepted divine anger</Translation>
+		<de-DE>Accepted divine anger</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_REFUSED_PAYMENT_FOR_FIGHT</zType>
-		<Translation>Nicht für medizinische Behandlung bezahlt</Translation>
+		<de-DE>Nicht für medizinische Behandlung bezahlt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_TEMPLE_MARKET</zType>
-		<Translation>Closed temple market</Translation>
+		<de-DE>Closed temple market</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_NEW_GOD</zType>
-		<Translation>Unterstüzte einen neuen Gott</Translation>
+		<de-DE>Unterstüzte einen neuen Gott</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_QUESTIONED_GOD</zType>
-		<Translation>Gott infrage gestellt</Translation>
+		<de-DE>Gott infrage gestellt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_PRAISED_PRIESTS_ACTIONS</zType>
-		<Translation>Praised Priest's initiative</Translation>
+		<de-DE>Praised Priest's initiative</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_PUNISHED_PRIESTS_ACTIONS</zType>
-		<Translation>Punished Priest's initiative</Translation>
+		<de-DE>Punished Priest's initiative</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_TREATED_EQUALLY_WITH_HEAD</zType>
-		<Translation>Treated equally with our religion head</Translation>
+		<de-DE>Treated equally with our religion head</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_CRUMBLING_ZIGGURAT</zType>
-		<Translation>Failed to restore The Great Ziggurat</Translation>
+		<de-DE>Failed to restore The Great Ziggurat</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_IMPROVED_ZIGGURAT</zType>
-		<Translation>Restored and Improved The Great Ziggurat</Translation>
+		<de-DE>Restored and Improved The Great Ziggurat</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_IMPROVED_ZIGGURAT_SHRINE</zType>
-		<Translation>Restored and Improved The Great Ziggurat</Translation>
+		<de-DE>Restored and Improved The Great Ziggurat</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_ABDICATED_TO_RELIGIOUS_HEIR</zType>
-		<Translation>Abdicated for religious heir</Translation>
+		<de-DE>Abdicated for religious heir</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_DISCRACED_BY_RELIGION_HEAD</zType>
-		<Translation>Discraced by our Religion Head</Translation>
+		<de-DE>Discraced by our Religion Head</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_CENSORED_HEAD_YES</zType>
-		<Translation>Censored extreme religion head</Translation>
+		<de-DE>Censored extreme religion head</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_CENSORED_HEAD_NO</zType>
-		<Translation>Praised extreme religion head</Translation>
+		<de-DE>Praised extreme religion head</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_NO_TRIBUTE</zType>
-		<Translation>Didn’t demand faithful for tribute</Translation>
+		<de-DE>Didn’t demand faithful for tribute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SACRED_LANDMARK</zType>
-		<Translation>Gave us access to sacred landmark</Translation>
+		<de-DE>Gave us access to sacred landmark</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_FIRE_CULT</zType>
-		<Translation>Gave us access to sacred landmark</Translation>
+		<de-DE>Gave us access to sacred landmark</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_STOPPED_CULT_TEMPLE</zType>
-		<Translation>Stopped the building of a disliked cult</Translation>
+		<de-DE>Stopped the building of a disliked cult</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_SACRED_GROUND_RESPECTED</zType>
-		<Translation>Respected our sacred ground</Translation>
+		<de-DE>Respected our sacred ground</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_PILGRIMAGE_SITE_YES</zType>
-		<Translation>Gave access to pilgrimage site</Translation>
+		<de-DE>Gave access to pilgrimage site</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_PILGRIMAGE_SITE_NO</zType>
-		<Translation>Restricted access to pilgrimage site</Translation>
+		<de-DE>Restricted access to pilgrimage site</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_DEFILED_TEMPLE</zType>
-		<Translation>Brach in unseren Tempel ein</Translation>
+		<de-DE>Brach in unseren Tempel ein</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_DEFILED_TEMPLE_KILL</zType>
-		<Translation>Shed blood in our temple</Translation>
+		<de-DE>Shed blood in our temple</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_OTHER_DISCIPLE</zType>
-		<Translation>Funded a new religion's disciple</Translation>
+		<de-DE>Funded a new religion's disciple</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_SCHISM_FOR</zType>
-		<Translation>Sided with us in religious schism</Translation>
+		<de-DE>Sided with us in religious schism</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_SCHISM_AGAINST</zType>
-		<Translation>Sided against us in religious schism</Translation>
+		<de-DE>Sided against us in religious schism</de-DE>
 	</Entry>
 	<Entry beginGroup="Tribe">
 		<zType>TEXT_MEMORYCHARACTER_BLAMED_FOR_EXECUTED_SPIES</zType>
-		<Translation>Blamed for espionage debacle</Translation>
+		<de-DE>Blamed for espionage debacle</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SECURING_PEACE_NO</zType>
-		<Translation>Refused our helpful offer</Translation>
+		<de-DE>Refused our helpful offer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GRAVE_OFFENSE</zType>
-		<Translation>Ritual humiliation</Translation>
+		<de-DE>Ritual humiliation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_RAID_EARLY_WARNING</zType>
-		<Translation>Appreciated our warning</Translation>
+		<de-DE>Appreciated our warning</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_RAID_DEFAULT_POS</zType>
-		<Translation>Sent aid to our city</Translation>
+		<de-DE>Sent aid to our city</de-DE>
 	</Entry>
 	<Entry beginGroup="Family">
 		<zType>TEXT_MEMORYFAMILY_CHOSEN_HEIR_NO</zType>
-		<Translation>Refused to make one of the us the Heir</Translation>
+		<de-DE>Refused to make one of the us the Heir</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SUCCESSION_NO</zType>
-		<Translation>Refused our succession changes</Translation>
+		<de-DE>Refused our succession changes</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_CEREMONIAL_OFFERING_NO</zType>
-		<Translation>Refused to perform ceremonies for us</Translation>
+		<de-DE>Refused to perform ceremonies for us</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_CEREMONIAL_OFFERING_REQUISITION</zType>
-		<Translation>Requisitioned supplies for ceremonies</Translation>
+		<de-DE>Requisitioned supplies for ceremonies</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_GAMES</zType>
-		<Translation>Hosted games in our honor</Translation>
+		<de-DE>Hosted games in our honor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_QUARREL_ALLOW</zType>
-		<Translation>Allowed lovers to escape</Translation>
+		<de-DE>Allowed lovers to escape</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_QUARREL_HELP</zType>
-		<Translation>Helped pursue fleeing wife</Translation>
+		<de-DE>Helped pursue fleeing wife</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_US</zType>
-		<Translation>Attended our ceremony</Translation>
+		<de-DE>Attended our ceremony</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_THEM</zType>
-		<Translation>Attended our rival's ceremony</Translation>
+		<de-DE>Attended our rival's ceremony</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_NO</zType>
-		<Translation>Refused to attend our ceremony</Translation>
+		<de-DE>Refused to attend our ceremony</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_TOOK_BRIBE</zType>
-		<Translation>Sided with us in squabble</Translation>
+		<de-DE>Sided with us in squabble</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_REJECTED</zType>
-		<Translation>Sided against us in squabble</Translation>
+		<de-DE>Sided against us in squabble</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_WASTED_BRIBE</zType>
-		<Translation>Took our bribe and did nothing</Translation>
+		<de-DE>Took our bribe and did nothing</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_REFUSED_BRIBE</zType>
-		<Translation>Refused to side with us in squabble</Translation>
+		<de-DE>Refused to side with us in squabble</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_US</zType>
-		<Translation>Let us join honor guard</Translation>
+		<de-DE>Let us join honor guard</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_THEM</zType>
-		<Translation>Let our rival join honor guard</Translation>
+		<de-DE>Let our rival join honor guard</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_NO</zType>
-		<Translation>Refused our candidate for honor guard</Translation>
+		<de-DE>Refused our candidate for honor guard</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_LAND_SUPPORTED</zType>
-		<Translation>Sided with us in land dispute</Translation>
+		<de-DE>Sided with us in land dispute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_LAND_OPPOSED</zType>
-		<Translation>Sided against us in land dispute</Translation>
+		<de-DE>Sided against us in land dispute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_LAND_SEIZED</zType>
-		<Translation>Seized an estate that we claim</Translation>
+		<de-DE>Seized an estate that we claim</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_PARTISANS_HELP</zType>
-		<Translation>Helped some of our Furious citizens</Translation>
+		<de-DE>Helped some of our Furious citizens</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_OK_FAMILY_MAIN</zType>
-		<Translation>Cemented our close ties</Translation>
+		<de-DE>Cemented our close ties</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_OK_FAMILY_OTHER</zType>
-		<Translation>Blatantly favored other vassals</Translation>
+		<de-DE>Blatantly favored other vassals</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_COMPROMISE_FAMILY_MAIN</zType>
-		<Translation>Refused to preside over our ceremony</Translation>
+		<de-DE>Refused to preside over our ceremony</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_COMPROMISE_FAMILY_OTHER</zType>
-		<Translation>Favored other vassals</Translation>
+		<de-DE>Favored other vassals</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORFAMILYY_FAVORED_VASSAL_CEREMONY_NO</zType>
-		<Translation>Refused our most sacred honor</Translation>
+		<de-DE>Refused our most sacred honor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAVORED_VASSAL_FEAST_NO</zType>
-		<Translation>Refused to supply our feast</Translation>
+		<de-DE>Refused to supply our feast</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAVORED_VASSAL_NO</zType>
-		<Translation>Refused to cover our costs</Translation>
+		<de-DE>Refused to cover our costs</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_HEATED_RIVALRY_REFUSE</zType>
-		<Translation>Refused to abandon support for heir</Translation>
+		<de-DE>Refused to abandon support for heir</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_IMPROPER_VASSAL_REPRIMAND</zType>
-		<Translation>Reprimanded us for impropriety</Translation>
+		<de-DE>Reprimanded us for impropriety</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_IMPROPER_VASSAL_LET_GO</zType>
-		<Translation>Failed to reprimand other vassals</Translation>
+		<de-DE>Failed to reprimand other vassals</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_CONTEST_OF_RHETORIC_REFUSE</zType>
-		<Translation>Refused to debate your policy</Translation>
+		<de-DE>Refused to debate your policy</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_RADICAL_PHILOSOPHER_RID_FAMILY</zType>
-		<Translation>Got rid of our philosopher friend</Translation>
+		<de-DE>Got rid of our philosopher friend</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_STRICTER_RULES</zType>
-		<Translation>Angered the Gods</Translation>
+		<de-DE>Angered the Gods</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SABOTAGE_OK</zType>
-		<Translation>Punished us for sabotage</Translation>
+		<de-DE>Punished us for sabotage</de-DE>
 	</Entry>
 	<Entry beginGroup="Royalty">
 		<zType>TEXT_MEMORYFAMILY_HEIR_WEDDING_FAUX_PAS_NOTHING</zType>
-		<Translation>Faux pas at heir's wedding</Translation>
+		<de-DE>Faux pas at heir's wedding</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_JOYOUS_WEDDING_ARISTOCRATS</zType>
-		<Translation>Invited to heir's wedding</Translation>
+		<de-DE>Invited to heir's wedding</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_CHILD_ROYAL_BIRTH_SEND</zType>
-		<Translation>Received gifts for royal birth</Translation>
+		<de-DE>Received gifts for royal birth</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_RUMOR_HAS_IT_SAVED</zType>
-		<Translation>Unsere Schlangen respektiert</Translation>
+		<de-DE>Unsere Schlangen respektiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_A_LITTLE_PUSHBACK_CHILD</zType>
-		<Translation>Didn't force a match on me</Translation>
+		<de-DE>Didn't force a match on me</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_A_LITTLE_PUSHBACK_FAMILY</zType>
-		<Translation>Refused our suitor for your child</Translation>
+		<de-DE>Refused our suitor for your child</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_IMPUDENT_MATCH</zType>
-		<Translation>Married one of our enemies</Translation>
+		<de-DE>Married one of our enemies</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_DOMESTIC_DISPUTE</zType>
-		<Translation>Exiled a rival for your attention</Translation>
+		<de-DE>Exiled a rival for your attention</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_UNHAPPY_SIBLING_NO</zType>
-		<Translation>Still feel unappreciated</Translation>
+		<de-DE>Still feel unappreciated</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_A_NEW_GENERAL_NO</zType>
-		<Translation>Didn't make our child a link(CONCEPT_GENERAL)</Translation>
+		<de-DE>Didn't make our child a link(CONCEPT_GENERAL)</de-DE>
 	</Entry>
 	<Entry beginGroup="Courtier">
 		<zType>TEXT_MEMORYCHARACTER_GP_DIPLOMATIC_MISSION_GOOD</zType>
-		<Translation>Welcomed our ambassadors</Translation>
+		<de-DE>Welcomed our ambassadors</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_GP_DIPLOMATIC_MISSION_GREAT</zType>
-		<Translation>Wished to treat with our ambassadors</Translation>
+		<de-DE>Wished to treat with our ambassadors</de-DE>
 	</Entry>
 	<Entry beginGroup="Leader">
 		<zType>TEXT_MEMORYFAMILY_DELICIOUS_DRINKS_FRIEND</zType>
-		<Translation>Insulted at feast</Translation>
+		<de-DE>Insulted at feast</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SLAVE_REVOLT_1</zType>
-		<Translation>Allowed us to try to deal with slave revolt</Translation>
+		<de-DE>Allowed us to try to deal with slave revolt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SLAVE_REVOLT_4</zType>
-		<Translation>Freed the slaves who killed our family head</Translation>
+		<de-DE>Freed the slaves who killed our family head</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SLAVE_REVOLT_4_FORGIVENESS</zType>
-		<Translation>Gave into the demands of the slave revolt</Translation>
+		<de-DE>Gave into the demands of the slave revolt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_GIFTED_TECH</zType>
-		<Translation>Gab uns neue Technologie</Translation>
+		<de-DE>Gab uns neue Technologie</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_DECEIVED_US</zType>
-		<Translation>We have been deceived!</Translation>
+		<de-DE>We have been deceived!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GAVE_AUTONOMY</zType>
-		<Translation>Allowed autonomous rule of our city</Translation>
+		<de-DE>Allowed autonomous rule of our city</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYRELIGION_DIVORCED_SPOUSE</zType>
-		<Translation>Divorced spouse of our religion</Translation>
+		<de-DE>Divorced spouse of our religion</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_ACCEPTED_AMBITION</zType>
-		<Translation>Meine Ambition zugesagt</Translation>
+		<de-DE>Meine Ambition zugesagt</de-DE>
 	</Entry>
 </Root>

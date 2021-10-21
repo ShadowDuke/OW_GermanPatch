@@ -1,495 +1,495 @@
-<!-- German Translation (© Revan ©) -->
+<!-- German de-DE (© Revan ©) -->
 
 <Root>
 	<!--Assets/GameAssets/Resources/Infos/improvement.xml-->
-	<!--NOTE: improvement names that are mass nouns or plural do not need multiple types in Translation-->
+	<!--NOTE: improvement names that are mass nouns or plural do not need multiple types in de-DE-->
 	<Entry>
 		<zType/>
-		<Translation/>
+		<de-DE/>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_ANCIENT_RUINS</zType>
-		<Translation>Antike Ruine~eine Antike Ruine~Antike Ruinen</Translation>
+		<de-DE>Antike Ruine~eine Antike Ruine~Antike Ruinen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_CITY_SITE</zType>
-		<Translation>Stadtplatz~ein Stadtplatz~Stadtplätze</Translation>
+		<de-DE>Stadtplatz~ein Stadtplatz~Stadtplätze</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_RUINS_1</zType>
-		<Translation>Armselige Ruine</Translation>
+		<de-DE>Armselige Ruine</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_RUINS_2</zType>
-		<Translation>Abgelegene Ruine</Translation>
+		<de-DE>Abgelegene Ruine</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_RUINS_3</zType>
-		<Translation>Ruinenlager</Translation>
+		<de-DE>Ruinenlager</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_RUINS_4</zType>
-		<Translation>Ruinenfestung</Translation>
+		<de-DE>Ruinenfestung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SETTLEMENT_1</zType>
-		<Translation>Hütte~eine Hütte~Hütten</Translation>
+		<de-DE>Hütte~eine Hütte~Hütten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SETTLEMENT_2</zType>
-		<Translation>Vorposten~ein Vorposten~Vorposten</Translation>
+		<de-DE>Vorposten~ein Vorposten~Vorposten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SETTLEMENT_3</zType>
-		<Translation>Lager~ein Lager~Lager</Translation>
+		<de-DE>Lager~ein Lager~Lager</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SETTLEMENT_4</zType>
-		<Translation>Festung~eine Festung~Festungen</Translation>
+		<de-DE>Festung~eine Festung~Festungen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_FORT</zType>
-		<Translation>Fort~ein Fort~Forts</Translation>
+		<de-DE>Fort~ein Fort~Forts</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_FARM</zType>
-		<Translation>Farm~eine Farm~Farmen</Translation>
+		<de-DE>Farm~eine Farm~Farmen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_MINE</zType>
-		<Translation>Mine~eine Mine~Minen</Translation>
+		<de-DE>Mine~eine Mine~Minen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_QUARRY</zType>
-		<Translation>Steinbruch~ein Steinbruch~Steinbrüchen</Translation>
+		<de-DE>Steinbruch~ein Steinbruch~Steinbrüchen</de-DE>
 	</Entry>
 		<Entry>
 		<zType>TEXT_IMPROVEMENT_LUMBERMILL</zType>
-		<Translation>Sägewerk~ein Sägewerk~Sägewerken</Translation>
+		<de-DE>Sägewerk~ein Sägewerk~Sägewerken</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_PASTURE</zType>
-		<Translation>Weide~eine Weide~Weiden</Translation>
+		<de-DE>Weide~eine Weide~Weiden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_CAMP</zType>
-		<Translation>Lager~ein Lager~Lager</Translation>
+		<de-DE>Lager~ein Lager~Lager</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_GROVE</zType>
-		<Translation>Plantage~eine Plantage~Plantagen</Translation>
+		<de-DE>Plantage~eine Plantage~Plantagen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_NETS</zType>
-		<Translation>Fischernetze</Translation>
+		<de-DE>Fischernetze</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_HARBOR</zType>
-		<Translation>Hafen~ein Hafen~Häfen</Translation>
+		<de-DE>Hafen~ein Hafen~Häfen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_GRANARY</zType>
-		<Translation>Kornkammer~eine Kornkammer~Kornkammern</Translation>
+		<de-DE>Kornkammer~eine Kornkammer~Kornkammern</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_WATERMILL</zType>
-		<Translation>Wassermühle~eine Wassermühle~Wassermühlen</Translation>
+		<de-DE>Wassermühle~eine Wassermühle~Wassermühlen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_WINDMILL</zType>
-		<Translation>Windmühle~eine Windmühle~Windmühlen</Translation>
+		<de-DE>Windmühle~eine Windmühle~Windmühlen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_HAMLET</zType>
-		<Translation>Dorf~ein DOrf~Dörfern</Translation>
+		<de-DE>Dorf~ein DOrf~Dörfern</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_VILLAGE</zType>
-		<Translation>Ortschaft~eine Ortschaft~Ortschaften</Translation>
+		<de-DE>Ortschaft~eine Ortschaft~Ortschaften</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_TOWN</zType>
-		<Translation>Kleinstadt~eine Kleinstadt~Kleinstädten</Translation>
+		<de-DE>Kleinstadt~eine Kleinstadt~Kleinstädten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_MINOR_CITY</zType>
-		<Translation>Nebenstadt~eine Nebenstadt~Nebenstädten</Translation>
+		<de-DE>Nebenstadt~eine Nebenstadt~Nebenstädten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_GARRISON_1</zType>
-		<Translation>Garnison~eine Garnison~Garnisonen</Translation>
+		<de-DE>Garnison~eine Garnison~Garnisonen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_GARRISON_2</zType>
-		<Translation>Hochburg~eine Hochburg~Hochburgen</Translation>
+		<de-DE>Hochburg~eine Hochburg~Hochburgen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_GARRISON_3</zType>
-		<Translation>Zitadelle~eine Zitadelle~Zitadellen</Translation>
+		<de-DE>Zitadelle~eine Zitadelle~Zitadellen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_BARRACKS</zType>
-		<Translation>Kaserne~eine Kaserne~Kasernen</Translation>
+		<de-DE>Kaserne~eine Kaserne~Kasernen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_RANGE</zType>
-		<Translation>Schießstand~ein Schießstand~Schießständen</Translation>
+		<de-DE>Schießstand~ein Schießstand~Schießständen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_THEATER_1</zType>
-		<Translation>Odeon~ein Odeon~Odeons</Translation>
+		<de-DE>Odeon~ein Odeon~Odeons</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_THEATER_2</zType>
-		<Translation>Amphitheater~ein Amphitheater~Amphitheatern</Translation>
+		<de-DE>Amphitheater~ein Amphitheater~Amphitheatern</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_THEATER_3</zType>
-		<Translation>Kolosseum~ein Kolosseum~Kolosseum</Translation>
+		<de-DE>Kolosseum~ein Kolosseum~Kolosseum</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_BATHS_1</zType>
-		<Translation>Kaltwasserbecken</Translation>
+		<de-DE>Kaltwasserbecken</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_BATHS_2</zType>
-		<Translation>Warmwasserbecken </Translation>
+		<de-DE>Warmwasserbecken </de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_BATHS_3</zType>
-		<Translation>Dampfbad</Translation>
+		<de-DE>Dampfbad</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_MARKET_1</zType>
-		<Translation>Krämer~ein Krämer~Krämer</Translation>
+		<de-DE>Krämer~ein Krämer~Krämer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_MARKET_2</zType>
-		<Translation>Markt~ein Markt~Märkte</Translation>
+		<de-DE>Markt~ein Markt~Märkte</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_MARKET_3</zType>
-		<Translation>Jahrmarkt~ein Jahrmarkt~Jahrmärkte</Translation>
+		<de-DE>Jahrmarkt~ein Jahrmarkt~Jahrmärkte</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_LIBRARY_1</zType>
-		<Translation>Bibliothek~eine Bibliothek~Bibliotheken</Translation>
+		<de-DE>Bibliothek~eine Bibliothek~Bibliotheken</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_LIBRARY_2</zType>
-		<Translation>Akademie~eine Akademie~Akademien</Translation>
+		<de-DE>Akademie~eine Akademie~Akademien</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_LIBRARY_3</zType>
-		<Translation>Universität~eine Universität~Universitäten</Translation>
+		<de-DE>Universität~eine Universität~Universitäten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_COURTHOUSE_1</zType>
-		<Translation>Gerichtshof~ein Gerichtshof~Gerichtshöfe</Translation>
+		<de-DE>Gerichtshof~ein Gerichtshof~Gerichtshöfe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_COURTHOUSE_2</zType>
-		<Translation>Justizministerium~ein Justizministerium~Justizministerien</Translation>
+		<de-DE>Justizministerium~ein Justizministerium~Justizministerien</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_COURTHOUSE_3</zType>
-		<Translation>Schloss~ein Schloss~Schlösser</Translation>
+		<de-DE>Schloss~ein Schloss~Schlösser</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_NINURTA</zType>
-		<Translation>Scchrein des Ninurta</Translation>
+		<de-DE>Scchrein des Ninurta</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_MARS</zType>
-		<Translation>Schrein des Mars</Translation>
+		<de-DE>Schrein des Mars</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_NUSKA</zType>
-		<Translation>Schrein des Nuska</Translation>
+		<de-DE>Schrein des Nuska</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_ATAR</zType>
-		<Translation>Schrein des Atar</Translation>
+		<de-DE>Schrein des Atar</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_VULCAN</zType>
-		<Translation>Schrein des Vulkan</Translation>
+		<de-DE>Schrein des Vulkan</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_NABU</zType>
-		<Translation>Schrein des Nabu</Translation>
+		<de-DE>Schrein des Nabu</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_ATHENA</zType>
-		<Translation>Schrein der Athene</Translation>
+		<de-DE>Schrein der Athene</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_SHAMASH</zType>
-		<Translation>Schrein der Shamahs</Translation>
+		<de-DE>Schrein der Shamahs</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_RA</zType>
-		<Translation>Schrein des Ra</Translation>
+		<de-DE>Schrein des Ra</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_MITHRA</zType>
-		<Translation>Schrein des Mithras</Translation>
+		<de-DE>Schrein des Mithras</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_MELQART</zType>
-		<Translation>Schrein des Melkart</Translation>
+		<de-DE>Schrein des Melkart</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_POSEIDON</zType>
-		<Translation>Schrein des Poseidon</Translation>
+		<de-DE>Schrein des Poseidon</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_ANAHITA</zType>
-		<Translation>Schrein der Anahita</Translation>
+		<de-DE>Schrein der Anahita</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_ISHTAR</zType>
-		<Translation>Schrein der Ishtar</Translation>
+		<de-DE>Schrein der Ishtar</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_ASTARTE</zType>
-		<Translation>Schrein der Astarte</Translation>
+		<de-DE>Schrein der Astarte</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_VENUS</zType>
-		<Translation>Schrein der Venus</Translation>
+		<de-DE>Schrein der Venus</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_ERESHKIGAL</zType>
-		<Translation>Schrein der Ereskigal</Translation>
+		<de-DE>Schrein der Ereskigal</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_OSIRIS</zType>
-		<Translation>Schrein des Osiris</Translation>
+		<de-DE>Schrein des Osiris</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_HADES</zType>
-		<Translation>Schrein des Hades</Translation>
+		<de-DE>Schrein des Hades</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_ESHMUN</zType>
-		<Translation>Schrein des Eschmun</Translation>
+		<de-DE>Schrein des Eschmun</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_ISIS</zType>
-		<Translation>Schrein der Isis</Translation>
+		<de-DE>Schrein der Isis</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_ASHUR</zType>
-		<Translation>Schrein des Assur</Translation>
+		<de-DE>Schrein des Assur</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_MARDUK</zType>
-		<Translation>Schrein des Marduk</Translation>
+		<de-DE>Schrein des Marduk</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_ZEUS</zType>
-		<Translation>Schrein des Zeus</Translation>
+		<de-DE>Schrein des Zeus</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_TANIT</zType>
-		<Translation>Schrein der Tanit</Translation>
+		<de-DE>Schrein der Tanit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_VESTA</zType>
-		<Translation>Schrein des Vesta</Translation>
+		<de-DE>Schrein des Vesta</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_NEITH</zType>
-		<Translation>Schrein der Neith</Translation>
+		<de-DE>Schrein der Neith</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_HVAR_KHSHAITA</zType>
-		<Translation>Schrein des Hvare-khshaeta</Translation>
+		<de-DE>Schrein des Hvare-khshaeta</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_MONASTERY_ZOROASTRIANISM</zType>
-		<Translation>Zoroastrier Kloster~ein Zoroastrier Kloster~Zoroastrier Klöster</Translation>
+		<de-DE>Zoroastrier Kloster~ein Zoroastrier Kloster~Zoroastrier Klöster</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_MONASTERY_JUDAISM</zType>
-		<Translation>Jüdisches Kloster~ein Jüdisches Kloster~Jüdischen Klöster</Translation>
+		<de-DE>Jüdisches Kloster~ein Jüdisches Kloster~Jüdischen Klöster</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_MONASTERY_CHRISTIANITY</zType>
-		<Translation>Christliches Kloster~ein Christliches Kloster~Christlichen Klöster</Translation>
+		<de-DE>Christliches Kloster~ein Christliches Kloster~Christlichen Klöster</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_MONASTERY_MANICHAEISM</zType>
-		<Translation>Manichäer Kloster~ein Manichäer Kloster~Manichäern Klöster</Translation>
+		<de-DE>Manichäer Kloster~ein Manichäer Kloster~Manichäern Klöster</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_TEMPLE_ZOROASTRIANISM</zType>
-		<Translation>Zoroastrier Tempel~ein Zoroastrier Tempel~Zoroastriern Tempel</Translation>
+		<de-DE>Zoroastrier Tempel~ein Zoroastrier Tempel~Zoroastriern Tempel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_TEMPLE_JUDAISM</zType>
-		<Translation>Jüdischer Tempel~ein Jüdischer Tempel~Jüdischen Tempel</Translation>
+		<de-DE>Jüdischer Tempel~ein Jüdischer Tempel~Jüdischen Tempel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_TEMPLE_CHRISTIANITY</zType>
-		<Translation>Christlicher Tempel~ein Christlicher Tempel~Christlichen Tempel</Translation>
+		<de-DE>Christlicher Tempel~ein Christlicher Tempel~Christlichen Tempel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_TEMPLE_MANICHAEISM</zType>
-		<Translation>Manichäer Tempel~ein Manichäer Tempel~Manichäern Tempeln</Translation>
+		<de-DE>Manichäer Tempel~ein Manichäer Tempel~Manichäern Tempeln</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_CATHEDRAL_ZOROASTRIANISM</zType>
-		<Translation>Zoroastrier Kathedrale~eine Zoroastrier Kathedrale~Zoroastriern Kathedralen</Translation>
+		<de-DE>Zoroastrier Kathedrale~eine Zoroastrier Kathedrale~Zoroastriern Kathedralen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_CATHEDRAL_JUDAISM</zType>
-		<Translation>Jüdische Kathedrale~eine Jüdische Kathedrale~Jüdischen Kathedralen</Translation>
+		<de-DE>Jüdische Kathedrale~eine Jüdische Kathedrale~Jüdischen Kathedralen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_CATHEDRAL_CHRISTIANITY</zType>
-		<Translation>Christliche Kathedrale~eine Christliche Kathedrale~Christlichen Kathedralen</Translation>
+		<de-DE>Christliche Kathedrale~eine Christliche Kathedrale~Christlichen Kathedralen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_CATHEDRAL_MANICHAEISM</zType>
-		<Translation>Manichäer kathedrale~eine Manichäer kathedrale~Manichäern Kathedralen</Translation>
+		<de-DE>Manichäer kathedrale~eine Manichäer kathedrale~Manichäern Kathedralen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_HOLY_SITE_ZOROASTRIANISM</zType>
-		<Translation>Das Adur Burzen-Mihr</Translation>
+		<de-DE>Das Adur Burzen-Mihr</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_HOLY_SITE_JUDAISM</zType>
-		<Translation>Der Salomonischer Tempel</Translation>
+		<de-DE>Der Salomonischer Tempel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_HOLY_SITE_CHRISTIANITY</zType>
-		<Translation>Die Grabeskirche</Translation>
+		<de-DE>Die Grabeskirche</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_HOLY_SITE_MANICHAEISM</zType>
-		<Translation>Der Cao'an</Translation>
+		<de-DE>Der Cao'an</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_PYRAMIDS</zType>
-		<Translation>Die Pyramiden von Gizeh</Translation>
+		<de-DE>Die Pyramiden von Gizeh</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_GREAT_ZIGGURAT</zType>
-		<Translation>Die Zikkurat des Mondgottes Nanna</Translation>
+		<de-DE>Die Zikkurat des Mondgottes Nanna</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_ORACLE</zType>
-		<Translation>Das Orakel von Delphi</Translation>
+		<de-DE>Das Orakel von Delphi</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_HANGING_GARDENS</zType>
-		<Translation>Die Hängenden Gärten der Semiramis</Translation>
+		<de-DE>Die Hängenden Gärten der Semiramis</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_NECROPOLIS</zType>
-		<Translation>Die Totenstadt</Translation>
+		<de-DE>Die Totenstadt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_ISHTAR_GATE</zType>
-		<Translation>Das Ischtar-Tor</Translation>
+		<de-DE>Das Ischtar-Tor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_LIGHTHOUSE</zType>
-		<Translation>Der Pharos von Alexandria</Translation>
+		<de-DE>Der Pharos von Alexandria</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_APADANA</zType>
-		<Translation>Der Apadana in Persepolis</Translation>
+		<de-DE>Der Apadana in Persepolis</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_MAUSOLEUM</zType>
-		<Translation>Das Grab des Königs Mausolos II.</Translation>
+		<de-DE>Das Grab des Königs Mausolos II.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_ACROPOLIS</zType>
-		<Translation>Die Akropolis in Athen</Translation>
+		<de-DE>Die Akropolis in Athen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_COLOSSUS</zType>
-		<Translation>Der Koloss von Rhodos</Translation>
+		<de-DE>Der Koloss von Rhodos</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_MUSAEUM</zType>
-		<Translation>Das Musaeum in Alexandria</Translation>
+		<de-DE>Das Musaeum in Alexandria</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_CIRCUS_MAXIMUS</zType>
-		<Translation>Der Circus Maximus</Translation>
+		<de-DE>Der Circus Maximus</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_PANTHEON</zType>
-		<Translation>Das Pantheon</Translation>
+		<de-DE>Das Pantheon</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_HAGIA_SOPHIA</zType>
-		<Translation>Die Hagia Sophia</Translation>
+		<de-DE>Die Hagia Sophia</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_VIA_RECTA_SOUK</zType>
-		<Translation>Die Altstadt von Damaskus</Translation>
+		<de-DE>Die Altstadt von Damaskus</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_LAURION_MINE</zType>
-		<Translation>Lavrio Mine~eine Lavrio Mine~Lavrio Minen</Translation>
+		<de-DE>Lavrio Mine~eine Lavrio Mine~Lavrio Minen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_FOREST_FIRE_TOMB</zType>
-		<Translation>Altes Grabmal~ein Altes Grabmal~Alte Grabmäler</Translation>
+		<de-DE>Altes Grabmal~ein Altes Grabmal~Alte Grabmäler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_FOREST_FIRE_MONUMENT</zType>
-		<Translation>Nationaldenkmal~ein Nationaldenkmal~Nationaldenkmäler</Translation>
+		<de-DE>Nationaldenkmal~ein Nationaldenkmal~Nationaldenkmäler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_GODS_CONSORT_SHRINE</zType>
-		<Translation>Götter gatten Schrein~ein Götter gatten Schrein~Göttergatten Schreine</Translation>
+		<de-DE>Götter gatten Schrein~ein Götter gatten Schrein~Göttergatten Schreine</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_TRIBE_PAGANISM</zType>
-		<Translation>Stamm Schrein~ein Stamm Schrein~Stamm Schreine</Translation>
+		<de-DE>Stamm Schrein~ein Stamm Schrein~Stamm Schreine</de-DE>
 	</Entry>
 	<!-- Hints -->
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_FARM_HINT</zType>
-		<Translation>Boosts link(YIELD_FOOD), which units consume every turn. If built over link(EFFECTCITY_RESOURCE_CROP) or next to a link(IMPROVEMENT_GRANARY), also increases link(YIELD_GROWTH), which makes cities produce link(UNIT_SETTLER,2) or link(UNIT_WORKER,2) faster.
-Can be further improved by developing a link(SPECIALISTCLASS_FARMER).</Translation>
+		<de-DE>Boosts link(YIELD_FOOD), which units consume every turn. If built over link(EFFECTCITY_RESOURCE_CROP) or next to a link(IMPROVEMENT_GRANARY), also increases link(YIELD_GROWTH), which makes cities produce link(UNIT_SETTLER,2) or link(UNIT_WORKER,2) faster.
+Can be further improved by developing a link(SPECIALISTCLASS_FARMER).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_MINE_HINT</zType>
-		<Translation>Boosts link(YIELD_IRON) production, which is needed for many military units. Higher output on Hills. Provides link(YIELD_MONEY) instead if built on link(RESOURCE_SILVER), link(RESOURCE_GOLD), link(RESOURCE_SALT) or link(RESOURCE_GEM).
-Can be developed with a link(SPECIALISTCLASS_MINER), which increases link(YIELD_TRAINING).</Translation>
+		<de-DE>Boosts link(YIELD_IRON) production, which is needed for many military units. Higher output on Hills. Provides link(YIELD_MONEY) instead if built on link(RESOURCE_SILVER), link(RESOURCE_GOLD), link(RESOURCE_SALT) or link(RESOURCE_GEM).
+Can be developed with a link(SPECIALISTCLASS_MINER), which increases link(YIELD_TRAINING).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_QUARRY_HINT</zType>
-		<Translation>Boosts link(YIELD_STONE) production, which is needed to construct most buildings and some units.
-		Can be further developed with link(SPECIALISTCLASS_STONECUTTER), which grants more stone and additional link(YIELD_CIVICS).</Translation>
+		<de-DE>Boosts link(YIELD_STONE) production, which is needed to construct most buildings and some units.
+		Can be further developed with link(SPECIALISTCLASS_STONECUTTER), which grants more stone and additional link(YIELD_CIVICS).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_LUMBERMILL_HINT</zType>
-		<Translation>The only improvement that provides link(YIELD_WOOD). Extra effective when built on a river.</Translation>
+		<de-DE>The only improvement that provides link(YIELD_WOOD). Extra effective when built on a river.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_PASTURE_HINT</zType>
-		<Translation>Provides link(YIELD_ORDERS) if built on link(RESOURCE_HORSE), or link(YIELD_FOOD) and link(YIELD_GROWTH) on other resources.</Translation>
+		<de-DE>Provides link(YIELD_ORDERS) if built on link(RESOURCE_HORSE), or link(YIELD_FOOD) and link(YIELD_GROWTH) on other resources.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_CAMP_HINT</zType>
-		<Translation>Provides yields depending on the resource it's built on. If built on link(RESOURCE_ELEPHANT) or link(RESOURCE_CAMEL), will allow the city to build units that require those resources, once the necessary technology is acquired. Extra effective next to a link(IMPROVEMENT_LUMBERMILL).</Translation>
+		<de-DE>Provides yields depending on the resource it's built on. If built on link(RESOURCE_ELEPHANT) or link(RESOURCE_CAMEL), will allow the city to build units that require those resources, once the necessary technology is acquired. Extra effective next to a link(IMPROVEMENT_LUMBERMILL).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_GROVE_HINT</zType>
-		<Translation>Usually built on a link(CONCEPT_LUXURY) resource, provides different yields depending on the resource.</Translation>
+		<de-DE>Usually built on a link(CONCEPT_LUXURY) resource, provides different yields depending on the resource.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_GRANARY_HINT</zType>
-		<Translation>Provides link(YIELD_GROWTH) and boosts adjacent link(IMPROVEMENT_FARM,2). Most effective when surrounded by link(IMPROVEMENT_FARM,2).
-Granaries do not have any associated link(CONCEPT_SPECIALIST).</Translation>
+		<de-DE>Provides link(YIELD_GROWTH) and boosts adjacent link(IMPROVEMENT_FARM,2). Most effective when surrounded by link(IMPROVEMENT_FARM,2).
+Granaries do not have any associated link(CONCEPT_SPECIALIST).</de-DE>
 	</Entry>
 </Root>

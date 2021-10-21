@@ -1,425 +1,425 @@
-<!-- German Translation (© Revan ©) -->
+<!-- German de-DE (© Revan ©) -->
 
 <Root>
 	<!--Generic-->
 	<Entry>
 		<zType/>
-		<Translation/>
+		<de-DE/>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_1</zType>
-		<Translation>Einheiten in einem Wald bekommen einen Verteidigungsbonus gegen link(UNITTRAIT_RANGED).</Translation>
+		<de-DE>Einheiten in einem Wald bekommen einen Verteidigungsbonus gegen link(UNITTRAIT_RANGED).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_2</zType>
-		<Translation>Einheiten auf Flachem Gelände sind anfällig gegen link(UNITTRAIT_MOUNTED) Einheiten.</Translation>
+		<de-DE>Einheiten auf Flachem Gelände sind anfällig gegen link(UNITTRAIT_MOUNTED) Einheiten.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_3</zType>
-		<Translation>link(UNITTRAIT_MELEE) link(UNITTRAIT_INFANTRY) kann sich verschanzen um einen Verteidigungsbonus zu bekommen, falls sie auf ihrem aktuellen Feld bleibt.</Translation>
+		<de-DE>link(UNITTRAIT_MELEE) link(UNITTRAIT_INFANTRY) kann sich verschanzen um einen Verteidigungsbonus zu bekommen, falls sie auf ihrem aktuellen Feld bleibt.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_4</zType>
-		<Translation>Landeinheiten können sich schnell über Wasser zu Städten und vor Anker liegende Booten die du kontrollierst bewegen..</Translation>
+		<de-DE>Landeinheiten können sich schnell über Wasser zu Städten und vor Anker liegende Booten die du kontrollierst bewegen..</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_5</zType>
-		<Translation>Drücke V um dein Handelsnetz und Verbindungen zu sehen.</Translation>
+		<de-DE>Drücke V um dein Handelsnetz und Verbindungen zu sehen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_6</zType>
-		<Translation>link(YIELD_TRAINING,1) stockpiles are capped at int(MAX_TRAINING). Above this value, they'll be converted to link(YIELD_ORDERS,1).</Translation>
+		<de-DE>link(YIELD_TRAINING,1) stockpiles are capped at int(MAX_TRAINING). Above this value, they'll be converted to link(YIELD_ORDERS,1).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_7</zType>
-		<Translation>Du kannst nur 3 der 4 Familien deiner Nation jedes Spiel benutzen. Probiere herum welche Kombinationen am Besten klappen!</Translation>
+		<de-DE>Du kannst nur 3 der 4 Familien deiner Nation jedes Spiel benutzen. Probiere herum welche Kombinationen am Besten klappen!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_8</zType>
-		<Translation>Unbenutzte link(YIELD_CIVICS)icon(YIELD_CIVICS) und link(YIELD_TRAINING)icon(YIELD_TRAINING) in deinen Städten werden zum nationalen Lager hinzugefügt.</Translation>
+		<de-DE>Unbenutzte link(YIELD_CIVICS)icon(YIELD_CIVICS) und link(YIELD_TRAINING)icon(YIELD_TRAINING) in deinen Städten werden zum nationalen Lager hinzugefügt.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_9</zType>
-		<Translation>Falls du nicht alle deine link(YIELD_ORDERS)icon(YIELD_ORDERS benutzen willst, kannst du durch drücken von '6' die aktuelle Runde beenden.</Translation>
+		<de-DE>Falls du nicht alle deine link(YIELD_ORDERS)icon(YIELD_ORDERS benutzen willst, kannst du durch drücken von '6' die aktuelle Runde beenden.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_10</zType>
-		<Translation>Deine Baumeister können Holz von Wäldern in der Nähe fällen. Die Bäume werden in mehreren Jahren nachwachsen, sofern sie nicht gerodet wurden!</Translation>
+		<de-DE>Deine Baumeister können Holz von Wäldern in der Nähe fällen. Die Bäume werden in mehreren Jahren nachwachsen, sofern sie nicht gerodet wurden!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_11</zType>
-		<Translation>Wenn du nicht genug Materialien hast um eine Einheit oder Verbesserung zu bauen, halte ALT und klicke um automatsich das zu kaufen, was dir fehlt (Natürlich nur Vorrausgesetzt du hast genug Moneyicon(YIELD_MONEY).</Translation>
+		<de-DE>Wenn du nicht genug Materialien hast um eine Einheit oder Verbesserung zu bauen, halte ALT und klicke um automatsich das zu kaufen, was dir fehlt (Natürlich nur Vorrausgesetzt du hast genug Moneyicon(YIELD_MONEY).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_12</zType>
-		<Translation>Eine Verbesserung auf einem Hügel zu bauen verlängert die Zeit zur fertigstellung um ein Jahr.</Translation>
+		<de-DE>Eine Verbesserung auf einem Hügel zu bauen verlängert die Zeit zur fertigstellung um ein Jahr.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_13</zType>
-		<Translation>link(TRIBE_BARBARIANS) sind fremdenfeindliche Stämme und allen Staaten gegenüber feindlich.Es gibt keine diplomatischen Konsequenzen wenn ihre Einheiten angegriffen werden oder ihr Land übernommen wird. Sie haben keine Verbündeten, nicht mal anderen link(TRIBE_BARBARIANS).</Translation>
+		<de-DE>link(TRIBE_BARBARIANS) sind fremdenfeindliche Stämme und allen Staaten gegenüber feindlich.Es gibt keine diplomatischen Konsequenzen wenn ihre Einheiten angegriffen werden oder ihr Land übernommen wird. Sie haben keine Verbündeten, nicht mal anderen link(TRIBE_BARBARIANS).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_14</zType>
-		<Translation>Wenn dein Land geringe Vorräte von link(YIELD_WOOD)icon(YIELD_WOOD) hat, überlege militärische Einheiten auszubilden die auf link(YIELD_STONE)icon(YIELD_STONE) ooder link(YIELD_IRON)icon(YIELD_IRON) angeiwesen sind. Konzentriere deinen begrenzten link(YIELD_WOOD)icon(YIELD_WOOD) Vorrat um ländliche Gebäude zu verbessern.</Translation>
+		<de-DE>Wenn dein Land geringe Vorräte von link(YIELD_WOOD)icon(YIELD_WOOD) hat, überlege militärische Einheiten auszubilden die auf link(YIELD_STONE)icon(YIELD_STONE) ooder link(YIELD_IRON)icon(YIELD_IRON) angeiwesen sind. Konzentriere deinen begrenzten link(YIELD_WOOD)icon(YIELD_WOOD) Vorrat um ländliche Gebäude zu verbessern.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_15</zType>
-		<Translation>link(IMPROVEMENT_QUARRY,2) die neben einem Gebirge gebaut werden produzieren mehr link(YIELD_STONE)icon(YIELD_STONE) für jedes angrenzendes Gebirgsfeld. link(IMPROVEMENT_QUARRY,2) erhalten einen kleinen Anstieg wenn sie in trockenem Gebiet gebaut werden.</Translation>
+		<de-DE>link(IMPROVEMENT_QUARRY,2) die neben einem Gebirge gebaut werden produzieren mehr link(YIELD_STONE)icon(YIELD_STONE) für jedes angrenzendes Gebirgsfeld. link(IMPROVEMENT_QUARRY,2) erhalten einen kleinen Anstieg wenn sie in trockenem Gebiet gebaut werden.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_16</zType>
-		<Translation>link(IMPROVEMENT_LUMBERMILL,2) die neben einem link(IMPROVEMENT_CAMP,2) gebaut werden erhalten erhöhten link(YIELD_WOOD)icon(YIELD_WOOD) Ertrag. (Die Jäger überwachen die Raubtiere, folgen Spuren durch den Wald, etc.)</Translation>
+		<de-DE>link(IMPROVEMENT_LUMBERMILL,2) die neben einem link(IMPROVEMENT_CAMP,2) gebaut werden erhalten erhöhten link(YIELD_WOOD)icon(YIELD_WOOD) Ertrag. (Die Jäger überwachen die Raubtiere, folgen Spuren durch den Wald, etc.)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_17</zType>
-		<Translation>Wenn man sich mit zu vielen Gegnern im Krieg befindet wird dies deine Heere überwältigen, unmäglich genug link(YIELD_ORDERS)icon(YIELD_ORDERS) auszugeben um effektiv an jeder Front zu kämpfen. Benutze Diplomatie um diesem Schicksal zu entgehen, wenn möglich.</Translation>
+		<de-DE>Wenn man sich mit zu vielen Gegnern im Krieg befindet wird dies deine Heere überwältigen, unmäglich genug link(YIELD_ORDERS)icon(YIELD_ORDERS) auszugeben um effektiv an jeder Front zu kämpfen. Benutze Diplomatie um diesem Schicksal zu entgehen, wenn möglich.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_18</zType>
-		<Translation>Zur link(IMPROVEMENT_LUMBERMILL) Verbesserung zu forschen braucht seine Zeit. Es kann möglich sein, dass man link(UNIT_WORKER,2) zu Wäldern und Dickichten schicken muss um link(YIELD_WOOD)icon(YIELD_WOOD) von link(VEGETATION_TREES) und link(VEGETATION_SCRUB) zu fällen.</Translation>
+		<de-DE>Zur link(IMPROVEMENT_LUMBERMILL) Verbesserung zu forschen braucht seine Zeit. Es kann möglich sein, dass man link(UNIT_WORKER,2) zu Wäldern und Dickichten schicken muss um link(YIELD_WOOD)icon(YIELD_WOOD) von link(VEGETATION_TREES) und link(VEGETATION_SCRUB) zu fällen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_19</zType>
-		<Translation>Erwarte Verlangen nach link(YIELD_FOOD)icon(YIELD_FOOD) um deine Städte wachsen und reifen zu lassen.</Translation>
+		<de-DE>Erwarte Verlangen nach link(YIELD_FOOD)icon(YIELD_FOOD) um deine Städte wachsen und reifen zu lassen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_20</zType>
-		<Translation>Einheiten zu verbessern kann erheblich teuer sein kann aber rasch deine miltärische Macht steigern.</Translation>
+		<de-DE>Einheiten zu verbessern kann erheblich teuer sein kann aber rasch deine miltärische Macht steigern.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_21</zType>
-		<Translation>Straßen helfen Einheiten dabei mit jedem icon(YIELD_ORDERS)link(YIELD_ORDERS,1) sich weiter zu bewegen, besonders wenn die Straßen durch schweres Gelände führen.</Translation>
+		<de-DE>Straßen helfen Einheiten dabei mit jedem icon(YIELD_ORDERS)link(YIELD_ORDERS,1) sich weiter zu bewegen, besonders wenn die Straßen durch schweres Gelände führen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_22</zType>
-		<Translation>link(UNITTRAIT_RANGED) Einheiten bekommen ein zusätzliches link(IMPROVEMENT_RANGE) Feld wenn auf einem Hügel platziert, es sei denn das Ziel ist ebenso auf einem Hügel.</Translation>
+		<de-DE>link(UNITTRAIT_RANGED) Einheiten bekommen ein zusätzliches link(IMPROVEMENT_RANGE) Feld wenn auf einem Hügel platziert, es sei denn das Ziel ist ebenso auf einem Hügel.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_23</zType>
-		<Translation>Eine militärische Einheit auf einem eingenommenen Stadtplatz zu platzieren makiert es für euch. Scheitert man den Stadtplatz zu verteidigen kann es sein, dass es von eunem neuen Barbaren link(CONCEPT_SETTLEMENT) oder von deinen Rivalen eingenommen wird.</Translation>
+		<de-DE>Eine militärische Einheit auf einem eingenommenen Stadtplatz zu platzieren makiert es für euch. Scheitert man den Stadtplatz zu verteidigen kann es sein, dass es von eunem neuen Barbaren link(CONCEPT_SETTLEMENT) oder von deinen Rivalen eingenommen wird.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_24</zType>
-		<Translation>Die Anzahl deiner link(YIELD_ORDERS)icon(YIELD_ORDERS) zu vergrößern sollte Vorrang haben. Je mehr Gebiet und Einheiten du kontrollierst, desto mehr link(YIELD_ORDERS)icon(YIELD_ORDERS) wird dein Reich benötigen um zu funktionieren und sich verteidigen zu können.</Translation>
+		<de-DE>Die Anzahl deiner link(YIELD_ORDERS)icon(YIELD_ORDERS) zu vergrößern sollte Vorrang haben. Je mehr Gebiet und Einheiten du kontrollierst, desto mehr link(YIELD_ORDERS)icon(YIELD_ORDERS) wird dein Reich benötigen um zu funktionieren und sich verteidigen zu können.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_25</zType>
-		<Translation>Die Macht jedes Gesetzes neigt sich zu erhöhen umso mehr dein Reich wächst. Beim erforschen solltest du nicht vernachlässigen neue Gesetze freizuschalten.</Translation>
+		<de-DE>Die Macht jedes Gesetzes neigt sich zu erhöhen umso mehr dein Reich wächst. Beim erforschen solltest du nicht vernachlässigen neue Gesetze freizuschalten.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_26</zType>
-		<Translation>Eine Stadt kann Schiffe bauen wenn es ein Wasserfeld kontrolliert welches als Küste gekennzeichnet ist.</Translation>
+		<de-DE>Eine Stadt kann Schiffe bauen wenn es ein Wasserfeld kontrolliert welches als Küste gekennzeichnet ist.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_27</zType>
-		<Translation>link(UNIT_SCOUT,2) können auf eine Menge Felder ein Auge haben. Sie können hinsichtlich gegnerischer Stärke und Bewegungen wertvolle Informationen liefern.</Translation>
+		<de-DE>link(UNIT_SCOUT,2) können auf eine Menge Felder ein Auge haben. Sie können hinsichtlich gegnerischer Stärke und Bewegungen wertvolle Informationen liefern.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_28</zType>
-		<Translation>Städte mit hohem link(YIELD_GROWTH)icon(YIELD_GROWTH) bilden neue link(UNIT_SETTLER,2), link(UNIT_WORKER,2) und link(UNIT_SCOUT,2) schneller aus.</Translation>
+		<de-DE>Städte mit hohem link(YIELD_GROWTH)icon(YIELD_GROWTH) bilden neue link(UNIT_SETTLER,2), link(UNIT_WORKER,2) und link(UNIT_SCOUT,2) schneller aus.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_29</zType>
-		<Translation>Die Rate in welchem militärische Einheiten in einer Stadt ausgebildet werden ist direkt an die link(YIELD_TRAINING)icon(YIELD_TRAINING) Produktion gebunden.</Translation>
+		<de-DE>Die Rate in welchem militärische Einheiten in einer Stadt ausgebildet werden ist direkt an die link(YIELD_TRAINING)icon(YIELD_TRAINING) Produktion gebunden.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_30</zType>
-		<Translation>Die Rate in welcher Projekte in einer Stadt fertig gestellt werden hängt von der link(YIELD_CIVICS)icon(YIELD_CIVICS) Produktion ab.</Translation>
+		<de-DE>Die Rate in welcher Projekte in einer Stadt fertig gestellt werden hängt von der link(YIELD_CIVICS)icon(YIELD_CIVICS) Produktion ab.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_31</zType>
-		<Translation>link(CONCEPT_URBAN) Spezialisten können mehrere Male verbessert werden um die Produktion eines link(CONCEPT_URBAN) Gebäudes erheblich zu steigern.</Translation>
+		<de-DE>link(CONCEPT_URBAN) Spezialisten können mehrere Male verbessert werden um die Produktion eines link(CONCEPT_URBAN) Gebäudes erheblich zu steigern.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_32</zType>
-		<Translation>Die meisten link(CONCEPT_URBAN) Gebäude Typen benötigen link(YIELD_STONE)icon(YIELD_STONE) um konstruiert zu werden. Erwarte hohen Bedarf an link(YIELD_STONE)icon(YIELD_STONE) da das Spiel sich entwickelt und du neue Technologien freischaltest.</Translation>
+		<de-DE>Die meisten link(CONCEPT_URBAN) Gebäude Typen benötigen link(YIELD_STONE)icon(YIELD_STONE) um konstruiert zu werden. Erwarte hohen Bedarf an link(YIELD_STONE)icon(YIELD_STONE) da das Spiel sich entwickelt und du neue Technologien freischaltest.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_33</zType>
-		<Translation>link(UNITTRAIT_RANGED) Einheiten sind effizient in Gefächten, oft greifen sie Feine an ohne einen link(YIELD_ORDERS)icon(YIELD_ORDERS) zur Bewegung ausgegeben zu haben.</Translation>
+		<de-DE>link(UNITTRAIT_RANGED) Einheiten sind effizient in Gefächten, oft greifen sie Feine an ohne einen link(YIELD_ORDERS)icon(YIELD_ORDERS) zur Bewegung ausgegeben zu haben.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_34</zType>
-		<Translation>link(YIELD_WOOD)icon(YIELD_WOOD) vom link(VEGETATION_SCRUB) zu entfernen kostet keine link(YIELD_ORDERS)icon(YIELD_ORDERS). Wenn du dich auf einem Weg woanders hin mit einen link(UNIT_WORKER) durch ein link(VEGETATION_SCRUB) Feld bewegst kannst du etwas kostenloses link(YIELD_WOOD)icon(YIELD_WOOD) sammeln.</Translation>
+		<de-DE>link(YIELD_WOOD)icon(YIELD_WOOD) vom link(VEGETATION_SCRUB) zu entfernen kostet keine link(YIELD_ORDERS)icon(YIELD_ORDERS). Wenn du dich auf einem Weg woanders hin mit einen link(UNIT_WORKER) durch ein link(VEGETATION_SCRUB) Feld bewegst kannst du etwas kostenloses link(YIELD_WOOD)icon(YIELD_WOOD) sammeln.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_35</zType>
-		<Translation>link(UNIT_MILITIA) und link(UNIT_CONSCRIPT) Einheiten können nicht befördert werden aber sie werden mit link(YIELD_GROWTH)icon(YIELD_GROWTH) anstatt mit link(YIELD_TRAINING)icon(YIELD_TRAINING) ausgebildet. Städte mit hoher link(YIELD_GROWTH)icon(YIELD_GROWTH) Produktion können sie zügig ausbilden.</Translation>
+		<de-DE>link(UNIT_MILITIA) und link(UNIT_CONSCRIPT) Einheiten können nicht befördert werden aber sie werden mit link(YIELD_GROWTH)icon(YIELD_GROWTH) anstatt mit link(YIELD_TRAINING)icon(YIELD_TRAINING) ausgebildet. Städte mit hoher link(YIELD_GROWTH)icon(YIELD_GROWTH) Produktion können sie zügig ausbilden.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_36</zType>
-		<Translation>link(UNITTRAIT_MOUNTED) Einheiten haben die link(CONCEPT_ROUT) Fähigkeit. Wenn sie eine gegnerische Einheit töten werden sie das Feld der Einheit besetzen. Obwohl sie sich nicht noch mal bewegen kann, kann sie erneut angreifern sofern noch ein Ziel angrenzend an sie ist.</Translation>
+		<de-DE>link(UNITTRAIT_MOUNTED) Einheiten haben die link(CONCEPT_ROUT) Fähigkeit. Wenn sie eine gegnerische Einheit töten werden sie das Feld der Einheit besetzen. Obwohl sie sich nicht noch mal bewegen kann, kann sie erneut angreifern sofern noch ein Ziel angrenzend an sie ist.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_37</zType>
-		<Translation>Überlege link(YIELD_TRAINING)icon(YIELD_TRAINING) auszugeben um einige deiner Einheiten zu befördern. Einheiten die an einem Gefecht teilgenommen und Erfahrung verdient haben kostet weniger link(YIELD_TRAINING)icon(YIELD_TRAINING) um sie zu befördern.</Translation>
+		<de-DE>Überlege link(YIELD_TRAINING)icon(YIELD_TRAINING) auszugeben um einige deiner Einheiten zu befördern. Einheiten die an einem Gefecht teilgenommen und Erfahrung verdient haben kostet weniger link(YIELD_TRAINING)icon(YIELD_TRAINING) um sie zu befördern.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_38</zType>
-		<Translation>Volksstämme sind keine Reiche. Wenn sie sich mit dir im link(DIPLOMACY_WAR) befinden können nur ihre Einheiten in deiner Nähe sowie deinem Gebiet eine Bedrohung für dich darstellen, es sei denn du verärgerst sie so sehr das sie einen Einfall starten.</Translation>
+		<de-DE>Volksstämme sind keine Reiche. Wenn sie sich mit dir im link(DIPLOMACY_WAR) befinden können nur ihre Einheiten in deiner Nähe sowie deinem Gebiet eine Bedrohung für dich darstellen, es sei denn du verärgerst sie so sehr das sie einen Einfall starten.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_39</zType>
-		<Translation>Küstennahe Städte kontrollieren weniger Land als inländische Stdäte, neigen jedoch dazu weniger verwundbar für Angriffe zu sein.</Translation>
+		<de-DE>Küstennahe Städte kontrollieren weniger Land als inländische Stdäte, neigen jedoch dazu weniger verwundbar für Angriffe zu sein.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_40</zType>
-		<Translation>Colder air forces clouds to drop their rain as they gain altitude to move over mountains. Most mountains have a lush band, where the rain falls, and a rain shadow on the opposite side, depending on regional wind patterns.</Translation>
+		<de-DE>Colder air forces clouds to drop their rain as they gain altitude to move over mountains. Most mountains have a lush band, where the rain falls, and a rain shadow on the opposite side, depending on regional wind patterns.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_41</zType>
-		<Translation>Consider dealing with Events early in your turn. Some Event options require you to spend link(YIELD_ORDERS)icon(YIELD_ORDERS).</Translation>
+		<de-DE>Consider dealing with Events early in your turn. Some Event options require you to spend link(YIELD_ORDERS)icon(YIELD_ORDERS).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_42</zType>
-		<Translation>A link(CONCEPT_ALLIANCE_TRIBE) allows you to found Cities peacefully next to your Ally's Sites.</Translation>
+		<de-DE>A link(CONCEPT_ALLIANCE_TRIBE) allows you to found Cities peacefully next to your Ally's Sites.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_43</zType>
-		<Translation>link(YIELD_CIVICS)icon(YIELD_CIVICS) stockpiles are capped at int(MAX_CIVICS). Above this value, they'll be converted to link(YIELD_SCIENCE)icon(YIELD_SCIENCE).</Translation>
+		<de-DE>link(YIELD_CIVICS)icon(YIELD_CIVICS) stockpiles are capped at int(MAX_CIVICS). Above this value, they'll be converted to link(YIELD_SCIENCE)icon(YIELD_SCIENCE).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_44</zType>
-		<Translation>Verwundete link(UNIT_WORKER,2 brauchen einen extra Zug um eine Verbesserung zu bauen.</Translation>
+		<de-DE>Verwundete link(UNIT_WORKER,2 brauchen einen extra Zug um eine Verbesserung zu bauen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_45</zType>
-		<Translation>[STRG+Klick] to automatically March a Unit to move past its Fatigue range.</Translation>
+		<de-DE>[STRG+Klick] to automatically March a Unit to move past its Fatigue range.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_46</zType>
-		<Translation>Halte [Z] um link(VEGETATION_TREES) und link(VEGETATION_SCRUB zu verbergen.</Translation>
+		<de-DE>Halte [Z] um link(VEGETATION_TREES) und link(VEGETATION_SCRUB zu verbergen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_47</zType>
-		<Translation>Halte [X] to highlight Zones of Control.</Translation>
+		<de-DE>Halte [X] to highlight Zones of Control.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_48</zType>
-		<Translation>Halte [C] um hevorzuheben welche Felder von feindlichen Einheiten angegriffen werden können.</Translation>
+		<de-DE>Halte [C] um hevorzuheben welche Felder von feindlichen Einheiten angegriffen werden können.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_49</zType>
-		<Translation>Halte [V] um Städte hevorzuheben welche mit deiner Hauptstadt verbunden sind.</Translation>
+		<de-DE>Halte [V] um Städte hevorzuheben welche mit deiner Hauptstadt verbunden sind.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_50</zType>
-		<Translation>Halte [B] um hevorzuheben welche Einheiten noch immer benutzt werden können.</Translation>
+		<de-DE>Halte [B] um hevorzuheben welche Einheiten noch immer benutzt werden können.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_51</zType>
-		<Translation>Halte [N] um zu zeigen was welche Verbesserung von dir produziert.</Translation>
+		<de-DE>Halte [N] um zu zeigen was welche Verbesserung von dir produziert.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_52</zType>
-		<Translation>If your Leader is not able to complete an Ambition before death, it becomes a Legacy. Legacies count towards an Ambition Victory but are worth less link(CONCEPT_LEGITIMACY)icon(YIELD_LEGITIMACY).</Translation>
+		<de-DE>If your Leader is not able to complete an Ambition before death, it becomes a Legacy. Legacies count towards an Ambition Victory but are worth less link(CONCEPT_LEGITIMACY)icon(YIELD_LEGITIMACY).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_53</zType>
-		<Translation>Barbarian level, chosen under Advanced Setup, affects the number of empty city sites near your capital.</Translation>
+		<de-DE>Barbarian level, chosen under Advanced Setup, affects the number of empty city sites near your capital.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_54</zType>
-		<Translation>Non-coastal link(CONCEPT_URBAN) buildings must be adjacent to the City or to two other link(CONCEPT_URBAN) buildings.</Translation>
+		<de-DE>Non-coastal link(CONCEPT_URBAN) buildings must be adjacent to the City or to two other link(CONCEPT_URBAN) buildings.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_55</zType>
-		<Translation>link(CONCEPT_URBAN) buildings on the coast need only be adjacent to one other link(CONCEPT_URBAN) building or the City.</Translation>
+		<de-DE>link(CONCEPT_URBAN) buildings on the coast need only be adjacent to one other link(CONCEPT_URBAN) building or the City.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_56</zType>
-		<Translation>With a link(UNIT_WORKER) selected, hold CTRL and move the cursor over a tile to see what Improvements can be built there.</Translation>
+		<de-DE>With a link(UNIT_WORKER) selected, hold CTRL and move the cursor over a tile to see what Improvements can be built there.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_57</zType>
-		<Translation>link(UNIT_SCOUT,2) are invisible in link(VEGETATION_TREES).</Translation>
+		<de-DE>link(UNIT_SCOUT,2) are invisible in link(VEGETATION_TREES).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_58</zType>
-		<Translation>Hold [SHIFT] or [MIDDLE-CLICK] to Freeze Tooltips.</Translation>
+		<de-DE>Hold [SHIFT] or [MIDDLE-CLICK] to Freeze Tooltips.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_59</zType>
-		<Translation>Specialist are produced faster in higher-level improvements. (Poets take less time in an link(IMPROVEMENT_THEATER_2) than in an link(IMPROVEMENT_THEATER_1) - and even less time in a link(IMPROVEMENT_THEATER_3).)</Translation>
+		<de-DE>Specialist are produced faster in higher-level improvements. (Poets take less time in an link(IMPROVEMENT_THEATER_2) than in an link(IMPROVEMENT_THEATER_1) - and even less time in a link(IMPROVEMENT_THEATER_3).)</de-DE>
 	</Entry>	 
 	<Entry>
 		<zType>TEXT_HINT_60</zType>
-		<Translation>Hold down [SHIFT] when moving a Unit to assign a multi-turn destination. The Unit will move (to the edge of its Fatigue range) towards that Tile each turn.</Translation>
+		<de-DE>Hold down [SHIFT] when moving a Unit to assign a multi-turn destination. The Unit will move (to the edge of its Fatigue range) towards that Tile each turn.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_61</zType>
-		<Translation>Pressing [ESC] will close the topmost tooltip or window.</Translation>
+		<de-DE>Pressing [ESC] will close the topmost tooltip or window.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_62</zType>
-		<Translation>Cities gain link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) over time. When a City's link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) meter is filled, its overall link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) Level goes up, which increases link(YIELD_MAINTENANCE)icon(YIELD_MAINTENANCE) and reduces link(YIELD_GROWTH)icon(YIELD_GROWTH).</Translation>
+		<de-DE>Cities gain link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) over time. When a City's link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) meter is filled, its overall link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) Level goes up, which increases link(YIELD_MAINTENANCE)icon(YIELD_MAINTENANCE) and reduces link(YIELD_GROWTH)icon(YIELD_GROWTH).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_63</zType>
-		<Translation>link(CONCEPT_FAMILY) Classes determine what effects a link(CONCEPT_FAMILY) has on its Cities, as well as what Laws, link(CONCEPT_LUXURY,2), and other conditions keep them happy.</Translation>
+		<de-DE>link(CONCEPT_FAMILY) Classes determine what effects a link(CONCEPT_FAMILY) has on its Cities, as well as what Laws, link(CONCEPT_LUXURY,2), and other conditions keep them happy.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_64</zType>
-		<Translation>You can reduce link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) by connecting your cities with link(CONCEPT_ROAD,2), recruiting link(SPECIALISTCLASS_PRIEST,1), and building link(IMPROVEMENTCLASS_BATHS,2).</Translation>
+		<de-DE>You can reduce link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) by connecting your cities with link(CONCEPT_ROAD,2), recruiting link(SPECIALISTCLASS_PRIEST,1), and building link(IMPROVEMENTCLASS_BATHS,2).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_65</zType>
-		<Translation>link(UNIT_SCOUT,2), link(UNIT_SETTLER,2) and link(UNIT_WORKER,2) can Harvest a Resource for a quick supply of Goods.</Translation>
+		<de-DE>link(UNIT_SCOUT,2), link(UNIT_SETTLER,2) and link(UNIT_WORKER,2) can Harvest a Resource for a quick supply of Goods.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_66</zType>
-		<Translation>A Forced March permits a Unit to continue moving this turn when out of Moves, at the cost of int(UNIT_MARCH_COST) link(YIELD_TRAINING)icon(YIELD_TRAINING), and twice as many link(YIELD_ORDERS)icon(YIELD_ORDERS) per additional Move.</Translation>
+		<de-DE>A Forced March permits a Unit to continue moving this turn when out of Moves, at the cost of int(UNIT_MARCH_COST) link(YIELD_TRAINING)icon(YIELD_TRAINING), and twice as many link(YIELD_ORDERS)icon(YIELD_ORDERS) per additional Move.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_67</zType>
-		<Translation>A Fatigued Unit can only Move again this turn through a link(CONCEPT_MARCH).</Translation>
+		<de-DE>A Fatigued Unit can only Move again this turn through a link(CONCEPT_MARCH).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_68</zType>
-		<Translation>Flank an enemy Unit by attacking it while another friendly Unit is on the opposite side.</Translation>
+		<de-DE>Flank an enemy Unit by attacking it while another friendly Unit is on the opposite side.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_69</zType>
-		<Translation>Governors can be appointed in Cities with link(IMPROVEMENT_GARRISON_1,1) to provide a boost to Yields.</Translation>
+		<de-DE>Governors can be appointed in Cities with link(IMPROVEMENT_GARRISON_1,1) to provide a boost to Yields.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_70</zType>
-		<Translation>Shrines provide various benefits, and can help to spread Paganism.</Translation>
+		<de-DE>Shrines provide various benefits, and can help to spread Paganism.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_71</zType>
-		<Translation>Hold [{0_key}] to hide all Improvements.</Translation>
+		<de-DE>Hold [{0_key}] to hide all Improvements.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_72</zType>
-		<Translation>Legitimacy comes from achieving link(CONCEPT_AMBITION,2), and acquiring better link(CONCEPT_COGNOMEN,2) (such as link(COGNOMEN_GREAT)). Higher Legitimacy improves Family Opinions, and produces more link(YIELD_ORDERS) per year.</Translation>
+		<de-DE>Legitimacy comes from achieving link(CONCEPT_AMBITION,2), and acquiring better link(CONCEPT_COGNOMEN,2) (such as link(COGNOMEN_GREAT)). Higher Legitimacy improves Family Opinions, and produces more link(YIELD_ORDERS) per year.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_73</zType>
-		<Translation>Adopting a link(CONCEPT_STATE_RELIGION) improves that Religion's opinion of your Nation, and also both reduces link(YIELD_DISCONTENT) and enables the recruitment of link(CONCEPT_DISCIPLE,2) in your Cities of that Religion.</Translation>
+		<de-DE>Adopting a link(CONCEPT_STATE_RELIGION) improves that Religion's opinion of your Nation, and also both reduces link(YIELD_DISCONTENT) and enables the recruitment of link(CONCEPT_DISCIPLE,2) in your Cities of that Religion.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_74</zType>
-		<Translation>Luxuries can be Traded to a City to reduce link(YIELD_DISCONTENT). They can also be Traded to other Nations, link(CONCEPT_TRIBE,2), and link(CONCEPT_FAMILY,2) to improve their Opinion of your Nation.</Translation>
+		<de-DE>Luxuries can be Traded to a City to reduce link(YIELD_DISCONTENT). They can also be Traded to other Nations, link(CONCEPT_TRIBE,2), and link(CONCEPT_FAMILY,2) to improve their Opinion of your Nation.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_75</zType>
-		<Translation>Tribal Mercenary Units can be hired from link(CONCEPT_TRIBE,2) by Carthage, and by Nations with link(TRAIT_ORATOR_ARCHETYPE) Leaders.</Translation>
+		<de-DE>Tribal Mercenary Units can be hired from link(CONCEPT_TRIBE,2) by Carthage, and by Nations with link(TRAIT_ORATOR_ARCHETYPE) Leaders.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_76</zType>
-		<Translation>A Disciple can spread your link(CONCEPT_STATE_RELIGION) to other Cities. With the link(LAW_ORTHODOXY) law, they can also purge other Religions from your Cities.</Translation>
+		<de-DE>A Disciple can spread your link(CONCEPT_STATE_RELIGION) to other Cities. With the link(LAW_ORTHODOXY) law, they can also purge other Religions from your Cities.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_77</zType>
-		<Translation>Establishing a Theology grants additional bonuses to a World Religion. Theologies are established using Disciples.</Translation>
+		<de-DE>Establishing a Theology grants additional bonuses to a World Religion. Theologies are established using Disciples.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_78</zType>
-		<Translation>A link(IMPROVEMENT_HAMLET), and its upgrades link(IMPROVEMENT_VILLAGE) and link(IMPROVEMENT_TOWN), if brought into your link(CONCEPT_TRADE_NETWORK), will produce extra link(YIELD_MONEY)icon(YIELD_MONEY).</Translation>
+		<de-DE>A link(IMPROVEMENT_HAMLET), and its upgrades link(IMPROVEMENT_VILLAGE) and link(IMPROVEMENT_TOWN), if brought into your link(CONCEPT_TRADE_NETWORK), will produce extra link(YIELD_MONEY)icon(YIELD_MONEY).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_79</zType>
-		<Translation>The link(CONCEPT_TRADE_NETWORK) consists of all Tiles connected to your link(CONCEPT_CAPITAL) City.</Translation>
+		<de-DE>The link(CONCEPT_TRADE_NETWORK) consists of all Tiles connected to your link(CONCEPT_CAPITAL) City.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_80</zType>
-		<Translation>Cities and link(IMPROVEMENT_HAMLET,2) can be connected with one another over link(CONCEPT_ROAD,2), rivers, and even open water if they are on the coast, or are connected to a link(IMPROVEMENT_HARBOR).</Translation>
+		<de-DE>Cities and link(IMPROVEMENT_HAMLET,2) can be connected with one another over link(CONCEPT_ROAD,2), rivers, and even open water if they are on the coast, or are connected to a link(IMPROVEMENT_HARBOR).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_81</zType>
-		<Translation>You can check the link(CONCEPT_TRADE_NETWORK) overlay with the icon(MAP_OVERLAY_NETWORK) button below the mini-map, or the hotkey(HOTKEY_SHOW_TRADE_NETWORK) key.</Translation>
+		<de-DE>You can check the link(CONCEPT_TRADE_NETWORK) overlay with the icon(MAP_OVERLAY_NETWORK) button below the mini-map, or the hotkey(HOTKEY_SHOW_TRADE_NETWORK) key.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_82</zType>
-		<Translation>You can verify that a City is connected by checking that the  icon(CONNECTED) icon is displayed under its City banner.</Translation>
+		<de-DE>You can verify that a City is connected by checking that the  icon(CONNECTED) icon is displayed under its City banner.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_83</zType>
-		<Translation>To find how many movement steps a unit requires to go from one tile to another: select the unit, [CTRL+Click] on the start tile, and hover over the destination tile with the mouse.</Translation>
+		<de-DE>To find how many movement steps a unit requires to go from one tile to another: select the unit, [CTRL+Click] on the start tile, and hover over the destination tile with the mouse.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_84</zType>
-		<Translation>link(UNIT_WORKER,2) take more time and resources to improve hills.</Translation>
+		<de-DE>link(UNIT_WORKER,2) take more time and resources to improve hills.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_85</zType>
-		<Translation>link(UNIT_WORKER,2) take an extra turn to build improvements outside their family's territory.</Translation>
+		<de-DE>link(UNIT_WORKER,2) take an extra turn to build improvements outside their family's territory.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_86</zType>
-		<Translation>Your Nation can build its unique units in cities with link(CULTURE_DEVELOPING) Culture and a link(IMPROVEMENT_GARRISON_2).</Translation>
+		<de-DE>Your Nation can build its unique units in cities with link(CULTURE_DEVELOPING) Culture and a link(IMPROVEMENT_GARRISON_2).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_87</zType>
-		<Translation>Beware of the map edges. Raiders could be lurking beyond!</Translation>
+		<de-DE>Beware of the map edges. Raiders could be lurking beyond!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_88</zType>
-		<Translation>Any given Character can have a maximum of three good traits like link(TRAIT_VIGILANT), and three bad traits like link(TRAIT_GREEDY).</Translation>
+		<de-DE>Any given Character can have a maximum of three good traits like link(TRAIT_VIGILANT), and three bad traits like link(TRAIT_GREEDY).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_89</zType>
-		<Translation>Ratings for Characters like link(RATING_COURAGE), link(RATING_DISCIPLINE), link(RATING_CHARISMA), and link(RATING_WISDOM) can be changed by events, and affect a Character's abilities as a Leader, link(CONCEPT_GOVERNOR), or link(CONCEPT_GENERAL).</Translation>
+		<de-DE>Ratings for Characters like link(RATING_COURAGE), link(RATING_DISCIPLINE), link(RATING_CHARISMA), and link(RATING_WISDOM) can be changed by events, and affect a Character's abilities as a Leader, link(CONCEPT_GOVERNOR), or link(CONCEPT_GENERAL).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_90</zType>
-		<Translation>Hold [hotkey(HOTKEY_SHOW_TILE_SPECIALISTS)] to highlight Specialists and to see what each one produces.</Translation>
+		<de-DE>Hold [hotkey(HOTKEY_SHOW_TILE_SPECIALISTS)] to highlight Specialists and to see what each one produces.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_91</zType>
-		<Translation>Keep your Family Heads happy! Influence them directly, or have other important Characters Intercede on your behalf.</Translation>
+		<de-DE>Keep your Family Heads happy! Influence them directly, or have other important Characters Intercede on your behalf.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_92</zType>
-		<Translation>The Cities of Families with a high Opinion of you cost less link(YIELD_MAINTENANCE), and their Units fight more effectively.</Translation>
+		<de-DE>The Cities of Families with a high Opinion of you cost less link(YIELD_MAINTENANCE), and their Units fight more effectively.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_93</zType>
-		<Translation>The Cities of Families with a low Opinion of you cost more link(YIELD_MAINTENANCE) and produce fewer link(YIELD_CIVICS) and less link(YIELD_TRAINING). Their Units fight less effectively too!</Translation>
+		<de-DE>The Cities of Families with a low Opinion of you cost more link(YIELD_MAINTENANCE) and produce fewer link(YIELD_CIVICS) and less link(YIELD_TRAINING). Their Units fight less effectively too!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_94</zType>
-		<Translation>Angry Families can rebel against your rule, spawning Rebel Units around their Cities. Your Units from that Family are not as effective when fighting against Rebels.</Translation>
+		<de-DE>Angry Families can rebel against your rule, spawning Rebel Units around their Cities. Your Units from that Family are not as effective when fighting against Rebels.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_95</zType>
-		<Translation>Family opinion is directly influenced by Family and Religion Head Characters.</Translation>
+		<de-DE>Family opinion is directly influenced by Family and Religion Head Characters.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_96</zType>
-		<Translation>It may become difficult to keep all the Families happy if they follow different Religions.</Translation>
+		<de-DE>It may become difficult to keep all the Families happy if they follow different Religions.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_97</zType>
-		<Translation>You can improve your relations with Leaders of other Nations by conducting Trade Missions with them.</Translation>
+		<de-DE>You can improve your relations with Leaders of other Nations by conducting Trade Missions with them.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_98</zType>
-		<Translation>link(UNIT_SCOUT,2) can establish Agent Networks in Foreign Cities to immediately gain visibility into them. Subsequently, you can assign Characters as Agents, who can perform incite link(MISSION_TREACHERY) or link(MISSION_INSURRECTION) Missions on their Cities.</Translation>
+		<de-DE>link(UNIT_SCOUT,2) can establish Agent Networks in Foreign Cities to immediately gain visibility into them. Subsequently, you can assign Characters as Agents, who can perform incite link(MISSION_TREACHERY) or link(MISSION_INSURRECTION) Missions on their Cities.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_99</zType>
-		<Translation>Don't forget to assign link(CONCEPT_COUNCILOR,2). They perform essential Missions for your Nation, and they raise their Family's opinion of you.</Translation>
+		<de-DE>Don't forget to assign link(CONCEPT_COUNCILOR,2). They perform essential Missions for your Nation, and they raise their Family's opinion of you.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_100</zType>
-		<Translation>You need an link(COUNCIL_AMBASSADOR) to conduct diplomacy with other Nations and Tribes. They can also perform the link(MISSION_TRADE_MISSION) and link(MISSION_HIGH_SYNOD) Missions.</Translation>
+		<de-DE>You need an link(COUNCIL_AMBASSADOR) to conduct diplomacy with other Nations and Tribes. They can also perform the link(MISSION_TRADE_MISSION) and link(MISSION_HIGH_SYNOD) Missions.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_101</zType>
-		<Translation>You need a link(COUNCIL_CHANCELLOR) to perform the link(MISSION_FAMILY_GIFT), link(MISSION_IMPRISON), and link(MISSION_PACIFY_CITY) Missions.</Translation>
+		<de-DE>You need a link(COUNCIL_CHANCELLOR) to perform the link(MISSION_FAMILY_GIFT), link(MISSION_IMPRISON), and link(MISSION_PACIFY_CITY) Missions.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_102</zType>
-		<Translation>You need a link(COUNCIL_SPYMASTER) to perform the link(MISSION_INFILTRATE), link(MISSION_SLANDER), link(MISSION_ASSASSINATE), and link(MISSION_STEAL_RESEARCH) Missions.</Translation>
+		<de-DE>You need a link(COUNCIL_SPYMASTER) to perform the link(MISSION_INFILTRATE), link(MISSION_SLANDER), link(MISSION_ASSASSINATE), and link(MISSION_STEAL_RESEARCH) Missions.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_103</zType>
-		<Translation>Cities need at least as many link(CONCEPT_URBAN) tiles as they have Population points, otherwise they start to become discontent.</Translation>
+		<de-DE>Cities need at least as many link(CONCEPT_URBAN) tiles as they have Population points, otherwise they start to become discontent.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_104</zType>
-		<Translation>With a link(UNIT_WORKER) selected, hold down [SHIFT] to queue up multiple moves and link(CONCEPT_IMPROVEMENT,2).</Translation>
+		<de-DE>With a link(UNIT_WORKER) selected, hold down [SHIFT] to queue up multiple moves and link(CONCEPT_IMPROVEMENT,2).</de-DE>
 	</Entry>
 </Root>

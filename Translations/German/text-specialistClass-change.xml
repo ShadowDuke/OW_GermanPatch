@@ -1,81 +1,81 @@
-﻿<!-- German Translation (© Revan ©) -->
+﻿<!-- German de-DE (© Revan ©) -->
 
 <Root>
 	<!--Assets/GameAssets/Resources/Infos/specialist.xml-->
 	<Entry>
 		<zType/>
-		<Translation/>
+		<de-DE/>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALISTCLASS_FARMER</zType>
-		<Translation>Farmer</Translation>
+		<de-DE>Farmer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALISTCLASS_WOODCUTTER</zType>
-		<Translation>Holzfäller</Translation>
+		<de-DE>Holzfäller</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALISTCLASS_STONECUTTER</zType>
-		<Translation>Steinmetz</Translation>
+		<de-DE>Steinmetz</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALISTCLASS_MINER</zType>
-		<Translation>Bergarbeiter</Translation>
+		<de-DE>Bergarbeiter</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALISTCLASS_RANCHER</zType>
-		<Translation>Viehzüchter</Translation>
+		<de-DE>Viehzüchter</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALISTCLASS_TRAPPER</zType>
-		<Translation>Pelzjäger</Translation>
+		<de-DE>Pelzjäger</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALISTCLASS_GARDENER</zType>
-		<Translation>Gärtner</Translation>
+		<de-DE>Gärtner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALISTCLASS_FISHER</zType>
-		<Translation>Fischer</Translation>
+		<de-DE>Fischer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALISTCLASS_ACOLYTE</zType>
-		<Translation>Akolyth</Translation>
+		<de-DE>Akolyth</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALISTCLASS_MONK</zType>
-		<Translation>Mönch</Translation>
+		<de-DE>Mönch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALISTCLASS_PRIEST</zType>
-		<Translation>Priester~Priester</Translation>
+		<de-DE>Priester~Priester</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALISTCLASS_OFFICER</zType>
-		<Translation>Offizier</Translation>
+		<de-DE>Offizier</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALISTCLASS_POET</zType>
-		<Translation>Dichter</Translation>
+		<de-DE>Dichter</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALISTCLASS_SCRIBE</zType>
-		<Translation>Schreiber</Translation>
+		<de-DE>Schreiber</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALISTCLASS_SHOPKEEPER</zType>
-		<Translation>Krämer</Translation>
+		<de-DE>Krämer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALISTCLASS_PHILOSOPHER</zType>
-		<Translation>Philosoph</Translation>
+		<de-DE>Philosoph</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALISTCLASS_DOCTOR</zType>
-		<Translation>Medikus</Translation>
+		<de-DE>Medikus</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SPECIALISTCLASS_BISHOP</zType>
-		<Translation>Bischof</Translation>
+		<de-DE>Bischof</de-DE>
 	</Entry>
 </Root>

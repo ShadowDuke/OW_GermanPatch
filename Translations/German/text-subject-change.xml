@@ -1,540 +1,540 @@
-<!-- German Translation (© Revan ©) -->
+<!-- German de-DE (© Revan ©) -->
 
 <Root>
 	<Entry>
 		<zType/>
-		<Translation/>
+		<de-DE/>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_HUMAN_DIPLOMACY_NOT_FOUND</zType>
-		<Translation>Gegenseitiger Kontakt und kein Diplomatischer Auftrag</Translation>
+		<de-DE>Gegenseitiger Kontakt und kein Diplomatischer Auftrag</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_WAR</zType>
-		<Translation>link(DIPLOMACY_WAR)</Translation>
+		<de-DE>link(DIPLOMACY_WAR)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_TRUCE</zType>
-		<Translation>link(DIPLOMACY_TRUCE)</Translation>
+		<de-DE>link(DIPLOMACY_TRUCE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_PEACE</zType>
-		<Translation>link(DIPLOMACY_PEACE)</Translation>
+		<de-DE>link(DIPLOMACY_PEACE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_PEACE_OR_TRUCE</zType>
-		<Translation>link(DIPLOMACY_PEACE) oder link(DIPLOMACY_TRUCE)</Translation>
+		<de-DE>link(DIPLOMACY_PEACE) oder link(DIPLOMACY_TRUCE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_NO_ALLIANCE</zType>
-		<Translation>Kein link(CONCEPT_ALLIANCE_PLAYER)</Translation>
+		<de-DE>Kein link(CONCEPT_ALLIANCE_PLAYER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_PEACE_FRIENDLY</zType>
-		<Translation>link(DIPLOMACY_PEACE) und min link(OPINIONPLAYER_FRIENDLY)</Translation>
+		<de-DE>link(DIPLOMACY_PEACE) und min link(OPINIONPLAYER_FRIENDLY)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_MAX_ANGRY</zType>
-		<Translation>Max link(OPINIONPLAYER_ANGRY)</Translation>
+		<de-DE>Max link(OPINIONPLAYER_ANGRY)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_MAX_UPSET</zType>
-		<Translation>Max link(OPINIONPLAYER_UPSET)</Translation>
+		<de-DE>Max link(OPINIONPLAYER_UPSET)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_MAX_CAUTIOUS</zType>
-		<Translation>Max link(OPINIONPLAYER_CAUTIOUS)</Translation>
+		<de-DE>Max link(OPINIONPLAYER_CAUTIOUS)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_MAX_PLEASED</zType>
-		<Translation>Max link(OPINIONPLAYER_PLEASED)</Translation>
+		<de-DE>Max link(OPINIONPLAYER_PLEASED)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_MIN_ANGRY</zType>
-		<Translation>Min link(OPINIONPLAYER_ANGRY)</Translation>
+		<de-DE>Min link(OPINIONPLAYER_ANGRY)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_MIN_UPSET</zType>
-		<Translation>Min link(OPINIONPLAYER_UPSET)</Translation>
+		<de-DE>Min link(OPINIONPLAYER_UPSET)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_MIN_CAUTIOUS</zType>
-		<Translation>Min link(OPINIONPLAYER_CAUTIOUS)</Translation>
+		<de-DE>Min link(OPINIONPLAYER_CAUTIOUS)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_MIN_PLEASED</zType>
-		<Translation>Min link(OPINIONPLAYER_PLEASED)</Translation>
+		<de-DE>Min link(OPINIONPLAYER_PLEASED)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_MIN_FRIENDLY</zType>
-		<Translation>Min link(OPINIONPLAYER_FRIENDLY)</Translation>
+		<de-DE>Min link(OPINIONPLAYER_FRIENDLY)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_ANGRY_PLEASED</zType>
-		<Translation>link(OPINIONPLAYER_ANGRY) zu link(OPINIONPLAYER_PLEASED)</Translation>
+		<de-DE>link(OPINIONPLAYER_ANGRY) zu link(OPINIONPLAYER_PLEASED)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_ANGRY_CAUTIOUS</zType>
-		<Translation>link(OPINIONPLAYER_ANGRY) zu link(OPINIONPLAYER_CAUTIOUS)</Translation>
+		<de-DE>link(OPINIONPLAYER_ANGRY) zu link(OPINIONPLAYER_CAUTIOUS)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_ANGRY_UPSET</zType>
-		<Translation>link(OPINIONPLAYER_ANGRY) zu link(OPINIONPLAYER_UPSET)</Translation>
+		<de-DE>link(OPINIONPLAYER_ANGRY) zu link(OPINIONPLAYER_UPSET)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_UPSET_PLEASED</zType>
-		<Translation>link(OPINIONPLAYER_UPSET) zu link(OPINIONPLAYER_PLEASED)</Translation>
+		<de-DE>link(OPINIONPLAYER_UPSET) zu link(OPINIONPLAYER_PLEASED)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_UPSET_CAUTIOUS</zType>
-		<Translation>link(OPINIONPLAYER_UPSET) zu link(OPINIONPLAYER_CAUTIOUS)</Translation>
+		<de-DE>link(OPINIONPLAYER_UPSET) zu link(OPINIONPLAYER_CAUTIOUS)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_CAUTIOUS_PLEASED</zType>
-		<Translation>link(OPINIONPLAYER_CAUTIOUS) zu link(OPINIONPLAYER_PLEASED)</Translation>
+		<de-DE>link(OPINIONPLAYER_CAUTIOUS) zu link(OPINIONPLAYER_PLEASED)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_MIN_PLEASED_NO_WARS</zType>
-		<Translation>Min link(OPINIONPLAYER_PLEASED) und keine Kriege</Translation>
+		<de-DE>Min link(OPINIONPLAYER_PLEASED) und keine Kriege</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_MIN_COMPETENT</zType>
-		<Translation>Min Kompetenz (link(CONCEPT_KNOWLEDGE))</Translation>
+		<de-DE>Min Kompetenz (link(CONCEPT_KNOWLEDGE))</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_MAX_NAIVE</zType>
-		<Translation>Max natürliches (link(CONCEPT_KNOWLEDGE)</Translation>
+		<de-DE>Max natürliches (link(CONCEPT_KNOWLEDGE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_NO_ADOPTED_RELIGION</zType>
-		<Translation>Hat link(CONCEPT_STATE_RELIGION) nicht vor kurzem adoptiert</Translation>
+		<de-DE>Hat link(CONCEPT_STATE_RELIGION) nicht vor kurzem adoptiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_HAS_HEIRS</zType>
-		<Translation>Hat Erbe(n)</Translation>
+		<de-DE>Hat Erbe(n)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_NOT_MIN_CONFLICT_TURNS</zType>
-		<Translation>Länger als int(MIN_TREATY_TURNS) Züge seit letztem link(DIPLOMACY_WAR)</Translation>
+		<de-DE>Länger als int(MIN_TREATY_TURNS) Züge seit letztem link(DIPLOMACY_WAR)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_NOT_MIN_CONFLICT_TURNS_HUMAN</zType>
-		<Translation>Länger als int(MIN_TREATY_TURNS) Züge seit letztem link(DIPLOMACY_WAR)</Translation>
+		<de-DE>Länger als int(MIN_TREATY_TURNS) Züge seit letztem link(DIPLOMACY_WAR)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_TRIBE_WAR</zType>
-		<Translation>link(DIPLOMACY_WAR)</Translation>
+		<de-DE>link(DIPLOMACY_WAR)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_TRIBE_TRUCE</zType>
-		<Translation>link(DIPLOMACY_TRUCE)</Translation>
+		<de-DE>link(DIPLOMACY_TRUCE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_TRIBE_PEACE</zType>
-		<Translation>link(DIPLOMACY_PEACE)</Translation>
+		<de-DE>link(DIPLOMACY_PEACE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_TRIBE_PEACE_OR_TRUCE</zType>
-		<Translation>link(DIPLOMACY_PEACE) oder link(DIPLOMACY_TRUCE)</Translation>
+		<de-DE>link(DIPLOMACY_PEACE) oder link(DIPLOMACY_TRUCE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_TRIBE_NO_ALLIANCE</zType>
-		<Translation>Kein link(CONCEPT_ALLIANCE_TRIBE)</Translation>
+		<de-DE>Kein link(CONCEPT_ALLIANCE_TRIBE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_TRIBE_PEACE_FRIENDLY</zType>
-		<Translation>link(DIPLOMACY_PEACE) und min link(OPINIONTRIBE_FRIENDLY)</Translation>
+		<de-DE>link(DIPLOMACY_PEACE) und min link(OPINIONTRIBE_FRIENDLY)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_TRIBE_MAX_ANGRY</zType>
-		<Translation>Max link(OPINIONTRIBE_ANGRY)</Translation>
+		<de-DE>Max link(OPINIONTRIBE_ANGRY)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_TRIBE_MAX_UPSET</zType>
-		<Translation>Max link(OPINIONTRIBE_UPSET)</Translation>
+		<de-DE>Max link(OPINIONTRIBE_UPSET)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_TRIBE_MAX_CAUTIOUS</zType>
-		<Translation>Max link(OPINIONTRIBE_CAUTIOUS)</Translation>
+		<de-DE>Max link(OPINIONTRIBE_CAUTIOUS)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_TRIBE_MIN_CAUTIOUS</zType>
-		<Translation>Min link(OPINIONTRIBE_CAUTIOUS)</Translation>
+		<de-DE>Min link(OPINIONTRIBE_CAUTIOUS)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_TRIBE_MIN_PLEASED</zType>
-		<Translation>Min link(OPINIONTRIBE_PLEASED)</Translation>
+		<de-DE>Min link(OPINIONTRIBE_PLEASED)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_TRIBE_MIN_FRIENDLY</zType>
-		<Translation>Min link(OPINIONTRIBE_FRIENDLY)</Translation>
+		<de-DE>Min link(OPINIONTRIBE_FRIENDLY)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_RELIGION_UNLOCKED</zType>
-		<Translation>Welt Religion oder link(LAW_DIVINE_RULE)</Translation>
+		<de-DE>Welt Religion oder link(LAW_DIVINE_RULE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_NON_LEADER</zType>
-		<Translation>Kein Reich Oberhaupt</Translation>
+		<de-DE>Kein Reich Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_RELIGION_HEAD</zType>
-		<Translation>Religions Oberhaupt</Translation>
+		<de-DE>Religions Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_OF_STATE_RELIGION</zType>
-		<Translation>Folge Staatsreligion</Translation>
+		<de-DE>Folge Staatsreligion</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_LEADER_SCHEMER</zType>
-		<Translation>link(TRAIT_SCHEMER_ARCHETYPE) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_SCHEMER_ARCHETYPE) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_LEADER_DIPLOMAT</zType>
-		<Translation>link(TRAIT_DIPLOMAT_ARCHETYPE) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_DIPLOMAT_ARCHETYPE) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_LEADER_JUDGE</zType>
-		<Translation>link(TRAIT_JUDGE_ARCHETYPE) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_JUDGE_ARCHETYPE) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_LEADER_SCHOLAR</zType>
-		<Translation>link(TRAIT_SCHOLAR_ARCHETYPE) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_SCHOLAR_ARCHETYPE) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_LEADER_HERO</zType>
-		<Translation>link(TRAIT_HERO_ARCHETYPE) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_HERO_ARCHETYPE) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_LEADER_COMMANDER</zType>
-		<Translation>link(TRAIT_COMMANDER_ARCHETYPE) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_COMMANDER_ARCHETYPE) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_LEADER_TACTICIAN</zType>
-		<Translation>link(TRAIT_TACTICIAN_ARCHETYPE) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_TACTICIAN_ARCHETYPE) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_LEADER_ZEALOT</zType>
-		<Translation>link(TRAIT_ZEALOT_ARCHETYPE) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_ZEALOT_ARCHETYPE) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_LEADER_ORATOR</zType>
-		<Translation>link(TRAIT_ORATOR_ARCHETYPE) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_ORATOR_ARCHETYPE) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_LEADER_BUILDER</zType>
-		<Translation>link(TRAIT_BUILDER_ARCHETYPE) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_BUILDER_ARCHETYPE) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_LEADER_OR_DESCENDANT</zType>
-		<Translation>Oberhaupt oder Nachkomme</Translation>
+		<de-DE>Oberhaupt oder Nachkomme</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_MAX_CAUTIOUS</zType>
-		<Translation>Max link(OPINIONCHARACTER_CAUTIOUS)</Translation>
+		<de-DE>Max link(OPINIONCHARACTER_CAUTIOUS)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_MAX_UPSET</zType>
-		<Translation>Max link(OPINIONCHARACTER_UPSET)</Translation>
+		<de-DE>Max link(OPINIONCHARACTER_UPSET)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_MAX_ANGRY</zType>
-		<Translation>Max link(OPINIONCHARACTER_ANGRY)</Translation>
+		<de-DE>Max link(OPINIONCHARACTER_ANGRY)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_MAX_FURIOUS</zType>
-		<Translation>Max link(OPINIONCHARACTER_FURIOUS)</Translation>
+		<de-DE>Max link(OPINIONCHARACTER_FURIOUS)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_MIN_CAUTIOUS</zType>
-		<Translation>Min link(OPINIONCHARACTER_CAUTIOUS)</Translation>
+		<de-DE>Min link(OPINIONCHARACTER_CAUTIOUS)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_MIN_PLEASED</zType>
-		<Translation>Min link(OPINIONCHARACTER_PLEASED)</Translation>
+		<de-DE>Min link(OPINIONCHARACTER_PLEASED)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_INTERCEDED_FOR_LEADER</zType>
-		<Translation>Führsprache für Dich</Translation>
+		<de-DE>Führsprache für Dich</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_INFLUENCED_BY_LEADER</zType>
-		<Translation>Beeinflusst von Dir</Translation>
+		<de-DE>Beeinflusst von Dir</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_BABY</zType>
-		<Translation>Max Alter 1</Translation>
+		<de-DE>Max Alter 1</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_TODDLER</zType>
-		<Translation>Alter 2-5</Translation>
+		<de-DE>Alter 2-5</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHILD</zType>
-		<Translation>Alter 6-11</Translation>
+		<de-DE>Alter 6-11</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_TEENAGER</zType>
-		<Translation>Alter 12-17</Translation>
+		<de-DE>Alter 12-17</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_LATE_TEENAGER</zType>
-		<Translation>Alter 16-17</Translation>
+		<de-DE>Alter 16-17</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_ADULT</zType>
-		<Translation>Min Alter 18</Translation>
+		<de-DE>Min Alter 18</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHILD_OR_TEENAGER</zType>
-		<Translation>Alter 6-17</Translation>
+		<de-DE>Alter 6-17</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_TEENAGER_OR_ADULT</zType>
-		<Translation>Min Alter 12</Translation>
+		<de-DE>Min Alter 12</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_MIDDLE_AGE</zType>
-		<Translation>Alter 18-40</Translation>
+		<de-DE>Alter 18-40</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_OLD</zType>
-		<Translation>Min Alter 40</Translation>
+		<de-DE>Min Alter 40</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_ADULT_UNDER_30</zType>
-		<Translation>Alter 18-30</Translation>
+		<de-DE>Alter 18-30</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_ADULT_UNDER_40</zType>
-		<Translation>Alter 18-40</Translation>
+		<de-DE>Alter 18-40</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_OVER_30</zType>
-		<Translation>Min Alter 30</Translation>
+		<de-DE>Min Alter 30</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_OVER_40</zType>
-		<Translation>Min Alter 40</Translation>
+		<de-DE>Min Alter 40</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_OVER_50</zType>
-		<Translation>Min Alter 50</Translation>
+		<de-DE>Min Alter 50</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_OCTOGENARIAN</zType>
-		<Translation>Min Alter 80</Translation>
+		<de-DE>Min Alter 80</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CENTENARIAN</zType>
-		<Translation>Min Alter 100</Translation>
+		<de-DE>Min Alter 100</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_NO_JOB</zType>
-		<Translation>Keine Aufgabe</Translation>
+		<de-DE>Keine Aufgabe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_AMBASSADOR</zType>
-		<Translation>Gesandter</Translation>
+		<de-DE>Gesandter</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_ROYAL_NON_LEADER_OR_HEIR_OR_BASTARD</zType>
-		<Translation>Königlich und nicht Oberhaupt, Erbe oder Bastard</Translation>
+		<de-DE>Königlich und nicht Oberhaupt, Erbe oder Bastard</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHANCELLOR</zType>
-		<Translation>Kanzler</Translation>
+		<de-DE>Kanzler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_SPYMASTER</zType>
-		<Translation>Meisterspion</Translation>
+		<de-DE>Meisterspion</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_STUDY_ANY</zType>
-		<Translation>Schüler</Translation>
+		<de-DE>Schüler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_AWAY_FROM_COURT</zType>
-		<Translation>Vom Hofstaat abwesend</Translation>
+		<de-DE>Vom Hofstaat abwesend</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_HONORABLE</zType>
-		<Translation>Ehrenhaft</Translation>
+		<de-DE>Ehrenhaft</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_HONORABLE</zType>
-		<Translation>Nicht Ehrenhaft</Translation>
+		<de-DE>Nicht Ehrenhaft</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_VILLAINOUS</zType>
-		<Translation>Böse</Translation>
+		<de-DE>Böse</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_VILLAINOUS</zType>
-		<Translation>Nicht Böse</Translation>
+		<de-DE>Nicht Böse</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_STRONG</zType>
-		<Translation>Kräftig</Translation>
+		<de-DE>Kräftig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_STRONG</zType>
-		<Translation>Nicht kräftig</Translation>
+		<de-DE>Nicht kräftig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_WEAK</zType>
-		<Translation>Schwach</Translation>
+		<de-DE>Schwach</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_WEAK</zType>
-		<Translation>Nicht schwach</Translation>
+		<de-DE>Nicht schwach</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_CARNAL</zType>
-		<Translation>Sinnlich</Translation>
+		<de-DE>Sinnlich</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_CARNAL</zType>
-		<Translation>Nicht Sinnlich</Translation>
+		<de-DE>Nicht Sinnlich</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_PRODUCTIVE</zType>
-		<Translation>Produktiv</Translation>
+		<de-DE>Produktiv</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_PRODUCTIVE</zType>
-		<Translation>Nicht Produktiv</Translation>
+		<de-DE>Nicht Produktiv</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_RELIGIOUS</zType>
-		<Translation>Religiös</Translation>
+		<de-DE>Religiös</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_RELIGIOUS</zType>
-		<Translation>Nicht Religiös</Translation>
+		<de-DE>Nicht Religiös</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_INQUISITIVE</zType>
-		<Translation>Wissbegierig</Translation>
+		<de-DE>Wissbegierig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_INQUISITIVE</zType>
-		<Translation>Nicht Wissbegierig</Translation>
+		<de-DE>Nicht Wissbegierig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_URBAN</zType>
-		<Translation>Stadtbewohner</Translation>
+		<de-DE>Stadtbewohner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_URBAN</zType>
-		<Translation>Nicht Stadtbewohner</Translation>
+		<de-DE>Nicht Stadtbewohner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_SYLVAN</zType>
-		<Translation>Waldbewohner</Translation>
+		<de-DE>Waldbewohner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_SYLVAN</zType>
-		<Translation>Nicht Waldbewohner</Translation>
+		<de-DE>Nicht Waldbewohner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_VAIN</zType>
-		<Translation>Eitel</Translation>
+		<de-DE>Eitel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_VAIN</zType>
-		<Translation>Nicht Eitel</Translation>
+		<de-DE>Nicht Eitel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_TRADITIONAL</zType>
-		<Translation>Traditionell</Translation>
+		<de-DE>Traditionell</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_TRADITIONAL</zType>
-		<Translation>Nicht Traditionell</Translation>
+		<de-DE>Nicht Traditionell</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_CHARMING</zType>
-		<Translation>Charmant</Translation>
+		<de-DE>Charmant</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_CHARMING</zType>
-		<Translation>Nicht Charmant</Translation>
+		<de-DE>Nicht Charmant</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_DILIGENT</zType>
-		<Translation>Fleißig</Translation>
+		<de-DE>Fleißig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_DILIGENT</zType>
-		<Translation>Nicht Fleißig</Translation>
+		<de-DE>Nicht Fleißig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_CONSPIRATOR</zType>
-		<Translation>Verschwörerisch</Translation>
+		<de-DE>Verschwörerisch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_CONSPIRATOR</zType>
-		<Translation>Nicht Verschwörerisch</Translation>
+		<de-DE>Nicht Verschwörerisch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_TERRIFYING</zType>
-		<Translation>Furchterregend</Translation>
+		<de-DE>Furchterregend</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_TERRIFYING</zType>
-		<Translation>Nicht Furchterregend</Translation>
+		<de-DE>Nicht Furchterregend</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_SEVEN_SINS</zType>
-		<Translation>Sieben Sünden</Translation>
+		<de-DE>Sieben Sünden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_SEVEN_SINS</zType>
-		<Translation>Nicht Sieben Sünden</Translation>
+		<de-DE>Nicht Sieben Sünden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_SEVEN_VIRTUES</zType>
-		<Translation>Sieben Tugenden</Translation>
+		<de-DE>Sieben Tugenden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_SEVEN_VIRTUES</zType>
-		<Translation>Nicht Sieben Tugenden</Translation>
+		<de-DE>Nicht Sieben Tugenden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_ARCHETYPE_REGAL</zType>
-		<Translation>Majestätisch</Translation>
+		<de-DE>Majestätisch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_ARCHETYPE_NOT_REGAL</zType>
-		<Translation>Nicht Majestätisch</Translation>
+		<de-DE>Nicht Majestätisch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_ARCHETYPE_MARTIAL</zType>
-		<Translation>Kriegerisch</Translation>
+		<de-DE>Kriegerisch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_ARCHETYPE_NOT_MARTIAL</zType>
-		<Translation>Nicht Kriegerisch</Translation>
+		<de-DE>Nicht Kriegerisch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_ARCHETYPE_COVERT</zType>
-		<Translation>Verstohlen</Translation>
+		<de-DE>Verstohlen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_ARCHETYPE_NOT_COVERT</zType>
-		<Translation>Nicht Verstohlen</Translation>
+		<de-DE>Nicht Verstohlen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_ARCHETYPE_THOUGHTFUL</zType>
-		<Translation>Nachdenklich</Translation>
+		<de-DE>Nachdenklich</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_ARCHETYPE_NOT_THOUGHTFUL</zType>
-		<Translation>Nicht Nachdenklich</Translation>
+		<de-DE>Nicht Nachdenklich</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NO_IMPRISONED_RECENTLY</zType>
-		<Translation>Nicht link(TRAIT_IMPRISONED) vor Kurzem</Translation>
+		<de-DE>Nicht link(TRAIT_IMPRISONED) vor Kurzem</de-DE>
 	</Entry>
 </Root>

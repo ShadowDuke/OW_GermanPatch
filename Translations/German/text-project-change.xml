@@ -1,214 +1,214 @@
-<!-- German Translation (© Revan ©) -->
+<!-- German de-DE (© Revan ©) -->
 
 <Root>
 	<!--Assets/GameAssets/Resources/Infos/improvement.xml-->
 	<!--NOTE: improvement names that are mass nouns or plural do not need multiple types in English-->
 	<Entry>
 		<zType/>
-		<Translation/>
+		<de-DE/>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_REPAIR</zType>
-		<Translation>Reparaturen</Translation>
+		<de-DE>Reparaturen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_MONARCH</zType>
-		<Translation>Herrscher~ein Herrscher~Herrscher</Translation>
+		<de-DE>Herrscher~ein Herrscher~Herrscher</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_GOVERNOR</zType>
-		<Translation>Statthalter~ein Statthalter~Statthalter</Translation>
+		<de-DE>Statthalter~ein Statthalter~Statthalter</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_WALLS</zType>
-		<Translation>Mauern</Translation>
+		<de-DE>Mauern</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_MOAT</zType>
-		<Translation>Graben~ein Graben~Gräben</Translation>
+		<de-DE>Graben~ein Graben~Gräben</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_TOWERS</zType>
-		<Translation>Wehrtürme</Translation>
+		<de-DE>Wehrtürme</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_TREASURY_1</zType>
-		<Translation>Staatskasse I~eine Staatskasse I~Staatskassen I</Translation>
+		<de-DE>Staatskasse I~eine Staatskasse I~Staatskassen I</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_TREASURY_2</zType>
-		<Translation>Staatskasse II~eine Staatskasse II~Staatskassen II</Translation>
+		<de-DE>Staatskasse II~eine Staatskasse II~Staatskassen II</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_TREASURY_3</zType>
-		<Translation>Staatskasse III~eine Staatskasse III~Staatskassen III</Translation>
+		<de-DE>Staatskasse III~eine Staatskasse III~Staatskassen III</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_TREASURY_4</zType>
-		<Translation>Staatskasse IV~eine Staatskasse IV~Staatskassen IV</Translation>
+		<de-DE>Staatskasse IV~eine Staatskasse IV~Staatskassen IV</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_FORUM_1</zType>
-		<Translation>Gericht I~ein Gericht I~Gerichte I</Translation>
+		<de-DE>Gericht I~ein Gericht I~Gerichte I</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_FORUM_2</zType>
-		<Translation>Gericht II~ein Gericht II~Gerichte II</Translation>
+		<de-DE>Gericht II~ein Gericht II~Gerichte II</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_FORUM_3</zType>
-		<Translation>Gericht III~ein Gericht III~Gerichte III</Translation>
+		<de-DE>Gericht III~ein Gericht III~Gerichte III</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_FORUM_4</zType>
-		<Translation>Gericht IV~ein Gericht IV~Gerichte IV</Translation>
+		<de-DE>Gericht IV~ein Gericht IV~Gerichte IV</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_ARCHIVE_1</zType>
-		<Translation>Archiv I~ein Archiv I~Archive I</Translation>
+		<de-DE>Archiv I~ein Archiv I~Archive I</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_ARCHIVE_2</zType>
-		<Translation>Archiv II~ein Archiv II~Archive II</Translation>
+		<de-DE>Archiv II~ein Archiv II~Archive II</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_ARCHIVE_3</zType>
-		<Translation>Archiv III~ein Archiv III~Archive III</Translation>
+		<de-DE>Archiv III~ein Archiv III~Archive III</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_ARCHIVE_4</zType>
-		<Translation>Archiv IV~ein Archiv IV~Archive IV</Translation>
+		<de-DE>Archiv IV~ein Archiv IV~Archive IV</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_DECREE_1</zType>
-		<Translation>Erlass I~ein Erlass I~Erlässe I</Translation>
+		<de-DE>Erlass I~ein Erlass I~Erlässe I</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_DECREE_2</zType>
-		<Translation>Erlass II~ein Erlass II~Erlässe II</Translation>
+		<de-DE>Erlass II~ein Erlass II~Erlässe II</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_DECREE_3</zType>
-		<Translation>Erlass III~ein Erlass III~Erlässe III</Translation>
+		<de-DE>Erlass III~ein Erlass III~Erlässe III</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_DECREE_4</zType>
-		<Translation>Erlass IV~ein Erlass IV~Erlässe IV</Translation>
+		<de-DE>Erlass IV~ein Erlass IV~Erlässe IV</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_FESTIVAL</zType>
-		<Translation>Festspiele~ein Festspiel~Festspiele</Translation>
+		<de-DE>Festspiele~ein Festspiel~Festspiele</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_FESTIVAL_1</zType>
-		<Translation>Festspiele I~ein Festspiel I~Festspiele I</Translation>
+		<de-DE>Festspiele I~ein Festspiel I~Festspiele I</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_FESTIVAL_2</zType>
-		<Translation>Festspiele II~ein Festspiel II~Festspiele II</Translation>
+		<de-DE>Festspiele II~ein Festspiel II~Festspiele II</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_FESTIVAL_3</zType>
-		<Translation>Festspiele III~ein Festspiel III~Festspiele III</Translation>
+		<de-DE>Festspiele III~ein Festspiel III~Festspiele III</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_FESTIVAL_4</zType>
-		<Translation>Festspiele IV~ein Festspiel IV~Festspiele IV</Translation>
+		<de-DE>Festspiele IV~ein Festspiel IV~Festspiele IV</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_INQUIRY</zType>
-		<Translation>Forschung~eine Forschung~Forschungen</Translation>
+		<de-DE>Forschung~eine Forschung~Forschungen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_INQUIRY_1</zType>
-		<Translation>Forschung I~eine Forschung I~Forschungen I</Translation>
+		<de-DE>Forschung I~eine Forschung I~Forschungen I</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_INQUIRY_2</zType>
-		<Translation>Forschung II~eine Forschung II~Forschungen II</Translation>
+		<de-DE>Forschung II~eine Forschung II~Forschungen II</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_INQUIRY_3</zType>
-		<Translation>Forschung III~eine Forschung III~Forschungen III</Translation>
+		<de-DE>Forschung III~eine Forschung III~Forschungen III</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_INQUIRY_4</zType>
-		<Translation>Forschung IV~eine Forschung IV~Forschungen IV</Translation>
+		<de-DE>Forschung IV~eine Forschung IV~Forschungen IV</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_HUNT</zType>
-		<Translation>Jagd~eine Jagd~Jagden</Translation>
+		<de-DE>Jagd~eine Jagd~Jagden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_HUNT_1</zType>
-		<Translation>Jagd I~eine Jagd I~Jagden I</Translation>
+		<de-DE>Jagd I~eine Jagd I~Jagden I</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_HUNT_2</zType>
-		<Translation>Jagd II~eine Jagd II~Jagden II</Translation>
+		<de-DE>Jagd II~eine Jagd II~Jagden II</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_HUNT_3</zType>
-		<Translation>Jagd III~eine Jagd III~Jagden III</Translation>
+		<de-DE>Jagd III~eine Jagd III~Jagden III</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_HUNT_4</zType>
-		<Translation>Jagd IV~eine Jagd IV~Jagden IV</Translation>
+		<de-DE>Jagd IV~eine Jagd IV~Jagden IV</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_OLYMPICS</zType>
-		<Translation>Olympiade~eine Olympiade~Olympiaden</Translation>
+		<de-DE>Olympiade~eine Olympiade~Olympiaden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_OLYMPICS_1</zType>
-		<Translation>Olympiade I~eine Olympiade I~Olympiaden I</Translation>
+		<de-DE>Olympiade I~eine Olympiade I~Olympiaden I</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_OLYMPICS_2</zType>
-		<Translation>Olympiade II~eine Olympiade II~Olympiaden II</Translation>
+		<de-DE>Olympiade II~eine Olympiade II~Olympiaden II</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_OLYMPICS_3</zType>
-		<Translation>Olympiade III~eine Olympiade III~Olympiaden III</Translation>
+		<de-DE>Olympiade III~eine Olympiade III~Olympiaden III</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_OLYMPICS_4</zType>
-		<Translation>Olympiade IV~eine Olympiade IV~Olympiaden IV</Translation>
+		<de-DE>Olympiade IV~eine Olympiade IV~Olympiaden IV</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_CONVOY</zType>
-		<Translation>Eskorte~eine Eskorte~Eskorten</Translation>
+		<de-DE>Eskorte~eine Eskorte~Eskorten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_CONVOY_1</zType>
-		<Translation>Eskorte I~eine Eskorte I~Eskorten I</Translation>
+		<de-DE>Eskorte I~eine Eskorte I~Eskorten I</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_CONVOY_2</zType>
-		<Translation>Eskorte II~eine Eskorte II~Eskorten II</Translation>
+		<de-DE>Eskorte II~eine Eskorte II~Eskorten II</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_CONVOY_3</zType>
-		<Translation>Eskorte III~eine Eskorte III~Eskorten III</Translation>
+		<de-DE>Eskorte III~eine Eskorte III~Eskorten III</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_CONVOY_4</zType>
-		<Translation>Eskorte IV~eine Eskorte IV~Eskorten IV</Translation>
+		<de-DE>Eskorte IV~eine Eskorte IV~Eskorten IV</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_COUNCIL_1</zType>
-		<Translation>Ratsversammlung I~eine Ratsversammlung I~Ratsversammlungen I</Translation>
+		<de-DE>Ratsversammlung I~eine Ratsversammlung I~Ratsversammlungen I</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_COUNCIL_2</zType>
-		<Translation>Ratsversammlung II~eine Ratsversammlung II~Ratsversammlungen II</Translation>
+		<de-DE>Ratsversammlung II~eine Ratsversammlung II~Ratsversammlungen II</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_COUNCIL_3</zType>
-		<Translation>Ratsversammlung III~eine Ratsversammlung III~Ratsversammlungen III</Translation>
+		<de-DE>Ratsversammlung III~eine Ratsversammlung III~Ratsversammlungen III</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_COUNCIL_4</zType>
-		<Translation>Ratsversammlung IV~eine Ratsversammlung IV~Ratsversammlungen IV</Translation>
+		<de-DE>Ratsversammlung IV~eine Ratsversammlung IV~Ratsversammlungen IV</de-DE>
 	</Entry>
 </Root>

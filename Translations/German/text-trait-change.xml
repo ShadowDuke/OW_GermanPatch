@@ -1,1045 +1,1045 @@
-<!-- German Translation (© Revan ©) -->
+<!-- German de-DE (© Revan ©) -->
 
 <Root>
 	<!--Assets/GameAssets/Resources/Infos/trait.xml-->
 	<Entry>
 		<zType/>
-		<Translation/>
+		<de-DE/>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_HERO_ARCHETYPE</zType>
-		<Translation>Held</Translation>
+		<de-DE>Held</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_COMMANDER_ARCHETYPE</zType>
-		<Translation>Feldherr</Translation>
+		<de-DE>Feldherr</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_TACTICIAN_ARCHETYPE</zType>
-		<Translation>Taktiker</Translation>
+		<de-DE>Taktiker</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ZEALOT_ARCHETYPE</zType>
-		<Translation>Fanatiker</Translation>
+		<de-DE>Fanatiker</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SCHEMER_ARCHETYPE</zType>
-		<Translation>Intrigant</Translation>
+		<de-DE>Intrigant</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ORATOR_ARCHETYPE</zType>
-		<Translation>Redner</Translation>
+		<de-DE>Redner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_JUDGE_ARCHETYPE</zType>
-		<Translation>Richter</Translation>
+		<de-DE>Richter</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BUILDER_ARCHETYPE</zType>
-		<Translation>Baumeister</Translation>
+		<de-DE>Baumeister</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SCHOLAR_ARCHETYPE</zType>
-		<Translation>Wissenschaftler</Translation>
+		<de-DE>Wissenschaftler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DIPLOMAT_ARCHETYPE</zType>
-		<Translation>Diplomat</Translation>
+		<de-DE>Diplomat</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_AFFABLE</zType>
-		<Translation>Umgänglich</Translation>
+		<de-DE>Umgänglich</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_AFFABLE_GAIN_1</zType>
-		<Translation>Friendly and social to all, {0_character} is {1_trait}.</Translation>
+		<de-DE>Friendly and social to all, {0_character} is {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_AFFABLE_GAIN_2</zType>
-		<Translation>{0_character} is always an agreeable companion, and is now known to be {1_trait}.</Translation>
+		<de-DE>{0_character} is always an agreeable companion, and is now known to be {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ELOQUENT</zType>
-		<Translation>Wortgewandt</Translation>
+		<de-DE>Wortgewandt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ELOQUENT_GAIN_1</zType>
-		<Translation>Never at a loss for words, {0_character} is {1_trait}.</Translation>
+		<de-DE>Never at a loss for words, {0_character} is {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ELOQUENT_GAIN_2</zType>
-		<Translation>{0_character} is quick-witted and silver-tongued, a most {1_trait} person!</Translation>
+		<de-DE>{0_character} is quick-witted and silver-tongued, a most {1_trait} person!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_WARLIKE</zType>
-		<Translation>Kriegerisch</Translation>
+		<de-DE>Kriegerisch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_WARLIKE_GAIN_1</zType>
-		<Translation>Always ready to fight, {0_character} is {1_trait}.</Translation>
+		<de-DE>Always ready to fight, {0_character} is {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_WARLIKE_GAIN_2</zType>
-		<Translation>{0_character} is skilled with the sword, spear, and shield. A most {1_trait} person!</Translation>
+		<de-DE>{0_character} is skilled with the sword, spear, and shield. A most {1_trait} person!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_INSPIRING</zType>
-		<Translation>Inspirierend</Translation>
+		<de-DE>Inspirierend</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_INSPIRING_GAIN_1</zType>
-		<Translation>Able to give a rousing speech on demand, {0_character} is {1_trait}.</Translation>
+		<de-DE>Able to give a rousing speech on demand, {0_character} is {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_INSPIRING_GAIN_2</zType>
-		<Translation>{0_character} is able to uplift anyone with {masculine_0:his:her} words. {masculine_0:He:She} is {1_trait}!</Translation>
+		<de-DE>{0_character} is able to uplift anyone with {masculine_0:his:her} words. {masculine_0:He:She} is {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_INTELLIGENT</zType>
-		<Translation>Klug</Translation>
+		<de-DE>Klug</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_INTELLIGENT_GAIN_1</zType>
-		<Translation>Easily able to learn and understand new things, {0_character} is {1_trait}.</Translation>
+		<de-DE>Easily able to learn and understand new things, {0_character} is {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_INTELLIGENT_GAIN_2</zType>
-		<Translation>{0_character} is swift to understand new situations, they are {1_trait}!</Translation>
+		<de-DE>{0_character} is swift to understand new situations, they are {1_trait}!</de-DE>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_TRAIT_PROSPEROUS</zType>
-		<Translation>Erfolgreich</Translation>
+		<de-DE>Erfolgreich</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_PROSPEROUS_GAIN_1</zType>
-		<Translation>A master of making money, {0_character} is {1_trait}.</Translation>
+		<de-DE>A master of making money, {0_character} is {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_PROSPEROUS_GAIN_2</zType>
-		<Translation>{0_character} can spin straw into gold. {masculine_0:He:She} is {1_trait}!</Translation>
+		<de-DE>{0_character} can spin straw into gold. {masculine_0:He:She} is {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_FRUGAL</zType>
-		<Translation>Sparsam</Translation>
+		<de-DE>Sparsam</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_FRUGAL_GAIN_1</zType>
-		<Translation>Never keen on spending money, {0_character} is {1_trait}.</Translation>
+		<de-DE>Never keen on spending money, {0_character} is {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_FRUGAL_GAIN_2</zType>
-		<Translation>{0_character} can spin straw into gold. {masculine_0:He:She} is {1_trait}!</Translation>
+		<de-DE>{0_character} can spin straw into gold. {masculine_0:He:She} is {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_RIGHTEOUS</zType>
-		<Translation>Rechtschaffend</Translation>
+		<de-DE>Rechtschaffend</de-DE>
 	</Entry>
 		<Entry>
 		<zType>TEXT_TRAIT_RIGHTEOUS_GAIN_1</zType>
-		<Translation>Always taking the moral position, {0_character} is {1_trait}.</Translation>
+		<de-DE>Always taking the moral position, {0_character} is {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_RIGHTEOUS_GAIN_2</zType>
-		<Translation>{0_character} always tries to do what is best. {masculine_0:He:She} is {1_trait}!</Translation>
+		<de-DE>{0_character} always tries to do what is best. {masculine_0:He:She} is {1_trait}!</de-DE>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_TRAIT_CRUEL</zType>
-		<Translation>Grausam</Translation>
+		<de-DE>Grausam</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CRUEL_GAIN_1</zType>
-		<Translation>Keen to inflict pain and suffering, {0_character} is {1_trait}.</Translation>
+		<de-DE>Keen to inflict pain and suffering, {0_character} is {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CRUEL_GAIN_2</zType>
-		<Translation>{0_character} finds enjoyment in hurting others. {masculine_0:He:She} is {1_trait}.</Translation>
+		<de-DE>{0_character} finds enjoyment in hurting others. {masculine_0:He:She} is {1_trait}.</de-DE>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_TRAIT_INTOLERANT</zType>
-		<Translation>Intolerant</Translation>
+		<de-DE>Intolerant</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_INTOLERANT_GAIN_1</zType>
-		<Translation>Disgusted by differing beliefs, {0_character} is {1_trait}.</Translation>
+		<de-DE>Disgusted by differing beliefs, {0_character} is {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_INTOLERANT_GAIN_2</zType>
-		<Translation>{0_character} has no patience for different ways of life. {masculine_0:He:She} is {1_trait}.</Translation>
+		<de-DE>{0_character} has no patience for different ways of life. {masculine_0:He:She} is {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SLOTHFUL</zType>
-		<Translation>Faul</Translation>
+		<de-DE>Faul</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SLOTHFUL_GAIN_1</zType>
-		<Translation>Unwilling to put effort into anything, {0_character} is {1_trait}.</Translation>
+		<de-DE>Unwilling to put effort into anything, {0_character} is {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SLOTHFUL_GAIN_2</zType>
-		<Translation>{0_character} never gets around to doing anything. {masculine_0:He:She} is {1_trait}.</Translation>
+		<de-DE>{0_character} never gets around to doing anything. {masculine_0:He:She} is {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CORRUPT</zType>
-		<Translation>Korrupt</Translation>
+		<de-DE>Korrupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CORRUPT_GAIN_1</zType>
-		<Translation>Dishonest and greedy, {0_character} is {1_trait}.</Translation>
+		<de-DE>Dishonest and greedy, {0_character} is {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CORRUPT_GAIN_2</zType>
-		<Translation>{0_character} will do anything for personal gain. {masculine_0:He:She} is {1_trait}!</Translation>
+		<de-DE>{0_character} will do anything for personal gain. {masculine_0:He:She} is {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_UNCOUTH</zType>
-		<Translation>Pöbelhaft</Translation>
+		<de-DE>Pöbelhaft</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_UNCOUTH_GAIN_1</zType>
-		<Translation>Lacking grace and manners, {0_character} is {1_trait}.</Translation>
+		<de-DE>Lacking grace and manners, {0_character} is {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_UNCOUTH_GAIN_2</zType>
-		<Translation>{0_character} is strange and foul. {masculine_0:He:She} is {1_trait}!</Translation>
+		<de-DE>{0_character} is strange and foul. {masculine_0:He:She} is {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_FOOLISH</zType>
-		<Translation>Tölpelhaft</Translation>
+		<de-DE>Tölpelhaft</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_FOOLISH_GAIN_1</zType>
-		<Translation>Unwise and often absurd, {0_character} is {1_trait}.</Translation>
+		<de-DE>Unwise and often absurd, {0_character} is {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_FOOLISH_GAIN_2</zType>
-		<Translation>{0_character} has poor judgement and rarely makes sense. {masculine_0:He:She} is {1_trait}!</Translation>
+		<de-DE>{0_character} has poor judgement and rarely makes sense. {masculine_0:He:She} is {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_EXTRAVAGANT</zType>
-		<Translation>Verschwenderisch</Translation>
+		<de-DE>Verschwenderisch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_EXTRAVAGANT_GAIN_1</zType>
-		<Translation>A prolific spender, {0_character} is known to be {1_trait}.</Translation>
+		<de-DE>A prolific spender, {0_character} is known to be {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_EXTRAVAGANT_GAIN_2</zType>
-		<Translation>{0_character} buys anything which strikes {masculine_0:his:her} fancy. {masculine_0:He:She} is {1_trait}!</Translation>
+		<de-DE>{0_character} buys anything which strikes {masculine_0:his:her} fancy. {masculine_0:He:She} is {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DEBAUCHED</zType>
-		<Translation>Verdorben</Translation>
+		<de-DE>Verdorben</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DEBAUCHED_GAIN_1</zType>
-		<Translation>Ready to indulge in any vice, {0_character} is known to be {1_trait}.</Translation>
+		<de-DE>Ready to indulge in any vice, {0_character} is known to be {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DEBAUCHED_GAIN_2</zType>
-		<Translation>{0_character} lives deliciously. {masculine_0:He:She} is {1_trait}!</Translation>
+		<de-DE>{0_character} lives deliciously. {masculine_0:He:She} is {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ROBUST</zType>
-		<Translation>Robust</Translation>
+		<de-DE>Robust</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ROBUST_GAIN_1</zType>
-		<Translation>Healthy and tough, {0_character} is known to be {1_trait}.</Translation>
+		<de-DE>Healthy and tough, {0_character} is known to be {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ROBUST_GAIN_2</zType>
-		<Translation>{0_character} is strong as an ox and never ill. {masculine_0:He:She} is {1_trait}!</Translation>
+		<de-DE>{0_character} is strong as an ox and never ill. {masculine_0:He:She} is {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_VIGILANT</zType>
-		<Translation>Aufmerksam</Translation>
+		<de-DE>Aufmerksam</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_VIGILANT_GAIN_1</zType>
-		<Translation>Ever watchful, many call {0_character} {1_trait}.</Translation>
+		<de-DE>Ever watchful, many call {0_character} {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_VIGILANT_GAIN_2</zType>
-		<Translation>{0_character} is always on the lookout for danger. {masculine_0:He:She} is {1_trait}!</Translation>
+		<de-DE>{0_character} is always on the lookout for danger. {masculine_0:He:She} is {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_STRICT</zType>
-		<Translation>Streng</Translation>
+		<de-DE>Streng</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_STRICT_GAIN_1</zType>
-		<Translation>A servant of duty, many call {0_character} {1_trait}.</Translation>
+		<de-DE>A servant of duty, many call {0_character} {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_STRICT_GAIN_2</zType>
-		<Translation>{0_character} is disciplined and attentive. {masculine_0:He:She} is {1_trait}!</Translation>
+		<de-DE>{0_character} is disciplined and attentive. {masculine_0:He:She} is {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_EQUESTRIAN</zType>
-		<Translation>Reiter</Translation>
+		<de-DE>Reiter</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_EQUESTRIAN_GAIN_1</zType>
-		<Translation>An expert rider and trainer of horses, {0_character} is known as an {1_trait}.</Translation>
+		<de-DE>An expert rider and trainer of horses, {0_character} is known as an {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_EQUESTRIAN_GAIN_2</zType>
-		<Translation>{0_character} is never far from {masculine_0:his:her} horse. {masculine_0:He:She} is an {1_trait}!</Translation>
+		<de-DE>{0_character} is never far from {masculine_0:his:her} horse. {masculine_0:He:She} is an {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CARPENTER</zType>
-		<Translation>Zimmerer</Translation>
+		<de-DE>Zimmerer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CARPENTER_GAIN_1</zType>
-		<Translation>A master woodworker, {0_character} is famed as a {1_trait}.</Translation>
+		<de-DE>A master woodworker, {0_character} is famed as a {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_PATHFINDER</zType>
-		<Translation>Pfadfinder</Translation>
+		<de-DE>Pfadfinder</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_PATHFINDER_GAIN_1</zType>
-		<Translation>A confident hunter, scout, and gamekeeper, {0_character} is a renowned {1_trait}.</Translation>
+		<de-DE>A confident hunter, scout, and gamekeeper, {0_character} is a renowned {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CULTIVATOR</zType>
-		<Translation>Landwirt</Translation>
+		<de-DE>Landwirt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CULTIVATOR_GAIN_1</zType>
-		<Translation>Green of thumb, {0_character} is a {1_trait} who can grow anything!</Translation>
+		<de-DE>Green of thumb, {0_character} is a {1_trait} who can grow anything!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_NATURALIST</zType>
-		<Translation>Naturforscher</Translation>
+		<de-DE>Naturforscher</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_NATURALIST_GAIN_1</zType>
-		<Translation>A keen student of plants and animals, {0_character} is a {1_trait} of some fame!</Translation>
+		<de-DE>A keen student of plants and animals, {0_character} is a {1_trait} of some fame!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DELVER</zType>
-		<Translation>Schnüffler</Translation>
+		<de-DE>Schnüffler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DELVER_GAIN_1</zType>
-		<Translation>Able to excavate anything, {0_character} is a {1_trait}!</Translation>
+		<de-DE>Able to excavate anything, {0_character} is a {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DEALMAKER</zType>
-		<Translation>Geschäftemacher</Translation>
+		<de-DE>Geschäftemacher</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DEALMAKER_GAIN_1</zType>
-		<Translation>With a gift for negotiation, {0_character} is known as a {1_trait}!</Translation>
+		<de-DE>With a gift for negotiation, {0_character} is known as a {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DEALMAKER_GAIN_2</zType>
-		<Translation>{0_character} can get anything they want while keeping the other party pleased. {masculine_0:He:She} is an excellent {1_trait}!</Translation>
+		<de-DE>{0_character} can get anything they want while keeping the other party pleased. {masculine_0:He:She} is an excellent {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_TRACKER</zType>
-		<Translation>Fährtenleser</Translation>
+		<de-DE>Fährtenleser</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_TRACKER_GAIN_1</zType>
-		<Translation>Able to track any trail, {0_character} is an expert {1_trait}!</Translation>
+		<de-DE>Able to track any trail, {0_character} is an expert {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SWIFT</zType>
-		<Translation>Flink</Translation>
+		<de-DE>Flink</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SWIFT_GAIN_1</zType>
-		<Translation>Fast as a stooping hawk, everyone knows {0_character} to be {1_trait}!</Translation>
+		<de-DE>Fast as a stooping hawk, everyone knows {0_character} to be {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BESIEGER</zType>
-		<Translation>Belagerer</Translation>
+		<de-DE>Belagerer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BESIEGER_GAIN_1</zType>
-		<Translation>An expert in siege warfare, {0_character} is known as a {1_trait}.</Translation>
+		<de-DE>An expert in siege warfare, {0_character} is known as a {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_TOUGH</zType>
-		<Translation>Taff</Translation>
+		<de-DE>Taff</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_TOUGH_GAIN_1</zType>
-		<Translation>Strong and determined, {0_character} is regarded as {1_trait}.</Translation>
+		<de-DE>Strong and determined, {0_character} is regarded as {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BLOODTHIRSTY</zType>
-		<Translation>Blutdürstig</Translation>
+		<de-DE>Blutdürstig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BLOODTHIRSTY_GAIN_1</zType>
-		<Translation>{0_character} is a {1_trait} monster!</Translation>
+		<de-DE>{0_character} is a {1_trait} monster!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BLOODTHIRSTY_GAIN_2</zType>
-		<Translation>Happiest when engaging in extreme violence, {0_character} is {1_trait}!</Translation>
+		<de-DE>Happiest when engaging in extreme violence, {0_character} is {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_HECKLER</zType>
-		<Translation>Störer</Translation>
+		<de-DE>Störer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_HECKLER_GAIN_1</zType>
-		<Translation>{0_character} never gives {masculine_0:his:her} enemies peace. {masculine_0:He:She} is an unrelenting {1_trait}.</Translation>
+		<de-DE>{0_character} never gives {masculine_0:his:her} enemies peace. {masculine_0:He:She} is an unrelenting {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_STEADFAST</zType>
-		<Translation>Treu</Translation>
+		<de-DE>Treu</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_STEADFAST_GAIN_1</zType>
-		<Translation>{0_character} will always hold firm to {masculine_0:his:her} chosen position. {masculine_0:He:She} is {1_trait}.</Translation>
+		<de-DE>{0_character} will always hold firm to {masculine_0:his:her} chosen position. {masculine_0:He:She} is {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_HERBALIST</zType>
-		<Translation>Pflanzenkenner</Translation>
+		<de-DE>Pflanzenkenner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_HERBALIST_GAIN_1</zType>
-		<Translation>An expert {1_trait}, {0_character} knows more about the uses of plants than most!</Translation>
+		<de-DE>An expert {1_trait}, {0_character} knows more about the uses of plants than most!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_HIGHLANDER</zType>
-		<Translation>Bergbewohner</Translation>
+		<de-DE>Bergbewohner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_HIGHLANDER_GAIN_1</zType>
-		<Translation>{0_character} is at home in the hills and mountains. {masculine_0:He:She} is a {1_trait}.</Translation>
+		<de-DE>{0_character} is at home in the hills and mountains. {masculine_0:He:She} is a {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_RANGER</zType>
-		<Translation>Ranger</Translation>
+		<de-DE>Ranger</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_RANGER_GAIN_1</zType>
-		<Translation>{0_character} is able to move silently through the forests, an expert {1_trait}!</Translation>
+		<de-DE>{0_character} is able to move silently through the forests, an expert {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BRAVE</zType>
-		<Translation>Mutig</Translation>
+		<de-DE>Mutig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BRAVE_GAIN_1</zType>
-		<Translation>If {0_character} feels fear, none can tell. {masculine_0:He:She} is exceptionally {1_trait}!</Translation>
+		<de-DE>If {0_character} feels fear, none can tell. {masculine_0:He:She} is exceptionally {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SHIELDBEARER</zType>
-		<Translation>Schildträger</Translation>
+		<de-DE>Schildträger</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SHIELDBEARER_GAIN_1</zType>
-		<Translation>{0_character} believes that the best offence is an impenetrable defence. {masculine_0:He:She} is a {1_trait}!</Translation>
+		<de-DE>{0_character} believes that the best offence is an impenetrable defence. {masculine_0:He:She} is a {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_FIERCE</zType>
-		<Translation>Unerschütterlich</Translation>
+		<de-DE>Unerschütterlich</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_FIERCE_GAIN_1</zType>
-		<Translation>Aggressive to a fault, many would call {0_character} {1_trait} if not for the fear {masculine_0:he:she} may take offense!</Translation>
+		<de-DE>Aggressive to a fault, many would call {0_character} {1_trait} if not for the fear {masculine_0:he:she} may take offense!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_HORSEBANE</zType>
-		<Translation>Fluch der Pferde</Translation>
+		<de-DE>Fluch der Pferde</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_HORSEBANE_GAIN_1</zType>
-		<Translation>{0_character} is so skilled at fighting against mounted opponents that {masculine_0:he:she} is known as {1_trait}!</Translation>
+		<de-DE>{0_character} is so skilled at fighting against mounted opponents that {masculine_0:he:she} is known as {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ENGINEER</zType>
-		<Translation>Techniker</Translation>
+		<de-DE>Techniker</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ENGINEER_GAIN_1</zType>
-		<Translation>Always tinkering with something, {0_character} is an {1_trait}!</Translation>
+		<de-DE>Always tinkering with something, {0_character} is an {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BOLD</zType>
-		<Translation>Mutig</Translation>
+		<de-DE>Mutig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BOLD_GAIN_1</zType>
-		<Translation>Never afraid to take risks, {0_character} is {1_trait}!</Translation>
+		<de-DE>Never afraid to take risks, {0_character} is {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_TIMID</zType>
-		<Translation>Schüchtern</Translation>
+		<de-DE>Schüchtern</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_TIMID_GAIN_1</zType>
-		<Translation>Scared to take any risks or even make mistakes, {0_character} has become {1_trait}!</Translation>
+		<de-DE>Scared to take any risks or even make mistakes, {0_character} has become {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_GRACIOUS</zType>
-		<Translation>Gnädig</Translation>
+		<de-DE>Gnädig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_GRACIOUS_GAIN_1</zType>
-		<Translation>Kind and pleasant, {0_character} is {1_trait}!</Translation>
+		<de-DE>Kind and pleasant, {0_character} is {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_GREEDY</zType>
-		<Translation>Gierig</Translation>
+		<de-DE>Gierig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_GREEDY_GAIN_1</zType>
-		<Translation>{0_character} would sell {masculine_0:his:her} own grandmother for two coins. Everyone knows {masculine_0:him:her} to be {1_trait}!</Translation>
+		<de-DE>{0_character} would sell {masculine_0:his:her} own grandmother for two coins. Everyone knows {masculine_0:him:her} to be {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ROMANTIC</zType>
-		<Translation>Romantiker</Translation>
+		<de-DE>Romantiker</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ROMANTIC_GAIN_1</zType>
-		<Translation>Deeply affectionate and prone to passionate gestures, {0_character} is a hopeless {1_trait}!</Translation>
+		<de-DE>Deeply affectionate and prone to passionate gestures, {0_character} is a hopeless {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BITTER</zType>
-		<Translation>Verbittert</Translation>
+		<de-DE>Verbittert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BITTER_GAIN_1</zType>
-		<Translation>{0_character} cannot let go of grievances and is often angry. A most {1_trait} person!</Translation>
+		<de-DE>{0_character} cannot let go of grievances and is often angry. A most {1_trait} person!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_EDUCATED</zType>
-		<Translation>Gebildet</Translation>
+		<de-DE>Gebildet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_EDUCATED_GAIN_1</zType>
-		<Translation>{0_character} has studied long and hard, and is now known as an {1_trait} person.</Translation>
+		<de-DE>{0_character} has studied long and hard, and is now known as an {1_trait} person.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SUPERSTITIOUS</zType>
-		<Translation>Abergläubisch</Translation>
+		<de-DE>Abergläubisch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SUPERSTITIOUS_GAIN_1</zType>
-		<Translation>{0_character}, being {1_trait}, believes in many strange and mysterious things.</Translation>
+		<de-DE>{0_character}, being {1_trait}, believes in many strange and mysterious things.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_COMPASSIONATE</zType>
-		<Translation>Mitfühlend</Translation>
+		<de-DE>Mitfühlend</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_COMPASSIONATE_GAIN_1</zType>
-		<Translation>{0_character} has a great deal of sympathy and concern for others. {masculine_0:He:She} is {1_trait}.</Translation>
+		<de-DE>{0_character} has a great deal of sympathy and concern for others. {masculine_0:He:She} is {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_RUTHLESS</zType>
-		<Translation>Rücksichtslos</Translation>
+		<de-DE>Rücksichtslos</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_RUTHLESS_GAIN_1</zType>
-		<Translation>{0_character} will do whatever it takes to get what {masculine_0:he:she} wants. {masculine_0:He:She} is {1_trait}!</Translation>
+		<de-DE>{0_character} will do whatever it takes to get what {masculine_0:he:she} wants. {masculine_0:He:She} is {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_PIOUS</zType>
-		<Translation>Fromm</Translation>
+		<de-DE>Fromm</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_PIOUS_GAIN_1</zType>
-		<Translation>Devoted to {masculine_0:his:her} faith, {0_character} is {1_trait}.</Translation>
+		<de-DE>Devoted to {masculine_0:his:her} faith, {0_character} is {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_WANTON</zType>
-		<Translation>Lüstern</Translation>
+		<de-DE>Lüstern</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_WANTON_GAIN_1</zType>
-		<Translation>Keen to indulge in the pleasures of the flesh, {0_character} is {1_trait}.</Translation>
+		<de-DE>Keen to indulge in the pleasures of the flesh, {0_character} is {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_LOYAL</zType>
-		<Translation>Loyal</Translation>
+		<de-DE>Loyal</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_LOYAL_GAIN_1</zType>
-		<Translation>Devoted to any cause {masculine_0:he:she} swears to, everyone knows that {0_character} is {1_trait}!</Translation>
+		<de-DE>Devoted to any cause {masculine_0:he:she} swears to, everyone knows that {0_character} is {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DECEITFUL</zType>
-		<Translation>Hinterlistig</Translation>
+		<de-DE>Hinterlistig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DECEITFUL_GAIN_1</zType>
-		<Translation>{0_character} never seems to keep {masculine_0:his:her} word and is now known as {1_trait}.</Translation>
+		<de-DE>{0_character} never seems to keep {masculine_0:his:her} word and is now known as {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_HUMBLE</zType>
-		<Translation>Bescheiden</Translation>
+		<de-DE>Bescheiden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_HUMBLE_GAIN_1</zType>
-		<Translation>Modest and never one to put {masculine_0:him:her}self first, {0_character} is {1_trait}.</Translation>
+		<de-DE>Modest and never one to put {masculine_0:him:her}self first, {0_character} is {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_PROUD</zType>
-		<Translation>Stolz</Translation>
+		<de-DE>Stolz</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_PROUD_GAIN_1</zType>
-		<Translation>{0_character} takes a deep pleasure in {masculine_0:his:her} own achievements. It is no lie to call {masculine_0:him:her} {1_trait}.</Translation>
+		<de-DE>{0_character} takes a deep pleasure in {masculine_0:his:her} own achievements. It is no lie to call {masculine_0:him:her} {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CUNNING</zType>
-		<Translation>Gerissen</Translation>
+		<de-DE>Gerissen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CUNNING_GAIN_1</zType>
-		<Translation>Elusive and evasive, {0_character} is known to be {1_trait}.</Translation>
+		<de-DE>Elusive and evasive, {0_character} is known to be {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_WITTY</zType>
-		<Translation>Geistreich</Translation>
+		<de-DE>Geistreich</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_WITTY_GAIN_1</zType>
-		<Translation>{0_character} ist {1_trait}, in der Lage jeden mit {masculine_0:seiner:ihrer} schnellen Zunge einfallsreichen Scherzen zum lachen zu bringen!</Translation>
+		<de-DE>{0_character} ist {1_trait}, in der Lage jeden mit {masculine_0:seiner:ihrer} schnellen Zunge einfallsreichen Scherzen zum lachen zu bringen!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SPOILED</zType>
-		<Translation>Verwöhnt</Translation>
+		<de-DE>Verwöhnt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SPOILED_GAIN_1</zType>
-		<Translation>Vermutlich wird {0_character} aus der Haut fahren wenn es für {masculine_0:ihn:sie} nicht nach {masculine_0:seiner:ihrer} Pfeife geht, eine höchst {1_trait} Person!</Translation>
+		<de-DE>Vermutlich wird {0_character} aus der Haut fahren wenn es für {masculine_0:ihn:sie} nicht nach {masculine_0:seiner:ihrer} Pfeife geht, eine höchst {1_trait} Person!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_STUDY_PHILOSOPHY</zType>
-		<Translation>Schüler der Philosophie</Translation>
+		<de-DE>Schüler der Philosophie</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_STUDY_POLITICS</zType>
-		<Translation>Schüler der Politik</Translation>
+		<de-DE>Schüler der Politik</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_STUDY_TACTICS</zType>
-		<Translation>Schüler der Taktik</Translation>
+		<de-DE>Schüler der Taktik</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_STUDY_COMMERCE</zType>
-		<Translation>Schüler des Kaufmanns</Translation>
+		<de-DE>Schüler des Kaufmanns</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_EXPLORING</zType>
-		<Translation>Erkunder</Translation>
+		<de-DE>Erkunder</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_EXOTIC</zType>
-		<Translation>Exotisch</Translation>
+		<de-DE>Exotisch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BLESSED</zType>
-		<Translation>Gesegnet</Translation>
+		<de-DE>Gesegnet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BLESSED_DESCRIPTION</zType>
-		<Translation>Some people are blessed with better fortune than others. Who knows what good things it might lead to?</Translation>
+		<de-DE>Some people are blessed with better fortune than others. Who knows what good things it might lead to?</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CURSED</zType>
-		<Translation>Verflucht</Translation>
+		<de-DE>Verflucht</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CURSED_DESCRIPTION</zType>
-		<Translation>Nobody knows whether curses are real, but the misfortune some people attract definitely is. Whatever comes next will likely not be pleasant.</Translation>
+		<de-DE>Nobody knows whether curses are real, but the misfortune some people attract definitely is. Whatever comes next will likely not be pleasant.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ILL</zType>
-		<Translation>Krank</Translation>
+		<de-DE>Krank</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ILL_GAIN_1</zType>
-		<Translation>{0_character} wurde {1_trait}.</Translation>
+		<de-DE>{0_character} wurde {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ILL_GAIN_2</zType>
-		<Translation>With a mild fever and a runny nose, {0_character} is rather {1_trait}.</Translation>
+		<de-DE>With a mild fever and a runny nose, {0_character} is rather {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ILL_GAIN_3</zType>
-		<Translation>{0_character} is feeling {1_trait}, light-headed and weak.</Translation>
+		<de-DE>{0_character} is feeling {1_trait}, light-headed and weak.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ILL_GAIN_4</zType>
-		<Translation>{0_character} has been feeling quite poor lately, and is now {1_trait}.</Translation>
+		<de-DE>{0_character} has been feeling quite poor lately, and is now {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ILL_GAIN_5</zType>
-		<Translation>The health of {0_character} has begun to decline, and {masculine_0:he:she} is now {1_trait}.</Translation>
+		<de-DE>The health of {0_character} has begun to decline, and {masculine_0:he:she} is now {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ILL_LOSS_1</zType>
-		<Translation>{0_character} is no longer {1_trait}, {masculine_0:he:she} has fully recovered!</Translation>
+		<de-DE>{0_character} is no longer {1_trait}, {masculine_0:he:she} has fully recovered!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ILL_LOSS_2</zType>
-		<Translation>{0_character} has recovered from {masculine_0:his:her} malaise, and is no longer {1_trait}.</Translation>
+		<de-DE>{0_character} has recovered from {masculine_0:his:her} malaise, and is no longer {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ILL_LOSS_3</zType>
-		<Translation>{0_character} is thankfully feeling much better now, and is no longer {1_trait}.</Translation>
+		<de-DE>{0_character} is thankfully feeling much better now, and is no longer {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SEVERELY_ILL</zType>
-		<Translation>Schwer Krank</Translation>
+		<de-DE>Schwer Krank</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SEVERELY_ILL_GAIN_1</zType>
-		<Translation>Leidend unter ständigen nächtlichen Erbrechen und Durchfall, ist {0_character} {1_trait}.</Translation>
+		<de-DE>Leidend unter ständigen nächtlichen Erbrechen und Durchfall, ist {0_character} {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SEVERELY_ILL_GAIN_2</zType>
-		<Translation>{0_character} ist {1_trait}, leidend durch hohes Fieber und regelmäßigem Schüttelfrost, ist {masculine_0:er:sie} kaum noch im Stande zu gehen.</Translation>
+		<de-DE>{0_character} ist {1_trait}, leidend durch hohes Fieber und regelmäßigem Schüttelfrost, ist {masculine_0:er:sie} kaum noch im Stande zu gehen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SEVERELY_ILL_GAIN_3</zType>
-		<Translation>{1_trait}, Bluthusten und leidend durch stechende Schmerzen in {masculine_0:seinem:ihrem} Brustkorb, fürchtet {0_character} {masculine_0:er:sie} hat nicht mehr viel Zeit.</Translation>
+		<de-DE>{1_trait}, Bluthusten und leidend durch stechende Schmerzen in {masculine_0:seinem:ihrem} Brustkorb, fürchtet {0_character} {masculine_0:er:sie} hat nicht mehr viel Zeit.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SEVERELY_ILL_GAIN_4</zType>
-		<Translation>Immer schon ein bisschen kränkelnd, wurde {0_character} nun {1_trait}.</Translation>
+		<de-DE>Immer schon ein bisschen kränkelnd, wurde {0_character} nun {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SEVERELY_ILL_GAIN_5</zType>
-		<Translation>Die Gesundheit von {0_character} hat sich schlagartig zum schlechten gewendet und {masculine_0:er:sie} ist jetzt {1_trait}.</Translation>
+		<de-DE>Die Gesundheit von {0_character} hat sich schlagartig zum schlechten gewendet und {masculine_0:er:sie} ist jetzt {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SEVERELY_ILL_LOSS_1</zType>
-		<Translation>{0_character} ist nicht länger {1_trait}, {masculine_0:er:sie} hat sich erstaunlich Genesen!</Translation>
+		<de-DE>{0_character} ist nicht länger {1_trait}, {masculine_0:er:sie} hat sich erstaunlich Genesen!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SEVERELY_ILL_LOSS_2</zType>
-		<Translation>Obwohl {masculine_0:er:sie} an der Schwelle des Todes stand, hat sich {0_character} wie durch ein Wunder erholt, dadruch das {masculine_0:er:sie} {1_trait} war.</Translation>
+		<de-DE>Obwohl {masculine_0:er:sie} an der Schwelle des Todes stand, hat sich {0_character} wie durch ein Wunder erholt, dadruch das {masculine_0:er:sie} {1_trait} war.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SEVERELY_ILL_LOSS_3</zType>
-		<Translation>{0_character} ist auf dem Weg der Besserung und ist nicht länger {1_trait}.</Translation>
+		<de-DE>{0_character} ist auf dem Weg der Besserung und ist nicht länger {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_INCUBATED</zType>
-		<Translation>Kränkelnd</Translation>
+		<de-DE>Kränkelnd</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_INCUBATED_LOSS_1</zType>
-		<Translation>{0_character} ist von den heiligen Gebieten zurückgekehrt und ist nicht länger {1_trait}.</Translation>
+		<de-DE>{0_character} ist von den heiligen Gebieten zurückgekehrt und ist nicht länger {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_POISONED</zType>
-		<Translation>Vergiftet</Translation>
+		<de-DE>Vergiftet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_POISONED_LOSS_1</zType>
-		<Translation>{0_character} hat sich erholt und ist nicht länger {1_trait}.</Translation>
+		<de-DE>{0_character} hat sich erholt und ist nicht länger {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_MISERABLE</zType>
-		<Translation>Unglücklich</Translation>
+		<de-DE>Unglücklich</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SCARRED</zType>
-		<Translation>Verängstigt</Translation>
+		<de-DE>Verängstigt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SCARRED_GAIN_1</zType>
-		<Translation>{0_character} hat sich von {masculine_0:seiner:i} kürzlichen Verletzung erholt, es hat {masculine_0:ihn:sie} aber für immer {1_trait}.</Translation>
+		<de-DE>{0_character} hat sich von {masculine_0:seiner:i} kürzlichen Verletzung erholt, es hat {masculine_0:ihn:sie} aber für immer {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SCARRED_GAIN_2</zType>
-		<Translation>Nach einer kürzlich erlangten Wunde ist {0_character} nun beträchtlich {1_trait}!</Translation>
+		<de-DE>Nach einer kürzlich erlangten Wunde ist {0_character} nun beträchtlich {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SCARRED_GAIN_3</zType>
-		<Translation>Während {masculine_0:seine:ihre} Verletzung verheilt ist, ist {0_character} nun furchtbar {1_trait}!</Translation>
+		<de-DE>Während {masculine_0:seine:ihre} Verletzung verheilt ist, ist {0_character} nun furchtbar {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CRIPPLED</zType>
-		<Translation>Verkrüppelt</Translation>
+		<de-DE>Verkrüppelt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CRIPPLED_GAIN_1</zType>
-		<Translation>{0_character} wird niemals mehr derselbe sein. Eine kürzliche Verletzung hat {masculine_0:ihn:sie} {1_trait} !</Translation>
+		<de-DE>{0_character} wird niemals mehr derselbe sein. Eine kürzliche Verletzung hat {masculine_0:ihn:sie} {1_trait} !</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BLINDED</zType>
-		<Translation>Erblindet</Translation>
+		<de-DE>Erblindet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BLINDED_GAIN_1</zType>
-		<Translation>{0_character} wird niemals mehr sehen können und muss sich nun an ein Leben im Dunkeln anpassen, {masculine_0:er:sie} ist nun {1_trait}!</Translation>
+		<de-DE>{0_character} wird niemals mehr sehen können und muss sich nun an ein Leben im Dunkeln anpassen, {masculine_0:er:sie} ist nun {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_IMPRISONED</zType>
-		<Translation>Inhaftiert</Translation>
+		<de-DE>Inhaftiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_FUGITIVE</zType>
-		<Translation>Flüchtiger</Translation>
+		<de-DE>Flüchtiger</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_MISSING</zType>
-		<Translation>Vermisst</Translation>
+		<de-DE>Vermisst</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_UNDER_ASYLUM</zType>
-		<Translation>Hat Zuflucht gefunden</Translation>
+		<de-DE>Hat Zuflucht gefunden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ELOPED</zType>
-		<Translation>Entlaufen</Translation>
+		<de-DE>Entlaufen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CAPTURED</zType>
-		<Translation>Gefangen</Translation>
+		<de-DE>Gefangen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_EXILED</zType>
-		<Translation>Verbannt</Translation>
+		<de-DE>Verbannt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DESERTER</zType>
-		<Translation>Abtrünniger</Translation>
+		<de-DE>Abtrünniger</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DOOMED</zType>
-		<Translation>Todgeweiht</Translation>
+		<de-DE>Todgeweiht</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_GAY</zType>
-		<Translation>Homosexuell</Translation>
+		<de-DE>Homosexuell</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BASTARD</zType>
-		<Translation>Bastard</Translation>
+		<de-DE>Bastard</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_LEGITIMIZED</zType>
-		<Translation>Legitimiert</Translation>
+		<de-DE>Legitimiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SLIGHTED</zType>
-		<Translation>Beleidigt</Translation>
+		<de-DE>Beleidigt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CLAIMED</zType>
-		<Translation>Beansprucht</Translation>
+		<de-DE>Beansprucht</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CLERGY</zType>
-		<Translation>Priester</Translation>
+		<de-DE>Priester</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ASCETIC</zType>
-		<Translation>Enthaltsam</Translation>
+		<de-DE>Enthaltsam</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ARTIST</zType>
-		<Translation>Künstler</Translation>
+		<de-DE>Künstler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_FAMOUS</zType>
-		<Translation>Berühmt</Translation>
+		<de-DE>Berühmt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_INFAMOUS</zType>
-		<Translation>Berüchtigt</Translation>
+		<de-DE>Berüchtigt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ADOPTED</zType>
-		<Translation>Adoptiert</Translation>
+		<de-DE>Adoptiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_PREGNANT</zType>
-		<Translation>Schwanger</Translation>
+		<de-DE>Schwanger</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ABDICATED</zType>
-		<Translation>Entsagt</Translation>
+		<de-DE>Entsagt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_REGENT</zType>
-		<Translation>Herrschend</Translation>
+		<de-DE>Herrschend</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_RIGHTFUL_HEIR</zType>
-		<Translation>Rechtmäßger Erbe</Translation>
+		<de-DE>Rechtmäßger Erbe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_EXCLUDED</zType>
-		<Translation>Von der Erbfolge aisgeschlossen</Translation>
+		<de-DE>Von der Erbfolge aisgeschlossen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DIVINE</zType>
-		<Translation>Göttlich</Translation>
+		<de-DE>Göttlich</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SOLDIER</zType>
-		<Translation>Krieger</Translation>
+		<de-DE>Krieger</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DRUNK</zType>
-		<Translation>Säufer</Translation>
+		<de-DE>Säufer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DRUNK_GAIN_1</zType>
-		<Translation>Nach zu vielen gefeierten Nächten, ist {0_character} jetzt ein {1_trait}.</Translation>
+		<de-DE>Nach zu vielen gefeierten Nächten, ist {0_character} jetzt ein {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DRUNK_GAIN_2</zType>
-		<Translation>{0_character} hat in letzter Zeit zu viele Abende nur in Gesellschaft mit einem Krug voller Wein verbracht und ist jetzt ein {1_trait}.</Translation>
+		<de-DE>{0_character} hat in letzter Zeit zu viele Abende nur in Gesellschaft mit einem Krug voller Wein verbracht und ist jetzt ein {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_INSANE</zType>
-		<Translation>Wahnsinnig</Translation>
+		<de-DE>Wahnsinnig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_INSANE_GAIN_1</zType>
-		<Translation>{0_character} ist völlig verrückt geworden! {masculine_0:Er:Sie} ist jetzt {1_trait}.</Translation>
+		<de-DE>{0_character} ist völlig verrückt geworden! {masculine_0:Er:Sie} ist jetzt {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_MOURNING</zType>
-		<Translation>Trauernd</Translation>
+		<de-DE>Trauernd</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_MOURNING_LOSS_1</zType>
-		<Translation>Der Trauerprozess von {0_character} scheint zu Ende zu sein. {masculine_0:Er:Sie} ist nicht länger {1_trait}.</Translation>
+		<de-DE>Der Trauerprozess von {0_character} scheint zu Ende zu sein. {masculine_0:Er:Sie} ist nicht länger {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_PROPHET</zType>
-		<Translation>Prophet</Translation>
+		<de-DE>Prophet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ARCHON</zType>
-		<Translation>Archon</Translation>
+		<de-DE>Archon</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_KING_OF_TYRE</zType>
-		<Translation>König von Tyre</Translation>
+		<de-DE>König von Tyre</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CHEIF_PRIEST_OF_MELQUART</zType>
-		<Translation>Oberster Geistreicher des Melqart in Tyre</Translation>
+		<de-DE>Oberster Geistreicher des Melqart in Tyre</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_MYSTERIOUS_SWORD</zType>
-		<Translation>Besitzer eines Mysteriösen Schwerts</Translation>
+		<de-DE>Besitzer eines Mysteriösen Schwerts</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SWORD_OF_THE_GODS</zType>
-		<Translation>Besitzer des Schwerts der Götter</Translation>
+		<de-DE>Besitzer des Schwerts der Götter</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_PET_FISH</zType>
-		<Translation>Fisch Besitzer</Translation>
+		<de-DE>Fisch Besitzer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_PET_MONKEY</zType>
-		<Translation>Affen Besitzer</Translation>
+		<de-DE>Affen Besitzer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_MONKEY_ASSASSIN</zType>
-		<Translation>Affen Attentäter</Translation>
+		<de-DE>Affen Attentäter</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_MONKEY_PAW</zType>
-		<Translation>Affen Besitzer</Translation>
+		<de-DE>Affen Besitzer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DOG_OWNER</zType>
-		<Translation>Hundebesitzer</Translation>
+		<de-DE>Hundebesitzer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_OVERSEER_OF_THE_FIELDS</zType>
-		<Translation>Aufseher über die Felder</Translation>
+		<de-DE>Aufseher über die Felder</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_POSSESSOR_OF_VENERATION</zType>
-		<Translation>Besitzer der Verehrung</Translation>
+		<de-DE>Besitzer der Verehrung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_STEWARD_OF_THE_CHAMBER</zType>
-		<Translation>Aufseher der Gemächer</Translation>
+		<de-DE>Aufseher der Gemächer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ENEMY_OF_THE_STATE</zType>
-		<Translation>Staatsfeind Nr. 1</Translation>
+		<de-DE>Staatsfeind Nr. 1</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_AMULET_OWNER_POSITIVE</zType>
-		<Translation>Offenes Fruchtbarkeits Amulett Besitzer</Translation>
+		<de-DE>Offenes Fruchtbarkeits Amulett Besitzer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_AMULET_OWNER_NEGATIVE</zType>
-		<Translation>Geschlossenes Fruchtbarkeits Amulett Besitzer</Translation>
+		<de-DE>Geschlossenes Fruchtbarkeits Amulett Besitzer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_GODS_CONSORT</zType>
-		<Translation>Gott's Gefährte</Translation>
+		<de-DE>Gott's Gefährte</de-DE>
 	</Entry> 
 	<Entry>
 		<zType>TEXT_TRAIT_DROUGHT_STRICKEN</zType>
-		<Translation>Von Dürre betroffen</Translation>
+		<de-DE>Von Dürre betroffen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DROUGHT_STRICKEN_LOSS_1</zType>
-		<Translation>The rains have returned. {0_character} is no longer {1_trait}!</Translation>
+		<de-DE>The rains have returned. {0_character} is no longer {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_HORSE</zType>
-		<Translation>Pferd</Translation>
+		<de-DE>Pferd</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_AMARNA_REFORMER</zType>
-		<Translation>Amarna Reformer</Translation>
+		<de-DE>Amarna Reformer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BARRACKS_INSTRUCTOR</zType>
-		<Translation>Kasernen Ausbilder</Translation>
+		<de-DE>Kasernen Ausbilder</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SAVIOR_OF_THE_THRONE</zType>
-		<Translation>Retter des Thrones</Translation>
+		<de-DE>Retter des Thrones</de-DE>
 	</Entry>
 	<Entry>
         <zType>TEXT_TRAIT_SAOSHYANT</zType>
-        <Translation>Saoshyant</Translation>
+        <de-DE>Saoshyant</de-DE>
     </Entry>
 	<Entry>
         <zType>TEXT_TRAIT_WOUNDED</zType>
-        <Translation>Verwundet</Translation>
+        <de-DE>Verwundet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_WOUNDED_GAIN_1</zType>
-		<Translation>{0_character} wurde {1_trait}!</Translation>
+		<de-DE>{0_character} wurde {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_WOUNDED_LOSS_1</zType>
-		<Translation>{0_character} ist nicht länger {1_trait}, {masculine_0:er:sie} hat nicht mal einen Kratzer!</Translation>
+		<de-DE>{0_character} ist nicht länger {1_trait}, {masculine_0:er:sie} hat nicht mal einen Kratzer!</de-DE>
 	</Entry>
     <Entry>
         <zType>TEXT_TRAIT_SEVERELY_WOUNDED</zType>
-        <Translation>Ernsthaft Verwundet</Translation>
+        <de-DE>Ernsthaft Verwundet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SEVERELY_WOUNDED_GAIN_1</zType>
-		<Translation>{0_character} wurde {1_trait}, es bleibt abzuwarten ob {masculine_0:er:sie} sich erholen wird.</Translation>
+		<de-DE>{0_character} wurde {1_trait}, es bleibt abzuwarten ob {masculine_0:er:sie} sich erholen wird.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SEVERELY_WOUNDED_LOSS_1</zType>
-		<Translation>{0_character} hat eine übernatürliche Genesung gemacht nachdem {masculine_0:er:sie} {1_trait} war, die schwerwiegende Verletzung ist komplett verheilt!</Translation>
+		<de-DE>{0_character} hat eine übernatürliche Genesung gemacht nachdem {masculine_0:er:sie} {1_trait} war, die schwerwiegende Verletzung ist komplett verheilt!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_REBEL_SLAVE</zType>
-		<Translation>Rebellen Sklave</Translation>
+		<de-DE>Rebellen Sklave</de-DE>
 	</Entry>
 </Root>

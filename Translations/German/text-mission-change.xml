@@ -1,477 +1,477 @@
-<!-- German Translation (© Revan ©) -->
+<!-- German de-DE (© Revan ©) -->
 
 <Root>
 	<!--Name-->
 	<Entry>
 		<zType/>
-		<Translation/>
+		<de-DE/>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_AMBASSADOR</zType>
-		<Translation>Bestimme link(COUNCIL_AMBASSADOR)</Translation>
+		<de-DE>Bestimme link(COUNCIL_AMBASSADOR)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_CHANCELLOR</zType>
-		<Translation>Bestimme link(COUNCIL_CHANCELLOR</Translation>
+		<de-DE>Bestimme link(COUNCIL_CHANCELLOR</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_SPYMASTER</zType>
-		<Translation>Bestimme link(COUNCIL_SPYMASTER)</Translation>
+		<de-DE>Bestimme link(COUNCIL_SPYMASTER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_LEAVE_COUNCIL</zType>
-		<Translation>Verlasse Hofrat</Translation>
+		<de-DE>Verlasse Hofrat</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_ALLIANCE</zType>
-		<Translation>link(CONCEPT_ALLIANCE_PLAYER)</Translation>
+		<de-DE>link(CONCEPT_ALLIANCE_PLAYER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_ALLIANCE_TARGET</zType>
-		<Translation>link(CONCEPT_ALLIANCE_PLAYER) mit</Translation>
+		<de-DE>link(CONCEPT_ALLIANCE_PLAYER) mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_ALLIANCE_HUMAN</zType>
-		<Translation>link(CONCEPT_ALLIANCE_PLAYER)</Translation>
+		<de-DE>link(CONCEPT_ALLIANCE_PLAYER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE</zType>
-		<Translation>link(DIPLOMACY_PEACE) mit Spieler</Translation>
+		<de-DE>link(DIPLOMACY_PEACE) mit Spieler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_TARGET</zType>
-		<Translation>link(DIPLOMACY_PEACE) mit Spieler</Translation>
+		<de-DE>link(DIPLOMACY_PEACE) mit Spieler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_CHARACTER</zType>
-		<Translation>Spieler link(DIPLOMACY_PEACE) mit</Translation>
+		<de-DE>Spieler link(DIPLOMACY_PEACE) mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_OFFER_TRIBUTE</zType>
-		<Translation>Biete Tribut für link(DIPLOMACY_PEACE)</Translation>
+		<de-DE>Biete Tribut für link(DIPLOMACY_PEACE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_OFFER_TRIBUTE_TARGET</zType>
-		<Translation>Biete Tribut für link(DIPLOMACY_PEACE) mit</Translation>
+		<de-DE>Biete Tribut für link(DIPLOMACY_PEACE) mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_NO_TRIBUTE</zType>
-		<Translation>Frage nach link(DIPLOMACY_PEACE)</Translation>
+		<de-DE>Frage nach link(DIPLOMACY_PEACE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_NO_TRIBUTE_TARGET</zType>
-		<Translation>Frage nach link(DIPLOMACY_PEACE) mit</Translation>
+		<de-DE>Frage nach link(DIPLOMACY_PEACE) mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_DEMAND_TRIBUTE</zType>
-		<Translation>Verlange Tribut für link(DIPLOMACY_PEACE)</Translation>
+		<de-DE>Verlange Tribut für link(DIPLOMACY_PEACE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_DEMAND_TRIBUTE_TARGET</zType>
-		<Translation>Verlange Tribut für link(DIPLOMACY_PEACE) mit</Translation>
+		<de-DE>Verlange Tribut für link(DIPLOMACY_PEACE) mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PEACE_HUMAN</zType>
-		<Translation>Spieler link(DIPLOMACY_PEACE)</Translation>
+		<de-DE>Spieler link(DIPLOMACY_PEACE)</de-DE>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_MISSION_PLAYER_TRUCE</zType>
-		<Translation>Spieler link(DIPLOMACY_TRUCE)</Translation>
+		<de-DE>Spieler link(DIPLOMACY_TRUCE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_TARGET</zType>
-		<Translation>link(DIPLOMACY_TRUCE) mit Spieler</Translation>
+		<de-DE>link(DIPLOMACY_TRUCE) mit Spieler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_CHARACTER</zType>
-		<Translation>Spieler link(DIPLOMACY_TRUCE) mit</Translation>
+		<de-DE>Spieler link(DIPLOMACY_TRUCE) mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_OFFER_TRIBUTE</zType>
-		<Translation>Biete Tribut für link(DIPLOMACY_TRUCE) an</Translation>
+		<de-DE>Biete Tribut für link(DIPLOMACY_TRUCE) an</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_OFFER_TRIBUTE_TARGET</zType>
-		<Translation>Biete Tribut für link(DIPLOMACY_TRUCE) mit</Translation>
+		<de-DE>Biete Tribut für link(DIPLOMACY_TRUCE) mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_NO_TRIBUTE</zType>
-		<Translation>Bitte nach link(DIPLOMACY_TRUCE)</Translation>
+		<de-DE>Bitte nach link(DIPLOMACY_TRUCE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_NO_TRIBUTE_TARGET</zType>
-		<Translation>Bitte nach link(DIPLOMACY_TRUCE) mit</Translation>
+		<de-DE>Bitte nach link(DIPLOMACY_TRUCE) mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_DEMAND_TRIBUTE</zType>
-		<Translation>Verlange Tribut für link(DIPLOMACY_TRUCE)</Translation>
+		<de-DE>Verlange Tribut für link(DIPLOMACY_TRUCE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_DEMAND_TRIBUTE_TARGET</zType>
-		<Translation>Verlange Tribut für link(DIPLOMACY_TRUCE) mit</Translation>
+		<de-DE>Verlange Tribut für link(DIPLOMACY_TRUCE) mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRUCE_HUMAN</zType>
-		<Translation>Spieler link(DIPLOMACY_TRUCE)</Translation>
+		<de-DE>Spieler link(DIPLOMACY_TRUCE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_DECLARE_WAR</zType>
-		<Translation>Erkläre link(DIPLOMACY_WAR)</Translation>
+		<de-DE>Erkläre link(DIPLOMACY_WAR)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_BREAK_PEACE</zType>
-		<Translation>Breche den link(DIPLOMACY_PEACE)</Translation>
+		<de-DE>Breche den link(DIPLOMACY_PEACE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_END_ALLIANCE</zType>
-		<Translation>Beende Bündnis</Translation>
+		<de-DE>Beende Bündnis</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_CANCEL_TRADE</zType>
-		<Translation>Breche den kompletten Handel ab</Translation>
+		<de-DE>Breche den kompletten Handel ab</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_ALLIANCE</zType>
-		<Translation>Barbaren Bündnis</Translation>
+		<de-DE>Barbaren Bündnis</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_ALLIANCE_TARGET</zType>
-		<Translation>Barbaren Bündnis mit</Translation>
+		<de-DE>Barbaren Bündnis mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_ALLIANCE_CHARACTER</zType>
-		<Translation>Barbaren Bündnis mit</Translation>
+		<de-DE>Barbaren Bündnis mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_PEACE</zType>
-		<Translation>link(DIPLOMACY_PEACE) mit Barbaren </Translation>
+		<de-DE>link(DIPLOMACY_PEACE) mit Barbaren </de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_PEACE_TARGET</zType>
-		<Translation>link(DIPLOMACY_PEACE) mit Barbaren</Translation>
+		<de-DE>link(DIPLOMACY_PEACE) mit Barbaren</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_PEACE_CHARACTER</zType>
-		<Translation>Barbaren link(DIPLOMACY_PEACE) mit</Translation>
+		<de-DE>Barbaren link(DIPLOMACY_PEACE) mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_TRUCE</zType>
-		<Translation>link(DIPLOMACY_TRUCE) mit Barbaren </Translation>
+		<de-DE>link(DIPLOMACY_TRUCE) mit Barbaren </de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_TRUCE_TARGET</zType>
-		<Translation>link(DIPLOMACY_TRUCE) mit Barbaren</Translation>
+		<de-DE>link(DIPLOMACY_TRUCE) mit Barbaren</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_TRUCE_CHARACTER</zType>
-		<Translation>Barbaren link(DIPLOMACY_TRUCE) mit</Translation>
+		<de-DE>Barbaren link(DIPLOMACY_TRUCE) mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_DECLARE_WAR</zType>
-		<Translation>Erkläre link(DIPLOMACY_WAR)</Translation>
+		<de-DE>Erkläre link(DIPLOMACY_WAR)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_BREAK_PEACE</zType>
-		<Translation>Breche den link(DIPLOMACY_PEACE)</Translation>
+		<de-DE>Breche den link(DIPLOMACY_PEACE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_END_ALLIANCE</zType>
-		<Translation>Beende Bündnis</Translation>
+		<de-DE>Beende Bündnis</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_ADOPT_RELIGION</zType>
-		<Translation>Übernehme Religion</Translation>
+		<de-DE>Übernehme Religion</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_LEAVE_RELIGION</zType>
-		<Translation>Verlasse link(CONCEPT_STATE_RELIGION)</Translation>
+		<de-DE>Verlasse link(CONCEPT_STATE_RELIGION)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_SEND_COURTIER</zType>
-		<Translation>Schicke link(CONCEPT_COURTIER)</Translation>
+		<de-DE>Schicke link(CONCEPT_COURTIER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_SEND_COURTIER_TARGET</zType>
-		<Translation>Schicke link(CONCEPT_COURTIER) nach</Translation>
+		<de-DE>Schicke link(CONCEPT_COURTIER) nach</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_MARRIAGE</zType>
-		<Translation>Ausländische Heirat</Translation>
+		<de-DE>Ausländische Heirat</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_MARRIAGE</zType>
-		<Translation>Stammes Heirat</Translation>
+		<de-DE>Stammes Heirat</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_FAMILY_MARRIAGE</zType>
-		<Translation>Famillen Heirat</Translation>
+		<de-DE>Famillen Heirat</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_MARRY_COURTIER</zType>
-		<Translation>Vertrauten heiraten</Translation>
+		<de-DE>Vertrauten heiraten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_MARRY_COURTIER_TARGET</zType>
-		<Translation>Heiraten</Translation>
+		<de-DE>Heiraten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_MARRY_COURTIER_CHARACTER</zType>
-		<Translation>Heirat</Translation>
+		<de-DE>Heirat</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_RALLY_TROOPS</zType>
-		<Translation>Versammle die Truppen</Translation>
+		<de-DE>Versammle die Truppen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_HOLD_COURT</zType>
-		<Translation>Hof halten</Translation>
+		<de-DE>Hof halten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_ABDICATE</zType>
-		<Translation>Das Zepter niederlegen</Translation>
+		<de-DE>Das Zepter niederlegen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_INFLUENCE</zType>
-		<Translation>Beeinflussen</Translation>
+		<de-DE>Beeinflussen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_INFLUENCE_CHARACTER</zType>
-		<Translation>Beeinflussen mit</Translation>
+		<de-DE>Beeinflussen mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_CONVERT_SELF</zType>
-		<Translation>Konvertiere Religion</Translation>
+		<de-DE>Konvertiere Religion</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_CONVERT_SELF_TARGET</zType>
-		<Translation>Konvertiere zu </Translation>
+		<de-DE>Konvertiere zu </de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_CONVERT_STATE</zType>
-		<Translation>Konvertiere zur link(CONCEPT_STATE_RELIGION)</Translation>
+		<de-DE>Konvertiere zur link(CONCEPT_STATE_RELIGION)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_CONVERT_RELIGION</zType>
-		<Translation>Konvertiere zu link(CONCEPT_STATE_RELIGION)</Translation>
+		<de-DE>Konvertiere zu link(CONCEPT_STATE_RELIGION)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_CONVERT_RELIGION_CHARACTER</zType>
-		<Translation>Konvertiere link(CONCEPT_RELIGION) über</Translation>
+		<de-DE>Konvertiere link(CONCEPT_RELIGION) über</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_INTERCESSION</zType>
-		<Translation>Führsprache</Translation>
+		<de-DE>Führsprache</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_INTERCESSION_RELIGION</zType>
-		<Translation>Führsprache (Religion)</Translation>
+		<de-DE>Führsprache (Religion)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_INTERCESSION_FAMILY</zType>
-		<Translation>Führsprache (Familie)</Translation>
+		<de-DE>Führsprache (Familie)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_INTERCESSION_CHARACTER</zType>
-		<Translation>Führsprache durch</Translation>
+		<de-DE>Führsprache durch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_ADOPT</zType>
-		<Translation>Kind adoptieren</Translation>
+		<de-DE>Kind adoptieren</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_LEGITIMIZE</zType>
-		<Translation>Legitimieren</Translation>
+		<de-DE>Legitimieren</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_CHOSEN_HEIR</zType>
-		<Translation>Bestimme auserwählten Erben</Translation>
+		<de-DE>Bestimme auserwählten Erben</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_INFILTRATE</zType>
-		<Translation>Infiltriere Saat</Translation>
+		<de-DE>Infiltriere Saat</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_INFILTRATE_TARGET</zType>
-		<Translation>Infiltriere</Translation>
+		<de-DE>Infiltriere</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_INFILTRATE_CHARACTER</zType>
-		<Translation>Infiltriere Staat mit</Translation>
+		<de-DE>Infiltriere Staat mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_SLANDER</zType>
-		<Translation>Beleidige Reich</Translation>
+		<de-DE>Beleidige Reich</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_SLANDER_TARGET</zType>
-		<Translation>Beleidigung</Translation>
+		<de-DE>Beleidigung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_SLANDER_CHARACTER</zType>
-		<Translation>Beleidige Reich mit</Translation>
+		<de-DE>Beleidige Reich mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_STEAL_RESEARCH</zType>
-		<Translation>Stehle Forschung</Translation>
+		<de-DE>Stehle Forschung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_STEAL_RESEARCH_TARGET</zType>
-		<Translation>Stehle Forschung von</Translation>
+		<de-DE>Stehle Forschung von</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_STEAL_RESEARCH_CHARACTER</zType>
-		<Translation>Stehle Forschung mit</Translation>
+		<de-DE>Stehle Forschung mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_ASSASSINATE</zType>
-		<Translation>Attentat</Translation>
+		<de-DE>Attentat</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_ASSASSINATE_CHARACTER</zType>
-		<Translation>Attentat mit</Translation>
+		<de-DE>Attentat mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TREACHERY</zType>
-		<Translation>Verrat</Translation>
+		<de-DE>Verrat</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TREACHERY_TARGET</zType>
-		<Translation>Verrat in</Translation>
+		<de-DE>Verrat in</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_INSURRECTION</zType>
-		<Translation>Aufstand</Translation>
+		<de-DE>Aufstand</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_INSURRECTION_TARGET</zType>
-		<Translation>Aufstand in</Translation>
+		<de-DE>Aufstand in</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_DEMAND_TRIBUTE</zType>
-		<Translation>Verlange Tribut</Translation>
+		<de-DE>Verlange Tribut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_DEMAND_TRIBUTE_TARGET</zType>
-		<Translation>Verlange Tribut von</Translation>
+		<de-DE>Verlange Tribut von</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_DEMAND_TRIBUTE_CHARACTER</zType>
-		<Translation>Verlange Tribut mit</Translation>
+		<de-DE>Verlange Tribut mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRADE_MISSION</zType>
-		<Translation>Handelsmission</Translation>
+		<de-DE>Handelsmission</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRADE_MISSION_TARGET</zType>
-		<Translation>Handelsmission mit</Translation>
+		<de-DE>Handelsmission mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRADE_MISSION_CHARACTER</zType>
-		<Translation>Handelsmission mit</Translation>
+		<de-DE>Handelsmission mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_HIGH_SYNOD</zType>
-		<Translation>Hohe Kirchenversammlung</Translation>
+		<de-DE>Hohe Kirchenversammlung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_HIGH_SYNOD_TARGET</zType>
-		<Translation>Hohe Kirchenversammlung mit</Translation>
+		<de-DE>Hohe Kirchenversammlung mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_HIGH_SYNOD_CHARACTER</zType>
-		<Translation>Hohe Kirchenversammlung mit</Translation>
+		<de-DE>Hohe Kirchenversammlung mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_FAMILY_GIFT</zType>
-		<Translation>Familien Geschenke</Translation>
+		<de-DE>Familien Geschenke</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_FAMILY_GIFT_CHARACTER</zType>
-		<Translation>Familien Geschenke mit</Translation>
+		<de-DE>Familien Geschenke mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PACIFY_CITY</zType>
-		<Translation>Beschwichtige Stadt</Translation>
+		<de-DE>Beschwichtige Stadt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PACIFY_CITY_TARGET</zType>
-		<Translation>Beschwichtige</Translation>
+		<de-DE>Beschwichtige</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PACIFY_CITY_CHARACTER</zType>
-		<Translation>Beschwichtige Stadt mit</Translation>
+		<de-DE>Beschwichtige Stadt mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_IMPRISON</zType>
-		<Translation>Einsperren</Translation>
+		<de-DE>Einsperren</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_IMPRISON_CHARACTER</zType>
-		<Translation>Einsperren mit</Translation>
+		<de-DE>Einsperren mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_RELEASE</zType>
-		<Translation>Entlasse aus dem Gefängnis</Translation>
+		<de-DE>Entlasse aus dem Gefängnis</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_CAPTURE</zType>
-		<Translation>Verhaften</Translation>
+		<de-DE>Verhaften</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PAY_RANSOM</zType>
-		<Translation>Bezahle Lösegeld</Translation>
+		<de-DE>Bezahle Lösegeld</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_DIVORCE</zType>
-		<Translation>Ehescheidung </Translation>
+		<de-DE>Ehescheidung </de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_DIVORCE_TARGET</zType>
-		<Translation>Scheidung</Translation>
+		<de-DE>Scheidung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TUTOR</zType>
-		<Translation>link(CONCEPT_TUTOR) Kinder</Translation>
+		<de-DE>link(CONCEPT_TUTOR) Kinder</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TUTOR_LEADER</zType>
-		<Translation>link(CONCEPT_TUTOR) Kind (Oberhaupt)</Translation>
+		<de-DE>link(CONCEPT_TUTOR) Kind (Oberhaupt)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TUTOR_COURTIER</zType>
-		<Translation>link(CONCEPT_TUTOR) Kind (Vertrauter)</Translation>
+		<de-DE>link(CONCEPT_TUTOR) Kind (Vertrauter)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TUTOR_TARGET</zType>
-		<Translation>link(CONCEPT_TUTOR)</Translation>
+		<de-DE>link(CONCEPT_TUTOR)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TUTOR_CHARACTER</zType>
-		<Translation>link(CONCEPT_TUTOR) mit</Translation>
+		<de-DE>link(CONCEPT_TUTOR) mit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_PLAYER_WAR</zType>
-		<Translation>Würden sie link(DIPLOMACY_WAR) erklären</Translation>
+		<de-DE>Würden sie link(DIPLOMACY_WAR) erklären</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_TRIBE_PLAYER_WAR_TARGET</zType>
-		<Translation>Würden sie link(DIPLOMACY_WAR) erklären an</Translation>
+		<de-DE>Würden sie link(DIPLOMACY_WAR) erklären an</de-DE>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_MISSION_PLAYER_TRIBE_WAR</zType>
-		<Translation>Würden sie link(DIPLOMACY_WAR) erklären</Translation>
+		<de-DE>Würden sie link(DIPLOMACY_WAR) erklären</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_TRIBE_WAR_TARGET</zType>
-		<Translation>Würden sie link(DIPLOMACY_WAR) erklären an</Translation>
+		<de-DE>Würden sie link(DIPLOMACY_WAR) erklären an</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PLAYER_WAR</zType>
-		<Translation>Würden sie link(DIPLOMACY_WAR) erklären</Translation>
+		<de-DE>Würden sie link(DIPLOMACY_WAR) erklären</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSION_PLAYER_PLAYER_WAR_TARGET</zType>
-		<Translation>Würden sie link(DIPLOMACY_WAR) erklären an</Translation>
+		<de-DE>Würden sie link(DIPLOMACY_WAR) erklären an</de-DE>
 	</Entry>
 </Root>

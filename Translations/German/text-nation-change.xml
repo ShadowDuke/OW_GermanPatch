@@ -1,37 +1,37 @@
-<!-- German Translation (© Revan ©) -->
+<!-- German de-DE (© Revan ©) -->
 
 <Root>
 	<!-- NOTE: Proper Name ~ Adjective ~ Indefinite & Adjective ~ Plural -->
 	<Entry>
 		<zType/>
-		<Translation/>
+		<de-DE/>
 	</Entry>
 	<Entry>
 		<zType>TEXT_NATION_ASSYRIA</zType>
-		<Translation>Assyrien~Assyrische~ein Assyrer~Assyrer</Translation>
+		<de-DE>Assyrien~Assyrische~ein Assyrer~Assyrer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_NATION_BABYLONIA</zType>
-		<Translation>Babylonien~Babylonische~ein Babylonier~Babylonier</Translation>
+		<de-DE>Babylonien~Babylonische~ein Babylonier~Babylonier</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_NATION_CARTHAGE</zType>
-		<Translation>Karthago~Karthagische~ein Karthager~Karthager</Translation>
+		<de-DE>Karthago~Karthagische~ein Karthager~Karthager</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_NATION_EGYPT</zType>
-		<Translation>Ägypten~Ägyptische~ein Ägypter~Ägypter</Translation>
+		<de-DE>Ägypten~Ägyptische~ein Ägypter~Ägypter</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_NATION_GREECE</zType>
-		<Translation>Griechenland~Griechische~ein Grieche~Griechen</Translation>
+		<de-DE>Griechenland~Griechische~ein Grieche~Griechen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_NATION_PERSIA</zType>
-		<Translation>Persien~Persische~a Perser~Perser</Translation>
+		<de-DE>Persien~Persische~a Perser~Perser</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_NATION_ROME</zType>
-		<Translation>Rom~Römische~ein Römer~Römer</Translation>
+		<de-DE>Rom~Römische~ein Römer~Römer</de-DE>
 	</Entry>
 </Root>

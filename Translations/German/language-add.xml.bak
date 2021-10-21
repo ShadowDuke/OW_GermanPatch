@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (http://www.altova.com) by Soren Johnson (private) -->
+<Root>
+	<Entry>
+		<zType>LANGUAGE_GERMAN</zType>
+		<Name>TEXT_LANGUAGE_GERMAN</Name>
+		<zFieldName>de-DE</zFieldName>
+		<zFieldNameSecondary>Revan</zFieldNameSecondary>
+		<zISOCode>de-DE</zISOCode>
+		<iExportColumn>3</iExportColumn>
+		<bPublicBuild>1</bPublicBuild>
+		<zSingularExpression>x==1</zSingularExpression>
+		<zThousandsSeparator>,</zThousandsSeparator>
+		<zDecimalSeparator>.</zDecimalSeparator>
+		<zCurrencyPrefix>€</zCurrencyPrefix>
+		<zThousandPostfix>T</zThousandPostfix>
+		<zMillionPostfix>M</zMillionPostfix>
+	</Entry>
+</Root>

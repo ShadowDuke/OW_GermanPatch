@@ -1,290 +1,290 @@
-<!-- German Translation (© Revan ©) -->
+<!-- German de-DE (© Revan ©) -->
 
 <Root>
 	<!--Assets/GameAssets/Resources/Infos/improvement.xml-->
 	<!--NOTE: improvement names that are mass nouns or plural do not need multiple types in English-->
 	<Entry>
 		<zType/>
-		<Translation/>
+		<de-DE/>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_SWORD_CULT</zType>
-		<Translation>Kult der Schwerter</Translation>
+		<de-DE>Kult der Schwerter</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_SWORD_CULT_TITHE</zType>
-		<Translation>Schwertkult Zehent</Translation>
+		<de-DE>Schwertkult Zehent</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_HOSTILE_GARRISON</zType>
-		<Translation>Feindliche Garnision</Translation>
+		<de-DE>Feindliche Garnision</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_PUBLIC_MURAL</zType>
-		<Translation>Öffnetliches Wandbild</Translation>
+		<de-DE>Öffnetliches Wandbild</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_TRIUMPH</zType>
-		<Translation>Sigeszug</Translation>
+		<de-DE>Sigeszug</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_CULTURAL_PAGEANT</zType>
-		<Translation>Kultureller Festzug</Translation>
+		<de-DE>Kultureller Festzug</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_CRUMBLING_ZIGGURAT</zType>
-		<Translation>The Ziggurat Crumbles</Translation>
+		<de-DE>The Ziggurat Crumbles</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_PURPLE_DYE</zType>
-		<Translation>Lila Färbemittel</Translation>
+		<de-DE>Lila Färbemittel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_PROPAGANDA</zType>
-		<Translation>Meinungsmache</Translation>
+		<de-DE>Meinungsmache</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_CHILD_LABOR</zType>
-		<Translation>Kinderarbeit</Translation>
+		<de-DE>Kinderarbeit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_CORRUPTION_REFORM</zType>
-		<Translation>Verdorbene Reformen</Translation>
+		<de-DE>Verdorbene Reformen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_ROYAL_INSCRIPTIONS</zType>
-		<Translation>Königliche Inschriften</Translation>
+		<de-DE>Königliche Inschriften</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_IMPERIAL_NECROPOLIS</zType>
-		<Translation>Kaiserliche Totenstadt</Translation>
+		<de-DE>Kaiserliche Totenstadt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_FORCED_DEPORTATIONS</zType>
-		<Translation>Erzwungene Deportationen</Translation>
+		<de-DE>Erzwungene Deportationen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_GLADIATORS</zType>
-		<Translation>Gladiatoren</Translation>
+		<de-DE>Gladiatoren</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_PLAYS</zType>
-		<Translation>Theateraufführungen</Translation>
+		<de-DE>Theateraufführungen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_MERCHANT_TOWN</zType>
-		<Translation>Kaufmanns-Stadt</Translation>
+		<de-DE>Kaufmanns-Stadt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_DEN_OF_VICE</zType>
-		<Translation>Lasterhöhle</Translation>
+		<de-DE>Lasterhöhle</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_OUTBREAK</zType>
-		<Translation>Ausbruch</Translation>
+		<de-DE>Ausbruch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_MIDWIFERY</zType>
-		<Translation>Geburtshilfe</Translation>
+		<de-DE>Geburtshilfe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_LUXURIOUS_DELIGHTS</zType>
-		<Translation>Luxeriöse Vergnügen</Translation>
+		<de-DE>Luxeriöse Vergnügen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_NEIGHBORS_FEAST_PERSIA</zType>
-		<Translation>Jährlicher Festtag für persische Gäste</Translation>
+		<de-DE>Jährlicher Festtag für persische Gäste</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_MISTHOPHORIA</zType>
-		<Translation>Misthophoria</Translation>
+		<de-DE>Misthophoria</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_GRAIN_DOLE</zType>
-		<Translation>Kernunterstützung</Translation>
+		<de-DE>Kernunterstützung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_FOREIGN_FIGHTERS</zType>
-		<Translation>Fremder Krieger</Translation>
+		<de-DE>Fremder Krieger</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_WAR_COUNCIL</zType>
-		<Translation>Kriegsrat</Translation>
+		<de-DE>Kriegsrat</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_SEWER_SYSTEM</zType>
-		<Translation>Kanalisationssystem</Translation>
+		<de-DE>Kanalisationssystem</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_CASE_HARDENING</zType>
-		<Translation>Zementierofen</Translation>
+		<de-DE>Zementierofen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_TURPAN_WELLS</zType>
-		<Translation>Turpan Brunnen</Translation>
+		<de-DE>Turpan Brunnen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_NATIONAL_HOLIDAY</zType>
-		<Translation>Staatsfeiertag</Translation>
+		<de-DE>Staatsfeiertag</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_SCIENTIFIC_METHOD</zType>
-		<Translation>Wissenschaftsmethode</Translation>
+		<de-DE>Wissenschaftsmethode</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_PROTECTION_EDICTS</zType>
-		<Translation>Schutzerlasse</Translation>
+		<de-DE>Schutzerlasse</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_HORREUM</zType>
-		<Translation>Horreum Lagerhaus</Translation>
+		<de-DE>Horreum Lagerhaus</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_AVESTA_TREASURY</zType>
-		<Translation>Avesta Staatsschatz</Translation>
+		<de-DE>Avesta Staatsschatz</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_DISEASED_SETTLERS</zType>
-		<Translation>Erkrankte Bürger</Translation>
+		<de-DE>Erkrankte Bürger</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_TERRACE_LOVE_SHRINE</zType>
-		<Translation>Zikkurat-Schrein der Liebe</Translation>
+		<de-DE>Zikkurat-Schrein der Liebe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_TERRACE_WISDOM_SHRINE</zType>
-		<Translation>Zikkurat-Schrein der Weisheit</Translation>
+		<de-DE>Zikkurat-Schrein der Weisheit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_TERRACE_WAR_SHRINE</zType>
-		<Translation>Zikkurat-Schrein des Krieges</Translation>
+		<de-DE>Zikkurat-Schrein des Krieges</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_CONSULAR_TRIBUNES</zType>
-		<Translation>Konsulatstribun</Translation>
+		<de-DE>Konsulatstribun</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_CONFUCIANISM</zType>
-		<Translation>Konfuzianismus</Translation>
+		<de-DE>Konfuzianismus</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_SALT_PRODUCTION</zType>
-		<Translation>Salz Produktion</Translation>
+		<de-DE>Salz Produktion</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_MANUAL_OF_RHETORIC</zType>
-		<Translation>Handbuch der Redekunst</Translation>
+		<de-DE>Handbuch der Redekunst</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_LOCAL_ASCETIC</zType>
-		<Translation>Einheimischer Asket</Translation>
+		<de-DE>Einheimischer Asket</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_AUTONOMOUS_RULE</zType>
-		<Translation>Autonome Herrschaft</Translation>
+		<de-DE>Autonome Herrschaft</de-DE>
 	</Entry>  
 	<Entry>
 		<zType>TEXT_PROJECT_MONUMENTAL_GATE</zType>
-		<Translation>Monumentales Tor</Translation>
+		<de-DE>Monumentales Tor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_LEVIATHAN</zType>
-		<Translation>Giganten Schädel</Translation>
+		<de-DE>Giganten Schädel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_GODS_CONSORT_CULT</zType>
-		<Translation>God's Consort Cult</Translation>
+		<de-DE>God's Consort Cult</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_LABYRINTH</zType>
-		<Translation>Labyrinth</Translation>
+		<de-DE>Labyrinth</de-DE>
 	</Entry>
     <Entry>
 		<zType>TEXT_PROJECT_WORK_OF_ART</zType>
-		<Translation>Kunstwerk</Translation>
+		<de-DE>Kunstwerk</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_PIRACY_SUPPRESSION</zType>
-		<Translation>Piraterie Unterdrückung</Translation>
+		<de-DE>Piraterie Unterdrückung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_COHORTES</zType>
-		<Translation>Stadt-Kohorten</Translation>
+		<de-DE>Stadt-Kohorten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_HUNT_KILLER</zType>
-		<Translation>Jagd auf den Mörder</Translation>
+		<de-DE>Jagd auf den Mörder</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_STATUE_OF_DIONYSUS</zType>
-		<Translation>Statue von Dionysus</Translation>
+		<de-DE>Statue von Dionysus</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_PAGAN_COLLEGES</zType>
-		<Translation>Heidnische Kollegien</Translation>
+		<de-DE>Heidnische Kollegien</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_PAGAN_CULT_WAR</zType>
-		<Translation>Heidnischer Kriegeskult</Translation>
+		<de-DE>Heidnischer Kriegeskult</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_PAGAN_CULT_FIRE</zType>
-		<Translation>Heidnischer Feuerkult</Translation>
+		<de-DE>Heidnischer Feuerkult</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_PAGAN_CULT_WISDOM</zType>
-		<Translation>Heidnischer Weisheitskult</Translation>
+		<de-DE>Heidnischer Weisheitskult</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_PAGAN_CULT_SUN</zType>
-		<Translation>Heidnischer Sonnenkult</Translation>
+		<de-DE>Heidnischer Sonnenkult</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_PAGAN_CULT_WATER</zType>
-		<Translation>Heidnischer Meereskult</Translation>
+		<de-DE>Heidnischer Meereskult</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_PAGAN_CULT_LOVE</zType>
-		<Translation>Heidnischer Liebeskult</Translation>
+		<de-DE>Heidnischer Liebeskult</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_PAGAN_CULT_UNDERWORLD</zType>
-		<Translation>Heidnischer Todeskult</Translation>
+		<de-DE>Heidnischer Todeskult</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_PAGAN_CULT_HEALING</zType>
-		<Translation>Heidnischer Heilungskult</Translation>
+		<de-DE>Heidnischer Heilungskult</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_PAGAN_CULT_KINGSHIP</zType>
-		<Translation>Heidnischer Königskult</Translation>
+		<de-DE>Heidnischer Königskult</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_PAGAN_CULT_HEARTH</zType>
-		<Translation>Heidnischer Herzenskult</Translation>
+		<de-DE>Heidnischer Herzenskult</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_PAGAN_CULT_HUNTING</zType>
-		<Translation>Heidnischer Jägerkult</Translation>
+		<de-DE>Heidnischer Jägerkult</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_FERTILE_SOIL</zType>
-		<Translation>Mineralreicher Boden</Translation>
+		<de-DE>Mineralreicher Boden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_IMPROVED_LUDUS</zType>
-		<Translation>Verbesserte Bildung</Translation>
+		<de-DE>Verbesserte Bildung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_ATHLETICS_ARCHERY</zType>
-		<Translation>Sportliche Tradition: Bogenschießen</Translation>
+		<de-DE>Sportliche Tradition: Bogenschießen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_ATHLETICS_WRESTLING</zType>
-		<Translation>Sportliche Tradition: Ringen</Translation>
+		<de-DE>Sportliche Tradition: Ringen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_PROJECT_ATHLETICS_EQUESTRIAN</zType>
-		<Translation>Sportliche Tradition: Reiter</Translation>
+		<de-DE>Sportliche Tradition: Reiter</de-DE>
 	</Entry>
 </Root>

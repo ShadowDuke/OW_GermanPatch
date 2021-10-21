@@ -1,164 +1,164 @@
-<!-- German Translation (© Revan ©) -->
+<!-- German de-DE (© Revan ©) -->
 
 <Root>
 	<Entry>
 		<zType/>
-		<Translation/>
+		<de-DE/>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_AMBITION_ACHIEVED</zType>
-		<Translation>Ambition vollendet</Translation>
+		<de-DE>Ambition vollendet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_LEGACY_ACHIEVED</zType>
-		<Translation>Vermächtnis vollendet</Translation>
+		<de-DE>Vermächtnis vollendet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_TRIBE_CONTACTED</zType>
-		<Translation>Stanm kontaktiert</Translation>
+		<de-DE>Stanm kontaktiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_TRIBE_CLEARED</zType>
-		<Translation>Stamm erledigt</Translation>
+		<de-DE>Stamm erledigt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_TRIBE_PEACE</zType>
-		<Translation>Stamm Frieden</Translation>
+		<de-DE>Stamm Frieden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_TRIBE_ALLIANCE</zType>
-		<Translation>Stamm Bündnis</Translation>
+		<de-DE>Stamm Bündnis</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_MERCENARIES_RECRUITED</zType>
-		<Translation>Söldner rekrutiert</Translation>
+		<de-DE>Söldner rekrutiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_MERCENARIES_HIRED</zType>
-		<Translation>Söldner angeheuert</Translation>
+		<de-DE>Söldner angeheuert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_TEAM_CONTACTED</zType>
-		<Translation>Reich kontaktiert</Translation>
+		<de-DE>Reich kontaktiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_TEAM_PEACE</zType>
-		<Translation>Reich Frieden</Translation>
+		<de-DE>Reich Frieden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_TEAM_ALLIANCE</zType>
-		<Translation>Staatliches Bündnis</Translation>
+		<de-DE>Staatliches Bündnis</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_CARAVAN_ARRIVED</zType>
-		<Translation>Karawane eingetroffen</Translation>
+		<de-DE>Karawane eingetroffen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_CAPITAL_CAPTURED</zType>
-		<Translation>Hauptstädte erobert</Translation>
+		<de-DE>Hauptstädte erobert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_CITY_FOUNDED</zType>
-		<Translation>Städte gegründet</Translation>
+		<de-DE>Städte gegründet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_CITY_CAPTURED</zType>
-		<Translation>Städte erobert</Translation>
+		<de-DE>Städte erobert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_CITY_RECAPTURED</zType>
-		<Translation>Städte zurückerobert</Translation>
+		<de-DE>Städte zurückerobert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_CITY_LOST</zType>
-		<Translation>Verlorene Städte</Translation>
+		<de-DE>Verlorene Städte</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_COURTIER_ADDED</zType>
-		<Translation>Vertrauten gewonnen</Translation>
+		<de-DE>Vertrauten gewonnen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_IMPROVEMENT_FINISHED</zType>
-		<Translation>Verbesserungen fertiggestellt</Translation>
+		<de-DE>Verbesserungen fertiggestellt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_IMPROVEMENT_REPAIRED</zType>
-		<Translation>Verbesserungen repariert</Translation>
+		<de-DE>Verbesserungen repariert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_LANDMARK_DISCOVERED</zType>
-		<Translation>Wahrzeichen entdeckt</Translation>
+		<de-DE>Wahrzeichen entdeckt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_LANDMARK_NAMED</zType>
-		<Translation>Wahrzeichen benannt</Translation>
+		<de-DE>Wahrzeichen benannt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_LEADER_COUNT</zType>
-		<Translation>Oberhaupt Anzahl</Translation>
+		<de-DE>Oberhaupt Anzahl</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_NATION_FOUNDED</zType>
-		<Translation>Reich gegründet</Translation>
+		<de-DE>Reich gegründet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_WORLD_RELIGION_FOUNDED</zType>
-		<Translation>Welt Religion gegründet</Translation>
+		<de-DE>Welt Religion gegründet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_RELIGION_SPREAD</zType>
-		<Translation>Religion verbreitet</Translation>
+		<de-DE>Religion verbreitet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_RUINS_EXPLORED</zType>
-		<Translation>Ruinen erkundet</Translation>
+		<de-DE>Ruinen erkundet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_SPECIALIST_PRODUCED</zType>
-		<Translation>Spezialisten ausgebildet</Translation>
+		<de-DE>Spezialisten ausgebildet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_TECH_DISCOVERED</zType>
-		<Translation>Technologie entdeckt</Translation>
+		<de-DE>Technologie entdeckt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_THEOLOGY_ESTABLISHED</zType>
-		<Translation>Religionswissenschaft eingeführt</Translation>
+		<de-DE>Religionswissenschaft eingeführt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_TILES_REVEALED</zType>
-		<Translation>Felder aufgedeckt</Translation>
+		<de-DE>Felder aufgedeckt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_UNIT_TRAINED</zType>
-		<Translation>Einheiten trainiert</Translation>
+		<de-DE>Einheiten trainiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_UNIT_PROMOTED</zType>
-		<Translation>Einheiten befördert</Translation>
+		<de-DE>Einheiten befördert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_UNIT_MILITARY_KILLED</zType>
-		<Translation>Militär Einheiten getötet</Translation>
+		<de-DE>Militär Einheiten getötet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_UNIT_MILITARY_KILLED_GENERAL</zType>
-		<Translation>Militär Einheiten getötet (als Feldherr)</Translation>
+		<de-DE>Militär Einheiten getötet (als Feldherr)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_UNIT_LOST</zType>
-		<Translation>Einheiten verloren</Translation>
+		<de-DE>Einheiten verloren</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_VEGETATION_REMOVED</zType>
-		<Translation>Vegetation entfernt</Translation>
+		<de-DE>Vegetation entfernt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_WONDER_FINISHED</zType>
-		<Translation>Wunder fertiggestellt</Translation>
+		<de-DE>Wunder fertiggestellt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_YEARS_REIGNED</zType>
-		<Translation>Jahre regiert</Translation>
+		<de-DE>Jahre regiert</de-DE>
 	</Entry>
 </Root>

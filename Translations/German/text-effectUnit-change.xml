@@ -1,369 +1,369 @@
-<!-- German Translation (© Revan ©) -->
+<!-- German de-DE (© Revan ©) -->
 
 <Root>
 	<!--Name-->
 	<Entry>
 		<zType/>
-		<Translation/>
+		<de-DE/>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNITCLASS_COMBAT</zType>
-		<Translation>Kampf</Translation>
+		<de-DE>Kampf</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_COMBAT1</zType>
-		<Translation>Kampf I</Translation>
+		<de-DE>Kampf I</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_COMBAT2</zType>
-		<Translation>Kampf II</Translation>
+		<de-DE>Kampf II</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_COMBAT3</zType>
-		<Translation>Kampf III</Translation>
+		<de-DE>Kampf III</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNITCLASS_STRIKE</zType>
-		<Translation>Angriff</Translation>
+		<de-DE>Angriff</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_STRIKE1</zType>
-		<Translation>Angriff I</Translation>
+		<de-DE>Angriff I</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_STRIKE2</zType>
-		<Translation>Angriff II</Translation>
+		<de-DE>Angriff II</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_STRIKE3</zType>
-		<Translation>Angriff III</Translation>
+		<de-DE>Angriff III</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNITCLASS_GUARD</zType>
-		<Translation>Wächter</Translation>
+		<de-DE>Wächter</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_GUARD1</zType>
-		<Translation>Wächter I</Translation>
+		<de-DE>Wächter I</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_GUARD2</zType>
-		<Translation>Wächter II</Translation>
+		<de-DE>Wächter II</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_GUARD3</zType>
-		<Translation>Wächter III</Translation>
+		<de-DE>Wächter III</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNITCLASS_FOCUS</zType>
-		<Translation>Fokussieren</Translation>
+		<de-DE>Fokussieren</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_FOCUS1</zType>
-		<Translation>Fokussieren I</Translation>
+		<de-DE>Fokussieren I</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_FOCUS2</zType>
-		<Translation>Fokussieren II</Translation>
+		<de-DE>Fokussieren II</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_FOCUS3</zType>
-		<Translation>Fokussieren III</Translation>
+		<de-DE>Fokussieren III</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_TRACKER</zType>
-		<Translation>Fährtenleser</Translation>
+		<de-DE>Fährtenleser</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_TRACKER_ALL</zType>
-		<Translation>Fährtenleser Oberhaupt</Translation>
+		<de-DE>Fährtenleser Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SWIFT</zType>
-		<Translation>Flink</Translation>
+		<de-DE>Flink</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SWIFT_ALL</zType>
-		<Translation>Flink Oberhaupt</Translation>
+		<de-DE>Flink Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_EAGLE_EYE</zType>
-		<Translation>Adlerauge</Translation>
+		<de-DE>Adlerauge</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_MARKSMAN</zType>
-		<Translation>Schafschütze</Translation>
+		<de-DE>Schafschütze</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_AMPHIBIOUS</zType>
-		<Translation>Amphibisch</Translation>
+		<de-DE>Amphibisch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_BESIEGER</zType>
-		<Translation>Belagerer</Translation>
+		<de-DE>Belagerer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_BESIEGER_ALL</zType>
-		<Translation>Belagerer Oberhaupt</Translation>
+		<de-DE>Belagerer Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_WARDEN</zType>
-		<Translation>Aufseher</Translation>
+		<de-DE>Aufseher</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_TOUGH</zType>
-		<Translation>Taff</Translation>
+		<de-DE>Taff</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_TOUGH_ALL</zType>
-		<Translation>Taff Oberhaupt</Translation>
+		<de-DE>Taff Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_BLOODTHIRSTY</zType>
-		<Translation>Blutdürstig</Translation>
+		<de-DE>Blutdürstig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_BLOODTHIRSTY_ALL</zType>
-		<Translation>Blutdürstig Oberhaupt</Translation>
+		<de-DE>Blutdürstig Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HECKLER</zType>
-		<Translation>Störer</Translation>
+		<de-DE>Störer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HECKLER_ALL</zType>
-		<Translation>Störer Oberhaupt</Translation>
+		<de-DE>Störer Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_STEADFAST</zType>
-		<Translation>Treu</Translation>
+		<de-DE>Treu</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_STEADFAST_ALL</zType>
-		<Translation>Treu Oberhaupt</Translation>
+		<de-DE>Treu Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HERBALIST</zType>
-		<Translation>Pflanzenkenner</Translation>
+		<de-DE>Pflanzenkenner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HERBALIST_ALL</zType>
-		<Translation>Pflanzenkenner Oberhaupt</Translation>
+		<de-DE>Pflanzenkenner Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HEALER</zType>
-		<Translation>Heiler</Translation>
+		<de-DE>Heiler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_NOMAD</zType>
-		<Translation>Nomade</Translation>
+		<de-DE>Nomade</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_COLD</zType>
-		<Translation>Kalt</Translation>
+		<de-DE>Kalt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HIGHLANDER</zType>
-		<Translation>Bergbewohner</Translation>
+		<de-DE>Bergbewohner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HIGHLANDER_ALL</zType>
-		<Translation>Bergbewohner Oberhaupt</Translation>
+		<de-DE>Bergbewohner Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_RANGER</zType>
-		<Translation>Ranger</Translation>
+		<de-DE>Ranger</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_RANGER_ALL</zType>
-		<Translation>Ranger Oberhaupt</Translation>
+		<de-DE>Ranger Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_BRAVE</zType>
-		<Translation>Tapfer</Translation>
+		<de-DE>Tapfer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_BRAVE_ALL</zType>
-		<Translation>Tapfer Oberhaupt</Translation>
+		<de-DE>Tapfer Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SHIELDBEARER</zType>
-		<Translation>Schildträger</Translation>
+		<de-DE>Schildträger</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SHIELDBEARER_ALL</zType>
-		<Translation>Schildträger Oberhaupt</Translation>
+		<de-DE>Schildträger Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_FIERCE</zType>
-		<Translation>Unerschütterlich</Translation>
+		<de-DE>Unerschütterlich</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_FIERCE_ALL</zType>
-		<Translation>Unerschütterlich Oberhaupt</Translation>
+		<de-DE>Unerschütterlich Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HORSEBANE</zType>
-		<Translation>Unheil</Translation>
+		<de-DE>Unheil</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HORSEBANE_ALL</zType>
-		<Translation>Unheil Oberhaupt</Translation>
+		<de-DE>Unheil Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_ENGINEER</zType>
-		<Translation>Techniker</Translation>
+		<de-DE>Techniker</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_ENGINEER_ALL</zType>
-		<Translation>Techniker Oberhaupt</Translation>
+		<de-DE>Techniker Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SHRAPNEL</zType>
-		<Translation>Shrapnell</Translation>
+		<de-DE>Shrapnell</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_COCKSWAIN</zType>
-		<Translation>Boorsführer</Translation>
+		<de-DE>Boorsführer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_GRAPPLER</zType>
-		<Translation>Ringer</Translation>
+		<de-DE>Ringer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SEABORN</zType>
-		<Translation>Auf See geboren</Translation>
+		<de-DE>Auf See geboren</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_OVERWHELM</zType>
-		<Translation>Überfordert</Translation>
+		<de-DE>Überfordert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_FIRESHIP</zType>
-		<Translation>Brander</Translation>
+		<de-DE>Brander</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_LADING</zType>
-		<Translation>Belandend</Translation>
+		<de-DE>Belandend</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_INGENUITY</zType>
-		<Translation>Raffinesse</Translation>
+		<de-DE>Raffinesse</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SADDLEBORN</zType>
-		<Translation>Geborener Reiter</Translation>
+		<de-DE>Geborener Reiter</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SENTINEL</zType>
-		<Translation>Wache</Translation>
+		<de-DE>Wache</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_ROUT</zType>
-		<Translation>Vernichtend</Translation>
+		<de-DE>Vernichtend</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_PANIC</zType>
-		<Translation>Panisch</Translation>
+		<de-DE>Panisch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_STEALTH</zType>
-		<Translation>Heimlichkeit</Translation>
+		<de-DE>Heimlichkeit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_ASSAULT</zType>
-		<Translation>Überfall</Translation>
+		<de-DE>Überfall</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_FORMATION</zType>
-		<Translation>Formation</Translation>
+		<de-DE>Formation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_CRIPPLED</zType>
-		<Translation>Verkrüppelt</Translation>
+		<de-DE>Verkrüppelt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SOLDIER</zType>
-		<Translation>Soldat</Translation>
+		<de-DE>Soldat</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_PROPHET</zType>
-		<Translation>Prophet</Translation>
+		<de-DE>Prophet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SURVEYOR</zType>
-		<Translation>Vermesser</Translation>
+		<de-DE>Vermesser</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_ASSYRIA</zType>
-		<Translation>link(NATION_ASSYRIA)</Translation>
+		<de-DE>link(NATION_ASSYRIA)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HERO</zType>
-		<Translation>link(TRAIT_HERO_ARCHETYPE)</Translation>
+		<de-DE>link(TRAIT_HERO_ARCHETYPE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HERO_LEADER</zType>
-		<Translation>link(TRAIT_HERO_ARCHETYPE) (Oberhaupt)</Translation>
+		<de-DE>link(TRAIT_HERO_ARCHETYPE) (Oberhaupt)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HERO_ALL</zType>
-		<Translation>link(TRAIT_HERO_ARCHETYPE) Oberhaupt (Alle Einheiten)</Translation>
+		<de-DE>link(TRAIT_HERO_ARCHETYPE) Oberhaupt (Alle Einheiten)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_COMMANDER</zType>
-		<Translation>link(TRAIT_COMMANDER_ARCHETYPE)</Translation>
+		<de-DE>link(TRAIT_COMMANDER_ARCHETYPE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_COMMANDER_LEADER</zType>
-		<Translation>link(TRAIT_COMMANDER_ARCHETYPE) (Oberhaupt)</Translation>
+		<de-DE>link(TRAIT_COMMANDER_ARCHETYPE) (Oberhaupt)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_COMMANDER_INFANTRY</zType>
-		<Translation>link(TRAIT_COMMANDER_ARCHETYPE) (link(UNITTRAIT_INFANTRY))</Translation>
+		<de-DE>link(TRAIT_COMMANDER_ARCHETYPE) (link(UNITTRAIT_INFANTRY))</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_TACTICIAN</zType>
-		<Translation>link(TRAIT_TACTICIAN_ARCHETYPE)</Translation>
+		<de-DE>link(TRAIT_TACTICIAN_ARCHETYPE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_TACTICIAN_LEADER</zType>
-		<Translation>link(TRAIT_TACTICIAN_ARCHETYPE) (Oberhaupt)</Translation>
+		<de-DE>link(TRAIT_TACTICIAN_ARCHETYPE) (Oberhaupt)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_TACTICIAN_RANGED</zType>
-		<Translation>link(TRAIT_TACTICIAN_ARCHETYPE) Leader (link(UNITTRAIT_RANGED))</Translation>
+		<de-DE>link(TRAIT_TACTICIAN_ARCHETYPE) Leader (link(UNITTRAIT_RANGED))</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_ZEALOT</zType>
-		<Translation>link(TRAIT_ZEALOT_ARCHETYPE)</Translation>
+		<de-DE>link(TRAIT_ZEALOT_ARCHETYPE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_ZEALOT_LEADER</zType>
-		<Translation>link(TRAIT_ZEALOT_ARCHETYPE) (Oberhaupt)</Translation>
+		<de-DE>link(TRAIT_ZEALOT_ARCHETYPE) (Oberhaupt)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_OPINIONFAMILY_FURIOUS</zType>
-		<Translation>link(OPINIONFAMILY_FURIOUS) (Familie)</Translation>
+		<de-DE>link(OPINIONFAMILY_FURIOUS) (Familie)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_OPINIONFAMILY_ANGRY</zType>
-		<Translation>link(OPINIONFAMILY_ANGRY) (Familie)</Translation>
+		<de-DE>link(OPINIONFAMILY_ANGRY) (Familie)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_OPINIONFAMILY_UPSET</zType>
-		<Translation>link(OPINIONFAMILY_UPSET) (Familie)</Translation>
+		<de-DE>link(OPINIONFAMILY_UPSET) (Familie)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_OPINIONFAMILY_PLEASED</zType>
-		<Translation>link(OPINIONFAMILY_PLEASED) (Familie)</Translation>
+		<de-DE>link(OPINIONFAMILY_PLEASED) (Familie)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_OPINIONFAMILY_FRIENDLY</zType>
-		<Translation>link(OPINIONFAMILY_FRIENDLY) (Familie)</Translation>
+		<de-DE>link(OPINIONFAMILY_FRIENDLY) (Familie)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SWORD_OF_THE_GODS</zType>
-		<Translation>Schwert der Götter</Translation>
+		<de-DE>Schwert der Götter</de-DE>
 	</Entry>
 </Root>

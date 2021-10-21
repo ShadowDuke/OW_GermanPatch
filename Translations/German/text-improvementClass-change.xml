@@ -1,126 +1,126 @@
-<!-- German Translation (© Revan ©) -->
+<!-- German de-DE (© Revan ©) -->
 
 <Root>
 	<!--Assets/GameAssets/Resources/Infos/improvement.xml-->
-	<!--NOTE: improvement names that are mass nouns or plural do not need multiple types in Translation-->
+	<!--NOTE: improvement names that are mass nouns or plural do not need multiple types in de-DE-->
 	<Entry>
 		<zType/>
-		<Translation/>
+		<de-DE/>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_FORT</zType>
-		<Translation>Fort~ein Fort~Forts</Translation>
+		<de-DE>Fort~ein Fort~Forts</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_FARM</zType>
-		<Translation>Farm~eine Farm~Farmen</Translation>
+		<de-DE>Farm~eine Farm~Farmen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_MINE</zType>
-		<Translation>Mine~eine Mine~Minen</Translation>
+		<de-DE>Mine~eine Mine~Minen</de-DE>
 	</Entry>
 		<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_QUARRY</zType>
-		<Translation>Steinbruch~ein Steinbruch~Steinbrüchen</Translation>
+		<de-DE>Steinbruch~ein Steinbruch~Steinbrüchen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_LUMBERMILL</zType>
-		<Translation>Sägewerk~ein Sägewerk~Sägewerken</Translation>
+		<de-DE>Sägewerk~ein Sägewerk~Sägewerken</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_PASTURE</zType>
-		<Translation>Weide~eine Weide~Weiden</Translation>
+		<de-DE>Weide~eine Weide~Weiden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_CAMP</zType>
-		<Translation>Lager~ein Lager~Lager</Translation>
+		<de-DE>Lager~ein Lager~Lager</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_GROVE</zType>
-		<Translation>Plantagen~eine Plantage~Plantagen</Translation>
+		<de-DE>Plantagen~eine Plantage~Plantagen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_NETS</zType>
-		<Translation>Fischernetze</Translation>
+		<de-DE>Fischernetze</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_HARBOR</zType>
-		<Translation>Hafen~ein Hafen~Häfen</Translation>
+		<de-DE>Hafen~ein Hafen~Häfen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_GRANARY</zType>
-		<Translation>Kornkammer~eine Kornkammer~Kornkammern</Translation>
+		<de-DE>Kornkammer~eine Kornkammer~Kornkammern</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_MILL</zType>
-		<Translation>Mühle~eine Mühle~Mühlen</Translation>
+		<de-DE>Mühle~eine Mühle~Mühlen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_HAMLET</zType>
-		<Translation>Dorf~ein Dorf~Dörfer</Translation>
+		<de-DE>Dorf~ein Dorf~Dörfer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_BARRACKS</zType>
-		<Translation>Kaserne~eine Kaserne~Kasernen</Translation>
+		<de-DE>Kaserne~eine Kaserne~Kasernen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_RANGE</zType>
-		<Translation>Schießstand~ein Schießstand~Schießstände</Translation>
+		<de-DE>Schießstand~ein Schießstand~Schießstände</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_ODEON</zType>
-		<Translation>Theater~eine Theater~Theater</Translation>
+		<de-DE>Theater~eine Theater~Theater</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_BATHS</zType>
-		<Translation>Badehaus~ein Badehaus~Badehäuser</Translation>
+		<de-DE>Badehaus~ein Badehaus~Badehäuser</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_MARKET</zType>
-		<Translation>Markt~ein Markt~Märkte</Translation>
+		<de-DE>Markt~ein Markt~Märkte</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_LIBRARY</zType>
-		<Translation>Bibliothek~eine Bibliothek~Bibliotheken</Translation>
+		<de-DE>Bibliothek~eine Bibliothek~Bibliotheken</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_COURTHOUSE</zType>
-		<Translation>Gerichtshof~ein Gerichtshof~Gerichtshöfe</Translation>
+		<de-DE>Gerichtshof~ein Gerichtshof~Gerichtshöfe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_GARRISON</zType>
-		<Translation>Garnison~eine Garnison~Garnisonen</Translation>
+		<de-DE>Garnison~eine Garnison~Garnisonen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_SHRINE</zType>
-		<Translation>Heiligtum~ein Heiligtum~Heiligtümer</Translation>
+		<de-DE>Heiligtum~ein Heiligtum~Heiligtümer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_MONASTERY</zType>
-		<Translation>Kloster~ein Kloster~Klöster</Translation>
+		<de-DE>Kloster~ein Kloster~Klöster</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_MONASTERY_CUSTOM</zType>
-		<Translation>{0_customName} Kloster~ein {0_customName} Kloster~{0_customName} Klöster</Translation>
+		<de-DE>{0_customName} Kloster~ein {0_customName} Kloster~{0_customName} Klöster</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_TEMPLE</zType>
-		<Translation>Tempel~ein Tempel~Tempeln</Translation>
+		<de-DE>Tempel~ein Tempel~Tempeln</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_TEMPLE_CUSTOM</zType>
-		<Translation>{0_customName} Tempel~ein {0_customName} Tempel~{0_customName} Tempel</Translation>
+		<de-DE>{0_customName} Tempel~ein {0_customName} Tempel~{0_customName} Tempel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_CATHEDRAL</zType>
-		<Translation>Kathedrale~eine Kathedrale~Kathedralen</Translation>
+		<de-DE>Kathedrale~eine Kathedrale~Kathedralen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_CATHEDRAL_CUSTOM</zType>
-		<Translation>{0_customName} Kathedrale~eine {0_customName} Kathedrale~{0_customName} Kathedralen</Translation>
+		<de-DE>{0_customName} Kathedrale~eine {0_customName} Kathedrale~{0_customName} Kathedralen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENTCLASS_HOLY_SITE</zType>
-		<Translation>Heilige Stadt~eine Heilige Stadt~Heiligen Stätten</Translation>
+		<de-DE>Heilige Stadt~eine Heilige Stadt~Heiligen Stätten</de-DE>
 	</Entry>
 </Root>

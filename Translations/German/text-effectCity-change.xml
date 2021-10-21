@@ -1,422 +1,418 @@
-<!-- German Translation (© Revan ©) -->
+<!-- German de-DE (© Revan ©) -->
 
 <Root>
 	<Entry>
 		<zType/>
-		<Translation/>
+		<de-DE/>
 	</Entry>
 	<!--Source-->
 	<Entry>
 		<zType>TEXT_EFFECTCITY_SEAT_SOURCE</zType>
-		<Translation>Sitz</Translation>
+		<de-DE>Sitz</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_STATE_RELIGION_SOURCE</zType>
-		<Translation>Staatsreligion</Translation>
+		<de-DE>Staatsreligion</de-DE>
 	</Entry>
 	<!--Name-->
 	<Entry>
 		<zType>TEXT_EFFECTCITY_BASE</zType>
-		<Translation>Grundwert</Translation>
+		<de-DE>Grundwert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_CAPITAL</zType>
-		<Translation>Hauptstadt</Translation>
+		<de-DE>Hauptstadt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_FAMILY_SEAT</zType>
-		<Translation>link(CONCEPT_FAMILY_SEAT)</Translation>
+		<de-DE>link(CONCEPT_FAMILY_SEAT)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_CONNECTED</zType>
-		<Translation>Verbunden</Translation>
+		<de-DE>Verbunden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_DAMAGED</zType>
-		<Translation>Beschädigt</Translation>
+		<de-DE>Beschädigt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_HOLY_CITY</zType>
-		<Translation>Heilige Stadt</Translation>
+		<de-DE>Heilige Stadt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_CITIZEN</zType>
-		<Translation>Bürger</Translation>
+		<de-DE>Bürger</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_POPULATION</zType>
-		<Translation>Bevölkerung</Translation>
+		<de-DE>Bevölkerung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LUXURY</zType>
-		<Translation>Luxusgüter</Translation>
+		<de-DE>Luxusgüter</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LUXURY_LANDOWNERS_HONEY</zType>
-		<Translation>Landbesitzer Honig</Translation>
+		<de-DE>Landbesitzer Honig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LUXURY_LANDOWNERS_OLIVE</zType>
-		<Translation>Landbesitzer Oliven</Translation>
+		<de-DE>Landbesitzer Oliven</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LUXURY_CHAMPIONS_WINE</zType>
-		<Translation>Wettkämpfer Wein</Translation>
+		<de-DE>Wettkämpfer Wein</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LUXURY_CHAMPIONS_DYE</zType>
-		<Translation>Wettkämpfer Färbemittel</Translation>
+		<de-DE>Wettkämpfer Färbemittel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LUXURY_STATESMEN_PEARL</zType>
-		<Translation>Staatsmänner Perlen</Translation>
+		<de-DE>Staatsmänner Perlen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LUXURY_STATESMEN_WINE</zType>
-		<Translation>Staatsmänner Wein</Translation>
+		<de-DE>Staatsmänner Wein</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LUXURY_PATRONS_GEM</zType>
-		<Translation>Schutzherren Edelsteine</Translation>
+		<de-DE>Schutzherren Edelsteine</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LUXURY_PATRONS_INCENSE</zType>
-		<Translation>Schutzherren Weihrauch</Translation>
+		<de-DE>Schutzherren Weihrauch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LUXURY_CLERICS_INCENSE</zType>
-		<Translation>Geistliche Weihrauch</Translation>
+		<de-DE>Geistliche Weihrauch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LUXURY_CLERICS_LAVENDER</zType>
-		<Translation>Geistliche Lavendel</Translation>
+		<de-DE>Geistliche Lavendel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LUXURY_SAGES_LAVENDER</zType>
-		<Translation>Weise Lavendel</Translation>
+		<de-DE>Weise Lavendel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LUXURY_SAGES_SALT</zType>
-		<Translation>Weise Salz</Translation>
+		<de-DE>Weise Salz</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LUXURY_TRADERS_OLIVE</zType>
-		<Translation>Kaufleute Oliven</Translation>
+		<de-DE>Kaufleute Oliven</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LUXURY_TRADERS_PEARL</zType>
-		<Translation>Kaufleute Perlen</Translation>
+		<de-DE>Kaufleute Perlen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LUXURY_ARTISANS_DYE</zType>
-		<Translation>Kunsthandwerker Färbemittel</Translation>
+		<de-DE>Kunsthandwerker Färbemittel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LUXURY_ARTISANS_GEM</zType>
-		<Translation>Kunsthandwerker Edelsteine</Translation>
+		<de-DE>Kunsthandwerker Edelsteine</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LUXURY_RIDERS_SALT</zType>
-		<Translation>Reiter Salz</Translation>
+		<de-DE>Reiter Salz</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LUXURY_RIDERS_FUR</zType>
-		<Translation>Reiter Felle</Translation>
+		<de-DE>Reiter Felle</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LUXURY_HUNTERS_FUR</zType>
-		<Translation>Jäger Felle</Translation>
+		<de-DE>Jäger Felle</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LUXURY_HUNTERS_HONEY</zType>
-		<Translation>Jäger Honig</Translation>
+		<de-DE>Jäger Honig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_FAMILYCLASS_STATESMEN_SEAT_DECREE</zType>
-		<Translation>Erlass</Translation>
+		<de-DE>Erlass</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_FAMILYCLASS_SAGES_SEAT_INQUIRY</zType>
-		<Translation>Anfrage</Translation>
+		<de-DE>Anfrage</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_FAMILYCLASS_HUNTERS_SEAT_HUNT</zType>
-		<Translation>Jagd</Translation>
+		<de-DE>Jagd</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_AMBITION_CAPITAL</zType>
-		<Translation>link(CONCEPT_AMBITION,2) vollendet</Translation>
+		<de-DE>link(CONCEPT_AMBITION,2) vollendet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_LEGACY_CAPITAL</zType>
-		<Translation>Vermächtnisse vollendet</Translation>
+		<de-DE>Vermächtnisse vollendet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_CULTURE_WEAK</zType>
-		<Translation>Schwache Stadt</Translation>
+		<de-DE>Schwache Stadt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_CULTURE_DEVELOPING</zType>
-		<Translation>Entfaltete Stadt</Translation>
+		<de-DE>Entfaltete Stadt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_CULTURE_STRONG</zType>
-		<Translation>Solide Stadt</Translation>
+		<de-DE>Solide Stadt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_CULTURE_LEGENDARY</zType>
-		<Translation>Sagenumwobene Stadt</Translation>
+		<de-DE>Sagenumwobene Stadt</de-DE>
 	</Entry> 
 	<Entry>
 		<zType>TEXT_EFFECTCITY_IMPROVEMENT_SHRINE_HUNTING</zType>
-		<Translation>Schrein des Jagens</Translation>
+		<de-DE>Schrein des Jagens</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_IMPROVEMENTCLASS_TEMPLE_GNOSTICISM</zType>
-		<Translation>Gnostizismus-Tempel</Translation>
+		<de-DE>Gnostizismus-Tempel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_IMPROVEMENTCLASS_CATHEDRAL_REDEMPTION</zType>
-		<Translation>Erlösungs-Kathedrale</Translation>
+		<de-DE>Erlösungs-Kathedrale</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_IMPROVEMENTCLASS_CATHEDRAL_ENLIGHTENMENT</zType>
-		<Translation>Erleuchtungs-Kathedrale</Translation>
+		<de-DE>Erleuchtungs-Kathedrale</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_OPINIONFAMILY_FURIOUS</zType>
-		<Translation>Wütende Familie</Translation>
+		<de-DE>Wütende Familie</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_OPINIONFAMILY_ANGRY</zType>
-		<Translation>Aufgebrachte Familie</Translation>
+		<de-DE>Aufgebrachte Familie</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_OPINIONFAMILY_UPSET</zType>
-		<Translation>Verärgerte Familie</Translation>
+		<de-DE>Verärgerte Familie</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_OPINIONFAMILY_PLEASED</zType>
-		<Translation>Zufriedene Familie</Translation>
+		<de-DE>Zufriedene Familie</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_OPINIONFAMILY_FRIENDLY</zType>
-		<Translation>Wohlwollende Familie</Translation>
+		<de-DE>Wohlwollende Familie</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_TREASURY</zType>
-		<Translation>Staatskasse~eine Staatskasse~Staatskassen</Translation>
+		<de-DE>Staatskasse~eine Staatskasse~Staatskassen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_FORUM</zType>
-		<Translation>Gericht~ein Gericht~Gerichte</Translation>
+		<de-DE>Gericht~ein Gericht~Gerichte</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_PROJECT_ARCHIVE</zType>
-		<Translation>Archiv~ein Archiv~Archive</Translation>
+		<de-DE>Archiv~ein Archiv~Archive</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_SALT_LUXURY</zType>
-		<Translation>Salz Luxusgut</Translation>
+		<de-DE>Salz Luxusgut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_GEM_LUXURY</zType>
-		<Translation>Edelsteine Luxusgut</Translation>
+		<de-DE>Edelsteine Luxusgut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_FUR_LUXURY</zType>
-		<Translation>Felle Luxusgut</Translation>
+		<de-DE>Felle Luxusgut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_HONEY_LUXURY</zType>
-		<Translation>Honig Luxusgut</Translation>
+		<de-DE>Honig Luxusgut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_INCENSE_LUXURY</zType>
-		<Translation>Weihrauch Luxusgut</Translation>
+		<de-DE>Weihrauch Luxusgut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_LAVENDER_LUXURY</zType>
-		<Translation>Lavendel Luxusgut</Translation>
+		<de-DE>Lavendel Luxusgut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_WINE_LUXURY</zType>
-		<Translation>Wein Luxusgut</Translation>
+		<de-DE>Wein Luxusgut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_OLIVE_LUXURY</zType>
-		<Translation>Oliven Luxusgut</Translation>
+		<de-DE>Oliven Luxusgut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_DYE_LUXURY</zType>
-		<Translation>Färbemittel Luxusgut</Translation>
+		<de-DE>Färbemittel Luxusgut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_PEARL_LUXURY</zType>
-		<Translation>Perlen Luxusgut</Translation>
+		<de-DE>Perlen Luxusgut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_CROP</zType>
-		<Translation>Getreide</Translation>
+		<de-DE>Getreide</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_RESOURCE_BULLION</zType>
-		<Translation>Edelmetall Ressource~eine Edelmetall Ressource~Edelmetall Ressourcen</Translation>
+		<de-DE>Edelmetall Ressource~eine Edelmetall Ressource~Edelmetall Ressourcen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_SPECIALIST_RURAL</zType>
-		<Translation>Land-Spezialist~ein Land-Spezialist~Land-Spezialisten</Translation>
+		<de-DE>Land-Spezialist~ein Land-Spezialist~Land-Spezialisten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_SPECIALIST_APPRENTICE</zType>
-		<Translation>Auszubildender-Spezialist</Translation>
+		<de-DE>Auszubildender-Spezialist</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_SPECIALIST_MASTER</zType>
-		<Translation>Lehrmeister-Spezialist</Translation>
+		<de-DE>Lehrmeister-Spezialist</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_SPECIALIST_ELDER</zType>
-		<Translation>Ältesten-Spezialist</Translation>
+		<de-DE>Ältesten-Spezialist</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_COMMANDER_ARCHETYPE_CAPITAL</zType>
-		<Translation>link(TRAIT_COMMANDER_ARCHETYPE) Oberhaupt</Translation>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_TRAIT_ZEALOT_ARCHETYPE_ALL</zType>
-		<Translation>link(TRAIT_ZEALOT_ARCHETYPE) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_COMMANDER_ARCHETYPE) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_ZEALOT_ARCHETYPE_STATE</zType>
-		<Translation>link(TRAIT_ZEALOT_ARCHETYPE) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_ZEALOT_ARCHETYPE) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_ORATOR_ARCHETYPE</zType>
-		<Translation>link(TRAIT_ORATOR_ARCHETYPE) link(CONCEPT_GOVERNOR)</Translation>
+		<de-DE>link(TRAIT_ORATOR_ARCHETYPE) link(CONCEPT_GOVERNOR)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_ORATOR_ARCHETYPE_ALL</zType>
-		<Translation>link(TRAIT_ORATOR_ARCHETYPE) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_ORATOR_ARCHETYPE) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_DIPLOMAT_ARCHETYPE</zType>
-		<Translation>link(TRAIT_DIPLOMAT_ARCHETYPE) link(CONCEPT_GOVERNOR)</Translation>
+		<de-DE>link(TRAIT_DIPLOMAT_ARCHETYPE) link(CONCEPT_GOVERNOR)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_JUDGE_ARCHETYPE</zType>
-		<Translation>link(TRAIT_JUDGE_ARCHETYPE) link(CONCEPT_GOVERNOR)</Translation>
+		<de-DE>link(TRAIT_JUDGE_ARCHETYPE) link(CONCEPT_GOVERNOR)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_BUILDER_ARCHETYPE</zType>
-		<Translation>link(TRAIT_BUILDER_ARCHETYPE) link(CONCEPT_GOVERNOR)</Translation>
+		<de-DE>link(TRAIT_BUILDER_ARCHETYPE) link(CONCEPT_GOVERNOR)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_BUILDER_ARCHETYPE_ALL</zType>
-		<Translation>link(TRAIT_BUILDER_ARCHETYPE) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_BUILDER_ARCHETYPE) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_SCHOLAR_ARCHETYPE</zType>
-		<Translation>link(TRAIT_SCHOLAR_ARCHETYPE) link(CONCEPT_GOVERNOR)</Translation>
+		<de-DE>link(TRAIT_SCHOLAR_ARCHETYPE) link(CONCEPT_GOVERNOR)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_AFFABLE_ALL</zType>
-		<Translation>link(TRAIT_AFFABLE) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_AFFABLE) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_CRUEL_ALL</zType>
-		<Translation>link(TRAIT_CRUEL) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_CRUEL) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_ELOQUENT_ALL</zType>
-		<Translation>link(TRAIT_ELOQUENT) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_ELOQUENT) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_INTOLERANT_ALL</zType>
-		<Translation>link(TRAIT_INTOLERANT) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_INTOLERANT) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_WARLIKE_ALL</zType>
-		<Translation>link(TRAIT_WARLIKE) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_WARLIKE) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_SLOTHFUL_ALL</zType>
-		<Translation>link(TRAIT_SLOTHFUL) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_SLOTHFUL) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_INSPIRING_ALL</zType>
-		<Translation>link(TRAIT_INSPIRING) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_INSPIRING) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_UNCOUTH_ALL</zType>
-		<Translation>link(TRAIT_UNCOUTH) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_UNCOUTH) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_INTELLIGENT_ALL</zType>
-		<Translation>link(TRAIT_INTELLIGENT) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_INTELLIGENT) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_FOOLISH_ALL</zType>
-		<Translation>link(TRAIT_FOOLISH) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_FOOLISH) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_PROSPEROUS_ALL</zType>
-		<Translation>link(TRAIT_PROSPEROUS) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_PROSPEROUS) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_EXTRAVAGANT_ALL</zType>
-		<Translation>link(TRAIT_EXTRAVAGANT) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_EXTRAVAGANT) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_FRUGAL_ALL</zType>
-		<Translation>link(TRAIT_FRUGAL) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_FRUGAL) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_CORRUPT_ALL</zType>
-		<Translation>link(TRAIT_CORRUPT) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_CORRUPT) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_RIGHTEOUS_ALL</zType>
-		<Translation>link(TRAIT_RIGHTEOUS) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_RIGHTEOUS) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_DEBAUCHED_ALL</zType>
-		<Translation>link(TRAIT_DEBAUCHED) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_DEBAUCHED) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_ROBUST</zType>
-		<Translation>link(TRAIT_ROBUST) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_ROBUST) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_VIGILANT</zType>
-		<Translation>link(TRAIT_VIGILANT) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_VIGILANT) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_STRICT</zType>
-		<Translation>link(TRAIT_STRICT) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_STRICT) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_EQUESTRIAN</zType>
-		<Translation>link(TRAIT_EQUESTRIAN) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_EQUESTRIAN) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_CARPENTER</zType>
-		<Translation>link(TRAIT_CARPENTER) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_CARPENTER) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_PATHFINDER</zType>
-		<Translation>link(TRAIT_PATHFINDER) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_PATHFINDER) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_CULTIVATOR</zType>
-		<Translation>link(TRAIT_CULTIVATOR) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_CULTIVATOR) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_NATURALIST</zType>
-		<Translation>link(TRAIT_NATURALIST) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_NATURALIST) Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_DELVER</zType>
-		<Translation>link(TRAIT_DELVER) Oberhaupt</Translation>
+		<de-DE>link(TRAIT_DELVER) Oberhaupt</de-DE>
 	</Entry>
 </Root>

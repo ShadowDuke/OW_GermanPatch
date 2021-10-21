@@ -1,89 +1,89 @@
-<!-- German Translation (© Revan ©) -->
+<!-- German de-DE (© Revan ©) -->
 
 <Root>
 	<Entry>
 		<zType/>
-		<Translation/>
+		<de-DE/>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_POPULATION_BOOM</zType>
-		<Translation>{CITY} erlebte einen Anstieg der Geburtenrate</Translation>
+		<de-DE>{CITY} erlebte einen Anstieg der Geburtenrate</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_CIVICS_BOOM</zType>
-		<Translation>{CITY} erlebte einen Anstieg bei der Verwaltung</Translation>
+		<de-DE>{CITY} erlebte einen Anstieg bei der Verwaltung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_TRAINING_BOOM</zType>
-		<Translation>{CITY} erlebte einen Anstieg beim Trainieren</Translation>
+		<de-DE>{CITY} erlebte einen Anstieg beim Trainieren</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_SCIENCE_BOOM</zType>
-		<Translation>{CITY} erlebte einen Wissenschaftsdurchbruch</Translation>
+		<de-DE>{CITY} erlebte einen Wissenschaftsdurchbruch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_MONEY_BOOM</zType>
-		<Translation>{CITY} erlebte einen Anstieg in der Wirtschaft</Translation>
+		<de-DE>{CITY} erlebte einen Anstieg in der Wirtschaft</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_ORDERS_BOOM</zType>
-		<Translation>{CITY} erlebte einen Anstieg der Geschäftigkeit</Translation>
+		<de-DE>{CITY} erlebte einen Anstieg der Geschäftigkeit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_GREAT_SOLDIER</zType>
-		<Translation>Ein großer Krieger aus {CITY} taucht auf</Translation>
+		<de-DE>Ein großer Krieger aus {CITY} taucht auf</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_GREAT_MINISTER</zType>
-		<Translation>Ein großer Minister aus {CITY} taucht auf</Translation>
+		<de-DE>Ein großer Minister aus {CITY} taucht auf</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_GREAT_MERCHANT</zType>
-		<Translation>Ein großer Kaufmann aus {CITY} taucht auf</Translation>
+		<de-DE>Ein großer Kaufmann aus {CITY} taucht auf</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_GREAT_SCIENTIST</zType>
-		<Translation>Ein großer Wissenschaftler aus {CITY} taucht auf</Translation>
+		<de-DE>Ein großer Wissenschaftler aus {CITY} taucht auf</de-DE>
 	</Entry>
 	<!--Name-->
 	<Entry>
 		<zType>TEXT_EVENTCITY_POPULATION_BOOM_NAME</zType>
-		<Translation>Bevölkerungsaufschwung</Translation>
+		<de-DE>Bevölkerungsaufschwung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_CIVICS_BOOM_NAME</zType>
-		<Translation>link(YIELD_CIVICS) Aufschwung</Translation>
+		<de-DE>link(YIELD_CIVICS) Aufschwung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_TRAINING_BOOM_NAME</zType>
-		<Translation>link(YIELD_TRAINING) Aufschwung</Translation>
+		<de-DE>link(YIELD_TRAINING) Aufschwung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_SCIENCE_BOOM_NAME</zType>
-		<Translation>link(YIELD_SCIENCE) Aufschwung</Translation>
+		<de-DE>link(YIELD_SCIENCE) Aufschwung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_MONEY_BOOM_NAME</zType>
-		<Translation>link(YIELD_MONEY) Aufschwung</Translation>
+		<de-DE>link(YIELD_MONEY) Aufschwung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_ORDERS_BOOM_NAME</zType>
-		<Translation>link(YIELD_ORDERS) Aufschwung</Translation>
+		<de-DE>link(YIELD_ORDERS) Aufschwung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_GREAT_SOLDIER_NAME</zType>
-		<Translation>Großer Krieger</Translation>
+		<de-DE>Großer Krieger</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_GREAT_MINISTER_NAME</zType>
-		<Translation>Großer Geistlicher</Translation>
+		<de-DE>Großer Geistlicher</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_GREAT_MERCHANT_NAME</zType>
-		<Translation>Großer Kaufmann</Translation>
+		<de-DE>Großer Kaufmann</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_GREAT_SCIENTIST_NAME</zType>
-		<Translation>Großer Wissenschaftler</Translation>
+		<de-DE>Großer Wissenschaftler</de-DE>
 	</Entry>
 </Root>

@@ -1,34 +1,34 @@
-<!-- German Translation (© Revan ©) -->
+<!-- German de-DE (© Revan ©) -->
 
 <Root>
 	<Entry>
 		<zType/>
-		<Translation/>
+		<de-DE/>
 	</Entry>
 	<!-- Wizard: Event Story Helper -->
 	<Entry>
 		<zType>TEXT_EVENTEDITOR_STORY_NAME_BASE_DESC</zType>
-		<Translation>A unique name base for this event story, such as FAMILY_SQUABBLE. Do not include EVENTSTORY_ in this string.
+		<de-DE>A unique name base for this event story, such as FAMILY_SQUABBLE. Do not include EVENTSTORY_ in this string.
 
-The name base will be automatically appended to generic prefixes like EVENTSTORY_ and EVENTOPTION_ to create zTypes.</Translation>
+The name base will be automatically appended to generic prefixes like EVENTSTORY_ and EVENTOPTION_ to create zTypes.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTEDITOR_OPTION_NAME_BASES_DESC</zType>
-		<Translation>The name bases for this story’s options. These will be appended to the option zTypes after the story name base.
+		<de-DE>The name bases for this story’s options. These will be appended to the option zTypes after the story name base.
 		
-If you intend to add existing options or options whose name is not calculated by the same nature, just add blank items here.</Translation>
+If you intend to add existing options or options whose name is not calculated by the same nature, just add blank items here.</de-DE>
 	</Entry>
 	<!-- Other -->
 	<Entry>
 		<zType>TEXT_EVENTEDITOR_GROUP_DESC</zType>
-		<Translation><![CDATA[The group that this entry belongs to. This is for sorting purposes in the browser/xml]]></Translation>
+		<de-DE><![CDATA[The group that this entry belongs to. This is for sorting purposes in the browser/xml]]></de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTEDITOR_SHOW_REFERENCES_DESC</zType>
-		<Translation><![CDATA[Displays a list of info tags that directly reference this entry]]></Translation>
+		<de-DE><![CDATA[Displays a list of info tags that directly reference this entry]]></de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTEDITOR_SHOW_EVENT_ROOTS_DESC</zType>
-		<Translation><![CDATA[Displays a list of events that reference this entry somewhere in the heiarchy]]></Translation>
+		<de-DE><![CDATA[Displays a list of events that reference this entry somewhere in the heiarchy]]></de-DE>
 	</Entry>
 </Root>
