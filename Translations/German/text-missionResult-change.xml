@@ -376,11 +376,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TRIBE_END_ALLIANCE_EVENT</zType>
-		<de-DE>Beende Bündnis</de-DE>
+		<de-DE>Beende link(CONCEPT_ALLIANCE_TRIBE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_ADOPT_RELIGION_EVENT</zType>
-		<de-DE>Übernehme Religion</de-DE>
+		<de-DE>Übernehme link(CONCEPT_STATE_RELIGION)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_LEAVE_RELIGION</zType>
@@ -564,7 +564,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INSURRECTION_DISCONTENT</zType>
-		<de-DE>Aufstand link(YIELD_DISCONTENT)</de-DE>
+		<de-DE>link(BONUS_MISSIONRESULT_INSURRECTION_DISCONTENT)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INSURRECTION_FAILURE</zType>

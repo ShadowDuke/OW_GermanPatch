@@ -8,216 +8,216 @@
 	<!--InfoBuild-->
 	<Entry>
 		<zType>TEXT_BUILD_PROJECT</zType>
-		<de-DE>Projekt</de-DE>
+		<de-DE>Projekt~ein Projekt~Projekte</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BUILD_SPECIALIST</zType>
-		<de-DE>Spezialist</de-DE>
+		<de-DE>Spezialist~ein Spezialist~Spezialisten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BUILD_UNIT</zType>
-		<de-DE>Einheit</de-DE>
+		<de-DE>Einheit~eine Einheit~Einheiten</de-DE>
 	</Entry>
 	<!--TutorialConcept-->
 	<Entry>
 		<zType>TEXT_TUTORIAL_ORDERS</zType>
-		<de-DE>Befehle</de-DE>
+		<de-DE>Tutorial: Befehle</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_SCOUTS</zType>
-		<de-DE>Späher</de-DE>
+		<de-DE>Tutorial: Späher</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_LUXURIES</zType>
-		<de-DE>Luxusgüter</de-DE>
+		<de-DE>Tutorial: Luxusgüter</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_TOOLTIPS</zType>
-		<de-DE>Kurzinfos</de-DE>
+		<de-DE>Tutorial: Kurzinfos</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_TECH_DECK</zType>
-		<de-DE>Tech Deck</de-DE>
+		<de-DE>Tutorial: Tech Deck</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_CHOP_WOOD</zType>
-		<de-DE>Holz hacken</de-DE>
+		<de-DE>Tutorial: Holz hacken</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_ANCHORING</zType>
-		<de-DE>Ankern</de-DE>
+		<de-DE>Tutorial: Ankern</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_SECOND_CITY</zType>
-		<de-DE>Zweite Stadt</de-DE>
+		<de-DE>Tutorial: Zweite Stadt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_PAGAN_SHRINE</zType>
-		<de-DE>Heidnische Schreine</de-DE>
+		<de-DE>Tutorial: Heidnische Schreine</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_RALLY_TROOPS</zType>
-		<de-DE>Rally Troops</de-DE>
+		<de-DE>Tutorial: Truppen versammeln</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_HOLD_COURT</zType>
-		<de-DE>Hold Court</de-DE>
+		<de-DE>Tutorial: Hofstaat abhalten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_INFLUENCE</zType>
-		<de-DE>Einfluss</de-DE>
+		<de-DE>Tutorial: Einfluss</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_IMPRISON</zType>
-		<de-DE>Einsperren</de-DE>
+		<de-DE>Tutorial: Einsperren</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_INTERCESSION</zType>
-		<de-DE>Fürsprache</de-DE>
+		<de-DE>Tutorial: Fürsprache</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_WORKER</zType>
-		<de-DE>Baumeister</de-DE>
+		<de-DE>Tutorial: Baumeister</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_RUSH_BUYING</zType>
-		<de-DE>Rush Buying</de-DE>
+		<de-DE>Tutorial: Schnelles Kaufen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_CARAVAN_SELECTED</zType>
-		<de-DE>Karawanen</de-DE>
+		<de-DE>Tutorial: Karawanen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_SLINGER</zType>
-		<de-DE>Schleuderer</de-DE>
+		<de-DE>Tutorial: Schleuderer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_WARRIOR</zType>
-		<de-DE>Krieger</de-DE>
+		<de-DE>Tutorial: Krieger</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_ROUT</zType>
-		<de-DE>Aufstöbern</de-DE>
+		<de-DE>Tutorial: Aufstöbern</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_UNIT_UPGRADES</zType>
-		<de-DE>Einheit befördern</de-DE>
+		<de-DE>Tutorial: Einheit befördern</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_TRIBE_CAMP_CLEARED</zType>
-		<de-DE>Tribal Camps</de-DE>
+		<de-DE>Tutorial: Stammes Lager</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_CITY_CAPTURED</zType>
-		<de-DE>City Capture</de-DE>
+		<de-DE>Tutorial: Stadt Eroberung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_CULTURE</zType>
-		<de-DE>Kultur</de-DE>
+		<de-DE>Tutorial: Kultur</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_HARVEST_RESOURCE</zType>
-		<de-DE>Ressource sammeln</de-DE>
+		<de-DE>Tutorial: Ressource sammeln</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_UNIT_ATTACK_COOLDOWN</zType>
-		<de-DE>Angriffs Cooldown</de-DE>
+		<de-DE>Tutorial: Angriffs Cooldown</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_UNIT_FATIGUED</zType>
-		<de-DE>Einheit ermüdet</de-DE>
+		<de-DE>Tutorial: Einheit ermüdet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_UNDO</zType>
-		<de-DE>Rückgängig machen</de-DE>
+		<de-DE>Tutorial: Rückgängig machen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_RELIGION</zType>
-		<de-DE>Religion</de-DE>
+		<de-DE>Tutorial: Religion</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_CHARIOT_SELECTED</zType>
-		<de-DE>Streitwagen</de-DE>
+		<de-DE>Tutorial: Streitwagen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_NATION_CONTACT</zType>
-		<de-DE>Reiche</de-DE>
+		<de-DE>Tutorial: Reiche</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_TRIBES</zType>
-		<de-DE>Stämme</de-DE>
+		<de-DE>Tutorial: Stämme</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_SPECIALIST</zType>
-		<de-DE>Spezialisten</de-DE>
+		<de-DE>Tutorial: Spezialist</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_GOVERNOR</zType>
-		<de-DE>Statthalter</de-DE>
+		<de-DE>Tutorial: Statthalter</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_TRAINING_IMPROVEMENT</zType>
-		<de-DE>Training Improvement</de-DE>
+		<de-DE>Tutorial: Training Verbesserung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_TRADE_NETWORK</zType>
-		<de-DE>Handelsnetzwerk</de-DE>
+		<de-DE>Tutorial: Handelsnetzwerk</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_MERCENARIES</zType>
-		<de-DE>Söldner</de-DE>
+		<de-DE>Tutorial: Söldner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_AMBITION</zType>
-		<de-DE>Ambitionen</de-DE>
+		<de-DE>Tutorial: Ambitionen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_SUCCESSION</zType>
-		<de-DE>Nachfolge</de-DE>
+		<de-DE>Tutorial: Nachfolge</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_INHERITANCE_LAWS</zType>
-		<de-DE>Inheritance Laws</de-DE>
+		<de-DE>Tutorial: Erbschaft Gesetze</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_LEGITIMACY</zType>
-		<de-DE>Legitimität</de-DE>
+		<de-DE>Tutorial: Legitimität</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_MARRIAGE</zType>
-		<de-DE>Heirat</de-DE>
+		<de-DE>Tutorial: Heirat</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_GENERAL</zType>
-		<de-DE>Feldherr</de-DE>
+		<de-DE>Tutorial: Feldherr</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_SPEARMAN</zType>
-		<de-DE>Speerkämpfer</de-DE>
+		<de-DE>Tutorial: Speerkämpfer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_AXEMAN</zType>
-		<de-DE>Axeman</de-DE>
+		<de-DE>Tutorial: Axeman</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_ONAGER</zType>
-		<de-DE>Onager</de-DE>
+		<de-DE>Tutorial: Onager</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_FAMILY</zType>
-		<de-DE>Familien</de-DE>
+		<de-DE>Tutorial: Familien</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_AMBASSADOR</zType>
-		<de-DE>Ambassador</de-DE>
+		<de-DE>Tutorial: Gesandter</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_CHANCELLOR</zType>
-		<de-DE>Chancellor</de-DE>
+		<de-DE>Tutorial: Kanzler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_SPYMASTER</zType>
-		<de-DE>Spymaster</de-DE>
+		<de-DE>Tutorial: Meisterspion</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_AGENTS</zType>
@@ -249,15 +249,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_URBAN_DISCONTENT</zType>
-		<de-DE>Tutorial: Stadtteil Felde (Unzufriedenheit)</de-DE>
+		<de-DE>Tutorial: Stadtteil Erträge (Unzufriedenheit)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_URBAN_SCIENCE</zType>
-		<de-DE>Tutorial: Stadtteil Felde (Wissenschaft)</de-DE>
+		<de-DE>Tutorial: Stadtteil Erträge (Wissenschaft)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_URBAN_MONEY</zType>
-		<de-DE>Tutorial: Stadtteil Felde (GEld)</de-DE>
+		<de-DE>Tutorial: Stadtteil Erträge (Geld)</de-DE>
 	</Entry>
 	<!--InfoConcept-->
 	<Entry>
@@ -274,7 +274,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_TRIBE</zType>
-		<de-DE>Stamm~Stämme</de-DE>
+		<de-DE>Stamm~ein Stamm~Stämme~Stammes</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_ALLIANCE_PLAYER</zType>
@@ -530,7 +530,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_UPGRADE</zType>
-		<de-DE>Verbessern~Verbessert~Verbessert</de-DE>
+		<de-DE>Aufwerten~Aufwertet~Aufwgewertet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_URBAN</zType>

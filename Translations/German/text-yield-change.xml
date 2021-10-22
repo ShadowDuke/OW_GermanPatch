@@ -36,7 +36,7 @@ Wunder, wie link(IMPROVEMENT_COLOSSUS) oder link(IMPROVEMENT_ACROPOLIS) oder die
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_TRAINING_HELP</zType>
-		<de-DE>Wird benutzt um Militäreinheiten auszubilden. Unbenutzes link(YIELD_TRAINING){YIELD_TRAINING} wird dem nationalen Vorrat beigefügt, welches benutzt werden kann um Einheiten zu befördern und zu verbessern. Verstärke link(YIELD_TRAINING){YIELD_TRAINING} durch den Bau von link(IMPROVEMENT_BARRACKS,2) und link(IMPROVEMENT_RANGE,2).</de-DE>
+		<de-DE>Wird benutzt um Militäreinheiten auszubilden. Unbenutzes link(YIELD_TRAINING){YIELD_TRAINING} wird dem nationalen Vorrat beigefügt, welches benutzt werden kann um Einheiten zu befördern und aufzuwerten. Verstärke link(YIELD_TRAINING){YIELD_TRAINING} durch den Bau von link(IMPROVEMENT_BARRACKS,2) und link(IMPROVEMENT_RANGE,2).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_TRAINING_ENCYCLOPEDIA</zType>

@@ -24,7 +24,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_5</zType>
-		<de-DE>Drücke V um dein Handelsnetz und Verbindungen zu sehen.</de-DE>
+		<de-DE>Drücke [hotkey(HOTKEY_SHOW_TRADE_NETWORK)] um dein Handelsnetz und Verbindungen zu sehen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_6</zType>
@@ -36,7 +36,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_8</zType>
-		<de-DE>Unbenutzte link(YIELD_CIVICS)icon(YIELD_CIVICS) und link(YIELD_TRAINING)icon(YIELD_TRAINING) in deinen Städten werden zum nationalen Lager hinzugefügt.</de-DE>
+		<de-DE>Unbenutzte link(YIELD_CIVICS,1) und link(YIELD_TRAINING,1)) in deinen Städten werden zum nationalen Lager hinzugefügt.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_9</zType>
@@ -84,7 +84,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_20</zType>
-		<de-DE>Einheiten zu verbessern kann erheblich teuer sein kann aber rasch deine miltärische Macht steigern.</de-DE>
+		<de-DE>Einheiten aufzuwerten kann erheblich teuer sein kann aber rasch deine miltärische Macht steigern.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_21</zType>
@@ -116,7 +116,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_28</zType>
-		<de-DE>Städte mit hohem link(YIELD_GROWTH)icon(YIELD_GROWTH) bilden neue link(UNIT_SETTLER,2), link(UNIT_WORKER,2) und link(UNIT_SCOUT,2) schneller aus.</de-DE>
+		<de-DE>Städte mit hohem link(YIELD_GROWTH,1) bilden neue link(UNIT_SETTLER,2), link(UNIT_WORKER,2) und link(UNIT_SCOUT,2) schneller aus.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_29</zType>
@@ -128,23 +128,23 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_31</zType>
-		<de-DE>link(CONCEPT_URBAN) Spezialisten können mehrere Male verbessert werden um die Produktion eines link(CONCEPT_URBAN) Gebäudes erheblich zu steigern.</de-DE>
+		<de-DE>link(CONCEPT_URBAN) Spezialisten können mehrere Male aufgewertet werden um die Produktion eines link(CONCEPT_URBAN) Gebäudes erheblich zu steigern.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_32</zType>
-		<de-DE>Die meisten link(CONCEPT_URBAN) Gebäude Typen benötigen link(YIELD_STONE)icon(YIELD_STONE) um konstruiert zu werden. Erwarte hohen Bedarf an link(YIELD_STONE)icon(YIELD_STONE) da das Spiel sich entwickelt und du neue Technologien freischaltest.</de-DE>
+		<de-DE>Die meisten link(CONCEPT_URBAN) Gebäude Typen benötigt link(YIELD_STONE,1) um konstruiert zu werden. Erwarte hohen Bedarf an link(YIELD_STONE)icon(YIELD_STONE) da das Spiel sich entwickelt und du neue Technologien freischaltest.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_33</zType>
-		<de-DE>link(UNITTRAIT_RANGED) Einheiten sind effizient in Gefächten, oft greifen sie Feine an ohne einen link(YIELD_ORDERS)icon(YIELD_ORDERS) zur Bewegung ausgegeben zu haben.</de-DE>
+		<de-DE>link(UNITTRAIT_RANGED) Einheiten sind effizient in Gefächten, oft greifen sie Feine an ohne einen link(YIELD_ORDERS,1) zur Bewegung ausgegeben zu haben.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_34</zType>
-		<de-DE>link(YIELD_WOOD)icon(YIELD_WOOD) vom link(VEGETATION_SCRUB) zu entfernen kostet keine link(YIELD_ORDERS)icon(YIELD_ORDERS). Wenn du dich auf einem Weg woanders hin mit einen link(UNIT_WORKER) durch ein link(VEGETATION_SCRUB) Feld bewegst kannst du etwas kostenloses link(YIELD_WOOD)icon(YIELD_WOOD) sammeln.</de-DE>
+		<de-DE>link(YIELD_WOOD,1) von link(VEGETATION_SCRUB) zu entfernen kostet keine link(YIELD_ORDERS)icon(YIELD_ORDERS). Wenn du dich auf einem Weg woanders hin mit einen link(UNIT_WORKER) durch ein link(VEGETATION_SCRUB) Feld bewegst kannst du etwas kostenloses link(YIELD_WOOD)icon(YIELD_WOOD) sammeln.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_35</zType>
-		<de-DE>link(UNIT_MILITIA) und link(UNIT_CONSCRIPT) Einheiten können nicht befördert werden aber sie werden mit link(YIELD_GROWTH)icon(YIELD_GROWTH) anstatt mit link(YIELD_TRAINING)icon(YIELD_TRAINING) ausgebildet. Städte mit hoher link(YIELD_GROWTH)icon(YIELD_GROWTH) Produktion können sie zügig ausbilden.</de-DE>
+		<de-DE>link(UNIT_MILITIA) und link(UNIT_CONSCRIPT) Einheiten können nicht befördert werden aber sie werden mit link(YIELD_GROWTH,1) anstatt mit link(YIELD_TRAINING,1) ausgebildet. Städte mit hoher link(YIELD_GROWTH) Produktion können sie zügig ausbilden.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_36</zType>

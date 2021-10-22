@@ -8,43 +8,51 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_HERO_ARCHETYPE</zType>
-		<de-DE>Held</de-DE>
+		<de-DE>Held~ein Held~Helden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_COMMANDER_ARCHETYPE</zType>
-		<de-DE>Feldherr</de-DE>
+		<de-DE>Feldherr~ein Feldherr~Feldherren</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_TACTICIAN_ARCHETYPE</zType>
-		<de-DE>Taktiker</de-DE>
+		<de-DE>Taktiker~ein Taktiker~Taktikerer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_TACTICIAN_ARCHETYPE_FEM</zType>
+		<de-DE>Taktikerin~eine Taktikerin~Taktikerinnen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ZEALOT_ARCHETYPE</zType>
-		<de-DE>Fanatiker</de-DE>
+		<de-DE>Fanatiker~ein Fanatiker~Fanatiker</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SCHEMER_ARCHETYPE</zType>
-		<de-DE>Intrigant</de-DE>
+		<de-DE>Intrigant~ein Intrigant~Intriganten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ORATOR_ARCHETYPE</zType>
-		<de-DE>Redner</de-DE>
+		<de-DE>Redner~ein Redner~Redner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_JUDGE_ARCHETYPE</zType>
-		<de-DE>Richter</de-DE>
+		<de-DE>Richter~ein Richter~Richter</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BUILDER_ARCHETYPE</zType>
-		<de-DE>Baumeister</de-DE>
+		<de-DE>Baumeister~ein Baumeister~Baumeister</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SCHOLAR_ARCHETYPE</zType>
-		<de-DE>Wissenschaftler</de-DE>
+		<de-DE>Wissenschaftler~ein Wissenschaftler~Wissenschaftler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DIPLOMAT_ARCHETYPE</zType>
-		<de-DE>Diplomat</de-DE>
+		<de-DE>Diplomat~ein Diplomat~Diplomaten</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_DIPLOMAT_ARCHETYPE_FEM</zType>
+		<de-DE>Diplomatin~eine Diplomatin~Diplomatinnen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_AFFABLE</zType>

@@ -21,14 +21,14 @@ If you intend to add existing options or options whose name is not calculated by
 	<!-- Other -->
 	<Entry>
 		<zType>TEXT_EVENTEDITOR_GROUP_DESC</zType>
-		<de-DE><![CDATA[The group that this entry belongs to. This is for sorting purposes in the browser/xml]]></de-DE>
+		<de-DE>The group that this entry belongs to. This is for sorting purposes in the browser/xml.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTEDITOR_SHOW_REFERENCES_DESC</zType>
-		<de-DE><![CDATA[Displays a list of info tags that directly reference this entry]]></de-DE>
+		<de-DE>Displays a list of info tags that directly reference this entry.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTEDITOR_SHOW_EVENT_ROOTS_DESC</zType>
-		<de-DE><![CDATA[Displays a list of events that reference this entry somewhere in the heiarchy]]></de-DE>
+		<de-DE>Displays a list of events that reference this entry somewhere in the hierarchy.</de-DE>
 	</Entry>
 </Root>

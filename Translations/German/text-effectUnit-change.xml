@@ -295,8 +295,16 @@
 		<de-DE>Vermesser</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_EPICS</zType>
+		<de-DE>link(LAW_EPICS)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_ASSYRIA</zType>
 		<de-DE>link(NATION_ASSYRIA)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_ROME</zType>
+		<de-DE>link(NATION_ROME)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HERO</zType>
@@ -343,6 +351,10 @@
 		<de-DE>link(TRAIT_ZEALOT_ARCHETYPE) (Oberhaupt)</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_ZEALOT_ALL</zType>
+		<de-DE>link(TRAIT_ZEALOT_ARCHETYPE) Oberhaupt (Alle Einheiten)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_OPINIONFAMILY_FURIOUS</zType>
 		<de-DE>link(OPINIONFAMILY_FURIOUS) (Familie)</de-DE>
 	</Entry>
@@ -365,5 +377,37 @@
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SWORD_OF_THE_GODS</zType>
 		<de-DE>Schwert der Götter</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_PIERCE1</zType>
+		<de-DE>Durchbohren I</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_PIERCE2</zType>
+		<de-DE>Durchbohren II</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_PIERCE3</zType>
+		<de-DE>Durchbohren III</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_CLEAVE1</zType>
+		<de-DE>Spalten I</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_CLEAVE2</zType>
+		<de-DE>Spalten II</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_CIRCLE</zType>
+		<de-DE>Einkreisen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_SPLASH1</zType>
+		<de-DE>Splitterwirkung I</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_SPLASH2</zType>
+		<de-DE>Splitterwirkung II</de-DE>
 	</Entry>
 </Root>

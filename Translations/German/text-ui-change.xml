@@ -536,7 +536,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ACTIONS_UPGRADE</zType>
-		<de-DE>Verbessern</de-DE>
+		<de-DE>Aufwerten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ACTIONS_PROMOTE</zType>
@@ -644,7 +644,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UPGRADE_TO</zType>
-		<de-DE>Verbessern zu {0}</de-DE>
+		<de-DE>Aufwerten zu {0}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_RELIGION_PANEL_STATE_RELIGION</zType>
@@ -776,7 +776,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_TOOLTIP_LUXURIES_HELP</zType>
-		<de-DE>link(CONCEPT_LUXURY) können an andere Reiche, Stämme und Familien gegeben werden um die Meinung zu verbessern. Sie können außerdem an Städte geliefert werden um link(YIELD_DISCONTENT) zu verringern.
+		<de-DE>link(CONCEPT_LUXURY) können an andere link(CONCEPT_NATION,2), link(CONCEPT_TRIBE,2) und link(CONCEPT_FAMILY,2) gegeben werden um die Meinung zu verbessern. Sie können außerdem an Städte geliefert werden um link(YIELD_DISCONTENT) zu verringern.
 Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen erstellt. Zum Beispiel, das link(RESOURCE_HONEY) Luxusgut kommt von link(SPECIALIST_GARDENER,1) auf link(IMPROVEMENT_GROVE,1).</de-DE>
 	</Entry>
 	<Entry>
@@ -785,7 +785,7 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_TOOLTIP_TRADABLE</zType>
-		<de-DE><![CDATA[Handelbar: {0_resource}{1_icon}<true_2> (x{2})<false><end>]]></de-DE>
+		<de-DE>Handelbar: {0_resource}{true_1: (x{1})}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_AMBITION_DESIRED_BY_FAMILY</zType>
@@ -1005,31 +1005,31 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
 	</Entry>
 	<Entry>
         <zType>TEXT_UI_UNITLIST_CIVILIAN_FILTER</zType>
-        <de-DE><![CDATA[<true_0>Verstecke<false>Show<end> Zivile Einheiten]]></de-DE>
+        <de-DE><![CDATA[<true_0>Verstecke<false>Zeige<end> Zivile Einheiten]]></de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_UI_UNITLIST_SCOUT_FILTER</zType>
-        <de-DE><![CDATA[<true_0>Verstecke<false>Show<end> Späher]]></de-DE>
+        <de-DE><![CDATA[<true_0>Verstecke<false>Zeige<end> Späher]]></de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_UI_UNITLIST_MILITARY_WATER_FILTER</zType>
-        <de-DE><![CDATA[<true_0>Verstecke<false>Show<end> See Einheiten]]></de-DE>
+        <de-DE><![CDATA[<true_0>Verstecke<false>Zeige<end> See Einheiten]]></de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_UI_UNITLIST_MILITARY_MOUNTED_FILTER</zType>
-        <de-DE><![CDATA[<true_0>Verstecke<false>Show<end> Berittene Einheiten]]></de-DE>
+        <de-DE><![CDATA[<true_0>Verstecke<false>Zeige<end> Berittene Einheiten]]></de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_UI_UNITLIST_MILITARY_SIEGE_FILTER</zType>
-        <de-DE><![CDATA[<true_0>Verstecke<false>Show<end> Belagerungs Einheiten]]></de-DE>
+        <de-DE><![CDATA[<true_0>Verstecke<false>Zeige<end> Belagerungs Einheiten]]></de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_UI_UNITLIST_MILITARY_RANGED_FILTER</zType>
-        <de-DE><![CDATA[<true_0>Verstecke<false>Show<end> Fernkampf Einheiten]]></de-DE>
+        <de-DE><![CDATA[<true_0>Verstecke<false>Zeige<end> Fernkampf Einheiten]]></de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_UI_UNITLIST_MILITARY_INFANTRY_FILTER</zType>
-        <de-DE><![CDATA[<true_0>Verstecke<false>Show<end> Nahkampf Einheiten]]></de-DE>
+        <de-DE><![CDATA[<true_0>Verstecke<false>Zeige<end> Nahkampf Einheiten]]></de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNITLIST_FILTER_OTHERS</zType>
@@ -1045,7 +1045,7 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
 	</Entry>
 	<Entry>
         <zType>TEXT_UI_SELECTED_RELIGION_ADOPT_BUTTON</zType>
-        <de-DE>Adaptiere {0}</de-DE>
+        <de-DE>Übernehme {0}</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_UI_SELECTED_RELIGION_FOLLOWERS</zType>
@@ -1925,6 +1925,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<zType>TEXT_OPTIONS_MENU_REQUIRES_RESTART_DIALOG</zType>
 		<de-DE>Das Spiel muss neu gestartet werden um die Einstellungen zu übernehmen.</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_OPTIONS_MENU_ULTRAWIDE_SCALING</zType>
+		<de-DE>HUD elements may appear larger than expected on ultrawide resolutions. HUD scaling can be adjusted on the Accessibility tab.</de-DE>
+	</Entry>
     <!--scenario-setup-screen.xml -->
     <Entry>
         <zType>TEXT_SCENARIO_SETUP_NEWSCENARIO</zType>
@@ -2425,7 +2429,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	<!--selected-unit.xml-->
 	<Entry>
 		<zType>TEXT_SELECTED_UNIT_UPGRADE</zType>
-		<de-DE>Verbessern</de-DE>
+		<de-DE>Aufwerten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SELECTED_UNIT_CARAVAN</zType>
