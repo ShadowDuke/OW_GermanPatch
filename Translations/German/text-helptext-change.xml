@@ -4189,7 +4189,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_UPGRADES_TO</zType>
-		<de-DE>Aufwertet zu {LIST}</de-DE>
+		<de-DE>Aufwerten zu {LIST}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_REQUIRES_TECH</zType>

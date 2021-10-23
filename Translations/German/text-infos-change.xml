@@ -177,7 +177,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_INHERITANCE_LAWS</zType>
-		<de-DE>Tutorial: Erbschaft Gesetze</de-DE>
+		<de-DE>Tutorial: Nachfolge Gesetze</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TUTORIAL_LEGITIMACY</zType>
@@ -522,7 +522,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_TUTOR</zType>
-		<de-DE>Unterrichte~ein Lehrer~Lehrer~Unterrichtet</de-DE>
+		<de-DE>Lehrer~ein Lehrer~Lehrer~Unterrichtet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_UNDO</zType>
@@ -530,7 +530,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_UPGRADE</zType>
-		<de-DE>Aufwerten~Aufwertet~Aufwgewertet</de-DE>
+		<en-US>Aufwertung~eine Aufwertung~Aufwertungen~Aufgewertet</en-US>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_URBAN</zType>
