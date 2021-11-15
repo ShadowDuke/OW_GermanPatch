@@ -221,12 +221,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CONCAT_COLON_ENCLOSED_PARENTHESIS_X_COUNT</zType>
-		<de-DE>{0}: {1}{true_2: ({2}x)}
-		</de-DE>
+		<de-DE>{0}: {1}{true_2: ({2}x)}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CONCAT_COLON_X_COUNT</zType>
-		<de-DE><![CDATA[{0}: {1}<true_2> x{2}<false><end>]]></de-DE>
+		<de-DE>{0}: {1}{true_2: x{2}}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CONCAT_ENCLOSED_PARENTHESIS_FRACTION</zType>
@@ -242,7 +241,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_INDENTED_BULLET_LIST_BUILDER</zType>
-		<de-DE><![CDATA[{0}<br>   icon(bullet){1}]]></de-DE>
+		<de-DE>{0}{br}   icon(bullet){1}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BULLET_LIST_BUILDER_FIRST</zType>
@@ -5368,10 +5367,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_GENERAL_DIFF_TRIBE</zType>
 		<de-DE>Anderer Stamm (Feldherr)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_GENERAL_SAME_FAMILY</zType>
-		<de-DE>Selbe Familie (Feldherr)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_ATTACK_PREVIEW_UNIT_BONUS</zType>

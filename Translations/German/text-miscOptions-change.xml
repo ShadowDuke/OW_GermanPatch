@@ -93,14 +93,6 @@
         <zType>TEXT_MISCOPTION_FOW_QUALITY_DESC</zType>
 		<de-DE>Nebel des Krieges Renderqualität</de-DE>
 	</Entry>
-	<Entry>
-		<zType>TEXT_MISCOPTION_FOREST_QUALITY_NAME</zType>
-		<de-DE>Wald Qualität</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MISCOPTION_FOREST_QUALITY_DESC</zType>
-		<de-DE>Wald Dichte und Varietät</de-DE>
-	</Entry>
     <Entry>
         <zType>TEXT_MISCOPTION_COLORBLIND_FILTER_NAME</zType>
         <de-DE>Farbenblind Filter</de-DE>

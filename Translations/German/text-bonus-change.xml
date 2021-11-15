@@ -2730,4 +2730,36 @@
 		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_WILD_HUNTERS</zType>
 		<de-DE>The Wild Hunters</de-DE>
 	</Entry>
+	<Entry beginGroup="Diplomacy">
+		<zType>TEXT_BONUS_COIN_FACE</zType>
+		<de-DE>Face on a coin.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_ROCK_IGNORED_SWORD</zType>
+		<de-DE>Ignored a sign to change the succession</de-DE>
+	</Entry>
+	<Entry beginGroup="Exploration">
+		<zType>TEXT_BONUS_TAKING_TROPHIES</zType>
+		<de-DE>Mighty hunter</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_MARBLE_MADNESS_GATE</zType>
+		<de-DE>Beautiful statue</de-DE>
+	</Entry>
+	<Entry beginGroup="Tribe">
+		<zType>TEXT_BONUS_TRIBAL_DISAPPOINTMENT</zType>
+		<de-DE>Tribal Disappointment</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_PURPLE_DYE</zType>
+		<de-DE>Wears Purple</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_SHARED_PURPLE</zType>
+		<de-DE>Wears purple</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_PURPLE_FAMILY</zType>
+		<de-DE>Permitted purple</de-DE>
+	</Entry>
 </Root>

@@ -3673,8 +3673,36 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_RAID_DEFAULT_POS</zType>
-		<de-DE>Sent aid to our city</de-DE>
+		<de-DE>Schickte Hilfe zu unserer Stadt</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_REWARD_FOR_RESCUE</zType>
+		<de-DE>Paid us a reward for a rescue</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_RITUAL_PARTICIPATION_REWARD</zType>
+		<de-DE>Participated in a sacred ritual</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_RITUAL_SUPPORT_REWARD</zType>
+		<de-DE>Supported a sacred ritual</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_RITUAL_DENIED</zType>
+		<de-DE>Refused to support or participate in one of our rituals</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_DISAPPOINTMENT</zType>
+		<de-DE>Refused to go drinking and hunting with us</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_FUNDED_RESEARCH</zType>
+		<de-DE>Forschung finanziert</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_RESEARCH_FUNDING_DISAPPOINTMENT</zType>
+		<de-DE>Refused to fund our research initiative</de-DE>
+	</Entry>	 
 	<Entry beginGroup="Family">
 		<zType>TEXT_MEMORYFAMILY_CHOSEN_HEIR_NO</zType>
 		<de-DE>Refused to make one of the us the Heir</de-DE>
@@ -3898,5 +3926,21 @@
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_ACCEPTED_AMBITION</zType>
 		<de-DE>Meine Ambition zugesagt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYPLAYER_SKIRMISH_HELPED</zType>
+		<de-DE>Fought with us in a skirmish</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYPLAYER_SKIRMISH_FOUGHT</zType>
+		<de-DE>Fought against us in a skirmish</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYPLAYER_SKIRMISH_IGNORED</zType>
+		<de-DE>Refused to help us in a skirmish</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_BONUS_PERMITTED_PURPLE</zType>
+		<de-DE>Permitted purple</de-DE>
 	</Entry>
 </Root>

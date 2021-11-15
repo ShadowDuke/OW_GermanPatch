@@ -530,7 +530,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_UPGRADE</zType>
-		<en-US>Aufwertung~eine Aufwertung~Aufwertungen~Aufgewertet</en-US>
+		<de-DE>Aufwertung~eine Aufwertung~Aufwertungen~Aufgewertet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_URBAN</zType>
@@ -3364,5 +3364,2266 @@
 	<Entry>
 		<zType>TEXT_TRAIT_SAOSHYANT_NICKNAME</zType>
 		<de-DE>der Saoshyant</de-DE>
-	</Entry>	 
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIPLOMACY_TEAM</zType>
+		<de-DE>Team</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIPLOMACY_PEACE</zType>
+		<de-DE>Frieden</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIPLOMACY_TRUCE</zType>
+		<de-DE>Waffenruhe</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIPLOMACY_WAR</zType>
+		<de-DE>Krieg</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ATTACK_PIERCE</zType>
+		<de-DE>Pierce</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ATTACK_PIERCE_HELP</zType>
+		<de-DE>A Pierce attack also damages the Tile behind the target.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ATTACK_CLEAVE</zType>
+		<de-DE>Cleave</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ATTACK_CLEAVE_HELP</zType>
+		<de-DE>A Cleave attack also damages the two Tiles to the right and left of the target.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ATTACK_CIRCLE</zType>
+		<de-DE>im Kreis</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ATTACK_CIRCLE_HELP</zType>
+		<de-DE>A Circle attack damages all six Tiles surrounding the attacking Unit.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ATTACK_SPLASH</zType>
+		<de-DE>mit Umgebungsschaden</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ATTACK_SPLASH_HELP</zType>
+		<de-DE>A Splash attack also damages all six Tiles surrounding the target.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CULTURE_WEAK</zType>
+		<de-DE>Schwach</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CULTURE_DEVELOPING</zType>
+		<de-DE>Entfaltet</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CULTURE_STRONG</zType>
+		<de-DE>Solide</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CULTURE_LEGENDARY</zType>
+		<de-DE>Sagenumwoben</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTLEVEL_MINIMAL</zType>
+		<de-DE>Minimal</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTLEVEL_MINIMAL_HELP</zType>
+		<de-DE>So wenig Ereignisse wie möglich</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTLEVEL_LOW</zType>
+		<de-DE>Weniger</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTLEVEL_LOW_HELP</zType>
+		<de-DE>Weniger Ereignisse als normal</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTLEVEL_MODERATE</zType>
+		<de-DE>Angemessen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTLEVEL_MODERATE_HELP</zType>
+		<de-DE>Das vorgegebene Ereignis-Verhältnis</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTLEVEL_HIGH</zType>
+		<de-DE>Mehr</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTLEVEL_HIGH_HELP</zType>
+		<de-DE>Mehr Ereignisse als normal</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAPSIZE_DUEL</zType>
+		<de-DE>Duell</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAPSIZE_SMALL</zType>
+		<de-DE>Klein</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAPSIZE_MEDIUM</zType>
+		<de-DE>Mittel</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAPSIZE_LARGE</zType>
+		<de-DE>Groß</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAPSIZE_HUGE</zType>
+		<de-DE>Riesig</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROXIMITY_VERY_CLOSE</zType>
+		<de-DE>Sehr dicht</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROXIMITY_CLOSE</zType>
+		<de-DE>Dicht</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROXIMITY_NEAR</zType>
+		<de-DE>Nah</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROXIMITY_DISTANT</zType>
+		<de-DE>Fern</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROXIMITY_FAR</zType>
+		<de-DE>Weit</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_KNOWLEDGE_PRIMITIVE</zType>
+		<de-DE>Primitiv</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_KNOWLEDGE_NAIVE</zType>
+		<de-DE>Naiv</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_KNOWLEDGE_COMPETENT</zType>
+		<de-DE>Kompetent</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_KNOWLEDGE_LEARNED</zType>
+		<de-DE>Gelernt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_KNOWLEDGE_ERUDITE</zType>
+		<de-DE>Gebildet</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUSUNITCLASS_LEVY</zType>
+		<de-DE>Einberufene</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUSUNITCLASS_HEAVY_INFANTRY</zType>
+		<de-DE>Schwere Infantrie</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUSUNITCLASS_POLEARM_INFANTRY</zType>
+		<de-DE>Speerkämpfer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUSUNITCLASS_RANGED_INFANTRY</zType>
+		<de-DE>Fernkampf Infantrie</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUSUNITCLASS_MELEE_CAVALRY</zType>
+		<de-DE>Nahkampf Kavallerie</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUSUNITCLASS_RANGED_CAVALRY</zType>
+		<de-DE>Fernkampf Kavallerie</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUSUNITCLASS_SIEGE</zType>
+		<de-DE>Belagerung</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUSUNITCLASS_SHIP</zType>
+		<de-DE>Schiff</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_NEW</zType>
+		<de-DE>der Neue</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_FOUNDER</zType>
+		<de-DE>der Begründer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_WARRIOR</zType>
+		<de-DE>der Krieger</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_BRAVE</zType>
+		<de-DE>der Ausbilder</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_VALIANT</zType>
+		<de-DE>der Aufmerksame</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_MIGHTY</zType>
+		<de-DE>der Mächtige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_VICTORIOUS</zType>
+		<de-DE>er Siegreiche</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_LION</zType>
+		<de-DE>der Löwe</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_INVINCIBLE</zType>
+		<de-DE>der Unbesiegbare</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_CAPABLE</zType>
+		<de-DE>der Tüchtige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_READY</zType>
+		<de-DE>der Bereite</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_DESTROYER</zType>
+		<de-DE>der Zerstörer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_AVENGER</zType>
+		<de-DE>der Rächer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_WHITE_DEATH</zType>
+		<de-DE>die Pest</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_INTERCESSOR</zType>
+		<de-DE>der Vermittler</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_PEACEMAKER</zType>
+		<de-DE>der Friedensstifter</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_CONQUEROR</zType>
+		<de-DE>der Eroberer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_SUBJUGATOR</zType>
+		<de-DE>der Bezwinger</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_RESTORER</zType>
+		<de-DE>der Restaurator</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_LIBERATOR</zType>
+		<de-DE>der Befreier</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_SETTLER</zType>
+		<de-DE>der Siedler</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_PIONEER</zType>
+		<de-DE>der Pionier</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_AMBITIOUS</zType>
+		<de-DE>der Ehrgeizige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_BRILLIANT</zType>
+		<de-DE>der Brilliante</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_BELOVED</zType>
+		<de-DE>der Geliebte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_REBUILDER</zType>
+		<de-DE>der Wiederaufbauer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_MASON</zType>
+		<de-DE>der Steinmetz</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_ARCHITECT</zType>
+		<de-DE>der Architekt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_KEYSTONE</zType>
+		<de-DE>der Grundpfeiler</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_FOUNTAINHEAD</zType>
+		<de-DE>der Ursprung</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_DEVOUT</zType>
+		<de-DE>der Fromme</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_HOLY</zType>
+		<de-DE>der Heilige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_EXPLORER</zType>
+		<de-DE>der Entdecker</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_INTREPID</zType>
+		<de-DE>der Furchtlose</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_LEARNED</zType>
+		<de-DE>der Gebildete</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_ENLIGHTENED</zType>
+		<de-DE>der Aufgeklärte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_WISE</zType>
+		<de-DE>der Weise</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_OLD</zType>
+		<de-DE>der Alte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_ANCIENT</zType>
+		<de-DE>der Historische</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_ABLE</zType>
+		<de-DE>der Tüchtige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_JUST</zType>
+		<de-DE>der Gerechte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_GOOD</zType>
+		<de-DE>der Zuverlässige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_STRONG</zType>
+		<de-DE>der Kräftige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_NOBLE</zType>
+		<de-DE>der Großmütige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_GLORIOUS</zType>
+		<de-DE>der Glorreiche</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_MAGNIFICENT</zType>
+		<de-DE>der Prachtvolle</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_GREAT</zType>
+		<de-DE>der Große</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_UNFORTUNATE</zType>
+		<de-DE>der Unglückliche</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_UNREADY</zType>
+		<de-DE>der nicht Bereite</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_WEAK</zType>
+		<de-DE>der Schwache</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_BAD</zType>
+		<de-DE>der Schlechte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_BLOODY</zType>
+		<de-DE>der Blutige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COLORCLASS_TEXT</zType>
+		<de-DE>Text</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COLORCLASS_NATIONS</zType>
+		<de-DE>Staaten</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COLORCLASS_PLAYERS</zType>
+		<de-DE>Spieler</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COLORCLASS_TRIBES</zType>
+		<de-DE>Stämme</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COLORCLASS_MOVEMENT</zType>
+		<de-DE>Bewegung</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COLORCLASS_OVERLAYS</zType>
+		<de-DE>Einblendungen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COLORCLASS_SELECTION</zType>
+		<de-DE>Auswahl</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COLORCLASS_STATUS</zType>
+		<de-DE>Status</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COLORCLASS_RATINGS</zType>
+		<de-DE>Bewertungen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COLORCLASS_YIELDS</zType>
+		<de-DE>Erträge</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COLORCLASS_LAWS</zType>
+		<de-DE>Gesetze</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COLORCLASS_TECHS</zType>
+		<de-DE>Technologie</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COLORCLASS_RELATIONSHIPS</zType>
+		<de-DE>Beziehungen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COLORCLASS_HEALTH</zType>
+		<de-DE>Gesundheit</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_AUTOMATED</zType>
+		<de-DE>Automatisiert</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_PASS</zType>
+		<de-DE>Aussetzen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_SLEEP</zType>
+		<de-DE>Ausruhen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_SENTRY</zType>
+		<de-DE>Wache</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_UNLIMBERED</zType>
+		<de-DE>Abgeprotzt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_ANCHORED</zType>
+		<de-DE>Geankert</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_ROUT</zType>
+		<de-DE>Aufstöbern</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_ATTACK</zType>
+		<de-DE>Angriff</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_ATTACKED</zType>
+		<de-DE>Angegriffen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_STUNNED</zType>
+		<de-DE>Betäubt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_BUILDING</zType>
+		<de-DE>Bauen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_ADDED_ROAD</zType>
+		<de-DE>Straße gebau</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_ADDED_URBAN</zType>
+		<de-DE>Stadtteil festgelegt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_UPGRADED_IMPROVEMENT</zType>
+		<de-DE>Verbesserung gesteigert</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_BUY_TILE</zType>
+		<de-DE>Kaufe Feld</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_FORTIFY</zType>
+		<de-DE>Verschanzen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_RECRUITED</zType>
+		<de-DE>Rekrutiert</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_HIRED</zType>
+		<de-DE>Angeheuert</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_GIFTED</zType>
+		<de-DE>Geschenkt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_PURGED</zType>
+		<de-DE>Gesäubert</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_HEALED</zType>
+		<de-DE>Geheilt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_PILLAGED</zType>
+		<de-DE>Geplündert</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_PROMOTED</zType>
+		<de-DE>Befördert</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_TESTUDO</zType>
+		<de-DE>Schildkröte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_REPAIRED</zType>
+		<de-DE>Repariert</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_UPGRADED</zType>
+		<de-DE>Verbessert</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_GENERAL</zType>
+		<de-DE>Feldherr</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_LOCKED</zType>
+		<de-DE>Gesperrt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_DISEMBARKED</zType>
+		<de-DE>Gelandet</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COOLDOWN_TRADE</zType>
+		<de-DE>Handeln</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COURTIER_SOLDIER</zType>
+		<de-DE>Krieger des Hofstaats</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COURTIER_SOLDIER_NICKNAME</zType>
+		<de-DE>der Soldat</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COURTIER_MINISTER</zType>
+		<de-DE>Geistlicher des Hofstaats</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COURTIER_MINISTER_NICKNAME</zType>
+		<de-DE>der Geistliche</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COURTIER_MERCHANT</zType>
+		<de-DE>Kaufmann des Hofstaats</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COURTIER_MERCHANT_NICKNAME</zType>
+		<de-DE>der kaufmann</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COURTIER_SCIENTIST</zType>
+		<de-DE>Wissenschaftler des Hofstaats</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COURTIER_SCIENTIST_NICKNAME</zType>
+		<de-DE>der Wissenschaftler</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COURTIER_SKYEXPLORER</zType>
+		<de-DE>Großer Himmelsgucker</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COURTIER_GREAT_FAME</zType>
+		<de-DE>Große Berühmte Person</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ADVANTAGE_NONE</zType>
+		<de-DE>Keiner</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ADVANTAGE_LOW</zType>
+		<de-DE>Klein</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ADVANTAGE_MEDIUM</zType>
+		<de-DE>Mittel</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ADVANTAGE_HIGH</zType>
+		<de-DE>Hoch</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ADVANTAGE_VERY_HIGH</zType>
+		<de-DE>Sehr hoch</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DEVELOPMENT_NONE</zType>
+		<de-DE>Keine</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DEVELOPMENT_NONE_HELP</zType>
+		<de-DE>Vorhandene Staaten starten nicht mit extra Territorium</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DEVELOPMENT_FLEDGLING</zType>
+		<de-DE>Jung</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DEVELOPMENT_HELP</zType>
+		<de-DE>Vorhandene Staaten starten im Schnitt mit einer Stadt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DEVELOPMENT_ESTABLISHED</zType>
+		<de-DE>Bekannt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DEVELOPMENT_ADVANCED</zType>
+		<de-DE>Fortgeschritten</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DEVELOPMENT_MASSIVE</zType>
+		<de-DE>Mächtig</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIFFICULTY_ABLE</zType>
+		<de-DE>Der Tüchtige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIFFICULTY_JUST</zType>
+		<de-DE>Der Gerechte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIFFICULTY_GOOD</zType>
+		<de-DE>Der Zuverlässige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIFFICULTY_STRONG</zType>
+		<de-DE>Der Kräftige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIFFICULTY_NOBLE</zType>
+		<de-DE>Der Großmütige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIFFICULTY_GLORIOUS</zType>
+		<de-DE>Der Glorreiche</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIFFICULTY_MAGNIFICENT</zType>
+		<de-DE>Der Prachtvolle</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIFFICULTY_GREAT</zType>
+		<de-DE>Der Große</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIFFICULTYMODE_ABLE</zType>
+		<de-DE>Der Tüchtige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIFFICULTYMODE_JUST</zType>
+		<de-DE>Der Gerechte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIFFICULTYMODE_GOOD</zType>
+		<de-DE>Der Zuverlässige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIFFICULTYMODE_STRONG</zType>
+		<de-DE>Der Kräftige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIFFICULTYMODE_NOBLE</zType>
+		<de-DE>Der Großmütige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIFFICULTYMODE_GLORIOUS</zType>
+		<de-DE>Der Glorreiche</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIFFICULTYMODE_MAGNIFICENT</zType>
+		<de-DE>Der Prachtvolle</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIFFICULTYMODE_GREAT</zType>
+		<de-DE>Der Große</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIRECTION_NW</zType>
+		<de-DE>NW</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIRECTION_NE</zType>
+		<de-DE>NO</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIRECTION_E</zType>
+		<de-DE>O</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIRECTION_SE</zType>
+		<de-DE>SO</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIRECTION_SW</zType>
+		<de-DE>SW</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DIRECTION_W</zType>
+		<de-DE>W</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_NO_CHARACTERS</zType>
+		<de-DE>Keine Charaktere</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_NO_CHARACTERS_HELP</zType>
+		<de-DE>Charaktere und Familien werden aus dem Spiel entfernt.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_BARBARIANS_ONLY</zType>
+		<de-DE>Nur Barbaren</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_BARBARIANS_ONLY_HELP</zType>
+		<de-DE>Alle Stämme sind link(TRIBE_BARBARIANS).</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_NO_FOG_OF_WAR</zType>
+		<de-DE>Kein Nebel des Krieges</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_NO_FOG_OF_WAR_HELP</zType>
+		<de-DE>Karte ist völlig audgedeckt und bleibt aufgedeckt.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_NO_TEAM_MOVEMENT</zType>
+		<de-DE>Keine Team Bewegung</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_NO_TEAM_MOVEMENT_HELP</zType>
+		<de-DE>Spieler können nicht die Einheiten ihrer Mitspieler bewegen.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_LOCKED_SAVE</zType>
+		<de-DE>Gesperrter Spielstand</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_LOCKED_SAVE_HELP</zType>
+		<de-DE>Der Spielstand ist mit hash gegen modifizierungen anderer Editoren geschützt.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_NO_UNDO</zType>
+		<de-DE>Kein Rückgängig</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_NO_UNDO_HELP</zType>
+		<de-DE>Spielern ist nicht erlaubt eine Bewegung rückgängig zu machen nachdem sie ausgeführt wurde.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_LOCK_PLAYER_OPTIONS</zType>
+		<de-DE>Feste Spieler Optionen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_LOCK_PLAYER_OPTIONS_HELP</zType>
+		<de-DE>Spieler Gameplay Optionen können nachdem das Spiel gestartet wurde nicht mehr geändert werden</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_RANDOMIZE_LEADERS</zType>
+		<de-DE>Zufällige Oberhäupter</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_RANDOMIZE_LEADERS_HELP</zType>
+		<de-DE>Randomize starting Leader of each Nation.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_RANDOMIZE_FAMILIES</zType>
+		<de-DE>Zufällige Familien</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_RANDOMIZE_FAMILIES_HELP</zType>
+		<de-DE>Weise die Gruppe jeder Familie zufällig zu (Weisen, Handwerker, Wettkämpfer, etc).</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_ROLE_PLAYING</zType>
+		<de-DE>Rollenspiel</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_ROLE_PLAYING_HELP</zType>
+		<de-DE>Keine popup Hilfe wenn erzählersiche Entscheidungen für Eriegnisse getroffen werden</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_PLAY_TO_WIN</zType>
+		<de-DE>Play to Win</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_PLAY_TO_WIN_HELP</zType>
+		<de-DE>AI nations will try to keep each other (including you) from winning</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_ONE_CITY_CHALLENGE</zType>
+		<de-DE>Eine Stadt Herausforderung</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_ONE_CITY_CHALLENGE_HELP</zType>
+		<de-DE>Spielern ist es nicht erlaut mehr als eine Stadt zu haben.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_MP_JOIN_AS_ANY_PLAYER</zType>
+		<de-DE>Trete als jeder Spieler bei</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_MP_JOIN_AS_ANY_PLAYER_HELP</zType>
+		<de-DE>Erlaube Spielern das beitreten eines Multiplayer Spiels auch wenn ein Slot bereits beansprucht ist.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_ALLOW_OBSERVE</zType>
+		<de-DE>Erlaube Spectator Modus</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_ALLOW_OBSERVE_HELP</zType>
+		<de-DE>Spieler können dem Spiel aus Zuschauer beitreten</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GENDER_FEMALE</zType>
+		<de-DE>Weiblich</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GENDER_FEMALE_TITLE</zType>
+		<de-DE>Königin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GENDER_MALE</zType>
+		<de-DE>Männlich</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GENDER_MALE_TITLE</zType>
+		<de-DE>König</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HEIGHT_OCEAN</zType>
+		<de-DE>Ozean</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HEIGHT_COAST</zType>
+		<de-DE>Küste</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HEIGHT_LAKE</zType>
+		<de-DE>See</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HEIGHT_FLAT</zType>
+		<de-DE>Flach</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HEIGHT_HILL</zType>
+		<de-DE>Hügel</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HEIGHT_MOUNTAIN</zType>
+		<de-DE>Gebirge</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HEIGHT_VOLCANO</zType>
+		<de-DE>Vulkan</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_MOVE_CAMERA_NORTH</zType>
+		<de-DE>Gen Norden</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_MOVE_CAMERA_WEST</zType>
+		<de-DE>Gen Westen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_MOVE_CAMERA_SOUTH</zType>
+		<de-DE>Gen Süden</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_MOVE_CAMERA_EAST</zType>
+		<de-DE>Gen Osten</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CAMERA_ZOOM_IN</zType>
+		<de-DE>Reinzoomen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CAMERA_ZOOM_OUT</zType>
+		<de-DE>Rauszoomen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_HIDE_VEGETATION</zType>
+		<de-DE>Verstecke Vegetation</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_HIDE_IMPROVEMENTS</zType>
+		<de-DE>Verstecke Verbesserungen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_HIDE_UNITS</zType>
+		<de-DE>Verstecke Einheiten</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_HIDE_ALL</zType>
+		<de-DE>Verstecke Alles</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_LOCK_ZOC</zType>
+		<de-DE>Lock link(CONCEPT_ZOC,1) Overlay</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_LOCK_DANGER_TILES</zType>
+		<de-DE>Lock Danger Tiles Overlay</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_LOCK_TRADE_NETWORK</zType>
+		<de-DE>Lock link(CONCEPT_TRADE_NETWORK) Overlay</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_LOCK_ROADS_RIVERS</zType>
+		<de-DE>Lock link(CONCEPT_ROAD,2) and link(CONCEPT_RIVER,2) Overlay</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_LOCK_IDLE_UNITS</zType>
+		<de-DE>Lock link(CONCEPT_PROMOTION,2) and link(CONCEPT_IDLE) Units Overlay</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_LOCK_TILE_YIELDS</zType>
+		<de-DE>Lock Tile Yields Overlay</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_LOCK_TILE_SPECIALISTS</zType>
+		<de-DE>Lock Tile link(CONCEPT_SPECIALIST,2) Overlay</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_SHOW_ZOC</zType>
+		<de-DE>Zeige Kontrollzone (ZOC)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_SHOW_DANGER_TILES</zType>
+		<de-DE>Zeige gefärliche Felder</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_SHOW_TRADE_NETWORK</zType>
+		<de-DE>Zeige Handelsnetz</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_SHOW_ROADS_RIVERS</zType>
+		<de-DE>Zeige Straßen und Flüsse</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_SHOW_IDLE_UNITS</zType>
+		<de-DE>Zeige untätige Einheiten</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_SHOW_TILE_YIELDS</zType>
+		<de-DE>Zeige Kachel Erträge</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_SHOW_TILE_SPECIALISTS</zType>
+		<de-DE>Zeige Kachel Spezialisten</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_TOGGLE_HEX_GRID</zType>
+		<de-DE>Stelle Hex Gitter um</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_HIDE_UI</zType>
+		<de-DE>Verstecke UI</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_ROAD_TO</zType>
+		<de-DE>Schalte Stadtverbindugen um</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_HEAL</zType>
+		<de-DE>Heilen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_FORTIFY</zType>
+		<de-DE>Verschanzen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_REMOVE_VEGETATION</zType>
+		<de-DE>Chop Vegetation</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_SPEND_TRAINING_FOR_ORDERS</zType>
+		<de-DE>Gebe Training für Befehle aus</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_PAUSE</zType>
+		<de-DE>Pause</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_INCREASE_TURN_STYLE</zType>
+		<de-DE>Erhöhe die Zug-art</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_DECREASE_TURN_STYLE</zType>
+		<de-DE>Verringere die Zug-art</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_INCREASE_TURN_TIMER</zType>
+		<de-DE>Erhöhe den Zug Timer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_DECREASE_TURN_TIMER</zType>
+		<de-DE>Verringere den Zug Timer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_MUTE</zType>
+		<de-DE>Stumm</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CLEAR_SELECTION</zType>
+		<de-DE>Hebe Auswahl auf</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CYCLE_IDLE_1</zType>
+		<de-DE>Cycle Idle 1</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CYCLE_PASS_IDLE_1</zType>
+		<de-DE>Cycle/Pass Idle 1</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CYCLE_IDLE_2</zType>
+		<de-DE>Cycle Idle 2</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CYCLE_PASS_IDLE_2</zType>
+		<de-DE>Cycle/Pass Idle 2</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CYCLE_IDLE_3</zType>
+		<de-DE>Cycle Idle 3</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CYCLE_PASS_IDLE_3</zType>
+		<de-DE>Cycle/Pass Idle 3</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CYCLE_IDLE_4</zType>
+		<de-DE>Cycle Idle 4</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CYCLE_PASS_IDLE_4</zType>
+		<de-DE>Cycle/Pass Idle 4</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CYCLE_IDLE_5</zType>
+		<de-DE>Cycle Idle 5</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CYCLE_PASS_IDLE_5</zType>
+		<de-DE>Cycle/Pass Idle 5</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_END_TURN</zType>
+		<de-DE>Beende Zug</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_END_TURN_FORCE</zType>
+		<de-DE>Beende Zug (Erzwungen)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_PASS</zType>
+		<de-DE>Ausgewählte Einheit wechseln und passen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_SLEEP</zType>
+		<de-DE>Ausgewählte Einheit wechseln und ausruhen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_SENTRY</zType>
+		<de-DE>Ausgewählte Einheit wechseln und verschanzen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CYCLE_ALL</zType>
+		<de-DE>Auswahl wechseln</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CYCLE_ALL_REVERSE</zType>
+		<de-DE>Auswahl wechseln (Umgekehrt)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_UNDO</zType>
+		<de-DE>Rückgängig</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_REDO</zType>
+		<de-DE>Wiederherstellen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_PING</zType>
+		<de-DE>Ping</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CHAT</zType>
+		<de-DE>Chat</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CHAT_ALL</zType>
+		<de-DE>Chat an alle</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_VICTORY_SCREEN</zType>
+		<de-DE>Show VICTORY Screen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_INHERITANCE_SCREEN</zType>
+		<de-DE>Show Inheritance Screen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_LAWS_SCREEN</zType>
+		<de-DE>Show Laws Screen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_LOG_SCREEN</zType>
+		<de-DE>Show VICTORY Screen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_TECH_SCREEN</zType>
+		<de-DE>Show Tech Screen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CITY_LIST</zType>
+		<de-DE>Show City List</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_MAP_SCREEN</zType>
+		<de-DE>Show Map Screen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_HELP_SCREEN</zType>
+		<de-DE>Show Help Screen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_AI_LOG</zType>
+		<de-DE>Zeige KI Log</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_PREVIOUS_TAB</zType>
+		<de-DE>Vorherige/r Tab/Stadt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_NEXT_TAB</zType>
+		<de-DE>Nächste/r Tab/Stadt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_GAME_EDITOR</zType>
+		<de-DE>Spiel Editor</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CONSOLE</zType>
+		<de-DE>Konsole</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CLOSE_POPUP</zType>
+		<de-DE>Schließe Popup</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_EXPAND_TOOLTIP</zType>
+		<de-DE>Erweitere Tooltip</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_LOCK_TOOLTIP</zType>
+		<de-DE>Sperre Tooltip</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_FREEZE_TOOLTIP</zType>
+		<de-DE>Sperre Tooltip</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_SAVE</zType>
+		<de-DE>Speichern</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_QUICK_LOAD</zType>
+		<de-DE>Laden</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_AUTO_LOAD</zType>
+		<de-DE>Autosave laden</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_DEBUG_MENU</zType>
+		<de-DE>Toggle Debug Menu</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_REVEAL_MAP</zType>
+		<de-DE>Map aufdecken</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_FULLY_REVEAL_MAP</zType>
+		<de-DE>Map vollständig aufdecken</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_UNLOCK_NEXT_TECH</zType>
+		<de-DE>Unlock Next Tech</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_UNLOCK_ALL_TECHS</zType>
+		<de-DE>Unlock All Techs</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_RELOAD_INFOS</zType>
+		<de-DE>Infos neuladen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_GRANT_RESOURCES</zType>
+		<de-DE>Grant Resources</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_TOGGLE_FLYING_CAMERA</zType>
+		<de-DE>Toggle Flying Camera</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_TOGGLE_TOP_DOWN_CAMERA</zType>
+		<de-DE>Toggle Top Down Camera</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_TEST_LOAD_SAVE_CONSISTENCY</zType>
+		<de-DE>Test Load/Save Consistency</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_TOGGLE_AUTOPLAY</zType>
+		<de-DE>Toggle Autoplay</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_MENU_DEBUG_OPTIONS</zType>
+		<de-DE>Options Debug</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_MAP_EDITOR_PAINT</zType>
+		<de-DE>Paint</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_MAP_EDITOR_FILL</zType>
+		<de-DE>Fill</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_MAP_EDITOR_ERASE</zType>
+		<de-DE>Erase</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_MAP_EDITOR_TERRAIN</zType>
+		<de-DE>Brush</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_MAP_EDITOR_HEIGHT</zType>
+		<de-DE>Height</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_MAP_EDITOR_RESOURCES</zType>
+		<de-DE>Resources</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_MAP_EDITOR_VEGETATION</zType>
+		<de-DE>Vegetation</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_MAP_EDITOR_UNDO</zType>
+		<de-DE>Undo</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_MAP_EDITOR_REDO</zType>
+		<de-DE>Redo</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_MAP_EDITOR_SAVE</zType>
+		<de-DE>Save</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_MAP_EDITOR_INCREASE_SIZE</zType>
+		<de-DE>Increase Brush Size</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_MAP_EDITOR_DECREASE_SIZE</zType>
+		<de-DE>Decrease Brush Size</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_MAP_EDITOR_UTILITIES_PANEL</zType>
+		<de-DE>Toggle Utilities Panel</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_MAP_EDITOR_INFO_PANEL</zType>
+		<de-DE>Toggle Info Panel</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_MAP_EDITOR_PROJECTOR</zType>
+		<de-DE>Toggle Image Projector</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_MAP_EDITOR_FLYING_CAMERA</zType>
+		<de-DE>Toggle Flying Camera</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_EVENT_BROWSER_NEXT_INPUT</zType>
+		<de-DE>Go to next input</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_EVENT_BROWSER_PREVIOUS_INPUT</zType>
+		<de-DE>Go to previous input</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CYCLE_PLAYER_1</zType>
+		<de-DE>Cycle Player 1</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CYCLE_PLAYER_2</zType>
+		<de-DE>Cycle Player 2</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CYCLE_PLAYER_3</zType>
+		<de-DE>Cycle Player 3</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CYCLE_PLAYER_4</zType>
+		<de-DE>Cycle Player 4</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CYCLE_PLAYER_5</zType>
+		<de-DE>Cycle Player 5</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CYCLE_PLAYER_6</zType>
+		<de-DE>Cycle Player 6</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CYCLE_PLAYER_7</zType>
+		<de-DE>Cycle Player 7</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CYCLE_PLAYER_8</zType>
+		<de-DE>Cycle Player 8</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_CYCLE_PLAYER_9</zType>
+		<de-DE>Cycle Player 9</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEYCLASS_GAMEPLAY</zType>
+		<de-DE>Spielablauf</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEYCLASS_CAMERA</zType>
+		<de-DE>Kamera</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEYCLASS_NAVIGATION</zType>
+		<de-DE>Navigation</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEYCLASS_OVERLAYS</zType>
+		<de-DE>Overlays</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEYCLASS_SCREENS</zType>
+		<de-DE>Bildschirme</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEYCLASS_POPUPS</zType>
+		<de-DE>Popups</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEYCLASS_TOOLTIPS</zType>
+		<de-DE>Kurzinfos</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEYCLASS_SAVES</zType>
+		<de-DE>Spielstände</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEYCLASS_COMMUNICATION</zType>
+		<de-DE>Kommunikation</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEYCLASS_MAP_EDITOR</zType>
+		<de-DE>Karten Editor</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEYCLASS_EVENT_BROWSER</zType>
+		<de-DE>Ereignis Browser</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEYCLASS_DEBUG</zType>
+		<de-DE>Debug</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MORTALITY_LONG</zType>
+		<de-DE>Langlebig</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MORTALITY_LONG_HELP</zType>
+		<de-DE>Charaktere leben längere Leben</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MORTALITY_STANDARD</zType>
+		<de-DE>Standard</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MORTALITY_STANDARD_HELP</zType>
+		<de-DE>Charaktere sterben oftmals nicht in jungem Alter</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MORTALITY_REALISTIC</zType>
+		<de-DE>Realistisch</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MORTALITY_REALISTIC_HELP</zType>
+		<de-DE>Gemein, brutal und kurz</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_GENERIC</zType>
+		<de-DE>Achtung</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_GENERIC_LOG</zType>
+		<de-DE>Hier gucken.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_ATTACK</zType>
+		<de-DE>Angreifen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_ATTACK_LOG</zType>
+		<de-DE>Hier angreifen.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_RETREAT</zType>
+		<de-DE>Zurückziehen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_RETREAT_LOG</zType>
+		<de-DE>Von hier zurückziehen.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_USE</zType>
+		<de-DE>Benutze</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_USE_LOG</zType>
+		<de-DE>Das benutzen.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_FOUND</zType>
+		<de-DE>Gründe</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_FOUND_LOG</zType>
+		<de-DE>Ich möchte hier gründen.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_NOTE</zType>
+		<de-DE>Notitz</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PING_NOTE_LOG</zType>
+		<de-DE>Ich hab eine Nachricht hinterlassen.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPPONENTLEVEL_PASSIVE</zType>
+		<de-DE>Zurückhaltend</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPPONENTLEVEL_PEACEFUL</zType>
+		<de-DE>Friedlich</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPPONENTLEVEL_NORMAL</zType>
+		<de-DE>Normal</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPPONENTLEVEL_AGGRESSIVE</zType>
+		<de-DE>Aggressiv</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPPONENTLEVEL_COMPETITIVE</zType>
+		<de-DE>Wettbewerb</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_WISDOM</zType>
+		<de-DE>Weisheit</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_WISDOM_HELP</zType>
+		<de-DE>Für Oberhäupter und Statthalter erhöht Weisheit {YIELD_SCIENCE}.
+Für Feldherren erhöht Weisheit erhöht die kritische Chance der Einheit.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_CHARISMA</zType>
+		<de-DE>Charisma</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_CHARISMA_HELP</zType>
+		<de-DE>Für Oberhäupter und Statthalter erhöht Charisma {YIELD_CIVICS}.
+Für Feldherren erhöht Charisma erhöht die Verteidigung der Einheiten.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_COURAGE</zType>
+		<de-DE>Mut</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_COURAGE_HELP</zType>
+		<de-DE>Für Oberhäupter und Statthalter erhöht Mut {YIELD_TRAINING}.
+Für Feldherren erhöht Mut die Stärke der Einheiten.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_DISCIPLINE</zType>
+		<de-DE>Disziplin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RATING_DISCIPLINE_HELP</zType>
+		<de-DE>Für Oberhäupter und Statthalter erhöht Disziplin {YIELD_MONEY}.
+Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_MARBLE</zType>
+		<de-DE>Marmor</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_ORE</zType>
+		<de-DE>Eisen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_SALT</zType>
+		<de-DE>Salz</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_GEM</zType>
+		<de-DE>Edelsteine</de-DE>
+	</Entry>
+	
+	<Entry>
+		<zType>TEXT_RESOURCE_GOLD</zType>
+		<de-DE>Gold</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_SILVER</zType>
+		<de-DE>Silber</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_HORSE</zType>
+		<de-DE>Pferde</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_CATTLE</zType>
+		<de-DE>Vieh</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_SHEEP</zType>
+		<de-DE>Schafe</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_PIG</zType>
+		<de-DE>Schweine</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_GOAT</zType>
+		<de-DE>Ziegen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_WHEAT</zType>
+		<de-DE>Weizen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_BARLEY</zType>
+		<de-DE>Gerste</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_SORGHUM</zType>
+		<de-DE>Besenkorn</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_CAMEL</zType>
+		<de-DE>Kamele</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_ELEPHANT</zType>
+		<de-DE>Elefanten</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_GAME</zType>
+		<de-DE>Wild</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_FUR</zType>
+		<de-DE>Felle</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_CITRUS</zType>
+		<de-DE>Zitronen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_HONEY</zType>
+		<de-DE>Honig</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_INCENSE</zType>
+		<de-DE>Weihrauch</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_LAVENDER</zType>
+		<de-DE>Lavendel</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_OLIVE</zType>
+		<de-DE>Oliven</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_WINE</zType>
+		<de-DE>Wein</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_DYE</zType>
+		<de-DE>Färbemittel</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_PEARL</zType>
+		<de-DE>Perlen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_FISH</zType>
+		<de-DE>Fisch</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_CRAB</zType>
+		<de-DE>Krabben</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TEAMNATION_ALLOW_DUPLICATES</zType>
+		<de-DE>Allow Duplicates</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TEAMNATION_ALLOW_DUPLICATES_HELP</zType>
+		<de-DE>Multiple players can claim each nation</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TEAMNATION_GAME_UNIQUE</zType>
+		<de-DE>Einzigartig</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TEAMNATION_GAME_UNIQUE_HELP</zType>
+		<de-DE>Jedes verfügbares REich kann von einem Spieler genommen werden</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TEAMNATION_TEAM_UNIQUE</zType>
+		<de-DE>Einzigartig bei jedem Team</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TEAMNATION_TEAM_UNIQUE_HELP</zType>
+		<de-DE>Jedes Reich kann von einem Spieler pro Team gewählt werden</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TERRAIN_STAMP_VOLCANO_7</zType>
+		<de-DE>Vulkan 7</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WARSTATE_ROUTED</zType>
+		<de-DE>Besiegt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WARSTATE_LOSING</zType>
+		<de-DE>Verlierend</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WARSTATE_NEUTRAL</zType>
+		<de-DE>Neutral</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WARSTATE_WINNING</zType>
+		<de-DE>Gewinnend</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WARSTATE_TRIUMPHANT</zType>
+		<de-DE>Siegreich</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONORDER_PRIMOGENITURE</zType>
+		<de-DE>Erstgeburt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONORDER_PRIMOGENITURE_HELP</zType>
+		<de-DE>Ältestes Kind erbt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONORDER_ULTIMOGENITURE</zType>
+		<de-DE>Ultimogenitur</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONORDER_ULTIMOGENITURE_HELP</zType>
+		<de-DE>Jüngstes Kind erbt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONORDER_LATERAL</zType>
+		<de-DE>Lateral</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONORDER_LATERAL_HELP</zType>
+		<de-DE>Ältester Angehöriger des Herrschers erbt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONORDER_DYNASTIC</zType>
+		<de-DE>Dynastisch</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONORDER_DYNASTIC_HELP</zType>
+		<de-DE>Geschwister erben vor Kindern</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONORDER_SENIORITY</zType>
+		<de-DE>Dienstalter</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONORDER_SENIORITY_HELP</zType>
+		<de-DE>Älteste unmittelbare Linie vom Gründer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONORDER_RANDOM</zType>
+		<de-DE>Zufällig</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONORDER_RANDOM_HELP</zType>
+		<de-DE>Jeder Spieler verfolgt ein zufälliges, möglicherweise anderes, Nachfolge Gesetz</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONGENDER_AGNATIC</zType>
+		<de-DE>Senioratsprinzip</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONGENDER_AGNATIC_HELP</zType>
+		<de-DE>Nur männliche Nachfahren können erben</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONGENDER_AGNATIC_COGNATIC</zType>
+		<de-DE>Senioratsprinzip Verwandt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONGENDER_AGNATIC_COGNATIC_HELP</zType>
+		<de-DE>Männer erben vor Frauen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONGENDER_ABSOLUTE_COGNATIC</zType>
+		<de-DE>Uneingeschränkt Verwandt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONGENDER_ABSOLUTE_COGNATIC_HELP</zType>
+		<de-DE>Geschlechter erben gleichermaßen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONGENDER_ENATIC_COGNATIC</zType>
+		<de-DE>Mütterlich Verwandt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONGENDER_ENATIC_COGNATIC_HELP</zType>
+		<de-DE>Frauen erben vor Männern</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONGENDER_ENATIC</zType>
+		<de-DE>Mütterlich</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONGENDER_ENATIC_HELP</zType>
+		<de-DE>Nur weibliche Nachfahren können erben</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONGENDER_RANDOM</zType>
+		<de-DE>Zufällig</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUCCESSIONGENDER_RANDOM_HELP</zType>
+		<de-DE>Jeder Spieler verfolgt ein zufälliges, möglicherweise anderes, Nachfolge Geschlecht</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECTCLASS_PLAYER</zType>
+		<de-DE>Spieler</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECTCLASS_TRIBE</zType>
+		<de-DE>Barbar</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECTCLASS_RELIGION</zType>
+		<de-DE>Religion</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECTCLASS_FAMILY</zType>
+		<de-DE>Familie</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECTCLASS_TECH</zType>
+		<de-DE>Technologie</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECTCLASS_LAW</zType>
+		<de-DE>Gesetz</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECTCLASS_THEOLOGY</zType>
+		<de-DE>Religionswissenschaft</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECTCLASS_RESOURCE</zType>
+		<de-DE>Ressource</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECTCLASS_CHARACTER</zType>
+		<de-DE>Charakter</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECTCLASS_CITY</zType>
+		<de-DE>Stadt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECTCLASS_UNIT</zType>
+		<de-DE>Einheit</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECTCLASS_TILE</zType>
+		<de-DE>Feld</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_POWER_MUCH_WEAKER</zType>
+		<de-DE>Viel schwächer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_POWER_WEAKER</zType>
+		<de-DE>Schwächer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_POWER_SIMILAR</zType>
+		<de-DE>Ähnlich</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_POWER_STRONGER</zType>
+		<de-DE>Stärker</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_POWER_MUCH_STRONGER</zType>
+		<de-DE>Viel stärker</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIOCLASS_LEARNTOPLAY</zType>
+		<de-DE>Lerne zu spielen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIOCLASS_CARTHAGE</zType>
+		<de-DE>Der Aufstieg Karthagos</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIOCLASS_OTHER</zType>
+		<de-DE>Solo Szenarien</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_LEARNTOPLAY_1</zType>
+		<de-DE>Learn zu Spielen - Lektion 1</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_LEARNTOPLAY_1_SUB</zType>
+		<de-DE>Die alte Welt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_LEARNTOPLAY_2</zType>
+		<de-DE>Lerne zu Spielen - Lektion 2</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_LEARNTOPLAY_2_SUB</zType>
+		<de-DE>Ein Platz zum Leben</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_LEARNTOPLAY_3</zType>
+		<de-DE>Lektion 3</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_LEARNTOPLAY_3_SUB</zType>
+		<de-DE>Jeder hat eine Meinung - NOCH NICHT SPIELBAR</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_LEARNTOPLAY_4</zType>
+		<de-DE>Lektion 4</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_LEARNTOPLAY_4_SUB</zType>
+		<de-DE>Die schwere Last der Krone - NOCH NICHT SPIELBAR</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_BARBARIAN</zType>
+		<de-DE>The Barbarian Horde</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_BARBARIAN_SUB</zType>
+		<de-DE></de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_CARTHAGE_1</zType>
+		<de-DE>Entstehung von Karthago - Spiel eins</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_CARTHAGE_1_SUB</zType>
+		<de-DE>Ox Verstecken</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_CARTHAGE_2</zType>
+		<de-DE>Entstehung von Karthago - Spiel zwei</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_CARTHAGE_2_SUB</zType>
+		<de-DE>Wohlstand und Einfluss</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_CARTHAGE_3</zType>
+		<de-DE>Entstehung von Karthago - Spiel drei</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_CARTHAGE_3_SUB</zType>
+		<de-DE>Aufstieg Roms</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_CARTHAGE_4</zType>
+		<de-DE>Entstehung von Karthago - Spiel vier</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_CARTHAGE_4_SUB</zType>
+		<de-DE>Ergreife das Schicksal</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNITCYCLE_FOUND</zType>
+		<de-DE>Gegründete</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNITCYCLE_WORKER</zType>
+		<de-DE>Baumeister</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNITCYCLE_DISCIPLE</zType>
+		<de-DE>Jünger</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNITCYCLE_SCOUT</zType>
+		<de-DE>Späher</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNITCYCLE_CARAVAN</zType>
+		<de-DE>Karawane</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNITCYCLE_MILITARY_WATER</zType>
+		<de-DE>Wasser</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNITCYCLE_MILITARY_SIEGE</zType>
+		<de-DE>Belagerung</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNITCYCLE_MILITARY_RANGED</zType>
+		<de-DE>Fernkampf</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNITCYCLE_MILITARY_MOUNTED</zType>
+		<de-DE>Beritten</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNITCYCLE_MILITARY_INFANTRY</zType>
+		<de-DE>Infantrie</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNTIMER_NONE</zType>
+		<de-DE>Keiner</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNTIMER_24_HOUR</zType>
+		<de-DE>24 Stunden</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNTIMER_12_HOUR</zType>
+		<de-DE>12 Stunden</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNTIMER_8_HOUR</zType>
+		<de-DE>8 Stunden</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNTIMER_4_HOUR</zType>
+		<de-DE>4 Stunden</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNTIMER_2_HOUR</zType>
+		<de-DE>2 Stunden</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNTIMER_1_HOUR</zType>
+		<de-DE>1 Stunde</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNTIMER_SLOW</zType>
+		<de-DE>Langsam</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNTIMER_MEDIUM</zType>
+		<de-DE>Mittel</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNTIMER_FAST</zType>
+		<de-DE>Schnell</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_SIMULTANEOUS</zType>
+		<de-DE>Gleichzeitig</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_SIMULTANEOUS_HELP</zType>
+		<de-DE>Gleichzeitige Züge</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_LOOSE</zType>
+		<de-DE>Frei</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_LOOSE_HELP</zType>
+		<de-DE>Keine Bewegungsbeschränkung</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_NORMAL</zType>
+		<de-DE>Normal</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_NORMAL_HELP</zType>
+		<de-DE>Angriffe bei feindlichem Zug geben doppellte Abklingzeit</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_TIGHT</zType>
+		<de-DE>Straff</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_TIGHT_HELP</zType>
+		<de-DE>Kann nur Zivile Einheiten während des Gegnerzuges bewegen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_TEAMS</zType>
+		<de-DE>Teams</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_TEAMS_HELP</zType>
+		<de-DE>Kann keine Einheiten während des Zuges eines Teammitglieds bewegen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_STRICT</zType>
+		<de-DE>Strikt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSTYLE_STRICT_HELP</zType>
+		<de-DE>Kann keine Einheiten während des Gegnerzuges bewegen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRIBELEVEL_NONE</zType>
+		<de-DE>Keins</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRIBELEVEL_PASSIVE</zType>
+		<de-DE>Passiv</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRIBELEVEL_WEAK</zType>
+		<de-DE>Schwach</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRIBELEVEL_NORMAL</zType>
+		<de-DE>Normal</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRIBELEVEL_STRONG</zType>
+		<de-DE>Stark</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRIBELEVEL_RAGING</zType>
+		<de-DE>Tobend</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_YEAR_SINGULAR</zType>
+		<de-DE>Jahr</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_YEAR_PLURAL</zType>
+		<de-DE>Jahre</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_YEAR_SHORT</zType>
+		<de-DE>j</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_SEMESTER_SINGULAR</zType>
+		<de-DE>Semester</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_SEMESTER_PLURAL</zType>
+		<de-DE>Semester</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_SEMESTER_SHORT</zType>
+		<de-DE>s</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_SEASON_SINGULAR</zType>
+		<de-DE>Jahreszeit</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_SEASON_PLURAL</zType>
+		<de-DE>Jahreszeiten</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_SEASON_SHORT</zType>
+		<de-DE>j</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_MONTH_SINGULAR</zType>
+		<de-DE>Monat</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_MONTH_PLURAL</zType>
+		<de-DE>Monate</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURNSCALE_MONTH_SHORT</zType>
+		<de-DE>m</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EARLY</zType>
+		<de-DE>Früh</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_LATE</zType>
+		<de-DE>Spät</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SPRING</zType>
+		<de-DE>Frühling</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUMMER</zType>
+		<de-DE>Sommer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_FALL</zType>
+		<de-DE>Herbst</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WINTER</zType>
+		<de-DE>Winter</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_JANUARY</zType>
+		<de-DE>Januar</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_FEBRUARY</zType>
+		<de-DE>Februar</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MARCH</zType>
+		<de-DE>März</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_APRIL</zType>
+		<de-DE>April</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAY</zType>
+		<de-DE>Mai</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_JUNE</zType>
+		<de-DE>Juni</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_JULY</zType>
+		<de-DE>Juli</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUGUST</zType>
+		<de-DE>August</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SEPTEMBER</zType>
+		<de-DE>September</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OCTOBER</zType>
+		<de-DE>Oktober</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_NOVEMBER</zType>
+		<de-DE>November</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DECEMBER</zType>
+		<de-DE>Dezember</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GRAMMATICAL_GENDER_MASCULINE</zType>
+		<de-DE>Männlich</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GRAMMATICAL_GENDER_FEMININE</zType>
+		<de-DE>Weiblich</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GRAMMATICAL_GENDER_NEUTER</zType>
+		<de-DE>Geschlechtslos</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GRAMMATICAL_GENDER_COMMON</zType>
+		<de-DE>Häufig</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GRAMMATICAL_GENDER_ANIMATE</zType>
+		<de-DE>Lebhaft</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GRAMMATICAL_GENDER_INANIMATE</zType>
+		<de-DE>Leblos</de-DE>
+	</Entry>
 </Root>
