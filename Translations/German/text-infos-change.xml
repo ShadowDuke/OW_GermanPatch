@@ -1977,14 +1977,6 @@
 		<de-DE>Töte 5 gegnerische Barbaren</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_QUEST_PHILOSOPHY</zType>
-		<de-DE>Erlasse link(LAW_PHILOSOPHY)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_QUEST_ENACT_ORTHODOXY</zType>
-		<de-DE>Erlasse link(LAW_ORTHODOXY)</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GOAL_QUEST_COLOSSUS</zType>
 		<de-DE>Kontrolliere link(IMPROVEMENT_COLOSSUS)</de-DE>
 	</Entry>
@@ -4230,16 +4222,8 @@
 		<de-DE>Weiblich</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GENDER_FEMALE_TITLE</zType>
-		<de-DE>Königin</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GENDER_MALE</zType>
 		<de-DE>Männlich</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GENDER_MALE_TITLE</zType>
-		<de-DE>König</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HEIGHT_OCEAN</zType>

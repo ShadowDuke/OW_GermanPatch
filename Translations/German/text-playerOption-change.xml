@@ -122,6 +122,14 @@
 		<de-DE>Keinen Sound bitte</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_PLAYEROPTION_PLAY_AUDIO</zType>
+		<de-DE>Start</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PLAYEROPTION_SKIP_TO_NEXT_TRACK</zType>
+		<de-DE>Zum nächsten Stück springen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_PLAYEROPTION_SKIP_LICENSED_MUSIC_TRACKS</zType>
 		<de-DE>Überspringe lizensierte Musikstücke</de-DE>
 	</Entry>

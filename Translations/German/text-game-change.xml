@@ -174,16 +174,16 @@
 		<de-DE>Du hast {true_1:das Vermächtmis von {1_character}:ein Vermächtmis} vollendet: {0}</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_FINISH_QUEST</zType>
-		<de-DE>Du hast eine Quest erfüllt: {0}</de-DE>
+		<zType>TEXT_GAME_FINISH_GOAL</zType>
+		<de-DE>Du hast ein Ziel erfüllt: {0}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_FAIL_AMBITION</zType>
 		<de-DE>{true_1:ein Vermächtmis:eine Ambition} ist gescheitert: {0}</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_FAIL_QUEST</zType>
-		<de-DE>Deine Quest ist gescheitert: {0}</de-DE>
+		<zType>TEXT_GAME_FAIL_GOAL</zType>
+		<de-DE>Dein Ziel ist gescheitert: {0}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_MAKE_LEGACY</zType>
@@ -202,8 +202,8 @@
 		<de-DE>{true_1:Dieses Vermächtmis:Diese Ambition} ist nun unmöglich und wurde entfernt: {0}</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_QUEST_IMPOSSIBLE</zType>
-		<de-DE>Diese Aufgabe ist nun unmöglich und wurde entfernt: {0}</de-DE>
+		<zType>TEXT_GAME_GOAL_IMPOSSIBLE</zType>
+		<de-DE>Dieses Ziel ist nun unmöglich und wurde entfernt: {0}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_BARBARIAN_WAVE_COMING_POPUP</zType>

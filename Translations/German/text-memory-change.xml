@@ -3703,6 +3703,42 @@
 		<zType>TEXT_MEMORYTRIBE_RESEARCH_FUNDING_DISAPPOINTMENT</zType>
 		<de-DE>Refused to fund our research initiative</de-DE>
 	</Entry>	 
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_FAMINE_RELIEF_NO_HELP</zType>
+		<de-DE>Refused to help us in a time of need</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_PLOTTING_AND_SCHEMING_DOUBLECROSS_TRIBE</zType>
+		<de-DE>Betrayed us</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_POWDER_KEG_TRIBAL_RAGE</zType>
+		<de-DE>Executed our children for a petty crime</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_POWDER_KEG_TRIBE_PLEASED</zType>
+		<de-DE>Released our children</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_TRIBAL_DISAPPOINTMENT_NO_COLLABORATION</zType>
+		<de-DE>Refused to collaborate with us</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_ATTEND_HARVEST_FESTIVAL_TRIBE</zType>
+		<de-DE>Attended our Harvest Festival</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_DO_NOT_ATTEND_HARVEST_FESTIVAL</zType>
+		<de-DE>Refused to attend our Harvest Festival</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_REFUSE_TRIBAL_UNIT</zType>
+		<de-DE>Refused to hire our military</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_TRIBAL_PARTNERSHIP_REFUSE</zType>
+		<de-DE>Refused our offer of partnership</de-DE>
+	</Entry>
 	<Entry beginGroup="Family">
 		<zType>TEXT_MEMORYFAMILY_CHOSEN_HEIR_NO</zType>
 		<de-DE>Refused to make one of the us the Heir</de-DE>

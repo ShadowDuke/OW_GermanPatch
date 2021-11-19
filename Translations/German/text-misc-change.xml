@@ -175,8 +175,12 @@
 		<de-DE>Zufälliges Map Script</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_RUINS</zType>
-		<de-DE>Ruinen</de-DE>
+		<zType>TEXT_RUINS_CITY</zType>
+		<de-DE>{0_city} Ruinen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RUINS_SPACE</zType>
+		<de-DE> Ruinen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_OF_CITY</zType>
@@ -217,6 +221,10 @@
 	<Entry>
 		<zType>TEXT_TURN_ECONOMY</zType>
 		<de-DE>-Wirtschaft-</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TURN_SCIENCE</zType>
+		<de-DE>-Wissenschaft-</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TURN_GOAL</zType>

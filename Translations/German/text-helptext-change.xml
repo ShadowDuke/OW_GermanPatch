@@ -4738,12 +4738,12 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>{0,2_improvementClassList}: {1_value} Ertrag</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_IMPROVEMENT_CLASS_YIELD</zType>
-		<de-DE>{0,2_improvementClassList}: {1_value}</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_EFFECT_CITY_YIELD_RATE</zType>
 		<de-DE>{true_3:Jede }{0_effectCity}: {1_yieldValueList}{true_2: ({2_cityYieldValueList})}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_EFFECT_CITY_YIELD_MODIFIER</zType>
+		<de-DE>{true_2:Jede/s }{0_effectCity}: {1_modifier} Ergebnis</de-DE>
 	</Entry>
 	<!--Improvement Help-->
 	<Entry>
@@ -4781,10 +4781,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_PER_ADJACENT_IMPROVEMENT_CLASS_MODIFIER</zType>
 		<de-DE>{0_value} pro benachbarter {LIST} Klassen Verbesserung</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_THEOLOGY_YIELD_RATE</zType>
-		<de-DE>{0_theology}: {1_yieldValueList}{true_2: ({2_cityYieldValueList})}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_LEGITIMACY</zType>
@@ -5483,8 +5479,8 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>[Alle Familien] </de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BONUS_STARTS_QUEST</zType>
-		<de-DE>Beginnt Aufgabe {0_goalLink}</de-DE>
+		<zType>TEXT_HELPTEXT_BONUS_STARTS_GOAL</zType>
+		<de-DE>Beginnt Ziel {0_goalLink}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_STARTS_AMBITION</zType>
@@ -7206,6 +7202,18 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_RESTART_GAME_BUTTON</zType>
 		<de-DE>Spiel neu starten</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_RESTART_GAME_HELP</zType>
+		<de-DE>Replay this game from the beginning</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_NEW_GAME_BUTTON</zType>
+		<de-DE>Neue Karte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_NEW_GAME_HELP</zType>
+		<de-DE>Start a new game with the current settings</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_QUICK_SAVE_BUTTON</zType>
