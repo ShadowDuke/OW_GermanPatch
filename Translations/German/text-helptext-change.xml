@@ -3531,7 +3531,7 @@ link(CONCEPT_IDLE) Disciples produce a small Yield amount if positioned on an li
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TRADE_BONUS_THEM</zType>
-		<de-DE>Handel mit: {0_yield} {1_turns}</de-DE>
+		<de-DE>Handel an: {0_yield} {1_turns}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_TRADE_NETWORK</zType>
@@ -3779,7 +3779,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_NET_TRADE_TO_PLAYER</zType>
-		<de-DE>{0}: Handel mit {1_player} {2_turns}</de-DE>
+		<de-DE>{0}: Handel an {1_player} {2_turns}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_NET_TRADE_FROM_PLAYER</zType>
@@ -5520,7 +5520,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_CANCEL_TRADE</zType>
-		<de-DE>Beende Handel mit {0_player}</de-DE>
+		<de-DE>Beende Handel an {0_player}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_SEND_LUXURY_TO</zType>
@@ -5540,19 +5540,19 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_TRADE_FROM</zType>
-		<de-DE>Handel von {0_opponent}: {1_yieldList} für {2_years} Jahre</de-DE>
+		<de-DE>Handel von {0_opponent}: {1_yieldList} für {2_years} {3_turnScale}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_TRADE_TO</zType>
-		<de-DE>Handel mit {0_opponent}: {1_yieldList} für {2_years} Jahre</de-DE>
+		<de-DE>Handel an {0_opponent}: {1_yieldList} für {2_years} {3_turnScale}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_TRIBUTE_FROM</zType>
-		<de-DE>Tribut von {0_opponent}: {1_yieldList} für {2_years} Jahre</de-DE>
+		<de-DE>Tribut von {0_opponent}: {1_yieldList} für {2_years} {3_turnScale}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_TRIBUTE_TO</zType>
-		<de-DE>Tribut an {0_opponent}: {1_yieldList} für {2_years} Jahre</de-DE>
+		<de-DE>Tribut an {0_opponent}: {1_yieldList} für {2_years} {3_turnScale}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_CHANGE_DIPLOMACY</zType>
