@@ -144,27 +144,27 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_RELATION_AUNT_UNCLE</zType>
-		<de-DE>your {masculine_0:Dein Onkel:Deine Tante}</de-DE>
+		<de-DE>{masculine_0:Dein Onkel:Deine Tante}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_RELATION_NIECE_NEPHEW</zType>
-		<de-DE>your {masculine_0:Dein Neffe:Deine Nichte}</de-DE>
+		<de-DE>{masculine_0:Dein Neffe:Deine Nichte}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_RELATION_CHILD_IN_LAW</zType>
-		<de-DE>your {masculine_0:Dein Schwiegersohn:Deine Schwiegertochter}</de-DE>
+		<de-DE>{masculine_0:Dein Schwiegersohn:Deine Schwiegertochter}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_RELATION_PARENT_IN_LAW</zType>
-		<de-DE>your {masculine_0:Dein Schwiegervater:Deine Schwiegermutter}</de-DE>
+		<de-DE>{masculine_0:Dein Schwiegervater:Deine Schwiegermutter}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_RELATION_STEPCHILD</zType>
-		<de-DE>your {masculine_0:Dein Stiefsohn:Deine Stieftochter}</de-DE>
+		<de-DE>{masculine_0:Dein Stiefsohn:Deine Stieftochter}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_RELATION_STEPPARENT</zType>
-		<de-DE>your {masculine_0:Dein Stiefvater:Deine Stiefmutter}</de-DE>
+		<de-DE>{masculine_0:Dein Stiefvater:Deine Stiefmutter}</de-DE>
 	</Entry>
   <Entry>
     <zType>TEXT_CHARACTER_RELATION_RELATIVE</zType>
