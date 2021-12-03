@@ -138,6 +138,18 @@
 		<de-DE>{CHARACTER-SUBJECT} hat erfolgreich die Verteidigungen der Stadt geschwächt.</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MISSIONRESULT_TREACHERY_SUCCESS_TARGET_DESCRIPTION</zType>
+		<de-DE>A Foreign link(CONCEPT_AGENT) in {MISSION-TARGET} has damaged the city's defenses.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_TREACHERY_EXPOSED_DESCRIPTION</zType>
+		<de-DE>{CHARACTER-SUBJECT} has stirred up local resentment but was exposed in the process.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_TREACHERY_EXPOSED_TARGET_DESCRIPTION</zType>
+		<de-DE>A Foreign link(CONCEPT_AGENT) in {MISSION-TARGET} has increased link(YIELD_DISCONTENT) but been exposed.</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MISSIONRESULT_TREACHERY_FAILURE_DESCRIPTION</zType>
 		<de-DE>{CHARACTER-SUBJECT} Bemühungen die Verteidigungen der Stadt zu schwächen ist fehlgeschlagen.</de-DE>
 	</Entry>
@@ -150,8 +162,16 @@
 		<de-DE>{CHARACTER-SUBJECT} hat erfolgreich einen örtlichen Aufstand angezettelt.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSIONRESULT_INSURRECTION_DISCONTENT_DESCRIPTION</zType>
-		<de-DE>{CHARACTER-SUBJECT} hat erfolgreich örtliche Missgunst erregt.</de-DE>
+		<zType>TEXT_MISSIONRESULT_INSURRECTION_REVOLT_TARGET_DESCRIPTION</zType>
+		<de-DE>A Foreign link(CONCEPT_AGENT) in {MISSION-TARGET} has triggered a local uprising.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_INSURRECTION_EXPOSED_DESCRIPTION</zType>
+		<de-DE>{CHARACTER-SUBJECT} has stirred up local resentment but was exposed in the process.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_INSURRECTION_EXPOSED_TARGET_DESCRIPTION</zType>
+		<de-DE>A Foreign link(CONCEPT_AGENT) in {MISSION-TARGET} has increased link(YIELD_DISCONTENT) but been exposed.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INSURRECTION_FAILURE_DESCRIPTION</zType>
@@ -548,7 +568,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TREACHERY_SUCCESS</zType>
-		<de-DE>Verrat erfolgreich</de-DE>
+		<de-DE>link(BONUS_MISSIONRESULT_TREACHERY_SUCCESS)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MISSIONRESULT_TREACHERY_EXPOSED</zType>
+		<de-DE>link(BONUS_MISSIONRESULT_TREACHERY_EXPOSED)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_TREACHERY_FAILURE</zType>
@@ -563,8 +587,8 @@
 		<de-DE>Aufstand Erhebung</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MISSIONRESULT_INSURRECTION_DISCONTENT</zType>
-		<de-DE>link(BONUS_MISSIONRESULT_INSURRECTION_DISCONTENT)</de-DE>
+		<zType>TEXT_MISSIONRESULT_INSURRECTION_EXPOSED</zType>
+		<de-DE>link(BONUS_MISSIONRESULT_INSURRECTION_EXPOSED)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_INSURRECTION_FAILURE</zType>

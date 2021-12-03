@@ -206,10 +206,6 @@
 		<de-DE>Dieses Ziel ist nun unmöglich und wurde entfernt: {0}</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_BARBARIAN_WAVE_COMING_POPUP</zType>
-		<de-DE>Deine Wachen infomrieren dich, dass eine link(TRIBE_BARBARIANS,1) Welle sehr wahrscheinlich in den nächsten Jahren aufbrechen wird.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GAME_COURTIER_JOINED_POPUP</zType>
 		<de-DE>{0_character} ist deinem Hofstaat beigetreten!</de-DE>
 	</Entry>
@@ -337,6 +333,18 @@
 	<Entry>
 		<zType>TEXT_GAME_DECISION_DEAD_COUNCIL_PROMPT</zType>
 		<de-DE>Wähle neuen {0_council}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_DECISION_DEAD_GENERAL_TITLE</zType>
+		<de-DE>Tot von link(CONCEPT_GENERAL)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_DECISION_DEAD_GENERAL</zType>
+		<de-DE>{0_character}, link(CONCEPT_GENERAL) von der {1_unit}, fiel auf dem Schlachtfeld.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_DECISION_DEAD_GENERAL_PROMPT</zType>
+		<de-DE>Wähle neuen link(CONCEPT_GENERAL)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DECISION_DEAD_GOVERNOR_TITLE</zType>
@@ -513,7 +521,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_DISTANT_RAID</zType>
-		<de-DE>Entfernter Überfall</de-DE>
+		<de-DE>Entfernter link(CONCEPT_TRIBE_RAID)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_LOSE_AGENT_NETWORK</zType>
+		<de-DE>Lose link(CONCEPT_AGENT_NETWORK)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_PLUS_ONE</zType>
@@ -697,11 +709,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_LOG_DATA</zType>
-		<de-DE>Von {0}: </de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GAME_CHARACTER_FINISHED_MISSION</zType>
-		<de-DE>{0_character} hat {1_mission} beendet</de-DE>
+		<de-DE>[{0}]</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CHARACTER_MISSION_NO_EFFECT</zType>
@@ -732,10 +740,6 @@
 		<de-DE>{0_city} wurde dem Erdboden gleichgemacht!</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_CITY_BREACHED_LOG_DATA</zType>
-		<de-DE>{0_city} wurde durchbrochen von {1_playerOrTribe}</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GAME_CITY_CAPTURED_LOG_DATA</zType>
 		<de-DE>{0_city} eingenommen von {1_player}</de-DE>
 	</Entry>
@@ -745,7 +749,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CITY_DISCONTENT_CHANGE_LOG_DATA</zType>
-		<de-DE><![CDATA[{0_level} Unzufriedenheit <singular_0>Stufe<plural>Stufen<end> in {1_city}]]></de-DE>
+		<de-DE>{0_level} link(YIELD_DISCONTENT) {singular_0:Stufe:Stufen} in {1_city}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_UNIT_ATTACKED_LOG_DATA</zType>
@@ -785,28 +789,8 @@
 		<de-DE>Stadtplatz</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_TILE_UNREVEALED_SITE</zType>
-		<de-DE>Nicht enthüllter Platz</de-DE>
-	</Entry>	 
-	<Entry>
-		<zType>TEXT_GAME_TILE_IMPROVEMENT_DEVELOP</zType>
-		<de-DE>({0_name}: {1_turns})</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GAME_UPLOADING_GAME_POPUP</zType>
-		<de-DE>Game uploading...</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GAME_NOT_CONNECTED_TO_ONLINE_SERVICES_POPUP</zType>
-		<de-DE>Not Connected to online services</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GAME_UPLOAD_COMPLETE_POPUP</zType>
-		<de-DE>Game Upload Complete</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GAME_UPLOAD_FAILED_POPUP</zType>
-		<de-DE>Game Upload Failed</de-DE>
+		<de-DE>Spiel am hochladen...</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_SAVED</zType>
@@ -818,7 +802,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CHAT_ALL_TAG</zType>
-		<de-DE>Alle</de-DE>
+		<de-DE>ALLE</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CHAT_TEAM_TAG</zType>
@@ -859,10 +843,6 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_UNIT_PILLAGED_IMPROVEMENT_LOG_DATA</zType>
-		<de-DE>{0} Geplündert von {1_owner} {2_unit}!</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GAME_PILLAGED__LOG_DATA</zType>
 		<de-DE>{0} Geplündert von {1_owner} {2_unit}!</de-DE>
 	</Entry>
 	<Entry>
@@ -1003,4 +983,36 @@
 		<zType>TEXT_RATING_DISCIPLINE_LOSS_2</zType>
 		<de-DE>Ever more slothful and lazy, {0} has stopped following {masculine_0:his:her} strict regimen of diet and exercise. {masculine_0:He:She} has lost {1} {2}.</de-DE>
 	</Entry> 
+	<Entry>
+		<zType>TEXT_DISCORD_PLAYINGMP_1</zType>
+		<de-DE>Battling other Humans</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DISCORD_PLAYINGMP_2</zType>
+		<de-DE>MP Modus</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DISCORD_PLAYINGMP_3</zType>
+		<de-DE>HotSeat Modus</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DISCORD_PLAYINGSP_1</zType>
+		<de-DE>Conquering AIs</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DISCORD_PLAYINGSP_2</zType>
+		<de-DE>SP Modus</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DISCORD_MENUS</zType>
+		<de-DE>Old World Menüs</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DISCORD_PLAYING_LEADER</zType>
+		<de-DE>{0_leader} {1_cognomen}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DISCORD_PLAYING_NATION</zType>
+		<de-DE>{0_nation}</de-DE>
+	</Entry>
 </Root>

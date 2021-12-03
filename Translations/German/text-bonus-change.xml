@@ -39,8 +39,8 @@
 		<de-DE>Vermächtnis(se) fehlgeschlagen</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_FINISHED_QUEST</zType>
-		<de-DE>Quest(s) vollendet</de-DE>
+		<zType>TEXT_BONUS_FINISHED_GOAL</zType>
+		<de-DE>Ziel(e) vollendet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_HOLY_SITE</zType>
@@ -215,6 +215,10 @@
 		<de-DE>Verrat (Erfolg)</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_BONUS_MISSIONRESULT_TREACHERY_EXPOSED</zType>
+		<de-DE>Verrat (entblößt)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_TREACHERY_FAILURE</zType>
 		<de-DE>Verrat (Fehlschlag)</de-DE>
 	</Entry>
@@ -223,8 +227,8 @@
 		<de-DE>Aufstand (Revolte)</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_INSURRECTION_DISCONTENT</zType>
-		<de-DE>Aufstand (Unzufriedenheit)</de-DE>
+		<zType>TEXT_BONUS_MISSIONRESULT_INSURRECTION_EXPOSED</zType>
+		<de-DE>Aufstand (Entblößt)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INSURRECTION_FAILURE</zType>
@@ -1128,6 +1132,10 @@
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RUINS_PROPHECY_OPTION_3_CHARACTER</zType>
 		<de-DE>Göttliches Recht zu herrschen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_SMELLS_GOOD</zType>
+		<de-DE>Riecht super!</de-DE>
 	</Entry>
 	<Entry beginGroup="Combat">	
 		<zType>TEXT_BONUS_EVENTOPTION_LEADER_SMITING_FOES_STATUE</zType>
@@ -2729,6 +2737,14 @@
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NAMED_UNIT_WILD_HUNTERS</zType>
 		<de-DE>The Wild Hunters</de-DE>
+	</Entry>
+	<Entry beginGroup="Character">
+		<zType>TEXT_BONUS_EVENTOPTION_GROWING_MILITARY_MIGHT_PROMOTE_FROM_WITHIN</zType>
+		<de-DE>Vom Innen heraus befördert</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_DAUGHTER_OF_THE_STORM_TEMPLE_REFUSE</zType>
+		<de-DE>Ich schaff das</de-DE>
 	</Entry>
 	<Entry beginGroup="Diplomacy">
 		<zType>TEXT_BONUS_COIN_FACE</zType>

@@ -3,9 +3,9 @@
 <Root>
 	<Entry>
 		<zType/>
-		<de-DE/>
+		<en-US/>
 	</Entry>
-	 <!-- audio options menu text -->
+    <!-- audio options menu text -->
 	<Entry>
 		<zType>TEXT_MUSIC_TRACK_DISABLED__USER_SKIPPED</zType>
 		<de-DE>Track disabled (Marked as skippable by you)</de-DE>
@@ -16,7 +16,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MUSIC_TRACK_DISABLED__BY_MUSIC_SYSTEM</zType>
-		<de-DE>Track disabled (Licensed track is disabled, or, another reason)</de-DE>
+		<de-DE>Track disabled (Licensed tracks are disabled)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_JUKEBOX_MUSIC_TRACK_SKIP_HOVER</zType>
@@ -24,7 +24,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_STREAMING_LICENSED_WARNING_TITLE</zType>
-		<de-DE>Video Creators / LiveStreamers</de-DE>
+		<de-DE>Content Creators / LiveStreamers</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_STREAMING_LICENSED_WARNING_BODY</zType>
@@ -32,11 +32,11 @@
 Recording and Streaming Copyright Safety Mode is now enabled.
 
 This will reduce issues when recording online videos and streams
-by skipping any music tracks known to cause content protection 
+by skipping any music tracks known to cause content protection
 flagging issues.
-			
-Warning: Online video sharing sites may still flag remaining 
-music tracks and can prevent monetization of your videos. 
+
+Warning: Online video sharing sites may still flag remaining
+music tracks and can prevent monetization of your videos.
 Streaming any music from the game is at your own risk.
 		</de-DE>
 	</Entry>
@@ -665,7 +665,7 @@ Streaming any music from the game is at your own risk.
 	</Entry>
 	<Entry>
 		<zType>TEXT_AUDIO_ARTIST_GRACIE_AND_RACHEL</zType>
-		<de-DE>Gracie <![CDATA[&]]> Rachel</de-DE>
+		<de-DE>Gracie &amp; Rachel</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_AUDIO_ARTIST_KINGPINGUIN</zType>
@@ -887,11 +887,11 @@ Streaming any music from the game is at your own risk.
 	<!-- Artists ****************************************** -->
 	<Entry>
 		<zType>TEXT_AUDIO_ARTIST_TOBIAS_JACKLE__LEYLA_JOHNSON</zType>
-		<de-DE>Tobias J<![CDATA[ä]]>ckle, Leyla Johnson</de-DE>
+		<de-DE>Tobias Jäckle, Leyla Johnson</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_AUDIO_ARTIST_TOBIAS_JACKLE</zType>
-		<de-DE>Tobias J<![CDATA[ä]]>ckle</de-DE>
+		<de-DE>Tobias Jäckle</de-DE>
 	</Entry>
 	<!-- /Artists ***************************************** -->
 	<!-- /Tobias Jackle ******************************************************* -->
@@ -1007,5 +1007,88 @@ Streaming any music from the game is at your own risk.
 	</Entry>
 	<!-- /Artists ***************************************** -->
 	<!-- /Elie Byzantine Chants************************************************** -->
-
+	<Entry>
+		<zType>AUDIO_UI_EVENT_TO_AND_FROM_THE_ASH_STINGER_TEXT</zType>
+		<de-DE>To and From the Ash</de-DE>
+	</Entry>
+	<Entry>
+		<zType>AUDIO_UI_EVENT_TO_THE_VICTOR_STINGER_TEXT</zType>
+		<de-DE>To the Victor</de-DE>
+	</Entry>
+	<Entry>
+		<zType>AUDIO_UI_EVENT_TO_WAR_TEXT</zType>
+		<de-DE>To War</de-DE>
+	</Entry>
+	<Entry>
+		<zType>AUDIO_UI_EVENT_ANCIENT_ONLOOKERS_TEXT</zType>
+		<de-DE>Ancient Onlookers</de-DE>
+	</Entry>
+	<Entry>
+		<zType>AUDIO_UI_EVENT_ANCIENT_TRIBE_TEXT</zType>
+		<de-DE>Ancient Tribe</de-DE>
+	</Entry>
+	<Entry>
+		<zType>AUDIO_UI_EVENT_ENCOURAGING_SITES_TEXT</zType>
+		<de-DE>Encouraging Sites</de-DE>
+	</Entry>
+	<Entry>
+		<zType>AUDIO_UI_EVENT_FESTIVITIES_TEXT</zType>
+		<de-DE>Festivities</de-DE>
+	</Entry>
+	<Entry>
+		<zType>AUDIO_UI_EVENT_OMINOUS_ENCOUNTER_TEXT</zType>
+		<de-DE>Ominous Encounter</de-DE>
+	</Entry>
+	<Entry>
+		<zType>AUDIO_UI_EVENT_RITUAL_SPLENDOR_TEXT</zType>
+		<de-DE>Ritual Splendor</de-DE>
+	</Entry>
+	<Entry>
+		<zType>AUDIO_UI_EVENT_SCATTERING_DUST_TEXT</zType>
+		<de-DE>Scattering Dust</de-DE>
+	</Entry>
+	<Entry>
+		<zType>AUDIO_UI_EVENT_SHATTERING_PRESENCE_TEXT</zType>
+		<de-DE>Shattering Presence</de-DE>
+	</Entry>
+	<Entry>
+		<zType>AUDIO_UI_EVENT_SOLEMN_VICTORY_TEXT</zType>
+		<de-DE>Solemn Victory</de-DE>
+	</Entry>
+	<Entry>
+		<zType>AUDIO_UI_EVENT_SUDDEN_CONFRONTATION_TEXT</zType>
+		<de-DE>Sudden Confrontation</de-DE>
+	</Entry>
+	<Entry>
+		<zType>AUDIO_UI_EVENT_WEARY_TRAVELER_TEXT</zType>
+		<de-DE>Weary Traveler</de-DE>
+	</Entry>
+	<Entry>
+		<zType>AUDIO_UI_EVENT_OPEN_THE_TOMB_TEXT</zType>
+		<de-DE>Open the Tomb</de-DE>
+	</Entry>
+	<Entry>
+		<zType>AUDIO_UI_EVENT_WEDDING_BELLS_TEXT</zType>
+		<de-DE>Wedding Bells</de-DE>
+	</Entry>
+	<Entry>
+		<zType>AUDIO_UI_EVENT_FAR_AWAY_STORY_TEXT</zType>
+		<de-DE>Far Away Story</de-DE>
+	</Entry>
+	<Entry>
+		<zType>AUDIO_UI_EVENT_DESPAIR_TEXT</zType>
+		<de-DE>Despair</de-DE>
+	</Entry>
+	<Entry>
+		<zType>AUDIO_UI_EVENT_DARK_REFLECTIONS_TEXT</zType>
+		<de-DE>Dark Reflections</de-DE>
+	</Entry>
+	<Entry>
+		<zType>AUDIO_UI_EVENT_INTRIGUE_TEXT</zType>
+		<de-DE>Intrigue</de-DE>
+	</Entry>
+	<Entry>
+		<zType>AUDIO_UI_EVENT_POP_RUIN_GENERIC_TEXT</zType>
+		<de-DE>Generic Ruin</de-DE>
+	</Entry>
 </Root>

@@ -868,12 +868,12 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
 		<de-DE>[Ambition vollendet: {0}]</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_EVENT_STORY_QUEST_FINISHED</zType>
-		<de-DE>[Quest beendet: {0}]</de-DE>
+		<zType>TEXT_UI_EVENT_STORY_GOAL_FINISHED</zType>
+		<de-DE>[Ziel beendet: {0}]</de-DE>
 	</Entry>
 	<Entry>
-    <zType>TEXT_UI_EVENT_STORY_QUEST_FAILED</zType>
-    <de-DE>[Quest fehlgeschlagen: {0}]</de-DE>
+    <zType>TEXT_UI_EVENT_STORY_GOAL_FAILED</zType>
+    <de-DE>[Ziel fehlgeschlagen: {0}]</de-DE>
   </Entry>
   <Entry>
 		<zType>TEXT_UI_EVENT_STORY_MISSION_FINISHED</zType>
@@ -1112,7 +1112,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	<Entry>
     <zType>TEXT_MENU_SCREEN_RESUME_BUTTON</zType>
     <de-DE>Fortfahren</de-DE>
-  </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MENU_SCREEN_TUTORIAL_BUTTON</zType>
+		<de-DE>Lerne zu Spielen</de-DE>
+	</Entry>
   <Entry>
         <zType>TEXT_MENU_SCREEN_SP_BUTTON</zType>
         <de-DE>Einzelspieler</de-DE>
@@ -1140,6 +1144,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
     <Entry>
         <zType>TEXT_MENU_SCREEN_NEWSLETTER</zType>
         <de-DE>Newsletter</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MENU_SCREEN_NEWSLETTER_SUBSCRIBED</zType>
+		<de-DE>Abonniert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MENU_SCREEN_NEWSLETTER_INPUT</zType>
@@ -1406,6 +1414,14 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<de-DE>Host Controls</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CLOUD_SCREEN_HOST</zType>
+		<de-DE>Host</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CLOUD_SCREEN_NOTIFICATION_URL</zType>
+		<de-DE>Benachrichtigungs-URL</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CLOUD_SCREEN_USER_TITLE</zType>
 		<de-DE>Cloud Spiele</de-DE>
 	</Entry>
@@ -1492,7 +1508,15 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<de-DE>Passwort</de-DE>
 	</Entry>
     <!--multiplayer-->
-    <Entry>
+	<Entry>
+		<zType>TEXT_MP_GAME_SEARCH</zType>
+		<de-DE>Spiel Suche</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_REFRESH</zType>
+		<de-DE>Aktualisieren</de-DE>
+	</Entry>
+	<Entry>
         <zType>TEXT_MP_PLAYERS_SCREEN_OBSERVE_BUTTON</zType>
         <de-DE>Beobachten</de-DE>
     </Entry>
@@ -1594,6 +1618,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<de-DE>Credits</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TOOLS_SCREEN_CREDITS_EXTRAS</zType>
+		<de-DE>Extras</de-DE>
+	</Entry>
+	<Entry>
         <zType>TOOLS_SCREEN_BACK_BUTTON</zType>
         <de-DE>Zurück</de-DE>
     </Entry>
@@ -1665,6 +1693,14 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	</Entry>
     <!--game options-->
     <Entry>
+		<zType>TEXT_MP_SETUP_LOBBY</zType>
+		<de-DE>Lobby</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_SETUP_JOIN_SLOT</zType>
+		<de-DE>Wähle einen Platz zum beitreten</de-DE>
+	</Entry>
+	<Entry>
         <zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_GAMENAME</zType>
         <de-DE>Spiel Name</de-DE>
     </Entry>
@@ -1851,6 +1887,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
     </Entry>
     <!-- schedule-->
     <Entry>
+		<zType>TEXT_MP_SETUP_SCHEDULE_SCHEDULING</zType>
+		<de-DE>Planung</de-DE>
+	</Entry>
+	<Entry>
         <zType>TEXT_MP_SETUP_SCHEDULE_NETWORKPOST</zType>
         <de-DE>Netzwerk Port</de-DE>
     </Entry>
@@ -1872,7 +1912,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	</Entry>
 	<!--options-menu.xml-->
 	<!--title bar-->
-    <Entry>
+	<Entry>
+		<zType>TEXT_OPTIONS_MENU_TITLEBAR_OPTIONS</zType>
+		<de-DE>Optionen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_OPTIONS_MENU_TITLEBAR_GENERAL</zType>
 		<de-DE>Allgemein</de-DE>
 	</Entry>
@@ -1902,6 +1946,14 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	</Entry>-->
     <!--controls-->
     <Entry>
+		<zType>TEXT_OPTIONS_MENU_AUDIO_CONTROLS</zType>
+		<de-DE>Sound Steuerung</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_OPTIONS_MENU_MUSIC_TRACK_CUSTOMIZATION</zType>
+		<de-DE>Musik Stück Anpassung</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_OPTIONS_MENU_CONTROLS_CLEAR_HOTKEY</zType>
 		<de-DE>Löschen</de-DE>
 	</Entry>
@@ -1982,6 +2034,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
         <zType>TEXT_SCENARIO_SETUP_FILE_BROWSE</zType>
         <de-DE>Durchsuchen</de-DE>
     </Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_SETUP_CONTINUE_FROM_FILE</zType>
+		<de-DE>Von Datei fortsetzen</de-DE>
+	</Entry>
 	<Entry>
     <zType>TEXT_SCENARIO_SETUP_FILE_LOADED</zType>
     <de-DE>{0} Geladen</de-DE>
@@ -2251,7 +2307,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
     <Entry>
         <zType>TEXT_CITY_LIST_CITIES</zType>
         <de-DE>Städte</de-DE>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITY_LIST_CITY</zType>
+		<de-DE>Stadt</de-DE>
+	</Entry>
     <Entry>
         <zType>TEXT_CITY_LIST_PRODUCTION</zType>
         <de-DE>Produktion</de-DE>
@@ -2274,23 +2334,20 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	</Entry>
     <Entry>
 		<zType>TEXT_CITY_LIST_SORT</zType>
-		<de-DE><![CDATA[<TEXT_HOTKEY_LEFT_CLICK> to sort by {0_yield} production rate]]>
-		</de-DE>
+		<de-DE>{TEXT_HOTKEY_LEFT_CLICK} to sort by {0_yield} production rate</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CITY_LIST_SORT_LEVEL</zType>
-		<de-DE><![CDATA[<TEXT_HOTKEY_CTRL_CLICK> to sort by {0_yield} level]]></de-DE>
+		<de-DE>{TEXT_HOTKEY_CTRL_CLICK} to sort by {0_yield} level</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CITY_LIST_SORT_DIRECTION</zType>
-		<de-DE>
-			<![CDATA[<TEXT_HOTKEY_LEFT_CLICK> to change sort direction]]>
-		</de-DE>
+		<de-DE>{TEXT_HOTKEY_LEFT_CLICK} to change sort direction</de-DE>
 	</Entry>
 	<!-- popup-victory.xml-->
 	<Entry>
 		<zType>TEXT_UI_VICTORY_SCREEN_GOALS</zType>
-		<de-DE><![CDATA[<true_0>Ambitionen und Punkte<false>Punkte Liste<end>]]></de-DE>
+		<de-DE>{true_0:Ambitionen und Punkte:Punkte Liste}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_VICTORY_SCREEN_PROGRESS</zType>
@@ -2370,7 +2427,15 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
     <Entry>
         <zType>TEXT_POPUP_INHERITANCE</zType>
         <de-DE>Erbschaft</de-DE>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_POPUP_INHERITANCE_CURRENT_HEIR</zType>
+		<de-DE>Derzeitiger Erbe</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_POPUP_INHERITANCE_NAME</zType>
+		<de-DE>Name</de-DE>
+	</Entry>
 <!--unit-list.xml-->
 	<Entry>
 		<zType>TEXT_UNIT_LIST</zType>
@@ -2421,6 +2486,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<zType>TEXT_TECH_TREE_DECK</zType>
 		<de-DE>Im Deck</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_TREE_KEY</zType>
+		<de-DE>Key</de-DE>
+	</Entry>
 	<!--selected-worker.xml-->
 	<Entry>
 		<zType>TEXT_SELECTED_WORKER_TURN</zType>
@@ -2447,6 +2516,14 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	<Entry>
 		<zType>TEXT_SELECTED_CITY_QUEUE</zType>
 		<de-DE>Warteschlange</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SELECTED_CITY_GOVERNOR</zType>
+		<de-DE>Statthalter</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SELECTED_CITY_CLOSE</zType>
+		<de-DE>Schließen</de-DE>
 	</Entry>
 	<!--selected-character.xml-->
 	<Entry>
@@ -2487,6 +2564,18 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	<Entry>
 		<zType>TEXT_POPUP_PINGS_CANCEL</zType>
 		<de-DE>Abbrechen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_POPUP_PINGS_TEXT</zType>
+		<de-DE>Ping Text</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_POPUP_PINGS_REMIND</zType>
+		<de-DE>An Zug erinnern</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_POPUP_PINGS_REMINDER</zType>
+		<de-DE>Ping Erinnerung: </de-DE>
 	</Entry>
 	<!--popup-laws.xml-->
 	<Entry>
@@ -2867,6 +2956,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	<Entry>
 		<zType>TEXT_UI_MODS_MOD_PICTURE_LABEL</zType>
 		<de-DE>Mod Bild:</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_CHOOSE_PICTURE</zType>
+		<de-DE>Wähle Bild</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_MOD_DESCRIPTION_LABEL</zType>

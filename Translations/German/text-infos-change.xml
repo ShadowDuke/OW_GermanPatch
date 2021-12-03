@@ -1961,23 +1961,23 @@
 		<de-DE>Kontrolliere drei link(IMPROVEMENT_CATHEDRAL_MANICHAEISM,2)</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_QUEST_INQUIRING_MINDS</zType>
+		<zType>TEXT_GOAL_INQUIRING_MINDS</zType>
 		<de-DE>Schließe 3 Recherchen ab</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_QUEST_FOUNDING_SIGNS</zType>
-		<de-DE>Gründe eine Stadt</de-DE>
+		<zType>TEXT_GOAL_FOUNDING_SIGNS</zType>
+		<de-DE>Gründe 2 Stadte</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_QUEST_KILL_5_ENEMIES</zType>
-		<de-DE>Töte 5 Gegnerische Einheiten eines Reiches</de-DE>
+		<zType>TEXT_GOAL_KILL_10_ENEMIES</zType>
+		<de-DE>Töte zehn Gegnerische Einheiten eines Reiches</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_QUEST_KILL_5_BARBS</zType>
-		<de-DE>Töte 5 gegnerische Barbaren</de-DE>
+		<zType>TEXT_GOAL_KILL_5_BARBS</zType>
+		<de-DE>Töte fünf gegnerische Barbaren</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_QUEST_COLOSSUS</zType>
+		<zType>TEXT_GOAL_CONTROL_COLOSSUS</zType>
 		<de-DE>Kontrolliere link(IMPROVEMENT_COLOSSUS)</de-DE>
 	</Entry>
 	<Entry>
@@ -4314,12 +4314,12 @@
 		<de-DE>Lock link(CONCEPT_PROMOTION,2) and link(CONCEPT_IDLE) Units Overlay</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HOTKEY_LOCK_TILE_YIELDS</zType>
-		<de-DE>Lock Tile Yields Overlay</de-DE>
+		<zType>TEXT_HOTKEY_LOCK_RESOURCES_IMPROVEMENTS</zType>
+		<de-DE>Lock Resources and link(CONCEPT_IMPROVEMENT,2) Overlay</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HOTKEY_LOCK_TILE_SPECIALISTS</zType>
-		<de-DE>Lock Tile link(CONCEPT_SPECIALIST,2) Overlay</de-DE>
+		<zType>TEXT_HOTKEY_LOCK_CURRENT_YIELDS</zType>
+		<de-DE>Lock Current Yields Overlay</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_SHOW_ZOC</zType>
@@ -4342,12 +4342,12 @@
 		<de-DE>Zeige untätige Einheiten</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HOTKEY_SHOW_TILE_YIELDS</zType>
-		<de-DE>Zeige Kachel Erträge</de-DE>
+		<zType>TEXT_HOTKEY_SHOW_RESOURCES_IMPROVEMENTS</zType>
+		<de-DE>Zeige Ressourcen und link(CONCEPT_IMPROVEMENT,2)</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HOTKEY_SHOW_TILE_SPECIALISTS</zType>
-		<de-DE>Zeige Kachel Spezialisten</de-DE>
+		<zType>TEXT_HOTKEY_SHOW_CURRENT_YIELDS</zType>
+		<de-DE>Zeige derzeitige Erträge</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_TOGGLE_HEX_GRID</zType>

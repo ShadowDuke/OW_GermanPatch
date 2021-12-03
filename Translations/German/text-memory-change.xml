@@ -3979,4 +3979,8 @@
 		<zType>TEXT_MEMORYFAMILY_BONUS_PERMITTED_PURPLE</zType>
 		<de-DE>Permitted purple</de-DE>
 	</Entry>
+	<Entry beginGroup="Player">
+		<zType>TEXT_MEMORYPLAYER_FUNDED_RESEARCH</zType>
+		<de-DE>Finanzierte Forschung</de-DE>
+	</Entry>
 </Root>

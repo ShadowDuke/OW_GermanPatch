@@ -11,15 +11,23 @@
 		<de-DE>Held~ein Held~Helden</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_HERO_ARCHETYPE_F</zType>
+		<de-DE>Heldin~eine Heldin~Heldinnen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_COMMANDER_ARCHETYPE</zType>
 		<de-DE>Feldherr~ein Feldherr~Feldherren</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_COMMANDER_ARCHETYPE_F</zType>
+		<de-DE>Feldherrin~eine Feldherrin~Feldherrinnen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_TACTICIAN_ARCHETYPE</zType>
 		<de-DE>Taktiker~ein Taktiker~Taktikerer</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_TACTICIAN_ARCHETYPE_FEM</zType>
+		<zType>TEXT_TRAIT_TACTICIAN_ARCHETYPE_F</zType>
 		<de-DE>Taktikerin~eine Taktikerin~Taktikerinnen</de-DE>
 	</Entry>
 	<Entry>
@@ -27,31 +35,55 @@
 		<de-DE>Fanatiker~ein Fanatiker~Fanatiker</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_ZEALOT_ARCHETYPE_F</zType>
+		<de-DE>Fanatikerin~eine Fanatikerin~Fanatikerinnen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_SCHEMER_ARCHETYPE</zType>
 		<de-DE>Intrigant~ein Intrigant~Intriganten</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_SCHEMER_ARCHETYPE_F</zType>
+		<de-DE>Intrigantin~eine Intrigantin~Intrigantinnen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ORATOR_ARCHETYPE</zType>
 		<de-DE>Redner~ein Redner~Redner</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_ORATOR_ARCHETYPE_F</zType>
+		<de-DE>Rednerin~eine Rednerin~Rednerinnen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_JUDGE_ARCHETYPE</zType>
 		<de-DE>Richter~ein Richter~Richter</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_JUDGE_ARCHETYPE_F</zType>
+		<de-DE>Richterin~eine Richterin~Richterinnen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BUILDER_ARCHETYPE</zType>
 		<de-DE>Baumeister~ein Baumeister~Baumeister</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_BUILDER_ARCHETYPE_F</zType>
+		<de-DE>Baumeisterin~eine Baumeisterin~Baumeisterinnen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_SCHOLAR_ARCHETYPE</zType>
 		<de-DE>Wissenschaftler~ein Wissenschaftler~Wissenschaftler</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_SCHOLAR_ARCHETYPE_F</zType>
+		<de-DE>Wissenschaftlerin~eine Wissenschaftlerin~Wissenschaftlerinnen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DIPLOMAT_ARCHETYPE</zType>
 		<de-DE>Diplomat~ein Diplomat~Diplomaten</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_DIPLOMAT_ARCHETYPE_FEM</zType>
+		<zType>TEXT_TRAIT_DIPLOMAT_ARCHETYPE_F</zType>
 		<de-DE>Diplomatin~eine Diplomatin~Diplomatinnen</de-DE>
 	</Entry>
 	<Entry>

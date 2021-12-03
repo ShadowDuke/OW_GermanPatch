@@ -50,7 +50,7 @@ Familien der link(FAMILYCLASS_CHAMPIONS), link(FAMILYCLASS_RIDERS), oder link(FA
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_CULTURE_HELP</zType>
-		<de-DE>Wenn die link(YIELD_CULTURE){YIELD_CULTURE} einer Stadt sich erhöht, geschieht ein positives Ereignis. Die komplette link(YIELD_CULTURE){YIELD_CULTURE} der Stadt beeinflusst welche Verbesserungen und Wunder gebaut werden können. Erhöhe link(YIELD_CULTURE){YIELD_CULTURE} durch den Bau von link(IMPROVEMENTCLASS_SHRINE,2) und link(IMPROVEMENTCLASS_ODEON,2).</de-DE>
+		<de-DE>Wenn die {YIELD_CULTURE}Kultur Leiste einer Stadt sich erhöht, geschieht ein positives Ereignis. Die komplette link(YIELD_CULTURE){YIELD_CULTURE} der Stadt beeinflusst welche Verbesserungen und Wunder gebaut werden können. Erhöhe link(YIELD_CULTURE){YIELD_CULTURE} durch den Bau von link(IMPROVEMENTCLASS_SHRINE,2) und link(IMPROVEMENTCLASS_ODEON,2).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_DISCONTENT</zType>
