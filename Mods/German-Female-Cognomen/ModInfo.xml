@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ModInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <displayName>German Female Cognomen</displayName>
+  <description>German female gognomen</description>
+  <modpicture>ger_female_cognomen.png</modpicture>
+  <author>Revan/ShadowDuke</author>
+  <modioID>1588315</modioID>
+  <modioFileID>2000555</modioFileID>
+  <modversion>1.0</modversion>
+  <singlePlayer>true</singlePlayer>
+  <multiplayer>true</multiplayer>
+  <scenario>false</scenario>
+  <modDependencies />
+  <modIncompatibilities />
+</ModInfo>
