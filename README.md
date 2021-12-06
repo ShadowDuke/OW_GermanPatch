@@ -3,7 +3,7 @@
 You can still add them manually like before (github) but it would be certainly easier for you to create a [mod.io](https://oldworld.mod.io/) profile and get the mods and updates for them through the game now.**
 
 # Old World German Patch
-German localization for **Old World** for **Release Version (v.1.58)**. (WIP)
+German localization for **Old World** for **Release Version (v.1.58a)**. (WIP)
 
 Zur [deutschen Anleitung](https://github.com/ShadowDuke/OW_GermanPatch#deutsch) springen.
 
@@ -11,7 +11,7 @@ Zur [deutschen Anleitung](https://github.com/ShadowDuke/OW_GermanPatch#deutsch) 
 ## Installation and use
 
 **Delete any previous files/directories from earlier versions of this patch**
-1. [Download](https://github.com/ShadowDuke/OW_GermanPatch/archive/master.zip) the file and extract the **"Translations"** directory in \Users\\###\Documents\My Games\OldWorld\
+1. [Download](https://github.com/ShadowDuke/OW_GermanPatch/archive/master.zip) the file and extract the **"Translations"** directory in \Users\\###\Documents\My Games\OldWorld\ & the **"Mods"** directory in the same.
    - Help: Windows Explorer; click on Documents; navigate to \My Games\Old World\
 2. Go to "Mods" in the main menu and enable "German Translation" in the *Translations* tab, click "Save" then click "Play with Mods".
 3. Now set up a new game and start as usual.
@@ -37,7 +37,7 @@ If you want to, you can give me a tip at [Paypal](https://www.paypal.com/cgi-bin
 ## Installation und Benutzung
 
 **Lösche jegliche Dateien/Verzeichnisse vorheriger Versionen des Patches**
-1. [Lade](https://github.com/ShadowDuke/OW_GermanPatch/archive/master.zip) die Dateie herunter und entpacke den **"Translations"** Ordner nach \Benutzer\\###\Dokumente\My Games\OldWorld\
+1. [Lade](https://github.com/ShadowDuke/OW_GermanPatch/archive/master.zip) die Dateie herunter und entpacke den **"Translations"** Ordner nach \Benutzer\\###\Dokumente\My Games\OldWorld\ & den **"Mods"** Ordner in den selbigen.
    - Hilfe: Windows Explorer; klicke auf Dokumente; navigiere zu \My Games\Old World\
 2. Gehe zu "Modifikationen" im Hauptmenü and aktiviere "German Translation" im *Translations* Reiter, drücke "Speichern" dann klicke auf "Play with Mods".
 3. Nun erstelle ganz normal ein Spiel wie immer und starte es.
