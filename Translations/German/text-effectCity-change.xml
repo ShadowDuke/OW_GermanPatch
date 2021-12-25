@@ -1,4 +1,4 @@
-<!-- German de-DE (© Revan ©) -->
+<!-- German Translation (© Revan ©) -->
 
 <Root>
 	<Entry>
@@ -142,14 +142,6 @@
 	<Entry>
 		<zType>TEXT_EFFECTCITY_FAMILYCLASS_HUNTERS_SEAT_HUNT</zType>
 		<de-DE>Jagd</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_AMBITION_CAPITAL</zType>
-		<de-DE>link(CONCEPT_AMBITION,2) vollendet</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTCITY_LEGACY_CAPITAL</zType>
-		<de-DE>Vermächtnisse vollendet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_CULTURE_WEAK</zType>

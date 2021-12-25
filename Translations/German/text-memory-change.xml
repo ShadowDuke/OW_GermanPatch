@@ -1863,7 +1863,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FOUNDED_CITY</zType>
-		<de-DE>Hat ine Stadt für uns gegründet</de-DE>
+		<de-DE>Hat eine Stadt für uns gegründet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FOUNDED_FAMILY_SEAT</zType>
@@ -1871,19 +1871,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REGAINED_CITY</zType>
-		<de-DE>We regained a City</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_LOST_CITY</zType>
-		<de-DE>We lost a City</de-DE>
+		<de-DE>Wir haben eine Stadt wiedererlangt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GIVEN_CITY</zType>
-		<de-DE>Gave us a City</de-DE>
+		<de-DE>Gab uns eine Stadt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_GAVE_AWAY_CITY</zType>
-		<de-DE>Gave away our City</de-DE>
+		<de-DE>Vergab unsere Stadt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_REFUSED_US_CITY</zType>
@@ -2556,12 +2552,6 @@
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FORCED_END_TO_HOSTING</zType>
 		<de-DE>Forced to stop hosting successors</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_INVITED_TO_FEAST</zType>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MEMORYFAMILY_NOT_INVITED_TO_FEAST</zType>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_ATTENDED_FEAST_ALONE</zType>
@@ -3292,10 +3282,6 @@
 		<de-DE>Refused to join holy war.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MEMORYRELIGION_REFUSED_SPOUSE_WAR</zType>
-		<de-DE>Refused to join war on behalf of spouse's nation.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_MEMORYRELIGION_PROTECTED_PRACTITIONERS</zType>
 		<de-DE>Protected followers</de-DE>
 	</Entry>
@@ -3739,6 +3725,34 @@
 		<zType>TEXT_MEMORYTRIBE_TRIBAL_PARTNERSHIP_REFUSE</zType>
 		<de-DE>Refused our offer of partnership</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_FINDING_RELIGION_WELCOME</zType>
+		<de-DE>Embraced as Brothers and Sisters of the Faith</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_BONUS_BIRDS_OF_A_FEATHER</zType>
+		<de-DE>Kindred spirits</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_BONUS_CHILD_LABOR_ABUSES_ABOLISH_TRIBE</zType>
+		<de-DE>Abolished child labor</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_BONUS_CHILD_LABOR_ABUSES_PLACATED_TRIBE</zType>
+		<de-DE>Placated us on the matter of child labor</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_TAKE_THE_MONEY_AND_RUN_0</zType>
+		<de-DE>Finanzierte unseren Plünderungszug</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_BONUS_WAR_MACHINES_RECIPROCAL_GIFT</zType>
+		<de-DE>Accepted our gift and gave us one in return</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_BONUS_FORTUNE_FAVORS_HELPED_TRIBE</zType>
+		<de-DE>Helped us improve the lives of our People</de-DE>
+	</Entry>	 
 	<Entry beginGroup="Family">
 		<zType>TEXT_MEMORYFAMILY_CHOSEN_HEIR_NO</zType>
 		<de-DE>Refused to make one of the us the Heir</de-DE>
@@ -3879,6 +3893,14 @@
 		<zType>TEXT_MEMORYFAMILY_SABOTAGE_OK</zType>
 		<de-DE>Punished us for sabotage</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYCHARACTER_MEMORYCHARACTER_FAVORED_SPOUSE</zType>
+		<de-DE>Bevorzugte Ehepartner</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYCHARACTER_MEMORYCHARACTER_DISFAVORED_SPOUSE</zType>
+		<de-DE>Verschmähte Ehepartner</de-DE>
+	</Entry>
 	<Entry beginGroup="Royalty">
 		<zType>TEXT_MEMORYFAMILY_HEIR_WEDDING_FAUX_PAS_NOTHING</zType>
 		<de-DE>Faux pas at heir's wedding</de-DE>
@@ -3978,6 +4000,14 @@
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_BONUS_PERMITTED_PURPLE</zType>
 		<de-DE>Permitted purple</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_HONORIFIC_TITLE</zType>
+		<de-DE>Gave a member of our family an honorific title</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_PASSED_OVER_FOR_HONORIFIC_TITLE</zType>
+		<de-DE>Did not give our family an honoric title</de-DE>
 	</Entry>
 	<Entry beginGroup="Player">
 		<zType>TEXT_MEMORYPLAYER_FUNDED_RESEARCH</zType>

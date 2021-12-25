@@ -34,10 +34,6 @@
 		<zType>TEXT_HELPTEXT_APPLY</zType>
 		<de-DE>Bestätigen</de-DE>
 	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_SAVE</zType>
-		<de-DE>Speichern</de-DE>
-	</Entry>
 	<Entry>	
 		<zType>TEXT_HELPTEXT_CANCEL</zType>
 		<de-DE>Abbrechen</de-DE>
@@ -81,11 +77,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_NEWLINE</zType>
-		<de-DE><![CDATA[<br>{0}]]></de-DE>
+		<de-DE>{br}{0}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_NEWLINE_CONCAT_TWO</zType>
-		<de-DE><![CDATA[{0}<br>{1}]]></de-DE>
+		<de-DE>{0}{br}{1}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_DIVIDER_LINE</zType>
@@ -112,20 +108,8 @@
 		<de-DE>{0}:</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_ENTRY_COLON_TWO</zType>
-		<de-DE>{0}:{1}</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_ENTRY_COLON_SPACE</zType>
 		<de-DE>{0}: </de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_ENTRY_COLON_PREFIX</zType>
-		<de-DE>:{0}</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_ENTRY_COLON_SPACE_PREFIX</zType>
-		<de-DE>: {0}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_ENTRY_COLON_SPACE_ONE</zType>
@@ -188,10 +172,6 @@
 		<de-DE>{0} | {1}</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_SPACE_SLASH_THREE</zType>
-		<de-DE>{0} {1}/{2}</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_PARENTHESIS_MULTIPLIER</zType>
 		<de-DE> (x{0})</de-DE>
 	</Entry>
@@ -236,10 +216,6 @@
 		<de-DE>{true_0: (x{0_number})}</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_INDENTED_BULLET_LIST_BUILDER_FIRST</zType>
-		<de-DE>   icon(bullet){0}</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_INDENTED_BULLET_LIST_BUILDER</zType>
 		<de-DE>{0}{br}   icon(bullet){1}</de-DE>
 	</Entry>
@@ -266,10 +242,6 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_TURN</zType>
 		<de-DE>Zug</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_ERA_YEAR</zType>
-		<de-DE>{0_year} {true_1:n. Chr.:v. Chr}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LEADER_REIGN</zType>
@@ -304,10 +276,6 @@
 		<de-DE>{true_0:{lt}1%:{1}%}</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BRACKET_SELECT</zType>
-		<de-DE>{true_0:{gt}{1}{lt}:{1}}</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_TITLE</zType>
 		<de-DE><![CDATA[<style=H1>{0}</style>]]></de-DE>
 	</Entry>
@@ -329,7 +297,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_SIGNED_VALUE</zType>
-		<de-DE><![CDATA[<true_0>+<false><end>{1_value}<true_2>%<false><end>]]></de-DE>
+		<de-DE>{true_0:+}{1_value}{true_2:%}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_SENTENCE_CASE</zType>
@@ -581,10 +549,6 @@
 		<de-DE><![CDATA[{0_project}<true_1> (Wiederholen)<false><end>]]></de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_BUILD_QUEUE_PROJECT_COMPLETE</zType>
-		<de-DE>{0_projectQueue} Vollendet</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_DISCONTENT</zType>
 		<de-DE>Stufe {0_discontentLevel}</de-DE>
 	</Entry>
@@ -607,10 +571,6 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_TRIBE_SITES</zType>
 		<de-DE>Plätze</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_TRIBE_UNITS</zType>
-		<de-DE>Spezialeinheiten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_CHARACTER_TENDENCIES</zType>
@@ -657,10 +617,6 @@
 		<de-DE>Nächste Einheit</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_NEXT_DEVELOPMENT</zType>
-		<de-DE>Nächste Verbesserung</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_OPINION_PREFERENCES</zType>
 		<de-DE>Meinung Präferenzen</de-DE>
 	</Entry>
@@ -695,6 +651,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_ROLE_HEIR</zType>
 		<de-DE>Erbe (link(CONCEPT_SUCCESSION))</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_ROLE_ROYAL</zType>
+		<de-DE>Königlich</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_ROLE_RATING_YIELD</zType>
@@ -1042,25 +1002,17 @@
 		<zType>TEXT_HELPTEXT_WIDGET_SAVE</zType>
 		<de-DE>Speichere das Spiel {0_presskey}</de-DE>
 	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_SAVE_CLOUD</zType>
-		<de-DE>Speichere das Spiel in der Cloud</de-DE>
-	</Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_WIDGET_LOAD</zType>
         <de-DE>Lade das Spiel {0_presskey}</de-DE>
     </Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_LOAD_CLOUD</zType>
-		<de-DE>Lade das in der Cloud gespeicherte Spiel</de-DE>
-	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_SURRENDER</zType>
 		<de-DE>Gebe das aktuelle Spiel auf</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_KICK</zType>
-		<de-DE>[Shift+Klick] um Spieler zu kicken</de-DE>
+		<de-DE>{TEXT_HOTKEY_SHIFT_CLICK} um Spieler zu kicken</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_MAP_OVERVIEW</zType>
@@ -1073,10 +1025,6 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_VICTORY_SCREEN</zType>
 		<de-DE><![CDATA[Zeige Siegbedingungen{true_0:<br>{0_presskey}}]]></de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_RELIGION_SCREEN</zType>
-		<de-DE><![CDATA[Zeige Religionen{true_0:<br>{0_presskey}}]]></de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_INHERITANCE_SCREEN</zType>
@@ -1378,14 +1326,6 @@
 		<de-DE>Aktive Religion(en): </de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_STATE_RELIGION_CURRENT</zType>
-		<de-DE>Reich: {0_religion}{true_1: ({1_city})}</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_STATE_RELIGION_ITEM</zType>
-		<de-DE>{0_religion}{true_1: ({1_city})}{true_2: (Reich)}</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TRADE_LUXURY_SEND</zType>
 		<de-DE>Sende {0_luxury} an {1_link}</de-DE>
 	</Entry>
@@ -1465,15 +1405,7 @@
 		<zType>TEXT_HELPTEXT_WIDGET_HURRY_POPULATION</zType>
 		<de-DE>Beschleunige {0} für {1_number} {singular_1:{2,0_citizenLink}:{2,2_citizenLink}} und {3_yield}</de-DE>
 	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_PLAYER_NATION_CAPITAL_CITY</zType>
-		<de-DE>Hauptstadt: {0_city}</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_TABPANEL_COURT_MEMBERS</zType>
-		<de-DE>Hof Vertraute:</de-DE>
-	</Entry>
-  <Entry>
+    <Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TABPANEL_OTHER_CHARACTERS</zType>
 		<de-DE>Andere Charaktere:</de-DE>
 	</Entry>
@@ -1520,10 +1452,6 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_RIGHT_CLICK_MISSIONS</zType>
 		<de-DE><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> um mögliche Missionen anzuzeigen]]></de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_PLAYER_LEGITIMACY_SHOW_INHERITANCE</zType>
-		<de-DE>Klicken zum anzeigen der Erbschaft</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_NO_CANDIDATES</zType>
@@ -1933,10 +1861,6 @@
 		<de-DE>Halte [{0_key}] um alle link(CONCEPT_ROAD,2) und link(CONCEPT_RIVER,2) zu sehen.</de-DE>
 	</Entry>
 	<Entry>
-        <zType>TEXT_HELPTEXT_WIDGET_CANCEL_ROAD_TO_KEY</zType>
-        <de-DE><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> um "Verbundene Städte" Modus abzubrechen]]></de-DE>
-    </Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_CANCEL_IMPROVEMENT</zType>
 		<de-DE><![CDATA[{0_improvementLink} abbrechen<br>Jeglicher Forschritt wird verloren gehen!]]></de-DE>
 	</Entry>
@@ -2225,10 +2149,6 @@
 		<de-DE>{0,1_improvement} fertiggestellt</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_IMPROVEMENT_PILLAGED</zType>
-		<de-DE>Geplündert von {0,1_unit}</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_WONDER_FINISHED</zType>
 		<de-DE>Bau von {0,1_improvement} hat begonnen.{true_1: (Wert {1} SP)}</de-DE>
 	</Entry>
@@ -2283,10 +2203,6 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TECH_DECK</zType>
 		<de-DE>Technologie Kartenstapel:</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_POPULATION</zType>
-		<de-DE>Stadtbevölkerung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_INHERITANCE_TREE_LEADER_FUTURE_LEADER</zType>
@@ -3024,10 +2940,6 @@ Ihre Vorlieben geben vor welche link(CONCEPT_AMBITION,2) du nachgehen kannst. De
 		<de-DE>link(UNIT_SCOUT,2), link(UNIT_SETTLER,2) und link(UNIT_WORKER,2) können eine Ressource sammeln für einen schnellen Vorrat von Gütern. Die Ressource kann nicht nocht einmal gesammelt werden bis sie zufällig neu erscheint.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HARVEST_RESOURCE</zType>
-		<de-DE>Diese {0_resource} wurde gesammelt und kann nicht wieder gesammelt werden bis es zufällig wieder aufgefüllt wurde.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_PILLAGE</zType>
 		<de-DE>Military Units can disable link(CONCEPT_IMPROVEMENT,2) by pillaging them. When an Improvement is pillaged by a Unit with a Nation, Resources are added to that Nation's stockpile. Once pillaged, an Improvement will not grant any Resource yields or other bonuses until repaired by a link(UNIT_WORKER). If left in a Pillaged state, an Improvement will eventually be lost.</de-DE>
 	</Entry>
@@ -3466,20 +3378,12 @@ link(CONCEPT_IDLE) Disciples produce a small Yield amount if positioned on an li
 		<de-DE>Klicke um Stamm auszuwählen</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_SELECT_CHARACTER</zType>
-		<de-DE>Klicke um Charakter auszuwählen.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_SELECT_CITY</zType>
 		<de-DE>Klicke um Stadt auszuwählen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_SELECT_FAMILY</zType>
 		<de-DE>Klicke um Familie auszuwählen.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_SELECT_UNIT</zType>
-		<de-DE>Klicke um Einheit auszuwählen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_SPECIALIST_CLASS_TYPES</zType>
@@ -3773,10 +3677,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>(Benötigt {0_tech})</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_RECENTLY_SEEN</zType>
-		<de-DE>Vor kurzem gesehen: </de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_DEBUG_TAGS</zType>
 		<de-DE>Schlagwörter: {0}</de-DE>
 	</Entry>
@@ -3788,10 +3688,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_NET_RESEARCHING</zType>
 		<de-DE>Forschung: {0_tech}{1_progress}</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_YIELD_NET_CITY_SUBTRACT_LIST_ITEM</zType>
-		<de-DE> ({0_yield})</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_NET_TRADE_TO_PLAYER</zType>
@@ -3812,10 +3708,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_NET_TRIBUTE_FROM_PLAYER</zType>
 		<de-DE>{0}: Tribut von {1_player} {2_turns}</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_YIELD_NET_UNIT_CONSUMPTION</zType>
-		<de-DE>{0}: {1consumptionLink}{true_2: ({2}x)}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_YIELD_NET_AS</zType>
@@ -3995,10 +3887,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TECH_LEADS_TO</zType>
 		<de-DE>Führt zu {LIST}</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_TECH_BONUS_CARDS</zType>
-		<de-DE>Bonus {singular_LIST-COUNT:Karte:Karten}: {LIST}</de-DE>
 	</Entry>
 	<!--Improvement Tooltip-->
 	<Entry>
@@ -4197,10 +4085,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_PRODUCTION</zType>
 		<de-DE>Benötigt: {0} {1_yield}</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_PRODUCTION_TRAINING</zType>
-		<de-DE>Benötigt: {0} {YIELD_TRAINING}link(YIELD_TRAINING)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_UPGRADES_FROM</zType>
@@ -4692,10 +4576,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_YEAR</zType>
 		<de-DE>{LIST}/{0_turnScale}</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_IN_CITY</zType>
-		<de-DE>{0} in {1_city}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_POPULATION</zType>
@@ -5422,23 +5302,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<zType>TEXT_HELPTEXT_CITY_ACTIONS_GIFT_TO</zType>
 		<de-DE>Schenke an {0_player}</de-DE>
 	</Entry>
-	<!--City Selection-->
-	<Entry>
-		<zType>TEXT_HELPTEXT_CITY_SELECTION_CHOOSE_GOVERNOR</zType>
-		<de-DE>Wähle link(CONCEPT_GOVERNOR)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_CITY_SELECTION_GOVERNOR</zType>
-		<de-DE>link(CONCEPT_GOVERNOR)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_CITY_SELECTION_FAMILY_OPINION</zType>
-		<de-DE>Familie: {0_family}{true_1: ({1_opinion})}</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_CITY_SELECTION_CITIZENS_NO_NUM</zType>
-		<de-DE>{singular_0:Bürger:Bürger}</de-DE>
-	</Entry>
 	<!--City Yield Progress-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_CITY_YIELD_PROGRESS_GROWTH</zType>
@@ -5462,32 +5325,8 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
         <de-DE>{0_turnsLeft}{1_turnScale}</de-DE>
     </Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_SHOW_CHOOSE_RESEARCH_POPUP_TECH_WITH_OTHER_TECHS</zType>
-		<de-DE>{0_tech} (mit {1_techList})</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_SHOW_CHOOSE_RESEARCH_POPUP_DESC_UNLOCKS</zType>
 		<de-DE>Entsperrt...</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_SHOW_CHOOSE_RESEARCH_POPUP_DESC_DISCOVER_BONUS</zType>
-		<de-DE>[Entdeckungsbonus] </de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_SHOW_CHOOSE_RESEARCH_POPUP_DESC_UNLOCKS_PROJECT</zType>
-		<de-DE>{0_project} ({1_link})</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_SHOW_CHOOSE_RESEARCH_POPUP_DESC_UNLOCKS_UNIT</zType>
-		<de-DE>{0_unit} (Unit)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_SHOW_CHOOSE_RESEARCH_POPUP_DESC_UNLOCKS_IMPROVEMENT_CLASS</zType>
-		<de-DE>{0_improvementClass} Verbesserungen</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_SHOW_CHOOSE_RESEARCH_POPUP_DESC_UNLOCKS_LAW</zType>
-		<de-DE>{0_law} (Gesetz)</de-DE>
 	</Entry>
 	<!--Bonus Help-->
 	<Entry>
@@ -5587,10 +5426,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>Tribut an {0_opponent}: {1_yieldList} für {2_years} {3_turnScale}</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BONUS_CHANGE_DIPLOMACY</zType>
-		<de-DE>Übernehme {0_religion} als link(CONCEPT_STATE_RELIGION)</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_FREE_BUILD</zType>
 		<de-DE>Bekomme {0}</de-DE>
 	</Entry>
@@ -5675,10 +5510,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>Entsagt dem Thron (Neues Oberhaupt: {true_0:{0_leader}:Niemand})</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_BONUS_WILL_DIE</zType>
-		<de-DE>Wird bald sterben</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_CONVERT_UNIT</zType>
 		<de-DE>{0_unit} konvertiert zu {1_player}</de-DE>
 	</Entry>
@@ -5729,10 +5560,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_RAZE_CITY</zType>
 		<de-DE>{0_city} ist zerstört</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_BONUS_VICTORY</zType>
-		<de-DE>{0_victory} Sieg</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_JOIN_COURTIER_GENDER</zType>
@@ -5846,10 +5673,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_COUNCIL_CHARACTER_OPINION</zType>
 		<de-DE>{0} link(CONCEPT_OPINION_CHARACTER,1)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_MAKE_COUNCIL_CHARACTER_SLIGHTED</zType>
-		<de-DE>{0} zu ersetzen wird link(TRAIT_SLIGHTED) hinzufügen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_COUNCIL_MISSIONS</zType>
@@ -6422,14 +6245,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>{0_value}: Pro {1_effect}</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_MOST_CITIES</zType>
-		<de-DE>{0_value}: Meisten Städte</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_FEWEST_CITIES</zType>
-		<de-DE>{0_value}: Wenigsten Städte</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILY_CITIES_NO_RELIGION</zType>
 		<de-DE>{0_value}: Städte ohne Religion</de-DE>
 	</Entry>
@@ -6575,10 +6390,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<zType>TEXT_HELPTEXT_TILE_ADD_ROAD_BUTTON</zType>
 		<de-DE>Errichte Straße</de-DE>
 	</Entry>
-	<Entry>
-        <zType>TEXT_HELPTEXT_TILE_ADD_ROAD_TO_BUTTON</zType>
-        <de-DE>Füge Stdtverbindung hinzu </de-DE>
-    </Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_WIDGET_ROAD_TO</zType>
         <de-DE>Verbindet das derzeitige Feld mit dem ausgewählten Feldnetzwerk und benutzt den kürzesten Weg</de-DE>
@@ -6652,10 +6463,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>Gründe {0,1_religionAdj} {1_theology}</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_TILE_ESTABLISH_THEOLOGY_BUTTON</zType>
-		<de-DE>Gründe Religionswissenschaft</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_SPREAD_RELIGION_BUTTON</zType>
 		<de-DE>{0_religion} ausdehnen</de-DE>
 	</Entry>
@@ -6681,20 +6488,8 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	</Entry>
 	<!--ReligionPopup-->
 	<Entry>
-		<zType>TEXT_HELPTEXT_RELIGION_POPUP_ADOPT</zType>
-		<de-DE>Übernehme {0_religion}</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_ADOPT_REQUIREMENT</zType>
 		<de-DE>Jede Stadt mit {0_religion}</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_RELIGION_REQUIREMENTS_HEADER</zType>
-		<de-DE>Benötigt</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_RELIGION_STATE_HEADER</zType>
-		<de-DE>Als Staatsreligion</de-DE>
 	</Entry>
 	<!--Resource Help-->
 	<Entry>
@@ -6756,10 +6551,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>{0}: x{1}</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_SPECIALIST_FROM_RESOURCE</zType>
-		<de-DE>Von {0_resource}: {1}</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_SPECIALIST_SPREAD_BORDERS</zType>
 		<de-DE>Breitet Grenzen aus</de-DE>
 	</Entry>
@@ -6794,14 +6585,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_SUCCESSION_NO_HEIR</zType>
 		<de-DE>Kein Erbe</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_TAB_PANEL_CHARACTERS_SPOUSES</zType>
-		<de-DE>Ehepartner: </de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_TAB_PANEL_CHARACTERS_HEIRS</zType>
-		<de-DE>Erbe(n): </de-DE>
 	</Entry>
 	<!--Theology Help-->
 	<Entry>
@@ -6904,10 +6687,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_LEADER_STATS</zType>
 		<de-DE>Stastik(en):</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_CHARACTER_EFFECT_IF_LEADER</zType>
-		<de-DE>Wenn Oberhaupt, {0}</de-DE>
 	</Entry>
 	<!--Character Help-->
 	<Entry>
@@ -7268,16 +7047,8 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>Schnellladen</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_SAVE_TO_CLOUD</zType>
-		<de-DE>In die Gloud speichern</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_LOAD_GAME_BUTTON</zType>
 		<de-DE>Spiel laden</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_LOAD_FROM_CLOUD</zType>
-		<de-DE>Von Cloud laden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_NOTIFICATION_EMAIL</zType>
@@ -7292,14 +7063,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>Wiederhole das gesamte Spiel</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_DEBUG_DISABLE_REPLAY_BUTTON</zType>
-		<de-DE>Deaktiviere gesammte Wiederholung</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_DEBUG_ENABLE_REPLAY_BUTTON</zType>
-		<de-DE>Aktiviere gesammte Wiederholung</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_DEBUG_AUTO_NEXT_TURN_BUTTON</zType>
 		<de-DE>Auto-play nächsten Zug</de-DE>
 	</Entry>
@@ -7312,16 +7075,8 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>Spiel Editor</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_CHANGE_PLAYER_INFO_BUTTON</zType>
-		<de-DE>Ändere Spieler informationen</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_OPTIONS_BUTTON</zType>
 		<de-DE>Optionen</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_HELP_BUTTON</zType>
-		<de-DE>Hilfe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_SURRENDER_BUTTON</zType>
@@ -7503,10 +7258,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<zType>TEXT_HELPTEXT_POPUP_CUSTOM_MAP_OPTIONS</zType>
 		<de-DE>Benutzerdef. Karten Optionen</de-DE>
 	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_POPUP_FAMILY_TREE_ROAL_LINE</zType>
-		<de-DE>link(CONCEPT_ROYAL) Linie</de-DE>
-	</Entry>
 	<!--HelpScreenPanel-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_HELPSCREEN_CONSUMES</zType>
@@ -7611,10 +7362,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HELPSCREEN_RELIGIONS</zType>
 		<de-DE>{singular_0:Religion:Religionen}</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_HELPSCREEN_LEADERS</zType>
-		<de-DE>{singular_0:Anführer:Anführer}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_HELPSCREEN_CHARACTERS</zType>
@@ -7967,10 +7714,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_TRIBE_LUXURY</zType>
 		<de-DE>Benötigt {0} {1_resource} {singular_0:{2_luxuryLink}:{2,2_luxuriesLink} an Stämme gesendet}</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_FAMILY_LUXURY</zType>
-		<de-DE>Benötigt {0} {1_resource} {singular_0:{2_luxuryLink}:{2,2_luxuriesLink} an Familien gesendet}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_GOAL_HELP_REQUIRES_CITIES_CULTURE</zType>

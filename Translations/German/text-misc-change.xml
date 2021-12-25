@@ -10,10 +10,6 @@
 		<de-DE>Mohawk Games stellt ein!</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MAINMENU_HIRING_NOTICE_GRAPHICS</zType>
-		<de-DE><![CDATA[<i>Graphics Engineer</i>]]></de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_TRIBE_ADJECTIVE</zType>
 		<de-DE>{0,1_TribeAdjective}</de-DE>
 	</Entry>
@@ -59,16 +55,8 @@
 		<de-DE>[SHIFT+KLICK]</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HOTKEY_ALT_CLICK</zType>
-		<de-DE>[ALT+KLICK]</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HOTKEY_CTRL_SHIFT_CLICK</zType>
 		<de-DE>[STRG+SHIFT+KLICK]</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HOTKEY_CTRL_ALT_CLICK</zType>
-		<de-DE>[STRG+ALT+KLICK]</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_SHIFT</zType>

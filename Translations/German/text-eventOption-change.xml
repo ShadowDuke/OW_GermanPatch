@@ -10,10 +10,6 @@
 		<de-DE><![CDATA[Behalte die Ursprüngliche link(DIPLOMACY_TRUCE).]]></de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_DISCERNING_JUDGMENT_JUDGE_HELP</zType>
-		<de-DE><![CDATA[Das könnte helfen ihren Stamm zu stabiliseren, fürs Erste]]></de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_PLAYER_TRUCE_HOSTAGE_YES</zType>
 		<de-DE>Wir werden die Geisel zurückgeben um den Krieg zu beenden.</de-DE>
 	</Entry>
@@ -550,10 +546,6 @@
 		<de-DE><![CDATA[Niemand soll nehmen was Unser ist.]]></de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_TRAIT_COLLISION_COURSE_OPTION_2</zType>
-		<de-DE><![CDATA[Ich werde {CHARACTER-SHORT-1} überzeugen sich zurückzuziehen.]]></de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_ENABLERS_OPTION_0</zType>
 		<de-DE><![CDATA[Ich begehre lüsterne Männer und Frauen!]]></de-DE>
 	</Entry>
@@ -794,9 +786,6 @@
 		<de-DE>I will try to better myself for his cause.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTIONS_LEGENDS_OF_MITHRA_0_COPY</zType>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_HOUSE_OF_SONG_1</zType>
 		<de-DE>My palace is at least equal. </de-DE>
 	</Entry>
@@ -1005,10 +994,6 @@
 		<de-DE>Fange an sie aufzuschreiben.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_RITUAL_AND_LIFE_1</zType>
-		<de-DE>Wir werden sehen wie es sich entwickelt.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_RITUAL_AND_LIFE_2</zType>
 		<de-DE>Weigern solchen Gesetzen zu folgen.</de-DE>
 	</Entry>
@@ -1109,18 +1094,12 @@
 		<de-DE>{RELIGION-0} sounds intriguing.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_ZOROASTRIANISM_FOUNDED_THEM_1</zType>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_ZOROASTRIANISM_FOUNDED_THEM_2</zType>
 		<de-DE>This is of no interest to {PLAYER-2}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_JUDAISM_FOUNDED_THEM_0</zType>
 		<de-DE>Send the scribe back to learn more of their ways.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_JUDAISM_FOUNDED_THEM_1</zType>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_JUDAISM_FOUNDED_THEM_2</zType>
@@ -1131,18 +1110,12 @@
 		<de-DE>Frage den Apostel ob er dir mehr beibringen kann.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_CHRISTIANITY_FOUNDED_THEM_1</zType>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_CHRISTIANITY_FOUNDED_THEM_2</zType>
 		<de-DE>Inhaftiere den Apostel.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MANICHAEISM_FOUNDED_THEM_0</zType>
 		<de-DE>Stelle Kontakt mit der {RELIGION-0,3} her.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_MANICHAEISM_FOUNDED_THEM_1</zType>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MANICHAEISM_FOUNDED_THEM_2</zType>
@@ -1361,9 +1334,6 @@
 		<de-DE>Lass den Markt auf natürliche Weise wachsen.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_TEMPLE_MARKET_2</zType>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_LAME_AND_SICK_0</zType>
 		<de-DE>Give the finest of the shepherds flocks to the priests.</de-DE>
 	</Entry>
@@ -1414,14 +1384,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HOLY_MATRIMONY_2</zType>
 		<de-DE>They are right, your duty is to {PLAYER-3}.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_MEDICAL_AID_3</zType>
-		<de-DE>Diese Kräter werden {G1:seine:ihre} Schmerzen lindern...</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_PIT_STUDY_HELP</zType>
-		<de-DE>Rufe einen Wissenschaftler!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_THE_WEIGHT_OF_DEBT_0</zType>
@@ -1580,14 +1542,6 @@
 		<de-DE>Refuse to aid {CHARACTER-SHORT-1} or {G1:his:her} god.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_HIGH_PRIESTHOOD_0</zType>
-		<de-DE>Support the {FAMILY-2} family and the Kohen.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_HIGH_PRIESTHOOD_1</zType>
-		<de-DE>Encourage the training of the Rabbis.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_EL_YAHWEH_BAAL_0</zType>
 		<de-DE>Vielleicht ist Gott nicht das einzige göttliche Wesen. </de-DE>
 	</Entry>
@@ -1734,10 +1688,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBAL_TRAINING_0</zType>
 		<de-DE>Never! The {TRIBE-0} cannot be trusted.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_TRIBAL_TRAINING_1</zType>
-		<de-DE>He will go, but with a royal guard.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBAL_TRAINING_2</zType>
@@ -2024,10 +1974,6 @@
 		<de-DE>No, this is just the start.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_INFLUENCE_OF_RELIGION_HEAD_0_HELP</zType>
-		<de-DE>You will owe {CHARACTER-3} a favor.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_SLAVERY_OPTION_TYRANNY</zType>
 		<de-DE>We must bolster our power over the people.</de-DE>
 	</Entry>
@@ -2298,9 +2244,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INTERCESSION_FAMILY_UNITED_2</zType>
 		<de-DE>They are not worth my time.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_INTERCESSION_FAMILY_UNITED_3</zType>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CHILDHOOD_FRIENDS_0</zType>
@@ -2613,10 +2556,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_DEMAND_TRIBUTE_MERCY_AGREE</zType>
 		<de-DE>Very well, let them off.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_DEMAND_TRIBUTE_MERCY_REJECT</zType>
-		<de-DE>No, they must pay.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_DEMAND_TRIBUTE_COUNTER_OFFER</zType>
@@ -3615,9 +3554,6 @@
 		<de-DE>Return his head to {CHARACTER-0}.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_SUCCESSION_THEM_AGENT_3</zType>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_SUCCESSION_THEM_HONOR_0</zType>
 		<de-DE>The statue will be made.</de-DE>
 	</Entry>
@@ -3930,10 +3866,6 @@
 		<de-DE>I will carve my own path.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_YOUNG_RULER_REJECT_HELP</zType>
-		<de-DE>I will learn from my own experiences.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_YOUNG_RULER_TUTOR_0_HELP</zType>
 		<de-DE>A disciplined education could give the push I need</de-DE>
 	</Entry>
@@ -4144,9 +4076,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_TECHNICAL_LORE_1</zType>
 		<de-DE>{CHARACTER-SHORT-1} has others for that knowledge.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_STUDY_DIRE_WARNING_YES</zType>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_DIRE_WARNING_COMMERCE</zType>
@@ -4524,12 +4453,6 @@
 		<de-DE>Let {PLAYER-1} know of the impending danger.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_DEMANDS_OF_FAITH_0</zType>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_DEMANDS_OF_FAITH_1</zType>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_BIAS_OF_FAITH_0</zType>
 		<de-DE>{CHARACTER-SHORT-2} is {PLAYER-1}’s puppet.</de-DE>
 	</Entry>
@@ -4650,22 +4573,6 @@
 		<de-DE>Sadly, I already have commitments and must decline your offer.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_PLOTTING_FOR_LUST_0</zType>
-		<de-DE>What is one more lover anyway?</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_PLOTTING_FOR_LUST_1</zType>
-		<de-DE>I'll kill you myself.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_PLOTTING_FOR_LUST_2</zType>
-		<de-DE>Of course. Join me in my chambers for a drink later!</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_PLOTTING_FOR_LUST_3</zType>
-		<de-DE>I would sooner die than love you.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_PARTED_BY_DEATH_0</zType>
 		<de-DE>Close up the loose end.</de-DE>
 	</Entry>
@@ -4738,10 +4645,6 @@
 		<de-DE>If it’s a fight {G0:he:she} wants…</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_DOGGY_DIPLOMACY_TERROR_HELP</zType>
-		<de-DE>I will show you true terror.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_PARTY_TIME_1_HELP</zType>
 		<de-DE>And I hope we can continue where we left off...</de-DE>
 	</Entry>
@@ -4764,10 +4667,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_ARROW_TO_THE_LEG_0_HELP</zType>
 		<de-DE>Or perhaps some time with the city guard?</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_CHILD_NEW_THOUGHTS_DEFEND_HELP</zType>
-		<de-DE>And I will fight to defend it!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_BRUTAL_HEIR_OPTION_2_HELP</zType>
@@ -4816,10 +4715,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_WILD_REVELS_SUBJECT_1</zType>
 		<de-DE>Do your worst.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_TRAIT_WILD_REVELS_STATUE_0_HELP</zType>
-		<de-DE>Word of this must never get out.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ON_GOOD_AUTHORITY_OPTION_2</zType>
@@ -5582,10 +5477,6 @@
 		<de-DE>Wir sollten die Grube studieren.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_RUINS_COMET_SIGHTEDE_OMEN</zType>
-		<de-DE>Es ist ein Omen!</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_COMET_SIGHTED_SCIENCE</zType>
 		<de-DE>Eine faszinierende Beobachtung!</de-DE>
 	</Entry>
@@ -5600,10 +5491,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_TERRIFYING_EMISSARY_TRUCE</zType>
 		<de-DE>Perhaps tribute can buy peace?</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_TERRIFYING_EMISSARY_TRUCE_HELP</zType>
-		<de-DE>Maintain the initial link(DIPLOMACY_TRUCE).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_TERRIFYING_EMISSARY_WAR</zType>
@@ -5772,10 +5659,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_THE_LAND_OF_THE_MIDNIGHT_SUN_FOLLOWUP_OPTION_1</zType>
 		<de-DE>Go on exploring elsewhere.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_THE_LAND_OF_THE_MIDNIGHT_SUN_FOLLOWUP_OPTION_2</zType>
-		<de-DE>Just come home without any locals in tow.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MONSTERS_OF_THE_DEEP_FOLLOWUP_OPTION_0</zType>
@@ -6832,10 +6715,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_PEACEFUL_EMISSARY_TRUCE</zType>
 		<de-DE>I shall meet smiles with smiles.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_PEACEFUL_EMISSARY_TRUCE_HELP</zType>
-		<de-DE>Maintain the initial link(DIPLOMACY_TRUCE).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_PEACEFUL_EMISSARY_DEAL</zType>
@@ -8510,10 +8389,6 @@
 		<de-DE>Your grievances do not justify bloodshed.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_DIPLO_OFFER_FAMILY_RELIGION_WAR_AMBITION</zType>
-		<de-DE>I will commit to the fight.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_DIPLO_OFFER_FAMILY_LAW_DENOUNCE_YES</zType>
 		<de-DE>The court will denounce {PLAYER-0}.</de-DE>
 	</Entry>
@@ -9193,10 +9068,6 @@
 		<de-DE>We must remember all those who died so we could see this day.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_PLAYER_CONTACT_TRUCE_COPY</zType>
-		<de-DE>Keep the meeting civil, but that is all.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_MAINTAIN_TRUCE_HELP_COPY</zType>
 		<de-DE>Maintain the initial link(DIPLOMACY_TRUCE).</de-DE>
 	</Entry>
@@ -9219,10 +9090,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_HEAD_COLLECTION_CRUEL_HELP</zType>
 		<de-DE>Maintain the initial link(DIPLOMACY_TRUCE).</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_PLAYER_CONTACT_MEMORY_ARCH_SAME</zType>
-		<de-DE>Send a gift!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_A_FRIENDLY_WARNING_ACCEPT</zType>
@@ -9913,10 +9780,6 @@
 		<de-DE>Ha! No. I'll not die like a fool. </de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_DUEL_OF_MONARCHS_OPTION_2</zType>
-		<de-DE>{CHARACTER-SHORT-5}, let us send a gift in return. </de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_SPOLIA_OPIMA_CRIPPLED_OPTION_0</zType>
 		<de-DE>Draw your sword and fight through the pain! </de-DE>
 	</Entry>
@@ -9951,10 +9814,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_SPOLIA_OPIMA_RIVER_OPTION_1</zType>
 		<de-DE>Steady stance! Forward one step at a time!</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_SPOLIA_OPIMA_RIVER_OPTION_1_HELP</zType>
-		<de-DE>Come on! You don't want to die here! Fight!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_SPOLIA_OPIMA_RIVER_OPTION_2</zType>
@@ -16789,14 +16648,6 @@
 		<de-DE>Perhaps I deserved that.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_LEADER_LOVED_OPTION_0</zType>
-		<de-DE>OK</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_LEADER_LOVED_OPTION_1</zType>
-		<de-DE>NO</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_LEADER_LOVED_LOVE_POEM_ACCEPT</zType>
 		<de-DE>That was beautiful, just like you!</de-DE>
 	</Entry>
@@ -16911,10 +16762,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_LEADER_LOVED_MARKSMAN_DECLINE</zType>
 		<de-DE>Your arms are too thin.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_LEADER_LOVED_MARKSMAN_DECLINE_HELP</zType>
-		<de-DE>Perhaps a small horn bow? No, impossible!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_LEADER_LOVED_BRAVE_BOAST_ACCEPT</zType>
@@ -18068,24 +17915,8 @@
 		<de-DE>Of course I do! </de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_LEADER_LOVED_BOTH_WANTON_ACCEPT_COPY</zType>
-		<de-DE>Of course I do! </de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_LEADER_LOVED_BOTH_WANTON_DECLINE_SPOUSE</zType>
-		<de-DE>I love your body!</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_LEADER_LOVED_BOTH_WANTON_DECLINE_HELP_COPY_2</zType>
 		<de-DE>Wait! Come back and untie me!</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_LEADER_LOVED_BOTH_WANTON_DECLINE_HELP_COPY_3</zType>
-		<de-DE>Wait! Come back and untie me!</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_LEADER_LOVED_BOTH_WANTON_DECLINE_COPY_2</zType>
-		<de-DE>I love your body!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_LEADER_LOVED_BOTH_FOOLISH_ACCEPT_SPOUSE</zType>
@@ -19274,10 +19105,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HOSTAGE_SITUATION_OPTION_0</zType>
 		<de-DE>Guards! Guards! Kill this assassin!</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_HOSTAGE_SITUATION_OPTION_0_HELP</zType>
-		<de-DE>{G2:He:she} was an unforeseen casualty.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_HOSTAGE_SITUATION_OPTION_1</zType>
@@ -21942,10 +21769,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_AGE_OF_EXPANSION_OPTION_2</zType>
 		<de-DE>We must discover new advancements and dedicate ourselves to improving lives.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_AGE_OF_EXPANSION_OPTION_3</zType>
-		<de-DE>Eh, we can't really do anything right now.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_ERA_OF_NOBILITY_OPTION_0</zType>

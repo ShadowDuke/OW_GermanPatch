@@ -25,10 +25,6 @@
 		<zType>TEXT_GENERIC_NONE</zType>
 		<de-DE>Nichts</de-DE>
 	</Entry>
-    <Entry>
-        <zType>TEXT_UI_INPUT_MAX_CHARACTERS</zType>
-        <de-DE> (Max Charaktere: {0})</de-DE>
-	</Entry>
 	<Entry>
 		<zType>TEXT_UI_FAILED_LOAD_LOCKED_SAVE</zType>
 		<de-DE>Failed to load save. Specified file is either invalid or was started with the "Locked Save" option enabled and the file has subsequently been modified</de-DE>
@@ -379,10 +375,6 @@
 		<de-DE>Fortschritt: {0}</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_TECH_TOOLTIP_LEADS_TO_WITH</zType>
-		<de-DE>{0_tech} (with {LIST})</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_BASE</zType>
 		<de-DE>Grundwert</de-DE>
 	</Entry>
@@ -407,10 +399,6 @@
 		<de-DE>Land-vs-Wasser</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_SETTLEMENT</zType>
-		<de-DE>Kolonie</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_AI_MODIFIER</zType>
 		<de-DE>KI vs. {0}</de-DE>
 	</Entry>
@@ -427,20 +415,12 @@
 		<de-DE>Verteidigung</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_KILLING_BLOW</zType>
-		<de-DE>Detaliert</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_FORTIFY</zType>
 		<de-DE>Verschanzen</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_TESTUDO_ENEMY</zType>
-		<de-DE>:Schildkröte</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_FAMILY_TERRITORY</zType>
-		<de-DE>Familien Gebiet:</de-DE>
+		<de-DE>{0_family} Gebiet:</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_CRITICAL_CHANCE</zType>
@@ -461,10 +441,6 @@
 	<Entry>
 		<zType>TEXT_UI_TECH_PANEL_TECH_DISCOVERED</zType>
 		<de-DE>{0} Entdeckt</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_UI_TECH_PANEL_RESEARCH_TECH</zType>
-		<de-DE>Forschung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_TECH_PANEL_CHOOSE_RESEARCH</zType>
@@ -491,10 +467,6 @@
 		<de-DE>Beschleunige Produktion</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_CHARACTER_SELECTION_FAMILY</zType>
-		<de-DE>Familie: {0}</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_UI_CHARACTER_SELECTION_COURTIER</zType>
 		<de-DE>Vertrauter</de-DE>
 	</Entry>
@@ -509,10 +481,6 @@
 	<Entry>
 		<zType>TEXT_UI_CHARACTER_SELECTION_CITY_AGENT</zType>
 		<de-DE>Agent: {0}</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_UI_CHARACTER_SELECTION_RATINGS_TITLE</zType>
-		<de-DE>Bewertungen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ACTIONS_WAKE</zType>
@@ -557,10 +525,6 @@
 	<Entry>
 		<zType>TEXT_UI_CITY_ACTIONS_PRODUCTION_CATEGORY_TRAINING</zType>
 		<de-DE>Training</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_UI_CITY_ACTIONS_PRODUCTION_CATEGORY_CIVICS</zType>
-		<de-DE>Verwaltung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CITY_ACTIONS_PRODUCTION_CATEGORY_PROJECTS</zType>
@@ -615,10 +579,6 @@
 		<de-DE>{0} zurück geben</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_FAMILY_ACTIONS_TRADE_AND_LUXURIES_TITLE</zType>
-		<de-DE>Handel und link(CONCEPT_LUXURY)</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_UI_FAMILY_HEAD</zType>
 		<de-DE>Familienoberhaupt</de-DE>
 	</Entry>
@@ -645,10 +605,6 @@
 	<Entry>
 		<zType>TEXT_UI_UPGRADE_TO</zType>
 		<de-DE>Aufwerten zu {0}</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_UI_RELIGION_PANEL_STATE_RELIGION</zType>
-		<de-DE>{0} (Staats)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_GOAL_PANEL_YEARS_LEFT_LEGACY</zType>
@@ -679,12 +635,16 @@
 		<de-DE>Löschen</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_TEXT_LOCAL_TIME</zType>
+		<de-DE>{0} ({1_time})</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_TURN_TEXT_YEAR</zType>
-		<de-DE><![CDATA[Jahr {0}<true_1> ({1})<false><end><true_2> ({2_time})<false><end>]]></de-DE>
+		<de-DE>Jahr {0}{true_1: / {1}}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_TURN_TEXT_SCALE</zType>
-		<de-DE><![CDATA[{0}, Jahr {1}<true_2> ({2} Turns)<false><end><true_3> ({3_time})<false><end>]]></de-DE>
+		<de-DE>{0}, Jahr {1}{true_2: ({2} Züge)}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_TURN_TEXT_TURN_MAX</zType>
@@ -712,7 +672,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MAX_CITIES</zType>
-		<de-DE><![CDATA[Max <singular_1>Stadt<plural>Städte<end>: {0}/{1}]]></de-DE>
+		<de-DE>Max {singular_1:Stadt:Städte}: {0}/{1}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_RENAME_CITY_POPUP</zType>
@@ -1043,10 +1003,6 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
 		<zType>TEXT_UI_RELIGION_NOT_FOUNDED</zType>
 		<de-DE>Noch nicht gegründet</de-DE>
 	</Entry>
-	<Entry>
-        <zType>TEXT_UI_SELECTED_RELIGION_ADOPT_BUTTON</zType>
-        <de-DE>Übernehme {0}</de-DE>
-    </Entry>
     <Entry>
         <zType>TEXT_UI_SELECTED_RELIGION_FOLLOWERS</zType>
         <de-DE>Anhänger</de-DE>
@@ -1152,10 +1108,6 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	<Entry>
 		<zType>TEXT_MENU_SCREEN_NEWSLETTER_INPUT</zType>
 		<de-DE>Enter email and submit...</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MENU_SCREEN_NEWSLETTER_SUBSCRIBE_SUCCESS</zType>
-		<de-DE>Subscription Successful!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MENU_SCREEN_NEWSLETTER_SUBSCRIBE_FAILURE</zType>
@@ -1286,11 +1238,6 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_TUTORIALS</zType>
 		<de-DE>Tutorials</de-DE>
 	</Entry>
-    <!-- selected-city -->
-    <Entry>
-        <zType>TEXT_GIFT_CITY_TEAMMATE</zType>
-        <de-DE>Schenke Stadt</de-DE>
-    </Entry>
     <!-- selected-worker-->
     <Entry>
         <zType>TEXT_WORKER_FILTERS_LABEL</zType>
@@ -1381,10 +1328,6 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
         <de-DE>Spiel Laden</de-DE>
     </Entry>
     <Entry>
-        <zType>TEXT_MP_MENU_SCREEN_CLOUD_BUTTON</zType>
-        <de-DE>Cloud Laden</de-DE>
-    </Entry>
-    <Entry>
         <zType>TEXT_MP_MENU_SCREEN_BACK_BUTTON</zType>
         <de-DE>Zurück</de-DE>
     </Entry>
@@ -1400,6 +1343,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	<Entry>
 		<zType>TEXT_CLOUD_SCREEN_SKIP_ACTIVE_PLAYER</zType>
 		<de-DE>Skip Active Player</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CLOUD_SCREEN_REWIND_TO_PLAYER</zType>
+		<de-DE>Zurückspulen zum Spieler</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CLOUD_SCREEN_DOWNLOAD_SAVE</zType>
@@ -1426,12 +1373,6 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<de-DE>Cloud Spiele</de-DE>
 	</Entry>
 	<!--MP wizard screen-->
-	<Entry>
-		<zType>TEXT_MP_WIZARD_SCREEN_TITLE</zType>
-	<de-DE>
-		Wähle den Mehrspieler Modus aus
-	</de-DE>		
-	</Entry>
 	<Entry>
 		<zType>TEXT_MP_WIZARD_SCREEN_NETWORK_MODE</zType>
 		<de-DE>Spiele gegen online Gegner in Echtzeit</de-DE>
@@ -1524,10 +1465,6 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
         <zType>TEXT_MP_PLAYERS_SCREEN_BACK_BUTTON</zType>
         <de-DE>Zurück</de-DE>
 	</Entry>
-    <Entry>
-        <zType>TEXT_MP_PLAYER_CONNECTED</zType>
-        <de-DE>{0} hat sich mit dem Server verbunden</de-DE>
-    </Entry>
     <Entry>
         <zType>TEXT_MP_PLAYER_DISCONNECTED</zType>
         <de-DE>{0} hat sich von dem Server verabschiedet</de-DE>
@@ -1625,32 +1562,6 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
         <zType>TOOLS_SCREEN_BACK_BUTTON</zType>
         <de-DE>Zurück</de-DE>
     </Entry>
-    <!--minimap.xml-->
-    <!--mini map-->
-    <Entry>
-        <zType>TEXT_MINI_MAP_OPTIONS_DROPDOWN_NO_OVERLAY</zType>
-        <de-DE>Keine Einblendung</de-DE>
-    </Entry>
-    <Entry>
-        <zType>TEXT_MINI_MAP_OPTIONS_DROPDOWN_ZOC</zType>
-        <de-DE>Kontrollzone [X]</de-DE>
-    </Entry>
-    <Entry>
-        <zType>TEXT_MINI_MAP_OPTIONS_DROPDOWN_DANGER</zType>
-        <de-DE>Gefahr [C]</de-DE>
-    </Entry>
-    <Entry>
-        <zType>TEXT_MINI_MAP_OPTIONS_DROPDOWN_CONNECTIONS</zType>
-        <de-DE>Verbindungen [V]</de-DE>
-    </Entry>
-    <Entry>
-        <zType>TEXT_MINI_MAP_OPTIONS_DROPDOWN_IDLEUNITS</zType>
-        <de-DE>Untätige Einheiten [B]</de-DE>
-    </Entry>
-    <Entry>
-        <zType>TEXT_MINI_MAP_OPTIONS_DROPDOWN_TILERES</zType>
-        <de-DE>Feld Ressourcen [N]</de-DE>
-    </Entry>
     <!--mp-setup-screen.xml-->
     <!--multiplayer setup screen-->
     <Entry>
@@ -1661,35 +1572,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
         <zType>TEXT_MP_SETUP_SEC_BUTTON_ADVANCED</zType>
         <de-DE>Fortgeschritten</de-DE>
 	</Entry>
-    <Entry>
-        <zType>TEXT_MP_SETUP_TITLE_LABEL_HOSTG</zType>
-        <de-DE>Hoste Spiel</de-DE>
-    </Entry>
     <!--servers-->
    <Entry>
 		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_SERVERPASSWORD</zType>
 		<de-DE>Server Passwort</de-DE>
-	</Entry>
-	<Entry>
-        <zType>TEXT_MP_SETUP_OPTIONS_LABEL_SERVERS</zType>
-        <de-DE>Server</de-DE>
-    </Entry>
-	<Entry>
-		<zType>TEXT_MP_SETUP_OPTIONS_LABEL_GAME_MODE</zType>
-		<de-DE>Spielmodus</de-DE>
-	</Entry>	 
-    <!--network-->
-    <Entry>
-        <zType>TEXT_MP_SETUP_OPTIONS_LABEL_NETWORK</zType>
-        <de-DE>Netzwerk</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MP_SETUP_OPTIONS_LABEL_PLAY_BY_CLOUD</zType>
-		<de-DE>Cloud-Spiel</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MP_SETUP_OPTIONS_LABEL_HOTSEAT</zType>
-		<de-DE>Hotseat</de-DE>
 	</Entry>
     <!--game options-->
     <Entry>
@@ -1784,10 +1670,6 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_TEAM_NATIONS</zType>
 		<de-DE>Reiche</de-DE>
 	</Entry>
-	<Entry>
-        <zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_VICTORY</zType>
-        <de-DE>Sieg</de-DE>
-    </Entry>
     <Entry>
         <zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_MAPTYPE</zType>
         <de-DE>Karten Typ</de-DE>
@@ -1890,10 +1772,6 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<zType>TEXT_MP_SETUP_SCHEDULE_SCHEDULING</zType>
 		<de-DE>Planung</de-DE>
 	</Entry>
-	<Entry>
-        <zType>TEXT_MP_SETUP_SCHEDULE_NETWORKPOST</zType>
-        <de-DE>Netzwerk Port</de-DE>
-    </Entry>
     <Entry>
         <zType>TEXT_MP_SETUP_SCHEDULE_PAUSE_START</zType>
         <de-DE>Pause Start</de-DE>
@@ -1940,10 +1818,6 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
         <zType>TEXT_OPTIONS_MENU_TITLEBAR_CONTROLS</zType>
         <de-DE>Tastenbelegung</de-DE>
     </Entry>
-    <!--<Entry>
-		<zType>TEXT_OPTIONS_MENU_TITLEBAR_COLORS</zType>
-		<de-DE>Farben</de-DE>
-	</Entry>-->
     <!--controls-->
     <Entry>
 		<zType>TEXT_OPTIONS_MENU_AUDIO_CONTROLS</zType>
@@ -1987,14 +1861,6 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
         <de-DE>Neues Szenario</de-DE>
     </Entry>
     <Entry>
-        <zType>TEXT_SCENARIO_SETUP_PLAYERNAME</zType>
-        <de-DE>Spieler Name</de-DE>
-    </Entry>
-    <Entry>
-        <zType>TEXT_SCENARIO_SETUP_SCENARIO</zType>
-        <de-DE>Szenario</de-DE>
-	</Entry>
-    <Entry>
         <zType>TEXT_SCENARIO_SETUP_NATION</zType>
         <de-DE>Reich</de-DE>
     </Entry>
@@ -2002,10 +1868,6 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
         <zType>TEXT_SCENARIO_SETUP_OPPONENTS</zType>
         <de-DE>Gegner</de-DE>
 	</Entry>
-    <Entry>
-        <zType>TEXT_SCENARIO_SETUP_OPPONENT_NATIONS</zType>
-        <de-DE>Gegnerische Reiche: {LIST}</de-DE>
-    </Entry>
     <Entry>
         <zType>TEXT_SCENARIO_SETUP_TRIBE</zType>
         <de-DE>Stämme</de-DE>
@@ -2017,10 +1879,6 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
     <Entry>
         <zType>TEXT_SCENARIO_SETUP_DIFFICULTY</zType>
         <de-DE>Schwierigkeitsgrad</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_SCENARIO_SETUP_TURN_SCALE</zType>
-		<de-DE>Zug Modus</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SCENARIO_SETUP_SHOW_OPTIONS</zType>
@@ -2122,7 +1980,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_SP_SETUP_ADVANCED_NUMOPPS_OPTION</zType>
-        <de-DE><![CDATA[{0_count} <singular_0>Gegner<plural>Gegner<end>]]></de-DE>
+		<de-DE>{0_count} {singular_0:Gegner:Gegner}</de-DE>
     </Entry>
 	<Entry>
         <zType>TEXT_SP_SETUP_ADVANCED_MORTALITY</zType>
@@ -2436,11 +2294,6 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<zType>TEXT_POPUP_INHERITANCE_NAME</zType>
 		<de-DE>Name</de-DE>
 	</Entry>
-<!--unit-list.xml-->
-	<Entry>
-		<zType>TEXT_UNIT_LIST</zType>
-		<de-DE>Einheitenliste</de-DE>
-	</Entry>
 	<!--tech-tree.xml-->
 	<Entry>
 		<zType>TEXT_TECH_TREE_TECHS</zType>
@@ -2490,11 +2343,6 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<zType>TEXT_TECH_TREE_KEY</zType>
 		<de-DE>Key</de-DE>
 	</Entry>
-	<!--selected-worker.xml-->
-	<Entry>
-		<zType>TEXT_SELECTED_WORKER_TURN</zType>
-		<de-DE>Zug</de-DE>
-	</Entry>
 	<!--selected-unit.xml-->
 	<Entry>
 		<zType>TEXT_SELECTED_UNIT_UPGRADE</zType>
@@ -2504,18 +2352,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<zType>TEXT_SELECTED_UNIT_CARAVAN</zType>
 		<de-DE>Starte Karawanen Mission</de-DE>
 	</Entry>
-	<Entry>
-		<zType>TEXT_SELECTED_UNIT_TURN</zType>
-		<de-DE>Zug</de-DE>
-	</Entry>
 	<!--selected-city.xml-->
 	<Entry>
 		<zType>TEXT_SELECTED_CITY_CHOOSE</zType>
 		<de-DE>Wähle woran gearbeitet werden soll</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_SELECTED_CITY_QUEUE</zType>
-		<de-DE>Warteschlange</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SELECTED_CITY_GOVERNOR</zType>
@@ -2529,11 +2369,6 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	<Entry>
 		<zType>TEXT_SELECTED_CHARACTER_ACTIONS</zType>
 		<de-DE>Aktionen</de-DE>
-	</Entry>
-	<!--religion-tree.xml-->
-	<Entry>
-		<zType>TEXT_RELIGION_TREE_STATE_RELIGIONS</zType>
-		<de-DE>Staatsreligion</de-DE>
 	</Entry>
 	<!--popup-victory.xml-->
 	<Entry>
@@ -2671,11 +2506,6 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<zType>TEXT_GAME_LOG_DEBUG</zType>
 		<de-DE>Debug Log</de-DE>
 	</Entry>
-	<!--family-list.xml-->
-	<Entry>
-		<zType>TEXT_FAMILY_LIST</zType>
-		<de-DE>Familien</de-DE>
-	</Entry>
 	<!--cycle-idle.xml-->
 	<Entry>
 		<zType>TEXT_CYCLE_IDLE_BUY</zType>
@@ -2712,11 +2542,6 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	<Entry>
 		<zType>TEXT_CHARACTER_LIST</zType>
 		<de-DE>Charaktere</de-DE>
-	</Entry>
-	<!--barbarian-list.xml-->
-	<Entry>
-		<zType>TEXT_TRIBE_LIST</zType>
-		<de-DE>Volksstämme</de-DE>
 	</Entry>
 	<!--ai-log.xml-->
 	<Entry>

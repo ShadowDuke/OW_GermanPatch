@@ -1,4 +1,4 @@
-<!-- German de-DE (© Revan ©) -->
+<!-- German Translation (© Revan ©) -->
 
 <Root>
 	<!--Assets/GameAssets/Resources/Infos/effectPlayer.xml-->
@@ -17,48 +17,40 @@
 		<de-DE>Grundwert</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EFFECTPLAYER_AMBITION</zType>
-		<de-DE>Ambition</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EFFECTPLAYER_LEGACY</zType>
-		<de-DE>Vermächtnis</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EFFECTPLAYER_COUNCIL_SPYMASTER</zType>
 		<de-DE>Meisterspion</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_ABLE</zType>
-		<de-DE>Der Tüchtige</de-DE>
+		<de-DE>Tüchtig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_JUST</zType>
-		<de-DE>Der Gerechte</de-DE>
+		<de-DE>Gerecht</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_GOOD</zType>
-		<de-DE>Der Zuverlässige</de-DE>
+		<de-DE>Zuverlässig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_STRONG</zType>
-		<de-DE>Der Kräftige</de-DE>
+		<de-DE>Kräftig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_NOBLE</zType>
-		<de-DE>Der Großmütige</de-DE>
+		<de-DE>Großmütig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_GLORIOUS</zType>
-		<de-DE>Der Glorreiche</de-DE>
+		<de-DE>Glorreich</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_MAGNIFICENT</zType>
-		<de-DE>Der Prachtvolle</de-DE>
+		<de-DE>Prachtvoll</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_DIFFICULTY_GREAT</zType>
-		<de-DE>Der Große</de-DE>
+		<de-DE>Groß</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTPLAYER_LAW_CONSTITUTION_DECREE</zType>

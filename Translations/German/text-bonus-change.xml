@@ -1,4 +1,4 @@
-<!-- German de-DE (© Revan ©) -->
+<!-- German Translation (© Revan ©) -->
 
 <Root>
 	<!-- Title -->
@@ -501,6 +501,10 @@
 	<Entry>
 		<zType>TEXT_BONUS_TECH_LEGIONARY_UNIT</zType>
 		<de-DE>Freier link(UNIT_LEGIONARY)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_KILL_CHARACTER_AGENT</zType>
+		<de-DE>Hat einen ausländischen link(CONCEPT_AGENT) hingerichtet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_ABDICATE</zType>
@@ -2763,10 +2767,6 @@
 		<de-DE>Beautiful statue</de-DE>
 	</Entry>
 	<Entry beginGroup="Tribe">
-		<zType>TEXT_BONUS_TRIBAL_DISAPPOINTMENT</zType>
-		<de-DE>Tribal Disappointment</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_BONUS_PURPLE_DYE</zType>
 		<de-DE>Wears Purple</de-DE>
 	</Entry>
@@ -2777,5 +2777,17 @@
 	<Entry>
 		<zType>TEXT_BONUS_PURPLE_FAMILY</zType>
 		<de-DE>Permitted purple</de-DE>
+	</Entry>
+	<Entry beginGroup="Ambition">
+		<zType>TEXT_BONUS_EVENTOPTION_BOUND_BY_AN_OATH_NO_CHARACTER_1</zType>
+		<de-DE>Known as an oath-breaker</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_ANCESTRAL_OATH_NO_CHARACTER_3</zType>
+		<de-DE>Broke ancestral oath</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_DRUNKEN_AMBITION_NO_PLAYER</zType>
+		<de-DE>Renowned drunk</de-DE>
 	</Entry>
 </Root>

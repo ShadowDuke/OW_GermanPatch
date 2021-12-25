@@ -1,4 +1,4 @@
-<!-- German de-DE (© Revan ©) -->
+<!-- German Translation (© Revan ©) -->
 
 <Root>
 	<Entry>
@@ -9,10 +9,6 @@
 	<Entry>
 		<zType>TEXT_MUSIC_TRACK_DISABLED__USER_SKIPPED</zType>
 		<de-DE>Track disabled (Marked as skippable by you)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MUSIC_TRACK_DISABLED__IS_NOT_MENU_MUSIC</zType>
-		<de-DE>Track disabled (Only menu tracks allowed in menu screen)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MUSIC_TRACK_DISABLED__BY_MUSIC_SYSTEM</zType>

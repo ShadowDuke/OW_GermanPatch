@@ -1711,14 +1711,6 @@ The news brings no happiness, but {G0:he:she} can at least be laid to rest.</de-
 		<de-DE>A messenger arrives with news of {CHARACTER-SHORT-0}’s defeat. Despite the loss of {G0:his:her} forces, {CHARACTER-SHORT-0} managed to escape, although {G0:he:she} was wounded in the fighting. </de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_ASSASSIN_AND_HOSTAGE</zType>
-		<de-DE>As you enter your private chambers, a wild eyed {CHARACTER-1} holds a knife to the throat of {CHARACTER-2}. 
-
-{CHARACTER-1} bellows at you. "Not another step! I'll kill {G2:him:her}!!" Sweat gleams on {G1:his:her} forehead. "I know I was you. You tried to kill me!"
-
-Your attempt to assassinate {CHARACTER-1} must have failed and now {G1:he:she}'s back for revenge.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTSTORY_FAMILY_OF_THE_DEAD</zType>
 		<de-DE>Your link(CONCEPT_GENERAL) {CHARACTER-1} has fallen in battle, {random_R0:pierced by arrows:slain by a stray arrow:struck with the stone from a sling:trampled beneath a horse:crushed by a chariot:surrounded and slain by the enemy:laid low by the enemy's blades}. {G1:His:Her} family, the {FAMILY-0} family, ask for you to honor {G1:him:her} in their link(CONCEPT_FAMILY_SEAT) of {CITY-2}.
 

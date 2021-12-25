@@ -122,14 +122,6 @@
 		<de-DE>Länger als int(MIN_TREATY_TURNS) Züge seit letztem link(DIPLOMACY_WAR)</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_SUBJECT_TRIBE_WAR</zType>
-		<de-DE>link(DIPLOMACY_WAR)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_SUBJECT_TRIBE_TRUCE</zType>
-		<de-DE>link(DIPLOMACY_TRUCE)</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_SUBJECT_TRIBE_PEACE</zType>
 		<de-DE>link(DIPLOMACY_PEACE)</de-DE>
 	</Entry>

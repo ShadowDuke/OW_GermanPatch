@@ -1,7 +1,220 @@
-<?xml version="1.0" encoding="utf-8"?>
+<!-- German Translation (© Revan ©) -->
+
 <Root>
-    <Entry>
+	<Entry>
         <zType>TEXT_LANGUAGE_GERMAN</zType>
         <de-DE>Deutsch</de-DE>
     </Entry>
+	<Entry>
+		<zType>TEXT_COURTIER_SKYEXPLORER</zType>
+		<de-DE>Großer Himmelsgucker</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COURTIER_GREAT_FAME</zType>
+		<de-DE>Große Berühmte Person</de-DE>
+	</Entry>
+    <Entry>
+		<zType>TEXT_COGNOMEN_NEW_F</zType>
+		<de-DE>die Neue</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_FOUNDER_F</zType>
+		<de-DE>die Gründerin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_WARRIOR_F</zType>
+		<de-DE>die Kriegerin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_BRAVE_F</zType>
+		<de-DE>die Mutige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_VALIANT_F</zType>
+		<de-DE>die Tapfere</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_MIGHTY_F</zType>
+		<de-DE>die Mächtige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_VICTORIOUS_F</zType>
+		<de-DE>die Siegreiche</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_LION_F</zType>
+		<de-DE>die Löwin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_INVINCIBLE_F</zType>
+		<de-DE>die Unbesiegbare</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_CAPABLE_F</zType>
+		<de-DE>die Tüchtige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_READY_F</zType>
+		<de-DE>die Bereite</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_DESTROYER_F</zType>
+		<de-DE>die Zerstörerin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_AVENGER_F</zType>
+		<de-DE>die Rächerin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_INTERCESSOR_F</zType>
+		<de-DE>die Vermittlerin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_PEACEMAKER_F</zType>
+		<de-DE>die Friedensstifterin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_CONQUEROR_F</zType>
+		<de-DE>die Eroberin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_SUBJUGATOR_F</zType>
+		<de-DE>die Bezwingerin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_RESTORER_F</zType>
+		<de-DE>die Restauratorin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_LIBERATOR_F</zType>
+		<de-DE>die Befreierin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_SETTLER_F</zType>
+		<de-DE>die Siedlerin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_PIONEER_F</zType>
+		<de-DE>die Pionierin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_AMBITIOUS_F</zType>
+		<de-DE>die Ehrgeizige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_BRILLIANT_F</zType>
+		<de-DE>die Brilliante</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_BELOVED_F</zType>
+		<de-DE>die Geliebte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_REBUILDER_F</zType>
+		<de-DE>die Wiederaufbauerin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_MASON_F</zType>
+		<de-DE>die Steinmetzin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_ARCHITECT_F</zType>
+		<de-DE>die Architektin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_KEYSTONE_F</zType>
+		<de-DE>die Grundpfeilerin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_FOUNTAINHEAD_F</zType>
+		<de-DE>die Quelle</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_DEVOUT_F</zType>
+		<de-DE>die Fromme</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_HOLY_F</zType>
+		<de-DE>die Heilige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_EXPLORER_F</zType>
+		<de-DE>die Entdeckerin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_INTREPID_F</zType>
+		<de-DE>die Furchtlose</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_LEARNED_F</zType>
+		<de-DE>die Gebildete</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_ENLIGHTENED_F</zType>
+		<de-DE>die Aufgeklärte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_WISE_F</zType>
+		<de-DE>die Weise</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_OLD_F</zType>
+		<de-DE>die Alte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_ANCIENT_F</zType>
+		<de-DE>die Historische</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_ABLE_F</zType>
+		<de-DE>die Tüchtige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_JUST_F</zType>
+		<de-DE>die Gerechte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_GOOD_F</zType>
+		<de-DE>die Zuverlässige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_STRONG_F</zType>
+		<de-DE>die Kräftige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_NOBLE_F</zType>
+		<de-DE>die Großmütige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_GLORIOUS_F</zType>
+		<de-DE>die Glorreiche</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_MAGNIFICENT_F</zType>
+		<de-DE>die Prachtvolle</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_GREAT_F</zType>
+		<de-DE>die Große</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_UNFORTUNATE_F</zType>
+		<de-DE>die Unglückliche</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_UNREADY_F</zType>
+		<de-DE>die nicht Bereite</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_WEAK_F</zType>
+		<de-DE>die Schwache</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_BAD_F</zType>
+		<de-DE>die Böse</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_BLOODY_F</zType>
+		<de-DE>die Blutige</de-DE>
+	</Entry>
 </Root>

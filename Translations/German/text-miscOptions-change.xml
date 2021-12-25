@@ -181,6 +181,14 @@
 		<zType>TEXT_MISCOPTION_ANIMATION_LOD_DESC</zType>
 		<de-DE>Reduziert das Level animierter Objekte wenn mit der Kamera herausgezoomt wird</de-DE>
 	</Entry>
+  <Entry>
+    <zType>TEXT_MISCOPTION_GPU_UNIT_ANIMATIONS_NAME</zType>
+    <de-DE>GPU Einheiten Animationen</de-DE>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISCOPTION_GPU_UNIT_ANIMATIONS_DESC</zType>
+    <de-DE>Speed up rendering of units by calculating animations on the GPU</de-DE>
+  </Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_SINGLE_OBJECTS_NAME</zType>
 		<de-DE>Zeige einzelne Objekte</de-DE>
@@ -214,14 +222,6 @@
         <de-DE>Ändert die Größe der Benutzeroberfläche auf dem Hauptbildschirm</de-DE>
     </Entry>
     <Entry>
-        <zType>TEXT_MISCOPTION_HEALTHBAR_SCALE_NAME</zType>
-        <de-DE>Gesundheitsbalken Anpassung</de-DE>
-    </Entry>
-    <Entry>
-        <zType>TEXT_MISCOPTION_HEALTHBAR_SCALE_DESC</zType>
-        <de-DE>Ändert die Größe der Gesundheitsbalken</de-DE>
-    </Entry>
-    <Entry>
         <zType>TEXT_MISCOPTION_TOOLTIP_SCALE_NAME</zType>
         <de-DE>Kurzinfo Anpassung</de-DE>
     </Entry>
@@ -245,10 +245,6 @@
         <zType>TEXT_MISCOPTION_LANGUAGE_DESC</zType>
         <de-DE>Ändert die Sprache des Spiels</de-DE>
     </Entry>
-	<Entry>
-		<zType>TEXT_MISCOPTION_NEWSLETTER_NAME</zType>
-		<de-DE>Newsletter</de-DE>
-	</Entry>
 	<Entry>
 		<zType>TEXT_MISCOPTION_NEWSLETTER</zType>
 		<de-DE>Abonnieren</de-DE>

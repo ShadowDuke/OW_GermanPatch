@@ -93,6 +93,70 @@
 		<zType>TEXT_CHARACTER_TITLE_NAME</zType>
 		<de-DE>{0_title} {1_name}</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_PROPHET</zType>
+		<de-DE>Der Prophet</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_PROPHET_F</zType>
+		<de-DE>Doe Prophetin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_SEER</zType>
+		<de-DE>Der Seher</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_SEER_F</zType>
+		<de-DE>Die Seherin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_REBEL_LEADER</zType>
+		<de-DE>Der Rebellen König</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_REBEL_LEADER_F</zType>
+		<de-DE>Die Rebellen Königin </de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_ARCHON</zType>
+		<de-DE>Archon</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_ARCHON_F</zType>
+		<de-DE>Archon</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_OVERSEER_OF_THE_FIELDS</zType>
+		<de-DE>Aufseher</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_OVERSEER_OF_THE_FIELDS_F</zType>
+		<de-DE>Aufseherin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_POSSESSOR_OF_VENERATION</zType>
+		<de-DE>Geehrt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_POSSESSOR_OF_VENERATION_F</zType>
+		<de-DE>Geehrte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_STEWARD_OF_THE_CHAMBER</zType>
+		<de-DE>Betreuer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_STEWARD_OF_THE_CHAMBER_F</zType>
+		<de-DE>Betreuerin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_PRIEST_OF_MELQUART</zType>
+		<de-DE>Haupt Priester</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_PRIEST_OF_MELQUART_F</zType>
+		<de-DE>Haupt Priesterin</de-DE>
+	</Entry>
 	<!-- Relation -->
 	<Entry comment="TEXT_CHARACTER_RELATION texts have the leader (i.e. 'You') as variable index 1 for gender">
 		<zType>TEXT_CHARACTER_RELATION_YOU</zType>

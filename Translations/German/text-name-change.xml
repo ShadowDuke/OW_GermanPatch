@@ -610,10 +610,6 @@
 		<de-DE>Dido</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_NAME_ACERBUS</zType>
-		<de-DE>Acerbus</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_NAME_ELISSAR</zType>
 		<de-DE>Elissar</de-DE>
 	</Entry>
@@ -2842,19 +2838,23 @@
 		<de-DE>The Orphan Eater</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_NAME_PROPHET</zType>
-		<de-DE>The Prophet</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_NAME_SEER</zType>
-		<de-DE>The Seer</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_NAME_INCITATUS</zType>
 		<de-DE>Incitatus</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_NAME_DIEGYLIS</zType>
 		<de-DE>Diegylis</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_NAME_PYGMALION_OF_TYRE</zType>
+		<de-DE>Pygmalion von Tyros</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_NAME_PROPHET</zType>
+		<de-DE>Jonah</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_NAME_SEER</zType>
+		<de-DE>Deiphobe</de-DE>
 	</Entry>
 </Root>

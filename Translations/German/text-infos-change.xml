@@ -104,10 +104,6 @@
 		<de-DE>Tutorial: Einheit befördern</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TUTORIAL_TRIBE_CAMP_CLEARED</zType>
-		<de-DE>Tutorial: Stammes Lager</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_TUTORIAL_CITY_CAPTURED</zType>
 		<de-DE>Tutorial: Stadt Eroberung</de-DE>
 	</Entry>
@@ -2212,10 +2208,6 @@
 		<de-DE>Freier Streitwagen</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TECH_RAMPARTS</zType>
-		<de-DE>Befestigungsmauern</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_TECH_FORESTRY</zType>
 		<de-DE>Forstwirtschaft</de-DE>
 	</Entry>
@@ -3330,22 +3322,6 @@
 		<de-DE>der Erblindete</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_ARCHON_NICKNAME</zType>
-		<de-DE>der Archon</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_OVERSEER_OF_THE_FIELDS_NICKNAME</zType>
-		<de-DE>der Aufseher über die Felder</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_POSSESSOR_OF_VENERATION_NICKNAME</zType>
-		<de-DE>der Besitzer der Verehrung</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_STEWARD_OF_THE_CHAMBER_NICKNAME</zType>
-		<de-DE>der Aufseher der Gemächer</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_TRAIT_GODS_CONSORT_NICKNAME</zType>
 		<de-DE>Gott's Gefährte</de-DE>
 	</Entry>
@@ -3354,8 +3330,8 @@
 		<de-DE>Retter des Throns</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_SAOSHYANT_NICKNAME</zType>
-		<de-DE>der Saoshyant</de-DE>
+		<zType>TEXT_TRAIT_KING_OF_TYRE_NICKNAME</zType>
+		<de-DE>von Tyrus</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DIPLOMACY_TEAM</zType>
@@ -3962,14 +3938,6 @@
 		<de-DE>der Wissenschaftler</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_COURTIER_SKYEXPLORER</zType>
-		<de-DE>Großer Himmelsgucker</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_COURTIER_GREAT_FAME</zType>
-		<de-DE>Große Berühmte Person</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_ADVANTAGE_NONE</zType>
 		<de-DE>Keiner</de-DE>
 	</Entry>
@@ -4023,63 +3991,63 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_DIFFICULTY_JUST</zType>
-		<de-DE>Der Gerechte</de-DE>
+		<de-DE>Gerecht</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DIFFICULTY_GOOD</zType>
-		<de-DE>Der Zuverlässige</de-DE>
+		<de-DE>Zuverlässig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DIFFICULTY_STRONG</zType>
-		<de-DE>Der Kräftige</de-DE>
+		<de-DE>Kräftig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DIFFICULTY_NOBLE</zType>
-		<de-DE>Der Großmütige</de-DE>
+		<de-DE>Großmütig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DIFFICULTY_GLORIOUS</zType>
-		<de-DE>Der Glorreiche</de-DE>
+		<de-DE>Glorreich</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DIFFICULTY_MAGNIFICENT</zType>
-		<de-DE>Der Prachtvolle</de-DE>
+		<de-DE>Prachtvoll</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DIFFICULTY_GREAT</zType>
-		<de-DE>Der Große</de-DE>
+		<de-DE>Groß</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DIFFICULTYMODE_ABLE</zType>
-		<de-DE>Der Tüchtige</de-DE>
+		<de-DE>Tüchtig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DIFFICULTYMODE_JUST</zType>
-		<de-DE>Der Gerechte</de-DE>
+		<de-DE>Gerecht</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DIFFICULTYMODE_GOOD</zType>
-		<de-DE>Der Zuverlässige</de-DE>
+		<de-DE>Zuverlässig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DIFFICULTYMODE_STRONG</zType>
-		<de-DE>Der Kräftige</de-DE>
+		<de-DE>Kräftig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DIFFICULTYMODE_NOBLE</zType>
-		<de-DE>Der Großmütige</de-DE>
+		<de-DE>Großmütig</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DIFFICULTYMODE_GLORIOUS</zType>
-		<de-DE>Der Glorreiche</de-DE>
+		<de-DE>Glorreich</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DIFFICULTYMODE_MAGNIFICENT</zType>
-		<de-DE>Der Prachtvolle</de-DE>
+		<de-DE>Prachtvoll</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DIFFICULTYMODE_GREAT</zType>
-		<de-DE>Der Große</de-DE>
+		<de-DE>Groß</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_DIRECTION_NW</zType>
@@ -4120,6 +4088,14 @@
 	<Entry>
 		<zType>TEXT_GAMEOPTION_BARBARIANS_ONLY_HELP</zType>
 		<de-DE>Alle Stämme sind link(TRIBE_BARBARIANS).</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_TRIBES_ONLY</zType>
+		<de-DE>Nur Stämme</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_TRIBES_ONLY_HELP</zType>
+		<de-DE>No link(TRIBE_BARBARIANS) are on the map.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAMEOPTION_NO_FOG_OF_WAR</zType>

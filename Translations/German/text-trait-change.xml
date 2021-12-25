@@ -319,6 +319,10 @@
 		<de-DE>Reiter</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_EQUESTRIAN_F</zType>
+		<de-DE>Reiterin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_EQUESTRIAN_GAIN_1</zType>
 		<de-DE>An expert rider and trainer of horses, {0_character} is known as an {1_trait}.</de-DE>
 	</Entry>
@@ -331,12 +335,20 @@
 		<de-DE>Zimmerer</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_CARPENTER_F</zType>
+		<de-DE>Zimmerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_CARPENTER_GAIN_1</zType>
 		<de-DE>A master woodworker, {0_character} is famed as a {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_PATHFINDER</zType>
 		<de-DE>Pfadfinder</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_PATHFINDER_F</zType>
+		<de-DE>Pfadfinderin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_PATHFINDER_GAIN_1</zType>
@@ -347,12 +359,20 @@
 		<de-DE>Landwirt</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_CULTIVATOR_F</zType>
+		<de-DE>Landwirtin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_CULTIVATOR_GAIN_1</zType>
 		<de-DE>Green of thumb, {0_character} is a {1_trait} who can grow anything!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_NATURALIST</zType>
 		<de-DE>Naturforscher</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_NATURALIST_F</zType>
+		<de-DE>Naturforscherin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_NATURALIST_GAIN_1</zType>
@@ -363,12 +383,20 @@
 		<de-DE>Schnüffler</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_DELVER_F</zType>
+			<de-DE>Schnüfflerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_DELVER_GAIN_1</zType>
 		<de-DE>Able to excavate anything, {0_character} is a {1_trait}!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DEALMAKER</zType>
 		<de-DE>Geschäftemacher</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_DEALMAKER_F</zType>
+		<de-DE>Geschäftemacherin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DEALMAKER_GAIN_1</zType>
@@ -381,6 +409,10 @@
 	<Entry>
 		<zType>TEXT_TRAIT_TRACKER</zType>
 		<de-DE>Fährtenleser</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_TRACKER_F</zType>
+		<de-DE>Fährtenleserin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_TRACKER_GAIN_1</zType>
@@ -443,12 +475,20 @@
 		<de-DE>Pflanzenkenner</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_HERBALIST_F</zType>
+		<de-DE>Pflanzenkennerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_HERBALIST_GAIN_1</zType>
 		<de-DE>An expert {1_trait}, {0_character} knows more about the uses of plants than most!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_HIGHLANDER</zType>
 		<de-DE>Bergbewohner</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_HIGHLANDER_F</zType>
+		<de-DE>Bergbewohnerin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_HIGHLANDER_GAIN_1</zType>
@@ -475,6 +515,10 @@
 		<de-DE>Schildträger</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_SHIELDBEARER_F</zType>
+		<de-DE>Schildträgerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_SHIELDBEARER_GAIN_1</zType>
 		<de-DE>{0_character} believes that the best offence is an impenetrable defence. {masculine_0:He:She} is a {1_trait}!</de-DE>
 	</Entry>
@@ -497,6 +541,10 @@
 	<Entry>
 		<zType>TEXT_TRAIT_ENGINEER</zType>
 		<de-DE>Techniker</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_ENGINEER_F</zType>
+		<de-DE>Technikerin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ENGINEER_GAIN_1</zType>
@@ -537,6 +585,10 @@
 	<Entry>
 		<zType>TEXT_TRAIT_ROMANTIC</zType>
 		<de-DE>Romantiker</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_ROMANTIC_F</zType>
+		<de-DE>Romantikerin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ROMANTIC_GAIN_1</zType>
@@ -659,20 +711,40 @@
 		<de-DE>Schüler der Philosophie</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_STUDY_PHILOSOPHY_F</zType>
+		<de-DE>Schülerin der Philosophie</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_STUDY_POLITICS</zType>
 		<de-DE>Schüler der Politik</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_STUDY_POLITICS_F</zType>
+		<de-DE>Schülerin der Politik</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_STUDY_TACTICS</zType>
 		<de-DE>Schüler der Taktik</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_STUDY_TACTICS_F</zType>
+		<de-DE>Schülerin der Taktik</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_STUDY_COMMERCE</zType>
 		<de-DE>Schüler des Kaufmanns</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_STUDY_COMMERCE_F</zType>
+		<de-DE>Schülerin des Kaufmanns</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_EXPLORING</zType>
 		<de-DE>Erkunder</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_EXPLORING_F</zType>
+		<de-DE>Erkunderin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_EXOTIC</zType>
@@ -827,6 +899,10 @@
 		<de-DE>Flüchtiger</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_FUGITIVE_F</zType>
+		<de-DE>Flüchtige</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_MISSING</zType>
 		<de-DE>Vermisst</de-DE>
 	</Entry>
@@ -851,12 +927,20 @@
 		<de-DE>Abtrünniger</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_DESERTER_F</zType>
+		<de-DE>Abtrünnige</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_DOOMED</zType>
 		<de-DE>Todgeweiht</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_GAY</zType>
-		<de-DE>Homosexuell</de-DE>
+		<de-DE>Schwul</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_GAY_F</zType>
+		<de-DE>Lesbisch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BASTARD</zType>
@@ -879,12 +963,20 @@
 		<de-DE>Priester</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_CLERGY_F</zType>
+		<de-DE>Priesterin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_ASCETIC</zType>
 		<de-DE>Enthaltsam</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ARTIST</zType>
 		<de-DE>Künstler</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_ARTIST_F</zType>
+		<de-DE>Künsterlin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_FAMOUS</zType>
@@ -915,6 +1007,10 @@
 		<de-DE>Rechtmäßger Erbe</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_RIGHTFUL_HEIR_F</zType>
+		<de-DE>Rechtmäßge Erbin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_EXCLUDED</zType>
 		<de-DE>Von der Erbfolge aisgeschlossen</de-DE>
 	</Entry>
@@ -927,8 +1023,16 @@
 		<de-DE>Krieger</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_SOLDIER_F</zType>
+		<de-DE>Kriegerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_DRUNK</zType>
 		<de-DE>Säufer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_DRUNK_F</zType>
+		<de-DE>Säuferin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DRUNK_GAIN_1</zType>
@@ -959,6 +1063,10 @@
 		<de-DE>Prophet</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_PROPHET_F</zType>
+		<de-DE>Prophetin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_ARCHON</zType>
 		<de-DE>Archon</de-DE>
 	</Entry>
@@ -971,61 +1079,113 @@
 		<de-DE>Oberster Geistreicher des Melqart in Tyre</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_CHEIF_PRIEST_OF_MELQUART_F</zType>
+		<de-DE>Oberste Geistreiche des Melqart in Tyre</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_MYSTERIOUS_SWORD</zType>
 		<de-DE>Besitzer eines Mysteriösen Schwerts</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_MYSTERIOUS_SWORD_F</zType>
+		<de-DE>Besitzerin eines Mysteriösen Schwerts</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SWORD_OF_THE_GODS</zType>
 		<de-DE>Besitzer des Schwerts der Götter</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_SWORD_OF_THE_GODS_F</zType>
+		<de-DE>Besitzerin des Schwerts der Götter</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_PET_FISH</zType>
 		<de-DE>Fisch Besitzer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_PET_FISH_F</zType>
+		<de-DE>Fisch Besitzerin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_PET_MONKEY</zType>
 		<de-DE>Affen Besitzer</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_PET_MONKEY_F</zType>
+		<de-DE>Affen Besitzerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_MONKEY_ASSASSIN</zType>
 		<de-DE>Affen Attentäter</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_MONKEY_ASSASSIN_F</zType>
+		<de-DE>Affen Attentäterin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_MONKEY_PAW</zType>
 		<de-DE>Affen Besitzer</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_MONKEY_PAW_F</zType>
+		<de-DE>Affen Besitzerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_DOG_OWNER</zType>
 		<de-DE>Hundebesitzer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_DOG_OWNER_F</zType>
+		<de-DE>Hundebesitzerin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_OVERSEER_OF_THE_FIELDS</zType>
 		<de-DE>Aufseher über die Felder</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_OVERSEER_OF_THE_FIELDS_F</zType>
+		<de-DE>Aufseherin über die Felder</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_POSSESSOR_OF_VENERATION</zType>
 		<de-DE>Besitzer der Verehrung</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_POSSESSOR_OF_VENERATION_F</zType>
+		<de-DE>Besitzerin der Verehrung</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_STEWARD_OF_THE_CHAMBER</zType>
 		<de-DE>Aufseher der Gemächer</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_ENEMY_OF_THE_STATE</zType>
-		<de-DE>Staatsfeind Nr. 1</de-DE>
+		<zType>TEXT_TRAIT_STEWARD_OF_THE_CHAMBER_F</zType>
+		<de-DE>Aufseherin der Gemächer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_AMULET_OWNER_POSITIVE</zType>
 		<de-DE>Offenes Fruchtbarkeits Amulett Besitzer</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_AMULET_OWNER_POSITIVE_F</zType>
+		<de-DE>Offenes Fruchtbarkeits Amulett Besitzerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_AMULET_OWNER_NEGATIVE</zType>
 		<de-DE>Geschlossenes Fruchtbarkeits Amulett Besitzer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_AMULET_OWNER_NEGATIVE_F</zType>
+		<de-DE>Geschlossenes Fruchtbarkeits Amulett Besitzerin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_GODS_CONSORT</zType>
 		<de-DE>Gott's Gefährte</de-DE>
 	</Entry> 
+	<Entry>
+		<zType>TEXT_TRAIT_GODS_CONSORT_F</zType>
+		<de-DE>Gott's Gefährtin</de-DE>
+	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DROUGHT_STRICKEN</zType>
 		<de-DE>Von Dürre betroffen</de-DE>
@@ -1036,19 +1196,35 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_HORSE</zType>
-		<de-DE>Pferd</de-DE>
+		<de-DE>Hengst</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_HORSE_F</zType>
+		<de-DE>Stute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_AMARNA_REFORMER</zType>
 		<de-DE>Amarna Reformer</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_AMARNA_REFORMER_F</zType>
+		<de-DE>Amarna Reformerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_BARRACKS_INSTRUCTOR</zType>
 		<de-DE>Kasernen Ausbilder</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_BARRACKS_INSTRUCTOR_F</zType>
+		<de-DE>Kasernen Ausbilderin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_SAVIOR_OF_THE_THRONE</zType>
 		<de-DE>Retter des Thrones</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_SAVIOR_OF_THE_THRONE_F</zType>
+		<de-DE>Retterin des Thrones</de-DE>
 	</Entry>
 	<Entry>
         <zType>TEXT_TRAIT_SAOSHYANT</zType>
@@ -1081,5 +1257,25 @@
 	<Entry>
 		<zType>TEXT_TRAIT_REBEL_SLAVE</zType>
 		<de-DE>Rebellen Sklave</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_REBEL_SLAVE_F</zType>
+		<de-DE>Rebellen Sklavin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_COMMANDER_ROYAL_GUARD</zType>
+		<de-DE>Feldherr der königlichen Garde</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_COMMANDER_ROYAL_GUARD_F</zType>
+		<de-DE>Feldherrin der königlichen Garde</de-DE>
+	</Entry>
+		<Entry>
+		<zType>TEXT_TRAIT_COMMANDER_BORDER_FORTS</zType>
+		<de-DE>Feldherr der Grenzregion</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_COMMANDER_BORDER_FORTS_F</zType>
+		<de-DE>Feldherrin der Grenzregion</de-DE>
 	</Entry>
 </Root>

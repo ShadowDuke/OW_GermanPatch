@@ -162,8 +162,8 @@
 		<de-DE>{0_character} verfolgt eine neue Ambition: {1_ambition}</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_START_QUEST</zType>
-		<de-DE>Du hast eine Quest gestartet: {0}{true_1: (innerhalb {1} turns)}</de-DE>
+		<zType>TEXT_GAME_START_GOAL</zType>
+		<de-DE>Du hast eine Ziel gestartet: {0}{true_1: (innerhalb {1} turns)}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_FINISH_AMBITION</zType>
@@ -216,6 +216,10 @@
 	<Entry>
 		<zType>TEXT_GAME_CHARACTER_ADULT_POPUP</zType>
 		<de-DE>{0_character} ist jetzt Erwachsen (age {1_age})</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_CHARACTER_MARRIAGE</zType>
+		<de-DE>{0_character} hat {1_character} geheiratet.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_CHARACTER_CHOOSES_RELIGION</zType>
@@ -640,6 +644,10 @@
 		<de-DE>Nicht bekannt als {0_character}</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_CHARACTER_TITLE_CHANGE</zType>
+		<de-DE>Gewährt den Titel: {0_title}</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_XP</zType>
 		<de-DE>{0_value} EP</de-DE>
 	</Entry>
@@ -649,7 +657,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_REVEAL_RANGE</zType>
-		<de-DE><![CDATA[Deckt {0_dist} <singular_0>jedes Feld<plural>alle Felder<end> auf]]></de-DE>
+		<de-DE>Deckt {0_dist} {singular_0:jedes Feld:jede Felder} auf</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_SET_VEGETATION</zType>
