@@ -811,7 +811,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_COOLDOWN</zType>
-		<de-DE><![CDATA[<true_0>Cooldown: <false><end>{1_turns}]]></de-DE>
+		<de-DE>Cooldown: {0_turns}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_COOLDOWN_NAME</zType>
