@@ -15,7 +15,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_LOST_TRIBE_ALLIANCE</zType>
-		<de-DE>Du bist nicht länger in einem Bündnis mit den {0_barbarians}.</de-DE>
+		<de-DE>Du bist nicht länger in einem Bündni7s mit den {0_barbarians}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_GAINED_TRIBE_ALLIANCE</zType>
@@ -784,12 +784,28 @@
 		<de-DE>{0_unit} hat Auto-Bewegung abgebrochen</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_LAUNCH_OFFENSIVE</zType>
+		<de-DE>Offensive!</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_LAUNCH_OFFENSIVE_LOG_DATA</zType>
 		<de-DE>{0_unit} startet eine Offensive!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_UNIT_ESTABLISH_THEOLOGY_LOG_DATA</zType>
 		<de-DE>{0,1_religion} {1_theology} etabliert von {2_player} in {3_city}!</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_HUMAN_DIPLOMACY_PROPOSAL_TRUCE</zType>
+		<de-DE>{0_player} has sent you an envoy with a link(DIPLOMACY_TRUCE) Proposal.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_HUMAN_DIPLOMACY_PROPOSAL_PEACE</zType>
+		<de-DE>{0_player} has sent you an envoy with a link(DIPLOMACY_PEACE) Proposal.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_HUMAN_DIPLOMACY_PROPOSAL_ALLIANCE</zType>
+		<de-DE>{0_player} has sent you an envoy with a link(CONCEPT_ALLIANCE_PLAYER) Proposal.</de-DE>
 	</Entry>
 	<!--Tile Renderer-->
 	<Entry>

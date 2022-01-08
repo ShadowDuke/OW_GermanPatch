@@ -218,10 +218,6 @@
 		<de-DE>Heiratsangebot abgelehnt</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MEMORYTRIBE_SMUGGLED_SPIES</zType>
-		<de-DE>Unsere Agenten eingeschleust</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_MEMORYTRIBE_ASSISTED_IN_MONSOON</zType>
 		<de-DE>Half uns bei einem Monsun</de-DE>
 	</Entry>
@@ -2038,10 +2034,6 @@
 		<de-DE>Triumph for our General</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MEMORYFAMILY_OVERCROWDED_CITY</zType>
-		<de-DE>Overcrowded our cities with children</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_MEMORYFAMILY_HIGH_PRIESTS</zType>
 		<de-DE>You obeyed the Gods</de-DE>
 	</Entry>
@@ -3042,7 +3034,7 @@
 		<de-DE>Sorted out a family dispute in a diplomatic way</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MEMORYFAMILY_UNDERMINED_RELIGIOUS_POSITION</zType>
+		<zType>TEXT_MEMORYFAMILY_DENOUNCED_FAITH</zType>
 		<de-DE>Undermined religious standing</de-DE>
 	</Entry>
 	<Entry>
@@ -3562,10 +3554,6 @@
 		<de-DE>Punished Priest's initiative</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MEMORYRELIGION_TREATED_EQUALLY_WITH_HEAD</zType>
-		<de-DE>Treated equally with our religion head</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_MEMORYRELIGION_CRUMBLING_ZIGGURAT</zType>
 		<de-DE>Failed to restore The Great Ziggurat</de-DE>
 	</Entry>
@@ -3752,7 +3740,39 @@
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_BONUS_FORTUNE_FAVORS_HELPED_TRIBE</zType>
 		<de-DE>Helped us improve the lives of our People</de-DE>
-	</Entry>	 
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_REFUSAL</zType>
+		<de-DE>Refused to help us against our enemies</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_ALL_IN</zType>
+		<de-DE>Joined our war against a common enemy</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_AID</zType>
+		<de-DE>Joined our war against a common enemy</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_BONUS_AN_ACT_OF_BRAVERY_STATUE</zType>
+		<de-DE>Immortalized our leader in stone</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_BONUS_AN_ACT_OF_BRAVERY_HEARTFELT_THANKS</zType>
+		<de-DE>Acknowledged our leader's bravery</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_BONUS_CRUEL_SUMMER_COMMON_INTERESTS</zType>
+		<de-DE>Our friendship is built on common interests</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_BONUS_A_TOUCH_OF_THE_EXOTIC_RECIPROCATION</zType>
+		<de-DE>Exchanged gifts with us</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_BONUS_WILD_HORSES_TRIBE</zType>
+		<de-DE>Funded our initiative</de-DE>
+	</Entry> 
 	<Entry beginGroup="Family">
 		<zType>TEXT_MEMORYFAMILY_CHOSEN_HEIR_NO</zType>
 		<de-DE>Refused to make one of the us the Heir</de-DE>
@@ -3894,12 +3914,32 @@
 		<de-DE>Punished us for sabotage</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAVORED_SPOUSE</zType>
+		<de-DE>Favors a spouse from our Family</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_FAVORED_SPOUSE_COPY</zType>
+		<de-DE>Favors a spouse from our Family</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_MEMORYCHARACTER_FAVORED_SPOUSE</zType>
 		<de-DE>Bevorzugte Ehepartner</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_MEMORYCHARACTER_DISFAVORED_SPOUSE</zType>
 		<de-DE>Verschmähte Ehepartner</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_MEMORYFAMILY_DISFAVORED_SPOUSE</zType>
+		<de-DE>Disfavors spouse from our Family</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_MEMORYTRIBE_DISFAVORS_SPOUSE</zType>
+		<de-DE>Disfavors spouse from our Tribe</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYPLAYER_MEMORYPLAYER_DISFAVORED_SPOUSE</zType>
+		<de-DE>Disfavors spouse from our Empire</de-DE>
 	</Entry>
 	<Entry beginGroup="Royalty">
 		<zType>TEXT_MEMORYFAMILY_HEIR_WEDDING_FAUX_PAS_NOTHING</zType>
@@ -3958,10 +3998,6 @@
 		<de-DE>Allowed us to try to deal with slave revolt</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MEMORYFAMILY_SLAVE_REVOLT_4</zType>
-		<de-DE>Freed the slaves who killed our family head</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_MEMORYFAMILY_SLAVE_REVOLT_4_FORGIVENESS</zType>
 		<de-DE>Gave into the demands of the slave revolt</de-DE>
 	</Entry>
@@ -4012,5 +4048,13 @@
 	<Entry beginGroup="Player">
 		<zType>TEXT_MEMORYPLAYER_FUNDED_RESEARCH</zType>
 		<de-DE>Finanzierte Forschung</de-DE>
+	</Entry>
+	<Entry beginGroup="Character">
+		<zType>TEXT_MEMORYFAMILY_MEMORYFAMILY_NAMED_MURDERER</zType>
+		<de-DE>Des Mordes beschuldigt</de-DE>
+	</Entry>
+	<Entry beginGroup="Ambition">
+		<zType>TEXT_MEMORYFAMILY_MEMORYFAMILY_REFUSED_AMBITION</zType>
+		<de-DE>Verweigerte unsere Ambition</de-DE>
 	</Entry>
 </Root>

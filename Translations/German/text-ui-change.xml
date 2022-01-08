@@ -47,12 +47,20 @@
 		<de-DE>Du bist an der Reihe</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_SIMULTANEOUS_TURN</zType>
+		<de-DE>Simultan</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_SIMULTANEOUS_TURNS_LEFT</zType>
+		<de-DE>Simultan ({0} links)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_TURN_ENDED</zType>
-		<de-DE>Turn Ended</de-DE>
+		<de-DE>Zug beendet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_THEIR_TURN</zType>
-		<de-DE>{0_player}'s Zug {true_1:{1_orders}{YIELD_ORDERS}}</de-DE>
+		<de-DE>{0_player} Zug {true_1:{1_orders}{YIELD_ORDERS}}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_HOTSEAT_PLAYER</zType>
@@ -289,6 +297,10 @@
 	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_CHARACTER_BIRTH</zType>
 		<de-DE>CHARAKTER GEBOREN</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_CHARACTER_MARRIAGE</zType>
+		<de-DE>CHARAKTER HEIRAT</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_CHARACTER_DEATH</zType>
@@ -965,31 +977,31 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
 	</Entry>
 	<Entry>
         <zType>TEXT_UI_UNITLIST_CIVILIAN_FILTER</zType>
-        <de-DE><![CDATA[<true_0>Verstecke<false>Zeige<end> Zivile Einheiten]]></de-DE>
+		<de-DE>{true_0:Verstecke:Zeige} Zivilie Einheiten</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_UI_UNITLIST_SCOUT_FILTER</zType>
-        <de-DE><![CDATA[<true_0>Verstecke<false>Zeige<end> Späher]]></de-DE>
+		<de-DE>{true_0:Verstecke:Zeige} Späher</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_UI_UNITLIST_MILITARY_WATER_FILTER</zType>
-        <de-DE><![CDATA[<true_0>Verstecke<false>Zeige<end> See Einheiten]]></de-DE>
+		<de-DE>{true_0:Verstecke:Zeige} See Einheiten</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_UI_UNITLIST_MILITARY_MOUNTED_FILTER</zType>
-        <de-DE><![CDATA[<true_0>Verstecke<false>Zeige<end> Berittene Einheiten]]></de-DE>
+		<de-DE>{true_0:Verstecke:Zeige} Berittene Einheiten</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_UI_UNITLIST_MILITARY_SIEGE_FILTER</zType>
-        <de-DE><![CDATA[<true_0>Verstecke<false>Zeige<end> Belagerungs Einheiten]]></de-DE>
+		<de-DE>{true_0:Verstecke:Zeige} Belagerungs Einheiten</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_UI_UNITLIST_MILITARY_RANGED_FILTER</zType>
-        <de-DE><![CDATA[<true_0>Verstecke<false>Zeige<end> Fernkampf Einheiten]]></de-DE>
+		<de-DE>{true_0:Verstecke:Zeige} Fernkampf Einheiten</de-DE>
     </Entry>
     <Entry>
         <zType>TEXT_UI_UNITLIST_MILITARY_INFANTRY_FILTER</zType>
-        <de-DE><![CDATA[<true_0>Verstecke<false>Zeige<end> Nahkampf Einheiten]]></de-DE>
+		<de-DE>{true_0:Verstecke:Zeige} Nahkampf Einheiten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNITLIST_FILTER_OTHERS</zType>
@@ -1968,7 +1980,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
     <Entry>
         <zType>TEXT_SP_SETUP_SIMPLE_MAPSIZE</zType>
         <de-DE>Karten Größe</de-DE>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SP_SETUP_SIMPLE_GAME_OPTION_PRESETS</zType>
+		<de-DE>Option Voreinstellungen</de-DE>
+	</Entry>
     <!--advanced-->
     <Entry>
         <zType>TEXT_SP_SETUP_ADVANCED_NATION</zType>

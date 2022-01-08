@@ -19,7 +19,7 @@
 		<de-DE>Wahrzeichen benannt</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_EVENTPLAYER_LEGITIMACY</zType>
+		<zType>TEXT_BONUS_PLAYER_LEGITIMACY</zType>
 		<de-DE>Spieler Ereignis</de-DE>
 	</Entry>
 	<Entry>
@@ -112,59 +112,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_TRIBE_ELIMINATED_LEGITIMACY</zType>
-		<de-DE>einen Stamm beseitigt</de-DE>
+		<de-DE>Einen Stamm beseitigt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_PLAYER_WAR_LEGITIMACY</zType>
-		<de-DE>Furchtlos gegenüber Krieg</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_LEAVE_RELIGION</zType>
-		<de-DE>Verlasse link(CONCEPT_STATE_RELIGION)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_SEND_COURTIER</zType>
-		<de-DE>Schicke link(CONCEPT_COURTIER)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_RALLY_TROOPS</zType>
-		<de-DE>Sammle die Truppen</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_HOLD_COURT</zType>
-		<de-DE>Hofstaat abhalten</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_INFLUENCE</zType>
-		<de-DE>Einfluss (Erfolg)</de-DE>
+		<de-DE>Hatte keine Angst vor Krieg</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INFLUENCE_WEAKEN</zType>
 		<de-DE>Einfluss (Erfolg, geschwächt)</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_CONVERT_SELF</zType>
-		<de-DE>Selbst konvertiert</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_CONVERT_STATE</zType>
-		<de-DE>Konvertiere zur link(CONCEPT_STATE_RELIGION)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_CONVERT_RELIGION</zType>
-		<de-DE>Konvertiere zur link(CONCEPT_STATE_RELIGION)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_INTERCESSION</zType>
-		<de-DE>Fürsprache (Erfolg)</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INTERCESSION_WEAKEN</zType>
 		<de-DE>Fürsprache (Erfolg, geschwächt)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_ADOPT</zType>
-		<de-DE>Adoption</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_LEGITIMIZE</zType>
@@ -175,32 +135,12 @@
 		<de-DE>Gewählter Erbe</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_INFILTRATE_REVEAL</zType>
-		<de-DE>Infiltrieren (Erfolg)</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INFILTRATE_REVEAL_EXPOSED</zType>
 		<de-DE>Infiltrieren (Erfolg, entblößt)</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_SLANDER_SUCCESS</zType>
-		<de-DE>Verleumden (Erfolg)</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_SLANDER_SUCCESS_EXPOSED</zType>
 		<de-DE>Verleumden (Erfolg, entblößt)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_STEAL_RESEARCH_SUCCESS</zType>
-		<de-DE>Forschung stehlen (Erfolg)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_STEAL_RESEARCH_SUCCESS_EXPOSED</zType>
-		<de-DE>Forschung stehlen (Erfolg, entblößt)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_ASSASSINATE_KILL</zType>
-		<de-DE>Ermorden (Getötet)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_ASSASSINATE_KILL_EXPOSED</zType>
@@ -211,56 +151,20 @@
 		<de-DE>Ermorden (Fehlschlag, entblößt)</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_TREACHERY_SUCCESS</zType>
-		<de-DE>Verrat (Erfolg)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_TREACHERY_EXPOSED</zType>
-		<de-DE>Verrat (entblößt)</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_TREACHERY_FAILURE</zType>
 		<de-DE>Verrat (Fehlschlag)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_INSURRECTION_REVOLT</zType>
-		<de-DE>Aufstand (Revolte)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_INSURRECTION_EXPOSED</zType>
-		<de-DE>Aufstand (Entblößt)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INSURRECTION_FAILURE</zType>
 		<de-DE>Aufstand (Fehlschlag)</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_HIGH_SYNOD_SUCCESS</zType>
-		<de-DE>Hohe Kirchenversammlung (Erfolg)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_HIGH_SYNOD_FAILURE</zType>
-		<de-DE>Hohe Kirchenversammlung (Fehlschlag)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_FAMILY_GIFT_SUCCESS</zType>
-		<de-DE>Familiengeschenk (Erfolg)</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_FAMILY_GIFT_SUCCESS_WEAKEN</zType>
 		<de-DE>Familiengeschenk (Erfolg, geschwächt)</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_PACIFY_CITY_SUCCESS</zType>
-		<de-DE>Stadt beschwichtigen (Erfolg)</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_PACIFY_CITY_SUCCESS_WEAKEN</zType>
 		<de-DE>Stadt beschwichtigen (Erfolg, geschwächt)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_IMPRISON_JUST</zType>
-		<de-DE>Einkerkern (Gerecht)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_IMPRISON_UNJUST</zType>
@@ -271,236 +175,8 @@
 		<de-DE>Einkerkern (Flucht)</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_RELEASE_GRATEFUL</zType>
-		<de-DE>Freilassung (Dankbar)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_RELEASE_BITTER</zType>
-		<de-DE>Freilassung (Verbittert)</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_RELEASE_UNJUST</zType>
 		<de-DE>Freilassung (Ungerecht)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_CAPTURE_SURRENDER</zType>
-		<de-DE>Ergreifen (Ergeben)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_CAPTURE_KILLED</zType>
-		<de-DE>Ergreifen (Getötet)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_CAPTURE_FLEE</zType>
-		<de-DE>Ergreifen (Fliehen)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_PAY_RANSOM</zType>
-		<de-DE>Ergreifen (Lösegeld)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_MARRY_COURTIER</zType>
-		<de-DE>Heirat</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MISSIONRESULT_DIVORCE</zType>
-		<de-DE>Scheidung</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_STONECUTTING_BONUS_STONE</zType>
-		<de-DE>link(YIELD_STONE) Schub</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_HUSBANDRY_BONUS_FOOD</zType>
-		<de-DE>link(YIELD_FOOD) Schub</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_DRAMA_BONUS_SETTLER</zType>
-		<de-DE>Freier link(UNIT_SETTLER)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_POLIS_BONUS_WORKER</zType>
-		<de-DE>Freier link(UNIT_WORKER)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_ARISTOCRACY_BONUS_BORDERS</zType>
-		<de-DE>Grenzenausdehnung</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_NAVIGATION_BONUS_BIREME</zType>
-		<de-DE>Freie link(UNIT_BIREME)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_PHALANX_BONUS_ORDERS</zType>
-		<de-DE>link(YIELD_ORDERS) Schub</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_SPOKED_WHEEL_BONUS_CHARIOT</zType>
-		<de-DE>Freier link(UNIT_CHARIOT)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_SOVEREIGNITY_BONUS_CIVICS</zType>
-		<de-DE>link(YIELD_CIVICS) Schub</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_FORESTRY_BONUS_SCIENTIST</zType>
-		<de-DE>Neuer link(COURTIER_SCIENTIST)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_CITIZENSHIP_BONUS_MINISTER</zType>
-		<de-DE>Neuer link(COURTIER_MINISTER)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_PORTCULLIS_BONUS_MACEMAN</zType>
-		<de-DE>Freier link(UNIT_MACEMAN)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_LAND_CONSOLIDATION_BONUS_CAMEL_ARCHER</zType>
-		<de-DE>Freier link(UNIT_CAMEL_ARCHER)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_LAND_CONSOLIDATION_BONUS_WAR_ELEPHANT</zType>
-		<de-DE>Freier link(UNIT_WAR_ELEPHANT)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_COMPOSITE_BOW_BONUS_ARCHER</zType>
-		<de-DE>Freier link(UNIT_ARCHER)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_COINAGE_BONUS_MONEY</zType>
-		<de-DE>link(YIELD_MONEY) Schub</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_SCHOLARSHIP_BONUS_SCIENTIST</zType>
-		<de-DE>Neuer link(COURTIER_SCIENTIST)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_TORSION_BONUS_BALLISTA</zType>
-		<de-DE>Freie link(UNIT_BALLISTA)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_STIRRUPS_BONUS_HORSEMAN</zType>
-		<de-DE>Freier link(UNIT_HORSEMAN)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_STIRRUPS_BONUS_HORSE_ARCHER</zType>
-		<de-DE>Freier link(UNIT_HORSE_ARCHER)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_MANOR_BONUS_GOODS</zType>
-		<de-DE>Waren Schub</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_BATTLELINE_BONUS_SOLDIER</zType>
-		<de-DE>Neuer link(COURTIER_SOLDIER)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_MACHINERY_BONUS_ONAGER</zType>
-		<de-DE>Freier link(UNIT_ONAGER)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_CARTOGRAPHY_BONUS_TRIREME</zType>
-		<de-DE>Freie link(UNIT_TRIREME)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_HYDRAULICS_BONUS_MERCHANT</zType>
-		<de-DE>Neuer link(COURTIER_MERCHANT)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_VAULTING_BONUS_DISCONTENT</zType>
-		<de-DE>link(YIELD_DISCONTENT) Abnahme</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_BODKIN_ARROW_BONUS_TRAINING</zType>
-		<de-DE>link(YIELD_TRAINING) Schub</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_WINDLASS_BONUS_CROSSBOWMAN</zType>
-		<de-DE>Freier link(UNIT_CROSSBOWMAN)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_LATEEN_SAIL_BONUS_DROMON</zType>
-		<de-DE>Freie link(UNIT_DROMON)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_FISCAL_POLICY_BONUS_MERCHANT</zType>
-		<de-DE>Neuer link(COURTIER_MERCHANT)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_INFANTRY_SQUARE_BONUS_SOLDIER</zType>
-		<de-DE>Neuer link(COURTIER_SOLDIER)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_CHAIN_DRIVE_BONUS_MINISTER</zType>
-		<de-DE>Neuer link(COURTIER_MINISTER)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_ECONOMIC_REFORM</zType>
-		<de-DE>Neuer link(COURTIER_MERCHANT)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_MILITARY_PRESTIGE</zType>
-		<de-DE>Neuer link(COURTIER_SOLDIER)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_INDUSTRIAL_PROGRESS</zType>
-		<de-DE>Neuer link(COURTIER_MINISTER)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_BATTERING_RAM_UNIT</zType>
-		<de-DE>Freie link(UNIT_BATTERING_RAM)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_SIEGE_TOWER_UNIT</zType>
-		<de-DE>Freier link(UNIT_SIEGE_TOWER)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_AKKADIAN_ARCHER_UNIT</zType>
-		<de-DE>Freier link(UNIT_AKKADIAN_ARCHER)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_CIMMERIAN_ARCHER_UNIT</zType>
-		<de-DE>Freier link(UNIT_CIMMERIAN_ARCHER)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_AFRICAN_ELEPHANT_UNIT</zType>
-		<de-DE>Freier link(UNIT_AFRICAN_ELEPHANT)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_TURRETED_ELEPHANT_UNIT</zType>
-		<de-DE>Freier link(UNIT_TURRETED_ELEPHANT)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_LIGHT_CHARIOT_UNIT</zType>
-		<de-DE>Freier link(UNIT_LIGHT_CHARIOT)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_KUSHITE_CAVALRY_UNIT</zType>
-		<de-DE>Freie link(UNIT_KUSHITE_CAVALRY)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_HOPLITE_UNIT</zType>
-		<de-DE>Freier link(UNIT_HOPLITE)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_PHALANGITE_UNIT</zType>
-		<de-DE>Freier link(UNIT_PHALANGITE)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_PALTON_CAVALRY_UNIT</zType>
-		<de-DE>Freie link(UNIT_PALTON_CAVALRY)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_CATAPHRACT_ARCHER_UNIT</zType>
-		<de-DE>Freier link(UNIT_CATAPHRACT_ARCHER)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_HASTATUS_UNIT</zType>
-		<de-DE>Freier link(UNIT_HASTATUS)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_TECH_LEGIONARY_UNIT</zType>
-		<de-DE>Freier link(UNIT_LEGIONARY)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_KILL_CHARACTER_AGENT</zType>
@@ -509,22 +185,6 @@
 	<Entry>
 		<zType>TEXT_BONUS_ABDICATE</zType>
 		<de-DE>Abdankung</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_ZOROASTRIANISM_DISCIPLE</zType>
-		<de-DE>Freier link(UNIT_ZOROASTRIANISM_DISCIPLE)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_JUDAISM_DISCIPLE</zType>
-		<de-DE>Freier link(UNIT_JUDAISM_DISCIPLE)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_CHRISTIANITY_DISCIPLE</zType>
-		<de-DE>Freier link(UNIT_CHRISTIANITY_DISCIPLE)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_MANICHAEISM_DISCIPLE</zType>
-		<de-DE>Freier link(UNIT_MANICHAEISM_DISCIPLE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_PROJECT_PROTECTION_EDICTS</zType>
@@ -541,10 +201,6 @@
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_FEAST_REJECTED_CITY_PLAYER</zType>
 		<de-DE>Didn't pander to foreigners</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_EVENTOPTION_HEIR_COMING_OF_AGE_CEREMONY_PLAYER</zType>
-		<de-DE>Coming of Age</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_MOUTHPIECE_OF_THE_GODS_OPTION_0</zType>
@@ -699,10 +355,6 @@
 		<de-DE>Refused adoption of foreign Fisher</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_EVENTOPTION_MIDNIGHT_SUN_FOLLOWUP</zType>
-		<de-DE>Brought home exploring character.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RESOLVED_ADULT_CHILDREN_DISPUTE</zType>
 		<de-DE>Resolved adult children hunting dispute</de-DE>
 	</Entry>
@@ -749,10 +401,6 @@
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NEIGHBORS_CAPTURED_ROMAN_CITY_OPTION_1_PLAYER_1</zType>
 		<de-DE>Vowed to destroy the entire Roman civilization</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_EVENTOPTION_NEIGHBORS_CAPTURED_ROMAN_CITY_OPTION_0_PLAYER_1</zType>
-		<de-DE>Eine römische Stadt erobert, danach Frieden akzeptiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_NEIGHBORS_ROMANS_HAVE_TAKEN_OUR_CITY_OPTION_1_PLAYER_1</zType>
@@ -1127,9 +775,6 @@
 		<de-DE>Der höcht gesegnete</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_GIVE_TRAIT_DECEITFUL</zType>
-	</Entry>
-	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_FORBIDDEN_KNOWLEDGE_OPTION_3_CHARACTER</zType>
 		<de-DE>"Disregarded" Barbarian knowledge</de-DE>
 	</Entry>
@@ -1140,6 +785,14 @@
 	<Entry>
 		<zType>TEXT_BONUS_SMELLS_GOOD</zType>
 		<de-DE>Riecht super!</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_OUT_FOR_BLOOD_COMBAT_REFUSE_CHARACTER_3</zType>
+		<de-DE>Refused a duel of honor</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_ENEMIES_TOGETHER_NO_PLAYER</zType>
+		<de-DE>Refused a challenge</de-DE>
 	</Entry>
 	<Entry beginGroup="Combat">	
 		<zType>TEXT_BONUS_EVENTOPTION_LEADER_SMITING_FOES_STATUE</zType>
@@ -1294,14 +947,6 @@
 		<de-DE>Kind befolgt Befehle</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_EVENTOPTION_TIME_FOR_A_BREAK_DRINK</zType>
-		<de-DE>Zeit für eine Pause</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_EVENTOPTION_EPIC_POETRY_TEACH</zType>
-		<de-DE>Epic Poetry</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRAIT_LOST_RELATIVE_OPTION_0_CHARACTER_0</zType>
 		<de-DE>Held audience with lost relative</de-DE>
 	</Entry>
@@ -1434,10 +1079,6 @@
 		<de-DE>Nur Freunde</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_EVENTOPTION_HEIR_BYPASSED_SITUATION_INFLUENCE</zType>
-		<de-DE>Sie werden nachgeben</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_ASSASSINATION_BETRAYAL_ADMIT</zType>
 		<de-DE>Assassination Betrayal</de-DE>
 	</Entry>
@@ -1498,10 +1139,6 @@
 		<de-DE>Refused adoption of mysterious child</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_EVENTOPTION_CHILD_ENLISTMENT_OPTION_0</zType>
-		<de-DE>Urged child to join military</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHILD_COMMON_LOVE_OPTION_1_CHARACTER_0</zType>
 		<de-DE>Child married a commoner</de-DE>
 	</Entry>
@@ -1544,10 +1181,6 @@
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_LEADER_TWILIGHT_YEARS_OPTION_0_CHARACTER_2</zType>
 		<de-DE>Parent abdicated to me</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_EVENTOPTION_LEADER_THE_HEIRS_CUP_POISONED_OPTION_0</zType>
-		<de-DE>Poisoned my predecessor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_THE_FINAL_CAMPAIGN_OPTION_1</zType>
@@ -1612,14 +1245,6 @@
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_02_OPTION_0_CHARACTER_0</zType>
 		<de-DE>Expelled attempt usurper</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_1_CHARACTER_0</zType>
-		<de-DE>Accused courtiers of corruption</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_2_CHARACTER_0</zType>
-		<de-DE>Ingratiated myself to rival</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_PAY_TO_PLAY_OPTION_0_CHARACTER_1</zType>
@@ -2130,10 +1755,6 @@
 		<de-DE>Geweigert abzudanken</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_EVENTOPTION_FOUNDING_AVESTAN_1</zType>
-		<de-DE>Claims descent from Zoroaster</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELIGIOUS_INTRIGUE_DISCOVERED_0</zType>
 		<de-DE>Begged religion head for forgiveness</de-DE>
 	</Entry>
@@ -2263,10 +1884,6 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_FAMILY_DEBTS_OPTION_1_CHARACTER_1</zType>
-		<de-DE>Threatened lowly debt collectors</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_FAMILY_DEBTS_OPTION_2_CHARACTER_1</zType>
 		<de-DE>Threatened lowly debt collectors</de-DE>
 	</Entry>
 	<Entry>
@@ -2662,10 +2279,6 @@
 		<de-DE>Gefallene Leibwächter geehrt</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_PLOTTING_FOR_LUST</zType>
-		<de-DE>Wählte Tot über gezwungen zu werden</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_WILD_REVELS_DISCOVERED</zType>
 		<de-DE>Erlangt den Ruf eines närrischen Säufers</de-DE>
 	</Entry>
@@ -2750,6 +2363,10 @@
 		<zType>TEXT_BONUS_EVENTOPTION_DAUGHTER_OF_THE_STORM_TEMPLE_REFUSE</zType>
 		<de-DE>Ich schaff das</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_OUT_FOR_BLOOD_COMBAT_LOSE_BEG_CHARACTER_3</zType>
+		<de-DE>Begged for life in a duel</de-DE>
+	</Entry>
 	<Entry beginGroup="Diplomacy">
 		<zType>TEXT_BONUS_COIN_FACE</zType>
 		<de-DE>Face on a coin.</de-DE>
@@ -2773,10 +2390,6 @@
 	<Entry>
 		<zType>TEXT_BONUS_SHARED_PURPLE</zType>
 		<de-DE>Wears purple</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_BONUS_PURPLE_FAMILY</zType>
-		<de-DE>Permitted purple</de-DE>
 	</Entry>
 	<Entry beginGroup="Ambition">
 		<zType>TEXT_BONUS_EVENTOPTION_BOUND_BY_AN_OATH_NO_CHARACTER_1</zType>

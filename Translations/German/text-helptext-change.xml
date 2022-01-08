@@ -364,6 +364,10 @@
 		<de-DE>Von {0}: {LIST}</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LIST_AS</zType>
+		<de-DE>{LIST} (as {0})</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_EACH_COLON</zType>
 		<de-DE>Jede {0}: {1}</de-DE>
 	</Entry>
@@ -991,6 +995,10 @@
 		<de-DE>{0} Siegbedingung aktiviert</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_MENU_VICTORY_TYPE_DISABLED</zType>
+		<de-DE>{0} Deaktiviert</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MENU_MAP_SEED</zType>
 		<de-DE>Map Seed: {0}</de-DE>
 	</Entry>
@@ -1234,6 +1242,10 @@
 		<de-DE> ({0_player} baut gerade: {1_turns})</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_WONDERS_ALREADY_BUILT</zType>
+		<de-DE> (Bereits gebaut)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LAWS</zType>
 		<de-DE><![CDATA[Zeige Gesetzlichkeiten{true_0:<br>{0_presskey}}]]></de-DE>
 	</Entry>
@@ -1254,12 +1266,16 @@
 		<de-DE><![CDATA[Klicke um {0_yield} für {1_order} auszugeben{true_2:<br>{2_presskey}}]]></de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_CONVERTED_LEGITIMACY</zType>
+		<de-DE>Kann nur ein mal pro {0_turnScale} benutzt werden</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_NUM_CITIES</zType>
 		<de-DE>Deine Städte: {0_number}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TECH_TREE</zType>
-		<de-DE><![CDATA[Zeige Technologiebaum {true_0:[{0_presskey}}]]]></de-DE>
+		<de-DE>Zeige Technologiebaum Tree {true_0:[{0_presskey}}]</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_GIFT_YIELD</zType>
@@ -3582,6 +3598,10 @@ Einheiten erhalten EP während des Kämpfens oder wenn sie link(CONCEPT_IDLE) au
 Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link(CONCEPT_GENERAL), link(CONCEPT_GOVERNOR) oder link(CONCEPT_COUNCILOR), und durch Ereignisse.</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_ASSIMILATION</zType>
+		<de-DE>When a City is captured, its population will be resistant to their new foreign ruler. Assimilation results in reduced link(YIELD_GROWTH,1), link(YIELD_TRAINING,1), link(YIELD_CIVICS,1), and link(YIELD_CULTURE,1) yields. The Assimilation penalty amount and duration are increased by the link(CONCEPT_CULTURE_LEVEL) of a City at the time it was captured. A City's Assimilation diminishes by 1% every turn.</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_ZOC</zType>
 		<de-DE>Eine Einheit übt eine Kontrollzone (ZOC) über alle benachbarten Felder (außer über {0,1_riverLink}) aus, was gegnerische Einheiten daran hindert sich durch diese zu bewegen.
 
@@ -3949,14 +3969,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_DEAD</zType>
 		<de-DE>Tote Einheit</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_TYPE_VS</zType>
-		<de-DE>Vs. {0_unitTrait}: </de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_UNIT_TYPE_STRENGTH_MELEE_VS</zType>
-		<de-DE>link(UNITTRAIT_MELEE) Stärke vs. {0_unitTrait}: </de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_FAMILY_LABEL</zType>
@@ -4749,6 +4761,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_TRADE_NETWORK</zType>
 		<de-DE>{LIST} wenn auf link(CONCEPT_TRADE_NETWORK)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_BONUS_ON_COMPLETION</zType>
+		<de-DE>[Bei Fertigstellung] </de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_BONUS_ALL_CITIES</zType>
@@ -5780,22 +5796,6 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_LEADER</zType>
 		<de-DE>Als Oberhaupt: {0}</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_TRAIT_GOVERNOR</zType>
-		<de-DE>link(CONCEPT_GOVERNOR): {0}</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_TRAIT_GENERAL</zType>
-		<de-DE>link(CONCEPT_GENERAL): {0}</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_TRAIT_GENERAL_LEADER</zType>
-		<de-DE>link(CONCEPT_GENERAL) (wenn Oberhaupt): {0}</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_TRAIT_GENERAL_ADJACENT</zType>
-		<de-DE>link(CONCEPT_GENERAL) (Benachbarte Einheiten): {0}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_AGENT_MODIFIER</zType>

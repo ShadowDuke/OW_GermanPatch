@@ -247,6 +247,10 @@
 		<de-DE>Belandend</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_MANEUVERS</zType>
+		<de-DE>Rangiert</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_INGENUITY</zType>
 		<de-DE>Raffinesse</de-DE>
 	</Entry>
@@ -271,12 +275,20 @@
 		<de-DE>Heimlichkeit</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_RAPID_FIRE</zType>
+		<de-DE>Schnellfeuer</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_ASSAULT</zType>
 		<de-DE>Überfall</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_FORMATION</zType>
 		<de-DE>Formation</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_CENTURION</zType>
+		<de-DE>Zenturio</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_CRIPPLED</zType>
@@ -379,6 +391,38 @@
 		<de-DE>Schwert der Götter</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_ANTIMELEE</zType>
+		<de-DE>Anti-link(UNITTRAIT_MELEE)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_ANTIRANGED</zType>
+		<de-DE>Anti-link(UNITTRAIT_RANGED)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_ANTIPOLEARM</zType>
+		<de-DE>Anti-link(UNITTRAIT_POLEARM)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_ANTIINFANTRY1</zType>
+		<de-DE>Anti-link(UNITTRAIT_INFANTRY) I</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_ANTIINFANTRY2</zType>
+		<de-DE>Anti-link(UNITTRAIT_INFANTRY) II</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_ANTIMOUNTED1</zType>
+		<de-DE>Anti-link(UNITTRAIT_MOUNTED) I</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_ANTIMOUNTED2</zType>
+		<de-DE>Anti-link(UNITTRAIT_MOUNTED) II</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_ANTIMOUNTED3</zType>
+		<de-DE>Anti-link(UNITTRAIT_MOUNTED) III</de-DE>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_EFFECTUNIT_PIERCE1</zType>
 		<de-DE>Durchbohren I</de-DE>
 	</Entry>

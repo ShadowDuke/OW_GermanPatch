@@ -203,10 +203,6 @@
 		<de-DE>Deine Einheiten wurden angegriffen {1} time{true_0:s}!</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TURN_DIPLOMACY</zType>
-		<de-DE>-Diplomatie-</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_TURN_ECONOMY</zType>
 		<de-DE>-Wirtschaft-</de-DE>
 	</Entry>

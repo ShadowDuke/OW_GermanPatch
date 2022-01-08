@@ -11,27 +11,55 @@
 		<de-DE>Assyrien~Assyrische~ein Assyrer~Assyrer</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_NATION_ASSYRIA_F</zType>
+		<de-DE>Assyrien~Assyrische~eine Assyrerin~Assyrerinnen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_NATION_BABYLONIA</zType>
 		<de-DE>Babylonien~Babylonische~ein Babylonier~Babylonier</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_NATION_BABYLONIA_F</zType>
+		<de-DE>Babylonien~Babylonische~eine Babylonierin~Babylonierinnen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_NATION_CARTHAGE</zType>
 		<de-DE>Karthago~Karthagische~ein Karthager~Karthager</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_NATION_CARTHAGE_F</zType>
+		<de-DE>Karthago~Karthagische~eine Karthagerin~Karthagerinnen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_NATION_EGYPT</zType>
 		<de-DE>Ägypten~Ägyptische~ein Ägypter~Ägypter</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_NATION_EGYPT_F</zType>
+		<de-DE>Ägypten~Ägyptische~eine Ägypterin~Ägypterinnen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_NATION_GREECE</zType>
 		<de-DE>Griechenland~Griechische~ein Grieche~Griechen</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_NATION_GREECE_F</zType>
+		<de-DE>Griechenland~Griechische~eine Griechin~Griechinnen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_NATION_PERSIA</zType>
-		<de-DE>Persien~Persische~a Perser~Perser</de-DE>
+		<de-DE>Persien~Persische~ein Perser~Perser</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_NATION_PERSIA_F</zType>
+		<de-DE>Persien~Persische~eine Perserin~Perserinnen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_NATION_ROME</zType>
 		<de-DE>Rom~Römische~ein Römer~Römer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_NATION_ROME_F</zType>
+		<de-DE>Rom~Römische~eine Römerin~Römerinnen</de-DE>
 	</Entry>
 </Root>

@@ -344,15 +344,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_85</zType>
-		<de-DE>link(UNIT_WORKER,2) take an extra turn to build improvements outside their family's territory.</de-DE>
+		<de-DE>link(UNIT_WORKER,2) take an extra turn to build link(CONCEPT_IMPROVEMENT,2) outside their Family's territory.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_86</zType>
-		<de-DE>Your Nation can build its unique units in cities with link(CULTURE_DEVELOPING) Culture and a link(IMPROVEMENT_GARRISON_2).</de-DE>
+		<de-DE>Your Nation can build its unique Units in Cities with link(CULTURE_DEVELOPING) Culture and a link(IMPROVEMENT_GARRISON_2).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_87</zType>
-		<de-DE>Beware of the map edges. Raiders could be lurking beyond!</de-DE>
+		<de-DE>Beware of the map edges. link(TRIBE_RAIDERS) could be lurking beyond!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_88</zType>
@@ -360,35 +360,35 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_89</zType>
-		<de-DE>Ratings for Characters like link(RATING_COURAGE), link(RATING_DISCIPLINE), link(RATING_CHARISMA), and link(RATING_WISDOM) can be changed by events, and affect a Character's abilities as a Leader, link(CONCEPT_GOVERNOR), or link(CONCEPT_GENERAL).</de-DE>
+		<de-DE>Ratings for Characters like link(RATING_COURAGE), link(RATING_DISCIPLINE), link(RATING_CHARISMA), and link(RATING_WISDOM) can be changed by events and affect a Character's abilities as a Leader, link(CONCEPT_GOVERNOR), or link(CONCEPT_GENERAL).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_90</zType>
-		<de-DE>Hold [hotkey(HOTKEY_SHOW_TILE_SPECIALISTS)] to highlight Specialists and to see what each one produces.</de-DE>
+		<de-DE>Hold [hotkey(HOTKEY_SHOW_CURRENT_YIELDS)] to highlight tile Yields.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_91</zType>
-		<de-DE>Keep your Family Heads happy! Influence them directly, or have other important Characters Intercede on your behalf.</de-DE>
+		<de-DE>Keep your link(CONCEPT_FAMILY) Heads happy! link(MISSION_INFLUENCE) them directly, or have other important Characters Intercede on your behalf.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_92</zType>
-		<de-DE>The Cities of Families with a high Opinion of you cost less link(YIELD_MAINTENANCE), and their Units fight more effectively.</de-DE>
+		<de-DE>The Cities of link(CONCEPT_FAMILY,2) with a high link(CONCEPT_OPINION_FAMILY,3) of you cost less link(YIELD_MAINTENANCE), and their Units fight more effectively.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_93</zType>
-		<de-DE>The Cities of Families with a low Opinion of you cost more link(YIELD_MAINTENANCE) and produce fewer link(YIELD_CIVICS) and less link(YIELD_TRAINING). Their Units fight less effectively too!</de-DE>
+		<de-DE>The Cities of link(CONCEPT_FAMILY,2) with a low link(CONCEPT_OPINION_FAMILY,3) of you cost more link(YIELD_MAINTENANCE) and produce fewer link(YIELD_CIVICS) and less link(YIELD_TRAINING). Their Units fight less effectively too!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_94</zType>
-		<de-DE>Angry Families can rebel against your rule, spawning Rebel Units around their Cities. Your Units from that Family are not as effective when fighting against Rebels.</de-DE>
+		<de-DE>Angry link(CONCEPT_FAMILY,2) can rebel against your rule, spawning link(TRIBE_REBELS,1) Units around their Cities. Your Units from that link(CONCEPT_FAMILY) are not as effective when fighting against link(TRIBE_REBELS).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_95</zType>
-		<de-DE>Family opinion is directly influenced by Family and Religion Head Characters.</de-DE>
+		<de-DE>link(CONCEPT_OPINION_FAMILY,1) is directly influenced by link(CONCEPT_FAMILY) and link(CONCEPT_RELIGION) Head Characters.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_96</zType>
-		<de-DE>It may become difficult to keep all the Families happy if they follow different Religions.</de-DE>
+		<de-DE>It may become difficult to keep all link(CONCEPT_FAMILY,2) happy if they follow different link(CONCEPT_RELIGION,2).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_97</zType>
@@ -396,7 +396,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_98</zType>
-		<de-DE>link(UNIT_SCOUT,2) can establish Agent Networks in Foreign Cities to immediately gain visibility into them. Subsequently, you can assign Characters as Agents, who can perform incite link(MISSION_TREACHERY) or link(MISSION_INSURRECTION) Missions on their Cities.</de-DE>
+		<de-DE>link(UNIT_SCOUT,2) can establish link(CONCEPT_AGENT_NETWORK,2) in Foreign Cities to immediately gain visibility of the City and its territory. Subsequently, you can assign Characters as link(CONCEPT_AGENT,2), who can perform link(MISSION_TREACHERY) or link(MISSION_INSURRECTION) Missions on their Cities.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_99</zType>

@@ -174,62 +174,6 @@
 		<de-DE>Beginne im Norden, wo es kühler ist</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MAP_OPTION_ARID_TRIBES_FIVE</zType>
-		<de-DE>Fünf Stämme</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_ARID_TRIBES_FIVE_HELP</zType>
-		<de-DE>Sporadisch</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_ARID_TRIBES_FOUR</zType>
-		<de-DE>Vier Stämme</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_ARID_TRIBES_FOUR_HELP</zType>
-		<de-DE>Quadranten</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_ARID_TRIBES_THREE</zType>
-		<de-DE>Drei Stämme</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_ARID_TRIBES_THREE_HELP</zType>
-		<de-DE>Ein Stamm pro Breitengrad</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_ARID_TRIBES_TWO</zType>
-		<de-DE>Zwei Stämme</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_ARID_TRIBES_TWO_HELP</zType>
-		<de-DE>Ein Stamm bevorzugt flaches Land und Wasser. Der andere bevorzugt auf den Hügeln zu leben</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_ARID_TRIBES_BARBARIANS</zType>
-		<de-DE>Nur Barbaren</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_ARID_TRIBES_BARBARIANS_HELP</zType>
-		<de-DE>Keine Stämme, nur Barbaren Lager</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_ARID_TRIBES_ONE</zType>
-		<de-DE>Ein Stamm</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_ARID_TRIBES_ONE_HELP</zType>
-		<de-DE>Ein riesiger Stamm besitzt den mittleren Teil der Karte</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_ARID_TRIBES_RANDOM</zType>
-		<de-DE>Zufällig</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_ARID_TRIBES_RANDOM_HELP</zType>
-		<de-DE>Variiert in der Anzahl und Verteilung</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_MAP_OPTION_ARID_WATER_SIZE_LARGE</zType>
 		<de-DE>Große Seen</de-DE>
 	</Entry>
@@ -500,62 +444,6 @@
 	<Entry>
 		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_PLAYER_START_OCEAN_HELP</zType>
 		<de-DE>Beginne im Norden, in der Nähe des Meeres</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_RANDOM</zType>
-		<de-DE>Zufällig</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_RANDOM_HELP</zType>
-		<de-DE>Variiert in der Anzahl und Verteilung</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_FIVE</zType>
-		<de-DE>Fünf Stämme</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_FIVE_HELP</zType>
-		<de-DE>Sporadisch</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_FOUR</zType>
-		<de-DE>Vier Stämme</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_FOUR_HELP</zType>
-		<de-DE>Quadranten</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_THREE</zType>
-		<de-DE>Drei Stämme</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_THREE_HELP</zType>
-		<de-DE>Ein Stamm pro Breitengrad</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_TWO</zType>
-		<de-DE>Zwei Stämme</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_TWO_HELP</zType>
-		<de-DE>Ein Stamm im Westen, der andere im Osten</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_ONE</zType>
-		<de-DE>Ein Stamm</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_ONE_HELP</zType>
-		<de-DE>Ein riesiger Stamm bewohnt die Mitte der Karte</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_BARBARIANS</zType>
-		<de-DE>Nur Barbaren</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_BARBARIANS_HELP</zType>
-		<de-DE>Keine Stämme, nur Barbaren Lager</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_DISJUNCTION_CONTINENTS_WEIGHTED_RANDOM</zType>
