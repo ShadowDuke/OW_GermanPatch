@@ -5928,10 +5928,6 @@ It seems that your quick thinking has saved you on this occassion, but what will
 		<de-DE>Like {G1:father:mother}, like {G0:son:daughter}</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_INHERITANCE_CUNNING_TITLE</zType>
-		<de-DE>Like {G1:father:mother}, like {G0:son:daughter}</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTSTORY_INHERITANCE_DEALMAKER_TITLE</zType>
 		<de-DE>Like {G1:father:mother}, like {G0:son:daughter}</de-DE>
 	</Entry>
@@ -8790,10 +8786,6 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RELATIONSHIP_URGING_CAUTION_TITLE</zType>
 		<de-DE>Urging Caution</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_RELATIONSHIP_MORAL_DEGRADATION_TITLE</zType>
-		<de-DE>Moral Degradation</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RELATIONSHIP_GIVE_AN_INCH_TITLE</zType>

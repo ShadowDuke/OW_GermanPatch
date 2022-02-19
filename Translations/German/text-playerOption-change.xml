@@ -38,14 +38,6 @@
 		<de-DE>Ermüdete Einheiten sind in der Wechselauswahl inbegriffen</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_PLAYEROPTION_AUTOMATED_UNITS_LAST</zType>
-		<de-DE>Automated Units Last</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_PLAYEROPTION_AUTOMATED_UNITS_LAST_DESC</zType>
-		<de-DE>Automated Units move at the end of the turn</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_PLAYEROPTION_DISABLE_EDGE_SCROLLING</zType>
 		<de-DE>Deaktivert Rand Scrolling</de-DE>
 	</Entry>

@@ -151,16 +151,48 @@
 		<de-DE>Ermorden (Fehlschlag, entblößt)</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_BONUS_MISSIONRESULT_TREACHERY_SUCCESS</zType>
+		<de-DE>Verrat (Erfolg)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_MISSIONRESULT_TREACHERY_EXPOSED</zType>
+		<de-DE>Verrat (entblößt)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_TREACHERY_FAILURE</zType>
 		<de-DE>Verrat (Fehlschlag)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_MISSIONRESULT_INSURRECTION_REVOLT</zType>
+		<de-DE>Aufstand (Revolte)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_MISSIONRESULT_INSURRECTION_EXPOSED</zType>
+		<de-DE>Aufstand (entblößt)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_INSURRECTION_FAILURE</zType>
 		<de-DE>Aufstand (Fehlschlag)</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_BONUS_MISSIONRESULT_HIGH_SYNOD_SUCCESS</zType>
+		<de-DE>Hohe Kirchenversammlung (Erfolg)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_MISSIONRESULT_HIGH_SYNOD_FAILURE</zType>
+		<de-DE>Hohe Kirchenversammlung (Fehlschlag)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_MISSIONRESULT_FAMILY_GIFT_SUCCESS</zType>
+		<de-DE>Familiengeschenk (Erfolg)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_FAMILY_GIFT_SUCCESS_WEAKEN</zType>
 		<de-DE>Familiengeschenk (Erfolg, geschwächt)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_MISSIONRESULT_PACIFY_CITY_SUCCESS</zType>
+		<de-DE>Stadt beschwichtigen (Erfolg)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MISSIONRESULT_PACIFY_CITY_SUCCESS_WEAKEN</zType>
@@ -793,6 +825,10 @@
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_ENEMIES_TOGETHER_NO_PLAYER</zType>
 		<de-DE>Refused a challenge</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_TREACHERY_THEM_AGENT_SECRETS_RETURN_PLAYER</zType>
+		<de-DE>Feindliche Agenten gedemütigt</de-DE>
 	</Entry>
 	<Entry beginGroup="Combat">	
 		<zType>TEXT_BONUS_EVENTOPTION_LEADER_SMITING_FOES_STATUE</zType>
@@ -1923,10 +1959,6 @@
 		<de-DE>Added foreign adviser to court</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_MORAL_DEGRADATION_OPTION_0_CHARACTER_1</zType>
-		<de-DE>Resisted foreign intervention</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RELATIONSHIP_GIVE_AN_INCH_OPTION_0_CHARACTER_1</zType>
 		<de-DE>Refused to bow to foreign pressure</de-DE>
 	</Entry>
@@ -2375,9 +2407,21 @@
 		<zType>TEXT_BONUS_EVENTOPTION_ROCK_IGNORED_SWORD</zType>
 		<de-DE>Ignored a sign to change the succession</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_MERCY_FOR_THE_WEAK_ANGRY_FAMILIES</zType>
+		<de-DE>Refused to heed the wisdom of your vassals</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DISPLAY_OF_BENEVOLENCE_LEGITIMACY</zType>
+		<de-DE>Greater appreciation from your peers for your display of benevolence</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_LUXURY_SEEKERS_LEGITIMACY</zType>
+		<de-DE>Allowed an impatient family to dictate your rule</de-DE>
+	</Entry>
 	<Entry beginGroup="Exploration">
 		<zType>TEXT_BONUS_TAKING_TROPHIES</zType>
-		<de-DE>Mighty hunter</de-DE>
+		<de-DE>Collected a truly magnificent set of antlers</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_MARBLE_MADNESS_GATE</zType>
@@ -2391,6 +2435,10 @@
 		<zType>TEXT_BONUS_SHARED_PURPLE</zType>
 		<de-DE>Wears purple</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_MERCY_FOR_THE_WEAK_LEGITIMACY</zType>
+		<de-DE>Showed mercy to those weaker than you</de-DE>
+	</Entry>
 	<Entry beginGroup="Ambition">
 		<zType>TEXT_BONUS_EVENTOPTION_BOUND_BY_AN_OATH_NO_CHARACTER_1</zType>
 		<de-DE>Known as an oath-breaker</de-DE>
@@ -2402,5 +2450,9 @@
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DRUNKEN_AMBITION_NO_PLAYER</zType>
 		<de-DE>Renowned drunk</de-DE>
+	</Entry>
+	<Entry beginGroup="Royalty">
+		<zType>TEXT_BONUS_EVENTOPTION_RIGHTFUL_HEIR_DEAD_OKAY_CHARACTER_2</zType>
+		<de-DE>Nicht länger Regent</de-DE>
 	</Entry>
 </Root>

@@ -1301,8 +1301,8 @@
 		<de-DE>Kontrolliere sechs link(IMPROVEMENT_PASTURE,2), link(IMPROVEMENT_CAMP,2), link(IMPROVEMENT_GROVE,2), oder link(IMPROVEMENT_NETS)</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_SIX_REPAIRED</zType>
-		<de-DE>Repariere sechs Verbesserungen</de-DE>
+		<zType>TEXT_GOAL_FOUR_REPAIRED</zType>
+		<de-DE>Repariere vier Verbesserungen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_EIGHT_REPAIRED</zType>
@@ -1513,12 +1513,8 @@
 		<de-DE>Beseitige drei Stammes Plätze</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_FIVE_TRIBE_CLEARED</zType>
-		<de-DE>Beseitige fünf Stammes Plätze</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_SEVEN_TRIBE_CLEARED</zType>
-		<de-DE>Beseitige sieben Stammes Plätze</de-DE>
+		<zType>TEXT_GOAL_SIX_TRIBE_CLEARED</zType>
+		<de-DE>Beseitige sechs Stammes Plätze</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_TRIBE_PEACE</zType>
@@ -1593,12 +1589,12 @@
 		<de-DE>Entdecke link(TECH_ARCHITECTURE) und Jurisprudence</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_COINAGE_FISCAL_POLICY</zType>
-		<de-DE>Entdecke link(TECH_COINAGE) und link(TECH_FISCAL_POLICY)</de-DE>
+		<zType>TEXT_GOAL_DOCTRINE_FISCAL_POLICY</zType>
+		<de-DE>Entdecke link(TECH_DOCTRINE) und link(TECH_FISCAL_POLICY)</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_HYDRAULICS_CHAIN_DRIVE</zType>
-		<de-DE>Entdecke link(TECH_HYDRAULICS) und link(TECH_CHAIN_DRIVE)</de-DE>
+		<zType>TEXT_GOAL_PORTCULLIS_CHAIN_DRIVE</zType>
+		<de-DE>Entdecke link(TECH_PORTCULLIS) und link(TECH_CHAIN_DRIVE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_COHORTS_MARTIAL_CODE</zType>
@@ -2285,15 +2281,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_SCHOLARSHIP_BONUS_SCIENTIST</zType>
-		<de-DE>Freier großer Wissenschaftler</de-DE>
+		<de-DE>Freier link(COURTIER_SCIENTIST)</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TECH_TORSION</zType>
-		<de-DE>Drall</de-DE>
+		<zType>TEXT_TECH_HYDRAULICS</zType>
+		<de-DE>Hydraulik</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TECH_TORSION_BONUS_BALLISTA</zType>
-		<de-DE>Freie Balliste</de-DE>
+		<zType>TEXT_TECH_HYDRAULICS_BONUS_BALLISTA</zType>
+		<de-DE>Freie link(UNIT_BALLISTA)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_STIRRUPS</zType>
@@ -2301,11 +2297,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_STIRRUPS_BONUS_HORSEMAN</zType>
-		<de-DE>Freier Reiter</de-DE>
+		<de-DE>Freier link(UNIT_HORSEMAN)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_STIRRUPS_BONUS_HORSE_ARCHER</zType>
-		<de-DE>Freier Berittener Bogenschütze</de-DE>
+		<de-DE>Freier link(UNIT_HORSE_ARCHER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_ARCHITECTURE</zType>
@@ -2344,8 +2340,8 @@
 		<de-DE>Hydraulik</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TECH_HYDRAULICS_BONUS_MERCHANT</zType>
-		<de-DE>Freier Großer Kaufmann</de-DE>
+		<zType>TEXT_TECH_FISCAL_POLICY_BONUS_MERCHANT</zType>
+		<de-DE>Freier link(COURTIER_MERCHANT)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_JURISPRUDENCE</zType>
@@ -2416,8 +2412,8 @@
 		<de-DE>Zahnrad</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TECH_CHAIN_DRIVE_BONUS_MINISTER</zType>
-		<de-DE>Freier link(COURTIER_MINISTER)</de-DE>
+		<zType>TEXT_TECH_CHAIN_DRIVE_BONUS_MERCHANT</zType>
+		<de-DE>Freier link(COURTIER_MERCHANT)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_BALLISTICS</zType>
@@ -2673,12 +2669,12 @@
 		<de-DE>This bonus card grants a new free link(COURTIER_SCIENTIST) Character to serve at your court and improve your Nation’s research. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GUIDE_TECH_TORSION</zType>
-		<de-DE>The next step in siege warfare, Torsion unlocks the link(UNIT_BALLISTA), an anti-infantry siege weapon. Although slow and short-ranged, the missiles are Piercing attacks that can damage two further enemies in a line behind the target. This makes them very effective against closely grouped infantry.</de-DE>
+		<zType>TEXT_GUIDE_TECH_HYDRAULICS</zType>
+		<de-DE>Hydraulics support your Cities by allowing the construction of link(IMPROVEMENT_WATERMILL,2) and link(IMPROVEMENT_WINDMILL,2), which provide a steady income of link(YIELD_SCIENCE,1) and greatly improve the output of adjacent link(IMPROVEMENT_MINE,2), link(IMPROVEMENT_QUARRY,2), and link(IMPROVEMENT_LUMBERMILL,2). Hydraulics also unlocks the link(UNIT_BALLISTA), an anti-link(UNITTRAIT_INFANTRY) link(UNITTRAIT_SIEGE) weapon. Although slow and short-ranged, the link(UNIT_BALLISTA)'s deals link(ATTACK_PIERCE) damage that can hit two further enemies in a line behind the target at reduced damage.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GUIDE_TECH_TORSION_BONUS_BALLISTA</zType>
-		<de-DE>This bonus spawns a free link(UNIT_BALLISTA) siege Unit in your Capital. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again.</de-DE>
+		<zType>TEXT_GUIDE_TECH_HYDRAULICS_BONUS_BALLISTA</zType>
+		<de-DE>This bonus grants a free link(UNIT_BALLISTA) link(UNITTRAIT_SIEGE) Unit in your Capital. If a bonus card is not researched when it appears, it is permanently trashed once discarded and will not appear again.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GUIDE_TECH_STIRRUPS</zType>
@@ -2727,10 +2723,6 @@
 	<Entry>
 		<zType>TEXT_GUIDE_TECH_HYDRAULICS</zType>
 		<de-DE>Hydraulics continues to support your Cities by allowing the construction of link(IMPROVEMENT_WATERMILL,2) and link(IMPROVEMENT_WINDMILL,2), which provide a steady stream of link(YIELD_SCIENCE) and greatly improve the output of adjacent link(IMPROVEMENT_MINE,2), link(IMPROVEMENT_QUARRY,2) and link(IMPROVEMENT_LUMBERMILL,2).</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GUIDE_TECH_HYDRAULICS_BONUS_MERCHANT</zType>
-		<de-DE>Grants a new free link(COURTIER_MERCHANT) Character to serve at your court and improve your Nation’s economy. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GUIDE_TECH_JURISPRUDENCE</zType>
@@ -2801,8 +2793,8 @@
 		<de-DE>Researching Chain Drive unlocks the link(UNIT_POLYBOLOS), one of the stongest siege units and an upgrade to the link(UNIT_BALLISTA). The link(UNIT_POLYBOLOS) has a bonus against ranged Units, and deals both pierce and cleaving damage, making it useful for cutting through formations to hit the ranged Units behind.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GUIDE_TECH_CHAIN_DRIVE_BONUS_MINISTER</zType>
-		<de-DE>This bonus card grants a free link(COURTIER_MINISTER) Character to serve at your court and improve your Nation’s administration. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again.</de-DE>
+		<zType>TEXT_GUIDE_TECH_CHAIN_DRIVE_BONUS_MERCHANT</zType>
+		<de-DE>This bonus grants a free link(COURTIER_MERCHANT) to serve on your court and improve your Nation’s economy. If a bonus card is not researched when it appears, it is permanently trashed once discarded and will not appear again.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GUIDE_TECH_BALLISTICS</zType>
@@ -3281,10 +3273,6 @@
 		<zType>TEXT_TRAIT_PROUD_NICKNAME</zType>
 		<de-DE>der Stolze</de-DE>
 	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_CUNNING_NICKNAME</zType>
-		<de-DE>der Gerissene</de-DE>
-	</Entry>	 
 	<Entry>
 		<zType>TEXT_TRAIT_WITTY_NICKNAME</zType>
 		<de-DE>der Geistreiche</de-DE>

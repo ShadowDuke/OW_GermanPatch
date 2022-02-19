@@ -368,6 +368,10 @@
 		<de-DE>{LIST} (as {0})</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LIST_FROM</zType>
+		<de-DE>{LIST} (von {0})</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_EACH_COLON</zType>
 		<de-DE>Jede {0}: {1}</de-DE>
 	</Entry>
@@ -987,6 +991,18 @@
 		<de-DE>The host can change these settings in the General tab of the Options menu</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_EXTEND_TIME_OPPONENT_TURN</zType>
+		<de-DE>DEin Team ist nicht am Zug</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_EXTEND_TIME</zType>
+		<de-DE>Extend the current turn timer by {0} seconds</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_EXTEND_TIME_STOCKPILE</zType>
+		<de-DE>Extension time available: {0} seconds</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MENU_TEAM_NATION</zType>
 		<de-DE>Reiche: {0}</de-DE>
 	</Entry>
@@ -1043,8 +1059,8 @@
 		<de-DE><![CDATA[Zeige Städte{true_0:<br>{0_presskey}}]]></de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_CITY_LIST_ENTRY</zType>
-		<de-DE>{0_city}: {1_culture}, {2_discontent} icon(YIELD_DISCONTENT)</de-DE>
+		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_CITY_LIST_DISCONTENT</zType>
+		<de-DE>{YIELD_DISCONTENT} {0_discontent}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_GAME_LOG</zType>
@@ -1107,7 +1123,11 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_NOTIFICATIONS_CURRENT</zType>
 		<de-DE>Click to show notifications from the current turn</de-DE>
-	</Entry> 
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_REMINDERS</zType>
+		<de-DE>Click to show reminders for available actions</de-DE>
+	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_WORKER_ACTION_FILTER_GENERAL</zType>
 		<de-DE>Zeige Verbesserungen und Grundfunktionen</de-DE>
@@ -1394,10 +1414,6 @@
 		<de-DE><![CDATA[Hold <TEXT_HOTKEY_CTRL> um dem Ende hinzuzufügen.]]></de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_BUILD_SPECIALIST_NEXT</zType>
-		<de-DE>Baue {0_specialist}:</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_BUILD_SPECIALIST_CURRENT</zType>
 		<de-DE>Derzeitiger {0_specialist}:</de-DE>
 	</Entry>
@@ -1562,6 +1578,14 @@
 		<de-DE>Gib {0_city} an die {1_family} Familie</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_CITY_RAZE</zType>
+		<de-DE>Vernichte {0_city} bis auf die Grundmauern!</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_CITY_NO_RAZE</zType>
+		<de-DE>{0_city} wird als Teil unseres Reiches florieren</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_OFFER_PEACE_TRIBE</zType>
 		<de-DE>Erziele {0_peace} mit {0_barbarian} für {2_money}</de-DE>
 	</Entry>
@@ -1616,6 +1640,14 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_STORY_FUTURE_EVENTS</zType>
 		<de-DE>[Könnte zu zukünftigen Ereignissen führen]</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EVENT_POSSIBLE_OUTCOMES</zType>
+		<de-DE>Ein paar mögliche Ereignisse</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EVENT_MULTIPLE_OUTCOMES</zType>
+		<de-DE>Zu viele Ereignisse um sie aufzulisten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_STORY_DISABLE_TUTORIAL</zType>
@@ -1710,6 +1742,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PILLAGE_IMPROVEMENT</zType>
 		<de-DE>Plündere {0_improvement}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_ADD_FATIGUE</zType>
+		<de-DE>link(CONCEPT_FATIGUE): +1</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PILLAGE_YIELDS</zType>
@@ -2215,6 +2251,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MUSIC_PLAYER_LOCKED</zType>
 		<de-DE><![CDATA[<color=red>Musik benötigt erforschung von link(TECH_DRAMA)</color>]]></de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_MUSIC_PLAYER_CURRENT_TRACK</zType>
+		<de-DE>Derzeit am spielen: {0_trackname}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TECH_DECK</zType>
@@ -2789,6 +2829,10 @@ Resources that are within a City's limits, or that are too far from one of your 
 A Unit placed directly on a City Site will block other link(CONCEPT_NATION,2) from founding Cities there (although doing so costs one link(YIELD_ORDERS,3) per Turn).</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_CITY</zType>
+		<de-DE>Cities are founded on link(CONCEPT_CITY_SITE,2) by link(UNIT_SETTLER,2). Your link(CONCEPT_NATION) is made up of its Cities, each of which gains yields and other benefits from link(CONCEPT_PROJECT,2) and from link(CONCEPT_IMPROVEMENT,2) built by your link(UNIT_WORKER,2). When founded or captured, a City is assigned to a link(CONCEPT_FAMILY), which will affect what type of bonuses apply to that City. Cities are also affected in various ways by such things as their controlling link(CONCEPT_NATION)'s active Laws, the link(CONCEPT_RELIGION,2) practiced in the City, the link(YIELD_DISCONTENT,1) level of the City, and the Traits and Attributes of the City's link(CONCEPT_GOVERNOR), if present.</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CLEAR</zType>
 		<de-DE>link(CONCEPT_CLEAR) Felder sind nicht link(CONCEPT_URBAN) haben keine Vegetation.</de-DE>
 	</Entry>
@@ -2828,10 +2872,6 @@ A Unit placed directly on a City Site will block other link(CONCEPT_NATION,2) fr
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DEFENSE</zType>
 		<de-DE>Verteidigungsstärke</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_LINK_HELP_DISCONTENT_LEVEL</zType>
-		<de-DE>link(YIELD_DISCONTENT) Stufe: {0}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DISCONTENT_FAMILY_OPINION</zType>
@@ -3598,6 +3638,10 @@ Einheiten erhalten EP während des Kämpfens oder wenn sie link(CONCEPT_IDLE) au
 Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link(CONCEPT_GENERAL), link(CONCEPT_GOVERNOR) oder link(CONCEPT_COUNCILOR), und durch Ereignisse.</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_HP</zType>
+		<de-DE>Hit Points (HP) are a measure of how much damage a Unit or link(CONCEPT_CITY) can sustain before being respectively killed or breached.</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_ASSIMILATION</zType>
 		<de-DE>When a City is captured, its population will be resistant to their new foreign ruler. Assimilation results in reduced link(YIELD_GROWTH,1), link(YIELD_TRAINING,1), link(YIELD_CIVICS,1), and link(YIELD_CULTURE,1) yields. The Assimilation penalty amount and duration are increased by the link(CONCEPT_CULTURE_LEVEL) of a City at the time it was captured. A City's Assimilation diminishes by 1% every turn.</de-DE>
 	</Entry>
@@ -3606,6 +3650,14 @@ Charaktere erhalten EP durch ausführen von Missionen, haben Rollen wie zB. link
 		<de-DE>Eine Einheit übt eine Kontrollzone (ZOC) über alle benachbarten Felder (außer über {0,1_riverLink}) aus, was gegnerische Einheiten daran hindert sich durch diese zu bewegen.
 
 Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_TERRITORY</zType>
+		<de-DE>A link(CONCEPT_CITY)'s Territory is made up of its surrounding tiles within the City's border. Most link(CONCEPT_IMPROVEMENT,2) can only be built within a City's Territory. Territory can be expanded by building link(CONCEPT_URBAN) link(CONCEPT_IMPROVEMENT,2) or training link(CONCEPT_SPECIALIST,2) near City borders. Tiles can also be bought with a Unit adjacent to a City border when the link(LAW_COLONIES) law is active or if the City is a link(FAMILYCLASS_LANDOWNERS) link(CONCEPT_FAMILY_SEAT).</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_VICTORY_POINT</zType>
+		<de-DE>Victory Points (VP) are a measure of certain game objectives in Old World. VPs can be acquired by developing a City's link(CONCEPT_CULTURE_LEVEL), controlling link(CONCEPT_WONDER,2) and link(CONCEPT_MINOR_CITY,2), and researching certain advanced Technologies. Victory Points can determine the game's winner when a link(VICTORY_POINTS), link(VICTORY_DOUBLE), or link(VICTORY_TIME) are enabled.</de-DE>
 	</Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_LINK_HELP_HOTKEY_NONE</zType>
@@ -3980,7 +4032,11 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_FORTIFIED_LABEL</zType>
-		<de-DE>Verschanzt</de-DE>
+		<de-DE>link(CONCEPT_FORTIFY,1)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_TYPE_TESTUDO_LABEL</zType>
+		<de-DE>In link(CONCEPT_TESTUDO)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_LEVEL_MAX</zType>
@@ -4017,6 +4073,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_RAIDING</zType>
 		<de-DE>Raubzug</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_TYPE_CRITICAL_HIT</zType>
+		<de-DE>link(CONCEPT_CRITICAL_HIT) bevorstehend</de-DE>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_SPREADS_RELIGION</zType>
@@ -4234,6 +4294,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_VISION</zType>
 		<de-DE><![CDATA[<true_1>{0_value} Sicht<false>Sicht: {0_value}<end>]]></de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_REVEAL</zType>
+		<de-DE><![CDATA[<true_1>Reveal: {0_value}<false>{0_value} Reveal<end>]]></de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_WATER_CONTROL</zType>
@@ -4610,6 +4674,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>{0_yield}/{1_turnScale} pro Spezialist</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_SPECIALIST_URBAN</zType>
+		<de-DE>{0_yield}/{1_turnScale} pro link(CONCEPT_URBAN) link(CONCEPT_SPECIALIST)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_IF_DEFENDING</zType>
 		<de-DE>{0_yield}/{1_turnScale} wenn Militär verteidigt</de-DE>
 	</Entry>
@@ -4762,13 +4830,26 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_TRADE_NETWORK</zType>
 		<de-DE>{LIST} wenn auf link(CONCEPT_TRADE_NETWORK)</de-DE>
 	</Entry>
+
 	<Entry>
+
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_BONUS_ON_COMPLETION</zType>
+
 		<de-DE>[Bei Fertigstellung] </de-DE>
+
 	</Entry>
+
+	<Entry>
+
+		<zType>TEXT_HELPTEXT_PROJECT_AUTO_REPAIR</zType>
+
+		<de-DE>(Heilt automatisch {0} HP jeden {1_turnScale})</de-DE>
+
+	</Entry>
+
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_BONUS_ALL_CITIES</zType>
-		<de-DE>[Alle Städte] </de-DE>
+		<de-DE>[ABei Fertigstellung, Alle Städte] </de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_SPREADS_RELIGION</zType>
@@ -4781,6 +4862,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_DEFENSE_MODIFIER</zType>
 		<de-DE>{0_value} {true_1:icon(DEFENSE) für freundliche Einheiten:Feld icon(DEFENSE)}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_DEFENSE_MODIFIER_FRIENDLY</zType>
+		<de-DE>{0_value} (wenn in freundlichem Gebiet)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_UNLOCKS_UNIT</zType>
@@ -5578,6 +5663,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>{0_city} ist zerstört</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_BONUS_CHANGE_SUCCESSION</zType>
+		<de-DE>Warnung: Könnte die link(CONCEPT_SUCCESSION) ändern</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_BONUS_JOIN_COURTIER_GENDER</zType>
 		<de-DE>Neuer Vertrauter: {0_courtier}</de-DE>
 	</Entry>
@@ -5902,12 +5991,28 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>{0_value}% Chance/Jahr Kinder zu bekommen</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_FAMILY_HEAD_CHANCE</zType>
+		<de-DE>{0_value}% Chance Famillienoberhaupt zu werden</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_RELIGION_HEAD_CHANCE</zType>
+		<de-DE>{0_value}% Chance Religionsoberhaupt zu werden</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_OTHER_TRAIT_CHANCE</zType>
 		<de-DE>{0_value}% Chance/Jahr {1_trait} zu werden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_OTHER_TRAIT_OPINION</zType>
 		<de-DE>{0_value} link(CONCEPT_OPINION_CHARACTER,3) über {1_trait} Charaktere</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_RELIGION_OPINION</zType>
+		<de-DE>{0_value} {1_religion} link(CONCEPT_OPINION_RELIGION,3)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_FAMILY_CLASS_OPINION</zType>
+		<de-DE>{0_value} {1_family} link(CONCEPT_OPINION_FAMILY,3)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_LAW_OPINION</zType>
@@ -5951,8 +6056,12 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>Schwierigkeitsgrad: {0_difficulty}</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_PLAYER_RELOADS</zType>
+		<de-DE>Nachladen: {0}</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_NATION</zType>
-		<de-DE>Reich: {0_difficulty}</de-DE>
+		<de-DE>Reich: {0_nation}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_END_TURN_NOTE</zType>
@@ -6245,6 +6354,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>{0_value}: Pro {1_effect}</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_FAMILY_OPINION_CHARACTER_TRAITS</zType>
+		<de-DE>{0}: {1_trait} Charaktere</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILY_CITIES_NO_RELIGION</zType>
 		<de-DE>{0_value}: Städte ohne Religion</de-DE>
 	</Entry>
@@ -6292,6 +6405,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_DECISION_NAME_CITY_FAMILY</zType>
 		<de-DE>Wähle Stadt Familie: {0_city}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_DECISION_NAME_CITY_RAZE</zType>
+		<de-DE>{0_city} behalten?</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_DECISION_NAME_OFFER_PEACE_TRIBE</zType>
@@ -6926,6 +7043,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>Wird {0}</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_CHOOSE_COUNCIL</zType>
+		<de-DE>Wähle {0_council}</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LEAVE_JOB_COUNCIL</zType>
 		<de-DE>Wird Hofrat als {0_council} verlassen</de-DE>
 	</Entry>
@@ -7147,9 +7268,13 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
         <de-DE>You must enter a password to join the game</de-DE>
     </Entry>
     <Entry>
-        <zType>TEXT_HELPTEXT_DELETE_CLOUD_SAVE</zType>
-        <de-DE>Remove this game from your list of active games. If you are the game's host, this deletes the game for all other players as well.</de-DE>
-    </Entry>
+		<zType>TEXT_HELPTEXT_DELETE_CLOUD_SAVE</zType>
+		<de-DE>Surrender. The game continues for other players, if any.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_HOST_DELETE_CLOUD_SAVE</zType>
+		<de-DE>Delete the game. This will end the game for all other players as well.</de-DE>
+	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_DOWNLOAD_CLOUD_SAVE</zType>
 		<de-DE>Download the game save file from the cloud (host only).</de-DE>
@@ -7418,6 +7543,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>Gib deine neuste Stadt, {0_city}, an einen von deinen Familien...</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_DECISION_RAZE_DESC</zType>
+		<de-DE>Entscheide das Schicksal von {0_city}...</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DECISION_OFFER_PEACE_TITLE</zType>
 		<de-DE>Frieden (Angebot)</de-DE>
 	</Entry>
@@ -7480,6 +7609,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DECISION_CHOOSE_CITY_FAMILY_TITLE</zType>
 		<de-DE>Wähle {0_city} Familie:</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_DECISION_CHOOSE_CITY_RAZE_TITLE</zType>
+		<de-DE>{0_city} vernichten?</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DECISION_DIPLOMACY_TITLE</zType>
@@ -7938,6 +8071,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>{0}: {1,1_religion} Spezialisten</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_RELIGION_OPINION_CHARACTER_TRAITS</zType>
+		<de-DE>{0}: {1_trait} Charaktere</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_OPINION_DIPLOMACY</zType>
 		<de-DE>{0}: {1_diplomacy} mit {2,1_religion} Reichen/Stämmen</de-DE>
 	</Entry>
@@ -8034,5 +8171,9 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TEMPORARY</zType>
 		<de-DE>Vorübergehend</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LEGITIMACY</zType>
+		<de-DE>Legitimität: {0}</de-DE>
 	</Entry>
 </Root>

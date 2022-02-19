@@ -108,7 +108,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TERRAIN_STAMP_VOLCANO_7</zType>
-		<en-US>Vulkan 7</en-US>
+		<de-DE>Vulkan 7</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_LOCATION_OF_TRIBAL_LANDS</zType>
@@ -133,6 +133,10 @@
 	<Entry>
 		<zType>TEXT_MAP_OPTION_KING_OF_THE_HILL</zType>
 		<de-DE>King of the Hill</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECTRELATION_TRIBE_WAR_ALLIANCE</zType>
+		<de-DE>At link(DIPLOMACY_WAR) with their link(CONCEPT_ALLIANCE_TRIBE,4)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECTRELATION_MIN_CONFLICT_TURNS</zType>
@@ -216,6 +220,74 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TURN_RELIGION</zType>
-		<de-DE>-Wunder und Religion-</de-DE>
+		<de-DE>-Religion-</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ERROR_FAILED_TO_START_GAME</zType>
+		<de-DE>Failed to generate a new game: please try different settings</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ERROR_FAILED_TO_JOIN_GAME</zType>
+		<de-DE>Failed to join game: {0}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ERROR_PLATFORM_NOT_CONNECTED</zType>
+		<de-DE>Online platform not connected</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ERROR_ENTER_DISPLAY_NAME</zType>
+		<de-DE>Enter a display name for each player</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ERROR_INVALID_DISPLAY_NAME</zType>
+		<de-DE>Invalid display name: {0}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ERROR_FAILED_TO_JOIN_SERVER</zType>
+		<de-DE>Failed to join server</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ERROR_INVALID_GAME_PASSWORD</zType>
+		<de-DE>Invalid game password</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ERROR_INVALID_HOST_PASSWORD</zType>
+		<de-DE>Invalid host password</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ERROR_FAILED_TO_LOAD_SCENARIO_MAP</zType>
+		<de-DE>Failed to load scenario map ({0})</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ERROR_FAILED_TO_LOAD_SCENARIO_SCRIPT</zType>
+		<de-DE>Failed to load scenario script ({0})</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ERROR_FAILED_TO_LOAD_SCENARIO_MAP_DATA</zType>
+		<de-DE>Failed to assign scenario map data ({0})</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ERROR_FAILED_TO_INITIALIZE_SCENARIO_SCRIPT</zType>
+		<de-DE>Failed to initialize scenario script ({0})</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ERROR_FAILED_TO_INITIALIZE_MAP_DATA</zType>
+		<de-DE>Failed to initialize map data ({0})</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ERROR_FAILED_TO_LOAD_MAP</zType>
+		<de-DE>Failed to load map ({0})</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ERROR_FAILED_TO_INITIALIZE_MAP</zType>
+		<de-DE>Failed to load map ({0})</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ERROR_FAILED_TO_ASSIGN_MAP</zType>
+		<de-DE>Failed to assign map ({0})</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ERROR_FAILED_TO_GENERATE_MAP</zType>
+		<de-DE>Failed to generate map ({0})</de-DE>
 	</Entry>
 </Root>

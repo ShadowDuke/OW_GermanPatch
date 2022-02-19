@@ -3,7 +3,7 @@
 <Root>
 	<Entry>
 		<zType/>
-		<en-US/>
+		<de-DE/>
 	</Entry>
     <!-- audio options menu text -->
 	<Entry>
@@ -345,6 +345,18 @@ Streaming any music from the game is at your own risk.
 		<de-DE>Yeraz</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_NARA</zType>
+		<de-DE>Nara</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_REWIND</zType>
+		<de-DE>Rewind</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_MUSIC_BG_SAMAI_RAST</zType>
+		<de-DE>Samai Rast</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_AUDIO_MUSIC_BG_ZABLEYALO_AGNE</zType>
 		<de-DE>Zableyalo Agne</de-DE>
 	</Entry>
@@ -447,6 +459,10 @@ Streaming any music from the game is at your own risk.
 	<Entry>
 		<zType>TEXT_AUDIO_ARTIST_KOMITAS_VARDAPET</zType>
 		<de-DE>Komitas Vardapet</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_AUDIO_ARTIST_CHARBEL_ROUHANA</zType>
+		<de-DE>Charbel Rouhana</de-DE>
 	</Entry>
 	<!-- MUSICBED ************************************************************* -->
 	<Entry>

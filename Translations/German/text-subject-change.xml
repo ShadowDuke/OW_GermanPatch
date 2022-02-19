@@ -6,8 +6,8 @@
 		<de-DE/>
 	</Entry>
 	<Entry>
-		<zType>TEXT_SUBJECT_PLAYER_HUMAN_DIPLOMACY_NOT_FOUND</zType>
-		<de-DE>Gegenseitiger Kontakt und kein Diplomatischer Auftrag</de-DE>
+		<zType>TEXT_SUBJECT_PLAYER_HUMAN_DIPLOMACY_FOUND</zType>
+		<de-DE>Aktiver diplomatischer Auftrag</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_PLAYER_WAR</zType>
@@ -252,6 +252,10 @@
 	<Entry>
 		<zType>TEXT_SUBJECT_INFLUENCED_BY_LEADER</zType>
 		<de-DE>Beeinflusst von Dir</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECT_HEALTHY</zType>
+		<de-DE>Gesund</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_BABY</zType>

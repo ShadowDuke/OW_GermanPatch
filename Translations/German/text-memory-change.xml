@@ -3366,6 +3366,10 @@
 		<de-DE>Refused to support new treasury</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MEMORYRELIGION_PROTECTED_STREETS</zType>
+		<de-DE>Unsere Straßen beschützt</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MEMORYRELIGION_PLACED_SECURITY</zType>
 		<de-DE>Saw us as instigators</de-DE>
 	</Entry>
@@ -3629,6 +3633,10 @@
 		<zType>TEXT_MEMORYPLAYER_SCHISM_AGAINST</zType>
 		<de-DE>Sided against us in religious schism</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYPLAYER_MEMORYPLAYE_AGENT_TOOLS_RETURNED</zType>
+		<de-DE>Unsere Agenten gedemütigt</de-DE>
+	</Entry>
 	<Entry beginGroup="Tribe">
 		<zType>TEXT_MEMORYCHARACTER_BLAMED_FOR_EXECUTED_SPIES</zType>
 		<de-DE>Blamed for espionage debacle</de-DE>
@@ -3772,7 +3780,27 @@
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_BONUS_WILD_HORSES_TRIBE</zType>
 		<de-DE>Funded our initiative</de-DE>
-	</Entry> 
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_BONUS_MONUMENT_OF_HOPE_TRIBE_CREDIT</zType>
+		<de-DE>Credited us for inspiring the Beacon</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_BONUS_THROUGH_THICK_AND_THIN_TRIBE</zType>
+		<de-DE>Friends through thick and thin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_BONUS_ROOM_FOR_ONE_MORE_TRIBAL_SPOUSE</zType>
+		<de-DE>Married into the Tribe</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_BONUS_THEYLL_NEVER_SEE_IT_COMING_TRIBE</zType>
+		<de-DE>Won us over with your natural charm</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_BONUS_IRON_GIANT_KUDOS</zType>
+		<de-DE>Acknowledged an act of kindness and generosity</de-DE>
+	</Entry>
 	<Entry beginGroup="Family">
 		<zType>TEXT_MEMORYFAMILY_CHOSEN_HEIR_NO</zType>
 		<de-DE>Refused to make one of the us the Heir</de-DE>
@@ -3941,6 +3969,38 @@
 		<zType>TEXT_MEMORYPLAYER_MEMORYPLAYER_DISFAVORED_SPOUSE</zType>
 		<de-DE>Disfavors spouse from our Empire</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_MERCY_FOR_THE_WEAK_REFUSED_TRUCE</zType>
+		<de-DE>Refused to heed the wisdom of your vassals</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYCHARACTER_OF_THE_FAITH_HAPPY_RELIGIOUS_LEADER</zType>
+		<de-DE>Heeded our advice</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYCHARACTER_DISSATISFIED_LEADER</zType>
+		<de-DE>Refused to heed our advice</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_A_DISPLAY_OF_BENEVOLENCE_TRUCE</zType>
+		<de-DE>Kept our wise counsel</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_A_DISPLAY_OF_BENEVOLENCE_NO_TRUCE</zType>
+		<de-DE>Refused our counsel</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_LUXURY_SEEKERS_YES</zType>
+		<de-DE>Agreed to seek out Luxury Resources</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_LUXURY_SEEKERS_NO</zType>
+		<de-DE>Refused to seek out Luxury Resources</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_LUXURY_SEEKERS_PERSONAL_SUPPLY</zType>
+		<de-DE>Shared personal supply of Luxury Resources</de-DE>
+	</Entry>
 	<Entry beginGroup="Royalty">
 		<zType>TEXT_MEMORYFAMILY_HEIR_WEDDING_FAUX_PAS_NOTHING</zType>
 		<de-DE>Faux pas at heir's wedding</de-DE>
@@ -3988,6 +4048,10 @@
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_GP_DIPLOMATIC_MISSION_GREAT</zType>
 		<de-DE>Wished to treat with our ambassadors</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYPLAYER_RETURN_HOSTAGE</zType>
+		<de-DE>Returned a hostage to us</de-DE>
 	</Entry>
 	<Entry beginGroup="Leader">
 		<zType>TEXT_MEMORYFAMILY_DELICIOUS_DRINKS_FRIEND</zType>

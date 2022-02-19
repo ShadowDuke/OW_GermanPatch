@@ -8,11 +8,15 @@
 	<!--Source-->
 	<Entry>
 		<zType>TEXT_EFFECTCITY_SEAT_SOURCE</zType>
-		<de-DE>Sitz</de-DE>
+		<de-DE>in link(CONCEPT_FAMILY_SEAT)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_STATE_RELIGION_SOURCE</zType>
-		<de-DE>Staatsreligion</de-DE>
+		<de-DE>als link(CONCEPT_STATE_RELIGION)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_STATE_RELIGION_CITY</zType>
+		<de-DE>und link(CONCEPT_STATE_RELIGION)</de-DE>
 	</Entry>
 	<!--Name-->
 	<Entry>

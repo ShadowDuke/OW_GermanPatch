@@ -683,14 +683,6 @@
 		<de-DE>{0_character} takes a deep pleasure in {masculine_0:his:her} own achievements. It is no lie to call {masculine_0:him:her} {1_trait}.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TRAIT_CUNNING</zType>
-		<de-DE>Gerissen</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TRAIT_CUNNING_GAIN_1</zType>
-		<de-DE>Elusive and evasive, {0_character} is known to be {1_trait}.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_TRAIT_WITTY</zType>
 		<de-DE>Geistreich</de-DE>
 	</Entry>
@@ -711,12 +703,20 @@
 		<de-DE>Schüler der Philosophie</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_STUDY_PHILOSOPHY_DESCRIPTION</zType>
+		<de-DE>Kann zu link(TRAIT_TACTICIAN_ARCHETYPE), link(TRAIT_ZEALOT_ARCHETYPE), link(TRAIT_JUDGE_ARCHETYPE), link(TRAIT_BUILDER_ARCHETYPE), link(TRAIT_SCHOLAR_ARCHETYPE), link(TRAIT_SKYEXPLORER_ARCHETYPE), oder eventuell zu link(TRAIT_CORRUPTIONIST_ARCHETYPE) und link(TRAIT_ARTIST_ARCHETYPE) führen.</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_STUDY_PHILOSOPHY_F</zType>
 		<de-DE>Schülerin der Philosophie</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_STUDY_POLITICS</zType>
 		<de-DE>Schüler der Politik</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_STUDY_POLITICS_DESCRIPTION</zType>
+		<de-DE>Kann zu link(TRAIT_HERO_ARCHETYPE), link(TRAIT_ORATOR_ARCHETYPE), link(TRAIT_JUDGE_ARCHETYPE), link(TRAIT_SCHOLAR_ARCHETYPE), link(TRAIT_DIPLOMAT_ARCHETYPE), link(TRAIT_ARTIST_ARCHETYPE), link(TRAIT_MERCHANT_ARCHETYPE) oder eventuell zu link(TRAIT_SKYEXPLORER_ARCHETYPE) und link(TRAIT_CORRUPTIONIST_ARCHETYPE) führen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_STUDY_POLITICS_F</zType>
@@ -727,12 +727,20 @@
 		<de-DE>Schüler der Taktik</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_STUDY_TACTICS_DESCRIPTION</zType>
+		<de-DE>Kann zu link(TRAIT_HERO_ARCHETYPE), link(TRAIT_COMMANDER_ARCHETYPE), link(TRAIT_TACTICIAN_ARCHETYPE), link(TRAIT_ZEALOT_ARCHETYPE), link(TRAIT_SCHEMER_ARCHETYPE), oder eventuell zu link(TRAIT_CORRUPTIONIST_ARCHETYPE) und link(TRAIT_CHAMPION_ARCHETYPE) führen.</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_STUDY_TACTICS_F</zType>
 		<de-DE>Schülerin der Taktik</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_STUDY_COMMERCE</zType>
 		<de-DE>Schüler des Kaufmanns</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_STUDY_COMMERCE_DESCRIPTION</zType>
+		<de-DE>Kann zu link(TRAIT_MERCHANT_ARCHETYPE), link(TRAIT_COMMANDER_ARCHETYPE), link(TRAIT_SCHEMER_ARCHETYPE), link(TRAIT_ORATOR_ARCHETYPE), link(TRAIT_BUILDER_ARCHETYPE), link(TRAIT_DIPLOMAT_ARCHETYPE), oder eventuell zu link(TRAIT_SKYEXPLORER_ARCHETYPE), link(TRAIT_CORRUPTIONIST_ARCHETYPE) und link(TRAIT_CHAMPION_ARCHETYPE) führen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_STUDY_COMMERCE_F</zType>

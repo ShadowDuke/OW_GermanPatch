@@ -4791,12 +4791,6 @@ How shall we respond?</de-DE>
 The {PLAYER-0,3} have chosen to declare war on us over our beliefs in {RELIGION-3}. Their passion must be extinguished. </de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_PLAYER_WAR_DECLARE_LAW</zType>
-		<de-DE>News has reached you that {PLAYER-1} is mobilizing for war. {CHARACTER-SHORT-2} and the {FAMILY-3} family have openly denounced our {LAW-4} laws for months and have used the hate-filled rhetoric to rally the people behind them. 
-
-The time has come for them to be silenced. Our cause is just.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR_DECLARE_BROKE_PEACE</zType>
 		<de-DE>It seems {PLAYER-0} has a long memory, and a penchant for grudges. Their declaration of war comes as no surprise. They have long sought to pay us back for breaking our peace with them.
 
@@ -9983,12 +9977,6 @@ The spoiled {G1:rooster:hen} bred a spoiled egg, but perhaps this one might turn
 The exotic nature of {G0:his:her} {G1:father:mother} appears to have been impressed upon the young child. However, the final results may yet rest with the fates.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_INHERITANCE_CUNNING</zType>
-		<de-DE>{random_R1:You may be interested to learn that:Your courtiers inform you that:A trusted advisor informs you that:Rumor has it that:You have noticed that}, for better or for worse, {CHARACTER-0} is showing signs of taking after {G0:his:her} {G1:father:mother}, {CHARACTER-1}. How this influence will take shape is yet to be seen. 
-
-Our nation rejoices at the arrival of another most cunning mind in the court, although one does wonder - on which side shall the coin land?</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTSTORY_INHERITANCE_DEALMAKER</zType>
 		<de-DE>{random_R1:You may be interested to learn that:Your courtiers inform you that:A trusted advisor informs you that:Rumor has it that:You have noticed that}, for better or for worse, {CHARACTER-0} is showing signs of taking after {G0:his:her} {G1:father:mother}, {CHARACTER-1}. How this influence will take shape is yet to be seen.</de-DE>
 	</Entry>
@@ -11311,12 +11299,6 @@ Adopting this new way of life would give certain benefits, such as understanding
 	<Entry>
 		<zType>TEXT_EVENTSTORY_COMPANIONSHIP_LOYAL</zType>
 		<de-DE>In your efforts to woo {CHARACTER-1}, you've realized during your many days spent managing business together that there might be something to {G1:his:her} lifestyle. After all, if the {G0:king:queen} can't remain loyal to {G0:his:her} followers, then you can't very well expect them to be loyal either.
-
-Adopting this new way of life would give certain benefits, such as understanding more of what {CHARACTER-1} would like and how you could put {G1:him:her} into your debt.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_COMPANIONSHIP_CUNNING</zType>
-		<de-DE>In your efforts to woo {CHARACTER-1}, you've realized during your many days spent plotting your latest schemes together that there might be something to {G1:his:her} lifestyle. After all, if the {G0:king:queen} can't stay one step ahead of the game, then you can't expect to win.
 
 Adopting this new way of life would give certain benefits, such as understanding more of what {CHARACTER-1} would like and how you could put {G1:him:her} into your debt.</de-DE>
 	</Entry>
@@ -14594,12 +14576,6 @@ Obviously, our government is scandalized by such an offer. {sentencecase:{PLAYER
 		<de-DE>Shortly after the sacking of the {TRIBE-3,1} settlement, you receive a message from {CHARACTER-SHORT-0}, urging caution. "Your ambitions are beginning to outgrow your capabilities. Be wise. Stay in {PLAYER-1}."
 
 You know {CHARACTER-SHORT-0} personally. Is this a veiled threat or friendly advice?</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTSTORY_RELATIONSHIP_MORAL_DEGRADATION</zType>
-		<de-DE>An envoy enters the capital, bearing a message from {CHARACTER-SHORT-0}. The {G0:king:queen} expresses {G0:his:her} frustration with our recent laws. "Your choice to institute slavery is a harbinger of {PLAYER-1}'s decay."
-
-{CHARACTER-SHORT-0} urges you to reconsider your policies.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RELATIONSHIP_GIVE_AN_INCH</zType>

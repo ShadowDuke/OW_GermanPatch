@@ -7,7 +7,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_AMBITION_ACHIEVED</zType>
-		<de-DE>Ambition vollendet</de-DE>
+		<de-DE>{singular_0:Ambition:Ambitionen} vollendet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_LEGACY_ACHIEVED</zType>
@@ -103,7 +103,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_WORLD_RELIGION_FOUNDED</zType>
-		<de-DE>Welt Religion gegründet</de-DE>
+		<de-DE>Welt {singular_0:Religion:Religionen} gegründet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_STAT_RELIGION_SPREAD</zType>

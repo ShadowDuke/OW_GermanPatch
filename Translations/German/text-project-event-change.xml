@@ -12,6 +12,46 @@
 		<de-DE>Mit Seide versorgt</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_PROJECT_GIVE_PORCELAIN</zType>
+		<de-DE>Mit Porzellan versorgt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_GIVE_EXOTIC_FUR</zType>
+		<de-DE>Mit exotischen Fellen versorgt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_GIVE_EBONY</zType>
+		<de-DE>Mit Elfenbein versorgt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_GIVE_PERFUME</zType>
+		<de-DE>Mit Parfüm versorgt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_GIVE_IVORY</zType>
+		<de-DE>Mit eeschnitztem Elfenbein versorgt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_GIVE_EXOTIC_ANIMALS</zType>
+		<de-DE>Mit exotischen Tieren versorgt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_GIVE_SILPHIUM</zType>
+		<de-DE>Mit Silphium versorgt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_GIVE_JADE</zType>
+		<de-DE>Mit Jade versorgt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_GIVE_TEA</zType>
+		<de-DE>Mit Tee versorgt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_GIVE_SPICES</zType>
+		<de-DE>Mit Gewürzen versorgt</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_PROJECT_SWORD_CULT</zType>
 		<de-DE>Kult der Schwerter</de-DE>
 	</Entry>
@@ -290,5 +330,53 @@
 	<Entry>
 		<zType>TEXT_PROJECT_ATHLETICS_EQUESTRIAN</zType>
 		<de-DE>Sportliche Tradition: Reiter</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_WARDENS_OF_THE_WILDS</zType>
+		<de-DE>Wardens of the Wilds</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_TRAINING_PITS</zType>
+		<de-DE>Training Pits</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_WARRIOR_TRADITION</zType>
+		<de-DE>Warrior Tradition</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_MONUMENT_OF_HOPE</zType>
+		<de-DE>Beacon of Hope</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_ANTICAVALRY_TACTICS</zType>
+		<de-DE>Anti-Mounted Tactics</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_BY_THE_NUMBERS</zType>
+		<de-DE>Office of Efficient Taxation</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_SHRINE_OF_THE_UNKNOWN_GOD</zType>
+		<de-DE>Shrine of the Unknown God</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_FORESTRY_GUILD</zType>
+		<de-DE>Forester's Guild</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_CODEX_OF_HIGHLAND_WISDOM</zType>
+		<de-DE>Codex of Highland Wisdom</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_TRIBAL_FORUM</zType>
+		<de-DE>Tribal Forum</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_ZOOLOGICAL_SOCIETY_PROJECT_ZOO</zType>
+		<de-DE>Zoo</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_PROJECT_ZOOLOGICAL_SOCIETY_PROJECT_RESEARCH_CLOISTER</zType>
+		<de-DE>Research Cloister</de-DE>
 	</Entry>
 </Root>

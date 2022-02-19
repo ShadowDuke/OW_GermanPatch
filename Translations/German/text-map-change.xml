@@ -446,6 +446,86 @@
 		<de-DE>Beginne im Norden, in der Nähe des Meeres</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MAP_NAME_ARCHIPELAGO</zType>
+		<de-DE>Archipelago</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_HELP_ARCHIPELAGO</zType>
+		<de-DE>A large stretch of water containing many islands.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_NAME_ARID_PLATEAU</zType>
+		<de-DE>Arid Plateau</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_HELP_ARID_PLATEAU</zType>
+		<de-DE>A region deep inland, behind a mountain range, where little rain falls.{br}{br}Balanced to support two teams in multi-player games.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_NAME_COASTAL_RAIN_BASIN</zType>
+		<de-DE>Coastal Rain Basin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_HELP_COASTAL_RAIN_BASIN</zType>
+		<de-DE>A coastal region bordered by a mountain range, which catches rain and creates a fertile band near the mountains.{br}{br}Balanced to support two teams in multi-player games.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_NAME_CONTINENT</zType>
+		<de-DE>Continent</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_HELP_CONTINENT</zType>
+		<de-DE>A small continent, on the scale of Australia. Guaranteed to be circumnavigable within the map boundary.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_NAME_CONTINENTS</zType>
+		<de-DE>Multiple Continents</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_HELP_CONTINENTS</zType>
+		<de-DE>Two or Three Continents.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_NAME_DISJUNCTION</zType>
+		<de-DE>Disjunction</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_HELP_DISJUNCTION</zType>
+		<de-DE>A series of channels extend radially from the center, dividing a land map into separate regions.{br}{br}Balanced to support either teams or free-for-all in multi-player games.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_NAME_HARDWOOD_FOREST</zType>
+		<de-DE>Hardwood Forest</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_HELP_HARDWOOD_FOREST</zType>
+		<de-DE>Land whose northern half is covered with a dense hardwood forest. South of the leafy trees lies a band of lush terrain. Rains come from the west, but there are also seas to north and south.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_NAME_INLAND_SEA</zType>
+		<de-DE>Inland Sea</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_HELP_INLAND_SEA</zType>
+		<de-DE>Land that completely surrounds a sea or group of seas.{br}{br}Balanced to support free-for-all in multi-player games.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_NAME_NORTHERN_OCEAN</zType>
+		<de-DE>Northern Ocean</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_HELP_NORTHERN_OCEAN</zType>
+		<de-DE>A cold oceanic region containing numerous islands, large and small, bordered by a continent to the south. Resources on the continent are depleted (fewer resources per city).{br}{br}An adventure map intended for single player games, with larger dimensions to compensate for a lower percentage of habitable tiles.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_NAME_SEASIDE</zType>
+		<de-DE>Seaside</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_HELP_SEASIDE</zType>
+		<de-DE>A region bordered by or containing large seas, gulfs, or bays, offering a substantial amount of coastline.{br}{br}Default map type for Old World, inspired by the Middle East but with a generally milder climate.</de-DE>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_MAP_OPTION_DISJUNCTION_CONTINENTS_WEIGHTED_RANDOM</zType>
 		<de-DE>Ausgeglichen, Zufällig</de-DE>
 	</Entry>
@@ -540,5 +620,10 @@
 	<Entry>
 		<zType>TEXT_MAP_OPTION_CONTINENTS_NUMBER_THREE_HELP</zType>
 		<de-DE>Drei Kontinente, wo entweder der Norden oder Süden zwei Kontinente besitzt</de-DE>
+	</Entry>
+	<!-- Premade maps -->
+	<Entry>
+		<zType>TEXT_PREMADE_MAP_MEDITERRANEAN_DESCRIPTION</zType>
+		<de-DE>A four-player map set in the Mediterranean area</de-DE>
 	</Entry>
 </Root>

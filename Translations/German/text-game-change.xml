@@ -6,32 +6,48 @@
 		<de-DE/>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_LOST_TEAM_ALLIANCE</zType>
-		<de-DE>Du bist nicht länger in einem Bündnis mit {0_team}.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GAME_GAINED_TEAM_ALLIANCE</zType>
-		<de-DE>Du bist nun in einem Bündnis mit {0_team}.</de-DE>
+		<de-DE>{0_team} ist nun in einem link(CONCEPT_ALLIANCE_PLAYER) mit {1_team}.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GAME_LOST_TRIBE_ALLIANCE</zType>
-		<de-DE>Du bist nicht länger in einem Bündni7s mit den {0_barbarians}.</de-DE>
+		<zType>TEXT_GAME_GAINED_TEAM_ALLIANCE_PLAYER</zType>
+		<de-DE>Du bist nun in einem link(CONCEPT_ALLIANCE_PLAYER) mit {0_team}.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_LOST_TEAM_ALLIANCE</zType>
+		<de-DE>{0_team} ist nicht länger in einem link(CONCEPT_ALLIANCE_PLAYER) mit {1_team}.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_LOST_TEAM_ALLIANCE_PLAYER</zType>
+		<de-DE>Du bist nicht länger in einem link(CONCEPT_ALLIANCE_PLAYER) mit {0_team}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_GAINED_TRIBE_ALLIANCE</zType>
-		<de-DE>Du bist nun in einem Bündnis mit den {0_barbarians}.</de-DE>
+		<de-DE>{0_team} ist nun in einem link(CONCEPT_ALLIANCE_TRIBE) mit den {1_tribe}.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_GAINED_TRIBE_ALLIANCE_PLAYER</zType>
+		<de-DE>Du bist nun in einem link(CONCEPT_ALLIANCE_TRIBE) mit den {0_tribe}.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_LOST_TRIBE_ALLIANCE</zType>
+		<de-DE>{0_team} ist nicht länger in einem link(CONCEPT_ALLIANCE_TRIBE) mit den {{1_tribe}.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_LOST_TRIBE_ALLIANCE_PLAYER</zType>
+		<de-DE>Du bist nicht länger in einem link(CONCEPT_ALLIANCE_TRIBE) mit den {0_tribe}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_MET_TRIBE</zType>
-		<de-DE>Du hast die {0_barbarians} getroffen</de-DE>
+		<de-DE>Du hast die {0_tribe} getroffen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TRIBE_NEW_DIPLOMACY</zType>
-		<de-DE>{0_team} hat nun {1_newDiplomacy} mit den {2_barbarians}.</de-DE>
+		<de-DE>{0_team} hat nun {1_newDiplomacy} mit den {2_tribe}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TRIBE_DIPLOMACY_LOG_DATA</zType>
-		<de-DE>{0_barbarians}: {1_newDiplomacy}</de-DE>
+		<de-DE>{0_tribe}: {1_newDiplomacy}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TEAM_CONTACT_LOG_DATA</zType>
@@ -128,6 +144,10 @@
 	<Entry>
 		<zType>TEXT_GAME_RELIGION_SPREAD_TO_CITY</zType>
 		<de-DE>{0_religion} breitet sich nach {1_city} aus.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_RELIGION_SPREAD_TO_CITY_DISCIPLE</zType>
+		<de-DE>A Disciple arriving from {2_player} has spread {0_religion} to {1_city}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DOOMED_POPUP</zType>
@@ -604,12 +624,16 @@
 		<de-DE>Adoptiert von {0_parent}</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_CONVERTED_BY</zType>
+		<de-DE>Konvertiere {true_0:zur {0_religion}:link(CONCEPT_RELIGION)}</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_MARRIES</zType>
 		<de-DE>Heiratet {0_suitor}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_DIVORCED_BY</zType>
-		<de-DE>Geschieden von {0_spouse}</de-DE>
+		<de-DE>Geschieden von {1_spouse}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_BIRTH_WITH</zType>
@@ -930,6 +954,14 @@
 	<Entry>
 		<zType>TEXT_GAME_PLAYER_YIELD_GIFT_RECIEVED</zType>
 		<de-DE>{0_amount} {1} bekommen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_PLAYER_UNIT_GIFT_RECIEVED</zType>
+		<de-DE>{0_unit} erhalten von {1_player}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_PLAYER_CITY_GIFT_RECIEVED</zType>
+		<de-DE>{0_player} hat dir die Kontrolle über {1_city} gewährt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_PLAYER_DECLARED_WAR_ON</zType>

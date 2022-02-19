@@ -26,6 +26,10 @@
 		<de-DE>Nichts</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_FAILED_LOAD_SAVE</zType>
+		<de-DE>Savegame laden fehlgeschlagen. Savegame entweder ungültig oder nicht kompatibel.</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_FAILED_LOAD_LOCKED_SAVE</zType>
 		<de-DE>Failed to load save. Specified file is either invalid or was started with the "Locked Save" option enabled and the file has subsequently been modified</de-DE>
 	</Entry>
@@ -287,6 +291,14 @@
 		<de-DE>SCHENKE GUT</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_GIFT_UNIT</zType>
+		<de-DE>SCHENKE EINHEIT</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_EVENT_LOG_GIFT_CITY</zType>
+		<de-DE>SCHENKE STADT</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_EVENT_LOG_MISSION_CANCELLED</zType>
 		<de-DE>MISSION ABGEBOCHEN</de-DE>
 	</Entry>
@@ -431,6 +443,10 @@
 		<de-DE>Verschanzen</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_TESTUDO</zType>
+		<de-DE>link(CONCEPT_TESTUDO)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_FAMILY_TERRITORY</zType>
 		<de-DE>{0_family} Gebiet:</de-DE>
 	</Entry>
@@ -561,22 +577,6 @@
 	<Entry>
 		<zType>TEXT_UI_CHARACTER_ACTIONS_LEAVE</zType>
 		<de-DE>Verlasse {0}</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_UI_CHARACTER_ACTIONS_RELATIVE_FATHER_LABEL</zType>
-		<de-DE>Vater</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_UI_CHARACTER_ACTIONS_RELATIVE_MOTHER_LABEL</zType>
-		<de-DE>Mutter</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_UI_CHARACTER_ACTIONS_RELATIVE_SPOUSE_LABEL</zType>
-		<de-DE>Ehepartner</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_UI_CHARACTER_ACTIONS_RELATIVE_CHILD_LABEL</zType>
-		<de-DE>Kind</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTER_ACTIONS_RELATIVES_TITLE</zType>
@@ -1135,120 +1135,264 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<de-DE>Familien Arten</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_FAMILYCLASSES_LABEL</zType>
+		<de-DE>(Familen Klasse)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_CONCEPTS</zType>
 		<de-DE>Konzepte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_CONCEPTS_LABEL</zType>
+		<de-DE>(Konzepzt)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_YIELDS</zType>
 		<de-DE>Erträge</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_YIELDS_LABEL</zType>
+		<de-DE>(Ertrag)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_TECHNOLOGIES</zType>
 		<de-DE>Technologien</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_TECHNOLOGIES_LABEL</zType>
+		<de-DE>(Technologie)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_UNITS</zType>
 		<de-DE>Einheiten</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_UNITS_LABEL</zType>
+		<de-DE>(Einheit)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_SPECIALISTS</zType>
 		<de-DE>Spezialisten</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_SPECIALISTS_LABEL</zType>
+		<de-DE>(Spezialist)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_PROJECTS</zType>
 		<de-DE>Projekte</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_PROJECTS_LABEL</zType>
+		<de-DE>(Projekt)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_LAWS</zType>
 		<de-DE>Gesetze</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_LAWS_LABEL</zType>
+		<de-DE>(Gesetz)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_RELIGIONS</zType>
 		<de-DE>Religionen</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_RELIGIONS_LABEL</zType>
+		<de-DE>(Religion)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_NATIONS</zType>
 		<de-DE>Reiche</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_NATIONS_LABEL</zType>
+		<de-DE>(Reich)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_TRIBES</zType>
 		<de-DE>Stämme</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_TRIBES_LABEL</zType>
+		<de-DE>(Stamm)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_COGNOMEN</zType>
-		<de-DE>Spitzname</de-DE>
+		<de-DE>Spitznamen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_COGNOMEN_LABEL</zType>
+		<de-DE>(Spitzname)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_CHARACTERS</zType>
 		<de-DE>Charaktere</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_CHARACTERS_LABEL</zType>
+		<de-DE>(Charakter)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_IMPROVEMENTS</zType>
 		<de-DE>Verbesserungen (Allgemein)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_IMPROVEMENTS_LABEL</zType>
+		<de-DE>(Verbesserung)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_RESOURCES</zType>
 		<de-DE>Ressourcen</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_RESOURCES_LABEL</zType>
+		<de-DE>(Ressource)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_VEGETATION</zType>
 		<de-DE>Vegetation</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_VEGETATION_LABEL</zType>
+		<de-DE>(Vegetation)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_HEIGHTS</zType>
 		<de-DE>Höhen</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_HEIGHTS_LABEL</zType>
+		<de-DE>(Höhe)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_RATINGS</zType>
 		<de-DE>Bewertungen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_RATINGS_LABEL</zType>
+		<de-DE>(Bewertung)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_TERRAIN</zType>
 		<de-DE>Gelände</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_TERRAIN_LABEL</zType>
+		<de-DE>(Gelände)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_ARCHETYPES</zType>
 		<de-DE>Merkmle (Archetypen)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_ARCHETYPES_LABEL</zType>
+		<de-DE>(Archetype)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_COUNCILS</zType>
 		<de-DE>Hofräte</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_COUNCILS_LABEL</zType>
+		<de-DE>(Hofrat)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_WONDERS</zType>
 		<de-DE>Verbesserungen (Wunder)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_WONDERS_LABEL</zType>
+		<de-DE>(Wunder)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_MISSIONS</zType>
 		<de-DE>Missionen</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_MISSIONS_LABEL</zType>
+		<de-DE>(Mission)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_RELIGIOUSIMPROVEMENTS</zType>
 		<de-DE>Verbesserungen (Religion)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_RELIGIOUSIMPROVEMENTS_LABEL</zType>
+		<de-DE>(Verbesserung)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_TRAITS</zType>
 		<de-DE>Merkmale (Andere)</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_TRAITS_LABEL</zType>
+		<de-DE>(Merkmal)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_HINTTEXTS</zType>
 		<de-DE>Hinweise</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_HINTTEXTS_LABEL</zType>
+		<de-DE>(Hinweis)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_PROMOTIONS</zType>
 		<de-DE>Beförderungen</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_PROMOTIONS_LABEL</zType>
+		<de-DE>(Beförderung)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_UNITEFFECTS</zType>
+		<de-DE>Einheiten Effekte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_UNITEFFECTS_LABEL</zType>
+		<de-DE>(Einheiten Effekt)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_TRAITSADJECTIVES</zType>
 		<de-DE>Merkmale (Adjektive)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_TRAITSADJECTIVES_LABEL</zType>
+		<de-DE>(Merkmal)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_THEOLOGIES</zType>
 		<de-DE>Religionswissenschaften</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_THEOLOGIES_LABEL</zType>
+		<de-DE>(Religionswissenschaf)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_TUTORIALS</zType>
 		<de-DE>Tutorials</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_TUTORIALS_LABEL</zType>
+		<de-DE>(Tutorial)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_DIFFICULTYLEVELS</zType>
+		<de-DE>Schwierigkeitsgradlevel</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_DIFFICULTYLEVELS_LABEL</zType>
+		<de-DE>(Schwierigkeitsgradlevel)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_VICTORYTYPES</zType>
+		<de-DE>Siegtypen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_WIKI_NAV_UI_SECTION_VICTORYTYPES_LABEL</zType>
+		<de-DE>(Siegtyp)</de-DE>
 	</Entry>
     <!-- selected-worker-->
     <Entry>
@@ -1289,6 +1433,18 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<de-DE>Agenten Netzwerke</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CHARACTER_MISSIONS_AVAILABLE</zType>
+		<de-DE>{0_character} ist untätig und kann auf eine Mission geschickt werden</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TUTOR_AVAILABLE</zType>
+		<de-DE>{0_character} kann unterrichtet werden</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_DISMISS_REMINDER</zType>
+		<de-DE>{TEXT_HOTKEY_RIGHT_CLICK} to dismiss this reminder.{true_0: This reminder will not reappear unless a new candidate becomes available.}</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_AGENT_MISSION_NAME</zType>
 		<de-DE><![CDATA[{0_missionLink} <color=#e3c08c>({1_cityLink})</color>]]>
 		</de-DE>
@@ -1314,6 +1470,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
         <zType>TEXT_SP_MENU_SCREEN_BACK_BUTTON</zType>
         <de-DE>Zurück</de-DE>
     </Entry>
+	<Entry>
+		<zType>TEXT_SP_MENU_SCREEN_NEXT_BUTTON</zType>
+		<de-DE>Weiter</de-DE>
+	</Entry>
     <!--multiplayer menu-->
    <Entry>
         <zType>TEXT_MP_KICK_ACTIVE_PLAYER</zType>
@@ -1480,9 +1640,130 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
     <Entry>
         <zType>TEXT_MP_PLAYER_DISCONNECTED</zType>
         <de-DE>{0} hat sich von dem Server verabschiedet</de-DE>
-    </Entry>
-    <!--tools-->
-    <Entry>
+	</Entry>
+	<!--hall of fame-->
+	<Entry>
+		<zType>TEXT_HOF_ACHIEVEMENT_BUTTON</zType>
+		<de-DE>Zeige Achievements</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_GAME_BUTTON</zType>
+		<de-DE>Zeige Spiele</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_HEADER_NUMBER</zType>
+		<de-DE>#</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_HEADER_SCENARIO</zType>
+		<de-DE>Szenario</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_HEADER_LEADER</zType>
+		<de-DE>Oberhaupt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_HEADER_LEADERS</zType>
+		<de-DE>Oberhäupter</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_HEADER_NATION</zType>
+		<de-DE>Reich</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_HEADER_VICTORY</zType>
+		<de-DE>Siegtyp</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_HEADER_VICTORY_SCENARIO</zType>
+		<de-DE>Szenario Sieg</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_HEADER_AMBITIONS</zType>
+		<de-DE>Ambition</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_HEADER_VP</zType>
+		<de-DE>SPs</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_HEADER_LEGITIMACY</zType>
+		<de-DE>icon(YIELD_LEGITIMACY)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_HEADER_LOAD</zType>
+		<de-DE>Laden</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_HEADER_DELETE</zType>
+		<de-DE>Löschen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_HEADER_DETAILS</zType>
+		<de-DE>Spiel Details</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_HEADER_LOAD_HELP</zType>
+		<de-DE>Load the game to explore the final state of play.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_HEADER_DELETE_HELP</zType>
+		<de-DE>Delete the game from the Hall of Fame.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_ACHIEVEMENTS_UNLOCKED</zType>
+		<de-DE>Achievements Unlocked</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_ACHIEVEMENTS_LOCKED</zType>
+		<de-DE>Achievements Locked</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_HALL_OF_STATS</zType>
+		<de-DE>Spieler Statistiken</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_STATS_NONE</zType>
+		<de-DE>Win a game to generate stats</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_STATS_VICTORY</zType>
+		<de-DE>Die meisten Siege: </de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_STATS_NATION</zType>
+		<de-DE>Bevorzugtes Reich: </de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_STATS_MAPCLASS</zType>
+		<de-DE>Bevorzugte Map: </de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_STATS_LEGITIMACY</zType>
+		<de-DE>Höchste Legitimität: </de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_STATS_POINTS</zType>
+		<de-DE>Höchste Siegpunkte: </de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_STATS_ACHIEVEMENTS</zType>
+		<de-DE>Achievements Unlocked: </de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_STATS_GAMES_WON</zType>
+		<de-DE>Spiele gewonnen: </de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_HALL_OF_GREATS</zType>
+		<de-DE>Hall of the Greats</de-DE>
+	</Entry>
+	<!--tools-->
+	<Entry>
+		<zType>TOOLS_SCREEN_HALL_OF_FAME_BUTTON</zType>
+		<de-DE>Hall of Fame</de-DE>
+	</Entry>
+	<Entry>	
         <zType>TOOLS_SCREEN_MAP_EDITOR_BUTTON</zType>
         <de-DE>Karten Editor</de-DE>
 	</Entry>
@@ -1574,6 +1855,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
         <zType>TOOLS_SCREEN_BACK_BUTTON</zType>
         <de-DE>Zurück</de-DE>
     </Entry>
+	<Entry>
+		<zType>TEXT_HOF_SCREEN_BACK_BUTTON</zType>
+		<de-DE>Zurück</de-DE>
+	</Entry>
     <!--mp-setup-screen.xml-->
     <!--multiplayer setup screen-->
     <Entry>
@@ -1745,11 +2030,19 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	<Entry>
         <zType>TEXT_MP_SETUP_INVALID_START_NATIONS</zType>
 		<de-DE>There are more players than unique nations, or duplicate nations have been selected.</de-DE>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_SETUP_INVALID_START_TEAMS</zType>
+		<de-DE>There are teams without any players assigned to them.</de-DE>
+	</Entry>
     <Entry>
         <zType>TEXT_MP_SETUP_INVALID_START_MAP</zType>
         <de-DE>"Premade Map" is selected, but no map file has been specified</de-DE>
     </Entry>
+	<Entry>
+		<zType>TEXT_MP_SETUP_NO_HUMANS</zType>
+		<de-DE>Es gibt keine menschlichen Spieler</de-DE>
+	</Entry>
     <!-- players-->
     <Entry>
         <zType>TEXT_MP_SETUP_PLAYERS_NAME</zType>
@@ -2604,6 +2897,14 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<zType>TEXT_CITY_CAPITAL_FAMILY_DECISION</zType>
 		<de-DE>{0_family} ({1_class})</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_CITY_RAZE_DECISION</zType>
+		<de-DE>Zerstöre die Stadt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CITY_NO_RAZE_DECISION</zType>
+		<de-DE>Verschone die Stadt</de-DE>
+	</Entry>
     <Entry>
         <zType>TEXT_CHARACTER_UPGRADE_DECISION_RATING</zType>
         <de-DE>Verbessere: +1 {0_ratingtype} ({1_startrating} zu {2_endrating})</de-DE>
@@ -2718,7 +3019,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<zType>TEXT_UI_MODS_POWERED_BY_MODIO_TOOLTIP</zType>
 		<de-DE>Powered by mod.io</de-DE>
 	</Entry>
-	<Entry>	
+	<Entry>
+		<zType>TEXT_UI_MODS_POWERED_BY_WORKSHOP_TOOLTIP</zType>
+		<de-DE>Powered by Workshop</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_MODS_BACK_TO_MENU</zType>
 		<de-DE>Hauptmenü</de-DE>
 	</Entry>
@@ -2763,6 +3068,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<de-DE>Karten Skripte</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_MODS_FILTER_WORKSHOP_TOGGLE_LABEL</zType>
+		<de-DE>Steam Workshop</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_MODS_INCLUDE_INTERNAL_TOGGLE_LABEL</zType>
 		<de-DE>Beziehe Interne mit ein</de-DE>
 	</Entry>
@@ -2785,6 +3094,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	<Entry>
 		<zType>TEXT_UI_MODS_HOMEPAGE_LABEL</zType>
 		<de-DE>Homepage:</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_PLATFORM_LABEL</zType>
+		<de-DE>Mod Platform:</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_MOD_NAME_LABEL</zType>
@@ -2883,8 +3196,12 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<de-DE>Speichere lokale Änderungen</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_MODS_UPLOAD_BUILD_BUTTON</zType>
-		<de-DE>Neue Version hochladen</de-DE>
+		<zType>TEXT_UI_MODS_UPLOAD_MODIO_BUTTON</zType>
+		<de-DE>Auf mod.io hochladen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_UPLOAD_WORKSHOP_BUTTON</zType>
+		<de-DE>Upload to Workshop</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_CLEAR_MOD_SELECTION_BUTTON</zType>
@@ -3024,7 +3341,15 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_MODS_ASSIGNED_POPUP_BODY</zType>
-		<de-DE><![CDATA[Die folgenden Mods sind aktiv:<br>{0_list}]]></de-DE>		  
+		<de-DE>Die folgenden Mods sind aktiv:{br}{0_list}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_MODS_ASSIGNED_POPUP_BODY_INCOMPAT</zType>
+		<de-DE>{br}{br}Die folgenden Mods sind inkompatibel und wurden deaktiviert:{br}{0_list}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_MODS_ASSIGNED_POPUP_BODY_DEPENDENT</zType>
+		<de-DE>{br}{br}Die folgenden Mod Abhängigkeiten sind nun aktiv:{br}{0_list}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_NEW_GAME_SINGLEPLAYER_OR_MULTIPLAYER_POPUP_TITLE</zType>
@@ -3109,5 +3434,21 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	<Entry>
 		<zType>TEXT_UI_MODS_NOT_FOUND_ON_SERVER_POPUP_TITLE</zType>
 		<de-DE>Die angeforderten Mods wurden auf den mod.io Servern nicht gefunden</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_NOT_DOWNLOADED_WORKSHOP_TITLE</zType>
+		<de-DE>Workshop Fehler</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_NOT_DOWNLOADED_WORKSHOP_BODY</zType>
+		<de-DE>Downlaod vom Workshop fehlgeschlagen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SP_SETUP_CHOOSE_LEADER</zType>
+		<de-DE>Wähle ein Oberhaupt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_SP_SETUP_UNKNOWN_LEADER</zType>
+		<de-DE>Unbekannt</de-DE>
 	</Entry>
 </Root>

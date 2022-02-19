@@ -38,6 +38,14 @@
 		<de-DE>{0_title} Witwe</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_LEADER_REGENT</zType>
+		<de-DE>{0_title} Regent</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_LEADER_REGENT_F</zType>
+		<de-DE>{0_title} Regent</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CHARACTER_TITLE_HEIR</zType>
 		<de-DE>Prinz</de-DE>
 	</Entry>
@@ -72,6 +80,14 @@
 	<Entry>
 		<zType>TEXT_CHARACTER_TITLE_AGENT_F</zType>
 		<de-DE>Agentin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_TRIBE_LEADER</zType>
+		<de-DE>König</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_TRIBE_LEADER_F</zType>
+		<de-DE>Königin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_TITLE_RELIGION_HEAD</zType>
@@ -230,14 +246,90 @@
 		<zType>TEXT_CHARACTER_RELATION_STEPPARENT</zType>
 		<de-DE>{masculine_0:Dein Stiefvater:Deine Stiefmutter}</de-DE>
 	</Entry>
-  <Entry>
+	<Entry>
     <zType>TEXT_CHARACTER_RELATION_RELATIVE</zType>
     <de-DE>Deine Verwandten</de-DE>
-  </Entry>
-  <Entry>
+	</Entry>
+	<Entry>
     <zType>TEXT_CHARACTER_RELATION_IN_LAW</zType>
     <de-DE>Deine angeheirateten Verwandten</de-DE>
-  </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_RELATION_SPOUSE_SHORT</zType>
+		<de-DE>{masculine_0:Ehemann:Ehefrau}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_RELATION_CHILD_SHORT</zType>
+		<de-DE>{masculine_0:Sohn:Tochter}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_RELATION_GRANDCHILD_SHORT</zType>
+		<de-DE>{masculine_0:Enkel:Enkelin}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_RELATION_DESCENDANT_SHORT</zType>
+		<de-DE>Nachkomme</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_RELATION_PARENT_SHORT</zType>
+		<de-DE>{masculine_0:Vater:Mutter}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_RELATION_GRANDPARENT_SHORT</zType>
+		<de-DE>{masculine_0:Großvater:Großmutter}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_RELATION_ANCESTOR_SHORT</zType>
+		<de-DE>Vorfahre</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_RELATION_SIBLING_SHORT</zType>
+		<de-DE>{masculine_0:Bruder:Schwester}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_RELATION_SIBLING_IN_LAW_SHORT</zType>
+		<de-DE>{masculine_0:Schwager:Schwägerin}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_RELATION_HALF_SIBLING_SHORT</zType>
+		<de-DE>{masculine_0:Halb-Bruder:Halb-Schwester}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_RELATION_COUSIN_SHORT</zType>
+		<de-DE>{masculine_0:Cousin:Cousine}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_RELATION_AUNT_UNCLE_SHORT</zType>
+		<de-DE>{masculine_0:Onkel:Tante}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_RELATION_NIECE_NEPHEW_SHORT</zType>
+		<de-DE>{masculine_0:Neffe:Nichte}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_RELATION_CHILD_IN_LAW_SHORT</zType>
+		<de-DE>{masculine_0:Schwiegersohn:Schwiegertochter}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_RELATION_PARENT_IN_LAW_SHORT</zType>
+		<de-DE>{masculine_0:Schwiegervater:Schwiegermutter}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_RELATION_STEPCHILD_SHORT</zType>
+		<de-DE>{masculine_0:Stiefsohn:Stieftochter}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_RELATION_STEPPARENT_SHORT</zType>
+		<de-DE>{masculine_0:Stiefvater:Stiefmutter}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_RELATION_RELATIVE_SHORT</zType>
+		<de-DE>Verwandter</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_RELATION_IN_LAW_SHORT</zType>
+		<de-DE>Angeheiratet</de-DE>
+	</Entry>
   <!-- Heir -->
 	<Entry>
 		<zType>TEXT_CHARACTER_HEIR_ORDER_1</zType>
@@ -245,11 +337,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_HEIR_ORDER_2</zType>
-		<de-DE>Dritter der Thronfolge</de-DE>
+		<de-DE>Zweiter der Thronfolge</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_HEIR_ORDER_3</zType>
-		<de-DE>Vierter der Thronfolge</de-DE>
+		<de-DE>Dritter der Thronfolge</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_HEIR_ORDER_4</zType>
@@ -306,8 +398,16 @@
 		<de-DE>der Jüngere</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CHARACTER_THE_YOUNGER_F</zType>
+		<de-DE>die Jüngere</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CHARACTER_THE_ELDER</zType>
 		<de-DE>der Ältere</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_THE_ELDER_F</zType>
+		<de-DE>die Ältere</de-DE>
 	</Entry>
 	<!--Game Text-->
 	<Entry>

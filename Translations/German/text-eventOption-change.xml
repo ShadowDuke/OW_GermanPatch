@@ -338,32 +338,16 @@
 		<de-DE><![CDATA[<masculine_CHARACTER-0>Er<feminine>Sie<end> wird Philosophie lernen.]]></de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_STUDY_PHILOSOPHY_HELP</zType>
-		<de-DE>Kann zu link(TRAIT_TACTICIAN_ARCHETYPE), link(TRAIT_ZEALOT_ARCHETYPE), link(TRAIT_JUDGE_ARCHETYPE), link(TRAIT_BUILDER_ARCHETYPE), link(TRAIT_SCHOLAR_ARCHETYPE), link(TRAIT_SKYEXPLORER_ARCHETYPE), oder eventuell zu link(TRAIT_CORRUPTIONIST_ARCHETYPE) und link(TRAIT_ARTIST_ARCHETYPE) führen.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_POLITICS</zType>
 		<de-DE><![CDATA[<masculine_CHARACTER-0>Er<feminine>Sie<end> wird Politik lernen.]]></de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_STUDY_POLITICS_HELP</zType>
-		<de-DE>Kann zu link(TRAIT_HERO_ARCHETYPE), link(TRAIT_ORATOR_ARCHETYPE), link(TRAIT_JUDGE_ARCHETYPE), link(TRAIT_SCHOLAR_ARCHETYPE), link(TRAIT_DIPLOMAT_ARCHETYPE), link(TRAIT_ARTIST_ARCHETYPE), link(TRAIT_MERCHANT_ARCHETYPE) oder eventuell zu link(TRAIT_SKYEXPLORER_ARCHETYPE) und link(TRAIT_CORRUPTIONIST_ARCHETYPE) führen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_TACTICS</zType>
 		<de-DE><![CDATA[<masculine_CHARACTER-0>Er<feminine>Sie<end> wird Taktik lernen.]]></de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_STUDY_TACTICS_HELP</zType>
-		<de-DE>Kann zu link(TRAIT_HERO_ARCHETYPE), link(TRAIT_COMMANDER_ARCHETYPE), link(TRAIT_TACTICIAN_ARCHETYPE), link(TRAIT_ZEALOT_ARCHETYPE), link(TRAIT_SCHEMER_ARCHETYPE), oder eventuell zu link(TRAIT_CORRUPTIONIST_ARCHETYPE) und link(TRAIT_CHAMPION_ARCHETYPE) führen.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_COMMERCE</zType>
 		<de-DE><![CDATA[<masculine_CHARACTER-0>Er<feminine>Sie<end> wird Wirtschaft lernen.]]></de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_STUDY_COMMERCE_HELP</zType>
-		<de-DE>Kann zu link(TRAIT_MERCHANT_ARCHETYPE), link(TRAIT_COMMANDER_ARCHETYPE), link(TRAIT_SCHEMER_ARCHETYPE), link(TRAIT_ORATOR_ARCHETYPE), link(TRAIT_BUILDER_ARCHETYPE), link(TRAIT_DIPLOMAT_ARCHETYPE), oder eventuell zu link(TRAIT_SKYEXPLORER_ARCHETYPE), link(TRAIT_CORRUPTIONIST_ARCHETYPE) und link(TRAIT_CHAMPION_ARCHETYPE) führen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_EXPLORING</zType>
@@ -1524,10 +1508,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_JACHIN_AND_BOAZ_2</zType>
 		<de-DE>Decline and proceed inside. </de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_JACHIN_AND_BOAZ_TOOLTIP</zType>
-		<de-DE>{CHARACTER-3} will owe {CHARACTER-2} a favor.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_ASHERAH_0</zType>
@@ -3387,10 +3367,6 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_5_KILLS_THREE_TRIBE_CLEARED</zType>
-		<de-DE>These lands are crowded. Let’s make room for expansion.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_5_KILLS_FIVE_TRIBE_CLEARED</zType>
 		<de-DE>These lands are crowded. Let’s make room for expansion.</de-DE>
 	</Entry>
 	<Entry>
@@ -5539,14 +5515,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_EXPLORATION_OPTION_THREE_CONNECTED_CITIES</zType>
 		<de-DE>Yes, let's explore these lands by expanding our nation.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_EXPLORATION_OPTION_FIVE_TRIBE_CLEARED</zType>
-		<de-DE>I find these lands crowded. Let's give {PLAYER-0} room to expand.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_EXPLORATION_OPTION_SEVEN_TRIBE_CLEARED</zType>
-		<de-DE>I find these lands crowded. Let's give {PLAYER-0} room to expand.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_EXPLORATION_OPTION_EXPLORE</zType>
@@ -8305,10 +8273,6 @@
 		<de-DE>{PLAYER-0} was next, regardless. Do your worst.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_WAR_OFFER_ALREADY_FIGHTING_CUNNING</zType>
-		<de-DE>Perhaps I can fool {PLAYER-2} into confronting {PLAYER-0} instead.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_WAR_OFFER_ANGRY_RELIGION_TRAINING</zType>
 		<de-DE>Order the generals to recruit more men.</de-DE>
 	</Entry>
@@ -8791,10 +8755,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_PLAYER_WAR_OFFER_ENEMY_TRAIT_SCHEMER_WAR</zType>
 		<de-DE>Embrace the certainty of war!</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_PLAYER_WAR_OFFER_ENEMY_TRAIT_SCHEMER_CUNNING_PLAN</zType>
-		<de-DE>This is merely a ruse to train {G0:his:her} army, easily dealt with.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_PLAYER_WAR_OFFER_ENEMY_TRAIT_ORATOR_TRIBUTE</zType>
@@ -16348,10 +16308,6 @@
 		<de-DE>Beware the ends of the earth, and the exotic.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_INHERITANCE_CUNNING_OPTION_0</zType>
-		<de-DE>The hunter must take care to avoid {G0:his:her} own traps.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_INHERITANCE_DEALMAKER_OPTION_0</zType>
 		<de-DE>Every deal is a rope. Be careful who you're tied to.</de-DE>
 	</Entry>
@@ -17227,10 +17183,6 @@
 		<de-DE>There are many other mysteries to see in the world.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_WONDER_INSPIRATION_CUNNING</zType>
-		<de-DE>The trick is to know what everyone wants.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_WONDER_INSPIRATION_COMMANDER</zType>
 		<de-DE>Our generals and soldiers keep us safe.</de-DE>
 	</Entry>
@@ -17277,10 +17229,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NATURE_INSPIRATION_DELVER</zType>
 		<de-DE>Wisdom can be found under the very ground we walk on.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_NATURE_INSPIRATION_CUNNING</zType>
-		<de-DE>Be as cunning as the serpent.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NATURE_INSPIRATION_TRACKER</zType>
@@ -17537,10 +17485,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MISSING_ADVENTURE_DELVER</zType>
 		<de-DE>"...worked underground for a year."</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_MISSING_ADVENTURE_CUNNING</zType>
-		<de-DE>"...lived by my wits and blades in the slums."</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MISSING_ADVENTURE_TRACKER</zType>
@@ -18563,10 +18507,6 @@
 		<de-DE>Leavers, wedges, angles, plumb lines, all very useful for this business.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_COVERT_INSPIRATION_CUNNING</zType>
-		<de-DE>If you think you are alone, double check and then double back.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_COVERT_INSPIRATION_COWARDLY</zType>
 		<de-DE>Discretion is the better part of valor.</de-DE>
 	</Entry>
@@ -18781,10 +18721,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_COMPANIONSHIP_LOYAL</zType>
 		<de-DE>I shall bind {CHARACTER-1} to me and never betray a companion.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_COMPANIONSHIP_CUNNING</zType>
-		<de-DE>I shall bind {CHARACTER-1} to me and betray anyone if I must.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_COMPANIONSHIP_BOLD</zType>
@@ -23937,14 +23873,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELATIONSHIP_URGING_CAUTION_OPTION_2</zType>
 		<de-DE>Reassure {G0:him:her} of our peaceful intentions.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_RELATIONSHIP_MORAL_DEGRADATION_OPTION_0</zType>
-		<de-DE>We will never bow to foreign pressure.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_RELATIONSHIP_MORAL_DEGRADATION_OPTION_1</zType>
-		<de-DE>{CHARACTER-0} is right, and we must abolish slavery.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELATIONSHIP_GIVE_AN_INCH_OPTION_0</zType>
