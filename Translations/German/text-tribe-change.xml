@@ -8,10 +8,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_REBELS</zType>
-		<de-DE>Rebellen~Rebbeln~ein Rebelle~Rebellen~Rebelle</de-DE>
+		<de-DE>Rebellen~Rebellisch~ein Rebelle~Rebellen~Rebelle</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_REBELS_F</zType>
+		<de-DE>Rebellin~Rebellische~eine Rebellin~Rebellinnen~Rebelle</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_REBELS_HELP</zType>
@@ -23,10 +24,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_RAIDERS</zType>
-		<de-DE>Räuber~Räuber~ein Räuber~Räuber~Räuber</de-DE>
+		<de-DE>Räuber~Räuberisch~ein Räuber~Räuber~Räuber</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_RAIDERS_F</zType>
+		<de-DE>Räuberin~Räuberische~eine Räuberin~Räuberinnen~Räuber</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_RAIDERS_HELP</zType>
@@ -34,10 +36,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_BARBARIANS</zType>
-		<de-DE>Barbaren~Barbarische~ein Barbare~Barbaren~Barbare</de-DE>
+		<de-DE>Barbaren~Barbarisch~ein Barbare~Barbaren~Barbare</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_BARBARIANS_F</zType>
+		<de-DE>Barbarin~Barbarische~eine Barbarin~Barbarinnen~Barbare</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_BARBARIANS_HELP</zType>
@@ -49,14 +52,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_GAULS_F</zType>
+		<de-DE>Gallierin~Gallische~eine Gallierin~Gallierinnen~Gallier</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_GAULS_NICK</zType>
 		<de-DE>der Gallier</de-DE>
 	</Entry>
-	
 	<Entry>
 		<zType>TEXT_TRIBE_GAULS_NICK_F</zType>
+		<de-DE>die Gallierin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_VANDALS</zType>
@@ -64,6 +68,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_VANDALS_F</zType>
+		<de-DE>Vandalin~Vandalische~eine Vandalin~Vandalinnen~Vandale</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_VANDALS_NICK</zType>
@@ -71,6 +76,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_VANDALS_NICK_F</zType>
+		<de-DE>die Vandalin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_DANES</zType>
@@ -78,6 +84,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_DANES_F</zType>
+		<de-DE>Dänin~Dänische~eine Dänin~Däninnen~Däne</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_DANES_NICK</zType>
@@ -85,6 +92,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_DANES_NICK_F</zType>
+		<de-DE>die Dänin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_THRACIANS</zType>
@@ -92,6 +100,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_THRACIANS_F</zType>
+		<de-DE>Thrakerin~Thrakische~eine Thrakerin~Thrakerinnen~Thraker</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_THRACIANS_NICK</zType>
@@ -99,13 +108,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_THRACIANS_NICK_F</zType>
+		<de-DE>die Thrakerin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_SCYTHIANS</zType>
-		<de-DE>Skythen~Skythische~ein Skythe~Skythen~Skythe</de-DE>
+		<de-DE>Skythe~Skythische~ein Skythe~Skythen~Skythe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_SCYTHIANS_F</zType>
+		<de-DE>Skythin~Skythische~eine Skythin~Skythinnen~Skythe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_SCYTHIANS_NICK</zType>
@@ -113,19 +124,22 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_SCYTHIANS_NICK_F</zType>
+		<de-DE>die Skythin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_NUMIDIANS</zType>
-		<de-DE>Numiden~Numidische~ein Numide~Numiden~Numide</de-DE>
+		<de-DE>Numidier~Numidische~ein Numidier~Numidien~Numidie</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_NUMIDIANS_F</zType>
+		<de-DE>Numidien~Numidische~eine Numidien~Numidien~Numidie</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_NUMIDIANS_NICK</zType>
-		<de-DE>der Numide</de-DE>
+		<de-DE>der Numidie</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRIBE_NUMIDIANS_NICK_F</zType>
+		<de-DE>die Numidien</de-DE>
 	</Entry>
 </Root>
