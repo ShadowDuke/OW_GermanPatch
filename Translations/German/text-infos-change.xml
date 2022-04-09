@@ -3814,6 +3814,10 @@
 		<de-DE>Betäubt</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COOLDOWN_CAPTURING</zType>
+		<de-DE>Gefangennehmen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COOLDOWN_BUILDING</zType>
 		<de-DE>Bauen</de-DE>
 	</Entry>
@@ -4124,14 +4128,6 @@
 	<Entry>
 		<zType>TEXT_GAMEOPTION_LOCK_PLAYER_OPTIONS_HELP</zType>
 		<de-DE>Spieler Gameplay Optionen können nachdem das Spiel gestartet wurde nicht mehr geändert werden</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GAMEOPTION_RANDOMIZE_LEADERS</zType>
-		<de-DE>Zufällige Oberhäupter</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GAMEOPTION_RANDOMIZE_LEADERS_HELP</zType>
-		<de-DE>Randomize starting Leader of each Nation.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAMEOPTION_RANDOMIZE_FAMILIES</zType>

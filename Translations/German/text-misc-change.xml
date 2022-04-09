@@ -135,6 +135,10 @@
 		<de-DE>King of the Hill</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MAP_OPTION_GOOD_PLAYER_START_RESOURCES</zType>
+		<de-DE>Ausgeglichene Start Ressourcen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_SUBJECTRELATION_TRIBE_WAR_ALLIANCE</zType>
 		<de-DE>At link(DIPLOMACY_WAR) with their link(CONCEPT_ALLIANCE_TRIBE,4)</de-DE>
 	</Entry>
@@ -151,12 +155,24 @@
 		<de-DE>Gesandter</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COUNCIL_AMBASSADOR_F</zType>
+		<de-DE>Gesandtin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COUNCIL_CHANCELLOR</zType>
 		<de-DE>Kanzler</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COUNCIL_CHANCELLOR_F</zType>
+		<de-DE>Kanzlerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COUNCIL_SPYMASTER</zType>
 		<de-DE>Meisterspion</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COUNCIL_SPYMASTER_F</zType>
+		<de-DE>Meisterspionin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAPCLASS_RANDOM</zType>
@@ -289,5 +305,21 @@
 	<Entry>
 		<zType>TEXT_ERROR_FAILED_TO_GENERATE_MAP</zType>
 		<de-DE>Failed to generate map ({0})</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_ERROR_FAILED_CONNECT_SERVER</zType>
+		<de-DE>Failed to connect to the server</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EMAIL_SUBJECT_YOUR_TURN</zType>
+		<de-DE>Old World {0} - Your turn</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EMAIL_SUBJECT_DEFEAT</zType>
+		<de-DE>Old World {0} - You have been defeated</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_POPUP_SCREENSHOT_TAKEN</zType>
+		<de-DE>Screenshot taken</de-DE>
 	</Entry>
 </Root>

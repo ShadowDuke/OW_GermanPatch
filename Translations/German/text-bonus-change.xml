@@ -8,7 +8,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FAMILY_SEAT</zType>
-		<de-DE>link(CONCEPT_FAMILY_SEAT) gegründet</de-DE>
+		<de-DE>Einen link(CONCEPT_FAMILY_SEAT) gegründet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_DISCOVERED_LANDMARK</zType>
@@ -24,47 +24,47 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_AMBITION</zType>
-		<de-DE>Ambition(en) vollendet</de-DE>
+		<de-DE>Eine Ambition vollendet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_LEGACY</zType>
-		<de-DE>Vermächtnis(se) vollendet</de-DE>
+		<de-DE>Ein Vermächtnis vollendet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_ABANDONED_AMBITION</zType>
-		<de-DE>Ambition(en) aufgegeben</de-DE>
+		<de-DE>Eine Ambition aufgegeben</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FAILED_LEGACY</zType>
-		<de-DE>Vermächtnis(se) fehlgeschlagen</de-DE>
+		<de-DE>Ein Vermächtnis fehlgeschlagen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_GOAL</zType>
-		<de-DE>Ziel(e) vollendet</de-DE>
+		<de-DE>Ein Ziel vollendet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_HOLY_SITE</zType>
-		<de-DE>Eine Heilige Stätte gebaut</de-DE>
+		<de-DE>Eine link(CONCEPT_HOLY_SITE) gebaut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_WONDER_WEAK</zType>
-		<de-DE>Ein Wunder gebaut</de-DE>
+		<de-DE>Ein link(CONCEPT_WONDER) gebaut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_WONDER_DEVELOPING</zType>
-		<de-DE>Ein Wunder gebaut</de-DE>
+		<de-DE>Ein link(CONCEPT_WONDER) gebaut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_WONDER_STRONG</zType>
-		<de-DE>Ein Wunder gebaut</de-DE>
+		<de-DE>Ein link(CONCEPT_WONDER) gebaut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_FINISHED_WONDER_LEGENDARY</zType>
-		<de-DE>Ein Wunder gebaut</de-DE>
+		<de-DE>Ein link(CONCEPT_WONDER) gebaut</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_INSPIRED_BY_WONDER</zType>
-		<de-DE>Beflügelt durch ein Wunder</de-DE>
+		<de-DE>Wurde durch ein link(CONCEPT_WONDER) beflügelt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_HIGH_SYNOD</zType>
@@ -829,6 +829,34 @@
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TREACHERY_THEM_AGENT_SECRETS_RETURN_PLAYER</zType>
 		<de-DE>Feindliche Agenten gedemütigt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_IRON_AND_ANGUISH_OPTION_INVASION_CHARACTER_0</zType>
+		<de-DE>Faced a link(CONCEPT_TRIBE_INVASION) without fear</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_IRON_AND_ANGUISH_OPTION_PACIFY_CHARACTER_0</zType>
+		<de-DE>Stood down in the face of a link(CONCEPT_TRIBE_INVASION)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_THE_GHOST_OF_ROMULUS_OPTION_1_CHARACTER_1</zType>
+		<de-DE>Led plan to serve the people</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_TRUCE_FOREIGN_RULE_OPTION_NO_CHARACTER_1</zType>
+		<de-DE>Resisted an attempt at foreign rule</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_TRUCE_FOREIGN_RULE_OPTION_YES_CHARACTER_0</zType>
+		<de-DE>Gave in to foreign rule</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_TRUCE_FOREIGN_RULE_OPTION_REGAL_CHARACTER_1</zType>
+		<de-DE>Allowed an enemy to join our court</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_TRUCE_SOLEMN_PROCESSION_OPTION_NO_RELIGION_PLAYER_1</zType>
+		<de-DE>Renounced the state religion to spite my enemy</de-DE>
 	</Entry>
 	<Entry beginGroup="Combat">	
 		<zType>TEXT_BONUS_EVENTOPTION_LEADER_SMITING_FOES_STATUE</zType>
@@ -2439,17 +2467,37 @@
 		<zType>TEXT_BONUS_MERCY_FOR_THE_WEAK_LEGITIMACY</zType>
 		<de-DE>Showed mercy to those weaker than you</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_MARRIAGE_TRIBE_LEADER_YES_CHARACTER_1</zType>
+		<de-DE>Barbarisches Oberhaupt geheiratet</de-DE>
+	</Entry>
 	<Entry beginGroup="Ambition">
 		<zType>TEXT_BONUS_EVENTOPTION_BOUND_BY_AN_OATH_NO_CHARACTER_1</zType>
-		<de-DE>Known as an oath-breaker</de-DE>
+		<de-DE>Became known as an oath-breaker</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_ANCESTRAL_OATH_NO_CHARACTER_3</zType>
-		<de-DE>Broke ancestral oath</de-DE>
+		<de-DE>Broke an ancestral oath</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_DRUNKEN_AMBITION_NO_PLAYER</zType>
-		<de-DE>Renowned drunk</de-DE>
+		<de-DE>Became a renowned drunk</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_THE_INFLUENCE_OF_PYGMALION_OPTION_2_CHARACTER_0</zType>
+		<de-DE>Refused Pygmalion</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_THE_GHOST_OF_ROMULUS_OPTION_2_CHARACTER_0</zType>
+		<de-DE>Refused to honor brother</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_RIVALS3_RENEWED_HOPE_PEACE_PLAYER_1</zType>
+		<de-DE>Peace with rivals</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_THE_GOD_QUEEN_OPTION_0_CHARACTER</zType>
+		<de-DE>Birth myth</de-DE>
 	</Entry>
 	<Entry beginGroup="Royalty">
 		<zType>TEXT_BONUS_EVENTOPTION_RIGHTFUL_HEIR_DEAD_OKAY_CHARACTER_2</zType>

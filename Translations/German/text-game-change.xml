@@ -509,35 +509,35 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_ADD_X</zType>
-		<de-DE>Bekomme {0}</de-DE>
+		<de-DE>Zufügen {0}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_CITIZENS</zType>
-		<de-DE><![CDATA[{0_value} <singular_0>{1_citizenLink}<plural>{1,2_citizenLink}<end>]]></de-DE>
+		<de-DE>{0_value} {singular_0:{1_citizenLink}:{1,2_citizenLink}}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_BORDER_GROWTH</zType>
-		<de-DE><![CDATA[{0_value} Grenzen <singular_0>Feld<plural>Felder<end>]]></de-DE>
+		<de-DE>{0_value} Grenzen {singular_0:Feld:Felder}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_CULTURE_LEVELS</zType>
-		<de-DE><![CDATA[{0_value} <singular_0>{1_culture}<plural>{1,2_culture}<end>]]></de-DE>
+		<de-DE>{0_value} {singular_0:{1_culture}:{1,2_culture}}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_DISCONTENT_LEVELS</zType>
-		<de-DE><![CDATA[{0_value} link(YIELD_DISCONTENT) <singular_0>Stufe<plural>Stufen<end>]]></de-DE>
+		<de-DE>{0_value} link(YIELD_DISCONTENT) {singular_0:Stufe:Stufen}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_REBEL_UNITS</zType>
-		<de-DE><![CDATA[{0_value} {1_rebel} <singular_0>Einheit<plural>Einheiten<end>]]></de-DE>
+		<de-DE>{0_value} {1_rebel} {singular_0:Einheit:Einheiten}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_IMPROVEMENTS_DESTROYED</zType>
-		<de-DE><![CDATA[{0_value} <singular_0>Verbesserung<plural>Verbesserungen<end> zerstört]]></de-DE>
+		<de-DE>{0_value} {singular_0:Verbesserung:Verbesserungen} zerstört</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_HP</zType>
-		<de-DE>{0_damage} HP</de-DE>
+		<de-DE>{0_damage} HP {true_1:(to {1_final} HP)}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_AGENT_CITY</zType>
@@ -548,8 +548,12 @@
 		<de-DE>Entfernter link(CONCEPT_TRIBE_RAID)</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_DO_BONUS_ADD_AGENT_NETWORK</zType>
+		<de-DE>Erstelle link(CONCEPT_AGENT_NETWORK)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_LOSE_AGENT_NETWORK</zType>
-		<de-DE>Lose link(CONCEPT_AGENT_NETWORK)</de-DE>
+		<de-DE>Schließe link(CONCEPT_AGENT_NETWORK)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_DO_BONUS_PLUS_ONE</zType>
@@ -890,6 +894,10 @@
 		<de-DE>{0} {1,2_citizenLink}</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_UNIT_BURNED_IMPROVEMENT_LOG_DATA</zType>
+		<de-DE>{0} verbrannt von {1_owner} {2_unit}.</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_UNIT_PILLAGED_IMPROVEMENT_LOG_DATA</zType>
 		<de-DE>{0} Geplündert von {1_owner} {2_unit}!</de-DE>
 	</Entry>
@@ -944,8 +952,12 @@
 		<de-DE>{0} wird umgewandelt in {1}</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_PLAYER_MAP_REVEALED</zType>
+		<de-DE>karte aufgedeckt nahe {0_tile}</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAME_PLAYER_SAVE_AND_RELOAD_TO_PLAY_POPUP</zType>
-		<de-DE>Speichern und neu laden um als nächster Spieler zu spielen</de-DE>
+		<de-DE>No user ID found: Save and reload to play as next player.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_PLAYER_FAILED_TO_UPLOAD_TO_CLOUD_POPUP</zType>

@@ -493,6 +493,10 @@
 		<de-DE>Bürger~ein Bürger~Bürger</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_CITIZEN_F</zType>
+		<de-DE>Bürgerin~eine Bürgerin~Bürgerinnen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HOLY_CITY</zType>
 		<de-DE>Heilige Stadt~eine Heilige Stadt~Heilige Stätten</de-DE>
 	</Entry>
@@ -519,6 +523,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_COURTIER</zType>
 		<de-DE>Vertrauter~ein Vertrauter~Vertraute</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_COURTIER_F</zType>
+		<de-DE>Vertraute~eine Vertraute~Vertraute</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_PILLAGED_ICON</zType>
@@ -641,6 +649,10 @@
 		<de-DE>{singular_0:Ziel:Ziele} abgeschlossen</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_MIN_MAX</zType>
+		<de-DE>{0}-{1}</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_RANGE_MIN_MAX</zType>
 		<de-DE>{0}-{1} {2}</de-DE>
 	</Entry>
@@ -659,6 +671,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_ROLE_HEIR</zType>
 		<de-DE>Erbe (link(CONCEPT_SUCCESSION))</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_ROLE_HEIR_F</zType>
+		<de-DE>Erbin (link(CONCEPT_SUCCESSION))</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_ROLE_ROYAL</zType>
@@ -780,6 +796,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_LT_TWO</zType>
 		<de-DE>{0} {true_3:hat:bist } icon(LessThan) {1} {2}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_OF_STATE_RELIGION</zType>
+		<de-DE>{0} ist von link(CONCEPT_STATE_RELIGION)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_AGE_RANGE</zType>
@@ -933,6 +953,10 @@
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MENU_MORTALITY</zType>
 		<de-DE>Sterblichckeit: {0}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_MENU_ARCHETYPE</zType>
+		<de-DE>Oberhaupt Archetyp: {0}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MENU_EVENT_LEVEL</zType>
@@ -1414,10 +1438,6 @@
 		<de-DE><![CDATA[Hold <TEXT_HOTKEY_CTRL> um dem Ende hinzuzufügen.]]></de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_WIDGET_BUILD_SPECIALIST_CURRENT</zType>
-		<de-DE>Derzeitiger {0_specialist}:</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_BUILD_QUEUE_DRAG</zType>
 		<de-DE>Klick + ziehen zum neu ordnen</de-DE>
 	</Entry>
@@ -1744,8 +1764,12 @@
 		<de-DE>Plündere {0_improvement}</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_ADD_FATIGUE</zType>
-		<de-DE>link(CONCEPT_FATIGUE): +1</de-DE>
+		<zType>TEXT_HELPTEXT_WIDGET_BURN</zType>
+		<de-DE>Verbrennen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_BURN_IMPROVEMENT</zType>
+		<de-DE>Verbrennen {0_improvement}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_PILLAGE_YIELDS</zType>
@@ -2751,6 +2775,10 @@ Resources that are within a City's limits, or that are too far from one of your 
 		<de-DE>{0_yield}: from {1}{true_2: x{2}}</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_YIELD_FROM_RESOURCE</zType>
+		<de-DE>{0_yield}: {1} (keine link(CONCEPT_IMPROVEMENT))</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_YIELD_FROM_IMPROVEMENT</zType>
 		<de-DE>{0_yield}: {1} (from Improvement)</de-DE>
 	</Entry>
@@ -3729,8 +3757,8 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>{0}/{1}{2_turnScale}</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_IMPROVEMENT_PILLAGED</zType>
-		<de-DE>Geplündert</de-DE>
+		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_IMPROVEMENT_DESTROYED</zType>
+		<de-DE>Zerstört</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_TOOLTIP_IMPROVEMENT_DISAPPEARS</zType>
@@ -4308,6 +4336,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE><![CDATA[<true_1>Anwerbungschance bei Tötung: {0_value}<false>{0_value} Anwerbungschance bei Tötung<end>]]></de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_ROAD_MOVEMENT</zType>
+		<de-DE><![CDATA[<true_1>link(CONCEPT_ROAD) icon(MOVEMENT) Cost: {0_value}<false>{0_value} link(CONCEPT_ROAD) icon(MOVEMENT) Cost<end>]]></de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_PILLAGE_YIELD</zType>
 		<de-DE><![CDATA[<true_1>Plündere Ertrag: {0_value}<false>{0_value} Plündere Ertrag<end>]]></de-DE>
 	</Entry>
@@ -4434,6 +4466,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_HIDDEN_IN</zType>
 		<de-DE>link(CONCEPT_HIDDEN) in freundlichem oder Neutralem {0_vegetation}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_UNIT_IGNORE_HEIGHT_COST</zType>
+		<de-DE>Ignoriere {0} Bewegungskosten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_ZOC_BLOCKS</zType>
@@ -5903,6 +5939,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>Von der Erbfolge ausgeschlossen</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_TRAIT_NO_HEIR_CHILDREN</zType>
+		<de-DE>Ausgeschlossen von der Erbfolge (inklusive Kinder)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_NO_JOB</zType>
 		<de-DE>Kann kein link(CONCEPT_GOVERNOR), link(CONCEPT_GENERAL) oder im Hofrat sein</de-DE>
 	</Entry>
@@ -6427,6 +6467,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>Schließe link(DIPLOMACY_TRUCE)</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_DECISION_NAME_CHOOSE_ARCHETYPE</zType>
+		<de-DE>Wähle Oberhaupt Archetyp</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_DECISION_NAME_GENERIC</zType>
 		<de-DE>Fälle Entscheidung</de-DE>
 	</Entry>
@@ -6478,6 +6522,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_PILLAGE_BUTTON</zType>
 		<de-DE>Plündere {0_improvement}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_TILE_BURN_BUTTON</zType>
+		<de-DE>Verbrenne {0_improvement}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_REPAIR_BUTTON</zType>
@@ -6606,20 +6654,24 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<!--ReligionPopup-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_RELIGION_ADOPT_REQUIREMENT</zType>
-		<de-DE>Jede Stadt mit {0_religion}</de-DE>
+		<de-DE>JBenötigt eine Stadt mit {0_religion}</de-DE>
 	</Entry>
 	<!--Resource Help-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_RESOURCE_NAME</zType>
-		<de-DE><![CDATA[{0_resource}<true_1> (Gesammelt)<false><end>]]></de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_HELPTEXT_RESOURCE_HARVEST</zType>
-		<de-DE>{0}: Sammeln</de-DE>
+		<de-DE>{0_resource}{true_1: (* Gesammelt)}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_RESOURCE_MISSING</zType>
 		<de-DE>Begehrt von {0}: {1_value} link(CONCEPT_OPINION_FAMILY,3)/Stadt wenn fehlt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_RESOURCE_NO_IMPROVEMENT</zType>
+		<de-DE>Keine link(CONCEPT_IMPROVEMENT): {0}/{1_turnScale}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_RESOURCE_HARVEST</zType>
+		<de-DE>{0}: Sammeln</de-DE>
 	</Entry>
 	<!--Project Help-->
 	<Entry>
@@ -6825,6 +6877,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_CHOSEN_HEIR</zType>
 		<de-DE>Gewählter Erbe</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CHARACTER_HELP_SAFE</zType>
+		<de-DE>Safe until turn {0}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_PLAYER</zType>
@@ -7144,6 +7200,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>Replay this game from the beginning</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_CLOUD_CONTINUE_HELP</zType>
+		<de-DE>Continue this game in play-by-cloud mode</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_NEW_GAME_BUTTON</zType>
 		<de-DE>Neue Karte</de-DE>
 	</Entry>
@@ -7170,6 +7230,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_LOAD_GAME_BUTTON</zType>
 		<de-DE>Spiel laden</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_CLOUD_CONTINUE_BUTTON</zType>
+		<de-DE>Play by Cloud</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_MAIN_MENU_NOTIFICATION_EMAIL</zType>
@@ -7294,6 +7358,18 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CLOUD_GAME_RIVAL_TURN</zType>
 		<de-DE>It is currently another player's turn in this cloud game. [CTRL+Click] to load the game anyway.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CLOUD_AWAY_MESSAGE</zType>
+		<de-DE>{0_player}: "{1_message}"</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CLOUD_GAME_AWAY_MESSAGE</zType>
+		<de-DE>Set a message for other players to see when it's your turn.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CLOUD_GAME_AWAY_MESSAGE_CURRENT</zType>
+		<de-DE>Current message: {0}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OBSERVER_SWITCH</zType>
@@ -7607,6 +7683,14 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>Es ist an der Zeit deine nächste link(CONCEPT_AMBITION) zu wählen, die zukünftige Richtung von {0_nation}?</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_DECISION_CHOOSE_ARCHETYPE_TITLE</zType>
+		<de-DE>Wähle link(CONCEPT_ARCHETYPE)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_POPUP_DECISION_CHOOSE_ARCHETYPE_DESC</zType>
+		<de-DE>It is time to choose your Leader's link(CONCEPT_ARCHETYPE). What shall be the future direction of {0_nation}?</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_POPUP_DECISION_CHOOSE_CITY_FAMILY_TITLE</zType>
 		<de-DE>Wähle {0_city} Familie:</de-DE>
 	</Entry>
@@ -7657,7 +7741,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<!--End Turn-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_END_YEAR</zType>
-		<de-DE>Beende den {1_turnScale}{true_0: {0}}</de-DE>
+		<de-DE>Beende {1_turnScale}{true_0: {0}}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_END_YEAR_IDLE_CITY</zType>

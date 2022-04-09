@@ -7,6 +7,18 @@
 		<de-DE/>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_PICK_LATER_ARCHETYPE</zType>
+		<de-DE>Später wöhlen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_RANDOM_ARCHETYPE</zType>
+		<de-DE>Zufällig</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_PRESET_ARCHETYPE</zType>
+		<de-DE>Vorgeft. Oberhaupt</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_HERO_ARCHETYPE</zType>
 		<de-DE>Held~ein Held~Helden</de-DE>
 	</Entry>
@@ -1285,5 +1297,13 @@
 	<Entry>
 		<zType>TEXT_TRAIT_COMMANDER_BORDER_FORTS_F</zType>
 		<de-DE>Feldherrin der Grenzregion</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_POLITICAL_WARD</zType>
+		<de-DE>Politisches Mündel</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_POLITICAL_WARD_F</zType>
+		<de-DE>Politisches Mündel</de-DE>
 	</Entry>
 </Root>

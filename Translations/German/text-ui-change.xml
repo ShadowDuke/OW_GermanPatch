@@ -291,11 +291,11 @@
 		<de-DE>SCHENKE GUT</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_EVENT_LOG_GIFT_UNIT</zType>
+		<zType>TEXT_UI_EVENT_LOG_GIFT_PLAYER_UNIT</zType>
 		<de-DE>SCHENKE EINHEIT</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_EVENT_LOG_GIFT_CITY</zType>
+		<zType>TEXT_UI_EVENT_LOG_GIFT_PLAYER_CITY</zType>
 		<de-DE>SCHENKE STADT</de-DE>
 	</Entry>
 	<Entry>
@@ -329,6 +329,34 @@
 	<Entry>	
 		<zType>TEXT_UI_EVENT_LOG_DISMISS_TOOLTIP</zType>
 		<de-DE><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> um Mitteilungen zu verwerfen<br><TEXT_HOTKEY_CTRL_RIGHT_CLICK> um alle Mitteilungen zu verwerfen]]></de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_REMINDER_CATEGORY_CITY_GOVERNOR</zType>
+		<de-DE>Verfügbare Statthalter ({0_count})</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_REMINDER_CATEGORY_CITY_AGENT</zType>
+		<de-DE>Verfügbare Agenten ({0_count})</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_REMINDER_CATEGORY_AGENT_MISSION</zType>
+		<de-DE>Untätige Agenten ({0_count})</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_REMINDER_CATEGORY_COUNCIL_CHARACTER</zType>
+		<de-DE>Verfügbare Hofräte ({0_count})</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_REMINDER_CATEGORY_COUNCIL_MISSION</zType>
+		<de-DE>Untätige Hofräte ({0_count})</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_REMINDER_CATEGORY_TUTOR</zType>
+		<de-DE>Verfügbare Lehrer ({0_count})</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_REMINDER_CATEGORY_FAMILY_RELIGION_HEAD</zType>
+		<de-DE>Untätige Familien/Religions Oberhäupter ({0_count})</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_TILE_BOUNDARY_TOOLTIP_WATER_TITLE</zType>
@@ -425,6 +453,10 @@
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_AI_MODIFIER</zType>
 		<de-DE>KI vs. {0}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_ROUT</zType>
+		<de-DE>Aufstöbern ({0})</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_DISTANCE</zType>
@@ -561,6 +593,10 @@
 	<Entry>
 		<zType>TEXT_UI_CITY_ACTIONS_PRODUCTION_CATEGORY_SPECIALISTS</zType>
 		<de-DE>Verwaltung: Spezialisten</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_CITY_ACTIONS_SPECIALIST_AVAILABLE_RESOURCES</zType>
+		<de-DE>Mögliche Ressourcen: {0_luxuryList}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_CHARACTER_ACTIONS_SEND_RESOURCE</zType>
@@ -908,6 +944,10 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
 		<de-DE>[Getötete Einheit]</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_EVENT_STORY_UNIT_KILLED</zType>
+		<de-DE>[Einheit getötet]</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_EVENT_STORY_GENERAL_ATTACK</zType>
 		<de-DE>[Angegriffen mit Feldherr]</de-DE>
 	</Entry>
@@ -1066,6 +1106,12 @@ Jeglicher ungespeicherter Forschritt geht verloren.
 Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>											
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_CLOUD_CONTINUE_DIALOG</zType>
+		<de-DE>Are you sure you want to continue this game on the cloud?
+The network connection will be terminated.
+		</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_KICK_DIALOG</zType>
 		<de-DE>Are you sure you want to remove this player from the game?</de-DE>
 	</Entry>
@@ -1129,7 +1175,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<zType>TEXT_MENU_SCREEN_NEWSLETTER_DESC</zType>
 		<de-DE>Subscribe to the Mohawk Games newsletter by submitting your email</de-DE>
 	</Entry>
-	<!-- wiki-navigation -->
+	<!-- encyclopedia-navigation -->
 	<Entry>
 		<zType>TEXT_WIKI_NAV_UI_SECTION_FAMILYCLASSES</zType>
 		<de-DE>Familien Arten</de-DE>
@@ -1437,6 +1483,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<de-DE>{0_character} ist untätig und kann auf eine Mission geschickt werden</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CHARACTER_MISSIONS_AVAILABLE_HEAD</zType>
+		<de-DE>{0_character} (Head of {1_head}) ist untätig und kann auf eine Mission geschick werden</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CHARACTER_TUTOR_AVAILABLE</zType>
 		<de-DE>{0_character} kann unterrichtet werden</de-DE>
 	</Entry>
@@ -1529,6 +1579,38 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<de-DE>Löschen</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CLOUD_SCREEN_SET_MESSAGE</zType>
+		<de-DE>Set Message</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CLOUD_SCREEN_AWAY_BUTTON_SET</zType>
+		<de-DE>Set</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CLOUD_SCREEN_AWAY_BUTTON_CLEAR</zType>
+		<de-DE>Clear</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CLOUD_SCREEN_AWAY_BUTTON_UPDATE</zType>
+		<de-DE>Update</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CLOUD_SCREEN_STATUS_MESSAGE</zType>
+		<de-DE>Status Message</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CLOUD_SCREEN_MESSAGE_PROMPT</zType>
+		<de-DE>Enter Status Message</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CLOUD_SCREEN_APPLY_MESSAGE</zType>
+		<de-DE>Apply to All</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CLOUD_SCREEN_SAVE_MESSAGE</zType>
+		<de-DE>Save</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CLOUD_SCREEN_HOST_CONTROLS</zType>
 		<de-DE>Host Controls</de-DE>
 	</Entry>
@@ -1598,6 +1680,14 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	<Entry>
 		<zType>TEXT_MP_SERVERS_SCREEN_TITLE</zType>
 		<de-DE>Server</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_SERVERS_SCREEN_HELP</zType>
+		<de-DE>Remote servers are listed here. To launch a game, enter the server password and select a server to set up a multiplayer game. The launched game is sent to the remote server where it functions just like any other network game. Multiple games may be hosted on the same server. To launch a local server, run the OldWorldServer batch file that is in the same location as the OldWorld executable file. To control the remotely hosted game and change some parameters while it is running, enter the server password on the nation selection screen after joining.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_SERVER_PASSWORD_HELP</zType>
+		<de-DE>To control this remotely hosted game and change some parameters while it is running, enter the server password and press [ENTER].</de-DE>
 	</Entry>
     <!--games header in multiplayer-->
     <Entry>
@@ -1679,6 +1769,14 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<de-DE>Szenario Sieg</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HOF_HEADER_DEFEAT</zType>
+		<de-DE>Niederlage</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_HEADER_DEFEAT_BY</zType>
+		<de-DE>Niederlage von {0}</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HOF_HEADER_AMBITIONS</zType>
 		<de-DE>Ambition</de-DE>
 	</Entry>
@@ -1709,6 +1807,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	<Entry>
 		<zType>TEXT_HOF_HEADER_DELETE_HELP</zType>
 		<de-DE>Delete the game from the Hall of Fame.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_GAME_COMPLETED_ON</zType>
+		<de-DE>Game completed on {0}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOF_ACHIEVEMENTS_UNLOCKED</zType>
@@ -2050,7 +2152,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
     </Entry>
     <Entry>
 		<zType>TEXT_MP_SETUP_PLAYERS_NATION</zType>
-		<de-DE>Reiche</de-DE>
+		<de-DE>Reich</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_SETUP_PLAYERS_ARCHETYPE</zType>
+		<de-DE>Archetyp</de-DE>
 	</Entry>
 	<Entry>
         <zType>TEXT_MP_SETUP_PLAYERS_DIFFICULTY</zType>
@@ -2168,7 +2274,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
     <Entry>
         <zType>TEXT_SCENARIO_SETUP_NATION</zType>
         <de-DE>Reich</de-DE>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SCENARIO_SETUP_ARCHETYPE</zType>
+		<de-DE>Oberhaupt Archetyp</de-DE>
+	</Entry>
     <Entry>
         <zType>TEXT_SCENARIO_SETUP_OPPONENTS</zType>
         <de-DE>Gegner</de-DE>
@@ -2282,7 +2392,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
     <Entry>
         <zType>TEXT_SP_SETUP_ADVANCED_NATION</zType>
         <de-DE>Reich</de-DE>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SP_SETUP_ADVANCED_ARCHETYPE</zType>
+		<de-DE>Oberhaupt Archetyp</de-DE>
+	</Entry>
     <Entry>
         <zType>TEXT_SP_SETUP_ADVANCED_NUMOPPS</zType>
         <de-DE>Anzahl der Gegner</de-DE>
@@ -2290,7 +2404,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
     <Entry>
         <zType>TEXT_SP_SETUP_ADVANCED_NUMOPPS_OPTION</zType>
 		<de-DE>{0_count} {singular_0:Gegner:Gegner}</de-DE>
-    </Entry>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SP_SETUP_ADVANCED_ARCHETYPES</zType>
+		<de-DE>Urspünglicher Oberhaupt Archetyp</de-DE>
+	</Entry>
 	<Entry>
         <zType>TEXT_SP_SETUP_ADVANCED_MORTALITY</zType>
         <de-DE>Sterblichkeit</de-DE>
@@ -2926,7 +3044,56 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	<Entry>	
         <zType>TEXT_TECH_TREE_BONUS_CARD_DISCARDED</zType>
         <de-DE>Dauerhaft verworfen wenn abgelegt</de-DE>
-    </Entry>
+	</Entry>
+	<!--Stats Popup-->
+	<Entry>
+		<zType>TEXT_UI_GRAPHS_STATS</zType>
+		<de-DE>Statistiken</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_GRAPHS_OTHER</zType>
+		<de-DE>Verschiedenes</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_GRAPHS_PRODUCTION</zType>
+		<de-DE>Ressourcen Produktion</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_GRAPHS_YIELD</zType>
+		<de-DE>{0_yield} Produktion</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_GRAPHS_MILITARY</zType>
+		<de-DE>Militär Punkte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_GRAPHS_TERRITORY</zType>
+		<de-DE>Gebiet im Besitz</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_GRAPHS_TURN</zType>
+		<de-DE>Zug {0_turnNumber}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_GRAPHS_TILES_OWNED</zType>
+		<de-DE>{0_numTiles} Felder</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_GRAPHS_EXPLORATION</zType>
+		<de-DE>Gebiete Erkundet</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_STATS_LAWS_ADOPTED</zType>
+		<de-DE>Gesetze eingeführt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_STATS_TOTAL_WORKERS</zType>
+		<de-DE>Baumeister ausgebildet</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_STATS_TOTAL_MILITARY</zType>
+		<de-DE>Militäreinheiten ausgebildet</de-DE>
+	</Entry>
 	<!-- Main Menu-->
     <Entry>
         <zType>TEXT_MAIN_MENU_ACTIVE_MODS</zType>
@@ -2990,6 +3157,18 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<de-DE>Lass das Spiel ein Reich für dich aussuchen.</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_MP_SETUP_PICK_ARCHETYPE_AT_START</zType>
+		<de-DE>Pick a Leader Archetype after the game has started</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MP_SETUP_GAME_PICKS_ARCHETYPE</zType>
+		<de-DE>Let the game choose an Archetype for the first ruler.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MP_SETUP_ARCHETYPE_PRESET</zType>
+		<de-DE>Start the game with the nation's preset character.</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_MP_SETUP_START_SIMULTANEOUS_TURNS</zType>
 		<de-DE>Spiel die ersten 5 Runden in simultanen Spielzügen</de-DE>
 	</Entry>
@@ -3024,6 +3203,42 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<de-DE>Powered by Workshop</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_MODS_MOD_SORTING_TOOLTIP</zType>
+		<de-DE>Mods sorted by </de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_SORTING_1</zType>
+		<de-DE>oldest to newest.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_SORTING_2</zType>
+		<de-DE>newest to oldest.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_SORTING_3</zType>
+		<de-DE>alphabetical A-Z.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_SORTING_4</zType>
+		<de-DE>alphabetical Z-A.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_SORTING_5</zType>
+		<de-DE>oldest to newest, with installed on top.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_SORTING_6</zType>
+		<de-DE>newest to oldest, with installed on top.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_SORTING_7</zType>
+		<de-DE>alphabetical A-Z, with installed on top.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_SORTING_8</zType>
+		<de-DE>alphabetical Z-A, with installed on top.</de-DE>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_UI_MODS_BACK_TO_MENU</zType>
 		<de-DE>Hauptmenü</de-DE>
 	</Entry>
@@ -3068,6 +3283,42 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<de-DE>Karten Skripte</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_MODS_FILTER_NATIONS</zType>
+		<de-DE>Mods with Nations</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_FILTER_TRIBES</zType>
+		<de-DE>Mods with Tribes</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_FILTER_CHARACTERS</zType>
+		<de-DE>Mods with Characters</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_FILTER_FAMILIES</zType>
+		<de-DE>Mods with Families</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_FILTER_GAMEINFOS</zType>
+		<de-DE>Mods with GameInfos</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_FILTER_EVENTS</zType>
+		<de-DE>Mods with Events</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_FILTER_SCENARIOS</zType>
+		<de-DE>Mods with Scenarios</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_FILTER_AI</zType>
+		<de-DE>Mods with AI changes</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_FILTER_UI</zType>
+		<de-DE>Mods with UI changes</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_MODS_FILTER_WORKSHOP_TOGGLE_LABEL</zType>
 		<de-DE>Steam Workshop</de-DE>
 	</Entry>
@@ -3098,6 +3349,30 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	<Entry>
 		<zType>TEXT_UI_MODS_MOD_PLATFORM_LABEL</zType>
 		<de-DE>Mod Platform:</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_BUILD_LABEL</zType>
+		<de-DE>Built For:</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_INFO_HEADER</zType>
+		<de-DE>Mod Info</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_TYPE_HEADER</zType>
+		<de-DE>Mod Type</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_TAGS_HEADER</zType>
+		<de-DE>Mod Tags</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_TAGS_HEADER_TEXT</zType>
+		<de-DE>(Choose all that apply)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_OPTIONS_HEADER</zType>
+		<de-DE>Mod Options</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_MOD_NAME_LABEL</zType>
@@ -3140,6 +3415,42 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<de-DE>Übersetzung:</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_MODS_MOD_NATION_TOGGLE_LABEL</zType>
+		<de-DE>Nation:</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_TRIBE_TOGGLE_LABEL</zType>
+		<de-DE>Tribe:</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_CHARACTER_TOGGLE_LABEL</zType>
+		<de-DE>Character:</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_FAMILY_TOGGLE_LABEL</zType>
+		<de-DE>Family:</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_GAMEINFO_TOGGLE_LABEL</zType>
+		<de-DE>GameInfo:</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_EVENT_TOGGLE_LABEL</zType>
+		<de-DE>Event:</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_SCENARIO_TOGGLE_LABEL</zType>
+		<de-DE>Scenario:</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_AI_TOGGLE_LABEL</zType>
+		<de-DE>AI:</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_MOD_UI_TOGGLE_LABEL</zType>
+		<de-DE>UI:</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_MODS_SINGLEPLAYER_TAG</zType>
 		<de-DE>[Singleplayer]</de-DE>
 	</Entry>
@@ -3158,6 +3469,42 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	<Entry>
 		<zType>TEXT_UI_MODS_MAP_SCRIPT_TAG</zType>
 		<de-DE>[Karten Skript]</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_NATION_TAG</zType>
+		<de-DE>[Nation]</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_TRIBE_TAG</zType>
+		<de-DE>[Tribe]</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_CHARACTER_TAG</zType>
+		<de-DE>[Character]</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_FAMILY_TAG</zType>
+		<de-DE>[Family]</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_GAMEINFO_TAG</zType>
+		<de-DE>[GameInfo]</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_EVENT_TAG</zType>
+		<de-DE>[Event]</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_SCENARIO_TAG</zType>
+		<de-DE>[Scenario]</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_AI_TAG</zType>
+		<de-DE>[AI]</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_UI_TAG</zType>
+		<de-DE>[UI]</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_MOD_FILES</zType>
@@ -3185,7 +3532,7 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_MOD_RELATIONS_FORMAT_EXPLANATION</zType>
-		<de-DE><![CDATA[each in the format: mod_name,modio_id,modfile_id<br>where mod_name is the only required field. modio_id is the number id for the mod on mod.io. And modfile_id is the specific version file id.]]></de-DE>
+		<de-DE>each in the format: mod_name,modio_id,modfile_id{br}where mod_name is the only required field. modio_id is the number id for the mod on mod.io. And modfile_id is the specific version file id.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_OPEN_MOD_FOLDER_BUTTON</zType>
@@ -3257,11 +3604,19 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_MOD_UPDATE_VERSION_DIFF</zType>
-		<de-DE>{0_modName} - Derzeitig: {1}, Neueste: {2}</de-DE>
+		<de-DE>{0_modName} - installiert: {1}, verfügbar ({2}): {3}{br}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_MOD_UPDATE_VERSION_NOTIFICATION1</zType>
+		<de-DE>The following mods have an update available to install from the Manage Mods menu.{br}{br}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_MOD_UPDATE_VERSION_NOTIFICATION2</zType>
+		<de-DE>icon(bullet) {0_modName} ({1}){br}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_MOD_UPDATE_MODS_POPUP_TITLE</zType>
-		<de-DE>Mods aktualisieren?</de-DE>
+		<de-DE>Mods aktualisieren</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_MODS_UPDATED_CONFIRMED_POPUP_TITLE</zType>
@@ -3332,6 +3687,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<de-DE>Mod Datei hochgeladen</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_MOD_FILE_UPLOADED_POPUP_BODY</zType>
+		<de-DE>Your Mod has now been uploaded. Please note that it could take up to 15 minutes before it is available for players to download.</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_MOD_DEFAULT_DESCRIPTION</zType>
 		<de-DE>Gebe Beschreibung hier ein...</de-DE>
 	</Entry>
@@ -3396,6 +3755,10 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 		<de-DE>Erstelle und veröffentliche eine neue Version deiner Mod</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_PUBLISH_NEW_WORKSHOP_TOOLTIP</zType>
+		<de-DE>Create and Publish a new build file for your mod{br}Required items:{br}icon(bullet)Mod Name{br}icon(bullet)File Name (should automatically generate from Mod Name){br}icon(bullet)Mod Picture (Check picture requirements){br}icon(bullet)Description{br}icon(bullet)Author</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_VERSION_NOT_LATEST_TOOLTIP</zType>
 		<de-DE><![CDATA[Version ist nicht aktuell.<br>downloaded: {0}<br>latest: {1}]]></de-DE>
 	</Entry>
@@ -3405,7 +3768,11 @@ Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_MOD_PICTURE_TOOLTIP</zType>
-		<de-DE><![CDATA[icon(bullet)1280x720 ooder größer empfohlen<br>icon(bullet)16:9 Bildformatempfohlen<br>icon(bullet)8mb maximal<br>icon(bullet)GIFs werden zu PNGs umgewandelt]]></de-DE>
+		<de-DE>Mod.io requirements:{br}icon(bullet)1280x720 or larger recommended{br}icon(bullet)16:9 aspect ratio recommended{br}icon(bullet)Less than 8MB file size{br}icon(bullet)GIFs will be converted to PNG</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_MODS_PANEL_MOD_PICTURE_WORKSHOP_TOOLTIP</zType>
+		<de-DE>Mod.io requirements:{br}icon(bullet)1280x720 or larger recommended{br}icon(bullet)16:9 aspect ratio recommended{br}icon(bullet)Less than 8MB file size{br}icon(bullet)GIFs will be converted to PNG{br}{br}Workshop requirements:{br}icon(bullet)256x256 or larger recommended{br}icon(bullet)Less than 1MB file size{br}icon(bullet)PNG or JPG image</de-DE>
 	</Entry>
     <Entry>
         <zType>TEXT_UI_MODS_REPORT_TOOLTIP</zType>

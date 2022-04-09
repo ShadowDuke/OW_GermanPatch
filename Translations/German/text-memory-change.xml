@@ -1634,8 +1634,8 @@
 		<de-DE>Watching me closely</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_MEMORYCHARACTER_GIVEN_BAD_JOB</zType>
-		<de-DE>Told to watch dangerous student</de-DE>
+		<zType>TEXT_MEMORYCHARACTER_AGREED_TO_KEEP_EYE</zType>
+		<de-DE>Agreed to keep an eye on a dangerous student</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_CONVINCE_TO_CHANGE</zType>
@@ -1668,6 +1668,10 @@
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_CARES_ABOUT_INTERESTS</zType>
 		<de-DE>My spouse cares about my interests</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYCHARACTER_NO_REST</zType>
+		<de-DE>Gave me no rest after a long expedition</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_TOOK_MY_AMBITION</zType>
@@ -1848,6 +1852,10 @@
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_TRUSTED</zType>
 		<de-DE>Hat mir vertraut</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_SHOWED_FAVOR</zType>
+		<de-DE>Showed us favor</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_OUR_AMBITION</zType>
@@ -3637,6 +3645,18 @@
 		<zType>TEXT_MEMORYPLAYER_MEMORYPLAYE_AGENT_TOOLS_RETURNED</zType>
 		<de-DE>Unsere Agenten gedemütigt</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYCHARACTER_MEMORYCHARACTER_NOT_A_THREAT</zType>
+		<de-DE>Didn't treat me as a threat</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYCHARACTER_MEMORYCHARACTER_SAW_AS_THREAT</zType>
+		<de-DE>Treated me as a threat</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYCHARACTER_MEMORYCHARACTER_REBEL_WRITER_ON_TRIAL</zType>
+		<de-DE>Gave the rebel writer a trial</de-DE>
+	</Entry>
 	<Entry beginGroup="Tribe">
 		<zType>TEXT_MEMORYCHARACTER_BLAMED_FOR_EXECUTED_SPIES</zType>
 		<de-DE>Blamed for espionage debacle</de-DE>
@@ -3800,6 +3820,10 @@
 	<Entry>
 		<zType>TEXT_MEMORYTRIBE_BONUS_IRON_GIANT_KUDOS</zType>
 		<de-DE>Acknowledged an act of kindness and generosity</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYRELIGION_MEMORYRELIGION_ALLOWED_RAIDS</zType>
+		<de-DE>Allowed raids against our temples</de-DE>
 	</Entry>
 	<Entry beginGroup="Family">
 		<zType>TEXT_MEMORYFAMILY_CHOSEN_HEIR_NO</zType>
@@ -4001,6 +4025,14 @@
 		<zType>TEXT_MEMORYFAMILY_LUXURY_SEEKERS_PERSONAL_SUPPLY</zType>
 		<de-DE>Shared personal supply of Luxury Resources</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_A_VOICE_BREAKS_THROUGH_YES</zType>
+		<de-DE>Agreed to pursue a common enemy</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_A_VOICE_BREAKS_THROUGH_NO</zType>
+		<de-DE>Refused to pursue a common enemy</de-DE>
+	</Entry>
 	<Entry beginGroup="Royalty">
 		<zType>TEXT_MEMORYFAMILY_HEIR_WEDDING_FAUX_PAS_NOTHING</zType>
 		<de-DE>Faux pas at heir's wedding</de-DE>
@@ -4109,7 +4141,7 @@
 		<zType>TEXT_MEMORYFAMILY_PASSED_OVER_FOR_HONORIFIC_TITLE</zType>
 		<de-DE>Did not give our family an honoric title</de-DE>
 	</Entry>
-	<Entry beginGroup="Player">
+	<Entry>
 		<zType>TEXT_MEMORYPLAYER_FUNDED_RESEARCH</zType>
 		<de-DE>Finanzierte Forschung</de-DE>
 	</Entry>
@@ -4120,5 +4152,61 @@
 	<Entry beginGroup="Ambition">
 		<zType>TEXT_MEMORYFAMILY_MEMORYFAMILY_REFUSED_AMBITION</zType>
 		<de-DE>Verweigerte unsere Ambition</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_MEMORYFAMILY_TRIBE_ALLIANCE</zType>
+		<de-DE>Continued tribe friendship</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYCHARACTER_MEORYCHARCTER_IGNORED_REQUEST</zType>
+		<de-DE>Ignorierte meine Bitte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYPLAYER_MEMORYPLAYER_BORDER_DISPUTES</zType>
+		<de-DE>Grenz Streitigkeiten</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYPLAYER_MEMORYPLAYER_STOLE_TRIBE</zType>
+		<de-DE>Interfered with our diplomacy</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYPLAYER_MEMORYPLAYER_STAYED_OUT_OF_WAY</zType>
+		<de-DE>Stayed out of our way in diplomacy</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYPLAYER_MEMORYPLAYER_RAISED_MILITIA</zType>
+		<de-DE>Raised a militia against us</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYPLAYER_MEMORYPLAYER_SHOWING_OFF</zType>
+		<de-DE>Threatened our cities</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYPLAYER_MEMORYPLAYER_BACKED_DOWN</zType>
+		<de-DE>Backed down from our threat</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_MEMORYFAMILY_WAR_WITH_RIVAL</zType>
+		<de-DE>At war with our rivals</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_MEMORYFAMILY_AVOIDED_WAR</zType>
+		<de-DE>Avoided war</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYPLAYER_MEMORYPLAYER_BITTER_RIVALS</zType>
+		<de-DE>Bitter rivals</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYTRIBE_MARRIED_LEADER</zType>
+		<de-DE>Married our leader</de-DE>
+	</Entry>
+	<Entry beginGroup="Exploration">
+		<zType>TEXT_MEMORYFAMILY_MEMORYFAMILY_SUPPORTED_CHAMPION</zType>
+		<de-DE>Supported our champion</de-DE>
+	</Entry>
+	<Entry beginGroup="City">
+		<zType>TEXT_MEMORYFAMILY_MEMORYFAMILY_REFUSED_FAMILY_GOVERNOR</zType>
+		<de-DE>Refused to appoint a governor of our family</de-DE>
 	</Entry>
 </Root>

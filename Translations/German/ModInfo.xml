@@ -6,12 +6,15 @@
   <author>Revan (aka. ShadowDuke)</author>
   <modplatform>Modio</modplatform>
   <modioID>143281</modioID>
-  <modioFileID>2292317</modioFileID>
-  <modversion>1.65</modversion>
+  <modioFileID>2448768</modioFileID>
+  <modversion>1.69</modversion>
+  <modbuild>1.0.58724</modbuild>
   <homepage>https://github.com/ShadowDuke/OW_GermanPatch</homepage>
+  <tags />
   <singlePlayer>true</singlePlayer>
   <multiplayer>true</multiplayer>
   <scenario>false</scenario>
+  <scenarioToggle>false</scenarioToggle>
   <modDependencies />
   <modIncompatibilities />
 </ModInfo>

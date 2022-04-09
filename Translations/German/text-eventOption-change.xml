@@ -327,27 +327,27 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_LAW_NO</zType>
-		<de-DE><![CDATA[Wir werden das nicht jetzt entscheiden.]]></de-DE>
+		<de-DE>Wir werden das nicht jetzt entscheiden.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_LAW_SCREEN</zType>
-		<de-DE><![CDATA[Der Gerichtshof wird die Gesetze auswählen.]]></de-DE>
+		<de-DE>Der Gerichtshof wird die Gesetze auswählen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_PHILOSOPHY</zType>
-		<de-DE><![CDATA[<masculine_CHARACTER-0>Er<feminine>Sie<end> wird Philosophie lernen.]]></de-DE>
+		<de-DE>{G0:Er:Sie} wird Philosophie lernen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_POLITICS</zType>
-		<de-DE><![CDATA[<masculine_CHARACTER-0>Er<feminine>Sie<end> wird Politik lernen.]]></de-DE>
+		<de-DE>{G0:Er:Sie} wird Politik lernen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_TACTICS</zType>
-		<de-DE><![CDATA[<masculine_CHARACTER-0>Er<feminine>Sie<end> wird Taktik lernen.]]></de-DE>
+		<de-DE>{G0:Er:Sie} wird Taktik lernen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_COMMERCE</zType>
-		<de-DE><![CDATA[<masculine_CHARACTER-0>Er<feminine>Sie<end> wird Wirtschaft lernen.]]></de-DE>
+		<de-DE>{G0:Er:Sie} wird Wirtschaft lernen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_EXPLORING</zType>
