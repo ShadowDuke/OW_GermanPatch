@@ -29,7 +29,7 @@ Loading an existing savegame should work without the need to do the procedure ag
 - All core features translated
 - A few stories, more story options and story titles have been translated
 - Green archetype strings at heir education belonging to my "archetypes+" mod, if you dont use it, you can ignore it.
-- Its possible you need to restart the game once, after activatin the mod to see the whole translation in the game setup (Mohawk is looking into this why)
+- Its possible you need to restart the game once, or go one step back in the menu after activating the mod to see the whole translation in the game setup (Mohawk is looking into this why)
 
 If you want to, you can give me a tip at [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5X8TNX5DN2G5C&source=url) to support the mod. Thank you!
 
@@ -55,6 +55,6 @@ Einen vorhandenen Spielstand zu laden sollte ohne Probleme funktionieren, ohne d
 - Core Features alle übersetzt
 - Ein paar Stories, mehr Story-optionen und Story-Titel wurden übersetzt
 - Grüne archetype strings bei der Erziehung gehören zu meiner "archetypes+" mod, habt ihr die nicht, einfach ignorieren.
-- Es könnte möglich sein, dass man nach Aktivierung der Mod ein mal das Spiel neu starten muss, um die Übersetzung im Spiel Setup Screen zu sehen (Mohawk guckt sich an wieso)
+- Es könnte möglich sein, dass man nach Aktivierung der Mod ein mal das Spiel neu starten muss, oder einen Schritt im Menü zupckgehen, um die Übersetzung im Spiel Setup Screen zu sehen (Mohawk guckt sich an wieso)
 
 Wenn ihr wollt, könnt ihr bei [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5X8TNX5DN2G5C&source=url) spenden, um die Mod zu unterstützen. Danke!
