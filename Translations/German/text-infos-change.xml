@@ -305,6 +305,10 @@
 		<de-DE>Bürger~ein Bürger~Bürger</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CONCEPT_CITIZEN_F</zType>
+		<de-DE>Bürgerin~eine Bürgerin~Bürger</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CONCEPT_CITY_SITE</zType>
 		<de-DE>Stadtplatz~ein Stadtplatz~Stadtplätze</de-DE>
 	</Entry>
@@ -315,6 +319,10 @@
 	<Entry>
 		<zType>TEXT_CONCEPT_COUNCILOR</zType>
 		<de-DE>Hofrat~ein Hofrat~Hofräte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_COUNCILOR_F</zType>
+		<de-DE>Hofrätin~eine Hofrätin~Hofräte</de-DE>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_CONCEPT_CRITICAL_HIT</zType>
@@ -335,6 +343,10 @@
 	<Entry>
 		<zType>TEXT_CONCEPT_DISCIPLE</zType>
 		<de-DE>Jünger~ein Jünger~Jünger</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_DISCIPLE_F</zType>
+		<de-DE>Jüngerin~eine Jüngerin~Jünger</de-DE>
 	</Entry>
 	<Entry>	
 		<zType>TEXT_CONCEPT_DISTANCE_MODIFIER</zType>
@@ -357,8 +369,36 @@
 		<de-DE>Familien Gattung~eine Familien Gattung~Familien Gattungen</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_CONCEPT_POPULATION</zType>
-		<de-DE>Bevölkerung</de-DE>
+		<zType>TEXT_CONCEPT_FATIGUE</zType>
+		<de-DE>Ermüdet~Ermüdet</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_FRESH_WATER</zType>
+		<de-DE>Frischwasser</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_FLANKING</zType>
+		<de-DE>Flankierend</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_FORTIFY</zType>
+		<de-DE>Verschanzen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_GENERAL</zType>
+		<de-DE>Feldherr~ein Feldherr~Feldherren</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_GENERAL_F</zType>
+		<de-DE>Feldherrin~eine Feldherrin~Feldherren</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_GOVERNOR</zType>
+		<de-DE>Statthalter~ein Statthalter~Statthalter</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_GOVERNOR_F</zType>
+		<de-DE>Statthalterin~eine Statthalterin~Statthalter</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_SHRINE</zType>
@@ -373,24 +413,8 @@
 		<de-DE>Ressource sammeln~Ressourcen sammeln~Sammelbare Ressourcen</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_CONCEPT_GENERAL</zType>
-		<de-DE>Feldherr~ein Feldherr~Feldherren</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_CONCEPT_GOVERNOR</zType>
-		<de-DE>Statthalter~ein Statthalter~Statthalter</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_CONCEPT_MARCH</zType>
 		<de-DE>Gewzungener Marsch~Gewzungene Märsche~Gewzungener Marsch~Gewzungener Marsch~Gewzungener Marsch</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_CONCEPT_FATIGUE</zType>
-		<de-DE>Ermüdet~Ermüdet</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_CONCEPT_FRESH_WATER</zType>
-		<de-DE>Frischwasser</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_SPREAD_RELIGION</zType>
@@ -403,14 +427,6 @@
 	<Entry>
 		<zType>TEXT_CONCEPT_TESTUDO</zType>
 		<de-DE>Schildkröte</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_CONCEPT_FLANKING</zType>
-		<de-DE>Flankierend</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_CONCEPT_FORTIFY</zType>
-		<de-DE>Verschanzen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_STATE_RELIGION</zType>
@@ -435,6 +451,10 @@
 	<Entry>
 		<zType>TEXT_CONCEPT_COURTIER</zType>
 		<de-DE>Vertrauter~ein Vertrauter~Vertraute</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_COURTIER_F</zType>
+		<de-DE>Vertraute~eine Vertraute~Vertraute</de-DE>
 	</Entry>
 	<Entry>
         <zType>TEXT_CONCEPT_HIDDEN</zType>
@@ -519,6 +539,10 @@
 	<Entry>
 		<zType>TEXT_CONCEPT_TUTOR</zType>
 		<de-DE>Unterrichte~ein Lehrer~Lehrer~Unterrichtet</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_TUTOR_F</zType>
+		<de-DE>Unterrichte~eine Lehrerin~Lehrer~Unterrichtet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_UNDO</zType>
@@ -973,20 +997,20 @@
 		<de-DE>Erlasse link(LAW_FREEDOM)</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_TYRANNY</zType>
-		<de-DE>Erlasse link(LAW_TYRANNY)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_CONSTITUTION</zType>
-		<de-DE>Erlasse link(LAW_CONSTITUTION)</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GOAL_CENTRALIZATION</zType>
 		<de-DE>Erlasse link(LAW_CENTRALIZATION)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_VASSALAGE</zType>
 		<de-DE>Erlasse link(LAW_VASSALAGE</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TYRANNY</zType>
+		<de-DE>Erlasse link(LAW_TYRANNY)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_CONSTITUTION</zType>
+		<de-DE>Erlasse link(LAW_CONSTITUTION)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_COLONIES</zType>
@@ -1086,7 +1110,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_ALL_LAWS_FRIENDLY</zType>
-		<de-DE>Erlasse alle Gesetze, alle link(CONCEPT_FAMILY,2) link(OPINIONFAMILY_FRIENDLY)</de-DE>
+		<de-DE>Alle link(CONCEPT_FAMILY,2) link(OPINIONFAMILY_FRIENDLY), Erlasse alle Gesetze</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_VENERATION</zType>
@@ -1101,12 +1125,12 @@
 		<de-DE>Führe Gesetzlichkeit ein</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_DUALISM</zType>
-		<de-DE>Führe Dualismus ein</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GOAL_REVELATION</zType>
 		<de-DE>Führe Offenbarung ein</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_DUALISM</zType>
+		<de-DE>Führe Dualismus ein</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_GNOSTICISM</zType>
@@ -1145,18 +1169,6 @@
 		<de-DE>Kontrolliere neun verbundene Städte</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_TEN_POPULATION</zType>
-		<de-DE>Kontrolliere 10 Einwohner</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_30_POPULATION</zType>
-		<de-DE>Kontrolliere 30 Einwohner</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_100_POPULATION</zType>
-		<de-DE>Kontrolliere 100 Einwohner</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GOAL_GAULS_5</zType>
 		<de-DE>Töte 5 link(TRIBE_GAULS)</de-DE>
 	</Entry>
@@ -1182,67 +1194,67 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_FOOD_400</zType>
-		<de-DE>Produziere 400 icon(YIELD_FOOD)</de-DE>
+		<de-DE>Produziere 400 link(YIELD_FOOD,1)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_FOOD_800</zType>
-		<de-DE>Produziere 800 icon(YIELD_FOOD)</de-DE>
+		<de-DE>Produziere 800 link(YIELD_FOOD,1)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_WOOD_400</zType>
-		<de-DE>Produziere 400 icon(YIELD_WOOD)</de-DE>
+		<de-DE>Produziere 400 link(YIELD_WOOD,1)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_WOOD_800</zType>
-		<de-DE>Produziere 800 icon(YIELD_WOOD)</de-DE>
+		<de-DE>Produziere 800 link(YIELD_WOOD,1)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_STONE_400</zType>
-		<de-DE>Produziere 400 icon(YIELD_STONE)</de-DE>
+		<de-DE>Produziere 400 link(YIELD_STONE,1)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_STONE_800</zType>
-		<de-DE>Produziere 800 icon(YIELD_STONE)</de-DE>
+		<de-DE>Produziere 800 link(YIELD_STONE,1)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_IRON_400</zType>
-		<de-DE>Produziere 400 icon(YIELD_IRON)</de-DE>
+		<de-DE>Produziere 400 link(YIELD_IRON,1)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_IRON_800</zType>
-		<de-DE>Produziere 800 icon(YIELD_IRON)</de-DE>
+		<de-DE>Produziere 800 link(YIELD_IRON,1)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_20_GOODS_TURN</zType>
-		<de-DE>+20 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD) und icon(YIELD_STONE)/Jahr</de-DE>
+		<de-DE>+20  link(YIELD_FOOD,1),  link(YIELD_IRON,1),  link(YIELD_WOOD,1) und  link(YIELD_STONE,1) / Zug</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_50_GOODS_TURN</zType>
-		<de-DE>+50 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD) und icon(YIELD_STONE)/Jahr</de-DE>
+		<de-DE>+50  link(YIELD_FOOD,1),  link(YIELD_IRON,1),  link(YIELD_WOOD,1) und  link(YIELD_STONE,1) / Zug</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_100_GOODS_TURN</zType>
-		<de-DE>+100 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD) und icon(YIELD_STONE)/Jahr</de-DE>
+		<de-DE>+100  link(YIELD_FOOD,1),  link(YIELD_IRON,1),  link(YIELD_WOOD,1) und  link(YIELD_STONE,1) / Zug</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_CIVICS_2000</zType>
-		<de-DE>Lagere 2000 icon(YIELD_CIVICS)</de-DE>
+		<de-DE>Lagere 2,000  link(YIELD_CIVICS,1)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_TRAINING_2000</zType>
-		<de-DE>Lagere 2000 icon(YIELD_TRAINING)</de-DE>
+		<de-DE>Lagere 2,000  link(YIELD_TRAINING,1)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_MONEY_2000</zType>
-		<de-DE>Lagere 2,000icon(YIELD_MONEY)</de-DE>
+		<de-DE>Lagere 2,000  link(YIELD_MONEY,1)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_MONEY_5000</zType>
-		<de-DE>Lagere 5,000icon(YIELD_MONEY)</de-DE>
+		<de-DE>Lagere 5,000  link(YIELD_MONEY,1)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_MONEY_10000</zType>
-		<de-DE>Lagere 10,000icon(YIELD_MONEY)</de-DE>
+		<de-DE>Lagere 10,000  link(YIELD_MONEY,1)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_FIVE_WORKERS</zType>
@@ -1525,32 +1537,12 @@
 		<de-DE>Forme ein Bündnis mit einem Stamm</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GOAL_TRIBE_ALLIANCE</zType>
-		<de-DE>Bilde ein Bündnis mit einem Stamm</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GOAL_THREE_PEACE</zType>
-		<de-DE>Erziele Frieden mit drei Stämmen oder Reichen</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_ONE_RECAPTURE_CITY</zType>
-		<de-DE>Nehme eine Stadt erneut ein</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_TWO_RECAPTURE_CITY</zType>
-		<de-DE>Nehme zwei Stadte erneut ein</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_ONE_CAPITAL</zType>
-		<de-DE>Nehme eine fremde Hauptstadt ein</de-DE>
+		<de-DE>Erziele link(DIPLOMACY_PEACE) mit drei Stämmen oder Reichen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_ALL_PEACE</zType>
-		<de-DE>Erziele Frieden mit allen Stämmen und Reichen</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_FIVE_CAPTURE_CITIES</zType>
-		<de-DE>Nehme fünf fremde Städte ein</de-DE>
+		<de-DE>Erziele link(DIPLOMACY_PEACE) mit allen Stämmen und Reichen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_STATE_RELIGION</zType>
@@ -1558,19 +1550,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_FOUND_WORLD_RELIGION</zType>
-		<de-DE>Gründe eine Welt Religion</de-DE>
+		<de-DE>Gründe eine link(CONCEPT_WORLD_RELIGION)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_ESTABLISH_THEOLOGY</zType>
-		<de-DE>Führe eine link(CONCEPT_THEOLOGY ein</de-DE>
+		<de-DE>Führe eine link(CONCEPT_THEOLOGY) ein</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_FOUR_RELIGION_SPREAD</zType>
-		<de-DE>Verbreite Religion (4x)</de-DE>
+		<de-DE>link(CONCEPT_SPREAD_RELIGION,1) link(CONCEPT_RELIGION) (x4)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_EIGHT_RELIGION_SPREAD</zType>
-		<de-DE>Verbreite Religion (8x)</de-DE>
+		<de-DE>link(CONCEPT_SPREAD_RELIGION,1) link(CONCEPT_RELIGION) (x8)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_SIX_TECHS</zType>
@@ -1597,16 +1589,16 @@
 		<de-DE>Entdecke link(TECH_PORTCULLIS) und link(TECH_CHAIN_DRIVE)</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GOAL_WINDLASS_LATEEN_SAIL</zType>
+		<de-DE>Entdecke link(TECH_WINDLASS) und link(TECH_LATEEN_SAIL)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GOAL_COHORTS_MARTIAL_CODE</zType>
 		<de-DE>Entdecke link(TECH_COHORTS) und link(TECH_MARTIAL_CODE)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_BODKIN_ARROW_BALLISTICS</zType>
 		<de-DE>Entdecke link(TECH_BODKIN_ARROW) und link(TECH_BALLISTICS)</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GOAL_WINDLASS_LATEEN_SAIL</zType>
-		<de-DE>Entdecke link(TECH_WINDLASS) und link(TECH_LATEEN_SAIL)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_BARDING_INFANTRY_SQUARE</zType>
@@ -1801,6 +1793,50 @@
 		<de-DE>Kontrolliere acht link(CONCEPT_LUXURY)</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GOAL_PLAYER_GROVE_LUXURIES</zType>
+		<de-DE>Send link(RESOURCE_HONEY), link(RESOURCE_INCENSE), link(RESOURCE_LAVENDER), link(RESOURCE_OLIVE), and link(RESOURCE_WINE) to other Nations</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TRIBE_WATER_LUXURIES</zType>
+		<de-DE>Send link(RESOURCE_DYE) and link(RESOURCE_PEARL) to a Tribe</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_ONE_RECAPTURE_CITY</zType>
+		<de-DE>Nehme eine Stadt erneut ein</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_RECAPTURE_CITY</zType>
+		<de-DE>Nehme zwei Stadte erneut ein</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_THREE_RECAPTURE_CITY</zType>
+		<de-DE>Nehme drei Stadte erneut ein</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TWO_CAPTURE_CITIES</zType>
+		<de-DE>Nehme zwei fremde Städte ein</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_ONE_CAPITAL</zType>
+		<de-DE>Nehme eine fremde ink(CONCEPT_CAPITAL ein</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FIVE_CAPTURE_CITIES</zType>
+		<de-DE>Nehme fünf fremde Städte ein</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_TEN_POPULATION</zType>
+		<de-DE>Kontrolliere 10 link(CONCEPT_POPULATION)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_30_POPULATION</zType>
+		<de-DE>Kontrolliere 30 link(CONCEPT_POPULATION)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_100_POPULATION</zType>
+		<de-DE>Kontrolliere 100 link(CONCEPT_POPULATION)</de-DE>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_GOAL_FOUR_BATHS_1</zType>
 		<de-DE>Kontrolliere vier link(IMPROVEMENT_BATHS_1)</de-DE>
 	</Entry>
@@ -1925,6 +1961,10 @@
 		<de-DE>Kontrolliere 100 link(TERRAIN_URBAN) Felder</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GOAL_TWO_CITIES_FOREIGN</zType>
+		<de-DE>Nehme zwei Städte ein</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GOAL_THREE_CITIES_FOREIGN</zType>
 		<de-DE>Erobere drei Städte</de-DE>
 	</Entry>
@@ -1954,15 +1994,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_INQUIRING_MINDS</zType>
-		<de-DE>Schließe 3 Recherchen ab</de-DE>
+		<de-DE>Schließe drei Recherchen ab</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_FOUNDING_SIGNS</zType>
-		<de-DE>Gründe 2 Stadte</de-DE>
+		<de-DE>Gründe zwei Stadte</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_KILL_10_ENEMIES</zType>
-		<de-DE>Töte zehn Gegnerische Einheiten eines Reiches</de-DE>
+		<de-DE>Töte 10 Gegnerische Einheiten eines Reiches</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GOAL_KILL_5_BARBS</zType>
@@ -1999,6 +2039,30 @@
 	<Entry>
 		<zType>TEXT_GOAL_SPECIFIC_CITY</zType>
 		<de-DE>Kontrolliere die link(CONCEPT_HOLY_CITY) von deiner link(CONCEPT_STATE_RELIGION)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FOUR_AGENT_NETWORKS</zType>
+		<de-DE>Kontrolliere vier link(CONCEPT_AGENT_NETWORK,2)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_SIX_AGENTS</zType>
+		<de-DE>Kontrolliere sechs link(CONCEPT_AGENT,2)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_FIVE_NAVAL</zType>
+		<de-DE>Kontrolliere fünf See Einheiten</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_THE_GREAT</zType>
+		<de-DE>Erlange den link(CONCEPT_COGNOMEN) link(COGNOMEN_GREAT)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_ALL_HOLY_CITIES</zType>
+		<de-DE>Kontrolliere alle vier link(CONCEPT_HOLY_CITY,2)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GOAL_DESTROY_RIVALS</zType>
+		<de-DE>Vernichte ein rivalisierendes Reich</de-DE>
 	</Entry>
 	<!-- InfoLanguage -->
 	<Entry>
@@ -2216,14 +2280,6 @@
 		<de-DE>Stahl</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TECH_MONASTICISM</zType>
-		<de-DE>Mönchswesen</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TECH_COMPOSITE_BOW</zType>
-		<de-DE>Kompositbögen</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_TECH_METAPHYSICS</zType>
 		<de-DE>Metaphysik</de-DE>
 	</Entry>
@@ -2248,24 +2304,40 @@
 		<de-DE>Vereinödung</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TECH_LAND_CONSOLIDATION_BONUS_CAMEL_ARCHER</zType>
+		<de-DE>Freier link(UNIT_CAMEL_ARCHER)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TECH_LAND_CONSOLIDATION_BONUS_WAR_ELEPHANT</zType>
-		<de-DE>Freier Kriegselefant</de-DE>
+		<de-DE>Freier link(UNIT_WAR_ELEPHANT)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_BATTLELINE</zType>
 		<de-DE>Kampflinien</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TECH_COMPOSITE_BOW</zType>
+		<de-DE>Kompositbögen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_COMPOSITE_BOW_BONUS_ARCHER</zType>
+		<de-DE>Freier link(UNIT_ARCHER)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TECH_DOCTRINE</zType>
 		<de-DE>Grundsätze</de-DE>
 	</Entry>
-	<Entry>
-		<zType>TEXT_TECH_PHALANX_BONUS_ORDERS</zType>
-		<de-DE>link(YIELD_ORDERS) Schub</de-DE>
+		<Entry>
+		<zType>TEXT_TECH_MONASTICISM</zType>
+		<de-DE>Mönchswesen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_MACHINERY</zType>
 		<de-DE>Mechanismus</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_PHALANX_BONUS_ORDERS</zType>
+		<de-DE>link(YIELD_ORDERS) Schub</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_COINAGE</zType>
@@ -2346,6 +2418,10 @@
 	<Entry>
 		<zType>TEXT_TECH_JURISPRUDENCE</zType>
 		<de-DE>Rechtsprechung</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_JURISPRUDENCE_BONUS_MINISTER</zType>
+		<de-DE>Freier link(COURTIER_MINISTER)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_MARTIAL_CODE</zType>
@@ -2585,6 +2661,10 @@
 		<de-DE>Steel unlocks the link(UNIT_AXEMAN), which can be built from your Cities or upgraded from link(UNIT_WARRIOR,2). These mid-tier melee combatants attack in an arc to hit multiple tiles in front of them and do extra damage to link(UNIT_SPEARMAN,2) and other polearm Units, making them very effective front-line fighters to support your mounted troops against other melee Units.</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GUIDE_TECH_STEEL_BONUS_TRAINING</zType>
+		<de-DE>This bonus gives a one-off boost of link(YIELD_TRAINING,1), useful for Forced Marching or Promoting your military Units. If a bonus card is not researched when it appears, it is permanently trashed once discarded and will not appear again.</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GUIDE_TECH_SOVEREIGNTY</zType>
 		<de-DE>Sovereignty is an important step towards siege weapons and a useful tech for shaping your nation. The laws of link(LAW_TYRANNY) and link(LAW_CONSTITUTION) offer a choice between gaining resources by keeping military units in your own territory or reducing link(YIELD_DISCONTENT) throughout your nation.</de-DE>
 	</Entry>
@@ -2719,6 +2799,10 @@
 	<Entry>
 		<zType>TEXT_GUIDE_TECH_JURISPRUDENCE</zType>
 		<de-DE>Jurisprudence allows you to use link(YIELD_DISCONTENT) against your enemy by using an link(MISSION_INSURRECTION) Mission in their City, or reducing the link(YIELD_DISCONTENT) in your own Cities through the link(LAW_GUILDS) Law. Alternatively, the link(LAW_ELITES) Law is useful for managing link(YIELD_ORDERS), both providing more each turn and allowing you to carry over any unused link(YIELD_ORDERS) between turns.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GUIDE_TECH_JURISPRUDENCE_BONUS_MINISTER</zType>
+		<de-DE>This bonus card grants a free link(COURTIER_MINISTER) to serve on your court and improve your Nation’s administration. If a bonus card is not researched when it appears, it is permanently trashed once discarded and will not appear again.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GUIDE_TECH_MARTIAL_CODE</zType>
@@ -2881,6 +2965,10 @@
 		<zType>TEXT_TERRAIN_TUNDRA</zType>
 		<de-DE>Tundra</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_TERRAIN_MARSH</zType>
+		<de-DE>Sumpf</de-DE>
+	</Entry>
 	<!-- InfoTheology-->
 	<Entry>
 		<zType>TEXT_THEOLOGY_MYTHOLOGY</zType>
@@ -2921,7 +3009,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_VICTORY_POINTS_HELP</zType>
-		<de-DE>Victory from acquiring the target number of VPs.</de-DE>
+		<de-DE>Victory from acquiring the target number of link(CONCEPT_VICTORY_POINT,2), determined by the number of link(CONCEPT_CITY_SITE,2) on the map and the number of Players or Teams competing.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_VICTORY_DOUBLE</zType>
@@ -2929,16 +3017,17 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_VICTORY_DOUBLE_HELP</zType>
-		<de-DE>Victory from acquiring twice as many VPs as any other Nation.
-(Must also have at least half the target number of VPs. Only possible for Humans.)</de-DE>
+		<de-DE>Victory from acquiring twice as many link(CONCEPT_VICTORY_POINT,2) as any other Nation.
+(Must also have at least half the target Victory Points. Only possible for Human Players.)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_VICTORY_AMBITION</zType>
-		<de-DE>Ambition~eine Ambition</de-DE>
+		<de-DE>Ambitions Sieg~ein Ambitions Sieg</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_VICTORY_AMBITION_HELP</zType>
-		<de-DE>Victory from completing int(MAX_AMBITIONS) Ambitions.</de-DE>
+		<de-DE>Victory from completing int(MAX_AMBITIONS) Ambitions.
+(Only possible for Human Players.)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_VICTORY_TIME</zType>
@@ -2946,7 +3035,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_VICTORY_TIME_HELP</zType>
-		<de-DE>Victory from having the most VPs at the end of 200 Years.</de-DE>
+		<de-DE>Victory from having the most link(CONCEPT_VICTORY_POINT,2) at the end of 200 turns. Disabling this victory removes the turn limit.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_VICTORY_CONQUEST</zType>
@@ -2994,196 +3083,392 @@
 		<de-DE>der Held</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_HERO_ARCHETYPE_NICKNAME_F</zType>
+		<de-DE>die Heldin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_COMMANDER_ARCHETYPE_NICKNAME</zType>
 		<de-DE>der Feldherr</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_COMMANDER_ARCHETYPE_NICKNAME_F</zType>
+		<de-DE>die Feldherrin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_TACTICIAN_ARCHETYPE_NICKNAME</zType>
 		<de-DE>der Taktiker</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_TACTICIAN_ARCHETYPE_NICKNAME_F</zType>
+		<de-DE>die Taktikerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_ZEALOT_ARCHETYPE_NICKNAME</zType>
 		<de-DE>der Fanatiker</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_ZEALOT_ARCHETYPE_NICKNAME_F</zType>
+		<de-DE>die Fanatikerin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SCHEMER_ARCHETYPE_NICKNAME</zType>
 		<de-DE>der Intrigant</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_SCHEMER_ARCHETYPE_NICKNAME_F</zType>
+		<de-DE>die Intrigantin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_ORATOR_ARCHETYPE_NICKNAME</zType>
 		<de-DE>der Redner</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_ORATOR_ARCHETYPE_NICKNAME_F</zType>
+		<de-DE>die Rednerin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DIPLOMAT_ARCHETYPE_NICKNAME</zType>
 		<de-DE>der Diplomat</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_DIPLOMAT_ARCHETYPE_NICKNAME_F</zType>
+		<de-DE>die Diplomatin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_JUDGE_ARCHETYPE_NICKNAME</zType>
 		<de-DE>der Richter</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_JUDGE_ARCHETYPE_NICKNAME_F</zType>
+		<de-DE>die Richterin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BUILDER_ARCHETYPE_NICKNAME</zType>
 		<de-DE>der Baumeister</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_BUILDER_ARCHETYPE_NICKNAME_F</zType>
+		<de-DE>die Baumeisterin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_SCHOLAR_ARCHETYPE_NICKNAME</zType>
 		<de-DE>der Gelehrte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_SCHOLAR_ARCHETYPE_NICKNAME_F</zType>
+		<de-DE>die Gelehrte</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_AFFABLE_NICKNAME</zType>
 		<de-DE>der Umgängliche</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_AFFABLE_NICKNAME_F</zType>
+		<de-DE>die Umgängliche</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_ELOQUENT_NICKNAME</zType>
 		<de-DE>der Wortgewandte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_ELOQUENT_NICKNAME_F</zType>
+		<de-DE>die Wortgewandte</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_WARLIKE_NICKNAME</zType>
 		<de-DE>der Kriegerische</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_WARLIKE_NICKNAME_F</zType>
+		<de-DE>die Kriegerische</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_INSPIRING_NICKNAME</zType>
 		<de-DE>der Inspirierende</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_INSPIRING_NICKNAME_F</zType>
+		<de-DE>die Inspirierende</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_INTELLIGENT_NICKNAME</zType>
 		<de-DE>der Kluge</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_PROSPEROUS_NICKNAME_F</zType>
+		<de-DE>die Kluge</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_PROSPEROUS_NICKNAME</zType>
 		<de-DE>der Erfolgreiche</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_FRUGAL_NICKNAME_F</zType>
+		<de-DE>die Erfolgreiche</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_FRUGAL_NICKNAME</zType>
 		<de-DE>der Sparsame</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_FRUGAL_NICKNAME_F</zType>
+		<de-DE>die Sparsame</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_RIGHTEOUS_NICKNAME</zType>
 		<de-DE>der Rechtschaffende</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_RIGHTEOUS_NICKNAME_F</zType>
+		<de-DE>die Rechtschaffende</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CRUEL_NICKNAME</zType>
 		<de-DE>der Grausame</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_CRUEL_NICKNAME_F</zType>
+		<de-DE>die Grausame</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_INTOLERANT_NICKNAME</zType>
 		<de-DE>der Unduldsame</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_INTOLERANT_NICKNAME_F</zType>
+		<de-DE>die Unduldsame</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SLOTHFUL_NICKNAME</zType>
 		<de-DE>der Faule</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_SLOTHFUL_NICKNAME_F</zType>
+		<de-DE>die Faule</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_UNCOUTH_NICKNAME</zType>
 		<de-DE>der Pöbelhafte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_UNCOUTH_NICKNAME_F</zType>
+		<de-DE>die Pöbelhafte</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_FOOLISH_NICKNAME</zType>
 		<de-DE>der Tölpelhafte</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_FOOLISH_NICKNAME_F</zType>
+		<de-DE>die Tölpelhafte</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_EXTRAVAGANT_NICKNAME</zType>
 		<de-DE>der Verschwenderische</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_EXTRAVAGANT_NICKNAME_F</zType>
+		<de-DE>die Verschwenderische</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CORRUPT_NICKNAME</zType>
 		<de-DE>der Korrupte</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_CORRUPT_NICKNAME_F</zType>
+		<de-DE>die Korrupte</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_DEBAUCHED_NICKNAME</zType>
 		<de-DE>der Verdorbene</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_DEBAUCHED_NICKNAME_F</zType>
+		<de-DE>die Verdorbene</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_ROBUST_NICKNAME</zType>
 		<de-DE>der Robuste</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_ROBUST_NICKNAME_F</zType>
+		<de-DE>die Robuste</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_VIGILANT_NICKNAME</zType>
 		<de-DE>der Aufmerksame</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_VIGILANT_NICKNAME_F</zType>
+		<de-DE>die Aufmerksame</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_STRICT_NICKNAME</zType>
 		<de-DE>der Strenge</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_STRICT_NICKNAME_F</zType>
+		<de-DE>die Strenge</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_EQUESTRIAN_NICKNAME</zType>
 		<de-DE>der Reiter</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_EQUESTRIAN_NICKNAME_F</zType>
+		<de-DE>die Reiterin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CARPENTER_NICKNAME</zType>
 		<de-DE>der Zimmerer</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_CARPENTER_NICKNAME_F</zType>
+		<de-DE>die Zimmererin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_PATHFINDER_NICKNAME</zType>
 		<de-DE>der Pfadfinder</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_PATHFINDER_NICKNAME_F</zType>
+		<de-DE>die Pfadfinderin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CULTIVATOR_NICKNAME</zType>
 		<de-DE>der Landwirt</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_CULTIVATOR_NICKNAME_F</zType>
+		<de-DE>die Landwirtin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_NATURALIST_NICKNAME</zType>
 		<de-DE>der Naturforscher</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_NATURALIST_NICKNAME_F</zType>
+		<de-DE>die Naturforscherin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DELVER_NICKNAME</zType>
 		<de-DE>der Schnüffler</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_DELVER_NICKNAME_F</zType>
+		<de-DE>die Schnüfflerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_DEALMAKER_NICKNAME</zType>
 		<de-DE>der Geschäftemacher</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_DEALMAKER_NICKNAME_F</zType>
+		<de-DE>die Geschäftemacherin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_TRACKER_NICKNAME</zType>
 		<de-DE>der Fährtenleser</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_TRACKER_NICKNAME_F</zType>
+		<de-DE>die Fährtenleserin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_SWIFT_NICKNAME</zType>
 		<de-DE>der Flinke</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_SWIFT_NICKNAME_F</zType>
+		<de-DE>die Flinke</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_BESIEGER_NICKNAME</zType>
-		<de-DE>der Belagerer</de-DE>
+		<de-DE>der Besetzer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_BESIEGER_NICKNAME_F</zType>
+		<de-DE>die Besetzerin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_TOUGH_NICKNAME</zType>
 		<de-DE>der Taffe</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_TOUGH_NICKNAME_F</zType>
+		<de-DE>die Taffe</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_BLOODTHIRSTY_NICKNAME</zType>
 		<de-DE>der Blutdürstige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_BLOODTHIRSTY_NICKNAME_F</zType>
+		<de-DE>die Blutdürstige</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_HECKLER_NICKNAME</zType>
 		<de-DE>der Störer</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_HECKLER_NICKNAME_F</zType>
+		<de-DE>die Störerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_STEADFAST_NICKNAME</zType>
 		<de-DE>der Treue</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_STEADFAST_NICKNAME_F</zType>
+		<de-DE>die Treue</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_HERBALIST_NICKNAME</zType>
 		<de-DE>der Pflanzenkenner</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_HERBALIST_NICKNAME_F</zType>
+		<de-DE>die Pflanzenkennerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_HIGHLANDER_NICKNAME</zType>
 		<de-DE>der Bergbewohner</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_HIGHLANDER_NICKNAME_F</zType>
+		<de-DE>die Bergbewohnerin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_RANGER_NICKNAME</zType>
 		<de-DE>der Ranger</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_RANGER_NICKNAME_F</zType>
+		<de-DE>die Rangerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_BRAVE_NICKNAME</zType>
-		<de-DE>der Mutige</de-DE>
+		<de-DE>der Heldenhafte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_BRAVE_NICKNAME_F</zType>
+		<de-DE>die Heldenhafte</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SHIELDBEARER_NICKNAME</zType>
 		<de-DE>der Schildträger</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_SHIELDBEARER_NICKNAME_F</zType>
+		<de-DE>die Schildträgerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_FIERCE_NICKNAME</zType>
 		<de-DE>der Unerschütterliche</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_FIERCE_NICKNAME_F</zType>
+		<de-DE>die Unerschütterliche</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_HORSEBANE_NICKNAME</zType>
@@ -3194,112 +3479,224 @@
 		<de-DE>der Techniker</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_ENGINEER_NICKNAME_F</zType>
+		<de-DE>die Technikerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_BOLD_NICKNAME</zType>
 		<de-DE>der Mutige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_BOLD_NICKNAME_F</zType>
+		<de-DE>die Mutige</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_TIMID_NICKNAME</zType>
 		<de-DE>der Schüchterne</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_TIMID_NICKNAME_F</zType>
+		<de-DE>die Schüchterne</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_GRACIOUS_NICKNAME</zType>
 		<de-DE>der Gnädige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_GRACIOUS_NICKNAME_F</zType>
+		<de-DE>die Gnädige</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_GREEDY_NICKNAME</zType>
 		<de-DE>der Gierige</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_GREEDY_NICKNAME_F</zType>
+		<de-DE>die Gierige</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_ROMANTIC_NICKNAME</zType>
 		<de-DE>der Romantische</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_ROMANTIC_NICKNAME_F</zType>
+		<de-DE>die Romantische</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_EDUCATED_NICKNAME</zType>
 		<de-DE>der Gebildete</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_EDUCATED_NICKNAME_F</zType>
+		<de-DE>die Gebildete</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_SUPERSTITIOUS_NICKNAME</zType>
 		<de-DE>der Abergläubische</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_SUPERSTITIOUS_NICKNAME_F</zType>
+		<de-DE>die Abergläubische</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_COMPASSIONATE_NICKNAME</zType>
 		<de-DE>der Mitfühlende</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_COMPASSIONATE_NICKNAME_F</zType>
+		<de-DE>die Mitfühlende</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_RUTHLESS_NICKNAME</zType>
 		<de-DE>der Rücksichtslose</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_RUTHLESS_NICKNAME_F</zType>
+		<de-DE>die Rücksichtslose</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BITTER_NICKNAME</zType>
 		<de-DE>der Verbitterte</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_BITTER_NICKNAME_F</zType>
+		<de-DE>die Verbitterte</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_PIOUS_NICKNAME</zType>
 		<de-DE>der Fromme</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_PIOUS_NICKNAME_F</zType>
+		<de-DE>die Fromme</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_WANTON_NICKNAME</zType>
 		<de-DE>der Schamlose</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_WANTON_NICKNAME_F</zType>
+		<de-DE>die Schamlose</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_LOYAL_NICKNAME</zType>
 		<de-DE>der Loyale</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_LOYAL_NICKNAME_F</zType>
+		<de-DE>die Loyale</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_DECEITFUL_NICKNAME</zType>
 		<de-DE>der Hinterlistige</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_DECEITFUL_NICKNAME_F</zType>
+		<de-DE>die Hinterlistige</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_HUMBLE_NICKNAME</zType>
 		<de-DE>der Bescheidene</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_HUMBLE_NICKNAME_F</zType>
+		<de-DE>die Bescheidene</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_PROUD_NICKNAME</zType>
 		<de-DE>der Stolze</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_PROUD_NICKNAME_F</zType>
+		<de-DE>die Stolze</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_WITTY_NICKNAME</zType>
 		<de-DE>der Geistreiche</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_WITTY_NICKNAME_F</zType>
+		<de-DE>die Geistreiche</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SPOILED_NICKNAME</zType>
 		<de-DE>der Verwöhnte</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_SPOILED_NICKNAME_F</zType>
+		<de-DE>die Verwöhnte</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_DRUNK_NICKNAME</zType>
-		<de-DE>der Säufere</de-DE>
+		<de-DE>der Säufer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_DRUNK_NICKNAME_F</zType>
+		<de-DE>die Säuferin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_INSANE_NICKNAME</zType>
 		<de-DE>der Wahnsinnige</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_INSANE_NICKNAME_F</zType>
+		<de-DE>die Wahnsinnige</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_EXOTIC_NICKNAME</zType>
 		<de-DE>der Exotische</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_EXOTIC_NICKNAME_F</zType>
+		<de-DE>die Exotische</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_BLESSED_NICKNAME</zType>
 		<de-DE>der Gesegnete</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_BLESSED_NICKNAME_F</zType>
+		<de-DE>die Gesegnete</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_CURSED_NICKNAME</zType>
 		<de-DE>der Verfluchte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_CURSED_NICKNAME_F</zType>
+		<de-DE>die Verfluchte</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_CRIPPLED_NICKNAME</zType>
 		<de-DE>der Verkrüppelte</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_CRIPPLED_NICKNAME_F</zType>
+		<de-DE>die Verkrüppelte</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_BLINDED_NICKNAME</zType>
 		<de-DE>der Erblindete</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_BLINDED_NICKNAME_F</zType>
+		<de-DE>die Erblindete</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_GODS_CONSORT_NICKNAME</zType>
 		<de-DE>Gott's Gefährte</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_TRAIT_GODS_CONSORT_NICKNAME_F</zType>
+		<de-DE>Gott's Gefährtin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_TRAIT_SAVIOR_OF_THE_THRONE_NICKNAME</zType>
 		<de-DE>Retter des Throns</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TRAIT_SAVIOR_OF_THE_THRONE_NICKNAME_F</zType>
+		<de-DE>Retterin des Throns</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_KING_OF_TYRE_NICKNAME</zType>
@@ -3498,116 +3895,228 @@
 		<de-DE>der Neue</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_NEW_F</zType>
+		<de-DE>die Neue</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_FOUNDER</zType>
 		<de-DE>der Gründer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_FOUNDER_F</zType>
+		<de-DE>die Gründerin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_WARRIOR</zType>
 		<de-DE>der Krieger</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_WARRIOR_F</zType>
+		<de-DE>die Kriegerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_BRAVE</zType>
 		<de-DE>der Mutige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_BRAVE_F</zType>
+		<de-DE>die Mutige</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_VALIANT</zType>
 		<de-DE>der Tapfere</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_VALIANT_F</zType>
+		<de-DE>die Tapfere</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_MIGHTY</zType>
 		<de-DE>der Mächtige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_MIGHTY_F</zType>
+		<de-DE>die Mächtige</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_VICTORIOUS</zType>
 		<de-DE>der Siegreiche</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_VICTORIOUS_F</zType>
+		<de-DE>die Siegreiche</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_LION</zType>
 		<de-DE>der Löwe</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_LION_F</zType>
+		<de-DE>die Löwin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_INVINCIBLE</zType>
 		<de-DE>der Unbesiegbare</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_INVINCIBLE_F</zType>
+		<de-DE>die Unbesiegbare</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_CAPABLE</zType>
 		<de-DE>der Tüchtige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_CAPABLE_F</zType>
+		<de-DE>die Tüchtige</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_READY</zType>
 		<de-DE>der Bereite</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_READY_F</zType>
+		<de-DE>die Bereite</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_DESTROYER</zType>
 		<de-DE>der Zerstörer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_DESTROYER_F</zType>
+		<de-DE>die Zerstörerin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_AVENGER</zType>
 		<de-DE>der Rächer</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_AVENGER_F</zType>
+		<de-DE>die Rächerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_WHITE_DEATH</zType>
-		<de-DE>die Pest</de-DE>
+		<de-DE>der Weiße Hai</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_INTERCESSOR</zType>
 		<de-DE>der Vermittler</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_INTERCESSOR_F</zType>
+		<de-DE>die Vermittlerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_PEACEMAKER</zType>
 		<de-DE>der Friedensstifter</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_PEACEMAKER_F</zType>
+		<de-DE>die Friedensstifterin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_CONQUEROR</zType>
 		<de-DE>der Eroberer</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_CONQUEROR_F</zType>
+		<de-DE>die Erobererin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_SUBJUGATOR</zType>
 		<de-DE>der Bezwinger</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_SUBJUGATOR_F</zType>
+		<de-DE>die Bezwingerin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_RESTORER</zType>
 		<de-DE>der Restaurator</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_RESTORER_F</zType>
+		<de-DE>die Restauratorin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_LIBERATOR</zType>
 		<de-DE>der Befreier</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_LIBERATOR_F</zType>
+		<de-DE>die Befreierin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_SETTLER</zType>
 		<de-DE>der Siedler</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_SETTLER_F</zType>
+		<de-DE>die Siedlerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_PIONEER</zType>
 		<de-DE>der Pionier</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_PIONEER_F</zType>
+		<de-DE>die Pionierin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_AMBITIOUS</zType>
 		<de-DE>der Ehrgeizige</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_AMBITIOUS_F</zType>
+		<de-DE>die Ehrgeizige</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_BRILLIANT</zType>
 		<de-DE>der Brilliante</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_BRILLIANT_F</zType>
+		<de-DE>die Brilliante</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_BELOVED</zType>
 		<de-DE>der Geliebte</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_BELOVED_F</zType>
+		<de-DE>die Geliebte</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_REBUILDER</zType>
 		<de-DE>der Wiederaufbauer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_REBUILDER_F</zType>
+		<de-DE>die Wiederaufbauerin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_MASON</zType>
 		<de-DE>der Steinmetz</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_MASON_F</zType>
+		<de-DE>die Steinmetzin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_ARCHITECT</zType>
 		<de-DE>der Architekt</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_ARCHITECT_F</zType>
+		<de-DE>die Architektin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_KEYSTONE</zType>
 		<de-DE>der Grundpfeiler</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_KEYSTONE_F</zType>
+		<de-DE>die Grundpfeilerin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_FOUNTAINHEAD</zType>
@@ -3618,89 +4127,178 @@
 		<de-DE>der Fromme</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_DEVOUT_F</zType>
+		<de-DE>die Fromme</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_HOLY</zType>
 		<de-DE>der Heilige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_HOLY_F</zType>
+		<de-DE>die Heilige</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_EXPLORER</zType>
 		<de-DE>der Entdecker</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_EXPLORER_F</zType>
+		<de-DE>die Entdeckerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_INTREPID</zType>
 		<de-DE>der Furchtlose</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_INTREPID_F</zType>
+		<de-DE>die Furchtlose</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_LEARNED</zType>
 		<de-DE>der Gebildete</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_LEARNED_F</zType>
+		<de-DE>die Gebildete</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_ENLIGHTENED</zType>
 		<de-DE>der Aufgeklärte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_ENLIGHTENED_F</zType>
+		<de-DE>die Aufgeklärte</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_WISE</zType>
 		<de-DE>der Weise</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_WISE_F</zType>
+		<de-DE>die Weise</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_OLD</zType>
 		<de-DE>der Alte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_OLD_F</zType>
+		<de-DE>die Alte</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_ANCIENT</zType>
 		<de-DE>der Historische</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_ANCIENT_F</zType>
+		<de-DE>die Historische</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_ABLE</zType>
 		<de-DE>der Tüchtige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_ABLE_F</zType>
+		<de-DE>die Tüchtige</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_JUST</zType>
 		<de-DE>der Gerechte</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_JUST_F</zType>
+		<de-DE>die Gerechte</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_GOOD</zType>
 		<de-DE>der Zuverlässige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_GOOD_F</zType>
+		<de-DE>die Zuverlässige</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_STRONG</zType>
 		<de-DE>der Kräftige</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_STRONG_F</zType>
+		<de-DE>die Kräftige</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_NOBLE</zType>
 		<de-DE>der Großmütige</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_NOBLE_F</zType>
+		<de-DE>die Großmütige</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_GLORIOUS</zType>
 		<de-DE>der Glorreiche</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_GLORIOUS_F</zType>
+		<de-DE>die Glorreiche</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_MAGNIFICENT</zType>
 		<de-DE>der Prachtvolle</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_MAGNIFICENT_F</zType>
+		<de-DE>die Prachtvolle</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_GREAT</zType>
 		<de-DE>der Große</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_GREAT_F</zType>
+		<de-DE>die Große</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_UNFORTUNATE</zType>
 		<de-DE>der Unglückliche</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_UNFORTUNATE_F</zType>
+		<de-DE>die Unglückliche</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_UNREADY</zType>
 		<de-DE>der nicht Bereite</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_UNREADY_F</zType>
+		<de-DE>die nicht Bereite</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_WEAK</zType>
 		<de-DE>der Schwache</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_WEAK_F</zType>
+		<de-DE>die Schwache</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COGNOMEN_BAD</zType>
 		<de-DE>der Böse</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COGNOMEN_BAD_F</zType>
+		<de-DE>die Böse</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COGNOMEN_BLOODY</zType>
 		<de-DE>der Blutige</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_COGNOMEN_BLOODY_F</zType>
+		<de-DE>die Blutige</de-DE>
+	</Entry>
+	<!--InfoColorClass-->
 	<Entry>
 		<zType>TEXT_COLORCLASS_TEXT</zType>
 		<de-DE>Text</de-DE>
@@ -3757,6 +4355,7 @@
 		<zType>TEXT_COLORCLASS_HEALTH</zType>
 		<de-DE>Gesundheit</de-DE>
 	</Entry>
+	<!--InfoCooldown-->
 	<Entry>
 		<zType>TEXT_COOLDOWN_AUTOMATED</zType>
 		<de-DE>Automatisiert</de-DE>
@@ -3881,38 +4480,72 @@
 		<zType>TEXT_COOLDOWN_TRADE</zType>
 		<de-DE>Handeln</de-DE>
 	</Entry>
+	<!--InfoCourtier-->
 	<Entry>
 		<zType>TEXT_COURTIER_SOLDIER</zType>
 		<de-DE>Krieger des Hofstaats</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COURTIER_SOLDIER_F</zType>
+		<de-DE>Kriegerin des Hofstaats</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COURTIER_SOLDIER_NICKNAME</zType>
 		<de-DE>der Soldat</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COURTIER_SOLDIER_NICKNAME_F</zType>
+		<de-DE>die Soldatin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COURTIER_MINISTER</zType>
 		<de-DE>Geistlicher des Hofstaats</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COURTIER_MINISTER_F</zType>
+		<de-DE>Geistliche des Hofstaats</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COURTIER_MINISTER_NICKNAME</zType>
 		<de-DE>der Geistliche</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COURTIER_MINISTER_NICKNAME_F</zType>
+		<de-DE>die Geistliche</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COURTIER_MERCHANT</zType>
 		<de-DE>Kaufmann des Hofstaats</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COURTIER_MERCHANT_F</zType>
+		<de-DE>Kauffrau des Hofstaats</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COURTIER_MERCHANT_NICKNAME</zType>
 		<de-DE>der Kaufmann</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_COURTIER_MERCHANT_NICKNAME_F</zType>
+		<de-DE>die Kauffrau</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_COURTIER_SCIENTIST</zType>
 		<de-DE>Gelehrter des Hofstaats</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_COURTIER_SCIENTIST_F</zType>
+		<de-DE>Gelehrte des Hofstaats</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COURTIER_SCIENTIST_NICKNAME</zType>
 		<de-DE>der Gelehrte</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_COURTIER_SCIENTIST_NICKNAME_F</zType>
+		<de-DE>die Gelehrte</de-DE>
+	</Entry>
+	<!--InfoAdvantage-->
 	<Entry>
 		<zType>TEXT_ADVANTAGE_NONE</zType>
 		<de-DE>Keiner</de-DE>
@@ -3937,6 +4570,7 @@
 		<zType>TEXT_DEVELOPMENT_NONE</zType>
 		<de-DE>Keine</de-DE>
 	</Entry>
+	<!--InfoDevelopment-->
 	<Entry>
 		<zType>TEXT_DEVELOPMENT_NONE_HELP</zType>
 		<de-DE>Vorhandene Staaten starten nicht mit extra Territorium</de-DE>
@@ -3961,6 +4595,7 @@
 		<zType>TEXT_DEVELOPMENT_MASSIVE</zType>
 		<de-DE>Mächtig</de-DE>
 	</Entry>
+	<!--InfoDifficulty-->
 	<Entry>
 		<zType>TEXT_DIFFICULTY_ABLE</zType>
 		<de-DE>Der Tüchtige</de-DE>
@@ -3993,6 +4628,7 @@
 		<zType>TEXT_DIFFICULTY_GREAT</zType>
 		<de-DE>Groß</de-DE>
 	</Entry>
+	<!--InfoDifficultyMode-->
 	<Entry>
 		<zType>TEXT_DIFFICULTYMODE_ABLE</zType>
 		<de-DE>Tüchtig</de-DE>
@@ -4025,6 +4661,7 @@
 		<zType>TEXT_DIFFICULTYMODE_GREAT</zType>
 		<de-DE>Groß</de-DE>
 	</Entry>
+	<!--InfoDirection-->
 	<Entry>
 		<zType>TEXT_DIRECTION_NW</zType>
 		<de-DE>NW</de-DE>
@@ -4049,6 +4686,7 @@
 		<zType>TEXT_DIRECTION_W</zType>
 		<de-DE>W</de-DE>
 	</Entry>
+	<!--InfoGameOption--> 
 	<Entry>
 		<zType>TEXT_GAMEOPTION_NO_CHARACTERS</zType>
 		<de-DE>Keine Charaktere</de-DE>
@@ -4063,7 +4701,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAMEOPTION_BARBARIANS_ONLY_HELP</zType>
-		<de-DE>Alle Stämme sind link(TRIBE_BARBARIANS).</de-DE>
+		<de-DE>Alle Stämme auf der Karte sind link(TRIBE_BARBARIANS).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAMEOPTION_TRIBES_ONLY</zType>
@@ -4071,7 +4709,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAMEOPTION_TRIBES_ONLY_HELP</zType>
-		<de-DE>No link(TRIBE_BARBARIANS) are on the map.</de-DE>
+		<de-DE>Keine link(TRIBE_BARBARIANS) sind auf der Karte.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAMEOPTION_NO_FOG_OF_WAR</zType>
@@ -4122,6 +4760,38 @@
 		<de-DE>Weise die Gruppe jeder Familie zufällig zu (Weisen, Handwerker, Wettkämpfer, etc).</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAMEOPTION_NO_STARTING_TECHS</zType>
+		<de-DE>Keine Start Technologien</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_NO_STARTING_TECHS_HELP</zType>
+		<de-DE>Keine Start Technologien aber eine höhere Grund Wissenschaftsrate</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_NO_FORCE_MARCH</zType>
+		<de-DE>Kein Gewaltmarsch</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_NO_FORCE_MARCH_HELP</zType>
+		<de-DE>Einheiten können sich nicht weiter als ihr link(CONCEPT_FATIGUE) Limit bewegen.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_CRITICAL_HIT_PREVIEW</zType>
+		<de-DE>Zeige bevorstehende kritische Treffer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_CRITICAL_HIT_PREVIEW_HELP</zType>
+		<de-DE>Zeigt jegliche Einheit die einen kritischen Treffer landen würde wenn sie angreift.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_COMPETITIVE_MODE</zType>
+		<de-DE>Wettkampf Modus</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_COMPETITIVE_MODE_HELP</zType>
+		<de-DE>Deaktiviert Eriegnisse die eine erhebliche Wirkung auf die Balance haben.</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_GAMEOPTION_ROLE_PLAYING</zType>
 		<de-DE>Rollenspiel</de-DE>
 	</Entry>
@@ -4131,7 +4801,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAMEOPTION_PLAY_TO_WIN</zType>
-		<de-DE>Play to Win</de-DE>
+		<de-DE>Unbarmherzige KI</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAMEOPTION_PLAY_TO_WIN_HELP</zType>
@@ -4144,6 +4814,14 @@
 	<Entry>
 		<zType>TEXT_GAMEOPTION_ONE_CITY_CHALLENGE_HELP</zType>
 		<de-DE>Spielern ist es nicht erlaut mehr als eine Stadt zu haben.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_ALLOW_CITY_RAZING</zType>
+		<de-DE>Erlaube Stadt Auslöschung</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAMEOPTION_ALLOW_CITY_RAZING_HELP</zType>
+		<de-DE>Spieler haben die Möglichkeit Stadte den Erdboden gleichzumachen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAMEOPTION_MP_JOIN_AS_ANY_PLAYER</zType>
@@ -4162,6 +4840,59 @@
 		<de-DE>Spieler können dem Spiel aus Zuschauer beitreten</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_GAME_OPTION_PRESET_NONE</zType>
+		<de-DE>Standard Einstellungens</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_OPTION_PRESET_LONG_LASTING_CHARACTERS</zType>
+		<de-DE>Lang-Lebende Charakere</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_OPTION_PRESET_LONG_LASTING_CHARACTERS_HELP</zType>
+		<de-DE>Play with a stable cast of characters and minimal events.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_OPTION_PRESET_RANDOM_EVERYTHING</zType>
+		<de-DE>Zufällig</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_OPTION_PRESET_RANDOM_EVERYTHING_HELP</zType>
+		<de-DE>Start with randomized families and link(CONCEPT_ROYAL,2) for more variability.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_OPTION_PRESET_ONE_CITY</zType>
+		<de-DE>Eine Stadt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_OPTION_PRESET_ONE_CITY_HELP</zType>
+		<de-DE>Du kannst nicht mehr als eine Stadt gründen.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_OPTION_PRESET_ROLE_PLAYING</zType>
+		<de-DE>Rollenspiel</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_OPTION_PRESET_ROLE_PLAYING_HELP</zType>
+		<de-DE>Death is common and fortunes can swing considerably in this event-heavy mode where gameplay effects of event options are hidden.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_OPTION_PRESET_CHESS_MODE</zType>
+		<de-DE>Schach Modus</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_OPTION_PRESET_CHESS_MODE_HELP</zType>
+		<de-DE>All about tactics and nothing about luck.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_OPTION_PRESET_PUNISHING</zType>
+		<de-DE>Bestrafend</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_OPTION_PRESET_PUNISHING_HELP</zType>
+		<de-DE>Try to survive in a harsh world where everyone is out to get you and the only path to victory is war.</de-DE>
+	</Entry>
+	<!--InfoGender-->
+	<Entry>	
 		<zType>TEXT_GENDER_FEMALE</zType>
 		<de-DE>Weiblich</de-DE>
 	</Entry>
@@ -4267,7 +4998,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_SHOW_ZOC</zType>
-		<de-DE>Zeige Kontrollzone (ZOC)</de-DE>
+		<de-DE>Zeige link(CONCEPT_ZOC,1)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_SHOW_DANGER_TILES</zType>
@@ -4275,15 +5006,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_SHOW_TRADE_NETWORK</zType>
-		<de-DE>Zeige Handelsnetz</de-DE>
+		<de-DE>Zeige link(CONCEPT_TRADE_NETWORK)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_SHOW_ROADS_RIVERS</zType>
-		<de-DE>Zeige Straßen und Flüsse</de-DE>
+		<de-DE>Zeige link(CONCEPT_ROAD,2) und link(CONCEPT_RIVER,2)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_SHOW_IDLE_UNITS</zType>
-		<de-DE>Zeige untätige Einheiten</de-DE>
+		<de-DE>Zeige link(CONCEPT_PROMOTION,2) and link(CONCEPT_IDLE) Einheiten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_SHOW_RESOURCES_IMPROVEMENTS</zType>
@@ -4327,19 +5058,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_INCREASE_TURN_STYLE</zType>
-		<de-DE>Erhöhe die Zug-art</de-DE>
+		<de-DE>Nächste Zug-Art</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_DECREASE_TURN_STYLE</zType>
-		<de-DE>Verringere die Zug-art</de-DE>
+		<de-DE>Vorherige Zug-Art</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_INCREASE_TURN_TIMER</zType>
-		<de-DE>Erhöhe den Zug Timer</de-DE>
+		<de-DE>Erhöhe den Zug-Timer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_DECREASE_TURN_TIMER</zType>
-		<de-DE>Verringere den Zug Timer</de-DE>
+		<de-DE>Verringere den Zug-Timer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_MUTE</zType>
@@ -4347,7 +5078,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_CLEAR_SELECTION</zType>
-		<de-DE>Hebe Auswahl auf</de-DE>
+		<de-DE>Auswahl aufheben</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_CYCLE_IDLE_1</zType>
@@ -4439,35 +5170,39 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_VICTORY_SCREEN</zType>
-		<de-DE>Show VICTORY Screen</de-DE>
+		<de-DE>Zeige Siedgebdinungen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_INHERITANCE_SCREEN</zType>
-		<de-DE>Show Inheritance Screen</de-DE>
+		<de-DE>Zeige Erbschaft</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_LAWS_SCREEN</zType>
-		<de-DE>Show Laws Screen</de-DE>
+		<de-DE>Zeige Gesetze</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_LOG_SCREEN</zType>
-		<de-DE>Show VICTORY Screen</de-DE>
+		<de-DE>Zeige Siedgebdinungen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_TECH_SCREEN</zType>
-		<de-DE>Show Tech Screen</de-DE>
+		<de-DE>Zeige Technologien</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_CITY_LIST</zType>
-		<de-DE>Show City List</de-DE>
+		<de-DE>Zeige Städte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOTKEY_STATS_SCREEN</zType>
+		<de-DE>Zeige Rekorde</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_MAP_SCREEN</zType>
-		<de-DE>Show Map Screen</de-DE>
+		<de-DE>Zeige Map</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_HELP_SCREEN</zType>
-		<de-DE>Show Help Screen</de-DE>
+		<de-DE>Zeige Hilfe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_AI_LOG</zType>
@@ -4491,19 +5226,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_CLOSE_POPUP</zType>
-		<de-DE>Schließe Popup</de-DE>
+		<de-DE>Popup schließen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_EXPAND_TOOLTIP</zType>
-		<de-DE>Erweitere Tooltip</de-DE>
+		<de-DE>Tooltip erweiterm</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_LOCK_TOOLTIP</zType>
-		<de-DE>Sperre Tooltip</de-DE>
+		<de-DE>Tooltip sperren</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_FREEZE_TOOLTIP</zType>
-		<de-DE>Sperre Tooltip</de-DE>
+		<de-DE>Tooltip sperren (Halten)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_SAVE</zType>
@@ -4518,8 +5253,12 @@
 		<de-DE>Autosave laden</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HOTKEY_SCREENSHOT</zType>
+		<de-DE>Screenshot</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HOTKEY_DEBUG_MENU</zType>
-		<de-DE>Toggle Debug Menu</de-DE>
+		<de-DE>Debug Menu umschalten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_REVEAL_MAP</zType>
@@ -4531,11 +5270,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_UNLOCK_NEXT_TECH</zType>
-		<de-DE>Unlock Next Tech</de-DE>
+		<de-DE>Nächste Technologie entsperren</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_UNLOCK_ALL_TECHS</zType>
-		<de-DE>Unlock All Techs</de-DE>
+		<de-DE>Alle Technologien entsperren</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOTKEY_RELOAD_INFOS</zType>
@@ -4745,6 +5484,7 @@
 		<zType>TEXT_MORTALITY_REALISTIC_HELP</zType>
 		<de-DE>Gemein, brutal und kurz</de-DE>
 	</Entry>
+	<!--InfoPing-->
 	<Entry>
 		<zType>TEXT_PING_GENERIC</zType>
 		<de-DE>Achtung</de-DE>
@@ -4793,6 +5533,7 @@
 		<zType>TEXT_PING_NOTE_LOG</zType>
 		<de-DE>Ich hab eine Nachricht hinterlassen.</de-DE>
 	</Entry>
+	<!--InfoOpponentLevel-->
 	<Entry>
 		<zType>TEXT_OPPONENTLEVEL_PASSIVE</zType>
 		<de-DE>Zurückhaltend</de-DE>
@@ -4811,8 +5552,9 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_OPPONENTLEVEL_COMPETITIVE</zType>
-		<de-DE>Wettbewerb</de-DE>
+		<de-DE>Wettkampf</de-DE>
 	</Entry>
+	<!--InfoRating-->
 	<Entry>
 		<zType>TEXT_RATING_WISDOM</zType>
 		<de-DE>Weisheit</de-DE>
@@ -4963,6 +5705,51 @@ Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.</de-DE>
 		<de-DE>Krabben</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_RESOURCE_SILK</zType>
+		<de-DE>Seide</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_PORCELAIN</zType>
+		<de-DE>Porzellan</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_EXOTIC_FUR</zType>
+		<de-DE>Exotische Felle</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_EBONY</zType>
+		<de-DE>Ebenholz</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_PERFUME</zType>
+		<de-DE>Parfüm</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_IVORY</zType>
+		<de-DE>Elfenbein</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_TEA</zType>
+		<de-DE>Tee</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_SPICES</zType>
+		<de-DE>Gewürze</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_EXOTIC_ANIMALS</zType>
+		<de-DE>Exotische Tiere</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_SILPHIUM</zType>
+		<de-DE>Silphium</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RESOURCE_JADE</zType>
+		<de-DE>Jade</de-DE>
+	</Entry>
+	<!--InfoWarState-->
+	<Entry>
 		<zType>TEXT_TEAMNATION_ALLOW_DUPLICATES</zType>
 		<de-DE>Allow Duplicates</de-DE>
 	</Entry>
@@ -5010,6 +5797,7 @@ Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.</de-DE>
 		<zType>TEXT_WARSTATE_TRIUMPHANT</zType>
 		<de-DE>Siegreich</de-DE>
 	</Entry>
+	<!--InfoSuccessionOrder-->
 	<Entry>
 		<zType>TEXT_SUCCESSIONORDER_PRIMOGENITURE</zType>
 		<de-DE>Erstgeburt</de-DE>
@@ -5058,6 +5846,7 @@ Für Feldherren erhöht Disziplin die EP der Einheiten jedes Jahr.</de-DE>
 		<zType>TEXT_SUCCESSIONORDER_RANDOM_HELP</zType>
 		<de-DE>Jeder Spieler verfolgt ein zufälliges, möglicherweise anderes, Nachfolge Gesetz</de-DE>
 	</Entry>
+	<!--InfoSuccessionGender-->
 	<Entry>
 		<zType>TEXT_SUCCESSIONGENDER_AGNATIC</zType>
 		<de-DE>Senioratsprinzip</de-DE>
