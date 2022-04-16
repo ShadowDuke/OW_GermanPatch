@@ -359,6 +359,10 @@
 		<de-DE>Untätige Familien/Religions Oberhäupter ({0_count})</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_REMINDER_CATEGORY_LEADER</zType>
+		<de-DE>Untätiges Oberhaupt ({0_count})</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_TILE_BOUNDARY_TOOLTIP_WATER_TITLE</zType>
 		<de-DE>Unbekanntes Meer</de-DE>
 	</Entry>
@@ -455,10 +459,6 @@
 		<de-DE>KI vs. {0}</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_ROUT</zType>
-		<de-DE>Aufstöbern ({0})</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_UI_UNIT_ATTACK_PREVIEW_DISTANCE</zType>
 		<de-DE>Entfernung</de-DE>
 	</Entry>
@@ -493,6 +493,14 @@
 	<Entry>
 		<zType>TEXT_UI_CITY_ATTACK_PREVIEW_POPULATION</zType>
 		<de-DE>Bevölkerung</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_ATTACK_PREVIEW_COUNTER_DAMAGE</zType>
+		<de-DE>Konterangriff</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_ATTACK_PREVIEW_DAMAGE</zType>
+		<de-DE>Angriffsschaden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_UNIT_COOLDOWN_FATIGUED</zType>
@@ -1487,6 +1495,10 @@ The network connection will be terminated.
 		<de-DE>{0_character} (Head of {1_head}) ist untätig und kann auf eine Mission geschick werden</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CHARACTER_MISSIONS_AVAILABLE_LEADER</zType>
+		<de-DE>{0_character} ist untätig und kann auf eine Mission geschickt werden</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CHARACTER_TUTOR_AVAILABLE</zType>
 		<de-DE>{0_character} kann unterrichtet werden</de-DE>
 	</Entry>
@@ -1689,6 +1701,10 @@ The network connection will be terminated.
 		<zType>TEXT_MP_SERVER_PASSWORD_HELP</zType>
 		<de-DE>To control this remotely hosted game and change some parameters while it is running, enter the server password and press [ENTER].</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_MP_SERVER_HOST_CONTROLS_HELP</zType>
+		<de-DE>Access some host functionality without joining the game. Enter the host password first.</de-DE>
+	</Entry>
     <!--games header in multiplayer-->
     <Entry>
         <zType>TEXT_GAME_HEADER_NAME_CELL</zType>
@@ -1767,6 +1783,10 @@ The network connection will be terminated.
 	<Entry>
 		<zType>TEXT_HOF_HEADER_VICTORY_SCENARIO</zType>
 		<de-DE>Szenario Sieg</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HOF_HEADER_DEFEAT_SCENARIO</zType>
+		<de-DE>Szenario verloren</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HOF_HEADER_DEFEAT</zType>
@@ -2000,6 +2020,10 @@ The network connection will be terminated.
 	<Entry>
 		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_HOSTPASSWORD</zType>
 		<de-DE>Host Passwort</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MP_PLAYERS_SCREEN_HOST_CONTROL_BUTTON</zType>
+		<de-DE>Host Einstellungen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MP_SETUP_GAMEOPTIONS_LABEL_TURN_URL</zType>
@@ -3055,6 +3079,10 @@ The network connection will be terminated.
 		<de-DE>Verschiedenes</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_GRAPHS_TURN_AXIS_LABEL</zType>
+		<de-DE>Zug</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_GRAPHS_PRODUCTION</zType>
 		<de-DE>Ressourcen Produktion</de-DE>
 	</Entry>
@@ -3083,6 +3111,42 @@ The network connection will be terminated.
 		<de-DE>Gebiete Erkundet</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_GRAPHS_POINTS</zType>
+		<de-DE>Siegpunkte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_GRAPHS_PRICES</zType>
+		<de-DE>Ressourcen Preise</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_STATS_RESOURCE_VALUE</zType>
+		<de-DE>Landesweiter Wohlstand</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_STATS_POPULATION</zType>
+		<de-DE>Gesamte Bevölkerung</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_STATS_SPECIALISTS</zType>
+		<de-DE>Spezialisten ausgebildet</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_STATS_TOTAL_TECHS</zType>
+		<de-DE>Technologien entdeckt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_STATS_BEST_LEADER</zType>
+		<de-DE>Längste Herrschaft</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_STATS_TOTAL_IMPROVEMENTS</zType>
+		<de-DE>Verbesserungen errichtet</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_STATS_WONDERS</zType>
+		<de-DE>Wunder kontrolliert</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_STATS_LAWS_ADOPTED</zType>
 		<de-DE>Gesetze eingeführt</de-DE>
 	</Entry>
@@ -3091,8 +3155,36 @@ The network connection will be terminated.
 		<de-DE>Baumeister ausgebildet</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UI_STATS_UNITS_LOST</zType>
+		<de-DE>Einheiten verloren</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_STATS_UNITS_KILLED</zType>
+		<de-DE>Einheiten getötet</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_STATS_TRIBE_CLEARED</zType>
+		<de-DE>Lager gesäubert</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_STATS_COURTIERS</zType>
+		<de-DE>Vertraute gewonnen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_STATS_RUINS_EXPLORED</zType>
+		<de-DE>Ruinen erkundet</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_STATS_STAT_RANK</zType>
+		<de-DE>{0_rank}. {1_player}: {2_value}</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UI_STATS_TOTAL_MILITARY</zType>
 		<de-DE>Militäreinheiten ausgebildet</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UI_STATS_TOTAL_VALUE</zType>
+		<de-DE>Gesamter Wert: {0_moneyValue}</de-DE>
 	</Entry>
 	<!-- Main Menu-->
     <Entry>

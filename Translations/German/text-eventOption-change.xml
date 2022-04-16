@@ -1063,7 +1063,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MANICHAEISM_FOUNDED_US_0</zType>
-		<de-DE>Lade die Oberhäupter ein, eure Wissenschaftler zu treffen.</de-DE>
+		<de-DE>Lade die Oberhäupter ein, eure Gelehrtern zu treffen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MANICHAEISM_FOUNDED_US_1</zType>
@@ -1375,7 +1375,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_THE_WEIGHT_OF_DEBT_1</zType>
-		<de-DE>Sagen unseren Wissenschaftlern sie sollen {G1:ihm:ihr} ein Buch der großen Worte schreiben.</de-DE>
+		<de-DE>Saget unseren Gelehrtern sie sollen {G1:ihm:ihr} ein Buch der großen Worte schreiben.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_THE_WEIGHT_OF_DEBT_2</zType>
@@ -5010,7 +5010,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_NEW_HUMANS_OPTION_1</zType>
-		<de-DE><![CDATA[Schicke Gelehrte und Wissenschaftler um dem nachzugehen.]]></de-DE>
+		<de-DE><![CDATA[Schicke Schüler und Gelehrte um dem nachzugehen.]]></de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_SUNKEN_TOMBS_OPTION_0</zType>
@@ -5042,7 +5042,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_RAISED_FIELDS_OPTION_1</zType>
-		<de-DE><![CDATA[Erlaube Wissenschaftlern die Methode zu erforschen.]]></de-DE>
+		<de-DE><![CDATA[Erlaube Gelehrtern die Methode zu erforschen.]]></de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_GRAVE_CIRCLES_OPTION_0</zType>
@@ -5098,7 +5098,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_BEADS_AND_FIGURINES_OPTION_0</zType>
-		<de-DE><![CDATA[Wissenschaftler werden die Zukunft formen.]]></de-DE>
+		<de-DE><![CDATA[Gelehrte werden die Zukunft formen.]]></de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_BEADS_AND_FIGURINES_OPTION_1</zType>
@@ -25647,14 +25647,6 @@
 		<de-DE>I'll link(CONCEPT_HURRY) in my Cities if I need to!</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_VICTORY_OK</zType>
-		<de-DE>Show me how this came to pass.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_VICTORY_OK_HELP</zType>
-		<de-DE>Opens the timeline so you can view your history.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EVENTOPTION_VICTORY_CONTINUE</zType>
 		<de-DE>I am not done with my story.</de-DE>
 	</Entry>
@@ -25669,14 +25661,6 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_VICTORY_MAIN_MENU_HELP</zType>
 		<de-DE>Exit to the Main Menu</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_LOSS_OK</zType>
-		<de-DE>Show me how this came to pass.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_EVENTOPTION_LOSS_OK_HELP</zType>
-		<de-DE>Opens the timeline so you can view your history.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_LOSS_MAIN_MENU</zType>

@@ -173,6 +173,14 @@
 		<zType>TEXT_CHARACTER_TITLE_PRIEST_OF_MELQUART_F</zType>
 		<de-DE>Haupt Priesterin</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_GRAND_EXPLORER</zType>
+		<de-DE>Großer Entdecker</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_GRAND_EXPLORER_F</zType>
+		<de-DE>Große Entdeckerin</de-DE>
+	</Entry>
 	<!-- Relation -->
 	<Entry comment="TEXT_CHARACTER_RELATION texts have the leader (i.e. 'You') as variable index 1 for gender">
 		<zType>TEXT_CHARACTER_RELATION_YOU</zType>

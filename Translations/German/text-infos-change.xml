@@ -2356,14 +2356,6 @@
 		<de-DE>Bodkin-Spitze</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_TECH_BODKIN_ARROW_BONUS_TRAINING</zType>
-		<de-DE>link(YIELD_TRAINING) Schub</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_TECH_BODKIN_ARROW_BONUS_TRAINING</zType>
-		<de-DE>link(YIELD_TRAINING) Schub</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_TECH_COHORTS</zType>
 		<de-DE>Kohorten</de-DE>
 	</Entry>
@@ -2741,14 +2733,6 @@
 		<de-DE>This bonus gives a one-off boost to reduce link(YIELD_DISCONTENT) in all of your Cities, lowering their link(YIELD_MAINTENANCE) penalty and increasing their owning Family's opinion. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again.</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_GUIDE_TECH_BODKIN_ARROW</zType>
-		<de-DE>Researching Bodkin Arrows unlocks the link(UNIT_LONGBOWMAN) Unit, a very effective high damage and long range ranged attacker.</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_GUIDE_TECH_BODKIN_ARROW_BONUS_TRAINING</zType>
-		<de-DE>This bonus gives a one-off boost of link(YIELD_TRAINING), useful for Forced Marching or Promoting your military Units. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again.</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_GUIDE_TECH_COHORTS</zType>
 		<de-DE>The Cohorts tech unlocks the link(UNIT_SWORDSMAN) unit, the pinnacle of melee infantry Units. Combining an arcing cleave attack with a bonus against infantry Units makes these costly soldiers devastating as a front line force against other infantry.</de-DE>
 	</Entry>
@@ -3043,7 +3027,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_SCHOLAR_ARCHETYPE_NICKNAME</zType>
-		<de-DE>der Wissenschaftler</de-DE>
+		<de-DE>der Gelehrte</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TRAIT_AFFABLE_NICKNAME</zType>
@@ -3371,11 +3355,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CULTURE_WEAK</zType>
-		<de-DE>Schwach</de-DE>
+		<de-DE>Schwache</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CULTURE_DEVELOPING</zType>
-		<de-DE>Entfaltet</de-DE>
+		<de-DE>Entfaltete</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CULTURE_STRONG</zType>
@@ -3919,15 +3903,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_COURTIER_MERCHANT_NICKNAME</zType>
-		<de-DE>der kaufmann</de-DE>
+		<de-DE>der Kaufmann</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COURTIER_SCIENTIST</zType>
-		<de-DE>Wissenschaftler des Hofstaats</de-DE>
+		<de-DE>Gelehrter des Hofstaats</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_COURTIER_SCIENTIST_NICKNAME</zType>
-		<de-DE>der Wissenschaftler</de-DE>
+		<de-DE>der Gelehrte</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_ADVANTAGE_NONE</zType>

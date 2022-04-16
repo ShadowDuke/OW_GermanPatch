@@ -212,27 +212,27 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_52</zType>
-		<de-DE>If your Leader is not able to complete an Ambition before death, it becomes a Legacy. Legacies count towards an Ambition Victory but are worth less link(CONCEPT_LEGITIMACY)icon(YIELD_LEGITIMACY).</de-DE>
+		<de-DE>If your Leader is not able to complete an link(CONCEPT_AMBITION) before death, it becomes a link(CONCEPT_LEGACY). Legacies count towards an link(VICTORY_AMBITION) but are worth less  icon(YIELD_LEGITIMACY)link(CONCEPT_LEGITIMACY).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_53</zType>
-		<de-DE>Barbarian level, chosen under Advanced Setup, affects the number of empty city sites near your capital.</de-DE>
+		<de-DE>Tribal Strength, chosen under Advanced Setup, affects the number of empty link(CONCEPT_CITY_SITE,2) near your link(CONCEPT_CAPITAL).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_54</zType>
-		<de-DE>Non-coastal link(CONCEPT_URBAN) buildings must be adjacent to the City or to two other link(CONCEPT_URBAN) buildings.</de-DE>
+		<de-DE>Non-coastal link(CONCEPT_URBAN) link(CONCEPT_IMPROVEMENT,2) must be adjacent to the City tile or to two other link(CONCEPT_URBAN) link(CONCEPT_IMPROVEMENT,2).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_55</zType>
-		<de-DE>link(CONCEPT_URBAN) buildings on the coast need only be adjacent to one other link(CONCEPT_URBAN) building or the City.</de-DE>
+		<de-DE>link(CONCEPT_URBAN) link(CONCEPT_IMPROVEMENT,2) on the coast need only be adjacent to one other link(CONCEPT_URBAN) link(CONCEPT_IMPROVEMENT) on the same coast or the City tile.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_56</zType>
-		<de-DE>With a link(UNIT_WORKER) selected, hold CTRL and move the cursor over a tile to see what Improvements can be built there.</de-DE>
+		<de-DE>With a link(UNIT_WORKER) selected, hold [CTRL] and move the cursor over a tile to see what link(CONCEPT_IMPROVEMENT,2) can be built there.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_57</zType>
-		<de-DE>link(UNIT_SCOUT,2) are invisible in link(VEGETATION_TREES).</de-DE>
+		<de-DE>link(UNIT_SCOUT,2) are link(CONCEPT_HIDDEN) while on a link(VEGETATION_TREES) tile in neutral or friendly territory.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_58</zType>
@@ -240,11 +240,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_59</zType>
-		<de-DE>Specialist are produced faster in higher-level improvements. (Poets take less time in an link(IMPROVEMENT_THEATER_2) than in an link(IMPROVEMENT_THEATER_1) - and even less time in a link(IMPROVEMENT_THEATER_3).)</de-DE>
-	</Entry>	 
+		<de-DE>link(CONCEPT_SPECIALIST,2) are produced faster in higher-level link(CONCEPT_IMPROVEMENT,2). (link(SPECIALIST_POET_1,2) take less time in a link(IMPROVEMENT_THEATER_2) than in an link(IMPROVEMENT_THEATER_1) - and even less time in an link(IMPROVEMENT_THEATER_3).)</de-DE>
+	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_60</zType>
-		<de-DE>Hold down [SHIFT] when moving a Unit to assign a multi-turn destination. The Unit will move (to the edge of its Fatigue range) towards that Tile each turn.</de-DE>
+		<de-DE>Hold down [SHIFT] when moving a Unit to assign a multi-turn destination. The Unit will move (to the edge of its link(CONCEPT_FATIGUE) range) towards that tile each turn.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_61</zType>
@@ -252,95 +252,95 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_62</zType>
-		<de-DE>Cities gain link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) over time. When a City's link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) meter is filled, its overall link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) Level goes up, which increases link(YIELD_MAINTENANCE)icon(YIELD_MAINTENANCE) and reduces link(YIELD_GROWTH)icon(YIELD_GROWTH).</de-DE>
+		<de-DE>Cities gain link(YIELD_DISCONTENT,1) over time. When a City's link(YIELD_DISCONTENT) meter is filled, its overall link(YIELD_DISCONTENT) Level goes up, which increases link(YIELD_MAINTENANCE,1) and reduces link(YIELD_GROWTH,1) and link(YIELD_SCIENCE,1).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_63</zType>
-		<de-DE>link(CONCEPT_FAMILY) Classes determine what effects a link(CONCEPT_FAMILY) has on its Cities, as well as what Laws, link(CONCEPT_LUXURY,2), and other conditions keep them happy.</de-DE>
+		<de-DE>link(CONCEPT_FAMILY_CLASS,2) determine what effects a link(CONCEPT_FAMILY) has on its Cities, as well as what Laws, link(CONCEPT_LUXURY,2), and other conditions keep them happy.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_64</zType>
-		<de-DE>You can reduce link(YIELD_DISCONTENT)icon(YIELD_DISCONTENT) by connecting your cities with link(CONCEPT_ROAD,2), recruiting link(SPECIALISTCLASS_PRIEST,1), and building link(IMPROVEMENTCLASS_BATHS,2).</de-DE>
+		<de-DE>You can reduce link(YIELD_DISCONTENT,1) by connecting your Cities with link(CONCEPT_ROAD,2), recruiting link(SPECIALISTCLASS_PRIEST,1), and building link(IMPROVEMENTCLASS_BATHS,2). Certain other combinations of link(CONCEPT_IMPROVEMENT,2), link(CONCEPT_SPECIALIST,2), and laws reduce link(YIELD_DISCONTENT,1) as well.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_65</zType>
-		<de-DE>link(UNIT_SCOUT,2), link(UNIT_SETTLER,2) and link(UNIT_WORKER,2) can Harvest a Resource for a quick supply of Goods.</de-DE>
+		<de-DE>link(UNIT_SCOUT,2), link(UNIT_SETTLER,2), and link(UNIT_WORKER,2) can Harvest Resources for a quick supply of Goods.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_66</zType>
-		<de-DE>A Forced March permits a Unit to continue moving this turn when out of Moves, at the cost of int(UNIT_MARCH_COST) link(YIELD_TRAINING)icon(YIELD_TRAINING), and twice as many link(YIELD_ORDERS)icon(YIELD_ORDERS) per additional Move.</de-DE>
+		<de-DE>A link(CONCEPT_MARCH) permits a Unit to continue moving on the current turn when link(CONCEPT_FATIGUE,1), at the cost of int(UNIT_MARCH_COST) link(YIELD_TRAINING,1) and twice as many link(YIELD_ORDERS,1) per additional Move.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_67</zType>
-		<de-DE>A Fatigued Unit can only Move again this turn through a link(CONCEPT_MARCH).</de-DE>
+		<de-DE>A link(CONCEPT_FATIGUE,1) Unit can only Move again on the current turn through a link(CONCEPT_MARCH).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_68</zType>
-		<de-DE>Flank an enemy Unit by attacking it while another friendly Unit is on the opposite side.</de-DE>
+		<de-DE>link(CONCEPT_FLANKING,1) an enemy Unit by attacking it while another friendly Unit is on the opposite side.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_69</zType>
-		<de-DE>Governors can be appointed in Cities with link(IMPROVEMENT_GARRISON_1,1) to provide a boost to Yields.</de-DE>
+		<de-DE>link(CONCEPT_GOVERNOR,2) can be appointed in Cities with a link(IMPROVEMENT_GARRISON_1). Their stats apply a multiplier to the City Yields and their traits can add other bonuses.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_70</zType>
-		<de-DE>Shrines provide various benefits, and can help to spread Paganism.</de-DE>
+		<de-DE>link(IMPROVEMENTCLASS_SHRINE,2) provide various benefits and can help to spread Paganism.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_71</zType>
-		<de-DE>Hold [{0_key}] to hide all Improvements.</de-DE>
+		<de-DE>Hold [hotkey(HOTKEY_HIDE_IMPROVEMENTS)] to hide all link(CONCEPT_IMPROVEMENT,2).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_72</zType>
-		<de-DE>Legitimacy comes from achieving link(CONCEPT_AMBITION,2), and acquiring better link(CONCEPT_COGNOMEN,2) (such as link(COGNOMEN_GREAT)). Higher Legitimacy improves Family Opinions, and produces more link(YIELD_ORDERS) per year.</de-DE>
+		<de-DE>icon(YIELD_LEGITIMACY)link(CONCEPT_LEGITIMACY) is obtained achieving link(CONCEPT_AMBITION,2) and acquiring better link(CONCEPT_COGNOMEN,2) (such as link(COGNOMEN_GREAT)). Higher link(CONCEPT_LEGITIMACY) improves link(CONCEPT_OPINION_FAMILY,2) and produces more link(YIELD_ORDERS,1) per turn.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_73</zType>
-		<de-DE>Adopting a link(CONCEPT_STATE_RELIGION) improves that Religion's opinion of your Nation, and also both reduces link(YIELD_DISCONTENT) and enables the recruitment of link(CONCEPT_DISCIPLE,2) in your Cities of that Religion.</de-DE>
+		<de-DE>Adopting a link(CONCEPT_STATE_RELIGION) improves that Religion's link(CONCEPT_OPINION_RELIGION,3) of your Nation and also both reduces link(YIELD_DISCONTENT) and enables the recruitment of link(CONCEPT_DISCIPLE,2) in your Cities of that Religion.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_74</zType>
-		<de-DE>Luxuries can be Traded to a City to reduce link(YIELD_DISCONTENT). They can also be Traded to other Nations, link(CONCEPT_TRIBE,2), and link(CONCEPT_FAMILY,2) to improve their Opinion of your Nation.</de-DE>
+		<de-DE>link(CONCEPT_LUXURY,2) can be traded to a City to reduce link(YIELD_DISCONTENT,1). They can also be traded to other link(CONCEPT_NATION,2), link(CONCEPT_TRIBE,2), and link(CONCEPT_FAMILY,2) to improve their Opinion of your Nation.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_75</zType>
-		<de-DE>Tribal Mercenary Units can be hired from link(CONCEPT_TRIBE,2) by Carthage, and by Nations with link(TRAIT_ORATOR_ARCHETYPE) Leaders.</de-DE>
+		<de-DE>link(CONCEPT_TRIBE,3) link(CONCEPT_MERCENARY) Units can be hired from link(CONCEPT_TRIBE,2) by Carthage and by link(CONCEPT_NATION,2) with link(TRAIT_ORATOR_ARCHETYPE) Leaders.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_76</zType>
-		<de-DE>A Disciple can spread your link(CONCEPT_STATE_RELIGION) to other Cities. With the link(LAW_ORTHODOXY) law, they can also purge other Religions from your Cities.</de-DE>
+		<de-DE>A link(CONCEPT_DISCIPLE) can spread your link(CONCEPT_STATE_RELIGION) to other Cities. With the link(LAW_ORTHODOXY) law, they can also purge other Religions from your Cities.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_77</zType>
-		<de-DE>Establishing a Theology grants additional bonuses to a World Religion. Theologies are established using Disciples.</de-DE>
+		<de-DE>Establishing a link(CONCEPT_THEOLOGY) grants additional bonuses to a link(CONCEPT_WORLD_RELIGION). link(CONCEPT_THEOLOGY,2) are established using link(CONCEPT_DISCIPLE,2).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_78</zType>
-		<de-DE>A link(IMPROVEMENT_HAMLET), and its upgrades link(IMPROVEMENT_VILLAGE) and link(IMPROVEMENT_TOWN), if brought into your link(CONCEPT_TRADE_NETWORK), will produce extra link(YIELD_MONEY)icon(YIELD_MONEY).</de-DE>
+		<de-DE>A link(IMPROVEMENT_HAMLET) and its upgrades, link(IMPROVEMENT_VILLAGE) and link(IMPROVEMENT_TOWN), produce extra link(YIELD_MONEY,1) if brought into your link(CONCEPT_TRADE_NETWORK).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_79</zType>
-		<de-DE>The link(CONCEPT_TRADE_NETWORK) consists of all Tiles connected to your link(CONCEPT_CAPITAL) City.</de-DE>
+		<de-DE>The link(CONCEPT_TRADE_NETWORK) consists of all tiles connected to your link(CONCEPT_CAPITAL) City.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_80</zType>
-		<de-DE>Cities and link(IMPROVEMENT_HAMLET,2) can be connected with one another over link(CONCEPT_ROAD,2), rivers, and even open water if they are on the coast, or are connected to a link(IMPROVEMENT_HARBOR).</de-DE>
+		<de-DE>Cities and their link(CONCEPT_URBAN) tiles can be connected with one another over link(CONCEPT_ROAD,2), link(CONCEPT_RIVER,2), or open water.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_81</zType>
-		<de-DE>You can check the link(CONCEPT_TRADE_NETWORK) overlay with the icon(MAP_OVERLAY_NETWORK) button below the mini-map, or the hotkey(HOTKEY_SHOW_TRADE_NETWORK) key.</de-DE>
+		<de-DE>You can check the link(CONCEPT_TRADE_NETWORK) overlay with the icon(MAP_OVERLAY_NETWORK) button beside the mini-map or by holding the hotkey(HOTKEY_SHOW_TRADE_NETWORK) key.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_82</zType>
-		<de-DE>You can verify that a City is connected by checking that the  icon(CONNECTED) icon is displayed under its City banner.</de-DE>
+		<de-DE>You can verify that a City is connected to your link(CONCEPT_TRADE_NETWORK) by checking that the icon(CONNECTED) icon is displayed under its City banner.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_83</zType>
-		<de-DE>To find how many movement steps a unit requires to go from one tile to another: select the unit, [CTRL+Click] on the start tile, and hover over the destination tile with the mouse.</de-DE>
+		<de-DE>To find how many movement steps a Unit requires to go from one tile to another, select the Unit and hover over the destination tile with the mouse.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_84</zType>
-		<de-DE>link(UNIT_WORKER,2) take more time and resources to improve hills.</de-DE>
+		<de-DE>link(TERRAIN_URBAN) link(CONCEPT_IMPROVEMENT,2) require extra link(YIELD_STONE,1) when built on link(HEIGHT_HILL,2).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_85</zType>
@@ -376,11 +376,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_93</zType>
-		<de-DE>The Cities of link(CONCEPT_FAMILY,2) with a low link(CONCEPT_OPINION_FAMILY,3) of you cost more link(YIELD_MAINTENANCE) and produce fewer link(YIELD_CIVICS) and less link(YIELD_TRAINING). Their Units fight less effectively too!</de-DE>
+		<de-DE>The Cities of link(CONCEPT_FAMILY,2) with a low link(CONCEPT_OPINION_FAMILY,3) of you cost more link(YIELD_MAINTENANCE). Their Units fight less effectively too!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_94</zType>
-		<de-DE>Angry link(CONCEPT_FAMILY,2) can rebel against your rule, spawning link(TRIBE_REBELS,1) Units around their Cities. Your Units from that link(CONCEPT_FAMILY) are not as effective when fighting against link(TRIBE_REBELS).</de-DE>
+		<de-DE>Angry link(CONCEPT_FAMILY,2) can rebel against your rule, spawning link(TRIBE_REBELS,1) Units around their Cities. Your Units from that link(CONCEPT_FAMILY) are not as effective when fighting against their own link(TRIBE_REBELS).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_95</zType>
@@ -392,19 +392,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_97</zType>
-		<de-DE>You can improve your relations with Leaders of other Nations by conducting Trade Missions with them.</de-DE>
+		<de-DE>You can improve your relations with Leaders of other link(CONCEPT_NATION,2) by conducting Trade Missions with them.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_98</zType>
-		<de-DE>link(UNIT_SCOUT,2) can establish link(CONCEPT_AGENT_NETWORK,2) in Foreign Cities to immediately gain visibility of the City and its territory. Subsequently, you can assign Characters as link(CONCEPT_AGENT,2), who can perform link(MISSION_TREACHERY) or link(MISSION_INSURRECTION) Missions on their Cities.</de-DE>
+		<de-DE>link(UNIT_SCOUT,2) can establish link(CONCEPT_AGENT_NETWORK,2) in Foreign Cities. Subsequently, you can assign Characters as link(CONCEPT_AGENT,2) to gain visibility of the City and its territory. link(CONCEPT_AGENT,2) can also perform link(MISSION_TREACHERY) or link(MISSION_INSURRECTION) Missions on their Cities.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_99</zType>
-		<de-DE>Don't forget to assign link(CONCEPT_COUNCILOR,2). They perform essential Missions for your Nation, and they raise their Family's opinion of you.</de-DE>
+		<de-DE>Don't forget to assign link(CONCEPT_COUNCILOR,2). They perform essential Missions for your link(CONCEPT_NATION), and they raise their link(CONCEPT_FAMILY)'s link(CONCEPT_OPINION_FAMILY,3) of you.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_100</zType>
-		<de-DE>You need an link(COUNCIL_AMBASSADOR) to conduct diplomacy with other Nations and Tribes. They can also perform the link(MISSION_TRADE_MISSION) and link(MISSION_HIGH_SYNOD) Missions.</de-DE>
+		<de-DE>You need an link(COUNCIL_AMBASSADOR) to conduct diplomacy with other link(CONCEPT_NATION,2) and link(CONCEPT_TRIBE,2). link(COUNCIL_AMBASSADOR,2) can also perform the link(MISSION_TRADE_MISSION) and link(MISSION_HIGH_SYNOD) Missions.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_101</zType>
@@ -416,10 +416,22 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_103</zType>
-		<de-DE>Cities need at least as many link(CONCEPT_URBAN) tiles as they have Population points, otherwise they start to become discontent.</de-DE>
+		<de-DE>Cities need at least as many link(CONCEPT_URBAN) tiles as they have link(CONCEPT_CITIZEN,2). Otherwise, the City's link(YIELD_DISCONTENT,1) will increase.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_104</zType>
 		<de-DE>With a link(UNIT_WORKER) selected, hold down [SHIFT] to queue up multiple moves and link(CONCEPT_IMPROVEMENT,2).</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_105</zType>
+		<de-DE>Units inside their own link(CONCEPT_FAMILY)'s territory receive a favorable modifier to their combat strength.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_106</zType>
+		<de-DE>With a unit selected, hover the mouse cursor over enemy Units to preview combat damage. Hold [ALT] to preview even for non-enemy Units.</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HINT_107</zType>
+		<de-DE>To predict the number of orders needed for a Unit to go from one tile to another by way of a third tile, select the Unit and [CTRL+Click] on the third tile.</de-DE>
 	</Entry>
 </Root>

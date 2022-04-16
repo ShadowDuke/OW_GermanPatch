@@ -678,6 +678,10 @@
 		<de-DE>Accepted our offered suitor</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MEMORYPLAYER_RECOGNIZED_CLAIM</zType>
+		<de-DE>Did not contradict expeditions claims of ownership</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MEMORYPLAYER_DENOUNCED_US</zType>
 		<de-DE>Denounce us publicly</de-DE>
 	</Entry>
@@ -816,6 +820,14 @@
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_DISCOURTEOUS_RULER</zType>
 		<de-DE>Treated discourteously in court</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYPLAYER_RETURNED_WAYWARD_SON</zType>
+		<de-DE>Missratenen Sohn zurückgeschickt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYPLAYER_WARRIOR_OF_NATION_KILL</zType>
+		<de-DE>Tötete verwundeten Adligen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYPLAYER_EXECUTED_OUR_AGENT</zType>
@@ -1020,6 +1032,10 @@
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_SPOUSE_TOO_EXPENSIVE</zType>
 		<de-DE>Didn't help my education</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYCHARACTER_SPOUSE_TOO_HELPFUL</zType>
+		<de-DE>Hat meine Hilfe nicht akzeptiert</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYCHARACTER_DENIED_PEACE_DEAL</zType>
@@ -2558,6 +2574,14 @@
 		<de-DE>Attended tribal feast alone</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_MEMORYFAMILY_INVITED_TO_FEAST</zType>
+		<de-DE>Zu Stamm-Festmahl eingeladen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_NOT_INVITED_TO_FEAST</zType>
+		<de-DE>Nicht zu Stamm-Festmahl eingeladen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_MEMORYFAMILY_IGNORED_FESTIVAL_REQUEST</zType>
 		<de-DE>Ignored request for a festival</de-DE>
 	</Entry>
@@ -3657,6 +3681,10 @@
 		<zType>TEXT_MEMORYCHARACTER_MEMORYCHARACTER_REBEL_WRITER_ON_TRIAL</zType>
 		<de-DE>Gave the rebel writer a trial</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYRELIGION_MEMORYRELIGION_AMARNA_REFORMER</zType>
+		<de-DE>Amarna Reformer</de-DE>
+	</Entry>
 	<Entry beginGroup="Tribe">
 		<zType>TEXT_MEMORYCHARACTER_BLAMED_FOR_EXECUTED_SPIES</zType>
 		<de-DE>Blamed for espionage debacle</de-DE>
@@ -3840,6 +3868,14 @@
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_CEREMONIAL_OFFERING_REQUISITION</zType>
 		<de-DE>Requisitioned supplies for ceremonies</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_PROMISED_SERFDOM</zType>
+		<de-DE>Versprochen die Bauern zurechtzuweisen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYFAMILY_SUPPORTED_PEASANTS</zType>
+		<de-DE>Bauern Jäger gegenüber Adligen bevorzugt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MEMORYFAMILY_FAMILY_GAMES</zType>
@@ -4201,12 +4237,24 @@
 		<zType>TEXT_MEMORYTRIBE_MARRIED_LEADER</zType>
 		<de-DE>Married our leader</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYCHARACTER_RAISED_PIG</zType>
+		<de-DE>Ein Schwein zusammen großgezogen</de-DE>
+	</Entry>
 	<Entry beginGroup="Exploration">
 		<zType>TEXT_MEMORYFAMILY_MEMORYFAMILY_SUPPORTED_CHAMPION</zType>
-		<de-DE>Supported our champion</de-DE>
+		<de-DE>Unseren Champion unterstüzt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MEMORYPLAYER_RETURNED_HUNTRESS</zType>
+		<de-DE>Verletzte Jägerin der königlichen Familie zurückgeschickt</de-DE>
 	</Entry>
 	<Entry beginGroup="City">
 		<zType>TEXT_MEMORYFAMILY_MEMORYFAMILY_REFUSED_FAMILY_GOVERNOR</zType>
 		<de-DE>Refused to appoint a governor of our family</de-DE>
+	</Entry>
+	<Entry beginGroup="Religion">
+		<zType>TEXT_MEMORYRELIGION_MEMORYRELIGION_SUPPORTED_THE_OLD_GODS</zType>
+		<de-DE>Die alten Götter unterstüzt</de-DE>
 	</Entry>
 </Root>

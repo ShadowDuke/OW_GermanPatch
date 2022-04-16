@@ -335,6 +335,14 @@
 		<de-DE>Allowed scout to steal silver</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_HARVEST_HUNTING_ACCIDENT_PLAYER</zType>
+		<de-DE>Königliches Jagdgebiet beansprucht</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_WAYWARD_SON_PLAYER</zType>
+		<de-DE>Hat die Initiative gegen eine feindliche Macht ergriffen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_RUINS_STRANGE_SCROLL_DESTROY</zType>
 		<de-DE>Zerstörte eine seltsame und gefährliche Schriftrolle</de-DE>
 	</Entry>
@@ -858,6 +866,10 @@
 		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_TRUCE_SOLEMN_PROCESSION_OPTION_NO_RELIGION_PLAYER_1</zType>
 		<de-DE>Renounced the state religion to spite my enemy</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_PLAYER_TRUCE_RESPONSE_FESTERING_VENGEANCE_OPTION_APOLOGY_CHARACTER_1</zType>
+		<de-DE>Um Vorgebung gebettelt</de-DE>
+	</Entry>
 	<Entry beginGroup="Combat">	
 		<zType>TEXT_BONUS_EVENTOPTION_LEADER_SMITING_FOES_STATUE</zType>
 		<de-DE>Smiting Foes</de-DE>
@@ -897,6 +909,10 @@
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_EXOTIC_INFLUENCE_OPTION_1_CHARACTER</zType>
 		<de-DE>Barbarische Beute ausgestellt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_EXOTIC_INFLUENCE_OPTION_3_CHARACTER</zType>
+		<de-DE>Recovered the crest of an ancient hero</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_TRIBE_KINGS_RANSOM_OPTION_1_CHARACTER_0</zType>
@@ -1207,6 +1223,10 @@
 		<de-DE>Child married a commoner</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_CHILD_COMMON_LOVE_OPTION_2_CHARACTER_0</zType>
+		<de-DE>Celebrated a storybook romance</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_CHILD_THE_PUPPIES_OPTION_1_CHARACTER_1</zType>
 		<de-DE>Had to enlist problem child</de-DE>
 	</Entry>
@@ -1237,6 +1257,10 @@
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_LEADER_BLOODLESS_REBELLION_OPTION_2</zType>
 		<de-DE>Brought my rival to ruin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_LEADER_BLOODLESS_REBELLION_OPTION_3</zType>
+		<de-DE>Behauptete das Recht zu Herrschen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_BONUS_EVENTOPTION_LEADER_LEGACY_OF_GOLD_OPTION_0</zType>
@@ -2447,6 +2471,10 @@
 		<zType>TEXT_BONUS_LUXURY_SEEKERS_LEGITIMACY</zType>
 		<de-DE>Allowed an impatient family to dictate your rule</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_WORLD_TOUR_OPTION_1_CITY</zType>
+		<de-DE>Kultur durch Schauspiel verbreitet</de-DE>
+	</Entry>
 	<Entry beginGroup="Exploration">
 		<zType>TEXT_BONUS_TAKING_TROPHIES</zType>
 		<de-DE>Collected a truly magnificent set of antlers</de-DE>
@@ -2499,8 +2527,20 @@
 		<zType>TEXT_BONUS_EVENTOPTION_THE_GOD_QUEEN_OPTION_0_CHARACTER</zType>
 		<de-DE>Birth myth</de-DE>
 	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_EARLY_AMBITIONS_NO</zType>
+		<de-DE>Schmiede meinen eigenen Pfad</de-DE>
+	</Entry>
 	<Entry beginGroup="Royalty">
 		<zType>TEXT_BONUS_EVENTOPTION_RIGHTFUL_HEIR_DEAD_OKAY_CHARACTER_2</zType>
 		<de-DE>Nicht länger Regent</de-DE>
+	</Entry>
+	<Entry beginGroup="Religion">
+		<zType>TEXT_BONUS_EVENTOPTION_THE_TRUE_GOD_ATEN_MONOTHEISM_CHARACTER_0</zType>
+		<de-DE>Kind von Aten</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_BONUS_EVENTOPTION_AKHENATEN_OPTION_0</zType>
+		<de-DE>Benannt nach Aten</de-DE>
 	</Entry>
 </Root>

@@ -396,6 +396,10 @@
 		<de-DE>[Benachbarte Einheiten] {0}</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_ADJACENT_NEW_TURN_UNITS</zType>
+		<de-DE>[Benachbarte Einheiten beim Start eines Zuges] {0}</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_XP_PER_YEAR_ALWAYS</zType>
 		<de-DE>{0} link(CONCEPT_XP)/{1_turnScale}</de-DE>
 	</Entry>
@@ -935,6 +939,10 @@
 		<de-DE>Szenario: {0}</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_MENU_PLAYER</zType>
+		<de-DE>{0} {1} ({2})</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MENU_NATION</zType>
 		<de-DE>Reich: {0}</de-DE>
 	</Entry>
@@ -1088,8 +1096,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_GAME_LOG</zType>
-		<de-DE>Zeigt Spielaufzeichnung{true_0:
-{0_presskey}}</de-DE>
+		<de-DE>Zeige Spielaufzeichnung{true_0:{br}{0_presskey}}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_STATS</zType>
+		<de-DE>Zeige Rekorde{true_0:{br}{0_presskey}}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_TOGGLE_ZOC_OVERLAY</zType>
@@ -4095,6 +4106,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>Cooldown ({0})</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HELPTEXT_UNIT_FREE_ACTIONS</zType>
+		<de-DE>{0} Freie {singular_0:Aktion:Aktionen}</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HELPTEXT_UNIT_TYPE_CONSUMPTION</zType>
 		<de-DE>Verbraucht</de-DE>
 	</Entry>
@@ -4398,6 +4413,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_CAN_ROUT</zType>
 		<de-DE>Kann nach Gefecht {0_routLink}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_NO_ROUT</zType>
+		<de-DE>Darf nicht link(CONCEPT_ROUT,1)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_PUSH_WATER</zType>
@@ -5324,8 +5343,8 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>Geplünderte link(CONCEPT_IMPROVEMENT,2) innerhalb unseres Gebietes: {0_value}</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_HOSTILE_UNITS_IN_TERRITORY</zType>
-		<de-DE>Feindliche Einheiten innerhalb unseres gebietes: {0_value}</de-DE>
+		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_HOSTILE_TRIBE_UNITS_IN_TERRITORY</zType>
+		<de-DE>Feindliche link(CONCEPT_TRIBE,3) Einheiten in unserem Gebiet: {0_value}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILYCLASS_OPINION_LUXURIES</zType>
@@ -6418,8 +6437,8 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<de-DE>{0_value}: Fortschrittlichere Plünderungen innerhalb unseres Gebietes</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_HELPTEXT_FAMILY_HOSTILE_UNITS_IN_TERRITORY</zType>
-		<de-DE>{0_value}: Feindliche Einheiten sind innerhalb unseres Gebietes</de-DE>
+		<zType>TEXT_HELPTEXT_FAMILY_HOSTILE_TRIBE_UNITS_IN_TERRITORY</zType>
+		<de-DE>{0_value}: Feindliche link(CONCEPT_TRIBE,2) sind in unserem Gebiet</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_FAMILY_EACH_CITY_EFFECT</zType>

@@ -43,7 +43,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_GREAT_SCIENTIST</zType>
-		<de-DE>Ein großer Wissenschaftler aus {CITY} taucht auf</de-DE>
+		<de-DE>Ein großer Gelehrter aus {CITY} taucht auf</de-DE>
 	</Entry>
 	<!--Name-->
 	<Entry>
@@ -84,6 +84,6 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTCITY_GREAT_SCIENTIST_NAME</zType>
-		<de-DE>Großer Wissenschaftler</de-DE>
+		<de-DE>Großer Gelehrter</de-DE>
 	</Entry>
 </Root>

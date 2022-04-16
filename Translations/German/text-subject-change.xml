@@ -238,6 +238,10 @@
 		<de-DE>Max link(OPINIONCHARACTER_FURIOUS)</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_SUBJECT_CHARACTER_MIN_UPSET</zType>
+		<de-DE>Min link(OPINIONCHARACTER_UPSET)</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_MIN_CAUTIOUS</zType>
 		<de-DE>Min link(OPINIONCHARACTER_CAUTIOUS)</de-DE>
 	</Entry>
@@ -334,8 +338,16 @@
 		<de-DE>Gesandter</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_SUBJECT_AMBASSADOR_F</zType>
+		<de-DE>Gesandtin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_SUBJECT_ROYAL_NON_LEADER_OR_HEIR_OR_BASTARD</zType>
 		<de-DE>Königlich und nicht Oberhaupt, Erbe oder Bastard</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECT_ROYAL_NON_LEADER_OR_HEIR_OR_BASTARD_F</zType>
+		<de-DE>Königlich und nicht Oberhäuptin, Erbin oder Bastardin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHANCELLOR</zType>
@@ -346,8 +358,16 @@
 		<de-DE>Meisterspion</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_SUBJECT_SPYMASTER_F</zType>
+		<de-DE>Meisterspionin</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECT_CAN_MARRY</zType>
+		<de-DE>Kann heiraten</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_SUBJECT_STUDY_ANY</zType>
-		<de-DE>Schüler</de-DE>
+		<de-DE>Schüler/in</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_AWAY_FROM_COURT</zType>
@@ -430,8 +450,16 @@
 		<de-DE>Waldbewohner</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_SUBJECT_CHARACTER_SYLVAN_F</zType>
+		<de-DE>Waldbewohnerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_SYLVAN</zType>
 		<de-DE>Nicht Waldbewohner</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECT_CHARACTER_NOT_SYLVAN_F</zType>
+		<de-DE>Nicht Waldbewohnerin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_VAIN</zType>
