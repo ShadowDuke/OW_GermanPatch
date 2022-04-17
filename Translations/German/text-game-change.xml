@@ -163,11 +163,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_OTHER_TEAM_NEW_RULER_POPUP</zType>
-		<de-DE>Nachrichten außer Landes haben uns erreicht, das {0_oldLeader} Tot ist. Ein neuer Herrscher, {1_newLeader}, hat den Thron übernommen. (Deren Meinung von dir ist jetzt {2_opinion}.)</de-DE>
+		<de-DE>Nachrichten aus {0_player} haben uns erreicht, das {1_oldLeader} Tot ist. Ein neuer Herrscher, {2_newLeader}, hat den Thron übernommen. (Deren Meinung von dir ist jetzt {3_opinion}.)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_OTHER_TEAM_NEW_RULER_ABDICATE_POPUP</zType>
-		<de-DE>Nachrichten außer Landes haben uns erreicht, das {0_oldLeader} abgedankt hat. Ein neuer Herrscher, {1_newLeader}, hat den Thron übernommen. (Deren Meinung von dir ist jetzt {2_opinion}.)</de-DE>
+		<de-DE>Nachrichten aus {0_player} haben uns erreicht, das {1_oldLeader} abgedankt hat. Ein neuer Herrscher, {2_newLeader}, hat den Thron übernommen. (Deren Meinung von dir ist jetzt {3_opinion}.)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TRIBE_NEW_RULER_POPUP</zType>
