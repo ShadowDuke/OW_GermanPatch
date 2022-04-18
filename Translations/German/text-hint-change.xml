@@ -20,7 +20,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_4</zType>
-		<de-DE>Landeinheiten können sich schnell über Wasser zu Städten und vor Anker liegende Booten die du kontrollierst bewegen..</de-DE>
+		<de-DE>Landeinheiten können sich schnell über Wasser zu Städten und vor Anker liegende Booten die ihr kontrolliert bewegen..</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_5</zType>
@@ -32,7 +32,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_7</zType>
-		<de-DE>Du kannst nur 3 der 4 Familien deiner Nation jedes Spiel benutzen. Probiere herum welche Kombinationen am Besten klappen!</de-DE>
+		<de-DE>Ihr könnt nur 3 der 4 Familien eurer Nation jedes Spiel benutzen. Probiere herum welche Kombinationen am Besten klappen!</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_8</zType>
@@ -40,7 +40,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_9</zType>
-		<de-DE>Falls du nicht alle deine link(YIELD_ORDERS)icon(YIELD_ORDERS benutzen willst, kannst du durch drücken von '6' die aktuelle Runde beenden.</de-DE>
+		<de-DE>Falls ihr nicht alle eure link(YIELD_ORDERS)icon(YIELD_ORDERS benutzen wollt, könnt ihr durch drücken von '6' die aktuelle Runde beenden.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_10</zType>
@@ -48,7 +48,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_11</zType>
-		<de-DE>Wenn du nicht genug Materialien hast um eine Einheit oder Verbesserung zu bauen, halte ALT und klicke um automatsich das zu kaufen, was dir fehlt (Natürlich nur Vorrausgesetzt du hast genug Moneyicon(YIELD_MONEY).</de-DE>
+		<de-DE>Wenn ihr nicht genug Materialien habt um eine Einheit oder Verbesserung zu bauen, haltet ALT und klickt um automatsich das zu kaufen, was euch fehlt (Natürlich nur Vorrausgesetzt ihr habt genug Moneyicon(YIELD_MONEY).</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_12</zType>
@@ -100,11 +100,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_24</zType>
-		<de-DE>Die Anzahl deiner link(YIELD_ORDERS)icon(YIELD_ORDERS) zu vergrößern sollte Vorrang haben. Je mehr Gebiet und Einheiten du kontrollierst, desto mehr link(YIELD_ORDERS)icon(YIELD_ORDERS) wird dein Reich benötigen um zu funktionieren und sich verteidigen zu können.</de-DE>
+		<de-DE>Die Anzahl deiner link(YIELD_ORDERS)icon(YIELD_ORDERS) zu vergrößern sollte Vorrang haben. Je mehr Gebiet und Einheiten ihr kontrolliert, desto mehr link(YIELD_ORDERS)icon(YIELD_ORDERS) wird euer Reich benötigen um zu funktionieren und sich verteidigen zu können.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_25</zType>
-		<de-DE>Die Macht jedes Gesetzes neigt sich zu erhöhen umso mehr dein Reich wächst. Beim erforschen solltest du nicht vernachlässigen neue Gesetze freizuschalten.</de-DE>
+		<de-DE>Die Macht jedes Gesetzes neigt sich zu erhöhen umso mehr dein Reich wächst. Beim erforschen solltest ihr nicht vernachlässigen neue Gesetze freizuschalten.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_26</zType>
@@ -132,7 +132,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_32</zType>
-		<de-DE>Die meisten link(CONCEPT_URBAN) Gebäude Typen benötigt link(YIELD_STONE,1) um konstruiert zu werden. Erwarte hohen Bedarf an link(YIELD_STONE)icon(YIELD_STONE) da das Spiel sich entwickelt und du neue Technologien freischaltest.</de-DE>
+		<de-DE>Die meisten link(CONCEPT_URBAN) Gebäude Typen benötigt link(YIELD_STONE,1) um konstruiert zu werden. Erwarte hohen Bedarf an link(YIELD_STONE)icon(YIELD_STONE) da das Spiel sich entwickelt und ihr neue Technologien freischaltet.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_33</zType>
@@ -140,7 +140,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_34</zType>
-		<de-DE>link(YIELD_WOOD,1) von link(VEGETATION_SCRUB) zu entfernen kostet keine link(YIELD_ORDERS)icon(YIELD_ORDERS). Wenn du dich auf einem Weg woanders hin mit einen link(UNIT_WORKER) durch ein link(VEGETATION_SCRUB) Feld bewegst kannst du etwas kostenloses link(YIELD_WOOD)icon(YIELD_WOOD) sammeln.</de-DE>
+		<de-DE>link(YIELD_WOOD,1) von link(VEGETATION_SCRUB) zu entfernen kostet keine link(YIELD_ORDERS)icon(YIELD_ORDERS). Wenn ihr euch auf einem Weg woanders hin mit einen link(UNIT_WORKER) durch ein link(VEGETATION_SCRUB) Feld bewegst könnt ihr etwas kostenloses link(YIELD_WOOD)icon(YIELD_WOOD) sammeln.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_35</zType>
@@ -156,7 +156,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_38</zType>
-		<de-DE>Volksstämme sind keine Reiche. Wenn sie sich mit dir im link(DIPLOMACY_WAR) befinden können nur ihre Einheiten in deiner Nähe sowie deinem Gebiet eine Bedrohung für dich darstellen, es sei denn du verärgerst sie so sehr das sie einen Einfall starten.</de-DE>
+		<de-DE>Volksstämme sind keine Reiche. Wenn sie sich mit dir im link(DIPLOMACY_WAR) befinden können nur ihre Einheiten in deiner Nähe sowie deinem Gebiet eine Bedrohung für dich darstellen, es sei denn ihr verärgert sie so sehr das sie einen Einfall starten.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HINT_39</zType>

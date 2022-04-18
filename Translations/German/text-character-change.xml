@@ -184,7 +184,7 @@
 	<!-- Relation -->
 	<Entry comment="TEXT_CHARACTER_RELATION texts have the leader (i.e. 'You') as variable index 1 for gender">
 		<zType>TEXT_CHARACTER_RELATION_YOU</zType>
-		<de-DE>Du</de-DE>
+		<de-DE>Ihr</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_RELATION_SPOUSE</zType>
@@ -424,6 +424,6 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_LEADER_NEW_COGNOMEN</zType>
-		<de-DE>Du bist nun bekannt als {0_name} {1_cognomen}!</de-DE>
+		<de-DE>Ihr seid nun bekannt als {0_name} {1_cognomen}!</de-DE>
 	</Entry>
 </Root>

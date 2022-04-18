@@ -1682,7 +1682,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_STORY_DISABLE_TUTORIAL</zType>
-		<de-DE>(Du kannst Tutorial Ereignisse durch abwählen von "Tutorial" in den Optionen deaktivieren.)</de-DE>
+		<de-DE>(Ihr könnt Tutorial Ereignisse durch abwählen von "Tutorial" in den Optionen deaktivieren.)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_HEAL</zType>
@@ -2117,7 +2117,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LAUNCH_OFFENSIVE_NOT_YOUR_TURN</zType>
-		<de-DE>Du musst am Zug sein</de-DE>
+		<de-DE>Ihr müsst am Zug sein</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LAUNCH_OFFENSIVE_ONLY_ONE_PER_TURN</zType>
@@ -2201,11 +2201,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_MAX_CIVICS</zType>
-		<de-DE>Du kannst nicht mehr als {0_civicsValue} lagern.</de-DE>
+		<de-DE>Ihr könnt nicht mehr als {0_civicsValue} lagern.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_MAX_TRAINING</zType>
-		<de-DE>Du kannst nicht mehr als {0_trainingValue} lagern.</de-DE>
+		<de-DE>Ihr könnt nicht mehr als {0_trainingValue} lagern.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_GENERAL_INJURY</zType>
@@ -2902,7 +2902,7 @@ A Unit placed directly on a City Site will block other link(CONCEPT_NATION,2) fr
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_HURRY</zType>
-		<de-DE>Du kannst die Stadt Produktion auf Kosten von einigen Erträgen und link(YIELD_DISCONTENT) erhöhen.</de-DE>
+		<de-DE>Ihr könnt die Stadt Produktion auf Kosten von einigen Erträgen und link(YIELD_DISCONTENT) erhöhen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_DISTANCE_MODIFIER</zType>
@@ -2960,7 +2960,7 @@ A Unit placed directly on a City Site will block other link(CONCEPT_NATION,2) fr
 		<zType>TEXT_HELPTEXT_LINK_HELP_FAMILY</zType>
 		<de-DE>Familien sind die führenden Clans deines Reiches, mit verschiedenen Gesinnungen und sich im Konflikt befindlichen Interessen.  Ihnen wird die Kontrolle deiner Städte gewährt, deren speziellen Boni berücksichtigt werden sollten.
 		
-Ihre Vorlieben geben vor welche link(CONCEPT_AMBITION,2) du nachgehen kannst. Deren Meinung über dich kann zu verschiedenen Ereignissen führen. Familien Einheiten die innerhalb der Grenzen des Familien Gebietes kämpfen erhalten einen modifier(FAMILY_TERRITORY_MODIFIER) Kampf Modifikator.</de-DE>
+Ihre Vorlieben geben vor welche link(CONCEPT_AMBITION,2) ihr nachgehen könnt. Deren Meinung über dich kann zu verschiedenen Ereignissen führen. Familien Einheiten die innerhalb der Grenzen des Familien Gebietes kämpfen erhalten einen modifier(FAMILY_TERRITORY_MODIFIER) Kampf Modifikator.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_CLASS</zType>
@@ -5927,7 +5927,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<!--Trait Help-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_ARCHETYPE_HELP</zType>
-		<de-DE>Ein Charakter kann nur einen Archetyp haben und sie sind Merkmale die bestimmen, welche Aufgaben ein Charakter haben kann. (Zum Beispiel, link(TRAIT_JUDGE_ARCHETYPE,1) kann entweder ein link(CONCEPT_GOVERNOR) oder ein link(COUNCIL_CHANCELLOR) sein.) Jeder Archetyp erlangt außerdem zusätzliche Boni, von denen manche nur zutreffen wenn der Charakter eine bestimmte Aufgabe verrichtet, wie zB. link(CONCEPT_GENERAL) oder link(CONCEPT_GOVERNOR). Der Lehrgang den du für deine Nachkommen auswählst bestimmt deren möglichen Archetyp.</de-DE>
+		<de-DE>Ein Charakter kann nur einen Archetyp haben und sie sind Merkmale die bestimmen, welche Aufgaben ein Charakter haben kann. (Zum Beispiel, link(TRAIT_JUDGE_ARCHETYPE,1) kann entweder ein link(CONCEPT_GOVERNOR) oder ein link(COUNCIL_CHANCELLOR) sein.) Jeder Archetyp erlangt außerdem zusätzliche Boni, von denen manche nur zutreffen wenn der Charakter eine bestimmte Aufgabe verrichtet, wie zB. link(CONCEPT_GENERAL) oder link(CONCEPT_GOVERNOR). Der Lehrgang den ihr für eure Nachkommen auswählt bestimmt deren möglichen Archetyp.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TRAIT_TITLE</zType>
@@ -6184,23 +6184,23 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_OPINION_PLAY_TO_WIN_STOPPED</zType>
-		<de-DE>{0_opinion}: Du musst an Gewinnen gehindert werden</de-DE>
+		<de-DE>{0_opinion}: Ihr müsst an Gewinnen gehindert werden</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_OPINION_PLAY_TO_WIN_VERY_CLOSE</zType>
-		<de-DE>{0_opinion}: Du bist sehr nah dran zu gewinnen</de-DE>
+		<de-DE>{0_opinion}: Ihr seid sehr nah dran zu gewinnen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_OPINION_PLAY_TO_WIN_CLOSE</zType>
-		<de-DE>{0_opinion}: Du bist nah dran zu gewinnen</de-DE>
+		<de-DE>{0_opinion}: Ihr seid nah dran zu gewinnen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_OPINION_PLAY_TO_WIN_NEAR</zType>
-		<de-DE>{0_opinion}: Du könntest gewinnen</de-DE>
+		<de-DE>{0_opinion}: Ihr könntet gewinnen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_OPINION_PLAY_TO_WIN</zType>
-		<de-DE>{0_opinion}: Du bist am gewinnen...</de-DE>
+		<de-DE>{0_opinion}: Ihr seid am gewinnen...</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_OPINION_LUXURIES</zType>
@@ -6224,7 +6224,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_YOU</zType>
-		<de-DE>[Das bist Du]</de-DE>
+		<de-DE>[Das seid Ihr]</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_POWER</zType>
@@ -7023,7 +7023,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_LEADER_RELIGION</zType>
-		<de-DE>{0}: Du folgst {true_2:nicht } {1_religion}</de-DE>
+		<de-DE>{0}: Ihr folgt {true_2:nicht } {1_religion}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_STATE_RELIGION</zType>
@@ -7031,7 +7031,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_RELIGION</zType>
-		<de-DE>{0}: Du folgst nicht {1_religion}, die link(CONCEPT_STATE_RELIGION) von {2_player}</de-DE>
+		<de-DE>{0}: Ihr folgt nicht {1_religion}, die link(CONCEPT_STATE_RELIGION) von {2_player}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_PROXIMITY</zType>
@@ -7764,15 +7764,15 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_END_YEAR_IDLE_CITY</zType>
-		<de-DE>Du musst zuerst eine link(CONCEPT_IDLE) Stadt verwalten...</de-DE>
+		<de-DE>Ihr müsst zuerst eine link(CONCEPT_IDLE) Stadt verwalten...</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_END_YEAR_DECISION</zType>
-		<de-DE>Du musst erst eine wichtige Entscheidung treffen...</de-DE>
+		<de-DE>Ihr müsst erst eine wichtige Entscheidung treffen...</de-DE>
 	</Entry>
     <Entry>
         <zType>TEXT_HELPTEXT_END_YEAR_RESEARCH</zType>
-        <de-DE>Du musst erst eine neue Technologie zum erforschen wählen...</de-DE>
+        <de-DE>Ihr müsst erst eine neue Technologie zum erforschen wählen...</de-DE>
     </Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_END_YEAR_WAITING</zType>

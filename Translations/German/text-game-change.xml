@@ -11,7 +11,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_GAINED_TEAM_ALLIANCE_PLAYER</zType>
-		<de-DE>Du bist nun in einem link(CONCEPT_ALLIANCE_PLAYER) mit {0_team}.</de-DE>
+		<de-DE>Ihr seid nun in einem link(CONCEPT_ALLIANCE_PLAYER) mit {0_team}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_LOST_TEAM_ALLIANCE</zType>
@@ -19,7 +19,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_LOST_TEAM_ALLIANCE_PLAYER</zType>
-		<de-DE>Du bist nicht länger in einem link(CONCEPT_ALLIANCE_PLAYER) mit {0_team}.</de-DE>
+		<de-DE>Ihr seid nicht länger in einem link(CONCEPT_ALLIANCE_PLAYER) mit {0_team}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_GAINED_TRIBE_ALLIANCE</zType>
@@ -27,7 +27,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_GAINED_TRIBE_ALLIANCE_PLAYER</zType>
-		<de-DE>Du bist nun in einem link(CONCEPT_ALLIANCE_TRIBE) mit den {0_tribe}.</de-DE>
+		<de-DE>Ihr seod nun in einem link(CONCEPT_ALLIANCE_TRIBE) mit den {0_tribe}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_LOST_TRIBE_ALLIANCE</zType>
@@ -35,11 +35,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_LOST_TRIBE_ALLIANCE_PLAYER</zType>
-		<de-DE>Du bist nicht länger in einem link(CONCEPT_ALLIANCE_TRIBE) mit den {0_tribe}.</de-DE>
+		<de-DE>Ihr seid nicht länger in einem link(CONCEPT_ALLIANCE_TRIBE) mit den {0_tribe}.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_MET_TRIBE</zType>
-		<de-DE>Du hast die {0_tribe} getroffen</de-DE>
+		<de-DE>Ihr habt die {0_tribe} getroffen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TRIBE_NEW_DIPLOMACY</zType>
@@ -51,7 +51,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TEAM_CONTACT_LOG_DATA</zType>
-		<de-DE>Du hast {0_team} getroffen</de-DE>
+		<de-DE>Ihr habt {0_team} getroffen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TEAM_NEW_DIPLOMACY</zType>
@@ -79,7 +79,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_GAME_OVER_POPUP</zType>
-		<de-DE>Du hast das Ende des Spiels erreicht.</de-DE>
+		<de-DE>Ihr habt das Ende des Spiels erreicht.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_TEAM_DEFEAT_POPUP</zType>
@@ -183,19 +183,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_START_GOAL</zType>
-		<de-DE>Du hast eine Ziel gestartet: {0}{true_1: (innerhalb {1} turns)}</de-DE>
+		<de-DE>Ihr habt ein Ziel gestartet: {0}{true_1: (innerhalb {1} turns)}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_FINISH_AMBITION</zType>
-		<de-DE>Du hast eine Ambition vollendet: {0}</de-DE>
+		<de-DE>Ihr habt eine Ambition vollendet: {0}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_FINISH_LEGACY</zType>
-		<de-DE>Du hast {true_1:das Vermächtmis von {1_character}:ein Vermächtmis} vollendet: {0}</de-DE>
+		<de-DE>Ihr habt {true_1:das Vermächtmis von {1_character}:ein Vermächtmis} vollendet: {0}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_FINISH_GOAL</zType>
-		<de-DE>Du hast ein Ziel erfüllt: {0}</de-DE>
+		<de-DE>Ihr habt ein Ziel erfüllt: {0}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_FAIL_AMBITION</zType>
@@ -207,7 +207,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_MAKE_LEGACY</zType>
-		<de-DE>Eine alte link(CONCEPT_AMBITION), {0_ambition}, ist nun ein link(CONCEPT_LEGACY,1). Du hast {1} {2_turnScale} Zeit um sie zu vollenden.</de-DE>
+		<de-DE>Eine alte link(CONCEPT_AMBITION), {0_ambition}, ist nun ein link(CONCEPT_LEGACY,1). Ihr habt {1} {2_turnScale} Zeit um sie zu vollenden.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_MAKE_LEGACIES</zType>
@@ -311,11 +311,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_GIVE_BIRTH_LEADER</zType>
-		<de-DE><![CDATA[<true_0>Du hast<false>Deine Frau hat<end> hat <masculine_1>einen Sohn<feminine>eine Tochter<end> geboren, {1_childName}!]]></de-DE>
+		<de-DE><![CDATA[<true_0>Ihr habt<false>Eure Frau hat<end> hat <masculine_1>einen Sohn<feminine>eine Tochter<end> geboren, {1_childName}!]]></de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_GIVE_BIRTH_LEADER_ILLEGITIMATE</zType>
-		<de-DE><![CDATA[<comment variable 0 is the leader i.e. "you" for gender purposes for foregn languages>Du hast <masculine_1>einen neuen unrechtmäßigen Sohn<feminine>eine neue unrechtmäßige Tochter<end>, {1_childName}!]]></de-DE>
+		<de-DE><![CDATA[<comment variable 0 is the leader i.e. "you" for gender purposes for foregn languages>Ihr habt <masculine_1>einen neuen unrechtmäßigen Sohn<feminine>eine neue unrechtmäßige Tochter<end>, {1_childName}!]]></de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_GIVE_BIRTH_NON_LEADER</zType>

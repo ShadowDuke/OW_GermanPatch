@@ -5818,7 +5818,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_OPTION_0</zType>
-		<de-DE>Bescheiden. Du gibst wenig deines Volkes preis, stellst viele Fragen.</de-DE>
+		<de-DE>Bescheiden. Ihr gibt wenig eures Volkes preis, stellt viele Fragen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_OPTION_0_HELP</zType>
@@ -5826,7 +5826,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_OPTION_1</zType>
-		<de-DE>Freundlich. Du tauschst Informationen deines Volkes gegen Informationen über seines.</de-DE>
+		<de-DE>Freundlich. Ihr tauschst Informationen eures Volkes gegen Informationen über ihres.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_OPTION_1_HELP</zType>
@@ -5834,7 +5834,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_OPTION_2</zType>
-		<de-DE>Stolz. Du prahlst über die Stärke deiner Nation, gibst ihnen kaum eine Chance etwas zu erwidern.</de-DE>
+		<de-DE>Stolz. Ihr prahlt über die Stärke eurer Nation, gibt ihnen kaum eine Chance etwas zu erwidern.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_OPTION_2_HELP</zType>
@@ -6042,7 +6042,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_ROME_OPTION_0</zType>
-		<de-DE>Erkläre höflich das du zu beschäftigt bist.</de-DE>
+		<de-DE>Erkläre höflich das ihr zu beschäftigt seid.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_NEIGHBORS_FRIENDLY_ROME_DECLINE_OPTION_0</zType>
@@ -8282,7 +8282,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_WAR_OFFER_ANGRY_RELIGION_EDUCATED</zType>
-		<de-DE>[DU BEEINDRUCKST SIE MIT DEINEM WISSEN ÜBER {RELIGION-2}]</de-DE>
+		<de-DE>[IHR BEEINDRUCKT SIE MIT EUREM WISSEN ÜBER {RELIGION-2}]</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_WAR_OFFER_ANGRY_END_ALLIANCE_YES</zType>

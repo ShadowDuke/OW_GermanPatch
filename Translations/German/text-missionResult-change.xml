@@ -55,7 +55,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_CONVERT_STATE_DESCRIPTION</zType>
-		<de-DE>Du hast erfolgreich {CHARACTER-TARGET} zu deiner link(CONCEPT_STATE_RELIGION) konvertiert.</de-DE>
+		<de-DE>Ihr habt erfolgreich {CHARACTER-TARGET} zu euer link(CONCEPT_STATE_RELIGION) konvertiert.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_CONVERT_STATE_EVENT_DESCRIPTION</zType>
@@ -251,7 +251,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_CAPTURE_KILLED_DESCRIPTION</zType>
-		<de-DE><![CDATA[{CHARACTER-SUBJECT} weigerte sich der Gruppe zu ergeben die du geschickt hast um <masculine_CHARACTER-SUBJECT>ihn<feminine>sie<end> gefangen zu nehmen, wählte Tot über Gefangenschaft.]]></de-DE>
+		<de-DE><![CDATA[{CHARACTER-SUBJECT} weigerte sich der Gruppe zu ergeben die ihr geschickt habt um <masculine_CHARACTER-SUBJECT>ihn<feminine>sie<end> gefangen zu nehmen, wählt Tot über Gefangenschaft.]]></de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_CAPTURE_FLEE_DESCRIPTION</zType>
@@ -259,7 +259,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_PAY_RANSOM_DESCRIPTION</zType>
-		<de-DE><![CDATA[Du hast das Lösegeld für {CHARACTER-SUBJECT} bezahlt und hast <masculine_CHARACTER-SUBJECT>seine<feminine>ihre<end> Freilassung gesichert!]]></de-DE>
+		<de-DE><![CDATA[Ihr habt das Lösegeld für {CHARACTER-SUBJECT} bezahlt und habt <masculine_CHARACTER-SUBJECT>seine<feminine>ihre<end> Freilassung gesichert!]]></de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_MARRY_COURTIER_DESCRIPTION</zType>

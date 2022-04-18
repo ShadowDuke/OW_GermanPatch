@@ -282,7 +282,7 @@ The plan would be effective in quelling rebellion. However, it would anger the p
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_GOOD_NEWS</zType>
-		<de-DE><![CDATA[Mit einer überraschenden Kunde erfährst du über den Forschritt einer deiner Thronfolger, {CHARACTER-0}. Gelehrte der Bildungsanstalt respektieren <masculine_CHARACTER-0>ihn<feminine>sie<end> und die anderen Schüler wetteifern um mit <masculine_CHARACTER-0>ihn<feminine>ihr<end> Freundschaft zu schließenn. 
+		<de-DE><![CDATA[Mit einer überraschenden Kunde erfährt ihr über den Forschritt einer eurer Thronfolger, {CHARACTER-0}. Gelehrte der Bildungsanstalt respektieren <masculine_CHARACTER-0>ihn<feminine>sie<end> und die anderen Schüler wetteifern um mit <masculine_CHARACTER-0>ihn<feminine>ihr<end> Freundschaft zu schließenn. 
 
 Zur Zeit ist {CHARACTER-SHORT-0} am aufblühen!]]></de-DE>
 	</Entry>
@@ -3465,7 +3465,7 @@ Was sollen wir ihnen sagen?</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEIGHBORS</zType>
-		<de-DE>Du hast mit {PLAYER-0,2} Kontakt hergestellt. Wie ist dein Verhalten als du dich ihnen näherst?</de-DE>
+		<de-DE>Ihr habt mit {PLAYER-0,2} Kontakt hergestellt. Wie ist euer Verhalten als ihr euch ihnen nähert?</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_NEIGHBORS_HUMBLE_ASSYRIA_ROOT</zType>
@@ -6145,7 +6145,7 @@ Was ist deine Antwort?]]></de-DE>
 		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_FAMILY</zType>
 		<de-DE><![CDATA[Ein Heiratsangebot von der {FAMILY-1} Familie für {RELATIVE-0} {CHARACTER-0} ist eingegangen. 
 
-Was denkst du von diesen Möglichkeiten?]]></de-DE>
+Was denkt ihr über diesen Möglichkeiten?]]></de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_TWO_FAMILIES</zType>
@@ -6792,9 +6792,9 @@ Was sollen wir tun?]]></de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_ROYAL_BIRTH</zType>
-		<de-DE><![CDATA[Dein Herz füllt sich mit Glück als du zu <masculine_CHARACTER-0>deinem<feminine>deiner<end> Neugeborenen <masculine_CHARACTER-0>Sohn<feminine>Tochter<end> {CHARACTER-0} hinunter blickst. Dies ist ein bedeutsames Ereignis.
+		<de-DE><![CDATA[Dein Herz füllt sich mit Glück als ihr zu <masculine_CHARACTER-0>deinem<feminine>deiner<end> Neugeborenen <masculine_CHARACTER-0>Sohn<feminine>Tochter<end> {CHARACTER-0} hinunter blickt. Dies ist ein bedeutsames Ereignis.
 
-Wie sollen wir die königliche geburt feiern?]]></de-DE>
+Wie sollen wir die königliche Geburt feiern?]]></de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CHILD_NEW_THOUGHTS</zType>
@@ -6806,7 +6806,7 @@ What is most important in life?</de-DE>
 		<zType>TEXT_EVENTSTORY_HEIR_EDUCATION</zType>
 		<de-DE>Die Zeit vergeht zügig. {CHARACTER-0} wird schnell erwachsen und ist begierig zu lernen.
 
-Wie würdest du {CHARACTER-SHORT-0} gerne erziehen?</de-DE>
+Wie würdet ihr {CHARACTER-SHORT-0} gerne erziehen?</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_BULLYING_HEIR</zType>
@@ -13721,7 +13721,7 @@ Which animal should we choose?</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_EXOTIC_PETS_FISH_FAN</zType>
-		<de-DE><![CDATA[Manchmal ertappst du dich dabei, wie du den neuen Fisch des Hofstaates stundenlang am anstarren bist...]]></de-DE>
+		<de-DE><![CDATA[Manchmal ertappt ihr euch dabei, wie ihr den neuen Fisch des Hofstaates stundenlang am anstarren seid...]]></de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_EXOTIC_PETS_FISH_THOUGHTS</zType>
@@ -13764,7 +13764,7 @@ Perhaps we could capitalize on this?</de-DE>
 	<Entry>	
 		<zType>TEXT_EVENTSTORY_EXOTIC_PETS_MONKEY_GRUDGE_SUCCESS</zType>
 		<de-DE><![CDATA[Es ist vollbracht. 
-Unser hinreißender Affe, nun Attentäter, hat erfolgreich euren Erben ermordet. Glücklicherweise weiß niemand das du dafür verantwortlich bist.]]></de-DE>
+Unser hinreißender Affe, nun Attentäter, hat erfolgreich euren Erben ermordet. Glücklicherweise weiß niemand das ihr dafür verantwortlich seid.]]></de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_EXOTIC_PETS_MONKEY_GRUDGE_FAILURE</zType>

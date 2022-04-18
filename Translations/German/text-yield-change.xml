@@ -40,7 +40,7 @@ Wunder, wie link(IMPROVEMENT_COLOSSUS) oder link(IMPROVEMENT_ACROPOLIS) oder die
 	</Entry>
 	<Entry>
 		<zType>TEXT_YIELD_TRAINING_ENCYCLOPEDIA</zType>
-		<de-DE>link(IMPROVEMENT_MINE,2) liefern Training{YIELD_TRAINING} wenn über link(RESOURCE_ORE) errichtet. Später bekommst du link(IMPROVEMENT_RANGE,2) und die link(MISSION_RALLY_TROOPS) Missionen. Beide link(IMPROVEMENT_BARRACKS,2) und link(IMPROVEMENT_RANGE,2) können link(SPECIALISTCLASS_OFFICER) Spezialisten ausbilden, welche eine Menge Training{YIELD_TRAINING} liefern können.
+		<de-DE>link(IMPROVEMENT_MINE,2) liefern Training{YIELD_TRAINING} wenn über link(RESOURCE_ORE) errichtet. Später bekommt ihr link(IMPROVEMENT_RANGE,2) und die link(MISSION_RALLY_TROOPS) Missionen. Beide link(IMPROVEMENT_BARRACKS,2) und link(IMPROVEMENT_RANGE,2) können link(SPECIALISTCLASS_OFFICER) Spezialisten ausbilden, welche eine Menge Training{YIELD_TRAINING} liefern können.
 
 Familien der link(FAMILYCLASS_CHAMPIONS), link(FAMILYCLASS_RIDERS), oder link(FAMILYCLASS_HUNTERS) sind besser im generieren von Training{YIELD_TRAINING} in deren Städten.</de-DE>
 	</Entry>

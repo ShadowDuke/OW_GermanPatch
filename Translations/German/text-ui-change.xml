@@ -48,7 +48,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_YOUR_TURN</zType>
-		<de-DE>Du bist an der Reihe</de-DE>
+		<de-DE>Ihr seid an der Reihe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_SIMULTANEOUS_TURN</zType>
@@ -1098,19 +1098,19 @@ Luxusgüter werden freigeschaltet, indem man Spezialisten auf Verbesserungen ers
 	</Entry>
     <Entry>
         <zType>TEXT_UI_EXIT_DIALOG</zType>
-        <de-DE>Bist du sicher das du beenden möchtest?
+        <de-DE>Seid ihr sicher das ihr beenden möchtet?
 Jeglicher ungespeicherter Forschritt geht verloren.
 		</de-DE>											
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_LOAD_DIALOG</zType>
-		<de-DE>Bist du sicher das du ein weiteres Spiel laden möchtest?
+        <de-DE>Seid ihr sicher das ihr beenden möchtet?
 Jeglicher ungespeicherter Forschritt geht verloren.
 		</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_RESTART_DIALOG</zType>
-		<de-DE>Bist du sicher das du neu starten möchtest?
+		<de-DE>Seid ihr sicher das ihr neu starten möchtet?
 Jeglicher ungespeicherter Forschritt geht verloren.</de-DE>											
 	</Entry>
 	<Entry>
@@ -3242,7 +3242,7 @@ The network connection will be terminated.
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MP_SETUP_PICK_NATION_AT_SETTLE</zType>
-		<de-DE>Wähle dein Reich wenn du deine erste Stadt gründest.</de-DE>
+		<de-DE>Wähle euer Reich wenn ihr eure erste Stadt gründet.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MP_SETUP_GAME_PICKS_NATION</zType>
@@ -3764,7 +3764,7 @@ The network connection will be terminated.
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_MOD_HAS_NO_PROFILE_POPUP_BODY</zType>
-		<de-DE>Wie möchtest du fortfahren?</de-DE>
+		<de-DE>Wie möchtet ihr fortfahren?</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_MODS_PANEL_CREATE_NEW_MOD_PROFILE_POPUP_OPTION</zType>
@@ -3880,7 +3880,7 @@ The network connection will be terminated.
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_LOAD_GAME_MODS_NOT_FOUND_POPUP_BODY</zType>
-		<de-DE>Die folgenden Mods wurden auf deinem System nicht gefunden, möchtest du versuchen sie herunterzuladen?</de-DE>
+		<de-DE>Die folgenden Mods wurden auf deinem System nicht gefunden, möchtet ihr versuchen sie herunterzuladen?</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UI_DOWNLOADING_MODS_POPUP_TITLE</zType>
