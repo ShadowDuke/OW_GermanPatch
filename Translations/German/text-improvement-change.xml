@@ -449,7 +449,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_GODS_CONSORT_SHRINE</zType>
-		<de-DE>Götter gatten Schrein~ein Götter gatten Schrein~Göttergatten Schreine</de-DE>
+		<de-DE>Götter-Gatten Schrein~ein Götter-Gatten Schrein~Götter-Gatten Schreine</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_IMPROVEMENT_GODS_CONSORT_SHRINE_F</zType>
+		<de-DE>Götter-Gattin Schrein~ein Götter-Gattin Schrein~Götter-Gattinnen Schreine</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_IMPROVEMENT_SHRINE_TRIBE_PAGANISM</zType>

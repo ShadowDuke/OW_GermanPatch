@@ -63,7 +63,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_TITLE_COUNCIL</zType>
-		<de-DE>{0_title}</de-DE>
+		<de-DE>Hofrat</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CHARACTER_TITLE_COUNCIL_F</zType>
+		<de-DE>Hofrätin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CHARACTER_TITLE_GOVERNOR</zType>

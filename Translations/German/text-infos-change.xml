@@ -414,7 +414,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_MARCH</zType>
-		<de-DE>Gewzungener Marsch~Gewzungene Märsche~Gewzungener Marsch~Gewzungener Marsch~Gewzungener Marsch</de-DE>
+		<de-DE>Gewzungener Marsch~ein gewzungene Marsch~Gewzungene Märsche~Gewzungener Marsch</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_SPREAD_RELIGION</zType>
@@ -430,7 +430,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_STATE_RELIGION</zType>
-		<de-DE>Staatsreligion ~eine Staatsreligion~Staatsreligionen</de-DE>
+		<de-DE>Staatsreligion~eine Staatsreligion~Staatsreligionen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_STRENGTH</zType>
@@ -438,15 +438,23 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_SUCCESSION</zType>
-		<de-DE>Nachfolge Gesetz~Nachfolge Gesetze</de-DE>
+		<de-DE>Nachfolge</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_COGNOMEN</zType>
 		<de-DE>Spitzname~ein Spitzname~Spitznamen</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_CONCEPT_SUCCESSION_LAW</zType>
+		<de-DE>Nachfolge Gesetz~Nachfolge Gesetze</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_CONCEPT_COURT</zType>
 		<de-DE>Hofstaat</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_COMMUNITY_SHORTHAND</zType>
+		<de-DE>Community Shorthand</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_COURTIER</zType>
@@ -558,7 +566,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_ZOC</zType>
-		<de-DE>ZOC</de-DE>
+		<de-DE>ZOC~Kontrollzone</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_CONCEPT_XP</zType>
@@ -854,6 +862,38 @@
 	<Entry>
 		<zType>TEXT_FAMILYCLASS_PATRONS</zType>
 		<de-DE>Schutzherren~Schutzherr</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_VISION</zType>
+		<de-DE>Sichtweite</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_WEAKNESS</zType>
+		<de-DE>Schwäche</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_WONDER</zType>
+		<de-DE>Wunder~ein Wunderr~Wunder</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_WORLD_RELIGION</zType>
+		<de-DE>Welt Religion~eine Welt Religion~Welt Religionen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_HP</zType>
+		<de-DE>HP~Hit Punkt~Hit Punkte</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_ASSIMILATION</zType>
+		<de-DE>Angleichung~Angleichen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_TERRITORY</zType>
+		<de-DE>Gebiet~Stadtgebiet~Gebiete</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_CONCEPT_VICTORY_POINT</zType>
+		<de-DE>Siegpunkt~ein Siegpunkt~Sigpunkte~SP</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_FAMILYCLASS_CLERICS</zType>

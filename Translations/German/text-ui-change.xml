@@ -1793,6 +1793,10 @@ The network connection will be terminated.
 		<de-DE>Niederlage</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_HOF_HEADER_VICTORY</zType>
+		<de-DE>Sieg</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_HOF_HEADER_DEFEAT_BY</zType>
 		<de-DE>Niederlage von {0}</de-DE>
 	</Entry>
@@ -2939,11 +2943,15 @@ The network connection will be terminated.
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_LOG_EXPORT</zType>
-		<de-DE>Export GIF</de-DE>
+		<de-DE>Exportiere GIF</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_GAME_LOG_EXPORT_SAVED</zType>
+		<de-DE>GIF gespeichert nach {0_filePath}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_LOG_SHOW_MAP</zType>
-		<de-DE>Map View</de-DE>
+		<de-DE>Karten Ansicht</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_GAME_LOG_SHOW_TREE</zType>

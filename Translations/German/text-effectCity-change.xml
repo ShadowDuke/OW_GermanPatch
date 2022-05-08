@@ -264,6 +264,10 @@
 		<de-DE>Land-Spezialist~ein Land-Spezialist~Land-Spezialisten</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTCITY_SPECIALIST_RURAL_F</zType>
+		<de-DE>Land-Spezialistin~eine Land-Spezialistin~Land-Spezialistinnen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTCITY_SPECIALIST_APPRENTICE</zType>
 		<de-DE>Auszubildender-Spezialist</de-DE>
 	</Entry>
@@ -272,8 +276,16 @@
 		<de-DE>Lehrmeister-Spezialist</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTCITY_SPECIALIST_MASTER_F</zType>
+		<de-DE>Lehrmeister-Spezialistin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTCITY_SPECIALIST_ELDER</zType>
 		<de-DE>Ältesten-Spezialist</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTCITY_SPECIALIST_ELDER_F</zType>
+		<de-DE>Ältesten-Spezialistin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTCITY_TRAIT_COMMANDER_ARCHETYPE_CAPITAL</zType>

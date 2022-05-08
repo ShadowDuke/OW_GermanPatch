@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <ModInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <displayName>German Translation</displayName>
-  <description>Deutsche Übersetzung</description>
+  <description>Deutsche/German Übersetzung/Translation</description>
   <modpicture>1920px-Flag_of_Germany.svg.png</modpicture>
   <author>Revan (aka. ShadowDuke)</author>
   <modplatform>Modio</modplatform>
   <modioID>143281</modioID>
-  <modioFileID>2484014</modioFileID>
-  <modversion>1.76</modversion>
-  <modbuild>1.0.59212</modbuild>
+  <modioFileID>2551349</modioFileID>
+  <modversion>1.80</modversion>
+  <modbuild>1.0.59667</modbuild>
   <homepage>https://github.com/ShadowDuke/OW_GermanPatch</homepage>
   <tags />
   <singlePlayer>true</singlePlayer>
@@ -17,4 +17,5 @@
   <scenarioToggle>false</scenarioToggle>
   <modDependencies />
   <modIncompatibilities />
+  <gameContentRequired>NONE</gameContentRequired>
 </ModInfo>

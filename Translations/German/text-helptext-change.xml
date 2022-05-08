@@ -590,7 +590,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_TRIBE_SITES</zType>
-		<de-DE>Plätze</de-DE>
+		<de-DE>Lager</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_CHARACTER_TENDENCIES</zType>
@@ -2783,7 +2783,7 @@ Resources that are within a City's limits, or that are too far from one of your 
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_YIELD_FROM_X</zType>
-		<de-DE>{0_yield}: from {1}{true_2: x{2}}</de-DE>
+		<de-DE>{0_yield}: von {1}{true_2: x{2}}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_YIELD_FROM_RESOURCE</zType>
@@ -2791,35 +2791,35 @@ Resources that are within a City's limits, or that are too far from one of your 
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_YIELD_FROM_IMPROVEMENT</zType>
-		<de-DE>{0_yield}: {1} (from Improvement)</de-DE>
+		<de-DE>{0_yield}: {1} (von Verbesserung)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_GOVERNOR_IS_LEADER</zType>
-		<de-DE>{0_yield}: King/Queen is link(CONCEPT_GOVERNOR)</de-DE>
+		<de-DE>{0_yield}: König/Königin ist link(CONCEPT_GOVERNOR)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_FOREIGN_POPULATION</zType>
-		<de-DE>{0_yield}: Foreign Population ({1_nation})</de-DE>
+		<de-DE>{0_yield}: Ausländische Bevölkerung ({1_nation})</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_DEFENDING</zType>
-		<de-DE>{0_yield}: Defending {true_1:Family }Unit</de-DE>
+		<de-DE>{0_yield}: Verteidigende {true_1:Familien }Einheit</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_MISSING_FAMILY</zType>
-		<de-DE>{0_yield}: Not Enough link(CONCEPT_FAMILY_SEAT,2)</de-DE>
+		<de-DE>{0_yield}: Nicht genug link(CONCEPT_FAMILY_SEAT,2)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_URBAN_TILE</zType>
-		<de-DE>{0_yield}: Need more {1_urbanLink} Tiles for {2,2_citizens}</de-DE>
+		<de-DE>{0_yield}: Benötigt mehr {1_urbanLink} Felder für {2,2_citizens}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_IMPROVEMENT</zType>
-		<de-DE>{0_yield}: Improvements{true_1: x{1}}</de-DE>
+		<de-DE>{0_yield}: Verbesserungen{true_1: x{1}}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_CAPITAL_DISTANCE</zType>
-		<de-DE>{0_yield}: Distance from {1_capitalCity}</de-DE>
+		<de-DE>{0_yield}: Etfernung von {1_capitalCity}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_GOVERNOR_OPINION</zType>
@@ -2831,7 +2831,7 @@ Resources that are within a City's limits, or that are too far from one of your 
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_DAMAGE_YIELD_MODIFIER</zType>
-		<de-DE>{0_yield}: from Damage ({1_hp}/{2_maxHP})</de-DE>
+		<de-DE>{0_yield}: von Schaden ({1_hp}/{2_maxHP})</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_ASSIMILATE_YIELD_MODIFIER</zType>
@@ -2843,11 +2843,11 @@ Resources that are within a City's limits, or that are too far from one of your 
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_CITY_PROJECT_YIELD_MODIFIER</zType>
-		<de-DE>{0_yield}: {1_project} (Current Build)</de-DE>
+		<de-DE>{0_yield}: {1_project} (Derzeitig)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_AMBITION_VICTORY</zType>
-		<de-DE>Complete int(MAX_AMBITIONS) link(CONCEPT_AMBITION,2) for link(VICTORY_AMBITION,1)</de-DE>
+		<de-DE>Beende int(MAX_AMBITIONS) link(CONCEPT_AMBITION,2) für link(VICTORY_AMBITION,1)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LINK_HELP_AMBITION_VICTORY_NO</zType>
@@ -4885,26 +4885,17 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_TRADE_NETWORK</zType>
 		<de-DE>{LIST} wenn auf link(CONCEPT_TRADE_NETWORK)</de-DE>
 	</Entry>
-
 	<Entry>
-
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_BONUS_ON_COMPLETION</zType>
-
 		<de-DE>[Bei Fertigstellung] </de-DE>
-
 	</Entry>
-
 	<Entry>
-
 		<zType>TEXT_HELPTEXT_PROJECT_AUTO_REPAIR</zType>
-
-		<de-DE>(Heilt automatisch {0} HP jeden {1_turnScale})</de-DE>
-
+		<de-DE>(Heilt automatsich {0_value} HP each {1_turnScale})</de-DE>
 	</Entry>
-
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_BONUS_ALL_CITIES</zType>
-		<de-DE>[ABei Fertigstellung, Alle Städte] </de-DE>
+		<de-DE>[Bei Fertigstellung, Alle Städte] </de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_SPREADS_RELIGION</zType>
@@ -4916,7 +4907,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_DEFENSE_MODIFIER</zType>
-		<de-DE>{0_value} {true_1:icon(DEFENSE) für freundliche Einheiten:Feld icon(DEFENSE)}</de-DE>
+		<de-DE>{0_value} (wenn freundliches/neutrales Gebiet)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_DEFENSE_MODIFIER_FRIENDLY</zType>
@@ -4937,6 +4928,10 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_CITY_SITE</zType>
 		<de-DE>Besetze dieses Feld mit einer Einheit um eine rivalisierendes Reich daran zu hindern eine Stadt zu gründen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_IMPROVEMENT_REMOVE_PILLAGE</zType>
+		<de-DE>Zerstört wenn link(CONCEPT_PILLAGE,1)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_CREATES_UNITS</zType>
@@ -6648,7 +6643,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_SPREAD_RELIGION_BUTTON</zType>
-		<de-DE>{0_religion} ausdehnen</de-DE>
+		<de-DE>{0_religion} verbreiten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_TILE_PURGE_RELIGION_BUTTON</zType>
@@ -6858,7 +6853,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_GENERAL</zType>
-		<de-DE>{true_0:Behalte:Erstelle} {1} link(CONCEPT_GENERAL) von {2}</de-DE>
+		<de-DE>{true_0:Behalte:Wähle} {1_character} link(CONCEPT_GENERAL) von {2_unit}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_GENERAL_XP_FROM_COMBAT</zType>
@@ -6866,11 +6861,11 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_GENERAL_OPINION</zType>
-		<de-DE>{0} link(CONCEPT_OPINION_CHARACTER,3)</de-DE>
+		<de-DE>{0_value} link(CONCEPT_OPINION_CHARACTER,3)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_LEADER_COGNOMEN</zType>
-		<de-DE>Spitzname: {0} ({1_legitimacy}: {2})</de-DE>
+		<de-DE>Spitzname: {0_cognoment} ({1_legitimacy}: {2_legitimacyValue})</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_PLAYER_LEADER_STATS</zType>
@@ -6879,19 +6874,19 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<!--Character Help-->
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_NAME</zType>
-		<de-DE>{0_gender}, Alter {1}{true_2:, {2}/{3} EP}</de-DE>
+		<de-DE>{0_gender}, Alter {1_age}{true_2:, {2_xp}/{3_toNextLevel} EP}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_LEADER_OF</zType>
-		<de-DE>Oberhaupt von {0}</de-DE>
+		<de-DE>Oberhaupt von {0_nation}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_COGNOMEN</zType>
-		<de-DE>Spitzname: {0}</de-DE>
+		<de-DE>Spitzname: {0_cognoment}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_HEIR</zType>
-		<de-DE>Erbe: {0}</de-DE>
+		<de-DE>Erbe: {0_character}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_CHOSEN_HEIR</zType>
@@ -6899,207 +6894,207 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_SAFE</zType>
-		<de-DE>Safe until turn {0}</de-DE>
+		<de-DE>Safe until turn {0_turn}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_PLAYER</zType>
-		<de-DE>Spieler: {0}</de-DE>
+		<de-DE>Spieler: {0_player}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_NATION</zType>
-		<de-DE>Reich: {0}</de-DE>
+		<de-DE>Reich: {0_nation}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_RELIGION_HEAD</zType>
-		<de-DE>Religionsoberhaupt: {0}</de-DE>
+		<de-DE>Religionsoberhaupt: {0_religion}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_RELIGION</zType>
-		<de-DE>Religion: {0}</de-DE>
+		<de-DE>Religion: {0_religion}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_FAMILY_HEAD</zType>
-		<de-DE>Oberhaupt der Familie: {0}</de-DE>
+		<de-DE>Oberhaupt der Familie: {0_family}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_FAMILY</zType>
-		<de-DE>Familie: {0}</de-DE>
+		<de-DE>Familie: {0_family}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_TRIBE_LEADER</zType>
-		<de-DE>Stammesführer: {0}</de-DE>
+		<de-DE>Stammesoberhaupt: {0_tribe}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_TRIBE</zType>
-		<de-DE>Volksstamm: {0}</de-DE>
+		<de-DE>Volksstamm: {0_tribe}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_COURTIER</zType>
-		<de-DE>Vertrauter: {0}</de-DE>
+		<de-DE>Vertrauter: {0_courtier}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_SPOUSE</zType>
-		<de-DE>Ehepartner: {0}</de-DE>
+		<de-DE>Ehepartner: {0_character}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_GENERAL</zType>
-		<de-DE>link(CONCEPT_GENERAL): {0}</de-DE>
+		<de-DE>link(CONCEPT_GENERAL): {0_effectUnit}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_GENERAL_MOVEMENT</zType>
-		<de-DE>{0} Bewegung als Oberhaupt</de-DE>
+		<de-DE>{0_value} Bewegung als Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_GOVERNOR</zType>
-		<de-DE>link(CONCEPT_GOVERNOR): {0}</de-DE>
+		<de-DE>link(CONCEPT_GOVERNOR): {0_city}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_AGENT</zType>
-		<de-DE>link(CONCEPT_AGENT): {0}</de-DE>
+		<de-DE>link(CONCEPT_AGENT): {0_city}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_COUNCIL</zType>
-		<de-DE>Hofrat: {0}</de-DE>
+		<de-DE>Hofrat: {0_council}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_MISSION</zType>
-		<de-DE>Mission: {0}{true_2: ({2_link})}, {1_turns}</de-DE>
+		<de-DE>Mission: {0_mission}{true_2: ({2_link})}, {1_turns}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_OPINION_OF_YOU</zType>
-		<de-DE>link(CONCEPT_OPINION_CHARACTER,3) von Euch: {0} ({1})</de-DE>
+		<de-DE>link(CONCEPT_OPINION_CHARACTER,3) von Euch: {0_opinionName} ({1_opinionValue})</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_HELP_PLAYER_OPINION_OF_YOU</zType>
-		<de-DE>{0,1_player} link(CONCEPT_OPINION_PLAYER,3) von Euch: {1} ({2})</de-DE>
+		<de-DE>{0,1_player} link(CONCEPT_OPINION_PLAYER,3) von Euch: {1_opinionName} ({2_opinionValue})</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_NATION_ETHNICITY</zType>
-		<de-DE>{0}: {1,1}</de-DE>
+		<de-DE>{0_percent}: {1,1_nation}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_TRIBE_ETHNICITY</zType>
-		<de-DE>{0}: {1,1}</de-DE>
+		<de-DE>{0_percent}: {1,1_tribe}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_SAME</zType>
-		<de-DE>{0}: Beide sind {1_trait}</de-DE>
+		<de-DE>{0_value}: Beide sind {1_trait}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_DIFF</zType>
-		<de-DE>{0}: Wir sind verschieden ({1_trait} vs. {2_trait}) </de-DE>
+		<de-DE>{0_value}: Wir sind verschieden ({1_trait} vs. {2_trait})</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_LAW</zType>
-		<de-DE>{0}: Dein Gesetz, {1_law} (da {2_trait})</de-DE>
+		<de-DE>{0_value}: Dein Gesetz, {1_law} (as {2_trait})</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_IS_LEADER_SPOUSE</zType>
-		<de-DE>{0}: Ist Ehepartner des Oberhauptes</de-DE>
+		<de-DE>{0_value}: Ist Ehepartner des Oberhauptes</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_IS_HEIR</zType>
-		<de-DE>{0}: Ist dein Erbe</de-DE>
+		<de-DE>{0_value}: Ist dein Erbe</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_IS_PARENT</zType>
-		<de-DE>{0}: Ist dein Elternteil</de-DE>
+		<de-DE>{0_value}: Ist dein Elternteil</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_IS_GOVERNOR</zType>
-		<de-DE>{0}: Ist link(CONCEPT_GOVERNOR)</de-DE>
+		<de-DE>{0_value}: Ist link(CONCEPT_GOVERNOR)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_IS_GENERAL</zType>
-		<de-DE>{0}: Ist link(CONCEPT_GENERAL)</de-DE>
+		<de-DE>{0_value}: Ist link(CONCEPT_GENERAL)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_IS_X</zType>
-		<de-DE>{0}: Ist {1}</de-DE>
+		<de-DE>{0_value}: Ist {1}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_OF_PLAYER_ETHNICITY</zType>
-		<de-DE>{0}: In {1_diplomacy} mit {2}</de-DE>
+		<de-DE>{0_value}: In {1_diplomacy} mit {2}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_LEADER_RELIGION</zType>
-		<de-DE>{0}: Ihr folgt {true_2:nicht } {1_religion}</de-DE>
+		<de-DE>{0_value}: Ihr folgt {true_2:nicht } {1_religion}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_STATE_RELIGION</zType>
-		<de-DE>{0}: {1_religion} ist {true_2:nicht }link(CONCEPT_STATE_RELIGION)</de-DE>
+		<de-DE>{0_value}: {1_religion} ist {true_2:nicht }link(CONCEPT_STATE_RELIGION)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_RELIGION</zType>
-		<de-DE>{0}: Ihr folgt nicht {1_religion}, die link(CONCEPT_STATE_RELIGION) von {2_player}</de-DE>
+		<de-DE>{0_value}: Ihr folgt nicht {1_religion}, die link(CONCEPT_STATE_RELIGION) von {2_player}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_PROXIMITY</zType>
-		<de-DE>{0}: Zu nah an {1_player}</de-DE>
+		<de-DE>{0_value}: Zu nah an {1_player}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_STRENGTH</zType>
-		<de-DE>{0}: Stärker als (1_player)</de-DE>
+		<de-DE>{0_value}: Stärker als (1_player)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_KNOWLEDGE</zType>
-		<de-DE>{0}: Mehr Wissen als {1_player)</de-DE>
+		<de-DE>{0_value}: Mehr Wissen als {1_player)</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_GENERALS</zType>
-		<de-DE>{0}: Mehr link(CONCEPT_GENERAL,2), {1}, als {3_player}, {2}</de-DE>
+		<de-DE>{0_value}: Mehr link(CONCEPT_GENERAL,2), {1}, als {3_player}, {2}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_GOVERNORS</zType>
-		<de-DE>{0}: Mehr link(CONCEPT_GOVERNOR,2), {1}, als {3_player}, {2}</de-DE>
+		<de-DE>{0_value}: Mehr link(CONCEPT_GOVERNOR,2), {1}, als {3_player}, {2}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_WONDERS</zType>
-		<de-DE>{0}: Mehr Wunder, {1}, als {3_player}, {2}</de-DE>
+		<de-DE>{0_value}: Mehr Wunder, {1}, als {3_player}, {2}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_LAWS</zType>
-		<de-DE>{0}: Mehr aktive Gesetze, als {3_player}, {2}</de-DE>
+		<de-DE>{0_value}: Mehr aktive Gesetze, als {3_player}, {2}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_COGNOMEN</zType>
-		<de-DE>{0}: Dein Spitzname ({1_cognomen}) ist stärker als meiner ({2_cognomen})</de-DE>
+		<de-DE>{0_value}: Dein Spitzname ({1_cognomen}) ist stärker als meiner ({2_cognomen})</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_TRADES</zType>
-		<de-DE>{0}: Mehr Handel mit anderen Nationen, {1}, als mit {3_player}, {2}</de-DE>
+		<de-DE>{0_value}: Mehr Handel mit anderen Nationen, {1}, als mit {3_player}, {2}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_TRAIT_STRENGTH</zType>
-		<de-DE>{0} (link(CONCEPT_STRENGTH))</de-DE>
+		<de-DE>{0_value} (link(CONCEPT_STRENGTH))</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_TRAIT_WEAKNESS</zType>
-		<de-DE>{0} (link(CONCEPT_WEAKNESS))</de-DE>
+		<de-DE>{0_value} (link(CONCEPT_WEAKNESS))</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_TRAIT_GOVERNOR</zType>
-		<de-DE>Als link(CONCEPT_GOVERNOR): {0}</de-DE>
+		<de-DE>Als link(CONCEPT_GOVERNOR): {0_effectCity}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_TRAIT_GENERAL</zType>
-		<de-DE>Als link(CONCEPT_GENERAL): {0}</de-DE>
+		<de-DE>Als link(CONCEPT_GENERAL): {0_effectUnit}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_TRAIT_GENERAL_ADJACENT</zType>
-		<de-DE>Als link(CONCEPT_GENERAL): [Benachbarte Einheiten]{0}</de-DE>
+		<de-DE>Als link(CONCEPT_GENERAL): [Benachbarte Einheiten]: {0_effectUnit}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_TRAIT_GENERAL_LEADER</zType>
-		<de-DE>Als link(CONCEPT_GENERAL) (wenn Oberhaupt): {0}</de-DE>
+		<de-DE>Als link(CONCEPT_GENERAL) (wenn Oberhaupt): {0_effectUnit}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LEADER_COLON_SPACE</zType>
-		<de-DE>Als Oberhaupt: {0}</de-DE>
+		<de-DE>Als Oberhaupt: {0_yieldOrMovement}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_MARRIES</zType>
-		<de-DE>{0} heiratet {1}</de-DE>
+		<de-DE>{0_character} heiratet {1_character}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_MARRIES_GLOBAL</zType>
@@ -7107,7 +7102,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_MARRIES_JOINS_NATION</zType>
-		<de-DE>{0} wird dem Reich {1} beitreten</de-DE>
+		<de-DE>{0_character} wird dem Reich von {1_character} beitreten</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHARACTER_MARRIES_DOWRY_COST</zType>
@@ -7115,7 +7110,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_UPGRADE_CHARACTER_BECOMES</zType>
-		<de-DE>Wird {0}</de-DE>
+		<de-DE>Wird {0_trait}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_CHOOSE_COUNCIL</zType>
@@ -7155,7 +7150,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_GOVERNOR</zType>
-		<de-DE>{true_0:Behalte:Erschaffe} {1} link(CONCEPT_GOVERNOR) von {2}</de-DE>
+		<de-DE>{true_0:Behalte:Wähle} {1} link(CONCEPT_GOVERNOR) von {2}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_GOVERNOR_ALREADY</zType>
@@ -7167,7 +7162,7 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_AGENT</zType>
-		<de-DE>{true_0:Behalte:Erschaffe} {1} link(CONCEPT_AGENT) in {2}</de-DE>
+		<de-DE>{true_0:Behalte:Wähle} {1} link(CONCEPT_AGENT) in {2}</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_HELPTEXT_MAKE_AGENT_ALREADY</zType>
@@ -8278,5 +8273,9 @@ Halte [{1_key}] um die Kontrollzone (ZOC) der Einheiten zu sehen.</de-DE>
 	<Entry>
 		<zType>TEXT_HELPTEXT_LEGITIMACY</zType>
 		<de-DE>Legitimität: {0}</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_HURRY_TIMES</zType>
+		<de-DE>Previously done {0_times} {singular_0:Mal:Mal}</de-DE>
 	</Entry>
 </Root>

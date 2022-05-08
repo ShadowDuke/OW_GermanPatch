@@ -3,10 +3,6 @@
 <Root>
 	<!--Name-->
 	<Entry>
-		<zType/>
-		<de-DE/>
-	</Entry>
-	<Entry>
 		<zType>TEXT_EFFECTUNITCLASS_COMBAT</zType>
 		<de-DE>Kampf</de-DE>
 	</Entry>
@@ -75,8 +71,16 @@
 		<de-DE>Fährtenleser</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_TRACKER_F</zType>
+		<de-DE>Fährtenleserin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_TRACKER_ALL</zType>
 		<de-DE>Fährtenleser Oberhaupt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_TRACKER_ALL_F</zType>
+		<de-DE>Fährtenleserin Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SWIFT</zType>
@@ -95,6 +99,10 @@
 		<de-DE>Schafschütze</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_MARKSMAN_F</zType>
+		<de-DE>Schafschützin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_AMPHIBIOUS</zType>
 		<de-DE>Amphibisch</de-DE>
 	</Entry>
@@ -103,12 +111,24 @@
 		<de-DE>Belagerer</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_BESIEGER_F</zType>
+		<de-DE>Belagerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_BESIEGER_ALL</zType>
 		<de-DE>Belagerer Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_BESIEGER_ALL_F</zType>
+		<de-DE>Belagerin Oberhaupt</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_WARDEN</zType>
 		<de-DE>Aufseher</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_WARDEN_F</zType>
+		<de-DE>Aufseherin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_TOUGH</zType>
@@ -131,8 +151,16 @@
 		<de-DE>Störer</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_HECKLER_F</zType>
+		<de-DE>Störerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_HECKLER_ALL</zType>
 		<de-DE>Störer Oberhaupt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_HECKLER_ALL_F</zType>
+		<de-DE>Störerin Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_STEADFAST</zType>
@@ -147,16 +175,32 @@
 		<de-DE>Pflanzenkenner</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_HERBALIST_F</zType>
+		<de-DE>Pflanzenkennerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_HERBALIST_ALL</zType>
 		<de-DE>Pflanzenkenner Oberhaupt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_HERBALIST_ALL_F</zType>
+		<de-DE>Pflanzenkennerin Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HEALER</zType>
 		<de-DE>Heiler</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_HEALER_F</zType>
+		<de-DE>Heilerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_NOMAD</zType>
 		<de-DE>Nomade</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_NOMAD_F</zType>
+		<de-DE>Nomadin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_COLD</zType>
@@ -167,16 +211,32 @@
 		<de-DE>Bergbewohner</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_HIGHLANDER_ALL_F</zType>
+		<de-DE>Bergbewohnerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_HIGHLANDER_ALL</zType>
 		<de-DE>Bergbewohner Oberhaupt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_RANGER_F</zType>
+		<de-DE>Bergbewohnerin Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_RANGER</zType>
 		<de-DE>Ranger</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_RANGER_ALL_F</zType>
+		<de-DE>Rangerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_RANGER_ALL</zType>
 		<de-DE>Ranger Oberhaupt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_RANGER_ALL_F</zType>
+		<de-DE>Rangerin Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_BRAVE</zType>
@@ -191,8 +251,16 @@
 		<de-DE>Schildträger</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_SHIELDBEARER_F</zType>
+		<de-DE>Schildträgerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_SHIELDBEARER_ALL</zType>
 		<de-DE>Schildträger Oberhaupt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_SHIELDBEARER_ALL_F</zType>
+		<de-DE>Schildträgerin Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_FIERCE</zType>
@@ -215,8 +283,16 @@
 		<de-DE>Techniker</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_ENGINEER_F</zType>
+		<de-DE>Technikerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_ENGINEER_ALL</zType>
 		<de-DE>Techniker Oberhaupt</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_ENGINEER_ALL_F</zType>
+		<de-DE>Technikerin Oberhaupt</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SHRAPNEL</zType>
@@ -224,11 +300,19 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_COCKSWAIN</zType>
-		<de-DE>Boorsführer</de-DE>
+		<de-DE>Bootsführer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_COCKSWAIN_F</zType>
+		<de-DE>Bootsführerin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_GRAPPLER</zType>
 		<de-DE>Ringer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_GRAPPLER_F</zType>
+		<de-DE>Ringerin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SEABORN</zType>
@@ -241,6 +325,10 @@
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_FIRESHIP</zType>
 		<de-DE>Brander</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_FIRESHIP_F</zType>
+		<de-DE>Branderin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_LADING</zType>
@@ -257,6 +345,10 @@
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SADDLEBORN</zType>
 		<de-DE>Geborener Reiter</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_SADDLEBORN_F</zType>
+		<de-DE>Geborene Reiterin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SENTINEL</zType>
@@ -299,12 +391,24 @@
 		<de-DE>Soldat</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_SOLDIER_F</zType>
+		<de-DE>Soldatin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_PROPHET</zType>
 		<de-DE>Prophet</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_PROPHET_F</zType>
+		<de-DE>Prophetin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_SURVEYOR</zType>
 		<de-DE>Vermesser</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_SURVEYOR_F</zType>
+		<de-DE>Vermesserin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_EPICS</zType>
@@ -320,7 +424,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HERO</zType>
-		<de-DE>link(TRAIT_HERO_ARCHETYPE)</de-DE>
+		<de-DE>link(TRAIT_HERO_ARCHETYPE) Feldherr</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_HERO_F</zType>
+		<de-DE>link(TRAIT_HERO_ARCHETYPE) Feldherrin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_HERO_LEADER</zType>
@@ -332,7 +440,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_COMMANDER</zType>
-		<de-DE>link(TRAIT_COMMANDER_ARCHETYPE)</de-DE>
+		<de-DE>link(TRAIT_COMMANDER_ARCHETYPE) Feldherr</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_COMMANDER_F</zType>
+		<de-DE>link(TRAIT_COMMANDER_ARCHETYPE) Feldherrin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_COMMANDER_LEADER</zType>
@@ -340,11 +452,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_COMMANDER_INFANTRY</zType>
-		<de-DE>link(TRAIT_COMMANDER_ARCHETYPE) (link(UNITTRAIT_INFANTRY))</de-DE>
+		<de-DE>link(TRAIT_COMMANDER_ARCHETYPE) Oberhaupt (link(UNITTRAIT_INFANTRY))</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_TACTICIAN</zType>
-		<de-DE>link(TRAIT_TACTICIAN_ARCHETYPE)</de-DE>
+		<de-DE>link(TRAIT_TACTICIAN_ARCHETYPE) Feldherr</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_TACTICIAN_F</zType>
+		<de-DE>link(TRAIT_TACTICIAN_ARCHETYPE) Feldherrin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_TACTICIAN_LEADER</zType>
@@ -352,15 +468,23 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_TACTICIAN_RANGED</zType>
-		<de-DE>link(TRAIT_TACTICIAN_ARCHETYPE) Leader (link(UNITTRAIT_RANGED))</de-DE>
+		<de-DE>link(TRAIT_TACTICIAN_ARCHETYPE) Oberhaupt (link(UNITTRAIT_RANGED))</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_ZEALOT</zType>
-		<de-DE>link(TRAIT_ZEALOT_ARCHETYPE)</de-DE>
+		<de-DE>link(TRAIT_ZEALOT_ARCHETYPE) Feldherr</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_ZEALOT_F</zType>
+		<de-DE>link(TRAIT_ZEALOT_ARCHETYPE) Feldherrin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_ZEALOT_LEADER</zType>
-		<de-DE>link(TRAIT_ZEALOT_ARCHETYPE) (Oberhaupt)</de-DE>
+		<de-DE>link(TRAIT_ZEALOT_ARCHETYPE) Oberhaupt Feldherr</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_ZEALOT_LEADER_F</zType>
+		<de-DE>link(TRAIT_ZEALOT_ARCHETYPE) Oberhaupt Feldherrin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_ZEALOT_ALL</zType>
@@ -368,23 +492,23 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_OPINIONFAMILY_FURIOUS</zType>
-		<de-DE>link(OPINIONFAMILY_FURIOUS) (Familie)</de-DE>
+		<de-DE>link(OPINIONFAMILY_FURIOUS) Familie</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_OPINIONFAMILY_ANGRY</zType>
-		<de-DE>link(OPINIONFAMILY_ANGRY) (Familie)</de-DE>
+		<de-DE>link(OPINIONFAMILY_ANGRY) Familie</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_OPINIONFAMILY_UPSET</zType>
-		<de-DE>link(OPINIONFAMILY_UPSET) (Familie)</de-DE>
+		<de-DE>link(OPINIONFAMILY_UPSET) Familie</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_OPINIONFAMILY_PLEASED</zType>
-		<de-DE>link(OPINIONFAMILY_PLEASED) (Familie)</de-DE>
+		<de-DE>link(OPINIONFAMILY_PLEASED) Familie</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_OPINIONFAMILY_FRIENDLY</zType>
-		<de-DE>link(OPINIONFAMILY_FRIENDLY) (Familie)</de-DE>
+		<de-DE>link(OPINIONFAMILY_FRIENDLY) Familie</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_SWORD_OF_THE_GODS</zType>

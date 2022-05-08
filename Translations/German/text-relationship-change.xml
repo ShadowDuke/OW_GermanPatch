@@ -6,14 +6,6 @@
 		<de-DE/>
 	</Entry>
 	<Entry>
-		<zType>TEXT_RELATIONSHIP_LOVER_OF</zType>
-		<de-DE>Geliebete/r von</de-DE>
-	</Entry>
-	<Entry>
-		<zType>TEXT_RELATIONSHIP_LOVER_OF_VERB</zType>
-		<de-DE>Wird geliebte/r von</de-DE>
-	</Entry>
-	<Entry>
 		<zType>TEXT_RELATIONSHIP_CONSPIRING_WITH</zType>
 		<de-DE>Verschwören mit</de-DE>
 	</Entry>
@@ -30,12 +22,20 @@
 		<de-DE>Ist verliebt in</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_RELATIONSHIP_TERRIFIED_OF</zType>
-		<de-DE>Verängstigt von</de-DE>
+		<zType>TEXT_RELATIONSHIP_LOVER_OF</zType>
+		<de-DE>Geliebter von</de-DE>
 	</Entry>
 	<Entry>
-		<zType>TEXT_RELATIONSHIP_TERRIFIED_OF_VERB</zType>
-		<de-DE>Wird verängstigt von</de-DE>
+		<zType>TEXT_RELATIONSHIP_LOVER_OF_F</zType>
+		<de-DE>Geliebte von</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_LOVER_OF_VERB</zType>
+		<de-DE>Wird Geliebter von</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_LOVER_OF_VERB_F</zType>
+		<de-DE>Wird Geliebte von</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_RELATIONSHIP_ENDEARED_TO</zType>
@@ -44,6 +44,14 @@
 	<Entry>
 		<zType>TEXT_RELATIONSHIP_ENDEARED_TO_VERB</zType>
 		<de-DE>Wird geschmeichelt von</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_TERRIFIED_OF</zType>
+		<de-DE>Verängstigt von</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_TERRIFIED_OF_VERB</zType>
+		<de-DE>Wird verängstigt von</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_RELATIONSHIP_INTERCEDED_FOR</zType>
@@ -134,6 +142,51 @@
 		<de-DE>Beginnt Verschwörung gegen</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_RELATIONSHIP_PLOTTING_AGAINST_VERB_F</zType>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_INTERCEDED_FOR</zType>
+		<de-DE>Führsprache für</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_INTERCEDED_FOR_F</zType>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_INTERCEDED_FOR_VERB</zType>
+		<de-DE>Bekommt Führsprache für</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_INTERCEDED_FOR_VERB_F</zType>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_INFLUENCED_BY</zType>
+		<de-DE>Beeinflusst von</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_INFLUENCED_BY_F</zType>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_INFLUENCED_BY_VERB</zType>
+		<de-DE>Wird beeinflusst von</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_INFLUENCED_BY_VERB_F</zType>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_ASSASSINATED_BY</zType>
+		<de-DE>Ermordert von</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_ASSASSINATED_BY_F</zType>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_ASSASSINATED_BY_VERB</zType>
+		<de-DE>Wird ermordet von</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_RELATIONSHIP_ASSASSINATED_BY_VERB_F</zType>
+	</Entry>
+	<Entry>	
 		<zType>TEXT_RELATIONSHIP_MADE_HEIR_BY</zType>
 		<de-DE>Zum Erben ernannt von</de-DE>
 	</Entry>
@@ -147,7 +200,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_RELATIONSHIP_BYPASSED_BY_VERB</zType>
-		<de-DE>Wurde umgangen von</de-DE>
+		<de-DE>Wird umgangen von</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_RELATIONSHIP_DIVORCED_BY</zType>
@@ -155,7 +208,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_RELATIONSHIP_DIVORCED_BY_VERB</zType>
-		<de-DE>Wurde geschieden von</de-DE>
+		<de-DE>Wird geschieden von</de-DE>
 	</Entry>
 <!--
 	<Entry>

@@ -11,12 +11,24 @@
 		<de-DE>Siedler~einen Siedler~Siedler</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UNIT_SETTLER_F</zType>
+		<de-DE>Siedlerin~eine Siedlerin~Siedlernnen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UNIT_WORKER</zType>
 		<de-DE>Baumeister~einen Baumeister~Baumeister</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UNIT_WORKER_F</zType>
+		<de-DE>Baumeisterin~eine Baumeisterin~Baumeisterinnen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UNIT_SCOUT</zType>
 		<de-DE>Späher~einen Späher~Späher</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_SCOUT_F</zType>
+		<de-DE>Späherin~eine Späherin~Späherinnen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNIT_CARAVAN</zType>
@@ -27,6 +39,10 @@
 		<de-DE>{UNIT-RELIGION,1} Jünger~{UNIT-RELIGION,2} Jünger~{UNIT-RELIGION,1} Jünger</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UNIT_RELIGION_DISCIPLE_F</zType>
+		<de-DE>{UNIT-RELIGION,1} Jüngerin~{UNIT-RELIGION,2} Jüngerin~{UNIT-RELIGION,1} Jüngerinnen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UNIT_MILITIA</zType>
 		<de-DE>Miliz~eine Miliz~Milizen</de-DE>
 	</Entry>
@@ -35,24 +51,48 @@
 		<de-DE>Rekrut~einen Rekrut~Rekruten</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UNIT_CONSCRIPT_F</zType>
+		<de-DE>Rekrutin~eine Rekrutin~Rekrutinnen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UNIT_WARRIOR</zType>
 		<de-DE>Krieger~einen Krieger~Krieger</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_WARRIOR_F</zType>
+		<de-DE>Kriegerin~eine Kriegerin~Kriegerinnen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNIT_AXEMAN</zType>
 		<de-DE>Axtkämpfer~einen Axtkämpfer~Axtkämpfer</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UNIT_AXEMAN_F</zType>
+		<de-DE>Axtkämpferin~eine Axtkämpferin~Axtkämpferinnen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UNIT_SPEARMAN</zType>
 		<de-DE>Speerkämpfer~einen Speerkämpfer~Speerkämpfer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_SPEARMAN_F</zType>
+		<de-DE>Speerkämpferin~eine Speerkämpferin~Speerkämpferinnen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNIT_MACEMAN</zType>
 		<de-DE>Keulenkämpfer~einen Keulenkämpfer~Keulenkämpfer</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UNIT_MACEMAN_F</zType>
+		<de-DE>Keulenkämpferin~eine Keulenkämpferin~Keulenkämpferinnen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UNIT_SWORDSMAN</zType>
 		<de-DE>Schwertkämpfer~einen Schwertkämpfer~Schwertkämpfer</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_SWORDSMAN_F</zType>
+		<de-DE>Schwertkämpferin~eine Schwertkämpferin~Schwertkämpferinnen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNIT_PIKEMAN</zType>
@@ -63,16 +103,32 @@
 		<de-DE>Schleuderer~einen Schleuderer~Schleuderer</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UNIT_SLINGER_F</zType>
+		<de-DE>Schleudererin~eine Schleudererin~Schleudererinnen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UNIT_ARCHER</zType>
 		<de-DE>Bogenschütze~einen Bogenschütze~Bogenschützen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_ARCHER_F</zType>
+		<de-DE>Bogenschützin~eine Bogenschützin~Bogenschützinnen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNIT_LONGBOWMAN</zType>
 		<de-DE>Langbogenschütze~einen Langbogenschütze~Langbogenschützen</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UNIT_LONGBOWMAN_F</zType>
+		<de-DE>Langbogenschützin~eine Langbogenschützin~Langbogenschützinnen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UNIT_CROSSBOWMAN</zType>
-		<de-DE>Armbrustschütze~einen Armbrustschütze~Armbrustschützen</de-DE>
+		<de-DE>Armbrustschütze~eine Armbrustschütze~Armbrustschützen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_CROSSBOWMAN_F</zType>
+		<de-DE>Armbrustschützin~einen Armbrustschützin~Armbrustschützinnen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNIT_CHARIOT</zType>
@@ -83,6 +139,10 @@
 		<de-DE>Reiter~einen Reiter~Reitern</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UNIT_HORSEMAN_F</zType>
+		<de-DE>Reiterin~eine Reiterin~Reiterinnen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UNIT_CATAPHRACT</zType>
 		<de-DE>Kataphrakt~einen Kataphrakt~Kataphrakten</de-DE>
 	</Entry>
@@ -91,8 +151,16 @@
 		<de-DE>Berittener Bogenschütze~einen Berittener Bogenschütze~Berittene Bogenschützen</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UNIT_HORSE_ARCHER_F</zType>
+		<de-DE>Berittene Bogenschützin~eine Berittene Bogenschützin~Berittene Bogenschützinnen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UNIT_CAMEL_ARCHER</zType>
 		<de-DE>Kamelbogenschütze~einen Kamelbogenschütze~Kamelbogenschützen</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_CAMEL_ARCHER_F</zType>
+		<de-DE>Kamelbogenschützin~eine Kamelbogenschützin~Kamelbogenschützinnen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNIT_WAR_ELEPHANT</zType>
@@ -219,12 +287,20 @@
 		<de-DE>Kriegsherr~einen Kriegsherren~Kriegsherren</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UNIT_WARLORD_1_F</zType>
+		<de-DE>Kriegsherrin~eine Kriegsherrin~Kriegsherrinnen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UNIT_JAVELINEER_1</zType>
 		<de-DE>Speerwerfer~einen Speerwerfer~Speerwerfer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNIT_NOMAD_WARLORD_1</zType>
-		<de-DE>Nomaden Kriegsherr~einen Nomaden Kriegsherren~Nomaden Kriegsherr</de-DE>
+		<de-DE>Nomaden Kriegsherr~einen Nomaden Kriegsherren~Nomaden Kriegsherren</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_NOMAD_WARLORD_1_F</zType>
+		<de-DE>Nomaden Kriegsherrin~eine Nomaden Kriegsherrin~Nomaden Kriegsherrinnen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNIT_GAESATA_1</zType>
@@ -255,12 +331,20 @@
 		<de-DE>Elite Kriegsherr~einen Elite Kriegsherren~Elite Kriegsherren</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_UNIT_WARLORD_2_F</zType>
+		<de-DE>Elite Kriegsherrin~eine Elite Kriegsherrin~Elite Kriegsherrinnen</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_UNIT_JAVELINEER_2</zType>
 		<de-DE>Elite Speerwerfer~einen Elite Speerwerfer~Elite Speerwerfer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNIT_NOMAD_WARLORD_2</zType>
 		<de-DE>Elite Nomaden Kriegsherr~einen Elite Nomaden Kriegsherren~Elite Nomaden Kriegsherren</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_NOMAD_WARLORD_2_F</zType>
+		<de-DE>Elite Nomaden Kriegsherrin~eine Elite Nomaden Kriegsherrin~Elite Nomaden Kriegsherrinnen</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNIT_GAESATA_2</zType>

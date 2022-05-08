@@ -8510,7 +8510,7 @@ However, {CHARACTER-SHORT-1} would not wake in the morning, and seems to have di
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_DARK_ARTS</zType>
-		<de-DE><![CDATA[{CHARACTER-1} ist von deinem Erben, {CHARACTER-2} ziemlich beeindruck und möchte das  <masculine_CHARACTER-2>er<feminine>sie<end> die dunklen Küste der Spionage lernt.]]></de-DE>
+		<de-DE>{CHARACTER-1} ist von deinem Erben, {CHARACTER-2} ziemlich beeindruck und möchte das {G2:er:sie} die dunklen Künste der Spionage lernt.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_A_NEW_GENERAL</zType>

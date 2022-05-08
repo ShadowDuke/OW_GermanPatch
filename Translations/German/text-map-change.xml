@@ -35,7 +35,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_DEFAULT_RESOURCES_HELP</zType>
-		<de-DE>Use painted map's resources</de-DE>
+		<de-DE>Use the map's designed resource placement</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_RANDOM_RESOURCES</zType>
@@ -572,6 +572,10 @@
 	<Entry>
 		<zType>TEXT_MAP_OPTIONS_SINGLE_KING_OF_THE_HILL_HELP</zType>
 		<de-DE>Eine Ressourcen-Reiche Mitte anstatt von Wasser bei den Kanal-Kreuzungs-Gebieten</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_MAP_OPTIONS_SINGLE_GOOD_PLAYER_START_RESOURCES_HELP</zType>
+		<de-DE>All starting locations have access to important resources like horses or iron</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MAP_OPTION_ARCHIPELAGO_LANDMASS_SMALL</zType>

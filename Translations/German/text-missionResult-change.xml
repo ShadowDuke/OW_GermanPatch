@@ -183,11 +183,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_HIGH_SYNOD_SUCCESS_DESCRIPTION</zType>
-		<de-DE>Die hohe Kirchenversammlung organisiert von link(COUNCIL_AMBASSADOR) {CHARACTER-SUBJECT} hat unser Ansehen mit dem Geistlichen erhöht.</de-DE>
+		<de-DE>Die hohe Kirchenversammlung organisiert von {CHARACTER-SUBJECT} hat unser Ansehen mit dem Geistlichen erhöht.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_HIGH_SYNOD_FAILURE_DESCRIPTION</zType>
-		<de-DE>Die hohe Kirchenversammlung von link(COUNCIL_AMBASSADOR) {CHARACTER-SUBJECT} ist vorzeitig in Uneinigkeit geendet.</de-DE>
+		<de-DE>Die hohe Kirchenversammlung von {CHARACTER-SUBJECT} ist vorzeitig in Uneinigkeit geendet.</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_MISSIONRESULT_HIGH_SYNOD_EVENT_DESCRIPTION</zType>

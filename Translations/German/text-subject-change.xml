@@ -354,6 +354,10 @@
 		<de-DE>Kanzler</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_SUBJECT_CHANCELLOR_F</zType>
+		<de-DE>Kanzlerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_SUBJECT_SPYMASTER</zType>
 		<de-DE>Meisterspion</de-DE>
 	</Entry>
@@ -367,7 +371,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_STUDY_ANY</zType>
-		<de-DE>Schüler/in</de-DE>
+		<de-DE>Schüler</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECT_STUDY_ANY_F</zType>
+		<de-DE>Schülerin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_AWAY_FROM_COURT</zType>
@@ -442,8 +450,16 @@
 		<de-DE>Stadtbewohner</de-DE>
 	</Entry>
 	<Entry>
+		<zType>TEXT_SUBJECT_CHARACTER_URBAN_F</zType>
+		<de-DE>Stadtbewohnerin</de-DE>
+	</Entry>
+	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NOT_URBAN</zType>
 		<de-DE>Nicht Stadtbewohner</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECT_CHARACTER_NOT_URBAN_F</zType>
+		<de-DE>Nicht Stadtbewohnerin</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_SYLVAN</zType>
@@ -560,5 +576,16 @@
 	<Entry>
 		<zType>TEXT_SUBJECT_CHARACTER_NO_IMPRISONED_RECENTLY</zType>
 		<de-DE>Nicht link(TRAIT_IMPRISONED) vor Kurzem</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECT_CHARACTER_NO_IMPRISONED_RECENTLY_F</zType>
+		<de-DE>Nicht vor kurzem link(TRAIT_IMPRISONED)</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECT_CHARACTER_DEATHBED</zType>
+		<de-DE>Dem Tode nahe</de-DE>
+	</Entry>
+	<Entry>
+		<zType>TEXT_SUBJECT_CHARACTER_DEATHBED_F</zType>
 	</Entry>
 </Root>
